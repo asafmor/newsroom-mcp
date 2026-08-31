@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build and generated output
+dist/
+coverage/
+.mcp-use/
+
+# Local environment and data
+.env
+.env.*
+!.env.example
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# TypeScript incremental state
+*.tsbuildinfo
+
+**/.headroom*
+**/.serena/
+graphify-out/
+*.graphify-bak
