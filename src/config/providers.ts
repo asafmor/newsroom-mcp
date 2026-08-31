@@ -1,0 +1,77 @@
+import type { NewsroomConfig } from "../config.js";
+import { ContentProviderRegistry } from "../providers/content-provider-registry.js";
+import { GdeltContentProvider } from "../providers/gdelt/gdelt-content-provider.js";
+import { HackerNewsContentProvider } from "../providers/hacker-news/hacker-news-content-provider.js";
+import { RssContentProvider } from "../providers/rss/rss-content-provider.js";
+
+/**
+ * Curated AI-news RSS feeds. Each URL was hand-verified to serve real RSS/Atom
+ * XML — add more here as new sources are found; this list is data, not logic.
+ */
+const RSS_FEEDS = [
+  { id: "rss:openai", name: "OpenAI News", url: "https://openai.com/news/rss.xml" },
+  {
+    id: "rss:deepmind",
+    name: "Google DeepMind",
+    url: "https://deepmind.google/blog/rss.xml",
+  },
+  {
+    id: "rss:huggingface",
+    name: "Hugging Face Blog",
+    url: "https://huggingface.co/blog/feed.xml",
+  },
+  {
+    id: "rss:techcrunch-ai",
+    name: "TechCrunch AI",
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/",
+  },
+  {
+    id: "rss:venturebeat-ai",
+    name: "VentureBeat AI",
+    url: "https://venturebeat.com/category/ai/feed/",
+  },
+  {
+    id: "rss:mit-tech-review-ai",
+    name: "MIT Technology Review AI",
+    url: "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+  },
+  {
+    id: "rss:anthropic",
+    name: "Anthropic News",
+    url: "https://rsshub.bestblogs.dev/anthropic/news",
+  },
+  {
+    id: "rss:xai",
+    name: "xAI News",
+    url: "https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/spacex-ai-news.xml",
+  },
+] as const;
+
+/** Builds the registry of every configured provider for this deployment. */
+export function buildProviderRegistry(config: NewsroomConfig): ContentProviderRegistry {
+  const providers = [
+    ...RSS_FEEDS.map(
+      (feed) =>
+        new RssContentProvider({
+          id: feed.id,
+          name: feed.name,
+          url: feed.url,
+          fetchTimeoutMs: config.fetchTimeoutMs,
+        }),
+    ),
+    new HackerNewsContentProvider({
+      id: "hacker-news",
+      name: "Hacker News",
+      query: config.hnQuery,
+      fetchTimeoutMs: config.fetchTimeoutMs,
+    }),
+    new GdeltContentProvider({
+      id: "gdelt:ai",
+      name: "GDELT AI",
+      query: config.gdeltQuery,
+      fetchTimeoutMs: config.fetchTimeoutMs,
+    }),
+  ];
+
+  return new ContentProviderRegistry(providers);
+}

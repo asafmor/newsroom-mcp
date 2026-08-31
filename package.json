@@ -1,0 +1,48 @@
+{
+  "name": "newsroom-mcp",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "version": "1.0.0",
+  "description": "A private AI news curation MCP server built with mcp-use.",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "mcp-use",
+    "news"
+  ],
+  "scripts": {
+    "build": "mcp-use build",
+    "dev": "mcp-use dev",
+    "start": "mcp-use start",
+    "start:stdio": "tsx stdio.ts",
+    "typecheck": "mcp-use typecheck",
+    "lint": "eslint .",
+    "test": "vitest run --exclude test/live/**",
+    "test:live": "vitest run test/live",
+    "verify": "npm run lint && npm run test && npm run typecheck"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.0.0",
+    "dotenv": "^17.4.2",
+    "mcp-use": "2.3.4",
+    "pino": "^10.3.1",
+    "rss-parser": "^3.13.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@modelcontextprotocol/client": "2.0.0",
+    "@types/node": "^22.20.0",
+    "eslint": "^9.39.1",
+    "tsx": "4.23.13",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.49.0",
+    "vitest": "^4.0.15"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

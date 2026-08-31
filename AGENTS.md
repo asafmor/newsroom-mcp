@@ -72,7 +72,7 @@ npm run dev        # serve http://localhost:3000/mcp and the inspector
 npm run start:stdio # serve over stdio instead (a client spawns the process)
 npm run lint        # run ESLint
 npm run test         # run Vitest (unit + protocol, no network)
-npm run test:live    # opt-in live sanity tests (NEWSROOM_LIVE_TESTS=1)
+NEWSROOM_LIVE_TESTS=1 npm run test:live   # opt-in live sanity tests
 npm run typecheck    # run mcp-use typecheck
 npm run verify        # lint, test, and typecheck
 npm run build          # build with mcp-use
