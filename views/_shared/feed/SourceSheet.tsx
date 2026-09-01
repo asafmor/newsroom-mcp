@@ -97,7 +97,9 @@ export function SourceSheet({
         </div>
         <div className="sheet-body">
           <p className="sheet-section-label">Sources ({story.sources.length})</p>
-          {story.sources.map((s, i) => (
+          {[...story.sources]
+            .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+            .map((s, i) => (
             <a
               className="source-item"
               href={s.url}

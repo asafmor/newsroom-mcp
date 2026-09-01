@@ -10,7 +10,7 @@ back to brand-colored initials automatically, so partial coverage is fine.
 | huggingface       | Hugging Face Blog |
 | techcrunch        | TechCrunch AI |
 | venturebeat       | VentureBeat AI, VentureBeat |
-| mit-tech-review   | MIT Technology Review AI |
+| mit-tech-review   | MIT AI |
 | anthropic         | Anthropic News |
 | xai               | xAI News |
 | meta              | AI at Meta Blog |

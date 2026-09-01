@@ -18,7 +18,7 @@ const PROVIDER_BRANDS: Record<string, { slug: string; color: string }> = {
   "Hugging Face Blog": { slug: "huggingface", color: "FFD21E" },
   "TechCrunch AI": { slug: "techcrunch", color: "029F00" },
   "VentureBeat AI": { slug: "venturebeat", color: "ED2025" },
-  "MIT Technology Review AI": { slug: "mit-tech-review", color: "F90E1E" },
+  "MIT AI": { slug: "mit-tech-review", color: "F90E1E" },
   "Anthropic News": { slug: "anthropic", color: "191919" },
   "xAI News": { slug: "xai", color: "313131" },
   "AI at Meta Blog": { slug: "meta", color: "9844FF" },

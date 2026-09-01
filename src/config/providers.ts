@@ -35,7 +35,7 @@ const RSS_FEEDS = [
   },
   {
     id: "rss:mit-tech-review-ai",
-    name: "MIT Technology Review AI",
+    name: "MIT AI",
     url: "https://www.technologyreview.com/topic/artificial-intelligence/feed",
   },
   {

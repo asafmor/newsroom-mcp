@@ -96,7 +96,7 @@ Full details, including the `contribution` freshness rule, in
 ## Content sources
 
 - **RSS/Atom** — curated AI-news feeds (OpenAI, DeepMind, Hugging Face,
-  TechCrunch AI, VentureBeat AI, MIT Technology Review AI, Anthropic, xAI,
+  TechCrunch AI, VentureBeat AI, MIT AI, Anthropic, xAI,
   and more); see `src/config/providers.ts`.
 - **Hacker News** — via the Algolia search API, query configurable via
   `NEWSROOM_HN_QUERY`.
