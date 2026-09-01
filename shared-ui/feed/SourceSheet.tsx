@@ -1,21 +1,53 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import type { FeedStory } from "./types.js";
 import { earliestPublishedAt, initials, shortDate, shortTime } from "./formatters.js";
 
+// Matches --motion-base in feed.css — the sheet's own slide/fade transition
+// duration. ponytail: duration is duplicated here instead of read from CSS;
+// a shared constant module would be the fix if these ever drift apart.
+const EXIT_DURATION_MS = 230;
+
 export function SourceSheet({
   story,
+  open,
   onClose,
+  onExited,
   onOpenSource,
 }: {
   readonly story: FeedStory;
+  /** false starts/plays the close transition; the caller keeps this component mounted (via onExited) until it finishes. */
+  readonly open: boolean;
   readonly onClose: () => void;
+  /** Called once the close transition has finished — caller unmounts here, not on onClose. */
+  readonly onExited: () => void;
   /** Host-specific link handling: an MCP host bridge, or a plain new-tab navigation. */
   readonly onOpenSource: (url: string) => void;
 }) {
   const closeRef = useRef<HTMLButtonElement>(null);
+  // Mirrors `open`, but flips a frame late on entry so the "open" class is
+  // added *after* first paint — otherwise the sheet mounts already in its
+  // final position and the CSS transition never has a state change to animate.
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
+    if (!open) {
+      setVisible(false);
+      const timer = setTimeout(onExited, EXIT_DURATION_MS);
+      return () => {
+        clearTimeout(timer);
+      };
+    }
+    const raf = requestAnimationFrame(() => {
+      setVisible(true);
+    });
+    return () => {
+      cancelAnimationFrame(raf);
+    };
+  }, [open, onExited]);
+
+  useEffect(() => {
+    if (!open) return;
     closeRef.current?.focus({ preventScroll: true });
     function onKeyDown(e: KeyboardEvent) {
       if (e.key === "Escape") onClose();
@@ -24,12 +56,12 @@ export function SourceSheet({
     return () => {
       document.removeEventListener("keydown", onKeyDown);
     };
-  }, [onClose]);
+  }, [open, onClose]);
 
   return (
     <>
-      <div className="sheet-overlay open" onClick={onClose} />
-      <section className="source-sheet open" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+      <div className={`sheet-overlay${visible ? " open" : ""}`} onClick={onClose} />
+      <section className={`source-sheet${visible ? " open" : ""}`} role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
         <div className="sheet-handle" aria-hidden="true" />
         <div className="sheet-head">
           <div className="sheet-head-row">
@@ -46,13 +78,17 @@ export function SourceSheet({
             <div>
               <div className="sheet-stat-label">First seen</div>
               <div className="sheet-stat-value">
-                {shortDate(earliestPublishedAt(story))} · {shortTime(earliestPublishedAt(story))}
+                {shortDate(earliestPublishedAt(story))}
+                <span className="stat-sep">·</span>
+                {shortTime(earliestPublishedAt(story))}
               </div>
             </div>
             <div>
               <div className="sheet-stat-label">Updated</div>
               <div className="sheet-stat-value">
-                {shortDate(story.lastMeaningfulUpdateAt)} · {shortTime(story.lastMeaningfulUpdateAt)}
+                {shortDate(story.lastMeaningfulUpdateAt)}
+                <span className="stat-sep">·</span>
+                {shortTime(story.lastMeaningfulUpdateAt)}
               </div>
             </div>
           </div>

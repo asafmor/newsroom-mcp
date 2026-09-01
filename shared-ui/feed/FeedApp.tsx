@@ -85,6 +85,10 @@ function Feed({
 }) {
   const [sortMode, setSortMode] = useState<SortMode>("top");
   const [selected, setSelected] = useState<FeedStory | undefined>(undefined);
+  // Stays set through the sheet's close transition so it doesn't unmount
+  // (and lose its content) before the animation finishes — cleared by
+  // SourceSheet's onExited once that transition completes.
+  const [renderedStory, setRenderedStory] = useState<FeedStory | undefined>(undefined);
   const [providerFilter, setProviderFilter] = useState("all");
   const [search, setSearch] = useState("");
   const scrollAreaRef = useRef<HTMLDivElement>(null);
@@ -113,6 +117,7 @@ function Feed({
   function openStory(story: FeedStory, trigger: HTMLElement) {
     lastFocused.current = trigger;
     setSelected(story);
+    setRenderedStory(story);
   }
   function closeSheet() {
     setSelected(undefined);
@@ -152,7 +157,15 @@ function Feed({
         </main>
       </div>
 
-      {selected === undefined ? null : <SourceSheet story={selected} onClose={closeSheet} onOpenSource={onOpenSource} />}
+      {renderedStory === undefined ? null : (
+        <SourceSheet
+          story={renderedStory}
+          open={selected !== undefined}
+          onClose={closeSheet}
+          onExited={() => { setRenderedStory(undefined); }}
+          onOpenSource={onOpenSource}
+        />
+      )}
     </div>
   );
 }

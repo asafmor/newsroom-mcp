@@ -127,7 +127,7 @@ body { margin: 0; }
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
-  padding: var(--space-4) var(--container-gutter-phone) var(--space-3);
+  padding: var(--space-2) var(--container-gutter-phone) var(--space-2);
 }
 .brand-row { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
 .brand { display: flex; align-items: center; gap: var(--space-2); min-width: 0; }
@@ -164,6 +164,7 @@ body { margin: 0; }
   font-size: var(--text-xs); color: var(--fg);
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md);
   padding: 6px var(--space-2);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 
 /* Small and secondary on purpose — sort is a minor refinement, not a primary action.
@@ -280,6 +281,7 @@ body { margin: 0; }
 .sheet-stats { display: flex; gap: var(--space-6); margin-top: var(--space-3); }
 .sheet-stat-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
 .sheet-stat-value { font-family: var(--font-mono); font-size: var(--text-sm); font-weight: 600; color: var(--fg); margin-top: 2px; }
+.stat-sep { margin: 0 3px; color: var(--muted); font-weight: 400; }
 
 .sheet-body { overflow-y: auto; padding: var(--space-2) var(--space-4) var(--space-6); }
 .sheet-section-label {
