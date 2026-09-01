@@ -79,7 +79,7 @@
   --elev-raised: 0 20px 52px rgba(0, 0, 0, 0.45);
 }
 
-html, body { margin: 0; background: var(--surface-warm); }
+html, body { margin: 0; background: var(--bg); }
 
 .newsroomFeed *,
 .newsroomFeed *::before,
@@ -143,7 +143,7 @@ html, body { margin: 0; background: var(--surface-warm); }
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
-  padding: var(--space-2);
+  padding: var(--space-4) var(--space-2) var(--space-2);
 }
 /* Title + subtitle stack on the left (.brand), sort toggle on the right —
    both sides of one row, so the toggle sits centered against the pair. */
@@ -169,6 +169,7 @@ html, body { margin: 0; background: var(--surface-warm); }
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md);
   padding: 6px var(--space-3);
 }
+.search-input::placeholder { color: var(--muted); }
 .provider-select {
   max-width: 40%; flex-shrink: 0;
   font-size: var(--text-xs); color: var(--fg);
@@ -187,7 +188,7 @@ html, body { margin: 0; background: var(--surface-warm); }
 
 .theme-toggle {
   display: grid; place-items: center;
-  width: 22px; height: 22px; border-radius: 50%;
+  width: 22px; height: 22px; padding: 0; border-radius: 50%;
   color: var(--muted);
   transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
 }
@@ -201,7 +202,7 @@ html, body { margin: 0; background: var(--surface-warm); }
   background: var(--border-soft); border-radius: var(--radius-pill); padding: 2px;
 }
 .sort-tab {
-  padding: 1px 6px; border-radius: var(--radius-pill);
+  padding: 1px 14px; border-radius: var(--radius-pill);
   font-size: 8px; font-weight: 600; color: var(--muted);
   transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
 }
@@ -281,7 +282,7 @@ html, body { margin: 0; background: var(--surface-warm); }
 .sheet-overlay {
   position: fixed; inset: 0; z-index: 30;
   background: var(--scrim);
-  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
   opacity: 0; pointer-events: none;
   transition: opacity var(--motion-base) var(--ease-standard);
 }

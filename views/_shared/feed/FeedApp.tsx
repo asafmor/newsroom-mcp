@@ -16,11 +16,11 @@ const SORT_STORAGE_KEY = "newsroom-sort-mode";
 function getInitialTheme(): Theme {
   try {
     const stored = localStorage.getItem(THEME_STORAGE_KEY);
-    if (stored === "light" || stored === "dark") return stored;
+    if (stored === "light" || stored === "dark" || stored === "auto") return stored;
   } catch {
     // ignore
   }
-  return matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  return "auto";
 }
 
 function getInitialSortMode(): SortMode {
@@ -58,6 +58,16 @@ export function FeedApp({
 }) {
   const rootClassName = variant === "mcp" ? "newsroomFeed newsroomFeed--mcp" : "newsroomFeed";
   const [theme, setTheme] = useState<Theme>(getInitialTheme);
+  // "auto" tracks the OS/browser preference live — re-render on change so
+  // toggling dark mode at the OS level flips the feed without a reload.
+  const [systemDark, setSystemDark] = useState(() => matchMedia("(prefers-color-scheme: dark)").matches);
+  useEffect(() => {
+    const mq = matchMedia("(prefers-color-scheme: dark)");
+    const onChange = () => { setSystemDark(mq.matches); };
+    mq.addEventListener("change", onChange);
+    return () => { mq.removeEventListener("change", onChange); };
+  }, []);
+  const resolvedTheme: "light" | "dark" = theme === "auto" ? (systemDark ? "dark" : "light") : theme;
 
   useEffect(() => {
     try {
@@ -65,11 +75,15 @@ export function FeedApp({
     } catch {
       // ignore — see getInitialTheme
     }
-  }, [theme]);
+    // data-theme on <main> only themes descendants — <html>/<body> sit
+    // above it in the tree, so the page's own background (behind/around
+    // the app-shell) needs the attribute mirrored up there too.
+    document.documentElement.dataset.theme = resolvedTheme;
+  }, [theme, resolvedTheme]);
 
   if (state.status === "error") {
     return (
-      <main className={rootClassName} data-theme={theme} lang={locale}>
+      <main className={rootClassName} data-theme={resolvedTheme} lang={locale}>
         <EmptyState title="Could not load the feed" message={state.message} tone="error" />
       </main>
     );
@@ -77,11 +91,10 @@ export function FeedApp({
 
   if (state.status === "pending") {
     return (
-      <main className={rootClassName} data-theme={theme} lang={locale}>
+      <main className={rootClassName} data-theme={resolvedTheme} lang={locale}>
         <div className="app-shell">
           <FeedHeader
             generatedAt={undefined}
-            storyCount={undefined}
             sortMode="top"
             onSortChange={() => undefined}
             theme={theme}
@@ -103,7 +116,7 @@ export function FeedApp({
   }
 
   return (
-    <main className={rootClassName} data-theme={theme} lang={locale}>
+    <main className={rootClassName} data-theme={resolvedTheme} lang={locale}>
       <Feed
         generatedAt={state.generatedAt}
         stories={state.stories}
@@ -182,7 +195,6 @@ function Feed({
       <div className="scroll-area" ref={scrollAreaRef}>
         <FeedHeader
           generatedAt={generatedAt}
-          storyCount={sorted.length}
           sortMode={sortMode}
           onSortChange={(mode) => {
             setSortMode(mode);

@@ -19,4 +19,4 @@ export interface FeedStory {
 
 export type SortMode = "top" | "latest";
 
-export type Theme = "light" | "dark";
+export type Theme = "light" | "dark" | "auto";
