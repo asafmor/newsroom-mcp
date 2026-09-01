@@ -27,7 +27,7 @@ const ONE_HN_HIT = {
 
 /**
  * Every provider's fetchNew() hits global fetch; stub it by URL shape so
- * fetch-new-items exercises real provider/repository code (8 RSS feeds + HN
+ * fetch-new-items exercises real provider/repository code (12 RSS feeds + HN
  * + GDELT) without any real network traffic. Each RSS feed has a distinct
  * providerId, so the identical fixture body yields one item per feed, not a
  * dedup collision.
@@ -86,6 +86,16 @@ describe("newsroom-mcp server", () => {
     stubProviderFetch();
 
     server = (await import("../index.js")).default;
+    // The CLI primes real Vite-built Views in development and production. This
+    // protocol test imports the server directly, so a minimal inline manifest
+    // exercises the same MCP resource binding without starting a browser build.
+    server.__primeViews({
+      "get-feed": {
+        kind: "inline",
+        js: "export {};",
+        css: "",
+      },
+    });
     const { url } = await server.listen(0, { host: "127.0.0.1" });
     const transport = new StreamableHTTPClientTransport(new URL(url));
 
@@ -120,7 +130,7 @@ describe("newsroom-mcp server", () => {
   });
 
   it("runs the full ingestion → clustering → feed lifecycle", async () => {
-    // 8 RSS feeds + Hacker News each yield one item; GDELT yields none.
+    // 12 RSS feeds + Hacker News each yield one item; GDELT yields none.
     const fetched = (await client?.callTool({
       name: "fetch-new-items",
       arguments: {},
@@ -128,18 +138,18 @@ describe("newsroom-mcp server", () => {
 
     expect(fetched.isError).toBeFalsy();
     expect(fetched.structuredContent).toMatchObject({
-      providersProcessed: 10,
-      itemsFetched: 9,
-      itemsInserted: 9,
+      providersProcessed: 14,
+      itemsFetched: 13,
+      itemsInserted: 13,
       duplicates: 0,
     });
 
     const pending = (await client?.callTool({
       name: "get-unprocessed-items",
-      arguments: { limit: 10 },
+      arguments: { limit: 20 },
     })) as ToolTextResult & { structuredContent: { items: { id: string }[] } };
 
-    expect(pending.structuredContent.items).toHaveLength(9);
+    expect(pending.structuredContent.items).toHaveLength(13);
     const [firstItem, secondItem, ...restItems] = pending.structuredContent.items;
 
     const created = (await client?.callTool({

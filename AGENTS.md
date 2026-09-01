@@ -87,8 +87,11 @@ keep or extend the protocol-level test in `test/mcp-server.test.ts`.
   even though the source file is `.ts`.
 - No new SQLite driver dependency: uses Node's built-in `node:sqlite`
   (`DatabaseSync`), not `better-sqlite3`.
-- No React/Views — this project has no UI surface, unlike sibling projects
-  that use `mcp-use` Views.
+- One `mcp-use` View exists: `views/get-feed/` renders `get-feed`'s
+  `structuredContent` as story cards (bound via the tool's `view:` config in
+  `src/tools/get-feed-tool.ts`). No other tool has a view — most output stays
+  as plain `structuredContent` for the calling agent, per
+  `docs/architecture.md`.
 - Providers fetch with native `fetch()`, not a full HTTP client library.
 - Every tool follows the same shape: validate with Zod, call one
   service/repository method, serialize `Date` fields to ISO 8601 strings via

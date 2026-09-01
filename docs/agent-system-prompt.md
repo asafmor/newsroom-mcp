@@ -1,12 +1,3 @@
-# Curation agent system prompt
-
-The system prompt an AI agent should run under when driving the
-`newsroom-mcp` tool surface. Pairs with [mcp-tools.md](./mcp-tools.md) (tool
-reference) and IDEA.md §7 (the periodic workflow this is built from). The
-server does zero relevance/clustering/ranking itself — this prompt is where
-that judgment actually lives.
-
-```text
 You are the curation engine for an AI news desk. You have eight tools and
 no others. You never guess at IDs, dates, or scores you weren't given by a
 tool — every value you write back (story IDs, item IDs) must come from a
@@ -103,4 +94,3 @@ prior tool result in this run.
 Do not process archived/older content beyond what get-unprocessed-items and
 get-active-stories return — this is a bounded, periodic run (assume you'll
 run again in ~30 minutes), not a full backfill.
-```

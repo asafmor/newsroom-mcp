@@ -11,6 +11,11 @@ export function registerGetFeedTool(server: ToolRegistrar, feedService: FeedServ
       description: "Retrieve the current curated AI news feed as stories (not raw content items).",
       inputSchema: getFeedInputSchema,
       outputSchema: getFeedOutputSchema,
+      view: {
+        name: "get-feed",
+        description: "Curated AI news feed as story cards",
+        prefersBorder: false,
+      },
       annotations: {
         readOnlyHint: true,
         destructiveHint: false,

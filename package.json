@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "mcp-use build",
-    "dev": "mcp-use dev",
+    "dev": "mcp-use dev --views-dir views",
     "start": "mcp-use start",
     "start:stdio": "tsx stdio.ts",
     "typecheck": "mcp-use typecheck",
@@ -29,6 +29,8 @@
     "dotenv": "^17.4.2",
     "mcp-use": "2.3.4",
     "pino": "^10.3.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "rss-parser": "^3.13.0",
     "zod": "^4.4.3"
   },
@@ -36,6 +38,8 @@
     "@eslint/js": "^9.39.1",
     "@modelcontextprotocol/client": "2.0.0",
     "@types/node": "^22.20.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
     "eslint": "^9.39.1",
     "tsx": "4.23.13",
     "typescript": "^5.9.3",

@@ -9,7 +9,11 @@ import { RssContentProvider } from "../providers/rss/rss-content-provider.js";
  * XML — add more here as new sources are found; this list is data, not logic.
  */
 const RSS_FEEDS = [
-  { id: "rss:openai", name: "OpenAI News", url: "https://openai.com/news/rss.xml" },
+  {
+    id: "rss:openai",
+    name: "OpenAI News",
+    url: "https://openai.com/news/rss.xml"
+  },
   {
     id: "rss:deepmind",
     name: "Google DeepMind",
@@ -38,12 +42,32 @@ const RSS_FEEDS = [
   {
     id: "rss:anthropic",
     name: "Anthropic News",
-    url: "https://rsshub.bestblogs.dev/anthropic/news",
+    url: "https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/anthropic.xml",
   },
   {
     id: "rss:xai",
     name: "xAI News",
     url: "https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/spacex-ai-news.xml",
+  },
+  {
+    id: "rss:meta-ai",
+    name: "AI at Meta Blog",
+    url: "https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/meta-ai.xml",
+  },
+  {
+    id: "rss:claude-blog",
+    name: "Claude Blog",
+    url: "https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude.xml",
+  },
+  {
+    id: "rss:cursor-blog",
+    name: "Cursor Blog",
+    url: "https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/cursor-blog.xml",
+  },
+  {
+    id: "rss:cloudflare",
+    name: "Cloudflare Blog",
+    url: "https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/cloudflare-com.xml",
   },
 ] as const;
 

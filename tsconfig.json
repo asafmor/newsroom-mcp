@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     "target": "ES2024",
+    "jsx": "react-jsx",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "lib": ["ES2024"],
+    "lib": ["ES2024", "DOM", "DOM.Iterable"],
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -11,6 +12,14 @@
     "noEmit": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["index.ts", "stdio.ts", "mcp-env.d.ts", "src/**/*", "test/**/*", "vitest.config.ts"],
+  "include": [
+    "index.ts",
+    "stdio.ts",
+    "mcp-env.d.ts",
+    "src/**/*",
+    "test/**/*",
+    "views/**/*",
+    "vitest.config.ts"
+  ],
   "exclude": ["node_modules", "dist"]
 }

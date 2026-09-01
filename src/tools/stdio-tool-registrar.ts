@@ -1,5 +1,12 @@
 import type { McpServer } from "@modelcontextprotocol/server";
-import type { InferToolInput, InferToolOutput, ToolCallback, ToolDefinition } from "mcp-use";
+import type {
+  InferToolInput,
+  InferToolName,
+  InferToolOutput,
+  ToolCallback,
+  ToolDefinition,
+  ToolRef,
+} from "mcp-use";
 
 import type { ToolRegistrar } from "./tool-registrar.js";
 
@@ -16,7 +23,7 @@ export class StdioToolRegistrar implements ToolRegistrar {
   tool<const T extends ToolDefinition>(
     definition: T,
     callback: ToolCallback<InferToolInput<T>, InferToolOutput<T>>,
-  ): unknown {
+  ): ToolRef<InferToolName<T>, InferToolInput<T>, InferToolOutput<T>> {
     const { name, ...config } = definition;
 
     // `registerTool`'s two overloads (StandardSchemaWithJSON vs. legacy
@@ -31,6 +38,10 @@ export class StdioToolRegistrar implements ToolRegistrar {
       callback: ToolCallback<InferToolInput<T>, InferToolOutput<T>>,
     ) => unknown;
 
-    return registerTool(name, config, callback);
+    registerTool(name, config, callback);
+    // The stdio SDK's registered-tool handle carries no phantom view types;
+    // `name` is the only real runtime field `ToolRef` promises, so this
+    // matches the interface's HTTP-side contract without inventing one.
+    return { name } as ToolRef<InferToolName<T>, InferToolInput<T>, InferToolOutput<T>>;
   }
 }
