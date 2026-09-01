@@ -191,15 +191,16 @@ html, body { margin: 0; background: var(--bg); }
   background-size: 14px;
 }
 
-/* Header-right cluster: theme toggle + sort toggle, top-aligned against the brand. */
-.header-controls { display: flex; align-items: center; gap: var(--space-2); flex-shrink: 0; }
+/* Header-right cluster: theme toggle + sort toggle, top-aligned against the brand.
+   --control-h is shared by both so the round toggle button and the pill group
+   line up at the same height — align-self: stretch + aspect-ratio looked right
+   in theory but flex resolves a stretched item's own width before its stretched
+   height is known, so the circle never actually got its height back as width. */
+.header-controls { display: flex; align-items: center; gap: var(--space-3); flex-shrink: 0; --control-h: 32px; }
 
 .theme-toggle {
   display: grid; place-items: center;
-  /* Match the sort-tabs group's height exactly instead of a guessed px
-     value — stretch to the row's cross size (set by .sort-tabs' content)
-     and stay circular via aspect-ratio. */
-  align-self: stretch; aspect-ratio: 1; padding: 0; border-radius: 50%;
+  width: var(--control-h); height: var(--control-h); padding: 0; border-radius: 50%;
   color: var(--muted);
   transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
 }
@@ -209,7 +210,8 @@ html, body { margin: 0; background: var(--bg); }
 /* Small and secondary on purpose — sort is a minor refinement, not a primary action.
    Lives in meta-row now, alongside the story count. */
 .sort-tabs {
-  display: inline-flex; gap: 2px; flex-shrink: 0;
+  display: inline-flex; align-items: center; gap: 2px; flex-shrink: 0;
+  height: var(--control-h); box-sizing: border-box;
   background: var(--border-soft); border-radius: var(--radius-pill); padding: 2px;
 }
 .sort-tab {
