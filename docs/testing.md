@@ -38,7 +38,7 @@ the code compiles against a mock.
 
 A single flaky provider must not fail the suite: `IngestionService` catches
 per-provider errors and continues (see `docs/architecture.md`), so the live
-test asserts `providersProcessed >= 7` (not `=== 8`) and `itemsFetched > 0`.
+test asserts `providersProcessed >= 19` (not `=== 21`) and `itemsFetched > 0`.
 GDELT connectivity has been observed to fail intermittently from some
 sandboxed network environments (`ECONNRESET`/connect timeout) while
 RSS/Hacker News succeed — this is an environment limitation, not a code

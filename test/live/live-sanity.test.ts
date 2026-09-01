@@ -85,6 +85,17 @@ describe.skipIf(!config.liveTests)("newsroom-mcp live sanity", () => {
       process.env.NEWSROOM_DB_PATH = ":memory:";
 
       server = (await import("../../index.js")).default;
+      // Same minimal inline manifest as the protocol test — this test drives
+      // the real server over HTTP, and get-feed is bound to a view, so
+      // mounting fails without a primed manifest even though we don't
+      // inspect the view's own output here.
+      server.__primeViews({
+        "get-feed": {
+          kind: "inline",
+          js: "export {};",
+          css: "",
+        },
+      });
       const { url } = await server.listen(0, { host: "127.0.0.1" });
       const transport = new StreamableHTTPClientTransport(new URL(url));
 
@@ -122,8 +133,8 @@ describe.skipIf(!config.liveTests)("newsroom-mcp live sanity", () => {
         // GDELT provider test above, which is intentionally strict) must
         // not sink the whole poll; IngestionService is built to tolerate
         // that, so this end-to-end assertion mirrors real operation.
-        expect(ingestion?.providers.length).toBe(10);
-        expect(ingestion?.providersProcessed).toBeGreaterThanOrEqual(9);
+        expect(ingestion?.providers.length).toBe(21);
+        expect(ingestion?.providersProcessed).toBeGreaterThanOrEqual(19);
         expect(ingestion?.itemsFetched).toBeGreaterThan(0);
         expect(ingestion?.itemsInserted).toBeGreaterThan(0);
 

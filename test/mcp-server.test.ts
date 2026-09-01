@@ -27,7 +27,7 @@ const ONE_HN_HIT = {
 
 /**
  * Every provider's fetchNew() hits global fetch; stub it by URL shape so
- * fetch-new-items exercises real provider/repository code (12 RSS feeds + HN
+ * fetch-new-items exercises real provider/repository code (19 RSS feeds + HN
  * + GDELT) without any real network traffic. Each RSS feed has a distinct
  * providerId, so the identical fixture body yields one item per feed, not a
  * dedup collision.
@@ -60,6 +60,12 @@ function stubProviderFetch() {
         "technologyreview.com",
         "rsshub.bestblogs.dev",
         "raw.githubusercontent.com",
+        "wired.com",
+        "arstechnica.com",
+        "cnet.com",
+        "gizmodo.com",
+        "mashable.com",
+        "engadget.com",
       ].some((host) => url.includes(host));
 
       if (isRssProviderUrl) {
@@ -130,7 +136,7 @@ describe("newsroom-mcp server", () => {
   });
 
   it("runs the full ingestion → clustering → feed lifecycle", async () => {
-    // 12 RSS feeds + Hacker News each yield one item; GDELT yields none.
+    // 19 RSS feeds + Hacker News each yield one item; GDELT yields none.
     const fetched = (await client?.callTool({
       name: "fetch-new-items",
       arguments: {},
@@ -138,9 +144,9 @@ describe("newsroom-mcp server", () => {
 
     expect(fetched.isError).toBeFalsy();
     expect(fetched.structuredContent).toMatchObject({
-      providersProcessed: 14,
-      itemsFetched: 13,
-      itemsInserted: 13,
+      providersProcessed: 21,
+      itemsFetched: 20,
+      itemsInserted: 20,
       duplicates: 0,
     });
 
@@ -149,7 +155,7 @@ describe("newsroom-mcp server", () => {
       arguments: { limit: 20 },
     })) as ToolTextResult & { structuredContent: { items: { id: string }[] } };
 
-    expect(pending.structuredContent.items).toHaveLength(13);
+    expect(pending.structuredContent.items).toHaveLength(20);
     const [firstItem, secondItem, ...restItems] = pending.structuredContent.items;
 
     const created = (await client?.callTool({

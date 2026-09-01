@@ -69,6 +69,41 @@ const RSS_FEEDS = [
     name: "Cloudflare Blog",
     url: "https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/cloudflare-com.xml",
   },
+  {
+    id: "rss:wired-ai",
+    name: "Wired AI",
+    url: "https://www.wired.com/feed/tag/ai/latest/rss",
+  },
+  {
+    id: "rss:arstechnica",
+    name: "Ars Technica",
+    url: "https://feeds.arstechnica.com/arstechnica/technology-lab",
+  },
+  {
+    id: "rss:cnet-ai",
+    name: "CNET AI",
+    url: "https://www.cnet.com/rss/tech/software-and-services/ai/",
+  },
+  {
+    id: "rss:gizmodo-ai",
+    name: "Gizmodo AI",
+    url: "https://gizmodo.com/tech/artificial-intelligence/feed",
+  },
+  {
+    id: "rss:mashable-ai",
+    name: "Mashable AI",
+    url: "https://in.mashable.com/artificial-intelligence.xml",
+  },
+  {
+    id: "rss:engadget-ai",
+    name: "Engadget AI",
+    url: "https://www.engadget.com/category/ai/feed/",
+  },
+  {
+    id: "rss:venturebeat",
+    name: "VentureBeat",
+    url: "https://venturebeat.com/feed",
+  },
 ] as const;
 
 /** Builds the registry of every configured provider for this deployment. */
