@@ -4,6 +4,9 @@
 set -euo pipefail
 
 SRC_FILE="${1:?Usage: publish-feed.sh <path-to-get-feed-output.json>}"
+node -e "JSON.parse(require('fs').readFileSync(process.argv[1], 'utf8'))" "$SRC_FILE" \
+  || { echo "$SRC_FILE is not valid JSON, refusing to publish" >&2; exit 1; }
+
 REPO_DIR="$(git rev-parse --show-toplevel)"
 WORKTREE_DIR="$(mktemp -d)"
 
