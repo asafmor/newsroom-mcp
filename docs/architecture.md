@@ -5,7 +5,7 @@ content → AI-curated stories → a read-only feed. Each layer only talks to th
 one below it.
 
 ```
-ContentProvider (RSS / Hacker News / GDELT)
+ContentProvider (RSS / Hacker News)
         ↓ ContentItem
 IngestionService → ContentItemRepository, ProviderStateRepository
         ↓ StoredContentItem (SQLite)

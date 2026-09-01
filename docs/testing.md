@@ -32,20 +32,17 @@ active stories → read the feed → mark an item processed → error cases
 ## 3. Live sanity tests (`test/live/`, `npm run test:live`)
 
 Opt-in, gated by `NEWSROOM_LIVE_TESTS=1` (`describe.skipIf`). No mocks at
-all — hits the real RSS/Hacker News/GDELT APIs through the real MCP tool
+all — hits the real RSS/Hacker News APIs through the real MCP tool
 surface. Verifies the happy path actually works end to end, not just that
 the code compiles against a mock.
 
 A single flaky provider must not fail the suite: `IngestionService` catches
 per-provider errors and continues (see `docs/architecture.md`), so the live
-test asserts `providersProcessed >= 19` (not `=== 21`) and `itemsFetched > 0`.
-GDELT connectivity has been observed to fail intermittently from some
-sandboxed network environments (`ECONNRESET`/connect timeout) while
-RSS/Hacker News succeed — this is an environment limitation, not a code
-bug, and the assertions are written to tolerate it.
+test asserts `providersProcessed >= 19` (not `=== <total>`) and
+`itemsFetched > 0` rather than requiring every provider to succeed.
 
 ```bash
 npm run test        # unit + protocol, no network
-NEWSROOM_LIVE_TESTS=1 npm run test:live   # + real RSS/HN/GDELT + real MCP tool calls
+NEWSROOM_LIVE_TESTS=1 npm run test:live   # + real RSS/HN + real MCP tool calls
 npm run verify       # lint + test + typecheck
 ```

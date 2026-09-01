@@ -1,6 +1,5 @@
 import type { NewsroomConfig } from "../config.js";
 import { ContentProviderRegistry } from "../providers/content-provider-registry.js";
-import { GdeltContentProvider } from "../providers/gdelt/gdelt-content-provider.js";
 import { HackerNewsContentProvider } from "../providers/hacker-news/hacker-news-content-provider.js";
 import { RssContentProvider } from "../providers/rss/rss-content-provider.js";
 
@@ -104,6 +103,11 @@ const RSS_FEEDS = [
     name: "VentureBeat",
     url: "https://venturebeat.com/feed",
   },
+  {
+    id: "rss:geeky-gadgets-ai",
+    name: "Geeky Gadgets AI",
+    url: "https://www.geeky-gadgets.com/category/artificial-intelligence/feed/",
+  },
 ] as const;
 
 /** Builds the registry of every configured provider for this deployment. */
@@ -122,12 +126,6 @@ export function buildProviderRegistry(config: NewsroomConfig): ContentProviderRe
       id: "hacker-news",
       name: "Hacker News",
       query: config.hnQuery,
-      fetchTimeoutMs: config.fetchTimeoutMs,
-    }),
-    new GdeltContentProvider({
-      id: "gdelt:ai",
-      name: "GDELT AI",
-      query: config.gdeltQuery,
       fetchTimeoutMs: config.fetchTimeoutMs,
     }),
   ];

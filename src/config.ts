@@ -5,15 +5,12 @@ loadDotenv({ quiet: true });
 const DEFAULT_DB_PATH = "data/newsroom.db";
 const DEFAULT_LOG_LEVEL = "info";
 const DEFAULT_HN_QUERY = 'AI OR "artificial intelligence" OR LLM OR "machine learning"';
-const DEFAULT_GDELT_QUERY =
-  '"artificial intelligence" OR "large language model" OR OpenAI OR Anthropic OR DeepMind';
 const DEFAULT_FETCH_TIMEOUT_MS = 20_000;
 
 export interface NewsroomConfig {
   readonly dbPath: string;
   readonly logLevel: string;
   readonly hnQuery: string;
-  readonly gdeltQuery: string;
   readonly fetchTimeoutMs: number;
   readonly liveTests: boolean;
 }
@@ -23,7 +20,6 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): NewsroomConfig
     dbPath: emptyToUndefined(env.NEWSROOM_DB_PATH) ?? DEFAULT_DB_PATH,
     logLevel: emptyToUndefined(env.NEWSROOM_LOG_LEVEL) ?? DEFAULT_LOG_LEVEL,
     hnQuery: emptyToUndefined(env.NEWSROOM_HN_QUERY) ?? DEFAULT_HN_QUERY,
-    gdeltQuery: emptyToUndefined(env.NEWSROOM_GDELT_QUERY) ?? DEFAULT_GDELT_QUERY,
     fetchTimeoutMs: parsePositiveInt(
       "NEWSROOM_FETCH_TIMEOUT_MS",
       env.NEWSROOM_FETCH_TIMEOUT_MS,

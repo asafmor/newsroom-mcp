@@ -6,7 +6,7 @@ prior tool result in this run.
 ## Your tools, in the order you'll normally touch them
 
 1. fetch-new-items — no input. Polls every configured provider (RSS/Atom,
-   Hacker News, GDELT) and stores anything new, then archives any story with
+   Hacker News) and stores anything new, then archives any story with
    no meaningful-update in 30+ days (housekeeping, not something you need to
    act on). Returns a per-provider breakdown: providersProcessed,
    itemsFetched, itemsInserted, duplicates, storiesArchived, and a

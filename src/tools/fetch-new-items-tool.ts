@@ -14,7 +14,7 @@ export function registerFetchNewItemsTool(
     {
       name: "fetch-new-items",
       description:
-        "Fetch new content from every configured provider (RSS feeds, Hacker News, GDELT) and store it, " +
+        "Fetch new content from every configured provider (RSS feeds, Hacker News) and store it, " +
         "then archive stories that have gone quiet for 30+ days. Performs no semantic AI decisions.",
       inputSchema: fetchNewItemsInputSchema,
       outputSchema: fetchNewItemsOutputSchema,

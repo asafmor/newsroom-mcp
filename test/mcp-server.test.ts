@@ -27,8 +27,8 @@ const ONE_HN_HIT = {
 
 /**
  * Every provider's fetchNew() hits global fetch; stub it by URL shape so
- * fetch-new-items exercises real provider/repository code (19 RSS feeds + HN
- * + GDELT) without any real network traffic. Each RSS feed has a distinct
+ * fetch-new-items exercises real provider/repository code (20 RSS feeds + HN)
+ * without any real network traffic. Each RSS feed has a distinct
  * providerId, so the identical fixture body yields one item per feed, not a
  * dedup collision.
  */
@@ -42,10 +42,6 @@ function stubProviderFetch() {
 
       if (url.includes("hn.algolia.com")) {
         return Promise.resolve(new Response(JSON.stringify(ONE_HN_HIT), { status: 200 }));
-      }
-
-      if (url.includes("gdeltproject.org")) {
-        return Promise.resolve(new Response(JSON.stringify({ articles: [] }), { status: 200 }));
       }
 
       // The RSS providers all resolve real feed URLs (openai.com, etc.) —
@@ -66,6 +62,7 @@ function stubProviderFetch() {
         "gizmodo.com",
         "mashable.com",
         "engadget.com",
+        "geeky-gadgets.com",
       ].some((host) => url.includes(host));
 
       if (isRssProviderUrl) {
@@ -136,7 +133,7 @@ describe("newsroom-mcp server", () => {
   });
 
   it("runs the full ingestion → clustering → feed lifecycle", async () => {
-    // 19 RSS feeds + Hacker News each yield one item; GDELT yields none.
+    // 20 RSS feeds + Hacker News each yield one item.
     const fetched = (await client?.callTool({
       name: "fetch-new-items",
       arguments: {},
@@ -145,17 +142,17 @@ describe("newsroom-mcp server", () => {
     expect(fetched.isError).toBeFalsy();
     expect(fetched.structuredContent).toMatchObject({
       providersProcessed: 21,
-      itemsFetched: 20,
-      itemsInserted: 20,
+      itemsFetched: 21,
+      itemsInserted: 21,
       duplicates: 0,
     });
 
     const pending = (await client?.callTool({
       name: "get-unprocessed-items",
-      arguments: { limit: 20 },
+      arguments: { limit: 21 },
     })) as ToolTextResult & { structuredContent: { items: { id: string }[] } };
 
-    expect(pending.structuredContent.items).toHaveLength(20);
+    expect(pending.structuredContent.items).toHaveLength(21);
     const [firstItem, secondItem, ...restItems] = pending.structuredContent.items;
 
     const created = (await client?.callTool({

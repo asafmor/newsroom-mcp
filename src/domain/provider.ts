@@ -3,7 +3,7 @@ import type { JsonObject } from "./json.js";
 
 /**
  * Stable identifier for a configured provider instance, e.g. `rss:openai`,
- * `hacker-news`, `gdelt:ai`. Each configured RSS feed is its own provider id
+ * `hacker-news`. Each configured RSS feed is its own provider id
  * even though they share one implementation.
  */
 export type ProviderId = string;

@@ -2,7 +2,7 @@
 
 This repository is a TypeScript MCP server named `newsroom-mcp`, built with
 `mcp-use` v2. It's a private AI news curation server: it ingests AI-related
-content from RSS/Atom feeds, Hacker News, and GDELT, and exposes MCP tools
+content from RSS/Atom feeds and Hacker News, and exposes MCP tools
 for a calling AI agent to cluster that content into curated "stories" and
 read back a feed. See `IDEA.md` for the full original design spec.
 
@@ -24,7 +24,7 @@ read back a feed. See `IDEA.md` for the full original design spec.
 - `src/domain/` — plain interfaces/types (`ContentItem`, `Story`, `Feed`,
   ...), no logic.
 - `src/providers/` — one `ContentProvider` per source (`rss/`,
-  `hacker-news/`, `gdelt/`), plus the `ContentProviderRegistry`. Never touch
+  `hacker-news/`), plus the `ContentProviderRegistry`. Never touch
   SQLite or make relevance/ranking decisions. See `docs/providers.md`.
 - `src/repositories/` — repository interfaces (no SQL). `src/sqlite/` — the
   `node:sqlite`-backed implementations plus migrations. See

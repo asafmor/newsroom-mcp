@@ -1,7 +1,7 @@
 # newsroom-mcp
 
 A private AI news curation MCP server. It ingests AI-related content from RSS/Atom
-feeds, Hacker News, and GDELT, and exposes MCP tools that let an AI agent
+feeds and Hacker News, and exposes MCP tools that let an AI agent
 cluster that content into curated "stories" and read back a ranked feed —
 without the server itself making any relevance, clustering, summarization,
 or ranking decisions. See [IDEA.md](./IDEA.md) for the original design spec.
@@ -95,13 +95,11 @@ Full details, including the `contribution` freshness rule, in
 
 ## Content sources
 
-- **RSS/Atom** — eight curated AI-news feeds (OpenAI, DeepMind, Hugging Face,
-  TechCrunch AI, VentureBeat AI, MIT Technology Review AI, Anthropic, xAI);
-  see `src/config/providers.ts`.
+- **RSS/Atom** — curated AI-news feeds (OpenAI, DeepMind, Hugging Face,
+  TechCrunch AI, VentureBeat AI, MIT Technology Review AI, Anthropic, xAI,
+  and more); see `src/config/providers.ts`.
 - **Hacker News** — via the Algolia search API, query configurable via
   `NEWSROOM_HN_QUERY`.
-- **GDELT** — via the DOC 2.0 API, query configurable via
-  `NEWSROOM_GDELT_QUERY`.
 
 More on each provider's incremental-fetch strategy in
 [docs/providers.md](./docs/providers.md).
@@ -124,9 +122,8 @@ SQLite schema in [docs/sqlite-schema.md](./docs/sqlite-schema.md).
 ## Environment variables
 
 See [.env.example](./.env.example) for the full list (`NEWSROOM_DB_PATH`,
-`NEWSROOM_LOG_LEVEL`, `NEWSROOM_HN_QUERY`, `NEWSROOM_GDELT_QUERY`,
-`NEWSROOM_FETCH_TIMEOUT_MS`, `NEWSROOM_LIVE_TESTS`). None are required —
-every var has a working default.
+`NEWSROOM_LOG_LEVEL`, `NEWSROOM_HN_QUERY`, `NEWSROOM_FETCH_TIMEOUT_MS`,
+`NEWSROOM_LIVE_TESTS`). None are required — every var has a working default.
 
 ## Project layout
 

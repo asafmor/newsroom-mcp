@@ -44,19 +44,6 @@ strategy differs because each upstream API differs — see below.
   `metadata.points`/`numComments` preserve that signal; `url` falls back to
   the HN discussion page for text-only ("Ask HN") posts.
 
-## GDELT (`src/providers/gdelt/`)
-
-- Uses the DOC 2.0 API in `mode=artlist&format=json`.
-- The DOC API has **no pagination cursor** — every poll re-requests a fixed
-  recent window (`timespan=1d`) and relies on the provider's own high-water
-  mark (`state.latestSeenAt`) to filter out already-seen articles, the same
-  pattern as the RSS provider.
-- `seendate` arrives as the compact `YYYYMMDDTHHMMSSZ` format, which
-  `new Date()` cannot parse directly — it's parsed with a regex split.
-- `externalId` is the article's `url` (GDELT gives no other stable id).
-- GDELT requires query keywords of 4+ characters unless quoted; that's the
-  caller's responsibility (`NEWSROOM_GDELT_QUERY`), not the provider's.
-
 ## Adding a new source
 
 1. Add a `src/providers/<name>/` directory with a `-types.ts` (state +
