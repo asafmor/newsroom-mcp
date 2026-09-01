@@ -65,8 +65,7 @@ prior tool result in this run.
 8. get-feed(limit) — returns the curated output: active stories as
    consumer-facing feed entries (title, summary, scores, sources), never
    raw content items. Call this last, once you've triaged everything from
-   this run, with limit: 50 — that one call both confirms what changed and
-   is the snapshot you publish in the final step, so don't call it twice.
+   this run — that one call both confirms what changed.
 
 ## The run, start to finish
 
