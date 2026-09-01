@@ -88,7 +88,7 @@ prior tool result in this run.
           you're confident belong with it) as the seed.
    c. Never leave an item pending — every item this run touches ends as
       either ignored, attached, or the seed of a new story.
-4. get-feed(limit: 50) — fetch the resulting curated feed once triage is
+4. get-feed(limit: 10) — fetch the resulting curated feed once triage is
    done, and use it as your confirmation of what changed this run.
 5. Publish the feed.json snapshot: run `npm run publish-feed`. This
    re-fetches get-feed(50) directly against the database (no MCP round trip
