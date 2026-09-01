@@ -410,6 +410,13 @@ html, body { margin: 0; background: var(--bg); }
   .newsroomFeed:not(.newsroomFeed--mcp) .sheet-handle {
     display: none;
   }
+  /* The drag-handle overdrag filler assumes a bottom:0-anchored sheet
+     (top: 100% sits flush with the viewport edge); the centered modal
+     above has no drag handle to overdrag, and the filler would otherwise
+     render as a stray white block under the modal. */
+  .newsroomFeed:not(.newsroomFeed--mcp) .source-sheet::after {
+    display: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
