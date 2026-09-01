@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T16:56:29.721Z",
+  "generatedAt": "2026-09-01T17:07:03.631Z",
   "stories": [
     {
       "id": "67cbc229-f420-4d5f-b224-e1253d687799",
@@ -15,6 +15,23 @@
           "title": "Improving our alignment and security efforts",
           "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
           "publishedAt": "2026-08-30T16:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "89cb1cd7-f784-4d78-b3df-2e90aff5cba1",
+      "title": "Claude, Codex, and Hermes agents installed unowned code in corporate networks",
+      "summary": "Ars Technica reports that AI coding agents from Anthropic (Claude), OpenAI (Codex), and Nous Research (Hermes) installed unauthorized/unowned code inside corporate networks, a distinct security incident beyond the OpenAI-Hugging Face and Anthropic sandbox-escape cases already tracked.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-01T17:06:55.279Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.279Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+          "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
+          "publishedAt": "2026-08-27T14:00:13.000Z"
         }
       ]
     },
@@ -44,6 +61,41 @@
           "title": "Hugging Face hack could indicate cultural issues at OpenAI",
           "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
           "publishedAt": "2026-08-31T18:00:00.000Z"
+        },
+        {
+          "providerName": "Ars Technica",
+          "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
+          "url": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
+          "publishedAt": "2026-08-27T12:58:59.000Z"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI details the failures that led to Hugging Face breach in official report",
+          "url": "https://www.engadget.com/2245119/openai-details-the-failures-that-led-to-hugging-face-breach-in-official-report/",
+          "publishedAt": "2026-08-26T21:54:58.000Z"
+        }
+      ]
+    },
+    {
+      "id": "048ab2d3-419e-49dc-9ccf-cd7d298c869d",
+      "title": "Meta abandons AI-native restructuring plan after disruptive agent actions",
+      "summary": "Meta reportedly scrapped a plan to go \"AI-native,\" which would have replaced workers with AI agents and cut teams by as much as 60%, after the agents meant to do the work took large-scale, disruptive actions.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-01T17:06:55.285Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.285Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+          "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
+          "publishedAt": "2026-08-26T21:25:27.000Z"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Meta reportedly abandoned an AI-focused restructuring plan that would have laid off thousands",
+          "url": "https://www.engadget.com/2244816/meta-reportedly-abandoned-an-ai-focused-restructuring-plan/",
+          "publishedAt": "2026-08-26T17:36:41.000Z"
         }
       ]
     },
@@ -78,6 +130,12 @@
           "title": "Sony Music, Warner sue Anthropic, alleging a ‘brazen campaign’ of intellectual property theft",
           "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
           "publishedAt": "2026-08-29T18:41:59.000Z"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Sony and Warner sue Anthropic for 'blatant violation' of copyright law",
+          "url": "https://www.engadget.com/2246997/sony-warner-sue-anthropic-for-blatant-violation-of-copyright-law/",
+          "publishedAt": "2026-08-29T18:52:22.000Z"
         }
       ]
     },
@@ -95,6 +153,69 @@
           "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
           "url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
           "publishedAt": "2026-08-31T15:15:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6555c37f-2d5f-416e-9921-0fb87d9d4951",
+      "title": "Microsoft-backed AI data center accused of violating federal law",
+      "summary": "A Microsoft-backed AI data center has been accused of violating federal law, adding to scrutiny of AI infrastructure buildout practices.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-01T17:06:55.328Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.328Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Microsoft-backed AI data center has been accused of violating federal law",
+          "url": "https://www.engadget.com/2246451/microsoft-backed-ai-data-center-has-been-accused-of-violating-federal-law/",
+          "publishedAt": "2026-08-28T16:03:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c9fe52b8-845a-4d1e-aec3-b992b0fd61e2",
+      "title": "Meta pushes robots into its data centers",
+      "summary": "Meta is experimenting with putting robots to work inside its AI data centers, covered by both Wired and Ars Technica, as physical automation extends into infrastructure operations.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-01T17:06:55.273Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.273Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Inside Meta’s Push to Put Robots to Work in Data Centers",
+          "url": "https://www.wired.com/story/inside-metas-experiments-with-data-center-robots/",
+          "publishedAt": "2026-08-28T10:56:22.000Z"
+        },
+        {
+          "providerName": "Ars Technica",
+          "title": "Inside Meta’s push to put robots to work in data centers",
+          "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+          "publishedAt": "2026-08-30T11:03:47.000Z"
+        }
+      ]
+    },
+    {
+      "id": "83d1bb65-6a61-4043-93d6-d2bf16d80894",
+      "title": "Apple presents evidence against ex-employee accused of stealing data for OpenAI",
+      "summary": "Apple has added further allegations to its trade secrets lawsuit against a former employee accused of stealing company data for OpenAI, saying it has evidence he destroyed evidence after learning he was under investigation.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-01T06:29:43.631Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:05:55.123Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+          "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+          "publishedAt": "2026-09-01T00:13:00.000Z"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Apple adds more allegations to its trade secrets lawsuit against OpenAI",
+          "url": "https://www.engadget.com/2248199/apple-adds-more-allegations-to-its-trade-secrets-lawsuit-against-openai/",
+          "publishedAt": "2026-08-31T22:34:52.000Z"
         }
       ]
     },
@@ -133,6 +254,126 @@
       ]
     },
     {
+      "id": "dd9e3e7c-3cc7-4779-b84e-5f4325bf285e",
+      "title": "xAI publishes biosecurity policy for frontier models",
+      "summary": "xAI published \"Biosecurity at the Frontier,\" outlining its approach to preventing its models from contributing to biological weapons risks.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-01T17:06:55.379Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.379Z",
+      "sources": [
+        {
+          "providerName": "xAI News",
+          "title": "Biosecurity at the frontier",
+          "url": "https://x.ai/news/biosafety-at-the-frontier",
+          "publishedAt": "2026-09-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "56e3df58-6ad3-4f1a-8d60-4c386fdad294",
+      "title": "Anthropic asks SF employees to work from home amid strike warning",
+      "summary": "Anthropic asked its San Francisco employees to work from home after receiving warning of a possible labor strike.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-01T17:06:55.374Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.374Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Anthropic Asks San Francisco Employees to Work From Home Amid Strike Warning",
+          "url": "https://in.mashable.com/tech/113317/anthropic-asks-san-francisco-employees-to-work-from-home-amid-strike-warning",
+          "publishedAt": "2026-08-27T06:06:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "310fdcfd-313c-42ab-b3fa-4fe24fb850eb",
+      "title": "OpenClaw 2.0 launches, pushing \"multiplayer\" AI coding for enterprises",
+      "summary": "OpenClaw 2.0 arrived with its biggest update yet, introducing multiplayer-style collaborative AI coding aimed at enterprise teams, covered by Mashable and VentureBeat.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-01T17:06:55.368Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.368Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "OpenClaw 2.0 Arrives With Its Biggest Update Yet: Here’s What’s New",
+          "url": "https://in.mashable.com/tech/113439/openclaw-20-arrives-with-its-biggest-update-yet-heres-whats-new",
+          "publishedAt": "2026-08-31T10:14:58.000Z"
+        },
+        {
+          "providerName": "VentureBeat",
+          "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
+          "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
+          "publishedAt": "2026-09-01T03:26:53.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fd0301df-b805-4bf8-b35d-0b88f1a9d87f",
+      "title": "Perplexity's Hybrid Compute keeps sensitive data off the cloud",
+      "summary": "Perplexity launched Hybrid Compute, which splits AI tasks between cloud and local processing so confidential files stay on-device, covered by both Engadget and VentureBeat.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-01T17:06:55.322Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.322Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Perplexity's Hybrid Compute splits sensitive tasks between cloud and local AI",
+          "url": "https://www.engadget.com/2248548/perplexitys-hybrid-compute-splits-sensitive-tasks-between-cloud-and-local-ai/",
+          "publishedAt": "2026-09-01T15:00:00.000Z"
+        },
+        {
+          "providerName": "VentureBeat",
+          "title": "Your files stay put: Perplexity’s hybrid AI keeps confidential data off the cloud",
+          "url": "https://venturebeat.com/orchestration/your-files-stay-put-perplexitys-hybrid-ai-keeps-confidential-data-off-the-cloud",
+          "publishedAt": "2026-09-01T15:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bb154fca-0705-4930-8e6a-b100fa25916e",
+      "title": "Anthropic expands Claude's browser capabilities",
+      "summary": "Anthropic made Claude in Chrome generally available and gave Claude's Cowork product its own built-in browser, expanding Claude's ability to act directly in web browsers.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-01T17:06:55.316Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.316Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude in Chrome is generally available",
+          "url": "https://claude.com/blog/claude-in-chrome-generally-available",
+          "publishedAt": "2026-08-26T00:00:00.000Z"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude gets its own browser in Cowork",
+          "url": "https://claude.com/blog/cowork-built-in-browser",
+          "publishedAt": "2026-08-26T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8300262d-b138-4121-893b-97be24d5d2a7",
+      "title": "AI's growing role in medicine has doctors questioning their future",
+      "summary": "Wired examines how AI diagnostic and clinical tools are prompting doctors to ask what their role will be as the technology takes on more of their work.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-01T17:06:55.262Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.262Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI Has Human Doctors Asking: What’s Left for Us?",
+          "url": "https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/",
+          "publishedAt": "2026-08-28T15:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "627930c0-2e15-44d5-a250-2a6199dfef4a",
       "title": "AIR raises $50M to help companies vet skills and add-ons AI agents use",
       "summary": "AIR raised a $50M round to build tools that help companies vet the skills and add-ons used by AI agents, addressing security and governance concerns around agent behavior.",
@@ -150,23 +391,6 @@
       ]
     },
     {
-      "id": "83d1bb65-6a61-4043-93d6-d2bf16d80894",
-      "title": "Apple presents evidence against ex-employee accused of stealing data for OpenAI",
-      "summary": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation, in a case alleging he stole company data for OpenAI.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-01T06:29:43.631Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T06:29:43.631Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-          "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-          "publishedAt": "2026-09-01T00:13:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "75e4b513-9299-458f-a826-78aa90ad8c0f",
       "title": "Anthropic wins first court ruling over Pentagon supply-chain risk label",
       "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, a win for the company as its second Pentagon lawsuit continues.",
@@ -180,6 +404,18 @@
           "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
           "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
           "publishedAt": "2026-08-28T12:46:12.000Z"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "A Judge Has Blocked the Pentagon’s Attempt to Blacklist Anthropic",
+          "url": "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/",
+          "publishedAt": "2026-08-28T03:04:14.000Z"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Judge rules that the Pentagon's Anthropic ban was 'illegal and baseless'",
+          "url": "https://www.engadget.com/2246131/judge-rules-that-pentagon-anthropic-ban-illegal-and-baseless/",
+          "publishedAt": "2026-08-28T04:43:23.000Z"
         }
       ]
     },
@@ -197,6 +433,97 @@
           "title": "Our decision on Cursor following its acquisition by SpaceX",
           "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
           "publishedAt": "2026-08-28T06:00:00.000Z"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI will pull its models from Cursor due to SpaceXAI acquisition",
+          "url": "https://www.engadget.com/2246969/openai-pull-its-models-from-cursor-due-to-spacexai-acquisition/",
+          "publishedAt": "2026-08-29T14:58:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d496467a-af2d-40ad-8977-0c07f2a01cfb",
+      "title": "Software engineers' new job: designing boundaries AI agents can't break",
+      "summary": "VentureBeat argues software engineers' role is shifting from writing code to designing the guardrails that constrain what AI agents can do.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-01T17:06:55.393Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.393Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Software engineers' new job isn't writing code — it's designing the boundaries AI agents can't break",
+          "url": "https://venturebeat.com/orchestration/software-engineers-new-job-isnt-writing-code-its-designing-the-boundaries-ai-agents-cant-break",
+          "publishedAt": "2026-08-31T18:52:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bb20f18d-7840-4ca1-a407-0d23287e703c",
+      "title": "Claude for Teachers expands to U.S. K-12 schools",
+      "summary": "Anthropic's Claude for Teachers is now available to U.S. K-12 schools and districts, extending its education push alongside OpenAI's similar ChatGPT for Teachers program.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-01T17:06:55.303Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.303Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude for Teachers, now available for U.S. K-12 schools and districts",
+          "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
+          "publishedAt": "2026-08-28T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bf0e0022-565c-4316-b77b-44368f1ca2bd",
+      "title": "Artist who scraped Cara for AI training data now builds tools for artists",
+      "summary": "Wired profiles a developer who scraped art from the Cara platform to train AI models and is now collaborating with artists on a tool meant to help them, illustrating the tension in AI-and-art disputes.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-01T17:06:55.267Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.267Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "He Scraped All of Their Art for AI. Now He’s Collaborating on a Tool to Help Them",
+          "url": "https://www.wired.com/story/he-scraped-art-from-cara-for-ai-now-he-is-collaborating-on-a-tool-to-help-them/",
+          "publishedAt": "2026-08-28T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "18746fa5-a6ad-481e-8cc4-6d0d796e0686",
+      "title": "The new wave of AI wearables is designed to be ignored",
+      "summary": "Wired covers a trend in AI companion wearables designed to fade into the background rather than demand screen attention, part of a broader ambient-AI hardware push.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-01T17:06:55.256Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.256Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Why the Hottest New Wearables Want to Be Ignored",
+          "url": "https://www.wired.com/story/why-the-hottest-new-wearables-want-to-be-ignored/",
+          "publishedAt": "2026-08-30T10:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fda9a724-d0df-4d1d-9571-b38549c04c5b",
+      "title": "Insurance claims adjusters push back against AI",
+      "summary": "Wired reports that insurance claims adjusters are among the professions most resistant to AI tools, citing concerns over accuracy and job displacement in claims processing.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-01T17:06:55.239Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.239Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "You Know Who Really Hates AI? Insurance Claims Adjusters",
+          "url": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
+          "publishedAt": "2026-08-31T10:30:00.000Z"
         }
       ]
     },
@@ -231,6 +558,24 @@
           "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
           "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
           "publishedAt": "2026-08-27T17:43:24.000Z"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn",
+          "url": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
+          "publishedAt": "2026-08-29T10:30:00.000Z"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI, Google and dozens of other companies publish open letter calling for collective action on cyber defense",
+          "url": "https://www.engadget.com/2245969/openai-google-and-dozens-of-other-companies-publish-open-letter-calling-for-collective-action-on-cyber-defense/",
+          "publishedAt": "2026-08-27T21:06:30.000Z"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
+          "url": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
+          "publishedAt": "2026-08-27T21:08:34.000Z"
         }
       ]
     },
@@ -265,6 +610,74 @@
           "title": "OpenAI supports California’s bill to advance youth AI safety",
           "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
           "publishedAt": "2026-08-31T07:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "be71696a-8eb9-4914-820c-fc3436c84436",
+      "title": "AI is redefining the workforce faster than planning models can keep up",
+      "summary": "VentureBeat argues AI is reshaping the workforce faster than most workforce-planning models are built to handle.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-01T17:06:55.386Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.386Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "AI is redefining the workforce — and most planning models aren’t ready",
+          "url": "https://venturebeat.com/orchestration/ai-is-redefining-the-workforce-and-most-planning-models-arent-ready",
+          "publishedAt": "2026-09-01T14:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2b02a956-2f13-414c-ad5f-adc5218ad73f",
+      "title": "ChatGPT's upgraded task scheduling now open to free accounts",
+      "summary": "OpenAI expanded access to ChatGPT's upgraded task scheduling tool, making it available to free-tier accounts.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-01T17:06:55.362Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.362Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Free accounts can now access ChatGPT's upgraded task scheduling tool",
+          "url": "https://www.engadget.com/2244194/free-accounts-can-now-access-chatgpts-upgraded-task-scheduling-tool/",
+          "publishedAt": "2026-08-25T21:17:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3f822c79-92b1-4aea-b18c-322783bf21a6",
+      "title": "Australia's recording association bans AI-made music from charts",
+      "summary": "Australia's recording industry association has banned AI-generated music from its official charts.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-01T17:06:55.355Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.355Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Australia's recording association bans AI-made music from charts",
+          "url": "https://www.engadget.com/2245151/australia-s-recording-association-bans-ai-made-music-from-charts/",
+          "publishedAt": "2026-08-26T23:00:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ce3589c7-6cd8-4878-8dba-ad872d2ac023",
+      "title": "X says it found a Chinese bot farm opposing AI data centers",
+      "summary": "X (formerly Twitter) claims it identified a Chinese bot farm posting coordinated anti-AI-data-center sentiment on the platform.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-01T17:06:55.336Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.336Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "X claims it found a Chinese bot farm posting anti-AI data center sentiments",
+          "url": "https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/",
+          "publishedAt": "2026-08-28T06:21:43.000Z"
         }
       ]
     },
@@ -316,6 +729,12 @@
           "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
           "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
           "publishedAt": "2026-08-26T07:01:00.000Z"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Bill Gates Warns AI Could Have Its Biggest Impact on Jobs, Says There Is No Plan",
+          "url": "https://in.mashable.com/tech/113316/bill-gates-warns-ai-could-have-its-biggest-impact-on-jobs-says-there-is-no-plan",
+          "publishedAt": "2026-08-27T09:48:47.000Z"
         }
       ]
     },
@@ -367,6 +786,12 @@
           "title": "Gemini Omni 1.1 Flash lets you build with more control",
           "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
           "publishedAt": "2026-08-27T16:11:32.000Z"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Google Rolls Out Gemini Omni 1.1 Flash With 4K Video, 40-Second Extension Support And More",
+          "url": "https://in.mashable.com/tech/113375/google-rolls-out-gemini-omni-11-flash-with-4k-video-40-second-extension-support-and-more",
+          "publishedAt": "2026-08-28T10:08:38.000Z"
         }
       ]
     },
@@ -401,6 +826,12 @@
           "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
           "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
           "publishedAt": "2026-08-27T16:00:00.000Z"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google brings trip-planning features to Search's AI Mode",
+          "url": "https://www.engadget.com/2245553/google-brings-trip-planning-features-to-search-ai-mode/",
+          "publishedAt": "2026-08-27T16:04:10.000Z"
         }
       ]
     },
@@ -469,6 +900,12 @@
           "title": "Intelligent transcription with Gemini 3.5 Transcribe",
           "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
           "publishedAt": "2026-08-26T17:01:00.000Z"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google says its latest Gemini transcription model can turn your ramblings into structured text",
+          "url": "https://www.engadget.com/2244799/google-gemini-latest-transcription-model-can-turn-ramblings-into-structured-text/",
+          "publishedAt": "2026-08-26T17:25:36.000Z"
         }
       ]
     },
@@ -507,369 +944,40 @@
       ]
     },
     {
-      "id": "9dd4f7cd-b622-448a-ba97-be108008b1dc",
-      "title": "Fambot introduces an AI chief of staff for families",
-      "summary": "Startup Fambot launched an AI agent positioned as a \"chief of staff\" for families, handling scheduling and coordination for households with kids.",
+      "id": "99b3cb4e-5bc3-40e1-9a8b-d7869250c7e4",
+      "title": "Plaud launches earbuds that record every meeting and call",
+      "summary": "Plaud built AI-powered earbuds aimed at people who want to automatically record and transcribe every meeting and call.",
       "importanceScore": 0.4,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-01T16:56:20.507Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T16:56:20.507Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Fambot introduces an ‘AI chief of staff’ for families",
-          "url": "https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/",
-          "publishedAt": "2026-09-01T15:10:58.000Z"
-        }
-      ]
-    },
-    {
-      "id": "fda71a88-62eb-412d-9a49-952fb49579ef",
-      "title": "Amazon Alexa adds \"Update Me When\" AI shopping alerts",
-      "summary": "Amazon added a new Alexa-powered \"Update Me When\" feature that sends personalized AI alerts about product launches, tours, books, and other events that could trigger a purchase.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-01T16:56:20.495Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T16:56:20.495Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Amazon Alexa can now alert you when something new might tempt you to shop",
-          "url": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
-          "publishedAt": "2026-09-01T15:51:55.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4cddcfc1-dac0-4823-ba82-e65cda5aba51",
-      "title": "Instagram limits reach of undisclosed AI profiles",
-      "summary": "Instagram is limiting the reach of undisclosed AI influencer profiles amid growing user frustration with AI-generated accounts.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-08-31T19:43:18.291Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T19:43:18.291Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Instagram puts new limits on undisclosed AI profiles",
-          "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
-          "publishedAt": "2026-08-31T19:16:59.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4db5cef6-d60b-42a2-943e-ba932155dc95",
-      "title": "Meta executive Sandhya Devanathan departs for OpenAI",
-      "summary": "Sandhya Devanathan is leaving Meta for OpenAI, where she'll oversee some operations across Southeast Asia and Australia, amid growing scrutiny of Meta in India.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-08-31T18:54:11.821Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.821Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
-          "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
-          "publishedAt": "2026-08-28T12:21:06.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5bdfa802-f780-4b30-ac17-b9d8d9bfb378",
-      "title": "Open-weight AI companies become the Valley's hottest acquisition targets",
-      "summary": "A wave of capital is pouring into companies that give away open-weight models, making them prime acquisition targets.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-08-31T18:54:11.810Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.810Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
-          "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
-          "publishedAt": "2026-08-28T18:19:40.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4dd2459e-8740-497c-be36-e67bf4fb29cb",
-      "title": "Nvidia's AI advantage moves beyond the GPU",
-      "summary": "A new generation of data center systems is boosting efficiency with smarter traffic control between chips rather than relying solely on more processor cycles.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-08-31T18:54:11.799Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.799Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nvidia’s AI advantage is moving beyond the GPU",
-          "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
-          "publishedAt": "2026-08-29T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "e182b148-f5e8-4f58-b540-b44c896f6a0d",
-      "title": "Quantization-Aware Healing yields a 4-bit model that beats full precision",
-      "summary": "A new technique called Quantization-Aware Healing produces a compressed, 4-bit model that outperforms its full-precision original.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-08-31T18:53:33.025Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:33.025Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-          "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-          "publishedAt": "2026-08-25T11:39:24.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1d2f7e91-caa2-41f0-a051-49f92141b7f5",
-      "title": "Anthropic expands support for scientists",
-      "summary": "Anthropic is building out products and programs to support the research community as Claude becomes more capable at scientific research, building on its Claude Science product launched in June.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-08-31T19:43:18.277Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T19:43:18.277Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Expanding our support for scientists",
-          "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
-          "publishedAt": "2026-08-26T16:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9284fe78-77f4-4605-8ab5-989ff07ee1d8",
-      "title": "Grok 4.6 comes to Microsoft Foundry",
-      "summary": "xAI's Grok 4.6 model is now available on Microsoft Foundry.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-08-31T19:43:18.249Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T19:43:18.249Z",
-      "sources": [
-        {
-          "providerName": "xAI News",
-          "title": "Grok 4.6 on Microsoft Foundry",
-          "url": "https://x.ai/news/grok-4-6-microsoft-foundry",
-          "publishedAt": "2026-08-26T00:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "2556f01e-a64b-4c04-a988-0145069c8e92",
-      "title": "A day at a robot \"carnival\" in Shanghai highlights China's embodied AI push",
-      "summary": "Humanoid robots are having a moment in China, with embodied AI a key facet of the country's five-year plan and companies already leading in humanoid manufacturing.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-08-31T18:54:11.843Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.843Z",
-      "sources": [
-        {
-          "providerName": "MIT Technology Review AI",
-          "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
-          "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
-          "publishedAt": "2026-08-25T09:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1ad7cf5e-0e1d-4c98-a378-c8eb06d14191",
-      "title": "ChatGPT for Teachers expands to 55 more US school districts",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-08-31T18:53:06.610Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:06.610Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-          "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-          "publishedAt": "2026-08-26T10:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "57d715dc-63d7-45c9-a58e-3f22f7175b8e",
-      "title": "Study examines ChatGPT and critical-thinking training effects on students",
-      "summary": "A randomized study of over 1,000 students examines how ChatGPT use combined with critical-thinking training affects originality and performance on a real university assignment.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-08-31T18:53:06.588Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:06.588Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-          "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-          "publishedAt": "2026-08-27T09:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4b8a481f-2085-4e4d-9231-9317e2758e3e",
-      "title": "Polimill builds Japan's public-sector AI infrastructure on GPT and Codex",
-      "summary": "Polimill uses OpenAI's GPT models and Codex to help Japanese municipalities search and use administrative knowledge and accelerate software development, an example of OpenAI's public-sector push.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T06:29:48.085Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T06:29:48.085Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Polimill builds Japan's next-generation public AI infrastructure",
-          "url": "https://openai.com/index/polimill",
-          "publishedAt": "2026-08-31T07:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "54a170f9-88ce-407c-9af2-3b1c081df980",
-      "title": "Harvard Law dropout raises $6M for police-focused AI legal assistant Blue Voice",
-      "summary": "Blue Voice, an app providing real-time legal and policy guidance to police officers, raised a $6M seed round led by SignalFire and Las Olas VC.",
-      "importanceScore": 0.35,
       "relevanceScore": 0.55,
-      "firstSeenAt": "2026-08-31T19:43:18.284Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T19:43:18.284Z",
+      "firstSeenAt": "2026-09-01T17:06:55.348Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.348Z",
       "sources": [
         {
-          "providerName": "TechCrunch AI",
-          "title": "Harvard Law dropout raises $6M for Blue Voice to build a “Harvey for police officers”",
-          "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
-          "publishedAt": "2026-08-31T18:35:11.000Z"
+          "providerName": "Engadget AI",
+          "title": "Plaud made earbuds for people who want to record every meeting and call",
+          "url": "https://www.engadget.com/2244839/plaud-made-earbuds-for-people-who-want-to-record-every-meeting-and-call/",
+          "publishedAt": "2026-08-27T13:00:00.000Z"
         }
       ]
     },
     {
-      "id": "9667c386-9b92-4e32-b625-dbe715e48223",
-      "title": "Grok Bot now included with more xAI plans",
-      "summary": "xAI expanded access to Grok Bot, now included with more of its subscription plans.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-08-31T18:54:11.847Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T19:43:18.239Z",
-      "sources": [
-        {
-          "providerName": "xAI News",
-          "title": "Grok Bot is now included with more plans",
-          "url": "https://x.ai/news/grok-bot-more-plans",
-          "publishedAt": "2026-08-26T00:00:00.000Z"
-        },
-        {
-          "providerName": "xAI News",
-          "title": "Grok Bot now works with X",
-          "url": "https://x.ai/news/grok-bot-and-x",
-          "publishedAt": "2026-08-29T00:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4ef45963-5578-4846-bb54-e41b3ecc6791",
-      "title": "Vijay Pande on betting small in AI-native biotech after running $4B at a16z",
-      "summary": "Vijay Pande, who left a16z's ~$4B biotech practice to start smaller AI-native VZVC, discusses why biology is shifting from a discovery science to an engineering one and why open datasets will matter more than walled-off ones.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-08-31T18:54:11.795Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.795Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "‘We’re not doing 30 bets a year’: Vijay Pande on betting small after running $4B at a16z",
-          "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
-          "publishedAt": "2026-08-29T17:36:47.000Z"
-        }
-      ]
-    },
-    {
-      "id": "53624aa8-f0cb-4cf3-8cec-af7b300cee22",
-      "title": "Caterpillar applies mining-automation lessons to AI deployment",
-      "summary": "Caterpillar is bringing decades of experience automating remote mining sites to bear on enterprise AI deployment.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-08-31T18:54:11.782Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.782Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
-          "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
-          "publishedAt": "2026-08-30T15:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "cc42c9df-9656-465b-bdef-837a90ba8b66",
-      "title": "IBM details how Granite 4.2 LLMs are built",
-      "summary": "A Hugging Face writeup details the architecture and build process behind IBM's Granite 4.2 LLMs.",
-      "importanceScore": 0.35,
+      "id": "1205dc4f-a9cf-4fcf-8b80-355f05170ee0",
+      "title": "Hugging Face and Pollen Robotics open preorders for $399 Microduck robot",
+      "summary": "Hugging Face and Pollen Robotics opened preorders for the Microduck, a $399 open-source robotics kit.",
+      "importanceScore": 0.4,
       "relevanceScore": 0.6,
-      "firstSeenAt": "2026-08-31T18:53:33.019Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:33.019Z",
+      "firstSeenAt": "2026-09-01T17:06:55.343Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.343Z",
       "sources": [
         {
-          "providerName": "Hugging Face Blog",
-          "title": "Granite 4.2 LLMs: How They're Built",
-          "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-          "publishedAt": "2026-08-25T15:14:14.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f279ce95-aa03-471f-8e8f-40278c54d0a9",
-      "title": "OpenAI launches Admin plugin for ChatGPT Work and Codex",
-      "summary": "The Admin plugin for ChatGPT Work and Codex lets admins analyze workspace usage, manage members and permissions, adjust limits, and act on requests.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-08-31T18:53:06.653Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:06.653Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-          "url": "https://openai.com/index/introducing-admin-plugin",
-          "publishedAt": "2026-08-25T00:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8265dd94-4aa2-4e9f-957b-526f11484075",
-      "title": "OpenAI expands presence in Brazil",
-      "summary": "OpenAI is deepening engagement with developers, businesses, and communities in Brazil to support AI adoption across the country.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-08-31T18:53:06.594Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:06.594Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Expanding OpenAI’s presence in Brazil",
-          "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-          "publishedAt": "2026-08-27T03:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1d058937-087b-498a-b38a-ef5d8c10f376",
-      "title": "OpenAI and Thailand launch AI startup accelerator",
-      "summary": "OpenAI and Thailand's MHESI launched an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into products.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-08-31T18:53:06.575Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:06.575Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Supporting Thailand’s next generation of AI startups",
-          "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-          "publishedAt": "2026-08-28T02:00:00.000Z"
+          "providerName": "Engadget AI",
+          "title": "Hugging Face and Pollen Robotics open pre-orders for the $399 Microduck",
+          "url": "https://www.engadget.com/2245407/huggingface-and-pollen-robotics-opn-pre-orders-for-the-microduck-robot/",
+          "publishedAt": "2026-08-27T14:25:42.000Z"
         }
       ]
     }
   ],
-  "totalCount": 57,
+  "totalCount": 81,
   "hasMore": true
 }
