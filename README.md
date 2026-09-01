@@ -104,6 +104,16 @@ Full details, including the `contribution` freshness rule, in
 More on each provider's incremental-fetch strategy in
 [docs/providers.md](./docs/providers.md).
 
+## Feed site
+
+The curated feed is also published as a standalone read-only site (GitHub
+Pages, served from the `feed` branch), a Vite React app (`site/`) sharing
+its story-card UI with the in-app `get-feed` MCP View via `shared-ui/feed/`.
+`npm run build:site` builds it; `.github/workflows/deploy-feed-site.yml`
+deploys it to the `feed` branch's GitHub Pages root on every `main` push
+touching `site/**`/`shared-ui/**`. The `feed.json` data it reads is
+published separately by `npm run publish-feed` after a curation run.
+
 ## Development
 
 ```bash
@@ -140,4 +150,6 @@ test/unit/           fast, no-network tests
 test/mcp-server.test.ts  protocol-level test against the real server
 test/live/           opt-in live sanity tests
 docs/                architecture, providers, schema, tools, testing guides
+shared-ui/feed/      story-card UI shared by the MCP View and the standalone site
+site/                standalone Vite React feed site (fed by published feed.json)
 ```
