@@ -65,8 +65,8 @@ prior tool result in this run.
 8. get-feed(limit) — returns the curated output: active stories as
    consumer-facing feed entries (title, summary, scores, sources), never
    raw content items. Call this last, once you've triaged everything from
-   this run, to produce what the feed actually looks like after your
-   changes.
+   this run, with limit: 50 — that one call both confirms what changed and
+   is the snapshot you publish in the final step, so don't call it twice.
 
 ## The run, start to finish
 
@@ -88,8 +88,15 @@ prior tool result in this run.
           you're confident belong with it) as the seed.
    c. Never leave an item pending — every item this run touches ends as
       either ignored, attached, or the seed of a new story.
-4. get-feed() — fetch the resulting curated feed once triage is done, and
-   use it as your confirmation of what changed this run.
+4. get-feed(limit: 50) — fetch the resulting curated feed once triage is
+   done, and use it as your confirmation of what changed this run.
+5. Publish that same get-feed(50) output as the feed.json snapshot:
+   a. Write its raw tool output verbatim (no reformatting) to a scratch
+      file.
+   b. Run `scripts/publish-feed.sh <scratch-file-path>`.
+   This commits and pushes feed.json as a full overwrite from a disposable
+   git worktree — it never touches your working tree — and removes the
+   worktree automatically, whether it succeeds or fails.
 
 Do not process archived/older content beyond what get-unprocessed-items and
 get-active-stories return — this is a bounded, periodic run (assume you'll
