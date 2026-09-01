@@ -50,6 +50,7 @@ export function SourceSheet({
   const [dragY, setDragY] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const dragStartY = useRef<number | null>(null);
+  const [copied, setCopied] = useState(false);
 
   function onHandlePointerDown(e: React.PointerEvent<HTMLDivElement>) {
     e.currentTarget.setPointerCapture(e.pointerId);
@@ -97,6 +98,35 @@ export function SourceSheet({
     };
   }, [open, onClose]);
 
+  // Freeze the page behind the sheet: no background scroll, and — the main
+  // reason this exists — `overscroll-behavior-y: none` stops Chrome mobile
+  // reading an accidental downward swipe on the sheet as its own
+  // pull-to-refresh gesture (that gesture triggers off document scroll
+  // position, ignoring z-index, so blocking pointer events isn't enough).
+  useEffect(() => {
+    if (!open) return;
+    const { style } = document.body;
+    const prevOverflow = style.overflow;
+    const prevOverscroll = style.overscrollBehaviorY;
+    style.overflow = "hidden";
+    style.overscrollBehaviorY = "none";
+    return () => {
+      style.overflow = prevOverflow;
+      style.overscrollBehaviorY = prevOverscroll;
+    };
+  }, [open]);
+
+  async function onCopy() {
+    const links = story.sources.map((s) => s.url).join("\n");
+    try {
+      await navigator.clipboard.writeText(`${story.title}\n\n${story.summary}\n\n${links}`);
+      setCopied(true);
+      setTimeout(() => { setCopied(false); }, 1500);
+    } catch {
+      // clipboard permission denied/unavailable — nothing more we can do
+    }
+  }
+
   return (
     <>
       <div className={`sheet-overlay${visible ? " open" : ""}`} onClick={onClose} />
@@ -120,11 +150,30 @@ export function SourceSheet({
             <h2 className="sheet-title" id="sheetTitle">
               {story.title}
             </h2>
-            <button className="sheet-close" aria-label="Close" onClick={onClose} ref={closeRef}>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
-                <path d="M18 6L6 18M6 6l12 12" />
-              </svg>
-            </button>
+            <div className="sheet-head-actions">
+              <button
+                className="sheet-copy"
+                data-copied={copied}
+                aria-label={copied ? "Copied" : "Copy title, summary, and links"}
+                onClick={() => { void onCopy(); }}
+              >
+                {copied ? (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg>
+                ) : (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="9" y="9" width="12" height="12" rx="2" />
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                  </svg>
+                )}
+              </button>
+              <button className="sheet-close" aria-label="Close" onClick={onClose} ref={closeRef}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
+                  <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
           </div>
           <div className="sheet-stats">
             <div>

@@ -9,6 +9,7 @@ import type { FeedStory, SortMode, Theme } from "./types.js";
 import { latestPublishedAt } from "./formatters.js";
 
 const THEME_STORAGE_KEY = "newsroom-theme";
+const SORT_STORAGE_KEY = "newsroom-sort-mode";
 
 // Sandboxed MCP host iframes can throw on localStorage access — theme
 // persistence is a nicety, not something worth crashing the feed over.
@@ -20,6 +21,16 @@ function getInitialTheme(): Theme {
     // ignore
   }
   return matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+function getInitialSortMode(): SortMode {
+  try {
+    const stored = localStorage.getItem(SORT_STORAGE_KEY);
+    if (stored === "top" || stored === "latest") return stored;
+  } catch {
+    // ignore
+  }
+  return "top";
 }
 
 export type FeedState =
@@ -117,7 +128,15 @@ function Feed({
   readonly theme: Theme;
   readonly onThemeChange: (theme: Theme) => void;
 }) {
-  const [sortMode, setSortMode] = useState<SortMode>("top");
+  const [sortMode, setSortMode] = useState<SortMode>(getInitialSortMode);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(SORT_STORAGE_KEY, sortMode);
+    } catch {
+      // ignore — see getInitialTheme
+    }
+  }, [sortMode]);
   const [selected, setSelected] = useState<FeedStory | undefined>(undefined);
   // Stays set through the sheet's close transition so it doesn't unmount
   // (and lose its content) before the animation finishes — cleared by

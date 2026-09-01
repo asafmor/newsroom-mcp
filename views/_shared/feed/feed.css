@@ -281,6 +281,7 @@ html, body { margin: 0; background: var(--surface-warm); }
 .sheet-overlay {
   position: fixed; inset: 0; z-index: 30;
   background: var(--scrim);
+  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
   opacity: 0; pointer-events: none;
   transition: opacity var(--motion-base) var(--ease-standard);
 }
@@ -296,6 +297,14 @@ html, body { margin: 0; background: var(--surface-warm); }
   transition: transform var(--motion-base) var(--ease-standard);
 }
 .source-sheet.open { transform: translateY(0); }
+/* Sheet is bottom:0 — dragging it *up* (the rubber-band overdrag cue) would
+   otherwise open a gap below it, showing the scrim/feed through instead of
+   more sheet. This filler rides along under the sheet (translates with it)
+   and is always taller than OVERDRAG_MAX_PX, so that gap is never empty. */
+.source-sheet::after {
+  content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 32px;
+  background: var(--surface);
+}
 /* Padded well past the visible bar so the drag target is thumb-sized, not
    just the 4px pill — touch-action: none stops the browser's own scroll/
    pull-to-refresh gestures from fighting the pointer drag. */
@@ -311,12 +320,18 @@ html, body { margin: 0; background: var(--surface-warm); }
 .sheet-head { padding: var(--space-3) var(--space-4) var(--space-3); border-bottom: 1px solid var(--border); flex-shrink: 0; }
 .sheet-head-row { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-3); }
 .sheet-title { font-size: 17px; font-weight: 700; line-height: 1.45; letter-spacing: var(--tracking-display); text-wrap: balance; }
+.sheet-head-actions { display: flex; gap: var(--space-2); flex-shrink: 0; }
+.sheet-copy,
 .sheet-close {
   flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%;
   background: var(--border-soft); color: var(--fg-2);
   display: grid; place-items: center;
+  transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
 }
+.sheet-copy:hover,
 .sheet-close:hover { background: var(--border); color: var(--fg); }
+.sheet-copy[data-copied="true"] { background: var(--success); color: var(--accent-on); }
+.sheet-copy svg,
 .sheet-close svg { width: 14px; height: 14px; }
 .sheet-stats { display: flex; gap: var(--space-6); margin-top: var(--space-3); }
 .sheet-stat-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
