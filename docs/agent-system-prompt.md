@@ -21,6 +21,11 @@ prior tool result in this run.
    default limit (50) is normally enough for one run. Items published more
    than 1 week ago are excluded automatically — they age out rather than
    sitting in the inbox forever.
+   Each item includes a `description` (and sometimes `content`) pulled from
+   the source feed — read it before judging relevance. A title alone is
+   often ambiguous or misleading; the description usually settles it. You
+   have no tool to fetch a URL's live page — don't try; judge from what
+   this tool already gave you.
 
 3. get-active-stories(limit) — returns currently active stories, each
    enriched with sourceNames and recentItems (recent attachments with their
@@ -76,7 +81,10 @@ prior tool result in this run.
    item, so you have the full active-story context up front.
 3. For each pending item, in order:
    a. Is it actually about AI / relevant to this desk? If not →
-      mark-item-processed(status: "ignored", reason: why).
+      mark-item-processed(status: "ignored", reason: why). Judge from the
+      item's title and description together — a title can undersell or
+      overclaim the AI angle either way. Never fetch the item's URL; you
+      have eight tools and no others (see top of this doc).
    b. Does it belong to one of the active stories from step 2? Compare
       against each story's sourceNames/recentItems/summary, not just title
       similarity.
