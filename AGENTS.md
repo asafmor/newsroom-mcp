@@ -56,12 +56,13 @@ See `docs/mcp-tools.md` for the full table. Summary: `fetch-new-items`,
 ## Publishing the Feed Snapshot
 
 After a curation run's `get-feed(limit: 50)` confirmation step (see
-`docs/agent-system-prompt.md`), publish that same output as `feed.json` on
-the `feed` branch: write the raw tool output verbatim to a scratch file,
-then run `scripts/publish-feed.sh <scratch-file-path>`. It commits and
-pushes a full overwrite of `feed.json` from a disposable git worktree —
-never touching your working tree — and removes the worktree automatically
-on success or failure.
+`docs/agent-system-prompt.md`), publish `feed.json` on the `feed` branch by
+running `npm run publish-feed` (`scripts/publish-feed.ts`). It calls
+`FeedService` directly — no MCP tool call, so no extra agent tokens — then
+hands the result to `scripts/publish-feed.sh`, which commits and pushes a
+full overwrite of `feed.json` from a disposable git worktree — never
+touching your working tree — and removes the worktree automatically on
+success or failure.
 
 ## Project Guides
 

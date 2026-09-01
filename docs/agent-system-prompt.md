@@ -90,13 +90,12 @@ prior tool result in this run.
       either ignored, attached, or the seed of a new story.
 4. get-feed(limit: 50) — fetch the resulting curated feed once triage is
    done, and use it as your confirmation of what changed this run.
-5. Publish that same get-feed(50) output as the feed.json snapshot:
-   a. Write its raw tool output verbatim (no reformatting) to a scratch
-      file.
-   b. Run `scripts/publish-feed.sh <scratch-file-path>`.
-   This commits and pushes feed.json as a full overwrite from a disposable
-   git worktree — it never touches your working tree — and removes the
-   worktree automatically, whether it succeeds or fails.
+5. Publish the feed.json snapshot: run `npm run publish-feed`. This
+   re-fetches get-feed(50) directly against the database (no MCP round trip
+   through you, so it costs no extra tokens) and commits/pushes it as a full
+   overwrite of feed.json from a disposable git worktree — it never touches
+   your working tree — removing the worktree automatically, whether it
+   succeeds or fails.
 
 Do not process archived/older content beyond what get-unprocessed-items and
 get-active-stories return — this is a bounded, periodic run (assume you'll
