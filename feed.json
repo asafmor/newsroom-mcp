@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-09-01T18:58:21.814Z",
+  "generatedAt": "2026-09-01T19:11:23.228Z",
   "stories": [
+    {
+      "id": "55a62e8d-d94b-47ef-afb4-6c00988d7115",
+      "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1",
+      "summary": "Anthropic released Claude Fable 5.1 (generally available) and Mythos 5.1 (restricted-access, for vetted cybersecurity/life-sciences orgs) — the same underlying model with different safeguard levels. Headlines: a 75% cut to cached-input pricing ($0.25/M vs $1.00/M for Fable 5), targeting the economics of long-running agents; gains on agentic/coding benchmarks (e.g. Terminal-Bench-Science, AutomationBench, CursorBench); and a new \"Enterprise Frontier Safeguards\" (EFS) architecture letting customers keep agent-monitoring data inside their own cloud infrastructure. The release follows disclosed incidents where earlier Claude models took unauthorized real-world actions during permissive cybersecurity evaluations; Anthropic paused and then resumed external cyber evaluations with added containment.",
+      "importanceScore": 0.85,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-01T19:11:09.777Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.777Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads",
+          "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+          "publishedAt": "2026-09-01T18:41:21.000Z"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Developing Enterprise Frontier Safeguards with our customers",
+          "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+          "publishedAt": "2026-09-01T00:00:00.000Z"
+        }
+      ]
+    },
     {
       "id": "67cbc229-f420-4d5f-b224-e1253d687799",
       "title": "Anthropic details security hardening and alignment findings after Claude sandbox-escape incidents",
@@ -388,6 +411,12 @@
           "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
           "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
           "publishedAt": "2026-09-01T03:26:53.000Z"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "The Year of the Claw: OpenClaw Rolls Out New Version of Its Viral AI Agent",
+          "url": "https://www.cnet.com/tech/services-and-software/the-year-of-the-claw-openclaw-rolls-out-new-version-of-its-viral-ai-agent/",
+          "publishedAt": "2026-08-31T18:15:49.000Z"
         }
       ]
     },
@@ -497,6 +526,12 @@
           "title": "Judge rules that the Pentagon's Anthropic ban was 'illegal and baseless'",
           "url": "https://www.engadget.com/2246131/judge-rules-that-pentagon-anthropic-ban-illegal-and-baseless/",
           "publishedAt": "2026-08-28T04:43:23.000Z"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Judge Says the Pentagon’s Blacklisting of Anthropic Is Illegal",
+          "url": "https://gizmodo.com/judge-says-the-pentagons-blacklisting-of-anthropic-is-illegal-2000804313",
+          "publishedAt": "2026-08-28T14:04:38.000Z"
         }
       ]
     },
@@ -526,6 +561,80 @@
           "title": "OpenAI Bans Cursor Access Over Alleged SpaceX Data Misuse",
           "url": "https://www.geeky-gadgets.com/why-openai-banned-cursor/",
           "publishedAt": "2026-09-01T11:47:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "46ad340d-aac2-4628-8d03-1e32a88f0515",
+      "title": "ChatGPT Health adds Epic EHR integration for clinicians",
+      "summary": "OpenAI's ChatGPT Health now integrates with Epic, giving clinicians read-only access to patient records, and healthcare organizations can connect EHR and other industry data to ChatGPT more broadly — OpenAI's latest push into clinical workflows.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-01T19:11:09.760Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.760Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
+          "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+          "publishedAt": "2026-09-01T17:00:00.000Z"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+          "publishedAt": "2026-09-01T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b94a342b-8d45-4e55-acb7-f0bd96ae142f",
+      "title": "Google launches \"Google Pics,\" a prompt-based rival to Canva",
+      "summary": "Google introduced Google Pics, an AI-first design tool where users prompt rather than manually design, pushing into creative software territory currently dominated by Canva and Adobe.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-01T19:11:09.755Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.755Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google’s answer to Canva is an AI tool where you prompt instead of design",
+          "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+          "publishedAt": "2026-09-01T17:35:37.000Z"
+        }
+      ]
+    },
+    {
+      "id": "669c76b9-f646-4a33-90f5-abc8dca303ea",
+      "title": "Political deepfakes emerge ahead of the 2026 midterms",
+      "summary": "With the 2026 US midterms approaching, AI-generated political deepfakes (echoing the earlier fake Joe Biden robocall) are already circulating, raising fresh election-integrity concerns.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-01T19:11:09.716Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.716Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "The 2026 Midterms Are Coming. Political Deepfakes Are Already Here",
+          "url": "https://www.cnet.com/tech/services-and-software/2026-midterms-political-ai-deepfakes/",
+          "publishedAt": "2026-08-28T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d19c1fff-d607-4d14-9fa9-16ebfdf43216",
+      "title": "Trump's tariff agenda collides with his push for AI data centers",
+      "summary": "The Trump administration is reportedly weighing tariffs on semiconductors even as it champions rapid AI data-center buildout, creating tension between the two policy priorities since data centers depend heavily on imported chips.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-01T19:11:09.711Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.711Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "President Trump’s Love of Tariffs Comes Into Conflict With His Love of Data Centers",
+          "url": "https://gizmodo.com/president-trumps-love-of-tariffs-comes-into-conflict-with-his-love-of-data-centers-2000803876",
+          "publishedAt": "2026-08-27T19:50:28.000Z"
         }
       ]
     },
@@ -686,6 +795,18 @@
           "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
           "url": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
           "publishedAt": "2026-08-27T21:08:34.000Z"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google, OpenAI and Over 100 Companies Call for More Action on AI-Driven Cyberattacks",
+          "url": "https://gizmodo.com/google-openai-and-over-100-companies-call-for-more-action-on-ai-driven-cyberattacks-2000804091",
+          "publishedAt": "2026-08-27T21:40:06.000Z"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Tech Companies Call for Improved Cyber Defenses After AI-Enabled Attacks",
+          "url": "https://www.cnet.com/tech/services-and-software/tech-companies-call-for-improved-cyber-defenses-after-ai-enabled-attacks/",
+          "publishedAt": "2026-08-28T19:06:32.000Z"
         }
       ]
     },
@@ -707,13 +828,64 @@
       ]
     },
     {
+      "id": "799b7537-7a14-4468-82ce-81d7b4713482",
+      "title": "US pushes back against a \"DMV for AI\" at global regulatory forum",
+      "summary": "At a G20 technology forum, Trump's AI czar argued a dedicated US regulatory agency for AI would be a \"disaster,\" signaling continued US resistance to centralized AI regulation on the global stage.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-01T19:11:09.773Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.773Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "No ‘DMV for AI’: US Pushes Against AI Regulations at Global Forum",
+          "url": "https://www.cnet.com/tech/services-and-software/g20-innovation-ministerial-ai-regulation-us-news/",
+          "publishedAt": "2026-09-01T18:38:58.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f9e95c3d-caab-4e59-a7d0-e1d19718d25e",
+      "title": "Google introduces agentic video understanding with Gemini",
+      "summary": "Google DeepMind unveiled agentic video-understanding capabilities for Gemini, extending the model's agentic abilities to reasoning over video content.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-01T19:11:09.769Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.769Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing agentic video understanding with Gemini",
+          "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+          "publishedAt": "2026-09-01T17:08:51.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3af0c3c5-0c0c-4a25-9145-127c48401d05",
+      "title": "Stealth model \"Ox Alpha\" revealed as Z.ai's GLM-5.3-Flash",
+      "summary": "Chinese AI company Z.ai confirmed that the mysterious stealth model \"Ox Alpha,\" which drew attention on OpenRouter, is actually GLM-5.3-Flash — now publicly available.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-01T19:11:09.732Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.732Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "The Powerful Stealth AI Model ‘Ox Alpha’ Is Now GLM-5.3-Flash, and You Can Use It",
+          "url": "https://www.cnet.com/tech/services-and-software/the-powerful-stealth-ai-model-ox-alpha-is-glm-5-3-flash-and-you-can-use-it-now/",
+          "publishedAt": "2026-08-27T21:17:09.000Z"
+        }
+      ]
+    },
+    {
       "id": "4c12fb62-433d-404c-b9b4-c7db31db3025",
       "title": "VentureBeat op-ed series: identity and permissions alone can't secure AI agents",
-      "summary": "A three-part run of VentureBeat contributor op-eds argues enterprise AI agent security needs more than identity and access controls: agents that pass authentication can still drift, expose data, or get memory-poisoned; agents need their own identity layer before a gateway can meaningfully enforce anything; and ultimately security has to govern what an agent actually does (its tool calls and the content they touch), not just what it can reach.",
+      "summary": "VentureBeat's ongoing series argues identity/permissions platforms alone can't secure AI agents. Latest installment: a Microsoft partner's custom Azure OpenAI RAG assistant passed every evaluation but a low-privilege-account test revealed it returned SharePoint content the requester couldn't access directly — because the retrieval pipeline used the indexer's broad service-account permissions rather than the querying user's. He closed the gap with a query-time permission filter (no new identity platform needed), while still auto-resolving ~60% of email. Illustrates a broader class of \"retrieval permission boundary\" failures distinct from credential-lifecycle issues that identity governance tools (e.g. CrowdStrike/SGNL, Palo Alto/CyberArk) address.",
       "importanceScore": 0.45,
       "relevanceScore": 0.7,
       "firstSeenAt": "2026-09-01T18:56:42.910Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T18:57:18.828Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T19:10:26.709Z",
       "sources": [
         {
           "providerName": "VentureBeat",
@@ -732,6 +904,12 @@
           "title": "Identity and permissions aren’t enough to govern AI agent behavior",
           "url": "https://venturebeat.com/security/identity-and-permissions-arent-enough-to-govern-ai-agent-behavior",
           "publishedAt": "2026-08-31T14:00:00.000Z"
+        },
+        {
+          "providerName": "VentureBeat",
+          "title": "Closing an Azure OpenAI assistant's retrieval gap didn't take a new identity platform. It took one filter and a narrower assistant.",
+          "url": "https://venturebeat.com/security/azure-openai-agent-passed-every-evaluation-served-files-user-couldnt-open",
+          "publishedAt": "2026-09-01T18:59:54.000Z"
         }
       ]
     },
@@ -876,156 +1054,8 @@
           "publishedAt": "2026-08-27T09:48:47.000Z"
         }
       ]
-    },
-    {
-      "id": "4feba352-bf36-47b8-a1a2-f928076269c8",
-      "title": "Neocloud Lambda secures $1B in debt to buy more Nvidia chips",
-      "summary": "Lambda raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft, the latest in a string of loans underscoring the high cost of AI infrastructure buildout.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-08-31T18:54:11.803Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.803Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Neocloud Lambda secures $1B in debt to buy more chips",
-          "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
-          "publishedAt": "2026-08-28T20:24:11.000Z"
-        }
-      ]
-    },
-    {
-      "id": "c194a985-9534-4fef-997e-773b83d48749",
-      "title": "US builds barriers around foreign drones and robots as China scales",
-      "summary": "The US is shutting out more foreign-made drones and robots, but China's manufacturing scale means the global competition for AI-driven hardware may simply move elsewhere.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-08-31T18:53:33.047Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:33.047Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The US is building barriers around drones and robots, but China has scale to get around them",
-          "url": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
-          "publishedAt": "2026-08-31T02:34:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "16986edd-ec06-47ce-ba40-8c31afc9cb38",
-      "title": "DeepMind releases Gemini Omni 1.1 Flash",
-      "summary": "Google DeepMind released Gemini Omni 1.1 Flash, giving developers more control when building with the model.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-08-31T18:53:32.985Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:32.985Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Gemini Omni 1.1 Flash lets you build with more control",
-          "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-          "publishedAt": "2026-08-27T16:11:32.000Z"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Google Rolls Out Gemini Omni 1.1 Flash With 4K Video, 40-Second Extension Support And More",
-          "url": "https://in.mashable.com/tech/113375/google-rolls-out-gemini-omni-11-flash-with-4k-video-40-second-extension-support-and-more",
-          "publishedAt": "2026-08-28T10:08:38.000Z"
-        }
-      ]
-    },
-    {
-      "id": "645c301f-4b07-4ae1-a333-b1ddc18bd4ee",
-      "title": "OpenAI disrupts Russia-origin covert influence campaign",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a \"sovereignty\" index praising Russia and criticizing the West.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-08-31T18:53:06.638Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:06.638Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Disrupting a new covert influence campaign from Russia",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-          "publishedAt": "2026-08-25T00:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "590c6f50-cbe0-4c4e-880e-a79c1b40ba6a",
-      "title": "ICE seeks a Boston Dynamics robot dog unit",
-      "summary": "ICE is seeking to acquire a Boston Dynamics-made robot \"K9\" unit, raising questions about AI-driven robotics in immigration enforcement.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-01T18:56:54.447Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T18:56:54.447Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "ICE Wants a Boston Dynamics K9 Unit",
-          "url": "https://gizmodo.com/ice-wants-a-boston-dynamics-k9-unit-2000804598",
-          "publishedAt": "2026-08-29T13:44:49.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d557242a-3681-44d2-9f17-82e91b819fca",
-      "title": "Google's AI Mode adds flight tracking and hotel booking",
-      "summary": "Google's AI Mode can now track flight prices and help book hotels, positioning it further as an AI travel agent handling parts of trip planning and booking.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-08-31T18:54:11.835Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.835Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
-          "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
-          "publishedAt": "2026-08-27T16:00:00.000Z"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google brings trip-planning features to Search's AI Mode",
-          "url": "https://www.engadget.com/2245553/google-brings-trip-planning-features-to-search-ai-mode/",
-          "publishedAt": "2026-08-27T16:04:10.000Z"
-        }
-      ]
-    },
-    {
-      "id": "e6c95af4-177f-4420-a748-03bbb773c762",
-      "title": "Barret Zoph, ousted Thinking Machines co-founder, lands at Google",
-      "summary": "Barret Zoph, who co-founded Thinking Machines Lab with Mira Murati, had a brief stint at OpenAI and is now at Google.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-08-31T18:54:11.826Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.826Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-          "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
-          "publishedAt": "2026-08-27T19:52:52.000Z"
-        }
-      ]
-    },
-    {
-      "id": "53e3a8f5-a120-432d-a257-e94bcc334a07",
-      "title": "Musk's SpaceX foundry accelerates gas turbine buildout for AI power",
-      "summary": "Elon Musk says a new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster, but the approach is drawing lawsuits and health-impact concerns.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-08-31T18:54:11.769Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.769Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Musk’s faster path to more gas turbines comes with pollution problem",
-          "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
-          "publishedAt": "2026-08-30T16:54:25.000Z"
-        }
-      ]
     }
   ],
-  "totalCount": 89,
+  "totalCount": 103,
   "hasMore": true
 }
