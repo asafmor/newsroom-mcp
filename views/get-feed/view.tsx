@@ -57,11 +57,15 @@ function Feed({ generatedAt, stories }: { readonly generatedAt: string; readonly
   const scrollAreaRef = useRef<HTMLDivElement>(null);
   const lastFocused = useRef<HTMLElement | null>(null);
 
-  const sorted = [...stories].sort((a, b) =>
+  // "top" trusts the server's own order — get-feed already ranks stories by
+  // importance decayed since lastMeaningfulUpdateAt, which is smarter than
+  // re-sorting by raw importanceScore here. Only "latest" re-sorts client-side.
+  const sorted =
     sortMode === "latest"
-      ? new Date(b.firstSeenAt).getTime() - new Date(a.firstSeenAt).getTime()
-      : b.importanceScore - a.importanceScore,
-  );
+      ? [...stories].sort(
+          (a, b) => new Date(latestPublishedAt(b)).getTime() - new Date(latestPublishedAt(a)).getTime(),
+        )
+      : stories;
 
   function openStory(story: FeedStory, trigger: HTMLElement) {
     lastFocused.current = trigger;
@@ -158,7 +162,7 @@ function StoryCard({ story, onOpen }: { readonly story: FeedStory; readonly onOp
       }}
     >
       <div className="story-meta-row">
-        <span>{timeAgo(story.firstSeenAt)}</span>
+        <span>{timeAgo(latestPublishedAt(story))}</span>
         <span className="dot-sep">
           {n} source{n === 1 ? "" : "s"}
         </span>
@@ -239,7 +243,7 @@ function SourceSheet({ story, onClose }: { readonly story: FeedStory; readonly o
             <div>
               <div className="sheet-stat-label">First seen</div>
               <div className="sheet-stat-value">
-                {shortDate(story.firstSeenAt)} · {shortTime(story.firstSeenAt)}
+                {shortDate(earliestPublishedAt(story))} · {shortTime(earliestPublishedAt(story))}
               </div>
             </div>
             <div>
@@ -281,6 +285,16 @@ function SourceSheet({ story, onClose }: { readonly story: FeedStory; readonly o
       </section>
     </>
   );
+}
+
+// World-time, not ingest-time: a story's sources may be reported at different
+// moments, so "latest"/"earliest" reflects when the news actually happened
+// rather than story.firstSeenAt (when our server first pulled it in).
+function latestPublishedAt(story: FeedStory): string {
+  return story.sources.reduce((max, s) => (s.publishedAt > max ? s.publishedAt : max), story.sources[0].publishedAt);
+}
+function earliestPublishedAt(story: FeedStory): string {
+  return story.sources.reduce((min, s) => (s.publishedAt < min ? s.publishedAt : min), story.sources[0].publishedAt);
 }
 
 function timeAgo(iso: string): string {
