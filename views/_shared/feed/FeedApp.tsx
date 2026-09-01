@@ -191,39 +191,45 @@ function Feed({
   }
 
   return (
-    <div className="app-shell">
-      <div className="scroll-area" ref={scrollAreaRef}>
-        <FeedHeader
-          generatedAt={generatedAt}
-          sortMode={sortMode}
-          onSortChange={(mode) => {
-            setSortMode(mode);
-            scrollAreaRef.current?.scrollTo({ top: 0, behavior: "smooth" });
-          }}
-          theme={theme}
-          onThemeChange={onThemeChange}
-          providers={providers}
-          providerFilter={providerFilter}
-          onProviderFilterChange={setProviderFilter}
-          searchQuery={search}
-          onSearchChange={setSearch}
-        />
-        <main className="story-feed" aria-live="polite">
-          {sorted.length === 0 ? (
-            <EmptyState
-              title={stories.length === 0 ? "No stories right now" : "No matching stories"}
-              message={
-                stories.length === 0
-                  ? "Newsroom refreshes automatically as new AI coverage comes in — check back soon."
-                  : "Try a different search term or provider filter."
-              }
-            />
-          ) : (
-            sorted.map((story) => <StoryCard key={story.id} story={story} onOpen={openStory} />)
-          )}
-        </main>
+    <>
+      <div className="app-shell">
+        <div className="scroll-area" ref={scrollAreaRef}>
+          <FeedHeader
+            generatedAt={generatedAt}
+            sortMode={sortMode}
+            onSortChange={(mode) => {
+              setSortMode(mode);
+              scrollAreaRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            theme={theme}
+            onThemeChange={onThemeChange}
+            providers={providers}
+            providerFilter={providerFilter}
+            onProviderFilterChange={setProviderFilter}
+            searchQuery={search}
+            onSearchChange={setSearch}
+          />
+          <main className="story-feed" aria-live="polite">
+            {sorted.length === 0 ? (
+              <EmptyState
+                title={stories.length === 0 ? "No stories right now" : "No matching stories"}
+                message={
+                  stories.length === 0
+                    ? "Newsroom refreshes automatically as new AI coverage comes in — check back soon."
+                    : "Try a different search term or provider filter."
+                }
+              />
+            ) : (
+              sorted.map((story) => <StoryCard key={story.id} story={story} onOpen={openStory} />)
+            )}
+          </main>
+        </div>
       </div>
 
+      {/* Sibling of .app-shell, not a child — .app-shell's overflow:hidden
+          clips position:fixed descendants on mobile WebKit (and breaks
+          backdrop-filter compositing along with it), even though fixed
+          positioning is meant to escape the ancestor's box entirely. */}
       {renderedStory === undefined ? null : (
         <SourceSheet
           story={renderedStory}
@@ -233,6 +239,6 @@ function Feed({
           onOpenSource={onOpenSource}
         />
       )}
-    </div>
+    </>
   );
 }

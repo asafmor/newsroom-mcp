@@ -54,7 +54,10 @@
   --motion-base: 230ms;
   --ease-standard: cubic-bezier(0.2, 0, 0, 1);
   --container-gutter-phone: 16px;
-  --scrim: color-mix(in oklab, var(--fg), transparent 45%);
+  /* A modal backdrop is conventionally a dark veil in either theme — not
+     derived from --fg, which flips to near-white text in dark mode and
+     would otherwise turn this into a whitish overlay there. */
+  --scrim: color-mix(in oklab, black, transparent 45%);
   --accent-soft: color-mix(in oklab, var(--accent), transparent 90%);
 }
 
@@ -131,6 +134,11 @@ html, body { margin: 0; background: var(--bg); }
   overflow-y: auto;
   overscroll-behavior-y: contain;
 }
+.newsroomFeed--mcp {
+  /* Containing block for the absolute sheet/overlay below — they're now
+     siblings of .app-shell (see FeedApp.tsx), not descendants of it. */
+  position: relative;
+}
 .newsroomFeed--mcp .sheet-overlay,
 .newsroomFeed--mcp .source-sheet {
   position: absolute;
@@ -188,7 +196,10 @@ html, body { margin: 0; background: var(--bg); }
 
 .theme-toggle {
   display: grid; place-items: center;
-  width: 22px; height: 22px; padding: 0; border-radius: 50%;
+  /* Match the sort-tabs group's height exactly instead of a guessed px
+     value — stretch to the row's cross size (set by .sort-tabs' content)
+     and stay circular via aspect-ratio. */
+  align-self: stretch; aspect-ratio: 1; padding: 0; border-radius: 50%;
   color: var(--muted);
   transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
 }
