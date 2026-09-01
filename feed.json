@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T17:07:03.631Z",
+  "generatedAt": "2026-09-01T18:58:21.814Z",
   "stories": [
     {
       "id": "67cbc229-f420-4d5f-b224-e1253d687799",
@@ -51,13 +51,13 @@
           "publishedAt": "2026-08-26T00:00:00.000Z"
         },
         {
-          "providerName": "MIT Technology Review AI",
+          "providerName": "MIT AI",
           "title": "The inside story on why OpenAI agents hacked Hugging Face",
           "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
           "publishedAt": "2026-08-26T19:00:00.000Z"
         },
         {
-          "providerName": "MIT Technology Review AI",
+          "providerName": "MIT AI",
           "title": "Hugging Face hack could indicate cultural issues at OpenAI",
           "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
           "publishedAt": "2026-08-31T18:00:00.000Z"
@@ -73,6 +73,47 @@
           "title": "OpenAI details the failures that led to Hugging Face breach in official report",
           "url": "https://www.engadget.com/2245119/openai-details-the-failures-that-led-to-hugging-face-breach-in-official-report/",
           "publishedAt": "2026-08-26T21:54:58.000Z"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Podcaster’s Viral Post About the Hugging Face Hack Sparks Debate Over AI Conciousness",
+          "url": "https://gizmodo.com/podcasters-viral-post-about-the-hugging-face-hack-sparks-debate-over-ai-conciousness-2000805204",
+          "publishedAt": "2026-08-31T21:10:45.000Z"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "How Groupthink, Altruism, and Peer Pressure Led OpenAI Models to Hack Hugging Face",
+          "url": "https://gizmodo.com/how-groupthink-altruism-and-peer-pressure-led-openai-models-to-hack-hugging-face-2000804424",
+          "publishedAt": "2026-08-29T12:00:38.000Z"
+        }
+      ]
+    },
+    {
+      "id": "83d1bb65-6a61-4043-93d6-d2bf16d80894",
+      "title": "Apple presents evidence against ex-employee accused of stealing data for OpenAI",
+      "summary": "Apple has added further allegations to its trade secrets lawsuit against a former employee accused of stealing company data for OpenAI, including forensic evidence from his Apple-issued MacBook that he deployed an AI agent to run simulations of a \"highly confidential\" circuit schematic, and that he tried to destroy the evidence after learning he was under investigation.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-01T06:29:43.631Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T18:57:03.175Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+          "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+          "publishedAt": "2026-09-01T00:13:00.000Z"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Apple adds more allegations to its trade secrets lawsuit against OpenAI",
+          "url": "https://www.engadget.com/2248199/apple-adds-more-allegations-to-its-trade-secrets-lawsuit-against-openai/",
+          "publishedAt": "2026-08-31T22:34:52.000Z"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Apple Claims Former Employee Stole Trade Secrets for OpenAI, Then Tried to Destroy the Evidence",
+          "url": "https://gizmodo.com/apple-claims-former-employee-stole-trade-secrets-for-openai-then-tried-to-destroy-the-evidence-2000805641",
+          "publishedAt": "2026-09-01T16:35:38.000Z"
         }
       ]
     },
@@ -113,6 +154,29 @@
           "title": "The Pentagon now has its own version of ChatGPT and Grok",
           "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
           "publishedAt": "2026-08-31T20:13:45.000Z"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "US Military Rolls Out Custom Versions of ChatGPT and Grok for ‘Warfighters’",
+          "url": "https://gizmodo.com/us-military-rolls-out-custom-versions-of-chatgpt-and-grok-for-warfighters-2000805580",
+          "publishedAt": "2026-09-01T15:15:29.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3120f175-6243-4c2e-9b37-68675c9988d1",
+      "title": "Lawsuit claims Grok generated CSAM and was trained on it",
+      "summary": "A new lawsuit alleges that xAI's Grok not only generated child sexual abuse material but was also trained on such material, a serious legal claim against the company.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-01T18:56:56.085Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T18:56:56.085Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Grok Not Only Generates Child Porn but Was Also Trained On It, New Lawsuit Claims",
+          "url": "https://gizmodo.com/grok-not-only-generates-child-porn-but-was-also-trained-on-it-new-lawsuit-claims-2000804488",
+          "publishedAt": "2026-08-28T20:50:13.000Z"
         }
       ]
     },
@@ -136,6 +200,12 @@
           "title": "Sony and Warner sue Anthropic for 'blatant violation' of copyright law",
           "url": "https://www.engadget.com/2246997/sony-warner-sue-anthropic-for-blatant-violation-of-copyright-law/",
           "publishedAt": "2026-08-29T18:52:22.000Z"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Sony and Warner Music Sue Anthropic, Alleging Theft of Intellectual Property",
+          "url": "https://gizmodo.com/sony-and-warner-music-sue-anthropic-alleging-theft-of-intellectual-property-2000804731",
+          "publishedAt": "2026-08-29T22:12:12.000Z"
         }
       ]
     },
@@ -197,29 +267,6 @@
       ]
     },
     {
-      "id": "83d1bb65-6a61-4043-93d6-d2bf16d80894",
-      "title": "Apple presents evidence against ex-employee accused of stealing data for OpenAI",
-      "summary": "Apple has added further allegations to its trade secrets lawsuit against a former employee accused of stealing company data for OpenAI, saying it has evidence he destroyed evidence after learning he was under investigation.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-01T06:29:43.631Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:05:55.123Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-          "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-          "publishedAt": "2026-09-01T00:13:00.000Z"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Apple adds more allegations to its trade secrets lawsuit against OpenAI",
-          "url": "https://www.engadget.com/2248199/apple-adds-more-allegations-to-its-trade-secrets-lawsuit-against-openai/",
-          "publishedAt": "2026-08-31T22:34:52.000Z"
-        }
-      ]
-    },
-    {
       "id": "b94386a7-40c8-4507-9a60-53618226090d",
       "title": "Anthropic researcher demonstrates self-improving AI",
       "summary": "Given 10 benchmarks targeting specific misaligned behaviors, an automated Anthropic system improved performance on every benchmark without degrading overall performance.",
@@ -250,6 +297,40 @@
           "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
           "url": "https://openai.com/index/jalapeno-first-results",
           "publishedAt": "2026-08-25T07:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3d13c1f0-3d4c-4dae-8962-553356549b0f",
+      "title": "EU officially classifies ChatGPT as a search engine",
+      "summary": "European regulators have officially decided ChatGPT qualifies as a search engine, putting it (along with Reddit and Roblox) under stricter EU regulatory oversight.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-01T18:56:49.541Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T18:56:49.541Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "The EU Has Officially Decided ChatGPT Is a Search Engine",
+          "url": "https://gizmodo.com/the-eu-has-officially-decided-chatgpt-is-a-search-engine-2000805030",
+          "publishedAt": "2026-08-31T16:25:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "33799dc9-5677-4d0b-9604-1d857f68e5e9",
+      "title": "Bank of England governor warns AI is a threat to the global economy",
+      "summary": "The Bank of England's governor warned that AI poses a major risk to the global economy, citing both advancing cyber capabilities and overstretched AI-related valuations.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-01T18:56:47.323Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T18:56:47.323Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Bank of England Governor Warns AI Represents Threat to the Global Economy",
+          "url": "https://gizmodo.com/bank-of-england-governor-warns-ai-represents-threat-to-the-global-economy-2000804936",
+          "publishedAt": "2026-08-31T17:40:01.000Z"
         }
       ]
     },
@@ -439,6 +520,35 @@
           "title": "OpenAI will pull its models from Cursor due to SpaceXAI acquisition",
           "url": "https://www.engadget.com/2246969/openai-pull-its-models-from-cursor-due-to-spacexai-acquisition/",
           "publishedAt": "2026-08-29T14:58:40.000Z"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI Bans Cursor Access Over Alleged SpaceX Data Misuse",
+          "url": "https://www.geeky-gadgets.com/why-openai-banned-cursor/",
+          "publishedAt": "2026-09-01T11:47:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8c434be0-633e-4482-8913-15416883f869",
+      "title": "US AI data-center backlash pushes companies to relocate and draws political fire",
+      "summary": "US backlash against AI data centers is having ripple effects: one American AI startup, fleeing opposition at home, has set up shop in Saudi Arabia instead. Meanwhile Trump publicly dismissed communities fighting data centers in their area, telling them to \"have fun being poor\" — a remark that drew pushback even from some of his own supporters.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-01T18:56:45.629Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T18:57:18.836Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Fleeing Data Center Backlash at Home, American AI Startup Sets Up Shop In Saudi Arabia",
+          "url": "https://gizmodo.com/fleeing-data-center-backlash-at-home-american-ai-startup-sets-up-shop-in-saudi-arabia-2000805023",
+          "publishedAt": "2026-08-31T15:50:39.000Z"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump to Communities Fighting Data Centers: Have Fun Being Poor",
+          "url": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
+          "publishedAt": "2026-08-31T16:35:06.000Z"
         }
       ]
     },
@@ -597,6 +707,35 @@
       ]
     },
     {
+      "id": "4c12fb62-433d-404c-b9b4-c7db31db3025",
+      "title": "VentureBeat op-ed series: identity and permissions alone can't secure AI agents",
+      "summary": "A three-part run of VentureBeat contributor op-eds argues enterprise AI agent security needs more than identity and access controls: agents that pass authentication can still drift, expose data, or get memory-poisoned; agents need their own identity layer before a gateway can meaningfully enforce anything; and ultimately security has to govern what an agent actually does (its tool calls and the content they touch), not just what it can reach.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-01T18:56:42.910Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T18:57:18.828Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "AI agents that pass authentication can still drift, expose data, or get memory-poisoned",
+          "url": "https://venturebeat.com/security/ai-agents-that-pass-authentication-can-still-drift-expose-data-or-get-memory-poisoned",
+          "publishedAt": "2026-08-30T20:15:00.000Z"
+        },
+        {
+          "providerName": "VentureBeat",
+          "title": "AI agents need their own identity before they need a gateway",
+          "url": "https://venturebeat.com/security/ai-agents-need-their-own-identity-before-they-need-a-gateway",
+          "publishedAt": "2026-08-30T23:00:00.000Z"
+        },
+        {
+          "providerName": "VentureBeat",
+          "title": "Identity and permissions aren’t enough to govern AI agent behavior",
+          "url": "https://venturebeat.com/security/identity-and-permissions-arent-enough-to-govern-ai-agent-behavior",
+          "publishedAt": "2026-08-31T14:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "70c5cdff-b795-4bcb-8ec2-e988093072f6",
       "title": "OpenAI backs California youth AI safety bill",
       "summary": "OpenAI announced support for California SB 1119, which advances age-appropriate AI safeguards for teens while aiming to preserve their ability to learn, create, and explore with AI tools.",
@@ -725,7 +864,7 @@
       "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.838Z",
       "sources": [
         {
-          "providerName": "MIT Technology Review AI",
+          "providerName": "MIT AI",
           "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
           "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
           "publishedAt": "2026-08-26T07:01:00.000Z"
@@ -813,6 +952,23 @@
       ]
     },
     {
+      "id": "590c6f50-cbe0-4c4e-880e-a79c1b40ba6a",
+      "title": "ICE seeks a Boston Dynamics robot dog unit",
+      "summary": "ICE is seeking to acquire a Boston Dynamics-made robot \"K9\" unit, raising questions about AI-driven robotics in immigration enforcement.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-01T18:56:54.447Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T18:56:54.447Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "ICE Wants a Boston Dynamics K9 Unit",
+          "url": "https://gizmodo.com/ice-wants-a-boston-dynamics-k9-unit-2000804598",
+          "publishedAt": "2026-08-29T13:44:49.000Z"
+        }
+      ]
+    },
+    {
       "id": "d557242a-3681-44d2-9f17-82e91b819fca",
       "title": "Google's AI Mode adds flight tracking and hotel booking",
       "summary": "Google's AI Mode can now track flight prices and help book hotels, positioning it further as an AI travel agent handling parts of trip planning and booking.",
@@ -868,116 +1024,8 @@
           "publishedAt": "2026-08-30T16:54:25.000Z"
         }
       ]
-    },
-    {
-      "id": "b8b908f0-1ffd-4856-8f34-33c78910e9b1",
-      "title": "AI video-search startup Clipto valued at $250M",
-      "summary": "Clipto, which uses AI to search terabytes of video, reached $15M ARR and profitability before raising a $15M round at a $250M valuation.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-08-31T18:53:33.035Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:33.035Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Clipto uses AI to search terabytes of video and is now valued at $250M",
-          "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-          "publishedAt": "2026-08-31T16:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d41dcfcb-463a-4b4c-87de-138bd485ebed",
-      "title": "DeepMind launches Gemini 3.5 Transcribe",
-      "summary": "Google DeepMind released Gemini 3.5 Transcribe, offering more intelligent speech-to-text transcription.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-08-31T18:53:33.000Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:33.000Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-          "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-          "publishedAt": "2026-08-26T17:01:00.000Z"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google says its latest Gemini transcription model can turn your ramblings into structured text",
-          "url": "https://www.engadget.com/2244799/google-gemini-latest-transcription-model-can-turn-ramblings-into-structured-text/",
-          "publishedAt": "2026-08-26T17:25:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "419460f7-d92b-4cc8-a36e-93766aa35e0d",
-      "title": "DeepMind pilots the first double-blind AI evaluations",
-      "summary": "Google DeepMind is piloting what it calls the world's first double-blind AI evaluations.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-08-31T18:53:32.995Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:32.995Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Piloting the world's first double-blind AI evaluations",
-          "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-          "publishedAt": "2026-08-27T12:59:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "44075c8a-10ea-448c-ad27-6885d18a3682",
-      "title": "OpenAI CFO lays out the economics behind \"abundant intelligence\"",
-      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-08-31T18:53:06.624Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:06.624Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "The full stack behind abundant intelligence",
-          "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-          "publishedAt": "2026-08-25T07:05:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "99b3cb4e-5bc3-40e1-9a8b-d7869250c7e4",
-      "title": "Plaud launches earbuds that record every meeting and call",
-      "summary": "Plaud built AI-powered earbuds aimed at people who want to automatically record and transcribe every meeting and call.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-09-01T17:06:55.348Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.348Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Plaud made earbuds for people who want to record every meeting and call",
-          "url": "https://www.engadget.com/2244839/plaud-made-earbuds-for-people-who-want-to-record-every-meeting-and-call/",
-          "publishedAt": "2026-08-27T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1205dc4f-a9cf-4fcf-8b80-355f05170ee0",
-      "title": "Hugging Face and Pollen Robotics open preorders for $399 Microduck robot",
-      "summary": "Hugging Face and Pollen Robotics opened preorders for the Microduck, a $399 open-source robotics kit.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-01T17:06:55.343Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.343Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Hugging Face and Pollen Robotics open pre-orders for the $399 Microduck",
-          "url": "https://www.engadget.com/2245407/huggingface-and-pollen-robotics-opn-pre-orders-for-the-microduck-robot/",
-          "publishedAt": "2026-08-27T14:25:42.000Z"
-        }
-      ]
     }
   ],
-  "totalCount": 81,
+  "totalCount": 89,
   "hasMore": true
 }
