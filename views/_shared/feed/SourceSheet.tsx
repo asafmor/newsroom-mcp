@@ -10,6 +10,16 @@ import { Avatar } from "./Avatar.js";
 // a shared constant module would be the fix if these ever drift apart.
 const EXIT_DURATION_MS = 230;
 
+// Drag the handle down past this many px to dismiss on release.
+// ponytail: distance-only threshold, no flick/velocity detection — add if a
+// fast short drag ever feels like it should dismiss too.
+const DISMISS_DRAG_PX = 100;
+// Drag the handle up (there's nowhere to expand to — the sheet already opens
+// at its max height) and it only follows at 20% of the finger, capped here —
+// a rubber-band cue that this is the top, not a real resize.
+const OVERDRAG_RESISTANCE = 0.2;
+const OVERDRAG_MAX_PX = 8;
+
 export function SourceSheet({
   story,
   open,
@@ -31,6 +41,33 @@ export function SourceSheet({
   // added *after* first paint — otherwise the sheet mounts already in its
   // final position and the CSS transition never has a state change to animate.
   const [visible, setVisible] = useState(false);
+
+  // Handle drag: dragY is the live pointer offset applied as an inline
+  // transform (down follows the finger 1:1; up is rubber-banded — see
+  // OVERDRAG_RESISTANCE). isDragging suppresses the CSS transition while
+  // tracking the finger, then re-enables it so the release (snap back or
+  // slide the rest of the way closed) animates.
+  const [dragY, setDragY] = useState(0);
+  const [isDragging, setIsDragging] = useState(false);
+  const dragStartY = useRef<number | null>(null);
+
+  function onHandlePointerDown(e: React.PointerEvent<HTMLDivElement>) {
+    e.currentTarget.setPointerCapture(e.pointerId);
+    dragStartY.current = e.clientY;
+    setIsDragging(true);
+  }
+  function onHandlePointerMove(e: React.PointerEvent<HTMLDivElement>) {
+    if (dragStartY.current === null) return;
+    const delta = e.clientY - dragStartY.current;
+    setDragY(delta > 0 ? delta : Math.max(delta * OVERDRAG_RESISTANCE, -OVERDRAG_MAX_PX));
+  }
+  function onHandlePointerUp() {
+    if (dragStartY.current === null) return;
+    dragStartY.current = null;
+    setIsDragging(false);
+    if (dragY > DISMISS_DRAG_PX) onClose();
+    setDragY(0);
+  }
 
   useEffect(() => {
     if (!open) {
@@ -63,8 +100,21 @@ export function SourceSheet({
   return (
     <>
       <div className={`sheet-overlay${visible ? " open" : ""}`} onClick={onClose} />
-      <section className={`source-sheet${visible ? " open" : ""}`} role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
-        <div className="sheet-handle" aria-hidden="true" />
+      <section
+        className={`source-sheet${visible ? " open" : ""}`}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="sheetTitle"
+        style={dragY === 0 ? undefined : { transform: `translateY(${dragY}px)`, transition: isDragging ? "none" : undefined }}
+      >
+        <div
+          className="sheet-handle"
+          aria-hidden="true"
+          onPointerDown={onHandlePointerDown}
+          onPointerMove={onHandlePointerMove}
+          onPointerUp={onHandlePointerUp}
+          onPointerCancel={onHandlePointerUp}
+        />
         <div className="sheet-head">
           <div className="sheet-head-row">
             <h2 className="sheet-title" id="sheetTitle">

@@ -1,13 +1,6 @@
 /* The MCP View has no <head> of its own (sandboxed host iframe) — load the
    font here too so it isn't limited to the standalone site's <link> tags. */
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
-
-.jetbrains-mono-feed {
-  font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 /* ─── design system tokens — copied verbatim from the approved mockup ──── */
 :root {
@@ -65,6 +58,27 @@
   --accent-soft: color-mix(in oklab, var(--accent), transparent 90%);
 }
 
+[data-theme="dark"] {
+  --bg: #0b1220;
+  --surface: #161f2e;
+  --surface-warm: #0e1626;
+  --fg: #e7ebf3;
+  --fg-2: #b7c1d1;
+  --muted: #8290a6;
+  --meta: #7aa8ff;
+  --border: #2a3547;
+  --border-soft: #1c2534;
+  --accent: #5b93ff;
+  --accent-on: #0b1220;
+  --accent-hover: color-mix(in oklab, var(--accent), white 10%);
+  --accent-active: color-mix(in oklab, var(--accent), white 18%);
+  --success: #4ade80;
+  --warn: #fbbf24;
+  --danger: #f87171;
+  --focus-ring: 0 0 0 4px rgba(91, 147, 255, 0.3);
+  --elev-raised: 0 20px 52px rgba(0, 0, 0, 0.45);
+}
+
 html, body { margin: 0; background: var(--surface-warm); }
 
 .newsroomFeed *,
@@ -77,10 +91,12 @@ html, body { margin: 0; background: var(--surface-warm); }
   background: var(--surface-warm);
   color: var(--fg);
   font-family: var(--font-body);
+  font-optical-sizing: auto;
   font-size: var(--text-base);
   line-height: var(--leading-body);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  transition: background var(--motion-base) var(--ease-standard), color var(--motion-base) var(--ease-standard);
 }
 .newsroomFeed img,
 .newsroomFeed svg { display: block; }
@@ -166,6 +182,18 @@ html, body { margin: 0; background: var(--surface-warm); }
   background-size: 14px;
 }
 
+/* Header-right cluster: theme toggle + sort toggle, top-aligned against the brand. */
+.header-controls { display: flex; align-items: center; gap: var(--space-2); flex-shrink: 0; }
+
+.theme-toggle {
+  display: grid; place-items: center;
+  width: 22px; height: 22px; border-radius: 50%;
+  color: var(--muted);
+  transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
+}
+.theme-toggle:hover { background: var(--border-soft); color: var(--fg-2); }
+.theme-toggle svg { width: 14px; height: 14px; }
+
 /* Small and secondary on purpose — sort is a minor refinement, not a primary action.
    Lives in meta-row now, alongside the story count. */
 .sort-tabs {
@@ -173,8 +201,8 @@ html, body { margin: 0; background: var(--surface-warm); }
   background: var(--border-soft); border-radius: var(--radius-pill); padding: 2px;
 }
 .sort-tab {
-  padding: 2px 7px; border-radius: var(--radius-pill);
-  font-size: 10px; font-weight: 600; color: var(--muted);
+  padding: 1px 6px; border-radius: var(--radius-pill);
+  font-size: 8px; font-weight: 600; color: var(--muted);
   transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
 }
 .sort-tab[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: var(--elev-ring); }
@@ -268,7 +296,18 @@ html, body { margin: 0; background: var(--surface-warm); }
   transition: transform var(--motion-base) var(--ease-standard);
 }
 .source-sheet.open { transform: translateY(0); }
-.sheet-handle { width: 36px; height: 4px; border-radius: var(--radius-pill); background: var(--border); margin: 10px auto 0; flex-shrink: 0; }
+/* Padded well past the visible bar so the drag target is thumb-sized, not
+   just the 4px pill — touch-action: none stops the browser's own scroll/
+   pull-to-refresh gestures from fighting the pointer drag. */
+.sheet-handle {
+  width: 100%; padding: 10px 0 14px;
+  flex-shrink: 0; cursor: grab; touch-action: none;
+}
+.sheet-handle::before {
+  content: ""; display: block;
+  width: 36px; height: 4px; border-radius: var(--radius-pill); background: var(--border); margin: 0 auto;
+}
+.sheet-handle:active { cursor: grabbing; }
 .sheet-head { padding: var(--space-3) var(--space-4) var(--space-3); border-bottom: 1px solid var(--border); flex-shrink: 0; }
 .sheet-head-row { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-3); }
 .sheet-title { font-size: 17px; font-weight: 700; line-height: 1.45; letter-spacing: var(--tracking-display); text-wrap: balance; }

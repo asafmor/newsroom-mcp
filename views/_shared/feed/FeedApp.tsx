@@ -1,12 +1,26 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { EmptyState } from "./EmptyState.js";
 import { FeedHeader } from "./FeedHeader.js";
 import { SkeletonCard } from "./SkeletonCard.js";
 import { SourceSheet } from "./SourceSheet.js";
 import { StoryCard } from "./StoryCard.js";
-import type { FeedStory, SortMode } from "./types.js";
+import type { FeedStory, SortMode, Theme } from "./types.js";
 import { latestPublishedAt } from "./formatters.js";
+
+const THEME_STORAGE_KEY = "newsroom-theme";
+
+// Sandboxed MCP host iframes can throw on localStorage access — theme
+// persistence is a nicety, not something worth crashing the feed over.
+function getInitialTheme(): Theme {
+  try {
+    const stored = localStorage.getItem(THEME_STORAGE_KEY);
+    if (stored === "light" || stored === "dark") return stored;
+  } catch {
+    // ignore
+  }
+  return matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
 
 export type FeedState =
   | { readonly status: "pending" }
@@ -31,12 +45,20 @@ export function FeedApp({
   /** "mcp" keeps the fixed-height scrolling card the sandboxed View was built for; "site" (default) lets the real page scroll and widens on desktop. */
   readonly variant?: "mcp" | "site";
 }) {
-  const rootClassName =
-    variant === "mcp" ? "newsroomFeed newsroomFeed--mcp jetbrains-mono-feed" : "newsroomFeed jetbrains-mono-feed";
+  const rootClassName = variant === "mcp" ? "newsroomFeed newsroomFeed--mcp" : "newsroomFeed";
+  const [theme, setTheme] = useState<Theme>(getInitialTheme);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(THEME_STORAGE_KEY, theme);
+    } catch {
+      // ignore — see getInitialTheme
+    }
+  }, [theme]);
 
   if (state.status === "error") {
     return (
-      <main className={rootClassName} lang={locale}>
+      <main className={rootClassName} data-theme={theme} lang={locale}>
         <EmptyState title="Could not load the feed" message={state.message} tone="error" />
       </main>
     );
@@ -44,13 +66,15 @@ export function FeedApp({
 
   if (state.status === "pending") {
     return (
-      <main className={rootClassName} lang={locale}>
+      <main className={rootClassName} data-theme={theme} lang={locale}>
         <div className="app-shell">
           <FeedHeader
             generatedAt={undefined}
             storyCount={undefined}
             sortMode="top"
             onSortChange={() => undefined}
+            theme={theme}
+            onThemeChange={setTheme}
             providers={[]}
             providerFilter="all"
             onProviderFilterChange={() => undefined}
@@ -68,8 +92,14 @@ export function FeedApp({
   }
 
   return (
-    <main className={rootClassName} lang={locale}>
-      <Feed generatedAt={state.generatedAt} stories={state.stories} onOpenSource={onOpenSource} />
+    <main className={rootClassName} data-theme={theme} lang={locale}>
+      <Feed
+        generatedAt={state.generatedAt}
+        stories={state.stories}
+        onOpenSource={onOpenSource}
+        theme={theme}
+        onThemeChange={setTheme}
+      />
     </main>
   );
 }
@@ -78,10 +108,14 @@ function Feed({
   generatedAt,
   stories,
   onOpenSource,
+  theme,
+  onThemeChange,
 }: {
   readonly generatedAt: string;
   readonly stories: readonly FeedStory[];
   readonly onOpenSource: (url: string) => void;
+  readonly theme: Theme;
+  readonly onThemeChange: (theme: Theme) => void;
 }) {
   const [sortMode, setSortMode] = useState<SortMode>("top");
   const [selected, setSelected] = useState<FeedStory | undefined>(undefined);
@@ -135,6 +169,8 @@ function Feed({
             setSortMode(mode);
             scrollAreaRef.current?.scrollTo({ top: 0, behavior: "smooth" });
           }}
+          theme={theme}
+          onThemeChange={onThemeChange}
           providers={providers}
           providerFilter={providerFilter}
           onProviderFilterChange={setProviderFilter}
