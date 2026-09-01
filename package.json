@@ -19,6 +19,7 @@
     "start": "mcp-use start",
     "start:stdio": "tsx stdio.ts",
     "publish-feed": "tsx scripts/publish-feed.ts",
+    "build:site": "vite build --config site/vite.config.ts",
     "typecheck": "mcp-use typecheck",
     "lint": "eslint .",
     "test": "vitest run --exclude test/live/**",
@@ -41,10 +42,12 @@
     "@types/node": "^22.20.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.5",
+    "@vitejs/plugin-react": "^6.0.5",
     "eslint": "^9.39.1",
     "tsx": "4.23.13",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.49.0",
+    "vite": "^8.0.16",
     "vitest": "^4.0.15"
   },
   "allowScripts": {

@@ -82,6 +82,10 @@
 .newsroomFeed :focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--radius-sm); }
 
 /* ─── app shell ────────────────────────────────────────────────────────── */
+/* Mobile-first: phone-card layout by default. The MCP View (variant="mcp")
+   stays at this fixed card width/height always — it renders inside a
+   sandboxed host panel sized for it. The standalone site (default) widens
+   past the phone breakpoints below. */
 .app-shell {
   position: relative;
   max-width: 448px;
@@ -90,9 +94,11 @@
   overflow: hidden;
 }
 .scroll-area {
+  overflow-x: hidden;
+}
+.newsroomFeed--mcp .scroll-area {
   max-height: 844px;
   overflow-y: auto;
-  overflow-x: hidden;
   overscroll-behavior-y: contain;
 }
 
@@ -256,6 +262,53 @@
 .source-item .open-icon { flex-shrink: 0; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; color: var(--accent); transition: background var(--motion-fast) var(--ease-standard); }
 .source-item:hover .open-icon { background: var(--accent-soft); }
 .source-item .open-icon svg { width: 14px; height: 14px; }
+
+/* ─── desktop: standalone site only (.newsroomFeed--mcp opts out — it's
+   always rendered at fixed card width inside a sandboxed host panel) ──── */
+@media (min-width: 640px) {
+  .newsroomFeed:not(.newsroomFeed--mcp) .app-shell {
+    max-width: 960px;
+    padding-inline: var(--space-6);
+  }
+  .newsroomFeed:not(.newsroomFeed--mcp) .feed-header {
+    padding-inline: var(--space-6);
+  }
+  .newsroomFeed:not(.newsroomFeed--mcp) .story-feed {
+    padding-inline: var(--space-6);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    align-items: start;
+  }
+  .newsroomFeed:not(.newsroomFeed--mcp) .feed-empty {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 900px) {
+  /* Source sheet becomes a centered modal instead of a bottom sheet.
+     `fixed` (not `absolute`) so it centers on the viewport rather than
+     .app-shell's own box, and escapes its `overflow: hidden` clipping. */
+  .newsroomFeed:not(.newsroomFeed--mcp) .sheet-overlay {
+    position: fixed;
+  }
+  .newsroomFeed:not(.newsroomFeed--mcp) .source-sheet {
+    position: fixed;
+    left: 50%; right: auto; bottom: auto; top: 50%;
+    width: min(560px, calc(100vw - var(--space-8)));
+    max-height: min(720px, calc(100vh - var(--space-8)));
+    border-radius: var(--radius-lg);
+    transform: translate(-50%, -50%) scale(0.96);
+    opacity: 0;
+    transition: transform var(--motion-base) var(--ease-standard), opacity var(--motion-base) var(--ease-standard);
+  }
+  .newsroomFeed:not(.newsroomFeed--mcp) .source-sheet.open {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  .newsroomFeed:not(.newsroomFeed--mcp) .sheet-handle {
+    display: none;
+  }
+}
 
 @media (prefers-reduced-motion: reduce) {
   .newsroomFeed * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }

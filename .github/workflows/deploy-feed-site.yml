@@ -1,0 +1,53 @@
+name: Deploy feed site
+
+# Builds site/ (the standalone React feed UI) and publishes it onto the
+# `feed` branch's GitHub Pages root, alongside the existing feed.json.
+# feed.json itself is untouched here — it's published separately by
+# `npm run publish-feed` (scripts/publish-feed.ts) after a curation run.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "shared-ui/**"
+      - ".github/workflows/deploy-feed-site.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build:site
+
+      - name: Checkout feed branch
+        uses: actions/checkout@v4
+        with:
+          ref: feed
+          path: feed-branch
+
+      - name: Publish built site, preserving feed.json
+        run: |
+          find feed-branch -mindepth 1 -maxdepth 1 ! -name feed.json ! -name .git -exec rm -rf {} +
+          cp -r site/dist/. feed-branch/
+
+      - name: Commit and push
+        working-directory: feed-branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && echo "No changes to publish" && exit 0
+          git commit -m "Deploy feed site from ${GITHUB_SHA::7}"
+          git push origin feed
