@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T07:09:57.699Z",
+  "generatedAt": "2026-09-01T16:56:29.721Z",
   "stories": [
     {
       "id": "67cbc229-f420-4d5f-b224-e1253d687799",
@@ -133,6 +133,23 @@
       ]
     },
     {
+      "id": "627930c0-2e15-44d5-a250-2a6199dfef4a",
+      "title": "AIR raises $50M to help companies vet skills and add-ons AI agents use",
+      "summary": "AIR raised a $50M round to build tools that help companies vet the skills and add-ons used by AI agents, addressing security and governance concerns around agent behavior.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-01T16:56:20.501Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T16:56:20.501Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
+          "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+          "publishedAt": "2026-09-01T15:45:51.000Z"
+        }
+      ]
+    },
+    {
       "id": "83d1bb65-6a61-4043-93d6-d2bf16d80894",
       "title": "Apple presents evidence against ex-employee accused of stealing data for OpenAI",
       "summary": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation, in a case alleging he stole company data for OpenAI.",
@@ -184,6 +201,23 @@
       ]
     },
     {
+      "id": "80f3ad09-aa4c-4e4e-ae3e-477c636793ce",
+      "title": "Sequoia-incubated Empirik launches with $21M to predict IT outages",
+      "summary": "Empirik, incubated by Sequoia, launched with $21M in funding to predict IT infrastructure outages before they happen, aiming to do for SREs what Cursor did for software engineering.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-01T16:56:20.486Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T16:56:20.486Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
+          "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
+          "publishedAt": "2026-09-01T16:31:04.000Z"
+        }
+      ]
+    },
+    {
       "id": "affffbbd-d3bd-4921-9f84-06ae7163a75c",
       "title": "OpenAI, Anthropic, Google, and 100+ companies call for action on rogue AI",
       "summary": "Major tech companies and AI startups jointly called for action to defend against rogue AI, decrying the current state of cybersecurity and proposing a new industry response to emerging cyber threats.",
@@ -231,6 +265,23 @@
           "title": "OpenAI supports California’s bill to advance youth AI safety",
           "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
           "publishedAt": "2026-08-31T07:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bcb0c58c-2773-4c05-9674-8d77cde7ab7f",
+      "title": "Hugging Face introduces @huggingface/kernels with 200+ WebGPU AI kernels",
+      "summary": "Hugging Face released @huggingface/kernels, a library of over 200 WebGPU kernels for running AI workloads more efficiently in the browser.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-01T16:56:20.512Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T16:56:20.512Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+          "url": "https://huggingface.co/blog/webgpu-kernels",
+          "publishedAt": "2026-09-01T00:00:00.000Z"
         }
       ]
     },
@@ -452,6 +503,40 @@
           "title": "The full stack behind abundant intelligence",
           "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
           "publishedAt": "2026-08-25T07:05:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9dd4f7cd-b622-448a-ba97-be108008b1dc",
+      "title": "Fambot introduces an AI chief of staff for families",
+      "summary": "Startup Fambot launched an AI agent positioned as a \"chief of staff\" for families, handling scheduling and coordination for households with kids.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-01T16:56:20.507Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T16:56:20.507Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Fambot introduces an ‘AI chief of staff’ for families",
+          "url": "https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/",
+          "publishedAt": "2026-09-01T15:10:58.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fda71a88-62eb-412d-9a49-952fb49579ef",
+      "title": "Amazon Alexa adds \"Update Me When\" AI shopping alerts",
+      "summary": "Amazon added a new Alexa-powered \"Update Me When\" feature that sends personalized AI alerts about product launches, tours, books, and other events that could trigger a purchase.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-01T16:56:20.495Z",
+      "lastMeaningfulUpdateAt": "2026-09-01T16:56:20.495Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Amazon Alexa can now alert you when something new might tempt you to shop",
+          "url": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
+          "publishedAt": "2026-09-01T15:51:55.000Z"
         }
       ]
     },
@@ -783,93 +868,8 @@
           "publishedAt": "2026-08-28T02:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "685e020d-533f-484b-8fb4-01c7e910c1ed",
-      "title": "TechBBQ Europe: AI conversations center on who's in control",
-      "summary": "Investors, founders, and operators at the Nordic TechBBQ conference debated how humans can retain agency over AI systems.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-08-31T18:54:11.791Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.791Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
-          "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
-          "publishedAt": "2026-08-29T17:51:10.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4d5dd62e-17fc-4a36-ba83-8cd1604a4241",
-      "title": "Gradio adds tooling for wiring and deploying AI workflows",
-      "summary": "Hugging Face's Gradio introduced tooling to wire, run, and deploy AI workflows.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-08-31T18:53:33.029Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:33.029Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-          "url": "https://huggingface.co/blog/gradio-workflow-guide",
-          "publishedAt": "2026-08-25T00:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1a6ba25e-aab0-4d59-92ae-e4ddba1f82c9",
-      "title": "OpenAI report explores AI-enabled continuous learning",
-      "summary": "OpenAI published a report on how students and educators use ChatGPT to make learning more continuous, extending support beyond the classroom.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-08-31T18:53:06.604Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:06.604Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Learning never stops: How AI makes learning continuous",
-          "url": "https://openai.com/index/learning-never-stops",
-          "publishedAt": "2026-08-26T10:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "751c1d70-1d6d-4078-89de-e41a58e510d4",
-      "title": "Meeting note-taker Circleback adds a free tier",
-      "summary": "Circleback introduced a free tier and new paid pricing plans starting at $14/month to attract more customers.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-08-31T18:53:33.043Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:33.043Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meeting note-taker Circleback adds a free tier to attract more customers",
-          "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
-          "publishedAt": "2026-08-31T12:56:46.000Z"
-        }
-      ]
-    },
-    {
-      "id": "6eed947c-1224-4f4e-8ca1-5e9b7bf633ab",
-      "title": "Hugging Face publishes guide on training multi-vector embedding models",
-      "summary": "Hugging Face published a technical guide on training and finetuning multi-vector embedding models with Sentence Transformers.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-08-31T18:53:33.013Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:33.013Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-          "url": "https://huggingface.co/blog/train-multi-vector-encoder",
-          "publishedAt": "2026-08-26T00:00:00.000Z"
-        }
-      ]
     }
   ],
-  "totalCount": 52,
+  "totalCount": 57,
   "hasMore": true
 }
