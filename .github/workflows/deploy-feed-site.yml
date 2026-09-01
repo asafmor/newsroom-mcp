@@ -9,7 +9,7 @@ on:
     branches: [main]
     paths:
       - "site/**"
-      - "shared-ui/**"
+      - "views/_shared/**"
       - ".github/workflows/deploy-feed-site.yml"
   workflow_dispatch: {}
 

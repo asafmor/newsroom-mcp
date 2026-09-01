@@ -103,13 +103,13 @@ keep or extend the protocol-level test in `test/mcp-server.test.ts`.
   `src/tools/get-feed-tool.ts`). No other tool has a view — most output stays
   as plain `structuredContent` for the calling agent, per
   `docs/architecture.md`.
-- `shared-ui/feed/` holds the story-card UI shared by two hosts:
+- `views/_shared/feed/` holds the story-card UI shared by two hosts:
   `views/get-feed/view.tsx` (the MCP View above, fed by `useToolContext`)
   and `site/` (a standalone Vite React app, fed by fetching `feed.json`
   directly — the same file `npm run publish-feed` publishes). `npm run
   build:site` builds `site/dist/`; `.github/workflows/deploy-feed-site.yml`
   pushes it onto the `feed` branch's GitHub Pages root on every `main` push
-  touching `site/**`/`shared-ui/**`, without touching `feed.json`.
+  touching `site/**`/`views/_shared/**`, without touching `feed.json`.
 - Providers fetch with native `fetch()`, not a full HTTP client library.
 - Every tool follows the same shape: validate with Zod, call one
   service/repository method, serialize `Date` fields to ISO 8601 strings via

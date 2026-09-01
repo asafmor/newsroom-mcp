@@ -26,8 +26,12 @@ export function FeedHeader({
     <header className="feed-header">
       <div className="brand-row">
         <div className="brand">
-          <span className="live-dot" aria-hidden="true" />
           <span className="wordmark">Newsroom</span>
+          <div className="meta-text">
+            <span className="updated-meta">{generatedAt === undefined ? "Updated —" : `Updated ${shortTime(generatedAt)}`}</span>
+            <span className="meta-sep" aria-hidden="true">·</span>
+            <span className="sample-tag">{storyCount === undefined ? "—" : `${String(storyCount)} stories`}</span>
+          </div>
         </div>
         <div className="sort-tabs" role="group" aria-label="Sort feed">
           <button className="sort-tab" aria-pressed={sortMode === "top"} onClick={() => { onSortChange("top"); }}>
@@ -37,11 +41,6 @@ export function FeedHeader({
             Latest
           </button>
         </div>
-      </div>
-      <div className="meta-row">
-        <span className="updated-meta">{generatedAt === undefined ? "Updated —" : `Updated ${shortTime(generatedAt)}`}</span>
-        <span className="meta-sep" aria-hidden="true">·</span>
-        <span className="sample-tag">{storyCount === undefined ? "—" : `${String(storyCount)} stories`}</span>
       </div>
       <div className="filter-row">
         <input
@@ -58,7 +57,7 @@ export function FeedHeader({
           value={providerFilter}
           onChange={(e) => { onProviderFilterChange(e.target.value); }}
         >
-          <option value="all">All providers</option>
+          <option value="all">All</option>
           {providers.map((provider) => (
             <option key={provider} value={provider}>
               {provider}

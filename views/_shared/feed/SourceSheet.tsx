@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 
 import type { FeedStory } from "./types.js";
-import { earliestPublishedAt, initials, shortDate, shortTime } from "./formatters.js";
+import { earliestPublishedAt, shortDate, shortTime } from "./formatters.js";
+import { spawnRipple } from "./ripple.js";
+import { Avatar } from "./Avatar.js";
 
 // Matches --motion-base in feed.css — the sheet's own slide/fade transition
 // duration. ponytail: duration is duplicated here instead of read from CSS;
@@ -100,12 +102,13 @@ export function SourceSheet({
               className="source-item"
               href={s.url}
               key={i}
+              onPointerDown={spawnRipple}
               onClick={(e) => {
                 e.preventDefault();
                 onOpenSource(s.url);
               }}
             >
-              <span className="avatar">{initials(s.providerName)}</span>
+              <Avatar providerName={s.providerName} />
               <span className="source-item-body">
                 <span className="source-provider">{s.providerName}</span>
                 <div className="source-title">{s.title}</div>

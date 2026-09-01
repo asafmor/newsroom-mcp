@@ -65,7 +65,7 @@
   --accent-soft: color-mix(in oklab, var(--accent), transparent 90%);
 }
 
-body { margin: 0; }
+html, body { margin: 0; background: var(--surface-warm); }
 
 .newsroomFeed *,
 .newsroomFeed *::before,
@@ -127,25 +127,19 @@ body { margin: 0; }
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
-  padding: var(--space-2) var(--container-gutter-phone) var(--space-2);
+  padding: var(--space-2);
 }
-.brand-row { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
-.brand { display: flex; align-items: center; gap: var(--space-2); min-width: 0; }
-.live-dot { position: relative; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
-.live-dot::after {
-  content: ""; position: absolute; inset: -4px; border-radius: 50%;
-  border: 1px solid var(--accent); opacity: 0.5;
-  animation: pulse 2.4s var(--ease-standard) 3 forwards;
-}
-@keyframes pulse { 0% { transform: scale(0.6); opacity: 0.6; } 100% { transform: scale(2.2); opacity: 0; } }
+/* Title + subtitle stack on the left (.brand), sort toggle on the right —
+   both sides of one row, so the toggle sits centered against the pair. */
+.brand-row { display: flex; align-items: flex-end; justify-content: space-between; gap: var(--space-3); }
+.brand { display: flex; flex-direction: column; gap: var(--space-1); min-width: 0; }
 .wordmark {
   font-family: var(--font-display); font-weight: 800; font-size: var(--text-xl); line-height: 1.15; letter-spacing: -0.03em;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0;
 }
 /* Below the title: former "AI News · Curated Feed" eyebrow was redundant —
-   replaced by the update time + story count that used to live at the
-   brand-row's opposite corners. That corner now holds the sort toggle. */
-.meta-row { display: flex; align-items: baseline; gap: var(--space-1); margin-top: var(--space-1); }
+   replaced by the update time + story count. */
+.meta-text { display: flex; align-items: baseline; gap: var(--space-1); min-width: 0; }
 .updated-meta,
 .sample-tag { font-family: var(--font-mono); font-size: 11px; color: var(--muted); white-space: nowrap; }
 .meta-sep { font-size: 11px; color: var(--muted); }
@@ -162,13 +156,18 @@ body { margin: 0; }
 .provider-select {
   max-width: 40%; flex-shrink: 0;
   font-size: var(--text-xs); color: var(--fg);
-  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md);
-  padding: 6px var(--space-2);
+  border: 1px solid var(--border); border-radius: var(--radius-md);
+  padding: 6px 24px 6px var(--space-2);
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  /* Native arrow sits flush against the edge with no way to inset it —
+     swap it for a positionable background chevron instead. */
+  appearance: none; -webkit-appearance: none; -moz-appearance: none;
+  background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 8px center;
+  background-size: 14px;
 }
 
 /* Small and secondary on purpose — sort is a minor refinement, not a primary action.
-   Lives in brand-row's corner now, so no margin-top of its own. */
+   Lives in meta-row now, alongside the story count. */
 .sort-tabs {
   display: inline-flex; gap: 2px; flex-shrink: 0;
   background: var(--border-soft); border-radius: var(--radius-pill); padding: 2px;
@@ -185,6 +184,7 @@ body { margin: 0; }
 .story-feed { padding: var(--space-2) var(--space-2) 24px; display: flex; flex-direction: column; gap: var(--space-2); }
 
 .story-card {
+  position: relative; overflow: hidden;
   text-align: left; width: 100%; cursor: pointer;
   background: var(--surface);
   border: 1px solid var(--border);
@@ -231,16 +231,17 @@ body { margin: 0; }
 .source-row { display: flex; align-items: center; gap: var(--space-2); padding-top: var(--space-1); border-top: 1px solid var(--border-soft); }
 .avatar-stack { display: flex; flex-shrink: 0; }
 .avatar {
-  width: 22px; height: 22px; border-radius: 50%;
+  width: 26px; height: 26px; border-radius: 50%; overflow: hidden;
   background: var(--border-soft); color: var(--fg-2);
-  border: 2px solid var(--surface);
+  border: 1px solid var(--surface);
   display: grid; place-items: center;
   font-family: var(--font-mono); font-size: 9px; font-weight: 700;
   margin-left: -7px;
 }
 .avatar:first-child { margin-left: 0; }
+.avatar-logo { width: 100%; height: 100%; object-fit: contain; }
 .avatar.more { background: var(--fg-2); color: var(--accent-on); }
-.source-count { font-size: var(--text-xs); color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.source-count { font-size: var(--text-xs); line-height: normal; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 
 /* ─── source sheet (deep dive) ─────────────────────────────────────────── */
 /* `fixed` (not `absolute`) by default: the standalone site's .app-shell
@@ -289,6 +290,7 @@ body { margin: 0; }
   color: var(--muted); padding: var(--space-3) 0 var(--space-2);
 }
 .source-item {
+  position: relative; overflow: hidden;
   display: flex; align-items: center; gap: var(--space-3);
   margin-inline: calc(var(--space-4) * -1); padding: var(--space-3) var(--space-4);
   border-top: 1px solid var(--border-soft);
@@ -296,6 +298,15 @@ body { margin: 0; }
 }
 .source-item:first-of-type { border-top: none; }
 .source-item:hover { background: var(--border-soft); }
+/* Material-style click feedback — spawned/removed by ripple.ts's spawnRipple(), shared by source-item and story-card. */
+.ripple {
+  position: absolute; border-radius: 50%;
+  background: var(--accent-soft);
+  transform: scale(0);
+  animation: ripple 500ms var(--ease-standard);
+  pointer-events: none;
+}
+@keyframes ripple { to { transform: scale(1); opacity: 0; } }
 .source-item .avatar { margin-left: 0; width: 34px; height: 34px; font-size: 11px; border: none; }
 .source-item-body { flex: 1; min-width: 0; }
 .source-provider { font-size: 12px; color: var(--muted); font-weight: 600; }

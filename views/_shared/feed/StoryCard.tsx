@@ -1,11 +1,15 @@
 import type { FeedStory } from "./types.js";
-import { initials, latestPublishedAt, timeAgo } from "./formatters.js";
+import { latestPublishedAt, timeAgo } from "./formatters.js";
+import { spawnRipple } from "./ripple.js";
+import { Avatar } from "./Avatar.js";
 
 export function StoryCard({ story, onOpen }: { readonly story: FeedStory; readonly onOpen: (story: FeedStory, trigger: HTMLElement) => void }) {
   const n = story.sources.length;
-  const shown = story.sources.slice(0, 3);
-  const extra = n - shown.length;
-  const names = [...new Set(shown.map((s) => s.providerName.replace(" AI", "").replace(" News", "")))].join(", ");
+  // One avatar per provider, even if that provider contributed multiple articles.
+  const uniqueSources = [...new Map(story.sources.map((s) => [s.providerName, s])).values()];
+  const shown = uniqueSources.slice(0, 3);
+  const extra = uniqueSources.length - shown.length;
+  const names = shown.map((s) => s.providerName.replace(" AI", "").replace(" News", "")).join(", ");
 
   return (
     <article
@@ -13,6 +17,7 @@ export function StoryCard({ story, onOpen }: { readonly story: FeedStory; readon
       tabIndex={0}
       role="button"
       aria-haspopup="dialog"
+      onPointerDown={spawnRipple}
       onClick={(e) => { onOpen(story, e.currentTarget); }}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") {
@@ -32,9 +37,7 @@ export function StoryCard({ story, onOpen }: { readonly story: FeedStory; readon
       <div className="source-row">
         <span className="avatar-stack">
           {shown.map((s, i) => (
-            <span className="avatar" title={s.providerName} key={i}>
-              {initials(s.providerName)}
-            </span>
+            <Avatar providerName={s.providerName} key={i} />
           ))}
           {extra > 0 ? <span className="avatar more">+{extra}</span> : null}
         </span>

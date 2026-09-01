@@ -1,8 +1,8 @@
 import type { ViewConfig } from "mcp-use/react";
 import { useHostContext, useOpenExternal, useToolContext } from "mcp-use/react";
 
-import { FeedApp } from "../../shared-ui/feed/FeedApp.js";
-import "../../shared-ui/feed/feed.css";
+import { FeedApp } from "../_shared/feed/FeedApp.js";
+import "../_shared/feed/feed.css";
 
 export const viewConfig = {
   autoResize: true,

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 
-import { FeedApp, type FeedState } from "../../shared-ui/feed/FeedApp.js";
-import type { FeedStory } from "../../shared-ui/feed/types.js";
-import "../../shared-ui/feed/feed.css";
+import { FeedApp, type FeedState } from "../../views/_shared/feed/FeedApp.js";
+import type { FeedStory } from "../../views/_shared/feed/types.js";
+import "../../views/_shared/feed/feed.css";
 
 function App() {
   const [state, setState] = useState<FeedState>({ status: "pending" });
