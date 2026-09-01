@@ -31,7 +31,8 @@ export function FeedApp({
   /** "mcp" keeps the fixed-height scrolling card the sandboxed View was built for; "site" (default) lets the real page scroll and widens on desktop. */
   readonly variant?: "mcp" | "site";
 }) {
-  const rootClassName = variant === "mcp" ? "newsroomFeed newsroomFeed--mcp" : "newsroomFeed";
+  const rootClassName =
+    variant === "mcp" ? "newsroomFeed newsroomFeed--mcp jetbrains-mono-feed" : "newsroomFeed jetbrains-mono-feed";
 
   if (state.status === "error") {
     return (
@@ -45,7 +46,17 @@ export function FeedApp({
     return (
       <main className={rootClassName} lang={locale}>
         <div className="app-shell">
-          <FeedHeader generatedAt={undefined} storyCount={undefined} sortMode="top" onSortChange={() => undefined} />
+          <FeedHeader
+            generatedAt={undefined}
+            storyCount={undefined}
+            sortMode="top"
+            onSortChange={() => undefined}
+            providers={[]}
+            providerFilter="all"
+            onProviderFilterChange={() => undefined}
+            searchQuery=""
+            onSearchChange={() => undefined}
+          />
           <div className="story-feed" aria-busy="true">
             {Array.from({ length: 4 }, (_, i) => (
               <SkeletonCard key={i} />
@@ -74,18 +85,30 @@ function Feed({
 }) {
   const [sortMode, setSortMode] = useState<SortMode>("top");
   const [selected, setSelected] = useState<FeedStory | undefined>(undefined);
+  const [providerFilter, setProviderFilter] = useState("all");
+  const [search, setSearch] = useState("");
   const scrollAreaRef = useRef<HTMLDivElement>(null);
   const lastFocused = useRef<HTMLElement | null>(null);
+
+  const providers = [...new Set(stories.flatMap((s) => s.sources.map((src) => src.providerName)))].sort();
+
+  const query = search.trim().toLowerCase();
+  const filtered = stories.filter((s) => {
+    const matchesProvider = providerFilter === "all" || s.sources.some((src) => src.providerName === providerFilter);
+    const matchesSearch =
+      query === "" || s.title.toLowerCase().includes(query) || s.summary.toLowerCase().includes(query);
+    return matchesProvider && matchesSearch;
+  });
 
   // "top" trusts the server's own order — get-feed already ranks stories by
   // importance decayed since lastMeaningfulUpdateAt, which is smarter than
   // re-sorting by raw importanceScore here. Only "latest" re-sorts client-side.
   const sorted =
     sortMode === "latest"
-      ? [...stories].sort(
+      ? [...filtered].sort(
           (a, b) => new Date(latestPublishedAt(b)).getTime() - new Date(latestPublishedAt(a)).getTime(),
         )
-      : stories;
+      : filtered;
 
   function openStory(story: FeedStory, trigger: HTMLElement) {
     lastFocused.current = trigger;
@@ -101,18 +124,27 @@ function Feed({
       <div className="scroll-area" ref={scrollAreaRef}>
         <FeedHeader
           generatedAt={generatedAt}
-          storyCount={stories.length}
+          storyCount={sorted.length}
           sortMode={sortMode}
           onSortChange={(mode) => {
             setSortMode(mode);
             scrollAreaRef.current?.scrollTo({ top: 0, behavior: "smooth" });
           }}
+          providers={providers}
+          providerFilter={providerFilter}
+          onProviderFilterChange={setProviderFilter}
+          searchQuery={search}
+          onSearchChange={setSearch}
         />
         <main className="story-feed" aria-live="polite">
           {sorted.length === 0 ? (
             <EmptyState
-              title="No stories right now"
-              message="Newsroom refreshes automatically as new AI coverage comes in — check back soon."
+              title={stories.length === 0 ? "No stories right now" : "No matching stories"}
+              message={
+                stories.length === 0
+                  ? "Newsroom refreshes automatically as new AI coverage comes in — check back soon."
+                  : "Try a different search term or provider filter."
+              }
             />
           ) : (
             sorted.map((story) => <StoryCard key={story.id} story={story} onOpen={openStory} />)
