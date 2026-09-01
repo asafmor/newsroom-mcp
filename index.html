@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+
+  <title>Newsroom</title>
+  <meta name="description" content="A curated AI news feed.">
+
+  <style>
+    :root {
+      color-scheme: light dark;
+
+      --bg: #f6f7f9;
+      --surface: #ffffff;
+      --surface-hover: #fafafa;
+      --text: #171717;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+
+      --score-high: #166534;
+      --score-high-bg: #dcfce7;
+      --score-mid: #92400e;
+      --score-mid-bg: #fef3c7;
+
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+      --max-width: 920px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0c0e;
+        --surface: #141518;
+        --surface-hover: #191b1f;
+        --text: #f3f4f6;
+        --muted: #9ca3af;
+        --border: #292c32;
+        --accent: #7da7ff;
+
+        --score-high: #86efac;
+        --score-high-bg: #16351f;
+        --score-mid: #fcd34d;
+        --score-mid-bg: #3b3013;
+
+        --shadow: none;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      line-height: 1.55;
+    }
+
+    .page {
+      width: min(calc(100% - 32px), var(--max-width));
+      margin: 0 auto;
+      padding: 52px 0 72px;
+    }
+
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 26px;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      line-height: 1;
+      letter-spacing: -0.045em;
+    }
+
+    .brand p {
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .count {
+      flex: none;
+      color: var(--muted);
+      font-size: 0.9rem;
+      white-space: nowrap;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 220px;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    input,
+    select {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--surface);
+      color: var(--text);
+      padding: 11px 13px;
+      font: inherit;
+      outline: none;
+      box-shadow: var(--shadow);
+    }
+
+    input:focus,
+    select:focus {
+      border-color: var(--accent);
+    }
+
+    .feed {
+      display: grid;
+      gap: 12px;
+    }
+
+    .story {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 21px 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .story:hover {
+      background: var(--surface-hover);
+    }
+
+    .story-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 18px;
+    }
+
+    .story h2 {
+      margin: 0;
+      font-size: 1.12rem;
+      line-height: 1.35;
+      letter-spacing: -0.015em;
+    }
+
+    .story p {
+      margin: 9px 0 0;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .scores {
+      display: flex;
+      gap: 6px;
+      flex: none;
+    }
+
+    .score {
+      min-width: 42px;
+      padding: 4px 7px;
+      border-radius: 999px;
+      text-align: center;
+      font-size: 0.72rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      color: var(--muted);
+      background: var(--bg);
+      border: 1px solid var(--border);
+    }
+
+    .score.high {
+      color: var(--score-high);
+      background: var(--score-high-bg);
+      border-color: transparent;
+    }
+
+    .score.medium {
+      color: var(--score-mid);
+      background: var(--score-mid-bg);
+      border-color: transparent;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 7px 12px;
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 0.79rem;
+    }
+
+    .sources {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 14px;
+    }
+
+    .source {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      max-width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 5px 8px;
+      color: var(--text);
+      background: var(--bg);
+      text-decoration: none;
+      font-size: 0.78rem;
+    }
+
+    .source:hover {
+      color: var(--accent);
+    }
+
+    .source-provider {
+      font-weight: 650;
+    }
+
+    .source-title {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: var(--muted);
+    }
+
+    .empty,
+    .error,
+    .loading {
+      padding: 52px 24px;
+      text-align: center;
+      color: var(--muted);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    .error strong {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--text);
+    }
+
+    footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.78rem;
+      text-align: center;
+    }
+
+    @media (max-width: 680px) {
+      .page {
+        width: min(calc(100% - 22px), var(--max-width));
+        padding-top: 32px;
+      }
+
+      header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .controls {
+        grid-template-columns: 1fr;
+      }
+
+      .story {
+        padding: 17px 16px 15px;
+      }
+
+      .story-top {
+        display: block;
+      }
+
+      .scores {
+        margin-top: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+
+    <header>
+      <div class="brand">
+        <h1>Newsroom</h1>
+        <p id="generated">Curated AI news</p>
+      </div>
+
+      <div class="count" id="count"></div>
+    </header>
+
+    <section class="controls">
+      <input
+        id="search"
+        type="search"
+        placeholder="Search stories and sources…"
+        autocomplete="off"
+        aria-label="Search stories"
+      >
+
+      <select id="sourceFilter" aria-label="Filter by source">
+        <option value="">All sources</option>
+      </select>
+    </section>
+
+    <section class="feed" id="feed" aria-live="polite">
+      <div class="loading">Loading feed…</div>
+    </section>
+
+    <footer>
+      Loaded live from feed.json
+    </footer>
+
+  </main>
+
+  <script>
+    const state = {
+      stories: [],
+      generatedAt: null,
+      query: "",
+      source: ""
+    };
+
+    const feedEl = document.getElementById("feed");
+    const countEl = document.getElementById("count");
+    const generatedEl = document.getElementById("generated");
+    const searchEl = document.getElementById("search");
+    const sourceFilterEl = document.getElementById("sourceFilter");
+
+    const escapeHtml = (value = "") =>
+      String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+
+    function formatDate(value, withTime = false) {
+      if (!value) return "";
+
+      const date = new Date(value);
+
+      if (Number.isNaN(date.getTime())) {
+        return "";
+      }
+
+      return new Intl.DateTimeFormat(
+        undefined,
+        withTime
+          ? {
+              dateStyle: "medium",
+              timeStyle: "short"
+            }
+          : {
+              dateStyle: "medium"
+            }
+      ).format(date);
+    }
+
+    function scoreClass(score) {
+      if (score >= 0.75) return "high";
+      if (score >= 0.55) return "medium";
+      return "";
+    }
+
+    function scoreLabel(score) {
+      return Math.round(Number(score || 0) * 100);
+    }
+
+    function normalizeUrl(value) {
+      try {
+        const url = new URL(value);
+
+        if (url.protocol === "http:" || url.protocol === "https:") {
+          return url.href;
+        }
+      } catch {
+        // Ignore invalid URL.
+      }
+
+      return "#";
+    }
+
+    function storyMatches(story) {
+      if (
+        state.source &&
+        !story.sources?.some(
+          source => source.providerName === state.source
+        )
+      ) {
+        return false;
+      }
+
+      if (!state.query) {
+        return true;
+      }
+
+      const searchable = [
+        story.title,
+        story.summary,
+        ...(story.sources || []).flatMap(source => [
+          source.providerName,
+          source.title
+        ])
+      ]
+        .join(" ")
+        .toLowerCase();
+
+      return searchable.includes(state.query);
+    }
+
+    function renderSource(source) {
+      const href = normalizeUrl(source.url);
+      const provider = escapeHtml(source.providerName || "Source");
+      const title = escapeHtml(source.title || "Read source");
+      const published = formatDate(source.publishedAt);
+
+      return `
+        <a
+          class="source"
+          href="${escapeHtml(href)}"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="${title}${published ? ` · ${escapeHtml(published)}` : ""}"
+        >
+          <span class="source-provider">${provider}</span>
+          <span class="source-title">${title}</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+      `;
+    }
+
+    function renderStory(story) {
+      const sources = Array.isArray(story.sources)
+        ? story.sources
+        : [];
+
+      const sourceDates = sources
+        .map(source => new Date(source.publishedAt).getTime())
+        .filter(Number.isFinite);
+
+      const latestSourceDate = sourceDates.length
+        ? Math.max(...sourceDates)
+        : null;
+
+      return `
+        <article class="story">
+
+          <div class="story-top">
+
+            <div>
+              <h2>${escapeHtml(story.title)}</h2>
+              <p>${escapeHtml(story.summary)}</p>
+            </div>
+
+            <div class="scores">
+
+              <span
+                class="score ${scoreClass(story.importanceScore)}"
+                title="Importance score"
+              >
+                I ${scoreLabel(story.importanceScore)}
+              </span>
+
+              <span
+                class="score ${scoreClass(story.relevanceScore)}"
+                title="Relevance score"
+              >
+                R ${scoreLabel(story.relevanceScore)}
+              </span>
+
+            </div>
+
+          </div>
+
+          <div class="meta">
+
+            ${
+              latestSourceDate
+                ? `<span>Published ${escapeHtml(
+                    formatDate(latestSourceDate)
+                  )}</span>`
+                : ""
+            }
+
+            ${
+              story.lastMeaningfulUpdateAt
+                ? `<span>Updated ${escapeHtml(
+                    formatDate(story.lastMeaningfulUpdateAt, true)
+                  )}</span>`
+                : ""
+            }
+
+            <span>
+              ${sources.length}
+              source${sources.length === 1 ? "" : "s"}
+            </span>
+
+          </div>
+
+          <div class="sources">
+            ${sources.map(renderSource).join("")}
+          </div>
+
+        </article>
+      `;
+    }
+
+    function render() {
+      const visibleStories =
+        state.stories.filter(storyMatches);
+
+      countEl.textContent =
+        `${visibleStories.length} of ${state.stories.length} stories`;
+
+      if (!visibleStories.length) {
+        feedEl.innerHTML =
+          '<div class="empty">No stories match these filters.</div>';
+        return;
+      }
+
+      feedEl.innerHTML =
+        visibleStories.map(renderStory).join("");
+    }
+
+    function populateSources(stories) {
+      const providers = [
+        ...new Set(
+          stories
+            .flatMap(story =>
+              (story.sources || []).map(
+                source => source.providerName
+              )
+            )
+            .filter(Boolean)
+        )
+      ].sort((a, b) => a.localeCompare(b));
+
+      for (const provider of providers) {
+        const option = document.createElement("option");
+        option.value = provider;
+        option.textContent = provider;
+        sourceFilterEl.append(option);
+      }
+    }
+
+    async function loadFeed() {
+      try {
+        const response = await fetch(
+          `./feed.json?v=${Date.now()}`,
+          {
+            cache: "no-store"
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const data = await response.json();
+
+        if (!data || !Array.isArray(data.stories)) {
+          throw new Error(
+            "feed.json does not contain a stories array"
+          );
+        }
+
+        state.stories = data.stories;
+        state.generatedAt = data.generatedAt || null;
+
+        generatedEl.textContent = state.generatedAt
+          ? `Curated AI news · generated ${formatDate(
+              state.generatedAt,
+              true
+            )}`
+          : "Curated AI news";
+
+        populateSources(state.stories);
+        render();
+
+      } catch (error) {
+        console.error(error);
+
+        countEl.textContent = "";
+
+        feedEl.innerHTML = `
+          <div class="error">
+            <strong>Could not load the feed</strong>
+            <span>${escapeHtml(error.message)}</span>
+          </div>
+        `;
+      }
+    }
+
+    searchEl.addEventListener("input", event => {
+      state.query =
+        event.target.value.trim().toLowerCase();
+
+      render();
+    });
+
+    sourceFilterEl.addEventListener("change", event => {
+      state.source = event.target.value;
+      render();
+    });
+
+    loadFeed();
+  </script>
+</body>
+</html>
