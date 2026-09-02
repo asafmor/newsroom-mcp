@@ -19,6 +19,11 @@ docs/testing.md). Check:
 - Correctness: does it do what the requirements say, including edge cases?
 - Architecture: does it respect layer boundaries, or leak SQL/ranking logic
   into providers or tools?
+- STATIC-SITE CONSTRAINT: does the change introduce any live backend,
+  database, or server-side endpoint reachable by the deployed site (site/,
+  GitHub Pages)? Site-facing data must come entirely from the committed
+  feed.json snapshot. Did it bloat feed.json (full article bodies,
+  embeddings, unbounded history)? Either is blocking.
 - Tests: are the new/changed tests meaningful, not just present?
 - Verification: did lint/test/typecheck/build actually pass? Re-run
   `npm run verify` yourself if you're unsure the reported result is current.
