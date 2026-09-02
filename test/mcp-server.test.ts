@@ -143,9 +143,9 @@ describe("newsroom-mcp server", () => {
 
     expect(fetched.isError).toBeFalsy();
     expect(fetched.structuredContent).toMatchObject({
-      providersProcessed: 29,
-      itemsFetched: 29,
-      itemsInserted: 29,
+      providersProcessed: 26,
+      itemsFetched: 26,
+      itemsInserted: 26,
       duplicates: 0,
     });
 
@@ -154,7 +154,7 @@ describe("newsroom-mcp server", () => {
       arguments: { limit: 29 },
     })) as ToolTextResult & { structuredContent: { items: { id: string }[] } };
 
-    expect(pending.structuredContent.items).toHaveLength(29);
+    expect(pending.structuredContent.items).toHaveLength(26);
     const [firstItem, secondItem, ...restItems] = pending.structuredContent.items;
 
     const created = (await client?.callTool({

@@ -112,19 +112,20 @@ const RSS_FEEDS = [
 
 /**
  * GitHub repositories whose public release feed is tracked as a "release"
- * content source (see docs on curation criteria in requirements). Add,
- * remove, or reorder a tracked repository here only — no logic changes
- * needed.
+ * content source (see docs on curation criteria in requirements). Keep only
+ * repos releasing at a followable cadence (roughly <=2-3/week) — vetted via
+ * the GitHub releases API on 2026-09-02. Excluded for flooding the feed:
+ * ggml-org/llama.cpp (~8/week, several same-day) and langchain-ai/langchain
+ * (~7/week, ~daily). Excluded as stale: microsoft/autogen (no release in a
+ * year). Add, remove, or reorder a tracked repository here only — no logic
+ * changes needed, but re-check cadence before adding one.
  */
 const GITHUB_RELEASE_REPOS = [
   "openai/openai-python",
   "anthropics/anthropic-sdk-python",
   "huggingface/transformers",
   "ollama/ollama",
-  "ggml-org/llama.cpp",
-  "langchain-ai/langchain",
   "vllm-project/vllm",
-  "microsoft/autogen",
 ] as const;
 
 /** Builds the registry of every configured provider for this deployment. */
