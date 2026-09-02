@@ -83,6 +83,10 @@
   --elev-raised: 0 20px 52px rgba(0, 0, 0, 0.45);
 }
 
+/* Mobile Safari/Chrome silently inflate small text ("font boosting") past
+   its computed font-size to keep it readable — masks any small font-size
+   (e.g. .sort-tab) unless opted out at the root. */
+html { text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 html, body { margin: 0; background: var(--bg); }
 
 .newsroomFeed *,
