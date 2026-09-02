@@ -28,7 +28,7 @@
   --text-sm: 14px;
   --text-base: 16px;
   --text-lg: 18px;
-  --text-xl: 24px;
+  --text-xl: 26px;
   --text-2xl: 34px;
   --text-3xl: 48px;
   --text-4xl: 64px;
@@ -152,7 +152,7 @@ html, body { margin: 0; background: var(--bg); }
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
-  padding: var(--space-4) var(--space-2) var(--space-2);
+  padding: var(--space-4) var(--space-3) var(--space-2);
 }
 /* Title + subtitle stack on the left (.brand), sort toggle on the right —
    both sides of one row, so the toggle sits centered against the pair. */
@@ -161,6 +161,8 @@ html, body { margin: 0; background: var(--bg); }
 .wordmark {
   font-size: var(--text-xl); line-height: 1.15; letter-spacing: -0.03em;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0;
+  background-image: linear-gradient(to right, var(--accent), var(--fg));
+  background-clip: text; -webkit-background-clip: text; color: transparent;
 }
 .edu-tas-beginner-wordmark {
   font-family: "Edu TAS Beginner", cursive;
@@ -316,8 +318,13 @@ html, body { margin: 0; background: var(--bg); }
   display: flex; flex-direction: column;
   transform: translateY(100%);
   transition: transform var(--motion-base) var(--ease-standard);
+  /* Same story as .sheet-overlay above: while closed/closing, the sheet is
+     still mid-transition (still partly on-screen) and would otherwise eat
+     the first tap on whatever's underneath it — same rect, same z-index,
+     just no opacity fade to hide the effect. */
+  pointer-events: none;
 }
-.source-sheet.open { transform: translateY(0); }
+.source-sheet.open { transform: translateY(0); pointer-events: auto; }
 /* Sheet is bottom:0 — dragging it *up* (the rubber-band overdrag cue) would
    otherwise open a gap below it, showing the scrim/feed through instead of
    more sheet. This filler rides along under the sheet (translates with it)
@@ -398,7 +405,7 @@ html, body { margin: 0; background: var(--bg); }
     padding-inline: var(--space-6);
   }
   .newsroomFeed:not(.newsroomFeed--mcp) .feed-header {
-    padding-inline: var(--space-6);
+    padding-inline: var(--space-8);
   }
   .newsroomFeed:not(.newsroomFeed--mcp) .story-feed {
     padding-inline: var(--space-6);
