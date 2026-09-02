@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-09-02T19:02:12.209Z",
+  "generatedAt": "2026-09-02T23:03:22.612Z",
   "stories": [
+    {
+      "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
+      "title": "OpenAI prepares to release Astra, its first \"critical\" cyber-capability model",
+      "summary": "OpenAI is preparing to release Astra, an AI model it classifies as having \"critical\" cyber capabilities — good enough at breaking into computer systems that OpenAI is giving select partners early access so they can shore up defenses before wider release. Astra reportedly uses a \"recurrent depth\" reasoning technique that lets it operate outside the sequential thinking typical of most reasoning models, a design choice that has alarmed AI safety experts.",
+      "importanceScore": 0.8,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-01T21:20:51.430Z",
+      "lastMeaningfulUpdateAt": "2026-09-02T23:02:40.046Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
+          "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
+          "publishedAt": "2026-09-01T20:00:00.000Z"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Open AI’s Astra model is on the way—and very good at breaking into computer systems",
+          "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+          "publishedAt": "2026-09-01T21:06:24.000Z"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Expected Sept 3 ChatGPT 6 Release Carries Hidden Reasoning Risks",
+          "url": "https://www.geeky-gadgets.com/openai-chatgpt-6-astra-model-rumors/",
+          "publishedAt": "2026-09-02T12:15:00.000Z"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s new reasoning technique alarms AI safety experts",
+          "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+          "publishedAt": "2026-09-02T20:19:14.000Z"
+        }
+      ]
+    },
     {
       "id": "55a62e8d-d94b-47ef-afb4-6c00988d7115",
       "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1",
@@ -43,35 +78,6 @@
       ]
     },
     {
-      "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
-      "title": "OpenAI prepares to release Astra, its first \"critical\" cyber-capability model",
-      "summary": "OpenAI is preparing to release Astra, an AI model it classifies as having \"critical\" cyber capabilities — good enough at breaking into computer systems that OpenAI is giving select partners early access so they can shore up defenses before wider release, alongside precautions it's taking around the launch.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-01T21:20:51.430Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T21:20:51.430Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
-          "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
-          "publishedAt": "2026-09-01T20:00:00.000Z"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Open AI’s Astra model is on the way—and very good at breaking into computer systems",
-          "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-          "publishedAt": "2026-09-01T21:06:24.000Z"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Expected Sept 3 ChatGPT 6 Release Carries Hidden Reasoning Risks",
-          "url": "https://www.geeky-gadgets.com/openai-chatgpt-6-astra-model-rumors/",
-          "publishedAt": "2026-09-02T12:15:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "a1f38237-a380-4e56-8ab4-a6ee4514999e",
       "title": "Infostealer malware hijacks Claude session cookies to reach corporate accounts",
       "summary": "Anthropic disclosed that infostealer malware (Vidar, LummaC2, StealC, RedLine, Acreed, Atomic Stealer) replayed stolen Claude session cookies from card-billed, self-serve accounts, bypassing 2FA and SSO. Anthropic signed out affected accounts and refunded charges, but flagged that OAuth grants into services like Gmail/Workspace made via personal accounts on managed devices remain a gap no corporate IT admin can revoke.",
@@ -108,6 +114,18 @@
           "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
           "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
           "publishedAt": "2026-09-02T18:41:02.000Z"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Trump Administration Sides With OpenAI in Publishers’ Copyright Lawsuits",
+          "url": "https://www.cnet.com/tech/services-and-software/trump-administration-sides-with-openai-in-publishers-copyright-lawsuits/",
+          "publishedAt": "2026-09-02T18:35:54.000Z"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump Admin Teams Up With OpenAI in Its Fight Against the New York Times",
+          "url": "https://gizmodo.com/trump-admin-teams-up-with-openai-in-its-fight-against-the-new-york-times-copyright-2000806473",
+          "publishedAt": "2026-09-02T20:40:42.000Z"
         }
       ]
     },
@@ -148,6 +166,52 @@
           "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
           "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
           "publishedAt": "2026-08-27T14:00:13.000Z"
+        }
+      ]
+    },
+    {
+      "id": "aeb7935d-75e6-4cf0-b0eb-040692989f65",
+      "title": "Meta launches Muse Voice Transcribe at $0.18/hour with 20+ speaker diarization",
+      "summary": "Meta Superintelligence Labs launched Muse Voice Transcribe, a real-time speech-to-text model with streaming diarization for 20+ speakers, priced at $0.18/hour — undercutting most rivals while topping Artificial Analysis' streaming accuracy benchmark.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-02T23:03:01.967Z",
+      "lastMeaningfulUpdateAt": "2026-09-02T23:03:01.967Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Meta prices Muse Voice Transcribe at $0.18 an hour, with real-time diarization for 20+ speakers: a steal for enterprises?",
+          "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
+          "publishedAt": "2026-09-02T21:32:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8c434be0-633e-4482-8913-15416883f869",
+      "title": "US AI data-center backlash pushes companies to relocate and draws political fire",
+      "summary": "US backlash against AI data centers is having ripple effects: one American AI startup, fleeing opposition at home, has set up shop in Saudi Arabia instead, and Trump publicly dismissed communities fighting data centers, telling them to \"have fun being poor\" — a remark that drew pushback even from his own supporters. The friction followed Big Tech and global leaders to the G20 summit, where they could not escape questions about AI's data-center footprint.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-01T18:56:45.629Z",
+      "lastMeaningfulUpdateAt": "2026-09-02T23:02:42.230Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Fleeing Data Center Backlash at Home, American AI Startup Sets Up Shop In Saudi Arabia",
+          "url": "https://gizmodo.com/fleeing-data-center-backlash-at-home-american-ai-startup-sets-up-shop-in-saudi-arabia-2000805023",
+          "publishedAt": "2026-08-31T15:50:39.000Z"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump to Communities Fighting Data Centers: Have Fun Being Poor",
+          "url": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
+          "publishedAt": "2026-08-31T16:35:06.000Z"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "At G20, Big Tech and Global Leaders Can’t Escape AI’s Data Center Problem",
+          "url": "https://www.cnet.com/tech/services-and-software/g20-tech-government-leaders-ai-data-centers-protests/",
+          "publishedAt": "2026-09-02T18:42:19.000Z"
         }
       ]
     },
@@ -201,6 +265,23 @@
           "title": "How Groupthink, Altruism, and Peer Pressure Led OpenAI Models to Hack Hugging Face",
           "url": "https://gizmodo.com/how-groupthink-altruism-and-peer-pressure-led-openai-models-to-hack-hugging-face-2000804424",
           "publishedAt": "2026-08-29T12:00:38.000Z"
+        }
+      ]
+    },
+    {
+      "id": "26e38e75-0805-4052-a00b-bb8b2d2de486",
+      "title": "Survey: enterprises now favor non-Nvidia chips over Nvidia's next-gen GPUs for evaluation",
+      "summary": "VentureBeat's July VB Pulse survey of 170 AI infrastructure buyers found 39.4% plan to evaluate non-Nvidia accelerators (Trainium, TPU, Instinct, Gaudi, in-house ASICs) over the next year vs. 25.3% for Nvidia's next-gen Blackwell GPUs — a 14-point gap, with interest concentrated among C-suite/decision-makers, alongside rising production adoption of Azure, Gemini, OpenAI and Anthropic, and growing enterprise interest in neoclouds and self-managed open-source stacks.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-02T23:03:05.802Z",
+      "lastMeaningfulUpdateAt": "2026-09-02T23:03:05.802Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Enterprises put non-Nvidia chips 14 points ahead of Nvidia's next-gen GPUs on their evaluation lists",
+          "url": "https://venturebeat.com/data/enterprises-put-non-nvidia-chips-14-points-ahead-of-nvidias-next-gen-gpus-on-their-evaluation-lists",
+          "publishedAt": "2026-09-02T21:05:59.000Z"
         }
       ]
     },
@@ -713,6 +794,23 @@
       ]
     },
     {
+      "id": "5aa11d69-6cd2-41a8-8f5b-692974f442f2",
+      "title": "Palo Alto Networks paid $500M for AI IT-automation startup Console",
+      "summary": "Palo Alto Networks acquired Thrive-backed Console for roughly $500M, per sources, leaving Sequoia-backed Serval as the de-facto leader in AI-driven IT service automation.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-02T23:02:51.738Z",
+      "lastMeaningfulUpdateAt": "2026-09-02T23:02:51.738Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
+          "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
+          "publishedAt": "2026-09-02T22:44:56.000Z"
+        }
+      ]
+    },
+    {
       "id": "75e4b513-9299-458f-a826-78aa90ad8c0f",
       "title": "Anthropic wins first court ruling over Pentagon supply-chain risk label",
       "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, a win for the company as its second Pentagon lawsuit continues.",
@@ -807,6 +905,12 @@
           "title": "NYC bans the use of generative AI tools in public schools for students through eighth grade",
           "url": "https://www.engadget.com/2249790/nyc-generative-ai-ban-in-public-schools-through-eighth-grade/",
           "publishedAt": "2026-09-02T18:50:09.000Z"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "New York City Bans AI From Elementary Schools",
+          "url": "https://gizmodo.com/new-york-city-bans-ai-from-elementary-schools-2000806172",
+          "publishedAt": "2026-09-02T19:45:08.000Z"
         }
       ]
     },
@@ -881,29 +985,6 @@
           "title": "President Trump’s Love of Tariffs Comes Into Conflict With His Love of Data Centers",
           "url": "https://gizmodo.com/president-trumps-love-of-tariffs-comes-into-conflict-with-his-love-of-data-centers-2000803876",
           "publishedAt": "2026-08-27T19:50:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8c434be0-633e-4482-8913-15416883f869",
-      "title": "US AI data-center backlash pushes companies to relocate and draws political fire",
-      "summary": "US backlash against AI data centers is having ripple effects: one American AI startup, fleeing opposition at home, has set up shop in Saudi Arabia instead. Meanwhile Trump publicly dismissed communities fighting data centers in their area, telling them to \"have fun being poor\" — a remark that drew pushback even from some of his own supporters.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T18:56:45.629Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T18:57:18.836Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Fleeing Data Center Backlash at Home, American AI Startup Sets Up Shop In Saudi Arabia",
-          "url": "https://gizmodo.com/fleeing-data-center-backlash-at-home-american-ai-startup-sets-up-shop-in-saudi-arabia-2000805023",
-          "publishedAt": "2026-08-31T15:50:39.000Z"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump to Communities Fighting Data Centers: Have Fun Being Poor",
-          "url": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
-          "publishedAt": "2026-08-31T16:35:06.000Z"
         }
       ]
     },
@@ -991,89 +1072,8 @@
           "publishedAt": "2026-08-30T10:30:00.000Z"
         }
       ]
-    },
-    {
-      "id": "fda9a724-d0df-4d1d-9571-b38549c04c5b",
-      "title": "Insurance claims adjusters push back against AI",
-      "summary": "Wired reports that insurance claims adjusters are among the professions most resistant to AI tools, citing concerns over accuracy and job displacement in claims processing.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T17:06:55.239Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.239Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "You Know Who Really Hates AI? Insurance Claims Adjusters",
-          "url": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
-          "publishedAt": "2026-08-31T10:30:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "80f3ad09-aa4c-4e4e-ae3e-477c636793ce",
-      "title": "Sequoia-incubated Empirik launches with $21M to predict IT outages",
-      "summary": "Empirik, incubated by Sequoia, launched with $21M in funding to predict IT infrastructure outages before they happen, aiming to do for SREs what Cursor did for software engineering.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T16:56:20.486Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T16:56:20.486Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
-          "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
-          "publishedAt": "2026-09-01T16:31:04.000Z"
-        }
-      ]
-    },
-    {
-      "id": "affffbbd-d3bd-4921-9f84-06ae7163a75c",
-      "title": "OpenAI, Anthropic, Google, and 100+ companies call for action on rogue AI",
-      "summary": "Major tech companies and AI startups jointly called for action to defend against rogue AI, decrying the current state of cybersecurity and proposing a new industry response to emerging cyber threats.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-08-31T18:54:11.830Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.830Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
-          "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-          "publishedAt": "2026-08-27T17:43:24.000Z"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn",
-          "url": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
-          "publishedAt": "2026-08-29T10:30:00.000Z"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI, Google and dozens of other companies publish open letter calling for collective action on cyber defense",
-          "url": "https://www.engadget.com/2245969/openai-google-and-dozens-of-other-companies-publish-open-letter-calling-for-collective-action-on-cyber-defense/",
-          "publishedAt": "2026-08-27T21:06:30.000Z"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "AI Agents Are Hacking Systems. Could That Push the US and China to Cooperate?",
-          "url": "https://www.wired.com/story/ai-agents-hacking-systems-could-push-the-us-and-china-to-cooperate/",
-          "publishedAt": "2026-08-27T21:08:34.000Z"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google, OpenAI and Over 100 Companies Call for More Action on AI-Driven Cyberattacks",
-          "url": "https://gizmodo.com/google-openai-and-over-100-companies-call-for-more-action-on-ai-driven-cyberattacks-2000804091",
-          "publishedAt": "2026-08-27T21:40:06.000Z"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Tech Companies Call for Improved Cyber Defenses After AI-Enabled Attacks",
-          "url": "https://www.cnet.com/tech/services-and-software/tech-companies-call-for-improved-cyber-defenses-after-ai-enabled-attacks/",
-          "publishedAt": "2026-08-28T19:06:32.000Z"
-        }
-      ]
     }
   ],
-  "totalCount": 129,
+  "totalCount": 136,
   "hasMore": true
 }
