@@ -31,7 +31,8 @@ FeedService → StoryRepository + ContentProviderRegistry
 - **`src/services/`** — business rules: `IngestionService` (poll every
   provider concurrently, isolating per-provider failures), `StoryService`
   (create/attach/update stories — owns the `lastMeaningfulUpdateAt` rule —
-  plus `archiveStaleStories()`, which archives anything with no
+  plus `mergeStories()`, which folds one active story into another, and
+  `archiveStaleStories()`, which archives anything with no
   meaningful-update in 30+ days), `FeedService` (read-only feed view: hides
   stories stale 7+ days and ranks survivors by importance decayed toward
   zero since `lastMeaningfulUpdateAt`, resolves provider ids to display
@@ -42,7 +43,7 @@ FeedService → StoryRepository + ContentProviderRegistry
   [mcp-tools.md](./mcp-tools.md).
 - **`src/composition.ts`** — composition root. `buildNewsroomServices()`
   opens the database, builds the provider registry, and constructs every
-  service once; `registerNewsroomTools()` registers all 8 tools onto a
+  service once; `registerNewsroomTools()` registers all 9 tools onto a
   transport-agnostic `ToolRegistrar`. `index.ts` (HTTP, the default) and
   `stdio.ts` (stdio) both just call these two functions against their own
   transport.

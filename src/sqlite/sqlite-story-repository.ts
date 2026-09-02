@@ -33,6 +33,24 @@ interface AttachedContentRow {
   attached_at: string;
 }
 
+interface StoryItemRow {
+  content_item_id: string;
+  contribution: string;
+  reason: string | null;
+  attached_at: string;
+}
+
+/** Ordinal strength of a `StoryContribution`, strongest last — see AC 10/11 of the merge-stories spec. */
+const CONTRIBUTION_STRENGTH: Record<string, number> = {
+  background: 0,
+  supporting: 1,
+  "meaningful-update": 2,
+};
+
+function contributionStrength(contribution: string): number {
+  return CONTRIBUTION_STRENGTH[contribution] ?? 0;
+}
+
 export class SqliteStoryRepository implements StoryRepository {
   constructor(private readonly db: DatabaseSync) {}
 
@@ -239,6 +257,99 @@ export class SqliteStoryRepository implements StoryRepository {
         attachedAt: new Date(row.attached_at),
       })),
     );
+  }
+
+  async mergeStories(survivingId: StoryId, losingId: StoryId): Promise<Story> {
+    const surviving = await this.findById(survivingId);
+    const losing = await this.findById(losingId);
+    if (!surviving || !losing) {
+      throw new Error(`Cannot merge: story ${!surviving ? survivingId : losingId} does not exist`);
+    }
+
+    const now = new Date().toISOString();
+
+    this.db.exec("BEGIN");
+    try {
+      const losingItems = this.db
+        .prepare("SELECT content_item_id, contribution, reason, attached_at FROM story_items WHERE story_id = ?")
+        .all(losingId) as unknown as StoryItemRow[];
+
+      const survivorRowStmt = this.db.prepare(
+        "SELECT contribution, reason, attached_at FROM story_items WHERE story_id = ? AND content_item_id = ?",
+      );
+      const replaceSurvivorRowStmt = this.db.prepare(
+        `UPDATE story_items SET contribution = ?, reason = ?, attached_at = ?
+         WHERE story_id = ? AND content_item_id = ?`,
+      );
+      const deleteLosingRowStmt = this.db.prepare(
+        "DELETE FROM story_items WHERE story_id = ? AND content_item_id = ?",
+      );
+      const retargetRowStmt = this.db.prepare(
+        "UPDATE story_items SET story_id = ? WHERE story_id = ? AND content_item_id = ?",
+      );
+
+      for (const item of losingItems) {
+        const collision = survivorRowStmt.get(survivingId, item.content_item_id) as StoryItemRow | undefined;
+
+        if (!collision) {
+          retargetRowStmt.run(survivingId, losingId, item.content_item_id);
+          continue;
+        }
+
+        // Same item attached to both: keep whichever association has the
+        // stronger contribution; a tie keeps the survivor's own row
+        // unchanged. Either way the loser's duplicate row is discarded.
+        if (contributionStrength(item.contribution) > contributionStrength(collision.contribution)) {
+          replaceSurvivorRowStmt.run(
+            item.contribution,
+            item.reason,
+            item.attached_at,
+            survivingId,
+            item.content_item_id,
+          );
+        }
+        deleteLosingRowStmt.run(losingId, item.content_item_id);
+      }
+
+      // Never `now` — a stale story must not jump back onto get-feed just
+      // because it happened to absorb another story.
+      const firstSeenAt =
+        surviving.firstSeenAt.getTime() <= losing.firstSeenAt.getTime() ? surviving.firstSeenAt : losing.firstSeenAt;
+      const lastItemAttachedAt =
+        surviving.lastItemAttachedAt.getTime() >= losing.lastItemAttachedAt.getTime()
+          ? surviving.lastItemAttachedAt
+          : losing.lastItemAttachedAt;
+      const lastMeaningfulUpdateAt =
+        surviving.lastMeaningfulUpdateAt.getTime() >= losing.lastMeaningfulUpdateAt.getTime()
+          ? surviving.lastMeaningfulUpdateAt
+          : losing.lastMeaningfulUpdateAt;
+
+      this.db
+        .prepare(
+          `UPDATE stories SET first_seen_at = ?, last_item_attached_at = ?, last_meaningful_update_at = ?, updated_at = ?
+           WHERE id = ?`,
+        )
+        .run(
+          firstSeenAt.toISOString(),
+          lastItemAttachedAt.toISOString(),
+          lastMeaningfulUpdateAt.toISOString(),
+          now,
+          survivingId,
+        );
+
+      this.db.prepare("UPDATE stories SET status = 'archived', updated_at = ? WHERE id = ?").run(now, losingId);
+
+      this.db.exec("COMMIT");
+    } catch (error) {
+      this.db.exec("ROLLBACK");
+      throw error;
+    }
+
+    const merged = await this.findById(survivingId);
+    if (!merged) {
+      throw new Error(`Story disappeared during merge: ${survivingId}`);
+    }
+    return merged;
   }
 
   private toDomain(row: StoryRow): Story {

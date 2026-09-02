@@ -64,6 +64,39 @@ export class StoryService {
   }
 
   /**
+   * Folds `losingStoryId` into `survivingStoryId`: validates both stories
+   * exist and are active (and that they're not the same story), then
+   * delegates the atomic reassignment/timestamp-reconciliation/archival to
+   * the repository. This is the only place `status === 'active'` is
+   * enforced for a story-mutating call — `attachItem`/`updateStory`
+   * deliberately don't check status.
+   */
+  async mergeStories(survivingStoryId: StoryId, losingStoryId: StoryId): Promise<Story> {
+    if (survivingStoryId === losingStoryId) {
+      throw new Error("Cannot merge a story into itself");
+    }
+
+    const surviving = await this.stories.findById(survivingStoryId);
+    if (!surviving) {
+      throw new Error(`Story not found: ${survivingStoryId}`);
+    }
+
+    const losing = await this.stories.findById(losingStoryId);
+    if (!losing) {
+      throw new Error(`Story not found: ${losingStoryId}`);
+    }
+
+    if (surviving.status !== "active") {
+      throw new Error(`Story ${survivingStoryId} is not active (status: ${surviving.status})`);
+    }
+    if (losing.status !== "active") {
+      throw new Error(`Story ${losingStoryId} is not active (status: ${losing.status})`);
+    }
+
+    return this.stories.mergeStories(survivingStoryId, losingStoryId);
+  }
+
+  /**
    * Archives every active story that's gone quiet for over
    * `STALE_STORY_AGE_DAYS` — well past `get-feed`'s 7-day cutoff, so a
    * resumed story rarely misses its original and gets duplicated. Intended

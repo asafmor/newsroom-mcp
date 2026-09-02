@@ -127,6 +127,7 @@ describe("newsroom-mcp server", () => {
       "create-story",
       "attach-item-to-story",
       "update-story",
+      "merge-stories",
       "mark-item-processed",
       "get-feed",
     ]);
@@ -207,9 +208,59 @@ describe("newsroom-mcp server", () => {
 
     expect(feed.structuredContent.stories.map((story) => story.id)).toContain(storyId);
 
+    const secondStory = (await client?.callTool({
+      name: "create-story",
+      arguments: {
+        contentItemIds: [restItems[0]?.id],
+        title: "Duplicate story",
+        summary: "Turns out this is the same event as the first story.",
+        relevanceScore: 0.6,
+        importanceScore: 0.4,
+      },
+    })) as ToolTextResult & { structuredContent: { id: string } };
+
+    expect(secondStory.isError).toBeFalsy();
+    const losingStoryId = secondStory.structuredContent.id;
+
+    const merged = (await client?.callTool({
+      name: "merge-stories",
+      arguments: { survivingStoryId: storyId, losingStoryId },
+    })) as ToolTextResult & {
+      structuredContent: { id: string; status: string; lastItemAttachedAt: string; lastMeaningfulUpdateAt: string };
+    };
+
+    expect(merged.isError).toBeFalsy();
+    expect(merged.structuredContent.id).toBe(storyId);
+    expect(merged.structuredContent.status).toBe("active");
+    // lastItemAttachedAt reconciles to the later of the two pre-merge values,
+    // which is the losing story's own creation (it was created after
+    // storyId's last attach above).
+    expect(merged.structuredContent.lastItemAttachedAt >= attached.structuredContent.lastMeaningfulUpdateAt).toBe(
+      true,
+    );
+
+    const activeAfterMerge = (await client?.callTool({
+      name: "get-active-stories",
+      arguments: {},
+    })) as ToolTextResult & {
+      structuredContent: { stories: { id: string; sourceNames: string[] }[] };
+    };
+
+    expect(activeAfterMerge.structuredContent.stories.map((story) => story.id)).toEqual([storyId]);
+    expect(activeAfterMerge.structuredContent.stories[0]?.sourceNames.length).toBeGreaterThanOrEqual(3);
+
+    const feedAfterMerge = (await client?.callTool({
+      name: "get-feed",
+      arguments: {},
+    })) as ToolTextResult & { structuredContent: { stories: { id: string }[] } };
+
+    const feedIds = feedAfterMerge.structuredContent.stories.map((story) => story.id);
+    expect(feedIds).toContain(storyId);
+    expect(feedIds).not.toContain(losingStoryId);
+
     const ignored = (await client?.callTool({
       name: "mark-item-processed",
-      arguments: { contentItemId: restItems[0]?.id, status: "ignored", reason: "Not relevant." },
+      arguments: { contentItemId: restItems[1]?.id, status: "ignored", reason: "Not relevant." },
     })) as ToolTextResult;
 
     expect(ignored.isError).toBeFalsy();

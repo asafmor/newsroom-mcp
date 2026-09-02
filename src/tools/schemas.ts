@@ -170,6 +170,17 @@ export const markItemProcessedOutputSchema = z.object({
 });
 export type MarkItemProcessedOutput = z.infer<typeof markItemProcessedOutputSchema>;
 
+// merge_stories --------------------------------------------------------
+
+export const mergeStoriesInputSchema = z.object({
+  survivingStoryId: z.string(),
+  losingStoryId: z.string(),
+});
+export type MergeStoriesInput = z.infer<typeof mergeStoriesInputSchema>;
+
+export const mergeStoriesOutputSchema = storySchema;
+export type MergeStoriesOutput = z.infer<typeof mergeStoriesOutputSchema>;
+
 // get_feed -----------------------------------------------------------------
 
 export const getFeedInputSchema = z.object({
