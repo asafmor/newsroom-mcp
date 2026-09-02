@@ -28,7 +28,7 @@ export function FeedHeader({
     <header className="feed-header">
       <div className="brand-row">
         <div className="brand">
-          <span className="wordmark">Newsroom</span>
+          <span className="wordmark edu-tas-beginner-wordmark">Newsroom</span>
           <div className="meta-text">
             <span className="updated-meta">{generatedAt === undefined ? "Updated —" : `Updated ${shortTime(generatedAt)}`}</span>
           </div>

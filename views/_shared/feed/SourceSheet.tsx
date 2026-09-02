@@ -53,6 +53,9 @@ export function SourceSheet({
   const [copied, setCopied] = useState(false);
 
   function onHandlePointerDown(e: React.PointerEvent<HTMLDivElement>) {
+    // Let taps on the copy/close buttons behave normally instead of
+    // starting a drag — they now sit inside the widened drag area.
+    if ((e.target as HTMLElement).closest("button")) return;
     e.currentTarget.setPointerCapture(e.pointerId);
     dragStartY.current = e.clientY;
     setIsDragging(true);
@@ -138,58 +141,59 @@ export function SourceSheet({
         style={dragY === 0 ? undefined : { transform: `translateY(${dragY}px)`, transition: isDragging ? "none" : undefined }}
       >
         <div
-          className="sheet-handle"
-          aria-hidden="true"
+          className="sheet-drag-header"
           onPointerDown={onHandlePointerDown}
           onPointerMove={onHandlePointerMove}
           onPointerUp={onHandlePointerUp}
           onPointerCancel={onHandlePointerUp}
-        />
-        <div className="sheet-head">
-          <div className="sheet-head-row">
-            <h2 className="sheet-title" id="sheetTitle">
-              {story.title}
-            </h2>
-            <div className="sheet-head-actions">
-              <button
-                className="sheet-copy"
-                data-copied={copied}
-                aria-label={copied ? "Copied" : "Copy title, summary, and links"}
-                onClick={() => { void onCopy(); }}
-              >
-                {copied ? (
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M20 6L9 17l-5-5" />
+        >
+          <div className="sheet-handle" aria-hidden="true" />
+          <div className="sheet-head">
+            <div className="sheet-head-row">
+              <h2 className="sheet-title" id="sheetTitle">
+                {story.title}
+              </h2>
+              <div className="sheet-head-actions">
+                <button
+                  className="sheet-copy"
+                  data-copied={copied}
+                  aria-label={copied ? "Copied" : "Copy title, summary, and links"}
+                  onClick={() => { void onCopy(); }}
+                >
+                  {copied ? (
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M20 6L9 17l-5-5" />
+                    </svg>
+                  ) : (
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                      <rect x="9" y="9" width="12" height="12" rx="2" />
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                    </svg>
+                  )}
+                </button>
+                <button className="sheet-close" aria-label="Close" onClick={onClose} ref={closeRef}>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
+                    <path d="M18 6L6 18M6 6l12 12" />
                   </svg>
-                ) : (
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                    <rect x="9" y="9" width="12" height="12" rx="2" />
-                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
-                  </svg>
-                )}
-              </button>
-              <button className="sheet-close" aria-label="Close" onClick={onClose} ref={closeRef}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
-                  <path d="M18 6L6 18M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-          </div>
-          <div className="sheet-stats">
-            <div>
-              <div className="sheet-stat-label">First seen</div>
-              <div className="sheet-stat-value">
-                {shortDate(earliestPublishedAt(story))}
-                <span className="stat-sep">·</span>
-                {shortTime(earliestPublishedAt(story))}
+                </button>
               </div>
             </div>
-            <div>
-              <div className="sheet-stat-label">Updated</div>
-              <div className="sheet-stat-value">
-                {shortDate(story.lastMeaningfulUpdateAt)}
-                <span className="stat-sep">·</span>
-                {shortTime(story.lastMeaningfulUpdateAt)}
+            <div className="sheet-stats">
+              <div>
+                <div className="sheet-stat-label">First seen</div>
+                <div className="sheet-stat-value">
+                  {shortDate(earliestPublishedAt(story))}
+                  <span className="stat-sep">·</span>
+                  {shortTime(earliestPublishedAt(story))}
+                </div>
+              </div>
+              <div>
+                <div className="sheet-stat-label">Updated</div>
+                <div className="sheet-stat-value">
+                  {shortDate(story.lastMeaningfulUpdateAt)}
+                  <span className="stat-sep">·</span>
+                  {shortTime(story.lastMeaningfulUpdateAt)}
+                </div>
               </div>
             </div>
           </div>
