@@ -113,20 +113,14 @@ const RSS_FEEDS = [
 /**
  * GitHub repositories whose public release feed is tracked as a "release"
  * content source (see docs on curation criteria in requirements). Keep only
- * repos releasing at a followable cadence (roughly <=2-3/week) — vetted via
- * the GitHub releases API on 2026-09-02. Excluded for flooding the feed:
- * ggml-org/llama.cpp (~8/week, several same-day) and langchain-ai/langchain
- * (~7/week, ~daily). Excluded as stale: microsoft/autogen (no release in a
- * year). Add, remove, or reorder a tracked repository here only — no logic
- * changes needed, but re-check cadence before adding one.
+ * repos releasing at a followable cadence (roughly <=2-3/week) — check via
+ * the GitHub releases API before adding one. Left empty deliberately: the
+ * initial candidate list (openai-python, anthropic-sdk-python, transformers,
+ * ollama, vllm, plus llama.cpp/langchain/autogen — cut for flooding or being
+ * stale) didn't hold up on manual review. The provider itself is done and
+ * wired up; it just has nothing to track until a vetted list is picked.
  */
-const GITHUB_RELEASE_REPOS = [
-  "openai/openai-python",
-  "anthropics/anthropic-sdk-python",
-  "huggingface/transformers",
-  "ollama/ollama",
-  "vllm-project/vllm",
-] as const;
+const GITHUB_RELEASE_REPOS: readonly string[] = [];
 
 /** Builds the registry of every configured provider for this deployment. */
 export function buildProviderRegistry(config: NewsroomConfig): ContentProviderRegistry {

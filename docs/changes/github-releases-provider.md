@@ -37,12 +37,11 @@ about a release first.
   other source in the same run.
 - Keep the tracked-repo list a plain, editable list — adding, removing, or
   reordering repos should be a data change, not a logic change.
-- Ship with 5 starter repos, vetted for a followable release cadence
-  (roughly <=2-3/week): `openai/openai-python`,
-  `anthropics/anthropic-sdk-python`, `huggingface/transformers`,
-  `ollama/ollama`, `vllm-project/vllm`. Dropped `ggml-org/llama.cpp` and
-  `langchain-ai/langchain` for releasing near-daily (would flood the feed),
-  and `microsoft/autogen` for having no release in a year.
+- Ship with the tracked-repo list empty. An initial candidate list (5 repos
+  vetted for release cadence, with `ggml-org/llama.cpp`,
+  `langchain-ai/langchain`, and `microsoft/autogen` cut for flooding the feed
+  or being stale) didn't hold up on manual review, so the feature ships as a
+  ready capability with nothing tracked until a vetted list is picked.
 - Require no authentication, API token, or credential.
 - Leave every existing tool's shape, the tool count, and `feed.json`/the
   public site untouched.
