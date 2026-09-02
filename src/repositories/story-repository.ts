@@ -52,4 +52,17 @@ export interface StoryRepository {
   attachItem(link: StoryItem): Promise<void>;
 
   findAttachedContent(storyId: StoryId): Promise<AttachedContentItem[]>;
+
+  /**
+   * Atomically folds `losingId` into `survivingId`: reassigns every
+   * `story_items` row from the loser onto the survivor (resolving any
+   * collision where the same content item is attached to both by keeping
+   * the stronger `contribution`, tie going to the survivor's existing row),
+   * reconciles the survivor's `firstSeenAt`/`lastItemAttachedAt`/
+   * `lastMeaningfulUpdateAt` to the min/max/max of the two pre-merge
+   * values, and archives the loser. Callers (the service layer) must
+   * already have validated both ids exist and are active — this method
+   * does not re-check.
+   */
+  mergeStories(survivingId: StoryId, losingId: StoryId): Promise<Story>;
 }
