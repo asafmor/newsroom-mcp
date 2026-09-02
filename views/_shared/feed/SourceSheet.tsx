@@ -132,13 +132,26 @@ export function SourceSheet({
 
   return (
     <>
-      <div className={`sheet-overlay${visible ? " open" : ""}`} onClick={onClose} />
+      {/* pointerEvents is tied straight to `open`, not the `visible` flag the
+          slide/fade transition uses — `visible` flips a render later (it's
+          set from a useEffect), so gating on it left the overlay/sheet
+          interactive for a frame after a swipe-dismiss, swallowing the very
+          next tap (even one on the app header, since the overlay covers the
+          whole viewport). */}
+      <div
+        className={`sheet-overlay${visible ? " open" : ""}`}
+        style={{ pointerEvents: open ? "auto" : "none" }}
+        onClick={onClose}
+      />
       <section
         className={`source-sheet${visible ? " open" : ""}`}
         role="dialog"
         aria-modal="true"
         aria-labelledby="sheetTitle"
-        style={dragY === 0 ? undefined : { transform: `translateY(${dragY}px)`, transition: isDragging ? "none" : undefined }}
+        style={{
+          pointerEvents: open ? "auto" : "none",
+          ...(dragY === 0 ? undefined : { transform: `translateY(${dragY}px)`, transition: isDragging ? "none" : undefined }),
+        }}
       >
         <div
           className="sheet-drag-header"

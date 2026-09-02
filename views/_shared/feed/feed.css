@@ -225,7 +225,9 @@ html, body { margin: 0; background: var(--bg); }
 }
 .sort-tab {
   padding: 1px 14px; border-radius: var(--radius-pill);
-  font-size: 8px; font-weight: 600; color: var(--muted);
+  /* line-height pinned in px (not the inherited unitless ratio) so shrinking
+     font-size doesn't shrink the button along with the label. */
+  font-size: 6px; line-height: 12.8px; font-weight: 600; color: var(--muted);
   transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
 }
 .sort-tab[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: var(--elev-ring); }
