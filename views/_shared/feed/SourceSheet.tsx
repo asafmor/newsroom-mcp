@@ -50,10 +50,16 @@ export function SourceSheet({
   const [dragY, setDragY] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const dragStartY = useRef<number | null>(null);
-  const dismissFrame = useRef<number | null>(null);
+  const dragYRef = useRef(0);
+  const dragHeaderRef = useRef<HTMLDivElement>(null);
+  const onCloseRef = useRef(onClose);
+  onCloseRef.current = onClose;
   const [copied, setCopied] = useState(false);
 
   function onHandlePointerDown(e: React.PointerEvent<HTMLDivElement>) {
+    // Touch uses native Touch Events below. Chrome cancels a Pointer Events
+    // drag once it recognizes native panning when touch-action permits it.
+    if (e.pointerType === "touch") return;
     // Let taps on the copy/close buttons behave normally instead of
     // starting a drag — they now sit inside the widened drag area.
     if ((e.target as HTMLElement).closest("button")) return;
@@ -61,40 +67,80 @@ export function SourceSheet({
     dragStartY.current = e.clientY;
     setIsDragging(true);
   }
-  function onHandlePointerMove(e: React.PointerEvent<HTMLDivElement>) {
+
+  function updateHandleDrag(clientY: number) {
     if (dragStartY.current === null) return;
-    const delta = e.clientY - dragStartY.current;
-    setDragY(delta > 0 ? delta : Math.max(delta * OVERDRAG_RESISTANCE, -OVERDRAG_MAX_PX));
+    const delta = clientY - dragStartY.current;
+    const nextDragY = delta > 0 ? delta : Math.max(delta * OVERDRAG_RESISTANCE, -OVERDRAG_MAX_PX);
+    dragYRef.current = nextDragY;
+    setDragY(nextDragY);
   }
-  function finishHandleDrag(e: React.PointerEvent<HTMLDivElement>, canceled = false) {
-    const startY = dragStartY.current;
-    if (startY === null) return;
 
-    // End capture ourselves before closing. Waiting for the browser's implicit
-    // release means onClose changes focus, body scrolling, and the dialog DOM
-    // while the pointerup gesture is still being dispatched. In particular,
-    // mobile WebKit can carry that unfinished gesture into the next tap.
-    if (e.currentTarget.hasPointerCapture(e.pointerId)) {
-      e.currentTarget.releasePointerCapture(e.pointerId);
-    }
+  function finishHandleDrag(canceled = false) {
+    if (dragStartY.current === null) return;
 
-    const shouldDismiss = !canceled && e.clientY - startY > DISMISS_DRAG_PX;
+    // Read the ref rather than React state: several pointermove events can be
+    // batched before pointerup renders the latest dragY value.
+    const shouldDismiss = !canceled && dragYRef.current > DISMISS_DRAG_PX;
     dragStartY.current = null;
+    dragYRef.current = 0;
     setIsDragging(false);
     setDragY(0);
 
-    if (shouldDismiss) {
-      // Let pointerup, lostpointercapture, and any compatibility click finish
-      // before closeSheet restores focus and unlocks the document.
-      dismissFrame.current = requestAnimationFrame(() => {
-        dismissFrame.current = null;
-        onClose();
-      });
-    }
+    if (shouldDismiss) onCloseRef.current();
   }
 
-  useEffect(() => () => {
-    if (dismissFrame.current !== null) cancelAnimationFrame(dismissFrame.current);
+  function onHandlePointerMove(e: React.PointerEvent<HTMLDivElement>) {
+    if (e.pointerType !== "touch") updateHandleDrag(e.clientY);
+  }
+
+  function onHandlePointerEnd(e: React.PointerEvent<HTMLDivElement>, canceled = false) {
+    if (e.pointerType === "touch") return;
+    if (e.currentTarget.hasPointerCapture(e.pointerId)) {
+      e.currentTarget.releasePointerCapture(e.pointerId);
+    }
+    finishHandleDrag(canceled);
+  }
+
+  useEffect(() => {
+    const header = dragHeaderRef.current;
+    if (header === null) return;
+
+    function onTouchStart(e: TouchEvent) {
+      if (e.touches.length !== 1 || !(e.target instanceof Element) || e.target.closest("button")) return;
+      const touch = e.touches.item(0);
+      if (touch === null) return;
+      dragStartY.current = touch.clientY;
+      dragYRef.current = 0;
+      setIsDragging(true);
+    }
+
+    function onTouchMove(e: TouchEvent) {
+      if (dragStartY.current === null || e.touches.length !== 1) return;
+      const touch = e.touches.item(0);
+      if (touch === null) return;
+      e.preventDefault();
+      updateHandleDrag(touch.clientY);
+    }
+
+    function onTouchEnd() {
+      finishHandleDrag(false);
+    }
+
+    function onTouchCancel() {
+      finishHandleDrag(true);
+    }
+
+    header.addEventListener("touchstart", onTouchStart, { passive: true });
+    header.addEventListener("touchmove", onTouchMove, { passive: false });
+    header.addEventListener("touchend", onTouchEnd);
+    header.addEventListener("touchcancel", onTouchCancel);
+    return () => {
+      header.removeEventListener("touchstart", onTouchStart);
+      header.removeEventListener("touchmove", onTouchMove);
+      header.removeEventListener("touchend", onTouchEnd);
+      header.removeEventListener("touchcancel", onTouchCancel);
+    };
   }, []);
 
   useEffect(() => {
@@ -175,10 +221,11 @@ export function SourceSheet({
       >
         <div
           className="sheet-drag-header"
+          ref={dragHeaderRef}
           onPointerDown={onHandlePointerDown}
           onPointerMove={onHandlePointerMove}
-          onPointerUp={finishHandleDrag}
-          onPointerCancel={(e) => { finishHandleDrag(e, true); }}
+          onPointerUp={onHandlePointerEnd}
+          onPointerCancel={(e) => { onHandlePointerEnd(e, true); }}
         >
           <div className="sheet-handle" aria-hidden="true" />
           <div className="sheet-head">

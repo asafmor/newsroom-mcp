@@ -339,9 +339,10 @@ html, body { margin: 0; background: var(--bg); }
 }
 /* The drag anchor spans the handle pill *and* the head below it (title,
    actions, stats) — a thumb touching anywhere up here can drag the sheet.
-   touch-action: none stops the browser's own scroll/pull-to-refresh
-   gestures from fighting the pointer drag. */
-.sheet-drag-header { flex-shrink: 0; cursor: grab; touch-action: none; }
+   Do not use `none` or `pan-x`: Chromium 407890253 swallows the next click
+   after a vertical drag on either value. SourceSheet's active touchmove
+   listener prevents native scrolling during the drag instead. */
+.sheet-drag-header { flex-shrink: 0; cursor: grab; touch-action: manipulation; }
 .sheet-drag-header:active { cursor: grabbing; }
 .sheet-handle { width: 100%; padding: 10px 0 14px; }
 .sheet-handle::before {
