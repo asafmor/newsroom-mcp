@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T17:01:14.430Z",
+  "generatedAt": "2026-09-02T19:02:12.209Z",
   "stories": [
     {
       "id": "55a62e8d-d94b-47ef-afb4-6c00988d7115",
@@ -68,6 +68,46 @@
           "title": "Expected Sept 3 ChatGPT 6 Release Carries Hidden Reasoning Risks",
           "url": "https://www.geeky-gadgets.com/openai-chatgpt-6-astra-model-rumors/",
           "publishedAt": "2026-09-02T12:15:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a1f38237-a380-4e56-8ab4-a6ee4514999e",
+      "title": "Infostealer malware hijacks Claude session cookies to reach corporate accounts",
+      "summary": "Anthropic disclosed that infostealer malware (Vidar, LummaC2, StealC, RedLine, Acreed, Atomic Stealer) replayed stolen Claude session cookies from card-billed, self-serve accounts, bypassing 2FA and SSO. Anthropic signed out affected accounts and refunded charges, but flagged that OAuth grants into services like Gmail/Workspace made via personal accounts on managed devices remain a gap no corporate IT admin can revoke.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-02T19:01:58.634Z",
+      "lastMeaningfulUpdateAt": "2026-09-02T19:01:58.634Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Stolen Claude session cookies can reach corporate Gmail through grants no IT admin can revoke",
+          "url": "https://venturebeat.com/security/stolen-claude-session-cookies-can-reach-corporate-gmail-through-grants-no-it-admin-can-revoke",
+          "publishedAt": "2026-09-02T17:51:48.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8dd7d0fa-a481-4aa4-8cb0-9f9a8d23fa70",
+      "title": "US government backs OpenAI's fair-use defense in NYT copyright lawsuit",
+      "summary": "The Trump administration filed a brief siding with OpenAI's argument that training LLMs on copyrighted material is fair use, in the New York Times' copyright lawsuit against the company, citing US interest in a competitive AI industry.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-02T19:01:58.611Z",
+      "lastMeaningfulUpdateAt": "2026-09-02T19:01:58.611Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
+          "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
+          "publishedAt": "2026-09-02T17:09:06.000Z"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
+          "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
+          "publishedAt": "2026-09-02T18:41:02.000Z"
         }
       ]
     },
@@ -754,6 +794,23 @@
       ]
     },
     {
+      "id": "db4434c6-471e-42e2-b9ba-3d3906975101",
+      "title": "NYC bans generative AI tools in public schools through 8th grade",
+      "summary": "New York City public schools will not use generative AI tools with students through eighth grade for at least a year, a policy distinct from AI-vendor education pushes like Claude/ChatGPT for Teachers.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-02T19:01:58.642Z",
+      "lastMeaningfulUpdateAt": "2026-09-02T19:01:58.642Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "NYC bans the use of generative AI tools in public schools for students through eighth grade",
+          "url": "https://www.engadget.com/2249790/nyc-generative-ai-ban-in-public-schools-through-eighth-grade/",
+          "publishedAt": "2026-09-02T18:50:09.000Z"
+        }
+      ]
+    },
+    {
       "id": "46ad340d-aac2-4628-8d03-1e32a88f0515",
       "title": "ChatGPT Health adds Epic EHR integration for clinicians",
       "summary": "OpenAI's ChatGPT Health now integrates with Epic, giving clinicians read-only access to patient records, and healthcare organizations can connect EHR and other industry data to ChatGPT more broadly — OpenAI's latest push into clinical workflows.",
@@ -1015,59 +1072,8 @@
           "publishedAt": "2026-08-28T19:06:32.000Z"
         }
       ]
-    },
-    {
-      "id": "1a17a14d-f447-4655-bf39-1aa40843eb82",
-      "title": "ChatGPT Ads reaches $1B annualized revenue run rate",
-      "summary": "OpenAI says ChatGPT Ads has reached a $1 billion annualized revenue run rate and is expanding globally, part of a push to support free and affordable access to AI.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-08-31T18:53:06.549Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:06.549Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "A milestone in expanding access to AI",
-          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-          "publishedAt": "2026-08-31T04:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8a188895-3778-4613-b863-0921ef3ddf77",
-      "title": "Pangram emerges as leading AI-detection tool, raising stakes for writers and publishers",
-      "summary": "Wired profiles Pangram, an AI-text-detection service that has become a go-to tool for publishers and institutions screening for AI-generated writing. The piece examines its accuracy claims and the real-world consequences—including career and reputational risk—for authors flagged by such detectors.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-02T11:00:31.760Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T11:00:31.760Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Pangram Has Emerged as the Gold Standard of AI Detection. Should You Trust It?",
-          "url": "https://www.wired.com/story/pangram-has-emerged-as-the-gold-standard-of-ai-detection/",
-          "publishedAt": "2026-09-02T10:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "799b7537-7a14-4468-82ce-81d7b4713482",
-      "title": "US pushes back against a \"DMV for AI\" at global regulatory forum",
-      "summary": "At a G20 technology forum, Trump's AI czar argued a dedicated US regulatory agency for AI would be a \"disaster,\" signaling continued US resistance to centralized AI regulation on the global stage.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-01T19:11:09.773Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.773Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "No ‘DMV for AI’: US Pushes Against AI Regulations at Global Forum",
-          "url": "https://www.cnet.com/tech/services-and-software/g20-innovation-ministerial-ai-regulation-us-news/",
-          "publishedAt": "2026-09-01T18:38:58.000Z"
-        }
-      ]
     }
   ],
-  "totalCount": 124,
+  "totalCount": 129,
   "hasMore": true
 }
