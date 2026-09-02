@@ -134,3 +134,137 @@ describe("RssContentProvider.fetchNew", () => {
     expect(nextState.lastModified).toBe("Sun, 31 Dec 2023 00:00:00 GMT"); // no new header, carried forward
   });
 });
+
+// GitHub's public release Atom feed (https://github.com/<owner>/<repo>/releases.atom):
+// bare-version titles, an <updated> element but no <published>, and a
+// permalink <link rel="alternate">. Mirrors the real feed shape.
+function githubReleaseFeed(entriesXml: string): string {
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Release notes from openai-python</title>
+  ${entriesXml}
+</feed>`;
+}
+
+function githubReleaseEntry(opts: { id: string; version: string; updated: string; notes?: string }): string {
+  const { id, version, updated, notes = "" } = opts;
+  return `<entry>
+    <id>tag:github.com,2008:Repository/1/${id}</id>
+    <link rel="alternate" type="text/html" href="https://github.com/openai/openai-python/releases/tag/${version}"/>
+    <title>${version}</title>
+    <updated>${updated}</updated>
+    <content type="html">${notes}</content>
+    <author><name>someone</name></author>
+  </entry>`;
+}
+
+describe("RssContentProvider.fetchNew with kind: 'release' (GitHub release feeds)", () => {
+  function releaseProvider(): RssContentProvider {
+    return new RssContentProvider({
+      id: "github-release:openai/openai-python",
+      name: "openai-python",
+      url: "https://github.com/openai/openai-python/releases.atom",
+      kind: "release",
+    });
+  }
+
+  it("tags every item with kind: 'release' (AC1)", async () => {
+    const body = githubReleaseFeed(
+      githubReleaseEntry({ id: "v3.7.0", version: "v3.7.0", updated: "2026-01-01T00:00:00Z" }),
+    );
+    vi.stubGlobal("fetch", vi.fn(() => Promise.resolve(new Response(body, { status: 200 }))));
+
+    const result = await releaseProvider().fetchNew(null);
+
+    expect(result.items).toHaveLength(1);
+    expect(result.items[0]?.kind).toBe("release");
+  });
+
+  it("composes the title as '<repo name> <bare version>', never the bare version alone (AC2)", async () => {
+    const body = githubReleaseFeed(
+      githubReleaseEntry({ id: "v3.7.0", version: "v3.7.0", updated: "2026-01-01T00:00:00Z" }),
+    );
+    vi.stubGlobal("fetch", vi.fn(() => Promise.resolve(new Response(body, { status: 200 }))));
+
+    const result = await releaseProvider().fetchNew(null);
+
+    expect(result.items[0]?.title).toBe("openai-python v3.7.0");
+  });
+
+  it("uses the entry's alternate link as the item URL — the release permalink, not the feed URL (AC3)", async () => {
+    const body = githubReleaseFeed(
+      githubReleaseEntry({ id: "v3.7.0", version: "v3.7.0", updated: "2026-01-01T00:00:00Z" }),
+    );
+    vi.stubGlobal("fetch", vi.fn(() => Promise.resolve(new Response(body, { status: 200 }))));
+
+    const result = await releaseProvider().fetchNew(null);
+
+    expect(result.items[0]?.url).toBe("https://github.com/openai/openai-python/releases/tag/v3.7.0");
+  });
+
+  it("falls back to <updated> as publishedAt when the entry has no <published> element (AC4)", async () => {
+    const body = githubReleaseFeed(
+      githubReleaseEntry({ id: "v3.7.0", version: "v3.7.0", updated: "2026-01-01T12:34:56Z" }),
+    );
+    vi.stubGlobal("fetch", vi.fn(() => Promise.resolve(new Response(body, { status: 200 }))));
+
+    const result = await releaseProvider().fetchNew(null);
+
+    expect(result.items[0]?.publishedAt.toISOString()).toBe(new Date("2026-01-01T12:34:56Z").toISOString());
+  });
+
+  it("carries the full release notes through unmodified, with no fabrication (AC5)", async () => {
+    const body = githubReleaseFeed(
+      githubReleaseEntry({
+        id: "v3.7.0",
+        version: "v3.7.0",
+        updated: "2026-01-01T00:00:00Z",
+        notes: "<p>Fixes a bug.</p>",
+      }),
+    );
+    vi.stubGlobal("fetch", vi.fn(() => Promise.resolve(new Response(body, { status: 200 }))));
+
+    const result = await releaseProvider().fetchNew(null);
+
+    expect(result.items[0]?.content).toContain("Fixes a bug.");
+  });
+
+  it("passes through a pre-release/patch entry exactly like any other — no filtering by title or content (AC6)", async () => {
+    const body = githubReleaseFeed(
+      githubReleaseEntry({ id: "v3.7.0-rc1", version: "v3.7.0-rc1", updated: "2026-01-01T00:00:00Z" }) +
+        githubReleaseEntry({ id: "v3.7.1", version: "v3.7.1", updated: "2026-01-02T00:00:00Z" }),
+    );
+    vi.stubGlobal("fetch", vi.fn(() => Promise.resolve(new Response(body, { status: 200 }))));
+
+    const result = await releaseProvider().fetchNew(null);
+
+    expect(result.items.map((i) => i.title)).toEqual(["openai-python v3.7.0-rc1", "openai-python v3.7.1"]);
+  });
+
+  it("does not re-surface an already-ingested release on the next poll (AC7)", async () => {
+    const firstBody = githubReleaseFeed(
+      githubReleaseEntry({ id: "v3.7.0", version: "v3.7.0", updated: "2026-01-01T00:00:00Z" }),
+    );
+    vi.stubGlobal("fetch", vi.fn(() => Promise.resolve(new Response(firstBody, { status: 200 }))));
+    const first = await releaseProvider().fetchNew(null);
+
+    const secondBody = githubReleaseFeed(
+      githubReleaseEntry({ id: "v3.7.0", version: "v3.7.0", updated: "2026-01-01T00:00:00Z" }) +
+        githubReleaseEntry({ id: "v3.8.0", version: "v3.8.0", updated: "2026-01-05T00:00:00Z" }),
+    );
+    vi.stubGlobal("fetch", vi.fn(() => Promise.resolve(new Response(secondBody, { status: 200 }))));
+    const second = await releaseProvider().fetchNew(first.nextState);
+
+    expect(second.items).toHaveLength(1);
+    expect(second.items[0]?.title).toBe("openai-python v3.8.0");
+  });
+
+  it("a repository with no releases yet returns zero items and no error", async () => {
+    const body = githubReleaseFeed("");
+    vi.stubGlobal("fetch", vi.fn(() => Promise.resolve(new Response(body, { status: 200 }))));
+
+    const result = await releaseProvider().fetchNew(null);
+
+    expect(result.items).toEqual([]);
+  });
+});

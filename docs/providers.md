@@ -30,6 +30,16 @@ strategy differs because each upstream API differs — see below.
   the whole feed's poll.
 - Configured feeds live in `src/config/providers.ts`, each as its own
   `ProviderId` (`rss:openai`, `rss:deepmind`, ...) sharing one implementation.
+- The `kind` tagged on every item defaults to `"article"` but is
+  configurable per feed (`RssContentProviderOptions.kind`). GitHub's public
+  per-repository release feed (`https://github.com/<owner>/<repo>/releases.atom`)
+  is plain Atom, so it's just another `RssContentProvider` instance
+  configured with `kind: "release"` — see `GITHUB_RELEASE_REPOS` in
+  `src/config/providers.ts` for the tracked-repository list (edit that list
+  only; no logic change needed to add/remove a repository). Because a
+  release entry's raw title is a bare version string (e.g. `v3.7.0`), a
+  `kind: "release"` item's title is composed as `"<name> <raw title>"` so it
+  identifies the project, not just the version.
 
 ## Hacker News (`src/providers/hacker-news/`)
 

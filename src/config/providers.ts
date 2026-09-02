@@ -110,6 +110,18 @@ const RSS_FEEDS = [
   },
 ] as const;
 
+/**
+ * GitHub repositories whose public release feed is tracked as a "release"
+ * content source (see docs on curation criteria in requirements). Keep only
+ * repos releasing at a followable cadence (roughly <=2-3/week) — check via
+ * the GitHub releases API before adding one. Left empty deliberately: the
+ * initial candidate list (openai-python, anthropic-sdk-python, transformers,
+ * ollama, vllm, plus llama.cpp/langchain/autogen — cut for flooding or being
+ * stale) didn't hold up on manual review. The provider itself is done and
+ * wired up; it just has nothing to track until a vetted list is picked.
+ */
+const GITHUB_RELEASE_REPOS: readonly string[] = [];
+
 /** Builds the registry of every configured provider for this deployment. */
 export function buildProviderRegistry(config: NewsroomConfig): ContentProviderRegistry {
   const providers = [
@@ -122,6 +134,16 @@ export function buildProviderRegistry(config: NewsroomConfig): ContentProviderRe
           fetchTimeoutMs: config.fetchTimeoutMs,
         }),
     ),
+    ...GITHUB_RELEASE_REPOS.map((slug) => {
+      const repoName = slug.split("/")[1] ?? slug;
+      return new RssContentProvider({
+        id: `github-release:${slug}`,
+        name: repoName,
+        url: `https://github.com/${slug}/releases.atom`,
+        fetchTimeoutMs: config.fetchTimeoutMs,
+        kind: "release",
+      });
+    }),
     new HackerNewsContentProvider({
       id: "hacker-news",
       name: "Hacker News",

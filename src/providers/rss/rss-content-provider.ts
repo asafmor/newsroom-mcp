@@ -1,5 +1,5 @@
 import Parser from "rss-parser";
-import type { ContentItem } from "../../domain/content-item.js";
+import type { ContentItem, ContentKind } from "../../domain/content-item.js";
 import type { ContentProvider, ProviderFetchResult, ProviderId, ProviderState } from "../../domain/provider.js";
 import type { RssContentProviderOptions, RssProviderState } from "./rss-types.js";
 
@@ -10,12 +10,14 @@ export class RssContentProvider implements ContentProvider {
   readonly name: string;
   private readonly url: string;
   private readonly fetchTimeoutMs: number;
+  private readonly kind: ContentKind;
 
   constructor(options: RssContentProviderOptions) {
     this.id = options.id;
     this.name = options.name;
     this.url = options.url;
     this.fetchTimeoutMs = options.fetchTimeoutMs ?? DEFAULT_FETCH_TIMEOUT_MS;
+    this.kind = options.kind ?? "article";
   }
 
   async fetchNew(state: ProviderState | null): Promise<ProviderFetchResult> {
@@ -50,7 +52,7 @@ export class RssContentProvider implements ContentProvider {
     let latestPublishedAt = previousLatest;
 
     for (const rawItem of feed.items) {
-      const contentItem = mapItem(this.id, rawItem);
+      const contentItem = mapItem(this.id, this.name, this.kind, rawItem);
       if (!contentItem) continue; // unparseable date or no id/url — skip, keep the rest of the fetch
 
       if (!latestPublishedAt || contentItem.publishedAt > latestPublishedAt) {
@@ -86,7 +88,7 @@ export class RssContentProvider implements ContentProvider {
  * Skipping (rather than throwing) keeps one bad item from losing an
  * otherwise-good fetch.
  */
-function mapItem(providerId: ProviderId, item: Parser.Item): ContentItem | undefined {
+function mapItem(providerId: ProviderId, name: string, kind: ContentKind, item: Parser.Item): ContentItem | undefined {
   const externalId = item.guid ?? item.link;
   if (!externalId) return undefined;
 
@@ -97,11 +99,16 @@ function mapItem(providerId: ProviderId, item: Parser.Item): ContentItem | undef
   const publishedAt = new Date(rawDate);
   if (Number.isNaN(publishedAt.getTime())) return undefined;
 
+  // Release feed titles are bare version identifiers (e.g. "v3.7.0"); a bare
+  // version means nothing to the curating agent without the project name.
+  const rawTitle = item.title ?? "(untitled)";
+  const title = kind === "release" ? `${name} ${rawTitle}` : rawTitle;
+
   return {
     providerId,
     externalId,
-    kind: "article",
-    title: item.title ?? "(untitled)",
+    kind,
+    title,
     url,
     publishedAt,
     ...(item.creator && { authors: [item.creator] }),

@@ -1,3 +1,4 @@
+import type { ContentKind } from "../../domain/content-item.js";
 import type { ProviderId } from "../../domain/provider.js";
 
 /**
@@ -17,4 +18,6 @@ export interface RssContentProviderOptions {
   url: string;
   /** Defaults to 20000ms. */
   fetchTimeoutMs?: number;
+  /** Kind tagged on every item this feed produces. Defaults to "article". */
+  kind?: ContentKind;
 }
