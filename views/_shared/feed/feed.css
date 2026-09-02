@@ -227,11 +227,10 @@ html, body { margin: 0; background: var(--bg); }
   height: var(--control-h); box-sizing: border-box;
   background: var(--border-soft); border-radius: var(--radius-pill); padding: 2px;
 }
-.sort-tab {
-  padding: 1px 14px; border-radius: var(--radius-pill);
-  /* line-height pinned in px (not the inherited unitless ratio) so shrinking
-     font-size doesn't shrink the button along with the label. */
-  font-size: 6px; line-height: 12.8px; font-weight: 600; color: var(--muted);
+.newsroomFeed .sort-tab {
+  display: grid; place-items: center;
+  height: calc(var(--control-h) - 4px); padding: 0 14px; border-radius: var(--radius-pill);
+  font-size: 12px; line-height: 12.8px; font-weight: 600; color: var(--muted);
   transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
 }
 .sort-tab[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: var(--elev-ring); }

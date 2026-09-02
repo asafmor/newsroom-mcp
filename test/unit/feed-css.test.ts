@@ -11,3 +11,14 @@ describe("feed touch behavior", () => {
     expect(dragHeaderRule).not.toMatch(/touch-action:\s*(?:none|pan-x)/);
   });
 });
+
+describe("feed header typography", () => {
+  it("uses smaller sort text without shrinking the fixed-height toggle buttons", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const sortTabRule = /\.newsroomFeed \.sort-tab\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(sortTabRule).toContain("height: calc(var(--control-h) - 4px)");
+    expect(sortTabRule).toContain("font-size: 12px");
+    expect(sortTabRule).toContain("line-height: 12.8px");
+  });
+});
