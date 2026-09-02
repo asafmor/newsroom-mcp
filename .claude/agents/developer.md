@@ -21,6 +21,16 @@ structuredContent, catch errors via tool-errors.ts). Consult
 docs/architecture.md, docs/sqlite-schema.md, docs/mcp-tools.md,
 docs/testing.md as needed for the layer(s) this feature touches.
 
+STATIC-SITE CONSTRAINT
+The public site (site/, deployed to GitHub Pages) is 100% static — it only
+ever fetches one committed feed.json snapshot, published periodically via
+`npm run publish-feed`. Never add a live backend, database, or server-side
+endpoint reachable by the deployed site. New site-facing data must be
+computed during the MCP tool / publish-feed pipeline and baked into
+feed.json, which must stay small (tens of KB, low hundreds of KB at most,
+since it's committed straight into git) — don't add fields that would
+meaningfully bloat it (full article bodies, embeddings, unbounded history).
+
 TASK
 1. Implement the requirements.
 2. Writing tests is part of the implementation, not optional: add/extend

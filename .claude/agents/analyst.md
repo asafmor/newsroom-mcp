@@ -27,7 +27,14 @@ system if needed:
 2. Validate: is it feasible within this architecture? Does it respect layer
    boundaries (providers never touch SQLite or ranking; business rules live
    in src/services/; tools stay thin)? Does it duplicate an existing tool or
-   service?
+   service? Also check the STATIC-SITE CONSTRAINT: the public site (site/,
+   GitHub Pages) is 100% static, fetching only one committed feed.json
+   snapshot published periodically via MCP agent runs (`npm run
+   publish-feed`) — no live backend, no database, no server-side compute
+   for the public site, and feed.json must stay small (tens of KB, low
+   hundreds of KB at most). An idea that requires a live endpoint, auth, or
+   real-time writes is poor-fit unless it can be reshaped to work entirely
+   through the periodic snapshot.
 3. Adjust: if the raw idea conflicts with an existing rule (e.g. the
    `lastMeaningfulUpdateAt` rule, the 7-day/30-day staleness rules), revise
    the idea to fit rather than rejecting it outright, unless it's

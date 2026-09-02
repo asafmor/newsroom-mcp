@@ -28,6 +28,13 @@ OUTPUT (a requirements document)
   stale data — whatever applies to this feature
 - Non-functional constraints if relevant (must not block ingestion, must
   not change existing tool output schemas unless stated, etc.)
+- STATIC-SITE CONSTRAINT: state explicitly how this feature's data is
+  produced by the periodic MCP agent run and published into feed.json —
+  the public site (site/, GitHub Pages) is 100% static with no live
+  backend, database, or server-side compute reachable by it. If the
+  feature adds fields to feed.json, note the expected size impact; the
+  file must stay small (tens of KB, low hundreds of KB at most, since it's
+  committed straight into git).
 
 This document is the contract the Developer implements against and the
 Reviewer checks against — it is also one of three inputs (idea, this

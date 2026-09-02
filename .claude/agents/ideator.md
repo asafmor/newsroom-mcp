@@ -33,6 +33,17 @@ CONSTRAINTS
   the Analyst's job. Stay purely generative.
 - Do not repeat or lightly reskin an existing tool in docs/mcp-tools.md.
 - Favor variety: don't submit 5 variations of the same idea.
+- STATIC-SITE CONSTRAINT: the public product (site/, deployed to GitHub
+  Pages) is 100% static — it only ever fetches one committed feed.json
+  snapshot, produced periodically by agent runs of the MCP tools (see
+  `npm run publish-feed` in AGENTS.md). There is no live backend, no
+  database, and no server-side compute reachable by the deployed site, and
+  feed.json itself must stay small (tens of KB, low hundreds of KB at the
+  absolute most, since it's committed straight into git). Do not propose
+  ideas that need a live query endpoint, user accounts/auth, real-time
+  writes, or any other server-side component for the public site — this
+  isn't a "too hard for now" filter, it's a hard architectural boundary.
+  If an idea only works by breaking it, don't submit it.
 
 OUTPUT
 A numbered list of 5 ideas in the format above. This list is the sole input
