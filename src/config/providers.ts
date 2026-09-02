@@ -110,6 +110,23 @@ const RSS_FEEDS = [
   },
 ] as const;
 
+/**
+ * GitHub repositories whose public release feed is tracked as a "release"
+ * content source (see docs on curation criteria in requirements). Add,
+ * remove, or reorder a tracked repository here only — no logic changes
+ * needed.
+ */
+const GITHUB_RELEASE_REPOS = [
+  "openai/openai-python",
+  "anthropics/anthropic-sdk-python",
+  "huggingface/transformers",
+  "ollama/ollama",
+  "ggml-org/llama.cpp",
+  "langchain-ai/langchain",
+  "vllm-project/vllm",
+  "microsoft/autogen",
+] as const;
+
 /** Builds the registry of every configured provider for this deployment. */
 export function buildProviderRegistry(config: NewsroomConfig): ContentProviderRegistry {
   const providers = [
@@ -122,6 +139,16 @@ export function buildProviderRegistry(config: NewsroomConfig): ContentProviderRe
           fetchTimeoutMs: config.fetchTimeoutMs,
         }),
     ),
+    ...GITHUB_RELEASE_REPOS.map((slug) => {
+      const repoName = slug.split("/")[1] ?? slug;
+      return new RssContentProvider({
+        id: `github-release:${slug}`,
+        name: repoName,
+        url: `https://github.com/${slug}/releases.atom`,
+        fetchTimeoutMs: config.fetchTimeoutMs,
+        kind: "release",
+      });
+    }),
     new HackerNewsContentProvider({
       id: "hacker-news",
       name: "Hacker News",

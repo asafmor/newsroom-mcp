@@ -27,10 +27,10 @@ const ONE_HN_HIT = {
 
 /**
  * Every provider's fetchNew() hits global fetch; stub it by URL shape so
- * fetch-new-items exercises real provider/repository code (20 RSS feeds + HN)
- * without any real network traffic. Each RSS feed has a distinct
- * providerId, so the identical fixture body yields one item per feed, not a
- * dedup collision.
+ * fetch-new-items exercises real provider/repository code (20 RSS feeds + 8
+ * GitHub release feeds + HN) without any real network traffic. Each feed has
+ * a distinct providerId, so the identical fixture body yields one item per
+ * feed, not a dedup collision.
  */
 function stubProviderFetch() {
   const realFetch = globalThis.fetch.bind(globalThis);
@@ -63,6 +63,7 @@ function stubProviderFetch() {
         "mashable.com",
         "engadget.com",
         "geeky-gadgets.com",
+        "github.com",
       ].some((host) => url.includes(host));
 
       if (isRssProviderUrl) {
@@ -134,7 +135,7 @@ describe("newsroom-mcp server", () => {
   });
 
   it("runs the full ingestion → clustering → feed lifecycle", async () => {
-    // 20 RSS feeds + Hacker News each yield one item.
+    // 20 RSS feeds + 8 GitHub release feeds + Hacker News each yield one item.
     const fetched = (await client?.callTool({
       name: "fetch-new-items",
       arguments: {},
@@ -142,18 +143,18 @@ describe("newsroom-mcp server", () => {
 
     expect(fetched.isError).toBeFalsy();
     expect(fetched.structuredContent).toMatchObject({
-      providersProcessed: 21,
-      itemsFetched: 21,
-      itemsInserted: 21,
+      providersProcessed: 29,
+      itemsFetched: 29,
+      itemsInserted: 29,
       duplicates: 0,
     });
 
     const pending = (await client?.callTool({
       name: "get-unprocessed-items",
-      arguments: { limit: 21 },
+      arguments: { limit: 29 },
     })) as ToolTextResult & { structuredContent: { items: { id: string }[] } };
 
-    expect(pending.structuredContent.items).toHaveLength(21);
+    expect(pending.structuredContent.items).toHaveLength(29);
     const [firstItem, secondItem, ...restItems] = pending.structuredContent.items;
 
     const created = (await client?.callTool({
