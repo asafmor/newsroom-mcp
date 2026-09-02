@@ -50,6 +50,7 @@ export function SourceSheet({
   const [dragY, setDragY] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const dragStartY = useRef<number | null>(null);
+  const dismissFrame = useRef<number | null>(null);
   const [copied, setCopied] = useState(false);
 
   function onHandlePointerDown(e: React.PointerEvent<HTMLDivElement>) {
@@ -65,13 +66,36 @@ export function SourceSheet({
     const delta = e.clientY - dragStartY.current;
     setDragY(delta > 0 ? delta : Math.max(delta * OVERDRAG_RESISTANCE, -OVERDRAG_MAX_PX));
   }
-  function onHandlePointerUp() {
-    if (dragStartY.current === null) return;
+  function finishHandleDrag(e: React.PointerEvent<HTMLDivElement>, canceled = false) {
+    const startY = dragStartY.current;
+    if (startY === null) return;
+
+    // End capture ourselves before closing. Waiting for the browser's implicit
+    // release means onClose changes focus, body scrolling, and the dialog DOM
+    // while the pointerup gesture is still being dispatched. In particular,
+    // mobile WebKit can carry that unfinished gesture into the next tap.
+    if (e.currentTarget.hasPointerCapture(e.pointerId)) {
+      e.currentTarget.releasePointerCapture(e.pointerId);
+    }
+
+    const shouldDismiss = !canceled && e.clientY - startY > DISMISS_DRAG_PX;
     dragStartY.current = null;
     setIsDragging(false);
-    if (dragY > DISMISS_DRAG_PX) onClose();
     setDragY(0);
+
+    if (shouldDismiss) {
+      // Let pointerup, lostpointercapture, and any compatibility click finish
+      // before closeSheet restores focus and unlocks the document.
+      dismissFrame.current = requestAnimationFrame(() => {
+        dismissFrame.current = null;
+        onClose();
+      });
+    }
   }
+
+  useEffect(() => () => {
+    if (dismissFrame.current !== null) cancelAnimationFrame(dismissFrame.current);
+  }, []);
 
   useEffect(() => {
     if (!open) {
@@ -132,12 +156,8 @@ export function SourceSheet({
 
   return (
     <>
-      {/* pointerEvents is tied straight to `open`, not the `visible` flag the
-          slide/fade transition uses — `visible` flips a render later (it's
-          set from a useEffect), so gating on it left the overlay/sheet
-          interactive for a frame after a swipe-dismiss, swallowing the very
-          next tap (even one on the app header, since the overlay covers the
-          whole viewport). */}
+      {/* Keep exit-animation state (`visible`) separate from interactivity:
+          closing layers stop receiving input as soon as `open` changes. */}
       <div
         className={`sheet-overlay${visible ? " open" : ""}`}
         style={{ pointerEvents: open ? "auto" : "none" }}
@@ -157,8 +177,8 @@ export function SourceSheet({
           className="sheet-drag-header"
           onPointerDown={onHandlePointerDown}
           onPointerMove={onHandlePointerMove}
-          onPointerUp={onHandlePointerUp}
-          onPointerCancel={onHandlePointerUp}
+          onPointerUp={finishHandleDrag}
+          onPointerCancel={(e) => { finishHandleDrag(e, true); }}
         >
           <div className="sheet-handle" aria-hidden="true" />
           <div className="sheet-head">

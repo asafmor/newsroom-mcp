@@ -324,10 +324,8 @@ html, body { margin: 0; background: var(--bg); }
   display: flex; flex-direction: column;
   transform: translateY(100%);
   transition: transform var(--motion-base) var(--ease-standard);
-  /* Same story as .sheet-overlay above: while closed/closing, the sheet is
-     still mid-transition (still partly on-screen) and would otherwise eat
-     the first tap on whatever's underneath it — same rect, same z-index,
-     just no opacity fade to hide the effect. */
+  /* The sheet remains mounted during its exit transition, but only the open
+     state is interactive. */
   pointer-events: none;
 }
 .source-sheet.open { transform: translateY(0); pointer-events: auto; }
