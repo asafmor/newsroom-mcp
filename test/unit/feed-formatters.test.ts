@@ -4,7 +4,9 @@ import {
   availableTags,
   contributionLabel,
   developmentCount,
+  pruneReadIds,
   storyMatchesFilters,
+  unreadCount,
 } from "../../views/_shared/feed/formatters.js";
 import type { FeedSource, FeedStory } from "../../views/_shared/feed/types.js";
 
@@ -101,5 +103,51 @@ describe("storyMatchesFilters", () => {
 
     expect(storyMatchesFilters(untagged, { providerFilter: "all", tagFilter: "all", search: "" })).toBe(true);
     expect(storyMatchesFilters(untagged, { providerFilter: "all", tagFilter: "safety", search: "" })).toBe(false);
+  });
+});
+
+describe("pruneReadIds", () => {
+  it("drops stored ids with no overlap in the current feed", () => {
+    expect(pruneReadIds(["a", "b"], ["c", "d"])).toEqual([]);
+  });
+
+  it("keeps a fully-contained stored set, deduplicated and order-independent", () => {
+    expect(pruneReadIds(["b", "a", "a"], ["a", "b", "c"]).sort()).toEqual(["a", "b"]);
+  });
+
+  it("keeps exactly the overlap on a partial match", () => {
+    expect(pruneReadIds(["a", "b", "x"], ["b", "c"])).toEqual(["b"]);
+  });
+
+  it("is empty when nothing was stored", () => {
+    expect(pruneReadIds([], ["a", "b"])).toEqual([]);
+  });
+
+  it("is empty when the current feed is empty", () => {
+    expect(pruneReadIds(["a", "b"], [])).toEqual([]);
+  });
+});
+
+describe("unreadCount", () => {
+  const stories = [
+    makeStory([makeSource()], { id: "a" }),
+    makeStory([makeSource()], { id: "b" }),
+    makeStory([makeSource()], { id: "c" }),
+  ];
+
+  it("equals the total when nothing is read", () => {
+    expect(unreadCount(stories, new Set())).toBe(3);
+  });
+
+  it("is zero when everything is read", () => {
+    expect(unreadCount(stories, new Set(["a", "b", "c"]))).toBe(0);
+  });
+
+  it("counts only the unread ones on a mixed set", () => {
+    expect(unreadCount(stories, new Set(["b"]))).toBe(2);
+  });
+
+  it("is zero for an empty story list", () => {
+    expect(unreadCount([], new Set(["a"]))).toBe(0);
   });
 });

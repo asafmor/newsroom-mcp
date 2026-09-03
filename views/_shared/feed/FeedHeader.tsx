@@ -15,6 +15,7 @@ export function FeedHeader({
   onTagFilterChange,
   searchQuery,
   onSearchChange,
+  unreadCount,
 }: {
   readonly generatedAt: string | undefined;
   readonly sortMode: SortMode;
@@ -29,6 +30,12 @@ export function FeedHeader({
   readonly onTagFilterChange: (tag: string) => void;
   readonly searchQuery: string;
   readonly onSearchChange: (query: string) => void;
+  /**
+   * Stories not yet opened, over the full loaded feed. `undefined` means
+   * "don't know" (storage unavailable, or the pending/skeleton state before
+   * a feed has loaded at all) — the badge is omitted, not shown as 0.
+   */
+  readonly unreadCount?: number;
 }) {
   return (
     <header className="feed-header">
@@ -37,6 +44,15 @@ export function FeedHeader({
           <span className="wordmark edu-tas-beginner-wordmark">Newsroom</span>
           <div className="meta-text">
             <span className="updated-meta">{generatedAt === undefined ? "Updated —" : `Updated ${shortTime(generatedAt)}`}</span>
+            {/* Absent from the DOM at 0 (or "don't know") — same "remove the
+                dead control" pattern as the tag select below. Real text, not
+                color/icon alone, so assistive tech can read the count. */}
+            {unreadCount !== undefined && unreadCount > 0 && (
+              <>
+                <span className="meta-sep" aria-hidden="true">·</span>
+                <span className="unread-count">{unreadCount} new</span>
+              </>
+            )}
           </div>
         </div>
         <div className="header-controls">

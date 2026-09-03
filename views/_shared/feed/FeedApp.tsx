@@ -6,10 +6,11 @@ import { SkeletonCard } from "./SkeletonCard.js";
 import { SourceSheet } from "./SourceSheet.js";
 import { StoryCard } from "./StoryCard.js";
 import type { FeedStory, SortMode, Theme } from "./types.js";
-import { availableTags, latestPublishedAt, storyMatchesFilters } from "./formatters.js";
+import { availableTags, latestPublishedAt, pruneReadIds, storyMatchesFilters, unreadCount } from "./formatters.js";
 
 const THEME_STORAGE_KEY = "newsroom-theme";
 const SORT_STORAGE_KEY = "newsroom-sort-mode";
+const READ_IDS_STORAGE_KEY = "newsroom-read-ids";
 
 // Sandboxed MCP host iframes can throw on localStorage access — theme
 // persistence is a nicety, not something worth crashing the feed over.
@@ -31,6 +32,32 @@ function getInitialSortMode(): SortMode {
     // ignore
   }
   return "top";
+}
+
+/**
+ * Read-story ids, purely client-side. `undefined` is a distinct third state
+ * from "empty set" — it means localStorage itself is inaccessible (the
+ * sandboxed MCP View host), and the caller must suppress the whole feature
+ * (no marker, no badge) rather than render every story as unread with a
+ * "0 read" badge showing the full count.
+ */
+function getInitialReadIds(): Set<string> | undefined {
+  let raw: string | null;
+  try {
+    raw = localStorage.getItem(READ_IDS_STORAGE_KEY);
+  } catch {
+    return undefined;
+  }
+  if (raw === null) return new Set(); // first visit / cleared storage — normal all-unread
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    if (Array.isArray(parsed) && parsed.every((id) => typeof id === "string")) {
+      return new Set(parsed);
+    }
+  } catch {
+    // malformed JSON — fall through to "no read ids", never partially trusted
+  }
+  return new Set();
 }
 
 export type FeedState =
@@ -153,6 +180,33 @@ function Feed({
       // ignore — see getInitialTheme
     }
   }, [sortMode]);
+
+  // `undefined` = storage unavailable this session (see getInitialReadIds) —
+  // the read/unread feature goes silent rather than rendering a "0 read" lie.
+  const [readIds, setReadIds] = useState<Set<string> | undefined>(getInitialReadIds);
+
+  // Prune on every feed load: drop stored ids no longer present (archived,
+  // merged away, aged out of the ~50-item feed.json) so storage never grows
+  // past what's currently loaded. Reuses the same Set instance when nothing
+  // changed, so this settles after one pass instead of looping.
+  useEffect(() => {
+    setReadIds((prev) => {
+      if (prev === undefined) return prev;
+      const pruned = pruneReadIds([...prev], stories.map((s) => s.id));
+      if (pruned.length === prev.size && pruned.every((id) => prev.has(id))) return prev;
+      return new Set(pruned);
+    });
+  }, [stories]);
+
+  useEffect(() => {
+    if (readIds === undefined) return;
+    try {
+      localStorage.setItem(READ_IDS_STORAGE_KEY, JSON.stringify([...readIds]));
+    } catch {
+      // ignore — see getInitialTheme
+    }
+  }, [readIds]);
+
   const [selected, setSelected] = useState<FeedStory | undefined>(undefined);
   // Stays set through the sheet's close transition so it doesn't unmount
   // (and lose its content) before the animation finishes — cleared by
@@ -183,6 +237,12 @@ function Feed({
     lastFocused.current = trigger;
     setSelected(story);
     setRenderedStory(story);
+    // Idempotent: bails out (same Set reference, no re-render) when storage
+    // is unavailable or the story is already read.
+    setReadIds((prev) => {
+      if (prev === undefined || prev.has(story.id)) return prev;
+      return new Set(prev).add(story.id);
+    });
   }
   function closeSheet() {
     setSelected(undefined);
@@ -210,6 +270,10 @@ function Feed({
             onTagFilterChange={setTagFilter}
             searchQuery={search}
             onSearchChange={setSearch}
+            // Over the full unfiltered `stories`, not `filtered`/`sorted` —
+            // filters are transient view state (design decision #1).
+            // `undefined` when storage is unavailable suppresses the badge.
+            unreadCount={readIds === undefined ? undefined : unreadCount(stories, readIds)}
           />
           <main className="story-feed" aria-live="polite">
             {sorted.length === 0 ? (
@@ -222,7 +286,9 @@ function Feed({
                 }
               />
             ) : (
-              sorted.map((story) => <StoryCard key={story.id} story={story} onOpen={openStory} />)
+              sorted.map((story) => (
+                <StoryCard key={story.id} story={story} isRead={readIds?.has(story.id)} onOpen={openStory} />
+              ))
             )}
           </main>
         </div>

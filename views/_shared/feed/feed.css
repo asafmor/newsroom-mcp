@@ -181,6 +181,10 @@ html, body { margin: 0; background: var(--bg); }
 .sample-tag { font-family: var(--font-mono); font-size: 11px; color: var(--muted); white-space: nowrap; }
 .meta-sep { font-size: 11px; color: var(--muted); }
 .sample-tag { overflow: hidden; text-overflow: ellipsis; }
+/* Count of stories not yet opened, over the full loaded feed — see
+   FeedHeader's unreadCount prop. Accent-tinted so it reads as "new", but the
+   text itself (not color) is what conveys the count. */
+.unread-count { font-family: var(--font-mono); font-size: 11px; font-weight: 700; color: var(--accent); white-space: nowrap; }
 
 /* Filter row: search + provider dropdown. */
 .filter-row { display: flex; gap: var(--space-2); margin-top: var(--space-3); }
@@ -261,6 +265,18 @@ html, body { margin: 0; background: var(--bg); }
 }
 .story-card:hover { border-color: var(--muted); box-shadow: var(--elev-raised); }
 .story-card:active { transform: scale(0.99); }
+/* Read-state de-emphasis is non-text only (border token shifts, the marker
+   below disappears) — never opacity, background, or a lighter color on
+   .story-title/.story-summary, so a read card stays fully legible and
+   AA contrast holds in both themes. */
+.story-card.story-card--read { border-color: var(--border-soft); }
+/* Unread marker: a small accent bar on the leading edge, present only on
+   unread cards (StoryCard.tsx) — relies on .story-card's own
+   position:relative/overflow:hidden (shared with the ripple). */
+.unread-marker {
+  position: absolute; top: 0; bottom: 0; left: 0; width: 3px;
+  background: var(--accent);
+}
 
 /* ─── empty / loading states ──────────────────────────────────────────── */
 .feed-empty {

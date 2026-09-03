@@ -38,6 +38,61 @@ describe("story development markers", () => {
   });
 });
 
+describe("read-state legibility", () => {
+  it("never dims .story-title or .story-summary from a read-state rule", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8").replace(
+      /\/\*[\s\S]*?\*\//g,
+      "",
+    );
+    // Every rule whose selector list mentions a read-state hook alongside
+    // .story-title/.story-summary — walk every `selector { body }` block.
+    const ruleRegex = /([^{}]+)\{([^{}]*)\}/g;
+    const readSelector = /read/i;
+    const storyTextSelector = /\.story-title|\.story-summary/;
+
+    let match: RegExpExecArray | null;
+    const offenders: string[] = [];
+    while ((match = ruleRegex.exec(css)) !== null) {
+      const [, selector, body] = match;
+      if (readSelector.test(selector) && storyTextSelector.test(selector)) {
+        if (/\bcolor\s*:|\bopacity\s*:/.test(body)) offenders.push(selector.trim());
+      }
+    }
+
+    expect(offenders).toEqual([]);
+  });
+
+  it("keeps .story-card--read de-emphasis to border-only — no background/color/opacity shift", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8").replace(
+      /\/\*[\s\S]*?\*\//g,
+      "",
+    );
+    const ruleRegex = /([^{}]+)\{([^{}]*)\}/g;
+    // Excludes border-color/etc. by requiring the property name isn't
+    // preceded by a word char or hyphen (so "border-color:" doesn't match "color:").
+    const bannedProperty = /(?<![\w-])(background(-color)?|color|opacity)\s*:/;
+
+    let match: RegExpExecArray | null;
+    const offenders: string[] = [];
+    while ((match = ruleRegex.exec(css)) !== null) {
+      const [, selector, body] = match;
+      if (selector.includes("story-card--read") && bannedProperty.test(body)) {
+        offenders.push(selector.trim());
+      }
+    }
+
+    expect(offenders).toEqual([]);
+  });
+
+  it("gives unread cards a non-color marker element, not a color-only signal", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const markerRule = /\.unread-marker\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(markerRule).toBeDefined();
+    expect(markerRule).toContain("position: absolute");
+  });
+});
+
 describe("feed header controls", () => {
   it("gives the theme toggle a persistent background with stronger interaction states", () => {
     const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
