@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T09:00:58.559Z",
+  "generatedAt": "2026-09-03T11:01:35.035Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -69,6 +69,13 @@
           "url": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
           "publishedAt": "2026-09-03T01:32:02.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta Is Reportedly Sending Mixed Messages to Employees on Tokenmaxxing",
+          "url": "https://gizmodo.com/meta-is-reportedly-sending-mixed-messages-to-employees-on-tokenmaxxing-2000806644",
+          "publishedAt": "2026-09-03T09:00:26.000Z",
+          "contribution": "supporting"
         }
       ]
     },
@@ -114,6 +121,13 @@
           "title": "Claude Fable 5.1 Launches with a 25% Drop in Token Consumption",
           "url": "https://www.geeky-gadgets.com/fable-5-1-release/",
           "publishedAt": "2026-09-02T11:14:53.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Anthropic Announces Claude Fable 5.1 And Mythos 5: Here’s What They Offer",
+          "url": "https://in.mashable.com/tech/113560/anthropic-announces-claude-fable-51-and-mythos-5-heres-what-they-offer",
+          "publishedAt": "2026-09-03T09:51:50.000Z",
           "contribution": "supporting"
         }
       ]
@@ -258,6 +272,56 @@
       ]
     },
     {
+      "id": "bd67d3b9-4920-4505-9070-a4d887e84608",
+      "title": "Wired exposes Flock's AI search tool for police surveillance cameras",
+      "summary": "Wired reverse-engineered Flock's newest AI-powered search tool by examining code sent to police officers' browsers. The tool lets officers search across multiple camera feeds using a written description of a person, raising surveillance and privacy concerns.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-03T11:01:18.213Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T11:01:18.213Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "This Is Flock’s AI Search Tool for Cops",
+          "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
+          "publishedAt": "2026-09-03T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ]
+    },
+    {
+      "id": "631b1d1c-d8d3-4119-9878-c7bf5bccb8e3",
+      "title": "Google DeepMind introduces Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "Google DeepMind released Gemini 3.8 Flash along with a specialized \"3.8 Flash Cyber\" variant, continuing its rapid Flash-tier model iteration. Gemini 3.8 Flash has since matched Opus 5 on the Deep Sweep 1.1 benchmark, demonstrating strong performance on complex computational tasks at a lower cost, though with some trade-offs.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-02T17:01:05.918Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T11:01:13.810Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+          "publishedAt": "2026-09-02T16:18:31.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "VentureBeat",
+          "title": "Google’s Gemini 3.8 Flash is built for agents, while its Cyber twin hunts vulnerabilities",
+          "url": "https://venturebeat.com/security/googles-gemini-3-8-flash-is-built-for-agents-while-its-cyber-twin-hunts-vulnerabilities",
+          "publishedAt": "2026-09-03T00:02:18.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Google Gemini 3.8 Flash Matches Opus 5 in Deep Sweep 1.1 Benchmark",
+          "url": "https://www.geeky-gadgets.com/gemini-3-8-flash-benchmarks/",
+          "publishedAt": "2026-09-03T09:25:12.000Z",
+          "contribution": "meaningful-update"
+        }
+      ]
+    },
+    {
       "id": "aeb7935d-75e6-4cf0-b0eb-040692989f65",
       "title": "Meta launches Muse Voice Transcribe at $0.18/hour with 20+ speaker diarization",
       "summary": "Meta Superintelligence Labs launched Muse Voice Transcribe, a real-time speech-to-text model with streaming diarization for 20+ speakers, priced at $0.18/hour — undercutting most rivals while topping Artificial Analysis' streaming accuracy benchmark.",
@@ -372,6 +436,24 @@
       ]
     },
     {
+      "id": "38f79593-f947-49d0-bd26-d305c6bd853e",
+      "title": "Gemini's bad trip-planning advice leads to a mountain rescue",
+      "summary": "Google's Gemini reportedly told a group of climbers that summiting Mt. Shasta would take eight hours; they needed rescuing more than a day later, underscoring the risk of relying on AI chatbots for safety-critical planning.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-03T11:01:22.634Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T11:01:22.634Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "PSA: Don't rely on AI to plan anything that could put your life at risk... like a mountain climb",
+          "url": "https://www.engadget.com/2250160/dont-use-google-gemini-to-plan-a-mountain-climb/",
+          "publishedAt": "2026-09-03T10:20:00.000Z",
+          "contribution": "supporting"
+        }
+      ]
+    },
+    {
       "id": "26e38e75-0805-4052-a00b-bb8b2d2de486",
       "title": "Survey: enterprises now favor non-Nvidia chips over Nvidia's next-gen GPUs for evaluation",
       "summary": "VentureBeat's July VB Pulse survey of 170 AI infrastructure buyers found 39.4% plan to evaluate non-Nvidia accelerators (Trainium, TPU, Instinct, Gaudi, in-house ASICs) over the next year vs. 25.3% for Nvidia's next-gen Blackwell GPUs — a 14-point gap, with interest concentrated among C-suite/decision-makers, alongside rising production adoption of Azure, Gemini, OpenAI and Anthropic, and growing enterprise interest in neoclouds and self-managed open-source stacks.",
@@ -442,31 +524,6 @@
           "title": "US Military Rolls Out Custom Versions of ChatGPT and Grok for ‘Warfighters’",
           "url": "https://gizmodo.com/us-military-rolls-out-custom-versions-of-chatgpt-and-grok-for-warfighters-2000805580",
           "publishedAt": "2026-09-01T15:15:29.000Z",
-          "contribution": "supporting"
-        }
-      ]
-    },
-    {
-      "id": "631b1d1c-d8d3-4119-9878-c7bf5bccb8e3",
-      "title": "Google DeepMind introduces Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "Google DeepMind released Gemini 3.8 Flash along with a specialized \"3.8 Flash Cyber\" variant, continuing its rapid Flash-tier model iteration.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-02T17:01:05.918Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T17:01:05.918Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-          "publishedAt": "2026-09-02T16:18:31.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "VentureBeat",
-          "title": "Google’s Gemini 3.8 Flash is built for agents, while its Cyber twin hunts vulnerabilities",
-          "url": "https://venturebeat.com/security/googles-gemini-3-8-flash-is-built-for-agents-while-its-cyber-twin-hunts-vulnerabilities",
-          "publishedAt": "2026-09-03T00:02:18.000Z",
           "contribution": "supporting"
         }
       ]
@@ -632,6 +689,24 @@
           "title": "Inside Meta’s push to put robots to work in data centers",
           "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
           "publishedAt": "2026-08-30T11:03:47.000Z",
+          "contribution": "supporting"
+        }
+      ]
+    },
+    {
+      "id": "21d3b9d5-f42d-4119-a595-20578a57fb90",
+      "title": "Google rebrands NotebookLM as Gemini Notebook, adds Agentic Research",
+      "summary": "Google has renamed NotebookLM to Gemini Notebook and added an \"Agentic Research\" capability that organizes fragmented ideas and incomplete datasets into coherent outputs, aimed at tasks like market trend analysis.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-03T11:01:20.358Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T11:01:20.358Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Gemini Notebook Replaces Google NotebookLM for Data Analytics",
+          "url": "https://www.geeky-gadgets.com/google-notebooklm-rebrand/",
+          "publishedAt": "2026-09-03T09:47:00.000Z",
           "contribution": "supporting"
         }
       ]
@@ -1126,62 +1201,8 @@
           "contribution": "supporting"
         }
       ]
-    },
-    {
-      "id": "d19c1fff-d607-4d14-9fa9-16ebfdf43216",
-      "title": "Trump's tariff agenda collides with his push for AI data centers",
-      "summary": "The Trump administration is reportedly weighing tariffs on semiconductors even as it champions rapid AI data-center buildout, creating tension between the two policy priorities since data centers depend heavily on imported chips.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-09-01T19:11:09.711Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.711Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "President Trump’s Love of Tariffs Comes Into Conflict With His Love of Data Centers",
-          "url": "https://gizmodo.com/president-trumps-love-of-tariffs-comes-into-conflict-with-his-love-of-data-centers-2000803876",
-          "publishedAt": "2026-08-27T19:50:28.000Z",
-          "contribution": "supporting"
-        }
-      ]
-    },
-    {
-      "id": "3b817b28-7003-4bda-ba43-0bcad6cc68a6",
-      "title": "Reliance Jio pushes to turn aging PCs into AI-ready machines",
-      "summary": "India's Reliance Jio is betting it can turn an aging computer into an AI-ready PC for as little as about $11 for two months, targeting affordable AI access in a large market.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-09-02T17:00:56.489Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T17:00:56.489Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "India’s richest man now wants to turn aging computers into AI-ready PCs",
-          "url": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/",
-          "publishedAt": "2026-09-02T16:01:48.000Z",
-          "contribution": "supporting"
-        }
-      ]
-    },
-    {
-      "id": "d496467a-af2d-40ad-8977-0c07f2a01cfb",
-      "title": "Software engineers' new job: designing boundaries AI agents can't break",
-      "summary": "VentureBeat argues software engineers' role is shifting from writing code to designing the guardrails that constrain what AI agents can do.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-01T17:06:55.393Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.393Z",
-      "sources": [
-        {
-          "providerName": "VentureBeat",
-          "title": "Software engineers' new job isn't writing code — it's designing the boundaries AI agents can't break",
-          "url": "https://venturebeat.com/orchestration/software-engineers-new-job-isnt-writing-code-its-designing-the-boundaries-ai-agents-cant-break",
-          "publishedAt": "2026-08-31T18:52:19.000Z",
-          "contribution": "supporting"
-        }
-      ]
     }
   ],
-  "totalCount": 140,
+  "totalCount": 143,
   "hasMore": true
 }
