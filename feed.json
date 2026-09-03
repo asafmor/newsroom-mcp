@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T23:03:22.612Z",
+  "generatedAt": "2026-09-03T01:01:13.955Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -269,6 +269,23 @@
       ]
     },
     {
+      "id": "8cedaf1d-b299-4e2e-8fb1-1e0f3f62db7c",
+      "title": "Anthropic launches AI content checker tool",
+      "summary": "Anthropic released a content-checker tool that can detect Claude's watermarks in files, though it does not yet support watermark detection in plain text.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-03T01:01:09.684Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T01:01:09.684Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Anthropic’s Content Checker Tool Is Here, With One Big Catch",
+          "url": "https://www.cnet.com/tech/services-and-software/anthropics-content-checker-tool-is-here-with-one-big-catch/",
+          "publishedAt": "2026-09-02T21:31:16.000Z"
+        }
+      ]
+    },
+    {
       "id": "26e38e75-0805-4052-a00b-bb8b2d2de486",
       "title": "Survey: enterprises now favor non-Nvidia chips over Nvidia's next-gen GPUs for evaluation",
       "summary": "VentureBeat's July VB Pulse survey of 170 AI infrastructure buyers found 39.4% plan to evaluate non-Nvidia accelerators (Trainium, TPU, Instinct, Gaudi, in-house ASICs) over the next year vs. 25.3% for Nvidia's next-gen Blackwell GPUs — a 14-point gap, with interest concentrated among C-suite/decision-makers, alongside rising production adoption of Azure, Gemini, OpenAI and Anthropic, and growing enterprise interest in neoclouds and self-managed open-source stacks.",
@@ -374,6 +391,12 @@
           "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
           "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
           "publishedAt": "2026-09-02T16:18:31.000Z"
+        },
+        {
+          "providerName": "VentureBeat",
+          "title": "Google’s Gemini 3.8 Flash is built for agents, while its Cyber twin hunts vulnerabilities",
+          "url": "https://venturebeat.com/security/googles-gemini-3-8-flash-is-built-for-agents-while-its-cyber-twin-hunts-vulnerabilities",
+          "publishedAt": "2026-09-03T00:02:18.000Z"
         }
       ]
     },
@@ -1055,25 +1078,8 @@
           "publishedAt": "2026-08-28T11:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "18746fa5-a6ad-481e-8cc4-6d0d796e0686",
-      "title": "The new wave of AI wearables is designed to be ignored",
-      "summary": "Wired covers a trend in AI companion wearables designed to fade into the background rather than demand screen attention, part of a broader ambient-AI hardware push.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T17:06:55.256Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.256Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Why the Hottest New Wearables Want to Be Ignored",
-          "url": "https://www.wired.com/story/why-the-hottest-new-wearables-want-to-be-ignored/",
-          "publishedAt": "2026-08-30T10:30:00.000Z"
-        }
-      ]
     }
   ],
-  "totalCount": 136,
+  "totalCount": 137,
   "hasMore": true
 }
