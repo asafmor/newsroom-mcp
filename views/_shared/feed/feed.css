@@ -192,7 +192,8 @@ html, body { margin: 0; background: var(--bg); }
   padding: 6px var(--space-3);
 }
 .search-input::placeholder { color: var(--muted); }
-.newsroomFeed .provider-select {
+.newsroomFeed .provider-select,
+.newsroomFeed .tag-select {
   max-width: 40%; flex-shrink: 0;
   height: 40px;
   font-size: var(--text-xs); line-height: 12.8px; color: var(--fg);

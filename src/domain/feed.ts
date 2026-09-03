@@ -1,4 +1,4 @@
-import type { StoryContribution, StoryId } from "./story.js";
+import type { StoryContribution, StoryId, StoryTag } from "./story.js";
 
 export interface FeedQuery {
   limit?: number;
@@ -36,6 +36,8 @@ export interface FeedStory {
   lastMeaningfulUpdateAt: Date;
 
   sources: FeedSource[];
+
+  tags: StoryTag[];
 }
 
 /** A read-model view of curated stories. Never exposes raw database rows. */

@@ -6,7 +6,7 @@ import { SkeletonCard } from "./SkeletonCard.js";
 import { SourceSheet } from "./SourceSheet.js";
 import { StoryCard } from "./StoryCard.js";
 import type { FeedStory, SortMode, Theme } from "./types.js";
-import { latestPublishedAt } from "./formatters.js";
+import { availableTags, latestPublishedAt, storyMatchesFilters } from "./formatters.js";
 
 const THEME_STORAGE_KEY = "newsroom-theme";
 const SORT_STORAGE_KEY = "newsroom-sort-mode";
@@ -102,6 +102,9 @@ export function FeedApp({
             providers={[]}
             providerFilter="all"
             onProviderFilterChange={() => undefined}
+            tags={[]}
+            tagFilter="all"
+            onTagFilterChange={() => undefined}
             searchQuery=""
             onSearchChange={() => undefined}
           />
@@ -156,19 +159,15 @@ function Feed({
   // SourceSheet's onExited once that transition completes.
   const [renderedStory, setRenderedStory] = useState<FeedStory | undefined>(undefined);
   const [providerFilter, setProviderFilter] = useState("all");
+  const [tagFilter, setTagFilter] = useState("all");
   const [search, setSearch] = useState("");
   const scrollAreaRef = useRef<HTMLDivElement>(null);
   const lastFocused = useRef<HTMLElement | null>(null);
 
   const providers = [...new Set(stories.flatMap((s) => s.sources.map((src) => src.providerName)))].sort();
+  const tags = availableTags(stories);
 
-  const query = search.trim().toLowerCase();
-  const filtered = stories.filter((s) => {
-    const matchesProvider = providerFilter === "all" || s.sources.some((src) => src.providerName === providerFilter);
-    const matchesSearch =
-      query === "" || s.title.toLowerCase().includes(query) || s.summary.toLowerCase().includes(query);
-    return matchesProvider && matchesSearch;
-  });
+  const filtered = stories.filter((s) => storyMatchesFilters(s, { providerFilter, tagFilter, search }));
 
   // "top" trusts the server's own order — get-feed already ranks stories by
   // importance decayed since lastMeaningfulUpdateAt, which is smarter than
@@ -206,6 +205,9 @@ function Feed({
             providers={providers}
             providerFilter={providerFilter}
             onProviderFilterChange={setProviderFilter}
+            tags={tags}
+            tagFilter={tagFilter}
+            onTagFilterChange={setTagFilter}
             searchQuery={search}
             onSearchChange={setSearch}
           />
@@ -216,7 +218,7 @@ function Feed({
                 message={
                   stories.length === 0
                     ? "Newsroom refreshes automatically as new AI coverage comes in — check back soon."
-                    : "Try a different search term or provider filter."
+                    : "Try a different search term, provider, or tag filter."
                 }
               />
             ) : (

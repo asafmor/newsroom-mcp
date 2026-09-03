@@ -1,4 +1,4 @@
-import type { FeedStory, StoryContribution } from "./types.js";
+import type { FeedStory, StoryContribution, StoryTag } from "./types.js";
 
 // World-time, not ingest-time: a story's sources may be reported at different
 // moments, so "latest"/"earliest" reflects when the news actually happened
@@ -25,6 +25,33 @@ export function contributionLabel(contribution: StoryContribution | undefined): 
   if (contribution === "meaningful-update") return "New development";
   if (contribution === "background") return "Background";
   return undefined;
+}
+
+/** A story's tags, defaulting to `[]` for a pre-tags feed.json snapshot. */
+export function storyTags(story: FeedStory): readonly StoryTag[] {
+  return story.tags ?? [];
+}
+
+/** Tag values actually present across the loaded stories, sorted — mirrors how the provider filter's options are derived. */
+export function availableTags(stories: readonly FeedStory[]): StoryTag[] {
+  return [...new Set(stories.flatMap((s) => storyTags(s)))].sort();
+}
+
+/**
+ * Whether a story passes all three active header filters, ANDed together.
+ * "all" applies no filtering for that dimension.
+ */
+export function storyMatchesFilters(
+  story: FeedStory,
+  filters: { readonly providerFilter: string; readonly tagFilter: string; readonly search: string },
+): boolean {
+  const matchesProvider =
+    filters.providerFilter === "all" || story.sources.some((src) => src.providerName === filters.providerFilter);
+  const matchesTag = filters.tagFilter === "all" || storyTags(story).some((tag) => tag === filters.tagFilter);
+  const query = filters.search.trim().toLowerCase();
+  const matchesSearch =
+    query === "" || story.title.toLowerCase().includes(query) || story.summary.toLowerCase().includes(query);
+  return matchesProvider && matchesTag && matchesSearch;
 }
 
 export function timeAgo(iso: string): string {

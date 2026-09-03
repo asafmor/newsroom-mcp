@@ -167,12 +167,31 @@ describe("newsroom-mcp server", () => {
         summary: "A test story summary.",
         relevanceScore: 0.9,
         importanceScore: 0.5,
+        tags: ["safety"],
       },
-    })) as ToolTextResult & { structuredContent: { id: string; lastMeaningfulUpdateAt: string } };
+    })) as ToolTextResult & {
+      structuredContent: { id: string; lastMeaningfulUpdateAt: string; tags: string[] };
+    };
 
     expect(created.isError).toBeFalsy();
     const storyId = created.structuredContent.id;
     const originalUpdateTime = created.structuredContent.lastMeaningfulUpdateAt;
+    expect(created.structuredContent.tags).toEqual(["safety"]);
+
+    // Out-of-vocabulary tag values are rejected at input validation, before
+    // any state change — no story gets created from this call.
+    const invalidTag = (await client?.callTool({
+      name: "create-story",
+      arguments: {
+        contentItemIds: [restItems[3]?.id],
+        title: "Bad tag story",
+        summary: "s",
+        relevanceScore: 0.3,
+        importanceScore: 0.3,
+        tags: ["not-a-real-tag"],
+      },
+    })) as ToolTextResult;
+    expect(invalidTag.isError).toBe(true);
 
     const attached = (await client?.callTool({
       name: "attach-item-to-story",
@@ -189,26 +208,35 @@ describe("newsroom-mcp server", () => {
 
     const updated = (await client?.callTool({
       name: "update-story",
-      arguments: { storyId, summary: "Updated summary after the second source." },
-    })) as ToolTextResult & { structuredContent: { summary: string } };
+      arguments: { storyId, summary: "Updated summary after the second source.", tags: ["safety", "regulation"] },
+    })) as ToolTextResult & { structuredContent: { summary: string; tags: string[] } };
 
     expect(updated.structuredContent.summary).toBe("Updated summary after the second source.");
+    expect(updated.structuredContent.tags).toEqual(["safety", "regulation"]);
+
+    // Updating again without a tags field must preserve the tags set above.
+    const updatedNoTagsField = (await client?.callTool({
+      name: "update-story",
+      arguments: { storyId, relevanceScore: 0.95 },
+    })) as ToolTextResult & { structuredContent: { tags: string[] } };
+    expect(updatedNoTagsField.structuredContent.tags).toEqual(["safety", "regulation"]);
 
     const active = (await client?.callTool({
       name: "get-active-stories",
       arguments: {},
     })) as ToolTextResult & {
-      structuredContent: { stories: { id: string; sourceNames: string[] }[] };
+      structuredContent: { stories: { id: string; sourceNames: string[]; tags: string[] }[] };
     };
 
     expect(active.structuredContent.stories).toHaveLength(1);
     expect(active.structuredContent.stories[0]?.sourceNames.length).toBeGreaterThanOrEqual(2);
+    expect(active.structuredContent.stories[0]?.tags).toEqual(["safety", "regulation"]);
 
     const feed = (await client?.callTool({
       name: "get-feed",
       arguments: {},
     })) as ToolTextResult & {
-      structuredContent: { stories: { id: string; sources: { contribution: string }[] }[] };
+      structuredContent: { stories: { id: string; sources: { contribution: string }[]; tags: string[] }[] };
     };
 
     expect(feed.structuredContent.stories.map((story) => story.id)).toContain(storyId);
@@ -218,6 +246,7 @@ describe("newsroom-mcp server", () => {
     // ("meaningful-update"), oldest-attached-first.
     const feedStory = feed.structuredContent.stories.find((story) => story.id === storyId);
     expect(feedStory?.sources.map((source) => source.contribution)).toEqual(["supporting", "meaningful-update"]);
+    expect(feedStory?.tags).toEqual(["safety", "regulation"]);
 
     const secondStory = (await client?.callTool({
       name: "create-story",
@@ -227,6 +256,7 @@ describe("newsroom-mcp server", () => {
         summary: "Turns out this is the same event as the first story.",
         relevanceScore: 0.6,
         importanceScore: 0.4,
+        tags: ["funding"],
       },
     })) as ToolTextResult & { structuredContent: { id: string } };
 
@@ -237,12 +267,21 @@ describe("newsroom-mcp server", () => {
       name: "merge-stories",
       arguments: { survivingStoryId: storyId, losingStoryId },
     })) as ToolTextResult & {
-      structuredContent: { id: string; status: string; lastItemAttachedAt: string; lastMeaningfulUpdateAt: string };
+      structuredContent: {
+        id: string;
+        status: string;
+        lastItemAttachedAt: string;
+        lastMeaningfulUpdateAt: string;
+        tags: string[];
+      };
     };
 
     expect(merged.isError).toBeFalsy();
     expect(merged.structuredContent.id).toBe(storyId);
     expect(merged.structuredContent.status).toBe("active");
+    // merge-stories never touches tags: the survivor keeps exactly what it
+    // had pre-merge, regardless of the loser's ("funding") tags.
+    expect(merged.structuredContent.tags).toEqual(["safety", "regulation"]);
     // lastItemAttachedAt reconciles to the later of the two pre-merge values,
     // which is the losing story's own creation (it was created after
     // storyId's last attach above).
@@ -282,5 +321,18 @@ describe("newsroom-mcp server", () => {
     })) as ToolTextResult;
 
     expect(missing.isError).toBe(true);
+
+    // A story created without a tags field gets [], never a missing/null field.
+    const createdUntagged = (await client?.callTool({
+      name: "create-story",
+      arguments: {
+        contentItemIds: [restItems[2]?.id],
+        title: "Untagged story",
+        summary: "No tags supplied.",
+        relevanceScore: 0.3,
+        importanceScore: 0.3,
+      },
+    })) as ToolTextResult & { structuredContent: { tags: string[] } };
+    expect(createdUntagged.structuredContent.tags).toEqual([]);
   });
 });
