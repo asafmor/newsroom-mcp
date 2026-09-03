@@ -54,6 +54,27 @@ export function storyMatchesFilters(
   return matchesProvider && matchesTag && matchesSearch;
 }
 
+/**
+ * Read-id set as it should be after pruning against the currently loaded
+ * feed — drops any stored id no longer present (story archived, merged
+ * away, or just aged out of the ~50-item feed.json), so storage never grows
+ * past what's currently loaded. Order-independent, deduplicated.
+ */
+export function pruneReadIds(storedIds: readonly string[], currentFeedIds: readonly string[]): string[] {
+  const current = new Set(currentFeedIds);
+  return [...new Set(storedIds)].filter((id) => current.has(id));
+}
+
+/**
+ * How many of the given stories are NOT in the read-id set — always over
+ * the full loaded list, never a filtered/searched subset (see design
+ * decision #1: filters are transient view state and must not move this
+ * number around).
+ */
+export function unreadCount(stories: readonly FeedStory[], readIds: ReadonlySet<string>): number {
+  return stories.filter((s) => !readIds.has(s.id)).length;
+}
+
 export function timeAgo(iso: string): string {
   const min = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
   if (min < 1) return "just now";

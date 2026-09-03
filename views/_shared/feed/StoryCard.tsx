@@ -3,7 +3,18 @@ import { developmentCount, latestPublishedAt, timeAgo } from "./formatters.js";
 import { spawnRipple } from "./ripple.js";
 import { Avatar } from "./Avatar.js";
 
-export function StoryCard({ story, onOpen }: { readonly story: FeedStory; readonly onOpen: (story: FeedStory, trigger: HTMLElement) => void }) {
+export function StoryCard({
+  story,
+  isRead,
+  onOpen,
+}: {
+  readonly story: FeedStory;
+  /** Purely local read-state (see FeedApp's readIds) — never affects layout/content, only the de-emphasis signal.
+   * `undefined` means "unknown, storage unavailable" — renders identically to a pre-feature card (no class, no marker),
+   * distinct from `false` ("known unread", which shows the marker). */
+  readonly isRead: boolean | undefined;
+  readonly onOpen: (story: FeedStory, trigger: HTMLElement) => void;
+}) {
   const n = story.sources.length;
   // One avatar per provider, even if that provider contributed multiple articles.
   const uniqueSources = [...new Map(story.sources.map((s) => [s.providerName, s])).values()];
@@ -14,7 +25,7 @@ export function StoryCard({ story, onOpen }: { readonly story: FeedStory; readon
 
   return (
     <article
-      className="story-card"
+      className={isRead === true ? "story-card story-card--read" : "story-card"}
       tabIndex={0}
       role="button"
       aria-haspopup="dialog"
@@ -27,6 +38,11 @@ export function StoryCard({ story, onOpen }: { readonly story: FeedStory; readon
         }
       }}
     >
+      {/* Non-text unread signal (design decision #4/#12) — present only on
+          known-unread cards (isRead === false), never affects
+          .story-title/.story-summary color or opacity. isRead === undefined
+          (storage unavailable) renders no marker, same as a pre-feature card. */}
+      {isRead === false ? <span className="unread-marker" aria-hidden="true" /> : null}
       <div className="story-meta-row">
         <span>{timeAgo(latestPublishedAt(story))}</span>
         <span className="dot-sep">
