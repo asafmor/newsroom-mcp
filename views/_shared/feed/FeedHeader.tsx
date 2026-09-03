@@ -1,5 +1,7 @@
 import type { SortMode, Theme } from "./types.js";
 import { shortTime } from "./formatters.js";
+import logoDark from "./logo-dark.png";
+import logoLight from "./logo-light.png";
 
 export function FeedHeader({
   generatedAt,
@@ -41,7 +43,10 @@ export function FeedHeader({
     <header className="feed-header">
       <div className="brand-row">
         <div className="brand">
-          <span className="wordmark edu-tas-beginner-wordmark">Newsroom</span>
+          <span className="brand-logo">
+            <img src={logoLight} alt="Newsroom" className="brand-logo-light" />
+            <img src={logoDark} alt="Newsroom" className="brand-logo-dark" />
+          </span>
           <div className="meta-text">
             <span className="updated-meta">{generatedAt === undefined ? "Updated —" : `Updated ${shortTime(generatedAt)}`}</span>
             {/* Absent from the DOM at 0 (or "don't know") — same "remove the
