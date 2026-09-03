@@ -1,7 +1,7 @@
 # MCP Tools
 
-Nine tools (the eight from `IDEA.md` §41–48, plus `merge-stories`). Each is a
-thin adapter: validate
+Ten tools (the eight from `IDEA.md` §41–48, plus `merge-stories` and
+`get-story`). Each is a thin adapter: validate
 input with Zod, call one service/repository method, serialize `Date`s to
 ISO strings, return `structuredContent` (matching the tool's `outputSchema`)
 plus a short human-readable text summary. Errors are caught and returned as
@@ -13,6 +13,7 @@ than thrown across the MCP boundary.
 | `fetch-new-items` | Poll every configured provider and store new items, then archive stories with no `meaningful-update` in 30+ days. No semantic decisions. | `IngestionService.fetchNewItems()` + `StoryService.archiveStaleStories()` |
 | `get-unprocessed-items` | Return `pending` items, oldest first, for the AI agent to triage. Excludes items with `published_at` more than 1 week old. | `ContentItemRepository.findPending()` |
 | `get-active-stories` | Return active stories as clustering candidates, each enriched with recent attached items and source names. Ordered by `importanceScore` desc, then `lastMeaningfulUpdateAt` desc. Paginated via `limit`/`offset` (SQL-level, since the sort order is stable); response includes `totalCount`/`hasMore`. | `StoryRepository.findActive()` + `countActive()` + `findAttachedContent()` |
+| `get-story` | Fetch one story by id (active or archived) with its complete attached-item history, oldest-attached-first, no truncation — the only tool that exposes each attachment's `reason`. Errors if the id doesn't exist. | `StoryRepository.findById()` + `findAttachedContent()` |
 | `create-story` | Create a story from one or more content items that don't belong to an existing one. | `StoryService.createStory()` |
 | `attach-item-to-story` | Attach an item to an existing story with a `contribution` (`supporting` / `meaningful-update` / `background`). | `StoryService.attachItem()` |
 | `update-story` | Update the AI-maintained summary/scores after new information arrives. | `StoryService.updateStory()` |

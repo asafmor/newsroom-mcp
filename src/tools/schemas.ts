@@ -207,6 +207,23 @@ export type MergeStoriesInput = z.infer<typeof mergeStoriesInputSchema>;
 export const mergeStoriesOutputSchema = storySchema;
 export type MergeStoriesOutput = z.infer<typeof mergeStoriesOutputSchema>;
 
+// get_story ---------------------------------------------------------------
+
+export const getStoryInputSchema = z.object({
+  storyId: z.string().min(1),
+});
+export type GetStoryInput = z.infer<typeof getStoryInputSchema>;
+
+const attachedContentItemSchema = attachedContentItemSummarySchema.extend({
+  attachedAt: z.string(),
+  reason: z.string().optional(),
+});
+
+export const getStoryOutputSchema = storySchema.extend({
+  attachedItems: z.array(attachedContentItemSchema),
+});
+export type GetStoryOutput = z.infer<typeof getStoryOutputSchema>;
+
 // get_feed -----------------------------------------------------------------
 
 export const getFeedInputSchema = z.object({

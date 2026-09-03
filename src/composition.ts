@@ -13,6 +13,7 @@ import { registerCreateStoryTool } from "./tools/create-story-tool.js";
 import { registerFetchNewItemsTool } from "./tools/fetch-new-items-tool.js";
 import { registerGetActiveStoriesTool } from "./tools/get-active-stories-tool.js";
 import { registerGetFeedTool } from "./tools/get-feed-tool.js";
+import { registerGetStoryTool } from "./tools/get-story-tool.js";
 import { registerGetUnprocessedItemsTool } from "./tools/get-unprocessed-items-tool.js";
 import { registerMarkItemProcessedTool } from "./tools/mark-item-processed-tool.js";
 import { registerMergeStoriesTool } from "./tools/merge-stories-tool.js";
@@ -56,7 +57,7 @@ export function buildNewsroomServices(): NewsroomServices {
 }
 
 /**
- * Registers all 9 newsroom-mcp tools onto `registrar`. Transport-agnostic —
+ * Registers all 10 newsroom-mcp tools onto `registrar`. Transport-agnostic —
  * called once for the HTTP `MCPServer` (index.ts) and once per stdio
  * connection's `McpServer` instance (stdio.ts), against the same
  * already-built `services`.
@@ -66,6 +67,7 @@ export function registerNewsroomTools(registrar: ToolRegistrar, services: Newsro
     fetchNewItems: registerFetchNewItemsTool(registrar, services.ingestionService, services.storyService),
     getUnprocessedItems: registerGetUnprocessedItemsTool(registrar, services.contentItems),
     getActiveStories: registerGetActiveStoriesTool(registrar, services.stories, services.providers),
+    getStory: registerGetStoryTool(registrar, services.stories, services.providers),
     createStory: registerCreateStoryTool(registrar, services.storyService),
     attachItemToStory: registerAttachItemToStoryTool(registrar, services.storyService),
     updateStory: registerUpdateStoryTool(registrar, services.storyService),
