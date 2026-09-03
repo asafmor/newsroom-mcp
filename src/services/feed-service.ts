@@ -69,6 +69,7 @@ export class FeedService {
       title: item.title,
       url: item.url,
       publishedAt: item.publishedAt,
+      contribution: item.contribution,
     }));
 
     return {

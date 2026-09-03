@@ -23,6 +23,21 @@ describe("feed header typography", () => {
   });
 });
 
+describe("story development markers", () => {
+  it("tints the development badge and the meaningful-update tag with the accent color", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const badgeRule = /\.newsroomFeed \.development-badge\s*\{[^}]*\}/.exec(css)?.[0];
+    const tagRule = /\.newsroomFeed \.contribution-tag\s*\{[^}]*\}/.exec(css)?.[0];
+    const developmentTagRule = /\.newsroomFeed \.contribution-tag\.is-development\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(badgeRule).toContain("background: var(--accent-soft)");
+    expect(badgeRule).toContain("color: var(--accent)");
+    // A plain tag stays quiet; only the new-development one borrows the accent.
+    expect(tagRule).toContain("color: var(--muted)");
+    expect(developmentTagRule).toContain("color: var(--accent)");
+  });
+});
+
 describe("feed header controls", () => {
   it("gives the theme toggle a persistent background with stronger interaction states", () => {
     const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");

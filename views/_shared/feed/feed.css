@@ -284,6 +284,15 @@ html, body { margin: 0; background: var(--bg); }
 
 .story-meta-row { display: flex; align-items: center; font-family: var(--font-mono); font-size: 11px; color: var(--muted); }
 .story-meta-row .dot-sep::before { content: "·"; margin: 0 var(--space-2); }
+/* How many attached sources reported a genuinely new development — accent-
+   tinted so a story that has actually moved reads differently at a glance
+   from one that was only re-reported. Hidden entirely at zero (StoryCard). */
+.newsroomFeed .development-badge {
+  margin-left: var(--space-2); padding: 1px 7px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft); color: var(--accent);
+  font-size: 10px; font-weight: 700; white-space: nowrap;
+}
 .story-title {
   font-size: 19px; font-weight: 700; line-height: var(--leading-tight);
   letter-spacing: var(--tracking-display); color: var(--fg);
@@ -404,6 +413,15 @@ html, body { margin: 0; background: var(--bg); }
 .source-item .avatar { margin-left: 0; width: 34px; height: 34px; font-size: 11px; border: none; }
 .source-item-body { flex: 1; min-width: 0; }
 .source-provider { font-size: 12px; color: var(--muted); font-weight: 600; }
+/* Per-source role, next to the provider name. Only the noteworthy roles get
+   a tag — "supporting" is the unremarkable majority and stays unlabeled. */
+.newsroomFeed .contribution-tag {
+  margin-left: 6px; padding: 1px 6px;
+  border-radius: var(--radius-pill);
+  background: var(--border-soft); color: var(--muted);
+  font-size: 10px; font-weight: 700; white-space: nowrap;
+}
+.newsroomFeed .contribution-tag.is-development { background: var(--accent-soft); color: var(--accent); }
 .source-title { font-size: 14px; font-weight: 600; color: var(--fg); margin-top: 1px; line-height: 1.5; }
 .source-date { font-family: var(--font-mono); font-size: 11px; color: var(--muted); margin-top: 3px; }
 .source-item .open-icon { flex-shrink: 0; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; color: var(--accent); transition: background var(--motion-fast) var(--ease-standard); }

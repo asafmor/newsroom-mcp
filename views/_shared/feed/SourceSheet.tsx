@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 import type { FeedStory } from "./types.js";
-import { earliestPublishedAt, shortDate, shortTime } from "./formatters.js";
+import { contributionLabel, earliestPublishedAt, shortDate, shortTime } from "./formatters.js";
 import { spawnRipple } from "./ripple.js";
 import { Avatar } from "./Avatar.js";
 
@@ -282,30 +282,42 @@ export function SourceSheet({
           <p className="sheet-section-label">Sources ({story.sources.length})</p>
           {[...story.sources]
             .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-            .map((s, i) => (
-            <a
-              className="source-item"
-              href={s.url}
-              key={i}
-              onPointerDown={spawnRipple}
-              onClick={(e) => {
-                e.preventDefault();
-                onOpenSource(s.url);
-              }}
-            >
-              <Avatar providerName={s.providerName} />
-              <span className="source-item-body">
-                <span className="source-provider">{s.providerName}</span>
-                <div className="source-title">{s.title}</div>
-                <div className="source-date">{shortDate(s.publishedAt)}</div>
-              </span>
-              <span className="open-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M7 17L17 7M9 7h8v8" />
-                </svg>
-              </span>
-            </a>
-          ))}
+            .map((s, i) => {
+              const tag = contributionLabel(s.contribution);
+              return (
+                <a
+                  className="source-item"
+                  href={s.url}
+                  key={i}
+                  onPointerDown={spawnRipple}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onOpenSource(s.url);
+                  }}
+                >
+                  <Avatar providerName={s.providerName} />
+                  <span className="source-item-body">
+                    <span className="source-provider">
+                      {s.providerName}
+                      {tag === undefined ? null : (
+                        <span
+                          className={`contribution-tag${s.contribution === "meaningful-update" ? " is-development" : ""}`}
+                        >
+                          {tag}
+                        </span>
+                      )}
+                    </span>
+                    <div className="source-title">{s.title}</div>
+                    <div className="source-date">{shortDate(s.publishedAt)}</div>
+                  </span>
+                  <span className="open-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M7 17L17 7M9 7h8v8" />
+                    </svg>
+                  </span>
+                </a>
+              );
+            })}
         </div>
       </section>
     </>

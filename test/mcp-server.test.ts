@@ -206,9 +206,17 @@ describe("newsroom-mcp server", () => {
     const feed = (await client?.callTool({
       name: "get-feed",
       arguments: {},
-    })) as ToolTextResult & { structuredContent: { stories: { id: string }[] } };
+    })) as ToolTextResult & {
+      structuredContent: { stories: { id: string; sources: { contribution: string }[] }[] };
+    };
 
     expect(feed.structuredContent.stories.map((story) => story.id)).toContain(storyId);
+
+    // Each feed source reports how it moved the story: the seed item came in
+    // via create-story ("supporting"), the second via attach-item-to-story
+    // ("meaningful-update"), oldest-attached-first.
+    const feedStory = feed.structuredContent.stories.find((story) => story.id === storyId);
+    expect(feedStory?.sources.map((source) => source.contribution)).toEqual(["supporting", "meaningful-update"]);
 
     const secondStory = (await client?.callTool({
       name: "create-story",

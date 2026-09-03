@@ -133,6 +133,43 @@ describe("FeedService.getFeed", () => {
     expect(secondPage.hasMore).toBe(false);
   });
 
+  it("exposes each source's contribution, oldest-attached-first", async () => {
+    const story = await stories.create({
+      contentItemIds: [await insertItem("contribution-founding")],
+      title: "Developing story",
+      summary: "s",
+      relevanceScore: 0.8,
+      importanceScore: 0.9,
+    });
+
+    // Attached after the story was created (create() stamps "now"), so the
+    // oldest-attached-first order below is the real one, not a coincidence.
+    await stories.attachItem({
+      storyId: story.id,
+      contentItemId: await insertItem("contribution-context"),
+      contribution: "background",
+      attachedAt: new Date(Date.now() + 1000),
+    });
+    await stories.attachItem({
+      storyId: story.id,
+      contentItemId: await insertItem("contribution-development"),
+      contribution: "meaningful-update",
+      attachedAt: new Date(Date.now() + 2000),
+    });
+
+    const feed = await feedService.getFeed({});
+    const sources = must(feed.stories[0]).sources;
+
+    // create-story seeds its items as "supporting"; the two later attachments
+    // keep their own contribution, in attach order.
+    expect(sources.map((s) => s.contribution)).toEqual(["supporting", "background", "meaningful-update"]);
+    expect(sources.map((s) => s.title)).toEqual([
+      "title-contribution-founding",
+      "title-contribution-context",
+      "title-contribution-development",
+    ]);
+  });
+
   it("defaults offset to 0", async () => {
     await stories.create({
       contentItemIds: [await insertItem("default-offset-founding")],
