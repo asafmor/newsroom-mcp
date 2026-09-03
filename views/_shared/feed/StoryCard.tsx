@@ -1,5 +1,5 @@
 import type { FeedStory } from "./types.js";
-import { developmentCount, latestPublishedAt, timeAgo } from "./formatters.js";
+import { developmentCount, latestPublishedAt, parseSummary, timeAgo } from "./formatters.js";
 import { spawnRipple } from "./ripple.js";
 import { Avatar } from "./Avatar.js";
 
@@ -22,6 +22,10 @@ export function StoryCard({
   const extra = uniqueSources.length - shown.length;
   const names = shown.map((s) => s.providerName.replace(" AI", "").replace(" News", "")).join(", ");
   const developments = developmentCount(story);
+  // Structured summaries (see docs/agent-system-prompt.md) show only the
+  // lede here — the bullets are reserved for the detail sheet. An
+  // unstructured summary's "lede" is the full raw string, unchanged.
+  const { lede } = parseSummary(story.summary);
 
   return (
     <article
@@ -55,7 +59,7 @@ export function StoryCard({
         ) : null}
       </div>
       <h3 className="story-title">{story.title}</h3>
-      <p className="story-summary">{story.summary}</p>
+      <p className="story-summary">{lede}</p>
       <div className="source-row">
         <span className="avatar-stack">
           {shown.map((s, i) => (

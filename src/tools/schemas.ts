@@ -143,7 +143,12 @@ export type GetActiveStoriesOutput = z.infer<typeof getActiveStoriesOutputSchema
 export const createStoryInputSchema = z.object({
   contentItemIds: z.array(z.string()).min(1),
   title: z.string().min(1),
-  summary: z.string().min(1),
+  summary: z
+    .string()
+    .min(1)
+    .describe(
+      "Plain prose by default: a short paragraph. Optionally, for a story with genuinely multiple discrete facets, a short lede sentence followed by a blank line and 2-4 short lines each starting with '- ' — this structure is never required and a single paragraph is always correct.",
+    ),
   relevanceScore: z.number().min(0).max(1),
   importanceScore: z.number().min(0).max(1),
   tags: storyTagsSchema.optional(),
@@ -171,7 +176,13 @@ export type AttachItemToStoryOutput = z.infer<typeof attachItemToStoryOutputSche
 export const updateStoryInputSchema = z.object({
   storyId: z.string(),
   title: z.string().min(1).optional(),
-  summary: z.string().min(1).optional(),
+  summary: z
+    .string()
+    .min(1)
+    .optional()
+    .describe(
+      "Plain prose by default: a short paragraph. Optionally, for a story with genuinely multiple discrete facets, a short lede sentence followed by a blank line and 2-4 short lines each starting with '- ' — this structure is never required and a single paragraph is always correct.",
+    ),
   relevanceScore: z.number().min(0).max(1).optional(),
   importanceScore: z.number().min(0).max(1).optional(),
   tags: storyTagsSchema.optional(),

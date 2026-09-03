@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 import type { FeedStory } from "./types.js";
-import { contributionLabel, earliestPublishedAt, shortDate, shortTime } from "./formatters.js";
+import { contributionLabel, earliestPublishedAt, parseSummary, shortDate, shortTime } from "./formatters.js";
 import { getFocusable, wrapFocus } from "./focus-trap.js";
 import { spawnRipple } from "./ripple.js";
 import { Avatar } from "./Avatar.js";
@@ -57,6 +57,7 @@ export function SourceSheet({
   const onCloseRef = useRef(onClose);
   onCloseRef.current = onClose;
   const [copied, setCopied] = useState(false);
+  const summary = parseSummary(story.summary);
 
   function onHandlePointerDown(e: React.PointerEvent<HTMLDivElement>) {
     // Touch uses native Touch Events below. Chrome cancels a Pointer Events
@@ -295,8 +296,17 @@ export function SourceSheet({
         <div className="sheet-body">
           {/* The card's own .story-summary is line-clamped to a short preview
               (see feed.css) — this is the full, untruncated text, the same
-              copy Copy already includes. */}
-          <p className="sheet-summary">{story.summary}</p>
+              copy Copy already includes. Bullets (see docs/agent-system-prompt.md's
+              optional lede+`- `-bullets convention) render as a real <ul> when
+              present; an unstructured summary is unchanged, one paragraph. */}
+          <p className="sheet-summary">{summary.lede}</p>
+          {summary.bullets.length > 0 ? (
+            <ul className="sheet-summary-bullets">
+              {summary.bullets.map((bullet, i) => (
+                <li key={i}>{bullet}</li>
+              ))}
+            </ul>
+          ) : null}
           <p className="sheet-section-label">Sources ({story.sources.length})</p>
           {[...story.sources]
             .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
