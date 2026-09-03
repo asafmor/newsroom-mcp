@@ -1,5 +1,5 @@
 import type { SortMode, Theme } from "./types.js";
-import { shortTime } from "./formatters.js";
+import { freshness } from "./formatters.js";
 import logoDark from "./logo-dark.png";
 import logoLight from "./logo-light.png";
 
@@ -39,6 +39,7 @@ export function FeedHeader({
    */
   readonly unreadCount?: number;
 }) {
+  const feedFreshness = generatedAt === undefined ? undefined : freshness(generatedAt);
   return (
     <header className="feed-header">
       <div className="brand-row">
@@ -48,7 +49,16 @@ export function FeedHeader({
             <img src={logoDark} alt="Newsroom" className="brand-logo-dark" />
           </span>
           <div className="meta-text">
-            <span className="updated-meta">{generatedAt === undefined ? "Updated —" : `Updated ${shortTime(generatedAt)}`}</span>
+            <span className="updated-meta">{feedFreshness === undefined ? "Updated —" : `Updated ${feedFreshness.label}`}</span>
+            {/* Real text ("Stale"), not color alone, so assistive tech can
+                tell a stalled snapshot from a current one — same rule as the
+                unread-count badge below. */}
+            {feedFreshness?.stale === true && (
+              <>
+                <span className="meta-sep" aria-hidden="true">·</span>
+                <span className="stale-badge">Stale</span>
+              </>
+            )}
             {/* Absent from the DOM at 0 (or "don't know") — same "remove the
                 dead control" pattern as the tag select below. Real text, not
                 color/icon alone, so assistive tech can read the count. */}
@@ -112,7 +122,7 @@ export function FeedHeader({
           value={providerFilter}
           onChange={(e) => { onProviderFilterChange(e.target.value); }}
         >
-          <option value="all">All</option>
+          <option value="all">All providers</option>
           {providers.map((provider) => (
             <option key={provider} value={provider}>
               {provider}

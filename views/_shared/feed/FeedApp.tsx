@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { flushSync } from "react-dom";
 
 import { EmptyState } from "./EmptyState.js";
 import { FeedHeader } from "./FeedHeader.js";
@@ -245,13 +246,26 @@ function Feed({
     });
   }
   function closeSheet() {
-    setSelected(undefined);
+    // flushSync forces the DOM commit — and with it, .app-shell losing its
+    // `inert` attribute — to happen before the next line runs. Without it,
+    // setSelected's update is batched: `.focus()` below would run while the
+    // origin card is still inert, which the HTML spec makes a silent no-op
+    // in real browsers (jsdom doesn't enforce this, so this regression only
+    // shows up outside unit tests).
+    flushSync(() => {
+      setSelected(undefined);
+    });
     lastFocused.current?.focus({ preventScroll: true });
   }
 
   return (
     <>
-      <div className="app-shell">
+      {/* inert while the sheet is open (tracks `open` via `selected`, not
+          mount state — see `renderedStory`) makes the whole background
+          subtree unfocusable and removes it from the accessibility tree
+          natively, so Tab/Shift+Tab can only reach the dialog's own
+          controls without a hand-rolled focus trap. */}
+      <div className="app-shell" inert={selected !== undefined}>
         <div className="scroll-area" ref={scrollAreaRef}>
           <FeedHeader
             generatedAt={generatedAt}

@@ -89,6 +89,36 @@ export function shortTime(iso: string): string {
 export function shortDate(iso: string): string {
   return new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric" });
 }
+
+/**
+ * The feed republishes roughly every ~30 minutes during normal operation
+ * (see docs/agent-system-prompt.md's "assume you'll run again in ~30
+ * minutes"). Six hours is a generous buffer over a skipped run or two, while
+ * still catching an overnight publishing stall before it goes fully stale.
+ */
+const STALE_AFTER_MS = 6 * 60 * 60 * 1000;
+
+export interface Freshness {
+  /** "8:02 PM" for a snapshot generated today (local calendar day); "Sep 2, 8:02 PM" otherwise. */
+  readonly label: string;
+  /** True once the snapshot is old enough that it must no longer read as current. */
+  readonly stale: boolean;
+}
+
+/**
+ * Calendar-aware, relational freshness for the feed's `generatedAt`
+ * timestamp. "Today" is a local-calendar-day comparison (`toDateString()`),
+ * not a 24-hour subtraction — a snapshot from 11pm yesterday is under 24h
+ * old but must never read as "today". `now` is injectable for tests.
+ */
+export function freshness(generatedAtIso: string, now: Date = new Date()): Freshness {
+  const generated = new Date(generatedAtIso);
+  const isToday = generated.toDateString() === now.toDateString();
+  return {
+    label: isToday ? shortTime(generatedAtIso) : `${shortDate(generatedAtIso)}, ${shortTime(generatedAtIso)}`,
+    stale: now.getTime() - generated.getTime() >= STALE_AFTER_MS,
+  };
+}
 export function initials(name: string): string {
   return name
     .split(/\s+/)

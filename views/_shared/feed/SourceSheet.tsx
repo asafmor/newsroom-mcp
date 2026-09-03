@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 import type { FeedStory } from "./types.js";
 import { contributionLabel, earliestPublishedAt, shortDate, shortTime } from "./formatters.js";
+import { getFocusable, wrapFocus } from "./focus-trap.js";
 import { spawnRipple } from "./ripple.js";
 import { Avatar } from "./Avatar.js";
 
@@ -37,6 +38,7 @@ export function SourceSheet({
   readonly onOpenSource: (url: string) => void;
 }) {
   const closeRef = useRef<HTMLButtonElement>(null);
+  const dialogRef = useRef<HTMLElement>(null);
   // Mirrors `open`, but flips a frame late on entry so the "open" class is
   // added *after* first paint — otherwise the sheet mounts already in its
   // final position and the CSS transition never has a state change to animate.
@@ -163,7 +165,18 @@ export function SourceSheet({
     if (!open) return;
     closeRef.current?.focus({ preventScroll: true });
     function onKeyDown(e: KeyboardEvent) {
-      if (e.key === "Escape") onClose();
+      if (e.key === "Escape") {
+        onClose();
+        return;
+      }
+      // `inert` (see FeedApp.tsx) already keeps the background out of the
+      // tab order; this closes the other side of the loop — without it,
+      // Tab/Shift+Tab walk off the end of the dialog's own controls.
+      if (e.key !== "Tab" || dialogRef.current === null) return;
+      const target = wrapFocus(getFocusable(dialogRef.current), document.activeElement, e.shiftKey);
+      if (target === null) return;
+      e.preventDefault();
+      target.focus();
     }
     document.addEventListener("keydown", onKeyDown);
     return () => {
@@ -210,6 +223,7 @@ export function SourceSheet({
         onClick={onClose}
       />
       <section
+        ref={dialogRef}
         className={`source-sheet${visible ? " open" : ""}`}
         role="dialog"
         aria-modal="true"
@@ -279,6 +293,10 @@ export function SourceSheet({
           </div>
         </div>
         <div className="sheet-body">
+          {/* The card's own .story-summary is line-clamped to a short preview
+              (see feed.css) — this is the full, untruncated text, the same
+              copy Copy already includes. */}
+          <p className="sheet-summary">{story.summary}</p>
           <p className="sheet-section-label">Sources ({story.sources.length})</p>
           {[...story.sources]
             .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
