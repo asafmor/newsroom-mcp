@@ -1,7 +1,4 @@
 {
-  "enabledPlugins": {
-    "graphify@asafmor-plugins": true
-  },
   "hooks": {
     "PreToolUse": [
       {
@@ -23,5 +20,9 @@
         ]
       }
     ]
+  },
+  "enabledPlugins": {
+    "graphify@asafmor-plugins": true,
+    "chrome-devtools-mcp@chrome-devtools-plugins": true
   }
 }

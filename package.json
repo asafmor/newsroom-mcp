@@ -21,6 +21,7 @@
     "publish-feed": "tsx scripts/publish-feed.ts",
     "build:site": "vite build --config site/vite.config.ts",
     "dev:site": "git show feed:feed.json > site/feed.json && vite --config site/vite.config.ts",
+    "review:ui": "tsx scripts/request-ui-review.ts",
     "typecheck": "mcp-use typecheck",
     "lint": "eslint .",
     "test": "vitest run --exclude test/live/**",

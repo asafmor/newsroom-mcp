@@ -1,0 +1,7 @@
+interface:
+  display_name: "Newsroom UI Review"
+  short_description: "Evidence-based read-only UI and UX review"
+  default_prompt: "Use $newsroom-ui-review to inspect the implemented UI across mobile, desktop, and MCP App contexts and return evidence-backed findings without editing the product."
+
+policy:
+  allow_implicit_invocation: true
