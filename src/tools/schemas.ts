@@ -194,6 +194,7 @@ const feedSourceSchema = z.object({
   title: z.string(),
   url: z.string(),
   publishedAt: z.string(),
+  contribution: storyContributionSchema,
 });
 
 const feedStorySchema = z.object({

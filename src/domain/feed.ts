@@ -1,4 +1,4 @@
-import type { StoryId } from "./story.js";
+import type { StoryContribution, StoryId } from "./story.js";
 
 export interface FeedQuery {
   limit?: number;
@@ -13,6 +13,14 @@ export interface FeedSource {
   url: string;
 
   publishedAt: Date;
+
+  /**
+   * How this source moved the story along, as judged by the curating agent.
+   * Exposed so readers can tell which reports introduced a new development
+   * (`meaningful-update`) from those that only corroborate (`supporting`)
+   * or add context (`background`).
+   */
+  contribution: StoryContribution;
 }
 
 export interface FeedStory {

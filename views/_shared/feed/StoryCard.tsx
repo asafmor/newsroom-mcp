@@ -1,5 +1,5 @@
 import type { FeedStory } from "./types.js";
-import { latestPublishedAt, timeAgo } from "./formatters.js";
+import { developmentCount, latestPublishedAt, timeAgo } from "./formatters.js";
 import { spawnRipple } from "./ripple.js";
 import { Avatar } from "./Avatar.js";
 
@@ -10,6 +10,7 @@ export function StoryCard({ story, onOpen }: { readonly story: FeedStory; readon
   const shown = uniqueSources.slice(0, 3);
   const extra = uniqueSources.length - shown.length;
   const names = shown.map((s) => s.providerName.replace(" AI", "").replace(" News", "")).join(", ");
+  const developments = developmentCount(story);
 
   return (
     <article
@@ -31,6 +32,11 @@ export function StoryCard({ story, onOpen }: { readonly story: FeedStory; readon
         <span className="dot-sep">
           {n} source{n === 1 ? "" : "s"}
         </span>
+        {developments > 0 ? (
+          <span className="development-badge" title="Sources that reported a new development">
+            {developments} update{developments === 1 ? "" : "s"}
+          </span>
+        ) : null}
       </div>
       <h3 className="story-title">{story.title}</h3>
       <p className="story-summary">{story.summary}</p>

@@ -1,4 +1,4 @@
-import type { FeedStory } from "./types.js";
+import type { FeedStory, StoryContribution } from "./types.js";
 
 // World-time, not ingest-time: a story's sources may be reported at different
 // moments, so "latest"/"earliest" reflects when the news actually happened
@@ -8,6 +8,23 @@ export function latestPublishedAt(story: FeedStory): string {
 }
 export function earliestPublishedAt(story: FeedStory): string {
   return story.sources.reduce((min, s) => (s.publishedAt < min ? s.publishedAt : min), story.sources[0].publishedAt);
+}
+
+/**
+ * How many attached sources reported a genuinely new development. A story
+ * starts at 0 — create-story attaches its seed items as "supporting" — so any
+ * non-zero count means the story has moved since it was first published.
+ * Sources from an older feed.json carry no contribution and count as 0.
+ */
+export function developmentCount(story: FeedStory): number {
+  return story.sources.filter((s) => s.contribution === "meaningful-update").length;
+}
+
+/** Short reader-facing label for a source's role, or undefined for the unremarkable cases. */
+export function contributionLabel(contribution: StoryContribution | undefined): string | undefined {
+  if (contribution === "meaningful-update") return "New development";
+  if (contribution === "background") return "Background";
+  return undefined;
 }
 
 export function timeAgo(iso: string): string {
