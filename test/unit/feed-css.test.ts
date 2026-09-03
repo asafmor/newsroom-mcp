@@ -93,6 +93,49 @@ describe("read-state legibility", () => {
   });
 });
 
+describe("story summary preview", () => {
+  it("clamps the card preview to 3 lines, leaving the full text only in the detail sheet", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const summaryRule = /\.story-summary\s*\{[^}]*\}/.exec(css)?.[0];
+    const sheetSummaryRule = /\.sheet-summary\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(summaryRule).toContain("-webkit-line-clamp: 3");
+    expect(summaryRule).toContain("overflow: hidden");
+    // The detail-sheet copy must stay untruncated.
+    expect(sheetSummaryRule).toBeDefined();
+    expect(sheetSummaryRule).not.toMatch(/line-clamp/);
+  });
+});
+
+describe("mobile filter row recomposition", () => {
+  it("gives search its own full row, wrapping provider/tag onto the next one, below 640px", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const filterRowRule = /\.filter-row\s*\{[^}]*\}/.exec(css)?.[0];
+    const searchInputRule = /\.newsroomFeed \.search-input\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(filterRowRule).toContain("flex-wrap: wrap");
+    expect(searchInputRule).toContain("flex: 1 1 100%");
+  });
+
+  it("restores the single-row layout at >=640px on the site, but never in the fixed-width MCP panel", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const desktopBlock = /@media \(min-width: 640px\) \{([\s\S]*?)\n\}/.exec(css)?.[1] ?? "";
+
+    expect(desktopBlock).toMatch(/\.newsroomFeed:not\(\.newsroomFeed--mcp\) \.filter-row\s*\{\s*flex-wrap: nowrap;/);
+  });
+});
+
+describe("feed freshness", () => {
+  it("renders staleness as a real text node, not a color/icon-only signal", () => {
+    // The invariant that matters ("not color alone") lives in the markup,
+    // not the stylesheet — a CSS-only check here would pass even if the
+    // text were swapped for a bare icon. Check the JSX literal instead.
+    const tsx = readFileSync(new URL("../../views/_shared/feed/FeedHeader.tsx", import.meta.url), "utf8");
+
+    expect(tsx).toMatch(/<span className="stale-badge">Stale<\/span>/);
+  });
+});
+
 describe("feed header controls", () => {
   it("gives the theme toggle a persistent background with stronger interaction states", () => {
     const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");

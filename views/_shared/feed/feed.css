@@ -150,6 +150,11 @@ html, body { margin: 0; background: var(--bg); }
 }
 
 /* ─── header ───────────────────────────────────────────────────────────── */
+/* `sticky` only actually sticks in the MCP View, where .scroll-area (not
+   the document) is the scrolling element. On the standalone site the
+   document itself scrolls, so this header scrolls away with it — known,
+   deferred; a real fix needs a compact scrolled-state design, not just
+   restructuring the scroll container. */
 .feed-header {
   position: sticky; top: 0; z-index: 20;
   background: color-mix(in oklab, var(--bg), transparent 8%);
@@ -182,11 +187,18 @@ html, body { margin: 0; background: var(--bg); }
    FeedHeader's unreadCount prop. Accent-tinted so it reads as "new", but the
    text itself (not color) is what conveys the count. */
 .unread-count { font-family: var(--font-mono); font-size: 11px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+/* Text conveys "stale", not color alone (FeedHeader only renders this once
+   the snapshot crosses formatters.ts's freshness() threshold). */
+.stale-badge { font-family: var(--font-mono); font-size: 11px; font-weight: 700; color: var(--warn); white-space: nowrap; }
 
-/* Filter row: search + provider dropdown. */
-.filter-row { display: flex; gap: var(--space-2); margin-top: var(--space-3); }
+/* Filter row: search gets its own full-width row so entered text stays
+   readable at narrow widths/zoom; provider + tag recompose onto the row
+   below and split it evenly (one alone still fills the row) instead of
+   squeezing search down to a sliver. >=640px (site only, not the fixed-width
+   MCP panel) restores the single-row layout below. */
+.filter-row { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-3); }
 .newsroomFeed .search-input {
-  flex: 1; min-width: 0;
+  flex: 1 1 100%; min-width: 0;
   height: 40px;
   font-size: var(--text-xs); line-height: 12.8px; color: var(--fg);
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md);
@@ -195,12 +207,18 @@ html, body { margin: 0; background: var(--bg); }
 .search-input::placeholder { color: var(--muted); }
 .newsroomFeed .provider-select,
 .newsroomFeed .tag-select {
-  max-width: 40%; flex-shrink: 0;
+  flex: 1 1 0; min-width: 0;
   height: 40px;
   font-size: var(--text-xs); line-height: 12.8px; color: var(--fg);
   border: 1px solid var(--border); border-radius: var(--radius-md);
   padding: 6px 24px 6px var(--space-2);
-  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  /* No `overflow: hidden` here: on a native <select> with a 0 flex-basis
+     (needed so the lone no-tags select can grow to fill the row, and the
+     tagged pair still split it evenly), pairing overflow:hidden with that
+     0-basis grow left the selected-option text unpainted in some engines —
+     `text-overflow: ellipsis` alone still truncates the label correctly
+     without it. */
+  text-overflow: ellipsis; white-space: nowrap;
   /* Native arrow sits flush against the edge with no way to inset it —
      swap it for a positionable background chevron instead. */
   appearance: none; -webkit-appearance: none; -moz-appearance: none;
@@ -216,11 +234,19 @@ html, body { margin: 0; background: var(--bg); }
 .header-controls { display: flex; align-items: center; gap: var(--space-3); flex-shrink: 0; --control-h: 32px; }
 
 .newsroomFeed .theme-toggle {
+  position: relative;
   display: grid; place-items: center;
   width: var(--control-h); height: var(--control-h); padding: 0; border-radius: 50%;
   background: var(--border-soft);
   color: var(--muted);
   transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
+}
+/* Invisible hit-area expansion: the round toggle is 32x32 visually (kept —
+   a bigger circle would crowd the brand row), but grows its tappable area
+   toward the ~44px comfortable minimum. 6px a side exactly meets the
+   sort-tabs group across the row's --space-3 gap without overlapping it. */
+.newsroomFeed .theme-toggle::after {
+  content: ""; position: absolute; inset: -6px;
 }
 .theme-toggle:hover {
   background: color-mix(in oklab, var(--border-soft), var(--fg) 6%);
@@ -239,10 +265,18 @@ html, body { margin: 0; background: var(--bg); }
   background: var(--border-soft); border-radius: var(--radius-pill); padding: 2px;
 }
 .newsroomFeed .sort-tab {
+  position: relative;
   display: grid; place-items: center;
   height: calc(var(--control-h) - 4px); padding: 0 14px; border-radius: var(--radius-pill);
   font-size: 12px; line-height: 12.8px; font-weight: 600; color: var(--muted);
   transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
+}
+/* Vertical-only hit-area expansion (top/bottom, not left/right): Top and
+   Latest sit 2px apart, so widening sideways would make their tap zones
+   overlap and ambiguous — expanding only the axis that isn't crowded still
+   grows the 28px-tall tab toward a comfortable target. */
+.newsroomFeed .sort-tab::after {
+  content: ""; position: absolute; inset: -6px 0;
 }
 .sort-tab[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: var(--elev-ring); }
 .sort-tab:hover:not([aria-pressed="true"]) { color: var(--fg-2); }
@@ -312,8 +346,17 @@ html, body { margin: 0; background: var(--bg); }
   letter-spacing: var(--tracking-display); color: var(--fg);
   text-wrap: balance;
 }
+/* Bounded preview, not the full text — three lines is long enough to convey
+   the story without the summary dominating card height (measured cards
+   ranged ~257-474px tall, almost entirely from summary length), and short
+   enough that the two-column desktop grid stops leaving large ragged gaps
+   under shorter cards. The full summary is always reachable in the detail
+   sheet (see SourceSheet's .sheet-summary) and in Copy, so this never makes
+   text inaccessible — only previewed. */
 .story-summary {
   font-size: 14.5px; line-height: 1.5; color: var(--fg-2);
+  display: -webkit-box; line-clamp: 3; -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; overflow: hidden;
 }
 
 .source-row { display: flex; align-items: center; gap: var(--space-2); padding-top: var(--space-1); border-top: 1px solid var(--border-soft); }
@@ -402,6 +445,8 @@ html, body { margin: 0; background: var(--bg); }
 .stat-sep { margin: 0 3px; color: var(--muted); font-weight: 400; }
 
 .sheet-body { overflow-y: auto; padding: var(--space-2) var(--space-4) var(--space-6); }
+/* The full, untruncated summary — the card only ever shows a clamped preview. */
+.sheet-summary { padding-top: var(--space-2); font-size: 14.5px; line-height: 1.5; color: var(--fg-2); }
 .sheet-section-label {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
   color: var(--muted); padding: var(--space-3) 0 var(--space-2);
@@ -460,6 +505,18 @@ html, body { margin: 0; background: var(--bg); }
   }
   .newsroomFeed:not(.newsroomFeed--mcp) .feed-empty {
     grid-column: 1 / -1;
+  }
+  /* Enough width to go back to one row: search grows, selects cap at 40%
+     each instead of recomposing onto a second row. */
+  .newsroomFeed:not(.newsroomFeed--mcp) .filter-row {
+    flex-wrap: nowrap;
+  }
+  .newsroomFeed:not(.newsroomFeed--mcp) .search-input {
+    flex: 1 1 auto;
+  }
+  .newsroomFeed:not(.newsroomFeed--mcp) .provider-select,
+  .newsroomFeed:not(.newsroomFeed--mcp) .tag-select {
+    flex: 0 0 auto; max-width: 40%;
   }
 }
 

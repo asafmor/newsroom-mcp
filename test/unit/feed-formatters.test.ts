@@ -4,7 +4,10 @@ import {
   availableTags,
   contributionLabel,
   developmentCount,
+  freshness,
   pruneReadIds,
+  shortDate,
+  shortTime,
   storyMatchesFilters,
   unreadCount,
 } from "../../views/_shared/feed/formatters.js";
@@ -125,6 +128,60 @@ describe("pruneReadIds", () => {
 
   it("is empty when the current feed is empty", () => {
     expect(pruneReadIds(["a", "b"], [])).toEqual([]);
+  });
+});
+
+describe("freshness", () => {
+  // Built from local Date components (not fixed UTC strings) and asserted
+  // against shortTime/shortDate's own output, so these hold regardless of
+  // the machine's timezone — only the calendar-day/threshold logic is new.
+
+  it("shows time-only for a snapshot generated earlier today", () => {
+    const now = new Date(2026, 8, 3, 13, 0);
+    const generated = new Date(2026, 8, 3, 8, 2);
+
+    const result = freshness(generated.toISOString(), now);
+
+    expect(result.label).toBe(shortTime(generated.toISOString()));
+    expect(result.stale).toBe(false);
+  });
+
+  it("shows date+time, never mistaken for today, for a snapshot from yesterday even if under 24h old", () => {
+    // 11pm yesterday is only 2 hours before "now" — a naive 24h subtraction
+    // would call this "today"; a local-calendar-day comparison must not.
+    const now = new Date(2026, 8, 3, 1, 0);
+    const generated = new Date(2026, 8, 2, 23, 0);
+
+    const result = freshness(generated.toISOString(), now);
+
+    expect(result.label).toBe(`${shortDate(generated.toISOString())}, ${shortTime(generated.toISOString())}`);
+    expect(result.label).not.toBe(shortTime(generated.toISOString()));
+  });
+
+  it("shows date+time for a snapshot several days old, and marks it stale", () => {
+    const now = new Date(2026, 8, 3, 12, 0);
+    const generated = new Date(2026, 7, 30, 9, 0);
+
+    const result = freshness(generated.toISOString(), now);
+
+    expect(result.label).toBe(`${shortDate(generated.toISOString())}, ${shortTime(generated.toISOString())}`);
+    expect(result.stale).toBe(true);
+  });
+
+  it("is not stale just under the 6-hour threshold", () => {
+    const now = new Date(2026, 8, 3, 12, 0, 0, 0);
+    const generated = new Date(now.getTime() - (6 * 60 * 60 * 1000 - 1));
+
+    expect(freshness(generated.toISOString(), now).stale).toBe(false);
+  });
+
+  it("is stale at and past the 6-hour threshold", () => {
+    const now = new Date(2026, 8, 3, 12, 0, 0, 0);
+    const atThreshold = new Date(now.getTime() - 6 * 60 * 60 * 1000);
+    const pastThreshold = new Date(now.getTime() - 7 * 60 * 60 * 1000);
+
+    expect(freshness(atThreshold.toISOString(), now).stale).toBe(true);
+    expect(freshness(pastThreshold.toISOString(), now).stale).toBe(true);
   });
 });
 
