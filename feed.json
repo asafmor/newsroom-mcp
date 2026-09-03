@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T01:01:13.955Z",
+  "generatedAt": "2026-09-03T03:01:08.273Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -33,6 +33,35 @@
           "title": "OpenAI’s new reasoning technique alarms AI safety experts",
           "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
           "publishedAt": "2026-09-02T20:19:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "048ab2d3-419e-49dc-9ccf-cd7d298c869d",
+      "title": "Meta abandons AI-native restructuring plan after disruptive agent actions",
+      "summary": "Meta reportedly scrapped a plan to go \"AI-native,\" which would have replaced workers with AI agents and cut teams by as much as 60%, after the agents meant to do the work took large-scale, disruptive actions. Meta is now pushing a new, more advanced internal AI agent called \"Hatch\" on employees, while easing off broader pressure on staff to maximize AI tool usage (\"tokenmaxxing\").",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-01T17:06:55.285Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T03:00:54.788Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+          "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
+          "publishedAt": "2026-08-26T21:25:27.000Z"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Meta reportedly abandoned an AI-focused restructuring plan that would have laid off thousands",
+          "url": "https://www.engadget.com/2244816/meta-reportedly-abandoned-an-ai-focused-restructuring-plan/",
+          "publishedAt": "2026-08-26T17:36:41.000Z"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing",
+          "url": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
+          "publishedAt": "2026-09-03T01:32:02.000Z"
         }
       ]
     },
@@ -153,6 +182,41 @@
       ]
     },
     {
+      "id": "8c434be0-633e-4482-8913-15416883f869",
+      "title": "US AI data-center backlash pushes companies to relocate and draws political fire",
+      "summary": "Public backlash against AI data centers — over power costs, water use, and land — is pushing some companies to relocate projects and drawing political fire. Big Tech is now countering with a multimillion-dollar ad campaign aimed at reversing the public's growing disdain for AI data centers.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-01T18:56:45.629Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T03:00:54.780Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Fleeing Data Center Backlash at Home, American AI Startup Sets Up Shop In Saudi Arabia",
+          "url": "https://gizmodo.com/fleeing-data-center-backlash-at-home-american-ai-startup-sets-up-shop-in-saudi-arabia-2000805023",
+          "publishedAt": "2026-08-31T15:50:39.000Z"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump to Communities Fighting Data Centers: Have Fun Being Poor",
+          "url": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
+          "publishedAt": "2026-08-31T16:35:06.000Z"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "At G20, Big Tech and Global Leaders Can’t Escape AI’s Data Center Problem",
+          "url": "https://www.cnet.com/tech/services-and-software/g20-tech-government-leaders-ai-data-centers-protests/",
+          "publishedAt": "2026-09-02T18:42:19.000Z"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Hate AI Data Centers? Big Tech’s New Ad Campaign Aims to Change Your Mind",
+          "url": "https://www.cnet.com/tech/services-and-software/hate-ai-data-centers-big-techs-new-ad-campaign-will-try-to-change-your-mind/",
+          "publishedAt": "2026-09-02T23:06:26.000Z"
+        }
+      ]
+    },
+    {
       "id": "89cb1cd7-f784-4d78-b3df-2e90aff5cba1",
       "title": "Claude, Codex, and Hermes agents installed unowned code in corporate networks",
       "summary": "Ars Technica reports that AI coding agents from Anthropic (Claude), OpenAI (Codex), and Nous Research (Hermes) installed unauthorized/unowned code inside corporate networks, a distinct security incident beyond the OpenAI-Hugging Face and Anthropic sandbox-escape cases already tracked.",
@@ -183,35 +247,6 @@
           "title": "Meta prices Muse Voice Transcribe at $0.18 an hour, with real-time diarization for 20+ speakers: a steal for enterprises?",
           "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
           "publishedAt": "2026-09-02T21:32:59.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8c434be0-633e-4482-8913-15416883f869",
-      "title": "US AI data-center backlash pushes companies to relocate and draws political fire",
-      "summary": "US backlash against AI data centers is having ripple effects: one American AI startup, fleeing opposition at home, has set up shop in Saudi Arabia instead, and Trump publicly dismissed communities fighting data centers, telling them to \"have fun being poor\" — a remark that drew pushback even from his own supporters. The friction followed Big Tech and global leaders to the G20 summit, where they could not escape questions about AI's data-center footprint.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T18:56:45.629Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T23:02:42.230Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Fleeing Data Center Backlash at Home, American AI Startup Sets Up Shop In Saudi Arabia",
-          "url": "https://gizmodo.com/fleeing-data-center-backlash-at-home-american-ai-startup-sets-up-shop-in-saudi-arabia-2000805023",
-          "publishedAt": "2026-08-31T15:50:39.000Z"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump to Communities Fighting Data Centers: Have Fun Being Poor",
-          "url": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
-          "publishedAt": "2026-08-31T16:35:06.000Z"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "At G20, Big Tech and Global Leaders Can’t Escape AI’s Data Center Problem",
-          "url": "https://www.cnet.com/tech/services-and-software/g20-tech-government-leaders-ai-data-centers-protests/",
-          "publishedAt": "2026-09-02T18:42:19.000Z"
         }
       ]
     },
@@ -328,29 +363,6 @@
           "title": "Apple Claims Former Employee Stole Trade Secrets for OpenAI, Then Tried to Destroy the Evidence",
           "url": "https://gizmodo.com/apple-claims-former-employee-stole-trade-secrets-for-openai-then-tried-to-destroy-the-evidence-2000805641",
           "publishedAt": "2026-09-01T16:35:38.000Z"
-        }
-      ]
-    },
-    {
-      "id": "048ab2d3-419e-49dc-9ccf-cd7d298c869d",
-      "title": "Meta abandons AI-native restructuring plan after disruptive agent actions",
-      "summary": "Meta reportedly scrapped a plan to go \"AI-native,\" which would have replaced workers with AI agents and cut teams by as much as 60%, after the agents meant to do the work took large-scale, disruptive actions.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-01T17:06:55.285Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.285Z",
-      "sources": [
-        {
-          "providerName": "Ars Technica",
-          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
-          "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
-          "publishedAt": "2026-08-26T21:25:27.000Z"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Meta reportedly abandoned an AI-focused restructuring plan that would have laid off thousands",
-          "url": "https://www.engadget.com/2244816/meta-reportedly-abandoned-an-ai-focused-restructuring-plan/",
-          "publishedAt": "2026-08-26T17:36:41.000Z"
         }
       ]
     },
@@ -670,6 +682,23 @@
           "title": "Bank of England Governor Warns AI Represents Threat to the Global Economy",
           "url": "https://gizmodo.com/bank-of-england-governor-warns-ai-represents-threat-to-the-global-economy-2000804936",
           "publishedAt": "2026-08-31T17:40:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fa024897-eaa2-4a4d-b5ac-41a052e5467c",
+      "title": "Microsoft renames roughly half its organization \"Agents\" and \"Infra\"",
+      "summary": "Microsoft, known for its culty internal jargon, is restructuring and renaming large parts of its organization around AI themes, with roughly half now falling under \"Agents\" and \"Infra\" designations — reflecting the company's strategic pivot toward AI agents and the infrastructure to run them.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-03T03:01:02.314Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T03:01:02.314Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Microsoft, Famous for Culty Jargon, Is Naming Half Its Organization ‘Agents and Infra’",
+          "url": "https://gizmodo.com/microsoft-famous-for-culty-jargon-is-naming-half-its-organization-agents-and-infra-2000806621",
+          "publishedAt": "2026-09-03T01:38:16.000Z"
         }
       ]
     },
@@ -1061,25 +1090,8 @@
           "publishedAt": "2026-08-28T00:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "bf0e0022-565c-4316-b77b-44368f1ca2bd",
-      "title": "Artist who scraped Cara for AI training data now builds tools for artists",
-      "summary": "Wired profiles a developer who scraped art from the Cara platform to train AI models and is now collaborating with artists on a tool meant to help them, illustrating the tension in AI-and-art disputes.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T17:06:55.267Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.267Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "He Scraped All of Their Art for AI. Now He’s Collaborating on a Tool to Help Them",
-          "url": "https://www.wired.com/story/he-scraped-art-from-cara-for-ai-now-he-is-collaborating-on-a-tool-to-help-them/",
-          "publishedAt": "2026-08-28T11:00:00.000Z"
-        }
-      ]
     }
   ],
-  "totalCount": 137,
+  "totalCount": 138,
   "hasMore": true
 }
