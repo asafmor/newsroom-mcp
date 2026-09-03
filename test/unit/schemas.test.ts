@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { createStoryInputSchema, updateStoryInputSchema } from "../../src/tools/schemas.js";
+import { createStoryInputSchema, getStoryInputSchema, updateStoryInputSchema } from "../../src/tools/schemas.js";
 
 const baseCreateInput = {
   contentItemIds: ["item-1"],
@@ -59,5 +59,19 @@ describe("updateStoryInputSchema tags", () => {
 
   it("rejects duplicate values within one array", () => {
     expect(updateStoryInputSchema.safeParse({ ...base, tags: ["safety", "safety"] }).success).toBe(false);
+  });
+});
+
+describe("getStoryInputSchema", () => {
+  it("accepts a non-empty storyId", () => {
+    expect(getStoryInputSchema.safeParse({ storyId: "story-1" }).success).toBe(true);
+  });
+
+  it("rejects an empty storyId", () => {
+    expect(getStoryInputSchema.safeParse({ storyId: "" }).success).toBe(false);
+  });
+
+  it("rejects a missing storyId", () => {
+    expect(getStoryInputSchema.safeParse({}).success).toBe(false);
   });
 });

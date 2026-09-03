@@ -9,7 +9,7 @@ read back a feed. See `IDEA.md` for the full original design spec.
 ## Project Shape
 
 - `src/composition.ts` builds every repository/service once
-  (`buildNewsroomServices()`) and registers all 9 tools onto a transport-
+  (`buildNewsroomServices()`) and registers all 10 tools onto a transport-
   agnostic `ToolRegistrar` (`registerNewsroomTools()`). Both entry points
   below just call these two functions.
 - `index.ts` — the HTTP entry point: wraps a real `MCPServer` (mcp-use) as a
@@ -50,7 +50,7 @@ read back a feed. See `IDEA.md` for the full original design spec.
 ## Current MCP Tools
 
 See `docs/mcp-tools.md` for the full table. Summary: `fetch-new-items`,
-`get-unprocessed-items`, `get-active-stories`, `create-story`,
+`get-unprocessed-items`, `get-active-stories`, `get-story`, `create-story`,
 `attach-item-to-story`, `update-story`, `merge-stories`,
 `mark-item-processed`, `get-feed`.
 

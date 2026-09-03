@@ -127,6 +127,7 @@ describe("newsroom-mcp server", () => {
       "fetch-new-items",
       "get-unprocessed-items",
       "get-active-stories",
+      "get-story",
       "create-story",
       "attach-item-to-story",
       "update-story",
@@ -232,6 +233,44 @@ describe("newsroom-mcp server", () => {
     expect(active.structuredContent.stories[0]?.sourceNames.length).toBeGreaterThanOrEqual(2);
     expect(active.structuredContent.stories[0]?.tags).toEqual(["safety", "regulation"]);
 
+    const gotStory = (await client?.callTool({
+      name: "get-story",
+      arguments: { storyId },
+    })) as ToolTextResult & {
+      structuredContent: {
+        id: string;
+        status: string;
+        tags: string[];
+        attachedItems: { contentItemId: string; contribution: string; reason?: string; attachedAt: string }[];
+      };
+    };
+
+    expect(gotStory.isError).toBeFalsy();
+    expect(gotStory.structuredContent.id).toBe(storyId);
+    expect(gotStory.structuredContent.status).toBe("active");
+    expect(gotStory.structuredContent.tags).toEqual(["safety", "regulation"]);
+    // Oldest-attached-first: the founding item (no reason recorded) before
+    // the later attach-item-to-story call (reason recorded).
+    expect(gotStory.structuredContent.attachedItems).toEqual([
+      expect.objectContaining({ contentItemId: firstItem.id, contribution: "supporting" }),
+      expect.objectContaining({
+        contentItemId: secondItem.id,
+        contribution: "meaningful-update",
+        reason: "Second source confirms a new development.",
+      }),
+    ]);
+    expect(gotStory.structuredContent.attachedItems[0]?.reason).toBeUndefined();
+    const attachedAts = gotStory.structuredContent.attachedItems.map((item) => item.attachedAt);
+    expect(attachedAts[0] <= attachedAts[1]).toBe(true);
+
+    const storyNotFound = (await client?.callTool({
+      name: "get-story",
+      arguments: { storyId: "does-not-exist" },
+    })) as ToolTextResult;
+
+    expect(storyNotFound.isError).toBe(true);
+    expect(storyNotFound.structuredContent).toBeUndefined();
+
     const feed = (await client?.callTool({
       name: "get-feed",
       arguments: {},
@@ -289,6 +328,17 @@ describe("newsroom-mcp server", () => {
       true,
     );
 
+    // The merge-loser is archived, not gone: get-story still resolves it by
+    // its own id, distinct from the not-found case above.
+    const archivedStory = (await client?.callTool({
+      name: "get-story",
+      arguments: { storyId: losingStoryId },
+    })) as ToolTextResult & { structuredContent: { id: string; status: string } };
+
+    expect(archivedStory.isError).toBeFalsy();
+    expect(archivedStory.structuredContent.id).toBe(losingStoryId);
+    expect(archivedStory.structuredContent.status).toBe("archived");
+
     const activeAfterMerge = (await client?.callTool({
       name: "get-active-stories",
       arguments: {},
@@ -334,5 +384,43 @@ describe("newsroom-mcp server", () => {
       },
     })) as ToolTextResult & { structuredContent: { tags: string[] } };
     expect(createdUntagged.structuredContent.tags).toEqual([]);
+
+    // get-active-stories truncates recentItems at 5; get-story must not —
+    // build a story with 6 attachments and confirm all 6 come back, in the
+    // order they were attached.
+    const manyItemsStory = (await client?.callTool({
+      name: "create-story",
+      arguments: {
+        contentItemIds: [restItems[3]?.id],
+        title: "Story with many attachments",
+        summary: "Accumulates more than 5 attached items.",
+        relevanceScore: 0.5,
+        importanceScore: 0.5,
+      },
+    })) as ToolTextResult & { structuredContent: { id: string } };
+
+    expect(manyItemsStory.isError).toBeFalsy();
+    const manyItemsStoryId = manyItemsStory.structuredContent.id;
+    const attachOrder = [restItems[3]?.id];
+
+    for (const item of restItems.slice(4, 9)) {
+      const contentItemId = item.id;
+      const attachResult = (await client?.callTool({
+        name: "attach-item-to-story",
+        arguments: { storyId: manyItemsStoryId, contentItemId, contribution: "background" },
+      })) as ToolTextResult;
+
+      expect(attachResult.isError).toBeFalsy();
+      attachOrder.push(contentItemId);
+    }
+
+    const manyItemsResult = (await client?.callTool({
+      name: "get-story",
+      arguments: { storyId: manyItemsStoryId },
+    })) as ToolTextResult & { structuredContent: { attachedItems: { contentItemId: string }[] } };
+
+    expect(manyItemsResult.isError).toBeFalsy();
+    expect(manyItemsResult.structuredContent.attachedItems).toHaveLength(6);
+    expect(manyItemsResult.structuredContent.attachedItems.map((entry) => entry.contentItemId)).toEqual(attachOrder);
   });
 });
