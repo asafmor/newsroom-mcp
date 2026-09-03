@@ -27,7 +27,7 @@ const ONE_HN_HIT = {
 
 /**
  * Every provider's fetchNew() hits global fetch; stub it by URL shape so
- * fetch-new-items exercises real provider/repository code (20 RSS feeds + HN;
+ * fetch-new-items exercises real provider/repository code (21 RSS feeds + HN;
  * the GitHub release provider list is currently empty — see
  * GITHUB_RELEASE_REPOS) without any real network traffic. Each feed has
  * a distinct providerId, so the identical fixture body yields one item per
@@ -64,6 +64,7 @@ function stubProviderFetch() {
         "mashable.com",
         "engadget.com",
         "geeky-gadgets.com",
+        "modelcontextprotocol.io",
         "github.com",
       ].some((host) => url.includes(host));
 
@@ -136,7 +137,7 @@ describe("newsroom-mcp server", () => {
   });
 
   it("runs the full ingestion → clustering → feed lifecycle", async () => {
-    // 20 RSS feeds + Hacker News each yield one item (no GitHub release repos tracked yet).
+    // 21 RSS feeds + Hacker News each yield one item (no GitHub release repos tracked yet).
     const fetched = (await client?.callTool({
       name: "fetch-new-items",
       arguments: {},
@@ -144,9 +145,9 @@ describe("newsroom-mcp server", () => {
 
     expect(fetched.isError).toBeFalsy();
     expect(fetched.structuredContent).toMatchObject({
-      providersProcessed: 21,
-      itemsFetched: 21,
-      itemsInserted: 21,
+      providersProcessed: 22,
+      itemsFetched: 22,
+      itemsInserted: 22,
       duplicates: 0,
     });
 
@@ -155,7 +156,7 @@ describe("newsroom-mcp server", () => {
       arguments: { limit: 29 },
     })) as ToolTextResult & { structuredContent: { items: { id: string }[] } };
 
-    expect(pending.structuredContent.items).toHaveLength(21);
+    expect(pending.structuredContent.items).toHaveLength(22);
     const [firstItem, secondItem, ...restItems] = pending.structuredContent.items;
 
     const created = (await client?.callTool({

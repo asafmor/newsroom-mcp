@@ -108,6 +108,11 @@ const RSS_FEEDS = [
     name: "Geeky Gadgets AI",
     url: "https://www.geeky-gadgets.com/category/artificial-intelligence/feed/",
   },
+  {
+    id: "rss:mcp-io",
+    name: "MCP Blog",
+    url: "https://blog.modelcontextprotocol.io/index.xml",
+  },
 ] as const;
 
 /**
