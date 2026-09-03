@@ -1,6 +1,67 @@
 {
-  "generatedAt": "2026-09-03T17:02:03.293Z",
+  "generatedAt": "2026-09-03T19:01:52.424Z",
   "stories": [
+    {
+      "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
+      "title": "OpenAI launches GPT-6 Astra, its first \"critical\" cyber-capability model",
+      "summary": "OpenAI has released GPT-6 Astra, a computer-use/agentic model that leadership framed as marking the start of an \"AGI era.\" It's the first OpenAI model to cross the company's Preparedness Framework \"critical\" cybersecurity threshold — scoring 100% on ExploitBench and finding real zero-days in testing — so its most advanced cyber capabilities are initially limited to trusted defenders via Daybreak Blue. Astra also posts strong results on other benchmarks (98.6% ARC-AGI-3, 97.6% FrontierMath), though OpenAI's own framing has drawn scrutiny over what those numbers actually measure and the notable absence of its GDPval real-world-work benchmark. It rolls out to enterprise, ChatGPT, and API customers this week, with tiered pricing ($10/$50 per million input/output tokens standard) and new alignment/monitoring safeguards meant to keep the more autonomous agent inside its authorized scope.",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-01T21:20:51.430Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T19:01:26.125Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
+          "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
+          "publishedAt": "2026-09-01T20:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Open AI’s Astra model is on the way—and very good at breaking into computer systems",
+          "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+          "publishedAt": "2026-09-01T21:06:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Expected Sept 3 ChatGPT 6 Release Carries Hidden Reasoning Risks",
+          "url": "https://www.geeky-gadgets.com/openai-chatgpt-6-astra-model-rumors/",
+          "publishedAt": "2026-09-02T12:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s new reasoning technique alarms AI safety experts",
+          "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+          "publishedAt": "2026-09-02T20:19:14.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "VentureBeat",
+          "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
+          "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+          "publishedAt": "2026-09-03T18:00:12.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+          "publishedAt": "2026-09-03T18:01:45.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
+          "url": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
+          "publishedAt": "2026-09-03T18:06:24.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
     {
       "id": "453aa375-ccba-46c0-874c-fedb7e491e3c",
       "title": "Nvidia confirms $12.9B acquisition of Hugging Face",
@@ -45,53 +106,13 @@
       ]
     },
     {
-      "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
-      "title": "OpenAI prepares to release Astra, its first \"critical\" cyber-capability model",
-      "summary": "OpenAI is preparing to release Astra, an AI model it classifies as having \"critical\" cyber capabilities — good enough at breaking into computer systems that OpenAI is giving select partners early access so they can shore up defenses before wider release. Astra reportedly uses a \"recurrent depth\" reasoning technique that lets it operate outside the sequential thinking typical of most reasoning models, a design choice that has alarmed AI safety experts.",
-      "importanceScore": 0.8,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-01T21:20:51.430Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T23:02:40.046Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
-          "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
-          "publishedAt": "2026-09-01T20:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Open AI’s Astra model is on the way—and very good at breaking into computer systems",
-          "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-          "publishedAt": "2026-09-01T21:06:24.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Expected Sept 3 ChatGPT 6 Release Carries Hidden Reasoning Risks",
-          "url": "https://www.geeky-gadgets.com/openai-chatgpt-6-astra-model-rumors/",
-          "publishedAt": "2026-09-02T12:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s new reasoning technique alarms AI safety experts",
-          "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-          "publishedAt": "2026-09-02T20:19:14.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
-    },
-    {
       "id": "d9c14e28-b1cc-437e-8086-0981f400e21f",
       "title": "Meta launches Muse Spark 1.3, closing in on the coding frontier",
-      "summary": "Meta released Muse Spark 1.3, a significant jump over 1.2 on coding and long-running agent tasks. Independent benchmarks put the shipping \"xhigh\" version in the frontier cluster (edging Gemini 3.8 Flash on intelligence-per-dollar) though still behind Anthropic's best. Pricing is unchanged; Meta's strongest \"max\" configuration remains in limited preview, and its promised open-weight Spark release has slipped without a new date.",
+      "summary": "Meta released Muse Spark 1.3, a significant jump over 1.2 on coding and long-running agent tasks. Independent benchmarks put the shipping \"xhigh\" version in the frontier cluster (edging Gemini 3.8 Flash on intelligence-per-dollar) though still behind Anthropic's best. Pricing is unchanged; Meta's strongest \"max\" configuration remains in limited preview, and its promised open-weight Spark release has slipped without a new date. Separately, Meta is now offering an explicit discount on Muse Spark usage in exchange for letting Meta use that usage data to improve future models — putting an actual price on the standard opt-out most AI providers offer for free.",
       "importanceScore": 0.6,
       "relevanceScore": 0.85,
       "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T17:01:49.158Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T19:01:32.230Z",
       "sources": [
         {
           "providerName": "VentureBeat",
@@ -99,6 +120,13 @@
           "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
           "publishedAt": "2026-09-03T16:19:49.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is paying to peek at how you use their latest AI model",
+          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+          "publishedAt": "2026-09-03T18:19:56.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -516,6 +544,27 @@
       "tags": []
     },
     {
+      "id": "5a45f940-2fec-411a-b14b-26c236114f16",
+      "title": "Abliteration.ai turns AI guardrail removal into a business",
+      "summary": "Abliteration.ai is commercializing \"abliterated\" models — open models with safety guardrails stripped out — arguing that giving defenders the same uncensored tools available to bad actors can ultimately improve cybersecurity. The pitch reignites the debate over how easily accessible uncensored, capable models should be.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-03T19:01:47.158Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T19:01:47.158Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Abliteration.ai is making a business out of removing AI guardrails",
+          "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+          "publishedAt": "2026-09-03T18:37:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "828ea56b-0cf2-4c9c-ab2b-c5c35a4c34a2",
       "title": "Claude AI adds invisible text watermarks for EU AI Act compliance",
       "summary": "Anthropic's Claude now embeds an invisible, pattern-based watermark in all generated text, undetectable to readers but identifiable via Claude-specific detection systems, reportedly to support transparency/accountability requirements under the EU AI Act.",
@@ -684,6 +733,28 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "879cec3a-a153-4a98-8fc7-1337912a54e1",
+      "title": "Nvidia's PAIR speeds up AI agents by pooling idle PCs on the local network",
+      "summary": "Nvidia unveiled PAIR, a system that distributes AI agent workloads across idle PCs on a home or office LAN to speed up execution — effectively turning the local network into a shared compute pool for agentic AI tasks.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-03T19:01:47.166Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T19:01:47.166Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Nvidia PAIR Speeds Up AI Agents by Annexing PCs on Your Network",
+          "url": "https://www.cnet.com/tech/services-and-software/nvidia-pair-speeds-ai-agents-by-annexing-pcs-on-your-network/",
+          "publishedAt": "2026-09-03T16:00:22.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "infrastructure"
+      ]
     },
     {
       "id": "3d9cb4cf-c89e-4034-bf5b-82d453a798ee",
@@ -1211,60 +1282,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "fd0301df-b805-4bf8-b35d-0b88f1a9d87f",
-      "title": "Perplexity's Hybrid Compute keeps sensitive data off the cloud",
-      "summary": "Perplexity launched Hybrid Compute, which splits AI tasks between cloud and local processing so confidential files stay on-device, covered by both Engadget and VentureBeat.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-01T17:06:55.322Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.322Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Perplexity's Hybrid Compute splits sensitive tasks between cloud and local AI",
-          "url": "https://www.engadget.com/2248548/perplexitys-hybrid-compute-splits-sensitive-tasks-between-cloud-and-local-ai/",
-          "publishedAt": "2026-09-01T15:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "VentureBeat",
-          "title": "Your files stay put: Perplexity’s hybrid AI keeps confidential data off the cloud",
-          "url": "https://venturebeat.com/orchestration/your-files-stay-put-perplexitys-hybrid-ai-keeps-confidential-data-off-the-cloud",
-          "publishedAt": "2026-09-01T15:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "bb154fca-0705-4930-8e6a-b100fa25916e",
-      "title": "Anthropic expands Claude's browser capabilities",
-      "summary": "Anthropic made Claude in Chrome generally available and gave Claude's Cowork product its own built-in browser, expanding Claude's ability to act directly in web browsers.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-01T17:06:55.316Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.316Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude in Chrome is generally available",
-          "url": "https://claude.com/blog/claude-in-chrome-generally-available",
-          "publishedAt": "2026-08-26T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude gets its own browser in Cowork",
-          "url": "https://claude.com/blog/cowork-built-in-browser",
-          "publishedAt": "2026-08-26T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 156,
+  "totalCount": 158,
   "hasMore": true
 }
