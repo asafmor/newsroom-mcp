@@ -65,7 +65,7 @@ export function FeedHeader({
             {unreadCount !== undefined && unreadCount > 0 && (
               <>
                 <span className="meta-sep" aria-hidden="true">·</span>
-                <span className="unread-count">{unreadCount} new</span>
+                <span className="unread-count">{unreadCount} new stories</span>
               </>
             )}
           </div>

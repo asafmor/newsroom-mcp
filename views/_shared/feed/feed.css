@@ -156,12 +156,15 @@ html, body { margin: 0; background: var(--bg); }
    deferred; a real fix needs a compact scrolled-state design, not just
    restructuring the scroll container. */
 .feed-header {
+  /* Shared with .brand-logo's pull-back margin below, and overridden at the
+     desktop breakpoint, so the two always stay in sync. */
+  --header-pad-x: var(--space-3);
   position: sticky; top: 0; z-index: 20;
   background: color-mix(in oklab, var(--bg), transparent 8%);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
-  padding: var(--space-4) var(--space-3) var(--space-2);
+  padding: var(--space-4) var(--header-pad-x) var(--space-2);
 }
 /* Title + subtitle stack on the left (.brand), sort toggle on the right —
    both sides of one row, so the toggle sits centered against the pair. */
@@ -170,15 +173,30 @@ html, body { margin: 0; background: var(--bg); }
 /* Logo swaps per theme instead of a text wordmark — light-mode PNG shown by
    default, dark-mode PNG shown under the same [data-theme="dark"] root
    attribute the rest of the palette already keys off. */
-.brand-logo { display: block; height: 28px; min-width: 0; }
-.brand-logo-dark { display: none; }
-[data-theme="dark"] .brand-logo-light { display: none; }
-[data-theme="dark"] .brand-logo-dark { display: block; }
+.brand-logo {
+  display: block; height: 28px; min-width: 0;
+  /* Bleed to the header's own left edge (screen edge on mobile) while every
+     other header child keeps --header-pad-x's normal inset. */
+  margin-left: calc(-1 * var(--header-pad-x));
+}
+/* Scoped to .newsroomFeed to out-specificity `.newsroomFeed img { display:
+   block }` above (0-1-1 beats a bare 0-1-0 class regardless of source
+   order) — otherwise the "hidden" logo stays display:block and both PNGs
+   render stacked in light theme. */
+.newsroomFeed .brand-logo-dark { display: none; }
+[data-theme="dark"] .newsroomFeed .brand-logo-light { display: none; }
+[data-theme="dark"] .newsroomFeed .brand-logo-dark { display: block; }
 .brand-logo-light,
-.brand-logo-dark { height: 100%; width: auto; }
+.brand-logo-dark {
+  height: 100%; width: auto;
+  /* Lets the logo shrink (proportionally — browsers recompute height from
+     the capped width) instead of overflowing behind the theme toggle when
+     .brand gets squeezed on narrow screens. */
+  max-width: 100%;
+}
 /* Below the title: former "AI News · Curated Feed" eyebrow was redundant —
    replaced by the update time + story count. */
-.meta-text { display: flex; align-items: baseline; gap: var(--space-1); min-width: 0; }
+.meta-text { display: flex; align-items: baseline; gap: var(--space-1); min-width: 0; margin-left: 7px; }
 .updated-meta,
 .sample-tag { font-family: var(--font-mono); font-size: 11px; color: var(--muted); white-space: nowrap; }
 .meta-sep { font-size: 11px; color: var(--muted); }
@@ -495,7 +513,8 @@ html, body { margin: 0; background: var(--bg); }
     padding-inline: var(--space-6);
   }
   .newsroomFeed:not(.newsroomFeed--mcp) .feed-header {
-    padding-inline: var(--space-8);
+    --header-pad-x: var(--space-8);
+    padding-inline: var(--header-pad-x);
   }
   .newsroomFeed:not(.newsroomFeed--mcp) .story-feed {
     padding-inline: var(--space-6);
