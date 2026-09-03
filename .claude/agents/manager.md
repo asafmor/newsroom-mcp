@@ -49,10 +49,58 @@ carries context between them; they don't see each other directly.
 6. developer <-> reviewer loop — invoke developer with the requirements;
    invoke reviewer with developer's diff + requirements + idea; if the
    reviewer has blocking feedback, invoke developer again with that
-   feedback and repeat. Continue until the reviewer approves.
-7. tech-writer — once reviewer-approved, give it the idea, requirements,
+   feedback and repeat. Continue until the reviewer approves. Once the
+   developer has a runnable implementation that's passed its own
+   verification, also run the UI/UX CONSULTATION below in parallel with
+   the reviewer, if the change touches UI at all — it's an independent
+   track, not a gate on the reviewer or vice versa.
+7. tech-writer — once reviewer-approved (and any UI consultation findings
+   resolved or deferred, see below), give it the idea, requirements,
    and final implementation to write docs/changes/.
 8. Final verification, commit, push, and PR (see GIT WORKFLOW).
+
+UI/UX CONSULTATION (Codex) — run yourself, in parallel with the reviewer
+Trigger only when the change touches a reader-facing interface, directly
+or indirectly: site/, views/_shared/feed/, views/get-feed/, or any shared
+component/style those import. Skip it entirely for backend-only changes
+(providers, services, repositories, tools with no view). This is the
+existing `npm run review:ui` operation (see docs/ui-review.md,
+.agents/skills/newsroom-ui-review/SKILL.md) — do not reimplement it as a
+subagent, just call it correctly, and call it yourself, not the developer
+or reviewer.
+
+  npm run --silent review:ui -- \
+    --worktree "$(pwd)" \
+    --format json \
+    --request "<feature name + intended user outcome; requirements/brief
+    reference; the relevant user journey; comparison basis (current diff
+    or origin/main); any known launch instructions or environment quirks;
+    explicit scope exclusions>"
+
+Don't prescribe which files it should inspect or how to fix anything — it
+discovers the implementation and forms its own opinion. Parse the JSON
+output: `report` (full Markdown feedback), `reportPath`, `runDirectory`
+(screenshots/evidence), `sessionId`.
+
+Triage its findings like the code Reviewer's, and hand the report +
+evidence paths to the developer for anything actionable:
+- P0/P1, or an overall "Not ready" verdict: send it back to the developer
+  before continuing.
+- P2: developer addresses it, or you record a concrete deferral reason in
+  the PR body.
+- P3: optional polish — note it in the PR body and move on.
+- "Ready" / "Ready with concerns": proceed once any remaining concerns are
+  consciously handled (fixed or deferred with a reason), not silently.
+
+If the developer makes further material UI changes afterward (in response
+to this or the code Reviewer), call `review:ui` again — it resumes the
+same session for this worktree and reviews current state fresh; it is not
+a one-time confirmation.
+
+It is strictly consultative and read-only — it never edits code, tests,
+docs, or git state, and it never substitutes for the code Reviewer's
+review or vice versa. Never reuse its session across a different branch's
+checkout.
 
 GIT WORKFLOW — you own this exclusively; no subagent touches git
 1. Before branching: `git status` must be clean and you must be able to
