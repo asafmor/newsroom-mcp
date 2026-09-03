@@ -4,6 +4,19 @@
 // and the published feed.json.
 export type StoryContribution = "supporting" | "meaningful-update" | "background";
 
+/** The closed story-tag vocabulary the server enforces — see src/domain/story.ts's `StoryTag`. */
+export type StoryTag =
+  | "model-release"
+  | "research"
+  | "regulation"
+  | "funding"
+  | "product-launch"
+  | "safety"
+  | "infrastructure"
+  | "enterprise-adoption"
+  | "open-source"
+  | "opinion";
+
 export interface FeedSource {
   readonly providerName: string;
   readonly title: string;
@@ -23,6 +36,12 @@ export interface FeedStory {
   readonly summary: string;
   readonly lastMeaningfulUpdateAt: string;
   readonly sources: readonly FeedSource[];
+  /**
+   * Optional on purpose: the feed.json snapshot committed before this field
+   * existed is still served until the next `npm run publish-feed`, so the UI
+   * has to render a story that never carried tags — treated as `[]`.
+   */
+  readonly tags?: readonly StoryTag[];
 }
 
 export type SortMode = "top" | "latest";

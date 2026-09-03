@@ -81,6 +81,7 @@ export class FeedService {
       firstSeenAt: story.firstSeenAt,
       lastMeaningfulUpdateAt: story.lastMeaningfulUpdateAt,
       sources,
+      tags: story.tags,
     };
   }
 }

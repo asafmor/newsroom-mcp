@@ -9,7 +9,8 @@ export function registerUpdateStoryTool(server: ToolRegistrar, storyService: Sto
   return server.tool(
     {
       name: "update-story",
-      description: "Update the AI-maintained interpretation of a story (summary, scores) after new information arrives.",
+      description:
+        "Update the AI-maintained interpretation of a story (title, summary, scores, topic tags) after new information arrives. Omitted fields are left unchanged; a supplied 'tags' array replaces the story's tags entirely.",
       inputSchema: updateStoryInputSchema,
       outputSchema: updateStoryOutputSchema,
       annotations: {

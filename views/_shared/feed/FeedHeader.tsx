@@ -10,6 +10,9 @@ export function FeedHeader({
   providers,
   providerFilter,
   onProviderFilterChange,
+  tags,
+  tagFilter,
+  onTagFilterChange,
   searchQuery,
   onSearchChange,
 }: {
@@ -21,6 +24,9 @@ export function FeedHeader({
   readonly providers: readonly string[];
   readonly providerFilter: string;
   readonly onProviderFilterChange: (provider: string) => void;
+  readonly tags: readonly string[];
+  readonly tagFilter: string;
+  readonly onTagFilterChange: (tag: string) => void;
   readonly searchQuery: string;
   readonly onSearchChange: (query: string) => void;
 }) {
@@ -92,6 +98,23 @@ export function FeedHeader({
             </option>
           ))}
         </select>
+        {/* Hidden entirely on a pre-tags feed.json snapshot: an empty tag
+            dropdown is a dead control that still eats width on a phone. */}
+        {tags.length > 0 && (
+          <select
+            className="tag-select"
+            aria-label="Filter by tag"
+            value={tagFilter}
+            onChange={(e) => { onTagFilterChange(e.target.value); }}
+          >
+            <option value="all">All tags</option>
+            {tags.map((tag) => (
+              <option key={tag} value={tag}>
+                {tag}
+              </option>
+            ))}
+          </select>
+        )}
       </div>
     </header>
   );

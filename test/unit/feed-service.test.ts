@@ -170,6 +170,28 @@ describe("FeedService.getFeed", () => {
     ]);
   });
 
+  it("carries a story's tags through to the feed, defaulting to [] when absent", async () => {
+    const tagged = await stories.create({
+      contentItemIds: [await insertItem("tagged-founding")],
+      title: "Tagged",
+      summary: "s",
+      relevanceScore: 0.8,
+      importanceScore: 0.9,
+      tags: ["safety", "regulation"],
+    });
+    const untagged = await stories.create({
+      contentItemIds: [await insertItem("untagged-founding")],
+      title: "Untagged",
+      summary: "s",
+      relevanceScore: 0.8,
+      importanceScore: 0.5,
+    });
+
+    const feed = await feedService.getFeed({});
+    expect(must(feed.stories.find((s) => s.id === tagged.id)).tags).toEqual(["safety", "regulation"]);
+    expect(must(feed.stories.find((s) => s.id === untagged.id)).tags).toEqual([]);
+  });
+
   it("defaults offset to 0", async () => {
     await stories.create({
       contentItemIds: [await insertItem("default-offset-founding")],

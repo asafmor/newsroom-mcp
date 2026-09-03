@@ -52,12 +52,17 @@ describe("feed header controls", () => {
     expect(themeToggleActiveRule).toContain("var(--fg) 11%");
   });
 
-  it("uses the sort-label font size without shrinking the search and provider controls", () => {
+  it("uses the sort-label font size without shrinking the search and select controls", () => {
     const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
     const searchInputRule = /\.newsroomFeed \.search-input\s*\{[^}]*\}/.exec(css)?.[0];
-    const providerSelectRule = /\.newsroomFeed \.provider-select\s*\{[^}]*\}/.exec(css)?.[0];
+    // The provider and tag selects share one grouped rule, so match past the
+    // rest of the selector list rather than requiring the brace to follow.
+    const selectRule = /\.newsroomFeed \.provider-select[^{]*\{[^}]*\}/.exec(css)?.[0];
 
-    for (const rule of [searchInputRule, providerSelectRule]) {
+    // The tag select must inherit the same sizing, not drift into its own rule.
+    expect(selectRule).toContain(".newsroomFeed .tag-select");
+
+    for (const rule of [searchInputRule, selectRule]) {
       expect(rule).toContain("height: 40px");
       expect(rule).toContain("font-size: var(--text-xs)");
       expect(rule).toContain("line-height: 12.8px");

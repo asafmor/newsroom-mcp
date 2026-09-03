@@ -35,6 +35,29 @@ export const contentItemSchema = z.object({
 
 const storyContributionSchema = z.enum(["supporting", "meaningful-update", "background"]);
 
+/** Closed vocabulary for agent-assigned story topic tags — fixed, no free text, no catch-all. */
+const storyTagSchema = z.enum([
+  "model-release",
+  "research",
+  "regulation",
+  "funding",
+  "product-launch",
+  "safety",
+  "infrastructure",
+  "enterprise-adoption",
+  "open-source",
+  "opinion",
+]);
+
+/** At most 3 tags, no duplicates. Shared by create/update inputs and every story output. */
+const storyTagsSchema = z
+  .array(storyTagSchema)
+  .max(3, "A story may have at most 3 tags")
+  .refine((tags) => new Set(tags).size === tags.length, { message: "Duplicate tags are not allowed" })
+  .describe(
+    "Topic tags from a closed vocabulary — at most 3, no duplicates, and only ones that clearly apply. There is deliberately no catch-all value: if none fit, pass no tags at all. On update, this replaces the story's whole tag set (omit to preserve, [] to clear).",
+  );
+
 /** A `Story`, dates serialized to ISO 8601 strings for transport. */
 export const storySchema = z.object({
   id: z.string(),
@@ -46,6 +69,7 @@ export const storySchema = z.object({
   lastItemAttachedAt: z.string(),
   lastMeaningfulUpdateAt: z.string(),
   status: z.enum(["active", "archived"]),
+  tags: storyTagsSchema,
 });
 
 const attachedContentItemSummarySchema = z.object({
@@ -122,6 +146,7 @@ export const createStoryInputSchema = z.object({
   summary: z.string().min(1),
   relevanceScore: z.number().min(0).max(1),
   importanceScore: z.number().min(0).max(1),
+  tags: storyTagsSchema.optional(),
 });
 export type CreateStoryInputSchema = z.infer<typeof createStoryInputSchema>;
 
@@ -149,6 +174,7 @@ export const updateStoryInputSchema = z.object({
   summary: z.string().min(1).optional(),
   relevanceScore: z.number().min(0).max(1).optional(),
   importanceScore: z.number().min(0).max(1).optional(),
+  tags: storyTagsSchema.optional(),
 });
 export type UpdateStoryInput = z.infer<typeof updateStoryInputSchema>;
 
@@ -206,6 +232,7 @@ const feedStorySchema = z.object({
   firstSeenAt: z.string(),
   lastMeaningfulUpdateAt: z.string(),
   sources: z.array(feedSourceSchema),
+  tags: storyTagsSchema,
 });
 
 export const getFeedOutputSchema = z.object({

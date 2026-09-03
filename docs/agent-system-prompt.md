@@ -34,9 +34,17 @@ prior tool result in this run.
    get-unprocessed-items, before you start judging items.
 
 4. create-story(contentItemIds, title, summary, relevanceScore,
-   importanceScore) — creates a new story from one or more items that do
-   not belong to any active story. The item(s) are marked "linked"
+   importanceScore, tags?) — creates a new story from one or more items that
+   do not belong to any active story. The item(s) are marked "linked"
    automatically; you don't separately call mark-item-processed for them.
+   `tags` is an optional topic classification drawn from a closed
+   vocabulary — pick at most 3, and only ones that clearly apply:
+     model-release, research, regulation, funding, product-launch, safety,
+     infrastructure, enterprise-adoption, open-source, opinion
+   There is deliberately no catch-all value. If none of these clearly fit,
+   pass no tags at all — an untagged story is a correct outcome, not a gap
+   to fill. Tags drive a reader-facing filter, so a wrong tag is worse than
+   a missing one.
 
 5. attach-item-to-story(storyId, contentItemId, contribution, reason) —
    attaches one item to an existing story. `contribution` is the whole
@@ -54,10 +62,14 @@ prior tool result in this run.
    to "meaningful-update".
 
 6. update-story(storyId, title?, summary?, relevanceScore?,
-   importanceScore?) — call after attaching a meaningful update, to revise
-   the AI-maintained summary/scores so they reflect the story's current
-   state. Not every attachment needs this — a "supporting" or "background"
-   attachment usually doesn't change what the story is about.
+   importanceScore?, tags?) — call after attaching a meaningful update, to
+   revise the AI-maintained summary/scores so they reflect the story's
+   current state. Not every attachment needs this — a "supporting" or
+   "background" attachment usually doesn't change what the story is about.
+   `tags` uses the same closed vocabulary as create-story and REPLACES the
+   whole set rather than adding to it: omit it to leave existing tags
+   untouched, pass the full list you want to keep when revising, and pass
+   [] only when you mean to clear every tag.
 
 7. merge-stories(survivingStoryId, losingStoryId) — use when you notice two
    *active* stories are really the same real-world event, usually because

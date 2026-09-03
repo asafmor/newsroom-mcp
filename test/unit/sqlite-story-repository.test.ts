@@ -619,4 +619,111 @@ describe("SqliteStoryRepository", () => {
 
     expect(await stories.countActive()).toBe(1);
   });
+
+  describe("tags", () => {
+    it("create() stores the given tags", async () => {
+      const story = await stories.create({
+        contentItemIds: [],
+        title: "T",
+        summary: "s",
+        relevanceScore: 0.5,
+        importanceScore: 0.5,
+        tags: ["safety", "regulation"],
+      });
+
+      expect(story.tags).toEqual(["safety", "regulation"]);
+      expect(must(await stories.findById(story.id)).tags).toEqual(["safety", "regulation"]);
+    });
+
+    it("create() without tags produces an empty array, never null/undefined", async () => {
+      const story = await stories.create({
+        contentItemIds: [],
+        title: "T",
+        summary: "s",
+        relevanceScore: 0.5,
+        importanceScore: 0.5,
+      });
+
+      expect(story.tags).toEqual([]);
+      expect(must(await stories.findById(story.id)).tags).toEqual([]);
+    });
+
+    it("update() with tags fully replaces the existing array", async () => {
+      const story = await stories.create({
+        contentItemIds: [],
+        title: "T",
+        summary: "s",
+        relevanceScore: 0.5,
+        importanceScore: 0.5,
+        tags: ["safety"],
+      });
+
+      const updated = await stories.update(story.id, { tags: ["funding", "opinion"] });
+      expect(updated.tags).toEqual(["funding", "opinion"]);
+    });
+
+    it("update() without a tags field leaves existing tags unchanged", async () => {
+      const story = await stories.create({
+        contentItemIds: [],
+        title: "T",
+        summary: "s",
+        relevanceScore: 0.5,
+        importanceScore: 0.5,
+        tags: ["safety"],
+      });
+
+      const updated = await stories.update(story.id, { title: "New title" });
+      expect(updated.tags).toEqual(["safety"]);
+    });
+
+    it("update() with an explicit empty array clears existing tags", async () => {
+      const story = await stories.create({
+        contentItemIds: [],
+        title: "T",
+        summary: "s",
+        relevanceScore: 0.5,
+        importanceScore: 0.5,
+        tags: ["safety"],
+      });
+
+      const updated = await stories.update(story.id, { tags: [] });
+      expect(updated.tags).toEqual([]);
+    });
+
+    it("reads back a pre-existing row with NULL tags_json as an empty array", async () => {
+      const story = await stories.create({
+        contentItemIds: [],
+        title: "T",
+        summary: "s",
+        relevanceScore: 0.5,
+        importanceScore: 0.5,
+      });
+      // Simulate a row written before this feature existed.
+      db.prepare("UPDATE stories SET tags_json = NULL WHERE id = ?").run(story.id);
+
+      expect(must(await stories.findById(story.id)).tags).toEqual([]);
+    });
+
+    it("mergeStories leaves the survivor's tags untouched even when the loser's tags differ", async () => {
+      const survivor = await stories.create({
+        contentItemIds: [],
+        title: "Survivor",
+        summary: "s",
+        relevanceScore: 0.5,
+        importanceScore: 0.5,
+        tags: ["safety"],
+      });
+      const loser = await stories.create({
+        contentItemIds: [],
+        title: "Loser",
+        summary: "s",
+        relevanceScore: 0.5,
+        importanceScore: 0.5,
+        tags: ["funding", "opinion"],
+      });
+
+      const merged = await stories.mergeStories(survivor.id, loser.id);
+      expect(merged.tags).toEqual(["safety"]);
+    });
+  });
 });

@@ -6,6 +6,7 @@ import type {
   StoryId,
   StoryItem,
   StoryStatus,
+  StoryTag,
   UpdateStoryInput,
 } from "../domain/story.js";
 import type { AttachedContentItem, StoryRepository } from "../repositories/story-repository.js";
@@ -20,6 +21,7 @@ interface StoryRow {
   last_item_attached_at: string;
   last_meaningful_update_at: string;
   status: string;
+  tags_json: string | null;
 }
 
 interface AttachedContentRow {
@@ -59,6 +61,7 @@ export class SqliteStoryRepository implements StoryRepository {
   async create(input: CreateStoryInput): Promise<Story> {
     const id = randomUUID();
     const now = new Date().toISOString();
+    const tags = input.tags ?? [];
 
     this.db.exec("BEGIN");
     try {
@@ -67,10 +70,22 @@ export class SqliteStoryRepository implements StoryRepository {
           `INSERT INTO stories
             (id, title, summary, relevance_score, importance_score,
              first_seen_at, last_item_attached_at, last_meaningful_update_at,
-             status, created_at, updated_at)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'active', ?, ?)`,
+             status, tags_json, created_at, updated_at)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'active', ?, ?, ?)`,
         )
-        .run(id, input.title, input.summary, input.relevanceScore, input.importanceScore, now, now, now, now, now);
+        .run(
+          id,
+          input.title,
+          input.summary,
+          input.relevanceScore,
+          input.importanceScore,
+          now,
+          now,
+          now,
+          JSON.stringify(tags),
+          now,
+          now,
+        );
 
       const attachStmt = this.db.prepare(
         `INSERT INTO story_items (story_id, content_item_id, contribution, reason, attached_at)
@@ -99,6 +114,7 @@ export class SqliteStoryRepository implements StoryRepository {
       lastItemAttachedAt: new Date(now),
       lastMeaningfulUpdateAt: new Date(now),
       status: "active",
+      tags,
     });
   }
 
@@ -153,6 +169,10 @@ export class SqliteStoryRepository implements StoryRepository {
     if (patch.importanceScore !== undefined) {
       fields.push("importance_score = ?");
       values.push(patch.importanceScore);
+    }
+    if (patch.tags !== undefined) {
+      fields.push("tags_json = ?");
+      values.push(JSON.stringify(patch.tags));
     }
 
     fields.push("updated_at = ?");
@@ -363,6 +383,7 @@ export class SqliteStoryRepository implements StoryRepository {
       lastItemAttachedAt: new Date(row.last_item_attached_at),
       lastMeaningfulUpdateAt: new Date(row.last_meaningful_update_at),
       status: row.status as StoryStatus,
+      tags: row.tags_json ? (JSON.parse(row.tags_json) as StoryTag[]) : [],
     };
   }
 }
