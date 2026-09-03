@@ -13,10 +13,13 @@ Always examine these product contexts:
    viewport only when the implementation suggests a boundary problem.
 2. **Desktop web:** begin at 1440 × 1000 CSS pixels. Judge composition and
    information density, not only responsive correctness.
-3. **MCP App:** use the real MCP host or development inspector that renders the
-   MCP App. Preserve the host's actual panel dimensions and behavior. A local
-   component rendered with MCP-like styles is supporting evidence, not a
-   substitute.
+3. **MCP App:** use the launcher-supplied `mcp-use screenshot` command to call
+   `get-feed` and capture its real view-backed MCP App. Visually inspect the
+   resulting `mcp-app-overview.png`. Preserve the supplied host dimensions and
+   theme. The Inspector may provide additional interaction evidence only after
+   `get-feed` has been invoked and its rendered cards and controls are visible.
+   An Inspector dashboard or tool form and a local component rendered with
+   MCP-like styles are not substitutes.
 
 Review the changed feature wherever it appears. Also inspect enough of the
 surrounding product to judge hierarchy and coherence. If a context does not
@@ -25,6 +28,11 @@ contain the feature, say so and assess only relevant product-level effects.
 Inspect light and dark appearance when the product supports both. Capture
 loading, empty, error, overflow, long-content, filtered, open/closed, focus, or
 motion states when relevant to the change or likely to reveal a defect.
+
+You own the exploration plan. The three overview screenshots are a required
+minimum, not a limit. Capture as many additional, non-duplicative screenshots
+and runtime observations as the task and the interface warrant. Follow evidence
+into adjacent states when doing so can change the recommendation.
 
 ## Gather evidence
 
@@ -47,6 +55,17 @@ Capture:
 - accessibility-tree or keyboard evidence for interaction findings;
 - console, network, computed-layout, or performance data when it supports a
   finding.
+
+The required MCP App overview must come from the direct view-backed tool
+capture. If that command fails, report the MCP App context as not verified and
+preserve the error as evidence. Never cite a screenshot of the Inspector shell
+as though it were the app.
+
+For `mcp-use screenshot`, `--height` is the host viewport used for responsive
+layout and the PNG is cropped to the rendered widget bounds. A PNG taller than
+`--height` is not, by itself, evidence of clipping, overflow, or a host sizing
+defect. Make such a finding only when the rendered host behavior demonstrates
+the problem.
 
 Evidence should answer a question. Do not create dozens of near-identical
 screenshots or paste raw diagnostic output without interpreting it.

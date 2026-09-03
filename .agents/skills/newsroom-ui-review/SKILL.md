@@ -42,6 +42,14 @@ accessibility snapshots. Chrome DevTools is well suited to computed layout,
 console and network evidence, host behavior, and performance investigation.
 Do not duplicate work merely to exercise both tools.
 
-If a required tool or surface is unavailable, continue where useful and state
-the exact gap. Never claim a context was reviewed from source code or a
-standalone approximation.
+For the MCP App overview, use the launcher's supplied direct
+`mcp-use screenshot --tool get-feed` command and visually inspect its PNG. An
+Inspector dashboard, tool form, or standalone approximation is not MCP App
+evidence. If a required tool or surface is unavailable, continue where useful
+and state the exact gap. Never claim a context was reviewed from source code or
+a standalone approximation.
+
+Own the exploration plan. The three required overview screenshots are a floor,
+not a ceiling. Follow the task, rendered behavior, and emerging hypotheses into
+as many additional states and screenshots as needed for strong feedback. Avoid
+only redundant evidence and checklist work that does not improve the judgment.

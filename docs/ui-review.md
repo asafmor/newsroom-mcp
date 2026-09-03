@@ -52,6 +52,20 @@ session metadata and evidence under `.ui-review/`, which Git ignores.
 Session memory provides continuity, but it is never current-state evidence.
 Every review rereads the checkout, current guidance, requirements, and diff.
 
+Before launching Codex, the wrapper refreshes the `origin/feed` ref when
+possible and copies the newest available published `feed.json`, current
+standalone source, and shared view source into the run directory. The prepared
+site therefore uses realistic current content without overwriting the tracked
+`site/feed.json`. The wrapper also allocates fresh ports so unrelated or stale
+development servers cannot supply review evidence.
+
+For the MCP App context, the reviewer starts the supplied fresh MCP endpoint
+and runs `mcp-use screenshot --tool get-feed`. The launcher discovers a system
+Chrome or Playwright's bundled Chromium and exposes it through
+`MCP_USE_CHROME_PATH`. The resulting `mcp-app-overview.png` is the required
+baseline evidence. An Inspector dashboard or tool form without the rendered
+feed is explicitly invalid as MCP App evidence.
+
 ## What the developer receives
 
 By default, the command prints the reviewer's Markdown report to standard
