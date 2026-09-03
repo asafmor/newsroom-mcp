@@ -33,6 +33,7 @@ const PROVIDER_BRANDS: Record<string, { slug: string; color: string }> = {
   "Engadget AI": { slug: "engadget", color: "2B2D32" },
   VentureBeat: { slug: "venturebeat", color: "ED2025" },
   "Geeky Gadgets AI": { slug: "geeky-gadgets", color: "16A34A" },
+  "MCP Blog": { slug: "mcp", color: "000000" },
   "Hacker News": { slug: "hacker-news", color: "FF6600" },
 };
 

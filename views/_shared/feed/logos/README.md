@@ -24,4 +24,5 @@ back to brand-colored initials automatically, so partial coverage is fine.
 | mashable          | Mashable AI |
 | engadget          | Engadget AI |
 | geeky-gadgets     | Geeky Gadgets AI |
+| mcp               | MCP Blog |
 | hacker-news       | Hacker News |
