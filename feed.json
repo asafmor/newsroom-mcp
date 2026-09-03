@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-09-03T11:01:35.035Z",
+  "generatedAt": "2026-09-03T15:01:46.431Z",
   "stories": [
+    {
+      "id": "453aa375-ccba-46c0-874c-fedb7e491e3c",
+      "title": "Nvidia confirms $12.9B acquisition of Hugging Face",
+      "summary": "Nvidia confirmed it is buying Hugging Face for roughly $12.9 billion. Hugging Face hosts over 3 million models and is used by 18+ million developers; the deal gives Nvidia deep access to, and influence over, the open-source AI ecosystem it promotes.",
+      "importanceScore": 0.9,
+      "relevanceScore": 1,
+      "firstSeenAt": "2026-09-03T15:01:38.584Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T15:01:38.584Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Nvidia’s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
+          "url": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/",
+          "publishedAt": "2026-09-03T12:43:09.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+          "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+          "publishedAt": "2026-09-03T12:42:45.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "NVIDIA is buying Hugging Face for $12.93 billion",
+          "url": "https://www.engadget.com/2250197/nvidia-buys-hugging-face/",
+          "publishedAt": "2026-09-03T12:18:21.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "open-source"
+      ]
+    },
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
       "title": "OpenAI prepares to release Astra, its first \"critical\" cyber-capability model",
@@ -38,7 +74,8 @@
           "publishedAt": "2026-09-02T20:19:14.000Z",
           "contribution": "meaningful-update"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "048ab2d3-419e-49dc-9ccf-cd7d298c869d",
@@ -77,7 +114,8 @@
           "publishedAt": "2026-09-03T09:00:26.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "55a62e8d-d94b-47ef-afb4-6c00988d7115",
@@ -130,6 +168,73 @@
           "publishedAt": "2026-09-03T09:51:50.000Z",
           "contribution": "supporting"
         }
+      ],
+      "tags": []
+    },
+    {
+      "id": "c17fe862-af4c-4c70-96f7-d204eea4762d",
+      "title": "Microsoft AI launches MAI-Transcribe-2, undercutting rivals on price",
+      "summary": "Microsoft AI released MAI-Transcribe-2, a speech-recognition model it says is faster and more accurate than offerings from OpenAI, Google, and ElevenLabs, priced aggressively below them.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-03T15:01:38.604Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T15:01:38.604Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Microsoft AI’s MAI-Transcribe-2 undercuts OpenAI, Google and ElevenLabs on price and speed",
+          "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+          "publishedAt": "2026-09-03T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "product-launch"
+      ]
+    },
+    {
+      "id": "88abfc86-6b4e-4661-9f64-e1239cafe139",
+      "title": "Google DeepMind releases new AI weather forecasting model",
+      "summary": "Google DeepMind and Google Research released a new AI weather forecasting model that reads the changing atmosphere more clearly and predicts its behavior more often than prior systems.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-03T15:01:38.595Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T15:01:38.595Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+          "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+          "publishedAt": "2026-09-03T15:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research",
+        "model-release"
+      ]
+    },
+    {
+      "id": "43b5f1d8-8b7a-45ab-aad6-2c3b9821d1e4",
+      "title": "Nvidia RTX Spark-powered AI PCs debut at IFA 2026",
+      "summary": "At IFA 2026, Nvidia and hardware partners showed off the first laptops and mini PCs built around the RTX Spark chip, designed to run AI models locally on-device.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-03T15:01:38.592Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T15:01:38.592Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Nvidia RTX Spark ‘Superchip’: The First AI PCs Are Here",
+          "url": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/",
+          "publishedAt": "2026-09-03T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "infrastructure"
       ]
     },
     {
@@ -148,7 +253,8 @@
           "publishedAt": "2026-09-02T17:51:48.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "8dd7d0fa-a481-4aa4-8cb0-9f9a8d23fa70",
@@ -187,7 +293,8 @@
           "publishedAt": "2026-09-02T20:40:42.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "67cbc229-f420-4d5f-b224-e1253d687799",
@@ -212,7 +319,8 @@
           "publishedAt": "2026-09-01T20:55:42.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -251,7 +359,8 @@
           "publishedAt": "2026-09-02T23:06:26.000Z",
           "contribution": "meaningful-update"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "89cb1cd7-f784-4d78-b3df-2e90aff5cba1",
@@ -269,7 +378,8 @@
           "publishedAt": "2026-08-27T14:00:13.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "bd67d3b9-4920-4505-9070-a4d887e84608",
@@ -287,7 +397,8 @@
           "publishedAt": "2026-09-03T10:00:00.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "631b1d1c-d8d3-4119-9878-c7bf5bccb8e3",
@@ -319,7 +430,8 @@
           "publishedAt": "2026-09-03T09:25:12.000Z",
           "contribution": "meaningful-update"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "aeb7935d-75e6-4cf0-b0eb-040692989f65",
@@ -337,7 +449,8 @@
           "publishedAt": "2026-09-02T21:32:59.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "828ea56b-0cf2-4c9c-ab2b-c5c35a4c34a2",
@@ -355,7 +468,8 @@
           "publishedAt": "2026-09-03T06:14:00.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -415,7 +529,8 @@
           "publishedAt": "2026-08-29T12:00:38.000Z",
           "contribution": "background"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "8cedaf1d-b299-4e2e-8fb1-1e0f3f62db7c",
@@ -433,7 +548,8 @@
           "publishedAt": "2026-09-02T21:31:16.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "38f79593-f947-49d0-bd26-d305c6bd853e",
@@ -451,7 +567,8 @@
           "publishedAt": "2026-09-03T10:20:00.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "26e38e75-0805-4052-a00b-bb8b2d2de486",
@@ -469,7 +586,8 @@
           "publishedAt": "2026-09-02T21:05:59.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "83d1bb65-6a61-4043-93d6-d2bf16d80894",
@@ -501,7 +619,8 @@
           "publishedAt": "2026-09-01T16:35:38.000Z",
           "contribution": "meaningful-update"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "7f1dc6f2-9d86-41bb-af21-76f0af981f19",
@@ -526,7 +645,8 @@
           "publishedAt": "2026-09-01T15:15:29.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "fe5c1581-9b69-4265-a37c-6dd77a54def2",
@@ -544,7 +664,8 @@
           "publishedAt": "2026-09-02T15:01:23.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "e3cfc552-2c86-40b8-91bb-1f9f6c91a135",
@@ -562,6 +683,29 @@
           "publishedAt": "2026-09-02T16:04:10.000Z",
           "contribution": "supporting"
         }
+      ],
+      "tags": []
+    },
+    {
+      "id": "61d3629d-048a-4a4b-b4b4-e03a056cdefb",
+      "title": "NeoMME: a new efficient multimodal, multilingual encoder",
+      "summary": "Hugging Face published NeoMME, an efficient multimodal-native and multilingual encoder model.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-03T15:01:38.598Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T15:01:38.598Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+          "url": "https://huggingface.co/blog/Hcompany/neomme",
+          "publishedAt": "2026-09-03T13:13:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
       ]
     },
     {
@@ -580,7 +724,8 @@
           "publishedAt": "2026-08-28T20:50:13.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "928010ea-2d25-4938-8284-62a9460779f9",
@@ -612,7 +757,8 @@
           "publishedAt": "2026-08-29T22:12:12.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "d7420158-6304-4411-a2a8-a8ca2d1807ae",
@@ -630,7 +776,8 @@
           "publishedAt": "2026-09-02T12:09:42.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "8b042908-a636-4ffa-b019-4c3ded5f89c6",
@@ -648,7 +795,8 @@
           "publishedAt": "2026-08-31T15:15:25.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "6555c37f-2d5f-416e-9921-0fb87d9d4951",
@@ -666,7 +814,8 @@
           "publishedAt": "2026-08-28T16:03:34.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "c9fe52b8-845a-4d1e-aec3-b992b0fd61e2",
@@ -691,7 +840,8 @@
           "publishedAt": "2026-08-30T11:03:47.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "21d3b9d5-f42d-4119-a595-20578a57fb90",
@@ -709,7 +859,8 @@
           "publishedAt": "2026-09-03T09:47:00.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "ceeabd17-f83f-43eb-b857-10e41fdcbdcc",
@@ -727,7 +878,8 @@
           "publishedAt": "2026-09-01T16:16:48.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "10384196-89b7-4923-aa3a-0aaed831d8ea",
@@ -745,7 +897,8 @@
           "publishedAt": "2026-09-02T02:12:43.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "4ffae80f-ec52-45a3-89c9-fcf41bcce601",
@@ -763,7 +916,8 @@
           "publishedAt": "2026-09-02T16:24:24.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "b94386a7-40c8-4507-9a60-53618226090d",
@@ -781,7 +935,8 @@
           "publishedAt": "2026-08-28T19:30:38.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "e89c387f-c271-4922-9515-1d2f0c5574fb",
@@ -799,7 +954,8 @@
           "publishedAt": "2026-08-25T07:00:00.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "3d13c1f0-3d4c-4dae-8962-553356549b0f",
@@ -817,7 +973,8 @@
           "publishedAt": "2026-08-31T16:25:49.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "33799dc9-5677-4d0b-9604-1d857f68e5e9",
@@ -835,7 +992,8 @@
           "publishedAt": "2026-08-31T17:40:01.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "fa024897-eaa2-4a4d-b5ac-41a052e5467c",
@@ -853,7 +1011,8 @@
           "publishedAt": "2026-09-03T01:38:16.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "dd9e3e7c-3cc7-4779-b84e-5f4325bf285e",
@@ -871,7 +1030,8 @@
           "publishedAt": "2026-09-01T00:00:00.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "56e3df58-6ad3-4f1a-8d60-4c386fdad294",
@@ -889,7 +1049,8 @@
           "publishedAt": "2026-08-27T06:06:20.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "310fdcfd-313c-42ab-b3fa-4fe24fb850eb",
@@ -921,7 +1082,8 @@
           "publishedAt": "2026-08-31T18:15:49.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "fd0301df-b805-4bf8-b35d-0b88f1a9d87f",
@@ -946,7 +1108,8 @@
           "publishedAt": "2026-09-01T15:00:00.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "bb154fca-0705-4930-8e6a-b100fa25916e",
@@ -971,7 +1134,8 @@
           "publishedAt": "2026-08-26T00:00:00.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "8300262d-b138-4121-893b-97be24d5d2a7",
@@ -989,7 +1153,8 @@
           "publishedAt": "2026-08-28T15:00:00.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "627930c0-2e15-44d5-a250-2a6199dfef4a",
@@ -1007,7 +1172,8 @@
           "publishedAt": "2026-09-01T15:45:51.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "5aa11d69-6cd2-41a8-8f5b-692974f442f2",
@@ -1025,7 +1191,8 @@
           "publishedAt": "2026-09-02T22:44:56.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "75e4b513-9299-458f-a826-78aa90ad8c0f",
@@ -1064,7 +1231,8 @@
           "publishedAt": "2026-08-28T14:04:38.000Z",
           "contribution": "supporting"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "a119a2fe-6230-4f57-8889-22e049be8362",
@@ -1096,113 +1264,10 @@
           "publishedAt": "2026-09-01T11:47:00.000Z",
           "contribution": "supporting"
         }
-      ]
-    },
-    {
-      "id": "b972282d-2ae4-4fd0-8182-943d5a2447ae",
-      "title": "Study: frontier models can recover most \"forgotten\" facts just by thinking longer",
-      "summary": "Google Research and Technion find that frontier models like GPT-5 and Gemini-3 already encode 95-98% of tested facts — hallucinations are usually a recall failure, not missing knowledge. Inference-time reasoning (e.g. chain-of-thought) recovers 40-65% of facts models otherwise fail to state directly, suggesting many hallucination fixes teams reach for (RAG, bigger models) are the wrong lever when the fact is already encoded but just hard to retrieve.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T21:20:55.279Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T21:20:55.279Z",
-      "sources": [
-        {
-          "providerName": "VentureBeat",
-          "title": "Frontier models can recover up to 65% of facts they can't directly recall — just by thinking longer",
-          "url": "https://venturebeat.com/orchestration/frontier-models-can-recover-up-to-65-of-facts-they-cant-directly-recall-just-by-thinking-longer",
-          "publishedAt": "2026-09-01T19:20:09.000Z",
-          "contribution": "supporting"
-        }
-      ]
-    },
-    {
-      "id": "db4434c6-471e-42e2-b9ba-3d3906975101",
-      "title": "NYC bans generative AI tools in public schools through 8th grade",
-      "summary": "New York City public schools will not use generative AI tools with students through eighth grade for at least a year, a policy distinct from AI-vendor education pushes like Claude/ChatGPT for Teachers.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-02T19:01:58.642Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T19:01:58.642Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "NYC bans the use of generative AI tools in public schools for students through eighth grade",
-          "url": "https://www.engadget.com/2249790/nyc-generative-ai-ban-in-public-schools-through-eighth-grade/",
-          "publishedAt": "2026-09-02T18:50:09.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "New York City Bans AI From Elementary Schools",
-          "url": "https://gizmodo.com/new-york-city-bans-ai-from-elementary-schools-2000806172",
-          "publishedAt": "2026-09-02T19:45:08.000Z",
-          "contribution": "supporting"
-        }
-      ]
-    },
-    {
-      "id": "46ad340d-aac2-4628-8d03-1e32a88f0515",
-      "title": "ChatGPT Health adds Epic EHR integration for clinicians",
-      "summary": "OpenAI's ChatGPT Health now integrates with Epic, giving clinicians read-only access to patient records, and healthcare organizations can connect EHR and other industry data to ChatGPT more broadly — OpenAI's latest push into clinical workflows.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-01T19:11:09.760Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.760Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
-          "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
-          "publishedAt": "2026-09-01T17:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-          "publishedAt": "2026-09-01T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ]
-    },
-    {
-      "id": "b94a342b-8d45-4e55-acb7-f0bd96ae142f",
-      "title": "Google launches \"Google Pics\", a prompt-based rival to Canva",
-      "summary": "Google introduced Google Pics, an AI-first design tool where users prompt rather than manually design, pushing into creative software territory currently dominated by Canva and Adobe.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-01T19:11:09.755Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.755Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google’s answer to Canva is an AI tool where you prompt instead of design",
-          "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
-          "publishedAt": "2026-09-01T17:35:37.000Z",
-          "contribution": "supporting"
-        }
-      ]
-    },
-    {
-      "id": "669c76b9-f646-4a33-90f5-abc8dca303ea",
-      "title": "Political deepfakes emerge ahead of the 2026 midterms",
-      "summary": "With the 2026 US midterms approaching, AI-generated political deepfakes (echoing the earlier fake Joe Biden robocall) are already circulating, raising fresh election-integrity concerns.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-01T19:11:09.716Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.716Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "The 2026 Midterms Are Coming. Political Deepfakes Are Already Here",
-          "url": "https://www.cnet.com/tech/services-and-software/2026-midterms-political-ai-deepfakes/",
-          "publishedAt": "2026-08-28T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ]
+      ],
+      "tags": []
     }
   ],
-  "totalCount": 143,
+  "totalCount": 150,
   "hasMore": true
 }
