@@ -465,6 +465,13 @@ html, body { margin: 0; background: var(--bg); }
 .sheet-body { overflow-y: auto; padding: var(--space-2) var(--space-4) var(--space-6); }
 /* The full, untruncated summary — the card only ever shows a clamped preview. */
 .sheet-summary { padding-top: var(--space-2); font-size: 14.5px; line-height: 1.5; color: var(--fg-2); }
+/* Optional structured-summary bullets (see docs/agent-system-prompt.md) —
+   only rendered when the lede is followed by well-formed `- ` lines. */
+.sheet-summary-bullets {
+  margin: var(--space-2) 0 0; padding-left: 1.2em;
+  font-size: 14.5px; line-height: 1.5; color: var(--fg-2);
+}
+.sheet-summary-bullets li { padding-top: 2px; }
 .sheet-section-label {
   font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
   color: var(--muted); padding: var(--space-3) 0 var(--space-2);

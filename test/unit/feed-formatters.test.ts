@@ -5,6 +5,7 @@ import {
   contributionLabel,
   developmentCount,
   freshness,
+  parseSummary,
   pruneReadIds,
   shortDate,
   shortTime,
@@ -182,6 +183,68 @@ describe("freshness", () => {
 
     expect(freshness(atThreshold.toISOString(), now).stale).toBe(true);
     expect(freshness(pastThreshold.toISOString(), now).stale).toBe(true);
+  });
+});
+
+describe("parseSummary", () => {
+  it("passes prose with zero line breaks through unchanged, including a stray hyphen", () => {
+    expect(parseSummary("GPT-4 - a new model")).toEqual({ lede: "GPT-4 - a new model", bullets: [] });
+  });
+
+  it("passes a single-sentence summary through as the lede with no bullets", () => {
+    expect(parseSummary("OpenAI released a new model today.")).toEqual({
+      lede: "OpenAI released a new model today.",
+      bullets: [],
+    });
+  });
+
+  it("splits a well-formed lede plus bullets, stripping the markers", () => {
+    const raw = "OpenAI shipped GPT-5.\n\n- Faster inference\n- Lower price\n- New API";
+    expect(parseSummary(raw)).toEqual({
+      lede: "OpenAI shipped GPT-5.",
+      bullets: ["Faster inference", "Lower price", "New API"],
+    });
+  });
+
+  it("treats CRLF line breaks the same as LF", () => {
+    const raw = "OpenAI shipped GPT-5.\r\n\r\n- Faster inference\r\n- Lower price";
+    expect(parseSummary(raw)).toEqual({
+      lede: "OpenAI shipped GPT-5.",
+      bullets: ["Faster inference", "Lower price"],
+    });
+  });
+
+  it("filters blank lines between bullets without falling back", () => {
+    const raw = "Lede here.\n- First\n\n- Second\n   \n- Third";
+    expect(parseSummary(raw)).toEqual({ lede: "Lede here.", bullets: ["First", "Second", "Third"] });
+  });
+
+  it("falls back to the full raw string when any non-lede line fails the bullet test", () => {
+    const raw = "OpenAI shipped GPT-5.\n- Faster inference\nAlso available in the EU.\n- Lower price";
+    expect(parseSummary(raw)).toEqual({ lede: raw, bullets: [] });
+  });
+
+  it("falls back to the full raw string when fewer than 2 non-blank lines remain", () => {
+    const raw = "Just a lede.\n\n   \n";
+    expect(parseSummary(raw)).toEqual({ lede: raw, bullets: [] });
+  });
+
+  it("is a lede-only paragraph, no list, for a multi-line summary with zero bullet lines", () => {
+    // Only one non-blank line survives filtering -> falls under the "fewer
+    // than 2 lines" unstructured rule, not a 1-bullet list.
+    const raw = "Single point, no bullets at all.\n\n";
+    const result = parseSummary(raw);
+    expect(result.bullets).toEqual([]);
+    expect(result.lede).toBe(raw);
+  });
+
+  it("is an empty paragraph for an empty string, never crashing", () => {
+    expect(parseSummary("")).toEqual({ lede: "", bullets: [] });
+  });
+
+  it("does not deduplicate repeated bullets", () => {
+    const raw = "Lede.\n- Same point\n- Same point";
+    expect(parseSummary(raw)).toEqual({ lede: "Lede.", bullets: ["Same point", "Same point"] });
   });
 });
 

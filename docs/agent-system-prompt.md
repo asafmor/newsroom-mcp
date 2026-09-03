@@ -45,6 +45,12 @@ prior tool result in this run.
    pass no tags at all — an untagged story is a correct outcome, not a gap
    to fill. Tags drive a reader-facing filter, so a wrong tag is worse than
    a missing one.
+   `summary` is plain prose by default — a short paragraph is always
+   correct and never needs this. Optionally, when a story genuinely has
+   multiple discrete facets, you may write a short lede sentence, then a
+   blank line, then 2-4 short lines each starting with "- ". This is a
+   convention the reader-facing feed recognizes, not a requirement — don't
+   force it on a story that reads fine as one paragraph.
 
 5. attach-item-to-story(storyId, contentItemId, contribution, reason) —
    attaches one item to an existing story. `contribution` is the whole
@@ -70,6 +76,8 @@ prior tool result in this run.
    whole set rather than adding to it: omit it to leave existing tags
    untouched, pass the full list you want to keep when revising, and pass
    [] only when you mean to clear every tag.
+   `summary` follows the same optional lede+bullets convention described
+   under create-story — plain prose is still always correct.
 
 7. merge-stories(survivingStoryId, losingStoryId) — use when you notice two
    *active* stories are really the same real-world event, usually because

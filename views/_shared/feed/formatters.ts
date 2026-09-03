@@ -119,6 +119,41 @@ export function freshness(generatedAtIso: string, now: Date = new Date()): Fresh
     stale: now.getTime() - generated.getTime() >= STALE_AFTER_MS,
   };
 }
+
+/**
+ * A `summary` unstructured into one paragraph, or split into an optional
+ * lede sentence plus a bullet list — see docs/agent-system-prompt.md's
+ * (optional, never enforced) lede+`- `-bullets convention. Pure/synchronous:
+ * parses the raw string as-is, no validation, no side effects.
+ *
+ * Deliberately strict and all-or-nothing: a single non-bullet line among the
+ * remaining lines falls the whole summary back to unstructured rather than
+ * rendering a partial list.
+ */
+export interface ParsedSummary {
+  readonly lede: string;
+  /** Empty when the summary is unstructured (or has a lede but no bullets) — never partially populated. */
+  readonly bullets: readonly string[];
+}
+
+const BULLET_LINE = /^-\s+(\S.*)$/;
+
+export function parseSummary(raw: string): ParsedSummary {
+  if (!/\r\n|\n/.test(raw)) return { lede: raw, bullets: [] };
+
+  const lines = raw.split(/\r\n|\n/).filter((line) => line.trim() !== "");
+  if (lines.length < 2) return { lede: raw, bullets: [] };
+
+  const [lede, ...rest] = lines;
+  const bullets: string[] = [];
+  for (const line of rest) {
+    const match = BULLET_LINE.exec(line.trimStart());
+    if (match === null) return { lede: raw, bullets: [] };
+    bullets.push(match[1].trim());
+  }
+  return { lede: lede.trim(), bullets };
+}
+
 export function initials(name: string): string {
   return name
     .split(/\s+/)
