@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T15:01:46.431Z",
+  "generatedAt": "2026-09-03T17:02:03.293Z",
   "stories": [
     {
       "id": "453aa375-ccba-46c0-874c-fedb7e491e3c",
@@ -29,6 +29,13 @@
           "title": "NVIDIA is buying Hugging Face for $12.93 billion",
           "url": "https://www.engadget.com/2250197/nvidia-buys-hugging-face/",
           "publishedAt": "2026-09-03T12:18:21.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Nvidia CEO Says Hugging Face Will ‘Remain an Open Platform for the Entire AI Ecosystem’",
+          "url": "https://gizmodo.com/nvidia-ceo-says-hugging-face-will-remain-an-open-platform-for-the-entire-ai-ecosystem-2000806742",
+          "publishedAt": "2026-09-03T16:25:41.000Z",
           "contribution": "supporting"
         }
       ],
@@ -72,6 +79,53 @@
           "title": "OpenAI’s new reasoning technique alarms AI safety experts",
           "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
           "publishedAt": "2026-09-02T20:19:14.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "d9c14e28-b1cc-437e-8086-0981f400e21f",
+      "title": "Meta launches Muse Spark 1.3, closing in on the coding frontier",
+      "summary": "Meta released Muse Spark 1.3, a significant jump over 1.2 on coding and long-running agent tasks. Independent benchmarks put the shipping \"xhigh\" version in the frontier cluster (edging Gemini 3.8 Flash on intelligence-per-dollar) though still behind Anthropic's best. Pricing is unchanged; Meta's strongest \"max\" configuration remains in limited preview, and its promised open-weight Spark release has slipped without a new date.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-03T17:01:49.158Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T17:01:49.158Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
+          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+          "publishedAt": "2026-09-03T16:19:49.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "a1f38237-a380-4e56-8ab4-a6ee4514999e",
+      "title": "Infostealer malware hijacks Claude session cookies to reach corporate accounts",
+      "summary": "Anthropic disclosed that infostealer malware (Vidar, LummaC2, StealC, RedLine, Acreed, Atomic Stealer) replayed stolen Claude session cookies from card-billed, self-serve accounts, bypassing 2FA and SSO. Anthropic signed out affected accounts and refunded charges, but flagged that OAuth grants into services like Gmail/Workspace made via personal accounts on managed devices remain a gap no corporate IT admin can revoke.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-02T19:01:58.634Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T17:01:49.152Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Stolen Claude session cookies can reach corporate Gmail through grants no IT admin can revoke",
+          "url": "https://venturebeat.com/security/stolen-claude-session-cookies-can-reach-corporate-gmail-through-grants-no-it-admin-can-revoke",
+          "publishedAt": "2026-09-02T17:51:48.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic automatically signs out Claude users to protect them from hackers",
+          "url": "https://www.engadget.com/2250467/claude-automatic-sign-out-hackers-explained/",
+          "publishedAt": "2026-09-03T16:39:18.000Z",
           "contribution": "meaningful-update"
         }
       ],
@@ -172,6 +226,27 @@
       "tags": []
     },
     {
+      "id": "7b5794e6-8ee9-48df-84a4-cb9c7958ceca",
+      "title": "Bernie Sanders calls for global ban on AI superintelligence",
+      "summary": "Senator Bernie Sanders introduced legislation calling for a global ban on developing AI \"superintelligence,\" seeking to treat it as tightly controlled as enriched uranium.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-03T17:01:49.165Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T17:01:49.165Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Bernie Sanders Calls for Global Ban on AI ‘Superintelligence’",
+          "url": "https://gizmodo.com/bernie-sanders-calls-for-global-ban-on-ai-superintelligence-2000806829",
+          "publishedAt": "2026-09-03T15:30:54.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
       "id": "c17fe862-af4c-4c70-96f7-d204eea4762d",
       "title": "Microsoft AI launches MAI-Transcribe-2, undercutting rivals on price",
       "summary": "Microsoft AI released MAI-Transcribe-2, a speech-recognition model it says is faster and more accurate than offerings from OpenAI, Google, and ElevenLabs, priced aggressively below them.",
@@ -195,8 +270,8 @@
     },
     {
       "id": "88abfc86-6b4e-4661-9f64-e1239cafe139",
-      "title": "Google DeepMind releases new AI weather forecasting model",
-      "summary": "Google DeepMind and Google Research released a new AI weather forecasting model that reads the changing atmosphere more clearly and predicts its behavior more often than prior systems.",
+      "title": "DeepMind launches WeatherNext 3, its most accurate weather AI model yet",
+      "summary": "Google DeepMind released WeatherNext 3, its most advanced global weather forecasting AI model, improving on how clearly it reads the changing atmosphere and how often it predicts behavior correctly versus prior systems.",
       "importanceScore": 0.5,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-09-03T15:01:38.595Z",
@@ -207,6 +282,13 @@
           "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
           "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
           "publishedAt": "2026-09-03T15:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+          "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+          "publishedAt": "2026-09-03T15:02:08.000Z",
           "contribution": "supporting"
         }
       ],
@@ -236,25 +318,6 @@
         "product-launch",
         "infrastructure"
       ]
-    },
-    {
-      "id": "a1f38237-a380-4e56-8ab4-a6ee4514999e",
-      "title": "Infostealer malware hijacks Claude session cookies to reach corporate accounts",
-      "summary": "Anthropic disclosed that infostealer malware (Vidar, LummaC2, StealC, RedLine, Acreed, Atomic Stealer) replayed stolen Claude session cookies from card-billed, self-serve accounts, bypassing 2FA and SSO. Anthropic signed out affected accounts and refunded charges, but flagged that OAuth grants into services like Gmail/Workspace made via personal accounts on managed devices remain a gap no corporate IT admin can revoke.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-02T19:01:58.634Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T19:01:58.634Z",
-      "sources": [
-        {
-          "providerName": "VentureBeat",
-          "title": "Stolen Claude session cookies can reach corporate Gmail through grants no IT admin can revoke",
-          "url": "https://venturebeat.com/security/stolen-claude-session-cookies-can-reach-corporate-gmail-through-grants-no-it-admin-can-revoke",
-          "publishedAt": "2026-09-02T17:51:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     },
     {
       "id": "8dd7d0fa-a481-4aa4-8cb0-9f9a8d23fa70",
@@ -621,6 +684,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "3d9cb4cf-c89e-4034-bf5b-82d453a798ee",
+      "title": "Ollie launches a privacy-focused family AI assistant",
+      "summary": "Startup Ollie is launching a family-focused AI assistant that wants deep access to users' everyday lives but pledges not to use that data for AI training or share it with others, betting privacy can differentiate it in the crowded AI assistant race.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-03T17:01:49.155Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T17:01:49.155Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Ollie is betting its focus on privacy can help it win the AI assistant race",
+          "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
+          "publishedAt": "2026-09-03T16:09:01.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "7f1dc6f2-9d86-41bb-af21-76f0af981f19",
@@ -996,6 +1080,49 @@
       "tags": []
     },
     {
+      "id": "48779ff7-7709-48cc-b24f-15b5a96cdfc2",
+      "title": "Nvidia's PAIR lets idle PCs pool into a home AI computing network",
+      "summary": "Nvidia unveiled PAIR at IFA 2026, a free open-source tool that distributes AI workloads across idle PCs on a home network, letting underused hardware contribute to AI computing tasks.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-03T17:01:49.172Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T17:01:49.172Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "NVIDIA's PAIR lets you use idle PCs for AI computing tasks",
+          "url": "https://www.engadget.com/2250189/nvidia-ifa-2026-pair-distributed-ai-computing-home-network/",
+          "publishedAt": "2026-09-03T16:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "open-source"
+      ]
+    },
+    {
+      "id": "c277edcb-ae7a-4ff0-8928-d78ec8148954",
+      "title": "Google rolls out AI voice features for Gmail, Docs and Keep",
+      "summary": "Google is rolling out its AI-powered voice tools to Gmail, Docs, Keep, and Live for paying customers, extending voice-driven interaction across its productivity suite.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-03T17:01:49.168Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T17:01:49.168Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Google rolls out AI-powered voice capabilities for Gmail, Docs and Keep",
+          "url": "https://www.engadget.com/2250178/google-rolls-out-ai-voice-gmail-docs-keep/",
+          "publishedAt": "2026-09-03T16:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "fa024897-eaa2-4a4d-b5ac-41a052e5467c",
       "title": "Microsoft renames roughly half its organization \"Agents\" and \"Infra\"",
       "summary": "Microsoft, known for its culty internal jargon, is restructuring and renaming large parts of its organization around AI themes, with roughly half now falling under \"Agents\" and \"Infra\" designations — reflecting the company's strategic pivot toward AI agents and the infrastructure to run them.",
@@ -1136,138 +1263,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "8300262d-b138-4121-893b-97be24d5d2a7",
-      "title": "AI's growing role in medicine has doctors questioning their future",
-      "summary": "Wired examines how AI diagnostic and clinical tools are prompting doctors to ask what their role will be as the technology takes on more of their work.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-01T17:06:55.262Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.262Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AI Has Human Doctors Asking: What’s Left for Us?",
-          "url": "https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us/",
-          "publishedAt": "2026-08-28T15:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "627930c0-2e15-44d5-a250-2a6199dfef4a",
-      "title": "AIR raises $50M to help companies vet skills and add-ons AI agents use",
-      "summary": "AIR raised a $50M round to build tools that help companies vet the skills and add-ons used by AI agents, addressing security and governance concerns around agent behavior.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-01T16:56:20.501Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T16:56:20.501Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
-          "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
-          "publishedAt": "2026-09-01T15:45:51.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "5aa11d69-6cd2-41a8-8f5b-692974f442f2",
-      "title": "Palo Alto Networks paid $500M for AI IT-automation startup Console",
-      "summary": "Palo Alto Networks acquired Thrive-backed Console for roughly $500M, per sources, leaving Sequoia-backed Serval as the de-facto leader in AI-driven IT service automation.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-02T23:02:51.738Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T23:02:51.738Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
-          "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
-          "publishedAt": "2026-09-02T22:44:56.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "75e4b513-9299-458f-a826-78aa90ad8c0f",
-      "title": "Anthropic wins first court ruling over Pentagon supply-chain risk label",
-      "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, a win for the company as its second Pentagon lawsuit continues.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-08-31T18:54:11.817Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:54:11.817Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
-          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
-          "publishedAt": "2026-08-28T12:46:12.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "A Judge Has Blocked the Pentagon’s Attempt to Blacklist Anthropic",
-          "url": "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/",
-          "publishedAt": "2026-08-28T03:04:14.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Judge rules that the Pentagon's Anthropic ban was 'illegal and baseless'",
-          "url": "https://www.engadget.com/2246131/judge-rules-that-pentagon-anthropic-ban-illegal-and-baseless/",
-          "publishedAt": "2026-08-28T04:43:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Judge Says the Pentagon’s Blacklisting of Anthropic Is Illegal",
-          "url": "https://gizmodo.com/judge-says-the-pentagons-blacklisting-of-anthropic-is-illegal-2000804313",
-          "publishedAt": "2026-08-28T14:04:38.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "a119a2fe-6230-4f57-8889-22e049be8362",
-      "title": "OpenAI winds down Cursor access after Cursor's acquisition by SpaceX",
-      "summary": "OpenAI announced it will wind down its contract providing OpenAI models to Cursor, following Cursor's acquisition by SpaceX.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-08-31T18:53:06.569Z",
-      "lastMeaningfulUpdateAt": "2026-08-31T18:53:06.569Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Our decision on Cursor following its acquisition by SpaceX",
-          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-          "publishedAt": "2026-08-28T06:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI will pull its models from Cursor due to SpaceXAI acquisition",
-          "url": "https://www.engadget.com/2246969/openai-pull-its-models-from-cursor-due-to-spacexai-acquisition/",
-          "publishedAt": "2026-08-29T14:58:40.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI Bans Cursor Access Over Alleged SpaceX Data Misuse",
-          "url": "https://www.geeky-gadgets.com/why-openai-banned-cursor/",
-          "publishedAt": "2026-09-01T11:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 150,
+  "totalCount": 156,
   "hasMore": true
 }
