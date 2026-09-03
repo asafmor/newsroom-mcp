@@ -162,18 +162,15 @@ html, body { margin: 0; background: var(--bg); }
    both sides of one row, so the toggle sits centered against the pair. */
 .brand-row { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-3); }
 .brand { display: flex; flex-direction: column; gap: var(--space-1); min-width: 0; }
-.wordmark {
-  font-size: var(--text-xl); line-height: 1.15; letter-spacing: -0.03em;
-  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0;
-  background-image: linear-gradient(to right, var(--accent), var(--fg));
-  background-clip: text; -webkit-background-clip: text; color: transparent;
-}
-.edu-tas-beginner-wordmark {
-  font-family: "Edu TAS Beginner", cursive;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
+/* Logo swaps per theme instead of a text wordmark — light-mode PNG shown by
+   default, dark-mode PNG shown under the same [data-theme="dark"] root
+   attribute the rest of the palette already keys off. */
+.brand-logo { display: block; height: 28px; min-width: 0; }
+.brand-logo-dark { display: none; }
+[data-theme="dark"] .brand-logo-light { display: none; }
+[data-theme="dark"] .brand-logo-dark { display: block; }
+.brand-logo-light,
+.brand-logo-dark { height: 100%; width: auto; }
 /* Below the title: former "AI News · Curated Feed" eyebrow was redundant —
    replaced by the update time + story count. */
 .meta-text { display: flex; align-items: baseline; gap: var(--space-1); min-width: 0; }
