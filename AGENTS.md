@@ -90,6 +90,26 @@ npm run verify        # lint, test, and typecheck
 npm run build          # build with mcp-use
 ```
 
+## Read-only UI/UX Review
+
+For changes that affect a reader-facing interface, request an expert review
+after the implementation runs locally:
+
+```bash
+npm run review:ui -- --worktree "$PWD" --request "Review the current UI changes"
+```
+
+The command creates or resumes one dedicated Codex reviewer session per
+worktree. The reviewer uses browser MCP tools to inspect mobile web, desktop
+web, and the actual MCP App and returns evidence-backed feedback. It may write
+screenshots and its report only under the Git-ignored `.ui-review/` directory.
+It must not edit the product. The developer that requested the review owns all
+fixes and may run the same command again for a fresh review of the new state.
+Other coding agents can pass `--format json` and consume the structured result;
+see `docs/ui-review.md` for the agent-to-agent command contract.
+
+See `docs/ui-review.md`, `PRODUCT.md`, and `docs/ui-ux-principles.md`.
+
 Run `npm run verify` before handing off changes. For MCP behavior changes,
 keep or extend the protocol-level test in `test/mcp-server.test.ts`.
 
