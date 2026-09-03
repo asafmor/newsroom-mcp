@@ -116,7 +116,7 @@ describe.skipIf(!config.liveTests)("newsroom-mcp live sanity", () => {
         // IngestionService is built to tolerate that, so this end-to-end
         // assertion mirrors real operation rather than requiring every
         // provider to succeed.
-        expect(ingestion?.providers.length).toBe(29);
+        expect(ingestion?.providers.length).toBe(30);
         expect(ingestion?.providersProcessed).toBeGreaterThanOrEqual(27);
         expect(ingestion?.itemsFetched).toBeGreaterThan(0);
         expect(ingestion?.itemsInserted).toBeGreaterThan(0);
