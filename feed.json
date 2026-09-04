@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-03T19:01:52.424Z",
+  "generatedAt": "2026-09-04T01:02:58.647Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
       "title": "OpenAI launches GPT-6 Astra, its first \"critical\" cyber-capability model",
-      "summary": "OpenAI has released GPT-6 Astra, a computer-use/agentic model that leadership framed as marking the start of an \"AGI era.\" It's the first OpenAI model to cross the company's Preparedness Framework \"critical\" cybersecurity threshold — scoring 100% on ExploitBench and finding real zero-days in testing — so its most advanced cyber capabilities are initially limited to trusted defenders via Daybreak Blue. Astra also posts strong results on other benchmarks (98.6% ARC-AGI-3, 97.6% FrontierMath), though OpenAI's own framing has drawn scrutiny over what those numbers actually measure and the notable absence of its GDPval real-world-work benchmark. It rolls out to enterprise, ChatGPT, and API customers this week, with tiered pricing ($10/$50 per million input/output tokens standard) and new alignment/monitoring safeguards meant to keep the more autonomous agent inside its authorized scope.",
+      "summary": "OpenAI has released GPT-6 Astra, a computer-use/agentic model that leadership framed as marking the start of an \"AGI era.\" It's the first OpenAI model to cross the company's Preparedness Framework \"critical\" cybersecurity threshold — scoring 100% on ExploitBench and finding real zero-days in testing — so its most advanced cyber capabilities are initially limited to trusted defenders via Daybreak Blue. OpenAI has since committed $1 billion under \"Daybreak for Frontline Defenders\" to expand access to that frontier cyber AI, plus training and support, for essential services. Astra also posts strong results on other benchmarks (98.6% ARC-AGI-3, 97.6% FrontierMath), though OpenAI's own framing has drawn scrutiny over what those numbers actually measure and the notable absence of its GDPval real-world-work benchmark. It rolls out to enterprise, ChatGPT, and API customers this week, with tiered pricing ($10/$50 per million input/output tokens standard) and new alignment/monitoring safeguards meant to keep the more autonomous agent inside its authorized scope.",
       "importanceScore": 0.9,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-01T21:20:51.430Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T19:01:26.125Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T01:02:32.511Z",
       "sources": [
         {
           "providerName": "Wired AI",
@@ -58,6 +58,62 @@
           "url": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
           "publishedAt": "2026-09-03T18:06:24.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+          "publishedAt": "2026-09-03T13:15:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+          "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+          "publishedAt": "2026-09-03T12:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+          "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+          "publishedAt": "2026-09-03T12:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Safety overview: GPT-6 Astra",
+          "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+          "publishedAt": "2026-09-03T00:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Claims We’re in the ‘AGI Era’ With Release of GPT-6 Astra",
+          "url": "https://gizmodo.com/openai-claims-were-in-the-agi-era-with-release-of-gpt-6-astra-2000807013",
+          "publishedAt": "2026-09-03T20:22:13.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "OpenAI’s Astra Is Here: What to Know About GPT-6",
+          "url": "https://www.cnet.com/tech/services-and-software/openai-gpt-6-astra-release-ai-agi-chatgpt/",
+          "publishedAt": "2026-09-03T18:00:20.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT 6 Officially Launches as Astra: Beats GPT-5.6 Sol with 47% Faster Speed",
+          "url": "https://www.geeky-gadgets.com/openai-chatgpt-6-astra-launch/",
+          "publishedAt": "2026-09-03T21:16:50.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI says GPT-6 Astra is 'the most intelligent and aligned model in the world'",
+          "url": "https://www.engadget.com/2250814/openai-says-gpt-6-astra-is-the-most-intelligent-and-aligned-model-in-the-world/",
+          "publishedAt": "2026-09-03T22:58:12.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -103,6 +159,49 @@
       "tags": [
         "funding",
         "open-source"
+      ]
+    },
+    {
+      "id": "a9919b22-920d-4863-91fc-68d4f0f94168",
+      "title": "Crusoe reportedly raises $3B at $30B valuation",
+      "summary": "AI data center developer Crusoe is reported to have raised $3 billion at a $30 billion valuation, following a reported $13 billion compute contract with Jane Street.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-04T01:02:11.549Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T01:02:11.549Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Crusoe reportedly raises $3B at a  $30B valuation",
+          "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+          "publishedAt": "2026-09-04T00:48:42.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "f83c4936-61c8-4e45-a283-865e22ce4865",
+      "title": "Accel in talks to lead $1B round for Thinking Machines Lab at $40B valuation",
+      "summary": "Accel is reportedly in talks to lead a $1 billion funding round for Mira Murati's Thinking Machines Lab at a $40 billion valuation. The startup's annual revenue run rate reportedly exceeds $100 million.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-04T01:02:09.678Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T01:02:09.678Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+          "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+          "publishedAt": "2026-09-03T19:36:29.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
       ]
     },
     {
@@ -254,6 +353,41 @@
       "tags": []
     },
     {
+      "id": "ceb95945-6c72-44ad-9954-e6d2b58b7935",
+      "title": "OpenAI, Anthropic, and Grok suffer simultaneous outages",
+      "summary": "ChatGPT, Claude, and Grok all went down within roughly the same window on September 3, with no official cause given by any of the companies initially.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-04T01:02:20.719Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T01:02:25.824Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
+          "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+          "publishedAt": "2026-09-03T21:56:21.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "AI’s Very Bad Morning: Claude, ChatGPT and Grok Had Outages at the Same Time",
+          "url": "https://www.cnet.com/tech/services-and-software/sept-3-claude-chatgpt-grok-widespread-ai-outages/",
+          "publishedAt": "2026-09-03T18:55:59.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "SpaceXAI apologizes for outage that affected Grok and other 'compute partners'",
+          "url": "https://www.engadget.com/2250789/spacexai-apologizes-for-outage-that-affected-grok-and-other-compute-partners/",
+          "publishedAt": "2026-09-03T21:52:34.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
       "id": "7b5794e6-8ee9-48df-84a4-cb9c7958ceca",
       "title": "Bernie Sanders calls for global ban on AI superintelligence",
       "summary": "Senator Bernie Sanders introduced legislation calling for a global ban on developing AI \"superintelligence,\" seeking to treat it as tightly controlled as enriched uranium.",
@@ -317,6 +451,20 @@
           "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
           "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
           "publishedAt": "2026-09-03T15:02:08.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google's new AI weather model uses live satellite data for higher-resolution forecasts",
+          "url": "https://www.engadget.com/2250687/googles-new-ai-weather-model-uses-live-satellite-data-for-higher-resolution-forecasts/",
+          "publishedAt": "2026-09-03T19:56:03.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google DeepMind Just Rolled Out Its Most Accurate AI Global Weather Model",
+          "url": "https://gizmodo.com/google-deepmind-just-rolled-out-its-most-accurate-ai-global-weather-model-2000807015",
+          "publishedAt": "2026-09-03T19:55:16.000Z",
           "contribution": "supporting"
         }
       ],
@@ -640,6 +788,25 @@
           "url": "https://gizmodo.com/how-groupthink-altruism-and-peer-pressure-led-openai-models-to-hack-hugging-face-2000804424",
           "publishedAt": "2026-08-29T12:00:38.000Z",
           "contribution": "background"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "074502b0-b81b-4d0b-858a-84ba67f2c1a5",
+      "title": "AI-camera-equipped trash trucks bring surveillance to more US cities",
+      "summary": "Cities are increasingly deploying garbage trucks fitted with AI cameras to spot code violations and other issues along their routes, raising concerns about unregulated expansion of municipal surveillance.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-09-04T01:02:15.922Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T01:02:15.922Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Big Brother on Wheels: Trash Trucks With AI Cameras Are Coming to a City Near You",
+          "url": "https://gizmodo.com/big-brother-on-wheels-trash-trucks-with-ai-cameras-are-coming-to-a-city-near-you-2000807071",
+          "publishedAt": "2026-09-03T20:50:31.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -1192,98 +1359,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "fa024897-eaa2-4a4d-b5ac-41a052e5467c",
-      "title": "Microsoft renames roughly half its organization \"Agents\" and \"Infra\"",
-      "summary": "Microsoft, known for its culty internal jargon, is restructuring and renaming large parts of its organization around AI themes, with roughly half now falling under \"Agents\" and \"Infra\" designations — reflecting the company's strategic pivot toward AI agents and the infrastructure to run them.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-03T03:01:02.314Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T03:01:02.314Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Microsoft, Famous for Culty Jargon, Is Naming Half Its Organization ‘Agents and Infra’",
-          "url": "https://gizmodo.com/microsoft-famous-for-culty-jargon-is-naming-half-its-organization-agents-and-infra-2000806621",
-          "publishedAt": "2026-09-03T01:38:16.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "dd9e3e7c-3cc7-4779-b84e-5f4325bf285e",
-      "title": "xAI publishes biosecurity policy for frontier models",
-      "summary": "xAI published \"Biosecurity at the Frontier,\" outlining its approach to preventing its models from contributing to biological weapons risks.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-01T17:06:55.379Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.379Z",
-      "sources": [
-        {
-          "providerName": "xAI News",
-          "title": "Biosecurity at the frontier",
-          "url": "https://x.ai/news/biosafety-at-the-frontier",
-          "publishedAt": "2026-09-01T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "56e3df58-6ad3-4f1a-8d60-4c386fdad294",
-      "title": "Anthropic asks SF employees to work from home amid strike warning",
-      "summary": "Anthropic asked its San Francisco employees to work from home after receiving warning of a possible labor strike.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-01T17:06:55.374Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.374Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "Anthropic Asks San Francisco Employees to Work From Home Amid Strike Warning",
-          "url": "https://in.mashable.com/tech/113317/anthropic-asks-san-francisco-employees-to-work-from-home-amid-strike-warning",
-          "publishedAt": "2026-08-27T06:06:20.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "310fdcfd-313c-42ab-b3fa-4fe24fb850eb",
-      "title": "OpenClaw 2.0 launches, pushing \"multiplayer\" AI coding for enterprises",
-      "summary": "OpenClaw 2.0 arrived with its biggest update yet, introducing multiplayer-style collaborative AI coding aimed at enterprise teams, covered by Mashable and VentureBeat.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-01T17:06:55.368Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.368Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "OpenClaw 2.0 Arrives With Its Biggest Update Yet: Here’s What’s New",
-          "url": "https://in.mashable.com/tech/113439/openclaw-20-arrives-with-its-biggest-update-yet-heres-whats-new",
-          "publishedAt": "2026-08-31T10:14:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "VentureBeat",
-          "title": "OpenClaw 2.0 is here, ushering in the era of 'multiplayer' AI coding: What it means for enterprises",
-          "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
-          "publishedAt": "2026-09-01T03:26:53.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "The Year of the Claw: OpenClaw Rolls Out New Version of Its Viral AI Agent",
-          "url": "https://www.cnet.com/tech/services-and-software/the-year-of-the-claw-openclaw-rolls-out-new-version-of-its-viral-ai-agent/",
-          "publishedAt": "2026-08-31T18:15:49.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 158,
+  "totalCount": 164,
   "hasMore": true
 }
