@@ -121,6 +121,40 @@ export function freshness(generatedAtIso: string, now: Date = new Date()): Fresh
 }
 
 /**
+ * Waze-style automatic theme from the reader's local wall-clock time — no
+ * manual override, no OS `prefers-color-scheme` signal. `now` is injectable
+ * for tests, same pattern as `freshness` above. Local time only: no
+ * timezone conversion, just `getHours()`.
+ */
+export function resolveTheme(now: Date = new Date()): "light" | "dark" {
+  const hour = now.getHours();
+  return hour >= 7 && hour < 19 ? "light" : "dark";
+}
+
+/**
+ * Milliseconds until the next 07:00/19:00 local boundary, strictly greater
+ * than 0 even when `now` lands exactly on a boundary (rolls to the
+ * following one instead of returning 0 — a 0/negative delay would busy-loop
+ * a rescheduled `setTimeout`). Built by constructing candidate local `Date`s
+ * (not fixed-hour-count arithmetic), so a DST transition shifts the
+ * candidate's wall-clock hour correctly instead of drifting an hour.
+ */
+export function msUntilNextThemeBoundary(now: Date = new Date()): number {
+  const y = now.getFullYear();
+  const m = now.getMonth();
+  const d = now.getDate();
+  const candidates = [
+    new Date(y, m, d, 7, 0, 0, 0),
+    new Date(y, m, d, 19, 0, 0, 0),
+    new Date(y, m, d + 1, 7, 0, 0, 0),
+  ];
+  const next = candidates.find((c) => c.getTime() > now.getTime());
+  // The `??` branch is unreachable — tomorrow 07:00 always exceeds a `now`
+  // whose own y/m/d it was built from. It only satisfies strict indexing.
+  return (next ?? candidates[candidates.length - 1]).getTime() - now.getTime();
+}
+
+/**
  * A `summary` unstructured into one paragraph, or split into an optional
  * lede sentence plus a bullet list — see docs/agent-system-prompt.md's
  * (optional, never enforced) lede+`- `-bullets convention. Pure/synchronous:
