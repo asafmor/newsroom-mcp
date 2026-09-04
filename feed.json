@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T21:00:55.844Z",
+  "generatedAt": "2026-09-04T21:44:27.269Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -505,6 +505,28 @@
         }
       ],
       "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "cb8eab2c-4759-4bcf-8104-5481d43c50de",
+      "title": "AI compute provider Nscale seeks $3.5B in pre-IPO financing",
+      "summary": "Nscale, which recently struck a $45 billion compute deal with Anthropic, is in talks to raise $3.5 billion in additional funding ahead of a planned IPO.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-04T21:44:17.550Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T21:44:17.550Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+          "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+          "publishedAt": "2026-09-04T21:12:11.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
         "infrastructure"
       ]
     },
@@ -1393,34 +1415,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "c9fe52b8-845a-4d1e-aec3-b992b0fd61e2",
-      "title": "Meta pushes robots into its data centers",
-      "summary": "Meta is experimenting with putting robots to work inside its AI data centers, covered by both Wired and Ars Technica, as physical automation extends into infrastructure operations.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-01T17:06:55.273Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.273Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Inside Meta’s Push to Put Robots to Work in Data Centers",
-          "url": "https://www.wired.com/story/inside-metas-experiments-with-data-center-robots/",
-          "publishedAt": "2026-08-28T10:56:22.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Ars Technica",
-          "title": "Inside Meta’s push to put robots to work in data centers",
-          "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
-          "publishedAt": "2026-08-30T11:03:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 179,
+  "totalCount": 180,
   "hasMore": true
 }
