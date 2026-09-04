@@ -263,6 +263,16 @@ fallback logic — including the no-known-logo case — applies unchanged) when 
   });
 });
 
+describe("standalone shell width below the desktop breakpoint", () => {
+  it("lets the standalone site use the full viewport under 640px, unlike the fixed-width MCP card", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const overrideRule = /\.newsroomFeed:not\(\.newsroomFeed--mcp\) \.app-shell\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(overrideRule).toBeDefined();
+    expect(overrideRule).toContain("max-width: 100%");
+  });
+});
+
 describe("feed header controls", () => {
   it("uses the sort-label font size without shrinking the search and select controls", () => {
     const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");

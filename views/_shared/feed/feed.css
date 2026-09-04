@@ -131,6 +131,11 @@ html, body { margin: 0; background: var(--bg); }
   background: var(--bg);
   overflow: hidden;
 }
+/* Standalone site: use the full viewport below the desktop breakpoint too —
+   448px was only ever meant as the MCP card's fixed width. */
+.newsroomFeed:not(.newsroomFeed--mcp) .app-shell {
+  max-width: 100%;
+}
 .scroll-area {
   overflow-x: hidden;
 }
