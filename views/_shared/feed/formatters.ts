@@ -154,6 +154,85 @@ export function parseSummary(raw: string): ParsedSummary {
   return { lede: lede.trim(), bullets };
 }
 
+/**
+ * Minimal per-story fields the device needs to remember between feed loads
+ * to compute "what changed since you last looked" (see computeStoryDelta).
+ * Deliberately small — this only ever lives in localStorage, never
+ * feed.json, so there's no publish-size budget, but it still only keeps
+ * what the delta actually diffs against.
+ */
+export interface StorySnapshot {
+  readonly sourceUrls: readonly string[];
+  readonly developmentCount: number;
+  readonly tags: readonly string[];
+  readonly bullets: readonly string[];
+}
+
+/** Snapshot a story as loaded, to cache for comparison against its next load. */
+export function toStorySnapshot(story: FeedStory): StorySnapshot {
+  return {
+    sourceUrls: [...new Set(story.sources.map((s) => s.url))],
+    developmentCount: developmentCount(story),
+    tags: [...storyTags(story)],
+    bullets: parseSummary(story.summary).bullets,
+  };
+}
+
+export interface StoryDelta {
+  /** Unique source URLs present now but absent from the cached snapshot (criteria 6, 11). */
+  readonly newSourceUrls: ReadonlySet<string>;
+  /** Bullets present now but absent from the cached snapshot — see the naive-diff note below. */
+  readonly newBullets: ReadonlySet<string>;
+  /**
+   * Real, accurate text for the card's delta badge, or `undefined` when
+   * there's nothing badge-worthy (criteria 8/9/16) — never a bare "+0" and
+   * never blank.
+   */
+  readonly badgeText: string | undefined;
+}
+
+/**
+ * A story's delta since its cached snapshot, or `undefined` when there's no
+ * cached snapshot at all — first time this id is seen (a story new to the
+ * feed, or every story on the first load after this feature ships, before
+ * any snapshot has been cached for it yet).
+ */
+export function computeStoryDelta(prior: StorySnapshot | undefined, story: FeedStory): StoryDelta | undefined {
+  if (prior === undefined) return undefined;
+
+  const priorUrls = new Set(prior.sourceUrls);
+  const currentUrls = new Set(story.sources.map((s) => s.url)); // dedupe first — a repeated URL isn't "new" just because another source shares it
+  const newSourceUrls = new Set([...currentUrls].filter((url) => !priorUrls.has(url)));
+  const newDevelopments = Math.max(0, developmentCount(story) - prior.developmentCount);
+
+  // ponytail: plain set difference against the cached bullet list, not real
+  // text diffing — an edited bullet's old text disappears and its new text
+  // reads as "added", so an edit is indistinguishable from an addition here.
+  // Upgrade to a real text/word diff only if that proves noisy in practice.
+  const priorBullets = new Set(prior.bullets);
+  const newBullets = new Set(parseSummary(story.summary).bullets.filter((b) => !priorBullets.has(b)));
+
+  // A tag addition alone still counts as "something changed" toward showing
+  // *a* badge — tags get no dedicated badge text of their own, just a vote
+  // on whether anything worth flagging happened at all.
+  const priorTags = new Set(prior.tags);
+  const tagAdded = storyTags(story).some((t) => !priorTags.has(t));
+
+  const parts: string[] = [];
+  if (newSourceUrls.size > 0) {
+    parts.push(`+${String(newSourceUrls.size)} source${newSourceUrls.size === 1 ? "" : "s"}`);
+  }
+  if (newDevelopments > 0) {
+    parts.push(`${String(newDevelopments)} new development${newDevelopments === 1 ? "" : "s"}`);
+  }
+  // Never fabricate a sources/developments change that didn't happen: a
+  // tag-only change still gets real, accurate (if generic) text rather than
+  // a made-up "+1 source".
+  const badgeText = parts.length > 0 ? parts.join(", ") : tagAdded ? "Updated" : undefined;
+
+  return { newSourceUrls, newBullets, badgeText };
+}
+
 export function initials(name: string): string {
   return name
     .split(/\s+/)

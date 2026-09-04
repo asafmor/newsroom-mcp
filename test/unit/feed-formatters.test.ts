@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 
 import {
   availableTags,
+  computeStoryDelta,
   contributionLabel,
   developmentCount,
   freshness,
@@ -10,8 +11,10 @@ import {
   shortDate,
   shortTime,
   storyMatchesFilters,
+  toStorySnapshot,
   unreadCount,
 } from "../../views/_shared/feed/formatters.js";
+import type { StorySnapshot } from "../../views/_shared/feed/formatters.js";
 import type { FeedSource, FeedStory } from "../../views/_shared/feed/types.js";
 
 function makeStory(sources: FeedSource[], overrides: Partial<FeedStory> = {}): FeedStory {
@@ -269,5 +272,145 @@ describe("unreadCount", () => {
 
   it("is zero for an empty story list", () => {
     expect(unreadCount([], new Set(["a"]))).toBe(0);
+  });
+});
+
+describe("toStorySnapshot", () => {
+  it("captures unique source URLs, development count, tags, and parsed bullets", () => {
+    const story = makeStory(
+      [
+        makeSource({ url: "https://a.example/1", contribution: "meaningful-update" }),
+        makeSource({ url: "https://a.example/1" }), // duplicate URL, deduped
+        makeSource({ url: "https://a.example/2", contribution: "supporting" }),
+      ],
+      { tags: ["safety"], summary: "Lede.\n\n- First\n- Second" },
+    );
+
+    expect(toStorySnapshot(story)).toEqual({
+      sourceUrls: ["https://a.example/1", "https://a.example/2"],
+      developmentCount: 1,
+      tags: ["safety"],
+      bullets: ["First", "Second"],
+    });
+  });
+
+  it("defaults tags to [] and bullets to [] for an untagged, unstructured story", () => {
+    const story = makeStory([makeSource()], { summary: "One paragraph." });
+
+    expect(toStorySnapshot(story)).toEqual({
+      sourceUrls: [story.sources[0].url],
+      developmentCount: 0,
+      tags: [],
+      bullets: [],
+    });
+  });
+});
+
+describe("computeStoryDelta", () => {
+  function makeSnapshot(overrides: Partial<StorySnapshot> = {}): StorySnapshot {
+    return {
+      sourceUrls: ["https://a.example/1"],
+      developmentCount: 0,
+      tags: [],
+      bullets: [],
+      ...overrides,
+    };
+  }
+
+  it("is undefined with no cached snapshot — first-ever visit to this story, seed silently", () => {
+    const story = makeStory([makeSource({ url: "https://a.example/1" })]);
+
+    expect(computeStoryDelta(undefined, story)).toBeUndefined();
+  });
+
+  it("flags new unique source URLs and generates '+N sources' badge text", () => {
+    const prior = makeSnapshot({ sourceUrls: ["https://a.example/1"] });
+    const story = makeStory([
+      makeSource({ url: "https://a.example/1" }),
+      makeSource({ url: "https://a.example/2" }),
+      makeSource({ url: "https://a.example/3" }),
+    ]);
+
+    const delta = computeStoryDelta(prior, story);
+
+    expect(delta?.newSourceUrls).toEqual(new Set(["https://a.example/2", "https://a.example/3"]));
+    expect(delta?.badgeText).toBe("+2 sources");
+  });
+
+  it("dedupes a duplicate URL against another source before flagging new", () => {
+    const prior = makeSnapshot({ sourceUrls: ["https://a.example/1"] });
+    // Two sources share the already-cached URL — neither is "new".
+    const story = makeStory([makeSource({ url: "https://a.example/1" }), makeSource({ url: "https://a.example/1" })]);
+
+    const delta = computeStoryDelta(prior, story);
+
+    expect(delta?.newSourceUrls.size).toBe(0);
+    expect(delta?.badgeText).toBeUndefined();
+  });
+
+  it("floors new-development count at zero and never fabricates a source change", () => {
+    const prior = makeSnapshot({ sourceUrls: ["https://a.example/1"], developmentCount: 2 });
+    const story = makeStory([makeSource({ url: "https://a.example/1", contribution: "meaningful-update" })]);
+
+    const delta = computeStoryDelta(prior, story);
+
+    expect(delta?.badgeText).toBeUndefined();
+  });
+
+  it("combines new sources and new developments into one badge, singular vs. plural", () => {
+    const prior = makeSnapshot({ sourceUrls: ["https://a.example/1"], developmentCount: 0 });
+    const story = makeStory([
+      makeSource({ url: "https://a.example/1" }),
+      makeSource({ url: "https://a.example/2", contribution: "meaningful-update" }),
+    ]);
+
+    const delta = computeStoryDelta(prior, story);
+
+    expect(delta?.badgeText).toBe("+1 source, 1 new development");
+  });
+
+  it("counts a tag addition as a change, with real generic text, never a fabricated +0", () => {
+    const prior = makeSnapshot({ sourceUrls: ["https://a.example/1"], tags: [] });
+    const story = makeStory([makeSource({ url: "https://a.example/1" })], { tags: ["safety"] });
+
+    const delta = computeStoryDelta(prior, story);
+
+    expect(delta?.newSourceUrls.size).toBe(0);
+    expect(delta?.badgeText).toBe("Updated");
+  });
+
+  it("is undefined badge text when nothing tracked changed", () => {
+    const prior = makeSnapshot({ sourceUrls: ["https://a.example/1"] });
+    const story = makeStory([makeSource({ url: "https://a.example/1" })]);
+
+    expect(computeStoryDelta(prior, story)?.badgeText).toBeUndefined();
+  });
+
+  it("flags bullets added since the cached snapshot as a plain set difference, not a text diff", () => {
+    const prior = makeSnapshot({ bullets: ["First", "Second"] });
+    // "Second" is edited, not literally added, but the naive diff can't tell —
+    // it reads as one dropped ("Second") and one added ("Second, revised").
+    const story = makeStory([makeSource({ url: "https://a.example/1" })], {
+      summary: "Lede.\n\n- First\n- Second, revised\n- Third",
+    });
+
+    const delta = computeStoryDelta(prior, story);
+
+    expect(delta?.newBullets).toEqual(new Set(["Second, revised", "Third"]));
+  });
+
+  it("gives a bullets-only change no card badge — bullets are flagged in the sheet, but never vote on the badge", () => {
+    // Deliberate: bullet detection is the noisiest signal (see the naive-diff
+    // note in computeStoryDelta), so it stays out of the card badge every
+    // scanning reader sees and only surfaces on an intentional card open.
+    const prior = makeSnapshot({ sourceUrls: ["https://a.example/1"], bullets: ["First"] });
+    const story = makeStory([makeSource({ url: "https://a.example/1" })], {
+      summary: "Lede.\n\n- First\n- Second",
+    });
+
+    const delta = computeStoryDelta(prior, story);
+
+    expect(delta?.newBullets).toEqual(new Set(["Second"]));
+    expect(delta?.badgeText).toBeUndefined();
   });
 });

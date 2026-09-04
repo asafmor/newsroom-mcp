@@ -26,7 +26,8 @@ describe("feed header typography", () => {
 describe("story development markers", () => {
   it("tints the development badge and the meaningful-update tag with the accent color", () => {
     const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
-    const badgeRule = /\.newsroomFeed \.development-badge\s*\{[^}]*\}/.exec(css)?.[0];
+    // Shares one rule with .delta-badge — see "story delta badge" below.
+    const badgeRule = /\.newsroomFeed \.development-badge,[^{]*\{[^}]*\}/.exec(css)?.[0];
     const tagRule = /\.newsroomFeed \.contribution-tag\s*\{[^}]*\}/.exec(css)?.[0];
     const developmentTagRule = /\.newsroomFeed \.contribution-tag\.is-development\s*\{[^}]*\}/.exec(css)?.[0];
 
@@ -90,6 +91,49 @@ describe("read-state legibility", () => {
 
     expect(markerRule).toBeDefined();
     expect(markerRule).toContain("position: absolute");
+  });
+});
+
+describe("story delta badge", () => {
+  it("shares one rule with the development badge it replaces, so the two can never drift apart", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const badgeRule =
+      /\.newsroomFeed \.development-badge,\s*\.newsroomFeed \.delta-badge\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(badgeRule).toBeDefined();
+    expect(badgeRule).toContain("background: var(--accent-soft)");
+    expect(badgeRule).toContain("color: var(--accent)");
+  });
+
+  it("gives the new-source/new-bullet sheet flag a real-text tag distinct from is-development", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const isNewRule = /\.newsroomFeed \.contribution-tag\.is-new\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(isNewRule).toBeDefined();
+    expect(isNewRule).toContain("color: var(--accent)");
+    // Outlined, not filled — visually distinct from .is-development even though both use accent.
+    expect(isNewRule).toContain("border: 1px solid var(--accent)");
+  });
+
+  it("renders the badge as real text in StoryCard, never a bare icon/dot", () => {
+    const tsx = readFileSync(new URL("../../views/_shared/feed/StoryCard.tsx", import.meta.url), "utf8");
+
+    expect(tsx).toMatch(/<span className="delta-badge"[^>]*>\s*\{badgeText\}\s*<\/span>/);
+  });
+
+  it("demotes the cumulative badge to neutral on a read card, so accent means only 'changed since your last visit'", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const tsx = readFileSync(new URL("../../views/_shared/feed/StoryCard.tsx", import.meta.url), "utf8");
+    const historicalRule = /\.newsroomFeed \.development-badge\.is-historical\s*\{[^}]*\}/.exec(css)?.[0];
+
+    // Neutral, not accent — otherwise it reads as a fresh change at a glance.
+    expect(historicalRule).toContain("color: var(--muted)");
+    expect(historicalRule).not.toContain("var(--accent)");
+    // No pill fill: it inherits .story-meta-row's own --muted-on-surface pair,
+    // which clears WCAG AA in both themes. A faint grey chip did not (4.20:1).
+    expect(historicalRule).toContain("background: transparent");
+    // Applied only when the card is known-read; unread cards keep the accent.
+    expect(tsx).toContain('isRead === true ? "development-badge is-historical" : "development-badge"');
   });
 });
 

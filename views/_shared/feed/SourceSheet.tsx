@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 import type { FeedStory } from "./types.js";
 import { contributionLabel, earliestPublishedAt, parseSummary, shortDate, shortTime } from "./formatters.js";
+import type { StoryDelta } from "./formatters.js";
 import { getFocusable, wrapFocus } from "./focus-trap.js";
 import { spawnRipple } from "./ripple.js";
 import { Avatar } from "./Avatar.js";
@@ -27,6 +28,7 @@ export function SourceSheet({
   onClose,
   onExited,
   onOpenSource,
+  delta,
 }: {
   readonly story: FeedStory;
   /** false starts/plays the close transition; the caller keeps this component mounted (via onExited) until it finishes. */
@@ -36,6 +38,16 @@ export function SourceSheet({
   readonly onExited: () => void;
   /** Host-specific link handling: an MCP host bridge, or a plain new-tab navigation. */
   readonly onOpenSource: (url: string) => void;
+  /**
+   * "What changed since you last looked" (see FeedApp's snapshot cache) — `undefined` when there's no prior
+   * snapshot for this story or storage is unavailable, in which case nothing below gets flagged (criterion 20).
+   *
+   * Unlike StoryCard's badge there's no explicit `isRead` gate here, because reaching this sheet at all IS the
+   * read event: `openStory` marks the story read in the same update that opens the sheet, so "changed since you
+   * last looked" is always true of anything rendered here. A future "peek without marking read" entry point
+   * would break that and must pass an explicit gate instead of relying on this.
+   */
+  readonly delta: StoryDelta | undefined;
 }) {
   const closeRef = useRef<HTMLButtonElement>(null);
   const dialogRef = useRef<HTMLElement>(null);
@@ -303,7 +315,12 @@ export function SourceSheet({
           {summary.bullets.length > 0 ? (
             <ul className="sheet-summary-bullets">
               {summary.bullets.map((bullet, i) => (
-                <li key={i}>{bullet}</li>
+                <li key={i}>
+                  {bullet}
+                  {/* Plain set-membership check (see computeStoryDelta's ponytail note) — a bullet edited
+                      since the cached snapshot reads as "new" rather than "changed", a named ceiling. */}
+                  {delta?.newBullets.has(bullet) === true ? <span className="contribution-tag is-new">New</span> : null}
+                </li>
               ))}
             </ul>
           ) : null}
@@ -312,6 +329,7 @@ export function SourceSheet({
             .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
             .map((s, i) => {
               const tag = contributionLabel(s.contribution);
+              const isNewSource = delta?.newSourceUrls.has(s.url) === true;
               return (
                 <a
                   className="source-item"
@@ -334,6 +352,9 @@ export function SourceSheet({
                           {tag}
                         </span>
                       )}
+                      {/* Plain membership check against the cached URL set (criterion 11) — a source is
+                          "new" only relative to the last cached snapshot, not to the rest of this list. */}
+                      {isNewSource ? <span className="contribution-tag is-new">New source</span> : null}
                     </span>
                     <div className="source-title">{s.title}</div>
                     <div className="source-date">{shortDate(s.publishedAt)}</div>
