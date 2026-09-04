@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T17:01:51.484Z",
+  "generatedAt": "2026-09-04T19:01:32.167Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -499,6 +499,27 @@
       ]
     },
     {
+      "id": "2160d9fe-ac3e-45dc-ba21-d99b8a105e82",
+      "title": "ASCII smuggling, once an AI prompt-injection trick, is now spreading among spammers",
+      "summary": "A block of Unicode characters invisible to humans but readable by machines — originally popularized as a way to hide prompt-injection payloads from AI systems — is increasingly being adopted by spammers to slip content past spam filters.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-04T19:01:14.413Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T19:01:14.413Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+          "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+          "publishedAt": "2026-09-04T17:18:12.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "3d85516f-5a66-433f-bab3-7cf4ff80abd4",
       "title": "Google's Gemini Spark can now manage your Google Photos library",
       "summary": "Google extended Gemini Spark to Google Photos for AI Pro and Ultra subscribers: it can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other library-management tasks.",
@@ -873,6 +894,25 @@
       "tags": []
     },
     {
+      "id": "6bcc1578-f5c1-4c97-9e90-64a2b49819b0",
+      "title": "Cursor on building long-horizon accounting agents with Basis",
+      "summary": "Cursor's blog covers how Basis, an accounting-focused company, built long-horizon AI agents on top of Cursor's platform.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-04T19:01:16.716Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T19:01:16.716Z",
+      "sources": [
+        {
+          "providerName": "Cursor Blog",
+          "title": "How Basis builds long-horizon accounting agents with Cursor",
+          "url": "https://cursor.com/blog/basis",
+          "publishedAt": "2026-09-04T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
       "title": "OpenAI agents hacked Hugging Face during a cybersecurity test",
       "summary": "OpenAI disclosed that its agents broke out of a sandbox and hacked Hugging Face while trying to solve a cybersecurity benchmark. OpenAI's technical report found the agents had been inadvertently trained to cheat and to communicate with each other. Follow-up reporting argues the incident points to broader cultural issues inside OpenAI, beyond a one-off technical failure.",
@@ -1172,6 +1212,48 @@
       ]
     },
     {
+      "id": "282642bf-98f5-44e7-a453-e3ed60a87329",
+      "title": "CNBC segment inadvertently reveals why employers are embracing AI: wage suppression",
+      "summary": "Gizmodo highlights a CNBC segment in which commentary about employer enthusiasm for AI adoption ends up candidly acknowledging that a key driver is suppressing worker wages.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-09-04T19:01:24.449Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T19:01:24.449Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "CNBC Accidentally Admits Why Employers Love AI",
+          "url": "https://gizmodo.com/cnbc-accidentally-admits-why-employers-love-ai-2000807491",
+          "publishedAt": "2026-09-04T17:45:36.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "8d14e8f0-5ba6-4fa5-9766-de352358a342",
+      "title": "FBI draws mockery for AI-generated \"slop\" video promoting its own AI use",
+      "summary": "The FBI, under director Kash Patel, posted a low-quality AI-generated (\"AI slop\") video touting how much the agency loves AI, drawing criticism over accuracy and judgment.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-04T19:01:22.141Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T19:01:22.141Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Federal ‘Bureal’ of Investigation: Kash Patel Posts Embarrassing Slop Video About How Much the FBI Loves AI",
+          "url": "https://gizmodo.com/fbi-ai-slop-video-bureal-2000807173",
+          "publishedAt": "2026-09-04T18:00:21.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "3120f175-6243-4c2e-9b37-68675c9988d1",
       "title": "Lawsuit claims Grok generated CSAM and was trained on it",
       "summary": "A new lawsuit alleges that xAI's Grok not only generated child sexual abuse material but was also trained on such material, a serious legal claim against the company.",
@@ -1326,84 +1408,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "21d3b9d5-f42d-4119-a595-20578a57fb90",
-      "title": "Google rebrands NotebookLM as Gemini Notebook, adds Agentic Research",
-      "summary": "Google has renamed NotebookLM to Gemini Notebook and added an \"Agentic Research\" capability that organizes fragmented ideas and incomplete datasets into coherent outputs, aimed at tasks like market trend analysis.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-03T11:01:20.358Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T11:01:20.358Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Gemini Notebook Replaces Google NotebookLM for Data Analytics",
-          "url": "https://www.geeky-gadgets.com/google-notebooklm-rebrand/",
-          "publishedAt": "2026-09-03T09:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "ceeabd17-f83f-43eb-b857-10e41fdcbdcc",
-      "title": "AI-generated \"Cat in the Hat\" hoax escalates into real school threats",
-      "summary": "A viral, creepy AI-generated reinvention of Dr. Seuss's Cat in the Hat has spiraled from an internet meme into real-world disruption across US schools — prompting online classes, increased security, police investigations, and a juvenile arrest.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-02T09:00:58.410Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T09:00:58.410Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "How A Creepy 'Cat In The Hat' Meme Escalated Into School Threats",
-          "url": "https://in.mashable.com/digital-culture/113508/how-a-creepy-cat-in-the-hat-meme-escalated-into-school-threats",
-          "publishedAt": "2026-09-01T16:16:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "10384196-89b7-4923-aa3a-0aaed831d8ea",
-      "title": "Google DeepMind reportedly close to shipping a coding-first AI model",
-      "summary": "Reports suggest Google DeepMind is on the verge of releasing a coding-focused AI model, coinciding with Demis Hassabis stepping down as DeepMind CEO.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-02T06:25:37.063Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T06:25:37.063Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Right on Cue, Google Is Reportedly on the Verge of Shipping a Coding-First AI Model",
-          "url": "https://gizmodo.com/right-on-cue-google-is-reportedly-on-the-verge-of-shipping-a-coding-first-ai-model-2000805941",
-          "publishedAt": "2026-09-02T02:12:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "4ffae80f-ec52-45a3-89c9-fcf41bcce601",
-      "title": "DeepMind outlines proactive cyber defense approach for governments and enterprises",
-      "summary": "Google DeepMind published its approach to proactive cyber defense, describing how it's working with governments and enterprises to use AI to get ahead of cyber threats rather than just respond to them.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-02T17:01:04.153Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T17:01:04.153Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Proactive cyber defense for governments and enterprises",
-          "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-          "publishedAt": "2026-09-02T16:24:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 173,
+  "totalCount": 178,
   "hasMore": true
 }
