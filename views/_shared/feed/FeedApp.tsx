@@ -6,34 +6,23 @@ import { FeedHeader } from "./FeedHeader.js";
 import { SkeletonCard } from "./SkeletonCard.js";
 import { SourceSheet } from "./SourceSheet.js";
 import { StoryCard } from "./StoryCard.js";
-import type { FeedStory, SortMode, Theme } from "./types.js";
+import type { FeedStory, SortMode } from "./types.js";
 import {
   availableTags,
   computeStoryDelta,
   latestPublishedAt,
+  msUntilNextThemeBoundary,
   pruneReadIds,
+  resolveTheme,
   storyMatchesFilters,
   toStorySnapshot,
   unreadCount,
 } from "./formatters.js";
 import type { StoryDelta, StorySnapshot } from "./formatters.js";
 
-const THEME_STORAGE_KEY = "newsroom-theme";
 const SORT_STORAGE_KEY = "newsroom-sort-mode";
 const READ_IDS_STORAGE_KEY = "newsroom-read-ids";
 const SNAPSHOT_STORAGE_KEY = "newsroom-story-snapshots";
-
-// Sandboxed MCP host iframes can throw on localStorage access — theme
-// persistence is a nicety, not something worth crashing the feed over.
-function getInitialTheme(): Theme {
-  try {
-    const stored = localStorage.getItem(THEME_STORAGE_KEY);
-    if (stored === "light" || stored === "dark" || stored === "auto") return stored;
-  } catch {
-    // ignore
-  }
-  return "auto";
-}
 
 function getInitialSortMode(): SortMode {
   try {
@@ -145,29 +134,42 @@ export function FeedApp({
   readonly variant?: "mcp" | "site";
 }) {
   const rootClassName = variant === "mcp" ? "newsroomFeed newsroomFeed--mcp" : "newsroomFeed";
-  const [theme, setTheme] = useState<Theme>(getInitialTheme);
-  // "auto" tracks the OS/browser preference live — re-render on change so
-  // toggling dark mode at the OS level flips the feed without a reload.
-  const [systemDark, setSystemDark] = useState(() => matchMedia("(prefers-color-scheme: dark)").matches);
+  // Automatic, time-of-day only (Waze-style) — no manual override, no OS
+  // dark-mode signal. Re-evaluated on mount and whenever the tab regains
+  // visibility; deliberately not polled, so a long-foregrounded tab won't
+  // flip mid-session.
+  const [resolvedTheme, setResolvedTheme] = useState(resolveTheme);
   useEffect(() => {
-    const mq = matchMedia("(prefers-color-scheme: dark)");
-    const onChange = () => { setSystemDark(mq.matches); };
-    mq.addEventListener("change", onChange);
-    return () => { mq.removeEventListener("change", onChange); };
+    const onVisible = () => {
+      if (document.visibilityState === "visible") setResolvedTheme(resolveTheme());
+    };
+    document.addEventListener("visibilitychange", onVisible);
+    return () => { document.removeEventListener("visibilitychange", onVisible); };
   }, []);
-  const resolvedTheme: "light" | "dark" = theme === "auto" ? (systemDark ? "dark" : "light") : theme;
-
+  // Recovers a long-foregrounded tab that never lost visibility: one
+  // setTimeout scheduled for the next boundary, re-resolving from the
+  // CURRENT time (not the boundary it was scheduled for — a slept/suspended
+  // machine can fire this well after 07:00/19:00) and rescheduling itself
+  // for the following one. Not a poll/interval; complements, doesn't
+  // replace, the visibilitychange recovery above (background tabs throttle
+  // timers heavily).
   useEffect(() => {
-    try {
-      localStorage.setItem(THEME_STORAGE_KEY, theme);
-    } catch {
-      // ignore — see getInitialTheme
-    }
+    let timeoutId: ReturnType<typeof setTimeout>;
+    const scheduleNext = () => {
+      timeoutId = setTimeout(() => {
+        setResolvedTheme(resolveTheme());
+        scheduleNext();
+      }, msUntilNextThemeBoundary());
+    };
+    scheduleNext();
+    return () => { clearTimeout(timeoutId); };
+  }, []);
+  useEffect(() => {
     // data-theme on <main> only themes descendants — <html>/<body> sit
     // above it in the tree, so the page's own background (behind/around
     // the app-shell) needs the attribute mirrored up there too.
     document.documentElement.dataset.theme = resolvedTheme;
-  }, [theme, resolvedTheme]);
+  }, [resolvedTheme]);
 
   if (state.status === "error") {
     return (
@@ -185,8 +187,6 @@ export function FeedApp({
             generatedAt={undefined}
             sortMode="top"
             onSortChange={() => undefined}
-            theme={theme}
-            onThemeChange={setTheme}
             providers={[]}
             providerFilter="all"
             onProviderFilterChange={() => undefined}
@@ -208,13 +208,7 @@ export function FeedApp({
 
   return (
     <main className={rootClassName} data-theme={resolvedTheme} lang={locale}>
-      <Feed
-        generatedAt={state.generatedAt}
-        stories={state.stories}
-        onOpenSource={onOpenSource}
-        theme={theme}
-        onThemeChange={setTheme}
-      />
+      <Feed generatedAt={state.generatedAt} stories={state.stories} onOpenSource={onOpenSource} />
     </main>
   );
 }
@@ -223,14 +217,10 @@ function Feed({
   generatedAt,
   stories,
   onOpenSource,
-  theme,
-  onThemeChange,
 }: {
   readonly generatedAt: string;
   readonly stories: readonly FeedStory[];
   readonly onOpenSource: (url: string) => void;
-  readonly theme: Theme;
-  readonly onThemeChange: (theme: Theme) => void;
 }) {
   const [sortMode, setSortMode] = useState<SortMode>(getInitialSortMode);
 
@@ -238,7 +228,7 @@ function Feed({
     try {
       localStorage.setItem(SORT_STORAGE_KEY, sortMode);
     } catch {
-      // ignore — see getInitialTheme
+      // ignore — sandboxed MCP host iframes can throw on localStorage access
     }
   }, [sortMode]);
 
@@ -264,7 +254,7 @@ function Feed({
     try {
       localStorage.setItem(READ_IDS_STORAGE_KEY, JSON.stringify([...readIds]));
     } catch {
-      // ignore — see getInitialTheme
+      // ignore — sandboxed MCP host iframes can throw on localStorage access
     }
   }, [readIds]);
 
@@ -315,7 +305,7 @@ function Feed({
     try {
       localStorage.setItem(SNAPSHOT_STORAGE_KEY, JSON.stringify(Object.fromEntries(snapshots)));
     } catch {
-      // ignore — see getInitialTheme
+      // ignore — sandboxed MCP host iframes can throw on localStorage access
     }
   }, [snapshots]);
 
@@ -385,8 +375,6 @@ function Feed({
               setSortMode(mode);
               scrollAreaRef.current?.scrollTo({ top: 0, behavior: "smooth" });
             }}
-            theme={theme}
-            onThemeChange={onThemeChange}
             providers={providers}
             providerFilter={providerFilter}
             onProviderFilterChange={setProviderFilter}

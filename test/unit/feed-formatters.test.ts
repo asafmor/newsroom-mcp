@@ -6,8 +6,10 @@ import {
   contributionLabel,
   developmentCount,
   freshness,
+  msUntilNextThemeBoundary,
   parseSummary,
   pruneReadIds,
+  resolveTheme,
   shortDate,
   shortTime,
   storyMatchesFilters,
@@ -186,6 +188,71 @@ describe("freshness", () => {
 
     expect(freshness(atThreshold.toISOString(), now).stale).toBe(true);
     expect(freshness(pastThreshold.toISOString(), now).stale).toBe(true);
+  });
+});
+
+describe("resolveTheme", () => {
+  // Local-time only, built from local Date components — holds regardless
+  // of the machine's timezone, same discipline as the freshness tests above.
+
+  it("is light at 07:00, the start of the day window", () => {
+    expect(resolveTheme(new Date(2026, 8, 3, 7, 0, 0))).toBe("light");
+  });
+
+  it("is dark at 06:59, just before the day window opens", () => {
+    expect(resolveTheme(new Date(2026, 8, 3, 6, 59, 0))).toBe("dark");
+  });
+
+  it("is light at 18:59, the last minute of the day window", () => {
+    expect(resolveTheme(new Date(2026, 8, 3, 18, 59, 0))).toBe("light");
+  });
+
+  it("is dark at 19:00, the start of the night window", () => {
+    expect(resolveTheme(new Date(2026, 8, 3, 19, 0, 0))).toBe("dark");
+  });
+
+  it("is dark at midnight", () => {
+    expect(resolveTheme(new Date(2026, 8, 3, 0, 0, 0))).toBe("dark");
+  });
+
+  it("is light at midday", () => {
+    expect(resolveTheme(new Date(2026, 8, 3, 12, 30, 0))).toBe("light");
+  });
+
+  it("is dark late at night", () => {
+    expect(resolveTheme(new Date(2026, 8, 3, 23, 30, 0))).toBe("dark");
+  });
+});
+
+describe("msUntilNextThemeBoundary", () => {
+  // Same local-time discipline as resolveTheme above.
+
+  it("is 60s from 18:59:00 to 19:00", () => {
+    expect(msUntilNextThemeBoundary(new Date(2026, 8, 3, 18, 59, 0, 0))).toBe(60_000);
+  });
+
+  it("is 60s from 06:59:00 to 07:00", () => {
+    expect(msUntilNextThemeBoundary(new Date(2026, 8, 3, 6, 59, 0, 0))).toBe(60_000);
+  });
+
+  it("rolls to the NEXT boundary (07:00 the following day) when now is exactly 19:00, never 0", () => {
+    const delay = msUntilNextThemeBoundary(new Date(2026, 8, 3, 19, 0, 0, 0));
+    expect(delay).toBeGreaterThan(0);
+    expect(delay).toBe(12 * 60 * 60 * 1000);
+  });
+
+  it("rolls to the same day's 19:00 when now is exactly 07:00, never 0", () => {
+    const delay = msUntilNextThemeBoundary(new Date(2026, 8, 3, 7, 0, 0, 0));
+    expect(delay).toBeGreaterThan(0);
+    expect(delay).toBe(12 * 60 * 60 * 1000);
+  });
+
+  it("crosses midnight correctly from 23:30 to next day's 07:00 (7.5h)", () => {
+    expect(msUntilNextThemeBoundary(new Date(2026, 8, 3, 23, 30, 0, 0))).toBe(7.5 * 60 * 60 * 1000);
+  });
+
+  it("lands exactly on 19:00:00.000 from 18:59:30.500, sub-minute precision", () => {
+    expect(msUntilNextThemeBoundary(new Date(2026, 8, 3, 18, 59, 30, 500))).toBe(29_500);
   });
 });
 

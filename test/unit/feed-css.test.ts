@@ -181,19 +181,6 @@ describe("feed freshness", () => {
 });
 
 describe("feed header controls", () => {
-  it("gives the theme toggle a persistent background with stronger interaction states", () => {
-    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
-    const themeToggleRule = /\.newsroomFeed \.theme-toggle\s*\{[^}]*\}/.exec(css)?.[0];
-    const themeToggleHoverRule = /\.theme-toggle:hover\s*\{[^}]*\}/.exec(css)?.[0];
-    const themeToggleActiveRule = /\.theme-toggle:active\s*\{[^}]*\}/.exec(css)?.[0];
-
-    expect(themeToggleRule).toContain("width: var(--control-h)");
-    expect(themeToggleRule).toContain("height: var(--control-h)");
-    expect(themeToggleRule).toContain("background: var(--border-soft)");
-    expect(themeToggleHoverRule).toContain("var(--fg) 6%");
-    expect(themeToggleActiveRule).toContain("var(--fg) 11%");
-  });
-
   it("uses the sort-label font size without shrinking the search and select controls", () => {
     const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
     const searchInputRule = /\.newsroomFeed \.search-input\s*\{[^}]*\}/.exec(css)?.[0];
