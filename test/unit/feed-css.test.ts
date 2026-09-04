@@ -151,6 +151,58 @@ describe("story summary preview", () => {
   });
 });
 
+describe("avatar overflow placeholder legibility", () => {
+  it("renders the +N placeholder digits larger than the base 9px avatar font, and off the mono family whose glyph metrics de-centered it", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const moreRule = /\.avatar\.more\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(moreRule).toBeDefined();
+    expect(moreRule).not.toContain("var(--font-mono)");
+    const fontSizeMatch = /font-size:\s*(\d+)px/.exec(moreRule ?? "");
+    expect(fontSizeMatch).not.toBeNull();
+    expect(Number(fontSizeMatch?.[1])).toBeGreaterThan(9);
+  });
+});
+
+describe("desktop header logo edge alignment", () => {
+  it("keeps the logo's --header-pad-x pull-back in sync with the header's own padding, so it still reaches the header's content edge exactly", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const desktopBlock = /@media \(min-width: 640px\) \{([\s\S]*?)\n\}/.exec(css)?.[1] ?? "";
+    const headerRule = /\.newsroomFeed:not\(\.newsroomFeed--mcp\) \.feed-header\s*\{[^}]*\}/.exec(desktopBlock)?.[0];
+
+    expect(headerRule).toBeDefined();
+    // The shell carries no padding-inline at desktop, so the header's own
+    // border edge sits flush with .app-shell's edge and .brand-logo's
+    // existing pull-back (keyed to the same --header-pad-x) lands the logo
+    // at exactly 0. Nothing here cancels a shell inset — there isn't one.
+    expect(headerRule).toContain("--header-pad-x: var(--space-8)");
+    expect(headerRule).toContain("padding-inline: var(--header-pad-x)");
+    expect(headerRule).not.toContain("margin-inline");
+  });
+
+  it("drops the shell's doubled-up desktop side padding instead of cancelling it per-child", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const desktopBlock = /@media \(min-width: 640px\) \{([\s\S]*?)\n\}/.exec(css)?.[1] ?? "";
+    const shellRule = /\.newsroomFeed:not\(\.newsroomFeed--mcp\) \.app-shell\s*\{[^}]*\}/.exec(desktopBlock)?.[0];
+    const feedRule = /\.newsroomFeed:not\(\.newsroomFeed--mcp\) \.story-feed\s*\{[^}]*\}/.exec(desktopBlock)?.[0];
+
+    // The shell's own 24px is gone — it was what held the logo short of the
+    // shell's left edge, and it stacked on top of each child's own inset.
+    expect(shellRule).toContain("max-width: 960px");
+    expect(shellRule).not.toContain("padding-inline");
+    // Children keep their single, unstacked inset (not a compensating bump).
+    expect(feedRule).toContain("padding-inline: var(--space-6)");
+  });
+
+  it("leaves the base (mobile) .feed-header and .brand-logo rules untouched", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const baseHeaderRule = /^\.feed-header\s*\{[^}]*\}/m.exec(css)?.[0];
+
+    expect(baseHeaderRule).toContain("--header-pad-x: var(--space-3)");
+    expect(baseHeaderRule).not.toContain("margin-inline");
+  });
+});
+
 describe("mobile filter row recomposition", () => {
   it("gives search its own full row, wrapping provider/tag onto the next one, below 640px", () => {
     const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
@@ -177,6 +229,37 @@ describe("feed freshness", () => {
     const tsx = readFileSync(new URL("../../views/_shared/feed/FeedHeader.tsx", import.meta.url), "utf8");
 
     expect(tsx).toMatch(/<span className="stale-badge">Stale<\/span>/);
+  });
+});
+
+describe("story card avatar overflow", () => {
+  // No DOM/React test harness exists in this repo (see docs/testing.md) —
+  // these assert on the source text, the same convention every other test
+  // in this file uses for StoryCard.tsx/feed.css.
+  const tsx = readFileSync(new URL("../../views/_shared/feed/StoryCard.tsx", import.meta.url), "utf8");
+  const avatarStackBlock = /<span className="avatar-stack">[\s\S]*?<\/span>\s*<span className="source-count">/.exec(tsx)?.[0] ?? "";
+
+  it("renders the one hidden provider's real avatar (via the shared <Avatar>, so its own logo/initials-\
+fallback logic — including the no-known-logo case — applies unchanged) when exactly 1 provider overflows", () => {
+    expect(avatarStackBlock).toMatch(/extra === 1 \? \(\s*<Avatar providerName=\{uniqueSources\[shown\.length\]\.providerName\} \/>/);
+  });
+
+  it("still renders the generic +N placeholder circle when 2+ providers overflow", () => {
+    expect(avatarStackBlock).toMatch(/extra > 1 \? \(\s*<span className="avatar more">\+\{extra\}<\/span>/);
+  });
+
+  it("renders no overflow avatar and no placeholder when nothing overflows", () => {
+    expect(avatarStackBlock).toMatch(/\) : null/);
+  });
+
+  it("keeps the adjacent caption numeric ('+N') for every overflow count, including exactly 1 — provider\
+ names don't fit there", () => {
+    const sourceCountBlock = /<span className="source-count">[\s\S]*?<\/span>/.exec(tsx)?.[0] ?? "";
+
+    expect(sourceCountBlock).toContain('{extra > 0 ? ` +${String(extra)}` : ""}');
+    // Never touches a provider name for the overflow suffix, unlike the
+    // avatar-stack branch above which does for extra === 1.
+    expect(sourceCountBlock).not.toContain("providerName");
   });
 });
 
