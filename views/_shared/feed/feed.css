@@ -353,11 +353,24 @@ html, body { margin: 0; background: var(--bg); }
 /* How many attached sources reported a genuinely new development — accent-
    tinted so a story that has actually moved reads differently at a glance
    from one that was only re-reported. Hidden entirely at zero (StoryCard). */
-.newsroomFeed .development-badge {
+/* .delta-badge is "what changed since you last looked" — it replaces
+   .development-badge in the same slot on a read card with a non-empty delta
+   (never both at once, see StoryCard's precedence rule). One rule for both
+   on purpose: same slot, same accent-tinted treatment, only the text
+   differs, and they can't silently drift apart. */
+.newsroomFeed .development-badge,
+.newsroomFeed .delta-badge {
   margin-left: var(--space-2); padding: 1px 7px;
   border-radius: var(--radius-pill);
   background: var(--accent-soft); color: var(--accent);
   font-size: 10px; font-weight: 700; white-space: nowrap;
+}
+/* Same pill, demoted to neutral metadata on an already-read card: there the
+   cumulative count is history the reader has seen, and reusing the accent
+   would make it read as "this moved since your last visit" at a glance —
+   the one thing .delta-badge is for. Matches .contribution-tag's neutral. */
+.newsroomFeed .development-badge.is-historical {
+  background: var(--border-soft); color: var(--muted);
 }
 .story-title {
   font-size: 19px; font-weight: 700; line-height: var(--leading-tight);
@@ -506,6 +519,11 @@ html, body { margin: 0; background: var(--bg); }
   font-size: 10px; font-weight: 700; white-space: nowrap;
 }
 .newsroomFeed .contribution-tag.is-development { background: var(--accent-soft); color: var(--accent); }
+/* New-since-last-look flag on a source row or bullet (SourceSheet only) —
+   outlined rather than filled so it reads as distinct from .is-development
+   when both sit on the same row, while still conveying meaning through its
+   own text ("New source" / "New"), never color alone. */
+.newsroomFeed .contribution-tag.is-new { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
 .source-title { font-size: 14px; font-weight: 600; color: var(--fg); margin-top: 1px; line-height: 1.5; }
 .source-date { font-family: var(--font-mono); font-size: 11px; color: var(--muted); margin-top: 3px; }
 .source-item .open-icon { flex-shrink: 0; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; color: var(--accent); transition: background var(--motion-fast) var(--ease-standard); }

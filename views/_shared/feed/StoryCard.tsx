@@ -1,11 +1,13 @@
 import type { FeedStory } from "./types.js";
 import { developmentCount, latestPublishedAt, parseSummary, timeAgo } from "./formatters.js";
+import type { StoryDelta } from "./formatters.js";
 import { spawnRipple } from "./ripple.js";
 import { Avatar } from "./Avatar.js";
 
 export function StoryCard({
   story,
   isRead,
+  delta,
   onOpen,
 }: {
   readonly story: FeedStory;
@@ -13,6 +15,9 @@ export function StoryCard({
    * `undefined` means "unknown, storage unavailable" — renders identically to a pre-feature card (no class, no marker),
    * distinct from `false` ("known unread", which shows the marker). */
   readonly isRead: boolean | undefined;
+  /** "What changed since you last looked" (see FeedApp's snapshot cache) — `undefined` when there's no prior
+   * snapshot, storage is unavailable, or nothing tracked changed. Only ever surfaced on a read card (see below). */
+  readonly delta: StoryDelta | undefined;
   readonly onOpen: (story: FeedStory, trigger: HTMLElement) => void;
 }) {
   const n = story.sources.length;
@@ -26,6 +31,10 @@ export function StoryCard({
   // lede here — the bullets are reserved for the detail sheet. An
   // unstructured summary's "lede" is the full raw string, unchanged.
   const { lede } = parseSummary(story.summary);
+  // Delta precedence rule: an unread card never shows a delta badge, even
+  // when one exists — only a read card with a real, non-empty delta swaps
+  // it in for the cumulative development badge below (never both).
+  const badgeText = isRead === true ? delta?.badgeText : undefined;
 
   return (
     <article
@@ -52,8 +61,19 @@ export function StoryCard({
         <span className="dot-sep">
           {n} source{n === 1 ? "" : "s"}
         </span>
-        {developments > 0 ? (
-          <span className="development-badge" title="Sources that reported a new development">
+        {badgeText !== undefined ? (
+          <span className="delta-badge" title="What changed since you last opened this story">
+            {badgeText}
+          </span>
+        ) : developments > 0 ? (
+          // On a card the reader has already opened, this cumulative count is
+          // history they've seen — it drops to neutral metadata so the accent
+          // treatment means exactly one thing: changed since your last visit.
+          // On an unread card it's still news, and keeps the accent.
+          <span
+            className={isRead === true ? "development-badge is-historical" : "development-badge"}
+            title="Sources that reported a new development"
+          >
             {developments} update{developments === 1 ? "" : "s"}
           </span>
         ) : null}

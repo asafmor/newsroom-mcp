@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { flushSync } from "react-dom";
 
 import { EmptyState } from "./EmptyState.js";
@@ -7,11 +7,21 @@ import { SkeletonCard } from "./SkeletonCard.js";
 import { SourceSheet } from "./SourceSheet.js";
 import { StoryCard } from "./StoryCard.js";
 import type { FeedStory, SortMode, Theme } from "./types.js";
-import { availableTags, latestPublishedAt, pruneReadIds, storyMatchesFilters, unreadCount } from "./formatters.js";
+import {
+  availableTags,
+  computeStoryDelta,
+  latestPublishedAt,
+  pruneReadIds,
+  storyMatchesFilters,
+  toStorySnapshot,
+  unreadCount,
+} from "./formatters.js";
+import type { StoryDelta, StorySnapshot } from "./formatters.js";
 
 const THEME_STORAGE_KEY = "newsroom-theme";
 const SORT_STORAGE_KEY = "newsroom-sort-mode";
 const READ_IDS_STORAGE_KEY = "newsroom-read-ids";
+const SNAPSHOT_STORAGE_KEY = "newsroom-story-snapshots";
 
 // Sandboxed MCP host iframes can throw on localStorage access — theme
 // persistence is a nicety, not something worth crashing the feed over.
@@ -59,6 +69,56 @@ function getInitialReadIds(): Set<string> | undefined {
     // malformed JSON — fall through to "no read ids", never partially trusted
   }
   return new Set();
+}
+
+function isStorySnapshot(v: unknown): v is StorySnapshot {
+  if (typeof v !== "object" || v === null) return false;
+  const o = v as Record<string, unknown>;
+  return (
+    Array.isArray(o.sourceUrls) &&
+    o.sourceUrls.every((u) => typeof u === "string") &&
+    typeof o.developmentCount === "number" &&
+    Array.isArray(o.tags) &&
+    o.tags.every((t) => typeof t === "string") &&
+    Array.isArray(o.bullets) &&
+    o.bullets.every((b) => typeof b === "string")
+  );
+}
+
+/**
+ * Cached per-story snapshots used to compute "what changed since you last
+ * looked" (see computeStoryDelta). Same tri-state discipline as
+ * getInitialReadIds above: `undefined` means storage is inaccessible this
+ * session, and the whole delta feature must go silent (no badges, no
+ * sheet flags, no write attempt) rather than show a "0 changes" lie —
+ * distinct from an empty/absent cache, which is a normal first visit.
+ *
+ * UPGRADE NOTE: this cache ships after readIds is already populated for
+ * returning readers. On the first load after deploy, every story is a
+ * first-ever visit to *this* cache, so no story shows a delta that load
+ * even though many cards are already marked read — expected and
+ * self-correcting from the next load on, not a bug.
+ */
+function getInitialSnapshots(): Map<string, StorySnapshot> | undefined {
+  let raw: string | null;
+  try {
+    raw = localStorage.getItem(SNAPSHOT_STORAGE_KEY);
+  } catch {
+    return undefined;
+  }
+  if (raw === null) return new Map(); // first visit / cleared storage — normal, seeds silently
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    if (typeof parsed === "object" && parsed !== null && !Array.isArray(parsed)) {
+      const entries = Object.entries(parsed as Record<string, unknown>);
+      if (entries.every(([, v]) => isStorySnapshot(v))) {
+        return new Map(entries as [string, StorySnapshot][]);
+      }
+    }
+  } catch {
+    // malformed JSON — fall through to an empty cache, never partially trusted
+  }
+  return new Map();
 }
 
 export type FeedState =
@@ -208,6 +268,57 @@ function Feed({
     }
   }, [readIds]);
 
+  // `undefined` = storage unavailable this session (see getInitialSnapshots)
+  // — the delta feature goes silent rather than showing a "0 changes" lie.
+  const [snapshots, setSnapshots] = useState<Map<string, StorySnapshot> | undefined>(getInitialSnapshots);
+
+  // Computed during render (never blocks/delays first paint), comparing each
+  // story against the snapshot cache AS IT STOOD BEFORE this load.
+  // `generatedAt` — unique per get-feed call — is the load boundary and the
+  // only intentional dependency: `snapshots` is read but must NOT be one,
+  // since the overwrite effect below updates it right after this render, and
+  // recomputing against the just-overwritten cache would compare it to itself
+  // and erase every delta. Mirrors the read-before-write ordering openStory
+  // already uses for readIds. Keyed on `generatedAt` rather than the
+  // `stories` array so this never depends on the host preserving object
+  // identity across unrelated re-renders.
+  const deltas = useMemo(() => {
+    if (snapshots === undefined) return undefined;
+    const map = new Map<string, StoryDelta>();
+    for (const story of stories) {
+      const delta = computeStoryDelta(snapshots.get(story.id), story);
+      if (delta !== undefined) map.set(story.id, delta);
+    }
+    return map;
+  }, [generatedAt]);
+
+  // Overwrite only AFTER the comparison above already ran this render —
+  // never merge this into the memo, or the "before" value would already be
+  // gone by the time it's read. Same `generatedAt` load key as the memo, so
+  // the read and the overwrite always run against the same load. Also
+  // prunes: reuses pruneReadIds (same helper readIds prunes with) over the
+  // cached ids instead of a parallel Map-pruning function, so a snapshot for
+  // a story no longer in the feed never lingers past this load.
+  useEffect(() => {
+    setSnapshots((prev) => {
+      if (prev === undefined) return prev;
+      const currentIds = stories.map((s) => s.id);
+      const keptIds = new Set(pruneReadIds([...prev.keys()], currentIds));
+      const next = new Map([...prev].filter(([id]) => keptIds.has(id)));
+      for (const story of stories) next.set(story.id, toStorySnapshot(story));
+      return next;
+    });
+  }, [generatedAt]);
+
+  useEffect(() => {
+    if (snapshots === undefined) return;
+    try {
+      localStorage.setItem(SNAPSHOT_STORAGE_KEY, JSON.stringify(Object.fromEntries(snapshots)));
+    } catch {
+      // ignore — see getInitialTheme
+    }
+  }, [snapshots]);
+
   const [selected, setSelected] = useState<FeedStory | undefined>(undefined);
   // Stays set through the sheet's close transition so it doesn't unmount
   // (and lose its content) before the animation finishes — cleared by
@@ -301,7 +412,13 @@ function Feed({
               />
             ) : (
               sorted.map((story) => (
-                <StoryCard key={story.id} story={story} isRead={readIds?.has(story.id)} onOpen={openStory} />
+                <StoryCard
+                  key={story.id}
+                  story={story}
+                  isRead={readIds?.has(story.id)}
+                  delta={deltas?.get(story.id)}
+                  onOpen={openStory}
+                />
               ))
             )}
           </main>
@@ -319,6 +436,7 @@ function Feed({
           onClose={closeSheet}
           onExited={() => { setRenderedStory(undefined); }}
           onOpenSource={onOpenSource}
+          delta={deltas?.get(renderedStory.id)}
         />
       )}
     </>
