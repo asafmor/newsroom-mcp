@@ -85,10 +85,20 @@ export function StoryCard({
           {shown.map((s, i) => (
             <Avatar providerName={s.providerName} key={i} />
           ))}
-          {extra > 0 ? <span className="avatar more">+{extra}</span> : null}
+          {/* Exactly 1 overflow provider: show its real avatar instead of a
+              generic "+1" circle — it's concrete enough to render like any
+              other avatar. 2+ providers still fall back to the "+N" circle
+              since their names wouldn't fit here. */}
+          {extra === 1 ? (
+            <Avatar providerName={uniqueSources[shown.length].providerName} />
+          ) : extra > 1 ? (
+            <span className="avatar more">+{extra}</span>
+          ) : null}
         </span>
         <span className="source-count">
           {names}
+          {/* Caption stays numeric even at extra === 1 — provider names can
+              be too long to fit next to the summarized list above. */}
           {extra > 0 ? ` +${String(extra)}` : ""}
         </span>
       </div>

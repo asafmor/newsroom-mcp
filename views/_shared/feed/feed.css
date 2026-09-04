@@ -379,7 +379,13 @@ html, body { margin: 0; background: var(--bg); }
 }
 .avatar:first-child { margin-left: 0; }
 .avatar-logo { width: 100%; height: 100%; object-fit: contain; }
-.avatar.more { background: var(--fg-2); color: var(--accent-on); }
+/* Scoutie Sans is a display font, not a true monospace — its "+" glyph
+   carries asymmetric side-bearings against a digit, so place-items: center
+   (inherited from .avatar above) centers the *box* but not the visible
+   glyphs. A plain sans-serif's symmetric digit/plus metrics fix that
+   without touching .avatar's initials fallback, which stays on the mono
+   family. */
+.avatar.more { background: var(--fg-2); color: var(--accent-on); font-family: sans-serif; font-size: 12px; line-height: 1; }
 .source-count { font-size: var(--text-xs); line-height: normal; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 
 /* ─── source sheet (deep dive) ─────────────────────────────────────────── */
@@ -510,9 +516,15 @@ html, body { margin: 0; background: var(--bg); }
 /* ─── desktop: standalone site only (.newsroomFeed--mcp opts out — it's
    always rendered at fixed card width inside a sandboxed host panel) ──── */
 @media (min-width: 640px) {
+  /* Deliberately no padding-inline: the shell is a bare box at desktop.
+     Its old --space-6 was a second inset stacked on top of the one every
+     child below already applies, and it held .brand-logo (whose pull-back
+     margin only reaches .feed-header's edge) 24px short of the shell's left
+     edge. Each child owns its own horizontal inset now — the header's
+     background/border-bottom spans the full shell width as a result, which
+     is intended. */
   .newsroomFeed:not(.newsroomFeed--mcp) .app-shell {
     max-width: 960px;
-    padding-inline: var(--space-6);
   }
   .newsroomFeed:not(.newsroomFeed--mcp) .feed-header {
     --header-pad-x: var(--space-8);
