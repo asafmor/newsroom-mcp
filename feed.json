@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T01:02:58.647Z",
+  "generatedAt": "2026-09-04T07:01:24.632Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -257,6 +257,28 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "c24e4266-eddd-44a9-afb0-782a915b5b6c",
+      "title": "Take It Down Act shows early bite, but gaps remain in fighting AI deepfake abuse",
+      "summary": "The US's first federal anti-deepfake law, the Take It Down Act, is proving to have real enforcement teeth against non-consensual AI-generated imagery, but analysts note major gaps in scope that leave many forms of AI abuse unaddressed.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-04T07:01:09.698Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T07:01:09.698Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "The Take It Down Act Is Just the Beginning of Fighting AI Abuse Online",
+          "url": "https://www.cnet.com/tech/services-and-software/inside-take-it-down-act-ai-deepfakes-image-abuse-analysis/",
+          "publishedAt": "2026-09-03T19:48:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
+      ]
     },
     {
       "id": "048ab2d3-419e-49dc-9ccf-cd7d298c869d",
@@ -705,6 +727,27 @@
           "title": "Abliteration.ai is making a business out of removing AI guardrails",
           "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
           "publishedAt": "2026-09-03T18:37:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "91469324-7acc-40cf-9430-54f7a43b7514",
+      "title": "ChatGPT-guided hike ends in emergency rescue at 11,000 feet",
+      "summary": "A hiker following ChatGPT's route advice needed an emergency rescue at 11,000 feet, another case underscoring the danger of relying on AI chatbots for safety-critical, real-world planning.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-04T07:01:12.427Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T07:01:12.427Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "AI-Guided Hike Ends in Emergency Rescue at 11,000 Feet",
+          "url": "https://www.cnet.com/tech/services-and-software/ai-guided-hike-ends-in-emergency-rescue-at-11000-feet/",
+          "publishedAt": "2026-09-03T19:28:01.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1316,51 +1359,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "48779ff7-7709-48cc-b24f-15b5a96cdfc2",
-      "title": "Nvidia's PAIR lets idle PCs pool into a home AI computing network",
-      "summary": "Nvidia unveiled PAIR at IFA 2026, a free open-source tool that distributes AI workloads across idle PCs on a home network, letting underused hardware contribute to AI computing tasks.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-03T17:01:49.172Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T17:01:49.172Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "NVIDIA's PAIR lets you use idle PCs for AI computing tasks",
-          "url": "https://www.engadget.com/2250189/nvidia-ifa-2026-pair-distributed-ai-computing-home-network/",
-          "publishedAt": "2026-09-03T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure",
-        "open-source"
-      ]
-    },
-    {
-      "id": "c277edcb-ae7a-4ff0-8928-d78ec8148954",
-      "title": "Google rolls out AI voice features for Gmail, Docs and Keep",
-      "summary": "Google is rolling out its AI-powered voice tools to Gmail, Docs, Keep, and Live for paying customers, extending voice-driven interaction across its productivity suite.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-03T17:01:49.168Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T17:01:49.168Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Google rolls out AI-powered voice capabilities for Gmail, Docs and Keep",
-          "url": "https://www.engadget.com/2250178/google-rolls-out-ai-voice-gmail-docs-keep/",
-          "publishedAt": "2026-09-03T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 164,
+  "totalCount": 168,
   "hasMore": true
 }
