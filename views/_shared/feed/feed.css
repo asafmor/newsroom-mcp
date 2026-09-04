@@ -365,12 +365,16 @@ html, body { margin: 0; background: var(--bg); }
   background: var(--accent-soft); color: var(--accent);
   font-size: 10px; font-weight: 700; white-space: nowrap;
 }
-/* Same pill, demoted to neutral metadata on an already-read card: there the
+/* Same pill, demoted to plain metadata on an already-read card: there the
    cumulative count is history the reader has seen, and reusing the accent
    would make it read as "this moved since your last visit" at a glance —
-   the one thing .delta-badge is for. Matches .contribution-tag's neutral. */
+   the one thing .delta-badge is for. Drops the pill fill entirely rather
+   than tinting it a faint grey, so it inherits exactly the .story-meta-row
+   treatment it sits in (--muted on the card surface, 4.76:1 light /
+   5.11:1 dark) instead of landing on a mid-tone chip that fails WCAG AA
+   for 10px text. */
 .newsroomFeed .development-badge.is-historical {
-  background: var(--border-soft); color: var(--muted);
+  background: transparent; color: var(--muted);
 }
 .story-title {
   font-size: 19px; font-weight: 700; line-height: var(--leading-tight);

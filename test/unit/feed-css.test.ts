@@ -129,6 +129,9 @@ describe("story delta badge", () => {
     // Neutral, not accent — otherwise it reads as a fresh change at a glance.
     expect(historicalRule).toContain("color: var(--muted)");
     expect(historicalRule).not.toContain("var(--accent)");
+    // No pill fill: it inherits .story-meta-row's own --muted-on-surface pair,
+    // which clears WCAG AA in both themes. A faint grey chip did not (4.20:1).
+    expect(historicalRule).toContain("background: transparent");
     // Applied only when the card is known-read; unread cards keep the accent.
     expect(tsx).toContain('isRead === true ? "development-badge is-historical" : "development-badge"');
   });
