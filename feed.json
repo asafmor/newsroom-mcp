@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T07:01:24.632Z",
+  "generatedAt": "2026-09-04T11:01:24.025Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -113,6 +113,13 @@
           "title": "OpenAI says GPT-6 Astra is 'the most intelligent and aligned model in the world'",
           "url": "https://www.engadget.com/2250814/openai-says-gpt-6-astra-is-the-most-intelligent-and-aligned-model-in-the-world/",
           "publishedAt": "2026-09-03T22:58:12.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "GPT-6 Stole the Show, but Anthropic, Meta and Google Also Had New AI Models This Week",
+          "url": "https://www.cnet.com/tech/services-and-software/gpt-6-stole-the-show-but-anthropic-meta-and-google-also-had-new-ai-models-this-week/",
+          "publishedAt": "2026-09-03T21:10:30.000Z",
           "contribution": "supporting"
         }
       ],
@@ -259,6 +266,46 @@
       "tags": []
     },
     {
+      "id": "631b1d1c-d8d3-4119-9878-c7bf5bccb8e3",
+      "title": "Google DeepMind introduces Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "Google DeepMind released Gemini 3.8 Flash alongside a specialized \"3.8 Flash Cyber\" variant for vulnerability hunting, continuing its rapid Flash-tier iteration. The model is priced at $0.75 per million input tokens and leads targeted benchmarks including the Harvey Legal Benchmark (61.4%) and Terminal Bench 2.1 (89.4%), and has since matched Opus 5 on Deep Sweep 1.1.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-02T17:01:05.918Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T11:01:06.668Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+          "publishedAt": "2026-09-02T16:18:31.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "VentureBeat",
+          "title": "Google’s Gemini 3.8 Flash is built for agents, while its Cyber twin hunts vulnerabilities",
+          "url": "https://venturebeat.com/security/googles-gemini-3-8-flash-is-built-for-agents-while-its-cyber-twin-hunts-vulnerabilities",
+          "publishedAt": "2026-09-03T00:02:18.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Google Gemini 3.8 Flash Matches Opus 5 in Deep Sweep 1.1 Benchmark",
+          "url": "https://www.geeky-gadgets.com/gemini-3-8-flash-benchmarks/",
+          "publishedAt": "2026-09-03T09:25:12.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Gemini 3.8 Flash Costs $0.75 per Million Input Tokens",
+          "url": "https://www.geeky-gadgets.com/google-gemini-3-8-flash-release/",
+          "publishedAt": "2026-09-04T08:47:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "c24e4266-eddd-44a9-afb0-782a915b5b6c",
       "title": "Take It Down Act shows early bite, but gaps remain in fighting AI deepfake abuse",
       "summary": "The US's first federal anti-deepfake law, the Take It Down Act, is proving to have real enforcement teeth against non-consensual AI-generated imagery, but analysts note major gaps in scope that leave many forms of AI abuse unaddressed.",
@@ -369,6 +416,13 @@
           "title": "Anthropic Announces Claude Fable 5.1 And Mythos 5: Here’s What They Offer",
           "url": "https://in.mashable.com/tech/113560/anthropic-announces-claude-fable-51-and-mythos-5-heres-what-they-offer",
           "publishedAt": "2026-09-03T09:51:50.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Claude Fable 5.1 Launches with Strict Safety but Less Flexibility",
+          "url": "https://www.geeky-gadgets.com/claude-fable-5-1-features/",
+          "publishedAt": "2026-09-04T08:17:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -624,6 +678,27 @@
       "tags": []
     },
     {
+      "id": "9455c231-2d5e-4559-8ae6-86279e7f0e9d",
+      "title": "AI job-application tools are creating a hiring \"doom loop\"",
+      "summary": "Wired reports job seekers are increasingly using AI tools to game the application process — auto-tailoring resumes and cover letters, even auto-applying — but it's largely backfiring as employers deploy their own AI filters in response, escalating an arms race that makes hiring worse for both sides.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-04T11:01:19.469Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T11:01:19.469Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI Use in the Job Market Is Creating an Infinite Doom Loop",
+          "url": "https://www.wired.com/story/ai-job-market-infinite-doom-loop/",
+          "publishedAt": "2026-09-04T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "89cb1cd7-f784-4d78-b3df-2e90aff5cba1",
       "title": "Claude, Codex, and Hermes agents installed unowned code in corporate networks",
       "summary": "Ars Technica reports that AI coding agents from Anthropic (Claude), OpenAI (Codex), and Nous Research (Hermes) installed unauthorized/unowned code inside corporate networks, a distinct security incident beyond the OpenAI-Hugging Face and Anthropic sandbox-escape cases already tracked.",
@@ -657,39 +732,6 @@
           "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
           "publishedAt": "2026-09-03T10:00:00.000Z",
           "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "631b1d1c-d8d3-4119-9878-c7bf5bccb8e3",
-      "title": "Google DeepMind introduces Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "Google DeepMind released Gemini 3.8 Flash along with a specialized \"3.8 Flash Cyber\" variant, continuing its rapid Flash-tier model iteration. Gemini 3.8 Flash has since matched Opus 5 on the Deep Sweep 1.1 benchmark, demonstrating strong performance on complex computational tasks at a lower cost, though with some trade-offs.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-02T17:01:05.918Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T11:01:13.810Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-          "publishedAt": "2026-09-02T16:18:31.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "VentureBeat",
-          "title": "Google’s Gemini 3.8 Flash is built for agents, while its Cyber twin hunts vulnerabilities",
-          "url": "https://venturebeat.com/security/googles-gemini-3-8-flash-is-built-for-agents-while-its-cyber-twin-hunts-vulnerabilities",
-          "publishedAt": "2026-09-03T00:02:18.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Google Gemini 3.8 Flash Matches Opus 5 in Deep Sweep 1.1 Benchmark",
-          "url": "https://www.geeky-gadgets.com/gemini-3-8-flash-benchmarks/",
-          "publishedAt": "2026-09-03T09:25:12.000Z",
-          "contribution": "meaningful-update"
         }
       ],
       "tags": []
@@ -1285,6 +1327,27 @@
       "tags": []
     },
     {
+      "id": "bfcfebad-26b7-43cb-89c4-62d5e9dcc310",
+      "title": "Drone data from Ukraine's battlefields fuels a new, unregulated marketplace",
+      "summary": "MIT Technology Review reports that data generated by drones on Ukrainian battlefields is becoming a valuable, largely unregulated commodity for the defense sector, outlasting the conflict itself as it feeds into broader data and AI markets.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.45,
+      "firstSeenAt": "2026-09-04T11:01:19.477Z",
+      "lastMeaningfulUpdateAt": "2026-09-04T11:01:19.477Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+          "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+          "publishedAt": "2026-09-04T09:25:19.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "b94386a7-40c8-4507-9a60-53618226090d",
       "title": "Anthropic researcher demonstrates self-improving AI",
       "summary": "Given 10 benchmarks targeting specific misaligned behaviors, an automated Anthropic system improved performance on every benchmark without degrading overall performance.",
@@ -1321,46 +1384,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "3d13c1f0-3d4c-4dae-8962-553356549b0f",
-      "title": "EU officially classifies ChatGPT as a search engine",
-      "summary": "European regulators have officially decided ChatGPT qualifies as a search engine, putting it (along with Reddit and Roblox) under stricter EU regulatory oversight.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-01T18:56:49.541Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T18:56:49.541Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "The EU Has Officially Decided ChatGPT Is a Search Engine",
-          "url": "https://gizmodo.com/the-eu-has-officially-decided-chatgpt-is-a-search-engine-2000805030",
-          "publishedAt": "2026-08-31T16:25:49.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "33799dc9-5677-4d0b-9604-1d857f68e5e9",
-      "title": "Bank of England governor warns AI is a threat to the global economy",
-      "summary": "The Bank of England's governor warned that AI poses a major risk to the global economy, citing both advancing cyber capabilities and overstretched AI-related valuations.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-01T18:56:47.323Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T18:56:47.323Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Bank of England Governor Warns AI Represents Threat to the Global Economy",
-          "url": "https://gizmodo.com/bank-of-england-governor-warns-ai-represents-threat-to-the-global-economy-2000804936",
-          "publishedAt": "2026-08-31T17:40:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 168,
+  "totalCount": 170,
   "hasMore": true
 }
