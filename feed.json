@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T08:42:22.842Z",
+  "generatedAt": "2026-09-06T10:44:00.282Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -363,6 +363,28 @@
       "tags": [
         "funding",
         "open-source"
+      ]
+    },
+    {
+      "id": "412c72e2-2b86-43b4-a8fa-714c707a47f4",
+      "title": "Wired finds Apple’s forthcoming Siri AI has faded from view",
+      "summary": "A Wired review says the beta version of Apple’s revamped Siri assistant initially impressed but has become easy to forget as the full release approaches, raising a consumer-facing question about whether Apple’s AI assistant can sustain attention beyond its launch.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-06T10:43:49.111Z",
+      "lastMeaningfulUpdateAt": "2026-09-06T10:43:49.111Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "My Brief Summer Fling With Siri AI",
+          "url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
+          "publishedAt": "2026-09-06T10:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion",
+        "product-launch"
       ]
     },
     {
@@ -1446,27 +1468,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "3120f175-6243-4c2e-9b37-68675c9988d1",
-      "title": "Lawsuit claims Grok generated CSAM and was trained on it",
-      "summary": "A new lawsuit alleges that xAI's Grok not only generated child sexual abuse material but was also trained on such material, a serious legal claim against the company.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-01T18:56:56.085Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T18:56:56.085Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Grok Not Only Generates Child Porn but Was Also Trained On It, New Lawsuit Claims",
-          "url": "https://gizmodo.com/grok-not-only-generates-child-porn-but-was-also-trained-on-it-new-lawsuit-claims-2000804488",
-          "publishedAt": "2026-08-28T20:50:13.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 184,
+  "totalCount": 185,
   "hasMore": true
 }
