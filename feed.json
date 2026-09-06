@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T16:48:20.675Z",
+  "generatedAt": "2026-09-06T18:50:15.208Z",
   "stories": [
     {
       "id": "caf8e12a-6aaf-43a0-909d-a41e29a043b1",
@@ -112,6 +112,50 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "3b7ac64a-847f-4b4b-9ea5-12a75990f182",
+      "title": "OpenAI rolls out teen-focused ChatGPT parental controls",
+      "summary": "OpenAI has introduced teen-focused ChatGPT tools that give parents granular control over what their children can access. The consumer safety feature is distinct from the company's support for California youth AI-safety legislation.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-06T18:50:02.806Z",
+      "lastMeaningfulUpdateAt": "2026-09-06T18:50:02.806Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "How to set up ChatGPT's parental controls to protect your teen",
+          "url": "https://www.engadget.com/2247843/how-to-set-up-chatgpt-parental-controls/",
+          "publishedAt": "2026-09-06T17:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "safety"
+      ]
+    },
+    {
+      "id": "d3b9183b-9dee-4c74-b005-4cd5afad266a",
+      "title": "OpenAI's chief scientist calls for stronger AI safeguards and international coordination",
+      "summary": "OpenAI chief scientist Jakub Pachocki argues that increasingly capable AI will require stronger safeguards and international coordination to keep systems aligned. The post is a senior-lab perspective on AI safety rather than a product or policy announcement.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-06T18:50:02.792Z",
+      "lastMeaningfulUpdateAt": "2026-09-06T18:50:02.792Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "An Alien Mind",
+          "url": "https://openai.com/index/an-alien-mind",
+          "publishedAt": "2026-09-06T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
       ]
     },
     {
@@ -1428,49 +1472,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "e3cfc552-2c86-40b8-91bb-1f9f6c91a135",
-      "title": "Wonderful more than doubles valuation to $5B in under 6 months",
-      "summary": "AI startup Wonderful raised a $550M Series C, more than doubling its valuation to $5B in under six months. It plans to use the funding to develop products faster, expand its forward-deployed-engineer teams, and meet demand.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-02T17:00:54.430Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T17:00:54.430Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Wonderful more than doubles its valuation to $5B in under 6 months",
-          "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
-          "publishedAt": "2026-09-02T16:04:10.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "61d3629d-048a-4a4b-b4b4-e03a056cdefb",
-      "title": "NeoMME: a new efficient multimodal, multilingual encoder",
-      "summary": "Hugging Face published NeoMME, an efficient multimodal-native and multilingual encoder model.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-03T15:01:38.598Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T15:01:38.598Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-          "url": "https://huggingface.co/blog/Hcompany/neomme",
-          "publishedAt": "2026-09-03T13:13:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 187,
+  "totalCount": 189,
   "hasMore": true
 }
