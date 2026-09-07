@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T11:01:25.498Z",
+  "generatedAt": "2026-09-07T13:03:09.007Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -359,6 +359,28 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "b6cc13d6-8473-46f8-bdf5-024147b34a03",
+      "title": "Gemini Notebook adds in-app spreadsheet generation for business analysis",
+      "summary": "Gemini Notebook, formerly NotebookLM, has added the ability to generate spreadsheets inside its interface for business analysis tasks such as revenue, customer-behavior and competitor research. The reported feature is intended to reduce reliance on separate spreadsheet tools.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-07T13:02:57.123Z",
+      "lastMeaningfulUpdateAt": "2026-09-07T13:02:57.123Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Gemini Notebook Generates Built-in Spreadsheets for Business",
+          "url": "https://www.geeky-gadgets.com/gemini-notebook-business-analysis/",
+          "publishedAt": "2026-09-07T12:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
       ]
     },
     {
@@ -1464,41 +1486,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "83d1bb65-6a61-4043-93d6-d2bf16d80894",
-      "title": "Apple presents evidence against ex-employee accused of stealing data for OpenAI",
-      "summary": "Apple has added further allegations to its trade secrets lawsuit against a former employee accused of stealing company data for OpenAI, including forensic evidence from his Apple-issued MacBook that he deployed an AI agent to run simulations of a \"highly confidential\" circuit schematic, and that he tried to destroy the evidence after learning he was under investigation.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-01T06:29:43.631Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T18:57:03.175Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-          "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-          "publishedAt": "2026-09-01T00:13:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Apple adds more allegations to its trade secrets lawsuit against OpenAI",
-          "url": "https://www.engadget.com/2248199/apple-adds-more-allegations-to-its-trade-secrets-lawsuit-against-openai/",
-          "publishedAt": "2026-08-31T22:34:52.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Apple Claims Former Employee Stole Trade Secrets for OpenAI, Then Tried to Destroy the Evidence",
-          "url": "https://gizmodo.com/apple-claims-former-employee-stole-trade-secrets-for-openai-then-tried-to-destroy-the-evidence-2000805641",
-          "publishedAt": "2026-09-01T16:35:38.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 193,
+  "totalCount": 194,
   "hasMore": true
 }
