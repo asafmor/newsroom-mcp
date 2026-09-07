@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-06T18:50:15.208Z",
+  "generatedAt": "2026-09-07T00:53:59.276Z",
   "stories": [
     {
       "id": "caf8e12a-6aaf-43a0-909d-a41e29a043b1",
-      "title": "OpenAI examines how coding agents are accelerating AI research",
-      "summary": "OpenAI reports that coding agents are reshaping its research workflow, citing early internal data on agent use, experiment velocity, task complexity, and research acceleration.",
-      "importanceScore": 0.75,
+      "title": "OpenAI says it has built an automated research intern",
+      "summary": "OpenAI says coding agents are accelerating its research workflow, drawing on internal data about experiment velocity and task complexity. The company says it has reached its goal of creating an automated research intern and is now aiming for a more capable automated AI researcher by March 2028.",
+      "importanceScore": 0.8,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-06T16:48:09.878Z",
-      "lastMeaningfulUpdateAt": "2026-09-06T16:48:09.878Z",
+      "lastMeaningfulUpdateAt": "2026-09-07T00:53:48.113Z",
       "sources": [
         {
           "providerName": "OpenAI News",
@@ -16,10 +16,38 @@
           "url": "https://openai.com/index/research-acceleration-view-inside-openai",
           "publishedAt": "2026-09-06T08:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI says it reached its goal of creating an automated research intern",
+          "url": "https://www.engadget.com/2251859/openai-says-it-reached-its-goal-of-creating-an-automated-research-intern/",
+          "publishedAt": "2026-09-06T19:26:52.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "e755a3a2-0ad7-40b2-b17a-1545cfc7190a",
+      "title": "Authors challenge publishers' claims to Anthropic settlement payments",
+      "summary": "Authors are pushing back on publishers' and agents' claims to a larger share of settlement payments in Anthropic's copyright case, exposing a new dispute over how compensation reaches the writers whose work is at issue.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-07T00:53:48.104Z",
+      "lastMeaningfulUpdateAt": "2026-09-07T00:53:48.104Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+          "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+          "publishedAt": "2026-09-06T20:47:37.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
       ]
     },
     {
@@ -1453,27 +1481,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "fe5c1581-9b69-4265-a37c-6dd77a54def2",
-      "title": "HiddenLayer raises $100M as enterprises rush to secure AI deployments",
-      "summary": "AI security startup HiddenLayer raised $100M as enterprises scramble to secure AI deployments. Security vendors are increasingly building products that monitor not just AI agents but also the tools and add-ons those agents use.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-02T17:00:59.214Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T17:00:59.214Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
-          "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
-          "publishedAt": "2026-09-02T15:01:23.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 189,
+  "totalCount": 190,
   "hasMore": true
 }
