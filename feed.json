@@ -1,6 +1,154 @@
 {
-  "generatedAt": "2026-09-07T06:56:54.315Z",
+  "generatedAt": "2026-09-07T08:58:26.019Z",
   "stories": [
+    {
+      "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
+      "title": "OpenAI launches GPT-6 Astra, its first \"critical\" cyber-capability model",
+      "summary": "OpenAI has released GPT-6 Astra, a computer-use/agentic model that leadership framed as marking the start of an \"AGI era.\" It's the first OpenAI model to cross the company's Preparedness Framework \"critical\" cybersecurity threshold — scoring 100% on ExploitBench and finding real zero-days in testing — so its most advanced cyber capabilities are initially limited to trusted defenders via Daybreak Blue. OpenAI committed $1 billion under \"Daybreak for Frontline Defenders\" to expand access to that frontier cyber AI, plus training and support, for essential services. Astra posts strong benchmark results, though OpenAI's framing has drawn scrutiny over what those numbers measure and the absence of its GDPval real-world-work benchmark. It is rolling out to enterprise, ChatGPT and API customers with tiered pricing and additional monitoring safeguards; early access problems left some paying users unable to use the new model, prompting Sam Altman to apologize and offer usage resets. A separate critique argues that Astra's more advanced, less legible reasoning makes the human oversight OpenAI has championed harder to provide.",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-01T21:20:51.430Z",
+      "lastMeaningfulUpdateAt": "2026-09-07T08:58:14.484Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
+          "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
+          "publishedAt": "2026-09-01T20:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Open AI’s Astra model is on the way—and very good at breaking into computer systems",
+          "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+          "publishedAt": "2026-09-01T21:06:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Expected Sept 3 ChatGPT 6 Release Carries Hidden Reasoning Risks",
+          "url": "https://www.geeky-gadgets.com/openai-chatgpt-6-astra-model-rumors/",
+          "publishedAt": "2026-09-02T12:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s new reasoning technique alarms AI safety experts",
+          "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+          "publishedAt": "2026-09-02T20:19:14.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "VentureBeat",
+          "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
+          "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+          "publishedAt": "2026-09-03T18:00:12.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+          "publishedAt": "2026-09-03T18:01:45.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
+          "url": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
+          "publishedAt": "2026-09-03T18:06:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+          "publishedAt": "2026-09-03T13:15:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+          "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+          "publishedAt": "2026-09-03T12:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+          "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+          "publishedAt": "2026-09-03T12:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Safety overview: GPT-6 Astra",
+          "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+          "publishedAt": "2026-09-03T00:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Claims We’re in the ‘AGI Era’ With Release of GPT-6 Astra",
+          "url": "https://gizmodo.com/openai-claims-were-in-the-agi-era-with-release-of-gpt-6-astra-2000807013",
+          "publishedAt": "2026-09-03T20:22:13.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "OpenAI’s Astra Is Here: What to Know About GPT-6",
+          "url": "https://www.cnet.com/tech/services-and-software/openai-gpt-6-astra-release-ai-agi-chatgpt/",
+          "publishedAt": "2026-09-03T18:00:20.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT 6 Officially Launches as Astra: Beats GPT-5.6 Sol with 47% Faster Speed",
+          "url": "https://www.geeky-gadgets.com/openai-chatgpt-6-astra-launch/",
+          "publishedAt": "2026-09-03T21:16:50.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI says GPT-6 Astra is 'the most intelligent and aligned model in the world'",
+          "url": "https://www.engadget.com/2250814/openai-says-gpt-6-astra-is-the-most-intelligent-and-aligned-model-in-the-world/",
+          "publishedAt": "2026-09-03T22:58:12.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "GPT-6 Stole the Show, but Anthropic, Meta and Google Also Had New AI Models This Week",
+          "url": "https://www.cnet.com/tech/services-and-software/gpt-6-stole-the-show-but-anthropic-meta-and-google-also-had-new-ai-models-this-week/",
+          "publishedAt": "2026-09-03T21:10:30.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Says Humans Need to Be Able to Monitor How AI ‘Thinks.’ Astra Makes That Much Harder",
+          "url": "https://gizmodo.com/openai-says-humans-need-to-be-able-to-monitor-how-ai-thinks-its-new-model-astra-makes-that-much-harder-2000807665",
+          "publishedAt": "2026-09-04T20:55:19.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT 6 Astra Builds a Playable FPS Game in 30 Minutes",
+          "url": "https://www.geeky-gadgets.com/chatgpt-6-astra-use-cases/",
+          "publishedAt": "2026-09-07T07:17:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Sam Altman Apologises for ChatGPT-6 Astra Launch Chaos, Offers Usage Resets to Users",
+          "url": "https://in.mashable.com/tech/113670/sam-altman-apologises-for-chatgpt-6-astra-launch-chaos-offers-usage-resets-to-users",
+          "publishedAt": "2026-09-07T07:44:11.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "safety"
+      ]
+    },
     {
       "id": "caf8e12a-6aaf-43a0-909d-a41e29a043b1",
       "title": "OpenAI says it has built an automated research intern",
@@ -48,6 +196,49 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "86442af6-6584-4ae9-b57e-a502321aeb8a",
+      "title": "Google releases Gemini 3.8 Flash and a cyber-focused variant",
+      "summary": "Google has released Gemini 3.8 Flash and Gemini 3.8 Flash Cyber, positioning the models around a balance of performance and accessibility; a reported high-performance mode is aimed at practical use cases.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-07T08:58:01.780Z",
+      "lastMeaningfulUpdateAt": "2026-09-07T08:58:01.780Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Gemini 3.8 Flash Matches Opus 5 on Deep Sweep 1.1 Benchmark",
+          "url": "https://www.geeky-gadgets.com/google-gemini-3-8-flash/",
+          "publishedAt": "2026-09-07T08:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "12395880-bada-479b-9d20-581595d23cdb",
+      "title": "OpenAI launches AI support program for independent Ukrainian journalism",
+      "summary": "OpenAI, AIRPPU and WAN-IFRA have launched an AI program intended to help Ukrainian news organizations strengthen innovation, resilience and independent journalism.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-07T08:58:01.772Z",
+      "lastMeaningfulUpdateAt": "2026-09-07T08:58:01.772Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Supporting independent journalism in Ukraine",
+          "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+          "publishedAt": "2026-09-07T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -212,140 +403,6 @@
       ],
       "tags": [
         "regulation"
-      ]
-    },
-    {
-      "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
-      "title": "OpenAI launches GPT-6 Astra, its first \"critical\" cyber-capability model",
-      "summary": "OpenAI has released GPT-6 Astra, a computer-use/agentic model that leadership framed as marking the start of an \"AGI era.\" It's the first OpenAI model to cross the company's Preparedness Framework \"critical\" cybersecurity threshold — scoring 100% on ExploitBench and finding real zero-days in testing — so its most advanced cyber capabilities are initially limited to trusted defenders via Daybreak Blue. OpenAI has since committed $1 billion under \"Daybreak for Frontline Defenders\" to expand access to that frontier cyber AI, plus training and support, for essential services. Astra also posts strong results on other benchmarks (98.6% ARC-AGI-3, 97.6% FrontierMath), though OpenAI's own framing has drawn scrutiny over what those numbers actually measure and the notable absence of its GDPval real-world-work benchmark. It rolls out to enterprise, ChatGPT, and API customers this week, with tiered pricing ($10/$50 per million input/output tokens standard) and new alignment/monitoring safeguards meant to keep the more autonomous agent inside its authorized scope. A separate critique has since surfaced: OpenAI has long said humans need to be able to monitor AI's chain-of-thought reasoning to catch misbehavior, but Astra's more advanced, less legible reasoning makes that oversight harder — a tension between the model's capability push and OpenAI's own transparency commitments.",
-      "importanceScore": 0.9,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-01T21:20:51.430Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T21:00:42.949Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
-          "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
-          "publishedAt": "2026-09-01T20:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Open AI’s Astra model is on the way—and very good at breaking into computer systems",
-          "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-          "publishedAt": "2026-09-01T21:06:24.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Expected Sept 3 ChatGPT 6 Release Carries Hidden Reasoning Risks",
-          "url": "https://www.geeky-gadgets.com/openai-chatgpt-6-astra-model-rumors/",
-          "publishedAt": "2026-09-02T12:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s new reasoning technique alarms AI safety experts",
-          "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-          "publishedAt": "2026-09-02T20:19:14.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "VentureBeat",
-          "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
-          "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-          "publishedAt": "2026-09-03T18:00:12.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
-          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-          "publishedAt": "2026-09-03T18:01:45.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
-          "url": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
-          "publishedAt": "2026-09-03T18:06:24.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-          "publishedAt": "2026-09-03T13:15:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-          "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-          "publishedAt": "2026-09-03T12:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-          "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-          "publishedAt": "2026-09-03T12:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Safety overview: GPT-6 Astra",
-          "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-          "publishedAt": "2026-09-03T00:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Claims We’re in the ‘AGI Era’ With Release of GPT-6 Astra",
-          "url": "https://gizmodo.com/openai-claims-were-in-the-agi-era-with-release-of-gpt-6-astra-2000807013",
-          "publishedAt": "2026-09-03T20:22:13.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "OpenAI’s Astra Is Here: What to Know About GPT-6",
-          "url": "https://www.cnet.com/tech/services-and-software/openai-gpt-6-astra-release-ai-agi-chatgpt/",
-          "publishedAt": "2026-09-03T18:00:20.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "ChatGPT 6 Officially Launches as Astra: Beats GPT-5.6 Sol with 47% Faster Speed",
-          "url": "https://www.geeky-gadgets.com/openai-chatgpt-6-astra-launch/",
-          "publishedAt": "2026-09-03T21:16:50.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI says GPT-6 Astra is 'the most intelligent and aligned model in the world'",
-          "url": "https://www.engadget.com/2250814/openai-says-gpt-6-astra-is-the-most-intelligent-and-aligned-model-in-the-world/",
-          "publishedAt": "2026-09-03T22:58:12.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "GPT-6 Stole the Show, but Anthropic, Meta and Google Also Had New AI Models This Week",
-          "url": "https://www.cnet.com/tech/services-and-software/gpt-6-stole-the-show-but-anthropic-meta-and-google-also-had-new-ai-models-this-week/",
-          "publishedAt": "2026-09-03T21:10:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Says Humans Need to Be Able to Monitor How AI ‘Thinks.’ Astra Makes That Much Harder",
-          "url": "https://gizmodo.com/openai-says-humans-need-to-be-able-to-monitor-how-ai-thinks-its-new-model-astra-makes-that-much-harder-2000807665",
-          "publishedAt": "2026-09-04T20:55:19.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "safety"
       ]
     },
     {
@@ -1434,55 +1491,8 @@
         "product-launch",
         "infrastructure"
       ]
-    },
-    {
-      "id": "3d9cb4cf-c89e-4034-bf5b-82d453a798ee",
-      "title": "Ollie launches a privacy-focused family AI assistant",
-      "summary": "Startup Ollie is launching a family-focused AI assistant that wants deep access to users' everyday lives but pledges not to use that data for AI training or share it with others, betting privacy can differentiate it in the crowded AI assistant race.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-03T17:01:49.155Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T17:01:49.155Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Ollie is betting its focus on privacy can help it win the AI assistant race",
-          "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
-          "publishedAt": "2026-09-03T16:09:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "7f1dc6f2-9d86-41bb-af21-76f0af981f19",
-      "title": "Pentagon adds ChatGPT and Grok versions alongside Gemini",
-      "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok are joining Google's Gemini on the Pentagon's central portal for AI tools, expanding the range of frontier AI systems available to defense personnel.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-01T06:29:41.995Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T06:29:41.995Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The Pentagon now has its own version of ChatGPT and Grok",
-          "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
-          "publishedAt": "2026-08-31T20:13:45.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "US Military Rolls Out Custom Versions of ChatGPT and Grok for ‘Warfighters’",
-          "url": "https://gizmodo.com/us-military-rolls-out-custom-versions-of-chatgpt-and-grok-for-warfighters-2000805580",
-          "publishedAt": "2026-09-01T15:15:29.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 190,
+  "totalCount": 192,
   "hasMore": true
 }
