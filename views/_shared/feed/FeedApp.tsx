@@ -346,6 +346,17 @@ function Feed({
       return new Set(prev).add(story.id);
     });
   }
+
+  // Swipe-to-mark-read (touch only — see useSwipeToRead.ts): the same
+  // idempotent readIds transition openStory performs above, minus opening
+  // the sheet. Kept as a separate function rather than a flag on openStory
+  // so StoryCard never has a way to open the sheet from the swipe path.
+  function markRead(story: FeedStory) {
+    setReadIds((prev) => {
+      if (prev === undefined || prev.has(story.id)) return prev;
+      return new Set(prev).add(story.id);
+    });
+  }
   function closeSheet() {
     // flushSync forces the DOM commit — and with it, .app-shell losing its
     // `inert` attribute — to happen before the next line runs. Without it,
@@ -406,6 +417,7 @@ function Feed({
                   isRead={readIds?.has(story.id)}
                   delta={deltas?.get(story.id)}
                   onOpen={openStory}
+                  onMarkRead={markRead}
                 />
               ))
             )}

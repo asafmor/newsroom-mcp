@@ -12,6 +12,45 @@ describe("feed touch behavior", () => {
   });
 });
 
+describe("swipe-to-mark-read touch behavior", () => {
+  it("lets the browser own vertical panning on the story card, not JS, while still receiving horizontal deltas", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const cardRule = /^\.story-card \{[^}]*\}/m.exec(css)?.[0];
+
+    expect(cardRule).toContain("touch-action: pan-y");
+    // Neither extreme: `none` would also block the native vertical scroll
+    // this relies on; `pan-x` would let the *browser* pan horizontally
+    // instead of useSwipeToRead.ts owning that axis.
+    expect(cardRule).not.toMatch(/touch-action:\s*(?:none|pan-x)/);
+  });
+
+  it("does not clip the story card's own hover box-shadow via the swipe wrapper", () => {
+    // .story-card-wrap wraps every card for the swipe reveal layer — an
+    // earlier revision gave it overflow:hidden to clip that layer to the
+    // card's rounded corners, which also silently clipped .story-card's own
+    // :hover box-shadow (--elev-raised) since the wrapper is sized exactly
+    // to the card. Regression guard: the reveal layer must clip itself
+    // instead (see .swipe-affordance's own border-radius) so this stays off.
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const wrapRule = /\.story-card-wrap\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(wrapRule).toBeDefined();
+    expect(wrapRule).not.toMatch(/overflow:\s*hidden/);
+  });
+
+  it("gives the mark-as-read affordance a discrete 'armed' state distinct from its resting background", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const restRule = /^\.swipe-affordance\s*\{[^}]*\}/m.exec(css)?.[0];
+    const armedRule = /\.swipe-affordance--armed\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(restRule).toContain("background: var(--accent-soft)");
+    expect(armedRule).toBeDefined();
+    expect(armedRule).toContain("background: var(--accent)");
+    // Armed and resting must actually differ, not just repeat the same token.
+    expect(armedRule).not.toContain("var(--accent-soft)");
+  });
+});
+
 describe("feed header typography", () => {
   it("uses smaller sort text without shrinking the fixed-height toggle buttons", () => {
     const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
