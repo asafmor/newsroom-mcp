@@ -280,6 +280,20 @@ html, body { margin: 0; background: var(--bg); }
 /* ─── feed list ────────────────────────────────────────────────────────── */
 .story-feed { padding: var(--space-2) var(--space-2) 24px; display: flex; flex-direction: column; gap: var(--space-2); }
 
+/* Wrapper for the touch-only swipe-to-mark-read reveal layer (StoryCard.tsx,
+   useSwipeToRead.ts) — now the .story-feed flex/grid item in place of
+   .story-card itself, which stays position:relative/overflow:hidden for the
+   ripple and .unread-marker and can't also host a background that has to
+   stay put while .story-card translates during a drag. No padding/border of
+   its own, so it doesn't change .story-feed's flex-column gap or the
+   desktop grid's cell sizing — it's exactly the size .story-card was.
+   Deliberately no overflow:hidden/border-radius here (an earlier revision
+   added both, to clip the reveal layer to the card's rounded corners) — the
+   card's own :hover box-shadow (--elev-raised) extends past its border box,
+   and a clipping ancestor sized exactly to the card cut that shadow off.
+   .swipe-affordance below carries its own border-radius instead, so it
+   still reads as one rounded shape without clipping anything else. */
+.story-card-wrap { position: relative; }
 .story-card {
   position: relative; overflow: hidden;
   text-align: left; width: 100%; cursor: pointer;
@@ -289,6 +303,19 @@ html, body { margin: 0; background: var(--bg); }
   padding: var(--space-3);
   display: flex; flex-direction: column; gap: var(--space-2);
   transition: box-shadow var(--motion-base) var(--ease-standard), transform var(--motion-fast) var(--ease-standard), border-color var(--motion-base) var(--ease-standard);
+  /* Vertical panning stays entirely native — the browser scrolls the feed
+     immediately with no JS round-trip, so an ambiguous or vertical gesture
+     never visibly lags or shifts the card (criterion 3). Horizontal is
+     deliberately NOT a native pan axis here, so touchmove keeps receiving
+     every horizontal sample and can preventDefault() once axis-lock commits
+     to "horizontal", stopping the page from also scrolling underneath the
+     drag for the rest of that gesture (criterion 4). Not `none` — that
+     would also block the native vertical scroll this relies on; not
+     `pan-x` — nothing here should let the *browser* pan horizontally
+     instead of useSwipeToRead.ts owning it. See also the sibling guard test
+     in feed-css.test.ts for .sheet-drag-header's own touch-action, which
+     this rule does not touch. */
+  touch-action: pan-y;
 }
 .story-card:hover { border-color: var(--muted); box-shadow: var(--elev-raised); }
 .story-card:active { transform: scale(0.99); }
@@ -304,6 +331,29 @@ html, body { margin: 0; background: var(--bg); }
   position: absolute; top: 0; bottom: 0; left: 0; width: 3px;
   background: var(--accent);
 }
+
+/* Swipe-to-mark-read affordance (touch only) — sits behind .story-card in
+   .story-card-wrap, revealed on whichever side the card is dragged away
+   from. Only ever rendered by StoryCard while dragging a known-unread card
+   with read-state storage available (see useSwipeToRead's `visible`) — an
+   already-read card or one where readIds is undefined this session never
+   shows this, even though the card itself may still be dragging under the
+   reader's finger (criteria 10/26). */
+.swipe-affordance {
+  position: absolute; inset: 0;
+  display: flex; align-items: center;
+  padding-inline: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: var(--accent-soft);
+  color: var(--accent);
+  pointer-events: none;
+}
+.swipe-affordance svg { width: 22px; height: 22px; }
+/* Crossing the commit threshold while still holding is its own perceptible
+   state (criterion 12) — a discrete color flip rather than only continued
+   opacity growth, so a reader can tell before lifting their finger whether
+   releasing now commits. Identical regardless of drag direction (criterion 9). */
+.swipe-affordance--armed { background: var(--accent); color: var(--accent-on); }
 
 /* ─── empty / loading states ──────────────────────────────────────────── */
 .feed-empty {
