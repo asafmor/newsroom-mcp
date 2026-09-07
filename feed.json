@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T08:58:26.019Z",
+  "generatedAt": "2026-09-07T11:01:25.498Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -142,6 +142,13 @@
           "url": "https://in.mashable.com/tech/113670/sam-altman-apologises-for-chatgpt-6-astra-launch-chaos-offers-usage-resets-to-users",
           "publishedAt": "2026-09-07T07:44:11.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT 6 Astra Defeats Fable 5.1 in 10 of 15 Test Scenarios",
+          "url": "https://www.geeky-gadgets.com/gpt-6-astra-vs-fable-5-1/",
+          "publishedAt": "2026-09-07T10:47:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -175,6 +182,27 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "7e0c6af0-245f-43e0-802b-68ec17d6a01f",
+      "title": "Alibaba's XuanTie C950 reportedly runs a 27B-parameter Qwen model without a GPU",
+      "summary": "A report says Alibaba's RISC-V XuanTie C950 CPU can run the 27-billion-parameter Qwen 3.8 model without a GPU, generating about 30 tokens per second. If confirmed, the result would be a notable efficiency and deployment claim for AI inference hardware.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-07T11:01:10.965Z",
+      "lastMeaningfulUpdateAt": "2026-09-07T11:01:10.965Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "RISC-V XuanTie C950 CPU Reportedly Runs Qwen 3.8 Without a GPU",
+          "url": "https://www.geeky-gadgets.com/alibaba-xuantie-c950-gpu-free-ai/",
+          "publishedAt": "2026-09-07T09:43:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -1469,30 +1497,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "879cec3a-a153-4a98-8fc7-1337912a54e1",
-      "title": "Nvidia's PAIR speeds up AI agents by pooling idle PCs on the local network",
-      "summary": "Nvidia unveiled PAIR, a system that distributes AI agent workloads across idle PCs on a home or office LAN to speed up execution — effectively turning the local network into a shared compute pool for agentic AI tasks.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-03T19:01:47.166Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T19:01:47.166Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Nvidia PAIR Speeds Up AI Agents by Annexing PCs on Your Network",
-          "url": "https://www.cnet.com/tech/services-and-software/nvidia-pair-speeds-ai-agents-by-annexing-pcs-on-your-network/",
-          "publishedAt": "2026-09-03T16:00:22.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 192,
+  "totalCount": 193,
   "hasMore": true
 }
