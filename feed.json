@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T19:08:03.016Z",
+  "generatedAt": "2026-09-07T21:09:26.207Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -153,6 +153,28 @@
       ],
       "tags": [
         "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "0f60d9cc-ad41-4173-80f4-93d7cca8fed7",
+      "title": "UN human rights chief warns of concentrated AI power and existential risk",
+      "summary": "The UN human rights chief warned that a small group of men holds near-unlimited power over AI and said advanced systems could pose an existential risk, renewing calls for governance that protects human rights and limits concentrated control.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-07T21:09:14.768Z",
+      "lastMeaningfulUpdateAt": "2026-09-07T21:09:14.768Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "UN Human Rights Chief Says a ‘Handful of Men’ Have ‘Almost Unlimited Power’ Over AI",
+          "url": "https://gizmodo.com/un-human-rights-chief-says-a-handful-of-men-have-almost-unlimited-power-over-ai-2000808248",
+          "publishedAt": "2026-09-07T19:59:19.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
         "safety"
       ]
     },
@@ -1469,27 +1491,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "38f79593-f947-49d0-bd26-d305c6bd853e",
-      "title": "Gemini's bad trip-planning advice leads to a mountain rescue",
-      "summary": "Google's Gemini reportedly told a group of climbers that summiting Mt. Shasta would take eight hours; they needed rescuing more than a day later, underscoring the risk of relying on AI chatbots for safety-critical planning.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-03T11:01:22.634Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T11:01:22.634Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "PSA: Don't rely on AI to plan anything that could put your life at risk... like a mountain climb",
-          "url": "https://www.engadget.com/2250160/dont-use-google-gemini-to-plan-a-mountain-climb/",
-          "publishedAt": "2026-09-03T10:20:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 155,
+  "totalCount": 150,
   "hasMore": true
 }
