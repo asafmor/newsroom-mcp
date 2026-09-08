@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T21:09:26.207Z",
+  "generatedAt": "2026-09-08T01:11:36.093Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -381,6 +381,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "e016a1e5-5bb2-4658-9a78-28f5da895ec4",
+      "title": "Study suggests an AI-designed drug could slow aging",
+      "summary": "A study reported that an AI-generated drug candidate could slow aging. The early research signal points to a potential use of generative AI in drug discovery, but the available report does not establish clinical efficacy.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-08T01:11:26.560Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T01:11:26.560Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Study Suggests AI-Generated Drug Could Slow Aging",
+          "url": "https://gizmodo.com/study-suggests-ai-generated-drug-could-slow-aging-2000808265",
+          "publishedAt": "2026-09-07T22:01:36.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -1472,27 +1493,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "8cedaf1d-b299-4e2e-8fb1-1e0f3f62db7c",
-      "title": "Anthropic launches AI content checker tool",
-      "summary": "Anthropic released a content-checker tool that can detect Claude's watermarks in files, though it does not yet support watermark detection in plain text.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-03T01:01:09.684Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T01:01:09.684Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Anthropic’s Content Checker Tool Is Here, With One Big Catch",
-          "url": "https://www.cnet.com/tech/services-and-software/anthropics-content-checker-tool-is-here-with-one-big-catch/",
-          "publishedAt": "2026-09-02T21:31:16.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 150,
+  "totalCount": 151,
   "hasMore": true
 }
