@@ -1,7 +1,7 @@
 ---
 name: analyst
 description: Expands, validates, and system-fits exactly ONE feature idea for newsroom-mcp. Second stage of the software factory pipeline. Use when a single candidate idea (from the ideator or the user) needs a feasibility and fit assessment before it's specced. Run one instance per idea, never batch multiple ideas into one call.
-tools: Read, Glob, Grep
+tools: Read, Glob, Grep, Bash
 model: sonnet
 permissionMode: bypassPermissions
 ---

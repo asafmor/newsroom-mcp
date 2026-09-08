@@ -1,7 +1,7 @@
 ---
 name: product-owner
 description: Turns one selected, validated idea into implementation-agnostic requirements for newsroom-mcp. Fourth stage of the software factory pipeline, between the selector and the developer. Use when an idea has been chosen and needs to become a testable spec before any code is written.
-tools: Read, Glob, Grep
+tools: Read, Glob, Grep, Bash
 model: sonnet
 permissionMode: bypassPermissions
 ---

@@ -1,7 +1,7 @@
 ---
 name: tech-writer
 description: Documents a shipped newsroom-mcp feature inside docs/changes/ only, synthesizing the idea, requirements, and final implementation. Final stage of the software factory pipeline. Use once a developer/reviewer loop has approved a change and it needs to be recorded.
-tools: Read, Write, Edit, Glob, Grep
+tools: Read, Write, Edit, Glob, Grep, Bash
 model: sonnet
 permissionMode: bypassPermissions
 skills: writing-clearly-and-concisely

@@ -1,7 +1,7 @@
 ---
 name: selector
 description: Chooses the single best idea out of multiple analyst reports for newsroom-mcp. Third stage of the software factory pipeline, between the parallel analysts and the product owner. Use when several analyzed ideas exist and one must be picked to move forward.
-tools: Read, Glob, Grep
+tools: Read, Glob, Grep, Bash
 model: sonnet
 permissionMode: bypassPermissions
 ---

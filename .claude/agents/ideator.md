@@ -1,7 +1,7 @@
 ---
 name: ideator
 description: Generates 5 candidate feature/enhancement ideas for newsroom-mcp. First stage of the idea-to-shipped-feature factory pipeline (ideator -> analyst -> selector -> product-owner -> developer -> reviewer -> tech-writer). Use when the user wants fresh feature ideas for the product, not for a specific already-chosen idea.
-tools: Read, Glob, Grep
+tools: Read, Glob, Grep, Bash
 model: sonnet
 permissionMode: bypassPermissions
 ---
