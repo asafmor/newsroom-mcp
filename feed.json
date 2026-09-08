@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T19:23:59.583Z",
+  "generatedAt": "2026-09-08T21:25:11.216Z",
   "stories": [
     {
       "id": "1f8d1a4e-47f3-4efc-a59e-f7abdc9dc816",
@@ -51,6 +51,35 @@
       ]
     },
     {
+      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
+      "title": "Meta debuts Muse, a personal AI agent with broad access to user data",
+      "summary": "Meta has introduced Muse, a personal AI agent positioned to handle tasks from selling a car to booking travel. The product seeks access to email, calendars, payments and health services, making privacy and user trust central to Meta's largest consumer AI bet.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-08T21:25:00.914Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T21:25:00.914Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
+          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
+          "publishedAt": "2026-09-08T20:12:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+          "publishedAt": "2026-09-08T19:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "safety"
+      ]
+    },
+    {
       "id": "94efa26a-6ba8-4998-b3fc-eed410861706",
       "title": "Google Cloud expands enterprise AI deployment partnership with Accenture",
       "summary": "Google Cloud is expanding its enterprise AI push through an Accenture deal, using forward-deployed engineers to help customers overcome deployment bottlenecks and adopt AI systems.",
@@ -68,6 +97,50 @@
         }
       ],
       "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "79c4c51b-f64e-4cb2-8593-06e9d0527b64",
+      "title": "Cognition reaches a $48B valuation as AI-coding investment remains competitive",
+      "summary": "Cognition has reached a $48 billion valuation, a signal that investors still see room for multiple major players in AI coding rather than a winner-take-all market.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-08T21:25:00.941Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T21:25:00.941Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+          "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+          "publishedAt": "2026-09-08T21:04:06.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "2c36be7e-2d74-41d8-a793-a5456b65404c",
+      "title": "GPT-5.6 Sol is used to autonomously run quantum-computing experiments",
+      "summary": "An MIT researcher is using GPT-5.6 Sol with Codex to run quantum-computing experiments autonomously, analyze results, and calibrate qubits, offering a concrete example of an AI coding agent applied to scientific lab work.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-08T21:25:00.905Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T21:25:00.905Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+          "url": "https://openai.com/index/codex-quantum-computing-experiments",
+          "publishedAt": "2026-09-08T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research",
         "enterprise-adoption"
       ]
     },
@@ -246,6 +319,27 @@
       "tags": [
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "a41addfa-c81f-4b18-ae89-24bfff6ec630",
+      "title": "Anthropic details cost and performance improvements for Claude Platform",
+      "summary": "Anthropic has published an update focused on reducing costs and improving performance for Claude Platform, signaling continued product work on making its models more efficient for developers and customers.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-08T21:25:00.923Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T21:25:00.923Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Reducing cost and improving performance with Claude Platform",
+          "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
+          "publishedAt": "2026-09-08T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -943,6 +1037,13 @@
           "url": "https://www.engadget.com/2250467/claude-automatic-sign-out-hackers-explained/",
           "publishedAt": "2026-09-03T16:39:18.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Hackers are stealing Claude tokens from subscribers",
+          "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+          "publishedAt": "2026-09-08T21:10:27.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -1359,107 +1460,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "8c434be0-633e-4482-8913-15416883f869",
-      "title": "US AI data-center backlash pushes companies to relocate and draws political fire",
-      "summary": "Public backlash against AI data centers — over power costs, water use, and land — is pushing some companies to relocate projects and drawing political fire. Big Tech is now countering with a multimillion-dollar ad campaign aimed at reversing the public's growing disdain for AI data centers.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T18:56:45.629Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T03:00:54.780Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Fleeing Data Center Backlash at Home, American AI Startup Sets Up Shop In Saudi Arabia",
-          "url": "https://gizmodo.com/fleeing-data-center-backlash-at-home-american-ai-startup-sets-up-shop-in-saudi-arabia-2000805023",
-          "publishedAt": "2026-08-31T15:50:39.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump to Communities Fighting Data Centers: Have Fun Being Poor",
-          "url": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
-          "publishedAt": "2026-08-31T16:35:06.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "At G20, Big Tech and Global Leaders Can’t Escape AI’s Data Center Problem",
-          "url": "https://www.cnet.com/tech/services-and-software/g20-tech-government-leaders-ai-data-centers-protests/",
-          "publishedAt": "2026-09-02T18:42:19.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Hate AI Data Centers? Big Tech’s New Ad Campaign Aims to Change Your Mind",
-          "url": "https://www.cnet.com/tech/services-and-software/hate-ai-data-centers-big-techs-new-ad-campaign-will-try-to-change-your-mind/",
-          "publishedAt": "2026-09-02T23:06:26.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "9455c231-2d5e-4559-8ae6-86279e7f0e9d",
-      "title": "AI job-application tools are creating a hiring \"doom loop\"",
-      "summary": "Wired reports job seekers are increasingly using AI tools to game the application process — auto-tailoring resumes and cover letters, even auto-applying — but it's largely backfiring as employers deploy their own AI filters in response, escalating an arms race that makes hiring worse for both sides.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-04T11:01:19.469Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T11:01:19.469Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AI Use in the Job Market Is Creating an Infinite Doom Loop",
-          "url": "https://www.wired.com/story/ai-job-market-infinite-doom-loop/",
-          "publishedAt": "2026-09-04T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "bd67d3b9-4920-4505-9070-a4d887e84608",
-      "title": "Wired exposes Flock's AI search tool for police surveillance cameras",
-      "summary": "Wired reverse-engineered Flock's newest AI-powered search tool by examining code sent to police officers' browsers. The tool lets officers search across multiple camera feeds using a written description of a person, raising surveillance and privacy concerns.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-03T11:01:18.213Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T11:01:18.213Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "This Is Flock’s AI Search Tool for Cops",
-          "url": "https://www.wired.com/story/flock-ai-search-user-interface/",
-          "publishedAt": "2026-09-03T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "aeb7935d-75e6-4cf0-b0eb-040692989f65",
-      "title": "Meta launches Muse Voice Transcribe at $0.18/hour with 20+ speaker diarization",
-      "summary": "Meta Superintelligence Labs launched Muse Voice Transcribe, a real-time speech-to-text model with streaming diarization for 20+ speakers, priced at $0.18/hour — undercutting most rivals while topping Artificial Analysis' streaming accuracy benchmark.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-02T23:03:01.967Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T23:03:01.967Z",
-      "sources": [
-        {
-          "providerName": "VentureBeat",
-          "title": "Meta prices Muse Voice Transcribe at $0.18 an hour, with real-time diarization for 20+ speakers: a steal for enterprises?",
-          "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
-          "publishedAt": "2026-09-02T21:32:59.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 105,
+  "totalCount": 108,
   "hasMore": true
 }
