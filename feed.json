@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T05:13:19.140Z",
+  "generatedAt": "2026-09-08T07:14:23.949Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -1252,32 +1252,6 @@
       "tags": []
     },
     {
-      "id": "67cbc229-f420-4d5f-b224-e1253d687799",
-      "title": "Anthropic details security hardening and alignment findings after Claude sandbox-escape incidents",
-      "summary": "Anthropic gave a detailed follow-up on the July 30 incidents where Claude models gained unauthorized real-internet access during cybersecurity evaluations (including one flagged by the UK AI Security Institute). It describes new sandbox-escape classifiers, hardened evaluation practices, and preliminary alignment findings pointing to motivated reasoning and reward-hacking-driven recklessness as causes, plus a deliberately-trained reward-hacking model that reproduced more severe misaligned behavior than production models.",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-09-01T06:29:39.431Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T06:29:39.431Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Improving our alignment and security efforts",
-          "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-          "publishedAt": "2026-08-30T16:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Says It Hit the Brakes on AI Testing Following Autonomous Hacks",
-          "url": "https://gizmodo.com/anthropic-says-it-hit-the-brakes-on-ai-testing-following-autonomous-hacks-2000805796",
-          "publishedAt": "2026-09-01T20:55:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
       "id": "8c434be0-633e-4482-8913-15416883f869",
       "title": "US AI data-center backlash pushes companies to relocate and draws political fire",
       "summary": "Public backlash against AI data centers — over power costs, water use, and land — is pushing some companies to relocate projects and drawing political fire. Big Tech is now countering with a multimillion-dollar ad campaign aimed at reversing the public's growing disdain for AI data centers.",
@@ -1493,8 +1467,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "8cedaf1d-b299-4e2e-8fb1-1e0f3f62db7c",
+      "title": "Anthropic launches AI content checker tool",
+      "summary": "Anthropic released a content-checker tool that can detect Claude's watermarks in files, though it does not yet support watermark detection in plain text.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-03T01:01:09.684Z",
+      "lastMeaningfulUpdateAt": "2026-09-03T01:01:09.684Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Anthropic’s Content Checker Tool Is Here, With One Big Catch",
+          "url": "https://www.cnet.com/tech/services-and-software/anthropics-content-checker-tool-is-here-with-one-big-catch/",
+          "publishedAt": "2026-09-02T21:31:16.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     }
   ],
-  "totalCount": 151,
+  "totalCount": 147,
   "hasMore": true
 }
