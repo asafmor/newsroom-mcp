@@ -1,6 +1,49 @@
 {
-  "generatedAt": "2026-09-08T13:18:55.957Z",
+  "generatedAt": "2026-09-08T15:20:23.630Z",
   "stories": [
+    {
+      "id": "5d3c5061-84ee-4889-884c-b188c6fa348e",
+      "title": "Mistral raises €3B at a €21B valuation as sovereign AI investment accelerates",
+      "summary": "French AI lab Mistral has raised €3 billion in a Series D round led by Samsung, Scaleup Europe and PSG Equity, at a €21 billion valuation. The financing underscores investor appetite for European sovereign-AI alternatives.",
+      "importanceScore": 0.8,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-08T15:19:54.083Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T15:19:54.083Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Mistral raises €3B as sovereign AI becomes big business",
+          "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+          "publishedAt": "2026-09-08T14:17:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "01362726-4643-4b4c-a7f3-d22733296a94",
+      "title": "Google DeepMind releases AlphaGenome Atlas for human DNA-variant effects",
+      "summary": "Google DeepMind's AlphaGenome Atlas maps predicted molecular effects for 9 billion possible single-letter DNA variants across the human genome, extending the lab's AI genomics work into a broad reference resource.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-08T15:20:12.110Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T15:20:12.110Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+          "publishedAt": "2026-09-08T14:00:15.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research",
+        "product-launch"
+      ]
+    },
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
       "title": "OpenAI launches GPT-6 Astra, its first \"critical\" cyber-capability model",
@@ -225,6 +268,28 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "e6d2dcf8-f5f8-465b-830f-7ba428be4a0c",
+      "title": "Hugging Face post argues for more precise safety refusals",
+      "summary": "A Hugging Face post argues that model safeguards should refuse the harmful subset of a request rather than reject an entire topic, framing selective refusal as a more useful approach to AI safety.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-08T15:20:00.285Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T15:20:00.285Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+          "publishedAt": "2026-09-08T14:23:07.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
       ]
     },
     {
@@ -1429,65 +1494,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "6bcc1578-f5c1-4c97-9e90-64a2b49819b0",
-      "title": "Cursor on building long-horizon accounting agents with Basis",
-      "summary": "Cursor's blog covers how Basis, an accounting-focused company, built long-horizon AI agents on top of Cursor's platform.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-04T19:01:16.716Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T19:01:16.716Z",
-      "sources": [
-        {
-          "providerName": "Cursor Blog",
-          "title": "How Basis builds long-horizon accounting agents with Cursor",
-          "url": "https://cursor.com/blog/basis",
-          "publishedAt": "2026-09-04T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "074502b0-b81b-4d0b-858a-84ba67f2c1a5",
-      "title": "AI-camera-equipped trash trucks bring surveillance to more US cities",
-      "summary": "Cities are increasingly deploying garbage trucks fitted with AI cameras to spot code violations and other issues along their routes, raising concerns about unregulated expansion of municipal surveillance.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-09-04T01:02:15.922Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T01:02:15.922Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Big Brother on Wheels: Trash Trucks With AI Cameras Are Coming to a City Near You",
-          "url": "https://gizmodo.com/big-brother-on-wheels-trash-trucks-with-ai-cameras-are-coming-to-a-city-near-you-2000807071",
-          "publishedAt": "2026-09-03T20:50:31.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "8cedaf1d-b299-4e2e-8fb1-1e0f3f62db7c",
-      "title": "Anthropic launches AI content checker tool",
-      "summary": "Anthropic released a content-checker tool that can detect Claude's watermarks in files, though it does not yet support watermark detection in plain text.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-03T01:01:09.684Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T01:01:09.684Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Anthropic’s Content Checker Tool Is Here, With One Big Catch",
-          "url": "https://www.cnet.com/tech/services-and-software/anthropics-content-checker-tool-is-here-with-one-big-catch/",
-          "publishedAt": "2026-09-02T21:31:16.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 147,
+  "totalCount": 150,
   "hasMore": true
 }
