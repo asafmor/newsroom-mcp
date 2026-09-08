@@ -53,6 +53,26 @@ it), and they must be different stories. On success:
 - `title`, `summary`, `relevanceScore`, and `importanceScore` are untouched;
   use `update-story` for those.
 
+## The `summary` structure nudge
+
+`create-story` and `update-story` both evaluate one shared, non-semantic
+predicate (`src/tools/summary-structure.ts`) against exactly the `summary`
+text submitted in that call: is it longer than 280 characters and lacking
+valid lede+bullets structure (a real line break, a lede line, and every
+remaining line starting with `- `)? "Valid structure" is defined identically
+to `views/_shared/feed/formatters.ts`'s `parseSummary` — the function this
+predicate reuses — so the predicate and the reader-facing renderer can never
+disagree. When true, the call still succeeds exactly as before (the stored
+summary and `structuredContent` are unaffected) and only the free-text
+confirmation message gains a short additional sentence suggesting a
+restructure. `update-story` evaluates this only when the call actually
+supplies a `summary`; omitting it never triggers the advisory, regardless of
+how long the story's already-stored summary is. No other tool carries this
+nudge (`attach-item-to-story` has no `summary` input). `npm run
+measure-summary-adoption -- <feed.json>` reports how often summaries in a
+published snapshot actually use the structure — a manual, read-only
+measurement, not a gate.
+
 ## No low-level tools
 
 There is no `execute-sql`, `update-row`, or `insert-json` tool. The agent

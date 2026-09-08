@@ -3,6 +3,7 @@ import type { ToolRegistrar } from "./tool-registrar.js";
 import type { StoryService } from "../services/story-service.js";
 import { updateStoryInputSchema, updateStoryOutputSchema } from "./schemas.js";
 import { serializeStory } from "./serialize.js";
+import { needsStructureNudge, STRUCTURE_NUDGE } from "./summary-structure.js";
 import { toolErrorResult } from "./tool-errors.js";
 
 export function registerUpdateStoryTool(server: ToolRegistrar, storyService: StoryService) {
@@ -23,9 +24,10 @@ export function registerUpdateStoryTool(server: ToolRegistrar, storyService: Sto
       try {
         const story = await storyService.updateStory(storyId, patch);
         const serialized = serializeStory(story);
+        const advisory = patch.summary !== undefined && needsStructureNudge(patch.summary) ? STRUCTURE_NUDGE : "";
 
         return {
-          content: [{ type: "text", text: `Updated story "${story.title}" (${story.id}).` }],
+          content: [{ type: "text", text: `Updated story "${story.title}" (${story.id}).${advisory}` }],
           structuredContent: serialized,
         };
       } catch (error) {
