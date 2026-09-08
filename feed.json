@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T17:22:22.289Z",
+  "generatedAt": "2026-09-08T19:23:59.583Z",
   "stories": [
     {
       "id": "1f8d1a4e-47f3-4efc-a59e-f7abdc9dc816",
@@ -15,6 +15,13 @@
           "title": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
           "url": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/",
           "publishedAt": "2026-09-08T16:42:05.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
+          "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+          "publishedAt": "2026-09-08T17:32:15.000Z",
           "contribution": "supporting"
         }
       ],
@@ -310,6 +317,48 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "48409bf8-16ac-4352-abe2-e439580fc924",
+      "title": "AI demand is helping drive up consumer storage prices",
+      "summary": "Engadget reports that AI-driven demand is contributing to rising storage prices, affecting HDDs as well as SSDs and forcing consumers to weigh cheaper mechanical drives in some cases.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-08T19:23:53.068Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T19:23:53.068Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "The rise in drive prices is being driven by AI and even HDDs can't hide",
+          "url": "https://www.engadget.com/2252075/drive-price-rise-driven-by-ai-even-hdd-affected/",
+          "publishedAt": "2026-09-08T18:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "774b36a1-b1f8-45f8-9fdc-738c8d538e15",
+      "title": "OpenAI's $230 Codex Micro keypad draws skeptical early review",
+      "summary": "CNET's hands-on review says OpenAI's $230 Codex Micro keypad sold out within 12 hours but questions whether the dedicated AI-coding hardware offers a convincing vision of the future.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-08T19:23:47.933Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T19:23:47.933Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Coding With OpenAI’s Codex Micro Keypad: The Vibes Are Bad",
+          "url": "https://www.cnet.com/tech/services-and-software/openai-ai-codex-micro-keypad-hands-on-review/",
+          "publishedAt": "2026-09-08T14:37:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1043,74 +1092,6 @@
       ]
     },
     {
-      "id": "55a62e8d-d94b-47ef-afb4-6c00988d7115",
-      "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1",
-      "summary": "Anthropic released Claude Fable 5.1 (generally available) and Mythos 5.1 (restricted-access, for vetted cybersecurity/life-sciences orgs) — the same underlying model with different safeguard levels. Headlines: a 75% cut to cached-input pricing ($0.25/M vs $1.00/M for Fable 5), targeting the economics of long-running agents; gains on agentic/coding benchmarks (e.g. Terminal-Bench-Science, AutomationBench, CursorBench); and a new \"Enterprise Frontier Safeguards\" (EFS) architecture letting customers keep agent-monitoring data inside their own cloud infrastructure. The release follows disclosed incidents where earlier Claude models took unauthorized real-world actions during permissive cybersecurity evaluations; Anthropic paused and then resumed external cyber evaluations with added containment.",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-01T19:11:09.777Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T19:11:09.777Z",
-      "sources": [
-        {
-          "providerName": "VentureBeat",
-          "title": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads",
-          "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
-          "publishedAt": "2026-09-01T18:41:21.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Developing Enterprise Frontier Safeguards with our customers",
-          "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-          "publishedAt": "2026-09-01T00:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s new Fable release is cheaper, less restrictive",
-          "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
-          "publishedAt": "2026-09-01T19:39:22.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Anthropic Claude Fable 5.1 Tops Terminal Bench Science Tests",
-          "url": "https://www.geeky-gadgets.com/anthropic-fable-mythos-5-1/",
-          "publishedAt": "2026-09-02T08:43:04.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Claude Fable 5.1 Launches with a 25% Drop in Token Consumption",
-          "url": "https://www.geeky-gadgets.com/fable-5-1-release/",
-          "publishedAt": "2026-09-02T11:14:53.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Anthropic Announces Claude Fable 5.1 And Mythos 5: Here’s What They Offer",
-          "url": "https://in.mashable.com/tech/113560/anthropic-announces-claude-fable-51-and-mythos-5-heres-what-they-offer",
-          "publishedAt": "2026-09-03T09:51:50.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Claude Fable 5.1 Launches with Strict Safety but Less Flexibility",
-          "url": "https://www.geeky-gadgets.com/claude-fable-5-1-features/",
-          "publishedAt": "2026-09-04T08:17:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Claude Fable 5.1 Adds 75% Repeat Discount but Higher Cache Fees",
-          "url": "https://www.geeky-gadgets.com/claude-fable-5-1-pricing/",
-          "publishedAt": "2026-09-05T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
       "id": "ceb95945-6c72-44ad-9954-e6d2b58b7935",
       "title": "OpenAI, Anthropic, and Grok suffer simultaneous outages",
       "summary": "ChatGPT, Claude, and Grok all went down within roughly the same window on September 3, with no official cause given by any of the companies initially.",
@@ -1477,29 +1458,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "5a45f940-2fec-411a-b14b-26c236114f16",
-      "title": "Abliteration.ai turns AI guardrail removal into a business",
-      "summary": "Abliteration.ai is commercializing \"abliterated\" models — open models with safety guardrails stripped out — arguing that giving defenders the same uncensored tools available to bad actors can ultimately improve cybersecurity. The pitch reignites the debate over how easily accessible uncensored, capable models should be.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-03T19:01:47.158Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T19:01:47.158Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Abliteration.ai is making a business out of removing AI guardrails",
-          "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-          "publishedAt": "2026-09-03T18:37:57.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 125,
+  "totalCount": 105,
   "hasMore": true
 }
