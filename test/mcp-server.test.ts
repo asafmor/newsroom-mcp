@@ -422,5 +422,81 @@ describe("newsroom-mcp server", () => {
     expect(manyItemsResult.isError).toBeFalsy();
     expect(manyItemsResult.structuredContent.attachedItems).toHaveLength(6);
     expect(manyItemsResult.structuredContent.attachedItems.map((entry) => entry.contentItemId)).toEqual(attachOrder);
+
+    // Structure nudge: a long, unstructured summary still stores byte-for-byte
+    // as submitted and structuredContent is unaffected — only the free-text
+    // confirmation gains an appended advisory sentence.
+    const longUnstructuredSummary =
+      "This story genuinely needs more explanation than one clause can hold, so the paragraph keeps going. ".repeat(3);
+    expect(longUnstructuredSummary.length).toBeGreaterThan(280);
+
+    const nudgedCreate = (await client?.callTool({
+      name: "create-story",
+      arguments: {
+        contentItemIds: [restItems[9]?.id],
+        title: "Long unstructured story",
+        summary: longUnstructuredSummary,
+        relevanceScore: 0.5,
+        importanceScore: 0.5,
+      },
+    })) as ToolTextResult & { structuredContent: { id: string; summary: string } };
+
+    expect(nudgedCreate.isError).toBeFalsy();
+    expect(nudgedCreate.structuredContent.summary).toBe(longUnstructuredSummary);
+    const nudgedCreatePrefix = `Created story "Long unstructured story" (${nudgedCreate.structuredContent.id}).`;
+    const nudgedCreateText = nudgedCreate.content?.[0]?.text ?? "";
+    expect(nudgedCreateText.startsWith(nudgedCreatePrefix)).toBe(true);
+    expect(nudgedCreateText.length).toBeGreaterThan(nudgedCreatePrefix.length);
+
+    // A short summary is unaffected: confirmation text stays byte-identical
+    // to today's, with no advisory appended.
+    const plainCreate = (await client?.callTool({
+      name: "create-story",
+      arguments: {
+        contentItemIds: [restItems[10]?.id],
+        title: "Plain story",
+        summary: "Short and simple.",
+        relevanceScore: 0.5,
+        importanceScore: 0.5,
+      },
+    })) as ToolTextResult & { structuredContent: { id: string } };
+
+    expect(plainCreate.content?.[0]?.text).toBe(`Created story "Plain story" (${plainCreate.structuredContent.id}).`);
+
+    // update-story: the same long unstructured summary gets the same
+    // advisory, appended to (never replacing) the existing confirmation text.
+    const nudgedUpdate = (await client?.callTool({
+      name: "update-story",
+      arguments: { storyId, summary: longUnstructuredSummary },
+    })) as ToolTextResult & { structuredContent: { summary: string } };
+
+    expect(nudgedUpdate.structuredContent.summary).toBe(longUnstructuredSummary);
+    const nudgedUpdatePrefix = `Updated story "Test story" (${storyId}).`;
+    const nudgedUpdateText = nudgedUpdate.content?.[0]?.text ?? "";
+    expect(nudgedUpdateText.startsWith(nudgedUpdatePrefix)).toBe(true);
+    expect(nudgedUpdateText.length).toBeGreaterThan(nudgedUpdatePrefix.length);
+
+    // Updating other fields without touching `summary` never evaluates it —
+    // no advisory even though the stored summary (just set above) is long.
+    const noSummaryUpdate = (await client?.callTool({
+      name: "update-story",
+      arguments: { storyId, relevanceScore: 0.42 },
+    })) as ToolTextResult;
+
+    expect(noSummaryUpdate.content?.[0]?.text).toBe(nudgedUpdatePrefix);
+
+    // Already-structured lede+bullets gets no advisory no matter how long.
+    const structuredLongSummary = `Lede sentence for this story.\n\n${Array.from(
+      { length: 8 },
+      (_, i) => `- Bullet number ${String(i)} with a little more detail to pad the length`,
+    ).join("\n")}`;
+    expect(structuredLongSummary.length).toBeGreaterThan(280);
+
+    const structuredUpdate = (await client?.callTool({
+      name: "update-story",
+      arguments: { storyId, summary: structuredLongSummary },
+    })) as ToolTextResult;
+
+    expect(structuredUpdate.content?.[0]?.text).toBe(nudgedUpdatePrefix);
   });
 });

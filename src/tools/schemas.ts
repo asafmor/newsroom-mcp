@@ -147,7 +147,14 @@ export const createStoryInputSchema = z.object({
     .string()
     .min(1)
     .describe(
-      "Plain prose by default: a short paragraph. Optionally, for a story with genuinely multiple discrete facets, a short lede sentence followed by a blank line and 2-4 short lines each starting with '- ' — this structure is never required and a single paragraph is always correct.",
+      "A short paragraph is correct and preferred for a story with one clear fact. Once the summary is genuinely long (over ~280 characters) or covers 3+ distinct facts, lede+bullets is the expected shape, not an optional nicety: write a short lede sentence, then a blank line, then one '- '-prefixed line per distinct fact (2-6 bullets). " +
+        'Example (condensed from a real six-fact story, "OpenAI launches GPT-6 Astra, its first \'critical\' cyber-capability model"): ' +
+        '"OpenAI launched GPT-6 Astra, framing it as the start of an \'AGI era.\'\n\n' +
+        "- First OpenAI model to cross the Preparedness Framework's 'critical' cyber-capability threshold\n" +
+        "- Committed $1B under 'Daybreak for Frontline Defenders' to expand safe access for defenders\n" +
+        "- Benchmarks are strong, but OpenAI's framing of them has drawn scrutiny\n" +
+        "- Early access problems blocked paying users; Altman apologized and offered usage resets\n" +
+        '- Critics say the model\'s less legible reasoning makes human oversight harder"',
     ),
   relevanceScore: z.number().min(0).max(1),
   importanceScore: z.number().min(0).max(1),
@@ -181,7 +188,15 @@ export const updateStoryInputSchema = z.object({
     .min(1)
     .optional()
     .describe(
-      "Plain prose by default: a short paragraph. Optionally, for a story with genuinely multiple discrete facets, a short lede sentence followed by a blank line and 2-4 short lines each starting with '- ' — this structure is never required and a single paragraph is always correct.",
+      "Same convention as create-story: a short paragraph for one clear fact; lede+bullets (a short lede sentence, a blank line, then one '- '-prefixed line per distinct fact) is the expected shape once the summary is genuinely long (over ~280 characters) or covers 3+ distinct facts. " +
+        "Restructure trigger: if this update adds a new distinct fact to an already-substantial summary, rewrite the WHOLE summary into lede+bullets rather than appending a clause or sentence onto the existing prose — accreting one fact per update call into a single paragraph is exactly the pattern this convention exists to prevent. " +
+        'Example (condensed from a real six-fact story, "OpenAI launches GPT-6 Astra, its first \'critical\' cyber-capability model"): ' +
+        '"OpenAI launched GPT-6 Astra, framing it as the start of an \'AGI era.\'\n\n' +
+        "- First OpenAI model to cross the Preparedness Framework's 'critical' cyber-capability threshold\n" +
+        "- Committed $1B under 'Daybreak for Frontline Defenders' to expand safe access for defenders\n" +
+        "- Benchmarks are strong, but OpenAI's framing of them has drawn scrutiny\n" +
+        "- Early access problems blocked paying users; Altman apologized and offered usage resets\n" +
+        '- Critics say the model\'s less legible reasoning makes human oversight harder"',
     ),
   relevanceScore: z.number().min(0).max(1).optional(),
   importanceScore: z.number().min(0).max(1).optional(),

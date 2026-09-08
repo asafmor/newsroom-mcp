@@ -45,12 +45,30 @@ prior tool result in this run.
    pass no tags at all — an untagged story is a correct outcome, not a gap
    to fill. Tags drive a reader-facing filter, so a wrong tag is worse than
    a missing one.
-   `summary` is plain prose by default — a short paragraph is always
-   correct and never needs this. Optionally, when a story genuinely has
-   multiple discrete facets, you may write a short lede sentence, then a
-   blank line, then 2-4 short lines each starting with "- ". This is a
-   convention the reader-facing feed recognizes, not a requirement — don't
-   force it on a story that reads fine as one paragraph.
+   `summary`: a short paragraph is correct and preferred when the story has
+   one clear fact. Once the summary is genuinely long (over ~280 characters)
+   or covers 3+ distinct facts, write it as a short lede sentence, then a
+   blank line, then one "- "-prefixed line per distinct fact (2-6 bullets)
+   — this is the expected shape at that point, not an optional nicety. The
+   reader-facing feed renders this convention as a real bullet list.
+   Worked example, condensed from a real six-fact story ("OpenAI launches
+   GPT-6 Astra, its first 'critical' cyber-capability model"):
+
+   > OpenAI launched GPT-6 Astra, framing it as the start of an "AGI era."
+   >
+   > - First OpenAI model to cross the Preparedness Framework's "critical"
+   >   cyber-capability threshold
+   > - Committed $1B under "Daybreak for Frontline Defenders" to expand
+   >   safe access for defenders
+   > - Benchmarks are strong, but OpenAI's framing of them has drawn
+   >   scrutiny
+   > - Early access problems blocked paying users; Altman apologized and
+   >   offered usage resets
+   > - Critics say the model's less legible reasoning makes human oversight
+   >   harder
+
+   All six facts became one lede sentence plus five bullets — don't cram
+   distinct facts into one paragraph joined by semicolons instead.
 
 5. attach-item-to-story(storyId, contentItemId, contribution, reason) —
    attaches one item to an existing story. `contribution` is the whole
@@ -76,8 +94,21 @@ prior tool result in this run.
    whole set rather than adding to it: omit it to leave existing tags
    untouched, pass the full list you want to keep when revising, and pass
    [] only when you mean to clear every tag.
-   `summary` follows the same optional lede+bullets convention described
-   under create-story — plain prose is still always correct.
+   `summary` follows the same lede+bullets convention described under
+   create-story: plain prose for one clear fact, lede+bullets expected once
+   the summary is genuinely long (over ~280 characters) or covers 3+
+   distinct facts.
+
+   **Restructure trigger (highest-priority rule for this field):** if this
+   update is adding a new distinct fact to a summary that's already
+   substantial, rewrite the WHOLE summary into lede+bullets — don't append a
+   clause or an extra sentence onto the existing prose. Summaries don't
+   usually arrive multi-faceted; they *become* so one update-story call at a
+   time, each call tacking on another clause, until the paragraph is an
+   unreadable run-on. Every time a meaningful-update attachment gives you a
+   new fact to add, ask "does the summary already cover 2+ other facts?" —
+   if yes, rewrite it from scratch as lede+bullets rather than editing the
+   prose in place.
 
 7. merge-stories(survivingStoryId, losingStoryId) — use when you notice two
    *active* stories are really the same real-world event, usually because
