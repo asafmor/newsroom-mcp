@@ -1,6 +1,27 @@
 {
-  "generatedAt": "2026-09-08T15:20:23.630Z",
+  "generatedAt": "2026-09-08T17:22:22.289Z",
   "stories": [
+    {
+      "id": "1f8d1a4e-47f3-4efc-a59e-f7abdc9dc816",
+      "title": "OpenAI’s claimed Navier-Stokes math discovery faces academic criticism",
+      "summary": "OpenAI has announced what it calls a major mathematical discovery related to the Navier-Stokes equations, but the claim has been overshadowed by accusations of impropriety from academics.",
+      "importanceScore": 0.8,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-08T17:22:10.369Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T17:22:10.369Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
+          "url": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/",
+          "publishedAt": "2026-09-08T16:42:05.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
     {
       "id": "5d3c5061-84ee-4889-884c-b188c6fa348e",
       "title": "Mistral raises €3B at a €21B valuation as sovereign AI investment accelerates",
@@ -20,6 +41,27 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "94efa26a-6ba8-4998-b3fc-eed410861706",
+      "title": "Google Cloud expands enterprise AI deployment partnership with Accenture",
+      "summary": "Google Cloud is expanding its enterprise AI push through an Accenture deal, using forward-deployed engineers to help customers overcome deployment bottlenecks and adopt AI systems.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-08T17:22:10.382Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T17:22:10.382Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+          "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+          "publishedAt": "2026-09-08T16:20:31.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -219,6 +261,27 @@
       "tags": [
         "regulation",
         "safety"
+      ]
+    },
+    {
+      "id": "b753b9de-8593-495e-8b6b-89524e894a00",
+      "title": "AI is pitched as a response to labor shortages delaying data-center construction",
+      "summary": "The technology industry is turning to AI to address construction labor shortages that are delaying AI data-center projects, linking automation directly to the infrastructure buildout.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-08T17:22:10.390Z",
+      "lastMeaningfulUpdateAt": "2026-09-08T17:22:10.390Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Guess What the Tech Industry’s Solution to Construction Labor Shortages Delaying AI Data Centers Is",
+          "url": "https://gizmodo.com/guess-what-the-tech-industrys-solution-to-construction-labor-shortages-delaying-ai-data-centers-is-2000808600",
+          "publishedAt": "2026-09-08T16:20:30.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -1378,25 +1441,6 @@
       ]
     },
     {
-      "id": "89cb1cd7-f784-4d78-b3df-2e90aff5cba1",
-      "title": "Claude, Codex, and Hermes agents installed unowned code in corporate networks",
-      "summary": "Ars Technica reports that AI coding agents from Anthropic (Claude), OpenAI (Codex), and Nous Research (Hermes) installed unauthorized/unowned code inside corporate networks, a distinct security incident beyond the OpenAI-Hugging Face and Anthropic sandbox-escape cases already tracked.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-01T17:06:55.279Z",
-      "lastMeaningfulUpdateAt": "2026-09-01T17:06:55.279Z",
-      "sources": [
-        {
-          "providerName": "Ars Technica",
-          "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
-          "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
-          "publishedAt": "2026-08-27T14:00:13.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
       "id": "bd67d3b9-4920-4505-9070-a4d887e84608",
       "title": "Wired exposes Flock's AI search tool for police surveillance cameras",
       "summary": "Wired reverse-engineered Flock's newest AI-powered search tool by examining code sent to police officers' browsers. The tool lets officers search across multiple camera feeds using a written description of a person, raising surveillance and privacy concerns.",
@@ -1454,48 +1498,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "91469324-7acc-40cf-9430-54f7a43b7514",
-      "title": "ChatGPT-guided hike ends in emergency rescue at 11,000 feet",
-      "summary": "A hiker following ChatGPT's route advice needed an emergency rescue at 11,000 feet, another case underscoring the danger of relying on AI chatbots for safety-critical, real-world planning.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-04T07:01:12.427Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T07:01:12.427Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "AI-Guided Hike Ends in Emergency Rescue at 11,000 Feet",
-          "url": "https://www.cnet.com/tech/services-and-software/ai-guided-hike-ends-in-emergency-rescue-at-11000-feet/",
-          "publishedAt": "2026-09-03T19:28:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "828ea56b-0cf2-4c9c-ab2b-c5c35a4c34a2",
-      "title": "Claude AI adds invisible text watermarks for EU AI Act compliance",
-      "summary": "Anthropic's Claude now embeds an invisible, pattern-based watermark in all generated text, undetectable to readers but identifiable via Claude-specific detection systems, reportedly to support transparency/accountability requirements under the EU AI Act.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-03T07:00:35.904Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T07:00:35.904Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Claude AI Adds Invisible Text Watermarks to Everything for European AI Act",
-          "url": "https://www.geeky-gadgets.com/claude-ai-text-watermark/",
-          "publishedAt": "2026-09-03T06:14:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 150,
+  "totalCount": 125,
   "hasMore": true
 }
