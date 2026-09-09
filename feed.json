@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T15:38:09.723Z",
+  "generatedAt": "2026-09-09T17:39:41.748Z",
   "stories": [
     {
       "id": "e8676db7-f184-4809-ae14-9c5959a6122f",
@@ -257,6 +257,27 @@
       "tags": [
         "model-release",
         "product-launch"
+      ]
+    },
+    {
+      "id": "5a046b97-4229-4e99-a941-478e2864acc6",
+      "title": "Paul Christiano joins OpenAI Foundation Board and safety committee",
+      "summary": "AI alignment researcher Paul Christiano has joined the OpenAI Foundation Board and its Safety and Security Committee, adding experience in alignment, safety, and standards to the foundation's governance.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-09T17:39:36.033Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T17:39:36.033Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Paul Christiano joins OpenAI Foundation Board",
+          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+          "publishedAt": "2026-09-09T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -1390,30 +1411,8 @@
         "funding",
         "open-source"
       ]
-    },
-    {
-      "id": "412c72e2-2b86-43b4-a8fa-714c707a47f4",
-      "title": "Wired finds Apple’s forthcoming Siri AI has faded from view",
-      "summary": "A Wired review says the beta version of Apple’s revamped Siri assistant initially impressed but has become easy to forget as the full release approaches, raising a consumer-facing question about whether Apple’s AI assistant can sustain attention beyond its launch.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-06T10:43:49.111Z",
-      "lastMeaningfulUpdateAt": "2026-09-06T10:43:49.111Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "My Brief Summer Fling With Siri AI",
-          "url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
-          "publishedAt": "2026-09-06T10:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion",
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 113,
+  "totalCount": 109,
   "hasMore": true
 }
