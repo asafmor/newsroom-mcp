@@ -2,31 +2,37 @@
 // Phase 2: the fully mechanical synthesis pipeline. Reads podcast.json off
 // the `feed` branch, synthesizes real audio (OpenAI TTS) for every
 // `pending`/`failed` episode, concatenates + probes with ffmpeg/ffprobe,
-// uploads to a per-episode GitHub Release, and publishes the result back to
-// podcast.json — merge-only, one episode at a time, so a mid-run failure
-// never loses already-completed work. Runs identically in CI
+// and publishes the result back to podcast.json along with the mp3 itself
+// (committed onto the `feed` branch at audio/<episode.id>.mp3 — see the
+// iOS-playback fix in docs/mcp-tools.md: a GitHub Release asset is served
+// with no CORS headers and a non-audio content type, which iOS refuses to
+// play) — merge-only, one episode at a time, so a mid-run failure never
+// loses already-completed work. Runs identically in CI
 // (.github/workflows/synthesize-podcast.yml) and locally: this is the one
 // script both call, wiring the SAME src/podcast/ logic either way (F.37).
 //
-// Reads OPENAI_API_KEY/GITHUB_TOKEN/GITHUB_REPOSITORY from process.env only
-// — never from src/config.ts/NewsroomConfig, which the MCP server never
-// needs any of these for. This script doesn't import config.ts at all, so it
-// has to load .env itself: in CI these come from the job environment, but a
-// local run gets them from .env like every other NEWSROOM_* var. Without
-// this, `npm run synthesize-podcast` fails locally even with a valid .env.
+// Reads OPENAI_API_KEY from process.env only — never from
+// src/config.ts/NewsroomConfig, which the MCP server never needs it for.
+// This script doesn't import config.ts at all, so it has to load .env
+// itself: in CI it comes from the job environment, but a local run gets it
+// from .env like every other NEWSROOM_* var. Without this,
+// `npm run synthesize-podcast` fails locally even with a valid .env.
+// git push auth for the `feed` branch itself needs no separate token here —
+// it reuses whatever credentials are already configured for `origin` in
+// this checkout (actions/checkout's built-in token in CI, the operator's
+// own git credentials locally), same as publish-podcast.ts/publish-feed.ts.
 import { config as loadDotenv } from "dotenv";
 
 import { spawnSync } from "node:child_process";
-import { mkdtempSync, readFileSync, writeFileSync } from "node:fs";
+import { copyFileSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 
 loadDotenv({ quiet: true });
 
-import { defaultGithubApi } from "../src/podcast/github-api.js";
 import { checkFfmpegAndFfprobeAvailable, defaultProcessRunner } from "../src/podcast/ffmpeg.js";
 import { applyAudioResult, parsePodcastJson, type PodcastJsonFile } from "../src/podcast/podcast-json.js";
-import { synthesizeEpisode } from "../src/podcast/synthesize-episode.js";
+import { synthesizeEpisode, type SynthesisOutcome } from "../src/podcast/synthesize-episode.js";
 import { defaultTtsRequest } from "../src/podcast/tts-client.js";
 import { publishPodcastJson } from "./lib/podcast-worktree-publish.js";
 
@@ -48,8 +54,6 @@ function requireEnv(name: string): string {
 
 async function main() {
   const openaiApiKey = requireEnv("OPENAI_API_KEY");
-  const githubToken = requireEnv("GITHUB_TOKEN");
-  const githubRepository = requireEnv("GITHUB_REPOSITORY"); // "owner/repo"
 
   const repoDir = process.cwd();
   const runProcess = defaultProcessRunner(spawnSync);
@@ -76,7 +80,6 @@ async function main() {
     return;
   }
 
-  const githubApi = defaultGithubApi({ token: githubToken, repository: githubRepository });
   const scratchRoot = mkdtempSync(path.join(tmpdir(), "podcast-synth-"));
 
   // Each episode is processed and published independently: one episode's
@@ -89,15 +92,14 @@ async function main() {
 
   for (const episode of eligible) {
     try {
-      let result: Awaited<ReturnType<typeof synthesizeEpisode>>;
+      let outcome: SynthesisOutcome;
 
       try {
         const scratchDir = mkdtempSync(path.join(scratchRoot, `${episode.id}-`));
-        result = await synthesizeEpisode(episode, {
+        outcome = await synthesizeEpisode(episode, {
           scratchDir,
           requestTts: (params) => defaultTtsRequest({ ...params, apiKey: openaiApiKey }),
           runProcess,
-          githubApi,
           fs: {
             writeFile: (filePath, data) => {
               writeFileSync(filePath, data);
@@ -108,18 +110,47 @@ async function main() {
       } catch (error) {
         // synthesizeEpisode() itself never throws — this only catches a truly
         // unexpected crash (e.g. disk full writing scratch files).
-        result = { audioStatus: "failed", failureReason: shortReason(error, "Unexpected synthesis error") };
+        outcome = { result: { audioStatus: "failed", failureReason: shortReason(error, "Unexpected synthesis error") } };
       }
 
+      const { result } = outcome;
       console.log(
         `Episode ${episode.id}: ${result.audioStatus}${result.audioStatus === "failed" ? ` (${result.failureReason})` : ""}`,
       );
 
-      publishPodcastJson((currentContent) => {
-        const current = currentContent === undefined ? undefined : parsePodcastJson(currentContent);
-        const next = applyAudioResult(current, episode.id, result, new Date());
-        return JSON.stringify(next, null, 2) + "\n";
-      }, repoDir);
+      publishPodcastJson(
+        (currentContent) => {
+          const current = currentContent === undefined ? undefined : parsePodcastJson(currentContent);
+          const next = applyAudioResult(current, episode.id, result, new Date());
+          return JSON.stringify(next, null, 2) + "\n";
+        },
+        repoDir,
+        (worktreeDir, nextContent) => {
+          const audioDir = path.join(worktreeDir, "audio");
+          mkdirSync(audioDir, { recursive: true });
+
+          if (result.audioStatus === "ready" && outcome.localAudioPath !== undefined) {
+            copyFileSync(outcome.localAudioPath, path.join(audioDir, `${episode.id}.mp3`));
+          }
+
+          // Prune any audio/*.mp3 no longer referenced by a `ready` episode
+          // in the published (already-windowed-to-PODCAST_HISTORY_WINDOW)
+          // podcast.json, so the branch's working tree stays bounded.
+          const liveIds = new Set(
+            parsePodcastJson(nextContent)
+              .episodes.filter((e) => e.audioStatus === "ready")
+              .map((e) => e.id),
+          );
+          // Only ever deletes .mp3 files it owns — a non-.mp3 file that ends
+          // up here is left alone rather than swept up by a name that could
+          // never have matched an episode id.
+          for (const file of readdirSync(audioDir)) {
+            if (file.endsWith(".mp3") && !liveIds.has(file.slice(0, -".mp3".length))) {
+              rmSync(path.join(audioDir, file));
+            }
+          }
+        },
+      );
     } catch (error) {
       // Publishing this episode's result failed (e.g. persistent push
       // contention). Nothing is corrupted: the Release upload is idempotent

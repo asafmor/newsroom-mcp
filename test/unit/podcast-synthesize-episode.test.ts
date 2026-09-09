@@ -1,6 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
 
-import type { GithubApi } from "../../src/podcast/github-api.js";
 import type { PodcastJsonEpisode } from "../../src/podcast/podcast-json.js";
 import type { ProcessResult, ProcessRunner } from "../../src/podcast/ffmpeg.js";
 import { synthesizeEpisode, type SynthesisDeps } from "../../src/podcast/synthesize-episode.js";
@@ -39,24 +38,10 @@ function makeDeps(overrides: Partial<SynthesisDeps> = {}): SynthesisDeps {
     throw new Error(`unexpected command: ${command}`);
   };
 
-  const githubApi: GithubApi = {
-    getReleaseByTag: vi.fn().mockResolvedValue(null),
-    createRelease: vi.fn().mockResolvedValue({ id: 1, assets: [] }),
-    deleteAsset: vi.fn().mockResolvedValue(undefined),
-    uploadAsset: vi.fn().mockResolvedValue({
-      id: 1,
-      name: "episode.mp3",
-      contentType: "audio/mpeg",
-      browserDownloadUrl: "https://example.com/podcast-2026-W37/episode.mp3",
-    }),
-    setAssetContentType: vi.fn(),
-  };
-
   return {
     scratchDir: "/tmp/scratch",
     requestTts: vi.fn().mockResolvedValue(new ArrayBuffer(8)),
     runProcess,
-    githubApi,
     fs: {
       writeFile: (path, data) => {
         files.set(path, typeof data === "string" ? Buffer.from(data) : Buffer.from(data));
@@ -68,18 +53,21 @@ function makeDeps(overrides: Partial<SynthesisDeps> = {}): SynthesisDeps {
 }
 
 describe("synthesizeEpisode", () => {
-  it("succeeds end to end: chunks -> TTS -> ffmpeg concat -> ffprobe -> Release upload", async () => {
+  it("succeeds end to end: chunks -> TTS -> ffmpeg concat -> ffprobe, and returns the local mp3 path (no upload)", async () => {
     const deps = makeDeps();
-    const result = await synthesizeEpisode(makeEpisode(), deps);
+    const outcome = await synthesizeEpisode(makeEpisode(), deps);
 
-    expect(result).toEqual({
-      audioStatus: "ready",
-      audio: {
-        url: "https://example.com/podcast-2026-W37/episode.mp3",
-        durationSeconds: 123,
-        sizeBytes: 16,
-        mimeType: "audio/mpeg",
+    expect(outcome).toEqual({
+      result: {
+        audioStatus: "ready",
+        audio: {
+          url: "audio/podcast-2026-W37.mp3",
+          durationSeconds: 123,
+          sizeBytes: 16,
+          mimeType: "audio/mpeg",
+        },
       },
+      localAudioPath: "/tmp/scratch/episode.mp3",
     });
   });
 
@@ -99,69 +87,48 @@ describe("synthesizeEpisode", () => {
     }
   });
 
-  it("marks the episode failed (never uploads) when every TTS retry is exhausted", async () => {
+  it("marks the episode failed (no localAudioPath) when every TTS retry is exhausted", async () => {
     const requestTts = vi.fn().mockRejectedValue(new Error("TTS is down"));
-    const githubApi: GithubApi = {
-      getReleaseByTag: vi.fn(),
-      createRelease: vi.fn(),
-      deleteAsset: vi.fn(),
-      uploadAsset: vi.fn(),
-      setAssetContentType: vi.fn(),
-    };
 
-    const result = await synthesizeEpisode(makeEpisode(), makeDeps({ requestTts, githubApi }));
+    const outcome = await synthesizeEpisode(makeEpisode(), makeDeps({ requestTts }));
 
-    expect(result.audioStatus).toBe("failed");
-    if (result.audioStatus === "failed") {
-      expect(result.failureReason).toMatch(/TTS is down/);
+    expect(outcome.result.audioStatus).toBe("failed");
+    if (outcome.result.audioStatus === "failed") {
+      expect(outcome.result.failureReason).toMatch(/TTS is down/);
     }
-    expect(githubApi.uploadAsset).not.toHaveBeenCalled();
+    expect(outcome.localAudioPath).toBeUndefined();
   });
 
-  it("marks the episode failed and never uploads when ffmpeg concatenation fails", async () => {
+  it("marks the episode failed when ffmpeg concatenation fails", async () => {
     const runProcess: ProcessRunner = (command) =>
       command === "ffmpeg" ? { status: 1, stdout: "", stderr: "concat error" } : { status: 0, stdout: "1", stderr: "" };
-    const githubApi: GithubApi = {
-      getReleaseByTag: vi.fn(),
-      createRelease: vi.fn(),
-      deleteAsset: vi.fn(),
-      uploadAsset: vi.fn(),
-      setAssetContentType: vi.fn(),
-    };
 
-    const result = await synthesizeEpisode(makeEpisode(), makeDeps({ runProcess, githubApi }));
+    const outcome = await synthesizeEpisode(makeEpisode(), makeDeps({ runProcess }));
 
-    expect(result.audioStatus).toBe("failed");
-    expect(githubApi.uploadAsset).not.toHaveBeenCalled();
+    expect(outcome.result.audioStatus).toBe("failed");
+    expect(outcome.localAudioPath).toBeUndefined();
   });
 
-  it("marks the episode failed when ffprobe reports a zero/invalid duration, and never uploads", async () => {
+  it("marks the episode failed when ffprobe reports a zero/invalid duration", async () => {
     const runProcess: ProcessRunner = (command) =>
       command === "ffprobe" ? { status: 0, stdout: "0\n", stderr: "" } : { status: 0, stdout: "", stderr: "" };
-    const githubApi: GithubApi = {
-      getReleaseByTag: vi.fn(),
-      createRelease: vi.fn(),
-      deleteAsset: vi.fn(),
-      uploadAsset: vi.fn(),
-      setAssetContentType: vi.fn(),
-    };
 
-    const result = await synthesizeEpisode(makeEpisode(), makeDeps({ runProcess, githubApi }));
+    const outcome = await synthesizeEpisode(makeEpisode(), makeDeps({ runProcess }));
 
-    expect(result.audioStatus).toBe("failed");
-    if (result.audioStatus === "failed") {
-      expect(result.failureReason).toMatch(/invalid duration/);
+    expect(outcome.result.audioStatus).toBe("failed");
+    if (outcome.result.audioStatus === "failed") {
+      expect(outcome.result.failureReason).toMatch(/invalid duration/);
     }
-    expect(githubApi.uploadAsset).not.toHaveBeenCalled();
+    expect(outcome.localAudioPath).toBeUndefined();
   });
 
   it("the failure reason is short and never contains the raw TTS request params object", async () => {
     const requestTts = vi.fn().mockRejectedValue(new Error("x".repeat(1000)));
-    const result = await synthesizeEpisode(makeEpisode(), makeDeps({ requestTts }));
+    const outcome = await synthesizeEpisode(makeEpisode(), makeDeps({ requestTts }));
 
-    expect(result.audioStatus).toBe("failed");
-    if (result.audioStatus === "failed") {
-      expect(result.failureReason.length).toBeLessThanOrEqual(200);
+    expect(outcome.result.audioStatus).toBe("failed");
+    if (outcome.result.audioStatus === "failed") {
+      expect(outcome.result.failureReason.length).toBeLessThanOrEqual(200);
     }
   });
 });

@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 
 import {
-  formatIsoWeekRange,
+  activeSegmentIndex,
+  formatCoveredDateRange,
   latestDigestEntry,
   podcastStatusLabel,
 } from "../../views/_shared/podcast/formatters.js";
@@ -23,24 +24,57 @@ function makeEpisode(overrides: Partial<PodcastEpisode> = {}): PodcastEpisode {
   };
 }
 
-describe("formatIsoWeekRange", () => {
-  it("renders a human calendar range for a plain mid-year week, spelling out the month on both sides", () => {
-    // 2026-W37 == Mon 2026-09-07 .. Sun 2026-09-13.
-    expect(formatIsoWeekRange("2026-W37")).toBe("Sep 7 – Sep 13, 2026");
+describe("formatCoveredDateRange", () => {
+  it("spans the 7 days before publishedAt (MAX_STORY_AGE_DAYS), ending ON publishedAt's own date", () => {
+    // The episode's own submission day, not a calendar ISO week — see the
+    // P2 UI-review finding this replaces (the old range could start after
+    // the covered content and end days in the future).
+    expect(formatCoveredDateRange("2026-09-09T00:00:00.000Z")).toBe("Sep 2 – Sep 9, 2026");
   });
 
-  it("spells out both months when the week straddles a month boundary", () => {
-    // 2026-W36 == Mon 2026-08-31 .. Sun 2026-09-06 — the report's own worked example.
-    expect(formatIsoWeekRange("2026-W36")).toBe("Aug 31 – Sep 6, 2026");
+  it("spells out both months when the window straddles a month boundary", () => {
+    expect(formatCoveredDateRange("2026-09-03T00:00:00.000Z")).toBe("Aug 27 – Sep 3, 2026");
   });
 
-  it("spells out both years when the week straddles a year boundary", () => {
-    // 2019-W01 == Mon 2018-12-31 .. Sun 2019-01-06.
-    expect(formatIsoWeekRange("2019-W01")).toBe("Dec 31, 2018 – Jan 6, 2019");
+  it("spells out both years when the window straddles a year boundary", () => {
+    expect(formatCoveredDateRange("2019-01-02T00:00:00.000Z")).toBe("Dec 26, 2018 – Jan 2, 2019");
   });
 
-  it("falls back to the raw id for malformed input instead of throwing", () => {
-    expect(formatIsoWeekRange("not-a-week")).toBe("not-a-week");
+  it("falls back to the raw string for an unparseable publishedAt instead of throwing", () => {
+    expect(formatCoveredDateRange("not-a-date")).toBe("not-a-date");
+  });
+});
+
+describe("activeSegmentIndex", () => {
+  const segments = ["a".repeat(10), "b".repeat(30), "c".repeat(10)]; // starts (of 50 total chars): 0, 20, 80 (of 100s duration)
+
+  it("picks the segment whose char-proportional start time has passed", () => {
+    expect(activeSegmentIndex(0, 100, segments)).toBe(0);
+    expect(activeSegmentIndex(19, 100, segments)).toBe(0);
+    expect(activeSegmentIndex(20, 100, segments)).toBe(1);
+    expect(activeSegmentIndex(79, 100, segments)).toBe(1);
+    expect(activeSegmentIndex(80, 100, segments)).toBe(2);
+  });
+
+  it("clamps to the last segment when currentTime is beyond duration", () => {
+    expect(activeSegmentIndex(500, 100, segments)).toBe(2);
+  });
+
+  it("clamps a negative currentTime to the first segment", () => {
+    expect(activeSegmentIndex(-5, 100, segments)).toBe(0);
+  });
+
+  it("returns -1 for a zero/negative duration rather than dividing by zero", () => {
+    expect(activeSegmentIndex(10, 0, segments)).toBe(-1);
+    expect(activeSegmentIndex(10, -1, segments)).toBe(-1);
+  });
+
+  it("returns -1 for an empty segment list", () => {
+    expect(activeSegmentIndex(10, 100, [])).toBe(-1);
+  });
+
+  it("returns -1 when every segment is empty (zero total characters)", () => {
+    expect(activeSegmentIndex(10, 100, ["", ""])).toBe(-1);
   });
 });
 
@@ -58,12 +92,12 @@ describe("podcastStatusLabel", () => {
 });
 
 describe("latestDigestEntry", () => {
-  it("summarizes the first (newest) episode", () => {
+  it("summarizes the first (newest) episode, deriving its range from publishedAt", () => {
     const episodes = [
-      makeEpisode({ isoWeek: "2026-W37", audioStatus: "ready" }),
-      makeEpisode({ isoWeek: "2026-W36", audioStatus: "pending" }),
+      makeEpisode({ isoWeek: "2026-W37", publishedAt: "2026-09-09T00:00:00.000Z", audioStatus: "ready" }),
+      makeEpisode({ isoWeek: "2026-W36", publishedAt: "2026-09-02T00:00:00.000Z", audioStatus: "pending" }),
     ];
-    expect(latestDigestEntry(episodes)).toEqual({ label: "Sep 7 – Sep 13, 2026", statusLabel: "Ready to play" });
+    expect(latestDigestEntry(episodes)).toEqual({ label: "Sep 2 – Sep 9, 2026", statusLabel: "Ready to play" });
   });
 
   it("is undefined when there are no episodes, so the header renders no misleading link", () => {

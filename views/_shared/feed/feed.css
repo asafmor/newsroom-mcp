@@ -277,7 +277,14 @@ html, body { margin: 0; background: var(--bg); }
   flex: 1 1 auto; min-width: 0;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
-.digest-bar-status { flex-shrink: 0; font-weight: 700; color: var(--accent); white-space: nowrap; }
+/* A status chip, not a second link — the whole bar is the one click target. */
+.digest-bar-status {
+  flex-shrink: 0; white-space: nowrap;
+  padding: 3px var(--space-2);
+  font-weight: 700; color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: var(--radius-pill);
+}
 
 /* Header-right cluster: just the sort toggle, top-aligned against the brand.
    --control-h sizes the pill group's height. */

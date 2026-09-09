@@ -23,7 +23,7 @@
     "synthesize-podcast": "tsx scripts/synthesize-podcast.ts",
     "measure-summary-adoption": "tsx scripts/measure-summary-adoption.ts",
     "build:site": "vite build --config site/vite.config.ts",
-    "dev:site": "git show feed:feed.json > site/feed.json && vite --config site/vite.config.ts",
+    "dev:site": "git show feed:feed.json > site/feed.json && (git show feed:podcast.json > site/podcast.json || true) && (git archive feed audio | tar -x -C site || true) && vite --config site/vite.config.ts",
     "review:ui": "tsx scripts/request-ui-review.ts",
     "typecheck": "mcp-use typecheck",
     "lint": "eslint .",

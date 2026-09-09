@@ -1,13 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import {
-  computeIsoWeek,
-  fridayDueBoundary,
-  isDueForCurrentWeek,
-  isoWeekDateRange,
-  isoWeekId,
-  parseIsoWeekId,
-} from "../../src/shared/iso-week.js";
+import { computeIsoWeek, fridayDueBoundary, isDueForCurrentWeek, isoWeekId } from "../../src/shared/iso-week.js";
 
 describe("computeIsoWeek", () => {
   it("computes a plain mid-year week", () => {
@@ -68,44 +61,5 @@ describe("isDueForCurrentWeek", () => {
 
   it("is false once an episode already exists for the current week, even past the boundary", () => {
     expect(isDueForCurrentWeek(new Date("2026-09-11T08:00:00.000Z"), true)).toBe(false);
-  });
-});
-
-describe("isoWeekDateRange", () => {
-  it("is the exact reverse of computeIsoWeek for a plain mid-year week", () => {
-    // 2026-W37 == Mon 2026-09-07 .. Sun 2026-09-13 (matches the 2026-09-09 worked example above).
-    const { start, end } = isoWeekDateRange(2026, 37);
-    expect(start.toISOString()).toBe("2026-09-07T00:00:00.000Z");
-    expect(end.toISOString()).toBe("2026-09-13T00:00:00.000Z");
-    expect(computeIsoWeek(start)).toEqual({ isoYear: 2026, isoWeek: 37, id: "2026-W37" });
-  });
-
-  it("round-trips a late-December date whose ISO week/year belongs to the FOLLOWING year", () => {
-    // computeIsoWeek already asserts 2018-12-31 -> 2019-W01 above; the reverse must land back on that Monday.
-    const { start, end } = isoWeekDateRange(2019, 1);
-    expect(start.toISOString()).toBe("2018-12-31T00:00:00.000Z");
-    expect(end.toISOString()).toBe("2019-01-06T00:00:00.000Z");
-  });
-
-  it("round-trips an early-January date whose ISO week/year belongs to the PREVIOUS year", () => {
-    // computeIsoWeek already asserts 2005-01-01 -> 2004-W53 above; that Saturday
-    // falls inside week 53's Mon 2004-12-27 .. Sun 2005-01-02 range.
-    const { start, end } = isoWeekDateRange(2004, 53);
-    expect(start.toISOString()).toBe("2004-12-27T00:00:00.000Z");
-    expect(end.toISOString()).toBe("2005-01-02T00:00:00.000Z");
-    expect(computeIsoWeek(new Date("2005-01-01T00:00:00Z"))).toEqual({ isoYear: 2004, isoWeek: 53, id: "2004-W53" });
-  });
-});
-
-describe("parseIsoWeekId", () => {
-  it("parses a well-formed id", () => {
-    expect(parseIsoWeekId("2026-W37")).toEqual({ isoYear: 2026, isoWeek: 37 });
-  });
-
-  it("rejects malformed and out-of-range input instead of throwing", () => {
-    expect(parseIsoWeekId("not-a-week")).toBeUndefined();
-    expect(parseIsoWeekId("2026-W00")).toBeUndefined();
-    expect(parseIsoWeekId("2026-W54")).toBeUndefined();
-    expect(parseIsoWeekId("2026-37")).toBeUndefined();
   });
 });

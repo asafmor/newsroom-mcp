@@ -33,9 +33,16 @@ export function checkFfmpegAndFfprobeAvailable(run: ProcessRunner): Availability
 /**
  * Concatenates the chunk files listed in `concatListPath` (ffmpeg concat
  * demuxer format: one `file '<path>'` line per chunk) into `outputPath`,
- * WITH RE-ENCODING (`-c:a libmp3lame -b:a 128k`) — never `-c copy`, never a
- * naive byte-level concatenation, since either produces wrong
- * duration/seek behavior and audible seams between chunks.
+ * WITH RE-ENCODING (`-c:a libmp3lame -ac 1 -b:a 64k`) — never `-c copy`,
+ * never a naive byte-level concatenation, since either produces wrong
+ * duration/seek behavior and audible seams between chunks. The 64kbps CBR
+ * (down from the previous flat 128kbps) is what roughly halves the output
+ * file size (~7.1MB -> ~3.4MB per episode) — this file is committed
+ * straight into the `feed` branch's git history (see the static-site
+ * constraint), so keeping it small matters. `-ac 1` is separate and does
+ * not itself shrink the file at a fixed bitrate; it just stops spending
+ * that bitrate on a duplicated second channel, since a single narrated
+ * voice loses nothing perceptible going mono.
  */
 export function concatenateMp3(concatListPath: string, outputPath: string, run: ProcessRunner): void {
   const result = run("ffmpeg", [
@@ -48,8 +55,10 @@ export function concatenateMp3(concatListPath: string, outputPath: string, run: 
     concatListPath,
     "-c:a",
     "libmp3lame",
+    "-ac",
+    "1",
     "-b:a",
-    "128k",
+    "64k",
     outputPath,
   ]);
 

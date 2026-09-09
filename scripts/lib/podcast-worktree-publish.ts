@@ -27,7 +27,20 @@ function git(args: string[], cwd: string) {
  */
 export type ComputePodcastJson = (currentContent: string | undefined) => string | undefined;
 
-export function publishPodcastJson(compute: ComputePodcastJson, repoDir: string = process.cwd()): void {
+/**
+ * Runs after `podcast.json` is written but before it's committed — a place
+ * to stage any other file the new content depends on (e.g. a newly
+ * synthesized episode's mp3 under `audio/`) so it lands in the SAME
+ * commit. Optional: scripts/publish-podcast.ts (Phase 1) has no audio to
+ * place and passes none.
+ */
+export type SyncWorktreeFiles = (worktreeDir: string, nextContent: string) => void;
+
+export function publishPodcastJson(
+  compute: ComputePodcastJson,
+  repoDir: string = process.cwd(),
+  syncFiles?: SyncWorktreeFiles,
+): void {
   const worktreeDir = mkdtempSync(path.join(tmpdir(), "podcast-publish-"));
   let worktreeCreated = false;
 
@@ -64,10 +77,15 @@ export function publishPodcastJson(compute: ComputePodcastJson, repoDir: string 
       }
 
       writeFileSync(podcastJsonPath, nextContent);
+      syncFiles?.(worktreeDir, nextContent);
 
-      const add = git(["add", "podcast.json"], worktreeDir);
+      // -A (not a fixed pathspec): also stages a newly copied audio/*.mp3
+      // and any pruned (deleted) one in the SAME commit as podcast.json —
+      // podcast.json must never be pushed pointing at an mp3 that hasn't
+      // landed in the same commit. Nothing else in the worktree changes.
+      const add = git(["add", "-A"], worktreeDir);
       if (add.status !== 0) {
-        throw new Error(`git add podcast.json failed: ${add.stderr}`);
+        throw new Error(`git add failed: ${add.stderr}`);
       }
 
       const diff = git(["diff", "--cached", "--quiet"], worktreeDir);
