@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T17:39:41.748Z",
+  "generatedAt": "2026-09-09T19:40:46.608Z",
   "stories": [
     {
       "id": "e8676db7-f184-4809-ae14-9c5959a6122f",
@@ -79,6 +79,28 @@
         "product-launch",
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "29071c42-75e0-4817-a43a-ec5a56794486",
+      "title": "Experiment shows an unguarded open-source AI agent finding flaws in home devices",
+      "summary": "A Wired reporter gave a powerful open-source model broad access to a home network and devices; the AI agent found vulnerabilities and compromised a PC, then helped identify mitigations. The account illustrates both the offensive capability and defensive use of less restricted AI agents.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-09T19:40:39.140Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T19:40:39.140Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "I Let an AI Agent Hack All My Gadgets—and I’d Do It Again",
+          "url": "https://www.wired.com/story/i-used-ai-to-hack-my-home-network/",
+          "publishedAt": "2026-09-09T18:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "open-source"
       ]
     },
     {
@@ -207,6 +229,49 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "810e9af4-0655-4b1b-bea9-5465677374c0",
+      "title": "Apple introduces image-reference metadata to distinguish AI-edited photos",
+      "summary": "Apple introduced Apple Reference Image, a feature intended to help people determine whether an iPhone photo has been edited, including through AI alterations. It is a consumer-facing provenance measure aimed at improving trust in digital images.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-09T19:40:34.060Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T19:40:34.060Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Apple has a new way prove your iPhone photos aren’t AI slop",
+          "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+          "publishedAt": "2026-09-09T18:08:35.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "safety"
+      ]
+    },
+    {
+      "id": "ddee42d4-4475-471f-a310-95dada12111b",
+      "title": "Apple adds AI-driven health insights to its revamped Health app",
+      "summary": "Apple says its revamped Health app will use Apple Intelligence to interpret users’ health data and generate a health-age estimate and readiness score. The update is a consumer-facing expansion of the company’s AI features into personal health tracking.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-09T19:40:29.458Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T19:40:29.458Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score",
+          "url": "https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/",
+          "publishedAt": "2026-09-09T18:16:29.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1326,93 +1391,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "398c8c58-841e-4190-ad53-54bdcabdf737",
-      "title": "viaim Rise AI agent earbuds set for Indiegogo launch",
-      "summary": "viaim plans to launch its Rise AI agent earbuds on Indiegogo on September 8 after the product received an IFA Innovation Award. The earbuds are positioned for meeting capture, transcription and turning spoken conversations into organized follow-up tasks.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-07T17:05:59.938Z",
-      "lastMeaningfulUpdateAt": "2026-09-07T17:05:59.938Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "IFA Award-Winning viaim Rise AI Agent Earbuds Launch on Indiegogo September 8",
-          "url": "https://www.geeky-gadgets.com/ifa-award-winning-viaim-rise-ai-agent-earbuds-launch-on-indiegogo-september-8/",
-          "publishedAt": "2026-09-07T15:35:45.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "1889d72a-2ae0-4254-b6b4-0e6f5e9217c4",
-      "title": "Hikers rescued after following Google Gemini planning advice",
-      "summary": "A sheriff’s office said hikers were rescued after Google Gemini advised their group to bring far less food and water than it required, highlighting a real-world safety risk when relying on AI-generated planning guidance.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-05T20:35:23.985Z",
-      "lastMeaningfulUpdateAt": "2026-09-05T20:35:23.985Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Hikers rescued after using Google Gemini for planning",
-          "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-          "publishedAt": "2026-09-05T19:35:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "453aa375-ccba-46c0-874c-fedb7e491e3c",
-      "title": "Nvidia confirms $12.9B acquisition of Hugging Face",
-      "summary": "Nvidia confirmed it is buying Hugging Face for roughly $12.9 billion. Hugging Face hosts over 3 million models and is used by 18+ million developers; the deal gives Nvidia deep access to, and influence over, the open-source AI ecosystem it promotes.",
-      "importanceScore": 0.9,
-      "relevanceScore": 1,
-      "firstSeenAt": "2026-09-03T15:01:38.584Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T15:01:38.584Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Nvidia’s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
-          "url": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/",
-          "publishedAt": "2026-09-03T12:43:09.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
-          "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-          "publishedAt": "2026-09-03T12:42:45.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "NVIDIA is buying Hugging Face for $12.93 billion",
-          "url": "https://www.engadget.com/2250197/nvidia-buys-hugging-face/",
-          "publishedAt": "2026-09-03T12:18:21.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Nvidia CEO Says Hugging Face Will ‘Remain an Open Platform for the Entire AI Ecosystem’",
-          "url": "https://gizmodo.com/nvidia-ceo-says-hugging-face-will-remain-an-open-platform-for-the-entire-ai-ecosystem-2000806742",
-          "publishedAt": "2026-09-03T16:25:41.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 109,
+  "totalCount": 108,
   "hasMore": true
 }
