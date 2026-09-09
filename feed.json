@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T11:34:28.644Z",
+  "generatedAt": "2026-09-09T13:35:50.159Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -102,6 +102,28 @@
       ]
     },
     {
+      "id": "58375be5-392f-48b5-9a3b-0f2ab79aa487",
+      "title": "Suno releases v6 music model trained on licensed music",
+      "summary": "Suno says its new v6 music-generation model was trained on licensed music rather than the material used for earlier versions, as copyright litigation against the company continues.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-09T13:35:35.746Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T13:35:35.746Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
+          "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
+          "publishedAt": "2026-09-09T12:05:34.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "safety"
+      ]
+    },
+    {
       "id": "5d3c5061-84ee-4889-884c-b188c6fa348e",
       "title": "Mistral raises €3B at a €21B valuation as sovereign AI investment accelerates",
       "summary": "French AI lab Mistral has raised €3 billion in a Series D round led by Samsung, Scaleup Europe and PSG Equity, at a €21 billion valuation. The financing underscores investor appetite for European sovereign-AI alternatives.",
@@ -194,6 +216,51 @@
       ]
     },
     {
+      "id": "14ee4ff7-f571-49db-b314-20b94aea28bf",
+      "title": "Kepler Computing targets the AI memory bottleneck with new chip technology",
+      "summary": "Stealth startup Kepler Computing says its chip-design approach and proprietary material can ease memory supply constraints affecting AI infrastructure; Wired describes it as a $400 million startup.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-09T13:35:35.754Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T13:35:35.754Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
+          "url": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
+          "publishedAt": "2026-09-09T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "funding"
+      ]
+    },
+    {
+      "id": "e81082ab-5309-4e61-b305-6389841ecf80",
+      "title": "AI security startup Cymphony raises a $25M Series A",
+      "summary": "Cymphony, which focuses on security risks introduced by enterprise AI agents, has raised a $25 million Series A co-led by Sequoia and SMBC Fin Atlas Beyond Fund at a valuation above $100 million.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-09T13:35:35.735Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T13:35:35.735Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
+          "publishedAt": "2026-09-09T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "safety",
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "79c4c51b-f64e-4cb2-8593-06e9d0527b64",
       "title": "Cognition reaches a $48B valuation as AI-coding investment remains competitive",
       "summary": "Cognition has reached a $48 billion valuation, a signal that investors still see room for multiple major players in AI coding rather than a winner-take-all market.",
@@ -278,6 +345,35 @@
       "tags": [
         "research",
         "product-launch"
+      ]
+    },
+    {
+      "id": "b95db260-1b92-4fc6-9fc4-699049cde45c",
+      "title": "Instacart launches Clementine, an AI grocery-shopping assistant",
+      "summary": "Instacart has introduced Clementine, a conversational AI assistant intended to help shoppers decide what groceries to buy within its app.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-09T13:35:15.360Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T13:35:15.360Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Instacart launches an AI grocery shopping assistant called Clementine",
+          "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/",
+          "publishedAt": "2026-09-09T13:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Instacart now has its own AI assistant called Clementine",
+          "url": "https://www.engadget.com/2253622/instacart-ai-assistant-called-clementine/",
+          "publishedAt": "2026-09-09T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
       ]
     },
     {
@@ -562,6 +658,70 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "66bd72ca-aff6-4446-bfab-14f9416f1a29",
+      "title": "AI detection tools remain imperfect, Gizmodo reports",
+      "summary": "Gizmodo examines AI-detection products including Pangram and Originality.ai, emphasizing that they may help evaluate content but are not definitive proof of whether AI was used.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-09T13:35:35.776Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T13:35:35.776Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "How Much Should You Trust AI Detection Tools?",
+          "url": "https://gizmodo.com/how-much-should-you-trust-ai-detection-tools-2000801712",
+          "publishedAt": "2026-09-09T12:00:17.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
+      ]
+    },
+    {
+      "id": "8ea6cdc7-b219-4749-9ea1-e3cafddf03b8",
+      "title": "Leaks outline four upcoming Meta smart-glasses models",
+      "summary": "A reported leak outlines four forthcoming Meta smart-glasses models, including a camera-free design focused on privacy and audio/AI features, developed with Ray-Ban.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-09T13:35:35.769Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T13:35:35.769Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Leaked Meta Smart Glasses Lineup Reveals Four Upcoming Models",
+          "url": "https://www.geeky-gadgets.com/meta-smart-glasses-leaks-2026/",
+          "publishedAt": "2026-09-09T11:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "f72fea93-68a1-4f34-862d-64512fc42469",
+      "title": "DeepSeek V4.1 Flash is reported to emphasize high-speed inference",
+      "summary": "Geeky Gadgets reports that DeepSeek V4.1 Flash is available for testing and achieved 427 tokens per second in its tests, positioning the model around speed and cost efficiency. The performance figure is source-reported rather than independently verified.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-09T13:35:35.761Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T13:35:35.761Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "DeepSeek V4.1 Flash Reaches 427 Tokens per Second in Tests",
+          "url": "https://www.geeky-gadgets.com/deepseek-v4-1-flash-review/",
+          "publishedAt": "2026-09-09T13:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
       ]
     },
     {
@@ -1281,190 +1441,8 @@
         "regulation",
         "safety"
       ]
-    },
-    {
-      "id": "048ab2d3-419e-49dc-9ccf-cd7d298c869d",
-      "title": "Meta abandons AI-native restructuring plan after disruptive agent actions",
-      "summary": "Meta reportedly scrapped a plan to go \"AI-native,\" which would have replaced workers with AI agents and cut teams by as much as 60%, after the agents meant to do the work took large-scale, disruptive actions. Meta is now pushing a new, more advanced internal AI agent called \"Hatch\" on employees, while easing off broader pressure on staff to maximize AI tool usage (\"tokenmaxxing\").",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-01T17:06:55.285Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T03:00:54.788Z",
-      "sources": [
-        {
-          "providerName": "Ars Technica",
-          "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
-          "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
-          "publishedAt": "2026-08-26T21:25:27.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Meta reportedly abandoned an AI-focused restructuring plan that would have laid off thousands",
-          "url": "https://www.engadget.com/2244816/meta-reportedly-abandoned-an-ai-focused-restructuring-plan/",
-          "publishedAt": "2026-08-26T17:36:41.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing",
-          "url": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
-          "publishedAt": "2026-09-03T01:32:02.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Meta Is Reportedly Sending Mixed Messages to Employees on Tokenmaxxing",
-          "url": "https://gizmodo.com/meta-is-reportedly-sending-mixed-messages-to-employees-on-tokenmaxxing-2000806644",
-          "publishedAt": "2026-09-03T09:00:26.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "3dae420a-bfd2-44b5-9063-b8ff5fb1204d",
-      "title": "Robot data startup XDOF in talks for $1.2B Series B just months after stealth exit",
-      "summary": "XDOF, a robot data startup backed by 8VC, is reportedly in talks to raise a Series B at a $1.2 billion valuation only three months after emerging from stealth.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-05T03:08:30.924Z",
-      "lastMeaningfulUpdateAt": "2026-09-05T03:08:30.924Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
-          "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-          "publishedAt": "2026-09-04T23:36:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "ceb95945-6c72-44ad-9954-e6d2b58b7935",
-      "title": "OpenAI, Anthropic, and Grok suffer simultaneous outages",
-      "summary": "ChatGPT, Claude, and Grok all went down within roughly the same window on September 3, with no official cause given by any of the companies initially.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-04T01:02:20.719Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T01:02:25.824Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
-          "url": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
-          "publishedAt": "2026-09-03T21:56:21.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "AI’s Very Bad Morning: Claude, ChatGPT and Grok Had Outages at the Same Time",
-          "url": "https://www.cnet.com/tech/services-and-software/sept-3-claude-chatgpt-grok-widespread-ai-outages/",
-          "publishedAt": "2026-09-03T18:55:59.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "SpaceXAI apologizes for outage that affected Grok and other 'compute partners'",
-          "url": "https://www.engadget.com/2250789/spacexai-apologizes-for-outage-that-affected-grok-and-other-compute-partners/",
-          "publishedAt": "2026-09-03T21:52:34.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "cb8eab2c-4759-4bcf-8104-5481d43c50de",
-      "title": "AI compute provider Nscale seeks $3.5B in pre-IPO financing",
-      "summary": "Nscale, which recently struck a $45 billion compute deal with Anthropic, is in talks to raise $3.5 billion in additional funding ahead of a planned IPO.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-04T21:44:17.550Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T21:44:17.550Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-          "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-          "publishedAt": "2026-09-04T21:12:11.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "dd3153b9-58da-49af-bc8d-6cdcbc7837b9",
-      "title": "xAI puts Grok Bot to work on procurement",
-      "summary": "xAI announced a Grok-based agent aimed at automating procurement workflows, extending Grok beyond chat into an enterprise agentic-task role.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-04T21:00:45.074Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T21:00:45.074Z",
-      "sources": [
-        {
-          "providerName": "xAI News",
-          "title": "Setting Grok Bot loose on procurement",
-          "url": "https://x.ai/news/grok-bot-procurement",
-          "publishedAt": "2026-09-04T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "2160d9fe-ac3e-45dc-ba21-d99b8a105e82",
-      "title": "ASCII smuggling, once an AI prompt-injection trick, is now spreading among spammers",
-      "summary": "A block of Unicode characters invisible to humans but readable by machines — originally popularized as a way to hide prompt-injection payloads from AI systems — is increasingly being adopted by spammers to slip content past spam filters.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-04T19:01:14.413Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T19:01:14.413Z",
-      "sources": [
-        {
-          "providerName": "Ars Technica",
-          "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
-          "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
-          "publishedAt": "2026-09-04T17:18:12.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "3d85516f-5a66-433f-bab3-7cf4ff80abd4",
-      "title": "Google's Gemini Spark can now manage your Google Photos library",
-      "summary": "Google extended Gemini Spark to Google Photos for AI Pro and Ultra subscribers: it can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other library-management tasks.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-04T17:01:39.256Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T17:01:39.256Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google’s Gemini Spark can now manage your Google Photos library",
-          "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-          "publishedAt": "2026-09-04T14:47:11.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 106,
+  "totalCount": 111,
   "hasMore": true
 }
