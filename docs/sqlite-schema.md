@@ -56,6 +56,39 @@ attempt is a caller bug, not a race to swallow silently.
 One row per configured provider, storing its opaque `state_json` cursor
 (see [providers.md](./providers.md)) and when it was last updated.
 
+### `podcast_episodes`
+
+One row per weekly podcast digest episode — added by migration
+`003_podcast_episodes.sql`. See [mcp-tools.md](./mcp-tools.md) for the
+full business rule.
+
+- `id` — `podcast-<iso_week>`, e.g. `podcast-2026-W37`; the same identifier
+  used for the `podcast.json` entry and the GitHub Release tag.
+- `iso_week` — `UNIQUE (iso_week)` is the real storage-layer enforcement of
+  "one episode per ISO week" — mirrors `content_items`' `UNIQUE
+  (provider_id, external_id)`. A second `INSERT` for a week that already
+  has one throws here; `SqlitePodcastRepository.create()` catches that and
+  re-throws a `PodcastWeekConflictError` naming the existing episode.
+- `segments_json` — `TEXT` holding `JSON.stringify`'d ordered transcript
+  segments (same pattern as `content_items.authors_json`).
+- `voice`/`instructions` — the TTS voice and tone/instructions text
+  submitted with the script; Phase 2 resends both, verbatim, on every
+  synthesis chunk of the episode.
+- `audio_state`/`audio_url`/`audio_duration_seconds`/`audio_size_bytes`/
+  `audio_mime_type`/`failure_reason` — present for forward-compatibility
+  with the persisted-record shape, but this PR never writes anything but
+  the `audio_state` insert default (`'pending'`) into them: Phase 2
+  (mechanical TTS synthesis) writes audio state only into the published
+  `podcast.json` snapshot, never back into this table. Reading a row back
+  always reports `audio_state = 'pending'` in this PR, however
+  `podcast.json` (published separately) may already show it as `ready` or
+  `failed` — the database is the source of truth for script content, the
+  published file is the source of truth for audio state.
+- `findByIsoWeek()`/`findRecent()`'s `ORDER BY iso_week DESC` use the
+  implicit index the `UNIQUE (iso_week)` constraint already creates — no
+  separate index needed for those. `idx_podcast_episodes_submitted_at`
+  exists for forward-compatibility with a future submitted-at-ordered query.
+
 ## Dates
 
 Every timestamp is stored as an ISO 8601 UTC `TEXT` string. SQLite has no

@@ -9,7 +9,7 @@ read back a feed. See `IDEA.md` for the full original design spec.
 ## Project Shape
 
 - `src/composition.ts` builds every repository/service once
-  (`buildNewsroomServices()`) and registers all 10 tools onto a transport-
+  (`buildNewsroomServices()`) and registers all 12 tools onto a transport-
   agnostic `ToolRegistrar` (`registerNewsroomTools()`). Both entry points
   below just call these two functions.
 - `index.ts` — the HTTP entry point: wraps a real `MCPServer` (mcp-use) as a
@@ -34,8 +34,16 @@ read back a feed. See `IDEA.md` for the full original design spec.
   `lastMeaningfulUpdateAt` rule — only a `meaningful-update` attachment
   bumps it — plus archiving stories stale 30+ days), `FeedService` (the
   `get-feed` view: hides stories stale 7+ days, ranks survivors by
-  importance decayed toward zero since their last meaningful update). All
-  business rules live here.
+  importance decayed toward zero since their last meaningful update),
+  `PodcastService` (the weekly podcast digest's Phase-1 status/submit
+  lifecycle) plus `iso-week.ts` (deterministic ISO-8601 week + "due"
+  computation). All business rules live here.
+- `src/podcast/` — the podcast digest's Phase-2 (mechanical synthesis)
+  logic: chunk-packing, the TTS/`ffmpeg`/`ffprobe`/GitHub-Release seams
+  (each injectable so tests never make a real call), and the merge-only
+  `podcast.json` read/write logic. Never imported by `src/composition.ts` —
+  Phase 2 runs entirely outside the MCP server process, via
+  `scripts/synthesize-podcast.ts` and its GitHub Actions workflow.
 - `src/tools/` — MCP tool registration (`register<Name>Tool(registrar,
   ...)`), Zod schemas (`schemas.ts`), date serialization (`serialize.ts`),
   the transport-agnostic `ToolRegistrar` interface, and standardized error
@@ -52,7 +60,8 @@ read back a feed. See `IDEA.md` for the full original design spec.
 See `docs/mcp-tools.md` for the full table. Summary: `fetch-new-items`,
 `get-unprocessed-items`, `get-active-stories`, `get-story`, `create-story`,
 `attach-item-to-story`, `update-story`, `merge-stories`,
-`mark-item-processed`, `get-feed`.
+`mark-item-processed`, `get-feed`, `get-podcast-status`,
+`submit-podcast-episode`.
 
 ## Publishing the Feed Snapshot
 
@@ -64,6 +73,27 @@ hands the result to `scripts/publish-feed.sh`, which commits and pushes a
 full overwrite of `feed.json` from a disposable git worktree — never
 touching your working tree — and removes the worktree automatically on
 success or failure.
+
+## Publishing the Weekly Podcast Digest
+
+Two phases, both documented in full in `docs/mcp-tools.md`:
+
+- **Phase 1 (script content)** — if a curation run submits a podcast
+  episode script via `submit-podcast-episode` (see
+  `docs/agent-system-prompt.md`'s "Weekly podcast digest authoring"
+  section), run `npm run publish-podcast` (`scripts/publish-podcast.ts`)
+  right after `npm run publish-feed`. Same disposable-worktree pattern as
+  above, but merge-only: it adds the new episode to `podcast.json` as
+  `pending` and never touches any other episode's audio state.
+- **Phase 2 (real audio)** — `npm run synthesize-podcast`
+  (`scripts/synthesize-podcast.ts`), run by
+  `.github/workflows/synthesize-podcast.yml` on a Friday-morning cron (and
+  by `workflow_dispatch`), turns any `pending`/`failed` episode into real
+  synthesized speech (OpenAI TTS), concatenates it with `ffmpeg`
+  (re-encoded), probes the duration with `ffprobe`, uploads it as a
+  per-episode GitHub Release asset, and writes the result back to
+  `podcast.json`. Entirely mechanical (no AI reasoning), entirely outside
+  the MCP server process — it never runs as part of `npm run dev`/`start`.
 
 ## Project Guides
 
@@ -130,7 +160,14 @@ keep or extend the protocol-level test in `test/mcp-server.test.ts`.
   directly — the same file `npm run publish-feed` publishes). `npm run
   build:site` builds `site/dist/`; `.github/workflows/deploy-feed-site.yml`
   pushes it onto the `feed` branch's GitHub Pages root on every `main` push
-  touching `site/**`/`views/_shared/**`, without touching `feed.json`.
+  touching `site/**`/`views/_shared/**`, without touching `feed.json` or
+  `podcast.json` (its cleanup step explicitly excludes both).
+- `views/_shared/podcast/` holds the podcast digest's player/transcript UI,
+  mounted only by `site/` today (fetches `podcast.json` the same way `site/`
+  fetches `feed.json`) — no MCP View binds to it in this PR. Its
+  `EpisodeList` component renders nothing given no episode data, so it can
+  be reused by a future MCP View without carrying the site's own
+  empty-state messaging along with it.
 - Providers fetch with native `fetch()`, not a full HTTP client library.
 - Every tool follows the same shape: validate with Zod, call one
   service/repository method, serialize `Date` fields to ISO 8601 strings via

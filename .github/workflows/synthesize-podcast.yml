@@ -1,0 +1,71 @@
+name: Synthesize podcast audio
+
+# Phase 2 of the weekly podcast digest: fully mechanical, no AI reasoning.
+# Reads podcast.json off the `feed` branch, synthesizes real audio (OpenAI
+# TTS) for every pending/failed episode, concatenates + probes with
+# ffmpeg/ffprobe, uploads each to a per-episode GitHub Release, and
+# publishes the result back to podcast.json. See docs/mcp-tools.md.
+#
+# NOTE: GitHub disables scheduled workflows after 60 days with no commits to
+# the default branch. `workflow_dispatch` below lets a missed/failed run be
+# recovered manually without waiting a week, and partly guards against the
+# 60-day disablement (a manual run does not reset that 60-day clock by
+# itself — only a push to `main` does — but it lets you notice and recover
+# quickly once you do push).
+on:
+  schedule:
+    # ~08:00 UTC every Friday — matches the "due" boundary in src/services/iso-week.ts.
+    - cron: "0 8 * * 5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: synthesize-podcast
+  cancel-in-progress: false
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify ffmpeg/ffprobe are available
+        run: |
+          set -e
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            echo "ffmpeg is not available on this runner" >&2
+            exit 1
+          fi
+          if ! command -v ffprobe >/dev/null 2>&1; then
+            echo "ffprobe is not available on this runner" >&2
+            exit 1
+          fi
+          ffmpeg -version
+          ffprobe -version
+
+      - name: Configure git identity for the podcast.json push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Synthesize eligible episodes and publish podcast.json
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: npx tsx scripts/synthesize-podcast.ts

@@ -45,3 +45,19 @@ export interface FeedStory {
 }
 
 export type SortMode = "top" | "latest";
+
+/**
+ * Compact "weekly digest" entry-point summary the site links to (see the
+ * `.digest-bar` link in FeedApp.tsx). Deliberately generic — feed/ never
+ * imports podcast/'s types; the site computes this via
+ * views/_shared/podcast/formatters.ts's `latestDigestEntry` and passes it
+ * down as plain strings.
+ */
+export interface DigestEntry {
+  /** e.g. "Aug 31 – Sep 6, 2026". */
+  readonly label: string;
+  /** e.g. "Ready to play". */
+  readonly statusLabel: string;
+  /** Anchor to scroll/link to, e.g. "#podcast-digest". */
+  readonly href: string;
+}

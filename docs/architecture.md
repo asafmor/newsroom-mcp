@@ -43,7 +43,7 @@ FeedService → StoryRepository + ContentProviderRegistry
   [mcp-tools.md](./mcp-tools.md).
 - **`src/composition.ts`** — composition root. `buildNewsroomServices()`
   opens the database, builds the provider registry, and constructs every
-  service once; `registerNewsroomTools()` registers all 9 tools onto a
+  service once; `registerNewsroomTools()` registers all 12 tools onto a
   transport-agnostic `ToolRegistrar`. `index.ts` (HTTP, the default) and
   `stdio.ts` (stdio) both just call these two functions against their own
   transport.

@@ -159,7 +159,9 @@ html, body { margin: 0; background: var(--bg); }
    the document) is the scrolling element. On the standalone site the
    document itself scrolls, so this header scrolls away with it — known,
    deferred; a real fix needs a compact scrolled-state design, not just
-   restructuring the scroll container. */
+   restructuring the scroll container. (The "Weekly digest" entry point that
+   used to live inside this header no longer does, precisely to sidestep
+   this — see .digest-bar below.) */
 .feed-header {
   /* Shared with .brand-logo's pull-back margin below, and overridden at the
      desktop breakpoint, so the two always stay in sync. */
@@ -248,6 +250,34 @@ html, body { margin: 0; background: var(--bg); }
   background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 8px center;
   background-size: 14px;
 }
+
+/* Persistent "Weekly digest" entry point — see the comment on FeedApp.tsx's
+   .digest-bar markup for why it lives outside .feed-header/.app-shell.
+   `position: sticky` here genuinely sticks (unlike .feed-header's), since
+   none of <main>'s ancestors up to <html> set overflow other than visible.
+   Kept as a slim, muted strip — reachable from the initial viewport (P1
+   UI-review finding) without competing visually with the story feed below
+   it, and small enough not to dominate the mobile viewport while stuck. */
+.digest-bar {
+  position: sticky; top: 0; z-index: 25;
+  display: flex; align-items: center; gap: var(--space-2);
+  padding: 8px var(--space-3);
+  background: color-mix(in oklab, var(--bg), transparent 6%);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  font-size: 12px; color: var(--fg-2);
+  transition: background var(--motion-fast) var(--ease-standard);
+}
+.digest-bar:hover { background: var(--border-soft); }
+.digest-bar-icon { flex-shrink: 0; font-size: 13px; }
+/* Shrinks and truncates before ever forcing horizontal overflow — the icon
+   and status stay fixed-width on either side. */
+.digest-bar-text {
+  flex: 1 1 auto; min-width: 0;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.digest-bar-status { flex-shrink: 0; font-weight: 700; color: var(--accent); white-space: nowrap; }
 
 /* Header-right cluster: just the sort toggle, top-aligned against the brand.
    --control-h sizes the pill group's height. */
@@ -584,6 +614,11 @@ html, body { margin: 0; background: var(--bg); }
   .newsroomFeed:not(.newsroomFeed--mcp) .feed-header {
     --header-pad-x: var(--space-8);
     padding-inline: var(--header-pad-x);
+  }
+  /* Same inset as the header below it, so the bar's text lines up with the
+     rest of the page content at desktop widths. */
+  .newsroomFeed:not(.newsroomFeed--mcp) .digest-bar {
+    padding-inline: var(--space-8);
   }
   .newsroomFeed:not(.newsroomFeed--mcp) .story-feed {
     padding-inline: var(--space-6);
