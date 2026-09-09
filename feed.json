@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T05:30:07.607Z",
+  "generatedAt": "2026-09-09T07:31:20.882Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -185,6 +185,27 @@
       "tags": [
         "research",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "19b7e355-0caf-4661-8be0-9e4ed375fdb0",
+      "title": "Google reportedly delays Gemini 4 Pro to October 2026",
+      "summary": "Google DeepMind has reportedly pushed Gemini 4 Pro’s release to October 2026 while it works through pre-training challenges. The report offers no primary confirmation, so the timing should be treated as provisional.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-09T07:31:10.022Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T07:31:10.022Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Pushes Gemini 4 Pro Release Date to October 2026",
+          "url": "https://www.geeky-gadgets.com/gemini-4-delay-fable-5/",
+          "publishedAt": "2026-09-09T06:43:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
       ]
     },
     {
@@ -1457,48 +1478,8 @@
         "product-launch",
         "infrastructure"
       ]
-    },
-    {
-      "id": "8dd7d0fa-a481-4aa4-8cb0-9f9a8d23fa70",
-      "title": "US government backs OpenAI's fair-use defense in NYT copyright lawsuit",
-      "summary": "The Trump administration filed a brief siding with OpenAI's argument that training LLMs on copyrighted material is fair use, in the New York Times' copyright lawsuit against the company, citing US interest in a competitive AI industry.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-02T19:01:58.611Z",
-      "lastMeaningfulUpdateAt": "2026-09-02T19:01:58.611Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-          "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
-          "publishedAt": "2026-09-02T17:09:06.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
-          "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
-          "publishedAt": "2026-09-02T18:41:02.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Trump Administration Sides With OpenAI in Publishers’ Copyright Lawsuits",
-          "url": "https://www.cnet.com/tech/services-and-software/trump-administration-sides-with-openai-in-publishers-copyright-lawsuits/",
-          "publishedAt": "2026-09-02T18:35:54.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Admin Teams Up With OpenAI in Its Fight Against the New York Times",
-          "url": "https://gizmodo.com/trump-admin-teams-up-with-openai-in-its-fight-against-the-new-york-times-copyright-2000806473",
-          "publishedAt": "2026-09-02T20:40:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 105,
+  "totalCount": 104,
   "hasMore": true
 }
