@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-09-09T13:35:50.159Z",
+  "generatedAt": "2026-09-09T15:38:09.723Z",
   "stories": [
+    {
+      "id": "e8676db7-f184-4809-ae14-9c5959a6122f",
+      "title": "Anthropic researcher resigns and warns about self-improving AI",
+      "summary": "Anthropic researcher Jacob Coxon has resigned over extinction-risk concerns, warning about self-improving AI and calling for pacing agreements between leading labs.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-09T15:37:41.365Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T15:37:41.365Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI ",
+          "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
+          "publishedAt": "2026-09-09T15:02:47.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
+      ]
+    },
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
       "title": "Meta debuts Muse, a personal AI agent powered by its Spark model platform",
@@ -57,6 +79,49 @@
         "product-launch",
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "85216906-9781-46ae-9aa1-32ec1bc58980",
+      "title": "AI spend per employee falls at large firms",
+      "summary": "AI spending per employee at large firms fell in August as token costs and model prices declined, raising questions about whether enterprise adoption is developing as hyperscalers expected.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-09T15:37:50.619Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T15:37:50.619Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI spend per employee slumped at top firms in August — summer doldrums or a warning sign?",
+          "url": "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/",
+          "publishedAt": "2026-09-09T14:18:34.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption",
+        "opinion"
+      ]
+    },
+    {
+      "id": "8499515f-69bc-42c8-9d6b-18791da1f55e",
+      "title": "IBM releases Granite Time Series PatchTST-FM-r2 model",
+      "summary": "IBM has released Granite Time Series PatchTST-FM-r2, a time-series forecasting model described as state of the art and offered under a commercial-friendly license.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-09T15:37:33.470Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T15:37:33.470Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+          "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+          "publishedAt": "2026-09-09T15:36:24.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
       ]
     },
     {
@@ -348,6 +413,49 @@
       ]
     },
     {
+      "id": "765d8d20-1a86-4dc2-9ebb-34a8dcd35755",
+      "title": "Anthropic faces class-action lawsuit over Claude Max terms",
+      "summary": "A proposed class-action lawsuit accuses Anthropic of misleading advertising about usage limits in its highest-tier Claude Max subscription plan.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-09T15:37:59.459Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T15:37:59.459Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic users are taking the company to court over Max subscription terms",
+          "url": "https://www.engadget.com/2253767/anthropic-users-are-taking-the-company-to-court-over-max-subscription-terms/",
+          "publishedAt": "2026-09-09T14:48:29.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "bf69f1dc-4004-41b7-852e-4c1d8d428c03",
+      "title": "AI assistant Instinct adds an email agent",
+      "summary": "AI assistant Instinct has added an email feature that can create and manage accounts, contact businesses, and handle support requests on a user's behalf.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-09T15:37:37.798Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T15:37:37.798Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Viral AI assistant Instinct now has its own email address",
+          "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+          "publishedAt": "2026-09-09T15:13:12.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "b95db260-1b92-4fc6-9fc4-699049cde45c",
       "title": "Instacart launches Clementine, an AI grocery-shopping assistant",
       "summary": "Instacart has introduced Clementine, a conversational AI assistant intended to help shoppers decide what groceries to buy within its app.",
@@ -570,6 +678,28 @@
         }
       ],
       "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "6f3041f4-37d5-48d1-8cc1-5584a99f110e",
+      "title": "Shipt adds an AI shopping assistant",
+      "summary": "Delivery app Shipt has introduced an AI shopping assistant that can assemble carts for specified occasions and household needs.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-09T15:37:45.717Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T15:37:45.717Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Shipt becomes the latest delivery app with an AI shopping assistant",
+          "url": "https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant/",
+          "publishedAt": "2026-09-09T14:51:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
         "enterprise-adoption"
       ]
     },
@@ -1282,167 +1412,8 @@
         "opinion",
         "product-launch"
       ]
-    },
-    {
-      "id": "a9919b22-920d-4863-91fc-68d4f0f94168",
-      "title": "Crusoe reportedly raises $3B at $30B valuation",
-      "summary": "AI data center developer Crusoe is reported to have raised $3 billion at a $30 billion valuation, following a reported $13 billion compute contract with Jane Street.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-04T01:02:11.549Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T01:02:11.549Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Crusoe reportedly raises $3B at a  $30B valuation",
-          "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-          "publishedAt": "2026-09-04T00:48:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "f83c4936-61c8-4e45-a283-865e22ce4865",
-      "title": "Accel in talks to lead $1B round for Thinking Machines Lab at $40B valuation",
-      "summary": "Accel is reportedly in talks to lead a $1 billion funding round for Mira Murati's Thinking Machines Lab at a $40 billion valuation. The startup's annual revenue run rate reportedly exceeds $100 million.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-04T01:02:09.678Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T01:02:09.678Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
-          "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-          "publishedAt": "2026-09-03T19:36:29.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "a1f38237-a380-4e56-8ab4-a6ee4514999e",
-      "title": "Infostealer malware hijacks Claude session cookies to reach corporate accounts",
-      "summary": "Anthropic disclosed that infostealer malware (Vidar, LummaC2, StealC, RedLine, Acreed, Atomic Stealer) replayed stolen Claude session cookies from card-billed, self-serve accounts, bypassing 2FA and SSO. Anthropic signed out affected accounts and refunded charges, but flagged that OAuth grants into services like Gmail/Workspace made via personal accounts on managed devices remain a gap no corporate IT admin can revoke.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-02T19:01:58.634Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T17:01:49.152Z",
-      "sources": [
-        {
-          "providerName": "VentureBeat",
-          "title": "Stolen Claude session cookies can reach corporate Gmail through grants no IT admin can revoke",
-          "url": "https://venturebeat.com/security/stolen-claude-session-cookies-can-reach-corporate-gmail-through-grants-no-it-admin-can-revoke",
-          "publishedAt": "2026-09-02T17:51:48.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic automatically signs out Claude users to protect them from hackers",
-          "url": "https://www.engadget.com/2250467/claude-automatic-sign-out-hackers-explained/",
-          "publishedAt": "2026-09-03T16:39:18.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Hackers are stealing Claude tokens from subscribers",
-          "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
-          "publishedAt": "2026-09-08T21:10:27.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "631b1d1c-d8d3-4119-9878-c7bf5bccb8e3",
-      "title": "Google DeepMind introduces Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "Google DeepMind released Gemini 3.8 Flash alongside a specialized \"3.8 Flash Cyber\" variant for vulnerability hunting, continuing its rapid Flash-tier iteration. The model is priced at $0.75 per million input tokens and leads targeted benchmarks including the Harvey Legal Benchmark (61.4%) and Terminal Bench 2.1 (89.4%), and has since matched Opus 5 on Deep Sweep 1.1.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-02T17:01:05.918Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T11:01:06.668Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-          "publishedAt": "2026-09-02T16:18:31.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "VentureBeat",
-          "title": "Google’s Gemini 3.8 Flash is built for agents, while its Cyber twin hunts vulnerabilities",
-          "url": "https://venturebeat.com/security/googles-gemini-3-8-flash-is-built-for-agents-while-its-cyber-twin-hunts-vulnerabilities",
-          "publishedAt": "2026-09-03T00:02:18.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Google Gemini 3.8 Flash Matches Opus 5 in Deep Sweep 1.1 Benchmark",
-          "url": "https://www.geeky-gadgets.com/gemini-3-8-flash-benchmarks/",
-          "publishedAt": "2026-09-03T09:25:12.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Gemini 3.8 Flash Costs $0.75 per Million Input Tokens",
-          "url": "https://www.geeky-gadgets.com/google-gemini-3-8-flash-release/",
-          "publishedAt": "2026-09-04T08:47:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "8e4fef3b-8409-4049-b98a-bf06d3f38ae8",
-      "title": "Everthine showcases A1 desktop AI companion at IFA 2026",
-      "summary": "Everthine is demonstrating its A1 desktop AI companion at IFA 2026 ahead of a planned release later this year. The dedicated device presents a real-time 3D character on an 8.01-inch curved display, illustrating the continuing push to package conversational AI in purpose-built consumer hardware.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-05T08:16:00.286Z",
-      "lastMeaningfulUpdateAt": "2026-09-05T08:16:00.286Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Everthine A1 brings a 3D AI companion to IFA 2026",
-          "url": "https://www.geeky-gadgets.com/everthine-a1-brings-a-3d-ai-companion-to-ifa-2026/",
-          "publishedAt": "2026-09-05T05:33:19.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "c24e4266-eddd-44a9-afb0-782a915b5b6c",
-      "title": "Take It Down Act shows early bite, but gaps remain in fighting AI deepfake abuse",
-      "summary": "The US's first federal anti-deepfake law, the Take It Down Act, is proving to have real enforcement teeth against non-consensual AI-generated imagery, but analysts note major gaps in scope that leave many forms of AI abuse unaddressed.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-04T07:01:09.698Z",
-      "lastMeaningfulUpdateAt": "2026-09-04T07:01:09.698Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "The Take It Down Act Is Just the Beginning of Fighting AI Abuse Online",
-          "url": "https://www.cnet.com/tech/services-and-software/inside-take-it-down-act-ai-deepfakes-image-abuse-analysis/",
-          "publishedAt": "2026-09-03T19:48:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
     }
   ],
-  "totalCount": 111,
+  "totalCount": 113,
   "hasMore": true
 }
