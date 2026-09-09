@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T07:31:20.882Z",
+  "generatedAt": "2026-09-09T09:32:50.396Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -120,6 +120,49 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "dec62941-7da0-4460-8fd3-bb36f16c7c87",
+      "title": "US agencies rebuke China-based AI companies over alleged model distillation",
+      "summary": "US agencies publicly accused China-based AI companies of alleged model distillation ahead of US-China AI-security talks, escalating the policy and security stakes around frontier-model copying.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-09T09:32:44.617Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T09:32:44.617Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "U.S. Agencies Issue Stern Rebuke of China-Based AI Companies Over Alleged Distillation",
+          "url": "https://gizmodo.com/u-s-agencies-issue-stern-rebuke-of-china-based-ai-companies-over-alleged-distillation-2000808988",
+          "publishedAt": "2026-09-09T09:00:31.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "1d447a5e-add4-4b02-81c7-59e2cd8aa1a2",
+      "title": "Suno trains v6 AI music models with Warner and BMG",
+      "summary": "Suno says its v6 AI music models were trained with help from Warner and BMG, formally putting major-label partnerships behind its latest music-generation release.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-09T09:32:44.609Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T09:32:44.609Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Suno trained its v6 AI music models with help from Warner and BMG",
+          "url": "https://www.engadget.com/2251539/suno-trained-its-v6-ai-music-models-with-help-from-warner-and-bmg/",
+          "publishedAt": "2026-09-09T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "product-launch"
       ]
     },
     {
@@ -426,6 +469,28 @@
       "tags": [
         "safety",
         "opinion"
+      ]
+    },
+    {
+      "id": "053a2d5d-0e16-4c9f-8017-40a39aaf6065",
+      "title": "Microsoft Copilot can generate PowerPoint slides from OneNote",
+      "summary": "Microsoft Copilot in PowerPoint can now generate presentation slides from OneNote notebooks as well as documents and spreadsheets, extending its document-grounded creation workflow.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-09T09:32:44.600Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T09:32:44.600Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Microsoft Copilot Can Now Build Microsoft PowerPoint Slides from OneNote",
+          "url": "https://www.geeky-gadgets.com/how-to-use-copilot-powerpoint/",
+          "publishedAt": "2026-09-09T08:47:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
       ]
     },
     {
@@ -1391,95 +1456,8 @@
       "tags": [
         "regulation"
       ]
-    },
-    {
-      "id": "c17fe862-af4c-4c70-96f7-d204eea4762d",
-      "title": "Microsoft AI launches MAI-Transcribe-2, undercutting rivals on price",
-      "summary": "Microsoft AI released MAI-Transcribe-2, a speech-recognition model it says is faster and more accurate than offerings from OpenAI, Google, and ElevenLabs, priced aggressively below them.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-03T15:01:38.604Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T15:01:38.604Z",
-      "sources": [
-        {
-          "providerName": "VentureBeat",
-          "title": "Microsoft AI’s MAI-Transcribe-2 undercuts OpenAI, Google and ElevenLabs on price and speed",
-          "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
-          "publishedAt": "2026-09-03T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "product-launch"
-      ]
-    },
-    {
-      "id": "88abfc86-6b4e-4661-9f64-e1239cafe139",
-      "title": "DeepMind launches WeatherNext 3, its most accurate weather AI model yet",
-      "summary": "Google DeepMind released WeatherNext 3, its most advanced global weather forecasting AI model, improving on how clearly it reads the changing atmosphere and how often it predicts behavior correctly versus prior systems.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-03T15:01:38.595Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T15:01:38.595Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
-          "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
-          "publishedAt": "2026-09-03T15:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Google DeepMind",
-          "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-          "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-          "publishedAt": "2026-09-03T15:02:08.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google's new AI weather model uses live satellite data for higher-resolution forecasts",
-          "url": "https://www.engadget.com/2250687/googles-new-ai-weather-model-uses-live-satellite-data-for-higher-resolution-forecasts/",
-          "publishedAt": "2026-09-03T19:56:03.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google DeepMind Just Rolled Out Its Most Accurate AI Global Weather Model",
-          "url": "https://gizmodo.com/google-deepmind-just-rolled-out-its-most-accurate-ai-global-weather-model-2000807015",
-          "publishedAt": "2026-09-03T19:55:16.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research",
-        "model-release"
-      ]
-    },
-    {
-      "id": "43b5f1d8-8b7a-45ab-aad6-2c3b9821d1e4",
-      "title": "Nvidia RTX Spark-powered AI PCs debut at IFA 2026",
-      "summary": "At IFA 2026, Nvidia and hardware partners showed off the first laptops and mini PCs built around the RTX Spark chip, designed to run AI models locally on-device.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-03T15:01:38.592Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T15:01:38.592Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Nvidia RTX Spark ‘Superchip’: The First AI PCs Are Here",
-          "url": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/",
-          "publishedAt": "2026-09-03T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 104,
+  "totalCount": 106,
   "hasMore": true
 }
