@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-09-09T01:26:56.911Z",
+  "generatedAt": "2026-09-09T03:28:37.343Z",
   "stories": [
+    {
+      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
+      "title": "Meta debuts Muse, a personal AI agent powered by its Spark model platform",
+      "summary": "Meta has introduced Muse, a personal AI agent that can carry out online tasks such as shopping, travel booking and selling a car. It is built around Meta’s Muse Spark model platform, whose 1.3 release improved coding and long-running agent performance; its strongest configuration remains in limited preview and a promised open-weight release is delayed. Muse’s requested access to email, calendars, payments and health services makes privacy and user trust central to Meta’s consumer AI bet, while the company is also offering Spark users a discount in exchange for usage data.",
+      "importanceScore": 0.78,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-03T17:01:49.158Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T03:28:01.260Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
+          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+          "publishedAt": "2026-09-03T16:19:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is paying to peek at how you use their latest AI model",
+          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+          "publishedAt": "2026-09-03T18:19:56.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
+          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
+          "publishedAt": "2026-09-08T20:12:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+          "publishedAt": "2026-09-08T19:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s New AI Agent Wants to Get Personal With You",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news-2/",
+          "publishedAt": "2026-09-08T22:33:09.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse Let Me Waste a Mind-Boggling Amount of Free Compute on Nothing in Particular",
+          "url": "https://gizmodo.com/metas-muse-let-me-waste-a-mind-boggling-amount-of-free-compute-on-nothing-in-particular-2000808945",
+          "publishedAt": "2026-09-09T02:05:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "model-release",
+        "safety"
+      ]
+    },
     {
       "id": "1f8d1a4e-47f3-4efc-a59e-f7abdc9dc816",
       "title": "OpenAI’s claimed Navier-Stokes math discovery faces academic criticism",
@@ -55,35 +113,6 @@
       ],
       "tags": [
         "funding"
-      ]
-    },
-    {
-      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta debuts Muse, a personal AI agent with broad access to user data",
-      "summary": "Meta has introduced Muse, a personal AI agent positioned to handle tasks from selling a car to booking travel. The product seeks access to email, calendars, payments and health services, making privacy and user trust central to Meta's largest consumer AI bet.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-08T21:25:00.914Z",
-      "lastMeaningfulUpdateAt": "2026-09-08T21:25:00.914Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
-          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
-          "publishedAt": "2026-09-08T20:12:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
-          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
-          "publishedAt": "2026-09-08T19:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "safety"
       ]
     },
     {
@@ -347,6 +376,28 @@
       ],
       "tags": [
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "17d68e30-92a4-446e-84c4-9fdbff5e6714",
+      "title": "Anthropic researcher resigns, warning of existential AI risk",
+      "summary": "An Anthropic researcher has resigned publicly, saying that AI development is the most dangerous activity humanity is undertaking and that its builders believe it could be catastrophic. The departure adds an insider warning to the debate over frontier-model safety.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-09T03:28:12.239Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T03:28:12.239Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "‘The People Building AI Earnestly Believe That It Could Kill Us All’: Anthropic Researcher Quits Dramatically",
+          "url": "https://gizmodo.com/the-people-building-ai-earnestly-believe-that-it-could-kill-us-all-anthropic-researcher-quits-dramatically-2000808968",
+          "publishedAt": "2026-09-09T03:00:47.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
       ]
     },
     {
@@ -992,34 +1043,6 @@
       ],
       "tags": [
         "funding"
-      ]
-    },
-    {
-      "id": "d9c14e28-b1cc-437e-8086-0981f400e21f",
-      "title": "Meta launches Muse Spark 1.3, closing in on the coding frontier",
-      "summary": "Meta released Muse Spark 1.3, a significant jump over 1.2 on coding and long-running agent tasks. Independent benchmarks put the shipping \"xhigh\" version in the frontier cluster (edging Gemini 3.8 Flash on intelligence-per-dollar) though still behind Anthropic's best. Pricing is unchanged; Meta's strongest \"max\" configuration remains in limited preview, and its promised open-weight Spark release has slipped without a new date. Separately, Meta is now offering an explicit discount on Muse Spark usage in exchange for letting Meta use that usage data to improve future models — putting an actual price on the standard opt-out most AI providers offer for free.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T19:01:32.230Z",
-      "sources": [
-        {
-          "providerName": "VentureBeat",
-          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
-          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-          "publishedAt": "2026-09-03T16:19:49.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta is paying to peek at how you use their latest AI model",
-          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
-          "publishedAt": "2026-09-03T18:19:56.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "model-release"
       ]
     },
     {
