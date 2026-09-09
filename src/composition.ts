@@ -2,21 +2,25 @@ import { loadConfig, type NewsroomConfig } from "./config.js";
 import { buildProviderRegistry } from "./config/providers.js";
 import { openDatabase } from "./sqlite/sqlite-database.js";
 import { SqliteContentItemRepository } from "./sqlite/sqlite-content-item-repository.js";
+import { SqlitePodcastRepository } from "./sqlite/sqlite-podcast-repository.js";
 import { SqliteProviderStateRepository } from "./sqlite/sqlite-provider-state-repository.js";
 import { SqliteStoryRepository } from "./sqlite/sqlite-story-repository.js";
 import type { ContentProviderRegistry } from "./providers/content-provider-registry.js";
 import { FeedService } from "./services/feed-service.js";
 import { IngestionService } from "./services/ingestion-service.js";
+import { PodcastService } from "./services/podcast-service.js";
 import { StoryService } from "./services/story-service.js";
 import { registerAttachItemToStoryTool } from "./tools/attach-item-to-story-tool.js";
 import { registerCreateStoryTool } from "./tools/create-story-tool.js";
 import { registerFetchNewItemsTool } from "./tools/fetch-new-items-tool.js";
 import { registerGetActiveStoriesTool } from "./tools/get-active-stories-tool.js";
 import { registerGetFeedTool } from "./tools/get-feed-tool.js";
+import { registerGetPodcastStatusTool } from "./tools/get-podcast-status-tool.js";
 import { registerGetStoryTool } from "./tools/get-story-tool.js";
 import { registerGetUnprocessedItemsTool } from "./tools/get-unprocessed-items-tool.js";
 import { registerMarkItemProcessedTool } from "./tools/mark-item-processed-tool.js";
 import { registerMergeStoriesTool } from "./tools/merge-stories-tool.js";
+import { registerSubmitPodcastEpisodeTool } from "./tools/submit-podcast-episode-tool.js";
 import { registerUpdateStoryTool } from "./tools/update-story-tool.js";
 import type { ToolRegistrar } from "./tools/tool-registrar.js";
 
@@ -31,8 +35,10 @@ export interface NewsroomServices {
   ingestionService: IngestionService;
   storyService: StoryService;
   feedService: FeedService;
+  podcastService: PodcastService;
   contentItems: SqliteContentItemRepository;
   stories: SqliteStoryRepository;
+  podcasts: SqlitePodcastRepository;
 }
 
 export function buildNewsroomServices(): NewsroomServices {
@@ -42,6 +48,7 @@ export function buildNewsroomServices(): NewsroomServices {
   const contentItems = new SqliteContentItemRepository(db);
   const stories = new SqliteStoryRepository(db);
   const providerStates = new SqliteProviderStateRepository(db);
+  const podcasts = new SqlitePodcastRepository(db);
 
   const providers = buildProviderRegistry(config);
 
@@ -51,13 +58,15 @@ export function buildNewsroomServices(): NewsroomServices {
     ingestionService: new IngestionService(providers, contentItems, providerStates),
     storyService: new StoryService(stories, contentItems),
     feedService: new FeedService(stories, providers),
+    podcastService: new PodcastService(podcasts),
     contentItems,
     stories,
+    podcasts,
   };
 }
 
 /**
- * Registers all 10 newsroom-mcp tools onto `registrar`. Transport-agnostic —
+ * Registers all 12 newsroom-mcp tools onto `registrar`. Transport-agnostic —
  * called once for the HTTP `MCPServer` (index.ts) and once per stdio
  * connection's `McpServer` instance (stdio.ts), against the same
  * already-built `services`.
@@ -74,5 +83,7 @@ export function registerNewsroomTools(registrar: ToolRegistrar, services: Newsro
     mergeStories: registerMergeStoriesTool(registrar, services.storyService),
     markItemProcessed: registerMarkItemProcessedTool(registrar, services.contentItems),
     getFeed: registerGetFeedTool(registrar, services.feedService),
+    getPodcastStatus: registerGetPodcastStatusTool(registrar, services.podcastService),
+    submitPodcastEpisode: registerSubmitPodcastEpisodeTool(registrar, services.podcastService),
   };
 }

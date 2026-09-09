@@ -89,6 +89,8 @@ works from anywhere — but `npx tsx` still needs to run with this repo's
 | `update-story` | Update a story's AI-maintained summary/scores. |
 | `mark-item-processed` | Finalize an irrelevant item so it's never reconsidered. |
 | `get-feed` | Retrieve the curated feed as stories, hiding anything stale 7+ days and decaying the rest by recency. |
+| `get-podcast-status` | Report the weekly podcast digest's status (current ISO week, whether an episode exists/is due, recent episode metadata). |
+| `submit-podcast-episode` | Submit this week's podcast episode script (one per ISO week, immutable once submitted). |
 
 Full details, including the `contribution` freshness rule, in
 [docs/mcp-tools.md](./docs/mcp-tools.md).
@@ -112,7 +114,26 @@ its story-card UI with the in-app `get-feed` MCP View via `views/_shared/feed/`.
 `npm run build:site` builds it; `.github/workflows/deploy-feed-site.yml`
 deploys it to the `feed` branch's GitHub Pages root on every `main` push
 touching `site/**`/`views/_shared/**`. The `feed.json` data it reads is
-published separately by `npm run publish-feed` after a curation run.
+published separately by `npm run publish-feed` after a curation run. The
+same site also renders the weekly podcast digest (`views/_shared/podcast/`),
+reading `podcast.json` — see below.
+
+## Weekly podcast digest
+
+A weekly, AI-narrated audio companion to the feed, published in two phases
+(full detail in [docs/mcp-tools.md](./docs/mcp-tools.md)):
+
+- **Phase 1** — the curating agent authors and submits a script via the
+  `submit-podcast-episode` MCP tool during a normal run; `npm run
+  publish-podcast` publishes it onto `podcast.json` (merge-only) right
+  after `npm run publish-feed`.
+- **Phase 2** — `.github/workflows/synthesize-podcast.yml` (Friday-morning
+  cron + manual `workflow_dispatch`) mechanically turns any pending script
+  into real audio via the OpenAI TTS API, uploads it as a GitHub Release
+  asset, and writes the result back to `podcast.json`. Runnable locally as
+  `npm run synthesize-podcast` (reads `OPENAI_API_KEY`/`GITHUB_TOKEN`/
+  `GITHUB_REPOSITORY` from the environment — see `.env.example`); never
+  part of `npm run dev`/`start`.
 
 ## Development
 

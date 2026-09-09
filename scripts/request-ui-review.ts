@@ -37,6 +37,7 @@ interface PreparedReviewEnvironment {
   readonly feedGeneratedAt: string;
   readonly feedSource: string;
   readonly mcpPort: number;
+  readonly podcastSource: string;
   readonly sitePort: number;
   readonly siteRoot: string;
 }
@@ -210,9 +211,9 @@ function discoverChrome(): string | undefined {
   return findBundledChrome(resolve(homedir(), ".cache", "ms-playwright"));
 }
 
-function tryGitShow(worktree: string, revision: string): Buffer | undefined {
+function tryGitShow(worktree: string, revision: string, file = "feed.json"): Buffer | undefined {
   try {
-    return execFileSync("git", ["show", `${revision}:feed.json`], {
+    return execFileSync("git", ["show", `${revision}:${file}`], {
       cwd: worktree,
       maxBuffer: 20 * 1024 * 1024,
     });
@@ -255,11 +256,33 @@ function prepareStandaloneSite(worktree: string, runDirectory: string): Omit<Pre
   cpSync(resolve(worktree, "site", "index.html"), resolve(siteRoot, "index.html"));
   cpSync(resolve(worktree, "site", "src"), resolve(siteRoot, "src"), { recursive: true });
   cpSync(resolve(worktree, "views"), resolve(standaloneRoot, "views"), { recursive: true });
+  // views/_shared/feed/formatters.ts imports ../../../src/shared/*, which
+  // resolves to <standaloneRoot>/src/shared. Without staging it the shared
+  // feed components fail to resolve and the whole standalone site errors out.
+  cpSync(resolve(worktree, "src", "shared"), resolve(standaloneRoot, "src", "shared"), { recursive: true });
   writeFileSync(resolve(siteRoot, "feed.json"), feedContents);
+
+  // podcast.json is optional: it only exists once a weekly digest episode has
+  // been published. Resolve it the same way as feed.json, but treat "missing
+  // everywhere" as a legitimate empty state rather than a fatal error.
+  const podcastSnapshots: readonly (readonly [string, Buffer | undefined])[] = [
+    ["origin/feed:podcast.json", tryGitShow(worktree, "origin/feed", "podcast.json")],
+    ["feed:podcast.json", tryGitShow(worktree, "feed", "podcast.json")],
+    ["site/podcast.json", existsSync(resolve(worktree, "site", "podcast.json"))
+      ? readFileSync(resolve(worktree, "site", "podcast.json"))
+      : undefined],
+  ];
+  const selectedPodcast = podcastSnapshots.find(([, contents]) => contents !== undefined);
+  let podcastSource = "none (no podcast.json published yet)";
+  if (selectedPodcast?.[1] !== undefined) {
+    podcastSource = selectedPodcast[0];
+    writeFileSync(resolve(siteRoot, "podcast.json"), selectedPodcast[1]);
+  }
 
   return {
     feedGeneratedAt: parsed.generatedAt,
     feedSource,
+    podcastSource,
     siteRoot,
   };
 }
@@ -380,6 +403,7 @@ Prepared standalone review host:
 - URL: http://127.0.0.1:${String(environment.sitePort)}
 - Feed snapshot: ${environment.feedSource}
 - Feed generatedAt: ${environment.feedGeneratedAt}
+- Podcast snapshot: ${environment.podcastSource}
 
 Fresh MCP development host:
 - Start from the worktree with: npx mcp-use dev --views-dir views --no-open --host 127.0.0.1 --port ${String(environment.mcpPort)}

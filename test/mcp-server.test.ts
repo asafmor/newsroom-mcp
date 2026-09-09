@@ -134,6 +134,8 @@ describe("newsroom-mcp server", () => {
       "merge-stories",
       "mark-item-processed",
       "get-feed",
+      "get-podcast-status",
+      "submit-podcast-episode",
     ]);
   });
 
@@ -498,5 +500,78 @@ describe("newsroom-mcp server", () => {
     })) as ToolTextResult;
 
     expect(structuredUpdate.content?.[0]?.text).toBe(nudgedUpdatePrefix);
+  });
+
+  it("runs the weekly podcast digest lifecycle: status -> submit -> duplicate-week conflict -> status-again", async () => {
+    const initialStatus = (await client?.callTool({
+      name: "get-podcast-status",
+      arguments: {},
+    })) as ToolTextResult & {
+      structuredContent: { currentIsoWeek: string; episodeExists: boolean; due: boolean; recentEpisodes: unknown[] };
+    };
+
+    expect(initialStatus.isError).toBeFalsy();
+    expect(initialStatus.structuredContent.episodeExists).toBe(false);
+    expect(initialStatus.structuredContent.recentEpisodes).toEqual([]);
+    const currentIsoWeek = initialStatus.structuredContent.currentIsoWeek;
+
+    const segments = Array.from({ length: 12 }, (_, i) => `Segment ${String(i)} covering this week's top AI story.`.repeat(10));
+    const totalChars = segments.reduce((sum, s) => sum + s.length, 0);
+    expect(totalChars).toBeGreaterThanOrEqual(4500);
+    expect(totalChars).toBeLessThanOrEqual(9000);
+
+    const submitted = (await client?.callTool({
+      name: "submit-podcast-episode",
+      arguments: { title: "This week in AI", segments },
+    })) as ToolTextResult & {
+      structuredContent: { id: string; isoWeek: string; audioState: string; segments: string[]; title: string };
+    };
+
+    expect(submitted.isError).toBeFalsy();
+    expect(submitted.structuredContent.isoWeek).toBe(currentIsoWeek);
+    expect(submitted.structuredContent.audioState).toBe("pending");
+    expect(submitted.structuredContent.segments).toEqual(segments);
+    const episodeId = submitted.structuredContent.id;
+
+    // Input validation: too-short a total script is rejected before any state change.
+    const tooShort = (await client?.callTool({
+      name: "submit-podcast-episode",
+      arguments: { title: "Too short", segments: ["Way too short for a real episode."] },
+    })) as ToolTextResult;
+    expect(tooShort.isError).toBe(true);
+
+    // Duplicate-week conflict: a second submission for the same (current) ISO week fails clearly.
+    const duplicate = (await client?.callTool({
+      name: "submit-podcast-episode",
+      arguments: { title: "A second episode this week", segments },
+    })) as ToolTextResult;
+
+    expect(duplicate.isError).toBe(true);
+    const duplicateMessage = duplicate.content?.[0]?.text ?? "";
+    expect(duplicateMessage).toContain(currentIsoWeek);
+    expect(duplicateMessage).toContain(episodeId);
+
+    const statusAgain = (await client?.callTool({
+      name: "get-podcast-status",
+      arguments: {},
+    })) as ToolTextResult & {
+      structuredContent: {
+        episodeExists: boolean;
+        due: boolean;
+        recentEpisodes: { id: string; title: string; audioState: string }[];
+      };
+    };
+
+    expect(statusAgain.isError).toBeFalsy();
+    expect(statusAgain.structuredContent.episodeExists).toBe(true);
+    expect(statusAgain.structuredContent.due).toBe(false);
+    expect(statusAgain.structuredContent.recentEpisodes).toHaveLength(1);
+    expect(statusAgain.structuredContent.recentEpisodes[0]).toMatchObject({
+      id: episodeId,
+      title: "This week in AI",
+      audioState: "pending",
+    });
+    // Never leaks the transcript into the status summary.
+    expect(statusAgain.structuredContent.recentEpisodes[0]).not.toHaveProperty("segments");
   });
 });

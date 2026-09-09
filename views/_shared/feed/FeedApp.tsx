@@ -6,7 +6,7 @@ import { FeedHeader } from "./FeedHeader.js";
 import { SkeletonCard } from "./SkeletonCard.js";
 import { SourceSheet } from "./SourceSheet.js";
 import { StoryCard } from "./StoryCard.js";
-import type { FeedStory, SortMode } from "./types.js";
+import type { DigestEntry, FeedStory, SortMode } from "./types.js";
 import {
   availableTags,
   computeStoryDelta,
@@ -126,12 +126,15 @@ export function FeedApp({
   locale,
   onOpenSource,
   variant = "site",
+  digestEntry,
 }: {
   readonly state: FeedState;
   readonly locale?: string;
   readonly onOpenSource: (url: string) => void;
   /** "mcp" keeps the fixed-height scrolling card the sandboxed View was built for; "site" (default) lets the real page scroll and widens on desktop. */
   readonly variant?: "mcp" | "site";
+  /** Site-only "Weekly digest" entry point (rendered as `.digest-bar` below). `undefined` in the MCP View, which has no podcast data. */
+  readonly digestEntry?: DigestEntry;
 }) {
   const rootClassName = variant === "mcp" ? "newsroomFeed newsroomFeed--mcp" : "newsroomFeed";
   // Automatic, time-of-day only (Waze-style) — no manual override, no OS
@@ -208,7 +211,12 @@ export function FeedApp({
 
   return (
     <main className={rootClassName} data-theme={resolvedTheme} lang={locale}>
-      <Feed generatedAt={state.generatedAt} stories={state.stories} onOpenSource={onOpenSource} />
+      <Feed
+        generatedAt={state.generatedAt}
+        stories={state.stories}
+        onOpenSource={onOpenSource}
+        digestEntry={digestEntry}
+      />
     </main>
   );
 }
@@ -217,10 +225,12 @@ function Feed({
   generatedAt,
   stories,
   onOpenSource,
+  digestEntry,
 }: {
   readonly generatedAt: string;
   readonly stories: readonly FeedStory[];
   readonly onOpenSource: (url: string) => void;
+  readonly digestEntry?: DigestEntry;
 }) {
   const [sortMode, setSortMode] = useState<SortMode>(getInitialSortMode);
 
@@ -372,6 +382,31 @@ function Feed({
 
   return (
     <>
+      {/* Persistent "Weekly digest" entry point (site only — `digestEntry`
+          stays `undefined` in the MCP View, so this never renders there).
+          Deliberately a sibling of .app-shell/.scroll-area, not nested
+          inside .feed-header: those establish their own (non-scrolling,
+          since they never actually overflow) scroll containers via
+          overflow: hidden/auto, which traps `position: sticky` and stops it
+          from ever engaging on the standalone site — the same reason
+          .feed-header's own sticky attempt (below) doesn't actually stick
+          there. This bar instead sits directly under <main>, whose
+          ancestors up to <html> stay overflow: visible, so its `position:
+          sticky` genuinely sticks to the real page scroll — verified by
+          driving headless Chromium and measuring its bounding box after
+          scrolling ~1000px at both 390px and 1440px widths. Kept as its own
+          slim, muted strip rather than folded into .feed-header, so keeping
+          it on-screen never also has to pin the full header (search,
+          filters) for the whole scroll. */}
+      {digestEntry !== undefined && (
+        <a href={digestEntry.href} className="digest-bar">
+          <span className="digest-bar-icon" aria-hidden="true">🎙</span>
+          <span className="digest-bar-text">
+            Weekly digest <span aria-hidden="true">·</span> {digestEntry.label}
+          </span>
+          <span className="digest-bar-status">{digestEntry.statusLabel}</span>
+        </a>
+      )}
       {/* inert while the sheet is open (tracks `open` via `selected`, not
           mount state — see `renderedStory`) makes the whole background
           subtree unfocusable and removes it from the accessibility tree

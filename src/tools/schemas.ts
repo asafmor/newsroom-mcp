@@ -1,5 +1,17 @@
 import { z } from "zod";
 
+import {
+  PODCAST_INSTRUCTIONS_MAX_LENGTH,
+  PODCAST_MAX_SEGMENTS,
+  PODCAST_SEGMENT_MAX_CHARS,
+  PODCAST_STATUS_DEFAULT_LIMIT,
+  PODCAST_STATUS_MAX_LIMIT,
+  PODCAST_TITLE_MAX_LENGTH,
+  PODCAST_TOTAL_MAX_CHARS,
+  PODCAST_TOTAL_MIN_CHARS,
+  PODCAST_VOICES,
+} from "../domain/podcast.js";
+
 // Content items & providers -------------------------------------------------
 
 const contentKindSchema = z.enum([
@@ -285,3 +297,98 @@ export const getFeedOutputSchema = z.object({
   hasMore: z.boolean(),
 });
 export type GetFeedOutput = z.infer<typeof getFeedOutputSchema>;
+
+// Weekly podcast digest ------------------------------------------------------
+
+const podcastVoiceSchema = z.enum(PODCAST_VOICES);
+const podcastAudioStateSchema = z.enum(["pending", "ready", "failed"]);
+
+/** A persisted `PodcastEpisode`, dates serialized to ISO 8601 strings for transport. */
+export const podcastEpisodeSchema = z.object({
+  id: z.string(),
+  isoWeek: z.string(),
+  title: z.string(),
+  segments: z.array(z.string()),
+  totalCharacterCount: z.number().int().nonnegative(),
+  voice: podcastVoiceSchema,
+  instructions: z.string(),
+  submittedAt: z.string(),
+  audioState: podcastAudioStateSchema,
+});
+export type PodcastEpisodeSchema = z.infer<typeof podcastEpisodeSchema>;
+
+// get-podcast-status ---------------------------------------------------------
+
+export const getPodcastStatusInputSchema = z.object({
+  limit: z.number().int().positive().max(PODCAST_STATUS_MAX_LIMIT).default(PODCAST_STATUS_DEFAULT_LIMIT),
+});
+export type GetPodcastStatusInput = z.infer<typeof getPodcastStatusInputSchema>;
+
+const podcastEpisodeSummarySchema = z.object({
+  id: z.string(),
+  isoWeek: z.string(),
+  title: z.string(),
+  audioState: podcastAudioStateSchema,
+  submittedAt: z.string(),
+});
+
+export const getPodcastStatusOutputSchema = z.object({
+  currentIsoWeek: z.string(),
+  episodeExists: z.boolean(),
+  due: z.boolean(),
+  recentEpisodes: z.array(podcastEpisodeSummarySchema),
+});
+export type GetPodcastStatusOutput = z.infer<typeof getPodcastStatusOutputSchema>;
+
+// submit-podcast-episode ------------------------------------------------------
+
+const podcastSegmentSchema = z
+  .string()
+  .trim()
+  .min(1, "Each segment must be non-empty after trimming")
+  .max(PODCAST_SEGMENT_MAX_CHARS, `Each segment must not exceed ${String(PODCAST_SEGMENT_MAX_CHARS)} characters`);
+
+export const submitPodcastEpisodeInputSchema = z
+  .object({
+    title: z
+      .string()
+      .trim()
+      .min(1, "Title must be non-empty")
+      .max(PODCAST_TITLE_MAX_LENGTH, `Title must not exceed ${String(PODCAST_TITLE_MAX_LENGTH)} characters`),
+    segments: z
+      .array(podcastSegmentSchema)
+      .min(1, "At least one segment is required")
+      .max(PODCAST_MAX_SEGMENTS, `No more than ${String(PODCAST_MAX_SEGMENTS)} segments are allowed`)
+      .describe(
+        "Ordered transcript segments, spoken-style prose. Start a new segment at each story transition. " +
+          `Each segment: 1-${String(PODCAST_SEGMENT_MAX_CHARS)} characters. Segments are joined with a paragraph ` +
+          "break for synthesis, so each one should read as a complete thought on its own.",
+      ),
+    voice: podcastVoiceSchema
+      .optional()
+      .describe(`Optional TTS voice; defaults to a fixed narrator voice if omitted. One of: ${PODCAST_VOICES.join(", ")}.`),
+    instructions: z
+      .string()
+      .trim()
+      .min(1)
+      .max(PODCAST_INSTRUCTIONS_MAX_LENGTH, `Instructions must not exceed ${String(PODCAST_INSTRUCTIONS_MAX_LENGTH)} characters`)
+      .optional()
+      .describe("Optional tone/delivery instructions for the narrator; defaults to a fixed canned description if omitted."),
+  })
+  .superRefine((input, ctx) => {
+    const total = input.segments.reduce((sum, segment) => sum + segment.length, 0);
+    if (total < PODCAST_TOTAL_MIN_CHARS || total > PODCAST_TOTAL_MAX_CHARS) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["segments"],
+        message:
+          `Total script length is ${String(total)} characters; it must be between ` +
+          `${String(PODCAST_TOTAL_MIN_CHARS)} and ${String(PODCAST_TOTAL_MAX_CHARS)} characters ` +
+          "(~5-10 minutes at 150 wpm).",
+      });
+    }
+  });
+export type SubmitPodcastEpisodeInput = z.infer<typeof submitPodcastEpisodeInputSchema>;
+
+export const submitPodcastEpisodeOutputSchema = podcastEpisodeSchema;
+export type SubmitPodcastEpisodeOutput = z.infer<typeof submitPodcastEpisodeOutputSchema>;
