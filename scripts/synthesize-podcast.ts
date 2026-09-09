@@ -10,11 +10,18 @@
 //
 // Reads OPENAI_API_KEY/GITHUB_TOKEN/GITHUB_REPOSITORY from process.env only
 // — never from src/config.ts/NewsroomConfig, which the MCP server never
-// needs any of these for.
+// needs any of these for. This script doesn't import config.ts at all, so it
+// has to load .env itself: in CI these come from the job environment, but a
+// local run gets them from .env like every other NEWSROOM_* var. Without
+// this, `npm run synthesize-podcast` fails locally even with a valid .env.
+import { config as loadDotenv } from "dotenv";
+
 import { spawnSync } from "node:child_process";
 import { mkdtempSync, readFileSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
+
+loadDotenv({ quiet: true });
 
 import { defaultGithubApi } from "../src/podcast/github-api.js";
 import { checkFfmpegAndFfprobeAvailable, defaultProcessRunner } from "../src/podcast/ffmpeg.js";
