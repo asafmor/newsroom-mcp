@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T07:44:28.423Z",
+  "generatedAt": "2026-09-09T21:13:53.808Z",
   "episodes": [
     {
       "id": "podcast-2026-W37",
@@ -25,8 +25,13 @@
       "totalCharacterCount": 7569,
       "voice": "alloy",
       "instructions": "Warm, clear, moderate pace, professional newsroom narrator. Even, measured delivery; brief pause between paragraphs.",
-      "audioStatus": "pending",
-      "audio": null,
+      "audioStatus": "ready",
+      "audio": {
+        "url": "audio/podcast-2026-W37.mp3",
+        "durationSeconds": 447,
+        "sizeBytes": 3574701,
+        "mimeType": "audio/mpeg"
+      },
       "failureReason": null
     }
   ]
