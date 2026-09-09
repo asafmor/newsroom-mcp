@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T09:32:50.396Z",
+  "generatedAt": "2026-09-09T11:34:28.644Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -136,6 +136,13 @@
           "title": "U.S. Agencies Issue Stern Rebuke of China-Based AI Companies Over Alleged Distillation",
           "url": "https://gizmodo.com/u-s-agencies-issue-stern-rebuke-of-china-based-ai-companies-over-alleged-distillation-2000808988",
           "publishedAt": "2026-09-09T09:00:31.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "US authorities accuse Chinese AI companies of industrial-scale campaigns to copy American models",
+          "url": "https://www.engadget.com/2253604/us-authorities-accuse-chinese-ai-companies-of-industrial-scale-campaigns-to-copy-american-models/",
+          "publishedAt": "2026-09-09T11:12:22.000Z",
           "contribution": "supporting"
         }
       ],
@@ -426,6 +433,27 @@
       "tags": [
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "23da32e1-dbbb-49ca-887e-eb26d982cd39",
+      "title": "ChatGPT Images 2.5 adds sketch-to-image creation",
+      "summary": "ChatGPT Images 2.5 reportedly adds a sketch-based creation workflow that turns a simple outline or concept sketch into a polished generated image, alongside claimed speed and quality improvements.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-09T11:34:19.993Z",
+      "lastMeaningfulUpdateAt": "2026-09-09T11:34:19.993Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT Images 2.5 Turns Rough Sketches Into Final Art",
+          "url": "https://www.geeky-gadgets.com/chatgpt-images-2-5-update/",
+          "publishedAt": "2026-09-09T10:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1434,27 +1462,6 @@
       ],
       "tags": [
         "product-launch"
-      ]
-    },
-    {
-      "id": "7b5794e6-8ee9-48df-84a4-cb9c7958ceca",
-      "title": "Bernie Sanders calls for global ban on AI superintelligence",
-      "summary": "Senator Bernie Sanders introduced legislation calling for a global ban on developing AI \"superintelligence,\" seeking to treat it as tightly controlled as enriched uranium.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-03T17:01:49.165Z",
-      "lastMeaningfulUpdateAt": "2026-09-03T17:01:49.165Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Bernie Sanders Calls for Global Ban on AI ‘Superintelligence’",
-          "url": "https://gizmodo.com/bernie-sanders-calls-for-global-ban-on-ai-superintelligence-2000806829",
-          "publishedAt": "2026-09-03T15:30:54.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
       ]
     }
   ],
