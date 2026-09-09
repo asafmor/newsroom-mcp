@@ -100,15 +100,20 @@ A weekly, AI-narrated audio companion to the feed, in two phases:
   workflow (`.github/workflows/synthesize-podcast.yml`) turns any episode
   `podcast.json` reports as `pending` or `failed` into real synthesized
   speech via the OpenAI TTS API, concatenates the result with `ffmpeg`
-  (re-encoded, never `-c copy`/naive byte concatenation), probes the final
-  duration with `ffprobe`, and uploads the MP3 as a per-episode GitHub
-  Release asset (never committed into git, never embedded in
-  `podcast.json`). This never touches the database — only the published
-  `podcast.json` snapshot. See `src/podcast/` for the chunking/synthesis/
-  release logic (each external call — HTTP, `ffmpeg`/`ffprobe`, the release
-  API — sits behind an injectable seam so the default test suite never
-  makes a real call) and `scripts/synthesize-podcast.ts`, which is the
-  exact same script the workflow and a local run both call.
+  (re-encoded — mono, 64kbps — never `-c copy`/naive byte concatenation),
+  probes the final duration with `ffprobe`, and commits the MP3 onto the
+  `feed` branch at `audio/<episode-id>.mp3` in the SAME commit as the
+  `podcast.json` update (`audio.url` is that relative path). The mp3 is
+  **not** uploaded as a GitHub Release asset: Release assets are served as
+  `application/octet-stream` with `Content-Disposition: attachment` and no
+  CORS headers, which iOS Safari refuses to play inline — serving the file
+  same-origin off GitHub Pages alongside the rest of the static site avoids
+  that entirely. This never touches the database — only the published
+  `podcast.json`/`audio/` snapshot on `feed`. See `src/podcast/` for the
+  chunking/synthesis/ffmpeg logic (each external call — HTTP,
+  `ffmpeg`/`ffprobe` — sits behind an injectable seam so the default test
+  suite never makes a real call) and `scripts/synthesize-podcast.ts`, which
+  is the exact same script the workflow and a local run both call.
 
 Segment/length validation (`submitPodcastEpisodeInputSchema`, Zod): each
 segment must be non-empty after trimming and at most 1,500 characters —
@@ -127,15 +132,19 @@ leaves every already-published episode's audio state/metadata untouched —
 `podcast.json` is the source of truth for audio state once Phase 2 has run,
 the database is the source of truth for script content. Episodes are
 sorted newest-ISO-week-first and trimmed to the most recent 26 in the
-published file only (never the database, git history, or the underlying
-Release). `scripts/synthesize-podcast.ts` writes back with the same
-merge-only discipline in reverse, rewriting only the episode(s) it just
-processed. Both writers retry a rejected push up to 3 total attempts,
-re-fetching/resetting against the latest `origin/feed` between attempts, so
-they and `publish-feed`/the site-deploy workflow never assume sole
-ownership of the `feed` branch. Run `npm run synthesize-podcast` to run
-Phase 2 locally (reads `OPENAI_API_KEY`/`GITHUB_TOKEN`/`GITHUB_REPOSITORY`
-from `process.env` — see `.env.example`).
+published file only (never the database or git history); `audio/*.mp3`
+files for any episode that falls out of that window get pruned from the
+worktree in the same commit. `scripts/synthesize-podcast.ts` writes back
+with the same merge-only discipline in reverse, rewriting only the
+episode(s) it just processed and staging its mp3 alongside the
+`podcast.json` update via `git add -A`, so `podcast.json` is never pushed
+pointing at an mp3 that hasn't landed in the same commit. Both writers
+retry a rejected push up to 3 total attempts, re-fetching/resetting against
+the latest `origin/feed` between attempts, so they and `publish-feed`/the
+site-deploy workflow never assume sole ownership of the `feed` branch. Run
+`npm run synthesize-podcast` to run Phase 2 locally (reads
+`OPENAI_API_KEY` from `process.env` — see `.env.example`; git push auth
+reuses whatever credentials are already configured for `origin`).
 
 ## No low-level tools
 

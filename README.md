@@ -129,11 +129,11 @@ A weekly, AI-narrated audio companion to the feed, published in two phases
   after `npm run publish-feed`.
 - **Phase 2** — `.github/workflows/synthesize-podcast.yml` (Friday-morning
   cron + manual `workflow_dispatch`) mechanically turns any pending script
-  into real audio via the OpenAI TTS API, uploads it as a GitHub Release
-  asset, and writes the result back to `podcast.json`. Runnable locally as
-  `npm run synthesize-podcast` (reads `OPENAI_API_KEY`/`GITHUB_TOKEN`/
-  `GITHUB_REPOSITORY` from the environment — see `.env.example`); never
-  part of `npm run dev`/`start`.
+  into real audio via the OpenAI TTS API, and commits the mp3 onto the
+  `feed` branch at `audio/<episode-id>.mp3` alongside the updated
+  `podcast.json`. Runnable locally as `npm run synthesize-podcast` (reads
+  `OPENAI_API_KEY` from the environment — see `.env.example`); never part
+  of `npm run dev`/`start`.
 
 ## Development
 

@@ -2,15 +2,11 @@ import type { Feed, FeedQuery, FeedSource, FeedStory } from "../domain/feed.js";
 import type { Story } from "../domain/story.js";
 import type { ContentProviderRegistry } from "../providers/content-provider-registry.js";
 import type { StoryRepository } from "../repositories/story-repository.js";
+import { MAX_STORY_AGE_DAYS } from "../shared/story-age.js";
 
 const DEFAULT_LIMIT = 20;
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
-// Feed-only staleness rules — get-active-stories (the AI's triage view) sees
-// every active story regardless of age, so it can still archive/update a
-// story that's fallen off the feed. Only the reader-facing feed hides and
-// decays stale stories.
-const MAX_STORY_AGE_DAYS = 7;
 const RANK_HALF_LIFE_DAYS = 3;
 
 /** Builds the read-only curated feed view from active stories. */

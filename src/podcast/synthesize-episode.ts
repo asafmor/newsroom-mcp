@@ -1,16 +1,24 @@
-// Ties chunking + TTS + ffmpeg concat/probe + Release upload together for
-// one eligible episode. Every dependency is passed in (`SynthesisDeps`) —
-// this is the "exact same synthesis-request/chunk-packing/concatenation
-// code path" both the CI workflow step and the local script run (F.37):
+// Ties chunking + TTS + ffmpeg concat/probe together for one eligible
+// episode. Every dependency is passed in (`SynthesisDeps`) — this is the
+// "exact same synthesis-request/chunk-packing/concatenation code path" both
+// the CI workflow step and the local script run (F.37):
 // scripts/synthesize-podcast.ts is the one place that wires real
 // implementations; tests wire stubs.
+//
+// Does NOT upload anywhere itself (there is no Release/CDN seam any more —
+// see the iOS-playback fix in docs/mcp-tools.md): it returns the finished
+// mp3's local path alongside the audio result, and the caller
+// (scripts/synthesize-podcast.ts) is responsible for placing that file
+// wherever `audio.url` ("audio/<episode.id>.mp3", relative — served
+// same-origin by the static site) will resolve to.
 import path from "node:path";
 
 import { packSegmentsIntoChunks } from "./chunking.js";
 import { concatenateMp3, probeDurationSeconds, type ProcessRunner } from "./ffmpeg.js";
-import { publishEpisodeAsset, type GithubApi } from "./github-api.js";
 import type { AudioResult, PodcastJsonEpisode } from "./podcast-json.js";
 import { synthesizeChunkWithRetry, type TtsRequestFn } from "./tts-client.js";
+
+const AUDIO_MIME_TYPE = "audio/mpeg";
 
 export interface SynthesisFs {
   writeFile(path: string, data: Uint8Array | string): void;
@@ -22,8 +30,13 @@ export interface SynthesisDeps {
   readonly scratchDir: string;
   readonly requestTts: TtsRequestFn;
   readonly runProcess: ProcessRunner;
-  readonly githubApi: GithubApi;
   readonly fs: SynthesisFs;
+}
+
+export interface SynthesisOutcome {
+  readonly result: AudioResult;
+  /** The finished mp3's path in `scratchDir`, for the caller to copy into place. Present iff `result.audioStatus === "ready"`. */
+  readonly localAudioPath?: string;
 }
 
 function shortFailureReason(error: unknown): string {
@@ -40,13 +53,13 @@ function buildConcatList(chunkPaths: readonly string[]): string {
 
 /**
  * Synthesizes one episode's audio end to end. Never throws — a failure at
- * any stage (a chunk exhausting its retries, ffmpeg/ffprobe failing or
- * reporting an invalid duration, or the Release upload failing) resolves
- * to `{ audioStatus: "failed", failureReason }` rather than propagating, so
- * the caller can process every eligible episode independently (E.28)
- * without a try/catch of its own around each one.
+ * any stage (a chunk exhausting its retries, or ffmpeg/ffprobe failing or
+ * reporting an invalid duration) resolves to `{ result: { audioStatus:
+ * "failed", failureReason } }` rather than propagating, so the caller can
+ * process every eligible episode independently (E.28) without a try/catch
+ * of its own around each one.
  */
-export async function synthesizeEpisode(episode: PodcastJsonEpisode, deps: SynthesisDeps): Promise<AudioResult> {
+export async function synthesizeEpisode(episode: PodcastJsonEpisode, deps: SynthesisDeps): Promise<SynthesisOutcome> {
   try {
     const chunks = packSegmentsIntoChunks(episode.segments);
     const chunkPaths: string[] = [];
@@ -69,16 +82,18 @@ export async function synthesizeEpisode(episode: PodcastJsonEpisode, deps: Synth
     const outputPath = path.join(deps.scratchDir, "episode.mp3");
     concatenateMp3(listPath, outputPath, deps.runProcess);
     const durationSeconds = probeDurationSeconds(outputPath, deps.runProcess);
-
-    const asset = await publishEpisodeAsset(episode.id, outputPath, deps.githubApi, (filePath) =>
-      deps.fs.readFile(filePath),
-    );
+    const sizeBytes = deps.fs.readFile(outputPath).byteLength;
 
     return {
-      audioStatus: "ready",
-      audio: { url: asset.url, durationSeconds, sizeBytes: asset.sizeBytes, mimeType: asset.mimeType },
+      result: {
+        audioStatus: "ready",
+        // Relative — resolved same-origin by the static site against its
+        // own `./podcast.json` fetch (site/vite.config.ts's `base: "./"`).
+        audio: { url: `audio/${episode.id}.mp3`, durationSeconds, sizeBytes, mimeType: AUDIO_MIME_TYPE },
+      },
+      localAudioPath: outputPath,
     };
   } catch (error) {
-    return { audioStatus: "failed", failureReason: shortFailureReason(error) };
+    return { result: { audioStatus: "failed", failureReason: shortFailureReason(error) } };
   }
 }

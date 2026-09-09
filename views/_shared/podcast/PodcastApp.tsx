@@ -2,7 +2,7 @@ import { useId, useState } from "react";
 
 import { EmptyState } from "../feed/EmptyState.js";
 import { SkeletonCard } from "../feed/SkeletonCard.js";
-import { formatIsoWeekRange } from "./formatters.js";
+import { activeSegmentIndex, formatCoveredDateRange } from "./formatters.js";
 import type { PodcastEpisode } from "./types.js";
 
 const AI_VOICE_DISCLOSURE = "This episode's narration is AI-generated audio, not a human voice.";
@@ -97,6 +97,19 @@ function EpisodeCard({ episode }: { readonly episode: PodcastEpisode }) {
   // affordance there.
   const transcriptDefaultOpen = episode.audioStatus !== "ready";
 
+  // Lifted here (rather than local to AudioSection) so Transcript can
+  // highlight the paragraph currently being narrated — derived straight
+  // from the <audio> element's own currentTime via onTimeUpdate, never a
+  // separate timer, so pause/seek/scrub stay correct for free.
+  // null until the first onTimeUpdate: at t=0 every segment boundary is still
+  // ahead, so highlighting segment 0 before playback would claim narration
+  // that hasn't started.
+  const [currentTime, setCurrentTime] = useState<number | null>(null);
+  const activeIndex =
+    currentTime !== null && episode.audioStatus === "ready" && episode.audio !== null
+      ? activeSegmentIndex(currentTime, episode.audio.durationSeconds, episode.segments)
+      : -1;
+
   return (
     <article className="podcast-card">
       <div className="podcast-card-head">
@@ -105,29 +118,54 @@ function EpisodeCard({ episode }: { readonly episode: PodcastEpisode }) {
           {/* Human calendar range is primary — a raw ISO week code doesn't
               identify the covered dates on its own (see docs/mcp-tools.md
               and criterion 47). The ISO code stays as secondary metadata. */}
-          <span className="podcast-card-range">{formatIsoWeekRange(episode.isoWeek)}</span>
+          <span className="podcast-card-range">{formatCoveredDateRange(episode.publishedAt)}</span>
           <span className="podcast-card-week">{episode.isoWeek}</span>
+          {episode.audioStatus === "ready" && episode.audio !== null && (
+            <span className="podcast-card-duration">{formatDuration(episode.audio.durationSeconds)}</span>
+          )}
         </div>
       </div>
 
-      <AudioSection episode={episode} />
+      <AudioSection episode={episode} onTimeUpdate={setCurrentTime} />
 
-      <Transcript segments={episode.segments} defaultOpen={transcriptDefaultOpen} />
+      <Transcript segments={episode.segments} defaultOpen={transcriptDefaultOpen} activeIndex={activeIndex} />
     </article>
   );
 }
 
-function AudioSection({ episode }: { readonly episode: PodcastEpisode }) {
+function AudioSection({
+  episode,
+  onTimeUpdate,
+}: {
+  readonly episode: PodcastEpisode;
+  readonly onTimeUpdate: (currentTimeSeconds: number) => void;
+}) {
+  const [playbackError, setPlaybackError] = useState<string | null>(null);
+
   if (episode.audioStatus === "ready" && episode.audio !== null) {
     return (
       <div className="podcast-audio">
         {/* Native controls: keyboard-operable with no extra work, no autoplay. */}
-        <audio controls preload="none" src={episode.audio.url}>
+        <audio
+          controls
+          preload="none"
+          src={episode.audio.url}
+          onTimeUpdate={(event) => {
+            onTimeUpdate(event.currentTarget.currentTime);
+          }}
+          onError={(event) => {
+            setPlaybackError(describeMediaError(event.currentTarget.error));
+          }}
+        >
           Your browser does not support the audio element.
         </audio>
-        <div className="podcast-audio-meta">
-          <span>{formatDuration(episode.audio.durationSeconds)}</span>
-        </div>
+        {/* Non-alarming: names the failure without blaming the reader, and
+            keeps the transcript reachable instead of failing silently. */}
+        {playbackError !== null && (
+          <p className="podcast-audio-error" role="status">
+            {playbackError} The transcript below is still readable.
+          </p>
+        )}
         {/* Adjacent to the player, not just once in a page footer — see G.49. */}
         <p className="podcast-disclosure">{AI_VOICE_DISCLOSURE}</p>
       </div>
@@ -159,13 +197,36 @@ function AudioSection({ episode }: { readonly episode: PodcastEpisode }) {
   );
 }
 
+/**
+ * A short, calm, human-readable message for an `<audio>` `onError` event —
+ * iOS/WebKit in particular surfaces a contentless MediaError with no
+ * details of its own (see docs/changes/weekly-podcast-digest.md's iOS
+ * playback fix), so this maps the standard MediaError codes to something a
+ * reader can actually act on.
+ */
+function describeMediaError(error: MediaError | null): string {
+  switch (error?.code) {
+    case MediaError.MEDIA_ERR_NETWORK:
+      return "Audio couldn't load — check your connection.";
+    case MediaError.MEDIA_ERR_DECODE:
+      return "Audio couldn't be decoded.";
+    case MediaError.MEDIA_ERR_SRC_NOT_SUPPORTED:
+      return "This browser can't play this episode's audio format.";
+    default:
+      return "Audio couldn't be played.";
+  }
+}
+
 function Transcript({
   segments,
   defaultOpen,
+  activeIndex,
 }: {
   readonly segments: readonly string[];
   /** `true` for pending/failed episodes, where the transcript is the only usable content on the card. */
   readonly defaultOpen: boolean;
+  /** Index of the paragraph currently being narrated, or -1 for none (no audio, or before playback starts). */
+  readonly activeIndex: number;
 }) {
   const [open, setOpen] = useState(defaultOpen);
   const bodyId = useId();
@@ -186,9 +247,18 @@ function Transcript({
       {open && (
         <div id={bodyId} className="podcast-transcript-body">
           {/* Index keys are fine here: segments are an immutable, order-only transcript, never reordered/filtered. */}
-          {segments.map((segment, index) => (
-            <p key={index}>{segment}</p>
-          ))}
+          {segments.map((segment, index) => {
+            const active = index === activeIndex;
+            return (
+              <p
+                key={index}
+                className={active ? "podcast-transcript-line podcast-transcript-line--active" : "podcast-transcript-line"}
+                aria-current={active ? "true" : undefined}
+              >
+                {segment}
+              </p>
+            );
+          })}
         </div>
       )}
     </div>

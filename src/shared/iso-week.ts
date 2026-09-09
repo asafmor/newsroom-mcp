@@ -45,44 +45,6 @@ function isoWeekMonday(date: Date): Date {
   return target;
 }
 
-/** The Monday 00:00:00.000 UTC that starts ISO week `isoWeek` of `isoYear` — the reverse direction of `isoWeekMonday` above. */
-function mondayOfIsoWeek(isoYear: number, isoWeek: number): Date {
-  const jan4 = new Date(Date.UTC(isoYear, 0, 4));
-  const week1Monday = isoWeekMonday(jan4);
-  const monday = new Date(week1Monday);
-  monday.setUTCDate(week1Monday.getUTCDate() + (isoWeek - 1) * 7);
-  return monday;
-}
-
-export interface IsoWeekDateRange {
-  /** Monday 00:00:00.000 UTC. */
-  readonly start: Date;
-  /** Sunday 00:00:00.000 UTC (the same week's last day, not the following Monday). */
-  readonly end: Date;
-}
-
-/**
- * The Monday-Sunday calendar range covered by ISO week `isoWeek` of
- * `isoYear` — the reverse of `computeIsoWeek`. Exists so callers that only
- * have an ISO week identifier (e.g. `podcast.json`'s `isoWeek` field) can
- * render a human calendar range without hand-rolling date math themselves.
- */
-export function isoWeekDateRange(isoYear: number, isoWeek: number): IsoWeekDateRange {
-  const start = mondayOfIsoWeek(isoYear, isoWeek);
-  const end = new Date(start);
-  end.setUTCDate(start.getUTCDate() + 6);
-  return { start, end };
-}
-
-/** Parses `<ISO year>-W<zero-padded week>` (e.g. "2026-W37") back into its numeric parts, or `undefined` if malformed. */
-export function parseIsoWeekId(id: string): { readonly isoYear: number; readonly isoWeek: number } | undefined {
-  const match = /^(\d{4})-W(\d{2})$/.exec(id);
-  if (match === null) return undefined;
-  const isoWeek = Number(match[2]);
-  if (isoWeek < 1 || isoWeek > 53) return undefined;
-  return { isoYear: Number(match[1]), isoWeek };
-}
-
 /** 08:00:00.000 UTC on the Friday inside `date`'s ISO week (Monday-Sunday). */
 export function fridayDueBoundary(date: Date): Date {
   const monday = isoWeekMonday(date);

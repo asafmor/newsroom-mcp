@@ -3,8 +3,9 @@ name: Synthesize podcast audio
 # Phase 2 of the weekly podcast digest: fully mechanical, no AI reasoning.
 # Reads podcast.json off the `feed` branch, synthesizes real audio (OpenAI
 # TTS) for every pending/failed episode, concatenates + probes with
-# ffmpeg/ffprobe, uploads each to a per-episode GitHub Release, and
-# publishes the result back to podcast.json. See docs/mcp-tools.md.
+# ffmpeg/ffprobe, and publishes the result back to podcast.json along with
+# the mp3 itself (committed onto the `feed` branch at
+# audio/<episode-id>.mp3). See docs/mcp-tools.md.
 #
 # NOTE: GitHub disables scheduled workflows after 60 days with no commits to
 # the default branch. `workflow_dispatch` below lets a missed/failed run be
@@ -66,6 +67,4 @@ jobs:
       - name: Synthesize eligible episodes and publish podcast.json
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
         run: npx tsx scripts/synthesize-podcast.ts

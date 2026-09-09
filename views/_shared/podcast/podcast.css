@@ -4,10 +4,25 @@
    applied to the same root element, see PodcastApp.tsx) instead of
    redefining them. Everything below is scoped under `.newsroomPodcast`. */
 
+/* A distinct, elevated layer from the story-card list above/below it —
+   same surface/radius/shadow tokens the story cards already use
+   (feed.css's .story-card:hover), not new ones. */
 .podcast-shell {
   max-width: 960px;
-  margin-inline: auto;
+  margin: var(--space-6) auto var(--space-8);
   padding: var(--space-6) var(--space-3) var(--space-12);
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--elev-raised);
+}
+
+/* A full-bleed card flush with the viewport edge would clip its own rounded
+   corners/shadow — give it breathing room and a smaller radius instead. */
+@media (max-width: 639px) {
+  .podcast-shell {
+    margin-inline: var(--space-3);
+    border-radius: var(--radius-md);
+  }
 }
 
 .podcast-header {
@@ -76,10 +91,50 @@
   color: var(--muted);
   white-space: nowrap;
 }
+/* Same tertiary treatment as .podcast-card-week, one line further down. */
+.podcast-card-duration {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* Must come AFTER the three base rules above, not up with the other mobile
+   overrides near the top of the file: these selectors have the same
+   specificity, so source order decides and an earlier media query would
+   silently lose the cascade. */
+@media (max-width: 639px) {
+  /* Side-by-side, the non-shrinking metadata column takes more width than
+     the title itself at 320px. Give the title its own full-width row and
+     move the metadata beneath it. */
+  .podcast-card-head {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-1);
+  }
+  /* Each item is nowrap and together they just exceed the ~238px of card
+     content width left at a 320px viewport, so let the row itself wrap
+     rather than overflow horizontally. */
+  .podcast-card-dates {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: var(--space-1) var(--space-2);
+  }
+}
 
 .podcast-audio { display: flex; flex-direction: column; gap: var(--space-2); }
 .podcast-audio audio { width: 100%; }
-.podcast-audio-meta { font-family: var(--font-mono); font-size: 11px; color: var(--muted); }
+/* Static, non-alarming — same tone as .podcast-status, surfaces a mapped
+   MediaError instead of a silent, contentless playback failure. */
+.podcast-audio-error {
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--danger);
+  background: color-mix(in oklab, var(--danger), transparent 90%);
+  border-radius: var(--radius-md);
+}
 
 /* Static, non-alarming — no animation implying a known completion time, and
    no retry control (there's no backend for the site to call). */
@@ -105,7 +160,9 @@
 
 .newsroomPodcast .podcast-transcript-toggle {
   align-self: flex-start;
-  padding: var(--space-1) var(--space-2);
+  /* Vertical padding only (keeps the touch target tall) — no horizontal
+     inset, so the label sits flush with the card's content edge. */
+  padding: var(--space-1) 0;
   font-size: var(--text-sm);
   font-weight: 600;
   color: var(--accent);
@@ -120,6 +177,23 @@
   font-size: var(--text-sm);
   line-height: var(--leading-body);
   color: var(--fg-2);
+}
+.podcast-transcript-line {
+  padding: 2px var(--space-2);
+  margin-inline: calc(var(--space-2) * -1);
+  border-left: 3px solid transparent;
+  border-radius: var(--radius-sm);
+  transition: background var(--motion-fast) var(--ease-standard), border-color var(--motion-fast) var(--ease-standard);
+}
+/* Background + the border appearing where there was none, not hue alone, so
+   the active line still reads under prefers-reduced-motion and for
+   color-blind readers. Deliberately no font-weight/size change: those alter
+   text metrics, so every advance would rewrap the incoming paragraph and
+   shift the rest of the transcript under the reader mid-narration. */
+.podcast-transcript-line--active {
+  background: var(--accent-soft);
+  border-left-color: var(--accent);
+  color: var(--fg);
 }
 
 @media (min-width: 640px) {

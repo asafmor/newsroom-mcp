@@ -90,10 +90,12 @@ Two phases, both documented in full in `docs/mcp-tools.md`:
   `.github/workflows/synthesize-podcast.yml` on a Friday-morning cron (and
   by `workflow_dispatch`), turns any `pending`/`failed` episode into real
   synthesized speech (OpenAI TTS), concatenates it with `ffmpeg`
-  (re-encoded), probes the duration with `ffprobe`, uploads it as a
-  per-episode GitHub Release asset, and writes the result back to
-  `podcast.json`. Entirely mechanical (no AI reasoning), entirely outside
-  the MCP server process — it never runs as part of `npm run dev`/`start`.
+  (re-encoded), probes the duration with `ffprobe`, and commits the mp3
+  onto the `feed` branch at `audio/<episode-id>.mp3` in the same commit as
+  the `podcast.json` update (never a GitHub Release asset — those are
+  served `application/octet-stream` with no CORS, which iOS Safari refuses
+  to play). Entirely mechanical (no AI reasoning), entirely outside the MCP
+  server process — it never runs as part of `npm run dev`/`start`.
 
 ## Project Guides
 

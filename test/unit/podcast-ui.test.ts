@@ -67,12 +67,14 @@ describe("podcast digest entry point stays visible while scrolling (P2 UI-review
   });
 });
 
-describe("podcast episode date range (P2 UI-review finding)", () => {
-  it("renders a human calendar range as the primary date label, keeping the ISO code as secondary metadata", () => {
+describe("podcast episode date range (P2 UI-review finding: covered dates, not the calendar ISO week)", () => {
+  it("renders a human calendar range derived from publishedAt as the primary date label, keeping the ISO code as secondary metadata", () => {
     const tsx = readFileSync(new URL("../../views/_shared/podcast/PodcastApp.tsx", import.meta.url), "utf8");
 
-    expect(tsx).toContain("formatIsoWeekRange(episode.isoWeek)");
-    expect(tsx).toMatch(/<span className="podcast-card-range">\{formatIsoWeekRange\(episode\.isoWeek\)\}<\/span>/);
+    // NOT formatIsoWeekRange(episode.isoWeek): that range can start after the
+    // covered content and end days in the future for a mid-week submission.
+    expect(tsx).toContain("formatCoveredDateRange(episode.publishedAt)");
+    expect(tsx).toMatch(/<span className="podcast-card-range">\{formatCoveredDateRange\(episode\.publishedAt\)\}<\/span>/);
     expect(tsx).toMatch(/<span className="podcast-card-week">\{episode\.isoWeek\}<\/span>/);
   });
 });
@@ -102,6 +104,45 @@ describe("podcast transcript default visibility (P2 UI-review finding)", () => {
     expect(tsx).toContain("defaultOpen={transcriptDefaultOpen}");
     // The initial React state is seeded from the prop, not hardcoded closed.
     expect(tsx).toContain("useState(defaultOpen)");
+  });
+});
+
+describe("transcript highlighting before playback (P1 review finding)", () => {
+  it("leaves currentTime null until the first onTimeUpdate, so no line is marked active at rest", () => {
+    const tsx = readFileSync(new URL("../../views/_shared/podcast/PodcastApp.tsx", import.meta.url), "utf8");
+
+    // Seeded to 0, activeSegmentIndex(0, ...) returns 0 and the first
+    // paragraph reads as narrated before the reader ever pressed play.
+    expect(tsx).toContain("useState<number | null>(null)");
+    expect(tsx).toContain("currentTime !== null &&");
+  });
+});
+
+describe("mobile episode-head layout (P2 UI-review finding)", () => {
+  it("declares the mobile card-head override after the base rule, so it wins the cascade", () => {
+    const css = readFileSync(new URL("../../views/_shared/podcast/podcast.css", import.meta.url), "utf8");
+
+    // Same specificity, so source order alone decides. Declared earlier (as
+    // it first was), the mobile rule silently loses and the metadata keeps
+    // rendering as a right-aligned vertical stack.
+    const base = css.indexOf(".podcast-card-head {");
+    const override = css.indexOf(".podcast-card-head {", base + 1);
+
+    expect(base).toBeGreaterThan(-1);
+    expect(override).toBeGreaterThan(base);
+    expect(css.slice(0, override)).toContain("@media (max-width: 639px)");
+  });
+});
+
+describe("transcript highlight text metrics (P2 UI-review finding)", () => {
+  it("does not change font weight on the active line, which would rewrap it mid-narration", () => {
+    const css = readFileSync(new URL("../../views/_shared/podcast/podcast.css", import.meta.url), "utf8");
+    const rule = /\.podcast-transcript-line--active\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(rule).toBeDefined();
+    expect(rule).not.toMatch(/font-weight|font-size|letter-spacing/);
+    // Still distinguishable without relying on hue alone.
+    expect(rule).toContain("border-left-color");
   });
 });
 
