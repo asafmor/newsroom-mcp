@@ -9,7 +9,7 @@
 // (feed publish, site deploy).
 import { buildNewsroomServices } from "../src/composition.js";
 import { mergeNewEpisodes, parsePodcastJson } from "../src/podcast/podcast-json.js";
-import { publishPodcastJson } from "./lib/podcast-worktree-publish.js";
+import { publishPodcastJson } from "./lib/worktree-publish.js";
 
 const services = buildNewsroomServices();
 const episodes = await services.podcasts.findAll();

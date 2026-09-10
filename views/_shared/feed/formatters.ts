@@ -111,13 +111,17 @@ export interface Freshness {
  * timestamp. "Today" is a local-calendar-day comparison (`toDateString()`),
  * not a 24-hour subtraction — a snapshot from 11pm yesterday is under 24h
  * old but must never read as "today". `now` is injectable for tests.
+ * `staleAfterMs` defaults to the feed's own cadence (STALE_AFTER_MS above)
+ * but is overridable — Tool Radar (views/_shared/tools/formatters.ts)
+ * reuses this same function with a much longer threshold, since it
+ * publishes weekly rather than every ~30 minutes.
  */
-export function freshness(generatedAtIso: string, now: Date = new Date()): Freshness {
+export function freshness(generatedAtIso: string, now: Date = new Date(), staleAfterMs: number = STALE_AFTER_MS): Freshness {
   const generated = new Date(generatedAtIso);
   const isToday = generated.toDateString() === now.toDateString();
   return {
     label: isToday ? shortTime(generatedAtIso) : `${shortDate(generatedAtIso)}, ${shortTime(generatedAtIso)}`,
-    stale: now.getTime() - generated.getTime() >= STALE_AFTER_MS,
+    stale: now.getTime() - generated.getTime() >= staleAfterMs,
   };
 }
 

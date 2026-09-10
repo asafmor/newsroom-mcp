@@ -127,6 +127,7 @@ export function FeedApp({
   onOpenSource,
   variant = "site",
   digestEntry,
+  toolsEntry,
 }: {
   readonly state: FeedState;
   readonly locale?: string;
@@ -135,6 +136,8 @@ export function FeedApp({
   readonly variant?: "mcp" | "site";
   /** Site-only "Weekly digest" entry point (rendered as `.digest-bar` below). `undefined` in the MCP View, which has no podcast data. */
   readonly digestEntry?: DigestEntry;
+  /** Site-only "Tool Radar" entry point — same `.digest-bar` treatment as `digestEntry`, rendered alongside it (P1 UI-review finding: Tool Radar was undiscoverable from the landing page). `undefined` in the MCP View, or whenever Tool Radar hasn't loaded/errored/has zero entries. */
+  readonly toolsEntry?: DigestEntry;
 }) {
   const rootClassName = variant === "mcp" ? "newsroomFeed newsroomFeed--mcp" : "newsroomFeed";
   // Automatic, time-of-day only (Waze-style) — no manual override, no OS
@@ -216,6 +219,7 @@ export function FeedApp({
         stories={state.stories}
         onOpenSource={onOpenSource}
         digestEntry={digestEntry}
+        toolsEntry={toolsEntry}
       />
     </main>
   );
@@ -226,11 +230,13 @@ function Feed({
   stories,
   onOpenSource,
   digestEntry,
+  toolsEntry,
 }: {
   readonly generatedAt: string;
   readonly stories: readonly FeedStory[];
   readonly onOpenSource: (url: string) => void;
   readonly digestEntry?: DigestEntry;
+  readonly toolsEntry?: DigestEntry;
 }) {
   const [sortMode, setSortMode] = useState<SortMode>(getInitialSortMode);
 
@@ -397,15 +403,43 @@ function Feed({
           scrolling ~1000px at both 390px and 1440px widths. Kept as its own
           slim, muted strip rather than folded into .feed-header, so keeping
           it on-screen never also has to pin the full header (search,
-          filters) for the whole scroll. */}
-      {digestEntry !== undefined && (
-        <a href={digestEntry.href} className="digest-bar">
-          <span className="digest-bar-icon" aria-hidden="true">🎙</span>
-          <span className="digest-bar-text">
-            Weekly digest <span aria-hidden="true">·</span> {digestEntry.label}
-          </span>
-          <span className="digest-bar-status">{digestEntry.statusLabel}</span>
-        </a>
+          filters) for the whole scroll.
+
+          `toolsEntry` (P1 UI-review finding: Tool Radar was undiscoverable
+          from the landing page) sits alongside it as a "small pair".
+          .entry-bar-row itself carries the sticky/top:0; the bars do not —
+          a sticky child has zero travel inside a row exactly as tall as
+          itself, so both shortcuts scrolled away with the feed. */}
+      {(digestEntry !== undefined || toolsEntry !== undefined) && (
+        <div className="entry-bar-row">
+          {digestEntry !== undefined && (
+            <a href={digestEntry.href} className="digest-bar">
+              <span className="digest-bar-icon" aria-hidden="true">🎙</span>
+              {/* .digest-bar-name never truncates — the destination itself
+                  is what must survive at 390px (P2 UI-review finding: it
+                  used to share one nowrap/ellipsis span with the secondary
+                  metadata below and lost, e.g. rendering "Weekly…" while
+                  the status chip stayed fully visible). Only
+                  .digest-bar-meta (the secondary "· {label}" bit) shrinks
+                  and truncates first. */}
+              <span className="digest-bar-text">
+                <span className="digest-bar-name">Weekly digest</span>
+                <span className="digest-bar-meta"><span aria-hidden="true">·</span> {digestEntry.label}</span>
+              </span>
+              <span className="digest-bar-status">{digestEntry.statusLabel}</span>
+            </a>
+          )}
+          {toolsEntry !== undefined && (
+            <a href={toolsEntry.href} className="digest-bar">
+              <span className="digest-bar-icon" aria-hidden="true">🧭</span>
+              <span className="digest-bar-text">
+                <span className="digest-bar-name">Tool Radar</span>
+                <span className="digest-bar-meta"><span aria-hidden="true">·</span> {toolsEntry.label}</span>
+              </span>
+              <span className="digest-bar-status">{toolsEntry.statusLabel}</span>
+            </a>
+          )}
+        </div>
       )}
       {/* inert while the sheet is open (tracks `open` via `selected`, not
           mount state — see `renderedStory`) makes the whole background

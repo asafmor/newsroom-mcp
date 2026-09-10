@@ -17,6 +17,7 @@ data/
 *.db-wal
 site/feed.json
 site/podcast.json
+site/tools.json
 # Mirrored from the `feed` branch by `npm run dev:site` so the podcast
 # player's relative audio/<id>.mp3 URLs resolve in local dev.
 site/audio/

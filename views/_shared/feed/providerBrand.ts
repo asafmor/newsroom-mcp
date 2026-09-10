@@ -35,6 +35,11 @@ const PROVIDER_BRANDS: Record<string, { slug: string; color: string }> = {
   "Geeky Gadgets AI": { slug: "geeky-gadgets", color: "16A34A" },
   "MCP Blog": { slug: "mcp", color: "000000" },
   "Hacker News": { slug: "hacker-news", color: "FF6600" },
+  // Tool Radar (views/_shared/tools/) brand keys — "GitHub" has no logo file
+  // on disk yet, so it falls back to tinted initials; "Hugging Face" reuses
+  // the logo already shipped for "Hugging Face Blog" above.
+  GitHub: { slug: "github", color: "181717" },
+  "Hugging Face": { slug: "huggingface", color: "FFD21E" },
 };
 
 const DEFAULT_BRAND = { slug: "", color: "64748B" };

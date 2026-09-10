@@ -34,7 +34,7 @@ import { checkFfmpegAndFfprobeAvailable, defaultProcessRunner } from "../src/pod
 import { applyAudioResult, parsePodcastJson, type PodcastJsonFile } from "../src/podcast/podcast-json.js";
 import { synthesizeEpisode, type SynthesisOutcome } from "../src/podcast/synthesize-episode.js";
 import { defaultTtsRequest } from "../src/podcast/tts-client.js";
-import { publishPodcastJson } from "./lib/podcast-worktree-publish.js";
+import { publishPodcastJson } from "./lib/worktree-publish.js";
 
 // Collapse an unknown error into one short, bounded line. Mirrors
 // shortFailureReason() in src/podcast/synthesize-episode.ts so nothing

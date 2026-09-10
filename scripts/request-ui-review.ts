@@ -40,6 +40,7 @@ interface PreparedReviewEnvironment {
   readonly podcastSource: string;
   readonly sitePort: number;
   readonly siteRoot: string;
+  readonly toolsSource: string;
 }
 
 function repositoryFingerprint(worktree: string): string {
@@ -216,10 +217,34 @@ function tryGitShow(worktree: string, revision: string, file = "feed.json"): Buf
     return execFileSync("git", ["show", `${revision}:${file}`], {
       cwd: worktree,
       maxBuffer: 20 * 1024 * 1024,
+      // A missing optional snapshot is an expected outcome (see
+      // stageOptionalSnapshot), so keep git's "path does not exist" noise off
+      // the console instead of alarming the caller on every review run.
+      stdio: ["ignore", "pipe", "ignore"],
     });
   } catch {
     return undefined;
   }
+}
+
+/**
+ * Copies an optional published snapshot into the prepared site, preferring the
+ * freshest source available, and returns a human-readable description of where
+ * it came from. Writes nothing when the file exists nowhere, so the prepared
+ * site serves a 404 — which each surface already treats as a normal empty
+ * state rather than an error.
+ */
+function stageOptionalSnapshot(worktree: string, siteRoot: string, file: string): string {
+  const localPath = resolve(worktree, "site", file);
+  const candidates: readonly (readonly [string, Buffer | undefined])[] = [
+    [`origin/feed:${file}`, tryGitShow(worktree, "origin/feed", file)],
+    [`feed:${file}`, tryGitShow(worktree, "feed", file)],
+    [`site/${file}`, existsSync(localPath) ? readFileSync(localPath) : undefined],
+  ];
+  const selected = candidates.find(([, contents]) => contents !== undefined);
+  if (selected?.[1] === undefined) return `none (no ${file} published yet)`;
+  writeFileSync(resolve(siteRoot, file), selected[1]);
+  return selected[0];
 }
 
 function prepareStandaloneSite(worktree: string, runDirectory: string): Omit<PreparedReviewEnvironment, "chromePath" | "mcpPort" | "sitePort"> {
@@ -262,27 +287,18 @@ function prepareStandaloneSite(worktree: string, runDirectory: string): Omit<Pre
   cpSync(resolve(worktree, "src", "shared"), resolve(standaloneRoot, "src", "shared"), { recursive: true });
   writeFileSync(resolve(siteRoot, "feed.json"), feedContents);
 
-  // podcast.json is optional: it only exists once a weekly digest episode has
-  // been published. Resolve it the same way as feed.json, but treat "missing
-  // everywhere" as a legitimate empty state rather than a fatal error.
-  const podcastSnapshots: readonly (readonly [string, Buffer | undefined])[] = [
-    ["origin/feed:podcast.json", tryGitShow(worktree, "origin/feed", "podcast.json")],
-    ["feed:podcast.json", tryGitShow(worktree, "feed", "podcast.json")],
-    ["site/podcast.json", existsSync(resolve(worktree, "site", "podcast.json"))
-      ? readFileSync(resolve(worktree, "site", "podcast.json"))
-      : undefined],
-  ];
-  const selectedPodcast = podcastSnapshots.find(([, contents]) => contents !== undefined);
-  let podcastSource = "none (no podcast.json published yet)";
-  if (selectedPodcast?.[1] !== undefined) {
-    podcastSource = selectedPodcast[0];
-    writeFileSync(resolve(siteRoot, "podcast.json"), selectedPodcast[1]);
-  }
+  // podcast.json and tools.json are both optional: each only exists once its
+  // own publisher has run at least once. Resolve them the same way as
+  // feed.json, but treat "missing everywhere" as a legitimate empty state
+  // rather than a fatal error — the site renders an empty state for each.
+  const podcastSource = stageOptionalSnapshot(worktree, siteRoot, "podcast.json");
+  const toolsSource = stageOptionalSnapshot(worktree, siteRoot, "tools.json");
 
   return {
     feedGeneratedAt: parsed.generatedAt,
     feedSource,
     podcastSource,
+    toolsSource,
     siteRoot,
   };
 }
@@ -404,6 +420,7 @@ Prepared standalone review host:
 - Feed snapshot: ${environment.feedSource}
 - Feed generatedAt: ${environment.feedGeneratedAt}
 - Podcast snapshot: ${environment.podcastSource}
+- Tool Radar snapshot: ${environment.toolsSource}
 
 Fresh MCP development host:
 - Start from the worktree with: npx mcp-use dev --views-dir views --no-open --host 127.0.0.1 --port ${String(environment.mcpPort)}

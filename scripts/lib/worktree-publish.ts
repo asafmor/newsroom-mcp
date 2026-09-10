@@ -1,12 +1,14 @@
-// Publishes a computed `podcast.json` to the `feed` branch via a disposable
-// git worktree, mirroring publish-feed.sh's pattern (direct in-process
-// call, disposable worktree, never touching the caller's working tree) but
+// Publishes a computed JSON file to the `feed` branch via a disposable git
+// worktree, mirroring publish-feed.sh's pattern (direct in-process call,
+// disposable worktree, never touching the caller's working tree) but
 // adding the push-retry loop D.18/D.19/D.21 require: on a non-fast-forward
 // rejection, re-fetch and reset the worktree to the latest `origin/feed`
 // and re-run `compute` against it (so a concurrent writer's change is
 // re-merged, never clobbered) before retrying the push, up to 3 total
-// attempts. Shared by scripts/publish-podcast.ts (D.18) and
-// scripts/synthesize-podcast.ts (D.19) — same discipline, same code.
+// attempts. Generic over the filename so every writer to the `feed` branch
+// that needs this discipline — scripts/publish-podcast.ts (D.18),
+// scripts/synthesize-podcast.ts (D.19), and scripts/publish-tool-radar.ts
+// (tools.json) — shares one implementation instead of three copies.
 import { spawnSync } from "node:child_process";
 import { existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
@@ -19,29 +21,29 @@ function git(args: string[], cwd: string) {
 }
 
 /**
- * `compute(currentContent)` receives the current `podcast.json` text
- * (`undefined` if the file doesn't exist on `feed` yet — not an error) and
- * must return the full desired next content, or `undefined` if there's
- * nothing to publish. Called fresh on every retry attempt against whatever
- * `podcast.json` currently looks like on `origin/feed`.
+ * `compute(currentContent)` receives the target file's current text
+ * (`undefined` if it doesn't exist on `feed` yet — not an error) and must
+ * return the full desired next content, or `undefined` if there's nothing
+ * to publish. Called fresh on every retry attempt against whatever the file
+ * currently looks like on `origin/feed`.
  */
-export type ComputePodcastJson = (currentContent: string | undefined) => string | undefined;
+export type ComputeJsonFile = (currentContent: string | undefined) => string | undefined;
 
 /**
- * Runs after `podcast.json` is written but before it's committed — a place
- * to stage any other file the new content depends on (e.g. a newly
+ * Runs after the target file is written but before it's committed — a
+ * place to stage any other file the new content depends on (e.g. a newly
  * synthesized episode's mp3 under `audio/`) so it lands in the SAME
- * commit. Optional: scripts/publish-podcast.ts (Phase 1) has no audio to
- * place and passes none.
+ * commit. Optional: most callers have nothing else to place.
  */
 export type SyncWorktreeFiles = (worktreeDir: string, nextContent: string) => void;
 
-export function publishPodcastJson(
-  compute: ComputePodcastJson,
+export function publishJsonFile(
+  filename: string,
+  compute: ComputeJsonFile,
   repoDir: string = process.cwd(),
   syncFiles?: SyncWorktreeFiles,
 ): void {
-  const worktreeDir = mkdtempSync(path.join(tmpdir(), "podcast-publish-"));
+  const worktreeDir = mkdtempSync(path.join(tmpdir(), "feed-branch-publish-"));
   let worktreeCreated = false;
 
   try {
@@ -68,20 +70,20 @@ export function publishPodcastJson(
         }
       }
 
-      const podcastJsonPath = path.join(worktreeDir, "podcast.json");
-      const currentContent = existsSync(podcastJsonPath) ? readFileSync(podcastJsonPath, "utf8") : undefined;
+      const targetPath = path.join(worktreeDir, filename);
+      const currentContent = existsSync(targetPath) ? readFileSync(targetPath, "utf8") : undefined;
       const nextContent = compute(currentContent);
 
       if (nextContent === undefined) {
         return "success"; // nothing new to publish this attempt
       }
 
-      writeFileSync(podcastJsonPath, nextContent);
+      writeFileSync(targetPath, nextContent);
       syncFiles?.(worktreeDir, nextContent);
 
       // -A (not a fixed pathspec): also stages a newly copied audio/*.mp3
-      // and any pruned (deleted) one in the SAME commit as podcast.json —
-      // podcast.json must never be pushed pointing at an mp3 that hasn't
+      // and any pruned (deleted) one in the SAME commit as the target file
+      // — podcast.json must never be pushed pointing at an mp3 that hasn't
       // landed in the same commit. Nothing else in the worktree changes.
       const add = git(["add", "-A"], worktreeDir);
       if (add.status !== 0) {
@@ -93,7 +95,7 @@ export function publishPodcastJson(
         return "success"; // computed content is unchanged — no empty commit
       }
 
-      const commit = git(["commit", "-m", "Update podcast.json"], worktreeDir);
+      const commit = git(["commit", "-m", `Update ${filename}`], worktreeDir);
       if (commit.status !== 0) {
         throw new Error(`git commit failed: ${commit.stderr}`);
       }
@@ -116,10 +118,19 @@ export function publishPodcastJson(
     }, 3);
 
     if (!result.succeeded) {
-      throw new Error(`Failed to push podcast.json after ${String(result.attempts)} attempts (non-fast-forward each time)`);
+      throw new Error(`Failed to push ${filename} after ${String(result.attempts)} attempts (non-fast-forward each time)`);
     }
   } finally {
     git(["worktree", "remove", "--force", worktreeDir], repoDir);
     rmSync(worktreeDir, { recursive: true, force: true });
   }
+}
+
+/** Thin, filename-fixed wrapper kept for the two existing podcast publishers. */
+export function publishPodcastJson(
+  compute: ComputeJsonFile,
+  repoDir: string = process.cwd(),
+  syncFiles?: SyncWorktreeFiles,
+): void {
+  publishJsonFile("podcast.json", compute, repoDir, syncFiles);
 }
