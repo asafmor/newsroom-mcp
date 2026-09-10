@@ -11,7 +11,7 @@ on:
     # synthesis cron, so the two scheduled `feed`-branch writers don't
     # habitually collide (scripts/lib/worktree-publish.ts's push-retry
     # handles a collision either way).
-    - cron: "0 8 * * 1"
+    - cron: "0 8 * * *"
   workflow_dispatch: {}
 
 permissions:
