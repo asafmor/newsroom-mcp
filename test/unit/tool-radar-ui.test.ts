@@ -264,7 +264,7 @@ describe("Tool Radar Models/Spaces descriptions and category explanation (P2 UI-
   it("keeps the section header to the one-line subtitle, with no verbose kind explainer", () => {
     const formattersTs = readFileSync(new URL("../../views/_shared/tools/formatters.ts", import.meta.url), "utf8");
     expect(toolRadarAppTsx).toContain(
-      '<p className="tools-subtitle">Trending AI tools, models, and Spaces — refreshed weekly.</p>',
+      '<p className="tools-subtitle">Trending AI tools, models, and Spaces.</p>',
     );
     expect(formattersTs).not.toContain("KIND_EXPLAINER");
     expect(toolRadarAppTsx).not.toContain("KIND_EXPLAINER");

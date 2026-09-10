@@ -187,17 +187,22 @@
    color-blind readers. Deliberately no font-weight/size change: those alter
    text metrics, so every advance would rewrap the incoming paragraph and
    shift the rest of the transcript under the reader mid-narration. */
-.podcast-transcript-line--active {
+p.podcast-transcript-line--active {
   background: var(--accent-soft);
   color: var(--fg);
+  margin-left: -6px;
+  margin-right: -6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
 .podcast-transcript-line--active::before {
   content: "";
   position: absolute;
-  left: calc(-1 * var(--space-2));
+  left: -2px;
   top: 0;
   bottom: 0;
-  width: 3px;
+  width: 2px;
   background: var(--accent);
 }
 

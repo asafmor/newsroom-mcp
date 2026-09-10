@@ -114,7 +114,7 @@ function ToolsShell({
       <div className="tools-shell">
         <header className="tools-header">
           <h2 className="tools-title">Tool Radar</h2>
-          <p className="tools-subtitle">Trending AI tools, models, and Spaces — refreshed weekly.</p>
+          <p className="tools-subtitle">Trending AI tools, models, and Spaces.</p>
           {toolsFreshnessInfo !== undefined && (
             <p className="tools-updated-meta">
               Updated {toolsFreshnessInfo.label}

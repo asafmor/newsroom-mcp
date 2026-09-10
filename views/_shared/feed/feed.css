@@ -297,10 +297,7 @@ html, body { margin: 0; background: var(--bg); }
 .entry-bar-row {
   display: flex;
   position: sticky; top: 0; z-index: 25;
-  /* 8px after the header. 4px here + .story-feed's own 8px top padding
-     (unchanged, also the pre-existing gap when this bar doesn't render at
-     all) adds up to the spec's 12px before the first card. */
-  margin: var(--space-2) 0 4px;
+  margin: 0 0 4px;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
 }
@@ -382,7 +379,7 @@ html, body { margin: 0; background: var(--bg); }
 .sort-tab:hover:not([aria-pressed="true"]) { color: var(--fg-2); }
 
 /* ─── feed list ────────────────────────────────────────────────────────── */
-.story-feed { padding: var(--space-2) var(--space-2) 24px; display: flex; flex-direction: column; gap: var(--space-2); }
+.story-feed { padding: var(--space-2) var(--space-2) 8px; display: flex; flex-direction: column; gap: var(--space-2); }
 
 /* Wrapper for the touch-only swipe-to-mark-read reveal layer (StoryCard.tsx,
    useSwipeToRead.ts) — now the .story-feed flex/grid item in place of
