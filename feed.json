@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T10:11:12.607Z",
+  "generatedAt": "2026-09-10T12:12:13.219Z",
   "stories": [
     {
       "id": "e8ede3cd-8039-49f3-8250-8b909e0cc374",
@@ -109,6 +109,27 @@
       ]
     },
     {
+      "id": "db55b60e-9444-4588-a505-2788c10f524a",
+      "title": "Apple previews a revamped Siri AI for iOS 27",
+      "summary": "Wired reports that iOS 27 will include a fully revamped Siri assistant, extending Apple's consumer AI push.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-10T12:12:05.968Z",
+      "lastMeaningfulUpdateAt": "2026-09-10T12:12:05.968Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Everything New You Can Do With Siri AI",
+          "url": "https://www.wired.com/story/everything-new-you-can-do-with-siri-ai/",
+          "publishedAt": "2026-09-10T10:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "969b3d48-ca1e-4ea0-9807-f01177051ffb",
       "title": "Microsoft agrees not to train AI on school data under teachers-union deal",
       "summary": "Microsoft has agreed with the National Education Association not to use school data to train AI, an education-sector privacy commitment made amid limited federal AI protections.",
@@ -171,6 +192,27 @@
       "tags": [
         "product-launch",
         "safety"
+      ]
+    },
+    {
+      "id": "dec006bd-c934-413a-a85d-a31d7098c8d3",
+      "title": "AI data-center grid reliability becomes an architecture challenge",
+      "summary": "MIT Technology Review highlights how grid faults in Virginia's data-center corridor have abruptly removed gigawatts of load, underscoring the infrastructure and power-architecture challenges of AI expansion.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-10T12:12:05.977Z",
+      "lastMeaningfulUpdateAt": "2026-09-10T12:12:05.977Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "Powering AI is an architecture problem",
+          "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+          "publishedAt": "2026-09-10T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -571,6 +613,28 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "1748c651-84e9-41f4-b8fd-731044c70b0c",
+      "title": "Hugging Face rebuilds AUTOMATIC1111 with Gradio Workflow",
+      "summary": "Hugging Face published a Gradio Workflow rebuild of AUTOMATIC1111, bringing the popular Stable Diffusion interface into its workflow tooling.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-10T12:12:05.959Z",
+      "lastMeaningfulUpdateAt": "2026-09-10T12:12:05.959Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+          "url": "https://huggingface.co/blog/gradio-workflow-1111",
+          "publishedAt": "2026-09-10T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "open-source"
       ]
     },
     {
@@ -1273,70 +1337,6 @@
       ],
       "tags": [
         "infrastructure"
-      ]
-    },
-    {
-      "id": "774b36a1-b1f8-45f8-9fdc-738c8d538e15",
-      "title": "OpenAI's $230 Codex Micro keypad draws skeptical early review",
-      "summary": "CNET's hands-on review says OpenAI's $230 Codex Micro keypad sold out within 12 hours but questions whether the dedicated AI-coding hardware offers a convincing vision of the future.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-08T19:23:47.933Z",
-      "lastMeaningfulUpdateAt": "2026-09-08T19:23:47.933Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Coding With OpenAI’s Codex Micro Keypad: The Vibes Are Bad",
-          "url": "https://www.cnet.com/tech/services-and-software/openai-ai-codex-micro-keypad-hands-on-review/",
-          "publishedAt": "2026-09-08T14:37:25.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "7e0c6af0-245f-43e0-802b-68ec17d6a01f",
-      "title": "Alibaba's XuanTie C950 reportedly runs a 27B-parameter Qwen model without a GPU",
-      "summary": "A report says Alibaba's RISC-V XuanTie C950 CPU can run the 27-billion-parameter Qwen 3.8 model without a GPU, generating about 30 tokens per second. If confirmed, the result would be a notable efficiency and deployment claim for AI inference hardware.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-07T11:01:10.965Z",
-      "lastMeaningfulUpdateAt": "2026-09-07T11:01:10.965Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "RISC-V XuanTie C950 CPU Reportedly Runs Qwen 3.8 Without a GPU",
-          "url": "https://www.geeky-gadgets.com/alibaba-xuantie-c950-gpu-free-ai/",
-          "publishedAt": "2026-09-07T09:43:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "e6d2dcf8-f5f8-465b-830f-7ba428be4a0c",
-      "title": "Hugging Face post argues for more precise safety refusals",
-      "summary": "A Hugging Face post argues that model safeguards should refuse the harmful subset of a request rather than reject an entire topic, framing selective refusal as a more useful approach to AI safety.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-08T15:20:00.285Z",
-      "lastMeaningfulUpdateAt": "2026-09-08T15:20:00.285Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-          "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-          "publishedAt": "2026-09-08T14:23:07.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "opinion"
       ]
     }
   ],
