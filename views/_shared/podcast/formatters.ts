@@ -1,7 +1,7 @@
 // Reuses the feed's own staleness window instead of duplicating the number
 // here — see the comment on MAX_STORY_AGE_DAYS.
 import { MAX_STORY_AGE_DAYS } from "../../../src/shared/story-age.js";
-import type { PodcastAudioStatus, PodcastEpisode } from "./types.js";
+import type { PodcastEpisode } from "./types.js";
 
 const DATE_OPTS: Intl.DateTimeFormatOptions = { month: "short", day: "numeric", timeZone: "UTC" };
 const DATE_WITH_YEAR_OPTS: Intl.DateTimeFormatOptions = { ...DATE_OPTS, year: "numeric" };
@@ -70,41 +70,56 @@ export function activeSegmentIndex(
   return active;
 }
 
-/**
- * Compact status label for the header entry point. `status` is typed as the
- * closed union, but this still degrades safely (falls through to the
- * default) for an unrecognized/future-shaped value at runtime — the same
- * edge case PodcastApp.tsx's AudioSection already handles, since
- * `podcast.json` is fetched, unvalidated JSON, not something the type
- * system actually enforces at runtime.
- */
-export function podcastStatusLabel(status: PodcastAudioStatus): string {
-  switch (status) {
-    case "ready":
-      return "Ready to play";
-    case "pending":
-      return "Audio in progress";
-    case "failed":
-      return "Transcript available";
-    default:
-      return "Transcript available";
-  }
+/** Same short month/day format as formatCoveredDateRange's own start-date half, applied to publishedAt itself. */
+function formatShortDate(publishedAt: string): string {
+  const d = new Date(publishedAt);
+  return Number.isNaN(d.getTime()) ? publishedAt : d.toLocaleDateString("en-US", DATE_OPTS);
 }
 
 export interface DigestEntrySummary {
-  readonly label: string;
-  readonly statusLabel: string;
+  /** e.g. "Sep 9 · Ready" — fits the entry bar's two-cell-wide budget (P1-b UI-review finding). */
+  readonly compactSupporting: string;
+  /** e.g. "Sep 2 – Sep 9, 2026 · Ready" — used when the podcast link is the row's only entry. */
+  readonly fullSupporting: string;
+  readonly accentSupporting: boolean;
+  readonly ariaLabel: string;
 }
 
 /**
- * Compact summary of the most recent episode for the site header's "Weekly
- * digest" entry point (see FeedHeader.tsx's `digestEntry` prop) — episodes
- * are already newest-first per podcast.json's contract, so the first entry
- * is the latest. `undefined` when there's no episode yet, so the caller
- * renders nothing rather than a misleading link.
+ * Entry-bar copy for the most recent episode (episodes are already
+ * newest-first per podcast.json's contract). `undefined` when there's no
+ * episode yet, so the caller renders nothing rather than a misleading link.
+ * `status` is typed as the closed union, but the `failed`/default branch
+ * still degrades safely for an unrecognized/future-shaped value at runtime —
+ * the same edge case PodcastApp.tsx's AudioSection already handles, since
+ * `podcast.json` is fetched, unvalidated JSON, not something the type system
+ * actually enforces at runtime.
  */
 export function latestDigestEntry(episodes: readonly PodcastEpisode[]): DigestEntrySummary | undefined {
   if (episodes.length === 0) return undefined;
   const latest = episodes[0];
-  return { label: formatCoveredDateRange(latest.publishedAt), statusLabel: podcastStatusLabel(latest.audioStatus) };
+  switch (latest.audioStatus) {
+    case "ready":
+      return {
+        compactSupporting: `${formatShortDate(latest.publishedAt)} · Ready`,
+        fullSupporting: `${formatCoveredDateRange(latest.publishedAt)} · Ready`,
+        accentSupporting: true,
+        ariaLabel: `Weekly podcast, ${formatCoveredDateRange(latest.publishedAt)}, ready to play`,
+      };
+    case "pending":
+      return {
+        compactSupporting: "Preparing audio",
+        fullSupporting: "Preparing audio",
+        accentSupporting: false,
+        ariaLabel: "Weekly podcast, preparing audio",
+      };
+    case "failed":
+    default:
+      return {
+        compactSupporting: "Read transcript",
+        fullSupporting: "Read transcript",
+        accentSupporting: false,
+        ariaLabel: "Weekly podcast, read the transcript",
+      };
+  }
 }

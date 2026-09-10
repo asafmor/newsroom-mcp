@@ -272,20 +272,31 @@ describe("actionLabel (P2 UI-review finding: kind-appropriate action labels)", (
   });
 });
 
-describe("toolsDigestEntry", () => {
-  it("returns a summary when there are entries and not every source failed, singularizing a lone tool (nit: was '1 tools')", () => {
-    expect(toolsDigestEntry([entry()], okSources)).toEqual({ label: "Trending this week", statusLabel: "1 tool" });
+describe("toolsDigestEntry (P1-b UI-review finding: leads with freshness, not a raw tool count)", () => {
+  // ~65 minutes ago rounds to exactly "1h"/"1 hour" in both timeAgo and
+  // timeAgoLong, regardless of the exact moment the test runs.
+  const generatedAt = new Date(Date.now() - 65 * 60_000).toISOString();
+
+  it("leads with freshness derived from generatedAt, not the entry count, and carries no accent", () => {
+    expect(toolsDigestEntry([entry()], okSources, generatedAt)).toEqual({
+      compactSupporting: "AI tools · 1h ago",
+      fullSupporting: "Trending AI tools · updated 1 hour ago",
+      accentSupporting: false,
+      ariaLabel: "Tool Radar, trending AI tools, updated 1 hour ago",
+    });
   });
 
-  it("pluralizes for more than one tool", () => {
-    expect(toolsDigestEntry([entry(), entry({ id: "github:acme/other" })], okSources)).toEqual({
-      label: "Trending this week",
-      statusLabel: "2 tools",
+  it("gives the same freshness-led summary regardless of how many entries there are", () => {
+    expect(toolsDigestEntry([entry(), entry({ id: "github:acme/other" })], okSources, generatedAt)).toEqual({
+      compactSupporting: "AI tools · 1h ago",
+      fullSupporting: "Trending AI tools · updated 1 hour ago",
+      accentSupporting: false,
+      ariaLabel: "Tool Radar, trending AI tools, updated 1 hour ago",
     });
   });
 
   it("returns undefined when there are no entries", () => {
-    expect(toolsDigestEntry([], okSources)).toBeUndefined();
+    expect(toolsDigestEntry([], okSources, generatedAt)).toBeUndefined();
   });
 
   it("returns undefined when every source errored, even if stale entries somehow remained", () => {
@@ -294,6 +305,6 @@ describe("toolsDigestEntry", () => {
       huggingfaceModels: { status: "error", count: 0, error: "m" },
       huggingfaceSpaces: { status: "error", count: 0, error: "s" },
     };
-    expect(toolsDigestEntry([entry()], allErrored)).toBeUndefined();
+    expect(toolsDigestEntry([entry()], allErrored, generatedAt)).toBeUndefined();
   });
 });

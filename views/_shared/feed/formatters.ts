@@ -84,6 +84,21 @@ export function timeAgo(iso: string): string {
   if (hr < 24) return `${String(hr)}h ago`;
   return `${String(Math.round(hr / 24))}d ago`;
 }
+/**
+ * Same thresholds as timeAgo, spelled out in full words ("1 hour ago" rather
+ * than "1h ago") — for an accessible name, not a visible label, where the
+ * letter-abbreviated form isn't an acceptable stand-in (P1-b UI-review
+ * finding on the entry bar's Tool Radar link).
+ */
+export function timeAgoLong(iso: string): string {
+  const min = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+  if (min < 1) return "just now";
+  if (min < 60) return `${String(min)} minute${min === 1 ? "" : "s"} ago`;
+  const hr = Math.round(min / 60);
+  if (hr < 24) return `${String(hr)} hour${hr === 1 ? "" : "s"} ago`;
+  const day = Math.round(hr / 24);
+  return `${String(day)} day${day === 1 ? "" : "s"} ago`;
+}
 export function shortTime(iso: string): string {
   return new Date(iso).toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" });
 }

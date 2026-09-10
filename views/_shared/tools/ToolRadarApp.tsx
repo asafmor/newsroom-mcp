@@ -5,7 +5,6 @@ import { EmptyState } from "../feed/EmptyState.js";
 import { SkeletonCard } from "../feed/SkeletonCard.js";
 import {
   BOOKMARKS_STORAGE_KEY,
-  KIND_EXPLAINER,
   actionLabel,
   addBookmark,
   allSourcesErrored,
@@ -116,8 +115,6 @@ function ToolsShell({
         <header className="tools-header">
           <h2 className="tools-title">Tool Radar</h2>
           <p className="tools-subtitle">Trending AI tools, models, and Spaces — refreshed weekly.</p>
-          {/* P2 UI-review finding: explain what distinguishes the three kinds, once, here — not repeated per card. */}
-          <p className="tools-kind-explainer">{KIND_EXPLAINER}</p>
           {toolsFreshnessInfo !== undefined && (
             <p className="tools-updated-meta">
               Updated {toolsFreshnessInfo.label}
@@ -442,8 +439,8 @@ function ToolCard({
       </div>
 
       {/* Models never carry a description (the HF models API has no such
-          field) — explained once in KIND_EXPLAINER above rather than
-          repeated per card (P2 UI-review finding: 18 identical "No
+          field) — such a card simply renders nothing here rather than
+          repeating a placeholder (P2 UI-review finding: 18 identical "No
           description available" lines on one run added noise without
           helping anyone choose). */}
       {entry.description !== undefined && <p className="tool-card-description">{entry.description}</p>}

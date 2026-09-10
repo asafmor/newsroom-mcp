@@ -11,7 +11,10 @@ describe("podcast digest entry point (P1 UI-review finding)", () => {
     const tsx = readFileSync(new URL("../../views/_shared/feed/FeedApp.tsx", import.meta.url), "utf8");
 
     expect(tsx).toContain("digestEntry");
-    expect(tsx).toMatch(/<a href=\{digestEntry\.href\} className="digest-bar">/);
+    // aria-label carries the full-sentence accessible name (P1-b UI-review
+    // finding) — the visible compact/full text below it is deliberately
+    // abbreviated, so it can't double as the accessible name on its own.
+    expect(tsx).toMatch(/<a href=\{digestEntry\.href\} className="digest-bar" aria-label=\{digestEntry\.ariaLabel\}>/);
   });
 
   it("scrolls/links to the podcast section's own id", () => {
@@ -30,13 +33,16 @@ describe("podcast digest entry point (P1 UI-review finding)", () => {
   });
 });
 
-describe("podcast digest entry point stays visible while scrolling (P2 UI-review follow-up)", () => {
-  // Regression guard for the root cause the reviewer measured: .feed-header
-  // and .app-shell both establish their own (non-scrolling) scroll
-  // containers via overflow: hidden/auto on the standalone site, which traps
-  // `position: sticky` and stops it from ever engaging — see the comment on
-  // .feed-header in feed.css. The digest bar must render as a sibling of
-  // .app-shell, not nested inside it, and stick on its own.
+describe("podcast digest entry point stays visible while scrolling (round-2 UI-review follow-up)", () => {
+  // Round-2 finding: rendering the bar as a sibling BEFORE .app-shell (so it
+  // sat above the whole Newsroom header) made it read as global navigation
+  // while its own content read as an afterthought. It now renders AFTER the
+  // complete feed header and BEFORE the story list, inside .app-shell/
+  // .scroll-area — and still sticks, because those two ancestors switched
+  // from `overflow: hidden`/`auto` (which trap `position: sticky`) to
+  // `overflow: clip` on the standalone site (see feed.css). .feed-header's
+  // own pre-existing `position: sticky` is explicitly neutralized back to
+  // `static` there, so only the entry bar sticks, not the whole header.
   const feedAppTsx = readFileSync(new URL("../../views/_shared/feed/FeedApp.tsx", import.meta.url), "utf8");
   const feedHeaderTsx = readFileSync(new URL("../../views/_shared/feed/FeedHeader.tsx", import.meta.url), "utf8");
   const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
@@ -46,16 +52,44 @@ describe("podcast digest entry point stays visible while scrolling (P2 UI-review
     expect(feedHeaderTsx).not.toContain("digest-bar");
   });
 
-  it("renders the digest bar before (a sibling of, not nested inside) .app-shell", () => {
+  it("renders the entry bar inside .app-shell/.scroll-area, after <FeedHeader> and before the story list", () => {
     // Scoped to the `Feed` function body — an earlier, unrelated
     // .app-shell also appears in FeedApp's own pending/skeleton branch.
     const feedFnBody = feedAppTsx.slice(feedAppTsx.indexOf("function Feed("));
-    const digestIndex = feedFnBody.indexOf('className="digest-bar"');
     const appShellIndex = feedFnBody.indexOf('className="app-shell"');
+    const headerIndex = feedFnBody.indexOf("<FeedHeader");
+    const rowIndex = feedFnBody.indexOf('className="entry-bar-row"');
+    const storyFeedIndex = feedFnBody.indexOf('className="story-feed"');
 
-    expect(digestIndex).toBeGreaterThan(-1);
     expect(appShellIndex).toBeGreaterThan(-1);
-    expect(digestIndex).toBeLessThan(appShellIndex);
+    expect(headerIndex).toBeGreaterThan(appShellIndex);
+    expect(rowIndex).toBeGreaterThan(headerIndex);
+    expect(storyFeedIndex).toBeGreaterThan(rowIndex);
+  });
+
+  it("scopes .app-shell/.scroll-area overflow to `clip` on the site so sticky isn't trapped, while the MCP View keeps hidden/auto scrolling unchanged", () => {
+    const mcpShellRule = /\.newsroomFeed--mcp \.app-shell\s*\{[^}]*\}/.exec(css)?.[0];
+    const siteShellRule = /\.newsroomFeed:not\(\.newsroomFeed--mcp\) \.app-shell\s*\{[^}]*\}/.exec(css)?.[0];
+    const mcpScrollRule = /\.newsroomFeed--mcp \.scroll-area\s*\{[^}]*\}/.exec(css)?.[0];
+    const siteScrollRule = /\.newsroomFeed:not\(\.newsroomFeed--mcp\) \.scroll-area\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(mcpShellRule).toContain("overflow: hidden");
+    expect(siteShellRule).toContain("overflow: clip");
+    expect(siteShellRule).not.toContain("overflow: hidden");
+    expect(mcpScrollRule).toContain("overflow-x: hidden");
+    expect(mcpScrollRule).toContain("overflow-y: auto");
+    expect(siteScrollRule).toContain("overflow-x: clip");
+  });
+
+  it("neutralizes .feed-header's sticky back to static on the site, so only the entry bar sticks there", () => {
+    const baseHeaderRule = /^\.feed-header\s*\{[^}]*\}/m.exec(css)?.[0];
+    const siteHeaderStaticRule = /\.newsroomFeed:not\(\.newsroomFeed--mcp\) \.feed-header\s*\{\s*position: static;\s*\}/.exec(
+      css,
+    )?.[0];
+
+    // The base rule (MCP View) keeps its sticky behavior unchanged.
+    expect(baseHeaderRule).toContain("position: sticky");
+    expect(siteHeaderStaticRule).toBeDefined();
   });
 
   // Sticky lives on .entry-bar-row, the wrapper, not on .digest-bar. A sticky
@@ -178,5 +212,16 @@ describe("podcast loading skeleton under reduced motion (P2 UI-review finding)",
     // The shared global rule (feed.css) is left untouched — only shortened
     // via `!important`, never fully disabled there.
     expect(feedCss).toMatch(/\.newsroomFeed \* \{ animation-duration: 0\.01ms !important;/);
+  });
+});
+
+describe("podcast player copy", () => {
+  it("carries no AI-narration disclosure paragraph next to the player", () => {
+    const tsx = readFileSync(new URL("../../views/_shared/podcast/PodcastApp.tsx", import.meta.url), "utf8");
+    const css = readFileSync(new URL("../../views/_shared/podcast/podcast.css", import.meta.url), "utf8");
+
+    expect(tsx).not.toContain("AI_VOICE_DISCLOSURE");
+    expect(tsx).not.toContain("podcast-disclosure");
+    expect(css).not.toContain("podcast-disclosure");
   });
 });

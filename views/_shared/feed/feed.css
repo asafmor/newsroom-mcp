@@ -129,20 +129,44 @@ html, body { margin: 0; background: var(--bg); }
   max-width: 448px;
   margin-inline: auto;
   background: var(--bg);
+}
+/* MCP View only: .scroll-area below is the actual scrolling element there
+   (max-height + overflow-y: auto), so `hidden` is what clips its own
+   horizontal overflow and any position:fixed descendant that would
+   otherwise escape the sandboxed host panel (see the comment on
+   .source-sheet's sibling placement in FeedApp.tsx). */
+.newsroomFeed--mcp .app-shell {
   overflow: hidden;
 }
-/* Standalone site: use the full viewport below the desktop breakpoint too —
-   448px was only ever meant as the MCP card's fixed width. */
+/* Standalone site: `clip`, not `hidden` — it clips horizontal overflow
+   identically, but (unlike `hidden`/`auto`) never establishes a scroll
+   container on its own, so it no longer traps a `position: sticky`
+   descendant (the entry-point bar and, if it ever needs it again,
+   .feed-header) against the real page scroll. Also restores the full
+   viewport below the desktop breakpoint — 448px was only ever meant as the
+   MCP card's fixed width. */
 .newsroomFeed:not(.newsroomFeed--mcp) .app-shell {
   max-width: 100%;
+  overflow: clip;
 }
-.scroll-area {
-  overflow-x: hidden;
-}
+/* MCP View only: the actual scrolling element (max-height + overflow-y:
+   auto below) needs `hidden` on the cross axis to match. */
 .newsroomFeed--mcp .scroll-area {
+  overflow-x: hidden;
   max-height: 844px;
   overflow-y: auto;
   overscroll-behavior-y: contain;
+}
+/* Standalone site: the document itself scrolls, not this element — `clip`
+   (not `hidden`) clips the same horizontal overflow without establishing a
+   scroll container, for the same reason as .app-shell above. overflow-y is
+   left at its default `visible` deliberately: pairing it with `hidden` (or
+   any value other than visible/clip) on the other axis computes it to
+   `auto`, right back to the scroll-container trap this is meant to avoid —
+   `clip` is exempt from that rule, which is the whole reason for choosing
+   it here. */
+.newsroomFeed:not(.newsroomFeed--mcp) .scroll-area {
+  overflow-x: clip;
 }
 .newsroomFeed--mcp {
   /* Containing block for the absolute sheet/overlay below — they're now
@@ -155,13 +179,16 @@ html, body { margin: 0; background: var(--bg); }
 }
 
 /* ─── header ───────────────────────────────────────────────────────────── */
-/* `sticky` only actually sticks in the MCP View, where .scroll-area (not
-   the document) is the scrolling element. On the standalone site the
-   document itself scrolls, so this header scrolls away with it — known,
-   deferred; a real fix needs a compact scrolled-state design, not just
-   restructuring the scroll container. (The "Weekly digest" entry point that
-   used to live inside this header no longer does, precisely to sidestep
-   this — see .digest-bar below.) */
+/* `sticky` here is for the MCP View only, where .scroll-area (not the
+   document) is the scrolling element. On the standalone site .app-shell/
+   .scroll-area no longer trap sticky (see their `overflow: clip` above), so
+   this WOULD start actually engaging there for the first time too — pinning
+   the full header (brand, search, provider/tag selects, sort) for the whole
+   scroll, which would eat the mobile viewport and was never the intent (a
+   real "stick the header" fix needs its own compact scrolled-state design,
+   not just an incidental side effect of unblocking the entry-point bar
+   below). Deliberately neutralized back to `static` for the site variant
+   just below, so only the entry-point bar sticks there. */
 .feed-header {
   /* Shared with .brand-logo's pull-back margin below, and overridden at the
      desktop breakpoint, so the two always stay in sync. */
@@ -172,6 +199,9 @@ html, body { margin: 0; background: var(--bg); }
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
   padding: var(--space-4) var(--header-pad-x) var(--space-2);
+}
+.newsroomFeed:not(.newsroomFeed--mcp) .feed-header {
+  position: static;
 }
 /* Title + subtitle stack on the left (.brand), sort toggle on the right —
    both sides of one row, so the toggle sits centered against the pair. */
@@ -251,75 +281,77 @@ html, body { margin: 0; background: var(--bg); }
   background-size: 14px;
 }
 
-/* Persistent "Weekly digest" entry point — see the comment on FeedApp.tsx's
-   .digest-bar markup for why it lives outside .feed-header/.app-shell.
-   `position: sticky` here genuinely sticks (unlike .feed-header's), since
-   none of <main>'s ancestors up to <html> set overflow other than visible.
-   Kept as a slim, muted strip — reachable from the initial viewport (P1
-   UI-review finding) without competing visually with the story feed below
-   it, and small enough not to dominate the mobile viewport while stuck. */
-/* Wraps .digest-bar with a second, analogous entry point (Tool Radar) as a
-   "small pair". The row — not the individual bars — carries the sticky
-   positioning: a sticky element can only travel inside its own containing
-   block, and this row is exactly as tall as the bars it holds, so leaving
-   sticky on the children gave them zero room and scrolled both shortcuts
-   away with the feed (P2 UI-review finding; it silently regressed the
-   pre-existing podcast shortcut too, which used to stick on its own). */
-.entry-bar-row { display: flex; position: sticky; top: 0; z-index: 25; }
+/* Persistent entry-point bar — two equal link cells ("Weekly podcast" /
+   "Tool Radar") on one shared, opaque surface, sitting right after
+   .feed-header and before the first story card (round-2 UI-review finding:
+   it used to sit above the header — implying global navigation while its
+   own under-weighted content read as an afterthought). `position: sticky`
+   here genuinely sticks on the standalone site (unlike .feed-header's,
+   deliberately neutralized above): none of its ancestors up to <html>
+   establish a scroll container (see .app-shell/.scroll-area's `overflow:
+   clip` above) or set overflow other than visible/clip. The row — not the
+   individual cells — carries the sticky positioning: a sticky element can
+   only travel inside its own containing block, and this row is exactly as
+   tall as the cells it holds, so leaving sticky on the children would give
+   them zero room and scroll both shortcuts away with the feed. */
+.entry-bar-row {
+  display: flex;
+  position: sticky; top: 0; z-index: 25;
+  /* 8px after the header. 4px here + .story-feed's own 8px top padding
+     (unchanged, also the pre-existing gap when this bar doesn't render at
+     all) adds up to the spec's 12px before the first card. */
+  margin: var(--space-2) 0 4px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
 .entry-bar-row .digest-bar { flex: 1 1 0; min-width: 0; }
-.entry-bar-row .digest-bar + .digest-bar { border-left: 1px solid var(--border); }
+/* Muted 1px divider between the two cells, inset vertically by 10px rather
+   than spanning the full cell height — a plain `border-left` can't inset
+   itself, hence the positioned pseudo-element. */
+.entry-bar-row .digest-bar + .digest-bar { position: relative; }
+.entry-bar-row .digest-bar + .digest-bar::before {
+  content: ""; position: absolute; left: 0; top: 10px; bottom: 10px; width: 1px;
+  background: var(--border-soft);
+}
 
 .digest-bar {
-  display: flex; align-items: center; gap: var(--space-2);
-  padding: 8px var(--space-3);
-  background: color-mix(in oklab, var(--bg), transparent 6%);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid var(--border);
-  font-size: 12px; color: var(--fg-2);
+  display: flex; align-items: flex-start; gap: 6px;
+  padding: 10px var(--space-3);
   transition: background var(--motion-fast) var(--ease-standard);
 }
 .digest-bar:hover { background: var(--border-soft); }
-.digest-bar-icon { flex-shrink: 0; font-size: 13px; }
-/* The destination name (.digest-bar-name) must survive truncation at any
-   width — it's what tells the reader where the link goes. Only the
-   secondary "· {label}" metadata (.digest-bar-meta) shrinks/truncates
-   first, and can go all the way to zero width before the name ever gives
-   up space (P2 UI-review finding: with both in one nowrap/ellipsis span,
-   two side-by-side entry points at 390px truncated "Weekly digest" itself
-   down to "Weekly…" while the status chip on the right stayed untouched). */
-.digest-bar-text { flex: 1 1 auto; min-width: 0; display: flex; align-items: baseline; overflow: hidden; }
-.digest-bar-name { flex-shrink: 0; white-space: nowrap; }
-.digest-bar-meta {
-  flex: 1 1 auto; min-width: 0; margin-left: 4px;
+/* Inline SVG glyphs (never emoji) — a fixed 16px box (font-size does
+   nothing for an svg with its own viewBox), nudged down 1px so its visual
+   center lines up with the NAME line's box, not the vertical center of the
+   whole two-line cell (P3 UI-review finding). No colored container. */
+.digest-bar-icon { flex-shrink: 0; width: 16px; height: 16px; margin-top: 1px; }
+.digest-bar-icon svg { width: 16px; height: 16px; }
+.digest-bar-text { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; }
+.digest-bar-name {
+  font-size: 13px; line-height: 18px; font-weight: 600; color: var(--fg);
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
-/* A status chip, not a second link — the whole bar is the one click target. */
-.digest-bar-status {
-  flex-shrink: 0; white-space: nowrap;
-  padding: 3px var(--space-2);
-  font-weight: 700; color: var(--accent);
-  background: var(--accent-soft);
-  border-radius: var(--radius-pill);
+/* Plain text, not a trailing pill (P1-b UI-review finding: a pill status
+   chip crowded out this line entirely below 640px, and read as equally
+   weighted whether the underlying fact was "ready" or just "60 tools"). Two
+   variants of the same fact live here (see FeedApp.tsx) — only one is ever
+   visible, switched by whether this cell has a sibling. */
+.digest-bar-supporting {
+  margin-top: 2px; font-size: 12px; line-height: 16px; color: var(--muted);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
-/* Below 640px the row's two entry points get ~195px each, and the
-   never-shrinking status chip alone eats ~99px of that — squeezing
-   .digest-bar-text to ~51px, so "Weekly digest" (~75px) still clipped to
-   "Weekly di" even with .digest-bar-name pinned. Pinning the name is
-   useless while an ancestor is what's short, so the secondary metadata and
-   the status chip drop out entirely here and hand their width back to the
-   destination name (P2 UI-review finding). */
-@media (max-width: 639px) {
-  .entry-bar-row .digest-bar-meta,
-  .entry-bar-row .digest-bar-status { display: none; }
-  /* Only one entry point rendered (no podcast episode yet, or an unpublished
-     Tool Radar snapshot) means it owns the full row width and never had the
-     squeeze — keep its "why click" signal rather than dropping it for free.
-     Both are flex items, so `block` is what the default `inline` blockifies
-     to anyway — this restores, it doesn't restyle. */
-  .entry-bar-row .digest-bar:only-child .digest-bar-meta,
-  .entry-bar-row .digest-bar:only-child .digest-bar-status { display: block; }
-}
+/* A restrained accent, not a badge — reserved for "ready to listen", never a
+   per-reader "unseen" claim (no such state exists here). */
+.digest-bar-supporting--accent { color: var(--accent); }
+.digest-bar-supporting-full { display: none; }
+/* Only one entry point rendered (no podcast episode yet, or an unpublished
+   Tool Radar snapshot) means it owns the full row width — swap to the
+   fuller supporting text instead of leaving the extra width unused (P1-b
+   UI-review finding: the single podcast entry used to truncate its own
+   compact date at 320px; the fuller string now fits the wider cell instead
+   of fighting a fixed one). */
+.entry-bar-row .digest-bar:only-child .digest-bar-supporting-compact { display: none; }
+.entry-bar-row .digest-bar:only-child .digest-bar-supporting-full { display: block; }
 
 /* Header-right cluster: just the sort toggle, top-aligned against the brand.
    --control-h sizes the pill group's height. */
@@ -497,7 +529,12 @@ html, body { margin: 0; background: var(--bg); }
 .source-row { display: flex; align-items: center; gap: var(--space-2); padding-top: var(--space-1); border-top: 1px solid var(--border-soft); }
 .avatar-stack { display: flex; flex-shrink: 0; }
 .avatar {
-  width: 26px; height: 26px; border-radius: 50%; overflow: hidden;
+  /* flex-shrink: 0 belongs here, not on a wrapper: an avatar is a fixed-size
+     circle for every caller. .avatar-stack happens to be flex-shrink: 0 too,
+     but callers that drop an <Avatar> straight into a flex row (Tool Radar's
+     .tool-card-head) have no such wrapper and used to get squeezed as the
+     sibling heading wrapped to more lines. */
+  width: 26px; height: 26px; flex-shrink: 0; border-radius: 50%; overflow: hidden;
   background: var(--border-soft); color: var(--fg-2);
   border: 1px solid var(--surface);
   display: grid; place-items: center;

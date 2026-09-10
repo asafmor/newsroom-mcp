@@ -7,6 +7,14 @@
    swipe-to-read machinery, since Tool Radar entries open out to an external
    site rather than a reader sheet. */
 
+/* Same reason as podcast.css's .newsroomPodcast rule: without this the
+   section inherits .newsroomFeed's --surface-warm, which shows as a wide,
+   mismatched band above and below the floating card at desktop widths
+   instead of blending into the page's --bg. */
+.newsroomTools {
+  background: var(--bg);
+}
+
 .tools-shell {
   max-width: 960px;
   margin: var(--space-6) auto var(--space-8);
@@ -35,11 +43,6 @@
 }
 .tools-subtitle {
   margin-top: var(--space-1);
-  font-size: var(--text-sm);
-  color: var(--muted);
-}
-.tools-kind-explainer {
-  margin-top: var(--space-2);
   font-size: var(--text-sm);
   color: var(--muted);
 }

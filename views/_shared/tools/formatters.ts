@@ -1,7 +1,7 @@
 // Pure, framework-free helpers for the Tool Radar UI — mirrors
 // views/_shared/feed/formatters.ts's shape (small, independently-testable
 // functions the components call, nothing stateful here).
-import { freshness, timeAgo } from "../feed/formatters.js";
+import { freshness, timeAgo, timeAgoLong } from "../feed/formatters.js";
 import type { Freshness } from "../feed/formatters.js";
 import type { ToolEntry, ToolKind, ToolRadarSources } from "./types.js";
 
@@ -35,17 +35,6 @@ export function kindsPresent(entries: readonly ToolEntry[]): ToolKind[] {
 export function kindLabel(kind: ToolKind): string {
   return KIND_LABEL_PLURAL[kind];
 }
-
-/**
- * One sentence per kind, rendered once in the section header (P2 UI-review
- * finding: the three categories — repository/model/Space — went unexplained).
- * Also states, once, that the Hugging Face models API has no description
- * field (P2 UI-review finding: every model card used to repeat "No
- * description available" individually — 18 identical lines on one run —
- * instead of explaining it once here).
- */
-export const KIND_EXPLAINER =
-  "Repositories are open-source GitHub projects. Models are pretrained Hugging Face checkpoints you can download — Hugging Face doesn't provide descriptions for models, so none are shown below. Spaces are hosted demos you can try right in the browser.";
 
 const ACTION_LABEL: Record<ToolKind, string> = {
   repository: "View repository",
@@ -94,8 +83,12 @@ export function formatCompactCount(count: number, noun: string): string {
 }
 
 export interface ToolsEntrySummary {
-  readonly label: string;
-  readonly statusLabel: string;
+  /** e.g. "AI tools · 1h ago" — fits the entry bar's two-cell-wide budget (P1-b UI-review finding). */
+  readonly compactSupporting: string;
+  /** e.g. "Trending AI tools · updated 1 hour ago" — used when Tool Radar is the row's only entry. */
+  readonly fullSupporting: string;
+  readonly accentSupporting: boolean;
+  readonly ariaLabel: string;
 }
 
 /**
@@ -105,10 +98,25 @@ export interface ToolsEntrySummary {
  * `undefined` when there's nothing worth linking to yet: no entries, or
  * every source errored on the last run (the same distinction
  * ToolRadarApp.tsx itself draws between those two states).
+ *
+ * Leads with freshness rather than the entry count: a raw "60 tools" count
+ * doesn't communicate why to click today, and the reviewer's second UI pass
+ * asked for it to be dropped in favor of "updated ___ ago", derived from
+ * `generatedAt` — already fetched by site/src/main.tsx for this same
+ * snapshot, so this adds no new data plumbing.
  */
-export function toolsDigestEntry(entries: readonly ToolEntry[], sources: ToolRadarSources): ToolsEntrySummary | undefined {
+export function toolsDigestEntry(
+  entries: readonly ToolEntry[],
+  sources: ToolRadarSources,
+  generatedAt: string,
+): ToolsEntrySummary | undefined {
   if (entries.length === 0 || allSourcesErrored(sources)) return undefined;
-  return { label: "Trending this week", statusLabel: formatCompactCount(entries.length, "tool") };
+  return {
+    compactSupporting: `AI tools · ${timeAgo(generatedAt)}`,
+    fullSupporting: `Trending AI tools · updated ${timeAgoLong(generatedAt)}`,
+    accentSupporting: false,
+    ariaLabel: `Tool Radar, trending AI tools, updated ${timeAgoLong(generatedAt)}`,
+  };
 }
 
 /**
