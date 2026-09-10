@@ -150,10 +150,14 @@ describe("transcript highlight text metrics (P2 UI-review finding)", () => {
 
     expect(rule).toBeDefined();
     expect(rule).not.toMatch(/font-weight|font-size|letter-spacing/);
-    // Still distinguishable without relying on hue alone — painted as an
-    // inset box-shadow rather than a border, so it never changes the line's
-    // layout box (no left indent).
-    expect(rule).toContain("box-shadow");
+  });
+
+  it("draws the active line's accent bar as an absolutely positioned ::before in the gutter, not padding/a border that would shift or overlap the text", () => {
+    const css = readFileSync(new URL("../../views/_shared/podcast/podcast.css", import.meta.url), "utf8");
+    const beforeRule = /\.podcast-transcript-line--active::before\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(beforeRule).toBeDefined();
+    expect(beforeRule).toContain("position: absolute");
   });
 });
 

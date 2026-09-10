@@ -176,23 +176,35 @@
 }
 /* Vertical padding only — no horizontal inset/margin, so a paragraph's text
    stays flush with the card's other content (title, audio, toggle) instead
-   of reading as indented. The active highlight below is painted with an
-   inset box-shadow instead of a border, so it never touches the box's
-   layout size. */
+   of reading as indented. The active highlight's accent bar below is an
+   absolutely positioned ::before sitting in the gutter to the left of the
+   box (position: relative here is only for that), rather than padding/a
+   border — either of those would either shift the text over to make room
+   or paint the bar directly on top of it, since there's no left inset left
+   to draw into. */
 .podcast-transcript-line {
+  position: relative;
   padding: 2px 0;
   border-radius: var(--radius-sm);
-  transition: background var(--motion-fast) var(--ease-standard), box-shadow var(--motion-fast) var(--ease-standard);
+  transition: background var(--motion-fast) var(--ease-standard);
 }
-/* Background + the inset bar appearing where there was none, not hue alone,
-   so the active line still reads under prefers-reduced-motion and for
+/* Background + the bar appearing where there was none, not hue alone, so
+   the active line still reads under prefers-reduced-motion and for
    color-blind readers. Deliberately no font-weight/size change: those alter
    text metrics, so every advance would rewrap the incoming paragraph and
    shift the rest of the transcript under the reader mid-narration. */
 .podcast-transcript-line--active {
   background: var(--accent-soft);
-  box-shadow: inset 3px 0 0 var(--accent);
   color: var(--fg);
+}
+.podcast-transcript-line--active::before {
+  content: "";
+  position: absolute;
+  left: calc(-1 * var(--space-2));
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--accent);
 }
 
 @media (min-width: 640px) {
