@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T12:12:13.219Z",
+  "generatedAt": "2026-09-10T14:13:54.625Z",
   "stories": [
     {
       "id": "e8ede3cd-8039-49f3-8250-8b909e0cc374",
@@ -195,6 +195,34 @@
       ]
     },
     {
+      "id": "7e0c6af0-245f-43e0-802b-68ec17d6a01f",
+      "title": "Alibaba's XuanTie C950 reportedly runs a 27B-parameter Qwen model without a GPU",
+      "summary": "Reports indicate Qwen 3.8 27B can run without a GPU on Alibaba's XuanTie C950 CPU at about 30 tokens per second, while a separate test says its multi-token-prediction toggle reaches 17.1 tokens per second. Together, the claims point to alternative routes to more efficient Qwen inference.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-07T11:01:10.965Z",
+      "lastMeaningfulUpdateAt": "2026-09-10T14:13:37.671Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "RISC-V XuanTie C950 CPU Reportedly Runs Qwen 3.8 Without a GPU",
+          "url": "https://www.geeky-gadgets.com/alibaba-xuantie-c950-gpu-free-ai/",
+          "publishedAt": "2026-09-07T09:43:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Qwen 3.8 27B Hits 17.1 Tokens per Second with MTP Toggle",
+          "url": "https://www.geeky-gadgets.com/speed-up-qwen-3-8-27b/",
+          "publishedAt": "2026-09-10T13:14:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
       "id": "dec006bd-c934-413a-a85d-a31d7098c8d3",
       "title": "AI data-center grid reliability becomes an architecture challenge",
       "summary": "MIT Technology Review highlights how grid faults in Virginia's data-center corridor have abruptly removed gigawatts of load, underscoring the infrastructure and power-architecture challenges of AI expansion.",
@@ -321,6 +349,27 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "805ac91e-2672-49c1-970c-2152fdd009fb",
+      "title": "NASA and IBM develop an AI model for lunar exploration",
+      "summary": "NASA and IBM have developed an AI model of the Moon for the Artemis era, positioning it as a tool for lunar exploration.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-10T14:13:37.699Z",
+      "lastMeaningfulUpdateAt": "2026-09-10T14:13:37.699Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "NASA and IBM made an AI model for exploring the Moon",
+          "url": "https://www.engadget.com/2254569/nasa-ibm-ai-model-moon/",
+          "publishedAt": "2026-09-10T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -529,6 +578,46 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "d557242a-3681-44d2-9f17-82e91b819fca",
+      "title": "Google's AI Mode adds flight tracking and hotel booking",
+      "summary": "Google's AI Mode has added flight-price tracking, hotel booking support and a fantasy-football coaching use case, broadening its role as an assistant for planning and recommendations.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-08-31T18:54:11.835Z",
+      "lastMeaningfulUpdateAt": "2026-09-10T14:13:37.690Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
+          "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+          "publishedAt": "2026-08-27T16:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google brings trip-planning features to Search's AI Mode",
+          "url": "https://www.engadget.com/2245553/google-brings-trip-planning-features-to-search-ai-mode/",
+          "publishedAt": "2026-08-27T16:04:10.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Google Rolls Out 3 New Ways to Book Travel Using AI Mode in Search",
+          "url": "https://www.cnet.com/tech/services-and-software/google-rolls-out-3-new-ways-to-book-travel-using-ai-mode-in-search/",
+          "publishedAt": "2026-08-31T21:15:55.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google AI Mode can hold your hand through fantasy football season",
+          "url": "https://www.engadget.com/2254366/google-ai-mode-can-hold-your-hand-through-fantasy-football-season/",
+          "publishedAt": "2026-09-09T21:26:17.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "dec62941-7da0-4460-8fd3-bb36f16c7c87",
@@ -1039,6 +1128,13 @@
           "url": "https://www.geeky-gadgets.com/why-gpt-6-is-not-agi/",
           "publishedAt": "2026-09-10T07:45:00.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT 6 Astra vs Fable 5.1: Astra Wins 70% of Visual Design Votes",
+          "url": "https://www.geeky-gadgets.com/astra-vs-fable-5-1/",
+          "publishedAt": "2026-09-10T12:45:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1268,78 +1364,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "f72fea93-68a1-4f34-862d-64512fc42469",
-      "title": "DeepSeek V4.1 Flash is reported to emphasize high-speed inference",
-      "summary": "Geeky Gadgets reports that DeepSeek V4.1 Flash is available for testing and achieved 427 tokens per second in its tests, positioning the model around speed and cost efficiency. The performance figure is source-reported rather than independently verified.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-09T13:35:35.761Z",
-      "lastMeaningfulUpdateAt": "2026-09-09T13:35:35.761Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "DeepSeek V4.1 Flash Reaches 427 Tokens per Second in Tests",
-          "url": "https://www.geeky-gadgets.com/deepseek-v4-1-flash-review/",
-          "publishedAt": "2026-09-09T13:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "caf8e12a-6aaf-43a0-909d-a41e29a043b1",
-      "title": "OpenAI says it has built an automated research intern",
-      "summary": "OpenAI says coding agents are accelerating its research workflow, drawing on internal data about experiment velocity and task complexity. The company says it has reached its goal of creating an automated research intern and is now aiming for a more capable automated AI researcher by March 2028.",
-      "importanceScore": 0.8,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-06T16:48:09.878Z",
-      "lastMeaningfulUpdateAt": "2026-09-07T00:53:48.113Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Research acceleration: The view inside OpenAI",
-          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-          "publishedAt": "2026-09-06T08:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI says it reached its goal of creating an automated research intern",
-          "url": "https://www.engadget.com/2251859/openai-says-it-reached-its-goal-of-creating-an-automated-research-intern/",
-          "publishedAt": "2026-09-06T19:26:52.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "48409bf8-16ac-4352-abe2-e439580fc924",
-      "title": "AI demand is helping drive up consumer storage prices",
-      "summary": "Engadget reports that AI-driven demand is contributing to rising storage prices, affecting HDDs as well as SSDs and forcing consumers to weigh cheaper mechanical drives in some cases.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-08T19:23:53.068Z",
-      "lastMeaningfulUpdateAt": "2026-09-08T19:23:53.068Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "The rise in drive prices is being driven by AI and even HDDs can't hide",
-          "url": "https://www.engadget.com/2252075/drive-price-rise-driven-by-ai-even-hdd-affected/",
-          "publishedAt": "2026-09-08T18:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 105,
+  "totalCount": 107,
   "hasMore": true
 }
