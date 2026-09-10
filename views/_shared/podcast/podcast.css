@@ -4,6 +4,15 @@
    applied to the same root element, see PodcastApp.tsx) instead of
    redefining them. Everything below is scoped under `.newsroomPodcast`. */
 
+/* Match .app-shell/body's --bg rather than inheriting .newsroomFeed's
+   --surface-warm: otherwise, at desktop widths where the section is full
+   viewport width, --surface-warm shows as a wide, mismatched band above and
+   below the floating card (between the feed's --bg-colored app-shell above
+   and the body's own --bg below) instead of blending into the page. */
+.newsroomPodcast {
+  background: var(--bg);
+}
+
 /* A distinct, elevated layer from the story-card list above/below it —
    same surface/radius/shadow tokens the story cards already use
    (feed.css's .story-card:hover), not new ones. */
@@ -68,59 +77,46 @@
   font-size: var(--text-lg);
   color: var(--fg);
 }
+/* One flex row at every width — all three items share it and wrap together
+   rather than each breakpoint reflowing them differently. */
 .podcast-card-dates {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 2px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-2);
   flex-shrink: 0;
 }
-/* Human calendar range is the primary date label (a bare ISO week code
-   doesn't identify the covered dates on its own — see the P2 UI-review
-   finding this addresses). */
+/* All three share one font-size (--text-sm) so they read as one line of
+   metadata — weight/color still rank them: range primary, week/duration
+   demoted via --muted (a bare ISO week code doesn't identify the covered
+   dates on its own — see the P2 UI-review finding this addresses). */
 .podcast-card-range {
   font-size: var(--text-sm);
   font-weight: 600;
   color: var(--fg-2);
   white-space: nowrap;
 }
-/* ISO week code demoted to secondary metadata underneath the range. */
 .podcast-card-week {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: var(--text-sm);
   color: var(--muted);
   white-space: nowrap;
 }
-/* Same tertiary treatment as .podcast-card-week, one line further down. */
 .podcast-card-duration {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: var(--text-sm);
   color: var(--muted);
   white-space: nowrap;
 }
 
-/* Must come AFTER the three base rules above, not up with the other mobile
-   overrides near the top of the file: these selectors have the same
-   specificity, so source order decides and an earlier media query would
-   silently lose the cascade. */
+/* Side-by-side, the non-shrinking metadata row takes more width than the
+   title itself at 320px. Give the title its own full-width row and move
+   the metadata beneath it. */
 @media (max-width: 639px) {
-  /* Side-by-side, the non-shrinking metadata column takes more width than
-     the title itself at 320px. Give the title its own full-width row and
-     move the metadata beneath it. */
   .podcast-card-head {
     flex-direction: column;
     align-items: stretch;
     gap: var(--space-1);
-  }
-  /* Each item is nowrap and together they just exceed the ~238px of card
-     content width left at a 320px viewport, so let the row itself wrap
-     rather than overflow horizontally. */
-  .podcast-card-dates {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: flex-start;
-    gap: var(--space-1) var(--space-2);
   }
 }
 
@@ -178,21 +174,24 @@
   line-height: var(--leading-body);
   color: var(--fg-2);
 }
+/* Vertical padding only — no horizontal inset/margin, so a paragraph's text
+   stays flush with the card's other content (title, audio, toggle) instead
+   of reading as indented. The active highlight below is painted with an
+   inset box-shadow instead of a border, so it never touches the box's
+   layout size. */
 .podcast-transcript-line {
-  padding: 2px var(--space-2);
-  margin-inline: calc(var(--space-2) * -1);
-  border-left: 3px solid transparent;
+  padding: 2px 0;
   border-radius: var(--radius-sm);
-  transition: background var(--motion-fast) var(--ease-standard), border-color var(--motion-fast) var(--ease-standard);
+  transition: background var(--motion-fast) var(--ease-standard), box-shadow var(--motion-fast) var(--ease-standard);
 }
-/* Background + the border appearing where there was none, not hue alone, so
-   the active line still reads under prefers-reduced-motion and for
+/* Background + the inset bar appearing where there was none, not hue alone,
+   so the active line still reads under prefers-reduced-motion and for
    color-blind readers. Deliberately no font-weight/size change: those alter
    text metrics, so every advance would rewrap the incoming paragraph and
    shift the rest of the transcript under the reader mid-narration. */
 .podcast-transcript-line--active {
   background: var(--accent-soft);
-  border-left-color: var(--accent);
+  box-shadow: inset 3px 0 0 var(--accent);
   color: var(--fg);
 }
 

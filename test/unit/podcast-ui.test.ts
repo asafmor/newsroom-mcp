@@ -150,8 +150,10 @@ describe("transcript highlight text metrics (P2 UI-review finding)", () => {
 
     expect(rule).toBeDefined();
     expect(rule).not.toMatch(/font-weight|font-size|letter-spacing/);
-    // Still distinguishable without relying on hue alone.
-    expect(rule).toContain("border-left-color");
+    // Still distinguishable without relying on hue alone — painted as an
+    // inset box-shadow rather than a border, so it never changes the line's
+    // layout box (no left indent).
+    expect(rule).toContain("box-shadow");
   });
 });
 
