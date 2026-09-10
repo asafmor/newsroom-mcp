@@ -1,0 +1,52 @@
+name: Publish Tool Radar
+
+# Entirely mechanical, stateless: queries three public HTTP APIs, ranks
+# deterministically from that single run's data, and publishes tools.json
+# onto the `feed` branch (scripts/publish-tool-radar.ts). No SQLite, no AI
+# reasoning, no MCP tool call — never touches feed.json or podcast.json,
+# which are published separately (see AGENTS.md).
+on:
+  schedule:
+    # ~08:00 UTC every Monday — a different day/time than the Friday podcast
+    # synthesis cron, so the two scheduled `feed`-branch writers don't
+    # habitually collide (scripts/lib/worktree-publish.ts's push-retry
+    # handles a collision either way).
+    - cron: "0 8 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-tool-radar
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git identity for the tools.json push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch, rank, and publish tools.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: npx tsx scripts/publish-tool-radar.ts

@@ -258,8 +258,18 @@ html, body { margin: 0; background: var(--bg); }
    Kept as a slim, muted strip — reachable from the initial viewport (P1
    UI-review finding) without competing visually with the story feed below
    it, and small enough not to dominate the mobile viewport while stuck. */
+/* Wraps .digest-bar with a second, analogous entry point (Tool Radar) as a
+   "small pair". The row — not the individual bars — carries the sticky
+   positioning: a sticky element can only travel inside its own containing
+   block, and this row is exactly as tall as the bars it holds, so leaving
+   sticky on the children gave them zero room and scrolled both shortcuts
+   away with the feed (P2 UI-review finding; it silently regressed the
+   pre-existing podcast shortcut too, which used to stick on its own). */
+.entry-bar-row { display: flex; position: sticky; top: 0; z-index: 25; }
+.entry-bar-row .digest-bar { flex: 1 1 0; min-width: 0; }
+.entry-bar-row .digest-bar + .digest-bar { border-left: 1px solid var(--border); }
+
 .digest-bar {
-  position: sticky; top: 0; z-index: 25;
   display: flex; align-items: center; gap: var(--space-2);
   padding: 8px var(--space-3);
   background: color-mix(in oklab, var(--bg), transparent 6%);
@@ -271,10 +281,17 @@ html, body { margin: 0; background: var(--bg); }
 }
 .digest-bar:hover { background: var(--border-soft); }
 .digest-bar-icon { flex-shrink: 0; font-size: 13px; }
-/* Shrinks and truncates before ever forcing horizontal overflow — the icon
-   and status stay fixed-width on either side. */
-.digest-bar-text {
-  flex: 1 1 auto; min-width: 0;
+/* The destination name (.digest-bar-name) must survive truncation at any
+   width — it's what tells the reader where the link goes. Only the
+   secondary "· {label}" metadata (.digest-bar-meta) shrinks/truncates
+   first, and can go all the way to zero width before the name ever gives
+   up space (P2 UI-review finding: with both in one nowrap/ellipsis span,
+   two side-by-side entry points at 390px truncated "Weekly digest" itself
+   down to "Weekly…" while the status chip on the right stayed untouched). */
+.digest-bar-text { flex: 1 1 auto; min-width: 0; display: flex; align-items: baseline; overflow: hidden; }
+.digest-bar-name { flex-shrink: 0; white-space: nowrap; }
+.digest-bar-meta {
+  flex: 1 1 auto; min-width: 0; margin-left: 4px;
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 /* A status chip, not a second link — the whole bar is the one click target. */
@@ -284,6 +301,24 @@ html, body { margin: 0; background: var(--bg); }
   font-weight: 700; color: var(--accent);
   background: var(--accent-soft);
   border-radius: var(--radius-pill);
+}
+/* Below 640px the row's two entry points get ~195px each, and the
+   never-shrinking status chip alone eats ~99px of that — squeezing
+   .digest-bar-text to ~51px, so "Weekly digest" (~75px) still clipped to
+   "Weekly di" even with .digest-bar-name pinned. Pinning the name is
+   useless while an ancestor is what's short, so the secondary metadata and
+   the status chip drop out entirely here and hand their width back to the
+   destination name (P2 UI-review finding). */
+@media (max-width: 639px) {
+  .entry-bar-row .digest-bar-meta,
+  .entry-bar-row .digest-bar-status { display: none; }
+  /* Only one entry point rendered (no podcast episode yet, or an unpublished
+     Tool Radar snapshot) means it owns the full row width and never had the
+     squeeze — keep its "why click" signal rather than dropping it for free.
+     Both are flex items, so `block` is what the default `inline` blockifies
+     to anyway — this restores, it doesn't restyle. */
+  .entry-bar-row .digest-bar:only-child .digest-bar-meta,
+  .entry-bar-row .digest-bar:only-child .digest-bar-status { display: block; }
 }
 
 /* Header-right cluster: just the sort toggle, top-aligned against the brand.

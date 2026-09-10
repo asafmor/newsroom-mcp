@@ -2,13 +2,13 @@ name: Deploy feed site
 
 # Builds site/ (the standalone React feed UI) and publishes it onto the
 # `feed` branch's GitHub Pages root, alongside the existing feed.json,
-# podcast.json, and audio/ (synthesized episode mp3s). None of the three is
-# touched here — feed.json is published separately by `npm run
-# publish-feed` (scripts/publish-feed.ts) after a curation run, and
-# podcast.json + audio/ by `npm run publish-podcast` (Phase 1) / the
-# synthesize-podcast workflow (Phase 2). The cleanup step below MUST keep
-# excluding all three, or a site deploy silently destroys whichever one it
-# forgets.
+# podcast.json, tools.json, and audio/ (synthesized episode mp3s). None of
+# these is touched here — feed.json is published separately by `npm run
+# publish-feed` (scripts/publish-feed.ts) after a curation run, podcast.json
+# + audio/ by `npm run publish-podcast` (Phase 1) / the synthesize-podcast
+# workflow (Phase 2), and tools.json by the publish-tool-radar workflow. The
+# cleanup step below MUST keep excluding all four, or a site deploy silently
+# destroys whichever one it forgets.
 on:
   push:
     branches: [main]
@@ -42,9 +42,9 @@ jobs:
           ref: feed
           path: feed-branch
 
-      - name: Publish built site, preserving feed.json, podcast.json, and audio/
+      - name: Publish built site, preserving feed.json, podcast.json, tools.json, and audio/
         run: |
-          find feed-branch -mindepth 1 -maxdepth 1 ! -name feed.json ! -name podcast.json ! -name audio ! -name .git -exec rm -rf {} +
+          find feed-branch -mindepth 1 -maxdepth 1 ! -name feed.json ! -name podcast.json ! -name tools.json ! -name audio ! -name .git -exec rm -rf {} +
           cp -r site/dist/. feed-branch/
 
       - name: Commit and push

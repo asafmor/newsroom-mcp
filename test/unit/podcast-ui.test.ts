@@ -58,12 +58,21 @@ describe("podcast digest entry point stays visible while scrolling (P2 UI-review
     expect(digestIndex).toBeLessThan(appShellIndex);
   });
 
-  it("sticks the digest bar itself with position: sticky", () => {
-    const rule = /^\.digest-bar\s*\{[^}]*\}/m.exec(css)?.[0];
+  // Sticky lives on .entry-bar-row, the wrapper, not on .digest-bar. A sticky
+  // element can only travel within its own containing block, and the row is
+  // exactly as tall as the bars inside it — so sticky on the bar had zero room
+  // and the shortcut scrolled away with the feed. This test used to assert the
+  // rule on .digest-bar and passed the whole time the behavior was broken, so
+  // it now pins the element that actually has somewhere to travel.
+  it("sticks the entry bar row (the bars' containing block) with position: sticky", () => {
+    const rowRule = /^\.entry-bar-row\s*\{[^}]*\}/m.exec(css)?.[0];
 
-    expect(rule).toBeDefined();
-    expect(rule).toContain("position: sticky");
-    expect(rule).toContain("top: 0");
+    expect(rowRule).toBeDefined();
+    expect(rowRule).toContain("position: sticky");
+    expect(rowRule).toContain("top: 0");
+    // Sticky on the child would be inert — and worse, would look correct in a
+    // computed-style check while never actually sticking.
+    expect(/^\.digest-bar\s*\{[^}]*\}/m.exec(css)?.[0]).not.toContain("position: sticky");
   });
 });
 

@@ -1,0 +1,300 @@
+/* Tool Radar — reuses views/_shared/feed/feed.css's design tokens
+   (`:root`/`[data-theme="dark"]` custom properties) and the
+   `.newsroomFeed` reset/focus-ring/reduced-motion rules (both classes are
+   applied to the same root element, see ToolRadarApp.tsx) instead of
+   redefining them. Everything below is scoped under `.newsroomTools`. Card
+   anatomy here is deliberately new — it does not reuse `.story-card`/the
+   swipe-to-read machinery, since Tool Radar entries open out to an external
+   site rather than a reader sheet. */
+
+.tools-shell {
+  max-width: 960px;
+  margin: var(--space-6) auto var(--space-8);
+  padding: var(--space-6) var(--space-3) var(--space-12);
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--elev-raised);
+}
+
+@media (max-width: 639px) {
+  .tools-shell {
+    margin-inline: var(--space-3);
+    border-radius: var(--radius-md);
+  }
+}
+
+.tools-header {
+  padding-bottom: var(--space-4);
+  margin-bottom: var(--space-4);
+  border-bottom: 1px solid var(--border);
+}
+.tools-title {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  color: var(--fg);
+}
+.tools-subtitle {
+  margin-top: var(--space-1);
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+.tools-kind-explainer {
+  margin-top: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+.tools-updated-meta {
+  margin-top: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* Kind-chip group + bookmark toggle: same pill-group visual language as
+   feed.css's .sort-tabs/.sort-tab, just two independent controls side by
+   side instead of one mutually-exclusive group. */
+.tools-filter-row {
+  display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+.tools-kind-chips {
+  display: inline-flex; align-items: center; gap: 2px;
+  box-sizing: border-box;
+  background: var(--border-soft); border-radius: var(--radius-pill); padding: 2px;
+  /* The group was one unwrappable unit wider than a 320px panel, so it overran
+     the shell and pushed the page into horizontal scroll. Wrapping (rather
+     than scrolling it) fixes that without a scrollbar — a classic 15px
+     scrollbar inside a fixed 32px strip left only 17px of visible height and
+     clipped the 28px pills (both P3 UI-review findings). */
+  flex-wrap: wrap;
+  max-width: 100%;
+  min-height: 32px;
+}
+.newsroomTools .tools-kind-chip {
+  display: grid; place-items: center;
+  height: 28px; padding: 0 14px; border-radius: var(--radius-pill);
+  font-size: 12px; line-height: 12.8px; font-weight: 600; color: var(--muted);
+  transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
+}
+.tools-kind-chip[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: var(--elev-ring); }
+.tools-kind-chip:hover:not([aria-pressed="true"]) { color: var(--fg-2); }
+
+.newsroomTools .tools-bookmark-toggle {
+  height: 32px; padding: 0 var(--space-3); border-radius: var(--radius-pill);
+  font-size: 12px; font-weight: 600; color: var(--muted);
+  background: var(--border-soft);
+  transition: background var(--motion-fast) var(--ease-standard), color var(--motion-fast) var(--ease-standard);
+}
+.tools-bookmark-toggle[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); }
+.tools-bookmark-toggle:hover:not([aria-pressed="true"]) { color: var(--fg-2); }
+
+/* Non-alarming, same tone as .podcast-status --pending — names the degraded
+   source(s) rather than failing silently or blocking the entries that did
+   load. */
+.tools-degraded-banner {
+  margin-bottom: var(--space-4);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--fg-2);
+  background: var(--border-soft);
+  border-radius: var(--radius-md);
+}
+
+/* Fixed to the viewport rather than left in flow — see the persistWarning
+   comment in ToolRadarApp.tsx. Same visual language as the banner it extends
+   (it keeps .tools-degraded-banner), just lifted out of the document flow so
+   it reaches the reader wherever the tapped card happened to be. */
+.tools-persist-warning {
+  position: fixed;
+  left: var(--space-3);
+  right: var(--space-3);
+  bottom: var(--space-3);
+  z-index: 30;
+  max-width: 640px;
+  margin-inline: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--elev-raised);
+  display: flex; align-items: center; justify-content: space-between; gap: var(--space-3);
+}
+/* Touch-sized (>=40px), matching .tool-card-bookmark/.tool-install-copy. */
+.newsroomTools .tools-persist-dismiss {
+  flex-shrink: 0;
+  min-height: 40px; padding: 0 var(--space-3);
+  font-size: 12px; font-weight: 600;
+  color: var(--accent);
+  border-radius: var(--radius-sm);
+}
+.tools-persist-dismiss:hover { background: var(--border-soft); }
+
+.tools-reset-filters {
+  display: block;
+  margin: var(--space-3) auto 0;
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--accent);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+}
+.tools-reset-filters:hover { background: var(--border-soft); }
+
+.tools-grid {
+  display: grid;
+  /* minmax(0, 1fr), not a bare 1fr — a bare 1fr track's minimum size
+     defaults to the max-content size of its item (the classic CSS grid
+     "blowout" gotcha), so a wide card (long unwrapped tag row, long install
+     command) forced every track, and the whole grid, wider than the
+     viewport instead of wrapping inside its own card. */
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-3);
+}
+@media (min-width: 640px) {
+  .tools-shell { padding-inline: var(--space-8); }
+  .tools-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 960px) {
+  .tools-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.tool-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  /* Belt-and-suspenders alongside minmax(0, 1fr) above: as a flex column,
+     this card's own default min-width is the widest child's min-content
+     size — min-width: 0 lets its content (description, tags, install
+     command) wrap/scroll instead of stretching the card. */
+  min-width: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: box-shadow var(--motion-base) var(--ease-standard), border-color var(--motion-base) var(--ease-standard);
+}
+.tool-card:hover { border-color: var(--muted); box-shadow: var(--elev-raised); }
+
+.tool-card-head { display: flex; align-items: flex-start; gap: var(--space-2); }
+.tool-card-heading { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+/* Wraps up to 2 lines instead of truncating to one (P2 UI-review finding:
+   model names carry meaningful variant info — size/quantization/revision —
+   that a single-line ellipsis was hiding). `title` on the <a> itself
+   (ToolRadarApp.tsx) covers the rare name a 2-line clamp still cuts. */
+.tool-card-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--fg);
+  overflow-wrap: anywhere;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.tool-card-name:hover { text-decoration: underline; }
+/* Owner, distinguished from the tool's own name/title above (P2 UI-review finding). */
+.tool-card-owner {
+  font-size: 12px;
+  color: var(--muted);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.tool-card-kind {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+/* Bookmarks-only view marker for a saved tool that's left the current
+   snapshot (P1 UI-review finding) — not an error/alarm tone, just context. */
+.tool-card-stale { color: var(--accent); text-transform: none; letter-spacing: normal; }
+
+/* Touch-sized target (>=40px) even though the glyph itself is small. */
+.newsroomTools .tool-card-bookmark {
+  flex-shrink: 0;
+  display: grid; place-items: center;
+  width: 40px; height: 40px;
+  border-radius: var(--radius-md);
+  font-size: 18px;
+  color: var(--muted);
+  transition: color var(--motion-fast) var(--ease-standard), background var(--motion-fast) var(--ease-standard);
+}
+.tool-card-bookmark[aria-pressed="true"] { color: var(--accent); }
+.tool-card-bookmark:hover { background: var(--border-soft); }
+
+.tool-card-description {
+  font-size: var(--text-sm);
+  line-height: var(--leading-body);
+  color: var(--fg-2);
+  overflow-wrap: anywhere;
+}
+
+.tool-card-meta { display: flex; flex-wrap: wrap; gap: var(--space-1); }
+.tool-card-tag {
+  max-width: 100%;
+  padding: 1px 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--fg-2);
+  background: var(--border-soft);
+  border-radius: var(--radius-pill);
+  overflow-wrap: anywhere;
+}
+
+.tool-card-footer {
+  display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* Command + copy button — never shown empty (ToolCard only renders this
+   when entry.installCommand is present). */
+.tool-install {
+  display: flex; align-items: center; gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+.tool-install-command {
+  flex: 1 1 auto; min-width: 0;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--fg);
+  overflow-x: auto; white-space: nowrap;
+}
+/* Touch-sized target (>=40px tall). */
+.newsroomTools .tool-install-copy {
+  flex-shrink: 0;
+  min-height: 40px; padding: 0 var(--space-3);
+  font-size: 12px; font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: var(--radius-sm);
+}
+.tool-install-copy:hover { filter: brightness(0.97); }
+
+/* Kind-appropriate call to action ("Open demo"/"View model"/"View
+   repository") — a single generic link treatment didn't distinguish "try
+   this live" from "install this" (P2 UI-review finding). Touch-sized. */
+.tool-card-action {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 40px; padding: 0 var(--space-3);
+  font-size: 12px; font-weight: 600;
+  color: var(--accent);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+.tool-card-action:hover { background: var(--border-soft); }
+
+/* The inherited global override (feed.css's `.newsroomFeed *`) only shortens
+   the skeleton's shimmer to a near-0ms duration via `!important` — it still
+   runs, looping indefinitely (see podcast.css's identical override, which
+   this comment mirrors). */
+@media (prefers-reduced-motion: reduce) {
+  .newsroomTools .skel-bar {
+    animation: none !important;
+  }
+}

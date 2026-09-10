@@ -1,7 +1,7 @@
 // Generic "push, retry on rejection, give up after N attempts" decision
 // logic shared by every writer that pushes to the `feed` branch (feed
 // publish, podcast publish, podcast synthesis) — see
-// `scripts/lib/podcast-worktree-publish.ts` for the git plumbing that
+// `scripts/lib/worktree-publish.ts` for the git plumbing that
 // drives this with a real `attempt` implementation.
 
 export type PushAttemptOutcome = "success" | "rejected";
