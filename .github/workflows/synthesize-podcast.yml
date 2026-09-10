@@ -45,6 +45,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # The GitHub-hosted ubuntu images no longer ship ffmpeg, so install it
+      # rather than assuming it's present (the check below used to fail the
+      # whole run at "ffmpeg is not available on this runner").
+      - name: Install ffmpeg
+        run: |
+          set -e
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ffmpeg
+
       - name: Verify ffmpeg/ffprobe are available
         run: |
           set -e
