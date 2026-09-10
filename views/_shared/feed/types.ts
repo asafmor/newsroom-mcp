@@ -47,17 +47,27 @@ export interface FeedStory {
 export type SortMode = "top" | "latest";
 
 /**
- * Compact "weekly digest" entry-point summary the site links to (see the
- * `.digest-bar` link in FeedApp.tsx). Deliberately generic — feed/ never
- * imports podcast/'s types; the site computes this via
- * views/_shared/podcast/formatters.ts's `latestDigestEntry` and passes it
- * down as plain strings.
+ * Compact entry-point summary the site links to (see the two-cell
+ * `.entry-bar-row` in FeedApp.tsx). Deliberately generic — feed/ never
+ * imports podcast/'s or tools/'s types; the site computes this via
+ * views/_shared/podcast/formatters.ts's `latestDigestEntry` and
+ * views/_shared/tools/formatters.ts's `toolsDigestEntry`, and passes it down
+ * as plain strings.
  */
 export interface DigestEntry {
-  /** e.g. "Aug 31 – Sep 6, 2026". */
-  readonly label: string;
-  /** e.g. "Ready to play". */
-  readonly statusLabel: string;
+  /** Supporting line shown when this cell shares the row with a sibling entry, e.g. "Sep 9 · Ready". */
+  readonly compactSupporting: string;
+  /** Supporting line shown when this is the row's only entry, e.g. "Sep 2 – Sep 9, 2026 · Ready". */
+  readonly fullSupporting: string;
+  /** A restrained accent cue (e.g. "ready to listen") — never a per-reader "unseen" claim. */
+  readonly accentSupporting: boolean;
+  /**
+   * Full-sentence accessible name (e.g. "Weekly podcast, Sep 2 – Sep 9,
+   * 2026, ready to play") — the visible compact/full strings above
+   * abbreviate dates and relative times, so neither is an acceptable
+   * accessible name on its own (P1-b UI-review finding).
+   */
+  readonly ariaLabel: string;
   /** Anchor to scroll/link to, e.g. "#podcast-digest". */
   readonly href: string;
 }

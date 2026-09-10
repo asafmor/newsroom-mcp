@@ -5,8 +5,6 @@ import { SkeletonCard } from "../feed/SkeletonCard.js";
 import { activeSegmentIndex, formatCoveredDateRange } from "./formatters.js";
 import type { PodcastEpisode } from "./types.js";
 
-const AI_VOICE_DISCLOSURE = "This episode's narration is AI-generated audio, not a human voice.";
-
 export type PodcastState =
   | { readonly status: "pending" }
   | { readonly status: "error"; readonly message: string }
@@ -166,8 +164,6 @@ function AudioSection({
             {playbackError} The transcript below is still readable.
           </p>
         )}
-        {/* Adjacent to the player, not just once in a page footer — see G.49. */}
-        <p className="podcast-disclosure">{AI_VOICE_DISCLOSURE}</p>
       </div>
     );
   }

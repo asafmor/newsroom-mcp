@@ -388,59 +388,6 @@ function Feed({
 
   return (
     <>
-      {/* Persistent "Weekly digest" entry point (site only — `digestEntry`
-          stays `undefined` in the MCP View, so this never renders there).
-          Deliberately a sibling of .app-shell/.scroll-area, not nested
-          inside .feed-header: those establish their own (non-scrolling,
-          since they never actually overflow) scroll containers via
-          overflow: hidden/auto, which traps `position: sticky` and stops it
-          from ever engaging on the standalone site — the same reason
-          .feed-header's own sticky attempt (below) doesn't actually stick
-          there. This bar instead sits directly under <main>, whose
-          ancestors up to <html> stay overflow: visible, so its `position:
-          sticky` genuinely sticks to the real page scroll — verified by
-          driving headless Chromium and measuring its bounding box after
-          scrolling ~1000px at both 390px and 1440px widths. Kept as its own
-          slim, muted strip rather than folded into .feed-header, so keeping
-          it on-screen never also has to pin the full header (search,
-          filters) for the whole scroll.
-
-          `toolsEntry` (P1 UI-review finding: Tool Radar was undiscoverable
-          from the landing page) sits alongside it as a "small pair".
-          .entry-bar-row itself carries the sticky/top:0; the bars do not —
-          a sticky child has zero travel inside a row exactly as tall as
-          itself, so both shortcuts scrolled away with the feed. */}
-      {(digestEntry !== undefined || toolsEntry !== undefined) && (
-        <div className="entry-bar-row">
-          {digestEntry !== undefined && (
-            <a href={digestEntry.href} className="digest-bar">
-              <span className="digest-bar-icon" aria-hidden="true">🎙</span>
-              {/* .digest-bar-name never truncates — the destination itself
-                  is what must survive at 390px (P2 UI-review finding: it
-                  used to share one nowrap/ellipsis span with the secondary
-                  metadata below and lost, e.g. rendering "Weekly…" while
-                  the status chip stayed fully visible). Only
-                  .digest-bar-meta (the secondary "· {label}" bit) shrinks
-                  and truncates first. */}
-              <span className="digest-bar-text">
-                <span className="digest-bar-name">Weekly digest</span>
-                <span className="digest-bar-meta"><span aria-hidden="true">·</span> {digestEntry.label}</span>
-              </span>
-              <span className="digest-bar-status">{digestEntry.statusLabel}</span>
-            </a>
-          )}
-          {toolsEntry !== undefined && (
-            <a href={toolsEntry.href} className="digest-bar">
-              <span className="digest-bar-icon" aria-hidden="true">🧭</span>
-              <span className="digest-bar-text">
-                <span className="digest-bar-name">Tool Radar</span>
-                <span className="digest-bar-meta"><span aria-hidden="true">·</span> {toolsEntry.label}</span>
-              </span>
-              <span className="digest-bar-status">{toolsEntry.statusLabel}</span>
-            </a>
-          )}
-        </div>
-      )}
       {/* inert while the sheet is open (tracks `open` via `selected`, not
           mount state — see `renderedStory`) makes the whole background
           subtree unfocusable and removes it from the accessibility tree
@@ -468,6 +415,88 @@ function Feed({
             // `undefined` when storage is unavailable suppresses the badge.
             unreadCount={readIds === undefined ? undefined : unreadCount(stories, readIds)}
           />
+          {/* Persistent entry-point bar (site only — `digestEntry`/
+              `toolsEntry` stay `undefined` in the MCP View, so this never
+              renders there): "Weekly podcast" (to the podcast section) and
+              "Tool Radar" (P1 UI-review finding: Tool Radar was
+              undiscoverable from the landing page), as two equal cells on
+              one shared surface. Deliberately placed here — after the
+              complete brand header, before the first story card — rather
+              than above it (round-2 UI-review finding: sitting above the
+              header implied global navigation while its own 36px/12px
+              content was under-weighted for that position).
+
+              This can now live as a normal descendant of .app-shell/
+              .scroll-area and still stick: those two ancestors switched from
+              `overflow: hidden`/`overflow-x: hidden` to `overflow: clip`/
+              `overflow-x: clip` for the standalone site (see feed.css) —
+              `clip` clips identically but, unlike `hidden`/`auto`, never
+              establishes a scroll container, so it no longer traps a
+              descendant's `position: sticky` against the real page scroll.
+              That also means .feed-header's own long-inert `position:
+              sticky` would start engaging for the first time — deliberately
+              neutralized back to `position: static` on the site variant
+              (feed.css), since pinning the full header (brand, search,
+              filters) for the whole scroll was never the intent, only this
+              bar was. Verified by driving headless Chromium and measuring
+              this row's and .feed-header's bounding boxes before/after
+              scrolling ~1000px at 390px, 320px and 1440px widths.
+
+              .entry-bar-row itself carries the sticky/top:0; the bars do
+              not — a sticky child has zero travel inside a row exactly as
+              tall as itself, so both shortcuts would scroll away with the
+              feed if sticky were placed on them instead. */}
+          {(digestEntry !== undefined || toolsEntry !== undefined) && (
+            <div className="entry-bar-row">
+              {digestEntry !== undefined && (
+                <a href={digestEntry.href} className="digest-bar" aria-label={digestEntry.ariaLabel}>
+                  {/* Microphone, drawn in the same stroked-24px idiom as
+                      every other icon here (SourceSheet/StoryCard) — never
+                      emoji. The <a>'s aria-label above already conveys full
+                      meaning, so the visible spans below need no separate
+                      aria-hidden treatment. */}
+                  <span className="digest-bar-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                      <rect x="9" y="2" width="6" height="11" rx="3" />
+                      <path d="M5 10a7 7 0 0 0 14 0M12 17v5" />
+                    </svg>
+                  </span>
+                  <span className="digest-bar-text">
+                    <span className="digest-bar-name">Weekly podcast</span>
+                    <span className={digestEntry.accentSupporting ? "digest-bar-supporting digest-bar-supporting--accent" : "digest-bar-supporting"}>
+                      {/* Two variants of the same fact, CSS-switched by
+                          :only-child (see feed.css) — compact fits this cell
+                          sharing the row with `toolsEntry`; full uses the
+                          extra width the bar gets when this is the row's
+                          only entry (P1-b UI-review finding: the single
+                          podcast entry used to truncate its date at 320px). */}
+                      <span className="digest-bar-supporting-compact">{digestEntry.compactSupporting}</span>
+                      <span className="digest-bar-supporting-full">{digestEntry.fullSupporting}</span>
+                    </span>
+                  </span>
+                </a>
+              )}
+              {toolsEntry !== undefined && (
+                <a href={toolsEntry.href} className="digest-bar" aria-label={toolsEntry.ariaLabel}>
+                  {/* Compass — matches the "Radar" name and the intent of the
+                      emoji it replaces. */}
+                  <span className="digest-bar-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="9" />
+                      <path d="M16 8l-2.5 5.5L8 16l2.5-5.5z" />
+                    </svg>
+                  </span>
+                  <span className="digest-bar-text">
+                    <span className="digest-bar-name">Tool Radar</span>
+                    <span className={toolsEntry.accentSupporting ? "digest-bar-supporting digest-bar-supporting--accent" : "digest-bar-supporting"}>
+                      <span className="digest-bar-supporting-compact">{toolsEntry.compactSupporting}</span>
+                      <span className="digest-bar-supporting-full">{toolsEntry.fullSupporting}</span>
+                    </span>
+                  </span>
+                </a>
+              )}
+            </div>
+          )}
           <main className="story-feed" aria-live="polite">
             {sorted.length === 0 ? (
               <EmptyState

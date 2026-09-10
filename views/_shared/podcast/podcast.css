@@ -148,12 +148,6 @@
   background: color-mix(in oklab, var(--danger), transparent 90%);
 }
 
-.podcast-disclosure {
-  font-size: 12px;
-  font-style: italic;
-  color: var(--muted);
-}
-
 .newsroomPodcast .podcast-transcript-toggle {
   align-self: flex-start;
   /* Vertical padding only (keeps the touch target tall) — no horizontal

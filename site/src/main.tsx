@@ -109,7 +109,9 @@ function App() {
   // digestEntry above: undefined until Tool Radar has actually loaded a
   // non-empty, non-all-failed snapshot (see toolsDigestEntry).
   const toolsSummary =
-    toolRadarState.status === "success" ? toolsDigestEntry(toolRadarState.entries, toolRadarState.sources) : undefined;
+    toolRadarState.status === "success"
+      ? toolsDigestEntry(toolRadarState.entries, toolRadarState.sources, toolRadarState.generatedAt)
+      : undefined;
   const toolsEntry: DigestEntry | undefined =
     toolsSummary === undefined ? undefined : { ...toolsSummary, href: "#tool-radar" };
 

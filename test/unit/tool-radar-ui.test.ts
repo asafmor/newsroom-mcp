@@ -18,7 +18,7 @@ const getFeedViewTsx = readFileSync(new URL("../../views/get-feed/view.tsx", imp
 describe("Tool Radar header entry point (P1 UI-review finding: discoverability)", () => {
   it("renders toolsEntry as a .digest-bar sibling of digestEntry, inside the shared .entry-bar-row", () => {
     expect(feedAppTsx).toContain("toolsEntry");
-    expect(feedAppTsx).toMatch(/<a href=\{toolsEntry\.href\} className="digest-bar">/);
+    expect(feedAppTsx).toMatch(/<a href=\{toolsEntry\.href\} className="digest-bar" aria-label=\{toolsEntry\.ariaLabel\}>/);
 
     const rowIndex = feedAppTsx.indexOf('className="entry-bar-row"');
     const digestIndex = feedAppTsx.indexOf("href={digestEntry.href}");
@@ -30,7 +30,12 @@ describe("Tool Radar header entry point (P1 UI-review finding: discoverability)"
 
   it("computes toolsEntry via toolsDigestEntry, gated on the Tool Radar fetch succeeding, in site/src/main.tsx", () => {
     expect(mainTsx).toContain("toolsDigestEntry");
-    expect(mainTsx).toMatch(/toolRadarState\.status === "success" \? toolsDigestEntry\(/);
+    expect(mainTsx).toMatch(/toolRadarState\.status === "success"\s*\?\s*toolsDigestEntry\(/);
+    // Freshness (P1-b UI-review finding) comes from the same snapshot
+    // fetch already driving the rest of the page — no new data plumbing.
+    expect(mainTsx).toContain(
+      "toolsDigestEntry(toolRadarState.entries, toolRadarState.sources, toolRadarState.generatedAt)",
+    );
     expect(mainTsx).toContain('href: "#tool-radar"');
     expect(mainTsx).toContain("toolsEntry={toolsEntry}");
   });
@@ -228,11 +233,43 @@ describe("Tool Radar UI states (req. 31-39)", () => {
   });
 });
 
+describe("Tool Radar section chrome", () => {
+  it("paints the section on --bg like the podcast section, not .newsroomFeed's inherited --surface-warm", () => {
+    const toolsRule = /\.newsroomTools\s*\{[^}]*\}/.exec(toolsCss)?.[0];
+    const podcastCss = readFileSync(new URL("../../views/_shared/podcast/podcast.css", import.meta.url), "utf8");
+    const podcastRule = /\.newsroomPodcast\s*\{[^}]*\}/.exec(podcastCss)?.[0];
+
+    expect(toolsRule).toContain("background: var(--bg)");
+    expect(podcastRule).toContain("background: var(--bg)");
+  });
+
+  it("gives the tool card the same surface/border/radius tokens as .podcast-card and .story-card", () => {
+    const feedCss = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const podcastCss = readFileSync(new URL("../../views/_shared/podcast/podcast.css", import.meta.url), "utf8");
+    const rules = [
+      /^\.tool-card \{[^}]*\}/m.exec(toolsCss)?.[0],
+      /^\.podcast-card \{[^}]*\}/m.exec(podcastCss)?.[0],
+      /^\.story-card \{[^}]*\}/m.exec(feedCss)?.[0],
+    ];
+
+    for (const rule of rules) {
+      expect(rule).toContain("background: var(--surface)");
+      expect(rule).toContain("border: 1px solid var(--border)");
+      expect(rule).toContain("border-radius: var(--radius-lg)");
+    }
+  });
+});
+
 describe("Tool Radar Models/Spaces descriptions and category explanation (P2 UI-review finding)", () => {
-  it("explains the three categories once, in the section header", () => {
+  it("keeps the section header to the one-line subtitle, with no verbose kind explainer", () => {
     const formattersTs = readFileSync(new URL("../../views/_shared/tools/formatters.ts", import.meta.url), "utf8");
-    expect(formattersTs).toContain("export const KIND_EXPLAINER =");
-    expect(toolRadarAppTsx).toContain("<p className=\"tools-kind-explainer\">{KIND_EXPLAINER}</p>");
+    expect(toolRadarAppTsx).toContain(
+      '<p className="tools-subtitle">Trending AI tools, models, and Spaces — refreshed weekly.</p>',
+    );
+    expect(formattersTs).not.toContain("KIND_EXPLAINER");
+    expect(toolRadarAppTsx).not.toContain("KIND_EXPLAINER");
+    expect(toolRadarAppTsx).not.toContain("tools-kind-explainer");
+    expect(toolsCss).not.toContain("tools-kind-explainer");
   });
 
   it("distinguishes the tool's own name/title from its owner instead of concatenating them into one string", () => {
@@ -240,9 +277,7 @@ describe("Tool Radar Models/Spaces descriptions and category explanation (P2 UI-
     expect(toolRadarAppTsx).toContain('<span className="tool-card-owner">{entry.owner}</span>');
   });
 
-  it("explains the missing model description once, in KIND_EXPLAINER, instead of repeating it per card (P2 UI-review finding)", () => {
-    const formattersTs = readFileSync(new URL("../../views/_shared/tools/formatters.ts", import.meta.url), "utf8");
-    expect(formattersTs).toContain("Hugging Face doesn't provide descriptions for models");
+  it("renders nothing for a missing model description instead of repeating a placeholder per card (P2 UI-review finding)", () => {
     // No per-card fallback text/class left over — a card with no description simply renders nothing there.
     expect(toolRadarAppTsx).not.toContain("No description available");
     expect(toolRadarAppTsx).not.toContain("tool-card-description--empty");

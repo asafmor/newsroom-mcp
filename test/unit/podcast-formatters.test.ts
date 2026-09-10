@@ -4,7 +4,6 @@ import {
   activeSegmentIndex,
   formatCoveredDateRange,
   latestDigestEntry,
-  podcastStatusLabel,
 } from "../../views/_shared/podcast/formatters.js";
 import type { PodcastEpisode } from "../../views/_shared/podcast/types.js";
 
@@ -78,26 +77,57 @@ describe("activeSegmentIndex", () => {
   });
 });
 
-describe("podcastStatusLabel", () => {
-  it("labels each known audio status distinctly", () => {
-    expect(podcastStatusLabel("ready")).toBe("Ready to play");
-    expect(podcastStatusLabel("pending")).toBe("Audio in progress");
-    expect(podcastStatusLabel("failed")).toBe("Transcript available");
-  });
-
-  it("degrades safely for an unrecognized/future-shaped status rather than throwing", () => {
-    // Same "unrecognized audioStatus" edge case PodcastApp.tsx's AudioSection degrades.
-    expect(podcastStatusLabel("future-status" as never)).toBe("Transcript available");
-  });
-});
-
-describe("latestDigestEntry", () => {
-  it("summarizes the first (newest) episode, deriving its range from publishedAt", () => {
+describe("latestDigestEntry (P1-b UI-review finding: compact/full/accent/aria shape)", () => {
+  it("summarizes a 'ready' episode with a short compact date, the full covered range, and an accent cue", () => {
     const episodes = [
       makeEpisode({ isoWeek: "2026-W37", publishedAt: "2026-09-09T00:00:00.000Z", audioStatus: "ready" }),
       makeEpisode({ isoWeek: "2026-W36", publishedAt: "2026-09-02T00:00:00.000Z", audioStatus: "pending" }),
     ];
-    expect(latestDigestEntry(episodes)).toEqual({ label: "Sep 2 – Sep 9, 2026", statusLabel: "Ready to play" });
+    expect(latestDigestEntry(episodes)).toEqual({
+      compactSupporting: "Sep 9 · Ready",
+      fullSupporting: "Sep 2 – Sep 9, 2026 · Ready",
+      accentSupporting: true,
+      ariaLabel: "Weekly podcast, Sep 2 – Sep 9, 2026, ready to play",
+    });
+  });
+
+  it("summarizes a 'pending' episode as preparing, with no accent", () => {
+    const episodes = [makeEpisode({ audioStatus: "pending" })];
+    expect(latestDigestEntry(episodes)).toEqual({
+      compactSupporting: "Preparing audio",
+      fullSupporting: "Preparing audio",
+      accentSupporting: false,
+      ariaLabel: "Weekly podcast, preparing audio",
+    });
+  });
+
+  it("summarizes a 'failed' episode by pointing at the transcript, with no accent", () => {
+    const episodes = [makeEpisode({ audioStatus: "failed" })];
+    expect(latestDigestEntry(episodes)).toEqual({
+      compactSupporting: "Read transcript",
+      fullSupporting: "Read transcript",
+      accentSupporting: false,
+      ariaLabel: "Weekly podcast, read the transcript",
+    });
+  });
+
+  it("degrades an unrecognized/future-shaped status the same way as 'failed', rather than throwing", () => {
+    // Same "unrecognized audioStatus" edge case PodcastApp.tsx's AudioSection degrades.
+    const episodes = [makeEpisode({ audioStatus: "future-status" as never })];
+    expect(latestDigestEntry(episodes)).toEqual({
+      compactSupporting: "Read transcript",
+      fullSupporting: "Read transcript",
+      accentSupporting: false,
+      ariaLabel: "Weekly podcast, read the transcript",
+    });
+  });
+
+  it("summarizes the first (newest) episode when several exist", () => {
+    const episodes = [
+      makeEpisode({ isoWeek: "2026-W37", publishedAt: "2026-09-09T00:00:00.000Z", audioStatus: "pending" }),
+      makeEpisode({ isoWeek: "2026-W36", publishedAt: "2026-09-02T00:00:00.000Z", audioStatus: "ready" }),
+    ];
+    expect(latestDigestEntry(episodes)?.compactSupporting).toBe("Preparing audio");
   });
 
   it("is undefined when there are no episodes, so the header renders no misleading link", () => {

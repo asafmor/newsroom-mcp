@@ -330,3 +330,101 @@ describe("feed header controls", () => {
     }
   });
 });
+
+describe("provider avatar sizing", () => {
+  it("never lets a flex sibling squeeze the avatar, wrapper or not", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    // Tool Radar's .tool-card-head drops an <Avatar> straight into a flex row
+    // with no .avatar-stack wrapper, so the fix has to live on .avatar itself.
+    const avatarRule = /^\.avatar \{[^}]*\}/m.exec(css)?.[0];
+
+    expect(avatarRule).toContain("flex-shrink: 0");
+  });
+});
+
+describe("entry-bar icons", () => {
+  it("uses inline SVG glyphs, never emoji, sized at a fixed 16px rather than font-size (P3 UI-review finding)", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const feedAppTsx = readFileSync(new URL("../../views/_shared/feed/FeedApp.tsx", import.meta.url), "utf8");
+    const iconRule = /\.digest-bar-icon \{[^}]*\}/.exec(css)?.[0];
+    const iconSvgRule = /\.digest-bar-icon svg \{[^}]*\}/.exec(css)?.[0];
+
+    expect(iconRule).toContain("flex-shrink: 0");
+    expect(iconRule).toContain("width: 16px");
+    expect(iconRule).toContain("height: 16px");
+    // font-size does nothing for an <svg> carrying its own viewBox.
+    expect(iconRule).not.toContain("font-size");
+    expect(iconSvgRule).toContain("width: 16px");
+    expect(iconSvgRule).toContain("height: 16px");
+    expect(feedAppTsx).not.toMatch(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/u);
+    // Same viewBox/stroke idiom as SourceSheet.tsx/StoryCard.tsx's inline icons.
+    expect(feedAppTsx).toMatch(
+      /<span className="digest-bar-icon" aria-hidden="true">\s*<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"/,
+    );
+  });
+
+  it("aligns each icon against the NAME line (not the two-line block's vertical center) via a small top margin, not a colored container", () => {
+    const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+    const iconRule = /\.digest-bar-icon \{[^}]*\}/.exec(css)?.[0];
+
+    expect(iconRule).toContain("margin-top");
+    expect(iconRule).not.toMatch(/background|border-radius/);
+  });
+});
+
+describe("entry-bar two-line composition (P1-b UI-review finding)", () => {
+  const css = readFileSync(new URL("../../views/_shared/feed/feed.css", import.meta.url), "utf8");
+  const feedAppTsx = readFileSync(new URL("../../views/_shared/feed/FeedApp.tsx", import.meta.url), "utf8");
+
+  it("renders the supporting line as plain text, never a trailing pill/badge", () => {
+    // The old pill treatment (.digest-bar-status) is gone outright, not just unused.
+    expect(css).not.toContain("digest-bar-status");
+    expect(feedAppTsx).not.toContain("digest-bar-status");
+    const supportingRule = /\.digest-bar-supporting\s*\{[^}]*\}/.exec(css)?.[0];
+    expect(supportingRule).toBeDefined();
+    expect(supportingRule).not.toMatch(/border-radius|background/);
+  });
+
+  it("reserves the accent color for the supporting line's restrained 'ready' cue only, never a badge", () => {
+    const accentRule = /\.digest-bar-supporting--accent\s*\{[^}]*\}/.exec(css)?.[0];
+
+    expect(accentRule).toBeDefined();
+    expect(accentRule).toContain("color: var(--accent)");
+  });
+
+  it("has no blanket mobile media query hiding the supporting line — visibility is cardinality-driven via :only-child at every width", () => {
+    // Regression guard: the old fix collapsed the supporting line to nothing
+    // below 640px when both entries rendered (P1-b). The two-line
+    // composition removed the horizontal squeeze that caused it, so there's
+    // no longer a viewport-width rule governing this at all — only whether
+    // the cell has a sibling.
+    expect(css).not.toMatch(/@media \(max-width: 639px\)[\s\S]*?digest-bar/);
+    expect(css).toContain(".entry-bar-row .digest-bar:only-child .digest-bar-supporting-compact");
+    expect(css).toContain(".entry-bar-row .digest-bar:only-child .digest-bar-supporting-full");
+  });
+
+  it("defaults every cell to the compact string, swapping to the full string only for a lone entry", () => {
+    const compactRule = /\.entry-bar-row \.digest-bar:only-child \.digest-bar-supporting-compact\s*\{[^}]*\}/.exec(
+      css,
+    )?.[0];
+    const fullDefaultRule = /^\.digest-bar-supporting-full\s*\{[^}]*\}/m.exec(css)?.[0];
+    const fullOnlyChildRule = /\.entry-bar-row \.digest-bar:only-child \.digest-bar-supporting-full\s*\{[^}]*\}/.exec(
+      css,
+    )?.[0];
+
+    expect(fullDefaultRule).toContain("display: none");
+    expect(compactRule).toContain("display: none");
+    expect(fullOnlyChildRule).toContain("display: block");
+  });
+
+  it("gives the single-entry case a divider-free cell (the divider only exists between two siblings)", () => {
+    expect(css).toContain(".entry-bar-row .digest-bar + .digest-bar");
+    // No unscoped divider rule that would also apply to a lone .digest-bar.
+    expect(css).not.toMatch(/^\.digest-bar::before/m);
+  });
+
+  it("gives each entry-bar link a full-sentence aria-label distinct from the abbreviated visible strings", () => {
+    expect(feedAppTsx).toMatch(/aria-label=\{digestEntry\.ariaLabel\}/);
+    expect(feedAppTsx).toMatch(/aria-label=\{toolsEntry\.ariaLabel\}/);
+  });
+});
