@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-09-10T18:16:48.303Z",
+  "generatedAt": "2026-09-10T20:18:36.295Z",
   "stories": [
+    {
+      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
+      "title": "Meta’s Muse agent reaches No. 2 in the US app rankings after launch",
+      "summary": "Meta’s new personal AI agent Muse has reached No. 2 among US apps, giving its consumer AI push an early adoption milestone.\n\n- Muse can perform online tasks such as shopping, travel booking and selling a car\n- It is built on Meta’s Muse Spark model platform, whose strongest configuration remains in limited preview\n- The agent’s requested access to email, calendars, payments and health services makes privacy and user trust central to the rollout\n- Meta has offered Spark users a discount in exchange for usage data",
+      "importanceScore": 0.8,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-03T17:01:49.158Z",
+      "lastMeaningfulUpdateAt": "2026-09-10T20:18:14.091Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
+          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+          "publishedAt": "2026-09-03T16:19:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is paying to peek at how you use their latest AI model",
+          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+          "publishedAt": "2026-09-03T18:19:56.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
+          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
+          "publishedAt": "2026-09-08T20:12:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+          "publishedAt": "2026-09-08T19:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s New AI Agent Wants to Get Personal With You",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news-2/",
+          "publishedAt": "2026-09-08T22:33:09.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse Let Me Waste a Mind-Boggling Amount of Free Compute on Nothing in Particular",
+          "url": "https://gizmodo.com/metas-muse-let-me-waste-a-mind-boggling-amount-of-free-compute-on-nothing-in-particular-2000808945",
+          "publishedAt": "2026-09-09T02:05:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+          "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+          "publishedAt": "2026-09-10T19:50:04.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "model-release",
+        "safety"
+      ]
+    },
     {
       "id": "fc49a369-1cfe-4ebb-9699-4fe969f3404a",
       "title": "OpenAI and GSA expand discounted AI access and cyber support for US governments",
@@ -129,6 +194,48 @@
       "tags": [
         "regulation",
         "safety"
+      ]
+    },
+    {
+      "id": "f23f5236-74e6-46bb-87cc-efe43aa57d48",
+      "title": "Google releases a native Gemini app for Windows",
+      "summary": "Google has released a native Gemini app for Windows PCs, including a keyboard shortcut for launching the assistant, extending Gemini’s desktop availability.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-10T20:18:28.446Z",
+      "lastMeaningfulUpdateAt": "2026-09-10T20:18:28.446Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "A native Gemini app is finally available for Windows PCs",
+          "url": "https://www.engadget.com/2255197/a-native-gemini-app-is-finally-available-for-windows-pcs/",
+          "publishedAt": "2026-09-10T18:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "09e93ce7-d453-41da-bf24-4f8dfbf43cc8",
+      "title": "T. Rowe Price expands Claude use in its investment process",
+      "summary": "T. Rowe Price says it is expanding its use of Anthropic’s Claude in its investment process, adding a notable financial-services example of enterprise AI adoption.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-10T20:18:28.434Z",
+      "lastMeaningfulUpdateAt": "2026-09-10T20:18:28.434Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "T. Rowe Price brings more of Claude to its investment process",
+          "url": "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process",
+          "publishedAt": "2026-09-10T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -442,64 +549,6 @@
       "tags": [
         "safety",
         "opinion"
-      ]
-    },
-    {
-      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta debuts Muse, a personal AI agent powered by its Spark model platform",
-      "summary": "Meta has introduced Muse, a personal AI agent that can carry out online tasks such as shopping, travel booking and selling a car. It is built around Meta’s Muse Spark model platform, whose 1.3 release improved coding and long-running agent performance; its strongest configuration remains in limited preview and a promised open-weight release is delayed. Muse’s requested access to email, calendars, payments and health services makes privacy and user trust central to Meta’s consumer AI bet, while the company is also offering Spark users a discount in exchange for usage data.",
-      "importanceScore": 0.78,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-09-09T03:28:01.260Z",
-      "sources": [
-        {
-          "providerName": "VentureBeat",
-          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
-          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-          "publishedAt": "2026-09-03T16:19:49.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta is paying to peek at how you use their latest AI model",
-          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
-          "publishedAt": "2026-09-03T18:19:56.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
-          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
-          "publishedAt": "2026-09-08T20:12:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
-          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
-          "publishedAt": "2026-09-08T19:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Meta’s New AI Agent Wants to Get Personal With You",
-          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news-2/",
-          "publishedAt": "2026-09-08T22:33:09.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Meta’s Muse Let Me Waste a Mind-Boggling Amount of Free Compute on Nothing in Particular",
-          "url": "https://gizmodo.com/metas-muse-let-me-waste-a-mind-boggling-amount-of-free-compute-on-nothing-in-particular-2000808945",
-          "publishedAt": "2026-09-09T02:05:25.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "model-release",
-        "safety"
       ]
     },
     {
@@ -1312,56 +1361,6 @@
       "tags": [
         "model-release",
         "safety"
-      ]
-    },
-    {
-      "id": "23da32e1-dbbb-49ca-887e-eb26d982cd39",
-      "title": "ChatGPT Images 2.5 adds sketch-to-image creation",
-      "summary": "ChatGPT Images 2.5 reportedly adds a sketch-based creation workflow that turns a simple outline or concept sketch into a polished generated image, alongside claimed speed and quality improvements.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-09T11:34:19.993Z",
-      "lastMeaningfulUpdateAt": "2026-09-09T11:34:19.993Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "ChatGPT Images 2.5 Turns Rough Sketches Into Final Art",
-          "url": "https://www.geeky-gadgets.com/chatgpt-images-2-5-update/",
-          "publishedAt": "2026-09-09T10:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "412c72e2-2b86-43b4-a8fa-714c707a47f4",
-      "title": "Apple shares further details of planned Siri AI integration",
-      "summary": "Apple provided further details of its planned Siri AI at its latest iPhone event, including a tie-in with the third-party app Stuff.\n\n- The integration adds a concrete third-party-app detail ahead of the assistant's full release\n- An earlier Wired review found the Siri AI beta had become easy to forget after an initially strong impression",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-06T10:43:49.111Z",
-      "lastMeaningfulUpdateAt": "2026-09-10T08:09:28.256Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "My Brief Summer Fling With Siri AI",
-          "url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
-          "publishedAt": "2026-09-06T10:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "What Is Stuff? All About the Third-Party App Featured During Apple’s Latest Event",
-          "url": "https://www.cnet.com/tech/services-and-software/what-is-stuff-all-about-the-third-party-app-featured-during-apples-latest-event/",
-          "publishedAt": "2026-09-09T22:02:21.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "opinion"
       ]
     }
   ],
