@@ -17,6 +17,7 @@ import {
   storyMatchesFilters,
   toStorySnapshot,
   unreadCount,
+  withSources,
 } from "../../views/_shared/feed/formatters.js";
 import type { StorySnapshot } from "../../views/_shared/feed/formatters.js";
 import type { FeedSource, FeedStory } from "../../views/_shared/feed/types.js";
@@ -41,6 +42,36 @@ function makeSource(overrides: Partial<FeedSource> = {}): FeedSource {
     ...overrides,
   };
 }
+
+describe("withSources", () => {
+  it("keeps stories that have at least one source", () => {
+    const keep = makeStory([makeSource()], { id: "keep" });
+
+    expect(withSources([keep]).map((s) => s.id)).toEqual(["keep"]);
+  });
+
+  it("drops a story with an empty sources array", () => {
+    // Regression: a real published feed.json snapshot contained one of these.
+    // latestPublishedAt() reads sources[0].publishedAt, so rendering it threw
+    // "Cannot read properties of undefined (reading 'publishedAt')" and took
+    // the entire feed down, not just the one card.
+    const keep = makeStory([makeSource()], { id: "keep" });
+    const sourceless = makeStory([], { id: "sourceless" });
+
+    expect(withSources([keep, sourceless, keep]).map((s) => s.id)).toEqual(["keep", "keep"]);
+  });
+
+  it("drops a story whose sources field is missing entirely", () => {
+    // feed.json is fetched at runtime and never schema-validated on the way in.
+    const malformed = { ...makeStory([]), sources: undefined } as unknown as FeedStory;
+
+    expect(withSources([malformed])).toEqual([]);
+  });
+
+  it("returns an empty list unchanged", () => {
+    expect(withSources([])).toEqual([]);
+  });
+});
 
 describe("developmentCount", () => {
   it("counts only the sources that reported a new development", () => {
