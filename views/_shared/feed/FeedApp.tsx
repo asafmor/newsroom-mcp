@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { flushSync } from "react-dom";
 
-import { BackToTopButton } from "./BackToTopButton.js";
+import { BackToTopButton, scrollToTop } from "./BackToTopButton.js";
 import { EmptyState } from "./EmptyState.js";
 import { FeedHeader } from "./FeedHeader.js";
 import { SkeletonCard } from "./SkeletonCard.js";
@@ -420,7 +420,11 @@ function Feed({
             sortMode={sortMode}
             onSortChange={(mode) => {
               setSortMode(mode);
-              scrollAreaRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+              // Shared helper, not a raw scrollTo: it honours
+              // prefers-reduced-motion, which a bare `behavior: "smooth"`
+              // ignores (feed.css's transition override can't reach a
+              // browser-driven scroll animation).
+              scrollToTop(scrollAreaRef.current);
             }}
             providers={providers}
             providerFilter={providerFilter}

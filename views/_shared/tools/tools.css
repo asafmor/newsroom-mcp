@@ -293,7 +293,7 @@
 .tool-card-action:hover { background: var(--border-soft); }
 
 /* Reserves clearance from the floating back-to-top button (feed.css's
-   `.back-to-top`, right: var(--space-4), 44px wide), which sits over this
+   `.back-to-top`, sized/inset by the --back-to-top-* tokens), which sits over this
    same bottom-right corner once scrolled into Tool Radar — this card's own
    action is the one full-width element that keeps landing under it at rest
    (back-to-top UI-review P2 finding). Unconditional rather than
@@ -301,7 +301,9 @@
    so the real page gutter around it only clears the button once the
    viewport is ~1096px+ — a pixel-perfect breakpoint here would be one more
    layout change away from silently drifting back into overlap. */
-.tool-card-action { margin-right: calc(44px + var(--space-4) + var(--space-2)); }
+.tool-card-action {
+  margin-right: calc(var(--back-to-top-size) + var(--back-to-top-inset) + var(--space-2));
+}
 
 /* The inherited global override (feed.css's `.newsroomFeed *`) only shortens
    the skeleton's shimmer to a near-0ms duration via `!important` — it still
