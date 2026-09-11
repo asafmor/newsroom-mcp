@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T05:36:31.538Z",
+  "generatedAt": "2026-09-11T09:40:13.110Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -721,6 +721,13 @@
           "url": "https://openai.com/index/introducing-chatgpt-financial-services",
           "publishedAt": "2026-09-10T07:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "ChatGPT for Financial Services Debuts With GPT-6 Astra: Here’s What OpenAI Is Offering",
+          "url": "https://in.mashable.com/tech/113870/chatgpt-for-financial-services-debuts-with-gpt-6-astra-heres-what-openai-is-offering",
+          "publishedAt": "2026-09-11T09:12:34.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -748,6 +755,27 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "b68431b2-5865-4f98-8418-ab632c11d19c",
+      "title": "Wired: AI researchers increasingly fear existential risk from advancing models",
+      "summary": "A Wired feature reports that rapid capability gains, recursive self-improvement, and agentic swarms are genuinely alarming researchers inside major AI labs.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-11T09:39:23.807Z",
+      "lastMeaningfulUpdateAt": "2026-09-11T09:39:23.807Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+          "url": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
+          "publishedAt": "2026-09-11T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -1096,6 +1124,13 @@
           "url": "https://gizmodo.com/the-fight-over-openais-math-breakthrough-is-a-new-kind-of-scientific-arms-race-2000809240",
           "publishedAt": "2026-09-09T20:00:19.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI May Have Solved the Navier-Stokes Maths Problem in Just 3.5 Days",
+          "url": "https://www.geeky-gadgets.com/navier-stokes-equations-solved-ai/",
+          "publishedAt": "2026-09-11T07:45:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1409,29 +1444,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "e5a715f4-c915-41e6-9016-cc8cd7951f2d",
-      "title": "Andrej Karpathy describes his speech-driven AI workflow for working faster",
-      "summary": "Andrej Karpathy described using speech-to-text tools like Super Whisper to interact with AI more naturally, as part of a broader approach to incorporating AI into everyday work.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-11T05:36:08.716Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:36:08.716Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "How to Work 10X Faster the Andrej Karpathy AI Workflow",
-          "url": "https://www.geeky-gadgets.com/andrej-karpathy-ai-workflow/",
-          "publishedAt": "2026-09-10T08:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 103,
+  "totalCount": 100,
   "hasMore": true
 }
