@@ -103,7 +103,6 @@ html, body { margin: 0; background: var(--bg); }
   -webkit-tap-highlight-color: transparent;
 }
 .newsroomFeed {
-  background: var(--surface-warm);
   color: var(--fg);
   font-family: var(--font-body);
   font-optical-sizing: auto;
@@ -306,7 +305,7 @@ html, body { margin: 0; background: var(--bg); }
   display: flex;
   position: sticky; top: 0; z-index: 25;
   margin: 0 0 4px;
-  background: var(--surface);
+  background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
 .entry-bar-row .digest-bar { flex: 1 1 0; min-width: 0; }
