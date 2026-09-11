@@ -18,6 +18,7 @@ import {
   storyMatchesFilters,
   toStorySnapshot,
   unreadCount,
+  withSources,
 } from "./formatters.js";
 import type { StoryDelta, StorySnapshot } from "./formatters.js";
 
@@ -230,7 +231,7 @@ export function FeedApp({
 function Feed({
   variant,
   generatedAt,
-  stories,
+  stories: publishedStories,
   onOpenSource,
   digestEntry,
   toolsEntry,
@@ -242,6 +243,17 @@ function Feed({
   readonly digestEntry?: DigestEntry;
   readonly toolsEntry?: DigestEntry;
 }) {
+  // Trust boundary: `site/` fetches whatever feed.json snapshot is currently
+  // committed on the `feed` branch, so the UI has to tolerate one it didn't
+  // produce. A story with no sources used to take the *entire* feed down —
+  // latestPublishedAt() reads `sources[0].publishedAt`, which throws on an
+  // empty array, and the uncaught error unmounts the whole tree. Filtered
+  // once here, where feed data enters, rather than guarding each of the many
+  // formatters/components that assume a story has at least one source.
+  // FeedService also drops these before publishing; this covers snapshots
+  // already in git.
+  const stories = useMemo(() => withSources(publishedStories), [publishedStories]);
+
   const [sortMode, setSortMode] = useState<SortMode>(getInitialSortMode);
 
   useEffect(() => {
