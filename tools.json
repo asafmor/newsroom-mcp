@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T11:39:50.238Z",
+  "generatedAt": "2026-09-11T12:25:01.113Z",
   "sources": {
     "github": {
       "status": "ok",
@@ -31,7 +31,7 @@
         "dsh",
         "dsh-plugin"
       ],
-      "starCount": 220057,
+      "starCount": 220107,
       "createdAt": "2026-08-13T11:56:32.000Z",
       "lastActivityAt": "2026-09-11T03:06:25.000Z"
     },
@@ -52,7 +52,7 @@
         "deep-learning",
         "from-scratch"
       ],
-      "starCount": 7550,
+      "starCount": 7551,
       "createdAt": "2026-08-01T09:29:38.000Z",
       "lastActivityAt": "2026-09-10T08:52:37.000Z"
     },
@@ -94,7 +94,7 @@
         "knowledge-base",
         "knowledge-graph"
       ],
-      "starCount": 6810,
+      "starCount": 6812,
       "createdAt": "2026-08-07T19:33:17.000Z",
       "lastActivityAt": "2026-09-11T10:59:48.000Z"
     },
@@ -115,7 +115,7 @@
         "browser-automation",
         "copilotkit"
       ],
-      "starCount": 4662,
+      "starCount": 4669,
       "createdAt": "2026-08-17T00:44:59.000Z",
       "lastActivityAt": "2026-09-11T06:17:41.000Z"
     },
@@ -136,7 +136,7 @@
         "mcp",
         "model-context-protocol"
       ],
-      "starCount": 3999,
+      "starCount": 4001,
       "createdAt": "2026-08-28T12:57:24.000Z",
       "lastActivityAt": "2026-09-09T13:51:34.000Z"
     },
@@ -241,7 +241,7 @@
         "ai-agents",
         "harness"
       ],
-      "starCount": 2571,
+      "starCount": 2575,
       "createdAt": "2026-08-22T05:07:35.000Z",
       "lastActivityAt": "2026-09-11T11:17:45.000Z"
     },
@@ -304,7 +304,7 @@
         "electron",
         "expo"
       ],
-      "starCount": 2255,
+      "starCount": 2256,
       "createdAt": "2026-08-13T06:28:56.000Z",
       "lastActivityAt": "2026-09-11T10:28:02.000Z"
     },
@@ -346,9 +346,9 @@
         "claude-code",
         "codex"
       ],
-      "starCount": 1902,
+      "starCount": 1903,
       "createdAt": "2026-08-11T15:31:45.000Z",
-      "lastActivityAt": "2026-09-10T17:44:38.000Z"
+      "lastActivityAt": "2026-09-11T12:12:31.000Z"
     },
     {
       "id": "github:lexmount/moli",
@@ -367,7 +367,7 @@
         "browser-automation",
         "cloud-browser"
       ],
-      "starCount": 1894,
+      "starCount": 1896,
       "createdAt": "2026-08-10T13:20:30.000Z",
       "lastActivityAt": "2026-09-11T11:12:05.000Z"
     },
@@ -388,9 +388,9 @@
         "claude-code",
         "cli"
       ],
-      "starCount": 1888,
+      "starCount": 1890,
       "createdAt": "2026-07-29T15:58:33.000Z",
-      "lastActivityAt": "2026-09-11T11:27:25.000Z"
+      "lastActivityAt": "2026-09-11T12:20:24.000Z"
     },
     {
       "id": "github:google/artemis",
@@ -409,7 +409,7 @@
         "test-automation",
         "testing"
       ],
-      "starCount": 1816,
+      "starCount": 1875,
       "createdAt": "2026-08-13T17:59:37.000Z",
       "lastActivityAt": "2026-09-11T08:48:56.000Z"
     },
@@ -429,7 +429,7 @@
         "claude-code",
         "claude-code-skill"
       ],
-      "starCount": 1475,
+      "starCount": 1480,
       "createdAt": "2026-08-13T07:19:54.000Z",
       "lastActivityAt": "2026-09-06T09:01:39.000Z"
     },
@@ -450,7 +450,7 @@
         "application",
         "audio-streaming"
       ],
-      "starCount": 1319,
+      "starCount": 1321,
       "createdAt": "2026-08-17T09:49:10.000Z",
       "lastActivityAt": "2026-09-05T03:15:41.000Z"
     },
@@ -492,7 +492,7 @@
         "deepseek",
         "deepseek-harness"
       ],
-      "starCount": 1264,
+      "starCount": 1265,
       "createdAt": "2026-08-14T20:40:06.000Z",
       "lastActivityAt": "2026-09-10T17:21:13.000Z"
     },
@@ -526,7 +526,7 @@
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
       "pipelineTag": "image-text-to-text",
       "libraryName": "transformers",
-      "likeCount": 1633,
+      "likeCount": 1648,
       "downloads": 75774,
       "createdAt": "2026-09-10T02:17:58.000Z",
       "installCommand": "huggingface-cli download deepseek-ai/DeepSeek-V4.1-Flash"
@@ -540,7 +540,7 @@
       "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
       "pipelineTag": "text-generation",
       "libraryName": "transformers",
-      "likeCount": 1154,
+      "likeCount": 1155,
       "downloads": 67550,
       "createdAt": "2026-09-06T11:12:19.000Z",
       "installCommand": "huggingface-cli download openbmb/MiniCPM5-2B"
@@ -554,7 +554,7 @@
       "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
       "pipelineTag": "text-generation",
       "libraryName": "transformers",
-      "likeCount": 1080,
+      "likeCount": 1082,
       "downloads": 17712,
       "createdAt": "2026-08-24T06:34:34.000Z",
       "installCommand": "huggingface-cli download XHToken/Spark-X2.5-4B"
@@ -568,7 +568,7 @@
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "pipelineTag": "image-text-to-text",
       "libraryName": "transformers",
-      "likeCount": 14695,
+      "likeCount": 14703,
       "downloads": 7563763,
       "createdAt": "2026-08-05T08:22:59.000Z",
       "installCommand": "huggingface-cli download Qwen/Qwen3.8-27B"
@@ -582,7 +582,7 @@
       "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
       "pipelineTag": "image-text-to-text",
       "libraryName": "gguf",
-      "likeCount": 814,
+      "likeCount": 815,
       "downloads": 682187,
       "createdAt": "2026-08-28T18:38:03.000Z",
       "installCommand": "huggingface-cli download ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF"
@@ -596,7 +596,7 @@
       "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
       "pipelineTag": "text-generation",
       "libraryName": "transformers",
-      "likeCount": 672,
+      "likeCount": 674,
       "downloads": 3121,
       "createdAt": "2026-09-08T05:08:43.000Z",
       "installCommand": "huggingface-cli download nex-agi/Nex-N2.5-mini"
@@ -636,7 +636,7 @@
       "name": "Qwen3.8-27B-GGUF",
       "owner": "unsloth",
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "likeCount": 3870,
+      "likeCount": 3873,
       "downloads": 11339637,
       "createdAt": "2026-08-13T08:28:40.000Z",
       "installCommand": "huggingface-cli download unsloth/Qwen3.8-27B-GGUF"
@@ -662,7 +662,7 @@
       "owner": "DavidAU",
       "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "pipelineTag": "image-text-to-text",
-      "likeCount": 462,
+      "likeCount": 464,
       "downloads": 606200,
       "createdAt": "2026-09-01T07:01:09.000Z",
       "installCommand": "huggingface-cli download DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
@@ -731,7 +731,7 @@
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
       "pipelineTag": "image-text-to-video",
       "libraryName": "minimax-h3",
-      "likeCount": 5140,
+      "likeCount": 5141,
       "downloads": 4970363,
       "createdAt": "2026-07-28T10:45:18.000Z",
       "installCommand": "huggingface-cli download MiniMaxAI/MiniMax-H3"
@@ -759,7 +759,7 @@
       "url": "https://huggingface.co/Jackrong/Qwopus3.8-27B-Flash-GGUF",
       "pipelineTag": "image-text-to-text",
       "libraryName": "transformers",
-      "likeCount": 194,
+      "likeCount": 195,
       "downloads": 231831,
       "createdAt": "2026-09-04T12:43:31.000Z",
       "installCommand": "huggingface-cli download Jackrong/Qwopus3.8-27B-Flash-GGUF"
@@ -829,6 +829,19 @@
       "createdAt": "2026-08-14T23:23:19.000Z"
     },
     {
+      "id": "hf-space:Xenova/fruit-fly-simulation",
+      "source": "huggingface",
+      "kind": "space",
+      "name": "fruit-fly-simulation",
+      "owner": "Xenova",
+      "displayName": "Fruit Fly Simulation",
+      "url": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation",
+      "description": "Simulate a fruit fly in your browser using WebGPU kernels",
+      "sdk": "static",
+      "likeCount": 63,
+      "createdAt": "2026-09-06T19:13:46.000Z"
+    },
+    {
       "id": "hf-space:aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
       "source": "huggingface",
       "kind": "space",
@@ -854,19 +867,6 @@
       "createdAt": "2026-08-10T17:46:36.000Z"
     },
     {
-      "id": "hf-space:Xenova/fruit-fly-simulation",
-      "source": "huggingface",
-      "kind": "space",
-      "name": "fruit-fly-simulation",
-      "owner": "Xenova",
-      "displayName": "Fruit Fly Simulation",
-      "url": "https://huggingface.co/spaces/Xenova/fruit-fly-simulation",
-      "description": "Simulate a fruit fly in your browser using WebGPU kernels",
-      "sdk": "static",
-      "likeCount": 60,
-      "createdAt": "2026-09-06T19:13:46.000Z"
-    },
-    {
       "id": "hf-space:STCM/wan2-2-fp8da-aoti-preview-2c-finishing",
       "source": "huggingface",
       "kind": "space",
@@ -876,7 +876,7 @@
       "url": "https://huggingface.co/spaces/STCM/wan2-2-fp8da-aoti-preview-2c-finishing",
       "description": "generate a video from an image with a text prompt with text",
       "sdk": "gradio",
-      "likeCount": 72,
+      "likeCount": 73,
       "createdAt": "2026-07-28T12:41:56.000Z"
     },
     {
