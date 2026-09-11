@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T09:40:13.110Z",
+  "generatedAt": "2026-09-11T11:41:29.034Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -758,6 +758,27 @@
       ]
     },
     {
+      "id": "ee44d62a-16e2-4f6d-b276-df8d13798ab5",
+      "title": "DeepSeek releases V4.1 Flash, a 552B-parameter MoE model",
+      "summary": "DeepSeek released V4.1 Flash, a 552-billion-parameter Mixture-of-Experts model with a causal encoder-decoder design and integrated visual understanding, which the report claims outperforms Opus 5 on new benchmarks.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-11T11:41:22.745Z",
+      "lastMeaningfulUpdateAt": "2026-09-11T11:41:22.745Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "DeepSeek V4.1 Flash Outperforms Opus 5 in New AI Benchmarks",
+          "url": "https://www.geeky-gadgets.com/deepseek-v4-1-flash-release/",
+          "publishedAt": "2026-09-11T11:17:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "b68431b2-5865-4f98-8418-ab632c11d19c",
       "title": "Wired: AI researchers increasingly fear existential risk from advancing models",
       "summary": "A Wired feature reports that rapid capability gains, recursive self-improvement, and agentic swarms are genuinely alarming researchers inside major AI labs.",
@@ -1423,29 +1444,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "740433c6-ffc4-4443-9f50-37bea1dc5ef1",
-      "title": "LangChain secures Managed Deep Agents credentials via Connections",
-      "summary": "LangChain detailed how its Connections system secures credentials for Managed Deep Agents (MDA), offering agent-owned secrets and user-owned OAuth options for security- and scale-sensitive deployments.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-11T05:36:10.995Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:36:10.995Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "LangChain Connections Secures Managed Deep Agents in 3 Ways",
-          "url": "https://www.geeky-gadgets.com/manage-deep-agents-credentials/",
-          "publishedAt": "2026-09-10T06:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 100,
+  "totalCount": 99,
   "hasMore": true
 }
