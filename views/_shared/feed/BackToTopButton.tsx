@@ -12,6 +12,23 @@ import { shouldShowBackToTopMcp, shouldShowBackToTopSite } from "./formatters.js
 const PODCAST_SECTION_ID = "podcast-digest";
 
 /**
+ * Scrolls `target` back to its top, honouring `prefers-reduced-motion`.
+ *
+ * The CSS reduced-motion override in feed.css only shortens *transitions*;
+ * a programmatic `behavior: "smooth"` scroll is driven by the browser's
+ * scroll animation, not CSS, so it keeps animating through thousands of
+ * pixels regardless (flagged as a P1 in UI review). Both places that jump
+ * back to the top — this button and FeedApp's sort-mode change — route
+ * through here so neither can regress independently.
+ */
+export function scrollToTop(target: HTMLElement | Window | null | undefined): void {
+  const behavior: ScrollBehavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ? "auto"
+    : "smooth";
+  target?.scrollTo({ top: 0, behavior });
+}
+
+/**
  * Floating "back to top" control shared by both hosts (site + MCP View) —
  * see the requirements this satisfies in the PR: appears past a host-
  * specific scroll threshold, scrolls the right region back to its top, and
@@ -66,16 +83,7 @@ export function BackToTopButton({
   const visible = pastThreshold && !suppressed;
 
   function handleClick() {
-    // `transition-duration: 0.01ms` (feed.css) only shortens CSS
-    // transitions — it has no effect on a native `scrollTo`'s own smooth
-    // scroll, which otherwise keeps animating regardless of the OS-level
-    // reduced-motion preference (UI-review P1 finding).
-    const behavior: ScrollBehavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
-    if (variant === "mcp") {
-      scrollAreaRef.current?.scrollTo({ top: 0, behavior });
-    } else {
-      window.scrollTo({ top: 0, behavior });
-    }
+    scrollToTop(variant === "mcp" ? scrollAreaRef.current : window);
     // Focus must land somewhere sensible, not stay on a button that's about
     // to go inert once the resulting scroll is picked up above — the same
     // element (`.scroll-area`) doubles as "top of panel/page" here, and
