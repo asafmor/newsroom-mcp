@@ -174,7 +174,8 @@ html, body { margin: 0; background: var(--bg); }
   position: relative;
 }
 .newsroomFeed--mcp .sheet-overlay,
-.newsroomFeed--mcp .source-sheet {
+.newsroomFeed--mcp .source-sheet,
+.newsroomFeed--mcp .back-to-top {
   position: absolute;
 }
 
@@ -673,6 +674,40 @@ html, body { margin: 0; background: var(--bg); }
 .source-item .open-icon { flex-shrink: 0; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; color: var(--accent); transition: background var(--motion-fast) var(--ease-standard); }
 .source-item:hover .open-icon { background: var(--accent-soft); }
 .source-item .open-icon svg { width: 14px; height: 14px; }
+
+/* ─── back to top ──────────────────────────────────────────────────────── */
+/* Sibling of .app-shell, not a descendant (see FeedApp.tsx and the identical
+   reasoning on .sheet-overlay/.source-sheet above) — `position: fixed` here
+   escapes to the real viewport on the site; the `.newsroomFeed--mcp`
+   override above switches it to `absolute` so it stays inside the sandboxed
+   host panel instead of escaping it. Hidden state is `inert` (see
+   BackToTopButton.tsx), never a mount/unmount, so the transition below can
+   actually animate the fade — and reduced-motion's blanket
+   `transition-duration: 0.01ms` override further up makes that fade
+   effectively instant, same as every other transition in this file. */
+.back-to-top {
+  position: fixed;
+  right: var(--space-4);
+  bottom: calc(var(--space-4) + env(safe-area-inset-bottom, 0px));
+  z-index: 24; /* below .sheet-overlay/.source-sheet (30/31) — must never sit above them */
+  width: 44px; height: 44px; /* >= the codebase's 40px minimum touch target */
+  border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--surface);
+  color: var(--fg-2);
+  box-shadow: var(--elev-raised);
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+  transition:
+    opacity var(--motion-base) var(--ease-standard),
+    transform var(--motion-base) var(--ease-standard),
+    background var(--motion-fast) var(--ease-standard),
+    color var(--motion-fast) var(--ease-standard);
+}
+.back-to-top:hover { background: var(--border-soft); color: var(--fg); }
+.back-to-top--visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+.back-to-top svg { width: 20px; height: 20px; }
 
 /* ─── desktop: standalone site only (.newsroomFeed--mcp opts out — it's
    always rendered at fixed card width inside a sandboxed host panel) ──── */

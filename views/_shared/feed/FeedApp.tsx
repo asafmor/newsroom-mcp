@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { flushSync } from "react-dom";
 
+import { BackToTopButton } from "./BackToTopButton.js";
 import { EmptyState } from "./EmptyState.js";
 import { FeedHeader } from "./FeedHeader.js";
 import { SkeletonCard } from "./SkeletonCard.js";
@@ -215,6 +216,7 @@ export function FeedApp({
   return (
     <main className={rootClassName} data-theme={resolvedTheme} lang={locale}>
       <Feed
+        variant={variant}
         generatedAt={state.generatedAt}
         stories={state.stories}
         onOpenSource={onOpenSource}
@@ -226,12 +228,14 @@ export function FeedApp({
 }
 
 function Feed({
+  variant,
   generatedAt,
   stories,
   onOpenSource,
   digestEntry,
   toolsEntry,
 }: {
+  readonly variant: "mcp" | "site";
   readonly generatedAt: string;
   readonly stories: readonly FeedStory[];
   readonly onOpenSource: (url: string) => void;
@@ -394,7 +398,11 @@ function Feed({
           natively, so Tab/Shift+Tab can only reach the dialog's own
           controls without a hand-rolled focus trap. */}
       <div className="app-shell" inert={selected !== undefined}>
-        <div className="scroll-area" ref={scrollAreaRef}>
+        {/* tabIndex={-1}: not a tab stop, only a programmatic focus target —
+            BackToTopButton.tsx focuses this after scrolling back to the top
+            so keyboard focus lands somewhere sensible instead of staying on
+            a control that's about to go inert (criterion 7). */}
+        <div className="scroll-area" ref={scrollAreaRef} tabIndex={-1}>
           <FeedHeader
             generatedAt={generatedAt}
             sortMode={sortMode}
@@ -526,7 +534,10 @@ function Feed({
       {/* Sibling of .app-shell, not a child — .app-shell's overflow:hidden
           clips position:fixed descendants on mobile WebKit (and breaks
           backdrop-filter compositing along with it), even though fixed
-          positioning is meant to escape the ancestor's box entirely. */}
+          positioning is meant to escape the ancestor's box entirely. Same
+          reason BackToTopButton sits out here too. */}
+      <BackToTopButton variant={variant} scrollAreaRef={scrollAreaRef} suppressed={selected !== undefined} />
+
       {renderedStory === undefined ? null : (
         <SourceSheet
           story={renderedStory}

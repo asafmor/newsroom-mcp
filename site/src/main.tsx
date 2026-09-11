@@ -4,6 +4,7 @@ import { createRoot } from "react-dom/client";
 import { FeedApp, type FeedState } from "../../views/_shared/feed/FeedApp.js";
 import type { DigestEntry, FeedStory } from "../../views/_shared/feed/types.js";
 import "../../views/_shared/feed/feed.css";
+import "./index.css";
 import { latestDigestEntry } from "../../views/_shared/podcast/formatters.js";
 import { PodcastApp, type PodcastState } from "../../views/_shared/podcast/PodcastApp.js";
 import type { PodcastEpisode } from "../../views/_shared/podcast/types.js";

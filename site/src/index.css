@@ -1,0 +1,15 @@
+/* Site-only: reserves clearance at the true end of the document for the
+   floating back-to-top button (views/_shared/feed/BackToTopButton.tsx /
+   feed.css's .back-to-top), which is `position: fixed` and would otherwise
+   risk covering the last visible content once scrolled all the way down.
+   #root is the real end of the page here — FeedApp, PodcastApp, and
+   ToolRadarApp mount as its only (and last) children (see App() below) — so
+   this is added once, rather than inflating every section's own bottom
+   padding. --space-8 comfortably clears the button's own footprint
+   (44px + its --space-4 bottom offset); env() adds the iOS/Android
+   safe-area inset the button itself also reserves. Not needed on the MCP
+   host (criterion 14): it has no #root of its own and its panel is a fixed
+   card, not the page. */
+#root {
+  padding-bottom: calc(var(--space-8) + env(safe-area-inset-bottom, 0px));
+}
