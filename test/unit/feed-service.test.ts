@@ -77,6 +77,33 @@ describe("FeedService.getFeed", () => {
     expect(feed.stories.map((s) => s.id)).toEqual([fresh.id]);
   });
 
+  it("omits a story that has no attached items left", async () => {
+    // Such a story has no source links and no publish timestamps, so the
+    // reader UI can't render it — latestPublishedAt() reads sources[0] and
+    // threw, taking the whole feed down. A real published feed.json snapshot
+    // contained one, so it must never reach the snapshot again.
+    const sourceless = await stories.create({
+      contentItemIds: [],
+      title: "Nothing attached",
+      summary: "s",
+      relevanceScore: 0.9,
+      importanceScore: 0.9, // ranked first if it isn't dropped
+    });
+
+    const normal = await stories.create({
+      contentItemIds: [await insertItem("normal-founding")],
+      title: "Normal",
+      summary: "s",
+      relevanceScore: 0.5,
+      importanceScore: 0.1,
+    });
+
+    const feed = await feedService.getFeed({});
+
+    expect(feed.stories.map((s) => s.id)).toEqual([normal.id]);
+    expect(feed.stories.map((s) => s.id)).not.toContain(sourceless.id);
+  });
+
   it("decays importance by age so a fresh story can outrank an older, more important one", async () => {
     const oldImportant = await stories.create({
       contentItemIds: [await insertItem("old-founding")],

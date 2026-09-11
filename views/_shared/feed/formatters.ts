@@ -4,6 +4,19 @@ import type { FeedStory, StoryContribution, StoryTag } from "./types.js";
 // World-time, not ingest-time: a story's sources may be reported at different
 // moments, so "latest"/"earliest" reflects when the news actually happened
 // rather than a server-side ingest timestamp.
+/**
+ * Drops stories carrying no sources. Such a story has nothing to render — no
+ * links, and no publish timestamp to date it by — and `latestPublishedAt`/
+ * `earliestPublishedAt` below both read `sources[0]`, so letting one through
+ * throws and unmounts the whole feed rather than degrading one card.
+ *
+ * Tolerates a missing/non-array `sources` too: feed.json is fetched at
+ * runtime from a published snapshot, so it isn't schema-checked on the way in.
+ */
+export function withSources(stories: readonly FeedStory[]): readonly FeedStory[] {
+  return stories.filter((story) => Array.isArray(story.sources) && story.sources.length > 0);
+}
+
 export function latestPublishedAt(story: FeedStory): string {
   return story.sources.reduce((max, s) => (s.publishedAt > max ? s.publishedAt : max), story.sources[0].publishedAt);
 }

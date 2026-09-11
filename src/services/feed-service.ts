@@ -23,7 +23,14 @@ export class FeedService {
 
     const ranked = this.rank(active);
     const page = ranked.slice(offset, offset + limit);
-    const stories = await Promise.all(page.map((story) => this.toFeedStory(story)));
+    const hydrated = await Promise.all(page.map((story) => this.toFeedStory(story)));
+    // A story can end up with zero attached items (e.g. every item moved out
+    // by merge-stories), leaving nothing readable — no source links, no
+    // publish timestamps to date it by. Publishing it ships a card the reader
+    // can't use, so drop it here. `totalCount`/`hasMore` still describe the
+    // ranked set, since that's what pagination walks; this only ever removes
+    // from the page, never adds.
+    const stories = hydrated.filter((story) => story.sources.length > 0);
 
     return {
       generatedAt: new Date(),
