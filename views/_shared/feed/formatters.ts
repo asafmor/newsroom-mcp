@@ -260,6 +260,28 @@ export function computeStoryDelta(prior: StorySnapshot | undefined, story: FeedS
   return { newSourceUrls, newBullets, badgeText };
 }
 
+/**
+ * Site variant's back-to-top trigger (acceptance criteria 1–2): visible once
+ * the podcast-digest section's top edge has scrolled to or above the
+ * viewport's own top edge, regardless of how far the reader scrolled inside
+ * the feed itself. `podcastSectionTop` is that section's
+ * `getBoundingClientRect().top` (viewport-relative, so it's ≤0 once the
+ * section has reached or passed the top).
+ */
+export function shouldShowBackToTopSite(podcastSectionTop: number): boolean {
+  return podcastSectionTop <= 0;
+}
+
+/**
+ * MCP variant's back-to-top trigger (acceptance criteria 3–4): visible once
+ * the reader has scrolled roughly one panel-height into `.scroll-area`.
+ * `viewportHeight` guards the not-yet-measured case (0 before layout) so it
+ * never reads as "past threshold" from a bogus 0 >= 0 comparison.
+ */
+export function shouldShowBackToTopMcp(scrollTop: number, viewportHeight: number): boolean {
+  return viewportHeight > 0 && scrollTop >= viewportHeight;
+}
+
 export function initials(name: string): string {
   return name
     .split(/\s+/)

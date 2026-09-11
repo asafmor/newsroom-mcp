@@ -12,6 +12,8 @@ import {
   resolveTheme,
   shortDate,
   shortTime,
+  shouldShowBackToTopMcp,
+  shouldShowBackToTopSite,
   storyMatchesFilters,
   toStorySnapshot,
   unreadCount,
@@ -479,5 +481,37 @@ describe("computeStoryDelta", () => {
 
     expect(delta?.newBullets).toEqual(new Set(["Second"]));
     expect(delta?.badgeText).toBeUndefined();
+  });
+});
+
+describe("shouldShowBackToTopSite", () => {
+  it("hides while the podcast section's top edge hasn't reached the viewport top yet", () => {
+    expect(shouldShowBackToTopSite(1)).toBe(false);
+  });
+
+  it("shows exactly at the boundary — the section's top edge flush with the viewport top", () => {
+    expect(shouldShowBackToTopSite(0)).toBe(true);
+  });
+
+  it("shows once the section has scrolled past the top of the viewport", () => {
+    expect(shouldShowBackToTopSite(-400)).toBe(true);
+  });
+});
+
+describe("shouldShowBackToTopMcp", () => {
+  it("hides below one panel-height of scroll", () => {
+    expect(shouldShowBackToTopMcp(300, 844)).toBe(false);
+  });
+
+  it("shows exactly at the one-panel-height boundary", () => {
+    expect(shouldShowBackToTopMcp(844, 844)).toBe(true);
+  });
+
+  it("shows past one panel-height of scroll", () => {
+    expect(shouldShowBackToTopMcp(2000, 844)).toBe(true);
+  });
+
+  it("never shows before layout has been measured (0 viewport height)", () => {
+    expect(shouldShowBackToTopMcp(0, 0)).toBe(false);
   });
 });
