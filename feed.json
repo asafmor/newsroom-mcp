@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T14:49:33.289Z",
+  "generatedAt": "2026-09-12T16:50:38.185Z",
   "stories": [
     {
       "id": "e8676db7-f184-4809-ae14-9c5959a6122f",
@@ -280,6 +280,34 @@
       ],
       "tags": [
         "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
+      "title": "Anthropic CEO outlines plan to \"pace the frontier\" of AI development",
+      "summary": "Dario Amodei laid out a three-step plan for how Anthropic intends to pace, rather than race, frontier AI development, saying \"we owe it to humanity to try.\"",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-12T16:50:32.829Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T16:50:32.829Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
+          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+          "publishedAt": "2026-09-12T15:52:11.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic's CEO proposes a three-step plan to curb AI development",
+          "url": "https://www.engadget.com/2256718/anthropics-ceo-proposes-a-three-step-plan-to-curb-ai-development/",
+          "publishedAt": "2026-09-12T16:37:31.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -1452,44 +1480,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "58375be5-392f-48b5-9a3b-0f2ab79aa487",
-      "title": "Suno releases v6 music model trained on licensed music",
-      "summary": "Suno released its v6 music-generation model, trained on licensed music with help from Warner and BMG, as copyright litigation against the company continues.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-09T09:32:44.609Z",
-      "lastMeaningfulUpdateAt": "2026-09-09T13:35:35.746Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Suno trained its v6 AI music models with help from Warner and BMG",
-          "url": "https://www.engadget.com/2251539/suno-trained-its-v6-ai-music-models-with-help-from-warner-and-bmg/",
-          "publishedAt": "2026-09-09T09:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
-          "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
-          "publishedAt": "2026-09-09T12:05:34.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Song Generator Suno Releases New Model Developed With Warner Music",
-          "url": "https://gizmodo.com/ai-song-generator-suno-releases-new-model-developed-with-warner-music-2000809180",
-          "publishedAt": "2026-09-09T22:21:32.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "safety"
-      ]
     }
   ],
-  "totalCount": 99,
+  "totalCount": 100,
   "hasMore": true
 }
