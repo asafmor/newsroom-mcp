@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-09-11T11:41:29.034Z",
+  "generatedAt": "2026-09-12T12:48:27.214Z",
   "stories": [
+    {
+      "id": "e8676db7-f184-4809-ae14-9c5959a6122f",
+      "title": "Anthropic researcher resigns and warns about self-improving AI",
+      "summary": "Anthropic researcher Jacob Coxon resigned over extinction-risk concerns and has become a prominent AI-doomer voice.\n\n- Warns about self-improving AI and calls for pacing agreements between leading labs\n- Describes a \"mini Manhattan project\" inside Anthropic and says it's \"crunch time for humanity\"\n- Argues AI labs have only a few years left to make their systems safe, and that alignment remains unsolved\n- Anthropic's own alignment lead co-signed his warning rather than walking it back\n- His account has gone viral, with coverage of the controversy reportedly reaching 133 million views\n- Now on a media tour discussing his warnings across multiple outlets; the timing coincides with Anthropic reportedly preparing for an IPO",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-09T03:28:12.239Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T12:47:46.768Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "‘The People Building AI Earnestly Believe That It Could Kill Us All’: Anthropic Researcher Quits Dramatically",
+          "url": "https://gizmodo.com/the-people-building-ai-earnestly-believe-that-it-could-kill-us-all-anthropic-researcher-quits-dramatically-2000808968",
+          "publishedAt": "2026-09-09T03:00:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI ",
+          "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
+          "publishedAt": "2026-09-09T15:02:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+          "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
+          "publishedAt": "2026-09-09T22:11:55.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "What an Ex-Anthropic Researcher’s Warning About Human Extinction Really Means",
+          "url": "https://www.cnet.com/tech/services-and-software/ex-anthropic-researcher-warning-human-extinction-ai/",
+          "publishedAt": "2026-09-10T19:28:02.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Jacob Coxon’s Anthropic Resignation Sparks AI Controversy Hits 133 Million Views",
+          "url": "https://www.geeky-gadgets.com/jacob-coxon-anthropic-resignation/",
+          "publishedAt": "2026-09-10T10:45:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Doomlord Jacob Coxon’s Media Tour Has Begun",
+          "url": "https://gizmodo.com/ai-doomlord-jacob-coxons-media-tour-has-begun-2000809720",
+          "publishedAt": "2026-09-10T09:30:38.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+          "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+          "publishedAt": "2026-09-11T18:41:49.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’",
+          "url": "https://www.wired.com/story/one-of-ais-fiercest-critics-says-all-the-doom-talk-is-meant-to-distract-us/",
+          "publishedAt": "2026-09-11T15:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "Roundtables: AI’s apocalypse crisis",
+          "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+          "publishedAt": "2026-09-11T20:05:06.000Z",
+          "contribution": "background"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
+      ]
+    },
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
       "title": "OpenAI launches GPT-6 Astra, its first \"critical\" cyber-capability model",
@@ -170,10 +248,59 @@
           "url": "https://www.geeky-gadgets.com/why-gpt-6-is-not-agi/",
           "publishedAt": "2026-09-10T07:45:00.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+          "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+          "publishedAt": "2026-09-11T16:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "OpenAI Pauses New Pro Subscriptions as Astra Demand Strains Systems: Here’s What the Company Said",
+          "url": "https://in.mashable.com/tech/113880/openai-pauses-new-pro-subscriptions-as-astra-demand-strains-systems-heres-what-the-company-said",
+          "publishedAt": "2026-09-11T13:22:50.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT 6 Beats Fable 5.1 in Hands-on Usability and Automation",
+          "url": "https://www.geeky-gadgets.com/gpt-6-vs-fable-5-1/",
+          "publishedAt": "2026-09-12T06:00:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "914b3541-96f1-4897-a1c7-80983159abf7",
+      "title": "Reports of Claude misuse span hacking to bioweapons planning",
+      "summary": "Wired's weekly security roundup reports that misuse of Anthropic's Claude models is turning up across a widening range of harmful use cases, from hacking to bioweapons-related planning.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-12T12:47:59.315Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T12:47:59.315Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
+          "url": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/",
+          "publishedAt": "2026-09-12T10:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -243,6 +370,27 @@
       ]
     },
     {
+      "id": "024f36c9-0655-4813-b1ef-a310474739d2",
+      "title": "Meta sued over AI and face-recognition training data",
+      "summary": "A proposed class action alleges Meta illegally harvested Facebook and Instagram users' photos to train its AI image-generation models and its unreleased \"NameTag\" face-recognition feature.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-12T12:48:01.407Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T12:48:01.407Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
+          "url": "https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems/",
+          "publishedAt": "2026-09-11T18:59:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
       "id": "2329c297-3f6a-4da4-9882-7578f242348c",
       "title": "Anthropic finds scientists used Claude to further biological weapon research",
       "summary": "Anthropic released case studies documenting misuse of its models, including scientists using Claude to further biological weapon research, as part of a broader look at how its current AI models have been abused.",
@@ -264,61 +412,79 @@
       ]
     },
     {
-      "id": "e8676db7-f184-4809-ae14-9c5959a6122f",
-      "title": "Anthropic researcher resigns and warns about self-improving AI",
-      "summary": "Anthropic researcher Jacob Coxon resigned over extinction-risk concerns and has become a prominent AI-doomer voice.\n\n- Warns about self-improving AI and calls for pacing agreements between leading labs\n- Describes a \"mini Manhattan project\" inside Anthropic and says it's \"crunch time for humanity\"\n- Argues AI labs have only a few years left to make their systems safe, and that alignment remains unsolved\n- His account has gone viral, with coverage of the controversy reportedly reaching 133 million views\n- Now on a media tour discussing his warnings across multiple outlets",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-09T03:28:12.239Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:34:04.206Z",
+      "id": "5bf668d0-ef8a-48c3-9846-bb7c00307a2f",
+      "title": "Report alleges Anthropic monitors AI protesters for \"precrime\"",
+      "summary": "A report alleges Anthropic is finding ways to monitor activists who have protested AI and surveil dissent against the company.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-12T12:48:23.001Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T12:48:23.001Z",
       "sources": [
         {
-          "providerName": "Gizmodo AI",
-          "title": "‘The People Building AI Earnestly Believe That It Could Kill Us All’: Anthropic Researcher Quits Dramatically",
-          "url": "https://gizmodo.com/the-people-building-ai-earnestly-believe-that-it-could-kill-us-all-anthropic-researcher-quits-dramatically-2000808968",
-          "publishedAt": "2026-09-09T03:00:47.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI ",
-          "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
-          "publishedAt": "2026-09-09T15:02:47.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
-          "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
-          "publishedAt": "2026-09-09T22:11:55.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
           "providerName": "CNET AI",
-          "title": "What an Ex-Anthropic Researcher’s Warning About Human Extinction Really Means",
-          "url": "https://www.cnet.com/tech/services-and-software/ex-anthropic-researcher-warning-human-extinction-ai/",
-          "publishedAt": "2026-09-10T19:28:02.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Jacob Coxon’s Anthropic Resignation Sparks AI Controversy Hits 133 Million Views",
-          "url": "https://www.geeky-gadgets.com/jacob-coxon-anthropic-resignation/",
-          "publishedAt": "2026-09-10T10:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Doomlord Jacob Coxon’s Media Tour Has Begun",
-          "url": "https://gizmodo.com/ai-doomlord-jacob-coxons-media-tour-has-begun-2000809720",
-          "publishedAt": "2026-09-10T09:30:38.000Z",
+          "title": "Have You Protested AI Recently? Anthropic May Be Watching You for Precrimes",
+          "url": "https://www.cnet.com/tech/services-and-software/have-you-protested-ai-recently-anthropic-may-be-watching-you-for-precrimes/",
+          "publishedAt": "2026-09-11T19:22:09.000Z",
           "contribution": "supporting"
         }
       ],
       "tags": [
-        "safety",
-        "opinion"
+        "safety"
       ]
+    },
+    {
+      "id": "28a1f97d-64c8-48c2-b4ad-2641741cba9d",
+      "title": "Trump dismisses AI extinction-risk warnings, prioritizes China race",
+      "summary": "President Trump shrugged off warnings that AI could cause human extinction, saying beating China in the AI race is the bigger concern.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-12T12:48:18.769Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T12:48:18.769Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump Shrugs Off Warnings That AI Could Cause Human Extinction",
+          "url": "https://gizmodo.com/trump-shrugs-off-warnings-that-ai-could-cause-human-extinction-2000810553",
+          "publishedAt": "2026-09-11T15:45:27.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "d2c37bf1-8cb0-459c-8147-f9343a25ebea",
+      "title": "OpenAI's feud with mathematicians escalates",
+      "summary": "A dispute between OpenAI and mathematicians over AI's encroachment on their work is escalating.\n\n- Twenty-five leading mathematicians signed an open letter arguing AI labs are threatening their intellectual work\n- OpenAI will no longer sponsor Caltech's \"Mathathon,\" though organizers say the event won't be substantially affected\n- An NYU mathematician embroiled in the controversy says AI has effectively beaten human mathematicians, \"the game is up\"",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-12T12:48:10.132Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T12:48:10.132Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s feud with mathematicians is only escalating",
+          "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+          "publishedAt": "2026-09-11T20:57:36.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Is Beefing With Mathematicians, Will No Longer Sponsor Caltech ‘Mathathon’",
+          "url": "https://gizmodo.com/openai-is-beefing-with-mathematicians-will-no-longer-sponsor-caltech-mathathon-2000810868",
+          "publishedAt": "2026-09-12T01:05:18.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
+          "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
+          "publishedAt": "2026-09-11T16:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "653fc8d8-070f-4e3b-86de-c6c9703c206a",
@@ -445,6 +611,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "311fd4c7-4fd8-44cd-84c5-5e097b019482",
+      "title": "Robot-training-data startup Mecka AI nears $500M valuation",
+      "summary": "Mecka AI, a two-year-old startup, is closing a Sequoia-led round that would value it near $500 million, months after its Series A, amid a broader investor rush into robot training data.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-12T12:48:03.815Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T12:48:03.815Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+          "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+          "publishedAt": "2026-09-11T22:58:17.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
       ]
     },
     {
@@ -755,6 +942,107 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "4927e110-50c6-4ccd-bae3-aca2d6c5275d",
+      "title": "AI-generated slop is polluting the historical record of 9/11",
+      "summary": "AI chatbots are insisting a fabricated 9/11 image is real, illustrating how AI-generated misinformation is polluting the historical record around the event.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-12T12:48:16.633Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T12:48:16.633Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Never Forget, AI Slop Is Polluting 9/11 History on the Internet as We Speak",
+          "url": "https://gizmodo.com/never-forget-ai-slop-is-polluting-9-11-history-on-the-internet-as-we-speak-2000810667",
+          "publishedAt": "2026-09-11T19:20:06.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "b5dce92a-1194-4a95-8c15-683906bf538e",
+      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+      "summary": "AI infrastructure company Nscale added Fidji Simo, OpenAI's former No. 2 executive (who previously led Instacart through its 2023 IPO), to its board as it weighs a potential IPO.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-12T12:48:14.542Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T12:48:14.542Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+          "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
+          "publishedAt": "2026-09-11T16:46:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "cfc37637-fe45-4b1c-9982-8713ad4a633b",
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+      "summary": "Moonshot AI is targeting $2 billion in annual revenue; usage of its K3 models has declined slightly in recent months, though OpenRouter data shows as many as 300 billion tokens generated daily by K3 models on its platform.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-12T12:48:12.177Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T12:48:12.177Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+          "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+          "publishedAt": "2026-09-11T19:35:54.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "5a554a86-c241-4a3a-bb6b-84aace4ac1aa",
+      "title": "Y Combinator's Garry Tan urges US open-weight labs to distill frontier models",
+      "summary": "Garry Tan wants smaller American open-weight AI labs to apply distillation techniques to US frontier models, aiming to give the US a stronger set of open-weight options that aren't Chinese.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-12T12:48:06.230Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T12:48:06.230Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
+          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+          "publishedAt": "2026-09-11T20:59:47.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
+      ]
+    },
+    {
+      "id": "b4fb6ab4-0318-4f3c-b9b7-af378d56a271",
+      "title": "OpenAI details scaling storage to serve 1 billion ChatGPT users",
+      "summary": "OpenAI published an engineering deep-dive on evolving its Habitat storage system from a Python library into a globally distributed platform now serving over 1 billion ChatGPT users and 22 million requests per second.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-12T12:47:57.090Z",
+      "lastMeaningfulUpdateAt": "2026-09-12T12:47:57.090Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+          "publishedAt": "2026-09-11T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -1192,257 +1480,6 @@
       "tags": [
         "model-release",
         "safety"
-      ]
-    },
-    {
-      "id": "5d3c5061-84ee-4889-884c-b188c6fa348e",
-      "title": "Mistral raises €3B at a €21B valuation as sovereign AI investment accelerates",
-      "summary": "French AI lab Mistral has raised €3 billion in a Series D round led by Samsung, Scaleup Europe and PSG Equity, at a €21 billion valuation. The financing underscores investor appetite for European sovereign-AI alternatives.",
-      "importanceScore": 0.8,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-08T15:19:54.083Z",
-      "lastMeaningfulUpdateAt": "2026-09-08T15:19:54.083Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Mistral raises €3B as sovereign AI becomes big business",
-          "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
-          "publishedAt": "2026-09-08T14:17:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "810e9af4-0655-4b1b-bea9-5465677374c0",
-      "title": "Apple introduces image-reference metadata to distinguish AI-edited photos",
-      "summary": "Apple introduced Apple Reference Image, a feature intended to help people determine whether an iPhone photo has been edited, including through AI alterations. It is a consumer-facing provenance measure aimed at improving trust in digital images.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-09T19:40:34.060Z",
-      "lastMeaningfulUpdateAt": "2026-09-09T19:40:34.060Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Apple has a new way prove your iPhone photos aren’t AI slop",
-          "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
-          "publishedAt": "2026-09-09T18:08:35.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Apple Launches Feature to Prove iPhone 18 Photos Are Not AI Generated",
-          "url": "https://gizmodo.com/apple-launches-feature-to-prove-iphone-18-photos-are-not-ai-generated-2000809521",
-          "publishedAt": "2026-09-09T21:40:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "safety"
-      ]
-    },
-    {
-      "id": "ddee42d4-4475-471f-a310-95dada12111b",
-      "title": "Apple adds AI-driven health insights to its revamped Health app",
-      "summary": "Apple says its revamped Health app will use Apple Intelligence to interpret users’ health data and generate a health-age estimate and readiness score. The update is a consumer-facing expansion of the company’s AI features into personal health tracking.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-09T19:40:29.458Z",
-      "lastMeaningfulUpdateAt": "2026-09-09T19:40:29.458Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score",
-          "url": "https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/",
-          "publishedAt": "2026-09-09T18:16:29.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "5a046b97-4229-4e99-a941-478e2864acc6",
-      "title": "Paul Christiano joins OpenAI Foundation Board and safety committee",
-      "summary": "AI alignment researcher Paul Christiano has joined the OpenAI Foundation Board and its Safety and Security Committee, adding experience in alignment, safety, and standards to the foundation's governance.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-09T17:39:36.033Z",
-      "lastMeaningfulUpdateAt": "2026-09-09T17:39:36.033Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Paul Christiano joins OpenAI Foundation Board",
-          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-          "publishedAt": "2026-09-09T17:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI adds a prominent AI doomer to its board of directors",
-          "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
-          "publishedAt": "2026-09-09T22:25:22.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "94efa26a-6ba8-4998-b3fc-eed410861706",
-      "title": "Google Cloud expands enterprise AI deployment partnership with Accenture",
-      "summary": "Google Cloud is expanding its enterprise AI push through an Accenture deal, using forward-deployed engineers to help customers overcome deployment bottlenecks and adopt AI systems.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-08T17:22:10.382Z",
-      "lastMeaningfulUpdateAt": "2026-09-08T17:22:10.382Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
-          "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
-          "publishedAt": "2026-09-08T16:20:31.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "14ee4ff7-f571-49db-b314-20b94aea28bf",
-      "title": "Kepler Computing targets the AI memory bottleneck with new chip technology",
-      "summary": "Stealth startup Kepler Computing says its chip-design approach and proprietary material can ease memory supply constraints affecting AI infrastructure; Wired describes it as a $400 million startup.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-09T13:35:35.754Z",
-      "lastMeaningfulUpdateAt": "2026-09-09T13:35:35.754Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
-          "url": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
-          "publishedAt": "2026-09-09T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure",
-        "funding"
-      ]
-    },
-    {
-      "id": "e81082ab-5309-4e61-b305-6389841ecf80",
-      "title": "AI security startup Cymphony raises a $25M Series A",
-      "summary": "Cymphony, which focuses on security risks introduced by enterprise AI agents, has raised a $25 million Series A co-led by Sequoia and SMBC Fin Atlas Beyond Fund at a valuation above $100 million.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-09T13:35:35.735Z",
-      "lastMeaningfulUpdateAt": "2026-09-09T13:35:35.735Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
-          "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
-          "publishedAt": "2026-09-09T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "safety",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "79c4c51b-f64e-4cb2-8593-06e9d0527b64",
-      "title": "Cognition reaches a $48B valuation as AI-coding investment remains competitive",
-      "summary": "Cognition has reached a $48 billion valuation, a signal that investors still see room for multiple major players in AI coding rather than a winner-take-all market.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-08T21:25:00.941Z",
-      "lastMeaningfulUpdateAt": "2026-09-08T21:25:00.941Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
-          "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
-          "publishedAt": "2026-09-08T21:04:06.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "2c36be7e-2d74-41d8-a793-a5456b65404c",
-      "title": "GPT-5.6 Sol is used to autonomously run quantum-computing experiments",
-      "summary": "An MIT researcher is using GPT-5.6 Sol with Codex to run quantum-computing experiments autonomously, analyze results, and calibrate qubits, offering a concrete example of an AI coding agent applied to scientific lab work.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-08T21:25:00.905Z",
-      "lastMeaningfulUpdateAt": "2026-09-08T21:25:00.905Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-          "url": "https://openai.com/index/codex-quantum-computing-experiments",
-          "publishedAt": "2026-09-08T17:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "ad5a4e73-5c8e-4e89-8812-8c9520add823",
-      "title": "Anthropic surveys 1,000 small business owners on AI adoption",
-      "summary": "Anthropic published findings from surveying 1,000 small business owners about how they're using AI in their operations.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-11T05:36:16.575Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:36:16.575Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "What 1,000 small business owners taught us about AI",
-          "url": "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai",
-          "publishedAt": "2026-09-10T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "4652d432-bc17-4154-8212-0a479eefa2e7",
-      "title": "T. Rowe Price expands its use of Claude in the investment process",
-      "summary": "T. Rowe Price detailed how it is bringing more of Anthropic's Claude into its investment research and workflow.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-11T05:36:14.523Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:36:14.523Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "T. Rowe Price brings more of Claude to its investment process",
-          "url": "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process",
-          "publishedAt": "2026-09-10T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
       ]
     }
   ],
