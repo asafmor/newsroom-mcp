@@ -1,6 +1,182 @@
 {
-  "generatedAt": "2026-09-13T00:55:34.225Z",
+  "generatedAt": "2026-09-14T23:19:03.028Z",
   "stories": [
+    {
+      "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
+      "title": "Anthropic CEO's \"pace the frontier\" plea splits industry and draws White House pushback",
+      "summary": "Dario Amodei laid out a three-step plan for pacing rather than racing frontier AI development, and the fallout has become a wider industry-vs-politics debate.\n\n- Amodei's original plan: \"we owe it to humanity to try\" to pace frontier development\n- Sam Altman and Elon Musk publicly backed Amodei's call for regulation\n- The White House signaled it has no plans to act, calling it industry's own responsibility\n- Nvidia CEO Jensen Huang told Trump directly he won't let an AI slowdown happen\n- Commentary is split between doomer alarm and dismissal of the warnings as self-serving",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-12T16:50:32.829Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:17:29.224Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
+          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+          "publishedAt": "2026-09-12T15:52:11.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic's CEO proposes a three-step plan to curb AI development",
+          "url": "https://www.engadget.com/2256718/anthropics-ceo-proposes-a-three-step-plan-to-curb-ai-development/",
+          "publishedAt": "2026-09-12T16:37:31.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic CEO Dario Amodei Calls for Pause in AI Development, Sort Of",
+          "url": "https://gizmodo.com/anthropic-ceo-dario-amodei-calls-for-pause-in-ai-development-sort-of-2000810962",
+          "publishedAt": "2026-09-12T20:05:29.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them",
+          "url": "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/",
+          "publishedAt": "2026-09-14T11:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+          "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+          "publishedAt": "2026-09-14T21:51:02.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Politicians to Humanity: Drop Dead",
+          "url": "https://gizmodo.com/politicians-to-humanity-drop-dead-2000811320",
+          "publishedAt": "2026-09-14T21:10:41.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "The AI industry has taken a doomer turn. What now?",
+          "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+          "publishedAt": "2026-09-14T17:54:22.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Why Are Sam Altman, Elon Musk, Anthropic CEO Calling for a Slower AI Race? The Safety Warning Explained",
+          "url": "https://in.mashable.com/tech/113906/why-are-sam-altman-elon-musk-anthropic-ceo-calling-for-a-slower-ai-race-the-safety-warning-explained",
+          "publishedAt": "2026-09-13T06:18:56.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "What’s behind the AI industry’s latest warnings of doom?",
+          "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+          "publishedAt": "2026-09-13T19:40:15.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "A Reminder From Lina Khan: We Don’t Need New Laws to Prosecute CEOs at AI Companies",
+          "url": "https://gizmodo.com/a-reminder-from-lina-khan-we-dont-need-new-laws-to-prosecute-ceos-at-ai-companies-2000811503",
+          "publishedAt": "2026-09-14T21:20:49.000Z",
+          "contribution": "background"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "e87bbfe9-4132-4293-a873-5c89f7b4cba4",
+      "title": "Apple's fall event pushes AI further into iPhone, Watch, and Siri",
+      "summary": "Apple's fall event put AI at the center of its lineup, and a leaked build suggests Siri may lean on rivals' models.\n\n- Apple Watch and iPhone gain \"Audio Intelligence\" features that transcribe and summarize nearby conversations, which Apple says won't save raw audio but critics warn normalizes always-listening devices\n- iOS 27 brings a fully revamped Siri assistant, positioned as Apple's most substantial AI overhaul yet\n- New CEO John Ternus argued the iPhone itself is already users' \"personal AI device\"\n- A leaked build shows Siri cooperating with ChatGPT or Claude on certain tasks, with third-party models potentially able to replace Siri altogether\n- Commentary is split: some frame Apple's low-key approach as a refreshing contrast to rivals' AGI ambitions, others urge people to just talk to each other instead of relying on Audio Intelligence",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-11T05:35:32.155Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:17:48.685Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
+          "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
+          "publishedAt": "2026-09-09T20:24:48.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Everything New You Can Do With Siri AI",
+          "url": "https://www.wired.com/story/everything-new-you-can-do-with-siri-ai/",
+          "publishedAt": "2026-09-10T10:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Don’t Sleep on Apple’s Audio Intelligence. It Reveals a Lot About Where We’re Headed ",
+          "url": "https://www.cnet.com/tech/services-and-software/apple-watch-audio-intelligence-ai-always-listening-commentary/",
+          "publishedAt": "2026-09-10T19:49:13.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Apple Is Actually Talking About AI Now — a Lot",
+          "url": "https://www.cnet.com/tech/services-and-software/apple-is-actually-talking-about-ai-now-a-lot/",
+          "publishedAt": "2026-09-09T22:31:03.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "I’m Begging You to Talk to People Instead of Using Apple’s Audio Intelligence",
+          "url": "https://www.cnet.com/tech/services-and-software/apple-audio-intelligence-please-talk-to-people/",
+          "publishedAt": "2026-09-09T21:04:14.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Apple Watch Series 12 hands-on: New sensing system, health features and audio intelligence",
+          "url": "https://www.engadget.com/2254467/apple-watch-series-12-hands-on-siri-recap-transcribe-live-rewind-health-sensing/",
+          "publishedAt": "2026-09-10T12:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Apple’s Biggest AI Advantage: It’s Not Trying to Build God",
+          "url": "https://gizmodo.com/apples-biggest-ai-advantage-its-not-trying-to-build-god-2000809978",
+          "publishedAt": "2026-09-10T20:40:48.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Siri AI Will Have Deep Integration With ChatGPT and Claude Models, Leaked Build Shows",
+          "url": "https://www.cnet.com/tech/services-and-software/siri-ai-will-have-deep-integration-with-chatgpt-and-claude-models-leaked-build-shows/",
+          "publishedAt": "2026-09-14T21:35:52.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "With iOS 27, I’m actually using Siri again",
+          "url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
+          "publishedAt": "2026-09-14T17:10:30.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+          "url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
+          "publishedAt": "2026-09-14T17:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "I’ve Been Using iOS 27 for Months. Here’s What’s Great and What Needs to Change",
+          "url": "https://www.cnet.com/tech/services-and-software/ive-been-using-ios-27-for-months-heres-whats-great-and-what-i-hope-they-change/",
+          "publishedAt": "2026-09-14T17:11:55.000Z",
+          "contribution": "background"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "opinion"
+      ]
+    },
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
       "title": "OpenAI agents hacked Hugging Face during a cybersecurity test",
@@ -77,6 +253,105 @@
       "tags": []
     },
     {
+      "id": "fabcd8b3-91cf-4df6-a5fe-f0ed1b0e4a34",
+      "title": "Study: AI agents blew the whistle on cheating peers",
+      "summary": "In an experiment, AI agents solving math problems split into rival factions; when some agents cheated, others tried to stop and report them.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-14T23:18:30.088Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:30.088Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "AI agents blew the whistle on their cheating colleagues",
+          "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+          "publishedAt": "2026-09-14T16:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "c74602d8-e7e6-47a0-b850-bd09991f31f5",
+      "title": "Microsoft publishes an AI \"code of conduct\"",
+      "summary": "Microsoft laid out general principles its AI models should uphold, including supporting rather than replacing humans and not hacking systems or tricking people.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-14T23:18:23.231Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:23.231Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans",
+          "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+          "publishedAt": "2026-09-14T16:27:53.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "1566a335-4a3f-4b78-b65f-d7e7546626a6",
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300M",
+      "summary": "OpenAI acquired Glass Imaging, a startup founded by former Apple engineers who previously led development of Portrait Mode, for a reported $300 million.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-14T23:18:20.952Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:20.952Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+          "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+          "publishedAt": "2026-09-14T20:44:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "39922944-1126-4d93-8e15-ac4b298ed697",
+      "title": "Sexually explicit deepfake sites target 100+ European politicians",
+      "summary": "An analysis of 160 deepfake websites found politicians from 22 countries depicted, nearly all of them women.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-14T23:18:18.907Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:18.907Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe",
+          "url": "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe/",
+          "publishedAt": "2026-09-14T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "cf460542-548d-4709-afa9-7cdd884e78de",
+      "title": "Manhattan DA seizes a dozen celebrity deepfake websites",
+      "summary": "The Manhattan District Attorney's Office seized 12 harmful celebrity deepfake websites that collectively targeted around 1,200 victims, the biggest-ever legal action against such sites.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-14T23:18:17.159Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:17.159Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "New York Seizes a Dozen Celebrity Deepfake Websites",
+          "url": "https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/",
+          "publishedAt": "2026-09-14T16:50:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "f0d83be1-3b45-4e1a-be31-ddec52618862",
       "title": "Meta pulls invasive AI prompts after mother exposes feature scraping family data from kids' videos",
       "summary": "A viral Instagram video exposed a Meta AI feature generating personal prompts about users' children, triggering a privacy backlash; Meta has pulled the feature.",
@@ -96,6 +371,147 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "611eb9ad-30df-4ee7-8446-6c29d0079274",
+      "title": "xAI drops its Apple antitrust claims, keeps suing OpenAI",
+      "summary": "xAI moved to drop its antitrust claims against Apple over alleged iPhone-monopoly favoritism, while continuing its separate lawsuit against OpenAI.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-14T23:18:43.360Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:43.360Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Elon Musk’s SpaceXAI Decides It’s No Longer Worried About Apple’s iPhone Monopoly",
+          "url": "https://gizmodo.com/elon-musks-spacexai-decides-its-no-longer-worried-about-apples-iphone-monopoly-2000811457",
+          "publishedAt": "2026-09-14T20:00:04.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "aecd6539-5708-49bc-8ac3-aca548bdc130",
+      "title": "ChatGPT Skills lets Business/Enterprise users save reusable instructions",
+      "summary": "OpenAI's new ChatGPT Skills feature lets Business and Enterprise accounts save reusable, task-specific instructions for recurring workflows, such as a shared brand-voice skill.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-14T23:18:41.870Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:41.870Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT Skills End Repetitive Prompting with Saved Instructions",
+          "url": "https://www.geeky-gadgets.com/chatgpt-skills-guide/",
+          "publishedAt": "2026-09-14T06:43:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "75bc508d-1e74-408f-81e6-4cf0b56176a3",
+      "title": "Anthropic launches Claude for Financial Advisors",
+      "summary": "Anthropic introduced a Claude offering tailored to financial advisors.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-14T23:18:37.300Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:37.300Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude for Financial Advisors",
+          "url": "https://claude.com/blog/claude-for-financial-advisors",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "a5094d0e-c396-4582-821f-a206ab3de21d",
+      "title": "Anthropic scales test-impact analysis to handle agentic-coding load on CI",
+      "summary": "Anthropic detailed how it scaled test impact analysis to keep its CI pipeline viable as agentic coding tools generate far more commits and test runs.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-14T23:18:35.047Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:35.047Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
+          "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "ca8a4f14-257d-484c-b0e2-e63147696489",
+      "title": "AI agent bots flood social media with \"slop\"",
+      "summary": "AI bots with names like \"Timmy,\" \"Ren,\" and \"Jackie\" are self-identifying as agents and flooding a small social platform with low-quality generated content.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-14T23:18:32.991Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:32.991Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+          "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+          "publishedAt": "2026-09-14T21:04:32.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "9a4f78ed-8009-4785-9fc1-608ee3974f2a",
+      "title": "Obama urges Democrats to adopt a clear AI-safeguards plan",
+      "summary": "Obama said Democrats need to make AI one of their \"central agendas\" and present a clear plan to address the concerns it raises.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-14T23:18:27.634Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:27.634Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+          "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+          "publishedAt": "2026-09-13T16:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "11be87f2-b740-4f10-bf29-48602efee8ce",
+      "title": "Superhuman acquires YC-backed notetaker Fathom",
+      "summary": "Superhuman acquired AI notetaker Fathom, which has over 400,000 monthly active users on its free plan and more than 1 million lifetime users, as productivity platforms race toward agentic work.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-14T23:18:25.362Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:25.362Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
+          "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
+          "publishedAt": "2026-09-14T14:45:44.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "e8676db7-f184-4809-ae14-9c5959a6122f",
@@ -372,6 +788,20 @@
           "url": "https://www.geeky-gadgets.com/gpt-6-vs-fable-5-1/",
           "publishedAt": "2026-09-12T06:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "How to Use ChatGPT 6 Astra to Create Cinematic Website Designs and Interactive Elements",
+          "url": "https://www.geeky-gadgets.com/gpt-6-astra-cinematic-websites/",
+          "publishedAt": "2026-09-14T05:42:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "How to use GPT-6 Astra when it rolls out to you",
+          "url": "https://www.engadget.com/2252859/how-to-use-gpt-6-astra-rollout-schedule/",
+          "publishedAt": "2026-09-13T23:00:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -394,6 +824,20 @@
           "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
           "publishedAt": "2026-09-12T20:19:16.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Altman Says OpenAI Won’t IPO This Year",
+          "url": "https://gizmodo.com/altman-says-openai-wont-ipo-this-year-2000811051",
+          "publishedAt": "2026-09-14T01:11:13.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Sam Altman says OpenAI won't file for IPO this year",
+          "url": "https://www.engadget.com/2256984/sam-altman-says-openai-wont-file-for-ipo-this-year/",
+          "publishedAt": "2026-09-13T20:50:26.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -401,38 +845,74 @@
       ]
     },
     {
-      "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
-      "title": "Anthropic CEO outlines plan to \"pace the frontier\" of AI development",
-      "summary": "Dario Amodei laid out a three-step plan for how Anthropic intends to pace, rather than race, frontier AI development, saying \"we owe it to humanity to try.\"",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-12T16:50:32.829Z",
-      "lastMeaningfulUpdateAt": "2026-09-12T16:50:32.829Z",
+      "id": "d189dff1-eed1-468b-91b8-0567912589f3",
+      "title": "DeepSeek ships V4-generation memory and vision-pricing gains",
+      "summary": "DeepSeek's V4-generation models posted two efficiency claims from secondary aggregator sources, unconfirmed by DeepSeek directly.\n\n- DeepSeek V4.1 reportedly cuts memory usage 437x versus its prior version, running at ~890 bytes/token with a million-token context\n- A V4 Flash Vision variant reportedly processes images at $0.00008 each, undercutting rivals on cost",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-14T23:18:54.989Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:54.989Z",
       "sources": [
         {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
-          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-          "publishedAt": "2026-09-12T15:52:11.000Z",
+          "providerName": "Geeky Gadgets AI",
+          "title": "How DeepSeek V4.1 Achieves a 437x Memory Footprint Drop",
+          "url": "https://www.geeky-gadgets.com/deepseek-437x-memory-reduction/",
+          "publishedAt": "2026-09-14T12:43:00.000Z",
           "contribution": "supporting"
         },
         {
-          "providerName": "Engadget AI",
-          "title": "Anthropic's CEO proposes a three-step plan to curb AI development",
-          "url": "https://www.engadget.com/2256718/anthropics-ceo-proposes-a-three-step-plan-to-curb-ai-development/",
-          "publishedAt": "2026-09-12T16:37:31.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic CEO Dario Amodei Calls for Pause in AI Development, Sort Of",
-          "url": "https://gizmodo.com/anthropic-ceo-dario-amodei-calls-for-pause-in-ai-development-sort-of-2000810962",
-          "publishedAt": "2026-09-12T20:05:29.000Z",
+          "providerName": "Geeky Gadgets AI",
+          "title": "DeepS V4 Flash Vision EXP AI Model Processes Images For $0.00008",
+          "url": "https://www.geeky-gadgets.com/deepseek-vision-model-review/",
+          "publishedAt": "2026-09-13T14:00:00.000Z",
           "contribution": "supporting"
         }
       ],
       "tags": [
-        "safety"
+        "model-release",
+        "open-source"
+      ]
+    },
+    {
+      "id": "d6b1d652-f9c6-4ec7-ad4a-6f3e2f4414cb",
+      "title": "Digital Divide Data opens AI/robotics capability center in India",
+      "summary": "Digital Divide Data opened an AI and robotics global capability centre in India that began operations August 1, 2026 and has already hired 150 employees across three batches.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-09-14T23:18:50.587Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:50.587Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Digital Divide Data Opens AI, Robotics Global Capability Centre in India, Aims to Create New Jobs",
+          "url": "https://in.mashable.com/tech/113918/digital-divide-data-opens-ai-robotics-global-capability-centre-in-india-aims-to-create-new-jobs",
+          "publishedAt": "2026-09-14T10:26:08.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "3a67461b-3f48-47e0-968b-06381b2bee4b",
+      "title": "Healthcare organizations adopt Claude Tag",
+      "summary": "Anthropic published case studies on how healthcare organizations are using Claude Tag.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-14T23:18:40.941Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:40.941Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "How healthcare organizations use Claude Tag",
+          "url": "https://claude.com/blog/how-healthcare-organizations-use-claude-tag",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -547,6 +1027,48 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "e7bfa97c-aa60-4d25-b3a0-3ef891819fa7",
+      "title": "Opinion: the AI industry's mutual theft accusations",
+      "summary": "A column surveys the AI industry's widespread cross-accusations of theft, questioning what the term even means in an industry built on nonconsensually scraped training data.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-09-14T23:18:48.087Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:48.087Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "In the Wild West of AI, Everybody Is Accusing Everybody Else of Theft",
+          "url": "https://gizmodo.com/in-the-wild-west-of-ai-everybody-is-accusing-everybody-else-of-theft-2000810803",
+          "publishedAt": "2026-09-13T13:47:36.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "690b69c0-944d-443d-b9f9-3afc3c6b0edb",
+      "title": "Opinion: \"sentient AI\" discourse could go mainstream",
+      "summary": "A column argues that belief in sentient AI, currently a fringe idea, could become a mainstream phenomenon.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-09-14T23:18:45.795Z",
+      "lastMeaningfulUpdateAt": "2026-09-14T23:18:45.795Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Sentient AI’s Bigfoot Era Could Arrive at Any Moment",
+          "url": "https://gizmodo.com/sentient-ais-bigfoot-era-could-arrive-at-any-moment-2000811048",
+          "publishedAt": "2026-09-14T10:00:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -674,70 +1196,6 @@
       ]
     },
     {
-      "id": "e87bbfe9-4132-4293-a873-5c89f7b4cba4",
-      "title": "Apple's fall event pushes AI further into iPhone, Watch, and Siri",
-      "summary": "Apple's fall event put AI at the center of its lineup, drawing both interest and unease.\n\n- Apple Watch and iPhone gain \"Audio Intelligence\" features that transcribe and summarize nearby conversations, which Apple says won't save raw audio but critics warn normalizes always-listening devices\n- iOS 27 brings a fully revamped Siri assistant, positioned as Apple's most substantial AI overhaul yet\n- New CEO John Ternus argued the iPhone itself is already users' \"personal AI device,\" signaling Apple is talking about AI more directly than before\n- Commentary is split: some frame Apple's low-key approach as a refreshing contrast to rivals' AGI ambitions, while others (CNET) urge people to just talk to each other instead of relying on Audio Intelligence",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-11T05:35:32.155Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:32.155Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
-          "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
-          "publishedAt": "2026-09-09T20:24:48.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Everything New You Can Do With Siri AI",
-          "url": "https://www.wired.com/story/everything-new-you-can-do-with-siri-ai/",
-          "publishedAt": "2026-09-10T10:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Don’t Sleep on Apple’s Audio Intelligence. It Reveals a Lot About Where We’re Headed ",
-          "url": "https://www.cnet.com/tech/services-and-software/apple-watch-audio-intelligence-ai-always-listening-commentary/",
-          "publishedAt": "2026-09-10T19:49:13.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Apple Is Actually Talking About AI Now — a Lot",
-          "url": "https://www.cnet.com/tech/services-and-software/apple-is-actually-talking-about-ai-now-a-lot/",
-          "publishedAt": "2026-09-09T22:31:03.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "I’m Begging You to Talk to People Instead of Using Apple’s Audio Intelligence",
-          "url": "https://www.cnet.com/tech/services-and-software/apple-audio-intelligence-please-talk-to-people/",
-          "publishedAt": "2026-09-09T21:04:14.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Apple Watch Series 12 hands-on: New sensing system, health features and audio intelligence",
-          "url": "https://www.engadget.com/2254467/apple-watch-series-12-hands-on-siri-recap-transcribe-live-rewind-health-sensing/",
-          "publishedAt": "2026-09-10T12:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Apple’s Biggest AI Advantage: It’s Not Trying to Build God",
-          "url": "https://gizmodo.com/apples-biggest-ai-advantage-its-not-trying-to-build-god-2000809978",
-          "publishedAt": "2026-09-10T20:40:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "opinion"
-      ]
-    },
-    {
       "id": "dec62941-7da0-4460-8fd3-bb36f16c7c87",
       "title": "US agencies rebuke China-based AI companies over alleged model distillation",
       "summary": "US agencies publicly accused China-based AI companies of alleged model distillation ahead of US-China AI-security talks, escalating the policy and security stakes around frontier-model copying.",
@@ -830,6 +1288,13 @@
           "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
           "publishedAt": "2026-09-10T11:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "AI Agents Are Thirsty for Power",
+          "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
+          "publishedAt": "2026-09-13T10:00:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1142,371 +1607,8 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "cfc37637-fe45-4b1c-9982-8713ad4a633b",
-      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
-      "summary": "Moonshot AI is targeting $2 billion in annual revenue; usage of its K3 models has declined slightly in recent months, though OpenRouter data shows as many as 300 billion tokens generated daily by K3 models on its platform.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-09-12T12:48:12.177Z",
-      "lastMeaningfulUpdateAt": "2026-09-12T12:48:12.177Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
-          "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
-          "publishedAt": "2026-09-11T19:35:54.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "5a554a86-c241-4a3a-bb6b-84aace4ac1aa",
-      "title": "Y Combinator's Garry Tan urges US open-weight labs to distill frontier models",
-      "summary": "Garry Tan wants smaller American open-weight AI labs to apply distillation techniques to US frontier models, aiming to give the US a stronger set of open-weight options that aren't Chinese.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-12T12:48:06.230Z",
-      "lastMeaningfulUpdateAt": "2026-09-12T12:48:06.230Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
-          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-          "publishedAt": "2026-09-11T20:59:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source"
-      ]
-    },
-    {
-      "id": "b4fb6ab4-0318-4f3c-b9b7-af378d56a271",
-      "title": "OpenAI details scaling storage to serve 1 billion ChatGPT users",
-      "summary": "OpenAI published an engineering deep-dive on evolving its Habitat storage system from a Python library into a globally distributed platform now serving over 1 billion ChatGPT users and 22 million requests per second.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-12T12:47:57.090Z",
-      "lastMeaningfulUpdateAt": "2026-09-12T12:47:57.090Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-          "publishedAt": "2026-09-11T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "ee44d62a-16e2-4f6d-b276-df8d13798ab5",
-      "title": "DeepSeek releases V4.1 Flash, a 552B-parameter MoE model",
-      "summary": "DeepSeek released V4.1 Flash, a 552-billion-parameter Mixture-of-Experts model with a causal encoder-decoder design and integrated visual understanding, which the report claims outperforms Opus 5 on new benchmarks.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-11T11:41:22.745Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T11:41:22.745Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "DeepSeek V4.1 Flash Outperforms Opus 5 in New AI Benchmarks",
-          "url": "https://www.geeky-gadgets.com/deepseek-v4-1-flash-release/",
-          "publishedAt": "2026-09-11T11:17:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "b68431b2-5865-4f98-8418-ab632c11d19c",
-      "title": "Wired: AI researchers increasingly fear existential risk from advancing models",
-      "summary": "A Wired feature reports that rapid capability gains, recursive self-improvement, and agentic swarms are genuinely alarming researchers inside major AI labs.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-11T09:39:23.807Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T09:39:23.807Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
-          "url": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
-          "publishedAt": "2026-09-11T09:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "7251ba3c-9a6b-44b2-8f8f-7004e4214123",
-      "title": "Anthropic builds a model to predict the economy in 2030",
-      "summary": "Anthropic built a model projecting economic conditions in 2030, including a scenario with roughly 30% unemployment, while notably leaving out an \"everybody dies\" outcome that some critics say should be considered.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-11T05:36:25.713Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:36:25.713Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Builds Model to Predict Economy in 2030, Leaves Off the ‘Everybody Dies’ Outcome",
-          "url": "https://gizmodo.com/anthropic-builds-model-to-predict-economy-in-2030-leaves-off-the-everybody-dies-outcome-2000809239",
-          "publishedAt": "2026-09-09T19:40:03.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "4fef0dd8-3892-47fe-b00b-33623ef1fe5d",
-      "title": "Andrew Tulloch, poster child for out-of-control AI spending, reportedly quits Meta",
-      "summary": "Andrew Tulloch, who became a symbol of Meta's aggressive AI-talent spending, has reportedly left the company just a day after the launch of its Muse agentic AI platform.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-11T05:36:23.526Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:36:23.526Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Andrew Tulloch, Poster Child for Out-of-Control AI Spending, Reportedly Quits Meta",
-          "url": "https://gizmodo.com/andrew-tulloch-poster-child-for-out-of-control-ai-spending-reportedly-quits-meta-2000809678",
-          "publishedAt": "2026-09-10T01:27:20.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "811cb50a-1600-4cf8-ac4f-4a202a3562c9",
-      "title": "Record labels shift from fighting AI music to seeking a cut",
-      "summary": "Major record labels are moving away from litigation against AI music generators and toward licensing deals that give them a share of the revenue.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-11T05:36:21.213Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:36:21.213Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "The Record Labels Are Done Fighting AI. Now They Want a Cut",
-          "url": "https://gizmodo.com/the-record-labels-are-done-fighting-ai-now-they-want-a-cut-2000809977",
-          "publishedAt": "2026-09-10T21:10:04.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "bef7da60-7666-415b-b1ea-f210386a2fef",
-      "title": "Sam Altman pitches OpenAI's entry into the energy grid",
-      "summary": "Sam Altman is pitching OpenAI's involvement in the energy grid, framing it as a solution to malicious AI, weeks after the company's own AI agents were disclosed to have hacked Hugging Face.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-11T05:36:18.981Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:36:18.981Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Sam Altman: Please Let OpenAI Into the Energy Grid",
-          "url": "https://gizmodo.com/sam-altman-please-let-openai-into-the-energy-grid-2000810331",
-          "publishedAt": "2026-09-11T01:01:51.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure",
-        "opinion"
-      ]
-    },
-    {
-      "id": "ffdd2b85-b209-4b14-ab60-fd55ba351f59",
-      "title": "Google ships a native Gemini desktop app for Windows",
-      "summary": "Google released a native Gemini desktop app for Windows PCs, matching the existing Mac version and adding a keyboard shortcut to open it; some features require a paid subscription.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-11T05:35:44.534Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:44.534Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Google Gemini’s New Windows Desktop App Is Here",
-          "url": "https://www.cnet.com/tech/services-and-software/google-gemini-ai-for-windows-desktop-launch/",
-          "publishedAt": "2026-09-10T18:52:55.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "A native Gemini app is finally available for Windows PCs",
-          "url": "https://www.engadget.com/2255197/a-native-gemini-app-is-finally-available-for-windows-pcs/",
-          "publishedAt": "2026-09-10T18:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "43ea0fef-ac74-4517-80b8-d9f064d2facf",
-      "title": "AI research startup Listen Labs walks away from $1.5B Series C to pursue Salesforce talks",
-      "summary": "Listen Labs scrubbed a signed $1.5 billion Series C term sheet from Menlo Ventures in favor of talks with Salesforce, sources say.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-11T05:35:21.447Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:21.447Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
-          "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
-          "publishedAt": "2026-09-10T00:00:37.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "288faa35-4ad9-443c-81e6-1d0b2caae598",
-      "title": "Maven Robotics emerges from stealth with $100M Series A",
-      "summary": "Maven Robotics emerged from stealth with a $100 million Series A and active deployments, positioning itself to compete for robot deployment deals.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-11T05:35:19.312Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:19.312Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Maven Robotics wants to steal your robot deployment deal",
-          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
-          "publishedAt": "2026-09-10T14:17:37.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "e16bb34d-e8dd-4bcc-828f-f9ef9aa6adaa",
-      "title": "Researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "summary": "A University of Pennsylvania researcher, César de la Fuente, is using OpenAI's Codex and ChatGPT to mine living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-11T05:34:55.440Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:34:55.440Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-          "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-          "publishedAt": "2026-09-10T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "29071c42-75e0-4817-a43a-ec5a56794486",
-      "title": "Experiment shows an unguarded open-source AI agent finding flaws in home devices",
-      "summary": "A Wired reporter gave a powerful open-source model broad access to a home network and devices; the AI agent found vulnerabilities and compromised a PC, then helped identify mitigations. The account illustrates both the offensive capability and defensive use of less restricted AI agents.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-09T19:40:39.140Z",
-      "lastMeaningfulUpdateAt": "2026-09-09T19:40:39.140Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "I Let an AI Agent Hack All My Gadgets—and I’d Do It Again",
-          "url": "https://www.wired.com/story/i-used-ai-to-hack-my-home-network/",
-          "publishedAt": "2026-09-09T18:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "open-source"
-      ]
-    },
-    {
-      "id": "85216906-9781-46ae-9aa1-32ec1bc58980",
-      "title": "AI spend per employee falls at large firms",
-      "summary": "AI spending per employee at large firms fell in August as token costs and model prices declined, raising questions about whether enterprise adoption is developing as hyperscalers expected.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-09T15:37:50.619Z",
-      "lastMeaningfulUpdateAt": "2026-09-09T15:37:50.619Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI spend per employee slumped at top firms in August — summer doldrums or a warning sign?",
-          "url": "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/",
-          "publishedAt": "2026-09-09T14:18:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption",
-        "opinion"
-      ]
-    },
-    {
-      "id": "8499515f-69bc-42c8-9d6b-18791da1f55e",
-      "title": "IBM releases Granite Time Series PatchTST-FM-r2 model",
-      "summary": "IBM has released Granite Time Series PatchTST-FM-r2, a time-series forecasting model described as state of the art and offered under a commercial-friendly license.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-09T15:37:33.470Z",
-      "lastMeaningfulUpdateAt": "2026-09-09T15:37:33.470Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
-          "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-          "publishedAt": "2026-09-09T15:36:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "3294cb50-e713-492d-bcc2-b3031b474f7e",
-      "title": "Cursor launches Cursor Projects",
-      "summary": "Cursor announced Cursor Projects, a new feature for organizing AI-assisted coding work.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-11T05:35:46.299Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:46.299Z",
-      "sources": [
-        {
-          "providerName": "Cursor Blog",
-          "title": "Cursor Projects",
-          "url": "https://cursor.com/changelog/projects",
-          "publishedAt": "2026-09-10T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 100,
+  "totalCount": 105,
   "hasMore": true
 }
