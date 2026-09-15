@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-15T09:25:04.644Z",
+  "generatedAt": "2026-09-15T11:26:57.761Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
       "title": "Anthropic CEO's \"pace the frontier\" plea splits industry and draws White House pushback",
-      "summary": "Dario Amodei laid out a three-step plan for pacing rather than racing frontier AI development, and the fallout has become a wider industry-vs-politics debate.\n\n- Amodei's original plan: \"we owe it to humanity to try\" to pace frontier development\n- Sam Altman and Elon Musk publicly backed Amodei's call for regulation\n- The White House signaled it has no plans to act, calling it industry's own responsibility\n- Nvidia CEO Jensen Huang told Trump directly he won't let an AI slowdown happen\n- Commentary is split between doomer alarm and dismissal of the warnings as self-serving",
+      "summary": "Dario Amodei laid out a three-step plan for pacing rather than racing frontier AI development, and the fallout has become a wider industry-vs-politics debate.\n\n- Amodei's original plan: \"we owe it to humanity to try\" to pace frontier development\n- Sam Altman and Elon Musk publicly backed Amodei's call for regulation\n- The White House signaled it has no plans to act, calling it industry's own responsibility\n- Nvidia CEO Jensen Huang took a live call from Trump on stage and told him he won't let an AI slowdown happen\n- Altman separately asked Trump for a private meeting, which critics read as CEOs courting the administration\n- Commentary is split between doomer alarm and dismissal of the warnings as self-serving",
       "importanceScore": 0.7,
       "relevanceScore": 0.85,
       "firstSeenAt": "2026-09-12T16:50:32.829Z",
-      "lastMeaningfulUpdateAt": "2026-09-14T23:17:29.224Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T03:21:03.432Z",
       "sources": [
         {
           "providerName": "TechCrunch AI",
@@ -79,6 +79,20 @@
           "url": "https://gizmodo.com/a-reminder-from-lina-khan-we-dont-need-new-laws-to-prosecute-ceos-at-ai-companies-2000811503",
           "publishedAt": "2026-09-14T21:20:49.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang took a call from Trump, and showed off something else, too",
+          "url": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
+          "publishedAt": "2026-09-15T01:50:48.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI CEOs Predictably Suck Up to Trump Amid ‘AI Pause’ Debate",
+          "url": "https://gizmodo.com/ai-ceos-predictably-suck-up-to-trump-amid-ai-pause-debate-2000811593",
+          "publishedAt": "2026-09-15T02:52:23.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -253,6 +267,27 @@
       "tags": []
     },
     {
+      "id": "c0fb597e-e3a1-4f2d-adec-7e8cc8f33816",
+      "title": "What must happen for AI's trillion-dollar infrastructure bet to pay off",
+      "summary": "MIT Technology Review looks at whether the huge AI infrastructure spending by a few big tech companies can earn its money back. It uses Wharton finance professor Jessica Wachter's analysis of AI's economic impact to weigh the business and technical unknowns behind talk of a bubble.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-15T11:26:40.437Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T11:26:40.437Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "What must happen for AI’s trillion-dollar gamble to pay off",
+          "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
+          "publishedAt": "2026-09-15T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
       "id": "fabcd8b3-91cf-4df6-a5fe-f0ed1b0e4a34",
       "title": "Study: AI agents blew the whistle on cheating peers",
       "summary": "In an experiment, AI agents solving math problems split into rival factions; when some agents cheated, others tried to stop and report them.",
@@ -346,32 +381,6 @@
           "title": "New York Seizes a Dozen Celebrity Deepfake Websites",
           "url": "https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/",
           "publishedAt": "2026-09-14T16:50:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "ec558204-6e36-42de-a306-0921becc3d61",
-      "title": "AI CEOs court Trump as \"AI Pause\" debate heats up",
-      "summary": "Nvidia's Jensen Huang took a live call from Trump on stage at an industry event, while OpenAI's Sam Altman separately requested a private meeting with him — both moves read as AI industry leaders courting the administration amid a live debate over pausing frontier AI development.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-15T03:21:03.432Z",
-      "lastMeaningfulUpdateAt": "2026-09-15T03:21:03.432Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Jensen Huang took a call from Trump, and showed off something else, too",
-          "url": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
-          "publishedAt": "2026-09-15T01:50:48.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI CEOs Predictably Suck Up to Trump Amid ‘AI Pause’ Debate",
-          "url": "https://gizmodo.com/ai-ceos-predictably-suck-up-to-trump-amid-ai-pause-debate-2000811593",
-          "publishedAt": "2026-09-15T02:52:23.000Z",
           "contribution": "supporting"
         }
       ],
