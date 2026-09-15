@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T19:33:19.530Z",
+  "generatedAt": "2026-09-15T23:37:27.632Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
@@ -108,6 +108,35 @@
       ]
     },
     {
+      "id": "d6f0f9f7-998d-48c1-95f6-2e92aa23faa9",
+      "title": "Antitrust law is the open question hanging over AI labs' safety coordination",
+      "summary": "Whether rival AI labs may legally coordinate on safety has become a live legal question as OpenAI, Anthropic and Google work together.\n\n- OpenAI has been examining whether antitrust law blocks a coordinated slowdown in AI development\n- The labs' joint safety work puts that untested question in front of regulators\n- Critics read the safety framing as potential cover for competitive coordination",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-11T05:35:36.840Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T23:36:32.985Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
+          "url": "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/",
+          "publishedAt": "2026-09-10T23:28:42.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI, Anthropic, and Google Join Forces for Safety as Antitrust Concerns Mount",
+          "url": "https://gizmodo.com/openai-anthropic-and-google-join-forces-for-safety-as-antitrust-concerns-mount-2000811888",
+          "publishedAt": "2026-09-15T19:45:32.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
+      ]
+    },
+    {
       "id": "5dcc9c26-97ab-4c2f-ab66-e43618872438",
       "title": "Google DeepMind introduces Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "summary": "Google DeepMind announced Gemini 3.8 Live and a Gemini 3.8 Live Extended Thinking variant, extending its Gemini 3.8 lineup.",
@@ -126,6 +155,55 @@
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "8c434be0-633e-4482-8913-15416883f869",
+      "title": "US AI data-center backlash pushes companies to relocate and draws political fire",
+      "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built.\n\n- Opposition is pushing some companies to relocate projects and drawing political fire\n- Big Tech is countering with a multimillion-dollar ad campaign aimed at reversing public disdain\n- The outcry has reached Philadelphia, where officials floated a site in a neighborhood already scarred by a now-defunct oil refinery\n- Environmental-justice concerns in previously industrialized neighborhoods are becoming a central line of attack",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-01T18:56:45.629Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T23:36:29.703Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Fleeing Data Center Backlash at Home, American AI Startup Sets Up Shop In Saudi Arabia",
+          "url": "https://gizmodo.com/fleeing-data-center-backlash-at-home-american-ai-startup-sets-up-shop-in-saudi-arabia-2000805023",
+          "publishedAt": "2026-08-31T15:50:39.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump to Communities Fighting Data Centers: Have Fun Being Poor",
+          "url": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
+          "publishedAt": "2026-08-31T16:35:06.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "At G20, Big Tech and Global Leaders Can’t Escape AI’s Data Center Problem",
+          "url": "https://www.cnet.com/tech/services-and-software/g20-tech-government-leaders-ai-data-centers-protests/",
+          "publishedAt": "2026-09-02T18:42:19.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Hate AI Data Centers? Big Tech’s New Ad Campaign Aims to Change Your Mind",
+          "url": "https://www.cnet.com/tech/services-and-software/hate-ai-data-centers-big-techs-new-ad-campaign-will-try-to-change-your-mind/",
+          "publishedAt": "2026-09-02T23:06:26.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "The AI data center boom is colliding with cities scarred by big industry ",
+          "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+          "publishedAt": "2026-09-15T21:47:38.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -264,6 +342,50 @@
       ]
     },
     {
+      "id": "4694bc53-6968-425f-bf71-0623daeb5b98",
+      "title": "Commerce Department pushed Kalshi to pull its AI compute price tracker",
+      "summary": "Kalshi has reportedly taken down its AI compute price tracker after the Commerce Department pressed the prediction market to remove it over national security concerns.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-15T23:36:49.338Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T23:36:49.338Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Kalshi’s AI Compute Price Tracker Reportedly Pulled Over National Security Concerns",
+          "url": "https://gizmodo.com/kalshis-ai-compute-price-tracker-reportedly-pulled-over-national-security-concerns-2000812005",
+          "publishedAt": "2026-09-15T20:30:54.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "3c635ef2-ddc3-4c67-85aa-c23a9291c10f",
+      "title": "Meta ships a WhatsApp Business MCP server so coding agents can do the setup",
+      "summary": "Meta released a WhatsApp Business MCP server that lets developers hand platform onboarding to AI coding agents such as Claude, Cursor, Codex, and ChatGPT, covering setup, messaging templates, testing, and troubleshooting.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-15T23:36:46.417Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T23:36:46.417Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+          "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+          "publishedAt": "2026-09-15T20:12:53.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "90c67753-946d-4373-9128-eb36411d58bb",
       "title": "OpenAI researcher warns \"runaway industrialization\" could make Earth inhospitable",
       "summary": "An OpenAI researcher warned that AI-driven \"runaway industrialization\" could make Earth inhospitable, part of a growing wave of frontier researchers publicly raising alarms.",
@@ -305,6 +427,27 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "a8540161-1122-4bcb-a98b-1823e623ffb1",
+      "title": "Anthropic is hiring a policy lead for AI in conventional weapons",
+      "summary": "Anthropic has opened a role to shape its policy on AI used with conventional weapons, an opening that sits awkwardly beside the company's own warnings about existential AI risk and invites the obvious question of why such use is permitted at all.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-15T23:36:54.587Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T23:36:54.587Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Worried About AI Ending Humanity, Anthropic Is Hiring Someone to Help Dictate Terms of the End of Humanity",
+          "url": "https://gizmodo.com/worried-about-ai-ending-humanity-anthropic-is-hiring-someone-to-help-dictate-terms-of-the-end-of-humanity-2000811885",
+          "publishedAt": "2026-09-15T20:15:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -626,6 +769,28 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "c41b6682-aae2-4ac3-87f3-8d6f562302ee",
+      "title": "Walt Disney World puts AI summaries and a planning chatbot on its booking site",
+      "summary": "Disney is adding AI to Walt Disney World's booking site in an upcoming beta, showing some guests AI-generated summaries and letting them plan vacations conversationally with a chatbot.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-15T23:36:57.946Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T23:36:57.946Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Walt Disney World Brings AI Into Its Booking Site",
+          "url": "https://www.cnet.com/tech/services-and-software/walt-disney-world-brings-ai-into-its-booking-site/",
+          "publishedAt": "2026-09-15T18:19:47.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption",
+        "product-launch"
       ]
     },
     {
@@ -1469,167 +1634,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "5bf668d0-ef8a-48c3-9846-bb7c00307a2f",
-      "title": "Report alleges Anthropic monitors AI protesters for \"precrime\"",
-      "summary": "A report alleges Anthropic is finding ways to monitor activists who have protested AI and surveil dissent against the company.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-12T12:48:23.001Z",
-      "lastMeaningfulUpdateAt": "2026-09-12T12:48:23.001Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Have You Protested AI Recently? Anthropic May Be Watching You for Precrimes",
-          "url": "https://www.cnet.com/tech/services-and-software/have-you-protested-ai-recently-anthropic-may-be-watching-you-for-precrimes/",
-          "publishedAt": "2026-09-11T19:22:09.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "28a1f97d-64c8-48c2-b4ad-2641741cba9d",
-      "title": "Trump dismisses AI extinction-risk warnings, prioritizes China race",
-      "summary": "President Trump shrugged off warnings that AI could cause human extinction, saying beating China in the AI race is the bigger concern.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-12T12:48:18.769Z",
-      "lastMeaningfulUpdateAt": "2026-09-12T12:48:18.769Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Shrugs Off Warnings That AI Could Cause Human Extinction",
-          "url": "https://gizmodo.com/trump-shrugs-off-warnings-that-ai-could-cause-human-extinction-2000810553",
-          "publishedAt": "2026-09-11T15:45:27.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
-    },
-    {
-      "id": "d2c37bf1-8cb0-459c-8147-f9343a25ebea",
-      "title": "OpenAI's feud with mathematicians escalates",
-      "summary": "A dispute between OpenAI and mathematicians over AI's encroachment on their work is escalating.\n\n- Twenty-five leading mathematicians signed an open letter arguing AI labs are threatening their intellectual work\n- OpenAI will no longer sponsor Caltech's \"Mathathon,\" though organizers say the event won't be substantially affected\n- An NYU mathematician embroiled in the controversy says AI has effectively beaten human mathematicians, \"the game is up\"",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-12T12:48:10.132Z",
-      "lastMeaningfulUpdateAt": "2026-09-12T12:48:10.132Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s feud with mathematicians is only escalating",
-          "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
-          "publishedAt": "2026-09-11T20:57:36.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Is Beefing With Mathematicians, Will No Longer Sponsor Caltech ‘Mathathon’",
-          "url": "https://gizmodo.com/openai-is-beefing-with-mathematicians-will-no-longer-sponsor-caltech-mathathon-2000810868",
-          "publishedAt": "2026-09-12T01:05:18.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
-          "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
-          "publishedAt": "2026-09-11T16:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "653fc8d8-070f-4e3b-86de-c6c9703c206a",
-      "title": "California Governor Newsom signs landmark AI regulation laws",
-      "summary": "California Governor Newsom signed a package of AI bills into law, drawing endorsement from OpenAI and Anthropic but criticism from other quarters.\n\n- Laws target youth use of social media and AI chatbots, aimed at protecting minors\n- Broader AI regulation bills in the package were industry-approved, with OpenAI and Anthropic both giving a thumbs up\n- Critics say the rules are not universally supported and question how effectively industry-endorsed legislation protects the public",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-11T05:35:54.122Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:54.122Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "CA governor signs 'landmark' laws on youth use of social media and AI chatbots",
-          "url": "https://www.engadget.com/2255569/ca-governor-signs-landmark-laws-on-youth-use-of-social-media-and-ai-chatbots/",
-          "publishedAt": "2026-09-10T22:45:45.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Newsom Signs AI Industry-Approved AI Regulation Bills Into Law in California",
-          "url": "https://gizmodo.com/newsom-signs-ai-industry-approved-ai-regulation-bills-into-law-in-california-2000809702",
-          "publishedAt": "2026-09-10T02:34:20.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
-    },
-    {
-      "id": "dec62941-7da0-4460-8fd3-bb36f16c7c87",
-      "title": "US agencies rebuke China-based AI companies over alleged model distillation",
-      "summary": "US agencies publicly accused China-based AI companies of alleged model distillation ahead of US-China AI-security talks, escalating the policy and security stakes around frontier-model copying.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-09T09:32:44.617Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:33:58.616Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "U.S. Agencies Issue Stern Rebuke of China-Based AI Companies Over Alleged Distillation",
-          "url": "https://gizmodo.com/u-s-agencies-issue-stern-rebuke-of-china-based-ai-companies-over-alleged-distillation-2000808988",
-          "publishedAt": "2026-09-09T09:00:31.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "US authorities accuse Chinese AI companies of industrial-scale campaigns to copy American models",
-          "url": "https://www.engadget.com/2253604/us-authorities-accuse-chinese-ai-companies-of-industrial-scale-campaigns-to-copy-american-models/",
-          "publishedAt": "2026-09-09T11:12:22.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
-          "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
-          "publishedAt": "2026-09-10T20:57:30.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "311fd4c7-4fd8-44cd-84c5-5e097b019482",
-      "title": "Robot-training-data startup Mecka AI nears $500M valuation",
-      "summary": "Mecka AI, a two-year-old startup, is closing a Sequoia-led round that would value it near $500 million, months after its Series A, amid a broader investor rush into robot training data.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-12T12:48:03.815Z",
-      "lastMeaningfulUpdateAt": "2026-09-12T12:48:03.815Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-          "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
-          "publishedAt": "2026-09-11T22:58:17.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
     }
   ],
-  "totalCount": 114,
+  "totalCount": 116,
   "hasMore": true
 }
