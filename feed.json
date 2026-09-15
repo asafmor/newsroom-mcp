@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T13:28:04.422Z",
+  "generatedAt": "2026-09-15T15:29:23.551Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
@@ -429,6 +429,46 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "d23e21f8-cdf9-445c-a62b-a32726ead5e1",
+      "title": "Cloudflare lets sites block AI training crawlers while staying visible in search",
+      "summary": "Cloudflare introduced new crawler controls and an \"Accountable\" designation that let site owners disallow AI training use while remaining discoverable in search, built on a shared model with Apple, Google, and Microsoft.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-15T15:29:11.072Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T15:29:11.072Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Have it both ways: stay discoverable in search while disallowing AI training",
+          "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+          "publishedAt": "2026-09-15T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "b2c6e28d-8f71-4921-9203-999f3f2f170e",
+      "title": "AEO startup Profound hits $1.8B unicorn valuation with $180M Series D",
+      "summary": "Profound, an answer-engine-optimization startup that helps brands track visibility in AI chat answers, raised a $180M Series D at a $1.8B valuation, less than seven months after its $96M Series C.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-15T15:29:06.887Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T15:29:06.887Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
+          "publishedAt": "2026-09-15T15:22:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
     },
     {
       "id": "f0d83be1-3b45-4e1a-be31-ddec52618862",
@@ -928,6 +968,27 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "2ecd4992-3150-4a80-8bfc-4081b0ba9777",
+      "title": "Meta launches new Meta One subscription tiers for businesses, creators, and \"AI power users\"",
+      "summary": "Meta introduced Meta One, a set of subscription plans ranging from $2.99 to $499 per month targeted at businesses, creators, and heavy AI users.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-09-15T15:29:13.435Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T15:29:13.435Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Meta adds new subscription tiers for businesses, creators and 'AI power users'",
+          "url": "https://www.engadget.com/2258403/meta-adds-new-subscription-tiers-for-businesses-creators-and-ai-power-users/",
+          "publishedAt": "2026-09-15T15:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1495,6 +1556,27 @@
       ]
     },
     {
+      "id": "c0faeaee-31e3-4ee6-93e8-a285a89f58d3",
+      "title": "Ex-TikTok execs launch Superpose, an AI photo-posing coach app",
+      "summary": "Superpose, a camera app from former TikTok executives backed by Khosla Ventures, analyzes selfies and generates four AI-suggested poses to help users take better photos.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.4,
+      "firstSeenAt": "2026-09-15T15:29:08.703Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T15:29:08.703Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Former TikTok execs built an app that uses AI to teach you how to pose for a photo",
+          "url": "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/",
+          "publishedAt": "2026-09-15T14:42:37.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "c3705208-1ad6-4b5b-bf44-f90d060e4a14",
       "title": "NASA and IBM build an AI model for exploring the Moon",
       "summary": "NASA and IBM collaborated on an AI model of the Moon intended to support exploration during the Artemis era.",
@@ -1537,102 +1619,8 @@
         "regulation",
         "safety"
       ]
-    },
-    {
-      "id": "6a93c682-27dd-4db2-ae7f-a775fc56b0b9",
-      "title": "Massachusetts hits data centers with new clean power rules",
-      "summary": "Massachusetts became the third state in as many months to impose new restrictions on data center development, part of a growing state-level pushback on AI infrastructure's power demands.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-11T05:35:23.854Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:23.854Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Massachusetts hits data centers with new clean power rules",
-          "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
-          "publishedAt": "2026-09-09T21:43:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "862e552d-285e-488f-9afa-c786cc8a19f4",
-      "title": "India's Pocket FM doubles revenue run rate to $500M with AI-produced audio",
-      "summary": "Pocket FM says AI now powers 93% of its audio content and produces 99% of new content, making production about 80 times cheaper and helping double its revenue run rate to $500M.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-11T05:35:14.040Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:14.040Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
-          "url": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/",
-          "publishedAt": "2026-09-10T17:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "be2d7b8b-d4cb-4b48-9195-c07cdbe39bb6",
-      "title": "OpenAI expands AI access and cyber defense for US public-sector agencies",
-      "summary": "OpenAI and the GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-11T05:35:02.363Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:02.363Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-          "url": "https://openai.com/index/expanding-ai-access-us-government",
-          "publishedAt": "2026-09-10T07:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption",
-        "product-launch"
-      ]
-    },
-    {
-      "id": "6bb21b63-26eb-4455-83e9-5c522f9818a8",
-      "title": "OpenAI introduces ChatGPT for Financial Services",
-      "summary": "OpenAI launched ChatGPT for Financial Services, combining built-in financial data with GPT-6 Astra for research, modeling, and client-ready materials.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-11T05:35:00.081Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:00.081Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Introducing ChatGPT for Financial Services",
-          "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-          "publishedAt": "2026-09-10T07:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "ChatGPT for Financial Services Debuts With GPT-6 Astra: Here’s What OpenAI Is Offering",
-          "url": "https://in.mashable.com/tech/113870/chatgpt-for-financial-services-debuts-with-gpt-6-astra-heres-what-openai-is-offering",
-          "publishedAt": "2026-09-11T09:12:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 108,
+  "totalCount": 109,
   "hasMore": true
 }
