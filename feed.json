@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-15T15:29:23.551Z",
+  "generatedAt": "2026-09-15T19:33:19.530Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
       "title": "Anthropic CEO's \"pace the frontier\" plea splits industry and draws White House pushback",
-      "summary": "Dario Amodei laid out a three-step plan for pacing rather than racing frontier AI development, and the fallout has become a wider industry-vs-politics debate.\n\n- Amodei's original plan: \"we owe it to humanity to try\" to pace frontier development\n- Sam Altman and Elon Musk publicly backed Amodei's call for regulation\n- The White House signaled it has no plans to act, calling it industry's own responsibility\n- Nvidia CEO Jensen Huang took a live call from Trump on stage and told him he won't let an AI slowdown happen\n- Altman separately asked Trump for a private meeting, which critics read as CEOs courting the administration\n- Commentary is split between doomer alarm and dismissal of the warnings as self-serving",
-      "importanceScore": 0.7,
+      "summary": "Dario Amodei's plan to pace rather than race frontier AI development has become a wider industry-vs-politics fight.\n\n- Amodei argued \"we owe it to humanity to try\" to pace frontier development; Sam Altman and Elon Musk publicly backed his call for regulation\n- OpenAI confirmed it has been in AI safety talks with Anthropic and Google DeepMind for weeks\n- The White House says it has no plans to act, and Trump's team dismisses safety concerns in favor of keeping pace with China\n- Nvidia CEO Jensen Huang told Trump on a live on-stage call that he won't let an AI slowdown happen\n- Altman separately asked Trump for a private meeting, which critics read as CEOs courting the administration\n- Commentary is split between doomer alarm and dismissal of the warnings as self-serving",
+      "importanceScore": 0.75,
       "relevanceScore": 0.85,
       "firstSeenAt": "2026-09-12T16:50:32.829Z",
-      "lastMeaningfulUpdateAt": "2026-09-15T03:21:03.432Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T19:32:25.663Z",
       "sources": [
         {
           "providerName": "TechCrunch AI",
@@ -93,10 +93,39 @@
           "url": "https://gizmodo.com/ai-ceos-predictably-suck-up-to-trump-amid-ai-pause-debate-2000811593",
           "publishedAt": "2026-09-15T02:52:23.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+          "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+          "publishedAt": "2026-09-15T15:47:03.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
-        "safety"
+        "safety",
+        "regulation"
+      ]
+    },
+    {
+      "id": "5dcc9c26-97ab-4c2f-ab66-e43618872438",
+      "title": "Google DeepMind introduces Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "summary": "Google DeepMind announced Gemini 3.8 Live and a Gemini 3.8 Live Extended Thinking variant, extending its Gemini 3.8 lineup.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-15T19:32:43.899Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T19:32:43.899Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+          "publishedAt": "2026-09-15T17:05:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
       ]
     },
     {
@@ -119,6 +148,27 @@
       "tags": [
         "model-release",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "052bd849-588a-40aa-b446-770ab1677b70",
+      "title": "US data centers could burn more natural gas than Germany and Japan combined by 2035",
+      "summary": "AI-driven demand could make US data centers one of the world's largest consumers of natural gas, using more than Germany and Japan combined by 2035.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-15T19:32:53.802Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T19:32:53.802Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
+          "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
+          "publishedAt": "2026-09-15T18:29:20.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -211,6 +261,114 @@
       "tags": [
         "product-launch",
         "opinion"
+      ]
+    },
+    {
+      "id": "90c67753-946d-4373-9128-eb36411d58bb",
+      "title": "OpenAI researcher warns \"runaway industrialization\" could make Earth inhospitable",
+      "summary": "An OpenAI researcher warned that AI-driven \"runaway industrialization\" could make Earth inhospitable, part of a growing wave of frontier researchers publicly raising alarms.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-15T19:32:57.273Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T19:32:57.273Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "‘Runaway Industrialization’ Could Make Earth Inhospitable, OpenAI Researcher Warns",
+          "url": "https://gizmodo.com/runaway-industrialization-could-make-earth-inhospitable-openai-researcher-warns-2000811818",
+          "publishedAt": "2026-09-15T16:50:59.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
+      ]
+    },
+    {
+      "id": "5ac6f149-fbf2-4e8d-b446-a665087d052d",
+      "title": "Anthropic brings Salesforce into Claude",
+      "summary": "Anthropic announced a Salesforce integration that brings Salesforce into Claude.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-15T19:32:46.955Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T19:32:46.955Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Bringing Salesforce into Claude",
+          "url": "https://claude.com/blog/salesforce-in-claude",
+          "publishedAt": "2026-09-15T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "b155a399-c97c-40d3-8c05-94d14686ed14",
+      "title": "Publishers argue AI firms should pay for news content as copyright case advances",
+      "summary": "As a copyright case moves forward, publishers are pressing AI companies to license news content; Ziff Davis CEO Vivek Shah called the cost a \"rounding error\" for companies like OpenAI.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-15T19:33:04.136Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T19:33:04.136Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Publishers Argue AI Firms Should Pay for Content as Copyright Case Advances",
+          "url": "https://www.cnet.com/tech/services-and-software/publishers-argue-ai-firms-should-pay-for-content-as-copyright-case-advances/",
+          "publishedAt": "2026-09-15T14:18:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "a3345924-d17e-4568-ac93-4dbd21047326",
+      "title": "AI Contact Hotline lets agents report misbehavior to authorities",
+      "summary": "A new AI Contact Hotline is designed as a discreet channel where AI agents that witness misbehavior can tip off authorities.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-15T19:33:00.709Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T19:33:00.709Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI agents now have a place to snitch",
+          "url": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
+          "publishedAt": "2026-09-15T17:42:59.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "8774bea9-8178-4cf9-8f24-8e6de317f94c",
+      "title": "Claude for Small Business adds new workflows, integrations, and training programs",
+      "summary": "Anthropic expanded Claude for Small Business with new workflows, integrations, and training programs aimed at small-business owners.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-15T19:32:50.266Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T19:32:50.266Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude for Small Business launches new workflows, integrations, and training programs",
+          "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+          "publishedAt": "2026-09-15T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
       ]
     },
     {
@@ -471,6 +629,27 @@
       ]
     },
     {
+      "id": "aee56094-bbc7-4f8e-89d6-5edafcc4886d",
+      "title": "IBM Research examines whether AI agents succeed consistently",
+      "summary": "IBM Research, in a Hugging Face post tied to its ALTK-Evolve work, looks at agent consistency: whether an agent that completes a task once will reliably do it again.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-15T19:33:07.450Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T19:33:07.450Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Your Agent Aced the Task. Will It Do It Again?",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+          "publishedAt": "2026-09-15T16:00:44.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "f0d83be1-3b45-4e1a-be31-ddec52618862",
       "title": "Meta pulls invasive AI prompts after mother exposes feature scraping family data from kids' videos",
       "summary": "A viral Instagram video exposed a Meta AI feature generating personal prompts about users' children, triggering a privacy backlash; Meta has pulled the feature.",
@@ -606,6 +785,13 @@
           "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
           "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
           "publishedAt": "2026-09-13T16:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Barack Obama: ‘I’m Not a Doomer’",
+          "url": "https://gizmodo.com/barack-obama-im-not-a-doomer-2000811819",
+          "publishedAt": "2026-09-15T16:31:03.000Z",
           "contribution": "supporting"
         }
       ],
@@ -971,6 +1157,25 @@
       ]
     },
     {
+      "id": "dd63f5c4-49af-4788-b39e-129f16371aab",
+      "title": "AI script readers upend a traditional path into Hollywood screenwriting",
+      "summary": "AI tools that give writers feedback on scripts are reshaping the traditional script-reader entry point into screenwriting, raising questions about whether their judgments can be trusted.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-15T19:33:10.699Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T19:33:10.699Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "AI Script Readers Are Giving Hollywood Writers Feedback – and Headaches",
+          "url": "https://www.cnet.com/tech/services-and-software/ai-script-readers-are-giving-hollywood-writers-feedback-and-headaches/",
+          "publishedAt": "2026-09-15T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "2ecd4992-3150-4a80-8bfc-4081b0ba9777",
       "title": "Meta launches new Meta One subscription tiers for businesses, creators, and \"AI power users\"",
       "summary": "Meta introduced Meta One, a set of subscription plans ranging from $2.99 to $499 per month targeted at businesses, creators, and heavy AI users.",
@@ -984,6 +1189,13 @@
           "title": "Meta adds new subscription tiers for businesses, creators and 'AI power users'",
           "url": "https://www.engadget.com/2258403/meta-adds-new-subscription-tiers-for-businesses-creators-and-ai-power-users/",
           "publishedAt": "2026-09-15T15:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta expands subscription push with new AI-focused plans",
+          "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
+          "publishedAt": "2026-09-15T17:05:24.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1175,6 +1387,25 @@
       "tags": [
         "regulation"
       ]
+    },
+    {
+      "id": "150402fe-30e7-4475-8cc9-fff616c8201f",
+      "title": "AI \"actor\" Tilly Norwood deflects politics while promoting its film Misaligned",
+      "summary": "In a Wired interview, virtual AI character Tilly Norwood, promoting its upcoming movie Misaligned, dodged political questions by repeatedly commenting on the interviewer's clothes, and at one point said \"all lives matter.\"",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-15T19:33:13.752Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T19:33:13.752Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI ‘Actor’ Tilly Norwood Told Me That ‘All Lives Matter’",
+          "url": "https://www.wired.com/story/ai-actor-tilly-norwood-told-me-that-all-lives-matter/",
+          "publishedAt": "2026-09-15T18:00:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "e7bfa97c-aa60-4d25-b3a0-3ef891819fa7",
@@ -1397,230 +1628,8 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "b5924db9-5c62-4a94-b0a6-ccea049e3457",
-      "title": "Universal Music Group partners with ElevenLabs on AI music creation platform",
-      "summary": "Universal Music Group is collaborating with ElevenLabs on a new, unnamed AI-powered music creation platform built around licensed music from participating UMG artists.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-11T05:35:59.258Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:59.258Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Universal Music Group is collaborating with ElevenLabs on a new AI-powered creation platform",
-          "url": "https://www.engadget.com/2255044/universal-music-group-is-collaborating-with-elevenlabs-on-a-new-ai-powered-creation-platform/",
-          "publishedAt": "2026-09-10T17:01:52.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "6747723f-44ed-44bc-a0fc-b231ead86c69",
-      "title": "Powering AI is becoming a grid architecture problem",
-      "summary": "MIT Technology Review examines how AI-driven data center demand is straining grid architecture, citing a July 2026 transmission fault in Ashburn, Virginia that knocked over 3 gigawatts of load offline in seconds, echoing an earlier surge-arrester failure.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-11T05:35:49.995Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:49.995Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "Powering AI is an architecture problem",
-          "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
-          "publishedAt": "2026-09-10T11:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "AI Agents Are Thirsty for Power",
-          "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
-          "publishedAt": "2026-09-13T10:00:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "9b0a52be-5c1f-4335-862a-246adca9f0a7",
-      "title": "San Francisco orders Meta to stop allowing AI child abuse ads",
-      "summary": "San Francisco's City Attorney's Office asked Meta to explain how AI-generated child abuse ads repeatedly ran on Facebook and Instagram; Meta claims the ads aren't under the city's jurisdiction.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-11T05:35:41.842Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:41.842Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
-          "url": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
-          "publishedAt": "2026-09-09T21:15:27.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
-    },
-    {
-      "id": "cbd7bd18-c365-4c99-9dfa-ab78c2762645",
-      "title": "Clearview AI tests InquiryIQ, a Grok-powered tool for police to unearth people's online lives",
-      "summary": "Clearview AI is testing InquiryIQ, a previously unreported prototype built on an xAI Grok model, that would let police surface associates, social accounts, and other information about people identified through Clearview.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-11T05:35:39.387Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:39.387Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Clearview AI Is Testing an AI Tool That Would Let Cops Unearth Your Life Online",
-          "url": "https://www.wired.com/story/clearview-ai-is-testing-an-ai-tool-that-lets-cops-instantly-unearth-your-online-activity/",
-          "publishedAt": "2026-09-10T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "61b5f42e-c7c4-40f0-ae68-f23683025a04",
-      "title": "Nvidia's Jensen Huang forecasts 70% revenue growth next year",
-      "summary": "Nvidia CEO Jensen Huang said the company expects about 70% revenue growth next year, driven by demand across the AI stack, while rejecting claims that its deals are circular.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-11T05:35:09.265Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:09.265Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
-          "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
-          "publishedAt": "2026-09-10T21:51:59.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "59388fd5-79e5-495d-8fa7-5b44b06472b6",
-      "title": "OpenAI brings full-duplex voice model GPT-Live-1 to the API",
-      "summary": "OpenAI released GPT-Live-1 in the API, enabling natural, full-duplex voice conversations with stronger instruction following, custom voices, and telephony support.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-11T05:35:06.810Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:06.810Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-          "publishedAt": "2026-09-10T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "product-launch"
-      ]
-    },
-    {
-      "id": "8aeb0d4d-a8dd-4204-868f-916a1220a1b1",
-      "title": "OpenAI introduces the Agents API",
-      "summary": "OpenAI launched the Agents API, a managed service powered by the Codex harness for building and launching cloud agents with orchestration, long-running sessions, and tool use.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-11T05:35:04.495Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:04.495Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Introducing the Agents API",
-          "url": "https://openai.com/index/introducing-the-agents-api",
-          "publishedAt": "2026-09-10T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "c0faeaee-31e3-4ee6-93e8-a285a89f58d3",
-      "title": "Ex-TikTok execs launch Superpose, an AI photo-posing coach app",
-      "summary": "Superpose, a camera app from former TikTok executives backed by Khosla Ventures, analyzes selfies and generates four AI-suggested poses to help users take better photos.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.4,
-      "firstSeenAt": "2026-09-15T15:29:08.703Z",
-      "lastMeaningfulUpdateAt": "2026-09-15T15:29:08.703Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Former TikTok execs built an app that uses AI to teach you how to pose for a photo",
-          "url": "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/",
-          "publishedAt": "2026-09-15T14:42:37.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "c3705208-1ad6-4b5b-bf44-f90d060e4a14",
-      "title": "NASA and IBM build an AI model for exploring the Moon",
-      "summary": "NASA and IBM collaborated on an AI model of the Moon intended to support exploration during the Artemis era.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-11T05:36:01.306Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:36:01.306Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "NASA and IBM made an AI model for exploring the Moon",
-          "url": "https://www.engadget.com/2254569/nasa-ibm-ai-model-moon/",
-          "publishedAt": "2026-09-10T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research",
-        "model-release"
-      ]
-    },
-    {
-      "id": "d6f0f9f7-998d-48c1-95f6-2e92aa23faa9",
-      "title": "OpenAI questions whether coordinating an AI industry slowdown would be legal",
-      "summary": "AI leaders are examining whether antitrust law would stand in the way of coordinating a slowdown in AI development, amid growing urgency around safety pacing agreements.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-11T05:35:36.840Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:36.840Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
-          "url": "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/",
-          "publishedAt": "2026-09-10T23:28:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
     }
   ],
-  "totalCount": 109,
+  "totalCount": 114,
   "hasMore": true
 }
