@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T11:26:57.761Z",
+  "generatedAt": "2026-09-15T13:28:04.422Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
@@ -97,6 +97,28 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "de947364-da89-47a9-bf8a-8681f90bb803",
+      "title": "Salesforce and Nvidia launch Koa, a reasoning model for sales, marketing, and support",
+      "summary": "Salesforce released Koa, a reasoning model built on Nvidia's open-weight Nemotron and trained specifically for sales, marketing, and customer-support tasks, a domain-specialized approach TechCrunch frames as a threat to frontier AI labs' enterprise business.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-15T13:27:49.930Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T13:27:49.930Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
+          "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+          "publishedAt": "2026-09-15T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "enterprise-adoption"
       ]
     },
     {
@@ -265,6 +287,28 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "4427fcca-7960-43fd-9fad-5cc0b75138b5",
+      "title": "AI agent underwriting startup AIUC raises $40M Series A",
+      "summary": "Artificial Intelligence Underwriting Company (AIUC), founded by an early Anthropic hire and METR's former COO to rein in rogue AI agents, raised a $40 million Series A led by Ribbit Capital with participation from First Harmonic.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-15T13:27:53.614Z",
+      "lastMeaningfulUpdateAt": "2026-09-15T13:27:53.614Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+          "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+          "publishedAt": "2026-09-15T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "safety"
+      ]
     },
     {
       "id": "c0fb597e-e3a1-4f2d-adec-7e8cc8f33816",
@@ -1587,49 +1631,8 @@
         "product-launch",
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "ffdcdfc2-ea74-4520-be1f-99bf10789e72",
-      "title": "OpenAI launches a Data agent in ChatGPT Work",
-      "summary": "OpenAI introduced a Data agent in ChatGPT Work that connects to company data and builds interactive dashboards from natural-language requests.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-11T05:34:57.913Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:34:57.913Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Now everyone can put data to work",
-          "url": "https://openai.com/index/put-data-to-work",
-          "publishedAt": "2026-09-10T15:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "4927e110-50c6-4ccd-bae3-aca2d6c5275d",
-      "title": "AI-generated slop is polluting the historical record of 9/11",
-      "summary": "AI chatbots are insisting a fabricated 9/11 image is real, illustrating how AI-generated misinformation is polluting the historical record around the event.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-09-12T12:48:16.633Z",
-      "lastMeaningfulUpdateAt": "2026-09-12T12:48:16.633Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Never Forget, AI Slop Is Polluting 9/11 History on the Internet as We Speak",
-          "url": "https://gizmodo.com/never-forget-ai-slop-is-polluting-9-11-history-on-the-internet-as-we-speak-2000810667",
-          "publishedAt": "2026-09-11T19:20:06.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 105,
+  "totalCount": 108,
   "hasMore": true
 }
