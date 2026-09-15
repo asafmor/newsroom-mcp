@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T05:22:39.088Z",
+  "generatedAt": "2026-09-15T09:25:04.644Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
@@ -620,7 +620,7 @@
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
       "title": "OpenAI launches GPT-6 Astra, its first \"critical\" cyber-capability model",
-      "summary": "OpenAI has released GPT-6 Astra, a computer-use/agentic model that leadership framed as marking the start of an \"AGI era.\" It's the first OpenAI model to cross the company's Preparedness Framework \"critical\" cybersecurity threshold — scoring 100% on ExploitBench and finding real zero-days in testing — so its most advanced cyber capabilities are initially limited to trusted defenders via Daybreak Blue. OpenAI committed $1 billion under \"Daybreak for Frontline Defenders\" to expand access to that frontier cyber AI, plus training and support, for essential services. Astra posts strong benchmark results, though OpenAI's framing has drawn scrutiny over what those numbers measure and the absence of its GDPval real-world-work benchmark. It is rolling out to enterprise, ChatGPT and API customers with tiered pricing and additional monitoring safeguards; early access problems left some paying users unable to use the new model, prompting Sam Altman to apologize and offer usage resets. A separate critique argues that Astra's more advanced, less legible reasoning makes the human oversight OpenAI has championed harder to provide.",
+      "summary": "OpenAI released GPT-6 Astra, a computer-use/agentic model leadership framed as the start of an \"AGI era.\"\n\n- First OpenAI model to cross the Preparedness Framework's \"critical\" cyber threshold (100% on ExploitBench, real zero-days found), so its top cyber capabilities are limited to trusted defenders via Daybreak Blue\n- Committed $1B under \"Daybreak for Frontline Defenders\" to expand defender access, training and support for essential services\n- Benchmarks are strong, but OpenAI's framing has drawn scrutiny, including the absence of its GDPval real-world-work benchmark\n- Rolling out to enterprise, ChatGPT and API customers with tiered pricing; early access problems prompted Sam Altman to apologize and offer usage resets\n- Critics say Astra's less legible reasoning makes human oversight harder",
       "importanceScore": 0.9,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-01T21:20:51.430Z",
@@ -827,6 +827,13 @@
           "title": "How to use GPT-6 Astra when it rolls out to you",
           "url": "https://www.engadget.com/2252859/how-to-use-gpt-6-astra-rollout-schedule/",
           "publishedAt": "2026-09-13T23:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Multimodal ChatGPT 7 Rumors: Target Google Gemini Omni 1.1 Flash and Claude Opus 5",
+          "url": "https://www.geeky-gadgets.com/openai-chatgpt-7-rumors/",
+          "publishedAt": "2026-09-15T06:45:00.000Z",
           "contribution": "background"
         }
       ],
