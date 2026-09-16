@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T19:52:32.531Z",
+  "generatedAt": "2026-09-16T21:54:06.320Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
@@ -128,11 +128,46 @@
           "url": "https://gizmodo.com/ai-slowdown-calls-from-ceos-apparently-comes-as-surprise-to-employees-2000812643",
           "publishedAt": "2026-09-16T18:45:19.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Washington Won’t Be Regulating AI Anytime Soon",
+          "url": "https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/",
+          "publishedAt": "2026-09-16T21:00:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "safety",
         "regulation"
+      ]
+    },
+    {
+      "id": "0874e29c-316c-4fec-b758-461e80e7313d",
+      "title": "Anthropic and OpenAI move to embed safety evaluators inside their labs, drawing skepticism",
+      "summary": "Anthropic and OpenAI want to embed independent safety evaluators and auditors inside their labs to rein in rogue agents, and critics are questioning whether that goes far enough.\n\n- Researchers welcome the unprecedented access but warn real oversight needs transparency, independence from the companies, and eventually regulation\n- Critics argue a simpler containment fix is being overlooked: cut off agents' unsupervised access to the open internet rather than audit the damage afterward\n- The move lands as the labs' broader safety coordination faces antitrust and political pushback",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-16T19:52:23.239Z",
+      "lastMeaningfulUpdateAt": "2026-09-16T21:53:43.060Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+          "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+          "publishedAt": "2026-09-16T18:25:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+          "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+          "publishedAt": "2026-09-16T21:07:24.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -163,6 +198,13 @@
           "title": "Claude Cowork and chat are now one Claude",
           "url": "https://claude.com/blog/cowork-is-now-claude",
           "publishedAt": "2026-09-16T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Anthropic Simplifies Claude’s Cowork and Design Tools",
+          "url": "https://www.cnet.com/tech/services-and-software/anthropic-claude-simplify-interface-cowork-design-ai-news/",
+          "publishedAt": "2026-09-16T16:30:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -226,28 +268,6 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "0874e29c-316c-4fec-b758-461e80e7313d",
-      "title": "AI labs push in-house auditors as the fix for rogue agents, drawing skepticism",
-      "summary": "AI labs are moving toward internal auditing functions to rein in rogue agents, but critics argue a simpler containment fix is being overlooked — shutting off the agents' unsupervised access to the open internet in the first place, rather than reviewing the damage after it happens.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-16T19:52:23.239Z",
-      "lastMeaningfulUpdateAt": "2026-09-16T19:52:23.239Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
-          "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
-          "publishedAt": "2026-09-16T18:25:25.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "opinion"
       ]
     },
     {
