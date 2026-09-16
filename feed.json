@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-16T05:41:41.251Z",
+  "generatedAt": "2026-09-16T09:43:51.395Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
       "title": "Anthropic CEO's \"pace the frontier\" plea splits industry and draws White House pushback",
-      "summary": "Dario Amodei's plan to pace rather than race frontier AI development has become a wider industry-vs-politics fight.\n\n- Amodei argued \"we owe it to humanity to try\" to pace frontier development; Sam Altman and Elon Musk publicly backed his call for regulation\n- Microsoft CEO Satya Nadella has now joined the slowdown camp, saying the industry should slow enough to get safety and human control right without halting development\n- OpenAI confirmed it has been in AI safety talks with Anthropic and Google DeepMind for weeks\n- The White House says it has no plans to act, and Trump's team dismisses safety concerns in favor of keeping pace with China\n- Nvidia CEO Jensen Huang, after telling Trump he won't let an AI slowdown happen, now argues no AI regulation is needed at all: AI is not an \"alien mind\" but hardware and software, so each product maker can engineer its own safety\n- Altman separately asked Trump for a private meeting, which critics read as CEOs courting the administration, and commentary remains split between doomer alarm and dismissal of the warnings as self-serving",
-      "importanceScore": 0.8,
+      "summary": "Dario Amodei's plan to pace rather than race frontier AI development has become a wider industry-vs-politics fight, and now a geopolitical one.\n\n- Amodei argued \"we owe it to humanity to try\" to pace frontier development; Sam Altman and Elon Musk publicly backed his call for regulation\n- Microsoft CEO Satya Nadella has now joined the slowdown camp, saying the industry should slow enough to get safety and human control right without halting development\n- OpenAI confirmed it has been in AI safety talks with Anthropic and Google DeepMind for weeks\n- Beijing is not buying it: China agrees advanced AI poses serious risks but is deeply skeptical of any deal it reads as designed to keep US companies ahead\n- The White House says it has no plans to act, and Trump's team dismisses safety concerns in favor of keeping pace with China\n- Nvidia CEO Jensen Huang, after telling Trump he won't let an AI slowdown happen, now argues no AI regulation is needed at all: AI is not an \"alien mind\" but hardware and software, so each product maker can engineer its own safety\n- Altman separately asked Trump for a private meeting, which critics read as CEOs courting the administration, and commentary remains split between doomer alarm and dismissal of the warnings as self-serving",
+      "importanceScore": 0.85,
       "relevanceScore": 0.85,
       "firstSeenAt": "2026-09-12T16:50:32.829Z",
-      "lastMeaningfulUpdateAt": "2026-09-16T05:41:19.189Z",
+      "lastMeaningfulUpdateAt": "2026-09-16T09:43:35.084Z",
       "sources": [
         {
           "providerName": "TechCrunch AI",
@@ -113,6 +113,13 @@
           "title": "After Sam Altman, Elon Musk, Microsoft CEO Satya Nadella Says AI Race Needs to Slow Down For Safety",
           "url": "https://in.mashable.com/tech/113971/after-sam-altman-elon-musk-microsoft-ceo-satya-nadella-says-ai-race-needs-to-slow-down-for-safety",
           "publishedAt": "2026-09-16T05:05:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "China Isn’t Buying Silicon Valley’s Call for an AI Slowdown",
+          "url": "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
+          "publishedAt": "2026-09-16T09:30:00.000Z",
           "contribution": "meaningful-update"
         }
       ],
@@ -347,6 +354,13 @@
           "title": "I’ve Been Using iOS 27 for Months. Here’s What’s Great and What Needs to Change",
           "url": "https://www.cnet.com/tech/services-and-software/ive-been-using-ios-27-for-months-heres-whats-great-and-what-i-hope-they-change/",
           "publishedAt": "2026-09-14T17:11:55.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Does iOS 27 Bring the New Siri AI to Your iPhone? Here’s What to Know",
+          "url": "https://in.mashable.com/tech/113985/does-ios-27-bring-the-new-siri-ai-to-your-iphone-heres-what-to-know",
+          "publishedAt": "2026-09-16T08:15:02.000Z",
           "contribution": "background"
         }
       ],
@@ -1650,6 +1664,6 @@
       ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 116,
   "hasMore": true
 }
