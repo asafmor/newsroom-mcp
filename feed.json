@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-16T17:50:38.158Z",
+  "generatedAt": "2026-09-16T19:52:32.531Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
       "title": "Anthropic CEO's \"pace the frontier\" plea splits industry and draws White House pushback",
-      "summary": "Dario Amodei's plan to pace rather than race frontier AI development has become a wider industry-vs-politics fight, and now a geopolitical one.\n\n- Amodei argued \"we owe it to humanity to try\" to pace frontier development; Sam Altman and Elon Musk publicly backed his call for regulation\n- Microsoft CEO Satya Nadella has now joined the slowdown camp, saying the industry should slow enough to get safety and human control right without halting development\n- OpenAI confirmed it has been in AI safety talks with Anthropic and Google DeepMind for weeks\n- Beijing is not buying it: China agrees advanced AI poses serious risks but is deeply skeptical of any deal it reads as designed to keep US companies ahead\n- The White House says it has no plans to act, and Trump's team dismisses safety concerns in favor of keeping pace with China\n- Nvidia CEO Jensen Huang, after telling Trump he won't let an AI slowdown happen, now argues no AI regulation is needed at all: AI is not an \"alien mind\" but hardware and software, so each product maker can engineer its own safety\n- Altman separately asked Trump for a private meeting, which critics read as CEOs courting the administration, and commentary remains split between doomer alarm and dismissal of the warnings as self-serving",
+      "summary": "Dario Amodei's plan to pace rather than race frontier AI development has become a wider industry-vs-politics fight, and now a geopolitical one.\n\n- Amodei argued \"we owe it to humanity to try\" to pace frontier development; Sam Altman and Elon Musk publicly backed his call for regulation, and Microsoft's Satya Nadella joined the slowdown camp\n- OpenAI confirmed it has been in AI safety talks with Anthropic and Google DeepMind for weeks\n- Beijing is not buying it: China agrees advanced AI poses serious risks but is deeply skeptical of any deal it reads as designed to keep US companies ahead\n- The White House says it has no plans to act, and Trump's team dismisses safety concerns in favor of keeping pace with China\n- Nvidia's Jensen Huang now argues no AI regulation is needed at all: AI is hardware and software, not an \"alien mind,\" so each product maker can engineer its own safety\n- The slowdown rhetoric appears not to have reached the labs' own staff — employees report seeing no let-up in the pace of the work they're actually being asked to do\n- Altman separately asked Trump for a private meeting, which critics read as CEOs courting the administration",
       "importanceScore": 0.85,
       "relevanceScore": 0.85,
       "firstSeenAt": "2026-09-12T16:50:32.829Z",
-      "lastMeaningfulUpdateAt": "2026-09-16T09:43:35.084Z",
+      "lastMeaningfulUpdateAt": "2026-09-16T19:52:12.234Z",
       "sources": [
         {
           "providerName": "TechCrunch AI",
@@ -121,6 +121,13 @@
           "url": "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
           "publishedAt": "2026-09-16T09:30:00.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Slowdown Calls From CEOs Apparently Comes as Surprise to Employees",
+          "url": "https://gizmodo.com/ai-slowdown-calls-from-ceos-apparently-comes-as-surprise-to-employees-2000812643",
+          "publishedAt": "2026-09-16T18:45:19.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -149,6 +156,13 @@
           "title": "Anthropic's Claude can now create editable documents for you",
           "url": "https://www.engadget.com/2259938/anthropics-claude-can-now-create-editable-documents-for-you-cowork-chat-together/",
           "publishedAt": "2026-09-16T16:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Cowork and chat are now one Claude",
+          "url": "https://claude.com/blog/cowork-is-now-claude",
+          "publishedAt": "2026-09-16T00:00:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -212,6 +226,28 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "0874e29c-316c-4fec-b758-461e80e7313d",
+      "title": "AI labs push in-house auditors as the fix for rogue agents, drawing skepticism",
+      "summary": "AI labs are moving toward internal auditing functions to rein in rogue agents, but critics argue a simpler containment fix is being overlooked — shutting off the agents' unsupervised access to the open internet in the first place, rather than reviewing the damage after it happens.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-16T19:52:23.239Z",
+      "lastMeaningfulUpdateAt": "2026-09-16T19:52:23.239Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+          "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+          "publishedAt": "2026-09-16T18:25:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
       ]
     },
     {
@@ -1621,29 +1657,8 @@
         "model-release",
         "open-source"
       ]
-    },
-    {
-      "id": "d6b1d652-f9c6-4ec7-ad4a-6f3e2f4414cb",
-      "title": "Digital Divide Data opens AI/robotics capability center in India",
-      "summary": "Digital Divide Data opened an AI and robotics global capability centre in India that began operations August 1, 2026 and has already hired 150 employees across three batches.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-09-14T23:18:50.587Z",
-      "lastMeaningfulUpdateAt": "2026-09-14T23:18:50.587Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "Digital Divide Data Opens AI, Robotics Global Capability Centre in India, Aims to Create New Jobs",
-          "url": "https://in.mashable.com/tech/113918/digital-divide-data-opens-ai-robotics-global-capability-centre-in-india-aims-to-create-new-jobs",
-          "publishedAt": "2026-09-14T10:26:08.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 109,
+  "totalCount": 107,
   "hasMore": true
 }
