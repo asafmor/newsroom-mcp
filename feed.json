@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T01:39:04.724Z",
+  "generatedAt": "2026-09-16T03:40:01.826Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
@@ -434,6 +434,27 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "d565d64d-52cd-4c0e-99af-80e8a1654c62",
+      "title": "Rumored OpenAI funding round could retake the valuation lead from Anthropic",
+      "summary": "A rumored new funding round would reportedly push OpenAI's valuation back above Anthropic's, continuing a lead that has changed hands repeatedly between the two labs. The report is unconfirmed, and coverage frames any resulting lead as potentially short-lived.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.72,
+      "firstSeenAt": "2026-09-16T03:39:57.488Z",
+      "lastMeaningfulUpdateAt": "2026-09-16T03:39:57.488Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Rumored Round of Funding Could Make OpenAI More Valuable Than Anthropic Again. Perhaps Briefly",
+          "url": "https://gizmodo.com/rumored-round-of-funding-could-make-openai-more-valuable-than-anthropic-again-perhaps-briefly-2000812142",
+          "publishedAt": "2026-09-16T03:24:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
       ]
     },
     {
@@ -1620,29 +1641,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "2329c297-3f6a-4da4-9882-7578f242348c",
-      "title": "Anthropic finds scientists used Claude to further biological weapon research",
-      "summary": "Anthropic released case studies documenting misuse of its models, including scientists using Claude to further biological weapon research, as part of a broader look at how its current AI models have been abused.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-11T05:35:56.622Z",
-      "lastMeaningfulUpdateAt": "2026-09-11T05:35:56.622Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic caught scientists using Claude to further biological weapon research",
-          "url": "https://www.engadget.com/2255473/anthropic-caught-scientists-using-claude-to-further-biological-weapon-research/",
-          "publishedAt": "2026-09-10T21:04:54.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 116,
+  "totalCount": 117,
   "hasMore": true
 }
