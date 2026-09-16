@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T15:48:49.944Z",
+  "generatedAt": "2026-09-16T17:50:38.158Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
@@ -126,6 +126,63 @@
       "tags": [
         "safety",
         "regulation"
+      ]
+    },
+    {
+      "id": "138d4500-c4ef-41ec-b188-5bc061a840c4",
+      "title": "Anthropic folds Cowork into Claude chat, adding editable docs and slides",
+      "summary": "Anthropic is merging Claude chat and Cowork into a single interface, bringing Cowork's agentic capabilities directly into the chat surface and letting Claude produce editable documents and slideshows. The features go to Pro and Max subscribers first.",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-16T17:50:31.599Z",
+      "lastMeaningfulUpdateAt": "2026-09-16T17:50:31.599Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic merges Claude chat and Cowork in one interface",
+          "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+          "publishedAt": "2026-09-16T16:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic's Claude can now create editable documents for you",
+          "url": "https://www.engadget.com/2259938/anthropics-claude-can-now-create-editable-documents-for-you-cowork-chat-together/",
+          "publishedAt": "2026-09-16T16:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "f74e1d04-dc5d-44a3-b034-2bb705b13c43",
+      "title": "Google Home opens to AI agents with an official MCP server",
+      "summary": "Google is launching early access to an MCP server for Google Home, letting outside AI agents such as Claude and ChatGPT control connected devices, review camera summaries, and query smart home activity in natural language. Early access rolls out to Home Premium Advanced users \"in the coming weeks.\"",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-16T17:50:26.573Z",
+      "lastMeaningfulUpdateAt": "2026-09-16T17:50:26.573Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Your AI agents can now control your Google Home devices",
+          "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+          "publishedAt": "2026-09-16T17:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google Home is going agentic via integration with the MCP standard",
+          "url": "https://www.engadget.com/2260280/google-home-is-going-agentic-via-integration-with-the-mcp-standard/",
+          "publishedAt": "2026-09-16T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "infrastructure"
       ]
     },
     {
@@ -1585,50 +1642,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "3a67461b-3f48-47e0-968b-06381b2bee4b",
-      "title": "Healthcare organizations adopt Claude Tag",
-      "summary": "Anthropic published case studies on how healthcare organizations are using Claude Tag.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-09-14T23:18:40.941Z",
-      "lastMeaningfulUpdateAt": "2026-09-14T23:18:40.941Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "How healthcare organizations use Claude Tag",
-          "url": "https://claude.com/blog/how-healthcare-organizations-use-claude-tag",
-          "publishedAt": "2026-09-14T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "914b3541-96f1-4897-a1c7-80983159abf7",
-      "title": "Reports of Claude misuse span hacking to bioweapons planning",
-      "summary": "Wired's weekly security roundup reports that misuse of Anthropic's Claude models is turning up across a widening range of harmful use cases, from hacking to bioweapons-related planning.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-12T12:47:59.315Z",
-      "lastMeaningfulUpdateAt": "2026-09-12T12:47:59.315Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
-          "url": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/",
-          "publishedAt": "2026-09-12T10:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 108,
+  "totalCount": 109,
   "hasMore": true
 }
