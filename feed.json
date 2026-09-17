@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T14:06:37.592Z",
+  "generatedAt": "2026-09-17T16:08:05.932Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -324,6 +324,27 @@
       "tags": [
         "safety",
         "regulation"
+      ]
+    },
+    {
+      "id": "6f4d9624-9920-47cc-b1fc-1b6362a84834",
+      "title": "Huawei accelerates its next-gen Ascend 960DT AI chip to a Q1 2027 launch",
+      "summary": "Huawei is pulling forward the launch of its next-generation Ascend 960DT AI chip to Q1 2027, part of its push to compete with Nvidia and narrow China's AI computing gap with the U.S.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-17T16:07:58.489Z",
+      "lastMeaningfulUpdateAt": "2026-09-17T16:07:58.489Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
+          "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
+          "publishedAt": "2026-09-17T14:06:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -1541,30 +1562,8 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "c41b6682-aae2-4ac3-87f3-8d6f562302ee",
-      "title": "Walt Disney World puts AI summaries and a planning chatbot on its booking site",
-      "summary": "Disney is adding AI to Walt Disney World's booking site in an upcoming beta, showing some guests AI-generated summaries and letting them plan vacations conversationally with a chatbot.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-15T23:36:57.946Z",
-      "lastMeaningfulUpdateAt": "2026-09-15T23:36:57.946Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Walt Disney World Brings AI Into Its Booking Site",
-          "url": "https://www.cnet.com/tech/services-and-software/walt-disney-world-brings-ai-into-its-booking-site/",
-          "publishedAt": "2026-09-15T18:19:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption",
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 121,
+  "totalCount": 122,
   "hasMore": true
 }
