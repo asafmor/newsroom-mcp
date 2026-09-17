@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T12:04:42.010Z",
+  "generatedAt": "2026-09-17T14:06:37.592Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -103,6 +103,85 @@
         }
       ],
       "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
+      "title": "Meta debuts Muse, a personal AI agent powered by its Spark model platform",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps gaining capabilities after a fast consumer debut.\n\n- Muse carries out online tasks such as shopping, travel booking and selling a car, and climbed to the No. 2 app in the US after launch\n- New: Muse can now make phone calls for users, such as booking restaurant reservations and cancelling subscriptions — a feature rival agent Instinct added at the same time\n- Spark 1.3 improved coding and long-running agent performance; the strongest configuration remains in limited preview and a promised open-weight release is delayed\n- Muse's requested access to email, calendars, payments and health services makes privacy and user trust central to Meta's consumer AI bet\n- Meta is offering Spark users a discount in exchange for usage data",
+      "importanceScore": 0.78,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-03T17:01:49.158Z",
+      "lastMeaningfulUpdateAt": "2026-09-17T14:06:16.476Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
+          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+          "publishedAt": "2026-09-03T16:19:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is paying to peek at how you use their latest AI model",
+          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+          "publishedAt": "2026-09-03T18:19:56.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
+          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
+          "publishedAt": "2026-09-08T20:12:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+          "publishedAt": "2026-09-08T19:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s New AI Agent Wants to Get Personal With You",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news-2/",
+          "publishedAt": "2026-09-08T22:33:09.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse Let Me Waste a Mind-Boggling Amount of Free Compute on Nothing in Particular",
+          "url": "https://gizmodo.com/metas-muse-let-me-waste-a-mind-boggling-amount-of-free-compute-on-nothing-in-particular-2000808945",
+          "publishedAt": "2026-09-09T02:05:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+          "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+          "publishedAt": "2026-09-10T19:50:04.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "How to get started with Meta's new AI agent, Muse",
+          "url": "https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/",
+          "publishedAt": "2026-09-12T14:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
+          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
+          "publishedAt": "2026-09-17T13:46:16.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "model-release",
         "safety"
       ]
     },
@@ -383,6 +462,35 @@
       ]
     },
     {
+      "id": "bf69f1dc-4004-41b7-852e-4c1d8d428c03",
+      "title": "AI assistant Instinct adds phone calling after launching an email agent",
+      "summary": "AI assistant Instinct can now make phone calls on a user's behalf, such as booking restaurant reservations and cancelling subscriptions — a capability Meta's rival agent Muse added at the same time. It follows Instinct's email agent, which can create and manage accounts, contact businesses, and handle support requests.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-09T15:37:37.798Z",
+      "lastMeaningfulUpdateAt": "2026-09-17T14:06:18.354Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Viral AI assistant Instinct now has its own email address",
+          "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+          "publishedAt": "2026-09-09T15:13:12.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
+          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
+          "publishedAt": "2026-09-17T13:46:16.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "310da786-2161-4743-89ed-9a545db0a089",
       "title": "Oversight Board calls Meta's AI deepfake rules \"consistently and fundamentally inadequate\"",
       "summary": "Meta's Oversight Board says the company's rules for AI deepfakes are \"consistently and fundamentally inadequate\" and is asking Meta to prioritize AI-generated content when it is reported.",
@@ -405,8 +513,8 @@
     },
     {
       "id": "5553ee69-5948-44bf-a57b-4e9356bd6daa",
-      "title": "Nvidia and Google form coalition to speed AI data center grid connections",
-      "summary": "A new coalition of tech giants including Nvidia and Google aims to get AI data centers connected to the power grid faster, offering more flexibility in how those facilities draw power in exchange.",
+      "title": "Google, Nvidia and Anthropic join coalition to find 100 GW of grid capacity for AI data centers",
+      "summary": "A new coalition including Google, Nvidia, Anthropic and Emerald AI wants to find 100 GW of grid capacity for new AI data centers, getting them connected to the power grid faster in exchange for more flexibility in how those facilities draw power.",
       "importanceScore": 0.55,
       "relevanceScore": 0.75,
       "firstSeenAt": "2026-09-17T12:04:17.406Z",
@@ -417,6 +525,13 @@
           "title": "NVIDIA and Google's new coalition wants to speed up AI data center power grid connections",
           "url": "https://www.engadget.com/2260986/nvidia-google-emerald-coalition-data-center-power/",
           "publishedAt": "2026-09-17T11:24:45.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google, Nvidia and Anthropic want Emerald AI to find space on the grid for more data centers",
+          "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
+          "publishedAt": "2026-09-17T13:38:33.000Z",
           "contribution": "supporting"
         }
       ],
@@ -661,6 +776,27 @@
       "tags": [
         "funding",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "329dd3f7-b86d-4646-bba1-eb4544cfc0b1",
+      "title": "Open-source Edge0 framework runs a 35B Qwen MoE model from SSD in 2.9 GB of RAM",
+      "summary": "Edge0, an open-source framework introduced by The Stack, runs a 35-billion-parameter Qwen Mixture-of-Experts model directly from storage instead of loading all weights into memory, cutting the memory footprint to about 2.9 GB so large models can run on RAM-limited devices.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-17T14:06:21.090Z",
+      "lastMeaningfulUpdateAt": "2026-09-17T14:06:21.090Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Edge0 Framework Runs Qwen 35B AI Model from Your SSD",
+          "url": "https://www.geeky-gadgets.com/edge0-framework-ssd-ai/",
+          "publishedAt": "2026-09-17T13:17:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
       ]
     },
     {
@@ -1427,71 +1563,8 @@
         "enterprise-adoption",
         "product-launch"
       ]
-    },
-    {
-      "id": "aee56094-bbc7-4f8e-89d6-5edafcc4886d",
-      "title": "IBM Research examines whether AI agents succeed consistently",
-      "summary": "IBM Research, in a Hugging Face post tied to its ALTK-Evolve work, looks at agent consistency: whether an agent that completes a task once will reliably do it again.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-15T19:33:07.450Z",
-      "lastMeaningfulUpdateAt": "2026-09-15T19:33:07.450Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Your Agent Aced the Task. Will It Do It Again?",
-          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-          "publishedAt": "2026-09-15T16:00:44.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "f0d83be1-3b45-4e1a-be31-ddec52618862",
-      "title": "Meta pulls invasive AI prompts after mother exposes feature scraping family data from kids' videos",
-      "summary": "A viral Instagram video exposed a Meta AI feature generating personal prompts about users' children, triggering a privacy backlash; Meta has pulled the feature.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-12T20:53:16.100Z",
-      "lastMeaningfulUpdateAt": "2026-09-12T20:53:16.100Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Meta Pulls Invasive AI Prompts After Mother Reveals Feature Scraping Family Data",
-          "url": "https://www.cnet.com/tech/services-and-software/meta-ai-viral-video-personal-prompts-about-kids/",
-          "publishedAt": "2026-09-12T16:31:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "aecd6539-5708-49bc-8ac3-aca548bdc130",
-      "title": "ChatGPT Skills lets Business/Enterprise users save reusable instructions",
-      "summary": "OpenAI's new ChatGPT Skills feature lets Business and Enterprise accounts save reusable, task-specific instructions for recurring workflows, such as a shared brand-voice skill.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-14T23:18:41.870Z",
-      "lastMeaningfulUpdateAt": "2026-09-14T23:18:41.870Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "ChatGPT Skills End Repetitive Prompting with Saved Instructions",
-          "url": "https://www.geeky-gadgets.com/chatgpt-skills-guide/",
-          "publishedAt": "2026-09-14T06:43:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 119,
+  "totalCount": 121,
   "hasMore": true
 }
