@@ -1,6 +1,154 @@
 {
-  "generatedAt": "2026-09-17T18:09:41.872Z",
+  "generatedAt": "2026-09-17T20:11:47.704Z",
   "stories": [
+    {
+      "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
+      "title": "Anthropic CEO's \"pace the frontier\" plea splits industry and draws White House pushback",
+      "summary": "Dario Amodei's plan to pace rather than race frontier AI development has become an open industry-vs-politics fight, now argued on stage by the CEOs themselves.\n\n- The CEOs of OpenAI, Anthropic, and Nvidia turned Salesforce's Dreamforce conference into an unlikely battleground over whether AI development should slow down\n- Amodei argued \"we owe it to humanity to try\"; Sam Altman, Elon Musk, and Microsoft's Satya Nadella have backed the slowdown camp, and OpenAI confirmed weeks of safety talks with Anthropic and Google DeepMind\n- Nvidia's Jensen Huang argues no AI regulation is needed at all: AI is hardware and software, not an \"alien mind,\" so each product maker can engineer its own safety\n- The White House says it has no plans to act, with Trump's team prioritizing keeping pace with China; Altman separately sought a private meeting with Trump\n- Beijing agrees advanced AI poses serious risks but is deeply skeptical of any deal it reads as designed to keep US companies ahead\n- Lab employees report seeing no let-up in the pace of the work they're actually being asked to do",
+      "importanceScore": 0.85,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-12T16:50:32.829Z",
+      "lastMeaningfulUpdateAt": "2026-09-17T20:11:31.925Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
+          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+          "publishedAt": "2026-09-12T15:52:11.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic's CEO proposes a three-step plan to curb AI development",
+          "url": "https://www.engadget.com/2256718/anthropics-ceo-proposes-a-three-step-plan-to-curb-ai-development/",
+          "publishedAt": "2026-09-12T16:37:31.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic CEO Dario Amodei Calls for Pause in AI Development, Sort Of",
+          "url": "https://gizmodo.com/anthropic-ceo-dario-amodei-calls-for-pause-in-ai-development-sort-of-2000810962",
+          "publishedAt": "2026-09-12T20:05:29.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them",
+          "url": "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/",
+          "publishedAt": "2026-09-14T11:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+          "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+          "publishedAt": "2026-09-14T21:51:02.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Politicians to Humanity: Drop Dead",
+          "url": "https://gizmodo.com/politicians-to-humanity-drop-dead-2000811320",
+          "publishedAt": "2026-09-14T21:10:41.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "The AI industry has taken a doomer turn. What now?",
+          "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+          "publishedAt": "2026-09-14T17:54:22.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Why Are Sam Altman, Elon Musk, Anthropic CEO Calling for a Slower AI Race? The Safety Warning Explained",
+          "url": "https://in.mashable.com/tech/113906/why-are-sam-altman-elon-musk-anthropic-ceo-calling-for-a-slower-ai-race-the-safety-warning-explained",
+          "publishedAt": "2026-09-13T06:18:56.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "What’s behind the AI industry’s latest warnings of doom?",
+          "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+          "publishedAt": "2026-09-13T19:40:15.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "A Reminder From Lina Khan: We Don’t Need New Laws to Prosecute CEOs at AI Companies",
+          "url": "https://gizmodo.com/a-reminder-from-lina-khan-we-dont-need-new-laws-to-prosecute-ceos-at-ai-companies-2000811503",
+          "publishedAt": "2026-09-14T21:20:49.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang took a call from Trump, and showed off something else, too",
+          "url": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
+          "publishedAt": "2026-09-15T01:50:48.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI CEOs Predictably Suck Up to Trump Amid ‘AI Pause’ Debate",
+          "url": "https://gizmodo.com/ai-ceos-predictably-suck-up-to-trump-amid-ai-pause-debate-2000811593",
+          "publishedAt": "2026-09-15T02:52:23.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+          "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+          "publishedAt": "2026-09-15T15:47:03.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+          "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
+          "publishedAt": "2026-09-16T00:20:39.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "After Sam Altman, Elon Musk, Microsoft CEO Satya Nadella Says AI Race Needs to Slow Down For Safety",
+          "url": "https://in.mashable.com/tech/113971/after-sam-altman-elon-musk-microsoft-ceo-satya-nadella-says-ai-race-needs-to-slow-down-for-safety",
+          "publishedAt": "2026-09-16T05:05:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "China Isn’t Buying Silicon Valley’s Call for an AI Slowdown",
+          "url": "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
+          "publishedAt": "2026-09-16T09:30:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Slowdown Calls From CEOs Apparently Comes as Surprise to Employees",
+          "url": "https://gizmodo.com/ai-slowdown-calls-from-ceos-apparently-comes-as-surprise-to-employees-2000812643",
+          "publishedAt": "2026-09-16T18:45:19.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Washington Won’t Be Regulating AI Anytime Soon",
+          "url": "https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/",
+          "publishedAt": "2026-09-16T21:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The AI Slowdown Debate Crashed Salesforce’s Party",
+          "url": "https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/",
+          "publishedAt": "2026-09-17T18:42:25.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety",
+        "regulation"
+      ]
+    },
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
       "title": "OpenAI publishes a misalignment-reporting framework and discloses six new incidents after rogue-agent escapes",
@@ -186,145 +334,51 @@
       ]
     },
     {
-      "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
-      "title": "Anthropic CEO's \"pace the frontier\" plea splits industry and draws White House pushback",
-      "summary": "Dario Amodei's plan to pace rather than race frontier AI development has become a wider industry-vs-politics fight, and now a geopolitical one.\n\n- Amodei argued \"we owe it to humanity to try\" to pace frontier development; Sam Altman and Elon Musk publicly backed his call for regulation, and Microsoft's Satya Nadella joined the slowdown camp\n- OpenAI confirmed it has been in AI safety talks with Anthropic and Google DeepMind for weeks\n- Beijing is not buying it: China agrees advanced AI poses serious risks but is deeply skeptical of any deal it reads as designed to keep US companies ahead\n- The White House says it has no plans to act, and Trump's team dismisses safety concerns in favor of keeping pace with China\n- Nvidia's Jensen Huang now argues no AI regulation is needed at all: AI is hardware and software, not an \"alien mind,\" so each product maker can engineer its own safety\n- The slowdown rhetoric appears not to have reached the labs' own staff — employees report seeing no let-up in the pace of the work they're actually being asked to do\n- Altman separately asked Trump for a private meeting, which critics read as CEOs courting the administration",
-      "importanceScore": 0.85,
+      "id": "8dd7d0fa-a481-4aa4-8cb0-9f9a8d23fa70",
+      "title": "NYT v. OpenAI: unsealed filings show Microsoft privately called AI scraping \"theft\" as US backs fair-use defense",
+      "summary": "The New York Times' copyright lawsuit against OpenAI and Microsoft has produced damaging internal admissions, even as the US government sides with the defendants.\n\n- Newly unsealed, unredacted court filings show a Microsoft executive called AI scraping \"the largest theft of labor in human history,\" and that Microsoft privately described OpenAI's data practices as \"theft\"\n- The filings say both companies scraped paywalled Times content and built datasets from it, while warning internally that the practice would gut publishers\n- Earlier, the Trump administration filed a brief backing OpenAI's argument that training LLMs on copyrighted material is fair use, citing US interest in a competitive AI industry",
+      "importanceScore": 0.7,
       "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-12T16:50:32.829Z",
-      "lastMeaningfulUpdateAt": "2026-09-16T19:52:12.234Z",
+      "firstSeenAt": "2026-09-02T19:01:58.611Z",
+      "lastMeaningfulUpdateAt": "2026-09-17T20:11:26.573Z",
       "sources": [
         {
           "providerName": "TechCrunch AI",
-          "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
-          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-          "publishedAt": "2026-09-12T15:52:11.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic's CEO proposes a three-step plan to curb AI development",
-          "url": "https://www.engadget.com/2256718/anthropics-ceo-proposes-a-three-step-plan-to-curb-ai-development/",
-          "publishedAt": "2026-09-12T16:37:31.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic CEO Dario Amodei Calls for Pause in AI Development, Sort Of",
-          "url": "https://gizmodo.com/anthropic-ceo-dario-amodei-calls-for-pause-in-ai-development-sort-of-2000810962",
-          "publishedAt": "2026-09-12T20:05:29.000Z",
+          "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
+          "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
+          "publishedAt": "2026-09-02T17:09:06.000Z",
           "contribution": "supporting"
         },
         {
           "providerName": "Wired AI",
-          "title": "AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them",
-          "url": "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/",
-          "publishedAt": "2026-09-14T11:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
-          "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
-          "publishedAt": "2026-09-14T21:51:02.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Politicians to Humanity: Drop Dead",
-          "url": "https://gizmodo.com/politicians-to-humanity-drop-dead-2000811320",
-          "publishedAt": "2026-09-14T21:10:41.000Z",
+          "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
+          "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
+          "publishedAt": "2026-09-02T18:41:02.000Z",
           "contribution": "supporting"
         },
         {
-          "providerName": "MIT AI",
-          "title": "The AI industry has taken a doomer turn. What now?",
-          "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
-          "publishedAt": "2026-09-14T17:54:22.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Why Are Sam Altman, Elon Musk, Anthropic CEO Calling for a Slower AI Race? The Safety Warning Explained",
-          "url": "https://in.mashable.com/tech/113906/why-are-sam-altman-elon-musk-anthropic-ceo-calling-for-a-slower-ai-race-the-safety-warning-explained",
-          "publishedAt": "2026-09-13T06:18:56.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "What’s behind the AI industry’s latest warnings of doom?",
-          "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
-          "publishedAt": "2026-09-13T19:40:15.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "A Reminder From Lina Khan: We Don’t Need New Laws to Prosecute CEOs at AI Companies",
-          "url": "https://gizmodo.com/a-reminder-from-lina-khan-we-dont-need-new-laws-to-prosecute-ceos-at-ai-companies-2000811503",
-          "publishedAt": "2026-09-14T21:20:49.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Jensen Huang took a call from Trump, and showed off something else, too",
-          "url": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
-          "publishedAt": "2026-09-15T01:50:48.000Z",
+          "providerName": "CNET AI",
+          "title": "Trump Administration Sides With OpenAI in Publishers’ Copyright Lawsuits",
+          "url": "https://www.cnet.com/tech/services-and-software/trump-administration-sides-with-openai-in-publishers-copyright-lawsuits/",
+          "publishedAt": "2026-09-02T18:35:54.000Z",
           "contribution": "supporting"
         },
         {
           "providerName": "Gizmodo AI",
-          "title": "AI CEOs Predictably Suck Up to Trump Amid ‘AI Pause’ Debate",
-          "url": "https://gizmodo.com/ai-ceos-predictably-suck-up-to-trump-amid-ai-pause-debate-2000811593",
-          "publishedAt": "2026-09-15T02:52:23.000Z",
+          "title": "Trump Admin Teams Up With OpenAI in Its Fight Against the New York Times",
+          "url": "https://gizmodo.com/trump-admin-teams-up-with-openai-in-its-fight-against-the-new-york-times-copyright-2000806473",
+          "publishedAt": "2026-09-02T20:40:42.000Z",
           "contribution": "supporting"
         },
         {
           "providerName": "TechCrunch AI",
-          "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-          "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
-          "publishedAt": "2026-09-15T15:47:03.000Z",
+          "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+          "publishedAt": "2026-09-17T19:46:08.000Z",
           "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
-          "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
-          "publishedAt": "2026-09-16T00:20:39.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "After Sam Altman, Elon Musk, Microsoft CEO Satya Nadella Says AI Race Needs to Slow Down For Safety",
-          "url": "https://in.mashable.com/tech/113971/after-sam-altman-elon-musk-microsoft-ceo-satya-nadella-says-ai-race-needs-to-slow-down-for-safety",
-          "publishedAt": "2026-09-16T05:05:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "China Isn’t Buying Silicon Valley’s Call for an AI Slowdown",
-          "url": "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
-          "publishedAt": "2026-09-16T09:30:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Slowdown Calls From CEOs Apparently Comes as Surprise to Employees",
-          "url": "https://gizmodo.com/ai-slowdown-calls-from-ceos-apparently-comes-as-surprise-to-employees-2000812643",
-          "publishedAt": "2026-09-16T18:45:19.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Washington Won’t Be Regulating AI Anytime Soon",
-          "url": "https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/",
-          "publishedAt": "2026-09-16T21:00:00.000Z",
-          "contribution": "supporting"
         }
       ],
-      "tags": [
-        "safety",
-        "regulation"
-      ]
+      "tags": []
     },
     {
       "id": "6f4d9624-9920-47cc-b1fc-1b6362a84834",
@@ -604,6 +658,25 @@
       ]
     },
     {
+      "id": "fa966952-dee6-477f-b74f-358364d9f120",
+      "title": "UN turns to Google to make its global data usable by AI agents",
+      "summary": "The United Nations is working with Google, via Google's Data Commons, to make its global statistics ready for AI agents. The move follows a UNICEF test that found leading AI models struggled to accurately retrieve global development statistics.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-17T20:11:21.011Z",
+      "lastMeaningfulUpdateAt": "2026-09-17T20:11:21.011Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "UN turns to Google to make its global data ready for AI agents",
+          "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
+          "publishedAt": "2026-09-17T20:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "bed6ac6c-1895-44e3-bcff-9a25444d42b7",
       "title": "Nuclear experts propose US-China measures to reduce AI risks ahead of Trump-Xi meeting",
       "summary": "Ahead of a scheduled meeting between presidents Trump and Xi, a report from nuclear experts lays out proposals for how the US and China can avoid AI-triggered catastrophe.",
@@ -689,6 +762,13 @@
           "url": "https://gizmodo.com/openai-anthropic-and-google-join-forces-for-safety-as-antitrust-concerns-mount-2000811888",
           "publishedAt": "2026-09-15T19:45:32.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The AI ‘Slowdown’ Is an Antitrust Mess",
+          "url": "https://www.wired.com/story/the-ai-slowdown-is-an-antitrust-mess/",
+          "publishedAt": "2026-09-17T19:58:28.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -905,6 +985,25 @@
         "model-release",
         "enterprise-adoption"
       ]
+    },
+    {
+      "id": "521ef3c1-e3ac-4721-a5a4-a10e8ff6c2dc",
+      "title": "King Charles hosts private AI summit and voices hesitations about the technology",
+      "summary": "King Charles hosted a private summit Thursday with some of the most prominent names in AI and UK government officials, where, per TechCrunch, the monarch signaled his own hesitations about AI.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-17T20:11:23.947Z",
+      "lastMeaningfulUpdateAt": "2026-09-17T20:11:23.947Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Even the king of England has his hesitations about AI",
+          "url": "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/",
+          "publishedAt": "2026-09-17T17:26:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "052bd849-588a-40aa-b446-770ab1677b70",
@@ -1506,71 +1605,8 @@
         "funding",
         "safety"
       ]
-    },
-    {
-      "id": "84b8aba2-aefb-4007-8f8e-d8c3ad223a6e",
-      "title": "Iceland's Treble raises $18M for its voice simulation platform",
-      "summary": "Iceland-based Treble raised $18 million for its voice simulation platform, which is used by voice AI model developers, AI wearable makers, and robotics companies.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-09-17T06:00:35.994Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T06:00:35.994Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
-          "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
-          "publishedAt": "2026-09-17T05:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "c0fb597e-e3a1-4f2d-adec-7e8cc8f33816",
-      "title": "What must happen for AI's trillion-dollar infrastructure bet to pay off",
-      "summary": "MIT Technology Review looks at whether the huge AI infrastructure spending by a few big tech companies can earn its money back. It uses Wharton finance professor Jessica Wachter's analysis of AI's economic impact to weigh the business and technical unknowns behind talk of a bubble.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-15T11:26:40.437Z",
-      "lastMeaningfulUpdateAt": "2026-09-15T11:26:40.437Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "What must happen for AI’s trillion-dollar gamble to pay off",
-          "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
-          "publishedAt": "2026-09-15T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "fabcd8b3-91cf-4df6-a5fe-f0ed1b0e4a34",
-      "title": "Study: AI agents blew the whistle on cheating peers",
-      "summary": "In an experiment, AI agents solving math problems split into rival factions; when some agents cheated, others tried to stop and report them.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-14T23:18:30.088Z",
-      "lastMeaningfulUpdateAt": "2026-09-14T23:18:30.088Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "AI agents blew the whistle on their cheating colleagues",
-          "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
-          "publishedAt": "2026-09-14T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 129,
+  "totalCount": 132,
   "hasMore": true
 }
