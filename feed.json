@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T01:57:34.056Z",
+  "generatedAt": "2026-09-17T03:58:58.368Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -325,6 +325,13 @@
           "url": "https://www.engadget.com/2260280/google-home-is-going-agentic-via-integration-with-the-mcp-standard/",
           "publishedAt": "2026-09-16T17:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Google Home Stuns by Announcing AI Support for Claude and OpenClaw",
+          "url": "https://www.cnet.com/tech/services-and-software/google-home-stuns-by-announcing-ai-support-for-claude-and-openclaw/",
+          "publishedAt": "2026-09-17T00:33:34.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -447,6 +454,13 @@
           "title": "Snap introduces a standalone AI assistant, Specs Intelligence",
           "url": "https://www.engadget.com/2260736/snap-introduces-a-standalone-ai-assistant-specs-intelligence/",
           "publishedAt": "2026-09-16T23:40:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Snap tries to make the case again for its $2,200 smart glasses",
+          "url": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
+          "publishedAt": "2026-09-17T00:58:49.000Z",
           "contribution": "supporting"
         }
       ],
@@ -816,6 +830,27 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "4036fb9a-16f9-4059-ada2-a7e79f65f672",
+      "title": "Al Gore says AI's real risk isn't data-center emissions but what industry leaders themselves warn about",
+      "summary": "In a TechCrunch interview, Al Gore said he isn't losing sleep over AI data-center emissions; he is more worried about the AI industry's own warnings about where the technology is headed.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-17T03:58:53.755Z",
+      "lastMeaningfulUpdateAt": "2026-09-17T03:58:53.755Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Al Gore says the real AI risk isn’t data centers — it’s what industry leaders are warning about",
+          "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+          "publishedAt": "2026-09-16T23:43:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -1432,93 +1467,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "e8676db7-f184-4809-ae14-9c5959a6122f",
-      "title": "Anthropic researcher resigns and warns about self-improving AI",
-      "summary": "Anthropic researcher Jacob Coxon resigned over extinction-risk concerns and has become a prominent AI-doomer voice.\n\n- Warns about self-improving AI and calls for pacing agreements between leading labs\n- Describes a \"mini Manhattan project\" inside Anthropic and says it's \"crunch time for humanity\"\n- Argues AI labs have only a few years left to make their systems safe, and that alignment remains unsolved\n- Anthropic's own alignment lead co-signed his warning rather than walking it back\n- His account has gone viral, with coverage of the controversy reportedly reaching 133 million views\n- Now on a media tour discussing his warnings across multiple outlets; the timing coincides with Anthropic reportedly preparing for an IPO",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-09T03:28:12.239Z",
-      "lastMeaningfulUpdateAt": "2026-09-12T12:47:46.768Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "‘The People Building AI Earnestly Believe That It Could Kill Us All’: Anthropic Researcher Quits Dramatically",
-          "url": "https://gizmodo.com/the-people-building-ai-earnestly-believe-that-it-could-kill-us-all-anthropic-researcher-quits-dramatically-2000808968",
-          "publishedAt": "2026-09-09T03:00:47.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI ",
-          "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
-          "publishedAt": "2026-09-09T15:02:47.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
-          "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
-          "publishedAt": "2026-09-09T22:11:55.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "What an Ex-Anthropic Researcher’s Warning About Human Extinction Really Means",
-          "url": "https://www.cnet.com/tech/services-and-software/ex-anthropic-researcher-warning-human-extinction-ai/",
-          "publishedAt": "2026-09-10T19:28:02.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Jacob Coxon’s Anthropic Resignation Sparks AI Controversy Hits 133 Million Views",
-          "url": "https://www.geeky-gadgets.com/jacob-coxon-anthropic-resignation/",
-          "publishedAt": "2026-09-10T10:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Doomlord Jacob Coxon’s Media Tour Has Begun",
-          "url": "https://gizmodo.com/ai-doomlord-jacob-coxons-media-tour-has-begun-2000809720",
-          "publishedAt": "2026-09-10T09:30:38.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
-          "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
-          "publishedAt": "2026-09-11T18:41:49.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’",
-          "url": "https://www.wired.com/story/one-of-ais-fiercest-critics-says-all-the-doom-talk-is-meant-to-distract-us/",
-          "publishedAt": "2026-09-11T15:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "MIT AI",
-          "title": "Roundtables: AI’s apocalypse crisis",
-          "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
-          "publishedAt": "2026-09-11T20:05:06.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "‘P(doom)’ Is Just Vibes Masquerading as Science",
-          "url": "https://gizmodo.com/pdoom-is-just-vibes-masquerading-as-science-2000812009",
-          "publishedAt": "2026-09-16T13:10:53.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "safety",
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 112,
+  "totalCount": 113,
   "hasMore": true
 }
