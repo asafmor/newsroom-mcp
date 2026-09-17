@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T10:03:09.866Z",
+  "generatedAt": "2026-09-17T12:04:42.010Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -92,6 +92,13 @@
           "title": "OpenAI Says This Is When and How It Will Announce New Model Misbehavior",
           "url": "https://gizmodo.com/openai-says-this-is-when-and-how-it-will-announce-new-model-misbehavior-2000812920",
           "publishedAt": "2026-09-17T09:00:20.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI reveals more instances of concerning AI model behaviors during testing",
+          "url": "https://www.engadget.com/2260974/openai-details-instances-of-models-fabricating-information-hiding-from-testers/",
+          "publishedAt": "2026-09-17T10:50:20.000Z",
           "contribution": "supporting"
         }
       ],
@@ -373,6 +380,48 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "310da786-2161-4743-89ed-9a545db0a089",
+      "title": "Oversight Board calls Meta's AI deepfake rules \"consistently and fundamentally inadequate\"",
+      "summary": "Meta's Oversight Board says the company's rules for AI deepfakes are \"consistently and fundamentally inadequate\" and is asking Meta to prioritize AI-generated content when it is reported.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-17T12:04:19.899Z",
+      "lastMeaningfulUpdateAt": "2026-09-17T12:04:19.899Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Oversight Board says Meta's rules for AI deepfakes are 'consistently and fundamentally inadequate'",
+          "url": "https://www.engadget.com/2260894/oversight-board-says-metas-rules-ai-deepfakes-fundamentally-inadequate/",
+          "publishedAt": "2026-09-17T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "5553ee69-5948-44bf-a57b-4e9356bd6daa",
+      "title": "Nvidia and Google form coalition to speed AI data center grid connections",
+      "summary": "A new coalition of tech giants including Nvidia and Google aims to get AI data centers connected to the power grid faster, offering more flexibility in how those facilities draw power in exchange.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-17T12:04:17.406Z",
+      "lastMeaningfulUpdateAt": "2026-09-17T12:04:17.406Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "NVIDIA and Google's new coalition wants to speed up AI data center power grid connections",
+          "url": "https://www.engadget.com/2260986/nvidia-google-emerald-coalition-data-center-power/",
+          "publishedAt": "2026-09-17T11:24:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -805,6 +854,27 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "cc6ee482-99eb-4940-8ef4-9a5257799e34",
+      "title": "CNET: AI doomsday talk is making tech giants more powerful, not safer",
+      "summary": "A CNET analysis argues that the surge of talk about human extinction and AI regulation is ending up entrenching the power of the largest AI companies rather than making the technology safer.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-17T12:04:22.957Z",
+      "lastMeaningfulUpdateAt": "2026-09-17T12:04:22.957Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "How AI Doomsday Talk Is Making Tech Giants More Powerful, Not Safer",
+          "url": "https://www.cnet.com/tech/services-and-software/ai-doomsday-human-extinction-regulation-tech-giants-powerful-not-safer/",
+          "publishedAt": "2026-09-17T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -1420,69 +1490,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "75bc508d-1e74-408f-81e6-4cf0b56176a3",
-      "title": "Anthropic launches Claude for Financial Advisors",
-      "summary": "Anthropic introduced a Claude offering tailored to financial advisors.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-14T23:18:37.300Z",
-      "lastMeaningfulUpdateAt": "2026-09-14T23:18:37.300Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude for Financial Advisors",
-          "url": "https://claude.com/blog/claude-for-financial-advisors",
-          "publishedAt": "2026-09-14T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "a5094d0e-c396-4582-821f-a206ab3de21d",
-      "title": "Anthropic scales test-impact analysis to handle agentic-coding load on CI",
-      "summary": "Anthropic detailed how it scaled test impact analysis to keep its CI pipeline viable as agentic coding tools generate far more commits and test runs.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-14T23:18:35.047Z",
-      "lastMeaningfulUpdateAt": "2026-09-14T23:18:35.047Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
-          "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
-          "publishedAt": "2026-09-14T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "ca8a4f14-257d-484c-b0e2-e63147696489",
-      "title": "AI agent bots flood social media with \"slop\"",
-      "summary": "AI bots with names like \"Timmy,\" \"Ren,\" and \"Jackie\" are self-identifying as agents and flooding a small social platform with low-quality generated content.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-14T23:18:32.991Z",
-      "lastMeaningfulUpdateAt": "2026-09-14T23:18:32.991Z",
-      "sources": [
-        {
-          "providerName": "Ars Technica",
-          "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
-          "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
-          "publishedAt": "2026-09-14T21:04:32.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 115,
+  "totalCount": 119,
   "hasMore": true
 }
