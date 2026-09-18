@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-09-18T20:35:53.872Z",
+  "generatedAt": "2026-09-18T22:37:52.694Z",
   "stories": [
+    {
+      "id": "0874e29c-316c-4fec-b758-461e80e7313d",
+      "title": "Anthropic names Accenture its first embedded safety evaluator as labs' in-house auditing plan draws skepticism",
+      "summary": "Anthropic and OpenAI are moving to embed independent safety evaluators inside their labs to rein in rogue agents, and Anthropic has now named Accenture as its first.\n\n- Anthropic announced a partnership with Accenture on embedded evaluation; TechCrunch calls it the consultancy's most high-risk engagement ever\n- Researchers welcome the unprecedented access but warn real oversight needs transparency, independence from the companies, and eventually regulation\n- Critics argue a simpler containment fix is being overlooked: cut off agents' unsupervised access to the open internet rather than audit the damage afterward\n- The move lands as the labs' broader safety coordination faces antitrust and political pushback",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-16T19:52:23.239Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T22:37:32.175Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+          "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+          "publishedAt": "2026-09-16T18:25:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+          "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+          "publishedAt": "2026-09-16T21:07:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Partnering with Accenture on embedded evaluation",
+          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+          "publishedAt": "2026-09-18T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s first embedded evaluator is … Accenture?",
+          "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
+          "publishedAt": "2026-09-18T21:44:33.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "914af388-5b32-4751-924d-3d2f9ea6b900",
       "title": "Security researchers used Anthropic's Claude to hack into OpenAI",
@@ -113,6 +155,48 @@
         "product-launch",
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "58375be5-392f-48b5-9a3b-0f2ab79aa487",
+      "title": "Sony Music and UMG sue Suno again, saying its \"licensed\" v6 models still infringe",
+      "summary": "Suno's v6 music models, pitched as trained on licensed music, are now the target of a new copyright lawsuit from Sony Music and UMG.\n\n- Suno released v6 earlier this month, trained on licensed music with help from Warner and BMG, replacing its older models as copyright suits piled up\n- In the new suit, Sony Music and UMG argue Suno found a roundabout way to train v6 on unlicensed music\n- The labels say the new models still violate their copyrights",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-09T09:32:44.609Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T22:37:36.124Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Suno trained its v6 AI music models with help from Warner and BMG",
+          "url": "https://www.engadget.com/2251539/suno-trained-its-v6-ai-music-models-with-help-from-warner-and-bmg/",
+          "publishedAt": "2026-09-09T09:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
+          "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
+          "publishedAt": "2026-09-09T12:05:34.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Song Generator Suno Releases New Model Developed With Warner Music",
+          "url": "https://gizmodo.com/ai-song-generator-suno-releases-new-model-developed-with-warner-music-2000809180",
+          "publishedAt": "2026-09-09T22:21:32.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Sony Music and UMG say Suno's new models still violates their copyright",
+          "url": "https://www.engadget.com/2262978/sony-music-and-umg-say-sunos-new-models-still-violates-their-copyright/",
+          "publishedAt": "2026-09-18T21:06:27.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release"
       ]
     },
     {
@@ -673,34 +757,6 @@
           "title": "Google DeepMind launches institute to widen the AGI debate",
           "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
           "publishedAt": "2026-09-17T23:21:17.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "0874e29c-316c-4fec-b758-461e80e7313d",
-      "title": "Anthropic and OpenAI move to embed safety evaluators inside their labs, drawing skepticism",
-      "summary": "Anthropic and OpenAI want to embed independent safety evaluators and auditors inside their labs to rein in rogue agents, and critics are questioning whether that goes far enough.\n\n- Researchers welcome the unprecedented access but warn real oversight needs transparency, independence from the companies, and eventually regulation\n- Critics argue a simpler containment fix is being overlooked: cut off agents' unsupervised access to the open internet rather than audit the damage afterward\n- The move lands as the labs' broader safety coordination faces antitrust and political pushback",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-16T19:52:23.239Z",
-      "lastMeaningfulUpdateAt": "2026-09-16T21:53:43.060Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
-          "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
-          "publishedAt": "2026-09-16T18:25:25.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
-          "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
-          "publishedAt": "2026-09-16T21:07:24.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1572,30 +1628,8 @@
         "model-release",
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "827c677d-8440-471c-8b1e-ccd75fa5987c",
-      "title": "MIT Technology Review answers reader questions on whether AI could \"kill us all\"",
-      "summary": "After a subscriber Roundtables event on AI existential risk drew more questions than its 30-minute session could cover, MIT Technology Review's senior AI editor Will Douglas Heaven and colleague Grace Huckins published written answers to the leftover reader questions.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-18T12:27:36.673Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T12:27:36.673Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "Could AI really kill us all? Your questions, answered.",
-          "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
-          "publishedAt": "2026-09-18T11:29:22.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 124,
+  "totalCount": 125,
   "hasMore": true
 }
