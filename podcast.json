@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T08:23:52.118Z",
+  "generatedAt": "2026-09-18T12:44:54.133Z",
   "episodes": [
     {
       "id": "podcast-2026-W38",
@@ -25,8 +25,13 @@
       "totalCharacterCount": 8341,
       "voice": "alloy",
       "instructions": "warm, clear, moderate pace, professional newsroom narrator",
-      "audioStatus": "pending",
-      "audio": null,
+      "audioStatus": "ready",
+      "audio": {
+        "url": "audio/podcast-2026-W38.mp3",
+        "durationSeconds": 493,
+        "sizeBytes": 3941229,
+        "mimeType": "audio/mpeg"
+      },
       "failureReason": null
     },
     {
