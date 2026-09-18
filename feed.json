@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T10:25:49.881Z",
+  "generatedAt": "2026-09-18T12:27:48.925Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
@@ -390,6 +390,13 @@
           "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
           "publishedAt": "2026-09-17T19:46:08.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Microsoft executive called OpenAI's web scraping the 'largest theft of labor in human history'",
+          "url": "https://www.engadget.com/2262055/microsoft-openai-internet-scraping-largest-theft-of-labor/",
+          "publishedAt": "2026-09-18T11:22:31.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -443,6 +450,27 @@
       "tags": [
         "research",
         "safety"
+      ]
+    },
+    {
+      "id": "50c376ab-dd33-4b9e-b9f9-52bd9fca61e9",
+      "title": "Anthropic sets up a bio research lab for physical experiments",
+      "summary": "Engadget reports that Anthropic now runs its own biology research lab in San Francisco, built for physical experiments rather than purely computational work.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-18T12:27:33.991Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T12:27:33.991Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic has set up a bio research lab for physical experiments",
+          "url": "https://www.engadget.com/2262087/anthropic-has-set-up-a-bio-research-lab-for-physical-experiments/",
+          "publishedAt": "2026-09-18T12:21:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -1324,6 +1352,28 @@
       ]
     },
     {
+      "id": "827c677d-8440-471c-8b1e-ccd75fa5987c",
+      "title": "MIT Technology Review answers reader questions on whether AI could \"kill us all\"",
+      "summary": "After a subscriber Roundtables event on AI existential risk drew more questions than its 30-minute session could cover, MIT Technology Review's senior AI editor Will Douglas Heaven and colleague Grace Huckins published written answers to the leftover reader questions.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-18T12:27:36.673Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T12:27:36.673Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "Could AI really kill us all? Your questions, answered.",
+          "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
+          "publishedAt": "2026-09-18T11:29:22.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
+      ]
+    },
+    {
       "id": "521ef3c1-e3ac-4721-a5a4-a10e8ff6c2dc",
       "title": "King Charles hosts private AI summit and voices hesitations about the technology",
       "summary": "King Charles hosted a private summit Thursday with some of the most prominent names in AI and UK government officials, where, per TechCrunch, the monarch signaled his own hesitations about AI.",
@@ -1574,51 +1624,8 @@
         "safety",
         "opinion"
       ]
-    },
-    {
-      "id": "5ac6f149-fbf2-4e8d-b446-a665087d052d",
-      "title": "Anthropic brings Salesforce into Claude",
-      "summary": "Anthropic announced a Salesforce integration that brings Salesforce into Claude.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-15T19:32:46.955Z",
-      "lastMeaningfulUpdateAt": "2026-09-15T19:32:46.955Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Bringing Salesforce into Claude",
-          "url": "https://claude.com/blog/salesforce-in-claude",
-          "publishedAt": "2026-09-15T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "69054479-56b2-4419-8421-d0ca1253ebea",
-      "title": "Law firm Cooley builds GO Public on ChatGPT Work to speed IPO work",
-      "summary": "OpenAI published a case study on Cooley, which built a tool called GO Public with ChatGPT Work to bring AI into the IPO process, helping lawyers surface issues earlier and focus their judgment where it matters most.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-09-18T00:16:22.950Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T00:16:22.950Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "How Cooley is accelerating IPO work with ChatGPT",
-          "url": "https://openai.com/index/cooley-gopublic",
-          "publishedAt": "2026-09-17T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 112,
+  "totalCount": 115,
   "hasMore": true
 }
