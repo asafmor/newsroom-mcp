@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-18T14:29:55.954Z",
+  "generatedAt": "2026-09-18T16:32:10.755Z",
   "stories": [
     {
       "id": "914af388-5b32-4751-924d-3d2f9ea6b900",
       "title": "Security researchers used Anthropic's Claude to hack into OpenAI",
-      "summary": "Security researchers used Anthropic's Claude to exploit vulnerabilities in OpenAI's systems, taking over employee accounts and reaching an internal code repository before reporting the flaws to the company.",
+      "summary": "Three security researchers used Anthropic's Claude to break into OpenAI's systems in under 72 hours, taking over employee accounts and reaching an internal code repository before reporting the flaws to the company.",
       "importanceScore": 0.8,
       "relevanceScore": 0.95,
       "firstSeenAt": "2026-09-18T14:29:41.611Z",
@@ -16,9 +16,102 @@
           "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
           "publishedAt": "2026-09-18T14:00:14.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Three Hackers Used Claude to Break Into OpenAI In Less Than 72 Hours",
+          "url": "https://gizmodo.com/three-hackers-used-claude-to-break-into-openai-in-less-than-72-hours-2000814009",
+          "publishedAt": "2026-09-18T16:26:32.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
+      "title": "Meta debuts Muse, a personal AI agent powered by its Spark model platform",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps expanding after a fast consumer debut — now onto the desktop.\n\n- New: Muse is available on the Mac, where it can work with a user's files and apps and take actions on their computer\n- Muse carries out online tasks such as shopping, travel booking and selling a car, and climbed to the No. 2 app in the US after launch\n- It can also make phone calls for users, such as booking restaurant reservations and cancelling subscriptions — a feature rival agent Instinct added at the same time\n- Spark 1.3 improved coding and long-running agent performance; the strongest configuration remains in limited preview and a promised open-weight release is delayed\n- Muse's requested access to email, calendars, payments and health services makes privacy and user trust central to Meta's consumer AI bet\n- Meta is offering Spark users a discount in exchange for usage data",
+      "importanceScore": 0.78,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-03T17:01:49.158Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T16:31:56.219Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
+          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+          "publishedAt": "2026-09-03T16:19:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is paying to peek at how you use their latest AI model",
+          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+          "publishedAt": "2026-09-03T18:19:56.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
+          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
+          "publishedAt": "2026-09-08T20:12:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+          "publishedAt": "2026-09-08T19:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s New AI Agent Wants to Get Personal With You",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news-2/",
+          "publishedAt": "2026-09-08T22:33:09.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse Let Me Waste a Mind-Boggling Amount of Free Compute on Nothing in Particular",
+          "url": "https://gizmodo.com/metas-muse-let-me-waste-a-mind-boggling-amount-of-free-compute-on-nothing-in-particular-2000808945",
+          "publishedAt": "2026-09-09T02:05:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+          "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+          "publishedAt": "2026-09-10T19:50:04.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "How to get started with Meta's new AI agent, Muse",
+          "url": "https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/",
+          "publishedAt": "2026-09-12T14:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
+          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
+          "publishedAt": "2026-09-17T13:46:16.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
+          "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+          "publishedAt": "2026-09-18T15:22:48.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "model-release",
         "safety"
       ]
     },
@@ -170,6 +263,13 @@
           "url": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
           "publishedAt": "2026-09-17T20:19:37.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "If the AI Industry Followed Its Own Research, It Might Have Paused Already",
+          "url": "https://www.wired.com/story/if-the-ai-industry-followed-its-own-research-it-might-have-paused-already/",
+          "publishedAt": "2026-09-18T15:00:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -290,83 +390,23 @@
       ]
     },
     {
-      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta debuts Muse, a personal AI agent powered by its Spark model platform",
-      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps gaining capabilities after a fast consumer debut.\n\n- Muse carries out online tasks such as shopping, travel booking and selling a car, and climbed to the No. 2 app in the US after launch\n- New: Muse can now make phone calls for users, such as booking restaurant reservations and cancelling subscriptions — a feature rival agent Instinct added at the same time\n- Spark 1.3 improved coding and long-running agent performance; the strongest configuration remains in limited preview and a promised open-weight release is delayed\n- Muse's requested access to email, calendars, payments and health services makes privacy and user trust central to Meta's consumer AI bet\n- Meta is offering Spark users a discount in exchange for usage data",
-      "importanceScore": 0.78,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T14:06:16.476Z",
+      "id": "f2ddcf14-ecea-414f-b6e5-63abdb35736d",
+      "title": "AI-linked PACs pour nearly $1M into an obscure South Dakota Senate race",
+      "summary": "PACs associated with AI labs and investors have spent nearly $1 million on South Dakota's reliably Republican Senate race, where an incumbent is on the ballot — already more than the state's own residents have contributed, Wired reports.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-18T16:31:49.921Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T16:31:49.921Z",
       "sources": [
         {
-          "providerName": "VentureBeat",
-          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
-          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-          "publishedAt": "2026-09-03T16:19:49.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta is paying to peek at how you use their latest AI model",
-          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
-          "publishedAt": "2026-09-03T18:19:56.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
           "providerName": "Wired AI",
-          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
-          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
-          "publishedAt": "2026-09-08T20:12:51.000Z",
+          "title": "AI PACs Have Dumped Nearly $1 Million Into an Obscure Senate Race",
+          "url": "https://www.wired.com/story/ai-pacs-have-dumped-nearly-1-million-into-an-obscure-senate-race/",
+          "publishedAt": "2026-09-18T15:00:08.000Z",
           "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
-          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
-          "publishedAt": "2026-09-08T19:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Meta’s New AI Agent Wants to Get Personal With You",
-          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news-2/",
-          "publishedAt": "2026-09-08T22:33:09.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Meta’s Muse Let Me Waste a Mind-Boggling Amount of Free Compute on Nothing in Particular",
-          "url": "https://gizmodo.com/metas-muse-let-me-waste-a-mind-boggling-amount-of-free-compute-on-nothing-in-particular-2000808945",
-          "publishedAt": "2026-09-09T02:05:25.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
-          "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
-          "publishedAt": "2026-09-10T19:50:04.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "How to get started with Meta's new AI agent, Muse",
-          "url": "https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/",
-          "publishedAt": "2026-09-12T14:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
-          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
-          "publishedAt": "2026-09-17T13:46:16.000Z",
-          "contribution": "meaningful-update"
         }
       ],
-      "tags": [
-        "product-launch",
-        "model-release",
-        "safety"
-      ]
+      "tags": []
     },
     {
       "id": "8dd7d0fa-a481-4aa4-8cb0-9f9a8d23fa70",
@@ -1599,30 +1639,8 @@
         "product-launch",
         "opinion"
       ]
-    },
-    {
-      "id": "4694bc53-6968-425f-bf71-0623daeb5b98",
-      "title": "Commerce Department pushed Kalshi to pull its AI compute price tracker",
-      "summary": "Kalshi has reportedly taken down its AI compute price tracker after the Commerce Department pressed the prediction market to remove it over national security concerns.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-15T23:36:49.338Z",
-      "lastMeaningfulUpdateAt": "2026-09-15T23:36:49.338Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Kalshi’s AI Compute Price Tracker Reportedly Pulled Over National Security Concerns",
-          "url": "https://gizmodo.com/kalshis-ai-compute-price-tracker-reportedly-pulled-over-national-security-concerns-2000812005",
-          "publishedAt": "2026-09-15T20:30:54.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 119,
   "hasMore": true
 }
