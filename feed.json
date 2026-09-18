@@ -1,6 +1,27 @@
 {
-  "generatedAt": "2026-09-18T12:27:48.925Z",
+  "generatedAt": "2026-09-18T14:29:55.954Z",
   "stories": [
+    {
+      "id": "914af388-5b32-4751-924d-3d2f9ea6b900",
+      "title": "Security researchers used Anthropic's Claude to hack into OpenAI",
+      "summary": "Security researchers used Anthropic's Claude to exploit vulnerabilities in OpenAI's systems, taking over employee accounts and reaching an internal code repository before reporting the flaws to the company.",
+      "importanceScore": 0.8,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-09-18T14:29:41.611Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T14:29:41.611Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
+          "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+          "publishedAt": "2026-09-18T14:00:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
       "title": "Anthropic CEO's \"pace the frontier\" plea splits industry and draws White House pushback",
@@ -431,6 +452,28 @@
       ]
     },
     {
+      "id": "60efbafc-c1f3-4876-8fac-5bf8da30f79b",
+      "title": "Wired: Trump's anti-bias AI order pressures developers toward the president's worldview",
+      "summary": "Wired's Steven Levy argues the Trump administration's order demanding AI models free of ideological bias is itself a form of bias, as the administration pressures developers such as OpenAI and Google to reflect the president's worldview.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-18T14:29:44.232Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T14:29:44.232Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Trump’s Anti-Bias AI Order Is Just More Bias",
+          "url": "https://www.wired.com/story/trump-ai-order-bias-openai-google/",
+          "publishedAt": "2026-09-18T14:10:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "opinion"
+      ]
+    },
+    {
       "id": "fae34448-4a57-4d65-adec-5bbdca123228",
       "title": "Research finds AI text watermarking can make LLMs more vulnerable to harmful prompts",
       "summary": "New research reported by Ars Technica finds that text watermarking such as Google's SynthID changes how LLMs respond to harmful prompts, in some cases causing models to follow adversarial instructions they would otherwise refuse. The finding raises a tension between provenance requirements and model safety as labs roll out watermarking more widely.",
@@ -833,6 +876,25 @@
       "tags": [
         "infrastructure"
       ]
+    },
+    {
+      "id": "465845a9-602d-412d-ad08-8d6ba358f640",
+      "title": "Apple reportedly developing display-free AI smart glasses to rival Meta Ray-Bans",
+      "summary": "Apple is reportedly developing AI-powered smart glasses without built-in displays, relying instead on AI, Siri integration, cameras, microphones, and open-ear speakers — a direct challenge to Meta's Ray-Ban line. The report is a leak, not an Apple announcement.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-18T14:29:47.046Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T14:29:47.046Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Apple Glasses Leaked: the Real Rival to Meta Ray-Bans",
+          "url": "https://www.geeky-gadgets.com/apple-ai-smart-glasses-rumors/",
+          "publishedAt": "2026-09-18T13:00:27.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "a26bb8d0-3f39-4651-a7d0-d975395cd7c6",
@@ -1559,73 +1621,8 @@
         "regulation",
         "infrastructure"
       ]
-    },
-    {
-      "id": "3c635ef2-ddc3-4c67-85aa-c23a9291c10f",
-      "title": "Meta ships a WhatsApp Business MCP server so coding agents can do the setup",
-      "summary": "Meta released a WhatsApp Business MCP server that lets developers hand platform onboarding to AI coding agents such as Claude, Cursor, Codex, and ChatGPT, covering setup, messaging templates, testing, and troubleshooting.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-15T23:36:46.417Z",
-      "lastMeaningfulUpdateAt": "2026-09-15T23:36:46.417Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-          "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
-          "publishedAt": "2026-09-15T20:12:53.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "cc6ee482-99eb-4940-8ef4-9a5257799e34",
-      "title": "CNET: AI doomsday talk is making tech giants more powerful, not safer",
-      "summary": "A CNET analysis argues that the surge of talk about human extinction and AI regulation is ending up entrenching the power of the largest AI companies rather than making the technology safer.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-17T12:04:22.957Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T12:04:22.957Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "How AI Doomsday Talk Is Making Tech Giants More Powerful, Not Safer",
-          "url": "https://www.cnet.com/tech/services-and-software/ai-doomsday-human-extinction-regulation-tech-giants-powerful-not-safer/",
-          "publishedAt": "2026-09-17T09:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "90c67753-946d-4373-9128-eb36411d58bb",
-      "title": "OpenAI researcher warns \"runaway industrialization\" could make Earth inhospitable",
-      "summary": "An OpenAI researcher warned that AI-driven \"runaway industrialization\" could make Earth inhospitable, part of a growing wave of frontier researchers publicly raising alarms.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-15T19:32:57.273Z",
-      "lastMeaningfulUpdateAt": "2026-09-15T19:32:57.273Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "‘Runaway Industrialization’ Could Make Earth Inhospitable, OpenAI Researcher Warns",
-          "url": "https://gizmodo.com/runaway-industrialization-could-make-earth-inhospitable-openai-researcher-warns-2000811818",
-          "publishedAt": "2026-09-15T16:50:59.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 118,
   "hasMore": true
 }
