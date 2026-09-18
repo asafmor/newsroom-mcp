@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T08:23:48.573Z",
+  "generatedAt": "2026-09-18T10:25:49.881Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
@@ -913,6 +913,48 @@
       ]
     },
     {
+      "id": "b27fe923-bf31-48d4-a089-75ffcb922b64",
+      "title": "Scientists tell Wired an AI-enabled bioweapon extinction is a low-ranking risk",
+      "summary": "Wired reports that scientists rank death by engineered plague low among the threats posed by uncontrollable AI, pushing back on one of the most-cited AI doomsday scenarios.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-18T10:25:40.847Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T10:25:40.847Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons",
+          "url": "https://www.wired.com/story/why-ai-bioweapons-wont-wipe-out-humanity/",
+          "publishedAt": "2026-09-18T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "81fd7c35-e389-4eb6-9f49-39138fcb502c",
+      "title": "Wired: the American left agrees on regulating AI but splits over AI doom",
+      "summary": "Wired reports that the political left broadly wants AI regulation but is divided over what it should look like and how seriously to take existential-risk concerns.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-18T10:25:35.778Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T10:25:35.778Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "The Leftist Split Over AI Doom",
+          "url": "https://www.wired.com/story/inside-the-surprising-leftist-split-over-ai-doom/",
+          "publishedAt": "2026-09-18T10:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
       "id": "cbe0abcf-3c7a-40a9-a6ca-9287d3738810",
       "title": "SK Hynix reportedly in talks with Intel to build memory chips in the US",
       "summary": "SK Hynix is reportedly in discussions with Intel about manufacturing memory chips in the United States, a move that would bring more AI-critical memory capacity onshore. SK Hynix told TechCrunch no plans or arrangements have been finalized.",
@@ -1322,6 +1364,25 @@
       ]
     },
     {
+      "id": "8e75d0a4-992a-45db-8781-197ff14366b2",
+      "title": "Napster's next act: AI digital clones of teachers for the classroom",
+      "summary": "Napster, once the music industry's biggest headache, is repositioning itself around AI for education, with a plan to digitally clone teachers, Wired reports.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-18T10:25:38.031Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T10:25:38.031Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Napster Is Back, and It Wants to Digitally Clone Teachers",
+          "url": "https://www.wired.com/story/napster-is-back-and-it-wants-to-digitally-clone-teachers/",
+          "publishedAt": "2026-09-18T09:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "e87bbfe9-4132-4293-a873-5c89f7b4cba4",
       "title": "Apple's fall event pushes AI further into iPhone, Watch, and Siri",
       "summary": "Apple's fall event put AI at the center of its lineup, and a leaked build suggests Siri may lean on rivals' models.\n\n- Apple Watch and iPhone gain \"Audio Intelligence\" features that transcribe and summarize nearby conversations, which Apple says won't save raw audio but critics warn normalizes always-listening devices\n- iOS 27 brings a fully revamped Siri assistant, positioned as Apple's most substantial AI overhaul yet\n- New CEO John Ternus argued the iPhone itself is already users' \"personal AI device\"\n- A leaked build shows Siri cooperating with ChatGPT or Claude on certain tasks, with third-party models potentially able to replace Siri altogether\n- Commentary is split: some frame Apple's low-key approach as a refreshing contrast to rivals' AGI ambitions, others urge people to just talk to each other instead of relying on Audio Intelligence",
@@ -1556,72 +1617,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "627dcde3-3158-4427-85b6-afd12356aab6",
-      "title": "Wired podcast walks through three AI doomsday scenarios and a bipartisan backlash",
-      "summary": "Wired's \"Uncanny Valley\" podcast discusses three possible AI doomsday scenarios, the state of AI safety, and an unexpected bipartisan political alliance forming against AI.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-09-18T00:16:09.879Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T00:16:09.879Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Here’s What the AI Apocalypse Could Look Like",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-heres-what-the-ai-apocalypse-could-look-like/",
-          "publishedAt": "2026-09-17T22:20:21.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion",
-        "safety"
-      ]
-    },
-    {
-      "id": "d565d64d-52cd-4c0e-99af-80e8a1654c62",
-      "title": "Rumored OpenAI funding round could retake the valuation lead from Anthropic",
-      "summary": "A rumored new funding round would reportedly push OpenAI's valuation back above Anthropic's, continuing a lead that has changed hands repeatedly between the two labs. The report is unconfirmed, and coverage frames any resulting lead as potentially short-lived.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.72,
-      "firstSeenAt": "2026-09-16T03:39:57.488Z",
-      "lastMeaningfulUpdateAt": "2026-09-16T03:39:57.488Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Rumored Round of Funding Could Make OpenAI More Valuable Than Anthropic Again. Perhaps Briefly",
-          "url": "https://gizmodo.com/rumored-round-of-funding-could-make-openai-more-valuable-than-anthropic-again-perhaps-briefly-2000812142",
-          "publishedAt": "2026-09-16T03:24:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "4036fb9a-16f9-4059-ada2-a7e79f65f672",
-      "title": "Al Gore says AI's real risk isn't data-center emissions but what industry leaders themselves warn about",
-      "summary": "In a TechCrunch interview, Al Gore said he isn't losing sleep over AI data-center emissions; he is more worried about the AI industry's own warnings about where the technology is headed.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-17T03:58:53.755Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T03:58:53.755Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Al Gore says the real AI risk isn’t data centers — it’s what industry leaders are warning about",
-          "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
-          "publishedAt": "2026-09-16T23:43:09.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 109,
+  "totalCount": 112,
   "hasMore": true
 }
