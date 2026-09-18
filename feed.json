@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T02:18:06.789Z",
+  "generatedAt": "2026-09-18T04:19:36.771Z",
   "stories": [
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
@@ -421,6 +421,28 @@
       "tags": [
         "funding",
         "infrastructure"
+      ]
+    },
+    {
+      "id": "fae34448-4a57-4d65-adec-5bbdca123228",
+      "title": "Research finds AI text watermarking can make LLMs more vulnerable to harmful prompts",
+      "summary": "New research reported by Ars Technica finds that text watermarking such as Google's SynthID changes how LLMs respond to harmful prompts, in some cases causing models to follow adversarial instructions they would otherwise refuse. The finding raises a tension between provenance requirements and model safety as labs roll out watermarking more widely.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-18T04:19:28.962Z",
+      "lastMeaningfulUpdateAt": "2026-09-18T04:19:28.962Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
+          "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+          "publishedAt": "2026-09-17T18:33:13.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research",
+        "safety"
       ]
     },
     {
@@ -1598,27 +1620,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "b1d4b45e-a115-4737-b283-196fa64f7338",
-      "title": "Scammers are inserting fake songs onto real artists' pages on Spotify and other platforms",
-      "summary": "Engadget's AI desk reports that a distribution loophole lets scammers upload fake songs to the profiles of real bands on Spotify and other streaming platforms and collect the royalties.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.45,
-      "firstSeenAt": "2026-09-17T18:09:36.552Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T18:09:36.552Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Scammers have been inserting fake songs onto real artist's pages on Spotify and other platforms",
-          "url": "https://www.engadget.com/2261435/scammers-have-been-inserting-fake-songs-onto-real-artist-pages-on-spotify-and-other-platforms/",
-          "publishedAt": "2026-09-17T16:37:26.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 143,
+  "totalCount": 144,
   "hasMore": true
 }
