@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T14:50:03.439Z",
+  "generatedAt": "2026-09-19T16:50:51.156Z",
   "stories": [
     {
       "id": "9fbc1490-d09e-439b-a4e8-2d68d7d093f7",
@@ -1392,6 +1392,28 @@
       ]
     },
     {
+      "id": "96a17456-df46-4bf6-858b-f70f85b50e62",
+      "title": "TechCrunch: viral AI safety conversations show how hard it is to tell AI fact from fiction",
+      "summary": "A TechCrunch commentary argues that two AI safety conversations that went viral this week, touching on OpenAI, Anthropic, and alignment, demonstrate how difficult it has become to separate AI fact from fiction.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-19T16:50:42.981Z",
+      "lastMeaningfulUpdateAt": "2026-09-19T16:50:42.981Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI safety conversations have gotten unbelievable",
+          "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+          "publishedAt": "2026-09-19T15:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion",
+        "safety"
+      ]
+    },
+    {
       "id": "557daaf5-cb51-4dfd-ad06-f1c1a05be016",
       "title": "Startup studio Vantora (formerly UP.Labs) raises $100M to build physical-AI startups",
       "summary": "UP.Labs, now doing business as Vantora, has raised $100M, TechCrunch reports. The venture studio builds startups for industrial corporations and says it is going all-in on physical AI.",
@@ -1642,27 +1664,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "2634fcb4-57d5-4f1b-90da-7bad1eba8fd8",
-      "title": "PrismML bets a tiny LLM can change how people use AI",
-      "summary": "TechCrunch profiles PrismML, an AI lab building a very small language model it hopes will change how people use AI, positioning it as a startup worth watching.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-18T00:16:16.068Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T00:16:16.068Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "PrismML hopes its tiny LLM will change how we all use AI",
-          "url": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
-          "publishedAt": "2026-09-17T22:34:09.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 120,
+  "totalCount": 121,
   "hasMore": true
 }
