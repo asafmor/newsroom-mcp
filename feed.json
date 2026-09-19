@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T18:52:06.595Z",
+  "generatedAt": "2026-09-19T20:53:09.630Z",
   "stories": [
     {
       "id": "84697ab9-90da-4d29-aee3-f0633edb043e",
@@ -339,6 +339,39 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "285d3952-cdb8-4f3d-b00c-1b6ea9211b2a",
+      "title": "Trump says he's creating an \"AI Force\" and floats rebranding AI with a new name",
+      "summary": "President Trump said he is creating an \"AI Force\" and suggested giving AI itself a new name.\n\n- Trump said he will soon announce an \"AI czar\" to run the newly announced AI Force\n- He floated rebranding AI under a different name and invited the public to help pick one\n- He claimed, without evidence, that the backlash against AI is a Democratic hoax",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-19T20:53:03.237Z",
+      "lastMeaningfulUpdateAt": "2026-09-19T20:53:03.237Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Now Trump says he's creating an AI Force",
+          "url": "https://www.engadget.com/2263237/now-trump-says-hes-creating-an-ai-force/",
+          "publishedAt": "2026-09-19T19:22:20.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
+          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+          "publishedAt": "2026-09-19T19:57:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "You’ll Never Guess What Trump Wants to Rename Now",
+          "url": "https://gizmodo.com/youll-never-guess-what-trump-wants-to-rename-now-2000814488",
+          "publishedAt": "2026-09-19T19:58:23.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
@@ -1643,44 +1676,8 @@
         "open-source",
         "research"
       ]
-    },
-    {
-      "id": "d6f0f9f7-998d-48c1-95f6-2e92aa23faa9",
-      "title": "Antitrust law is the open question hanging over AI labs' safety coordination",
-      "summary": "Whether rival AI labs may legally coordinate on safety has become a live legal question as OpenAI, Anthropic and Google work together.\n\n- OpenAI has been examining whether antitrust law blocks a coordinated slowdown in AI development\n- The labs' joint safety work puts that untested question in front of regulators\n- Critics read the safety framing as potential cover for competitive coordination",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-11T05:35:36.840Z",
-      "lastMeaningfulUpdateAt": "2026-09-15T23:36:32.985Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
-          "url": "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/",
-          "publishedAt": "2026-09-10T23:28:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI, Anthropic, and Google Join Forces for Safety as Antitrust Concerns Mount",
-          "url": "https://gizmodo.com/openai-anthropic-and-google-join-forces-for-safety-as-antitrust-concerns-mount-2000811888",
-          "publishedAt": "2026-09-15T19:45:32.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "The AI ‘Slowdown’ Is an Antitrust Mess",
-          "url": "https://www.wired.com/story/the-ai-slowdown-is-an-antitrust-mess/",
-          "publishedAt": "2026-09-17T19:58:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 123,
   "hasMore": true
 }
