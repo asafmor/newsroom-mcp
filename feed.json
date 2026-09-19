@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T10:46:57.428Z",
+  "generatedAt": "2026-09-19T12:48:06.008Z",
   "stories": [
     {
       "id": "9fbc1490-d09e-439b-a4e8-2d68d7d093f7",
@@ -263,6 +263,27 @@
       ]
     },
     {
+      "id": "8f058cf3-d838-4bdf-a70c-a1c8cce84c60",
+      "title": "Wired: AI chatbots are already driving a surge in discovered security vulnerabilities",
+      "summary": "Wired reports that while AI labs debate an industry-wide pact to slow development, widely available AI chatbots are already helping uncover a tidal wave of security flaws — a vulnerability explosion that doesn't depend on frontier models at all.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-19T12:47:56.344Z",
+      "lastMeaningfulUpdateAt": "2026-09-19T12:47:56.344Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
+          "url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/",
+          "publishedAt": "2026-09-19T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
       "title": "Anthropic CEO's \"pace the frontier\" plea splits industry and draws White House pushback",
       "summary": "Dario Amodei's plan to pace rather than race frontier AI development has become an open industry-vs-politics fight, now argued on stage by the CEOs themselves.\n\n- The CEOs of OpenAI, Anthropic, and Nvidia turned Salesforce's Dreamforce conference into an unlikely battleground over whether AI development should slow down\n- Amodei argued \"we owe it to humanity to try\"; Sam Altman, Elon Musk, and Microsoft's Satya Nadella have backed the slowdown camp, and OpenAI confirmed weeks of safety talks with Anthropic and Google DeepMind\n- Nvidia's Jensen Huang argues no AI regulation is needed at all: AI is hardware and software, not an \"alien mind,\" so each product maker can engineer its own safety\n- The White House says it has no plans to act, with Trump's team prioritizing keeping pace with China; Altman separately sought a private meeting with Trump\n- Beijing agrees advanced AI poses serious risks but is deeply skeptical of any deal it reads as designed to keep US companies ahead\n- Lab employees report seeing no let-up in the pace of the work they're actually being asked to do",
@@ -438,6 +459,20 @@
           "url": "https://www.wired.com/story/heres-how-an-ai-slowdown-could-actually-work/",
           "publishedAt": "2026-09-18T19:21:09.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "The Doomsday Warnings AI CEOs Gave When They First Founded Their Companies",
+          "url": "https://gizmodo.com/the-doomsday-warnings-ai-ceos-gave-when-they-first-founded-their-companies-2000814278",
+          "publishedAt": "2026-09-19T12:00:38.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Nvidia CEO Jensen Huang Says There Is ‘0 Per Cent Chance’ AI Will Cause Human Extinction",
+          "url": "https://in.mashable.com/tech/114096/nvidia-ceo-jensen-huang-says-there-is-0-per-cent-chance-ai-will-cause-human-extinction",
+          "publishedAt": "2026-09-19T10:45:01.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1619,29 +1654,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "5dcc9c26-97ab-4c2f-ab66-e43618872438",
-      "title": "Google DeepMind introduces Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "summary": "Google DeepMind announced Gemini 3.8 Live and a Gemini 3.8 Live Extended Thinking variant, extending its Gemini 3.8 lineup.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-15T19:32:43.899Z",
-      "lastMeaningfulUpdateAt": "2026-09-15T19:32:43.899Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-          "publishedAt": "2026-09-15T17:05:57.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
     }
   ],
-  "totalCount": 130,
+  "totalCount": 126,
   "hasMore": true
 }
