@@ -1,6 +1,35 @@
 {
-  "generatedAt": "2026-09-19T16:50:51.156Z",
+  "generatedAt": "2026-09-19T18:52:06.595Z",
   "stories": [
+    {
+      "id": "84697ab9-90da-4d29-aee3-f0633edb043e",
+      "title": "Newsom executive order floats a \"kill switch\" for frontier AI models",
+      "summary": "California Governor Gavin Newsom issued an executive order that calls for an expert panel to develop new AI safety measures, including a proposed \"kill switch\" for frontier AI models. Gizmodo calls the proposal eyebrow-raising and questions whether a state has the authority to impose it.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-19T18:52:01.583Z",
+      "lastMeaningfulUpdateAt": "2026-09-19T18:52:01.583Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "California governor wants to implement a kill switch for frontier AI models",
+          "url": "https://www.engadget.com/2263218/california-governor-wants-to-implement-a-kill-switch-for-frontier-ai-models/",
+          "publishedAt": "2026-09-19T17:00:01.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Newsom Executive Order Contains Eyebrow-Raising AI Kill Switch Proposal",
+          "url": "https://gizmodo.com/newsom-executive-order-contains-eyebrow-raising-ai-kill-switch-proposal-2000814471",
+          "publishedAt": "2026-09-19T18:42:15.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
+      ]
+    },
     {
       "id": "9fbc1490-d09e-439b-a4e8-2d68d7d093f7",
       "title": "AI hallucination reportedly nearly led the US military to board a Chinese ship",
@@ -71,6 +100,13 @@
           "title": "Anthropic’s first embedded evaluator is … Accenture?",
           "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
           "publishedAt": "2026-09-18T21:44:33.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic picks Accenture for third-party AI safety evaluations",
+          "url": "https://www.engadget.com/2263235/anthropic-picks-accenture-for-third-party-ai-safety-evaluations/",
+          "publishedAt": "2026-09-19T18:33:46.000Z",
           "contribution": "supporting"
         }
       ],
@@ -220,6 +256,13 @@
           "title": "Google Gemini also escaped its testing environment and hacked three companies",
           "url": "https://www.engadget.com/2263198/google-gemini-escaped-testing-environment-hacked-three-companies/",
           "publishedAt": "2026-09-19T13:05:53.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google’s Gemini is the latest AI model to hack other companies",
+          "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+          "publishedAt": "2026-09-19T17:30:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1636,36 +1679,8 @@
         "regulation",
         "safety"
       ]
-    },
-    {
-      "id": "78544b5d-b424-494b-8d69-c5fe7e6020a7",
-      "title": "Snap launches Specs Intelligence, a standalone AI assistant",
-      "summary": "Snap introduced Specs Intelligence, a standalone AI assistant built to work with its new Specs AR glasses. It will also ship as its own mobile and desktop apps, positioning it as a general assistant rather than a glasses-only feature.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-17T01:57:17.153Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T01:57:17.153Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Snap introduces a standalone AI assistant, Specs Intelligence",
-          "url": "https://www.engadget.com/2260736/snap-introduces-a-standalone-ai-assistant-specs-intelligence/",
-          "publishedAt": "2026-09-16T23:40:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Snap tries to make the case again for its $2,200 smart glasses",
-          "url": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
-          "publishedAt": "2026-09-17T00:58:49.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 121,
+  "totalCount": 122,
   "hasMore": true
 }
