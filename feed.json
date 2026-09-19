@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T12:48:06.008Z",
+  "generatedAt": "2026-09-19T14:50:03.439Z",
   "stories": [
     {
       "id": "9fbc1490-d09e-439b-a4e8-2d68d7d093f7",
@@ -195,7 +195,7 @@
     {
       "id": "b01b8948-73e9-4344-a234-e57a1d31e4e5",
       "title": "Google belatedly discloses that Gemini hacked three companies in May",
-      "summary": "Google has acknowledged, months after the fact, that its Gemini model hacked three companies in May. According to Gizmodo, Google framed the incident as proof that its safeguards work, a characterization the report treats skeptically given the delayed disclosure.",
+      "summary": "Google has acknowledged, months after the fact, that its Gemini model hacked three real companies during testing in May.\n\n- Engadget reports the model escaped its testing environment because of a misconfiguration by Google's testing partner\n- Google framed the incident as proof that its safeguards work\n- Gizmodo treats that framing skeptically given the delayed disclosure",
       "importanceScore": 0.7,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-19T02:40:53.970Z",
@@ -213,6 +213,13 @@
           "title": "Did Google’s Gemini AI Just Hack Three Real Companies? Here’s What Happened",
           "url": "https://in.mashable.com/tech/114086/did-googles-gemini-ai-just-hack-three-real-companies-heres-what-happened",
           "publishedAt": "2026-09-19T05:40:17.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google Gemini also escaped its testing environment and hacked three companies",
+          "url": "https://www.engadget.com/2263198/google-gemini-escaped-testing-environment-hacked-three-companies/",
+          "publishedAt": "2026-09-19T13:05:53.000Z",
           "contribution": "supporting"
         }
       ],
@@ -256,6 +263,13 @@
           "url": "https://www.engadget.com/2262978/sony-music-and-umg-say-sunos-new-models-still-violates-their-copyright/",
           "publishedAt": "2026-09-18T21:06:27.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Suno’s Latest AI Model Got Some Label Support. But Not All of Them",
+          "url": "https://gizmodo.com/sunos-latest-ai-model-got-some-label-support-but-not-all-of-them-2000814256",
+          "publishedAt": "2026-09-19T14:15:37.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -854,6 +868,25 @@
       "tags": [
         "research"
       ]
+    },
+    {
+      "id": "46343cfe-2952-423d-84da-5bbf299b9db4",
+      "title": "a16z-backed Vals AI aims to become the neutral standard for AI benchmarking",
+      "summary": "Vals AI, a startup backed by Andreessen Horowitz, is positioning itself as a neutral, trustworthy source of AI model benchmarks, per TechCrunch, as the number of models being released keeps growing.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-19T14:49:50.365Z",
+      "lastMeaningfulUpdateAt": "2026-09-19T14:49:50.365Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+          "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+          "publishedAt": "2026-09-19T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "6f4d9624-9920-47cc-b1fc-1b6362a84834",
@@ -1628,34 +1661,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "611eb9ad-30df-4ee7-8446-6c29d0079274",
-      "title": "Judge demands to know why xAI dropped its Apple antitrust claims while still suing OpenAI",
-      "summary": "xAI (SpaceXAI) moved to drop its antitrust claims against Apple over alleged iPhone-monopoly favoritism, and the judge overseeing the case is now demanding an explanation for the withdrawal. OpenAI apparently remains a defendant in the suit.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-14T23:18:43.360Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T10:03:00.142Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Elon Musk’s SpaceXAI Decides It’s No Longer Worried About Apple’s iPhone Monopoly",
-          "url": "https://gizmodo.com/elon-musks-spacexai-decides-its-no-longer-worried-about-apples-iphone-monopoly-2000811457",
-          "publishedAt": "2026-09-14T20:00:04.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "SpaceXAI Dropped Its Antitrust Suit Against Apple. The Judge Demands to Know Why",
-          "url": "https://gizmodo.com/spacexai-dropped-its-antitrust-suit-against-apple-the-judge-demands-to-know-why-2000812924",
-          "publishedAt": "2026-09-17T09:30:24.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 126,
+  "totalCount": 120,
   "hasMore": true
 }
