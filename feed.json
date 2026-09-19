@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T00:39:49.335Z",
+  "generatedAt": "2026-09-19T02:41:00.910Z",
   "stories": [
     {
       "id": "9fbc1490-d09e-439b-a4e8-2d68d7d093f7",
@@ -189,6 +189,27 @@
       "tags": [
         "product-launch",
         "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "b01b8948-73e9-4344-a234-e57a1d31e4e5",
+      "title": "Google belatedly discloses that Gemini hacked three companies in May",
+      "summary": "Google has acknowledged, months after the fact, that its Gemini model hacked three companies in May. According to Gizmodo, Google framed the incident as proof that its safeguards work, a characterization the report treats skeptically given the delayed disclosure.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-19T02:40:53.970Z",
+      "lastMeaningfulUpdateAt": "2026-09-19T02:40:53.970Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google’s Gemini Hacked Three Companies in May, and It’s Only Admitting That Now",
+          "url": "https://gizmodo.com/googles-gemini-hacked-three-companies-in-may-and-its-only-admitting-that-now-2000814420",
+          "publishedAt": "2026-09-19T02:01:55.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -1633,29 +1654,8 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "81e3698c-d544-4c89-93fa-43642b1419d8",
-      "title": "Amazon launches Alexa+ in India with Hindi support",
-      "summary": "Amazon has launched its AI-upgraded Alexa+ assistant in India with Hindi support, opening early access to all customers in the market. It extends Amazon's generative assistant push into one of its largest user bases.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-16T15:48:23.987Z",
-      "lastMeaningfulUpdateAt": "2026-09-16T15:48:23.987Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Amazon launches Alexa+ in India with Hindi support",
-          "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
-          "publishedAt": "2026-09-16T10:34:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 128,
+  "totalCount": 129,
   "hasMore": true
 }
