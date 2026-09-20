@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T17:02:53.078Z",
+  "generatedAt": "2026-09-20T19:04:19.611Z",
   "stories": [
     {
       "id": "d9279399-7be6-4942-9cb8-e25915b9457d",
@@ -591,6 +591,13 @@
           "url": "https://in.mashable.com/tech/114096/nvidia-ceo-jensen-huang-says-there-is-0-per-cent-chance-ai-will-cause-human-extinction",
           "publishedAt": "2026-09-19T10:45:01.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Is the AI industry really ready to slow down?",
+          "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+          "publishedAt": "2026-09-20T18:56:04.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1385,6 +1392,27 @@
       "tags": []
     },
     {
+      "id": "eb56be94-4aeb-4bfb-abc9-039da07f18e9",
+      "title": "Vocci launches a $249 ring for AI meeting note-taking",
+      "summary": "Vocci has introduced a lightweight $249 ring that brings meeting note-taking to a new wearable form factor, a design that may raise privacy questions about recording conversations.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-20T19:04:12.183Z",
+      "lastMeaningfulUpdateAt": "2026-09-20T19:04:12.183Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Vocci’s ring adds a new form factor to meeting note-taking",
+          "url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
+          "publishedAt": "2026-09-20T18:32:52.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "465845a9-602d-412d-ad08-8d6ba358f640",
       "title": "Apple reportedly developing display-free AI smart glasses to rival Meta Ray-Bans",
       "summary": "Apple is reportedly developing AI-powered smart glasses without built-in displays, relying instead on AI, Siri integration, cameras, microphones, and open-ear speakers — a direct challenge to Meta's Ray-Ban line. The report is a leak, not an Apple announcement.",
@@ -1662,27 +1690,8 @@
         "safety",
         "regulation"
       ]
-    },
-    {
-      "id": "a917256b-9e97-4a85-abce-89e2fee6cb9f",
-      "title": "Anthropic introduces a Life Sciences Verification Program",
-      "summary": "Anthropic announced a Life Sciences Verification Program. The source feed carried only the announcement's title, so program specifics aren't available yet.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-17T18:09:24.756Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T18:09:24.756Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Introducing the Life Sciences Verification Program",
-          "url": "https://www.anthropic.com/news/life-sciences-verification-program",
-          "publishedAt": "2026-09-17T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 121,
+  "totalCount": 122,
   "hasMore": true
 }
