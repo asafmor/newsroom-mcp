@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T07:10:32.403Z",
+  "generatedAt": "2026-09-21T09:11:40.486Z",
   "stories": [
     {
       "id": "d9279399-7be6-4942-9cb8-e25915b9457d",
@@ -297,6 +297,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "28d43648-6d39-4939-9a0c-75679373d90d",
+      "title": "Report claims DraftKings built an AI model to target \"profitable losers\"",
+      "summary": "According to a report covered by Gizmodo, DraftKings built an AI model to identify and target \"profitable losers\" — bettors likely to lose money — suggesting its promotional incentives may not be the free lunch they appear to be. The source item gives little detail beyond the claim itself.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-21T09:11:33.926Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T09:11:33.926Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "DraftKings Built an AI Model to Target Profitable Losers, Report Claims",
+          "url": "https://gizmodo.com/draftkings-built-an-ai-model-to-target-profitable-losers-report-claims-2000814536",
+          "publishedAt": "2026-09-21T09:00:33.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "58375be5-392f-48b5-9a3b-0f2ab79aa487",
@@ -1675,30 +1694,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "bed6ac6c-1895-44e3-bcff-9a25444d42b7",
-      "title": "Nuclear experts propose US-China measures to reduce AI risks ahead of Trump-Xi meeting",
-      "summary": "Ahead of a scheduled meeting between presidents Trump and Xi, a report from nuclear experts lays out proposals for how the US and China can avoid AI-triggered catastrophe.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-17T18:09:34.008Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T18:09:34.008Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Nuclear Experts Offer China and US Solutions for AI Risks",
-          "url": "https://gizmodo.com/nuclear-experts-offer-china-and-us-solutions-for-ai-risks-2000813291",
-          "publishedAt": "2026-09-17T16:40:27.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "regulation"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 123,
   "hasMore": true
 }
