@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T13:14:56.484Z",
+  "generatedAt": "2026-09-21T15:17:08.488Z",
   "stories": [
     {
       "id": "2390f90d-8377-43db-aaea-1f613c773098",
@@ -41,6 +41,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "ebeef40c-4c34-437d-ae17-c8f417e113b5",
+      "title": "Google launches the $899 Googlebook, an AI-native laptop built around Gemini",
+      "summary": "Google introduced the $899 Googlebook, an \"AI-native\" laptop that ties Gemini into the cursor, dictation, widgets and other parts of the desktop experience — a bet that consumers will buy new hardware to get Gemini built in.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-21T15:16:45.113Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T15:16:45.113Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+          "publishedAt": "2026-09-21T14:39:22.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -866,6 +887,27 @@
       "tags": []
     },
     {
+      "id": "9e9eb8b5-c253-4629-be24-eb918b88590e",
+      "title": "Hugging Face releases tokenizers v1 with measured encode, decode and scaling results",
+      "summary": "Hugging Face published a post marking the v1 release of its open-source tokenizers library, reporting measurements of encode, decode and scaling performance.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-21T15:16:50.240Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T15:16:50.240Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "tokenizers v1: encode, decode and scaling, measured",
+          "url": "https://huggingface.co/blog/tokenizers-v1",
+          "publishedAt": "2026-09-21T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
+      ]
+    },
+    {
       "id": "8dd7d0fa-a481-4aa4-8cb0-9f9a8d23fa70",
       "title": "NYT v. OpenAI: unsealed filings show Microsoft privately called AI scraping \"theft\" as US backs fair-use defense",
       "summary": "The New York Times' copyright lawsuit against OpenAI and Microsoft has produced damaging internal admissions, even as the US government sides with the defendants.\n\n- Newly unsealed, unredacted court filings show a Microsoft executive called AI scraping \"the largest theft of labor in human history,\" and that Microsoft privately described OpenAI's data practices as \"theft\"\n- The filings say both companies scraped paywalled Times content and built datasets from it, while warning internally that the practice would gut publishers\n- Earlier, the Trump administration filed a brief backing OpenAI's argument that training LLMs on copyrighted material is fair use, citing US interest in a competitive AI industry",
@@ -1113,6 +1155,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "238e051f-a10c-434c-9462-9acc817eae43",
+      "title": "Multiverse Computing frames LLM block pruning as an Ising optimization problem",
+      "summary": "A Multiverse Computing post on Hugging Face describes a physics-inspired approach to LLM compression: choosing which model blocks to remove by casting the selection as an Ising optimization problem.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-21T15:16:52.548Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T15:16:52.548Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+          "publishedAt": "2026-09-21T13:44:34.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
     },
     {
       "id": "6f4d9624-9920-47cc-b1fc-1b6362a84834",
@@ -1528,6 +1591,27 @@
       ]
     },
     {
+      "id": "2d6c2b76-774b-476c-9b1d-9225eb016c4c",
+      "title": "OpenAI spotlights V7's use of GPT-5.6 to give AI agents \"institutional memory\"",
+      "summary": "An OpenAI customer story describes how startup V7 uses GPT-5.6 to turn scattered company files into context that AI agents can draw on to complete complex, source-linked work.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-21T15:16:47.737Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T15:16:47.737Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "How V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7",
+          "publishedAt": "2026-09-21T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "465845a9-602d-412d-ad08-8d6ba358f640",
       "title": "Apple reportedly developing display-free AI smart glasses to rival Meta Ray-Bans",
       "summary": "Apple is reportedly developing AI-powered smart glasses without built-in displays, relying instead on AI, Siri integration, cameras, microphones, and open-ear speakers — a direct challenge to Meta's Ray-Ban line. The report is a leak, not an Apple announcement.",
@@ -1637,93 +1721,8 @@
         "opinion",
         "safety"
       ]
-    },
-    {
-      "id": "96a17456-df46-4bf6-858b-f70f85b50e62",
-      "title": "TechCrunch: viral AI safety conversations show how hard it is to tell AI fact from fiction",
-      "summary": "A TechCrunch commentary argues that two AI safety conversations that went viral this week, touching on OpenAI, Anthropic, and alignment, demonstrate how difficult it has become to separate AI fact from fiction.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-19T16:50:42.981Z",
-      "lastMeaningfulUpdateAt": "2026-09-19T16:50:42.981Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI safety conversations have gotten unbelievable",
-          "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
-          "publishedAt": "2026-09-19T15:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion",
-        "safety"
-      ]
-    },
-    {
-      "id": "557daaf5-cb51-4dfd-ad06-f1c1a05be016",
-      "title": "Startup studio Vantora (formerly UP.Labs) raises $100M to build physical-AI startups",
-      "summary": "UP.Labs, now doing business as Vantora, has raised $100M, TechCrunch reports. The venture studio builds startups for industrial corporations and says it is going all-in on physical AI.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-19T00:39:43.939Z",
-      "lastMeaningfulUpdateAt": "2026-09-19T00:39:43.939Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "A startup that builds other startups raised $100M, and is all-in on physical AI",
-          "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
-          "publishedAt": "2026-09-18T23:25:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "983fdd8a-ce1b-4409-b801-e163c023073f",
-      "title": "AI is being pitched as the overseer for AI agents humans can't keep up with",
-      "summary": "As companies hand longer and more complex tasks to AI agents, they are hitting an oversight problem: agents act faster, longer, and at greater volume than humans can realistically review. TechCrunch reports the emerging fix for rogue agents may be more AI doing the supervising.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-17T22:13:19.235Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T22:13:19.235Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The fix for rogue AI agents could be more AI",
-          "url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
-          "publishedAt": "2026-09-17T20:34:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "b27fe923-bf31-48d4-a089-75ffcb922b64",
-      "title": "Scientists tell Wired an AI-enabled bioweapon extinction is a low-ranking risk",
-      "summary": "Wired reports that scientists rank death by engineered plague low among the threats posed by uncontrollable AI, pushing back on one of the most-cited AI doomsday scenarios.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-18T10:25:40.847Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T10:25:40.847Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons",
-          "url": "https://www.wired.com/story/why-ai-bioweapons-wont-wipe-out-humanity/",
-          "publishedAt": "2026-09-18T09:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 126,
+  "totalCount": 130,
   "hasMore": true
 }
