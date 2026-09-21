@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-21T17:18:58.201Z",
+  "generatedAt": "2026-09-21T19:21:31.505Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta's Muse AI agent expands fast — and draws a crackdown from Amazon",
-      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is meeting its first major platform pushback after a fast consumer rollout.\n\n- New: Amazon has cracked down on the Muse agent, saying the move stems from privacy and security concerns\n- Muse carries out online tasks such as shopping, travel booking and selling a car, and climbed to the No. 2 app in the US after launch\n- It has expanded to the Mac, where it can work with a user's files and apps and take actions on their computer\n- It can also make phone calls for users, such as booking reservations and cancelling subscriptions — a feature rival agent Instinct added at the same time\n- Spark 1.3 improved coding and long-running agent performance; the strongest configuration remains in limited preview and a promised open-weight release is delayed\n- Muse's requested access to email, calendars, payments and health services — plus a discount Meta offers in exchange for usage data — keeps privacy and user trust central to Meta's consumer AI bet",
+      "title": "Meta's Muse AI agent outpaces ChatGPT's early mobile growth — and gets blocked by Amazon",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is growing faster than ChatGPT did at launch while meeting its first major platform pushback.\n\n- New: Appfigures estimates Muse has racked up more downloads and daily active users in the US and Canada than ChatGPT did over the same period after its mobile debut\n- Amazon has blocked the Muse agent from shopping on Amazon.com, citing privacy and security concerns\n- Muse carries out online tasks such as shopping, travel booking and selling a car; it has expanded to the Mac, where it can act on a user's files and apps, and can make phone calls for users\n- Spark 1.3 improved coding and long-running agent performance; the strongest configuration remains in limited preview and a promised open-weight release is delayed\n- Muse's requested access to email, calendars, payments and health services — plus a discount Meta offers in exchange for usage data — keeps privacy and user trust central to Meta's consumer AI bet",
       "importanceScore": 0.8,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T17:18:42.573Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T19:21:03.781Z",
       "sources": [
         {
           "providerName": "VentureBeat",
@@ -93,6 +93,20 @@
           "url": "https://gizmodo.com/amazon-brings-down-the-hammer-on-metas-muse-ai-agent-2000814878",
           "publishedAt": "2026-09-21T16:05:22.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s AI agent has been blocked from using Amazon.com",
+          "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+          "publishedAt": "2026-09-21T17:55:18.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+          "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+          "publishedAt": "2026-09-21T19:19:21.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -165,6 +179,84 @@
       ]
     },
     {
+      "id": "ce12b215-9eef-43f5-bcbb-28d4625d89e0",
+      "title": "AI hardware exports set to be a bargaining chip at the upcoming Trump-Xi summit",
+      "summary": "Ahead of President Trump's upcoming summit with Xi Jinping, Wired reports that Washington and Beijing have grown ever more linked in the AI boom, making hardware exports and technological restrictions hefty bargaining chips alongside tariffs and rare minerals.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-21T19:21:23.450Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T19:21:23.450Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI, Tariffs, Rare Minerals: What to Expect From Trump’s Upcoming Summit With Xi Jinping",
+          "url": "https://www.wired.com/story/ai-tariffs-rare-minerals-what-to-expect-from-trumps-upcoming-summit-with-xi-jinping/",
+          "publishedAt": "2026-09-21T18:33:02.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "d2c37bf1-8cb0-459c-8147-f9343a25ebea",
+      "title": "OpenAI sets up an independent math advisory group amid its feud with mathematicians",
+      "summary": "OpenAI's dispute with mathematicians over AI's encroachment on their work has escalated, and the company is now bringing in outside advisers on how it handles math results.\n\n- New: OpenAI says it is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results\n- Twenty-five leading mathematicians signed an open letter arguing AI labs are threatening their intellectual work\n- OpenAI will no longer sponsor Caltech's \"Mathathon,\" though organizers say the event won't be substantially affected\n- An NYU mathematician embroiled in the controversy says AI has effectively beaten human mathematicians, \"the game is up\"\n- The Information reports OpenAI is now attempting the Hodge Conjecture, with its main concern being how to announce a result without further infuriating mathematicians",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-12T12:48:10.132Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T19:21:05.312Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s feud with mathematicians is only escalating",
+          "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+          "publishedAt": "2026-09-11T20:57:36.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Is Beefing With Mathematicians, Will No Longer Sponsor Caltech ‘Mathathon’",
+          "url": "https://gizmodo.com/openai-is-beefing-with-mathematicians-will-no-longer-sponsor-caltech-mathathon-2000810868",
+          "publishedAt": "2026-09-12T01:05:18.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
+          "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
+          "publishedAt": "2026-09-11T16:45:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Reportedly Trying to Solve Hodge Conjecture Amid Feud With Math Community",
+          "url": "https://gizmodo.com/openai-reportedly-trying-to-solve-hodge-conjecture-amid-feud-with-math-community-2000813658",
+          "publishedAt": "2026-09-18T00:10:47.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Mathematicians Hate AI. They Can’t Quit It",
+          "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
+          "publishedAt": "2026-09-19T10:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Advisory Group on Mathematics and Artificial Intelligence",
+          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+          "publishedAt": "2026-09-21T12:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "ebeef40c-4c34-437d-ae17-c8f417e113b5",
       "title": "Google launches the $899 Googlebook, an AI-native laptop built around Gemini",
       "summary": "Google introduced the $899 Googlebook, an \"AI-native\" laptop that ties Gemini into the cursor, dictation, widgets and other parts of the desktop experience — a bet that consumers will buy new hardware to get Gemini built in.",
@@ -224,6 +316,28 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "ef31de4d-2661-4ee4-8a27-c9d5215fb509",
+      "title": "OpenAI calls for shared global AI standards",
+      "summary": "OpenAI has outlined a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance across countries to improve safety. The post is a policy position from the company's global affairs team rather than a binding commitment.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-21T19:21:20.511Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T19:21:20.511Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Building standards for the next phase of AI",
+          "url": "https://openai.com/index/building-standards-next-phase-ai",
+          "publishedAt": "2026-09-21T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
+      ]
     },
     {
       "id": "84697ab9-90da-4d29-aee3-f0633edb043e",
@@ -1164,6 +1278,25 @@
       ]
     },
     {
+      "id": "773e01b2-9528-40f3-8df1-bf06f6342911",
+      "title": "OpenAI expands OpenAI Academy with new learning paths",
+      "summary": "OpenAI added new OpenAI Academy learning paths aimed at employees, developers, leaders, educators, and students, meant to help them build and demonstrate practical AI skills.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-21T19:21:25.508Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T19:21:25.508Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Expanding OpenAI Academy with new learning paths",
+          "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+          "publishedAt": "2026-09-21T07:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "61e7bf80-f301-44e4-82dc-9e2ff62a6922",
       "title": "Anthropic says Claude \"leads\" 26 percent of its AI R&D work",
       "summary": "Anthropic said Claude now \"leads\" 26 percent of the company's own AI research and development work, sharing the figure alongside three measurements it uses to communicate the pace of AI development.",
@@ -1471,55 +1604,6 @@
       ]
     },
     {
-      "id": "d2c37bf1-8cb0-459c-8147-f9343a25ebea",
-      "title": "OpenAI's feud with mathematicians escalates",
-      "summary": "A dispute between OpenAI and mathematicians over AI's encroachment on their work is escalating, and OpenAI is reportedly lining up its next big math target.\n\n- Twenty-five leading mathematicians signed an open letter arguing AI labs are threatening their intellectual work\n- OpenAI will no longer sponsor Caltech's \"Mathathon,\" though organizers say the event won't be substantially affected\n- An NYU mathematician embroiled in the controversy says AI has effectively beaten human mathematicians, \"the game is up\"\n- The Information reports OpenAI is now attempting the Hodge Conjecture, with its main concern being how to announce a result without further infuriating mathematicians",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-12T12:48:10.132Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T00:16:03.819Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s feud with mathematicians is only escalating",
-          "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
-          "publishedAt": "2026-09-11T20:57:36.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Is Beefing With Mathematicians, Will No Longer Sponsor Caltech ‘Mathathon’",
-          "url": "https://gizmodo.com/openai-is-beefing-with-mathematicians-will-no-longer-sponsor-caltech-mathathon-2000810868",
-          "publishedAt": "2026-09-12T01:05:18.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
-          "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
-          "publishedAt": "2026-09-11T16:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Reportedly Trying to Solve Hodge Conjecture Amid Feud With Math Community",
-          "url": "https://gizmodo.com/openai-reportedly-trying-to-solve-hodge-conjecture-amid-feud-with-math-community-2000813658",
-          "publishedAt": "2026-09-18T00:10:47.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Mathematicians Hate AI. They Can’t Quit It",
-          "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
-          "publishedAt": "2026-09-19T10:00:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
       "id": "bf69f1dc-4004-41b7-852e-4c1d8d428c03",
       "title": "AI assistant Instinct adds phone calling after launching an email agent",
       "summary": "AI assistant Instinct can now make phone calls on a user's behalf, such as booking restaurant reservations and cancelling subscriptions — a capability Meta's rival agent Muse added at the same time. It follows Instinct's email agent, which can create and manage accounts, contact businesses, and handle support requests.",
@@ -1636,76 +1720,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "2d6c2b76-774b-476c-9b1d-9225eb016c4c",
-      "title": "OpenAI spotlights V7's use of GPT-5.6 to give AI agents \"institutional memory\"",
-      "summary": "An OpenAI customer story describes how startup V7 uses GPT-5.6 to turn scattered company files into context that AI agents can draw on to complete complex, source-linked work.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-21T15:16:47.737Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T15:16:47.737Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "How V7 gives AI agents institutional memory",
-          "url": "https://openai.com/index/v7",
-          "publishedAt": "2026-09-21T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "465845a9-602d-412d-ad08-8d6ba358f640",
-      "title": "Apple reportedly developing display-free AI smart glasses to rival Meta Ray-Bans",
-      "summary": "Apple is reportedly developing AI-powered smart glasses without built-in displays, relying instead on AI, Siri integration, cameras, microphones, and open-ear speakers — a direct challenge to Meta's Ray-Ban line. The report is a leak, not an Apple announcement.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-18T14:29:47.046Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T14:29:47.046Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Apple Glasses Leaked: the Real Rival to Meta Ray-Bans",
-          "url": "https://www.geeky-gadgets.com/apple-ai-smart-glasses-rumors/",
-          "publishedAt": "2026-09-18T13:00:27.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "a26bb8d0-3f39-4651-a7d0-d975395cd7c6",
-      "title": "Google revamps CC into an AI agent for families and groups",
-      "summary": "Google's revamped CC gives an AI agent its own Google account inside a family or group and sends every member a daily briefing.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-18T00:16:25.978Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T00:16:25.978Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Google's revamped CC is an AI agent for families and groups",
-          "url": "https://www.engadget.com/2261924/google-cc-is-an-ai-agent-for-families-and-groups/",
-          "publishedAt": "2026-09-17T22:55:08.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
-          "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
-          "publishedAt": "2026-09-18T17:33:50.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 132,
+  "totalCount": 135,
   "hasMore": true
 }
