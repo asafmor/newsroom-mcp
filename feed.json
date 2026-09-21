@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T11:12:55.861Z",
+  "generatedAt": "2026-09-21T13:14:56.484Z",
   "stories": [
     {
       "id": "2390f90d-8377-43db-aaea-1f613c773098",
@@ -42,6 +42,46 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "441f2777-86bb-4f1b-acd5-5fb1e8182c0c",
+      "title": "MIT Technology Review investigation: migrants died undetected near the US border's AI-enabled surveillance towers",
+      "summary": "A 15-month investigation by MIT Technology Review and Times of San Diego, \"Dying on Camera,\" examines deaths near the \"virtual wall\" of surveillance towers along the US-Mexico border.\n\n- Reporters built what they call the first comprehensive map of deaths near the towers, which cost the US billions\n- They found cases of people who walked undetected through areas watched by advanced, AI-enabled towers and later died nearby, their bodies going unnoticed\n- Case studies include a man within range of three towers in New Mexico and a woman who died near a camera in plain sight at the San Diego border\n- The package includes a methodology piece and four policy recommendations to address the failures",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-21T13:14:46.340Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T13:14:46.340Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
+          "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+          "publishedAt": "2026-09-21T12:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+          "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+          "publishedAt": "2026-09-21T12:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
+          "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+          "publishedAt": "2026-09-21T12:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "She died at the San Diego border. A surveillance camera was in plain sight",
+          "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+          "publishedAt": "2026-09-21T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "84697ab9-90da-4d29-aee3-f0633edb043e",
@@ -901,6 +941,13 @@
           "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
           "publishedAt": "2026-09-18T18:49:30.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Cut Document Sorting Time Using Jev AI 200X Faster Processing",
+          "url": "https://www.geeky-gadgets.com/jev-ai-model-review/",
+          "publishedAt": "2026-09-21T11:15:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": []
@@ -1675,29 +1722,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "81fd7c35-e389-4eb6-9f49-39138fcb502c",
-      "title": "Wired: the American left agrees on regulating AI but splits over AI doom",
-      "summary": "Wired reports that the political left broadly wants AI regulation but is divided over what it should look like and how seriously to take existential-risk concerns.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-18T10:25:35.778Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T10:25:35.778Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "The Leftist Split Over AI Doom",
-          "url": "https://www.wired.com/story/inside-the-surprising-leftist-split-over-ai-doom/",
-          "publishedAt": "2026-09-18T10:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
     }
   ],
-  "totalCount": 125,
+  "totalCount": 126,
   "hasMore": true
 }
