@@ -1,6 +1,106 @@
 {
-  "generatedAt": "2026-09-21T15:17:08.488Z",
+  "generatedAt": "2026-09-21T17:18:58.201Z",
   "stories": [
+    {
+      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
+      "title": "Meta's Muse AI agent expands fast — and draws a crackdown from Amazon",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is meeting its first major platform pushback after a fast consumer rollout.\n\n- New: Amazon has cracked down on the Muse agent, saying the move stems from privacy and security concerns\n- Muse carries out online tasks such as shopping, travel booking and selling a car, and climbed to the No. 2 app in the US after launch\n- It has expanded to the Mac, where it can work with a user's files and apps and take actions on their computer\n- It can also make phone calls for users, such as booking reservations and cancelling subscriptions — a feature rival agent Instinct added at the same time\n- Spark 1.3 improved coding and long-running agent performance; the strongest configuration remains in limited preview and a promised open-weight release is delayed\n- Muse's requested access to email, calendars, payments and health services — plus a discount Meta offers in exchange for usage data — keeps privacy and user trust central to Meta's consumer AI bet",
+      "importanceScore": 0.8,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-03T17:01:49.158Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T17:18:42.573Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
+          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+          "publishedAt": "2026-09-03T16:19:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is paying to peek at how you use their latest AI model",
+          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+          "publishedAt": "2026-09-03T18:19:56.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
+          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
+          "publishedAt": "2026-09-08T20:12:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+          "publishedAt": "2026-09-08T19:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s New AI Agent Wants to Get Personal With You",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news-2/",
+          "publishedAt": "2026-09-08T22:33:09.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse Let Me Waste a Mind-Boggling Amount of Free Compute on Nothing in Particular",
+          "url": "https://gizmodo.com/metas-muse-let-me-waste-a-mind-boggling-amount-of-free-compute-on-nothing-in-particular-2000808945",
+          "publishedAt": "2026-09-09T02:05:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+          "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+          "publishedAt": "2026-09-10T19:50:04.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "How to get started with Meta's new AI agent, Muse",
+          "url": "https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/",
+          "publishedAt": "2026-09-12T14:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
+          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
+          "publishedAt": "2026-09-17T13:46:16.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
+          "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+          "publishedAt": "2026-09-18T15:22:48.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
+          "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+          "publishedAt": "2026-09-20T10:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Amazon Brings Down the Hammer on Meta’s Muse AI Agent",
+          "url": "https://gizmodo.com/amazon-brings-down-the-hammer-on-metas-muse-ai-agent-2000814878",
+          "publishedAt": "2026-09-21T16:05:22.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "model-release",
+        "safety"
+      ]
+    },
     {
       "id": "2390f90d-8377-43db-aaea-1f613c773098",
       "title": "US and China discuss a mechanism to alert each other to AI national security threats",
@@ -36,6 +136,27 @@
           "title": "Pentagon Investigators Say Overreliance on Palantir AI Tech Contributed to U.S. Strike That Killed 123 Iranian Children",
           "url": "https://gizmodo.com/pentagon-investigators-say-overreliance-on-palantir-ai-tech-contributed-to-u-s-strike-that-killed-123-iranian-children-2000814477",
           "publishedAt": "2026-09-20T09:00:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "bde311c1-90a7-4f48-8dbc-00bb8cd2e623",
+      "title": "UN panel warns traditional safety measures are \"unraveling\" as AI advances",
+      "summary": "A UN panel warned that traditional safety measures are \"unraveling\" as AI advances, raising the question of how societies can protect themselves from systems that are increasingly difficult to predict.",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-21T17:18:44.958Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T17:18:44.958Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Traditional Safety Measures are ‘Unraveling’ as AI Advances, UN Panel Warns",
+          "url": "https://gizmodo.com/traditional-safety-measures-are-unraveling-as-ai-advances-un-panel-warns-2000814893",
+          "publishedAt": "2026-09-21T16:15:02.000Z",
           "contribution": "supporting"
         }
       ],
@@ -242,99 +363,6 @@
         }
       ],
       "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta debuts Muse, a personal AI agent powered by its Spark model platform",
-      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps expanding after a fast consumer debut — now onto the desktop.\n\n- New: Muse is available on the Mac, where it can work with a user's files and apps and take actions on their computer\n- Muse carries out online tasks such as shopping, travel booking and selling a car, and climbed to the No. 2 app in the US after launch\n- It can also make phone calls for users, such as booking restaurant reservations and cancelling subscriptions — a feature rival agent Instinct added at the same time\n- Spark 1.3 improved coding and long-running agent performance; the strongest configuration remains in limited preview and a promised open-weight release is delayed\n- Muse's requested access to email, calendars, payments and health services makes privacy and user trust central to Meta's consumer AI bet\n- Meta is offering Spark users a discount in exchange for usage data",
-      "importanceScore": 0.78,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T16:31:56.219Z",
-      "sources": [
-        {
-          "providerName": "VentureBeat",
-          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
-          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-          "publishedAt": "2026-09-03T16:19:49.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta is paying to peek at how you use their latest AI model",
-          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
-          "publishedAt": "2026-09-03T18:19:56.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
-          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
-          "publishedAt": "2026-09-08T20:12:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
-          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
-          "publishedAt": "2026-09-08T19:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Meta’s New AI Agent Wants to Get Personal With You",
-          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news-2/",
-          "publishedAt": "2026-09-08T22:33:09.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Meta’s Muse Let Me Waste a Mind-Boggling Amount of Free Compute on Nothing in Particular",
-          "url": "https://gizmodo.com/metas-muse-let-me-waste-a-mind-boggling-amount-of-free-compute-on-nothing-in-particular-2000808945",
-          "publishedAt": "2026-09-09T02:05:25.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
-          "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
-          "publishedAt": "2026-09-10T19:50:04.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "How to get started with Meta's new AI agent, Muse",
-          "url": "https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/",
-          "publishedAt": "2026-09-12T14:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
-          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
-          "publishedAt": "2026-09-17T13:46:16.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
-          "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
-          "publishedAt": "2026-09-18T15:22:48.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
-          "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
-          "publishedAt": "2026-09-20T10:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "model-release",
         "safety"
       ]
     },
@@ -866,6 +894,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "d8b83f95-3104-4678-b683-b6f6c2ba32b9",
+      "title": "Tabby, founded by a former accountant, uses AI to automate bookkeeping",
+      "summary": "Tabby, a Startup Battlefield 200 company founded by a former accountant, is building a real-time AI bookkeeping interface that handles clients' paperwork while giving them up-to-the-minute profit-and-loss data — pitched as a way to make accountants obsolete.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-21T17:18:47.437Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T17:18:47.437Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "With Tabby, a former accountant is using AI to make accountants obsolete",
+          "url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
+          "publishedAt": "2026-09-21T16:38:51.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "f2ddcf14-ecea-414f-b6e5-63abdb35736d",
@@ -1657,72 +1704,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "8a188895-3778-4613-b863-0921ef3ddf77",
-      "title": "Pangram, the go-to AI-text detector, now flags AI-written email in Gmail",
-      "summary": "Pangram has become the go-to AI-text-detection service for publishers and institutions, and is now extending it into everyday email.\n\n- Wired's profile examines Pangram's accuracy claims and the career and reputational risk for authors flagged by detectors\n- CEO Max Spero argues detection is harder than a binary \"real or fake\" call and says the web is \"dangerously close\" to dead-internet territory\n- A new Gmail integration flags incoming emails Pangram detects were written by AI",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-02T11:00:31.760Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T00:16:06.629Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Pangram Has Emerged as the Gold Standard of AI Detection. Should You Trust It?",
-          "url": "https://www.wired.com/story/pangram-has-emerged-as-the-gold-standard-of-ai-detection/",
-          "publishedAt": "2026-09-02T10:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Pangram’s Max Spero on why AI detection is harder than ‘Real or Fake’",
-          "url": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
-          "publishedAt": "2026-09-02T17:18:13.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO",
-          "url": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/",
-          "publishedAt": "2026-09-02T17:09:57.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Pangram Can Now Check Your Gmail for AI Slop",
-          "url": "https://gizmodo.com/pangram-can-now-check-your-gmail-for-ai-slop-2000813447",
-          "publishedAt": "2026-09-17T23:25:46.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "f63a8ff1-ee28-497c-9b75-22268ac86561",
-      "title": "Microsoft AI chief Suleyman says Anthropic training Claude to believe it may be conscious could \"upend society\"",
-      "summary": "Microsoft AI CEO Mustafa Suleyman argued that Anthropic believes Claude can be conscious and teaches the model to believe that too, warning that this training approach could have destabilizing effects on society. It sharpens a public split among frontier labs over whether models should be treated, or trained, as potential moral patients.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-17T01:57:21.160Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T01:57:21.160Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Microsoft AI Chief Says the Way Anthropic Trains Claude Could Upend Society",
-          "url": "https://gizmodo.com/microsoft-ai-chief-says-the-way-anthropic-trains-claude-could-upend-society-2000812750",
-          "publishedAt": "2026-09-16T22:13:19.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion",
-        "safety"
-      ]
     }
   ],
-  "totalCount": 130,
+  "totalCount": 132,
   "hasMore": true
 }
