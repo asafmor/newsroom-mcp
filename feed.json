@@ -1,6 +1,27 @@
 {
-  "generatedAt": "2026-09-21T09:11:40.486Z",
+  "generatedAt": "2026-09-21T11:12:55.861Z",
   "stories": [
+    {
+      "id": "2390f90d-8377-43db-aaea-1f613c773098",
+      "title": "US and China discuss a mechanism to alert each other to AI national security threats",
+      "summary": "US and Chinese officials discussed setting up a mechanism for the two countries to notify each other of AI incidents that could threaten national security, Wired reports.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-21T11:12:40.110Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T11:12:40.110Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "US and China Discuss Alerting Each Other to AI National Security Threats",
+          "url": "https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/",
+          "publishedAt": "2026-09-21T10:34:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "d9279399-7be6-4942-9cb8-e25915b9457d",
       "title": "Pentagon probe reportedly ties overreliance on Palantir AI to US strike that killed 123 Iranian children",
@@ -629,6 +650,27 @@
       "tags": [
         "safety",
         "regulation"
+      ]
+    },
+    {
+      "id": "6db5c88a-b399-4699-820c-d5a9e541031b",
+      "title": "Microsoft 365 Copilot gets six updates, including interactive PowerPoint slides",
+      "summary": "Microsoft introduced six Copilot updates across the Microsoft 365 suite aimed at workplace productivity, headlined by interactive slides in PowerPoint that let users embed clickable filters, animations, and buttons directly into presentations.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-21T11:12:42.925Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T11:12:42.925Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Automate Project Plans with 6 Microsoft 365 Copilot Upgrades",
+          "url": "https://www.geeky-gadgets.com/new-microsoft-copilot-features/",
+          "publishedAt": "2026-09-21T10:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1654,48 +1696,8 @@
       "tags": [
         "regulation"
       ]
-    },
-    {
-      "id": "cbe0abcf-3c7a-40a9-a6ca-9287d3738810",
-      "title": "SK Hynix reportedly in talks with Intel to build memory chips in the US",
-      "summary": "SK Hynix is reportedly in discussions with Intel about manufacturing memory chips in the United States, a move that would bring more AI-critical memory capacity onshore. SK Hynix told TechCrunch no plans or arrangements have been finalized.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-16T15:48:16.986Z",
-      "lastMeaningfulUpdateAt": "2026-09-16T15:48:16.986Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "SK Hynix reportedly in talks with Intel to build memory chips in US",
-          "url": "https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/",
-          "publishedAt": "2026-09-16T13:23:02.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "fa966952-dee6-477f-b74f-358364d9f120",
-      "title": "UN turns to Google to make its global data usable by AI agents",
-      "summary": "The United Nations is working with Google, via Google's Data Commons, to make its global statistics ready for AI agents. The move follows a UNICEF test that found leading AI models struggled to accurately retrieve global development statistics.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-17T20:11:21.011Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T20:11:21.011Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "UN turns to Google to make its global data ready for AI agents",
-          "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
-          "publishedAt": "2026-09-17T20:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 123,
+  "totalCount": 125,
   "hasMore": true
 }
