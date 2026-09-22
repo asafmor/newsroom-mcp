@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T13:37:42.152Z",
+  "generatedAt": "2026-09-22T15:39:10.531Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -605,6 +605,13 @@
           "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
           "publishedAt": "2026-09-21T12:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+          "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+          "publishedAt": "2026-09-22T13:42:05.000Z",
+          "contribution": "background"
         }
       ],
       "tags": []
@@ -658,6 +665,27 @@
       "tags": [
         "regulation",
         "safety"
+      ]
+    },
+    {
+      "id": "0b7d2091-157d-40f0-86f3-24989f52205a",
+      "title": "AstroForge puts a transformer-based AI model in command of its next spacecraft",
+      "summary": "Asteroid-mining startup AstroForge says its next probe, Autonomy-1, will be run by a small transformer-based AI model rather than conventional flight software, putting an AI in charge of spacecraft decision-making, TechCrunch reports.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-22T15:39:05.291Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T15:39:05.291Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AstroForge is putting AI in command of its next spacecraft",
+          "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
+          "publishedAt": "2026-09-22T15:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1815,29 +1843,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "61e7bf80-f301-44e4-82dc-9e2ff62a6922",
-      "title": "Anthropic says Claude \"leads\" 26 percent of its AI R&D work",
-      "summary": "Anthropic said Claude now \"leads\" 26 percent of the company's own AI research and development work, sharing the figure alongside three measurements it uses to communicate the pace of AI development.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-18T00:16:28.765Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T00:16:28.765Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic says Claude 'leads' 26 percent of its AI R&D work",
-          "url": "https://www.engadget.com/2261909/anthropic-says-claude-leads-26-percent-of-its-ai-research-and-development/",
-          "publishedAt": "2026-09-17T22:30:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 131,
+  "totalCount": 128,
   "hasMore": true
 }
