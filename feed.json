@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T07:32:03.455Z",
+  "generatedAt": "2026-09-22T09:33:28.514Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -206,6 +206,32 @@
           "title": "Treasury Secretary Says OpenAI Managers Are to Blame for Hugging Face Breach, Not AI Agents",
           "url": "https://gizmodo.com/bessent-says-openai-managers-are-to-blame-for-hugging-face-breach-not-ai-agents-2000814890",
           "publishedAt": "2026-09-21T19:50:44.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "d7420158-6304-4411-a2a8-a8ca2d1807ae",
+      "title": "British Columbia sues OpenAI over Tumbler Ridge shooting as private lawsuits pile up",
+      "summary": "Litigation against OpenAI over the Tumbler Ridge shooting now includes a government plaintiff.\n\n- The province of British Columbia has sued OpenAI, alleging it failed to notify authorities about the shooter's chats\n- Earlier, law firm Edelson PC said it was filing 30 additional lawsuits, escalating aiding-and-abetting claims and naming OpenAI executive Chris Lehane\n- The underlying allegations about the shooter's use of ChatGPT remain unconfirmed",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-02T13:01:06.633Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T09:33:09.507Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
+          "url": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+          "publishedAt": "2026-09-02T12:09:42.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI faces lawsuit from British Columbia over Tumbler Ridge shooting",
+          "url": "https://www.engadget.com/2264989/openai-tumbler-ridge-shooting-lawsuit/",
+          "publishedAt": "2026-09-22T08:47:27.000Z",
           "contribution": "meaningful-update"
         }
       ],
@@ -1790,41 +1816,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "d9281918-f0ab-4de7-a930-212105e08d54",
-      "title": "Disney names former Character.AI CEO as its first-ever CTO",
-      "summary": "Disney has hired the former CEO of Character.AI as its first-ever chief technology officer — notable because Disney previously sent Character.AI a cease-and-desist letter accusing the AI startup of copying its characters.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-18T18:33:39.674Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T18:33:39.674Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Disney’s first CTO led an AI startup it once accused of copying its characters",
-          "url": "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/",
-          "publishedAt": "2026-09-18T17:59:53.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "After Threatening Character.AI With Legal Action, Disney Puts Its CEO in Charge of Tech",
-          "url": "https://gizmodo.com/after-threatening-character-ai-with-legal-action-disney-puts-its-ceo-in-charge-of-tech-2000814225",
-          "publishedAt": "2026-09-18T20:30:39.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Disney hires ex-CEO of AI company it accused of copyright infringement",
-          "url": "https://www.engadget.com/2262703/disney-hires-ex-ceo-of-ai-company-it-accused-of-copyright-infringement/",
-          "publishedAt": "2026-09-18T18:36:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 127,
+  "totalCount": 128,
   "hasMore": true
 }
