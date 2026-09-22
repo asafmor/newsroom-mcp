@@ -1,20 +1,70 @@
 {
-  "generatedAt": "2026-09-22T17:40:37.262Z",
+  "generatedAt": "2026-09-22T19:42:55.632Z",
   "stories": [
     {
       "id": "04d9e06c-d005-43c3-a5bf-01cab0466f3c",
       "title": "Anthropic releases Claude Opus 5.5 with lower prices and Fable-level performance",
-      "summary": "Anthropic released Claude Opus 5.5, which it calls \"the strongest-performing model we've tested to date,\" pairing performance it says matches its Fable tier with lower pricing.",
+      "summary": "Anthropic released Claude Opus 5.5, calling it \"the strongest-performing model we've tested to date,\" ten days after its CEO publicly called for pacing the frontier.\n\n- Performance Anthropic says matches its Fable tier, at lower prices; Anthropic published a per-task cost breakdown alongside the launch\n- Anthropic says the model scores well on its alignment measures\n- The company says \"public policy\" will eventually need to step in to protect the world from recursively self-improving AI\n- Critics note the release lands days after Dario Amodei's slowdown plea, and the same day OpenAI shipped GPT-6 Sol and Luna",
       "importanceScore": 0.88,
       "relevanceScore": 0.95,
       "firstSeenAt": "2026-09-22T17:40:19.031Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T17:40:19.031Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T19:42:28.580Z",
       "sources": [
         {
           "providerName": "TechCrunch AI",
           "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
           "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
           "publishedAt": "2026-09-22T16:30:07.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Ten Days After CEO Calls for a Slowdown, Anthropic Is Back With Another AI Model",
+          "url": "https://gizmodo.com/ten-days-after-ceo-calls-for-a-slowdown-anthropic-is-back-with-another-ai-model-2000815586",
+          "publishedAt": "2026-09-22T19:15:42.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "What a task costs on Opus 5.5",
+          "url": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
+          "publishedAt": "2026-09-22T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "9a5a7718-e179-474e-aecf-62c325f00284",
+      "title": "OpenAI launches GPT-6 Sol and Luna, cheaper Astra-class models with fewer mistakes",
+      "summary": "OpenAI launched GPT-6 Sol and Luna, two models it says are cut from the same cloth as GPT-6 Astra but offer different balances of capability and cost for everyday work, with lower prices and fewer mistakes. The release lands the same day Anthropic shipped Claude Opus 5.5, also pitched as more capable and cheaper.",
+      "importanceScore": 0.85,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-09-22T19:42:35.746Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T19:42:35.746Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Introducing GPT-6 Sol and Luna",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+          "publishedAt": "2026-09-22T18:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+          "publishedAt": "2026-09-22T18:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic and OpenAI announce more powerful (and cheaper) AI models",
+          "url": "https://www.engadget.com/2265801/anthropic-and-openai-announce-more-powerful-and-cheaper-ai-models/",
+          "publishedAt": "2026-09-22T19:11:11.000Z",
           "contribution": "supporting"
         }
       ],
@@ -23,69 +73,13 @@
       ]
     },
     {
-      "id": "0874e29c-316c-4fec-b758-461e80e7313d",
-      "title": "Anthropic names Accenture its first embedded safety evaluator; OpenAI publishes principles for third-party assessments",
-      "summary": "Anthropic and OpenAI are moving to embed independent safety evaluators inside their labs to rein in rogue agents: Anthropic has named Accenture as its first, and OpenAI has now published its own principles for outside assessments.\n\n- Anthropic announced a partnership with Accenture on embedded evaluation; TechCrunch calls it the consultancy's most high-risk engagement ever\n- OpenAI published priorities and principles for rigorous, secure, and independent third-party safety assessments of its frontier models and safeguards\n- Researchers welcome the unprecedented access but warn real oversight needs transparency, independence from the companies, and eventually regulation\n- Critics argue a simpler containment fix is being overlooked: cut off agents' unsupervised access to the open internet rather than audit the damage afterward\n- The move lands as the labs' broader safety coordination faces antitrust and political pushback",
-      "importanceScore": 0.78,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-16T19:52:23.239Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T17:40:15.912Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
-          "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
-          "publishedAt": "2026-09-16T18:25:25.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
-          "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
-          "publishedAt": "2026-09-16T21:07:24.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Partnering with Accenture on embedded evaluation",
-          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-          "publishedAt": "2026-09-18T00:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s first embedded evaluator is … Accenture?",
-          "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
-          "publishedAt": "2026-09-18T21:44:33.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic picks Accenture for third-party AI safety evaluations",
-          "url": "https://www.engadget.com/2263235/anthropic-picks-accenture-for-third-party-ai-safety-evaluations/",
-          "publishedAt": "2026-09-19T18:33:46.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Priorities and principles for effective third party assessments",
-          "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-          "publishedAt": "2026-09-22T00:00:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta's fast-growing Muse AI agent hit by a serious 0-day after Amazon blocks it",
-      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is growing faster than ChatGPT did at launch while running into security and platform trouble.\n\n- New: Ars Technica reports a serious 0-day in the highly privileged agent — a simple ClickFix attack is only one of several ways to completely hijack it\n- Amazon has blocked the Muse agent from shopping on Amazon.com, citing privacy and security concerns\n- Appfigures estimates Muse has racked up more downloads and daily active users in the US and Canada than ChatGPT did over the same period after its mobile debut\n- Muse carries out online tasks such as shopping, travel booking and selling a car; it has expanded to the Mac, where it can act on a user's files and apps, and can make phone calls for users\n- Spark 1.3 improved coding and long-running agent performance; the strongest configuration remains in limited preview and a promised open-weight release is delayed\n- Muse's requested access to email, calendars, payments and health services — plus a discount Meta offers in exchange for usage data — keeps privacy and user trust central to Meta's consumer AI bet",
+      "title": "Meta admits Muse was \"heavily inspired\" by OpenClaw as its fast-growing agent battles a 0-day and an Amazon block",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is growing faster than ChatGPT did at launch while running into security, platform, and now originality trouble.\n\n- New: Meta says Muse was built from scratch but admits it was \"heavily inspired\" by OpenClaw, down to some of its workspace filenames and content\n- Ars Technica reports a serious 0-day in the highly privileged agent; a simple ClickFix attack is only one of several ways to completely hijack it\n- Amazon has blocked the Muse agent from shopping on Amazon.com, citing privacy and security concerns\n- Appfigures estimates Muse has racked up more downloads and daily active users in the US and Canada than ChatGPT did over the same period after its mobile debut\n- Muse carries out online tasks such as shopping, travel booking and selling a car; it has expanded to the Mac and can make phone calls for users\n- Spark 1.3 improved coding and long-running agent performance; the strongest configuration remains in limited preview and a promised open-weight release is delayed",
       "importanceScore": 0.85,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T23:24:53.282Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T19:42:25.145Z",
       "sources": [
         {
           "providerName": "VentureBeat",
@@ -198,11 +192,74 @@
           "url": "https://www.cnet.com/tech/services-and-software/amazon-blocks-metas-muse-ai/",
           "publishedAt": "2026-09-21T20:27:31.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+          "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+          "publishedAt": "2026-09-22T19:09:11.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
         "product-launch",
         "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "0874e29c-316c-4fec-b758-461e80e7313d",
+      "title": "Anthropic names Accenture its first embedded safety evaluator; OpenAI publishes principles for third-party assessments",
+      "summary": "Anthropic and OpenAI are moving to embed independent safety evaluators inside their labs to rein in rogue agents: Anthropic has named Accenture as its first, and OpenAI has now published its own principles for outside assessments.\n\n- Anthropic announced a partnership with Accenture on embedded evaluation; TechCrunch calls it the consultancy's most high-risk engagement ever\n- OpenAI published priorities and principles for rigorous, secure, and independent third-party safety assessments of its frontier models and safeguards\n- Researchers welcome the unprecedented access but warn real oversight needs transparency, independence from the companies, and eventually regulation\n- Critics argue a simpler containment fix is being overlooked: cut off agents' unsupervised access to the open internet rather than audit the damage afterward\n- The move lands as the labs' broader safety coordination faces antitrust and political pushback",
+      "importanceScore": 0.78,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-16T19:52:23.239Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T17:40:15.912Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+          "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+          "publishedAt": "2026-09-16T18:25:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+          "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+          "publishedAt": "2026-09-16T21:07:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Partnering with Accenture on embedded evaluation",
+          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+          "publishedAt": "2026-09-18T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s first embedded evaluator is … Accenture?",
+          "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
+          "publishedAt": "2026-09-18T21:44:33.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic picks Accenture for third-party AI safety evaluations",
+          "url": "https://www.engadget.com/2263235/anthropic-picks-accenture-for-third-party-ai-safety-evaluations/",
+          "publishedAt": "2026-09-19T18:33:46.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Priorities and principles for effective third party assessments",
+          "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+          "publishedAt": "2026-09-22T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -1830,30 +1887,8 @@
         "regulation",
         "opinion"
       ]
-    },
-    {
-      "id": "fae34448-4a57-4d65-adec-5bbdca123228",
-      "title": "Research finds AI text watermarking can make LLMs more vulnerable to harmful prompts",
-      "summary": "New research reported by Ars Technica finds that text watermarking such as Google's SynthID changes how LLMs respond to harmful prompts, in some cases causing models to follow adversarial instructions they would otherwise refuse. The finding raises a tension between provenance requirements and model safety as labs roll out watermarking more widely.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-18T04:19:28.962Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T04:19:28.962Z",
-      "sources": [
-        {
-          "providerName": "Ars Technica",
-          "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
-          "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
-          "publishedAt": "2026-09-17T18:33:13.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research",
-        "safety"
-      ]
     }
   ],
-  "totalCount": 130,
+  "totalCount": 122,
   "hasMore": true
 }
