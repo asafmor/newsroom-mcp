@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T01:27:03.875Z",
+  "generatedAt": "2026-09-22T03:29:05.495Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -582,6 +582,28 @@
       "tags": [
         "regulation",
         "safety"
+      ]
+    },
+    {
+      "id": "5e032f5a-25c8-452d-9028-2ceb07308319",
+      "title": "Experiment shows general-purpose LLMs issuing unsafe commands when given control of robots",
+      "summary": "A CNET-covered experiment (RoboCurve) handed physical agency to LLMs not designed for robotics and fed them unsafe prompts, finding the models would carry out dangerous commands — a warning against repurposing chat models as robot controllers without safety layers.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-22T03:28:59.698Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T03:28:59.698Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Disturbing Experiment Points to Dangers of Using AI Models Not Meant for Robotics",
+          "url": "https://www.cnet.com/tech/services-and-software/robot-ai-experiments-unsafe-commands-llms-robocurve/",
+          "publishedAt": "2026-09-22T01:24:54.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "research"
       ]
     },
     {
@@ -1801,44 +1823,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "f74e1d04-dc5d-44a3-b034-2bb705b13c43",
-      "title": "Google Home opens to AI agents with an official MCP server",
-      "summary": "Google is launching early access to an MCP server for Google Home, letting outside AI agents such as Claude and ChatGPT control connected devices, review camera summaries, and query smart home activity in natural language. Early access rolls out to Home Premium Advanced users \"in the coming weeks.\"",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-16T17:50:26.573Z",
-      "lastMeaningfulUpdateAt": "2026-09-16T17:50:26.573Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Your AI agents can now control your Google Home devices",
-          "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
-          "publishedAt": "2026-09-16T17:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google Home is going agentic via integration with the MCP standard",
-          "url": "https://www.engadget.com/2260280/google-home-is-going-agentic-via-integration-with-the-mcp-standard/",
-          "publishedAt": "2026-09-16T17:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Google Home Stuns by Announcing AI Support for Claude and OpenClaw",
-          "url": "https://www.cnet.com/tech/services-and-software/google-home-stuns-by-announcing-ai-support-for-claude-and-openclaw/",
-          "publishedAt": "2026-09-17T00:33:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 124,
+  "totalCount": 125,
   "hasMore": true
 }
