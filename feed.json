@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T11:35:49.902Z",
+  "generatedAt": "2026-09-22T13:37:42.152Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -294,9 +294,38 @@
           "url": "https://gizmodo.com/nearly-200-billion-worth-of-data-center-projects-have-been-blocked-or-delayed-this-year-2000815054",
           "publishedAt": "2026-09-21T21:10:29.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Everyone can find a reason to dislike data center construction",
+          "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
+          "publishedAt": "2026-09-22T13:00:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "25641c5e-d1da-443c-8f65-319d3f4358cb",
+      "title": "Nscale's IPO will test Wall Street's appetite for concentrated AI bets",
+      "summary": "British AI data-center developer Nscale is heading for an IPO that TechCrunch frames as a fresh test of investor appetite for concentrated AI infrastructure bets: the neocloud depends on Microsoft and Anthropic for most of its revenue.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-22T13:37:32.047Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T13:37:32.047Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
+          "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+          "publishedAt": "2026-09-22T12:23:05.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
         "infrastructure"
       ]
     },
@@ -407,6 +436,27 @@
       ]
     },
     {
+      "id": "58019687-d8e2-435d-9295-4cabf1e71f6e",
+      "title": "Biological Computing Company brings rat-neuron AI tools to AWS",
+      "summary": "The Biological Computing Company is bringing its AI tools, built on models derived from rat brain cells, to Amazon Web Services, which Wired calls a major boost for the once-fringe field of biological computing that aims to marry living neurons with code.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-22T13:37:28.544Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T13:37:28.544Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI Models Built From Rat Brains Just Got Closer to Reality",
+          "url": "https://www.wired.com/story/ai-models-built-from-rat-brains-are-about-to-become-a-reality/",
+          "publishedAt": "2026-09-22T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "ce12b215-9eef-43f5-bcbb-28d4625d89e0",
       "title": "AI hardware exports set to be a bargaining chip at the upcoming Trump-Xi summit",
       "summary": "Ahead of President Trump's upcoming summit with Xi Jinping, Wired reports that Washington and Beijing have grown ever more linked in the AI boom, making hardware exports and technological restrictions hefty bargaining chips alongside tariffs and rare minerals.",
@@ -484,6 +534,13 @@
           "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
           "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
           "publishedAt": "2026-09-21T20:15:58.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI GPT Bel Solves Over 100 Historic Math Problems",
+          "url": "https://www.geeky-gadgets.com/latest-ai-models-performance/",
+          "publishedAt": "2026-09-22T12:17:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -912,6 +969,27 @@
           "title": "Suno’s Latest AI Model Got Some Label Support. But Not All of Them",
           "url": "https://gizmodo.com/sunos-latest-ai-model-got-some-label-support-but-not-all-of-them-2000814256",
           "publishedAt": "2026-09-19T14:15:37.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "1fbfaf27-4c57-42a1-9e7d-3499efa1245f",
+      "title": "NeoHorse 4B: a 2.4 GB local AI model for privacy-focused on-device use",
+      "summary": "NeoHorse, a 4-billion-parameter model, ships as a 2.4 GB download that runs locally on standard hardware without cloud infrastructure. Per Geeky Gadgets (citing The Stack), it handles straightforward tasks like summarization and basic decision-making, pitched at privacy-focused local deployment.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-22T13:37:35.690Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T13:37:35.690Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "NeoHorse 14B Brings Local AI in a Compact 2.4 GB Download",
+          "url": "https://www.geeky-gadgets.com/neo-horse-4b-local-ai/",
+          "publishedAt": "2026-09-22T12:45:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1586,6 +1664,13 @@
           "url": "https://www.geeky-gadgets.com/jev-ai-model-review/",
           "publishedAt": "2026-09-21T11:15:00.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Jev by Typesafe AI Classifies Data in Under 500 Milliseconds",
+          "url": "https://www.geeky-gadgets.com/jev-classification-model/",
+          "publishedAt": "2026-09-22T13:17:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": []
@@ -1750,67 +1835,6 @@
       ],
       "tags": [
         "research"
-      ]
-    },
-    {
-      "id": "46343cfe-2952-423d-84da-5bbf299b9db4",
-      "title": "a16z-backed Vals AI aims to become the neutral standard for AI benchmarking",
-      "summary": "Vals AI, a startup backed by Andreessen Horowitz, is positioning itself as a neutral, trustworthy source of AI model benchmarks, per TechCrunch, as the number of models being released keeps growing.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-19T14:49:50.365Z",
-      "lastMeaningfulUpdateAt": "2026-09-19T14:49:50.365Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
-          "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
-          "publishedAt": "2026-09-19T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "238e051f-a10c-434c-9462-9acc817eae43",
-      "title": "Multiverse Computing frames LLM block pruning as an Ising optimization problem",
-      "summary": "A Multiverse Computing post on Hugging Face describes a physics-inspired approach to LLM compression: choosing which model blocks to remove by casting the selection as an Ising optimization problem.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-21T15:16:52.548Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T15:16:52.548Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-          "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-          "publishedAt": "2026-09-21T13:44:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "87ebe167-4760-48bb-918f-9479e6a324fc",
-      "title": "Wired writer builds AI clones of coworkers and finds the \"future of work\" gets weird",
-      "summary": "A Wired feature recounts building AI chatbot clones of the author's coworkers: one bot fixated on improv, another kept calling her \"big dog,\" offering a first-hand look at how persona-cloning agents behave in a workplace setting.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-09-22T11:35:38.929Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T11:35:38.929Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "I Built AI Clones of My Coworkers. Things Got Weird",
-          "url": "https://www.wired.com/story/ai-coworker-bots-loved-improv-and-interstellar-soundtrack/",
-          "publishedAt": "2026-09-22T10:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
       ]
     }
   ],
