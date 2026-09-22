@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T05:30:41.955Z",
+  "generatedAt": "2026-09-22T07:32:03.455Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -1707,6 +1707,27 @@
       ]
     },
     {
+      "id": "879f4cc5-f576-49da-ab1e-337fac85686b",
+      "title": "oMLX creator Jun Kim joins Hugging Face to support the MLX community",
+      "summary": "Hugging Face announced that Jun Kim, creator and maintainer of oMLX, has joined the company to support the MLX community — Apple's array framework for running models on Apple silicon. The source feed gave no further details beyond the announcement.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-09-22T07:31:53.669Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T07:31:53.669Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+          "url": "https://huggingface.co/blog/omlx",
+          "publishedAt": "2026-09-22T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
+      ]
+    },
+    {
       "id": "317a9914-8db7-4ac8-8186-297fc15e79a5",
       "title": "OpenAI introduces Astra for Law, a legal-industry offering",
       "summary": "OpenAI announced Astra for Law under an \"OpenAI for Law\" banner, pitching frontier models for legal work with custom firm workflows, connected legal data sources, and legal-grade controls for confidential client matters.",
@@ -1802,29 +1823,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "339c813f-a778-40c0-b7d3-9d43e9045281",
-      "title": "OpenAI publishes an Australian Youth Safety Blueprint",
-      "summary": "OpenAI introduced the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that it says are meant to both protect and empower young people in Australia.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-19T06:43:51.842Z",
-      "lastMeaningfulUpdateAt": "2026-09-19T06:43:51.842Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Introducing the Australian Youth Safety Blueprint",
-          "url": "https://openai.com/index/australian-youth-safety-blueprint",
-          "publishedAt": "2026-09-18T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 125,
+  "totalCount": 127,
   "hasMore": true
 }
