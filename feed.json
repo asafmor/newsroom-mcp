@@ -1,6 +1,238 @@
 {
-  "generatedAt": "2026-09-22T19:42:55.632Z",
+  "generatedAt": "2026-09-22T21:44:46.044Z",
   "stories": [
+    {
+      "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
+      "title": "OpenAI launches GPT-6 Astra, its first \"critical\" cyber-capability model",
+      "summary": "OpenAI released GPT-6 Astra, a computer-use/agentic model leadership framed as the start of an \"AGI era.\"\n\n- First OpenAI model to cross the Preparedness Framework's \"critical\" cyber threshold (100% on ExploitBench, real zero-days found), so its top cyber capabilities are limited to trusted defenders via Daybreak Blue\n- Committed $1B under \"Daybreak for Frontline Defenders\" to expand defender access, training and support for essential services\n- Benchmarks are strong, but OpenAI's framing has drawn scrutiny, including the absence of its GDPval real-world-work benchmark\n- Rolling out to enterprise, ChatGPT and API customers with tiered pricing; early access problems prompted Sam Altman to apologize and offer usage resets\n- Critics say Astra's less legible reasoning makes human oversight harder\n- OpenAI has since improved GPT-6 prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls to cut latency and cost",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-01T21:20:51.430Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T21:44:18.640Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
+          "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/",
+          "publishedAt": "2026-09-01T20:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Open AI’s Astra model is on the way—and very good at breaking into computer systems",
+          "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+          "publishedAt": "2026-09-01T21:06:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Expected Sept 3 ChatGPT 6 Release Carries Hidden Reasoning Risks",
+          "url": "https://www.geeky-gadgets.com/openai-chatgpt-6-astra-model-rumors/",
+          "publishedAt": "2026-09-02T12:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s new reasoning technique alarms AI safety experts",
+          "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+          "publishedAt": "2026-09-02T20:19:14.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "VentureBeat",
+          "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
+          "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+          "publishedAt": "2026-09-03T18:00:12.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+          "publishedAt": "2026-09-03T18:01:45.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
+          "url": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
+          "publishedAt": "2026-09-03T18:06:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+          "publishedAt": "2026-09-03T13:15:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+          "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+          "publishedAt": "2026-09-03T12:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+          "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+          "publishedAt": "2026-09-03T12:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Safety overview: GPT-6 Astra",
+          "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+          "publishedAt": "2026-09-03T00:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Claims We’re in the ‘AGI Era’ With Release of GPT-6 Astra",
+          "url": "https://gizmodo.com/openai-claims-were-in-the-agi-era-with-release-of-gpt-6-astra-2000807013",
+          "publishedAt": "2026-09-03T20:22:13.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "OpenAI’s Astra Is Here: What to Know About GPT-6",
+          "url": "https://www.cnet.com/tech/services-and-software/openai-gpt-6-astra-release-ai-agi-chatgpt/",
+          "publishedAt": "2026-09-03T18:00:20.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT 6 Officially Launches as Astra: Beats GPT-5.6 Sol with 47% Faster Speed",
+          "url": "https://www.geeky-gadgets.com/openai-chatgpt-6-astra-launch/",
+          "publishedAt": "2026-09-03T21:16:50.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI says GPT-6 Astra is 'the most intelligent and aligned model in the world'",
+          "url": "https://www.engadget.com/2250814/openai-says-gpt-6-astra-is-the-most-intelligent-and-aligned-model-in-the-world/",
+          "publishedAt": "2026-09-03T22:58:12.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "GPT-6 Stole the Show, but Anthropic, Meta and Google Also Had New AI Models This Week",
+          "url": "https://www.cnet.com/tech/services-and-software/gpt-6-stole-the-show-but-anthropic-meta-and-google-also-had-new-ai-models-this-week/",
+          "publishedAt": "2026-09-03T21:10:30.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Says Humans Need to Be Able to Monitor How AI ‘Thinks.’ Astra Makes That Much Harder",
+          "url": "https://gizmodo.com/openai-says-humans-need-to-be-able-to-monitor-how-ai-thinks-its-new-model-astra-makes-that-much-harder-2000807665",
+          "publishedAt": "2026-09-04T20:55:19.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT 6 Astra Builds a Playable FPS Game in 30 Minutes",
+          "url": "https://www.geeky-gadgets.com/chatgpt-6-astra-use-cases/",
+          "publishedAt": "2026-09-07T07:17:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Sam Altman Apologises for ChatGPT-6 Astra Launch Chaos, Offers Usage Resets to Users",
+          "url": "https://in.mashable.com/tech/113670/sam-altman-apologises-for-chatgpt-6-astra-launch-chaos-offers-usage-resets-to-users",
+          "publishedAt": "2026-09-07T07:44:11.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT 6 Astra Defeats Fable 5.1 in 10 of 15 Test Scenarios",
+          "url": "https://www.geeky-gadgets.com/gpt-6-astra-vs-fable-5-1/",
+          "publishedAt": "2026-09-07T10:47:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+          "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+          "publishedAt": "2026-09-10T20:59:51.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT 6 Astra vs Fable 5.1: Astra Wins 70% of Visual Design Votes",
+          "url": "https://www.geeky-gadgets.com/astra-vs-fable-5-1/",
+          "publishedAt": "2026-09-10T12:45:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Why GPT-6 Astra Fails the Open-Ended Goals Required for AGI",
+          "url": "https://www.geeky-gadgets.com/why-gpt-6-is-not-agi/",
+          "publishedAt": "2026-09-10T07:45:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+          "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+          "publishedAt": "2026-09-11T16:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "OpenAI Pauses New Pro Subscriptions as Astra Demand Strains Systems: Here’s What the Company Said",
+          "url": "https://in.mashable.com/tech/113880/openai-pauses-new-pro-subscriptions-as-astra-demand-strains-systems-heres-what-the-company-said",
+          "publishedAt": "2026-09-11T13:22:50.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT 6 Beats Fable 5.1 in Hands-on Usability and Automation",
+          "url": "https://www.geeky-gadgets.com/gpt-6-vs-fable-5-1/",
+          "publishedAt": "2026-09-12T06:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "How to Use ChatGPT 6 Astra to Create Cinematic Website Designs and Interactive Elements",
+          "url": "https://www.geeky-gadgets.com/gpt-6-astra-cinematic-websites/",
+          "publishedAt": "2026-09-14T05:42:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "How to use GPT-6 Astra when it rolls out to you",
+          "url": "https://www.engadget.com/2252859/how-to-use-gpt-6-astra-rollout-schedule/",
+          "publishedAt": "2026-09-13T23:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Multimodal ChatGPT 7 Rumors: Target Google Gemini Omni 1.1 Flash and Claude Opus 5",
+          "url": "https://www.geeky-gadgets.com/openai-chatgpt-7-rumors/",
+          "publishedAt": "2026-09-15T06:45:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Better prompt caching for GPT-6",
+          "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+          "publishedAt": "2026-09-22T21:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "safety"
+      ]
+    },
     {
       "id": "04d9e06c-d005-43c3-a5bf-01cab0466f3c",
       "title": "Anthropic releases Claude Opus 5.5 with lower prices and Fable-level performance",
@@ -65,6 +297,13 @@
           "title": "Anthropic and OpenAI announce more powerful (and cheaper) AI models",
           "url": "https://www.engadget.com/2265801/anthropic-and-openai-announce-more-powerful-and-cheaper-ai-models/",
           "publishedAt": "2026-09-22T19:11:11.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Anthropic and OpenAI Drop New High-Efficiency Models",
+          "url": "https://www.cnet.com/tech/services-and-software/anthropic-and-openai-drop-new-high-efficiency-models/",
+          "publishedAt": "2026-09-22T18:48:44.000Z",
           "contribution": "supporting"
         }
       ],
@@ -344,6 +583,48 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "41ec3c8e-8d15-4d14-9fe6-5d20988b4124",
+      "title": "Microsoft disrupts EvilTokens, an AI-assisted attack platform behind 12,000 compromises",
+      "summary": "Microsoft says it has disrupted EvilTokens, an AI-assisted, end-to-end platform that made mass account compromises faster and easier and was tied to roughly 12,000 compromised targets, according to Ars Technica.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-22T21:44:29.454Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T21:44:29.454Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "Microsoft disrupts AI-assisted platform that compromised 12,000",
+          "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+          "publishedAt": "2026-09-22T19:45:47.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "e7995ec9-7541-4aac-9ec0-7dfe310c73e0",
+      "title": "Qualcomm launches two AI-focused smartphone chips; top model runs a 30B MoE model on-device",
+      "summary": "Qualcomm announced two new smartphone chips built around on-device AI. The company says its new flagship chip can run a 30-billion-parameter mixture-of-experts model locally, pushing larger models onto phones without cloud inference.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-22T21:44:25.765Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T21:44:25.765Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
+          "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+          "publishedAt": "2026-09-22T20:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "d7420158-6304-4411-a2a8-a8ca2d1807ae",
@@ -899,6 +1180,25 @@
       "tags": [
         "opinion"
       ]
+    },
+    {
+      "id": "b9907db9-36e1-4c73-b9cf-2b82df855840",
+      "title": "AI company tells contractors not to use AI when evaluating its models",
+      "summary": "Gizmodo reports that an AI company has instructed the contractors who rate and evaluate its models not to use AI tools to do that work, an irony the outlet frames as AI displacing the humans hired to check it.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-22T21:44:32.286Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T21:44:32.286Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Contractors Shouldn’t Use AI to Evaluate AI Model, Says AI Company",
+          "url": "https://gizmodo.com/ai-contractors-shouldnt-use-ai-to-evaluate-ai-model-says-ai-company-2000815621",
+          "publishedAt": "2026-09-22T21:15:07.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "5e032f5a-25c8-452d-9028-2ceb07308319",
@@ -1782,113 +2082,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "ce74b7f3-b4d9-45c0-a9b2-291e73e3bfd4",
-      "title": "Jev, a new kind of AI model from a ChatGPT inventor, wins over developers",
-      "summary": "Jev, a new kind of AI model from one of ChatGPT's inventors, is drawing enthusiasm from developers, who see it as a cheaper and faster path to software intelligence, TechCrunch reports.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-18T20:35:46.507Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T20:35:46.507Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
-          "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
-          "publishedAt": "2026-09-18T18:49:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Cut Document Sorting Time Using Jev AI 200X Faster Processing",
-          "url": "https://www.geeky-gadgets.com/jev-ai-model-review/",
-          "publishedAt": "2026-09-21T11:15:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Jev by Typesafe AI Classifies Data in Under 500 Milliseconds",
-          "url": "https://www.geeky-gadgets.com/jev-classification-model/",
-          "publishedAt": "2026-09-22T13:17:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "68baf6c9-ab31-4019-b017-9ec7bf8de0c3",
-      "title": "Manus seeks $500M at a $4B valuation after its Meta merger fell through",
-      "summary": "AI agent startup Manus is in discussions to raise $500M at a $4B valuation as it resumes independent operations, TechCrunch reports. The company had to break off a merger with Meta earlier this year.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-18T18:33:42.051Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T18:33:42.051Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
-          "url": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
-          "publishedAt": "2026-09-18T16:35:49.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "a9919b22-920d-4863-91fc-68d4f0f94168",
-      "title": "Crusoe raises $3.9B at a $30.9B valuation for data centers and modular \"AI factories\"",
-      "summary": "AI data center developer Crusoe has raised $3.9 billion at a $30.9 billion valuation, per TechCrunch, confirming and enlarging an earlier report of a $3 billion round. The money is earmarked for massive data centers and small modular \"AI factories,\" following a reported $13 billion compute contract with Jane Street.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-04T01:02:11.549Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T00:16:00.317Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Crusoe reportedly raises $3B at a  $30B valuation",
-          "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-          "publishedAt": "2026-09-04T00:48:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Crusoe raises $3.9B to build massive data centers and small modular “AI factories”",
-          "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
-          "publishedAt": "2026-09-17T23:25:52.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "60efbafc-c1f3-4876-8fac-5bf8da30f79b",
-      "title": "Wired: Trump's anti-bias AI order pressures developers toward the president's worldview",
-      "summary": "Wired's Steven Levy argues the Trump administration's order demanding AI models free of ideological bias is itself a form of bias, as the administration pressures developers such as OpenAI and Google to reflect the president's worldview.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-18T14:29:44.232Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T14:29:44.232Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Trump’s Anti-Bias AI Order Is Just More Bias",
-          "url": "https://www.wired.com/story/trump-ai-order-bias-openai-google/",
-          "publishedAt": "2026-09-18T14:10:09.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 126,
   "hasMore": true
 }
