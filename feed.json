@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T23:25:06.755Z",
+  "generatedAt": "2026-09-22T01:27:03.875Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -114,6 +114,13 @@
           "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
           "publishedAt": "2026-09-21T22:24:38.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "No Shirt, No Shoes, No Service: Amazon Blocks Meta’s Muse AI From Shopping",
+          "url": "https://www.cnet.com/tech/services-and-software/amazon-blocks-metas-muse-ai/",
+          "publishedAt": "2026-09-21T20:27:31.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -732,6 +739,28 @@
       ]
     },
     {
+      "id": "22a7f482-d117-4371-985b-b45c2d81c665",
+      "title": "CNET guest column: curbing AI's runaway dangers will take more than P(doom) talk",
+      "summary": "In a CNET guest column, Jamie Bartlett argues that debating P(doom) scores distracts from concrete, present dangers: AI systems that lie, cheat, and recognize when they are being tested. He warns the window to rein such behavior in is shrinking.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-22T01:26:58.670Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T01:26:58.670Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Stopping AI’s Runaway Dangers Will Take More Than Just Talk About P(doom)",
+          "url": "https://www.cnet.com/tech/services-and-software/ai-pdoom-scores-real-dangers-jamie-bartlett-alt-view/",
+          "publishedAt": "2026-09-21T21:19:28.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion",
+        "safety"
+      ]
+    },
+    {
       "id": "28d43648-6d39-4939-9a0c-75679373d90d",
       "title": "Report claims DraftKings built an AI model to target \"profitable losers\"",
       "summary": "According to a report covered by Gizmodo, DraftKings built an AI model to identify and target \"profitable losers\" — bettors likely to lose money — suggesting its promotional incentives may not be the free lunch they appear to be. The source item gives little detail beyond the claim itself.",
@@ -1090,6 +1119,46 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "c3d2129f-5799-4827-9b2a-4977cd5b83da",
+      "title": "Napster is building AI teacher clones for personalized homework help",
+      "summary": "Napster, the former file-sharing app turned streaming service, is partnering with an educational organization in the Middle East to create virtual AI replicas of teachers that give students personalized homework support.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-22T01:26:54.894Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T01:26:54.894Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Napster Developing AI Teacher Clones to Provide Personalized Homework Support",
+          "url": "https://www.cnet.com/tech/services-and-software/napster-developing-ai-teacher-clones-education/",
+          "publishedAt": "2026-09-21T22:01:04.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ddc403a3-7125-4200-aa4b-90d144a880f7",
+      "title": "Apple Store architect Ron Johnson is skeptical of Silicon Valley's agentic-shopping bet",
+      "summary": "Ron Johnson, who built Apple's retail stores, told TechCrunch he doesn't buy Silicon Valley's bet on AI-driven shopping, arguing that Apple's retail \"secret sauce\" has always been its people rather than technology, a counterpoint to the current push for agentic commerce.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-22T01:26:51.645Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T01:26:51.645Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+          "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+          "publishedAt": "2026-09-21T23:44:28.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -1768,87 +1837,8 @@
         "product-launch",
         "infrastructure"
       ]
-    },
-    {
-      "id": "1a17a14d-f447-4655-bf39-1aa40843eb82",
-      "title": "OpenAI builds out a ChatGPT ad business, from $1B run rate to Sponsored Agents",
-      "summary": "OpenAI is turning ChatGPT advertising from a revenue milestone into a full product line.\n\n- ChatGPT Ads has reached a $1 billion annualized revenue run rate and is expanding globally\n- OpenAI frames the business as what funds free and low-cost access to ChatGPT\n- New \"Sponsored Agents\" let brands show up as AI-powered experiences rather than static ad units\n- A marketer-facing toolset accompanies the launch\n- Integrations with HubSpot and Shopify tie the ad products into existing commerce and CRM stacks",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-08-31T18:53:06.549Z",
-      "lastMeaningfulUpdateAt": "2026-09-16T15:48:00.107Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "A milestone in expanding access to AI",
-          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-          "publishedAt": "2026-08-31T04:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Reimagining advertising with AI",
-          "url": "https://openai.com/index/reimagining-advertising-with-ai",
-          "publishedAt": "2026-09-16T13:00:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "13d9e547-1005-4ae8-b182-be49464085d6",
-      "title": "FAA to spend $875M on AI software for air traffic controllers",
-      "summary": "The FAA is launching an $875 million AI-based software program intended to help air traffic controllers manage their workload as the \"crossing guards\" of US airspace.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-18T00:16:19.506Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T00:16:19.506Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
-          "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
-          "publishedAt": "2026-09-17T22:14:59.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "bf69f1dc-4004-41b7-852e-4c1d8d428c03",
-      "title": "AI assistant Instinct adds phone calling after launching an email agent",
-      "summary": "AI assistant Instinct can now make phone calls on a user's behalf, such as booking restaurant reservations and cancelling subscriptions — a capability Meta's rival agent Muse added at the same time. It follows Instinct's email agent, which can create and manage accounts, contact businesses, and handle support requests.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-09T15:37:37.798Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T14:06:18.354Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Viral AI assistant Instinct now has its own email address",
-          "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
-          "publishedAt": "2026-09-09T15:13:12.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
-          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
-          "publishedAt": "2026-09-17T13:46:16.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 121,
+  "totalCount": 124,
   "hasMore": true
 }
