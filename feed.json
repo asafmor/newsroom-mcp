@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T21:44:46.044Z",
+  "generatedAt": "2026-09-22T23:46:24.413Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -305,6 +305,13 @@
           "url": "https://www.cnet.com/tech/services-and-software/anthropic-and-openai-drop-new-high-efficiency-models/",
           "publishedAt": "2026-09-22T18:48:44.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Releases New GPT-6 Sol and Luna Models, Sells Them as Mini-Astras",
+          "url": "https://gizmodo.com/openai-releases-new-gpt-6-sol-and-luna-models-sells-them-as-mini-astras-2000815731",
+          "publishedAt": "2026-09-22T22:09:10.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -606,6 +613,27 @@
       ]
     },
     {
+      "id": "8502fd44-6e53-424d-a08c-277a1ac13bdb",
+      "title": "Snorkel AI raises $350M Series E, tripling its valuation to $3.5B on AI training-data demand",
+      "summary": "Snorkel AI, the seven-year-old data-labeling startup, raised a $350 million Series E that triples its valuation to $3.5 billion, as demand for AI training data booms. The round will fund its data-as-a-service approach.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-22T23:46:13.273Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T23:46:13.273Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+          "publishedAt": "2026-09-22T21:56:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
       "id": "e7995ec9-7541-4aac-9ec0-7dfe310c73e0",
       "title": "Qualcomm launches two AI-focused smartphone chips; top model runs a 30B MoE model on-device",
       "summary": "Qualcomm announced two new smartphone chips built around on-device AI. The company says its new flagship chip can run a 30-billion-parameter mixture-of-experts model locally, pushing larger models onto phones without cloud inference.",
@@ -720,6 +748,27 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "cc365c9d-fd89-4d0a-baf5-468a76f932ee",
+      "title": "Big banks warn AI-agent shopping could drive more scams, fraud, and disputes",
+      "summary": "Major banks say in a new report that they are uneasy about consumers shopping via AI agents, warning that agentic commerce could increase scams, fraud, and payment disputes.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-22T23:46:16.461Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T23:46:16.461Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Big Banks Say They’re Uneasy About People Shopping via AI Agents",
+          "url": "https://gizmodo.com/big-banks-say-theyre-uneasy-about-people-shopping-via-ai-agents-2000815443",
+          "publishedAt": "2026-09-22T22:43:49.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -2000,90 +2049,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "9e9eb8b5-c253-4629-be24-eb918b88590e",
-      "title": "Hugging Face releases tokenizers v1 with measured encode, decode and scaling results",
-      "summary": "Hugging Face published a post marking the v1 release of its open-source tokenizers library, reporting measurements of encode, decode and scaling performance.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-21T15:16:50.240Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T15:16:50.240Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "tokenizers v1: encode, decode and scaling, measured",
-          "url": "https://huggingface.co/blog/tokenizers-v1",
-          "publishedAt": "2026-09-21T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source"
-      ]
-    },
-    {
-      "id": "8dd7d0fa-a481-4aa4-8cb0-9f9a8d23fa70",
-      "title": "NYT v. OpenAI: unsealed filings show Microsoft privately called AI scraping \"theft\" as US backs fair-use defense",
-      "summary": "The New York Times' copyright lawsuit against OpenAI and Microsoft has produced damaging internal admissions, even as the US government sides with the defendants.\n\n- Newly unsealed, unredacted court filings show a Microsoft executive called AI scraping \"the largest theft of labor in human history,\" and that Microsoft privately described OpenAI's data practices as \"theft\"\n- The filings say both companies scraped paywalled Times content and built datasets from it, while warning internally that the practice would gut publishers\n- Earlier, the Trump administration filed a brief backing OpenAI's argument that training LLMs on copyrighted material is fair use, citing US interest in a competitive AI industry",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-02T19:01:58.611Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T20:11:26.573Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-          "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
-          "publishedAt": "2026-09-02T17:09:06.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
-          "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
-          "publishedAt": "2026-09-02T18:41:02.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Trump Administration Sides With OpenAI in Publishers’ Copyright Lawsuits",
-          "url": "https://www.cnet.com/tech/services-and-software/trump-administration-sides-with-openai-in-publishers-copyright-lawsuits/",
-          "publishedAt": "2026-09-02T18:35:54.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Admin Teams Up With OpenAI in Its Fight Against the New York Times",
-          "url": "https://gizmodo.com/trump-admin-teams-up-with-openai-in-its-fight-against-the-new-york-times-copyright-2000806473",
-          "publishedAt": "2026-09-02T20:40:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-          "publishedAt": "2026-09-17T19:46:08.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Microsoft executive called OpenAI's web scraping the 'largest theft of labor in human history'",
-          "url": "https://www.engadget.com/2262055/microsoft-openai-internet-scraping-largest-theft-of-labor/",
-          "publishedAt": "2026-09-18T11:22:31.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "AI Firms Knew Chatbots Were an ‘Existential Threat’ to Journalists, Court Docs Show",
-          "url": "https://www.cnet.com/tech/services-and-software/ai-firms-knew-chatbots-were-an-existential-threat-to-journalists-court-docs-show/",
-          "publishedAt": "2026-09-18T19:20:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 126,
+  "totalCount": 123,
   "hasMore": true
 }
