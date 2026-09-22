@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T09:33:28.514Z",
+  "generatedAt": "2026-09-22T11:35:49.902Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -322,6 +322,28 @@
       ]
     },
     {
+      "id": "6c5c0cdf-872c-4494-b747-262b652bbfb8",
+      "title": "Cisco Talos tool for spotting AI-driven malware uncovers an autonomous \"hive mind\" command system",
+      "summary": "Cisco Talos researchers built a framework for identifying malware and hacking tools that rely on AI chatbots, and it quickly surfaced something unusual: malware coordinated by an AI \"hive mind\" command system with no humans in the loop, Wired reports.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-22T11:35:23.993Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T11:35:23.993Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
+          "url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system/",
+          "publishedAt": "2026-09-22T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "research"
+      ]
+    },
+    {
       "id": "05e6547a-32dd-4e1f-83fb-4e959dba93a1",
       "title": "xAI introduces Grok 4.7",
       "summary": "xAI announced Grok 4.7, describing it as its most capable model for long-running coding and knowledge work. The announcement follows Grok 4.6; no benchmark or pricing details were available from the source feed.",
@@ -608,6 +630,27 @@
       "tags": [
         "regulation",
         "safety"
+      ]
+    },
+    {
+      "id": "2edf0006-91c7-4996-a9c2-901044bb8aaf",
+      "title": "Gebru and Bender: don't be fooled by this summer's AI hype",
+      "summary": "In an MIT Technology Review op-ed, Timnit Gebru and Emily Bender argue that the past few months of AI headlines — Anthropic's claim that Claude Mythos out-finds most security experts at software vulnerabilities, the OpenAI–Hugging Face hacking incident, and the similar disclosures from Anthropic and Meta that followed — are hype that readers should treat skeptically.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-22T11:35:31.246Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T11:35:31.246Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "Don’t be fooled by this summer of AI hype ",
+          "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+          "publishedAt": "2026-09-22T11:04:51.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -945,6 +988,49 @@
       "tags": []
     },
     {
+      "id": "0f0ce071-2eb1-4388-b455-54d4c74e102d",
+      "title": "Xiaomi's open-source MiMo 2.6 Pro offers a 1M-token context; Flash variant is free on OpenRouter",
+      "summary": "Xiaomi's MiMo 2.6 Pro, an open-source model built with reinforcement-learning techniques and a 1-million-token context window, is drawing attention in benchmark comparisons against other open models, and its Flash variant is available free on OpenRouter, per Geeky Gadgets.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-22T11:35:34.991Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T11:35:34.991Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Flash Variant of Xiaomi MiMo 2.6 Pro is Free on Open Router",
+          "url": "https://www.geeky-gadgets.com/xiaomi-mimo-2-6-pro-review/",
+          "publishedAt": "2026-09-22T10:17:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source",
+        "model-release"
+      ]
+    },
+    {
+      "id": "76870b1b-fc69-4e85-a0aa-c0ebd1478c17",
+      "title": "Researchers build \"Apollo,\" an LLM that fills gaps in tattered ancient Greek papyri",
+      "summary": "Researchers have developed a large language model, Apollo, that reconstructs missing text in damaged ancient Greek papyrus fragments, in the hope of uncovering new details about ancient life, Wired reports.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-22T11:35:27.433Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T11:35:27.433Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "A New Chatbot Wants to Unlock the Secrets in Tattered Ancient Greek Records",
+          "url": "https://www.wired.com/story/apollo-ai-model-ancient-greek-secrets-papyrus/",
+          "publishedAt": "2026-09-22T09:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
       "title": "Anthropic CEO's \"pace the frontier\" plea splits industry and draws White House pushback",
       "summary": "Dario Amodei's plan to pace rather than race frontier AI development has become an open industry-vs-politics fight, now argued on stage by the CEOs themselves.\n\n- The CEOs of OpenAI, Anthropic, and Nvidia turned Salesforce's Dreamforce conference into an unlikely battleground over whether AI development should slow down\n- Amodei argued \"we owe it to humanity to try\"; Sam Altman, Elon Musk, and Microsoft's Satya Nadella have backed the slowdown camp, and OpenAI confirmed weeks of safety talks with Anthropic and Google DeepMind\n- Nvidia's Jensen Huang argues no AI regulation is needed at all: AI is hardware and software, not an \"alien mind,\" so each product maker can engineer its own safety\n- The White House says it has no plans to act, with Trump's team prioritizing keeping pace with China; Altman separately sought a private meeting with Trump\n- Beijing agrees advanced AI poses serious risks but is deeply skeptical of any deal it reads as designed to keep US companies ahead\n- Lab employees report seeing no let-up in the pace of the work they're actually being asked to do",
@@ -1170,14 +1256,28 @@
       ]
     },
     {
-      "id": "c3d2129f-5799-4827-9b2a-4977cd5b83da",
-      "title": "Napster is building AI teacher clones for personalized homework help",
-      "summary": "Napster, the former file-sharing app turned streaming service, is partnering with an educational organization in the Middle East to create virtual AI replicas of teachers that give students personalized homework support.",
+      "id": "8e75d0a4-992a-45db-8781-197ff14366b2",
+      "title": "Napster's next act: AI digital clones of teachers for the classroom",
+      "summary": "Napster, once the music industry's biggest headache, is repositioning itself around AI for education with a plan to digitally clone teachers. Per Wired, Gizmodo, and CNET, it is partnering with an educational organization in the Middle East to build virtual replicas of teachers that give students personalized homework support.",
       "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-22T01:26:54.894Z",
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-18T10:25:38.031Z",
       "lastMeaningfulUpdateAt": "2026-09-22T01:26:54.894Z",
       "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Napster Is Back, and It Wants to Digitally Clone Teachers",
+          "url": "https://www.wired.com/story/napster-is-back-and-it-wants-to-digitally-clone-teachers/",
+          "publishedAt": "2026-09-18T09:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Napster Is Now Making AI-Powered ‘Digital Twins’ of Teachers",
+          "url": "https://gizmodo.com/napster-is-now-making-ai-powered-digital-twins-of-teachers-2000814010",
+          "publishedAt": "2026-09-18T16:46:27.000Z",
+          "contribution": "supporting"
+        },
         {
           "providerName": "CNET AI",
           "title": "Napster Developing AI Teacher Clones to Provide Personalized Homework Support",
@@ -1186,7 +1286,9 @@
           "contribution": "supporting"
         }
       ],
-      "tags": []
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "ddc403a3-7125-4200-aa4b-90d144a880f7",
@@ -1691,133 +1793,27 @@
       ]
     },
     {
-      "id": "6f4d9624-9920-47cc-b1fc-1b6362a84834",
-      "title": "Huawei accelerates its next-gen Ascend 960DT AI chip to a Q1 2027 launch",
-      "summary": "Huawei is pulling forward the launch of its next-generation Ascend 960DT AI chip to Q1 2027, part of its push to compete with Nvidia and narrow China's AI computing gap with the U.S.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-17T16:07:58.489Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T16:07:58.489Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
-          "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
-          "publishedAt": "2026-09-17T14:06:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "b2423824-6973-4f49-8e8f-a75f1f202609",
-      "title": "Google DeepMind launches an institute to debate AGI questions in public",
-      "summary": "Google DeepMind launched a new institute meant to widen the debate over artificial general intelligence, hashing out the big AGI questions in public rather than inside the lab.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-18T00:16:13.046Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T00:16:13.046Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google DeepMind launches institute to widen the AGI debate",
-          "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
-          "publishedAt": "2026-09-17T23:21:17.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "879f4cc5-f576-49da-ab1e-337fac85686b",
-      "title": "oMLX creator Jun Kim joins Hugging Face to support the MLX community",
-      "summary": "Hugging Face announced that Jun Kim, creator and maintainer of oMLX, has joined the company to support the MLX community — Apple's array framework for running models on Apple silicon. The source feed gave no further details beyond the announcement.",
+      "id": "87ebe167-4760-48bb-918f-9479e6a324fc",
+      "title": "Wired writer builds AI clones of coworkers and finds the \"future of work\" gets weird",
+      "summary": "A Wired feature recounts building AI chatbot clones of the author's coworkers: one bot fixated on improv, another kept calling her \"big dog,\" offering a first-hand look at how persona-cloning agents behave in a workplace setting.",
       "importanceScore": 0.2,
       "relevanceScore": 0.5,
-      "firstSeenAt": "2026-09-22T07:31:53.669Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T07:31:53.669Z",
+      "firstSeenAt": "2026-09-22T11:35:38.929Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T11:35:38.929Z",
       "sources": [
         {
-          "providerName": "Hugging Face Blog",
-          "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
-          "url": "https://huggingface.co/blog/omlx",
-          "publishedAt": "2026-09-22T00:00:00.000Z",
+          "providerName": "Wired AI",
+          "title": "I Built AI Clones of My Coworkers. Things Got Weird",
+          "url": "https://www.wired.com/story/ai-coworker-bots-loved-improv-and-interstellar-soundtrack/",
+          "publishedAt": "2026-09-22T10:30:00.000Z",
           "contribution": "supporting"
         }
       ],
       "tags": [
-        "open-source"
-      ]
-    },
-    {
-      "id": "317a9914-8db7-4ac8-8186-297fc15e79a5",
-      "title": "OpenAI introduces Astra for Law, a legal-industry offering",
-      "summary": "OpenAI announced Astra for Law under an \"OpenAI for Law\" banner, pitching frontier models for legal work with custom firm workflows, connected legal data sources, and legal-grade controls for confidential client matters.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-17T22:13:16.171Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T22:13:16.171Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Introducing Astra for Law",
-          "url": "https://openai.com/index/astra-for-law",
-          "publishedAt": "2026-09-17T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "138d4500-c4ef-41ec-b188-5bc061a840c4",
-      "title": "Anthropic folds Cowork into Claude chat, adding editable docs and slides",
-      "summary": "Anthropic is merging Claude chat and Cowork into a single interface, bringing Cowork's agentic capabilities directly into the chat surface and letting Claude produce editable documents and slideshows. The features go to Pro and Max subscribers first.",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-16T17:50:31.599Z",
-      "lastMeaningfulUpdateAt": "2026-09-16T17:50:31.599Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic merges Claude chat and Cowork in one interface",
-          "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
-          "publishedAt": "2026-09-16T16:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic's Claude can now create editable documents for you",
-          "url": "https://www.engadget.com/2259938/anthropics-claude-can-now-create-editable-documents-for-you-cowork-chat-together/",
-          "publishedAt": "2026-09-16T16:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude Cowork and chat are now one Claude",
-          "url": "https://claude.com/blog/cowork-is-now-claude",
-          "publishedAt": "2026-09-16T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Anthropic Simplifies Claude’s Cowork and Design Tools",
-          "url": "https://www.cnet.com/tech/services-and-software/anthropic-claude-simplify-interface-cowork-design-ai-news/",
-          "publishedAt": "2026-09-16T16:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
+        "opinion"
       ]
     }
   ],
-  "totalCount": 128,
+  "totalCount": 131,
   "hasMore": true
 }
