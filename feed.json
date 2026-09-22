@@ -1,6 +1,83 @@
 {
-  "generatedAt": "2026-09-22T15:39:10.531Z",
+  "generatedAt": "2026-09-22T17:40:37.262Z",
   "stories": [
+    {
+      "id": "04d9e06c-d005-43c3-a5bf-01cab0466f3c",
+      "title": "Anthropic releases Claude Opus 5.5 with lower prices and Fable-level performance",
+      "summary": "Anthropic released Claude Opus 5.5, which it calls \"the strongest-performing model we've tested to date,\" pairing performance it says matches its Fable tier with lower pricing.",
+      "importanceScore": 0.88,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-09-22T17:40:19.031Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T17:40:19.031Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
+          "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+          "publishedAt": "2026-09-22T16:30:07.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "0874e29c-316c-4fec-b758-461e80e7313d",
+      "title": "Anthropic names Accenture its first embedded safety evaluator; OpenAI publishes principles for third-party assessments",
+      "summary": "Anthropic and OpenAI are moving to embed independent safety evaluators inside their labs to rein in rogue agents: Anthropic has named Accenture as its first, and OpenAI has now published its own principles for outside assessments.\n\n- Anthropic announced a partnership with Accenture on embedded evaluation; TechCrunch calls it the consultancy's most high-risk engagement ever\n- OpenAI published priorities and principles for rigorous, secure, and independent third-party safety assessments of its frontier models and safeguards\n- Researchers welcome the unprecedented access but warn real oversight needs transparency, independence from the companies, and eventually regulation\n- Critics argue a simpler containment fix is being overlooked: cut off agents' unsupervised access to the open internet rather than audit the damage afterward\n- The move lands as the labs' broader safety coordination faces antitrust and political pushback",
+      "importanceScore": 0.78,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-16T19:52:23.239Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T17:40:15.912Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+          "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+          "publishedAt": "2026-09-16T18:25:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+          "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+          "publishedAt": "2026-09-16T21:07:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Partnering with Accenture on embedded evaluation",
+          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+          "publishedAt": "2026-09-18T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s first embedded evaluator is … Accenture?",
+          "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
+          "publishedAt": "2026-09-18T21:44:33.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic picks Accenture for third-party AI safety evaluations",
+          "url": "https://www.engadget.com/2263235/anthropic-picks-accenture-for-third-party-ai-safety-evaluations/",
+          "publishedAt": "2026-09-19T18:33:46.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Priorities and principles for effective third party assessments",
+          "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+          "publishedAt": "2026-09-22T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
       "title": "Meta's fast-growing Muse AI agent hit by a serious 0-day after Amazon blocks it",
@@ -457,6 +534,27 @@
       ]
     },
     {
+      "id": "8430afb9-5b8a-4a20-9307-5f0dfca2f2e3",
+      "title": "Rabbit returns with OS3, a cross-platform AI agent app instead of dedicated hardware",
+      "summary": "Two years after the R1 tried to sidestep mobile apps with dedicated AI hardware, Rabbit is launching OS3, a cross-platform agent that runs on the phones and computers people already use.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-22T17:40:22.628Z",
+      "lastMeaningfulUpdateAt": "2026-09-22T17:40:22.628Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Rabbit Is Back, This Time With an AI Agent App",
+          "url": "https://www.wired.com/story/rabbit-r1-os3-jesse-lyu/",
+          "publishedAt": "2026-09-22T16:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "ce12b215-9eef-43f5-bcbb-28d4625d89e0",
       "title": "AI hardware exports set to be a bargaining chip at the upcoming Trump-Xi summit",
       "summary": "Ahead of President Trump's upcoming summit with Xi Jinping, Wired reports that Washington and Beijing have grown ever more linked in the AI boom, making hardware exports and technological restrictions hefty bargaining chips alongside tariffs and rare minerals.",
@@ -542,6 +640,13 @@
           "url": "https://www.geeky-gadgets.com/latest-ai-models-performance/",
           "publishedAt": "2026-09-22T12:17:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Mathematics Just Got Its First Taste of the AI Job-Pocalypse",
+          "url": "https://gizmodo.com/mathematics-just-got-its-first-taste-of-the-ai-job-pocalypse-2000812872",
+          "publishedAt": "2026-09-22T15:55:13.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -788,55 +893,6 @@
           "title": "‘Almost Started a War’: US Military Nearly Boarded a Chinese Ship Based on Bad Intel From AI",
           "url": "https://gizmodo.com/almost-started-a-war-us-military-nearly-boarded-a-chinese-ship-based-on-bad-intel-from-ai-2000814290",
           "publishedAt": "2026-09-19T00:07:39.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "0874e29c-316c-4fec-b758-461e80e7313d",
-      "title": "Anthropic names Accenture its first embedded safety evaluator as labs' in-house auditing plan draws skepticism",
-      "summary": "Anthropic and OpenAI are moving to embed independent safety evaluators inside their labs to rein in rogue agents, and Anthropic has now named Accenture as its first.\n\n- Anthropic announced a partnership with Accenture on embedded evaluation; TechCrunch calls it the consultancy's most high-risk engagement ever\n- Researchers welcome the unprecedented access but warn real oversight needs transparency, independence from the companies, and eventually regulation\n- Critics argue a simpler containment fix is being overlooked: cut off agents' unsupervised access to the open internet rather than audit the damage afterward\n- The move lands as the labs' broader safety coordination faces antitrust and political pushback",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-16T19:52:23.239Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T22:37:32.175Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
-          "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
-          "publishedAt": "2026-09-16T18:25:25.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
-          "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
-          "publishedAt": "2026-09-16T21:07:24.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Partnering with Accenture on embedded evaluation",
-          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-          "publishedAt": "2026-09-18T00:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s first embedded evaluator is … Accenture?",
-          "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
-          "publishedAt": "2026-09-18T21:44:33.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic picks Accenture for third-party AI safety evaluations",
-          "url": "https://www.engadget.com/2263235/anthropic-picks-accenture-for-third-party-ai-safety-evaluations/",
-          "publishedAt": "2026-09-19T18:33:46.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1796,55 +1852,8 @@
         "research",
         "safety"
       ]
-    },
-    {
-      "id": "50c376ab-dd33-4b9e-b9f9-52bd9fca61e9",
-      "title": "Anthropic sets up a bio research lab for physical experiments",
-      "summary": "Engadget reports that Anthropic now runs its own biology research lab in San Francisco, built for physical experiments rather than purely computational work.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-18T12:27:33.991Z",
-      "lastMeaningfulUpdateAt": "2026-09-18T12:27:33.991Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic has set up a bio research lab for physical experiments",
-          "url": "https://www.engadget.com/2262087/anthropic-has-set-up-a-bio-research-lab-for-physical-experiments/",
-          "publishedAt": "2026-09-18T12:21:57.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic is operating a lab that conducts biology experiments",
-          "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-          "publishedAt": "2026-09-18T23:13:31.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "773e01b2-9528-40f3-8df1-bf06f6342911",
-      "title": "OpenAI expands OpenAI Academy with new learning paths",
-      "summary": "OpenAI added new OpenAI Academy learning paths aimed at employees, developers, leaders, educators, and students, meant to help them build and demonstrate practical AI skills.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-21T19:21:25.508Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T19:21:25.508Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Expanding OpenAI Academy with new learning paths",
-          "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-          "publishedAt": "2026-09-21T07:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 128,
+  "totalCount": 130,
   "hasMore": true
 }
