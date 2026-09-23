@@ -1,156 +1,14 @@
 {
-  "generatedAt": "2026-09-23T11:55:21.356Z",
+  "generatedAt": "2026-09-23T13:57:17.345Z",
   "stories": [
-    {
-      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta's Muse agent reportedly leaned on human contractors for phone calls, on top of an OpenClaw \"inspiration\" admission, a 0-day, and an Amazon block",
-      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is growing faster than ChatGPT did at launch while running into security, platform, originality, and now labor trouble.\n\n- New: Gizmodo reports Meta tested routing some Muse tasks through a \"human concierge\" — contractors who make the agent's phone calls — and that one of them reportedly made racist remarks\n- Meta says Muse was built from scratch but admits it was \"heavily inspired\" by OpenClaw, down to some of its workspace filenames and content\n- Ars Technica reports a serious 0-day in the highly privileged agent; a simple ClickFix attack is only one of several ways to completely hijack it\n- Amazon has blocked the Muse agent from shopping on Amazon.com, citing privacy and security concerns\n- Appfigures estimates Muse has racked up more downloads and daily active users in the US and Canada than ChatGPT did over the same period after its mobile debut\n- Muse carries out online tasks such as shopping, travel booking and selling a car; it has expanded to the Mac and can make phone calls for users",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T09:52:40.762Z",
-      "sources": [
-        {
-          "providerName": "VentureBeat",
-          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
-          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-          "publishedAt": "2026-09-03T16:19:49.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta is paying to peek at how you use their latest AI model",
-          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
-          "publishedAt": "2026-09-03T18:19:56.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
-          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
-          "publishedAt": "2026-09-08T20:12:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
-          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
-          "publishedAt": "2026-09-08T19:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Meta’s New AI Agent Wants to Get Personal With You",
-          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news-2/",
-          "publishedAt": "2026-09-08T22:33:09.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Meta’s Muse Let Me Waste a Mind-Boggling Amount of Free Compute on Nothing in Particular",
-          "url": "https://gizmodo.com/metas-muse-let-me-waste-a-mind-boggling-amount-of-free-compute-on-nothing-in-particular-2000808945",
-          "publishedAt": "2026-09-09T02:05:25.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
-          "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
-          "publishedAt": "2026-09-10T19:50:04.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "How to get started with Meta's new AI agent, Muse",
-          "url": "https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/",
-          "publishedAt": "2026-09-12T14:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
-          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
-          "publishedAt": "2026-09-17T13:46:16.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
-          "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
-          "publishedAt": "2026-09-18T15:22:48.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
-          "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
-          "publishedAt": "2026-09-20T10:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Amazon Brings Down the Hammer on Meta’s Muse AI Agent",
-          "url": "https://gizmodo.com/amazon-brings-down-the-hammer-on-metas-muse-ai-agent-2000814878",
-          "publishedAt": "2026-09-21T16:05:22.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta’s AI agent has been blocked from using Amazon.com",
-          "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
-          "publishedAt": "2026-09-21T17:55:18.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
-          "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
-          "publishedAt": "2026-09-21T19:19:21.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Ars Technica",
-          "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
-          "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
-          "publishedAt": "2026-09-21T22:24:38.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "No Shirt, No Shoes, No Service: Amazon Blocks Meta’s Muse AI From Shopping",
-          "url": "https://www.cnet.com/tech/services-and-software/amazon-blocks-metas-muse-ai/",
-          "publishedAt": "2026-09-21T20:27:31.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
-          "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
-          "publishedAt": "2026-09-22T19:09:11.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Meta’s Muse AI Agents Sometimes Tagged in Human Contractors. One of Them Reportedly Got Racist",
-          "url": "https://gizmodo.com/report-claims-metas-ai-agents-sometimes-tagged-in-human-contractors-and-that-one-of-them-got-racist-2000815808",
-          "publishedAt": "2026-09-23T09:00:24.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "model-release",
-        "safety"
-      ]
-    },
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
       "title": "OpenAI launches GPT-6 Astra, its first \"critical\" cyber-capability model",
-      "summary": "OpenAI released GPT-6 Astra, a computer-use/agentic model leadership framed as the start of an \"AGI era.\"\n\n- First OpenAI model to cross the Preparedness Framework's \"critical\" cyber threshold (100% on ExploitBench, real zero-days found), so its top cyber capabilities are limited to trusted defenders via Daybreak Blue\n- Committed $1B under \"Daybreak for Frontline Defenders\" to expand defender access, training and support for essential services\n- Benchmarks are strong, but OpenAI's framing has drawn scrutiny, including the absence of its GDPval real-world-work benchmark\n- Rolling out to enterprise, ChatGPT and API customers with tiered pricing; early access problems prompted Sam Altman to apologize and offer usage resets\n- Critics say Astra's less legible reasoning makes human oversight harder\n- OpenAI has since improved GPT-6 prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls to cut latency and cost",
+      "summary": "OpenAI released GPT-6 Astra, a computer-use/agentic model leadership framed as the start of an \"AGI era.\"\n\n- First OpenAI model to cross the Preparedness Framework's \"critical\" cyber threshold (100% on ExploitBench, real zero-days found), so its top cyber capabilities are limited to trusted defenders via Daybreak Blue\n- Committed $1B under \"Daybreak for Frontline Defenders\" to expand defender access, training and support for essential services\n- New: OpenAI is extending Daybreak access to the Government of Ukraine to support cyber defense of civilian infrastructure\n- Benchmarks are strong, but OpenAI's framing has drawn scrutiny (including the missing GDPval benchmark), and critics say Astra's less legible reasoning makes human oversight harder\n- Rolling out to enterprise, ChatGPT and API customers with tiered pricing; early access problems prompted Sam Altman to apologize and offer usage resets\n- OpenAI has since improved GPT-6 prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls to cut latency and cost",
       "importanceScore": 0.9,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-01T21:20:51.430Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T21:44:18.640Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T13:56:42.418Z",
       "sources": [
         {
           "providerName": "Wired AI",
@@ -368,9 +226,165 @@
           "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
           "publishedAt": "2026-09-22T21:00:00.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+          "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+          "publishedAt": "2026-09-23T13:00:00.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
+        "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
+      "title": "Meta's Muse agent reportedly leaned on human contractors for phone calls, on top of an OpenClaw \"inspiration\" admission, a 0-day, and an Amazon block",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is growing faster than ChatGPT did at launch while running into security, platform, originality, and now labor trouble.\n\n- New: Gizmodo reports Meta tested routing some Muse tasks through a \"human concierge\" — contractors who make the agent's phone calls — and that one of them reportedly made racist remarks\n- Meta says Muse was built from scratch but admits it was \"heavily inspired\" by OpenClaw, down to some of its workspace filenames and content\n- Ars Technica reports a serious 0-day in the highly privileged agent that would have let attackers do \"whatever\" they wanted on a victim's Mac; Meta says it has issued a fix\n- Amazon has blocked the Muse agent from shopping on Amazon.com, citing privacy and security concerns\n- Appfigures estimates Muse has racked up more downloads and daily active users in the US and Canada than ChatGPT did over the same period after its mobile debut\n- Muse carries out online tasks such as shopping, travel booking and selling a car; it has expanded to the Mac and can make phone calls for users",
+      "importanceScore": 0.85,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-03T17:01:49.158Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T09:52:40.762Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
+          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+          "publishedAt": "2026-09-03T16:19:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is paying to peek at how you use their latest AI model",
+          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+          "publishedAt": "2026-09-03T18:19:56.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
+          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
+          "publishedAt": "2026-09-08T20:12:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+          "publishedAt": "2026-09-08T19:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s New AI Agent Wants to Get Personal With You",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news-2/",
+          "publishedAt": "2026-09-08T22:33:09.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse Let Me Waste a Mind-Boggling Amount of Free Compute on Nothing in Particular",
+          "url": "https://gizmodo.com/metas-muse-let-me-waste-a-mind-boggling-amount-of-free-compute-on-nothing-in-particular-2000808945",
+          "publishedAt": "2026-09-09T02:05:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+          "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+          "publishedAt": "2026-09-10T19:50:04.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "How to get started with Meta's new AI agent, Muse",
+          "url": "https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/",
+          "publishedAt": "2026-09-12T14:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
+          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
+          "publishedAt": "2026-09-17T13:46:16.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
+          "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+          "publishedAt": "2026-09-18T15:22:48.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
+          "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+          "publishedAt": "2026-09-20T10:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Amazon Brings Down the Hammer on Meta’s Muse AI Agent",
+          "url": "https://gizmodo.com/amazon-brings-down-the-hammer-on-metas-muse-ai-agent-2000814878",
+          "publishedAt": "2026-09-21T16:05:22.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s AI agent has been blocked from using Amazon.com",
+          "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+          "publishedAt": "2026-09-21T17:55:18.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+          "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+          "publishedAt": "2026-09-21T19:19:21.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Ars Technica",
+          "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+          "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+          "publishedAt": "2026-09-21T22:24:38.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "No Shirt, No Shoes, No Service: Amazon Blocks Meta’s Muse AI From Shopping",
+          "url": "https://www.cnet.com/tech/services-and-software/amazon-blocks-metas-muse-ai/",
+          "publishedAt": "2026-09-21T20:27:31.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+          "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+          "publishedAt": "2026-09-22T19:09:11.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse AI Agents Sometimes Tagged in Human Contractors. One of Them Reportedly Got Racist",
+          "url": "https://gizmodo.com/report-claims-metas-ai-agents-sometimes-tagged-in-human-contractors-and-that-one-of-them-got-racist-2000815808",
+          "publishedAt": "2026-09-23T09:00:24.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
+          "url": "https://www.wired.com/story/metas-muse-ai-agent-zero-day/",
+          "publishedAt": "2026-09-23T12:54:58.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
         "model-release",
         "safety"
       ]
@@ -403,6 +417,13 @@
           "title": "What a task costs on Opus 5.5",
           "url": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
           "publishedAt": "2026-09-22T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Claude Opus 5.5 Outperforms ChatGPT 6 Astra in Reasoning",
+          "url": "https://www.geeky-gadgets.com/claude-opus-5-5-review/",
+          "publishedAt": "2026-09-23T12:47:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -620,6 +641,28 @@
       ]
     },
     {
+      "id": "da145139-3cda-406c-a6f0-40e4a4597337",
+      "title": "Enterprise AI agent startup Ema raises $77M",
+      "summary": "Ema, which builds AI agents that take on enterprise software and services work, raised $77 million in a round backed by investors including Accel, Prosus, Section 32 and Creaegis. The company has raised $140 million to date and counts more than 50 enterprise customers, including Google and Microsoft, as AI begins displacing spend on traditional enterprise software and services.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-23T13:56:55.979Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T13:56:55.979Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Ema raises $77M as AI starts eating into enterprise software and services",
+          "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "4acf72ef-f646-45fb-9d46-193cb7f09865",
       "title": "Treasury Secretary Bessent reportedly in line to become Trump's \"AI czar\"",
       "summary": "Gizmodo relays a report that Treasury Secretary Scott Bessent could soon be named President Trump's \"AI czar,\" a role that would put the administration's AI policy under a cabinet official already vocal on frontier-lab accountability. Details of the role's remit and timing were not confirmed.",
@@ -705,6 +748,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "51218a1e-7143-4f60-bad7-40ee051bc361",
+      "title": "Spotify launches Taste Profile in the US, letting listeners steer recommendations in natural language",
+      "summary": "Spotify is rolling out Taste Profile to US Premium subscribers, a view of how the streamer models each listener's tastes that lets them reshape their recommendations using natural-language instructions rather than only implicit listening signals.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-23T13:56:51.729Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T13:56:51.729Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Spotify’s is giving you the keys to its recommendation algorithm with US launch of ‘Taste Profile’",
+          "url": "https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile/",
+          "publishedAt": "2026-09-23T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "05e6547a-32dd-4e1f-83fb-4e959dba93a1",
@@ -972,6 +1036,28 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "56c7bbed-8eb8-4479-9e08-76929c3a361b",
+      "title": "Nvidia releases Nemotron 3 Diarization for real-time multi-speaker audio",
+      "summary": "Nvidia published Nemotron 3 Diarization on Hugging Face, a speaker-diarization model for identifying who spoke when in real-time, multi-speaker audio, aimed at developers building live transcription, meeting and voice-agent applications.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-23T13:56:59.865Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T13:56:59.865Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+          "publishedAt": "2026-09-23T13:17:01.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
       ]
     },
     {
@@ -1684,98 +1770,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "285d3952-cdb8-4f3d-b00c-1b6ea9211b2a",
-      "title": "Trump says he's creating an \"AI Force\" and floats rebranding AI with a new name",
-      "summary": "President Trump said he is creating an \"AI Force\" and suggested giving AI itself a new name.\n\n- Trump said he will soon announce an \"AI czar\" to run the newly announced AI Force\n- He floated rebranding AI under a different name and invited the public to help pick one\n- He claimed, without evidence, that the backlash against AI is a Democratic hoax",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-19T20:53:03.237Z",
-      "lastMeaningfulUpdateAt": "2026-09-19T20:53:03.237Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Now Trump says he's creating an AI Force",
-          "url": "https://www.engadget.com/2263237/now-trump-says-hes-creating-an-ai-force/",
-          "publishedAt": "2026-09-19T19:22:20.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
-          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
-          "publishedAt": "2026-09-19T19:57:47.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "You’ll Never Guess What Trump Wants to Rename Now",
-          "url": "https://gizmodo.com/youll-never-guess-what-trump-wants-to-rename-now-2000814488",
-          "publishedAt": "2026-09-19T19:58:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "First Came Space Force. Now Prepare For AI Force",
-          "url": "https://gizmodo.com/first-came-space-force-now-prepare-for-ai-force-2000814525",
-          "publishedAt": "2026-09-20T21:12:14.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump’s Attempt to Rename AI Misunderstands the MAGA Faithful",
-          "url": "https://gizmodo.com/trumps-attempt-to-rename-ai-misunderstands-the-maga-faithful-2000815001",
-          "publishedAt": "2026-09-21T20:59:10.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "0f0ce071-2eb1-4388-b455-54d4c74e102d",
-      "title": "Xiaomi's open-source MiMo 2.6 Pro offers a 1M-token context; Flash variant is free on OpenRouter",
-      "summary": "Xiaomi's MiMo 2.6 Pro, an open-source model built with reinforcement-learning techniques and a 1-million-token context window, is drawing attention in benchmark comparisons against other open models, and its Flash variant is available free on OpenRouter, per Geeky Gadgets.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-22T11:35:34.991Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T11:35:34.991Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Flash Variant of Xiaomi MiMo 2.6 Pro is Free on Open Router",
-          "url": "https://www.geeky-gadgets.com/xiaomi-mimo-2-6-pro-review/",
-          "publishedAt": "2026-09-22T10:17:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source",
-        "model-release"
-      ]
-    },
-    {
-      "id": "76870b1b-fc69-4e85-a0aa-c0ebd1478c17",
-      "title": "Researchers build \"Apollo,\" an LLM that fills gaps in tattered ancient Greek papyri",
-      "summary": "Researchers have developed a large language model, Apollo, that reconstructs missing text in damaged ancient Greek papyrus fragments, in the hope of uncovering new details about ancient life, Wired reports.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-22T11:35:27.433Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T11:35:27.433Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "A New Chatbot Wants to Unlock the Secrets in Tattered Ancient Greek Records",
-          "url": "https://www.wired.com/story/apollo-ai-model-ancient-greek-secrets-papyrus/",
-          "publishedAt": "2026-09-22T09:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 129,
+  "totalCount": 132,
   "hasMore": true
 }
