@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T13:57:17.345Z",
+  "generatedAt": "2026-09-23T15:59:07.909Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -716,6 +716,62 @@
           "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
           "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
           "publishedAt": "2026-09-22T20:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "23d5b185-5ab1-4c21-8da7-b3470ad0601f",
+      "title": "Google DeepMind announces Gemini 3.8 text-to-speech",
+      "summary": "Google DeepMind announced a Gemini 3.8 text-to-speech model, extending the Gemini 3.8 lineup (which already includes Flash, Live, and Live Extended Thinking variants) into speech generation. The source feed provided only the title, so capabilities, pricing, and availability are not yet known.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-23T15:58:51.505Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T15:58:51.505Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Gemini 3.8 text-to-speech says hello",
+          "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+          "publishedAt": "2026-09-23T15:25:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "419a919b-fd4e-40d6-91b1-070e6f7f4ee7",
+      "title": "YouTube's Made On YouTube event adds Gemini-built custom feeds, \"Ask Music,\" and AI creator tools",
+      "summary": "At its Made On YouTube event, YouTube announced a slate of AI features across viewing, music, and creator tools.\n\n- Custom feeds let users describe the videos they want in their own words, and Gemini builds a personalized feed around the request\n- YouTube Music gains \"Ask Music,\" a conversational tool for discovering music and podcasts, plus a personalized \"Your Podcast Lineup\"\n- The YouTube Studio app adds AI features that generate video ideas and monitor thumbnail performance for creators",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-23T15:58:48.263Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T15:58:48.263Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "YouTube will let you build your own algorithm with AI",
+          "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/",
+          "publishedAt": "2026-09-23T14:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "YouTube Music gets more conversational with new AI features",
+          "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
+          "publishedAt": "2026-09-23T15:19:30.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "YouTube releases new AI features for creators within its Studio app",
+          "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
+          "publishedAt": "2026-09-23T14:30:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1728,50 +1784,8 @@
       "tags": [
         "model-release"
       ]
-    },
-    {
-      "id": "1fbfaf27-4c57-42a1-9e7d-3499efa1245f",
-      "title": "NeoHorse 4B: a 2.4 GB local AI model for privacy-focused on-device use",
-      "summary": "NeoHorse, a 4-billion-parameter model, ships as a 2.4 GB download that runs locally on standard hardware without cloud infrastructure. Per Geeky Gadgets (citing The Stack), it handles straightforward tasks like summarization and basic decision-making, pitched at privacy-focused local deployment.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-22T13:37:35.690Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T13:37:35.690Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "NeoHorse 14B Brings Local AI in a Compact 2.4 GB Download",
-          "url": "https://www.geeky-gadgets.com/neo-horse-4b-local-ai/",
-          "publishedAt": "2026-09-22T12:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "8f058cf3-d838-4bdf-a70c-a1c8cce84c60",
-      "title": "Wired: AI chatbots are already driving a surge in discovered security vulnerabilities",
-      "summary": "Wired reports that while AI labs debate an industry-wide pact to slow development, widely available AI chatbots are already helping uncover a tidal wave of security flaws — a vulnerability explosion that doesn't depend on frontier models at all.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-19T12:47:56.344Z",
-      "lastMeaningfulUpdateAt": "2026-09-19T12:47:56.344Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
-          "url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/",
-          "publishedAt": "2026-09-19T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 132,
+  "totalCount": 130,
   "hasMore": true
 }
