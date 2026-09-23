@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T09:52:56.322Z",
+  "generatedAt": "2026-09-23T11:55:21.356Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -707,6 +707,76 @@
       "tags": []
     },
     {
+      "id": "05e6547a-32dd-4e1f-83fb-4e959dba93a1",
+      "title": "xAI introduces Grok 4.7",
+      "summary": "xAI announced Grok 4.7, describing it as its most powerful model for coding and knowledge work and claiming it runs twice as fast at half the price of comparable models. The announcement follows Grok 4.6; no benchmark details were available from the source feeds.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-21T23:24:50.717Z",
+      "lastMeaningfulUpdateAt": "2026-09-21T23:24:50.717Z",
+      "sources": [
+        {
+          "providerName": "Cursor Blog",
+          "title": "Introducing Grok 4.7",
+          "url": "https://x.ai/news/grok-4-7",
+          "publishedAt": "2026-09-21T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "xAI News",
+          "title": "Introducing Grok 4.7",
+          "url": "https://x.ai/news/grok-4-7",
+          "publishedAt": "2026-09-21T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "d7282368-d7dc-4d02-8dd2-b5af29148580",
+      "title": "xAI introduces Grok Voice Transcribe 2.0",
+      "summary": "xAI announced Grok Voice Transcribe 2.0, an updated version of its speech-to-text model, joining a recent wave of transcription-model launches from Meta, Microsoft, and Google DeepMind. The source feed gave no detail on accuracy, pricing, or availability.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-23T11:55:00.268Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T11:55:00.268Z",
+      "sources": [
+        {
+          "providerName": "xAI News",
+          "title": "Introducing Grok Voice Transcribe 2.0",
+          "url": "https://x.ai/news/grok-voice-transcribe-2",
+          "publishedAt": "2026-09-18T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "3c6b77dd-3120-4430-b3b2-0e492fcfd69b",
+      "title": "AT&T leans on AI automation to cut jobs and power use as it winds down its legacy telecom network",
+      "summary": "Wired reports AT&T is pushing to show Wall Street it can do more with less: fewer employees, lower electricity use, and more automation as it dismantles its old telecom empire. The piece frames AI-driven automation as central to the cost-cutting story.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-23T11:54:57.083Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T11:54:57.083Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AT&T Is Automating Away Jobs—and Its Old Telecom Empire",
+          "url": "https://www.wired.com/story/atandt-is-automating-away-its-old-telecom-empire/",
+          "publishedAt": "2026-09-23T10:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "8c434be0-633e-4482-8913-15416883f869",
       "title": "US AI data-center backlash pushes companies to relocate and draws political fire",
       "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built.\n\n- Nearly $200 billion worth of US data center projects have been blocked or delayed this year as communities keep pushing back\n- Opposition is pushing some companies to relocate projects and drawing political fire\n- Big Tech is countering with a multimillion-dollar ad campaign aimed at reversing public disdain\n- The outcry has reached Philadelphia, where officials floated a site in a neighborhood already scarred by a now-defunct oil refinery\n- Environmental-justice concerns in previously industrialized neighborhoods are becoming a central line of attack",
@@ -860,27 +930,6 @@
       "tags": [
         "safety",
         "research"
-      ]
-    },
-    {
-      "id": "05e6547a-32dd-4e1f-83fb-4e959dba93a1",
-      "title": "xAI introduces Grok 4.7",
-      "summary": "xAI announced Grok 4.7, describing it as its most capable model for long-running coding and knowledge work. The announcement follows Grok 4.6; no benchmark or pricing details were available from the source feed.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-21T23:24:50.717Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T23:24:50.717Z",
-      "sources": [
-        {
-          "providerName": "Cursor Blog",
-          "title": "Introducing Grok 4.7",
-          "url": "https://x.ai/news/grok-4-7",
-          "publishedAt": "2026-09-21T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
       ]
     },
     {
@@ -1135,6 +1184,27 @@
       "tags": []
     },
     {
+      "id": "469680b4-b534-4471-a23f-56627d31806a",
+      "title": "SpaceXAI uses Grok Bot to scale its own customer support",
+      "summary": "xAI published a post describing how SpaceXAI uses Grok Bot, its persistent-agent product, to scale customer support, following an earlier post on using it for procurement. The source feed gave no metrics on volume or resolution rates.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-23T11:55:03.726Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T11:55:03.726Z",
+      "sources": [
+        {
+          "providerName": "xAI News",
+          "title": "How SpaceXAI is using Grok Bot to scale customer support",
+          "url": "https://x.ai/news/grok-bot-customer-support",
+          "publishedAt": "2026-09-22T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "585ce2b2-5c92-4740-9aca-838abdf8bc43",
       "title": "EU proposes forcing data centers to disclose their energy and water use",
       "summary": "The EU has proposed a sustainability labeling system that would force data centers to disclose their energy and water use, a first step ahead of introducing minimum data center performance standards.",
@@ -1270,6 +1340,46 @@
           "title": "AI Contractors Shouldn’t Use AI to Evaluate AI Model, Says AI Company",
           "url": "https://gizmodo.com/ai-contractors-shouldnt-use-ai-to-evaluate-ai-model-says-ai-company-2000815621",
           "publishedAt": "2026-09-22T21:15:07.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "36efe53f-fded-443f-9322-ed38a79d1be0",
+      "title": "Elon Musk predicts AI will master physics, biology, and every major field by 2027 or 2028",
+      "summary": "Elon Musk said AI could master every major scientific and technical field as early as 2027, with 2028 as his latest estimate, a prediction Mashable reports without supporting evidence beyond Musk's own remarks.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-23T11:55:07.145Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T11:55:07.145Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Elon Musk Says AI Could Master Physics, Biology and More by 2028",
+          "url": "https://in.mashable.com/tech/114221/elon-musk-says-ai-could-master-physics-biology-and-more-by-2028",
+          "publishedAt": "2026-09-23T11:06:16.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "b430862a-8c99-4dc4-a2ff-f561f56af90d",
+      "title": "Grab and OpenAI launch \"GO Forward with AI\" skills programme for 30,000 Southeast Asian partners",
+      "summary": "OpenAI and Grab launched GO Forward with AI, a regional programme meant to help 30,000 Grab partners across Southeast Asia build practical AI skills. The source feed gave no detail on curriculum, cost, or timeline.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-23T11:54:53.273Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T11:54:53.273Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+          "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+          "publishedAt": "2026-09-23T00:00:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1664,310 +1774,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
-      "title": "Anthropic CEO's \"pace the frontier\" plea splits industry and draws White House pushback",
-      "summary": "Dario Amodei's plan to pace rather than race frontier AI development has become an open industry-vs-politics fight, now argued on stage by the CEOs themselves.\n\n- The CEOs of OpenAI, Anthropic, and Nvidia turned Salesforce's Dreamforce conference into an unlikely battleground over whether AI development should slow down\n- Amodei argued \"we owe it to humanity to try\"; Sam Altman, Elon Musk, and Microsoft's Satya Nadella have backed the slowdown camp, and OpenAI confirmed weeks of safety talks with Anthropic and Google DeepMind\n- Nvidia's Jensen Huang argues no AI regulation is needed at all: AI is hardware and software, not an \"alien mind,\" so each product maker can engineer its own safety\n- The White House says it has no plans to act, with Trump's team prioritizing keeping pace with China; Altman separately sought a private meeting with Trump\n- Beijing agrees advanced AI poses serious risks but is deeply skeptical of any deal it reads as designed to keep US companies ahead\n- Lab employees report seeing no let-up in the pace of the work they're actually being asked to do",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-12T16:50:32.829Z",
-      "lastMeaningfulUpdateAt": "2026-09-17T20:11:31.925Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
-          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-          "publishedAt": "2026-09-12T15:52:11.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic's CEO proposes a three-step plan to curb AI development",
-          "url": "https://www.engadget.com/2256718/anthropics-ceo-proposes-a-three-step-plan-to-curb-ai-development/",
-          "publishedAt": "2026-09-12T16:37:31.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic CEO Dario Amodei Calls for Pause in AI Development, Sort Of",
-          "url": "https://gizmodo.com/anthropic-ceo-dario-amodei-calls-for-pause-in-ai-development-sort-of-2000810962",
-          "publishedAt": "2026-09-12T20:05:29.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them",
-          "url": "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/",
-          "publishedAt": "2026-09-14T11:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
-          "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
-          "publishedAt": "2026-09-14T21:51:02.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Politicians to Humanity: Drop Dead",
-          "url": "https://gizmodo.com/politicians-to-humanity-drop-dead-2000811320",
-          "publishedAt": "2026-09-14T21:10:41.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "MIT AI",
-          "title": "The AI industry has taken a doomer turn. What now?",
-          "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
-          "publishedAt": "2026-09-14T17:54:22.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Why Are Sam Altman, Elon Musk, Anthropic CEO Calling for a Slower AI Race? The Safety Warning Explained",
-          "url": "https://in.mashable.com/tech/113906/why-are-sam-altman-elon-musk-anthropic-ceo-calling-for-a-slower-ai-race-the-safety-warning-explained",
-          "publishedAt": "2026-09-13T06:18:56.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "What’s behind the AI industry’s latest warnings of doom?",
-          "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
-          "publishedAt": "2026-09-13T19:40:15.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "A Reminder From Lina Khan: We Don’t Need New Laws to Prosecute CEOs at AI Companies",
-          "url": "https://gizmodo.com/a-reminder-from-lina-khan-we-dont-need-new-laws-to-prosecute-ceos-at-ai-companies-2000811503",
-          "publishedAt": "2026-09-14T21:20:49.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Jensen Huang took a call from Trump, and showed off something else, too",
-          "url": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
-          "publishedAt": "2026-09-15T01:50:48.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI CEOs Predictably Suck Up to Trump Amid ‘AI Pause’ Debate",
-          "url": "https://gizmodo.com/ai-ceos-predictably-suck-up-to-trump-amid-ai-pause-debate-2000811593",
-          "publishedAt": "2026-09-15T02:52:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-          "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
-          "publishedAt": "2026-09-15T15:47:03.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
-          "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
-          "publishedAt": "2026-09-16T00:20:39.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "After Sam Altman, Elon Musk, Microsoft CEO Satya Nadella Says AI Race Needs to Slow Down For Safety",
-          "url": "https://in.mashable.com/tech/113971/after-sam-altman-elon-musk-microsoft-ceo-satya-nadella-says-ai-race-needs-to-slow-down-for-safety",
-          "publishedAt": "2026-09-16T05:05:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "China Isn’t Buying Silicon Valley’s Call for an AI Slowdown",
-          "url": "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
-          "publishedAt": "2026-09-16T09:30:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Slowdown Calls From CEOs Apparently Comes as Surprise to Employees",
-          "url": "https://gizmodo.com/ai-slowdown-calls-from-ceos-apparently-comes-as-surprise-to-employees-2000812643",
-          "publishedAt": "2026-09-16T18:45:19.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Washington Won’t Be Regulating AI Anytime Soon",
-          "url": "https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/",
-          "publishedAt": "2026-09-16T21:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "The AI Slowdown Debate Crashed Salesforce’s Party",
-          "url": "https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/",
-          "publishedAt": "2026-09-17T18:42:25.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Is the AI safety debate about safety or control?",
-          "url": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
-          "publishedAt": "2026-09-17T20:19:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "If the AI Industry Followed Its Own Research, It Might Have Paused Already",
-          "url": "https://www.wired.com/story/if-the-ai-industry-followed-its-own-research-it-might-have-paused-already/",
-          "publishedAt": "2026-09-18T15:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but…how?",
-          "url": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/",
-          "publishedAt": "2026-09-18T17:09:56.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Automattic’s 33-Hour Coup, and can AI labs police themselves?",
-          "url": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves/",
-          "publishedAt": "2026-09-18T17:06:32.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Here’s How an AI Slowdown Could Actually Be Enforced",
-          "url": "https://www.wired.com/story/heres-how-an-ai-slowdown-could-actually-work/",
-          "publishedAt": "2026-09-18T19:21:09.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "The Doomsday Warnings AI CEOs Gave When They First Founded Their Companies",
-          "url": "https://gizmodo.com/the-doomsday-warnings-ai-ceos-gave-when-they-first-founded-their-companies-2000814278",
-          "publishedAt": "2026-09-19T12:00:38.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Nvidia CEO Jensen Huang Says There Is ‘0 Per Cent Chance’ AI Will Cause Human Extinction",
-          "url": "https://in.mashable.com/tech/114096/nvidia-ceo-jensen-huang-says-there-is-0-per-cent-chance-ai-will-cause-human-extinction",
-          "publishedAt": "2026-09-19T10:45:01.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Is the AI industry really ready to slow down?",
-          "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
-          "publishedAt": "2026-09-20T18:56:04.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "safety",
-        "regulation"
-      ]
-    },
-    {
-      "id": "6db5c88a-b399-4699-820c-d5a9e541031b",
-      "title": "Microsoft 365 Copilot gets six updates, including interactive PowerPoint slides",
-      "summary": "Microsoft introduced six Copilot updates across the Microsoft 365 suite aimed at workplace productivity, headlined by interactive slides in PowerPoint that let users embed clickable filters, animations, and buttons directly into presentations.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-21T11:12:42.925Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T11:12:42.925Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Automate Project Plans with 6 Microsoft 365 Copilot Upgrades",
-          "url": "https://www.geeky-gadgets.com/new-microsoft-copilot-features/",
-          "publishedAt": "2026-09-21T10:13:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "8e75d0a4-992a-45db-8781-197ff14366b2",
-      "title": "Napster's next act: AI digital clones of teachers for the classroom",
-      "summary": "Napster, once the music industry's biggest headache, is repositioning itself around AI for education with a plan to digitally clone teachers. Per Wired, Gizmodo, and CNET, it is partnering with an educational organization in the Middle East to build virtual replicas of teachers that give students personalized homework support.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-18T10:25:38.031Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T01:26:54.894Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Napster Is Back, and It Wants to Digitally Clone Teachers",
-          "url": "https://www.wired.com/story/napster-is-back-and-it-wants-to-digitally-clone-teachers/",
-          "publishedAt": "2026-09-18T09:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Napster Is Now Making AI-Powered ‘Digital Twins’ of Teachers",
-          "url": "https://gizmodo.com/napster-is-now-making-ai-powered-digital-twins-of-teachers-2000814010",
-          "publishedAt": "2026-09-18T16:46:27.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Napster Developing AI Teacher Clones to Provide Personalized Homework Support",
-          "url": "https://www.cnet.com/tech/services-and-software/napster-developing-ai-teacher-clones-education/",
-          "publishedAt": "2026-09-21T22:01:04.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "ddc403a3-7125-4200-aa4b-90d144a880f7",
-      "title": "Apple Store architect Ron Johnson is skeptical of Silicon Valley's agentic-shopping bet",
-      "summary": "Ron Johnson, who built Apple's retail stores, told TechCrunch he doesn't buy Silicon Valley's bet on AI-driven shopping, arguing that Apple's retail \"secret sauce\" has always been its people rather than technology, a counterpoint to the current push for agentic commerce.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-22T01:26:51.645Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T01:26:51.645Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
-          "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
-          "publishedAt": "2026-09-21T23:44:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "e075777d-be5c-4547-963a-a9e3bed95c07",
-      "title": "EU Kids Act proposal would impose child-safety rules on AI chatbots, social media, and online games",
-      "summary": "The EU has proposed a sweeping child-safety law, the EU Kids Act, that CNET reports would transform social media, online gaming, and AI chatbots. It would accelerate age-verification plans and ban social media use for children under 13.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-19T00:39:41.426Z",
-      "lastMeaningfulUpdateAt": "2026-09-19T00:39:41.426Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Sweeping EU Child Safety Proposal Would Transform Social Media, Online Gaming and AI Chatbots",
-          "url": "https://www.cnet.com/tech/services-and-software/eu-kids-act-child-safety-proposal-social-media-games-ai-chatbots/",
-          "publishedAt": "2026-09-18T19:32:11.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
     }
   ],
-  "totalCount": 124,
+  "totalCount": 129,
   "hasMore": true
 }
