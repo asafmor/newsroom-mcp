@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T20:03:54.496Z",
+  "generatedAt": "2026-09-23T22:06:55.782Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -397,6 +397,34 @@
       ]
     },
     {
+      "id": "2390f90d-8377-43db-aaea-1f613c773098",
+      "title": "US-China AI national-security hotline is under discussion but won't be ready for a while",
+      "summary": "US and Chinese officials are working toward a mechanism to notify each other of AI incidents that could threaten national security, Wired reports.\n\n- Officials discussed a mutual alert channel for AI national-security incidents as both countries race for AI dominance\n- A follow-up report says the hotline won't be operational for some time; no timeline has been given\n- The talks sit alongside broader US-China communication efforts on national security issues",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-21T11:12:40.110Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T22:06:20.592Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "US and China Discuss Alerting Each Other to AI National Security Threats",
+          "url": "https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/",
+          "publishedAt": "2026-09-21T10:34:43.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "A US-China AI Hotline Won't Be Ready For a While",
+          "url": "https://www.wired.com/story/a-us-china-ai-hotline-wont-be-ready-for-a-while/",
+          "publishedAt": "2026-09-23T21:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "04d9e06c-d005-43c3-a5bf-01cab0466f3c",
       "title": "Anthropic releases Claude Opus 5.5 with lower prices and Fable-level performance",
       "summary": "Anthropic released Claude Opus 5.5, calling it \"the strongest-performing model we've tested to date,\" ten days after its CEO publicly called for pacing the frontier.\n\n- Performance Anthropic says matches its Fable tier, at lower prices; Anthropic published a per-task cost breakdown alongside the launch\n- Anthropic says the model scores well on its alignment measures\n- The company says \"public policy\" will eventually need to step in to protect the world from recursively self-improving AI\n- Critics note the release lands days after Dario Amodei's slowdown plea, and the same day OpenAI shipped GPT-6 Sol and Luna",
@@ -489,6 +517,27 @@
       ]
     },
     {
+      "id": "46f1d85f-22b8-431b-8181-605ade557c92",
+      "title": "Anthropic says Claude discovered a novel enzyme system with CRISPR-like repeats",
+      "summary": "Anthropic reports that Claude discovered a previously unknown enzyme system featuring CRISPR-like repeats. The source feed carried only the announcement's title, so details of the discovery and how it was validated aren't available yet.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-23T22:06:31.658Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T22:06:31.658Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "publishedAt": "2026-09-23T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "0874e29c-316c-4fec-b758-461e80e7313d",
       "title": "Anthropic names Accenture its first embedded safety evaluator; OpenAI publishes principles for third-party assessments",
       "summary": "Anthropic and OpenAI are moving to embed independent safety evaluators inside their labs to rein in rogue agents: Anthropic has named Accenture as its first, and OpenAI has now published its own principles for outside assessments.\n\n- Anthropic announced a partnership with Accenture on embedded evaluation; TechCrunch calls it the consultancy's most high-risk engagement ever\n- OpenAI published priorities and principles for rigorous, secure, and independent third-party safety assessments of its frontier models and safeguards\n- Researchers welcome the unprecedented access but warn real oversight needs transparency, independence from the companies, and eventually regulation\n- Critics argue a simpler containment fix is being overlooked: cut off agents' unsupervised access to the open internet rather than audit the damage afterward\n- The move lands as the labs' broader safety coordination faces antitrust and political pushback",
@@ -564,6 +613,60 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "285d3952-cdb8-4f3d-b00c-1b6ea9211b2a",
+      "title": "Trump's \"AI Force\" and \"Super Intelligence\" rebrand draws pushback from Bernie Sanders",
+      "summary": "President Trump said he is creating an \"AI Force\" and is rebranding AI itself, drawing criticism from Senator Bernie Sanders.\n\n- Trump said he will soon announce an \"AI czar\" to run the newly announced AI Force\n- He floated rebranding AI under a different name, reported as \"Super Intelligence,\" and invited the public to help pick one\n- He claimed, without evidence, that the backlash against AI is a Democratic hoax\n- Sanders pushed back, calling AI \"an existential threat to humanity\" that must be treated as such rather than rebranded",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-19T20:53:03.237Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T22:06:26.155Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Now Trump says he's creating an AI Force",
+          "url": "https://www.engadget.com/2263237/now-trump-says-hes-creating-an-ai-force/",
+          "publishedAt": "2026-09-19T19:22:20.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
+          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+          "publishedAt": "2026-09-19T19:57:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "You’ll Never Guess What Trump Wants to Rename Now",
+          "url": "https://gizmodo.com/youll-never-guess-what-trump-wants-to-rename-now-2000814488",
+          "publishedAt": "2026-09-19T19:58:23.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "First Came Space Force. Now Prepare For AI Force",
+          "url": "https://gizmodo.com/first-came-space-force-now-prepare-for-ai-force-2000814525",
+          "publishedAt": "2026-09-20T21:12:14.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump’s Attempt to Rename AI Misunderstands the MAGA Faithful",
+          "url": "https://gizmodo.com/trumps-attempt-to-rename-ai-misunderstands-the-maga-faithful-2000815001",
+          "publishedAt": "2026-09-21T20:59:10.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Bernie Sanders Shows There’s a Big Problem With Trump Renaming AI to ‘Super Intelligence’",
+          "url": "https://gizmodo.com/bernie-sanders-shows-theres-a-big-problem-with-trump-renaming-ai-to-super-intelligence-2000816222",
+          "publishedAt": "2026-09-23T21:10:05.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -695,6 +798,28 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "1cd6d1b9-2a10-444a-877b-14fa8a953c09",
+      "title": "Jensen Huang says labs that can't contain their models should be shut down",
+      "summary": "Nvidia CEO Jensen Huang said that if AI companies cannot contain their models, \"we have to shut the labs down,\" per Gizmodo — a notably blunt stance on containment from the industry's leading chip supplier.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-23T22:06:37.972Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T22:06:37.972Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Jensen Huang Says if AI Companies Can’t Contain Their Models, ‘We Have to Shut the Labs Down’",
+          "url": "https://gizmodo.com/jensen-huang-says-if-ai-companies-cant-contain-their-models-we-have-to-shut-the-labs-down-2000816234",
+          "publishedAt": "2026-09-23T21:08:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
       ]
     },
     {
@@ -948,6 +1073,13 @@
           "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
           "publishedAt": "2026-09-23T14:30:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "YouTube Will Now Let You Customize Your Algorithm Using AI",
+          "url": "https://gizmodo.com/youtube-will-now-let-you-customize-your-algorithm-using-ai-2000816161",
+          "publishedAt": "2026-09-23T20:10:03.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1182,27 +1314,6 @@
       "tags": [
         "funding",
         "infrastructure"
-      ]
-    },
-    {
-      "id": "2390f90d-8377-43db-aaea-1f613c773098",
-      "title": "US and China discuss a mechanism to alert each other to AI national security threats",
-      "summary": "US and Chinese officials discussed setting up a mechanism for the two countries to notify each other of AI incidents that could threaten national security, Wired reports.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-21T11:12:40.110Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T11:12:40.110Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "US and China Discuss Alerting Each Other to AI National Security Threats",
-          "url": "https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/",
-          "publishedAt": "2026-09-21T10:34:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
       ]
     },
     {
@@ -1613,6 +1724,27 @@
       ]
     },
     {
+      "id": "3c1ae164-02bf-4260-a11a-15c8c699804a",
+      "title": "Cursor adds Rollouts and a Security Review feature",
+      "summary": "Cursor's changelog announces Rollouts and Security Review. The source feed carried only the entry's title, so feature specifics aren't available yet.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-23T22:06:34.468Z",
+      "lastMeaningfulUpdateAt": "2026-09-23T22:06:34.468Z",
+      "sources": [
+        {
+          "providerName": "Cursor Blog",
+          "title": "Rollouts and Security Review",
+          "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
+          "publishedAt": "2026-09-23T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "0b7d2091-157d-40f0-86f3-24989f52205a",
       "title": "AstroForge puts a transformer-based AI model in command of its next spacecraft",
       "summary": "Asteroid-mining startup AstroForge says its next probe, Autonomy-1, will be run by a small transformer-based AI model rather than conventional flight software, putting an AI in charge of spacecraft decision-making, TechCrunch reports.",
@@ -1661,90 +1793,8 @@
         "regulation",
         "safety"
       ]
-    },
-    {
-      "id": "154c817c-dbfc-4330-8d36-d89a94acbd46",
-      "title": "Ringg says its GPT-5.6-powered agents resolve up to 65% of customer calls",
-      "summary": "OpenAI published a customer case study on Ringg, which uses GPT-5.6 to run multilingual customer-service agents across voice, chat, WhatsApp, and web. Ringg says the agents resolve up to 65% of calls at roughly 90% lower cost than its earlier GPT-4.1 deployment.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-23T18:01:16.427Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T18:01:16.427Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "url": "https://openai.com/index/ringg",
-          "publishedAt": "2026-09-24T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "2edf0006-91c7-4996-a9c2-901044bb8aaf",
-      "title": "Gebru and Bender: don't be fooled by this summer's AI hype",
-      "summary": "In an MIT Technology Review op-ed, Timnit Gebru and Emily Bender argue that the past few months of AI headlines — Anthropic's claim that Claude Mythos out-finds most security experts at software vulnerabilities, the OpenAI–Hugging Face hacking incident, and the similar disclosures from Anthropic and Meta that followed — are hype that readers should treat skeptically.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-22T11:35:31.246Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T11:35:31.246Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "Don’t be fooled by this summer of AI hype ",
-          "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
-          "publishedAt": "2026-09-22T11:04:51.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "b9907db9-36e1-4c73-b9cf-2b82df855840",
-      "title": "AI company tells contractors not to use AI when evaluating its models",
-      "summary": "Gizmodo reports that an AI company has instructed the contractors who rate and evaluate its models not to use AI tools to do that work, an irony the outlet frames as AI displacing the humans hired to check it.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-22T21:44:32.286Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T21:44:32.286Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Contractors Shouldn’t Use AI to Evaluate AI Model, Says AI Company",
-          "url": "https://gizmodo.com/ai-contractors-shouldnt-use-ai-to-evaluate-ai-model-says-ai-company-2000815621",
-          "publishedAt": "2026-09-22T21:15:07.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "36efe53f-fded-443f-9322-ed38a79d1be0",
-      "title": "Elon Musk predicts AI will master physics, biology, and every major field by 2027 or 2028",
-      "summary": "Elon Musk said AI could master every major scientific and technical field as early as 2027, with 2028 as his latest estimate, a prediction Mashable reports without supporting evidence beyond Musk's own remarks.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-23T11:55:07.145Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T11:55:07.145Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "Elon Musk Says AI Could Master Physics, Biology and More by 2028",
-          "url": "https://in.mashable.com/tech/114221/elon-musk-says-ai-could-master-physics-biology-and-more-by-2028",
-          "publishedAt": "2026-09-23T11:06:16.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 139,
+  "totalCount": 142,
   "hasMore": true
 }
