@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T16:21:16.201Z",
+  "generatedAt": "2026-09-24T18:23:37.071Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -337,6 +337,56 @@
       "tags": [
         "safety",
         "regulation"
+      ]
+    },
+    {
+      "id": "5dcc9c26-97ab-4c2f-ab66-e43618872438",
+      "title": "Google DeepMind's Gemini 3.8 Live gains a Live Avatar, following the Extended Thinking variant",
+      "summary": "Google DeepMind introduced Gemini 3.8 Live with Live Avatar, adding an animated avatar to its real-time Live model, a week after launching Gemini 3.8 Live and the Gemini 3.8 Live Extended Thinking variant.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-15T19:32:43.899Z",
+      "lastMeaningfulUpdateAt": "2026-09-24T18:23:24.901Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+          "publishedAt": "2026-09-15T17:05:57.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing Gemini 3.8 Live with Live Avatar",
+          "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+          "publishedAt": "2026-09-24T16:20:39.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "product-launch"
+      ]
+    },
+    {
+      "id": "ec5acf33-682a-4d27-a7e1-caa89ecf2ee0",
+      "title": "Oracle sends force majeure notice on its New Mexico Stargate data center",
+      "summary": "Oracle has sent a force majeure notice on its New Mexico Stargate data center, a move that would let it delay payments if the facility misses its 2028 target to come online.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-24T18:23:09.838Z",
+      "lastMeaningfulUpdateAt": "2026-09-24T18:23:09.838Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Oracle sends force majeure notice on its New Mexico Stargate data center",
+          "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+          "publishedAt": "2026-09-24T18:11:44.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -791,6 +841,13 @@
           "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
           "publishedAt": "2026-09-24T00:46:17.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend",
+          "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
+          "publishedAt": "2026-09-24T17:39:24.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -867,6 +924,13 @@
           "title": "Opus 5.5 Beats GPT-6 Astra in 8 of 12 Real-World Trials",
           "url": "https://www.geeky-gadgets.com/opus-5-5-vs-gpt-6-astra/",
           "publishedAt": "2026-09-24T10:13:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+          "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+          "publishedAt": "2026-09-24T00:00:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1093,6 +1157,25 @@
           "url": "https://gizmodo.com/bernie-sanders-shows-theres-a-big-problem-with-trump-renaming-ai-to-super-intelligence-2000816222",
           "publishedAt": "2026-09-23T21:10:05.000Z",
           "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "cb544fb6-1f19-47d7-9825-5850867dfec7",
+      "title": "ElevenLabs, now reportedly valued at $22B, says businesses should disclose AI voices",
+      "summary": "In a TechCrunch interview, the CEO of ElevenLabs, reportedly valued at $22B, said businesses using its AI voices on customer service calls should probably tell callers they are talking to a machine, at least until that becomes the default expectation.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-24T18:23:22.275Z",
+      "lastMeaningfulUpdateAt": "2026-09-24T18:23:22.275Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "20 minutes with the CEO of ElevenLabs, now reportedly valued at $22B",
+          "url": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/",
+          "publishedAt": "2026-09-24T16:35:13.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -1381,6 +1464,34 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "2f865f97-622b-4df8-aa94-56443aa3707c",
+      "title": "Google Photos rolls out an AI virtual closet and a Redact tool",
+      "summary": "Google Photos shipped a batch of AI-powered features: the \"Clueless\"-inspired virtual closet, which builds a wardrobe from your photos, is now broadly available on Android and iOS after a June Android-only rollout, and a new Redact tool quickly blurs sensitive parts of an image.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-24T18:23:16.902Z",
+      "lastMeaningfulUpdateAt": "2026-09-24T18:23:16.902Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google Photos ‘Clueless’-inspired virtual closet is now available on Android and iOS",
+          "url": "https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/",
+          "publishedAt": "2026-09-24T17:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google Photos' new Redact tool will make it easy to hide sensitive information",
+          "url": "https://www.engadget.com/2267415/google-photos-update-redact-tool/",
+          "publishedAt": "2026-09-24T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "23d5b185-5ab1-4c21-8da7-b3470ad0601f",
@@ -1905,147 +2016,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "ce12b215-9eef-43f5-bcbb-28d4625d89e0",
-      "title": "AI hardware exports set to be a bargaining chip at the upcoming Trump-Xi summit",
-      "summary": "Ahead of President Trump's upcoming summit with Xi Jinping, Wired reports that Washington and Beijing have grown ever more linked in the AI boom, making hardware exports and technological restrictions hefty bargaining chips alongside tariffs and rare minerals.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-21T19:21:23.450Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T19:21:23.450Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AI, Tariffs, Rare Minerals: What to Expect From Trump’s Upcoming Summit With Xi Jinping",
-          "url": "https://www.wired.com/story/ai-tariffs-rare-minerals-what-to-expect-from-trumps-upcoming-summit-with-xi-jinping/",
-          "publishedAt": "2026-09-21T18:33:02.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "d2c37bf1-8cb0-459c-8147-f9343a25ebea",
-      "title": "OpenAI sets up an independent math advisory group amid its feud with mathematicians",
-      "summary": "OpenAI's dispute with mathematicians over AI's encroachment on their work has escalated, and the company is now bringing in outside advisers on how it handles math results.\n\n- OpenAI formed an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results, as its AI has reportedly resolved more than 100 open problems\n- The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research\n- Twenty-five leading mathematicians signed an open letter arguing AI labs are threatening their intellectual work\n- OpenAI will no longer sponsor Caltech's \"Mathathon,\" though organizers say the event won't be substantially affected\n- An NYU mathematician embroiled in the controversy says AI has effectively beaten human mathematicians, \"the game is up\"\n- The Information reports OpenAI is now attempting the Hodge Conjecture, with its main concern being how to announce a result without further infuriating mathematicians",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-12T12:48:10.132Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T19:21:05.312Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s feud with mathematicians is only escalating",
-          "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
-          "publishedAt": "2026-09-11T20:57:36.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Is Beefing With Mathematicians, Will No Longer Sponsor Caltech ‘Mathathon’",
-          "url": "https://gizmodo.com/openai-is-beefing-with-mathematicians-will-no-longer-sponsor-caltech-mathathon-2000810868",
-          "publishedAt": "2026-09-12T01:05:18.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
-          "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
-          "publishedAt": "2026-09-11T16:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Reportedly Trying to Solve Hodge Conjecture Amid Feud With Math Community",
-          "url": "https://gizmodo.com/openai-reportedly-trying-to-solve-hodge-conjecture-amid-feud-with-math-community-2000813658",
-          "publishedAt": "2026-09-18T00:10:47.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Mathematicians Hate AI. They Can’t Quit It",
-          "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
-          "publishedAt": "2026-09-19T10:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Advisory Group on Mathematics and Artificial Intelligence",
-          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-          "publishedAt": "2026-09-21T12:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
-          "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
-          "publishedAt": "2026-09-21T20:15:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI GPT Bel Solves Over 100 Historic Math Problems",
-          "url": "https://www.geeky-gadgets.com/latest-ai-models-performance/",
-          "publishedAt": "2026-09-22T12:17:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Mathematics Just Got Its First Taste of the AI Job-Pocalypse",
-          "url": "https://gizmodo.com/mathematics-just-got-its-first-taste-of-the-ai-job-pocalypse-2000812872",
-          "publishedAt": "2026-09-22T15:55:13.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "12c9a223-010d-415d-a87b-c7db78f84140",
-      "title": "Netflix's \"Wonka's Golden Ticket\" uses AI to resurrect Gene Wilder",
-      "summary": "Netflix's new reality competition show \"Wonka's Golden Ticket,\" now streaming, uses artificial intelligence to recreate the late Gene Wilder's Willy Wonka, alongside returning Oompa Loompas. The use of AI to revive a deceased actor's likeness has drawn controversy.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-09-24T10:15:56.993Z",
-      "lastMeaningfulUpdateAt": "2026-09-24T10:15:56.993Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "'Wonka’s Golden Ticket' On Netflix: How It Uses AI Gene Wilder",
-          "url": "https://in.mashable.com/topic-14/114257/wonkas-golden-ticket-on-netflix-how-it-uses-ai-gene-wilder",
-          "publishedAt": "2026-09-23T16:46:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "ebeef40c-4c34-437d-ae17-c8f417e113b5",
-      "title": "Google launches the $899 Googlebook, an AI-native laptop built around Gemini",
-      "summary": "Google introduced the $899 Googlebook, an \"AI-native\" laptop that ties Gemini into the cursor, dictation, widgets and other parts of the desktop experience — a bet that consumers will buy new hardware to get Gemini built in.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-21T15:16:45.113Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T15:16:45.113Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
-          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
-          "publishedAt": "2026-09-21T14:39:22.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 132,
+  "totalCount": 129,
   "hasMore": true
 }
