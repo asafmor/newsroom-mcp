@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T12:17:53.271Z",
+  "generatedAt": "2026-09-24T14:19:15.963Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -114,6 +114,13 @@
           "url": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
           "publishedAt": "2026-09-24T10:46:56.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Australia to investigate if OpenAI hack of government health website broke the law",
+          "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
+          "publishedAt": "2026-09-24T12:54:19.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1460,6 +1467,27 @@
       ]
     },
     {
+      "id": "36e0da1c-3898-44eb-a53a-26e9dee9298d",
+      "title": "Excel Copilot adds a \".rules\" worksheet for reusable custom instructions",
+      "summary": "Microsoft's Excel Copilot now supports a dedicated \"rules\" worksheet that acts as a command hub for reusable instructions, letting users define formatting preferences and workflow automations that Copilot applies across the workbook.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-24T14:19:08.895Z",
+      "lastMeaningfulUpdateAt": "2026-09-24T14:19:08.895Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Microsoft’s Excel Copilot Adds a .Rules Custom Command Hub",
+          "url": "https://www.geeky-gadgets.com/how-to-use-excel-copilot-rules/",
+          "publishedAt": "2026-09-24T12:47:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "d7282368-d7dc-4d02-8dd2-b5af29148580",
       "title": "xAI introduces Grok Voice Transcribe 2.0",
       "summary": "xAI announced Grok Voice Transcribe 2.0, an updated version of its speech-to-text model, joining a recent wave of transcription-model launches from Meta, Microsoft, and Google DeepMind. The source feed gave no detail on accuracy, pricing, or availability.",
@@ -1762,6 +1790,27 @@
       ]
     },
     {
+      "id": "526ce55c-a058-4437-887b-66a12dc1efc2",
+      "title": "Liquid AI publishes LFM2.5-VL-DSpark for faster vision-language inference",
+      "summary": "Liquid AI detailed LFM2.5-VL-DSpark on the Hugging Face blog, a vision-language model variant tuned to accelerate multimodal inference on constrained hardware.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-24T14:19:05.355Z",
+      "lastMeaningfulUpdateAt": "2026-09-24T14:19:05.355Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+          "publishedAt": "2026-09-24T14:08:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "8430afb9-5b8a-4a20-9307-5f0dfca2f2e3",
       "title": "Rabbit returns with OS3, a cross-platform AI agent app instead of dedicated hardware",
       "summary": "Two years after the R1 tried to sidestep mobile apps with dedicated AI hardware, Rabbit is launching OS3, a cross-platform agent that runs on the phones and computers people already use.",
@@ -2009,56 +2058,6 @@
       "tags": [
         "regulation",
         "infrastructure"
-      ]
-    },
-    {
-      "id": "ef31de4d-2661-4ee4-8a27-c9d5215fb509",
-      "title": "OpenAI calls for shared global AI standards",
-      "summary": "OpenAI has outlined a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance across countries to improve safety — and arguing the United States should lead that cooperation, a framing that raises questions about China's buy-in. The post is a policy position from the company's global affairs team rather than a binding commitment.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-21T19:21:20.511Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T19:21:20.511Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Building standards for the next phase of AI",
-          "url": "https://openai.com/index/building-standards-next-phase-ai",
-          "publishedAt": "2026-09-21T10:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Calls for US to Lead Global AI Standards. Will China Be Okay With That?",
-          "url": "https://gizmodo.com/openai-calls-for-us-to-lead-global-ai-standards-will-china-be-okay-with-that-2000815022",
-          "publishedAt": "2026-09-21T22:35:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
-    },
-    {
-      "id": "3c1ae164-02bf-4260-a11a-15c8c699804a",
-      "title": "Cursor adds Rollouts and a Security Review feature",
-      "summary": "Cursor's changelog announces Rollouts and Security Review. The source feed carried only the entry's title, so feature specifics aren't available yet.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-23T22:06:34.468Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T22:06:34.468Z",
-      "sources": [
-        {
-          "providerName": "Cursor Blog",
-          "title": "Rollouts and Security Review",
-          "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
-          "publishedAt": "2026-09-23T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
       ]
     }
   ],
