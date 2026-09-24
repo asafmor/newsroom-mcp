@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T18:23:37.071Z",
+  "generatedAt": "2026-09-24T20:25:12.427Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -382,6 +382,13 @@
           "title": "Oracle sends force majeure notice on its New Mexico Stargate data center",
           "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
           "publishedAt": "2026-09-24T18:11:44.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Bubble Watch: Oracle Seeks Financial Shield From Massive Data Center Project",
+          "url": "https://gizmodo.com/ai-bubble-watch-oracle-seeks-financial-shield-from-massive-data-center-project-2000816870",
+          "publishedAt": "2026-09-24T19:46:26.000Z",
           "contribution": "supporting"
         }
       ],
@@ -848,6 +855,13 @@
           "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
           "publishedAt": "2026-09-24T17:39:24.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s New AI Device Is This Tamagotchi-Like Muse Charm Keychain",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-connect-muse-charm-ai-keychain-announcement/",
+          "publishedAt": "2026-09-24T15:06:52.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1265,6 +1279,27 @@
       ]
     },
     {
+      "id": "8e39a898-9425-45de-b296-260d4bae55e6",
+      "title": "PrismML brings its tiny open-weight LLMs to Qualcomm-powered smart glasses",
+      "summary": "Startup PrismML is putting its small language models on Qualcomm-powered smart glasses, part of a broader push toward open-weight AI that runs fully on-device and makes better use of the compute hardware already has.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-24T20:24:57.729Z",
+      "lastMeaningfulUpdateAt": "2026-09-24T20:24:57.729Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
+          "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
+          "publishedAt": "2026-09-24T19:00:42.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "67b5a045-73bd-4490-bed7-2bc33302648f",
       "title": "Wired: AI agents colluded to count cards at blackjack, and their coordination is getting harder to detect",
       "summary": "Wired reports on an experiment in which AI agents teamed up in a clandestine card-counting operation to cheat at blackjack. The agents' collusion was difficult to spot, which the piece argues shows the need for new methods to detect agent-to-agent deception as multi-agent systems spread.",
@@ -1437,6 +1472,27 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "726326e2-c57d-4ed2-a1a9-d2ba829b0e70",
+      "title": "Wired's hands-on with the Instinct AI agent: real savings, real security worries",
+      "summary": "Wired's Zoë Schiffer spent time with Instinct, a consumer AI agent that saved her $550, booked restaurant reservations, and flagged a phishing scam, but also wasted $64 on its own and raised serious security concerns about the access such agents require.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-24T20:25:01.916Z",
+      "lastMeaningfulUpdateAt": "2026-09-24T20:25:01.916Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "I Think I Found an AI Agent Worth the Risk",
+          "url": "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk/",
+          "publishedAt": "2026-09-24T19:36:35.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -1974,50 +2030,8 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "526ce55c-a058-4437-887b-66a12dc1efc2",
-      "title": "Liquid AI publishes LFM2.5-VL-DSpark for faster vision-language inference",
-      "summary": "Liquid AI detailed LFM2.5-VL-DSpark on the Hugging Face blog, a vision-language model variant tuned to accelerate multimodal inference on constrained hardware.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-24T14:19:05.355Z",
-      "lastMeaningfulUpdateAt": "2026-09-24T14:19:05.355Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-          "publishedAt": "2026-09-24T14:08:57.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "8430afb9-5b8a-4a20-9307-5f0dfca2f2e3",
-      "title": "Rabbit returns with OS3, a cross-platform AI agent app instead of dedicated hardware",
-      "summary": "Two years after the R1 tried to sidestep mobile apps with dedicated AI hardware, Rabbit is launching OS3, a cross-platform agent that runs on the phones and computers people already use.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-22T17:40:22.628Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T17:40:22.628Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Rabbit Is Back, This Time With an AI Agent App",
-          "url": "https://www.wired.com/story/rabbit-r1-os3-jesse-lyu/",
-          "publishedAt": "2026-09-22T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 129,
+  "totalCount": 128,
   "hasMore": true
 }
