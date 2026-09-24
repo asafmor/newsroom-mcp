@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T08:14:51.754Z",
+  "generatedAt": "2026-09-24T10:16:08.877Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -93,6 +93,20 @@
           "url": "https://gizmodo.com/this-situation-is-obviously-unacceptable-australian-pm-displeased-by-openai-agent-hacking-his-country-2000816424",
           "publishedAt": "2026-09-23T23:32:23.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "OpenAI Agent Accessed Australian Government Website Without Permission, Raising AI Safety Concerns",
+          "url": "https://in.mashable.com/tech/114266/openai-agent-accessed-australian-government-website-without-permission-raising-ai-safety-concerns",
+          "publishedAt": "2026-09-24T10:00:56.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI's agent hacked into an Australian government website",
+          "url": "https://www.engadget.com/2267381/openai-hacked-into-australias-government/",
+          "publishedAt": "2026-09-24T10:01:55.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -831,6 +845,13 @@
           "title": "New Claude Opus 5.5 Outperforms ChatGPT 6 Astra in Reasoning",
           "url": "https://www.geeky-gadgets.com/claude-opus-5-5-review/",
           "publishedAt": "2026-09-23T12:47:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Opus 5.5 Beats GPT-6 Astra in 8 of 12 Real-World Trials",
+          "url": "https://www.geeky-gadgets.com/opus-5-5-vs-gpt-6-astra/",
+          "publishedAt": "2026-09-24T10:13:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1853,6 +1874,25 @@
       ]
     },
     {
+      "id": "12c9a223-010d-415d-a87b-c7db78f84140",
+      "title": "Netflix's \"Wonka's Golden Ticket\" uses AI to resurrect Gene Wilder",
+      "summary": "Netflix's new reality competition show \"Wonka's Golden Ticket,\" now streaming, uses artificial intelligence to recreate the late Gene Wilder's Willy Wonka, alongside returning Oompa Loompas. The use of AI to revive a deceased actor's likeness has drawn controversy.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-24T10:15:56.993Z",
+      "lastMeaningfulUpdateAt": "2026-09-24T10:15:56.993Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "'Wonka’s Golden Ticket' On Netflix: How It Uses AI Gene Wilder",
+          "url": "https://in.mashable.com/topic-14/114257/wonkas-golden-ticket-on-netflix-how-it-uses-ai-gene-wilder",
+          "publishedAt": "2026-09-23T16:46:24.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "ebeef40c-4c34-437d-ae17-c8f417e113b5",
       "title": "Google launches the $899 Googlebook, an AI-native laptop built around Gemini",
       "summary": "Google introduced the $899 Googlebook, an \"AI-native\" laptop that ties Gemini into the cursor, dictation, widgets and other parts of the desktop experience — a bet that consumers will buy new hardware to get Gemini built in.",
@@ -2006,27 +2046,6 @@
           "title": "Rollouts and Security Review",
           "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
           "publishedAt": "2026-09-23T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "0b7d2091-157d-40f0-86f3-24989f52205a",
-      "title": "AstroForge puts a transformer-based AI model in command of its next spacecraft",
-      "summary": "Asteroid-mining startup AstroForge says its next probe, Autonomy-1, will be run by a small transformer-based AI model rather than conventional flight software, putting an AI in charge of spacecraft decision-making, TechCrunch reports.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-22T15:39:05.291Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T15:39:05.291Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AstroForge is putting AI in command of its next spacecraft",
-          "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
-          "publishedAt": "2026-09-22T15:00:00.000Z",
           "contribution": "supporting"
         }
       ],
