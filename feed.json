@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T16:43:16.558Z",
+  "generatedAt": "2026-09-25T18:45:19.269Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -297,6 +297,13 @@
           "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
           "publishedAt": "2026-09-25T16:16:52.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+          "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+          "publishedAt": "2026-09-25T18:22:47.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -552,6 +559,55 @@
       ]
     },
     {
+      "id": "75e4b513-9299-458f-a826-78aa90ad8c0f",
+      "title": "Appeals court lets the Pentagon designate Anthropic a supply-chain risk, reversing its earlier court win",
+      "summary": "A divided federal appeals panel sided with the Trump administration and let the Pentagon's supply-chain-risk designation of Anthropic stand, undoing the company's earlier win.\n\n- A district judge had ruled the designation \"illegal and baseless\" and blocked the Pentagon from blacklisting Anthropic\n- On appeal, a divided panel rejected Anthropic's arguments that the label violated multiple of its rights, per Wired\n- Anthropic's second lawsuit against the Pentagon continues separately",
+      "importanceScore": 0.78,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-08-31T18:54:11.817Z",
+      "lastMeaningfulUpdateAt": "2026-09-25T18:44:46.629Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+          "publishedAt": "2026-08-28T12:46:12.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "A Judge Has Blocked the Pentagon’s Attempt to Blacklist Anthropic",
+          "url": "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/",
+          "publishedAt": "2026-08-28T03:04:14.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Judge rules that the Pentagon's Anthropic ban was 'illegal and baseless'",
+          "url": "https://www.engadget.com/2246131/judge-rules-that-pentagon-anthropic-ban-illegal-and-baseless/",
+          "publishedAt": "2026-08-28T04:43:23.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Judge Says the Pentagon’s Blacklisting of Anthropic Is Illegal",
+          "url": "https://gizmodo.com/judge-says-the-pentagons-blacklisting-of-anthropic-is-illegal-2000804313",
+          "publishedAt": "2026-08-28T14:04:38.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Appeals Court Lets the Pentagon Designate Anthropic a Supply-Chain Risk",
+          "url": "https://www.wired.com/story/appeals-court-lets-the-pentagon-designate-anthropic-a-supply-chain-risk/",
+          "publishedAt": "2026-09-25T16:58:20.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
       "title": "Altman and Amodei take the \"pace the frontier\" plea to the UN as Zuckerberg refuses to join and the White House stays out",
       "summary": "Dario Amodei's plan to pace rather than race frontier AI development has become an open industry-vs-politics fight: the CEOs are pleading their case to governments directly, and Meta is now publicly refusing to join.\n\n- New: Mark Zuckerberg rejected calls to cooperate on safety, per Gizmodo, even as OpenAI, Anthropic, and Google race to stand up a still-undescribed safety coordination organization\n- Sam Altman and Dario Amodei appeared together before the UN, warning of AI's catastrophic risks and asking the world's governments to regulate their own industry\n- At Salesforce's Dreamforce, the CEOs of OpenAI, Anthropic, and Nvidia argued on stage over whether AI should slow down; Altman, Musk, and Nadella back Amodei's camp, and OpenAI confirmed weeks of safety talks with Anthropic and Google DeepMind\n- Nvidia's Jensen Huang argues no AI regulation is needed at all, since each product maker can engineer its own safety\n- The White House says it has no plans to act, prioritizing keeping pace with China; Beijing is skeptical of any deal it reads as designed to keep US companies ahead\n- Lab employees report seeing no let-up in the pace of the work they're actually being asked to do",
@@ -791,6 +847,56 @@
       ]
     },
     {
+      "id": "1bb03c95-54a5-4887-95da-4fd8db592a3c",
+      "title": "Misconfigured Supabase backends behind vibe-coded apps are exposing users' data",
+      "summary": "TechCrunch reports that some Supabase customers are publicly exposing large amounts of people's data on the web, with the findings pointing to AI-generated and vibe-coded apps that were shipped without proper backend configuration or security.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-25T18:44:58.604Z",
+      "lastMeaningfulUpdateAt": "2026-09-25T18:44:58.604Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
+          "url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
+          "publishedAt": "2026-09-25T17:29:46.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "cb8eab2c-4759-4bcf-8104-5481d43c50de",
+      "title": "Nscale secures $3.36B in convertible financing ahead of its US IPO",
+      "summary": "British AI neocloud Nscale, which recently struck a $45 billion compute deal with Anthropic, has closed $3.36 billion in convertible financing from Third Point, Nvidia and others ahead of a planned US IPO. The raise, first reported as a $3.5 billion target earlier this month, will fund the company's data center buildout.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-04T21:44:17.550Z",
+      "lastMeaningfulUpdateAt": "2026-09-25T18:44:49.227Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+          "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+          "publishedAt": "2026-09-04T21:12:11.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Ahead of U.S. IPO, British AI neocloud Nscale secures $3.36B in convertible finacing",
+          "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
+          "publishedAt": "2026-09-25T18:33:59.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "funding",
+        "infrastructure"
+      ]
+    },
+    {
       "id": "5dcc9c26-97ab-4c2f-ab66-e43618872438",
       "title": "Google DeepMind's Gemini 3.8 Live gains a Live Avatar, following the Extended Thinking variant",
       "summary": "Google DeepMind introduced Gemini 3.8 Live with Live Avatar, adding an animated avatar to its real-time Live model and pitching it for customer service and similar agent tasks, a week after launching Gemini 3.8 Live and the Gemini 3.8 Live Extended Thinking variant.",
@@ -855,6 +961,27 @@
       ]
     },
     {
+      "id": "72b08443-5958-4c77-a98d-b6c193fe9e97",
+      "title": "GPT-6 Astra and Claude Opus finish Alan Turing's WWII codebreaking work",
+      "summary": "TechCrunch reports that frontier models from OpenAI (GPT-6 Astra) and Anthropic (Claude Opus) have completed codebreaking work Alan Turing left unfinished from World War II, a symbolic milestone the piece frames as passing \"Turing's other test.\"",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-25T18:45:02.615Z",
+      "lastMeaningfulUpdateAt": "2026-09-25T18:45:02.615Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Astra and Opus just passed Turing’s other test",
+          "url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
+          "publishedAt": "2026-09-25T17:24:36.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "59932556-600a-4ddb-82d5-8de47be44055",
       "title": "Microsoft's Copilot app adds Office, natural-language coding, and automation",
       "summary": "Microsoft is giving its Copilot app another redesign, folding in Office document work, natural-language coding, and task automation, per Engadget.",
@@ -868,6 +995,13 @@
           "title": "Microsoft's Copilot app adds Office, natural coding and automation",
           "url": "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
           "publishedAt": "2026-09-25T12:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Microsoft Thinks It’s Finally Figured Out Copilot This Time",
+          "url": "https://gizmodo.com/microsoft-thinks-its-finally-figured-out-copilot-this-time-2000817460",
+          "publishedAt": "2026-09-25T16:40:28.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1963,143 +2097,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "8c434be0-633e-4482-8913-15416883f869",
-      "title": "US AI data-center backlash pushes companies to relocate and draws political fire",
-      "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built.\n\n- Nearly $200 billion worth of US data center projects have been blocked or delayed this year as communities keep pushing back\n- Opposition is pushing some companies to relocate projects and drawing political fire\n- Big Tech is countering with a multimillion-dollar ad campaign aimed at reversing public disdain\n- The outcry has reached Philadelphia, where officials floated a site in a neighborhood already scarred by a now-defunct oil refinery\n- Environmental-justice concerns in previously industrialized neighborhoods are becoming a central line of attack",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T18:56:45.629Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T21:22:53.732Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Fleeing Data Center Backlash at Home, American AI Startup Sets Up Shop In Saudi Arabia",
-          "url": "https://gizmodo.com/fleeing-data-center-backlash-at-home-american-ai-startup-sets-up-shop-in-saudi-arabia-2000805023",
-          "publishedAt": "2026-08-31T15:50:39.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump to Communities Fighting Data Centers: Have Fun Being Poor",
-          "url": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
-          "publishedAt": "2026-08-31T16:35:06.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "At G20, Big Tech and Global Leaders Can’t Escape AI’s Data Center Problem",
-          "url": "https://www.cnet.com/tech/services-and-software/g20-tech-government-leaders-ai-data-centers-protests/",
-          "publishedAt": "2026-09-02T18:42:19.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Hate AI Data Centers? Big Tech’s New Ad Campaign Aims to Change Your Mind",
-          "url": "https://www.cnet.com/tech/services-and-software/hate-ai-data-centers-big-techs-new-ad-campaign-will-try-to-change-your-mind/",
-          "publishedAt": "2026-09-02T23:06:26.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The AI data center boom is colliding with cities scarred by big industry ",
-          "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-          "publishedAt": "2026-09-15T21:47:38.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "It’s Donald Trump Versus MAGA on Data Centers",
-          "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
-          "publishedAt": "2026-09-20T10:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Nearly $200 Billion Worth of Data Center Projects Have Been Blocked or Delayed This Year",
-          "url": "https://gizmodo.com/nearly-200-billion-worth-of-data-center-projects-have-been-blocked-or-delayed-this-year-2000815054",
-          "publishedAt": "2026-09-21T21:10:29.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Everyone can find a reason to dislike data center construction",
-          "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
-          "publishedAt": "2026-09-22T13:00:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "cc365c9d-fd89-4d0a-baf5-468a76f932ee",
-      "title": "Big banks warn AI-agent shopping could drive more scams, fraud, and disputes",
-      "summary": "Major banks say in a new report that they are uneasy about consumers shopping via AI agents, warning that agentic commerce could increase scams, fraud, and payment disputes.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-22T23:46:16.461Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T23:46:16.461Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Big Banks Say They’re Uneasy About People Shopping via AI Agents",
-          "url": "https://gizmodo.com/big-banks-say-theyre-uneasy-about-people-shopping-via-ai-agents-2000815443",
-          "publishedAt": "2026-09-22T22:43:49.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "25641c5e-d1da-443c-8f65-319d3f4358cb",
-      "title": "Nscale's IPO will test Wall Street's appetite for concentrated AI bets",
-      "summary": "British AI data-center developer Nscale is heading for an IPO that TechCrunch frames as a fresh test of investor appetite for concentrated AI infrastructure bets: the neocloud depends on Microsoft and Anthropic for most of its revenue.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-22T13:37:32.047Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T13:37:32.047Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
-          "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
-          "publishedAt": "2026-09-22T12:23:05.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "6c5c0cdf-872c-4494-b747-262b652bbfb8",
-      "title": "Cisco Talos tool for spotting AI-driven malware uncovers an autonomous \"hive mind\" command system",
-      "summary": "Cisco Talos researchers built a framework for identifying malware and hacking tools that rely on AI chatbots, and it quickly surfaced something unusual: malware coordinated by an AI \"hive mind\" command system with no humans in the loop, Wired reports.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-22T11:35:23.993Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T11:35:23.993Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
-          "url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system/",
-          "publishedAt": "2026-09-22T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "research"
-      ]
     }
   ],
-  "totalCount": 114,
+  "totalCount": 116,
   "hasMore": true
 }
