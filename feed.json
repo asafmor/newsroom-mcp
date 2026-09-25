@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T10:37:43.586Z",
+  "generatedAt": "2026-09-25T12:39:43.049Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -602,7 +602,7 @@
     {
       "id": "5dcc9c26-97ab-4c2f-ab66-e43618872438",
       "title": "Google DeepMind's Gemini 3.8 Live gains a Live Avatar, following the Extended Thinking variant",
-      "summary": "Google DeepMind introduced Gemini 3.8 Live with Live Avatar, adding an animated avatar to its real-time Live model, a week after launching Gemini 3.8 Live and the Gemini 3.8 Live Extended Thinking variant.",
+      "summary": "Google DeepMind introduced Gemini 3.8 Live with Live Avatar, adding an animated avatar to its real-time Live model and pitching it for customer service and similar agent tasks, a week after launching Gemini 3.8 Live and the Gemini 3.8 Live Extended Thinking variant.",
       "importanceScore": 0.7,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-15T19:32:43.899Z",
@@ -621,6 +621,13 @@
           "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
           "publishedAt": "2026-09-24T16:20:39.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google adds creepy avatars to Gemini 3.8 live's agents",
+          "url": "https://www.engadget.com/2268587/google-video-avatars-gemini-3-8-live-agent/",
+          "publishedAt": "2026-09-25T10:53:55.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -654,6 +661,27 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "59932556-600a-4ddb-82d5-8de47be44055",
+      "title": "Microsoft's Copilot app adds Office, natural-language coding, and automation",
+      "summary": "Microsoft is giving its Copilot app another redesign, folding in Office document work, natural-language coding, and task automation, per Engadget.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-25T12:39:29.494Z",
+      "lastMeaningfulUpdateAt": "2026-09-25T12:39:29.494Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Microsoft's Copilot app adds Office, natural coding and automation",
+          "url": "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
+          "publishedAt": "2026-09-25T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1041,7 +1069,7 @@
     {
       "id": "46f1d85f-22b8-431b-8181-605ade557c92",
       "title": "Anthropic says Claude helped its biology lab discover a novel enzyme system with CRISPR-like repeats",
-      "summary": "Anthropic reports that Claude, working inside the company's own biology lab, discovered a previously unknown enzyme system featuring CRISPR-like repeats. TechCrunch notes that Anthropic has not let Claude run the lab autonomously: humans remain in the loop for the experimental work, so this is AI-assisted rather than AI-run discovery.",
+      "summary": "Anthropic reports that Claude, working inside the company's own biology lab, discovered a previously unknown enzyme system featuring CRISPR-like repeats, since described as ART (Array Associated Reverse Transcriptase), a programmable DNA-editing mechanism found in a jumbo phage. TechCrunch notes that Anthropic has not let Claude run the lab autonomously: humans remain in the loop for the experimental work, so this is AI-assisted rather than AI-run discovery.",
       "importanceScore": 0.65,
       "relevanceScore": 0.85,
       "firstSeenAt": "2026-09-23T22:06:31.658Z",
@@ -1060,6 +1088,13 @@
           "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
           "publishedAt": "2026-09-23T22:17:39.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Claude AI Discovers ART DNA Editing Mechanism in 21 Hours",
+          "url": "https://www.geeky-gadgets.com/claude-ai-dna-art-discovery/",
+          "publishedAt": "2026-09-25T10:43:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1600,6 +1635,25 @@
       ]
     },
     {
+      "id": "6279c8ac-d4b9-4776-949c-10e447658c70",
+      "title": "Paperclip meta-framework assigns CEO and CTO roles to coordinate AI agents",
+      "summary": "Paperclip is a meta-framework that coordinates multiple AI agents by assigning them specialized organizational roles such as CEO and CTO, so one agent can analyze data while another produces reports. Geeky Gadgets' write-up is based on a NetworkChuck video walkthrough.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-25T12:39:32.993Z",
+      "lastMeaningfulUpdateAt": "2026-09-25T12:39:32.993Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Paperclip Assigns CEO and CTO Roles to Manage AI Agents",
+          "url": "https://www.geeky-gadgets.com/paperclip-ai-meta-harness/",
+          "publishedAt": "2026-09-25T12:17:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "726326e2-c57d-4ed2-a1a9-d2ba829b0e70",
       "title": "Wired's hands-on with the Instinct AI agent: real savings, real security worries",
       "summary": "Wired's Zoë Schiffer spent time with Instinct, a consumer AI agent that saved her $550, booked restaurant reservations, and flagged a phishing scam, but also wasted $64 on its own and raised serious security concerns about the access such agents require.",
@@ -2028,50 +2082,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "d9279399-7be6-4942-9cb8-e25915b9457d",
-      "title": "Pentagon probe reportedly ties overreliance on Palantir AI to US strike that killed 123 Iranian children",
-      "summary": "An unreleased Pentagon investigation reportedly found that overreliance on Palantir's AI technology contributed to a US strike that hit a school in Minab, Iran, killing 123 children. The probe examined the kill chain behind the strike, according to Gizmodo.",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-20T11:00:16.621Z",
-      "lastMeaningfulUpdateAt": "2026-09-20T11:00:16.621Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Pentagon Investigators Say Overreliance on Palantir AI Tech Contributed to U.S. Strike That Killed 123 Iranian Children",
-          "url": "https://gizmodo.com/pentagon-investigators-say-overreliance-on-palantir-ai-tech-contributed-to-u-s-strike-that-killed-123-iranian-children-2000814477",
-          "publishedAt": "2026-09-20T09:00:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "bde311c1-90a7-4f48-8dbc-00bb8cd2e623",
-      "title": "UN panel warns traditional safety measures are \"unraveling\" as AI advances",
-      "summary": "A UN panel warned that traditional safety measures are \"unraveling\" as AI advances, raising the question of how societies can protect themselves from systems that are increasingly difficult to predict.",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-21T17:18:44.958Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T17:18:44.958Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Traditional Safety Measures are ‘Unraveling’ as AI Advances, UN Panel Warns",
-          "url": "https://gizmodo.com/traditional-safety-measures-are-unraveling-as-ai-advances-un-panel-warns-2000814893",
-          "publishedAt": "2026-09-21T16:15:02.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 115,
   "hasMore": true
 }
