@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T12:59:22.963Z",
+  "generatedAt": "2026-09-25T13:05:04.193Z",
   "sources": {
     "github": {
       "status": "ok",
@@ -31,9 +31,9 @@
         "dsh",
         "dsh-plugin"
       ],
-      "starCount": 234855,
+      "starCount": 235691,
       "createdAt": "2026-08-13T11:56:32.000Z",
-      "lastActivityAt": "2026-09-23T13:30:24.000Z"
+      "lastActivityAt": "2026-09-24T14:10:21.000Z"
     },
     {
       "id": "github:google/artemis",
@@ -52,7 +52,7 @@
         "test-automation",
         "testing"
       ],
-      "starCount": 9665,
+      "starCount": 9796,
       "createdAt": "2026-08-13T17:59:37.000Z",
       "lastActivityAt": "2026-09-12T03:00:58.000Z"
     },
@@ -73,7 +73,7 @@
         "dsh",
         "dsh-plugin"
       ],
-      "starCount": 7208,
+      "starCount": 7206,
       "createdAt": "2026-08-14T21:20:55.000Z",
       "lastActivityAt": "2026-09-18T23:10:58.000Z"
     },
@@ -94,9 +94,30 @@
         "mcp",
         "model-context-protocol"
       ],
-      "starCount": 6597,
+      "starCount": 6642,
       "createdAt": "2026-08-28T12:57:24.000Z",
       "lastActivityAt": "2026-09-13T03:22:46.000Z"
+    },
+    {
+      "id": "github:jev-chat/jev-chat-jarvis",
+      "source": "github",
+      "kind": "repository",
+      "name": "jev-chat-jarvis",
+      "owner": "jev-chat",
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "description": "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+      "language": "Kotlin",
+      "license": "MIT License",
+      "topics": [
+        "accessibility-service",
+        "android",
+        "chat-assistant",
+        "llm",
+        "qq"
+      ],
+      "starCount": 6456,
+      "createdAt": "2026-09-21T11:12:53.000Z",
+      "lastActivityAt": "2026-09-25T08:18:02.000Z"
     },
     {
       "id": "github:mizorewww/laya-mlx",
@@ -115,30 +136,9 @@
         "laya",
         "local-ai"
       ],
-      "starCount": 6140,
+      "starCount": 6301,
       "createdAt": "2026-09-19T13:50:26.000Z",
       "lastActivityAt": "2026-09-22T05:34:51.000Z"
-    },
-    {
-      "id": "github:jev-chat/jev-chat-jarvis",
-      "source": "github",
-      "kind": "repository",
-      "name": "jev-chat-jarvis",
-      "owner": "jev-chat",
-      "url": "https://github.com/jev-chat/jev-chat-jarvis",
-      "description": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
-      "language": "Kotlin",
-      "license": "MIT License",
-      "topics": [
-        "accessibility-service",
-        "android",
-        "chat-assistant",
-        "llm",
-        "qq"
-      ],
-      "starCount": 5696,
-      "createdAt": "2026-09-21T11:12:53.000Z",
-      "lastActivityAt": "2026-09-24T08:57:11.000Z"
     },
     {
       "id": "github:CopilotKit/OpenBot",
@@ -157,7 +157,7 @@
         "browser-automation",
         "copilotkit"
       ],
-      "starCount": 5497,
+      "starCount": 5541,
       "createdAt": "2026-08-17T00:44:59.000Z",
       "lastActivityAt": "2026-09-23T18:18:04.000Z"
     },
@@ -178,7 +178,7 @@
         "book",
         "datacenter-network"
       ],
-      "starCount": 5223,
+      "starCount": 5276,
       "createdAt": "2026-08-22T15:30:41.000Z",
       "lastActivityAt": "2026-09-23T12:48:49.000Z"
     },
@@ -189,7 +189,7 @@
       "name": "reef",
       "owner": "Human-Agent-Society",
       "url": "https://github.com/Human-Agent-Society/reef",
-      "description": "Continual learning infra for self-improving agents",
+      "description": "Infrastructure for continually self‑improving agents",
       "language": "Python",
       "license": "Apache License 2.0",
       "topics": [
@@ -199,9 +199,9 @@
         "inference",
         "llm"
       ],
-      "starCount": 4644,
+      "starCount": 5145,
       "createdAt": "2026-08-31T01:39:18.000Z",
-      "lastActivityAt": "2026-09-24T12:51:51.000Z"
+      "lastActivityAt": "2026-09-25T13:00:25.000Z"
     },
     {
       "id": "github:ApodexAI/FrontierAgent",
@@ -220,9 +220,9 @@
         "ai-agents",
         "harness"
       ],
-      "starCount": 4584,
+      "starCount": 4603,
       "createdAt": "2026-08-22T05:07:35.000Z",
-      "lastActivityAt": "2026-09-24T11:41:56.000Z"
+      "lastActivityAt": "2026-09-25T09:09:58.000Z"
     },
     {
       "id": "github:wang2122/sprix-sage-router",
@@ -241,7 +241,7 @@
         "ai-agents",
         "multi-agent-systems"
       ],
-      "starCount": 4197,
+      "starCount": 4258,
       "createdAt": "2026-08-18T04:08:11.000Z",
       "lastActivityAt": "2026-08-28T09:12:08.000Z"
     },
@@ -262,9 +262,9 @@
         "electron",
         "expo"
       ],
-      "starCount": 2906,
+      "starCount": 2930,
       "createdAt": "2026-08-13T06:28:56.000Z",
-      "lastActivityAt": "2026-09-24T12:31:21.000Z"
+      "lastActivityAt": "2026-09-25T12:08:49.000Z"
     },
     {
       "id": "github:Player-YN/BrowserKitten",
@@ -283,7 +283,7 @@
         "chrome-extension",
         "llm"
       ],
-      "starCount": 2858,
+      "starCount": 2857,
       "createdAt": "2026-08-28T10:56:56.000Z",
       "lastActivityAt": "2026-09-18T07:18:28.000Z"
     },
@@ -304,7 +304,7 @@
         "claude-code",
         "codex"
       ],
-      "starCount": 2830,
+      "starCount": 2839,
       "createdAt": "2026-08-28T05:56:49.000Z",
       "lastActivityAt": "2026-09-23T20:03:22.000Z"
     },
@@ -325,51 +325,9 @@
         "application",
         "audio-streaming"
       ],
-      "starCount": 2287,
+      "starCount": 2353,
       "createdAt": "2026-08-17T09:49:10.000Z",
       "lastActivityAt": "2026-09-14T06:01:08.000Z"
-    },
-    {
-      "id": "github:lennney/stop-that-shit",
-      "source": "github",
-      "kind": "repository",
-      "name": "stop-that-shit",
-      "owner": "lennney",
-      "url": "https://github.com/lennney/stop-that-shit",
-      "description": "Stop That Shit（别再造史了）｜面向 Codex/GPT 场景的多平台 Hook + Skill Guard：拦截 AI coding agent 无需求的哈希、校验和与任务范围膨胀。 A multi-platform Hook + Skill Guard for AI coding agents in Codex/GPT workflows: stop unrequested hashes, checksums, and…",
-      "language": "JavaScript",
-      "license": "MIT License",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "ai-coding",
-        "claude-code",
-        "codex"
-      ],
-      "starCount": 2251,
-      "createdAt": "2026-08-11T15:31:45.000Z",
-      "lastActivityAt": "2026-09-24T12:03:32.000Z"
-    },
-    {
-      "id": "github:duty1g/x64dbg-mcp-server",
-      "source": "github",
-      "kind": "repository",
-      "name": "x64dbg-mcp-server",
-      "owner": "duty1g",
-      "url": "https://github.com/duty1g/x64dbg-mcp-server",
-      "description": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set…",
-      "language": "Zig",
-      "license": "MIT License",
-      "topics": [
-        "ai-agents",
-        "ai-debugging",
-        "binary-analysis",
-        "claude",
-        "claude-code"
-      ],
-      "starCount": 2046,
-      "createdAt": "2026-08-22T14:28:41.000Z",
-      "lastActivityAt": "2026-09-17T13:02:00.000Z"
     },
     {
       "id": "github:Appllama/appllama-skills",
@@ -387,7 +345,7 @@
         "claude-code",
         "claude-code-skill"
       ],
-      "starCount": 2029,
+      "starCount": 2059,
       "createdAt": "2026-08-13T07:19:54.000Z",
       "lastActivityAt": "2026-09-06T09:01:39.000Z"
     },
@@ -408,9 +366,30 @@
         "claude-code",
         "claude-code-skill"
       ],
-      "starCount": 2029,
+      "starCount": 2058,
       "createdAt": "2026-09-08T17:19:54.000Z",
       "lastActivityAt": "2026-09-18T11:52:13.000Z"
+    },
+    {
+      "id": "github:duty1g/x64dbg-mcp-server",
+      "source": "github",
+      "kind": "repository",
+      "name": "x64dbg-mcp-server",
+      "owner": "duty1g",
+      "url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "description": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set…",
+      "language": "Zig",
+      "license": "MIT License",
+      "topics": [
+        "ai-agents",
+        "ai-debugging",
+        "binary-analysis",
+        "claude",
+        "claude-code"
+      ],
+      "starCount": 2053,
+      "createdAt": "2026-08-22T14:28:41.000Z",
+      "lastActivityAt": "2026-09-17T13:02:00.000Z"
     },
     {
       "id": "github:yibie/awesome-jev",
@@ -427,9 +406,9 @@
         "jev",
         "llm"
       ],
-      "starCount": 1579,
+      "starCount": 1655,
       "createdAt": "2026-09-17T14:23:21.000Z",
-      "lastActivityAt": "2026-09-24T07:05:03.000Z"
+      "lastActivityAt": "2026-09-25T09:38:02.000Z"
     },
     {
       "id": "github:xmanrui/dsh-im",
@@ -448,7 +427,7 @@
         "deepseek",
         "deepseek-harness"
       ],
-      "starCount": 1478,
+      "starCount": 1502,
       "createdAt": "2026-08-14T20:40:06.000Z",
       "lastActivityAt": "2026-09-24T08:19:48.000Z"
     },
@@ -469,30 +448,9 @@
         "ai-agents",
         "ai-coding"
       ],
-      "starCount": 1289,
+      "starCount": 1291,
       "createdAt": "2026-08-17T22:40:47.000Z",
       "lastActivityAt": "2026-09-24T03:27:43.000Z"
-    },
-    {
-      "id": "github:boyang-hu/website-rebuild-skill",
-      "source": "github",
-      "kind": "repository",
-      "name": "website-rebuild-skill",
-      "owner": "boyang-hu",
-      "url": "https://github.com/boyang-hu/website-rebuild-skill",
-      "description": "复刻网站的 Agent Skill：抓只读镜像、从压缩代码逐行还原、自动比对验收。An agent skill that mirrors a website, rebuilds it from the minified code, and verifies the result with automated diffs.",
-      "language": "JavaScript",
-      "license": "MIT License",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "codex"
-      ],
-      "starCount": 1282,
-      "createdAt": "2026-08-11T03:50:30.000Z",
-      "lastActivityAt": "2026-09-07T09:39:56.000Z"
     },
     {
       "id": "github:datawhalechina/zero-to-sglang",
@@ -510,9 +468,51 @@
         "infra",
         "kv-cache"
       ],
-      "starCount": 1267,
+      "starCount": 1285,
       "createdAt": "2026-08-27T02:24:12.000Z",
       "lastActivityAt": "2026-09-20T06:34:56.000Z"
+    },
+    {
+      "id": "github:2akouwu/reverify",
+      "source": "github",
+      "kind": "repository",
+      "name": "reverify",
+      "owner": "2akouwu",
+      "url": "https://github.com/2akouwu/reverify",
+      "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground.…",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-coding",
+        "anti-hallucination",
+        "binary-analysis"
+      ],
+      "starCount": 1245,
+      "createdAt": "2026-08-31T01:02:18.000Z",
+      "lastActivityAt": "2026-09-07T10:12:07.000Z"
+    },
+    {
+      "id": "github:tigerless-labs/agent-memory",
+      "source": "github",
+      "kind": "repository",
+      "name": "agent-memory",
+      "owner": "tigerless-labs",
+      "url": "https://github.com/tigerless-labs/agent-memory",
+      "description": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": [
+        "agent-memory",
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "llm"
+      ],
+      "starCount": 1131,
+      "createdAt": "2026-09-01T21:52:29.000Z",
+      "lastActivityAt": "2026-09-24T15:35:00.000Z"
     },
     {
       "id": "hf-model:convaiinnovations/laya",
@@ -523,7 +523,7 @@
       "url": "https://huggingface.co/convaiinnovations/laya",
       "pipelineTag": "text-classification",
       "libraryName": "transformers",
-      "likeCount": 3278,
+      "likeCount": 3548,
       "downloads": 0,
       "createdAt": "2026-09-18T05:05:55.000Z",
       "installCommand": "huggingface-cli download convaiinnovations/laya"
@@ -537,10 +537,24 @@
       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
       "pipelineTag": "text-to-image",
       "libraryName": "diffusers",
-      "likeCount": 2128,
-      "downloads": 37618,
+      "likeCount": 2266,
+      "downloads": 42469,
       "createdAt": "2026-09-14T03:47:26.000Z",
       "installCommand": "huggingface-cli download Qwen/Qwen-Image-2.1"
+    },
+    {
+      "id": "hf-model:abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "source": "huggingface",
+      "kind": "model",
+      "name": "Qwen-Image-2.1-Uncensored-GGUF",
+      "owner": "abenzerps",
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "pipelineTag": "text-to-image",
+      "libraryName": "gguf",
+      "likeCount": 1713,
+      "downloads": 715906,
+      "createdAt": "2026-09-20T15:51:13.000Z",
+      "installCommand": "huggingface-cli download abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
     },
     {
       "id": "hf-model:prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -551,8 +565,8 @@
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
       "pipelineTag": "text-generation",
       "libraryName": "llama.cpp",
-      "likeCount": 1990,
-      "downloads": 2991233,
+      "likeCount": 2065,
+      "downloads": 3109078,
       "createdAt": "2026-09-16T23:40:56.000Z",
       "installCommand": "huggingface-cli download prism-ml/Ternary-Bonsai-2-27B-gguf"
     },
@@ -565,24 +579,10 @@
       "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
       "pipelineTag": "text-generation",
       "libraryName": "transformers",
-      "likeCount": 1641,
-      "downloads": 41923,
+      "likeCount": 1669,
+      "downloads": 42950,
       "createdAt": "2026-09-16T06:44:40.000Z",
       "installCommand": "huggingface-cli download XingChen-AGI/Xing4.0-29B-A4B"
-    },
-    {
-      "id": "hf-model:abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "source": "huggingface",
-      "kind": "model",
-      "name": "Qwen-Image-2.1-Uncensored-GGUF",
-      "owner": "abenzerps",
-      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "pipelineTag": "text-to-image",
-      "libraryName": "gguf",
-      "likeCount": 1560,
-      "downloads": 575697,
-      "createdAt": "2026-09-20T15:51:13.000Z",
-      "installCommand": "huggingface-cli download abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
     },
     {
       "id": "hf-model:Comfy-Org/Qwen-Image-2.1",
@@ -592,8 +592,8 @@
       "owner": "Comfy-Org",
       "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
       "libraryName": "diffusion-single-file",
-      "likeCount": 654,
-      "downloads": 2858923,
+      "likeCount": 707,
+      "downloads": 3266380,
       "createdAt": "2026-09-15T19:41:09.000Z",
       "installCommand": "huggingface-cli download Comfy-Org/Qwen-Image-2.1"
     },
@@ -606,52 +606,10 @@
       "url": "https://huggingface.co/Altworld/Hemmingway-1",
       "pipelineTag": "text-generation",
       "libraryName": "transformers",
-      "likeCount": 608,
-      "downloads": 4541,
+      "likeCount": 651,
+      "downloads": 4978,
       "createdAt": "2026-09-20T12:10:31.000Z",
       "installCommand": "huggingface-cli download Altworld/Hemmingway-1"
-    },
-    {
-      "id": "hf-model:deepseek-ai/DeepSeek-V4.1-Flash",
-      "source": "huggingface",
-      "kind": "model",
-      "name": "DeepSeek-V4.1-Flash",
-      "owner": "deepseek-ai",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-      "pipelineTag": "image-text-to-text",
-      "libraryName": "transformers",
-      "likeCount": 3692,
-      "downloads": 606028,
-      "createdAt": "2026-09-10T02:17:58.000Z",
-      "installCommand": "huggingface-cli download deepseek-ai/DeepSeek-V4.1-Flash"
-    },
-    {
-      "id": "hf-model:Qwen/Qwen3.8-27B",
-      "source": "huggingface",
-      "kind": "model",
-      "name": "Qwen3.8-27B",
-      "owner": "Qwen",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "pipelineTag": "image-text-to-text",
-      "libraryName": "transformers",
-      "likeCount": 16177,
-      "downloads": 6765008,
-      "createdAt": "2026-08-05T08:22:59.000Z",
-      "installCommand": "huggingface-cli download Qwen/Qwen3.8-27B"
-    },
-    {
-      "id": "hf-model:AlexWortega/openjev",
-      "source": "huggingface",
-      "kind": "model",
-      "name": "openjev",
-      "owner": "AlexWortega",
-      "url": "https://huggingface.co/AlexWortega/openjev",
-      "pipelineTag": "text-classification",
-      "libraryName": "transformers",
-      "likeCount": 545,
-      "downloads": 0,
-      "createdAt": "2026-09-16T18:25:10.000Z",
-      "installCommand": "huggingface-cli download AlexWortega/openjev"
     },
     {
       "id": "hf-model:TaichuAI/ZDTaichu5.0-9B",
@@ -661,8 +619,8 @@
       "owner": "TaichuAI",
       "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B",
       "pipelineTag": "image-text-to-text",
-      "likeCount": 1006,
-      "downloads": 8313,
+      "likeCount": 1043,
+      "downloads": 9498,
       "createdAt": "2026-09-04T02:55:48.000Z",
       "installCommand": "huggingface-cli download TaichuAI/ZDTaichu5.0-9B"
     },
@@ -675,10 +633,38 @@
       "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
       "pipelineTag": "text-generation",
       "libraryName": "transformers",
-      "likeCount": 468,
-      "downloads": 9841,
+      "likeCount": 487,
+      "downloads": 42062,
       "createdAt": "2026-09-21T15:39:33.000Z",
       "installCommand": "huggingface-cli download XiaomiMiMo/MiMo-V2.6-Pro-RL"
+    },
+    {
+      "id": "hf-model:Qwen/Qwen3.8-27B",
+      "source": "huggingface",
+      "kind": "model",
+      "name": "Qwen3.8-27B",
+      "owner": "Qwen",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "pipelineTag": "image-text-to-text",
+      "libraryName": "transformers",
+      "likeCount": 16245,
+      "downloads": 6579319,
+      "createdAt": "2026-08-05T08:22:59.000Z",
+      "installCommand": "huggingface-cli download Qwen/Qwen3.8-27B"
+    },
+    {
+      "id": "hf-model:Edge0/Audio8-ASR-Infinite",
+      "source": "huggingface",
+      "kind": "model",
+      "name": "Audio8-ASR-Infinite",
+      "owner": "Edge0",
+      "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
+      "pipelineTag": "automatic-speech-recognition",
+      "libraryName": "transformers",
+      "likeCount": 498,
+      "downloads": 2853,
+      "createdAt": "2026-09-21T15:03:21.000Z",
+      "installCommand": "huggingface-cli download Edge0/Audio8-ASR-Infinite"
     },
     {
       "id": "hf-model:XiaomiMiMo/MiMo-V2.6-Flash-RL",
@@ -689,8 +675,8 @@
       "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL",
       "pipelineTag": "text-generation",
       "libraryName": "transformers",
-      "likeCount": 435,
-      "downloads": 18821,
+      "likeCount": 451,
+      "downloads": 20473,
       "createdAt": "2026-09-21T15:39:51.000Z",
       "installCommand": "huggingface-cli download XiaomiMiMo/MiMo-V2.6-Flash-RL"
     },
@@ -703,10 +689,38 @@
       "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
       "pipelineTag": "image-text-to-text",
       "libraryName": "transformers",
-      "likeCount": 420,
-      "downloads": 5705,
+      "likeCount": 455,
+      "downloads": 6652,
       "createdAt": "2026-09-21T18:18:40.000Z",
       "installCommand": "huggingface-cli download XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B"
+    },
+    {
+      "id": "hf-model:deepseek-ai/DeepSeek-V4.1-Flash",
+      "source": "huggingface",
+      "kind": "model",
+      "name": "DeepSeek-V4.1-Flash",
+      "owner": "deepseek-ai",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "pipelineTag": "image-text-to-text",
+      "libraryName": "transformers",
+      "likeCount": 3737,
+      "downloads": 621396,
+      "createdAt": "2026-09-10T02:17:58.000Z",
+      "installCommand": "huggingface-cli download deepseek-ai/DeepSeek-V4.1-Flash"
+    },
+    {
+      "id": "hf-model:AlexWortega/openjev",
+      "source": "huggingface",
+      "kind": "model",
+      "name": "openjev",
+      "owner": "AlexWortega",
+      "url": "https://huggingface.co/AlexWortega/openjev",
+      "pipelineTag": "text-classification",
+      "libraryName": "transformers",
+      "likeCount": 567,
+      "downloads": 0,
+      "createdAt": "2026-09-16T18:25:10.000Z",
+      "installCommand": "huggingface-cli download AlexWortega/openjev"
     },
     {
       "id": "hf-model:Lightricks/LTX-2.5",
@@ -717,8 +731,8 @@
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
       "pipelineTag": "image-to-video",
       "libraryName": "diffusion-single-file",
-      "likeCount": 4956,
-      "downloads": 1637601,
+      "likeCount": 5060,
+      "downloads": 1598133,
       "createdAt": "2026-07-23T07:55:24.000Z",
       "installCommand": "huggingface-cli download Lightricks/LTX-2.5"
     },
@@ -731,38 +745,23 @@
       "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
       "pipelineTag": "image-text-to-text",
       "libraryName": "gguf",
-      "likeCount": 1631,
-      "downloads": 1465429,
+      "likeCount": 1681,
+      "downloads": 1510016,
       "createdAt": "2026-08-28T18:38:03.000Z",
       "installCommand": "huggingface-cli download ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF"
     },
     {
-      "id": "hf-model:prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
+      "id": "hf-model:netease-youdao/Confucius4-R2T2",
       "source": "huggingface",
       "kind": "model",
-      "name": "Ternary-Bonsai-2-27B-mlx-2bit",
-      "owner": "prism-ml",
-      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
-      "pipelineTag": "text-generation",
-      "libraryName": "mlx",
-      "likeCount": 364,
-      "downloads": 51644,
-      "createdAt": "2026-09-16T23:41:18.000Z",
-      "installCommand": "huggingface-cli download prism-ml/Ternary-Bonsai-2-27B-mlx-2bit"
-    },
-    {
-      "id": "hf-model:harshatheg/Qwen-2.5-1B-RLCD",
-      "source": "huggingface",
-      "kind": "model",
-      "name": "Qwen-2.5-1B-RLCD",
-      "owner": "harshatheg",
-      "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
-      "pipelineTag": "text-generation",
-      "libraryName": "mlx",
-      "likeCount": 563,
-      "downloads": 0,
-      "createdAt": "2026-09-16T01:35:33.000Z",
-      "installCommand": "huggingface-cli download harshatheg/Qwen-2.5-1B-RLCD"
+      "name": "Confucius4-R2T2",
+      "owner": "netease-youdao",
+      "url": "https://huggingface.co/netease-youdao/Confucius4-R2T2",
+      "pipelineTag": "automatic-speech-recognition",
+      "likeCount": 402,
+      "downloads": 5827,
+      "createdAt": "2026-09-10T12:16:21.000Z",
+      "installCommand": "huggingface-cli download netease-youdao/Confucius4-R2T2"
     },
     {
       "id": "hf-space:observantdistressed/wan2-2-i2v-v3",
@@ -773,7 +772,7 @@
       "displayName": "Wan2.2 14B Fast Preview [NEW]",
       "url": "https://huggingface.co/spaces/observantdistressed/wan2-2-i2v-v3",
       "sdk": "gradio",
-      "likeCount": 476,
+      "likeCount": 539,
       "createdAt": "2026-07-26T21:21:30.000Z"
     },
     {
@@ -786,7 +785,7 @@
       "url": "https://huggingface.co/spaces/Pepe104/MiniMax-H3-Turbo-Lora-UNCENSORED",
       "description": "Video generation with a synchronized soundtrack",
       "sdk": "gradio",
-      "likeCount": 689,
+      "likeCount": 718,
       "createdAt": "2026-08-14T23:23:19.000Z"
     },
     {
@@ -799,7 +798,7 @@
       "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
       "description": "Benchmarks and news on various repros of TypeSafe's Jev",
       "sdk": "static",
-      "likeCount": 192,
+      "likeCount": 214,
       "createdAt": "2026-09-17T20:05:16.000Z"
     },
     {
@@ -812,7 +811,7 @@
       "url": "https://huggingface.co/spaces/convaiinnovations/laya-demo",
       "description": "Fast System 1 decisions with calibrated probabilities",
       "sdk": "gradio",
-      "likeCount": 182,
+      "likeCount": 200,
       "createdAt": "2026-09-18T03:21:41.000Z"
     },
     {
@@ -824,7 +823,7 @@
       "displayName": "Qwen-Image-2.1",
       "url": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1",
       "sdk": "gradio",
-      "likeCount": 183,
+      "likeCount": 195,
       "createdAt": "2026-09-20T10:15:59.000Z"
     },
     {
@@ -835,36 +834,10 @@
       "owner": "kulkas2pintu",
       "displayName": "Qwen-Image-Edit-2511-LoRAs-Fast",
       "url": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE",
-      "description": "Demo of the Collection of Qwen Image Edit LoRAs",
+      "description": "AnyPose pose still with a strong pose-reference lock",
       "sdk": "gradio",
-      "likeCount": 530,
+      "likeCount": 544,
       "createdAt": "2026-07-29T16:23:58.000Z"
-    },
-    {
-      "id": "hf-space:webml-community/ternary-bonsai-2-webgpu-kernels",
-      "source": "huggingface",
-      "kind": "space",
-      "name": "ternary-bonsai-2-webgpu-kernels",
-      "owner": "webml-community",
-      "displayName": "Ternary Bonsai 2 WebGPU Kernels",
-      "url": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels",
-      "description": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
-      "sdk": "static",
-      "likeCount": 131,
-      "createdAt": "2026-09-17T14:46:17.000Z"
-    },
-    {
-      "id": "hf-space:observantdistressed/minimax-h3",
-      "source": "huggingface",
-      "kind": "space",
-      "name": "minimax-h3",
-      "owner": "observantdistressed",
-      "displayName": "minimax h3 turbo + lora's",
-      "url": "https://huggingface.co/spaces/observantdistressed/minimax-h3",
-      "description": "Video generation with a synchronized soundtrack",
-      "sdk": "gradio",
-      "likeCount": 134,
-      "createdAt": "2026-08-07T19:10:24.000Z"
     },
     {
       "id": "hf-space:hugging-apps/qwen-image-2-1",
@@ -876,21 +849,8 @@
       "url": "https://huggingface.co/spaces/hugging-apps/qwen-image-2-1",
       "description": "Generate and edit images with Qwen-Image-2.1",
       "sdk": "gradio",
-      "likeCount": 103,
+      "likeCount": 122,
       "createdAt": "2026-09-20T13:35:01.000Z"
-    },
-    {
-      "id": "hf-space:kulkas2pintu/wan777",
-      "source": "huggingface",
-      "kind": "space",
-      "name": "wan777",
-      "owner": "kulkas2pintu",
-      "displayName": "Wan2.2 14B Preview",
-      "url": "https://huggingface.co/spaces/kulkas2pintu/wan777",
-      "description": "generate a video from an image with a text prompt",
-      "sdk": "gradio",
-      "likeCount": 141,
-      "createdAt": "2026-07-15T11:49:16.000Z"
     },
     {
       "id": "hf-space:Jackiesixnine/Krea-2-Turbo_v2",
@@ -902,21 +862,34 @@
       "url": "https://huggingface.co/spaces/Jackiesixnine/Krea-2-Turbo_v2",
       "description": "Krea 2 Turbo text2image and image editing",
       "sdk": "gradio",
-      "likeCount": 100,
+      "likeCount": 120,
       "createdAt": "2026-09-15T21:15:21.000Z"
     },
     {
-      "id": "hf-space:mrfakename/yue2-3b",
+      "id": "hf-space:observantdistressed/minimax-h3",
       "source": "huggingface",
       "kind": "space",
-      "name": "yue2-3b",
-      "owner": "mrfakename",
-      "displayName": "YuE2-3B Music Generator",
-      "url": "https://huggingface.co/spaces/mrfakename/yue2-3b",
-      "description": "Generate songs and covers from style prompts and lyrics.",
+      "name": "minimax-h3",
+      "owner": "observantdistressed",
+      "displayName": "minimax h3 turbo + lora's",
+      "url": "https://huggingface.co/spaces/observantdistressed/minimax-h3",
+      "description": "Video generation with a synchronized soundtrack",
       "sdk": "gradio",
-      "likeCount": 179,
-      "createdAt": "2026-09-09T22:39:57.000Z"
+      "likeCount": 147,
+      "createdAt": "2026-08-07T19:10:24.000Z"
+    },
+    {
+      "id": "hf-space:webml-community/ternary-bonsai-2-webgpu-kernels",
+      "source": "huggingface",
+      "kind": "space",
+      "name": "ternary-bonsai-2-webgpu-kernels",
+      "owner": "webml-community",
+      "displayName": "Ternary Bonsai 2 WebGPU Kernels",
+      "url": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels",
+      "description": "Run Ternary-Bonsai-2-27B locally in your browser on WebGPU",
+      "sdk": "static",
+      "likeCount": 133,
+      "createdAt": "2026-09-17T14:46:17.000Z"
     },
     {
       "id": "hf-space:aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
@@ -928,8 +901,21 @@
       "url": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
       "description": "Demo of the Collection of Qwen Image Edit LoRAs",
       "sdk": "gradio",
-      "likeCount": 292,
+      "likeCount": 294,
       "createdAt": "2026-02-27T11:06:16.000Z"
+    },
+    {
+      "id": "hf-space:kulkas2pintu/wan777",
+      "source": "huggingface",
+      "kind": "space",
+      "name": "wan777",
+      "owner": "kulkas2pintu",
+      "displayName": "Wan2.2 14B Preview",
+      "url": "https://huggingface.co/spaces/kulkas2pintu/wan777",
+      "description": "generate a video from an image with a text prompt",
+      "sdk": "gradio",
+      "likeCount": 147,
+      "createdAt": "2026-07-15T11:49:16.000Z"
     },
     {
       "id": "hf-space:selfit-camera/Omni-Image-Editor",
@@ -941,21 +927,21 @@
       "url": "https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor",
       "description": "Image edit, text to image, image upscale, remove watermark",
       "sdk": "gradio",
-      "likeCount": 2698,
+      "likeCount": 2706,
       "createdAt": "2025-12-13T03:04:18.000Z"
     },
     {
-      "id": "hf-space:stepfun-ai/StepAudio-3-Music",
+      "id": "hf-space:mrfakename/yue2-3b",
       "source": "huggingface",
       "kind": "space",
-      "name": "StepAudio-3-Music",
-      "owner": "stepfun-ai",
-      "displayName": "StepAudio 3 Music Studio",
-      "url": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music",
-      "description": "Create songs, arrange vocals, and remix music with StepFun",
+      "name": "yue2-3b",
+      "owner": "mrfakename",
+      "displayName": "YuE2-3B Music Generator",
+      "url": "https://huggingface.co/spaces/mrfakename/yue2-3b",
+      "description": "Generate songs and covers from style prompts and lyrics.",
       "sdk": "gradio",
-      "likeCount": 131,
-      "createdAt": "2026-09-13T01:02:58.000Z"
+      "likeCount": 184,
+      "createdAt": "2026-09-09T22:39:57.000Z"
     },
     {
       "id": "hf-space:zerogpu-aoti/wan2-2-fp8da-aoti-faster",
@@ -967,34 +953,46 @@
       "url": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster",
       "description": "generate a video from an image with a text prompt",
       "sdk": "gradio",
-      "likeCount": 3608,
+      "likeCount": 3613,
       "createdAt": "2025-07-30T19:03:28.000Z"
     },
     {
-      "id": "hf-space:r3gm/wan2-2-fp8da-aoti-preview",
+      "id": "hf-space:stepfun-ai/StepAudio-3-Music",
       "source": "huggingface",
       "kind": "space",
-      "name": "wan2-2-fp8da-aoti-preview",
-      "owner": "r3gm",
-      "displayName": "Wan2.2 14B Preview",
-      "url": "https://huggingface.co/spaces/r3gm/wan2-2-fp8da-aoti-preview",
-      "description": "generate a video from an image with a text prompt",
+      "name": "StepAudio-3-Music",
+      "owner": "stepfun-ai",
+      "displayName": "StepAudio 3 Music Studio",
+      "url": "https://huggingface.co/spaces/stepfun-ai/StepAudio-3-Music",
+      "description": "Create songs, arrange vocals, and remix music with StepFun",
       "sdk": "gradio",
-      "likeCount": 3166,
-      "createdAt": "2025-10-27T03:20:43.000Z"
+      "likeCount": 139,
+      "createdAt": "2026-09-13T01:02:58.000Z"
     },
     {
-      "id": "hf-space:toshas/Marigold-V2",
+      "id": "hf-space:Viggle/Qwen-Image-2.1-viggle-turbo",
       "source": "huggingface",
       "kind": "space",
-      "name": "Marigold-V2",
-      "owner": "toshas",
-      "displayName": "Marigold V2",
-      "url": "https://huggingface.co/spaces/toshas/Marigold-V2",
-      "description": "Depth, surface normals, and albedo from a single image",
+      "name": "Qwen-Image-2.1-viggle-turbo",
+      "owner": "Viggle",
+      "displayName": "Viggle Turbo v0.2.1 - 6-step Qwen-Image-2.1",
+      "url": "https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo",
+      "description": "6-step Qwen-Image-2.1, T2I + editing, vs-base comparison",
       "sdk": "gradio",
-      "likeCount": 114,
-      "createdAt": "2026-09-06T21:36:32.000Z"
+      "likeCount": 56,
+      "createdAt": "2026-09-22T04:17:35.000Z"
+    },
+    {
+      "id": "hf-space:nvidia/nemotron-diarization",
+      "source": "huggingface",
+      "kind": "space",
+      "name": "nemotron-diarization",
+      "owner": "nvidia",
+      "displayName": "Live Speaker Diarization",
+      "url": "https://huggingface.co/spaces/nvidia/nemotron-diarization",
+      "sdk": "docker",
+      "likeCount": 50,
+      "createdAt": "2026-09-01T20:57:32.000Z"
     }
   ]
 }
