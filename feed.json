@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T18:45:19.269Z",
+  "generatedAt": "2026-09-25T20:47:14.298Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -145,11 +145,11 @@
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
       "title": "Meta pours promotion into Muse as the agent tops app charts, despite contractor, 0-day, and Amazon-block troubles",
-      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is topping app store charts and growing faster than ChatGPT did at launch, even as it runs into security, platform, originality, and labor trouble.\n\n- New: Muse is topping the app store charts and adding users at a rapid clip, and Meta is ramping up promotion of the agent across its own apps and beyond\n- Gizmodo reports Meta tested routing some Muse tasks through a \"human concierge\" — contractors who make the agent's phone calls — and that one of them reportedly made racist remarks\n- Meta says Muse was built from scratch but admits it was \"heavily inspired\" by OpenClaw, down to some of its workspace filenames and content\n- Ars Technica reports a serious 0-day in the highly privileged agent that would have let attackers do \"whatever\" they wanted on a victim's Mac; Meta says it has issued a fix\n- Amazon has blocked the Muse agent from shopping on Amazon.com, citing privacy and security concerns\n- Muse carries out online tasks such as shopping, travel booking and selling a car; it has expanded to the Mac and can make phone calls for users",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is topping app store charts and growing faster than ChatGPT did at launch, even as it runs into security, platform, originality, and labor trouble.\n\n- New: Meta opened an early access program for upcoming Muse features; users join by asking Muse itself to add them to the list\n- Muse is topping the app store charts and adding users rapidly, and Meta is ramping up promotion of the agent across its own apps and beyond\n- Gizmodo reports Meta tested routing some Muse tasks through a \"human concierge\" of contractors who make the agent's phone calls, one of whom reportedly made racist remarks\n- Meta says Muse was built from scratch but admits it was \"heavily inspired\" by OpenClaw, down to some workspace filenames and content\n- Ars Technica reports a serious 0-day in the highly privileged agent that could have let attackers do \"whatever\" they wanted on a victim's Mac; Meta says it has issued a fix\n- Amazon has blocked the Muse agent from shopping on Amazon.com, citing privacy and security concerns",
       "importanceScore": 0.85,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-09-25T16:42:31.814Z",
+      "lastMeaningfulUpdateAt": "2026-09-25T20:46:46.816Z",
       "sources": [
         {
           "providerName": "VentureBeat",
@@ -304,6 +304,13 @@
           "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
           "publishedAt": "2026-09-25T18:22:47.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta opens early access program for new Muse features",
+          "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
+          "publishedAt": "2026-09-25T20:34:53.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -601,10 +608,38 @@
           "url": "https://www.wired.com/story/appeals-court-lets-the-pentagon-designate-anthropic-a-supply-chain-risk/",
           "publishedAt": "2026-09-25T16:58:20.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Federal Appeals Court Backs Pentagon’s Anthropic Blacklisting",
+          "url": "https://gizmodo.com/federal-appeals-court-backs-pentagons-anthropic-blacklisting-2000817636",
+          "publishedAt": "2026-09-25T19:50:08.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "ab255a07-6977-4950-ba49-66e93e6529e9",
+      "title": "Anthropic commits $11.6B over seven years to Akamai's cloud, with a potential 5% Akamai stake",
+      "summary": "Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a CPU-focused bet that could grow to about $20 billion.\n\n- The deal is a bet on CPU capacity rather than the GPU-heavy contracts typical of frontier labs\n- In an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anthropic spends more\n- The commitment could expand to roughly $20 billion, per TechCrunch",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-25T20:46:51.320Z",
+      "lastMeaningfulUpdateAt": "2026-09-25T20:46:51.320Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+          "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+          "publishedAt": "2026-09-25T19:13:38.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -925,6 +960,13 @@
           "url": "https://www.engadget.com/2268587/google-video-avatars-gemini-3-8-live-agent/",
           "publishedAt": "2026-09-25T10:53:55.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Gemini’s Live Avatar Puts a Face on Its AI Agent. It’s Freaking Me Out",
+          "url": "https://www.cnet.com/tech/services-and-software/geminis-live-avatar-puts-a-face-on-its-ai-agent-its-freaking-me-out/",
+          "publishedAt": "2026-09-25T18:01:59.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1144,10 +1186,38 @@
           "url": "https://www.geeky-gadgets.com/google-project-suncatcher-ai/",
           "publishedAt": "2026-09-25T10:13:00.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "An Imminent Google Satellite Test Is Another Step Toward Data Centers in Space",
+          "url": "https://www.cnet.com/tech/services-and-software/google-satellite-space-data-center/",
+          "publishedAt": "2026-09-25T15:06:23.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "80ffa83d-c12f-4329-b2b8-c5e261c5e63b",
+      "title": "Anthropic invites developers to build plugins for Claude",
+      "summary": "Anthropic published a guide on the Claude blog for building plugins for Claude, opening the assistant to developer-built extensions.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-25T20:46:54.384Z",
+      "lastMeaningfulUpdateAt": "2026-09-25T20:46:54.384Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Build plugins for Claude",
+          "url": "https://claude.com/blog/build-plugins-for-claude",
+          "publishedAt": "2026-09-25T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -2055,50 +2125,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "d7282368-d7dc-4d02-8dd2-b5af29148580",
-      "title": "xAI introduces Grok Voice Transcribe 2.0",
-      "summary": "xAI announced Grok Voice Transcribe 2.0, an updated version of its speech-to-text model, joining a recent wave of transcription-model launches from Meta, Microsoft, and Google DeepMind. The source feed gave no detail on accuracy, pricing, or availability.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-23T11:55:00.268Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T11:55:00.268Z",
-      "sources": [
-        {
-          "providerName": "xAI News",
-          "title": "Introducing Grok Voice Transcribe 2.0",
-          "url": "https://x.ai/news/grok-voice-transcribe-2",
-          "publishedAt": "2026-09-18T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "3c6b77dd-3120-4430-b3b2-0e492fcfd69b",
-      "title": "AT&T leans on AI automation to cut jobs and power use as it winds down its legacy telecom network",
-      "summary": "Wired reports AT&T is pushing to show Wall Street it can do more with less: fewer employees, lower electricity use, and more automation as it dismantles its old telecom empire. The piece frames AI-driven automation as central to the cost-cutting story.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-23T11:54:57.083Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T11:54:57.083Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AT&T Is Automating Away Jobs—and Its Old Telecom Empire",
-          "url": "https://www.wired.com/story/atandt-is-automating-away-its-old-telecom-empire/",
-          "publishedAt": "2026-09-23T10:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 116,
+  "totalCount": 115,
   "hasMore": true
 }
