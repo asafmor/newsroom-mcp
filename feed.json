@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T22:27:01.612Z",
+  "generatedAt": "2026-09-25T00:28:10.970Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -873,6 +873,27 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "5de5de08-41f0-4923-aaa4-a37768e3197b",
+      "title": "Google's Project Suncatcher will launch AI chips into space next week",
+      "summary": "Google is sending AI chips into orbit next week under Project Suncatcher, an experiment meant to advance its longer-term plan to someday build AI data centers in space.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-25T00:28:04.233Z",
+      "lastMeaningfulUpdateAt": "2026-09-25T00:28:04.233Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google’s Project Suncatcher Is Sending AI Chips Into Space Next Week",
+          "url": "https://gizmodo.com/googles-project-suncatcher-is-sending-ai-chips-into-space-next-week-2000816985",
+          "publishedAt": "2026-09-24T22:49:46.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -2016,29 +2037,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "d8439ddf-376e-445a-b080-096f316d207d",
-      "title": "Ando raises $20M to build a Slack rival where humans and AI agents work together",
-      "summary": "Ando has raised $20 million in pre-seed and seed funding from Accel, Index Ventures, and Emergence to build a team messaging app designed for humans and AI agents to collaborate, positioning it against Slack and Microsoft Teams.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-24T16:21:06.871Z",
-      "lastMeaningfulUpdateAt": "2026-09-24T16:21:06.871Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
-          "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/",
-          "publishedAt": "2026-09-24T14:31:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
     }
   ],
-  "totalCount": 126,
+  "totalCount": 118,
   "hasMore": true
 }
