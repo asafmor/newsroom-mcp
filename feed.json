@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T08:36:04.133Z",
+  "generatedAt": "2026-09-25T10:37:43.586Z",
   "stories": [
     {
       "id": "8fa8ca80-6937-462d-9e7a-18b43bd0dede",
@@ -897,6 +897,35 @@
       ]
     },
     {
+      "id": "23d5b185-5ab1-4c21-8da7-b3470ad0601f",
+      "title": "Google's Gemini 3.8 Flash TTS adds 30-second voice cloning, style control, and multilingual speech",
+      "summary": "Google DeepMind's Gemini 3.8 text-to-speech models, announced this week, now have documented capabilities.\n\n- Voice cloning from roughly 30 seconds of sample audio\n- Style control for expressive delivery and multilingual output\n- Flash TTS is pitched at rich, expressive uses such as audiobooks and storytelling\n- A separate variant targets high-volume tasks like dubbing and voice agents\n- Pricing and availability details are still not reported",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-23T15:58:51.505Z",
+      "lastMeaningfulUpdateAt": "2026-09-25T10:37:33.966Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Gemini 3.8 text-to-speech says hello",
+          "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+          "publishedAt": "2026-09-23T15:25:14.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Gemini 3.8 Flash TTS Adds 30-Second Voice Cloning",
+          "url": "https://www.geeky-gadgets.com/gemini-3-8-flash-tts-features/",
+          "publishedAt": "2026-09-25T08:43:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "product-launch"
+      ]
+    },
+    {
       "id": "5de5de08-41f0-4923-aaa4-a37768e3197b",
       "title": "Google's Project Suncatcher will launch AI chips into space next week",
       "summary": "Google is sending AI chips into orbit next week under Project Suncatcher, an experiment meant to advance its longer-term plan to someday build AI data centers in space.",
@@ -911,6 +940,13 @@
           "url": "https://gizmodo.com/googles-project-suncatcher-is-sending-ai-chips-into-space-next-week-2000816985",
           "publishedAt": "2026-09-24T22:49:46.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Project Suncatcher Uses Space Solar Panels for AI",
+          "url": "https://www.geeky-gadgets.com/google-project-suncatcher-ai/",
+          "publishedAt": "2026-09-25T10:13:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1078,6 +1114,25 @@
       "tags": [
         "model-release"
       ]
+    },
+    {
+      "id": "e410baab-1c07-4ea5-a9bf-5aa8565e65d8",
+      "title": "Pentagon requests $30M for an AI-powered \"Polygraph+\" lie detector",
+      "summary": "A US Department of Defense budget request seeks $30.3 million over five years for \"Polygraph+\" (also called \"Polygraph Next\"), an improved lie detector built around AI and machine-learning scoring algorithms and \"standoff sensing\" that reads subjects without physical contact, MIT Technology Review reports.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-25T10:37:25.528Z",
+      "lastMeaningfulUpdateAt": "2026-09-25T10:37:25.528Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+          "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+          "publishedAt": "2026-09-25T09:16:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "72b0c897-a736-48c9-956e-d457c4a62fc0",
@@ -1620,27 +1675,6 @@
       ]
     },
     {
-      "id": "23d5b185-5ab1-4c21-8da7-b3470ad0601f",
-      "title": "Google DeepMind announces Gemini 3.8 text-to-speech",
-      "summary": "Google DeepMind announced a Gemini 3.8 text-to-speech model, extending the Gemini 3.8 lineup (which already includes Flash, Live, and Live Extended Thinking variants) into speech generation. The source feed provided only the title, so capabilities, pricing, and availability are not yet known.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-23T15:58:51.505Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T15:58:51.505Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Gemini 3.8 text-to-speech says hello",
-          "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-          "publishedAt": "2026-09-23T15:25:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
       "id": "419a919b-fd4e-40d6-91b1-070e6f7f4ee7",
       "title": "YouTube's Made On YouTube event adds Gemini-built custom feeds, \"Ask Music,\" and AI creator tools",
       "summary": "At its Made On YouTube event, YouTube announced a slate of AI features across viewing, music, and creator tools.\n\n- Custom feeds let users describe the videos they want in their own words, and Gemini builds a personalized feed around the request\n- YouTube Music gains \"Ask Music,\" a conversational tool for discovering music and podcasts, plus a personalized \"Your Podcast Lineup\"\n- The YouTube Studio app adds AI features that generate video ideas and monitor thumbnail performance for creators",
@@ -2036,30 +2070,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "56c7bbed-8eb8-4479-9e08-76929c3a361b",
-      "title": "Nvidia releases Nemotron 3 Diarization for real-time multi-speaker audio",
-      "summary": "Nvidia published Nemotron 3 Diarization on Hugging Face, a speaker-diarization model for identifying who spoke when in real-time, multi-speaker audio, aimed at developers building live transcription, meeting and voice-agent applications.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-23T13:56:59.865Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T13:56:59.865Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-          "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-          "publishedAt": "2026-09-23T13:17:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 119,
+  "totalCount": 117,
   "hasMore": true
 }
