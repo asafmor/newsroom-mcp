@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T19:06:33.066Z",
+  "generatedAt": "2026-09-26T21:07:36.836Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -900,6 +900,27 @@
       "tags": [
         "safety",
         "regulation"
+      ]
+    },
+    {
+      "id": "a25194e7-5103-45f6-8082-a8b7026fc1b4",
+      "title": "Blue Cross Blue Shield says hospital AI tools added $942M to healthcare spending",
+      "summary": "Blue Cross Blue Shield claims hospitals' use of AI tools, such as ambient documentation software like Abridge, drove an additional $942 million in healthcare spending over a two-year period, pushing back on the industry narrative that clinical AI lowers costs.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-26T21:07:30.100Z",
+      "lastMeaningfulUpdateAt": "2026-09-26T21:07:30.100Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Insurers claim AI is already increasing healthcare costs",
+          "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+          "publishedAt": "2026-09-26T21:02:06.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -2125,50 +2146,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "419a919b-fd4e-40d6-91b1-070e6f7f4ee7",
-      "title": "YouTube's Made On YouTube event adds Gemini-built custom feeds, \"Ask Music,\" and AI creator tools",
-      "summary": "At its Made On YouTube event, YouTube announced a slate of AI features across viewing, music, and creator tools.\n\n- Custom feeds let users describe the videos they want in their own words, and Gemini builds a personalized feed around the request\n- YouTube Music gains \"Ask Music,\" a conversational tool for discovering music and podcasts, plus a personalized \"Your Podcast Lineup\"\n- The YouTube Studio app adds AI features that generate video ideas and monitor thumbnail performance for creators",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-23T15:58:48.263Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T15:58:48.263Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "YouTube will let you build your own algorithm with AI",
-          "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/",
-          "publishedAt": "2026-09-23T14:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "YouTube Music gets more conversational with new AI features",
-          "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
-          "publishedAt": "2026-09-23T15:19:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "YouTube releases new AI features for creators within its Studio app",
-          "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
-          "publishedAt": "2026-09-23T14:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "YouTube Will Now Let You Customize Your Algorithm Using AI",
-          "url": "https://gizmodo.com/youtube-will-now-let-you-customize-your-algorithm-using-ai-2000816161",
-          "publishedAt": "2026-09-23T20:10:03.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 109,
+  "totalCount": 110,
   "hasMore": true
 }
