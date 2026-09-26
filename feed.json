@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T04:54:00.604Z",
+  "generatedAt": "2026-09-26T06:55:57.993Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -332,6 +332,13 @@
           "url": "https://www.cnet.com/tech/services-and-software/leaks-metas-new-ai-agent-muse-real-people-call-centers/",
           "publishedAt": "2026-09-26T00:13:27.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Spotify Already Has AI Playlists. So What Does Meta’s Muse Add?",
+          "url": "https://in.mashable.com/tech/114308/spotify-already-has-ai-playlists-so-what-does-metas-muse-add",
+          "publishedAt": "2026-09-25T19:49:36.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1092,6 +1099,25 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "a68ec58d-a10a-4dc7-98c3-d4815ed9d93f",
+      "title": "Trump says the US government will call AI \"Super Intelligence\" instead of \"artificial\"",
+      "summary": "In his UN General Assembly address this week, President Trump declared that the US government will now refer to artificial intelligence as \"Super Intelligence,\" arguing the word \"artificial\" makes the technology sound fake. Mashable's commentary notes the new label changes nothing about the technology's underlying problems and baggage.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-26T06:55:48.714Z",
+      "lastMeaningfulUpdateAt": "2026-09-26T06:55:48.714Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Trump Tries To Rebrand AI. Is It Really That 'Super'?",
+          "url": "https://in.mashable.com/tech/114311/trump-tries-to-rebrand-ai-is-it-really-that-super",
+          "publishedAt": "2026-09-25T18:41:51.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "8a45139c-73cd-4e50-adb0-f6aa2bb3d45f",
@@ -2131,34 +2157,6 @@
       ],
       "tags": [
         "product-launch"
-      ]
-    },
-    {
-      "id": "05e6547a-32dd-4e1f-83fb-4e959dba93a1",
-      "title": "xAI introduces Grok 4.7",
-      "summary": "xAI announced Grok 4.7, describing it as its most powerful model for coding and knowledge work and claiming it runs twice as fast at half the price of comparable models. The announcement follows Grok 4.6; no benchmark details were available from the source feeds.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-21T23:24:50.717Z",
-      "lastMeaningfulUpdateAt": "2026-09-21T23:24:50.717Z",
-      "sources": [
-        {
-          "providerName": "Cursor Blog",
-          "title": "Introducing Grok 4.7",
-          "url": "https://x.ai/news/grok-4-7",
-          "publishedAt": "2026-09-21T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "xAI News",
-          "title": "Introducing Grok 4.7",
-          "url": "https://x.ai/news/grok-4-7",
-          "publishedAt": "2026-09-21T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
       ]
     }
   ],
