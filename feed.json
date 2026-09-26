@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T13:02:08.176Z",
+  "generatedAt": "2026-09-26T15:04:03.612Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -1631,6 +1631,27 @@
       ]
     },
     {
+      "id": "5818e844-b38b-4380-a81d-4e2368641636",
+      "title": "UkisAI's Swift, a reasoning-efficient Qwen 3.8 27B derivative, runs about 50% faster at an accuracy cost",
+      "summary": "A Geeky Gadgets comparison pits Alibaba's Qwen3.8-27B against Swift, a derivative from UkisAI built to cut unnecessary \"thinking tokens.\" Qwen3.8-27B keeps the full 27B-class foundation model with flexible reasoning controls, while Swift reportedly delivers roughly 50% faster generation but gives up some accuracy in exchange, making the choice one of reasoning efficiency rather than a simple speed-versus-quality trade.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-26T15:03:56.172Z",
+      "lastMeaningfulUpdateAt": "2026-09-26T15:03:56.172Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Qwen 27B vs Swift: 50% Faster Speeds Come at an Accuracy Cost",
+          "url": "https://www.geeky-gadgets.com/qwen-27b-vs-swift-ai/",
+          "publishedAt": "2026-09-26T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "285d3952-cdb8-4f3d-b00c-1b6ea9211b2a",
       "title": "Trump's \"AI Force\" and \"Super Intelligence\" rebrand draws pushback from Bernie Sanders",
       "summary": "President Trump said he is creating an \"AI Force\" and is rebranding AI itself, drawing criticism from Senator Bernie Sanders.\n\n- Trump said he will soon announce an \"AI czar\" to run the newly announced AI Force\n- He floated rebranding AI under a different name, reported as \"Super Intelligence,\" and invited the public to help pick one\n- He claimed, without evidence, that the backlash against AI is a Democratic hoax\n- Sanders pushed back, calling AI \"an existential threat to humanity\" that must be treated as such rather than rebranded",
@@ -2146,34 +2167,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "d7420158-6304-4411-a2a8-a8ca2d1807ae",
-      "title": "British Columbia sues OpenAI over Tumbler Ridge shooting as private lawsuits pile up",
-      "summary": "Litigation against OpenAI over the Tumbler Ridge shooting now includes a government plaintiff.\n\n- The province of British Columbia has sued OpenAI, alleging it failed to notify authorities about the shooter's chats\n- Earlier, law firm Edelson PC said it was filing 30 additional lawsuits, escalating aiding-and-abetting claims and naming OpenAI executive Chris Lehane\n- The underlying allegations about the shooter's use of ChatGPT remain unconfirmed",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-02T13:01:06.633Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T09:33:09.507Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
-          "url": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
-          "publishedAt": "2026-09-02T12:09:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI faces lawsuit from British Columbia over Tumbler Ridge shooting",
-          "url": "https://www.engadget.com/2264989/openai-tumbler-ridge-shooting-lawsuit/",
-          "publishedAt": "2026-09-22T08:47:27.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 110,
+  "totalCount": 111,
   "hasMore": true
 }
