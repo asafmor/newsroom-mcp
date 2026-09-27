@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T01:09:37.500Z",
+  "generatedAt": "2026-09-27T03:10:58.565Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -942,6 +942,27 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "3b1dbd1a-5446-41b9-a710-e519e1b9910a",
+      "title": "Google tests in-Gemini shopping from Flipkart in India",
+      "summary": "Google is testing purchases from Walmart-owned Flipkart directly inside Gemini and AI Mode in India. The limited test covers select products and users, with a broader rollout planned for later in October.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-27T03:10:48.528Z",
+      "lastMeaningfulUpdateAt": "2026-09-27T03:10:48.528Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+          "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+          "publishedAt": "2026-09-27T01:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -2118,36 +2139,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "2f865f97-622b-4df8-aa94-56443aa3707c",
-      "title": "Google Photos rolls out an AI virtual closet and a Redact tool",
-      "summary": "Google Photos shipped a batch of AI-powered features: the \"Clueless\"-inspired virtual closet, which builds a wardrobe from your photos, is now broadly available on Android and iOS after a June Android-only rollout, and a new Redact tool quickly blurs sensitive parts of an image.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-24T18:23:16.902Z",
-      "lastMeaningfulUpdateAt": "2026-09-24T18:23:16.902Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google Photos ‘Clueless’-inspired virtual closet is now available on Android and iOS",
-          "url": "https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/",
-          "publishedAt": "2026-09-24T17:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google Photos' new Redact tool will make it easy to hide sensitive information",
-          "url": "https://www.engadget.com/2267415/google-photos-update-redact-tool/",
-          "publishedAt": "2026-09-24T17:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 110,
+  "totalCount": 111,
   "hasMore": true
 }
