@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T13:16:02.964Z",
+  "generatedAt": "2026-09-27T15:17:21.008Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -1673,6 +1673,48 @@
       ]
     },
     {
+      "id": "5df67505-897b-4a6c-a946-ed03fdf37296",
+      "title": "Engadget compares Gemini Live and ChatGPT Voice on conversational naturalness",
+      "summary": "Engadget put Google's Gemini Live and OpenAI's ChatGPT Voice head to head to judge which assistant holds a more natural spoken conversation, as both companies work to make talking to a chatbot feel less awkward.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-27T15:17:14.848Z",
+      "lastMeaningfulUpdateAt": "2026-09-27T15:17:14.848Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Gemini Live vs. ChatGPT Voice: Which AI offers a more natural conversation?",
+          "url": "https://www.engadget.com/2266889/gemini-live-vs-gpt-live-which-offers-more-natural-conversation/",
+          "publishedAt": "2026-09-27T13:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "2783f08c-9669-4dc2-889e-12b3a8aa2710",
+      "title": "MSI Pro Max Edge AI+ mini PC pairs Ryzen AI Max+ 395 with 96GB of GPU memory for local AI",
+      "summary": "MSI's Pro Max Edge AI+ is a compact desktop built around AMD's 16-core Ryzen AI Max+ 395 and a Radeon 8060S GPU that can address up to 96GB of memory, enough to run large local language models on a small-form-factor machine.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-27T15:17:11.655Z",
+      "lastMeaningfulUpdateAt": "2026-09-27T15:17:11.655Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "MSI Pro Max Edge AI+ Packs a Radeon 8060S with 96GB VRAM",
+          "url": "https://www.geeky-gadgets.com/msi-pro-max-edge-ai-plus/",
+          "publishedAt": "2026-09-27T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "5818e844-b38b-4380-a81d-4e2368641636",
       "title": "UkisAI's Swift, a reasoning-efficient Qwen 3.8 27B derivative, runs about 50% faster at an accuracy cost",
       "summary": "A Geeky Gadgets comparison pits Alibaba's Qwen3.8-27B against Swift, a derivative from UkisAI built to cut unnecessary \"thinking tokens.\" Qwen3.8-27B keeps the full 27B-class foundation model with flexible reasoning controls, while Swift reportedly delivers roughly 50% faster generation but gives up some accuracy in exchange, making the choice one of reasoning efficiency rather than a simple speed-versus-quality trade.",
@@ -2092,55 +2134,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "726326e2-c57d-4ed2-a1a9-d2ba829b0e70",
-      "title": "Wired's hands-on with the Instinct AI agent: real savings, real security worries",
-      "summary": "Wired's Zoë Schiffer spent time with Instinct, a consumer AI agent that saved her $550, booked restaurant reservations, and flagged a phishing scam, but also wasted $64 on its own and raised serious security concerns about the access such agents require.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-24T20:25:01.916Z",
-      "lastMeaningfulUpdateAt": "2026-09-24T20:25:01.916Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "I Think I Found an AI Agent Worth the Risk",
-          "url": "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk/",
-          "publishedAt": "2026-09-24T19:36:35.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "43035831-b015-4c92-b505-0927a27c6ad9",
-      "title": "Report: even daily AI users in the US remain worried about the technology",
-      "summary": "A new report finds that Americans who use AI every day are still uneasy about it, and that Americans are markedly more worried about AI than people elsewhere in the world. Greater exposure to AI does not appear to resolve public unease or reduce support for AI regulation.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-23T18:00:57.805Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T18:00:57.805Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Even Americans who use AI every day are worried about it",
-          "url": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
-          "publishedAt": "2026-09-23T16:49:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Americans Are a Lot More Worried About AI Than the Rest of the World",
-          "url": "https://gizmodo.com/americans-are-a-lot-more-worried-about-ai-than-the-rest-of-the-world-2000816089",
-          "publishedAt": "2026-09-23T18:25:58.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 110,
+  "totalCount": 112,
   "hasMore": true
 }
