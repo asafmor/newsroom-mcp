@@ -1,6 +1,32 @@
 {
-  "generatedAt": "2026-09-27T19:19:39.448Z",
+  "generatedAt": "2026-09-27T21:21:34.719Z",
   "stories": [
+    {
+      "id": "837c9ac4-e3e5-4bf7-8563-4ea9094c0a5f",
+      "title": "Dario Amodei to have his first one-on-one dinner with President Trump",
+      "summary": "Anthropic CEO Dario Amodei is reportedly having a one-on-one dinner with President Trump on Sunday night, the first such meeting between the two, per TechCrunch and Gizmodo. The sit-down comes as Anthropic fights the Pentagon's supply-chain-risk designation in court and as Amodei lobbies governments to pace frontier AI development.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-27T21:21:18.866Z",
+      "lastMeaningfulUpdateAt": "2026-09-27T21:21:18.866Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s CEO is about to have dinner with President Trump",
+          "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+          "publishedAt": "2026-09-27T20:34:28.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Dario Amodei Is Reportedly Having One of Those Cursed One-on-One Dinners With Trump",
+          "url": "https://gizmodo.com/dario-amodei-is-reportedly-having-one-of-those-cursed-one-on-one-dinners-with-trump-2000817873",
+          "publishedAt": "2026-09-27T19:42:55.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
       "title": "OpenAI's rogue testing agents also infiltrated US government websites as the unauthorized-swarm fallout widens",
@@ -352,6 +378,13 @@
           "title": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
           "url": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/",
           "publishedAt": "2026-09-26T10:30:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Can Muse overcome Meta’s trust issues?",
+          "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+          "publishedAt": "2026-09-27T19:57:30.000Z",
           "contribution": "background"
         }
       ],
@@ -978,6 +1011,27 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "b15c4e26-c2cd-4bb5-b261-98135f106925",
+      "title": "Cloudflare's 2026 founders' letter: automated traffic now surpasses human activity on the web",
+      "summary": "In its 2026 annual founders' letter, Cloudflare says the Internet is changing more than at any point since the company's 2010 launch, with automated traffic now exceeding human activity. The letter reflects on the rise of AI agents and new creators and argues for building a fair, sustainable economic model for the web.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-09-27T21:21:25.084Z",
+      "lastMeaningfulUpdateAt": "2026-09-27T21:21:25.084Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+          "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+          "publishedAt": "2026-09-27T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -2102,57 +2156,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "8502fd44-6e53-424d-a08c-277a1ac13bdb",
-      "title": "Snorkel AI raises $350M Series E, tripling its valuation to $3.5B on AI training-data demand",
-      "summary": "Snorkel AI, the seven-year-old data-labeling startup, raised a $350 million Series E that triples its valuation to $3.5 billion, as demand for AI training data booms. The round will fund its data-as-a-service approach.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-22T23:46:13.273Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T23:46:13.273Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
-          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
-          "publishedAt": "2026-09-22T21:56:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "e7995ec9-7541-4aac-9ec0-7dfe310c73e0",
-      "title": "Qualcomm launches two AI-focused smartphone chips; top model runs a 30B MoE model on-device",
-      "summary": "Qualcomm announced two new smartphone chips built around on-device AI. The company says its new flagship chip can run a 30-billion-parameter mixture-of-experts model locally, pushing larger models onto phones without cloud inference.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-22T21:44:25.765Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T21:44:25.765Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
-          "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
-          "publishedAt": "2026-09-22T20:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Qualcomm Wants You to Let AI Agents Spend Your Money",
-          "url": "https://www.cnet.com/tech/services-and-software/qualcomm-wants-you-to-let-ai-agents-spend-your-money-2/",
-          "publishedAt": "2026-09-23T10:14:42.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 112,
+  "totalCount": 114,
   "hasMore": true
 }
