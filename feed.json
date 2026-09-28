@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T09:31:13.916Z",
+  "generatedAt": "2026-09-28T11:33:23.060Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -557,6 +557,46 @@
       ]
     },
     {
+      "id": "64df069c-204b-45d6-90a7-f8aeab9fa8ac",
+      "title": "US government plans to use AI to help redact FOIA documents",
+      "summary": "The US government plans to use AI to assist with redacting documents released under Freedom of Information Act requests. Transparency advocates warn the approach could lead to even more information being withheld.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-28T11:33:16.713Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T11:33:16.713Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "The US government plans to use AI to help redact documents",
+          "url": "https://www.engadget.com/2270348/the-us-government-plans-to-use-ai-to-help-redact-documents/",
+          "publishedAt": "2026-09-28T11:25:54.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "306ce921-c0ff-4a20-86e5-1da61508aa5b",
+      "title": "H Company releases Holo4, a model family for generalist computer-use agents",
+      "summary": "H Company announced Holo4 on the Hugging Face blog, the next generation of its Holo models built to power generalist computer-use agents that operate software interfaces on a user's behalf.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-28T11:33:08.571Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T11:33:08.571Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Holo4: powering generalist computer-use agents",
+          "url": "https://huggingface.co/blog/Hcompany/holo4",
+          "publishedAt": "2026-09-28T09:44:05.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
       "title": "Meta pours promotion into Muse as the agent tops app charts, despite contractor, 0-day, and Amazon-block troubles",
       "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is topping app store charts and growing faster than ChatGPT did at launch, even as it runs into security, platform, originality, and labor trouble.\n\n- New: Meta opened an early access program for upcoming Muse features; users join by asking Muse itself to add them to the list\n- Muse is topping the app store charts and adding users rapidly, and Meta is ramping up promotion of the agent across its own apps and beyond\n- Gizmodo reports Meta tested routing some Muse tasks through a \"human concierge\" of contractors who make the agent's phone calls, one of whom reportedly made racist remarks\n- Meta says Muse was built from scratch but admits it was \"heavily inspired\" by OpenClaw, down to some workspace filenames and content\n- Ars Technica reports a serious 0-day in the highly privileged agent that could have let attackers do \"whatever\" they wanted on a victim's Mac; Meta says it has issued a fix\n- Amazon has blocked the Muse agent from shopping on Amazon.com, citing privacy and security concerns",
@@ -1082,6 +1122,28 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "4e6d70a1-e2cb-418b-bcd8-f81b43d93715",
+      "title": "Wired: AI agents are about to flood the workforce, and workplaces aren't ready",
+      "summary": "A Wired feature argues that AI agents are about to arrive in the workforce as coworkers at scale, and that organizations lack a model for how humans and agents should interact day to day.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-28T11:33:02.393Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T11:33:02.393Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI Agents Are About to Flood the Workforce. No One’s Ready for It",
+          "url": "https://www.wired.com/story/ai-agents-are-about-to-flood-the-workforce-no-ones-ready-for-it/",
+          "publishedAt": "2026-09-28T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion",
+        "enterprise-adoption"
       ]
     },
     {
@@ -2182,71 +2244,8 @@
         "safety",
         "research"
       ]
-    },
-    {
-      "id": "e2e51191-61eb-4d27-83af-ced8af509e16",
-      "title": "Enveda raises $311M at a $2B valuation to push AI-discovered, nature-derived drugs into trials",
-      "summary": "AI biotech Enveda secured $311 million in a round valuing it at $2 billion, per TechCrunch. The company uses AI to discover drugs derived from natural compounds and is currently testing candidates for skin conditions and for preserving weight loss after patients stop GLP-1 medication.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-23T20:03:20.516Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T20:03:20.516Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
-          "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
-          "publishedAt": "2026-09-23T19:31:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "00fa337c-8ba3-4430-b02a-78d87fa15bd0",
-      "title": "YouTube expands its AI search to work more like Google's",
-      "summary": "At its Made On YouTube event, YouTube announced an expansion of its AI-powered search, bringing it closer to Google's AI search experience. The move deepens the platform's reliance on AI and raises questions about what it means for creators.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-23T18:01:01.365Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T18:01:01.365Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "YouTube Is Expanding Its AI Search to Be More Like Google’s",
-          "url": "https://www.cnet.com/tech/services-and-software/youtube-expands-its-ai-search/",
-          "publishedAt": "2026-09-23T14:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "3025a9b4-98e2-4c22-b81f-67d67bc248e8",
-      "title": "Lightspeed targets $250M India fund focused on early-stage AI",
-      "summary": "Lightspeed is raising a new $250 million India fund aimed at early-stage AI startups, TechCrunch reports. For the first time the firm is aligning its India fundraising cycle with its global funds, and it is moving to a shorter investment period.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-09-25T06:33:37.664Z",
-      "lastMeaningfulUpdateAt": "2026-09-25T06:33:37.664Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
-          "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
-          "publishedAt": "2026-09-25T05:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 117,
   "hasMore": true
 }
