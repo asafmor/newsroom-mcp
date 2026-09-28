@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T07:29:12.061Z",
+  "generatedAt": "2026-09-28T09:31:13.916Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -163,6 +163,13 @@
           "url": "https://gizmodo.com/openai-to-halt-training-of-some-models-2000817912",
           "publishedAt": "2026-09-27T21:21:27.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "Who’s liable when AI agents go rogue?",
+          "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+          "publishedAt": "2026-09-28T08:06:22.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -421,6 +428,29 @@
       "tags": [
         "safety",
         "regulation"
+      ]
+    },
+    {
+      "id": "271dfdbb-ac9e-40a8-b898-19af82025963",
+      "title": "Nvidia releases an open-source security system to keep AI agents from escaping containment",
+      "summary": "Nvidia is introducing an open-source software tool designed to stop AI agents from breaking out of their sandboxes, a direct response to the string of high-profile incidents in which OpenAI's research agents acted on the live internet without authorization.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-28T09:31:00.083Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T09:31:00.083Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Nvidia’s Answer to Rogue Agents Is an Open-Source AI Security System",
+          "url": "https://www.wired.com/story/nvidias-answer-to-rogue-agents-is-an-open-source-ai-security-system/",
+          "publishedAt": "2026-09-28T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "open-source",
+        "product-launch"
       ]
     },
     {
@@ -1055,6 +1085,25 @@
       ]
     },
     {
+      "id": "597aeb53-07dd-4573-8741-f74ff842a810",
+      "title": "British startup turns video game inputs into training data for physical-world AI",
+      "summary": "A British startup is collecting players' video game inputs and shaping them into training data for AI models meant to navigate the physical world, betting that ordinary (even clumsy) gameplay is a cheap source of embodied-action data.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-28T09:31:03.457Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T09:31:03.457Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "The Next Evolution of AI Is Learning From Your Dodgy Gaming Skills",
+          "url": "https://www.wired.com/story/the-next-evolution-of-ai-is-learning-from-your-dodgy-gaming-skills/",
+          "publishedAt": "2026-09-28T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "a25194e7-5103-45f6-8082-a8b7026fc1b4",
       "title": "Blue Cross Blue Shield says hospital AI tools added $942M to healthcare spending",
       "summary": "Blue Cross Blue Shield claims hospitals' use of AI tools, such as ambient documentation software like Abridge, drove an additional $942 million in healthcare spending over a two-year period, pushing back on the industry narrative that clinical AI lowers costs.",
@@ -1279,6 +1328,25 @@
       "tags": [
         "research"
       ]
+    },
+    {
+      "id": "0c0c3983-7498-4654-be2c-bc2869fd51c8",
+      "title": "Rumored M5 Ultra Mac Studio pitched as a $5,499 box for running 100B-parameter models locally",
+      "summary": "A breakdown of Apple's rumored M5 Ultra Mac Studio, priced at $5,499, highlights its ability to run AI models of up to 100 billion parameters locally, positioning it for professionals who want on-device inference for tasks like summarizing large datasets. Rumor-stage coverage, not an Apple announcement.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-28T09:31:07.224Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T09:31:07.224Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Rumored M5 Ultra Mac Studio Could Run 100B Parameter AI Locally",
+          "url": "https://www.geeky-gadgets.com/mac-studio-m5-ultra-local-ai-2/",
+          "publishedAt": "2026-09-28T08:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "28822fb9-8dc3-40d5-b05b-2769a272dfc8",
@@ -2177,70 +2245,8 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "41ec3c8e-8d15-4d14-9fe6-5d20988b4124",
-      "title": "Microsoft disrupts EvilTokens, an AI-assisted attack platform behind 12,000 compromises",
-      "summary": "Microsoft says it has disrupted EvilTokens, an AI-assisted, end-to-end platform that made mass account compromises faster and easier and was tied to roughly 12,000 compromised targets, according to Ars Technica.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-22T21:44:29.454Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T21:44:29.454Z",
-      "sources": [
-        {
-          "providerName": "Ars Technica",
-          "title": "Microsoft disrupts AI-assisted platform that compromised 12,000",
-          "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
-          "publishedAt": "2026-09-22T19:45:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "da145139-3cda-406c-a6f0-40e4a4597337",
-      "title": "Enterprise AI agent startup Ema raises $77M",
-      "summary": "Ema, which builds AI agents that take on enterprise software and services work, raised $77 million in a round backed by investors including Accel, Prosus, Section 32 and Creaegis. The company has raised $140 million to date and counts more than 50 enterprise customers, including Google and Microsoft, as AI begins displacing spend on traditional enterprise software and services.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-23T13:56:55.979Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T13:56:55.979Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Ema raises $77M as AI starts eating into enterprise software and services",
-          "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
-          "publishedAt": "2026-09-23T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "4acf72ef-f646-45fb-9d46-193cb7f09865",
-      "title": "Treasury Secretary Bessent reportedly in line to become Trump's \"AI czar\"",
-      "summary": "Gizmodo relays a report that Treasury Secretary Scott Bessent could soon be named President Trump's \"AI czar,\" a role that would put the administration's AI policy under a cabinet official already vocal on frontier-lab accountability. Details of the role's remit and timing were not confirmed.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-23T01:48:02.317Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T01:48:02.317Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Scott Bessent Could Soon Be Trump’s ‘AI Czar,’ Report Says",
-          "url": "https://gizmodo.com/scott-bessent-could-soon-be-trumps-ai-czar-report-says-2000815770",
-          "publishedAt": "2026-09-23T01:16:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 113,
+  "totalCount": 115,
   "hasMore": true
 }
