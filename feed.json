@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T19:42:35.103Z",
+  "generatedAt": "2026-09-28T21:44:43.119Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -301,6 +301,28 @@
       "tags": [
         "safety",
         "regulation"
+      ]
+    },
+    {
+      "id": "7aa8b4cc-a6b4-45e4-9c00-57067da52947",
+      "title": "AMD to acquire Fei-Fei Li's World Labs for $8.2 billion",
+      "summary": "AMD will acquire World Labs, the world-model startup founded by Fei-Fei Li, for $8.2 billion, TechCrunch reports. Li will join AMD as executive vice president and chief scientist, giving the chipmaker an in-house frontier research lab focused on spatial intelligence and world models.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-28T21:44:33.175Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T21:44:33.175Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion",
+          "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+          "publishedAt": "2026-09-28T20:39:33.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "research"
       ]
     },
     {
@@ -642,11 +664,102 @@
           "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
           "publishedAt": "2026-09-28T16:52:38.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta Goes All-In On AI for Businesses Before Muse Goes Horribly Wrong",
+          "url": "https://gizmodo.com/meta-goes-all-in-on-ai-for-businesses-before-muse-goes-horribly-wrong-2000818432",
+          "publishedAt": "2026-09-28T20:45:55.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "enterprise-adoption",
         "product-launch"
+      ]
+    },
+    {
+      "id": "8c434be0-633e-4482-8913-15416883f869",
+      "title": "US AI data-center backlash: a developer's $10,000 offer fails to buy off Pennsylvania protesters",
+      "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built, and the industry's counter-campaigns are now under scrutiny.\n\n- New: a developer offered Pennsylvania locals $10,000 each to stop protesting a planned data center, and residents refused, per Gizmodo\n- A \"viral\" pro-data-center party was revealed to be backed by Peter Thiel, the Koch Institute, and other AI boosters\n- Nearly $200 billion worth of US data center projects have been blocked or delayed this year as communities keep pushing back\n- Opposition is pushing some companies to relocate projects and drawing political fire\n- Big Tech is countering with a multimillion-dollar ad campaign aimed at reversing public disdain\n- Environmental-justice concerns in previously industrialized neighborhoods, including a floated Philadelphia refinery site, are a central line of attack",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-01T18:56:45.629Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T21:44:24.797Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Fleeing Data Center Backlash at Home, American AI Startup Sets Up Shop In Saudi Arabia",
+          "url": "https://gizmodo.com/fleeing-data-center-backlash-at-home-american-ai-startup-sets-up-shop-in-saudi-arabia-2000805023",
+          "publishedAt": "2026-08-31T15:50:39.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump to Communities Fighting Data Centers: Have Fun Being Poor",
+          "url": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
+          "publishedAt": "2026-08-31T16:35:06.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "At G20, Big Tech and Global Leaders Can’t Escape AI’s Data Center Problem",
+          "url": "https://www.cnet.com/tech/services-and-software/g20-tech-government-leaders-ai-data-centers-protests/",
+          "publishedAt": "2026-09-02T18:42:19.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Hate AI Data Centers? Big Tech’s New Ad Campaign Aims to Change Your Mind",
+          "url": "https://www.cnet.com/tech/services-and-software/hate-ai-data-centers-big-techs-new-ad-campaign-will-try-to-change-your-mind/",
+          "publishedAt": "2026-09-02T23:06:26.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "The AI data center boom is colliding with cities scarred by big industry ",
+          "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+          "publishedAt": "2026-09-15T21:47:38.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "It’s Donald Trump Versus MAGA on Data Centers",
+          "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
+          "publishedAt": "2026-09-20T10:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Nearly $200 Billion Worth of Data Center Projects Have Been Blocked or Delayed This Year",
+          "url": "https://gizmodo.com/nearly-200-billion-worth-of-data-center-projects-have-been-blocked-or-delayed-this-year-2000815054",
+          "publishedAt": "2026-09-21T21:10:29.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Everyone can find a reason to dislike data center construction",
+          "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
+          "publishedAt": "2026-09-22T13:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Shocker: Last Night’s ‘Viral’ Pro-Data Center Party Is Tied to Thiel, the Koch Institute, and Other AI Boosters",
+          "url": "https://gizmodo.com/shocker-last-nights-viral-pro-data-center-party-is-tied-to-thiel-the-koch-institute-and-other-ai-boosters-2000817924",
+          "publishedAt": "2026-09-27T23:09:33.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Not Even $10,000 Could Convince These Locals To Stop Protesting a Data Center Project",
+          "url": "https://gizmodo.com/not-even-10000-could-convince-these-locals-to-stop-protesting-a-data-center-project-2000818312",
+          "publishedAt": "2026-09-28T21:38:37.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -713,79 +826,24 @@
       "tags": []
     },
     {
-      "id": "8c434be0-633e-4482-8913-15416883f869",
-      "title": "US AI data-center backlash draws political fire as a \"viral\" pro-data-center party turns out to be industry-backed",
-      "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built, and the industry's counter-campaign is now under scrutiny.\n\n- New: a \"viral\" pro-data-center party was revealed to be backed by Peter Thiel, the Koch Institute, and other AI boosters, per Gizmodo\n- Nearly $200 billion worth of US data center projects have been blocked or delayed this year as communities keep pushing back\n- Opposition is pushing some companies to relocate projects and drawing political fire\n- Big Tech is countering with a multimillion-dollar ad campaign aimed at reversing public disdain\n- The outcry has reached Philadelphia, where officials floated a site in a neighborhood already scarred by a now-defunct oil refinery\n- Environmental-justice concerns in previously industrialized neighborhoods are becoming a central line of attack",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T18:56:45.629Z",
-      "lastMeaningfulUpdateAt": "2026-09-27T23:22:40.257Z",
+      "id": "cfb77a62-ad87-42ef-a6d0-e54907f8cfa6",
+      "title": "Modal Labs reportedly closing a $750M round at a $15.75B valuation",
+      "summary": "AI inference provider Modal Labs is closing in on a $750 million funding round at a $15.75 billion valuation, according to a TechCrunch source. The financing would more than triple the infrastructure startup's valuation from just four months ago, with Accel reported as involved.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-28T21:44:22.111Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T21:44:22.111Z",
       "sources": [
         {
-          "providerName": "Gizmodo AI",
-          "title": "Fleeing Data Center Backlash at Home, American AI Startup Sets Up Shop In Saudi Arabia",
-          "url": "https://gizmodo.com/fleeing-data-center-backlash-at-home-american-ai-startup-sets-up-shop-in-saudi-arabia-2000805023",
-          "publishedAt": "2026-08-31T15:50:39.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump to Communities Fighting Data Centers: Have Fun Being Poor",
-          "url": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
-          "publishedAt": "2026-08-31T16:35:06.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "At G20, Big Tech and Global Leaders Can’t Escape AI’s Data Center Problem",
-          "url": "https://www.cnet.com/tech/services-and-software/g20-tech-government-leaders-ai-data-centers-protests/",
-          "publishedAt": "2026-09-02T18:42:19.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Hate AI Data Centers? Big Tech’s New Ad Campaign Aims to Change Your Mind",
-          "url": "https://www.cnet.com/tech/services-and-software/hate-ai-data-centers-big-techs-new-ad-campaign-will-try-to-change-your-mind/",
-          "publishedAt": "2026-09-02T23:06:26.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
           "providerName": "TechCrunch AI",
-          "title": "The AI data center boom is colliding with cities scarred by big industry ",
-          "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-          "publishedAt": "2026-09-15T21:47:38.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "It’s Donald Trump Versus MAGA on Data Centers",
-          "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
-          "publishedAt": "2026-09-20T10:30:00.000Z",
+          "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+          "url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
+          "publishedAt": "2026-09-28T21:29:18.000Z",
           "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Nearly $200 Billion Worth of Data Center Projects Have Been Blocked or Delayed This Year",
-          "url": "https://gizmodo.com/nearly-200-billion-worth-of-data-center-projects-have-been-blocked-or-delayed-this-year-2000815054",
-          "publishedAt": "2026-09-21T21:10:29.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Everyone can find a reason to dislike data center construction",
-          "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
-          "publishedAt": "2026-09-22T13:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Shocker: Last Night’s ‘Viral’ Pro-Data Center Party Is Tied to Thiel, the Koch Institute, and Other AI Boosters",
-          "url": "https://gizmodo.com/shocker-last-nights-viral-pro-data-center-party-is-tied-to-thiel-the-koch-institute-and-other-ai-boosters-2000817924",
-          "publishedAt": "2026-09-27T23:09:33.000Z",
-          "contribution": "meaningful-update"
         }
       ],
       "tags": [
+        "funding",
         "infrastructure"
       ]
     },
@@ -2189,99 +2247,8 @@
         "model-release",
         "safety"
       ]
-    },
-    {
-      "id": "46f1d85f-22b8-431b-8181-605ade557c92",
-      "title": "Anthropic says Claude helped its biology lab discover a novel enzyme system with CRISPR-like repeats",
-      "summary": "Anthropic reports that Claude, working inside the company's own biology lab, discovered a previously unknown enzyme system featuring CRISPR-like repeats, since described as ART (Array Associated Reverse Transcriptase), a programmable DNA-editing mechanism found in a jumbo phage. TechCrunch notes that Anthropic has not let Claude run the lab autonomously: humans remain in the loop for the experimental work, so this is AI-assisted rather than AI-run discovery.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-23T22:06:31.658Z",
-      "lastMeaningfulUpdateAt": "2026-09-24T00:08:47.027Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-          "publishedAt": "2026-09-23T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic says its biology lab has already found something big",
-          "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
-          "publishedAt": "2026-09-23T22:17:39.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Claude AI Discovers ART DNA Editing Mechanism in 21 Hours",
-          "url": "https://www.geeky-gadgets.com/claude-ai-dna-art-discovery/",
-          "publishedAt": "2026-09-25T10:43:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "MIT AI",
-          "title": "When can we say AI made a scientific discovery?",
-          "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
-          "publishedAt": "2026-09-28T17:03:16.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "9a5a7718-e179-474e-aecf-62c325f00284",
-      "title": "OpenAI launches GPT-6 Sol and Luna, cheaper Astra-class models with fewer mistakes",
-      "summary": "OpenAI launched GPT-6 Sol and Luna, two models it says are cut from the same cloth as GPT-6 Astra but offer different balances of capability and cost for everyday work, with lower prices and fewer mistakes. The release lands the same day Anthropic shipped Claude Opus 5.5, also pitched as more capable and cheaper.",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-09-22T19:42:35.746Z",
-      "lastMeaningfulUpdateAt": "2026-09-22T19:42:35.746Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Introducing GPT-6 Sol and Luna",
-          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-          "publishedAt": "2026-09-22T18:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
-          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
-          "publishedAt": "2026-09-22T18:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic and OpenAI announce more powerful (and cheaper) AI models",
-          "url": "https://www.engadget.com/2265801/anthropic-and-openai-announce-more-powerful-and-cheaper-ai-models/",
-          "publishedAt": "2026-09-22T19:11:11.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Anthropic and OpenAI Drop New High-Efficiency Models",
-          "url": "https://www.cnet.com/tech/services-and-software/anthropic-and-openai-drop-new-high-efficiency-models/",
-          "publishedAt": "2026-09-22T18:48:44.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Releases New GPT-6 Sol and Luna Models, Sells Them as Mini-Astras",
-          "url": "https://gizmodo.com/openai-releases-new-gpt-6-sol-and-luna-models-sells-them-as-mini-astras-2000815731",
-          "publishedAt": "2026-09-22T22:09:10.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 123,
   "hasMore": true
 }
