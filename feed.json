@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T17:40:32.212Z",
+  "generatedAt": "2026-09-28T19:42:35.103Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -304,6 +304,27 @@
       ]
     },
     {
+      "id": "a12a0253-325e-404e-8815-b32ad989fe14",
+      "title": "Anthropic releases Claude Sonnet 5.5, pitched as a cheaper, faster work partner",
+      "summary": "Anthropic released Claude Sonnet 5.5, the newest version of its mid-range model. The company is positioning it as a significantly cheaper and faster \"work partner,\" citing quicker response times and lower token consumption per task, per TechCrunch.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-09-28T19:42:13.552Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T19:42:13.552Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
+          "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+          "publishedAt": "2026-09-28T18:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "194c8aa7-fa89-4432-833a-e03ce5fd72ca",
       "title": "Bill Gates offers to lobby Trump on AI regulation as Altman and Amodei's \"pace the frontier\" plea meets White House inaction",
       "summary": "Dario Amodei's plan to pace rather than race frontier AI development has become an open industry-vs-politics fight: lab CEOs and now Bill Gates are pressing governments to act, while Meta refuses to join and the White House sits it out.\n\n- New: Bill Gates said on Meet the Press he is the person to convince Donald Trump to regulate AI, calling it \"completely irresponsible\" to ship AI without safeguards and warning that unchecked AI could \"drive events that cause a billion deaths,\" per Gizmodo and Engadget\n- Mark Zuckerberg rejected calls to cooperate on safety, even as OpenAI, Anthropic, and Google race to stand up a still-undescribed safety coordination organization\n- Sam Altman and Dario Amodei appeared together before the UN, warning of AI's catastrophic risks and asking the world's governments to regulate their own industry\n- At Salesforce's Dreamforce, the CEOs of OpenAI, Anthropic, and Nvidia argued on stage over whether AI should slow down; Altman, Musk, and Nadella back Amodei's camp, while Nvidia's Jensen Huang argues no regulation is needed at all\n- The White House says it has no plans to act, prioritizing keeping pace with China; Beijing is skeptical of any deal it reads as designed to keep US companies ahead\n- Lab employees report seeing no let-up in the pace of the work they're actually being asked to do",
@@ -571,6 +592,13 @@
           "url": "https://www.engadget.com/2270988/florida-ag-requests-emergency-order-to-stop-openai-model-development/",
           "publishedAt": "2026-09-28T17:11:33.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Florida Man Wants OpenAI to Stop New Models Until We Figure Out What the Hell Is Going On",
+          "url": "https://gizmodo.com/florida-man-wants-openai-to-stop-new-models-until-we-figure-out-what-the-hell-is-going-on-2000818318",
+          "publishedAt": "2026-09-28T19:35:27.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -642,6 +670,13 @@
           "title": "The Least Worried Man in AI Has a Plan to Rein in Rogue Agents",
           "url": "https://gizmodo.com/the-least-worried-man-in-ai-has-a-plan-to-rein-in-rogue-agents-2000818211",
           "publishedAt": "2026-09-28T16:41:14.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nvidia launches new platform for reining in rogue AI agents",
+          "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+          "publishedAt": "2026-09-28T18:31:23.000Z",
           "contribution": "supporting"
         }
       ],
@@ -752,6 +787,27 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "d490ebc5-8f6d-4816-8b0b-3684de5ba7a7",
+      "title": "Shopify opens checkout to browser-based AI agents via WebMCP",
+      "summary": "Shopify is expanding its WebMCP support to checkout, letting browser-based AI agents update order details and complete purchases with a buyer's authorization. It extends agentic commerce from product discovery into the actual transaction step.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-28T19:42:16.906Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T19:42:16.906Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Shopify opens checkout to browser-based AI agents",
+          "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+          "publishedAt": "2026-09-28T19:33:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1017,6 +1073,25 @@
         "model-release",
         "safety"
       ]
+    },
+    {
+      "id": "1c3d9b5f-3d95-4936-a21c-a0c793038eb3",
+      "title": "Trump administration reportedly moves to process FOIA requests with AI",
+      "summary": "The Trump administration is reportedly planning to use AI to handle Freedom of Information Act requests, per Gizmodo. Critics worry that letting automated systems decide what records are released would reduce transparency about government activity.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-28T19:42:23.344Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T19:42:23.344Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump Admin Is Reportedly Giving FOIA Requests an AI Makeover",
+          "url": "https://gizmodo.com/trump-admin-is-reportedly-giving-foia-requests-an-ai-makeover-2000818143",
+          "publishedAt": "2026-09-28T18:25:12.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "5c9dabf9-22af-4e59-bec1-f966f9efa04c",
@@ -1546,6 +1621,25 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "629d064e-5dad-4b54-991c-cb5db42d0d3f",
+      "title": "OpenAI expands the Lenfest Institute's AI journalism program with $5M in funding",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program, a local-journalism AI initiative, with $5 million in funding plus up to $5 million in software credits and engineering support.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-28T19:42:20.220Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T19:42:20.220Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+          "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+          "publishedAt": "2026-09-28T07:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "1bb03c95-54a5-4887-95da-4fd8db592a3c",
@@ -2185,102 +2279,6 @@
       ],
       "tags": [
         "model-release"
-      ]
-    },
-    {
-      "id": "691f93af-caf0-4fc8-bf8a-97be647ec179",
-      "title": "Gizmodo essay: Silicon Valley's idealists have long planned for humanity to step aside for superintelligence",
-      "summary": "A Gizmodo essay argues that idealistic tech executives treat superintelligent machines as inevitable and believe that, when they arrive, humans should step out of the way — framing today's AGI race as the continuation of a long-standing Silicon Valley worldview rather than a new development.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-26T13:01:43.605Z",
-      "lastMeaningfulUpdateAt": "2026-09-26T13:01:43.605Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "In Silicon Valley, the End of Humanity Has Always Been Part of the Plan",
-          "url": "https://gizmodo.com/in-silicon-valley-the-end-of-humanity-has-always-been-part-of-the-plan-2000816237",
-          "publishedAt": "2026-09-26T12:00:05.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "e410baab-1c07-4ea5-a9bf-5aa8565e65d8",
-      "title": "Pentagon requests $30M for an AI-powered \"Polygraph+\" lie detector",
-      "summary": "A US Department of Defense budget request seeks $30.3 million over five years for \"Polygraph+\" (also called \"Polygraph Next\"), an improved lie detector built around AI and machine-learning scoring algorithms and \"standoff sensing\" that reads subjects without physical contact, MIT Technology Review reports.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-25T10:37:25.528Z",
-      "lastMeaningfulUpdateAt": "2026-09-25T10:37:25.528Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-          "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-          "publishedAt": "2026-09-25T09:16:25.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "9dfab6a5-f90f-459b-9edd-2fe3b743f149",
-      "title": "Cloudflare's Turnstile Spin lets AI coding agents finish your bot-protection setup",
-      "summary": "Cloudflare launched Turnstile Spin, which hands incomplete Turnstile setups to a developer's preferred AI coding agent to wire up the server-side verification that sites commonly skip, closing a misconfiguration that leaves them exposed to bots.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-25T16:42:45.196Z",
-      "lastMeaningfulUpdateAt": "2026-09-25T16:42:45.196Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Agents can now set up your website’s security with Turnstile Spin",
-          "url": "https://blog.cloudflare.com/turnstile-spin/",
-          "publishedAt": "2026-09-25T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "72b0c897-a736-48c9-956e-d457c4a62fc0",
-      "title": "Google tests \"Call for Me,\" letting Gemini phone businesses on Pixel 11 owners' behalf",
-      "summary": "Google is beginning a limited rollout of Call for Me, a feature that lets Gemini place phone calls to businesses on a user's behalf. It is initially exclusive to Pixel 11 owners in the U.S. who pay for a Gemini subscription, with select subscribers getting early access first.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-24T16:20:59.494Z",
-      "lastMeaningfulUpdateAt": "2026-09-24T16:20:59.494Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google tests letting Gemini call businesses for you",
-          "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
-          "publishedAt": "2026-09-24T16:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Google’s Gemini Can Now Make Calls for You on Pixel Phones",
-          "url": "https://www.wired.com/story/googles-gemini-can-now-make-calls-for-you-on-pixel-phones/",
-          "publishedAt": "2026-09-24T16:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Pixel 11's Call For Me feature begins preliminary rollout",
-          "url": "https://www.engadget.com/2267120/pixel-11-call-for-me-feature-begins-preliminary-rollout/",
-          "publishedAt": "2026-09-24T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
       ]
     }
   ],
