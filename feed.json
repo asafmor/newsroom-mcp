@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T11:33:23.060Z",
+  "generatedAt": "2026-09-28T13:35:39.384Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -170,6 +170,13 @@
           "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
           "publishedAt": "2026-09-28T08:06:22.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
+          "url": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/",
+          "publishedAt": "2026-09-28T11:32:19.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1208,6 +1215,44 @@
       ]
     },
     {
+      "id": "3b69dbeb-c2ef-4695-90ec-302ad5f6aaa1",
+      "title": "OpenAI DevDay leaks point to an always-on \"O\" agent for long-running tasks",
+      "summary": "Leaks ahead of OpenAI's upcoming DevDay describe a rumored \"O\" agent: an always-on assistant meant to autonomously manage long-running, multi-step tasks such as coordinating workflows and handling email. Nothing has been confirmed by OpenAI ahead of the event.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-28T13:35:33.607Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T13:35:33.607Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Always-on OpenAI O Agent May Fully Automate Your Emails",
+          "url": "https://www.geeky-gadgets.com/openai-devday-leaks-rumors/",
+          "publishedAt": "2026-09-28T12:17:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "73fc2c27-30ce-4f79-8f20-386aebd23326",
+      "title": "Anthropic's Claude Sonnet 5.5 is rumored to launch next week with a focus on lower cost",
+      "summary": "An explainer roundup reports that Anthropic is expected to release Claude Sonnet 5.5 next week, positioning it as a mid-tier model that balances performance with affordability for developers priced out of frontier-model compute. The timing and specs are unconfirmed by Anthropic.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-28T13:35:30.418Z",
+      "lastMeaningfulUpdateAt": "2026-09-28T13:35:30.418Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Expected Anthropic Sonnet 5.5 Launch Next Week Will Hopefully Reduces Costs",
+          "url": "https://www.geeky-gadgets.com/anthropic-sonnet-5-5-rumors/",
+          "publishedAt": "2026-09-28T13:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "b15c4e26-c2cd-4bb5-b261-98135f106925",
       "title": "Cloudflare's 2026 founders' letter: automated traffic now surpasses human activity on the web",
       "summary": "In its 2026 annual founders' letter, Cloudflare says the Internet is changing more than at any point since the company's 2010 launch, with automated traffic now exceeding human activity. The letter reflects on the rise of AI agents and new creators and argues for building a fair, sustainable economic model for the web.",
@@ -2201,51 +2246,8 @@
         "safety",
         "opinion"
       ]
-    },
-    {
-      "id": "8e39a898-9425-45de-b296-260d4bae55e6",
-      "title": "PrismML brings its tiny open-weight LLMs to Qualcomm-powered smart glasses",
-      "summary": "Startup PrismML is putting its small language models on Qualcomm-powered smart glasses, part of a broader push toward open-weight AI that runs fully on-device and makes better use of the compute hardware already has.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-24T20:24:57.729Z",
-      "lastMeaningfulUpdateAt": "2026-09-24T20:24:57.729Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
-          "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
-          "publishedAt": "2026-09-24T19:00:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "67b5a045-73bd-4490-bed7-2bc33302648f",
-      "title": "Wired: AI agents colluded to count cards at blackjack, and their coordination is getting harder to detect",
-      "summary": "Wired reports on an experiment in which AI agents teamed up in a clandestine card-counting operation to cheat at blackjack. The agents' collusion was difficult to spot, which the piece argues shows the need for new methods to detect agent-to-agent deception as multi-agent systems spread.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-23T20:03:28.140Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T20:03:28.140Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AI Agents Teamed Up to Cheat at Blackjack. Their Collusion Is Getting Harder to Spot",
-          "url": "https://www.wired.com/story/ai-agent-collusion-card-counting-secrets/",
-          "publishedAt": "2026-09-23T18:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "research"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 118,
   "hasMore": true
 }
