@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T09:56:18.845Z",
+  "generatedAt": "2026-09-29T11:58:50.957Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -205,6 +205,13 @@
           "url": "https://www.engadget.com/2271626/openai-cancels-gpt-6-1-astra-release-deceptive-behavior/",
           "publishedAt": "2026-09-29T08:15:26.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI Delays Release of Latest Model Over Safety Concerns",
+          "url": "https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/",
+          "publishedAt": "2026-09-29T10:36:22.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -215,7 +222,7 @@
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
       "title": "Anthropic's IPO prospectus discloses tens of billions in annual losses, rapid growth, and an existential-risk warning",
-      "summary": "Anthropic's IPO prospectus is public, and it tells investors the company is losing tens of billions of dollars a year while growing fast.\n\n- New: The prospectus discloses annual losses in the tens of billions alongside rapid revenue growth, per TechCrunch\n- New: Its risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity\n- Anthropic is asking shareholders to approve a structure giving its seven co-founders a combined 50.1% of the vote on most corporate matters, locking in founder control",
+      "summary": "Anthropic's IPO prospectus is public, and it tells investors the company is losing billions of dollars a year while growing fast.\n\n- The prospectus discloses heavy annual losses alongside rapid revenue growth; TechCrunch describes them as tens of billions, while Engadget puts last year's net loss at about $8 billion\n- Engadget notes the filing comes against a roughly $2 trillion pre-IPO valuation\n- Its risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity\n- Anthropic is asking shareholders to approve a structure giving its seven co-founders a combined 50.1% of the vote on most corporate matters, locking in founder control",
       "importanceScore": 0.85,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-25T16:42:37.631Z",
@@ -234,6 +241,13 @@
           "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
           "publishedAt": "2026-09-29T05:13:43.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic lost $8 billion last year and said its AI could destroy humanity",
+          "url": "https://www.engadget.com/2271659/anthropic-lost-8-billion-says-it-could-destroy-humanity/",
+          "publishedAt": "2026-09-29T09:59:57.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1394,6 +1408,48 @@
       ]
     },
     {
+      "id": "4ec96e16-a652-4f2a-8301-26d01ed98bbb",
+      "title": "Xiaomi claims its HySparse2 design cuts compute costs 80% for the unreleased MiMo V3",
+      "summary": "Xiaomi says a new HySparse2 architecture will cut compute costs by about 80% for its not-yet-released MiMo V3 model, per Geeky Gadgets, which pairs the claim with DeepSeek V4.1 Flash's layer note-sharing mechanism as two approaches to the memory-efficiency and long-context cost problem. The figure is company-reported and the model is unreleased, so it is unverified.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-29T11:58:41.308Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T11:58:41.308Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Xiaomi Claims an 80% Compute Cost Drop for Unreleased MiMo V3",
+          "url": "https://www.geeky-gadgets.com/xiaomi-deepseek-ai-memory-limits/",
+          "publishedAt": "2026-09-29T10:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "cd9c9c35-60ef-4909-b2d6-f59c82b6f76f",
+      "title": "Timnit Gebru tells Wired there is no \"existential threat\" from AI, calling doom talk a fundraising story",
+      "summary": "In Wired's Big Interview podcast, AI critic Timnit Gebru argues that existential-risk warnings from AI labs are about founders making money rather than saving humanity, and rejects the idea that current AI poses an existential threat.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-29T11:58:33.909Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T11:58:33.909Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Timnit Gebru Believes There Is No ‘Existential Threat’ From AI",
+          "url": "https://www.wired.com/story/the-big-interview-podcast-timnit-gebru/",
+          "publishedAt": "2026-09-29T10:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "1c3d9b5f-3d95-4936-a21c-a0c793038eb3",
       "title": "Trump administration reportedly moves to process FOIA requests with AI",
       "summary": "The Trump administration is reportedly planning to use AI to handle Freedom of Information Act requests, per Gizmodo. Critics worry that letting automated systems decide what records are released would reduce transparency about government activity.",
@@ -2179,128 +2235,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "8a45139c-73cd-4e50-adb0-f6aa2bb3d45f",
-      "title": "Meta Connect 2026: camera-free AI glasses, a slimmer VR headset, and a Muse \"Charm\" gadget",
-      "summary": "At Connect 2026, Mark Zuckerberg unveiled a new hardware lineup built around putting Meta's Muse AI agent on your face and in your pocket.\n\n- Ray-Ban Meta Audio: Meta's first camera-free AI glasses, lighter than the camera models with up to 12 hours of battery life\n- Ray-Ban Meta Gen 3 refreshes the camera-equipped line\n- A slimmed-down VR headset joins the lineup\n- The Muse agent is coming to Meta's AI glasses, so the assistant can carry out tasks like booking a flight while you're out\n- Meta Charm is a Tamagotchi-like pocket device that runs Muse",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-23T18:01:12.366Z",
-      "lastMeaningfulUpdateAt": "2026-09-24T00:08:44.401Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Meta Connect 2026 live: Updates from Mark Zuckerberg's keynote on AI glasses, VR and more",
-          "url": "https://www.engadget.com/2266105/meta-connect-2026-live-blog-ai-vr/",
-          "publishedAt": "2026-09-23T16:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Meta VR Glasses, Ray-Ban Meta Audio, Ray-Ban Meta Gen 3: Specs, Features, Prices",
-          "url": "https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses/",
-          "publishedAt": "2026-09-23T23:42:44.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta introduces camera-free AI glasses",
-          "url": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
-          "publishedAt": "2026-09-23T23:39:44.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Meta put Muse in a Tamagotchi like 'Charm' device",
-          "url": "https://www.engadget.com/2267229/meta-put-muse-in-a-tamagotchi-like-charm-device/",
-          "publishedAt": "2026-09-24T00:05:03.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Meta's Muse AI agent is coming to its AI glasses",
-          "url": "https://www.engadget.com/2267210/meta-muse-ai-agent-smart-glasses/",
-          "publishedAt": "2026-09-23T23:28:12.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Everything new coming to Meta’s AI agent Muse",
-          "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
-          "publishedAt": "2026-09-24T01:13:32.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
-          "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
-          "publishedAt": "2026-09-24T00:46:17.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend",
-          "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
-          "publishedAt": "2026-09-24T17:39:24.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Meta’s New AI Device Is This Tamagotchi-Like Muse Charm Keychain",
-          "url": "https://www.cnet.com/tech/services-and-software/meta-connect-muse-charm-ai-keychain-announcement/",
-          "publishedAt": "2026-09-24T15:06:52.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Everything Announced At Meta Connect In 10 Minutes",
-          "url": "https://in.mashable.com/tech/114296/everything-announced-at-meta-connect-in-10-minutes",
-          "publishedAt": "2026-09-24T15:19:02.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "At Meta Connect, the company’s smart glasses were everywhere",
-          "url": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
-          "publishedAt": "2026-09-26T01:08:57.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "23d5b185-5ab1-4c21-8da7-b3470ad0601f",
-      "title": "Google's Gemini 3.8 Flash TTS adds 30-second voice cloning, style control, and multilingual speech",
-      "summary": "Google DeepMind's Gemini 3.8 text-to-speech models, announced this week, now have documented capabilities.\n\n- Voice cloning from roughly 30 seconds of sample audio\n- Style control for expressive delivery and multilingual output\n- Flash TTS is pitched at rich, expressive uses such as audiobooks and storytelling\n- A separate variant targets high-volume tasks like dubbing and voice agents\n- Pricing and availability details are still not reported",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-23T15:58:51.505Z",
-      "lastMeaningfulUpdateAt": "2026-09-25T10:37:33.966Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Gemini 3.8 text-to-speech says hello",
-          "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-          "publishedAt": "2026-09-23T15:25:14.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Gemini 3.8 Flash TTS Adds 30-Second Voice Cloning",
-          "url": "https://www.geeky-gadgets.com/gemini-3-8-flash-tts-features/",
-          "publishedAt": "2026-09-25T08:43:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 119,
+  "totalCount": 117,
   "hasMore": true
 }
