@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T07:53:58.434Z",
+  "generatedAt": "2026-09-29T09:56:18.845Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -198,6 +198,13 @@
           "url": "https://gizmodo.com/openai-cancels-release-of-gpt-6-1-astra-because-it-regressed-on-safety-2000818566",
           "publishedAt": "2026-09-29T00:08:43.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI reportedly cancels GPT-6.1 Astra's release over deceptive behavior",
+          "url": "https://www.engadget.com/2271626/openai-cancels-gpt-6-1-astra-release-deceptive-behavior/",
+          "publishedAt": "2026-09-29T08:15:26.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -351,6 +358,42 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "f366f084-489c-4f4a-bcce-a00ef80ea74f",
+      "title": "Meta launches an enterprise AI platform, hires MongoDB's CEO to run it, and ships a small-business Muse",
+      "summary": "Meta is pushing its Muse agent stack beyond consumers into a business and developer offering.\n\n- New: A small-business version of Muse can now connect to Instagram and Facebook ad accounts and analytics\n- Meta is launching an enterprise AI platform and has hired MongoDB's CEO to lead the initiative\n- The platform brings Meta's full stack to businesses and developers, including Muse, Meta Business Agent, the Muse API, and Muse Code",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-28T17:39:55.046Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T09:55:59.834Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+          "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+          "publishedAt": "2026-09-28T16:52:38.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta Goes All-In On AI for Businesses Before Muse Goes Horribly Wrong",
+          "url": "https://gizmodo.com/meta-goes-all-in-on-ai-for-businesses-before-muse-goes-horribly-wrong-2000818432",
+          "publishedAt": "2026-09-28T20:45:55.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Meta now has a version of Muse just for small businesses",
+          "url": "https://www.engadget.com/2271498/meta-now-has-a-version-of-muse-just-for-small-businesses/",
+          "publishedAt": "2026-09-29T09:30:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption",
+        "product-launch"
       ]
     },
     {
@@ -765,31 +808,37 @@
       ]
     },
     {
-      "id": "f366f084-489c-4f4a-bcce-a00ef80ea74f",
-      "title": "Meta launches an enterprise AI platform and hires MongoDB's CEO to run it",
-      "summary": "Meta is launching an enterprise AI platform and has hired MongoDB's CEO to lead the new initiative. Meta says the push will bring its full technology stack to businesses and developers, including Muse, Meta Business Agent, the Muse API, and Muse Code, extending the consumer-focused Muse agent into a business and developer offering.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-28T17:39:55.046Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T17:39:55.046Z",
+      "id": "59932556-600a-4ddb-82d5-8de47be44055",
+      "title": "Microsoft's Copilot app adds Office, natural-language coding, automation, and an Agent Builder",
+      "summary": "Microsoft is giving its Copilot app another redesign, folding in Office document work, natural-language coding, and task automation, per Engadget. A new Agent Builder inside Copilot lets both technical and non-technical users design, customize, and deploy their own AI agents in minutes from templates or custom prompts.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-25T12:39:29.494Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T09:55:56.646Z",
       "sources": [
         {
-          "providerName": "TechCrunch AI",
-          "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-          "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
-          "publishedAt": "2026-09-28T16:52:38.000Z",
+          "providerName": "Engadget AI",
+          "title": "Microsoft's Copilot app adds Office, natural coding and automation",
+          "url": "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
+          "publishedAt": "2026-09-25T12:00:00.000Z",
           "contribution": "supporting"
         },
         {
           "providerName": "Gizmodo AI",
-          "title": "Meta Goes All-In On AI for Businesses Before Muse Goes Horribly Wrong",
-          "url": "https://gizmodo.com/meta-goes-all-in-on-ai-for-businesses-before-muse-goes-horribly-wrong-2000818432",
-          "publishedAt": "2026-09-28T20:45:55.000Z",
+          "title": "Microsoft Thinks It’s Finally Figured Out Copilot This Time",
+          "url": "https://gizmodo.com/microsoft-thinks-its-finally-figured-out-copilot-this-time-2000817460",
+          "publishedAt": "2026-09-25T16:40:28.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Microsoft Copilot Agent Builder Creates AI Agents in Minutes",
+          "url": "https://www.geeky-gadgets.com/how-to-use-copilot-agent-builder/",
+          "publishedAt": "2026-09-29T08:17:00.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
-        "enterprise-adoption",
         "product-launch"
       ]
     },
@@ -2094,34 +2143,6 @@
       ]
     },
     {
-      "id": "59932556-600a-4ddb-82d5-8de47be44055",
-      "title": "Microsoft's Copilot app adds Office, natural-language coding, and automation",
-      "summary": "Microsoft is giving its Copilot app another redesign, folding in Office document work, natural-language coding, and task automation, per Engadget.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-25T12:39:29.494Z",
-      "lastMeaningfulUpdateAt": "2026-09-25T12:39:29.494Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Microsoft's Copilot app adds Office, natural coding and automation",
-          "url": "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
-          "publishedAt": "2026-09-25T12:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Microsoft Thinks It’s Finally Figured Out Copilot This Time",
-          "url": "https://gizmodo.com/microsoft-thinks-its-finally-figured-out-copilot-this-time-2000817460",
-          "publishedAt": "2026-09-25T16:40:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
       "id": "a68ec58d-a10a-4dc7-98c3-d4815ed9d93f",
       "title": "Trump says the US government will call AI \"Super Intelligence\" instead of \"artificial\"",
       "summary": "In his UN General Assembly address this week, President Trump declared that the US government will now refer to artificial intelligence as \"Super Intelligence,\" arguing the word \"artificial\" makes the technology sound fake. Mashable's commentary notes the new label changes nothing about the technology's underlying problems and baggage.",
@@ -2280,6 +2301,6 @@
       ]
     }
   ],
-  "totalCount": 120,
+  "totalCount": 119,
   "hasMore": true
 }
