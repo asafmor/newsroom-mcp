@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T05:51:44.465Z",
+  "generatedAt": "2026-09-29T07:53:58.434Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -927,6 +927,28 @@
       ]
     },
     {
+      "id": "9d00da8f-ab08-441d-b099-f5ecc39e06ff",
+      "title": "ElevenLabs launches Eleven v4 and v4 Turbo text-to-speech models",
+      "summary": "ElevenLabs introduced Eleven v4 and a lower-latency Eleven v4 Turbo, its next generation of text-to-speech models. Per Geeky Gadgets, v4 includes Instant Voice Clones that replicate a voice from about 10 seconds of audio and Professional Voice Clones aimed at higher-fidelity projects, while Turbo targets real-time, low-latency use cases.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-29T07:53:40.621Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T07:53:40.621Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ElevenLabs Launches Eleven V4 and Eleven V4 Turbo for TTS",
+          "url": "https://www.geeky-gadgets.com/eleven-v4-turbo-text-to-speech/",
+          "publishedAt": "2026-09-29T06:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "product-launch"
+      ]
+    },
+    {
       "id": "837c9ac4-e3e5-4bf7-8563-4ea9094c0a5f",
       "title": "Dario Amodei to have his first one-on-one dinner with President Trump",
       "summary": "Anthropic CEO Dario Amodei is reportedly having a one-on-one dinner with President Trump on Sunday night, the first such meeting between the two, per TechCrunch and Gizmodo. The sit-down comes as Anthropic fights the Pentagon's supply-chain-risk designation in court and as Amodei lobbies governments to pace frontier AI development.",
@@ -1094,6 +1116,27 @@
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "88542c45-550c-460d-8b71-d4ea0c213b9f",
+      "title": "Jensen Huang says it's fine if kids forget basic math because of AI, as a large study shows score drops",
+      "summary": "Nvidia CEO Jensen Huang said AI's effect on students may be a worthwhile trade-off even if children lose basic math skills. Per Mashable, the remark lands as a study of 26,000 Chinese students found heavy AI reliance was associated with exam scores falling by up to 20 percent, sharpening the debate over whether AI-assisted schoolwork comes at the cost of actual learning.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-29T07:53:45.376Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T07:53:45.376Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Nvidia CEO Jensen Huang Says It’s Okay If Kids Forget Basic Maths Because of AI",
+          "url": "https://in.mashable.com/tech/114413/nvidia-ceo-jensen-huang-says-its-okay-if-kids-forget-basic-maths-because-of-ai",
+          "publishedAt": "2026-09-29T07:08:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -2235,64 +2278,8 @@
         "model-release",
         "product-launch"
       ]
-    },
-    {
-      "id": "5de5de08-41f0-4923-aaa4-a37768e3197b",
-      "title": "Google's Project Suncatcher will launch AI chips into space next week",
-      "summary": "Google is sending AI chips into orbit next week under Project Suncatcher, an experiment meant to advance its longer-term plan to someday build AI data centers in space.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-25T00:28:04.233Z",
-      "lastMeaningfulUpdateAt": "2026-09-25T00:28:04.233Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google’s Project Suncatcher Is Sending AI Chips Into Space Next Week",
-          "url": "https://gizmodo.com/googles-project-suncatcher-is-sending-ai-chips-into-space-next-week-2000816985",
-          "publishedAt": "2026-09-24T22:49:46.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Project Suncatcher Uses Space Solar Panels for AI",
-          "url": "https://www.geeky-gadgets.com/google-project-suncatcher-ai/",
-          "publishedAt": "2026-09-25T10:13:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "An Imminent Google Satellite Test Is Another Step Toward Data Centers in Space",
-          "url": "https://www.cnet.com/tech/services-and-software/google-satellite-space-data-center/",
-          "publishedAt": "2026-09-25T15:06:23.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "80ffa83d-c12f-4329-b2b8-c5e261c5e63b",
-      "title": "Anthropic invites developers to build plugins for Claude",
-      "summary": "Anthropic published a guide on the Claude blog for building plugins for Claude, opening the assistant to developer-built extensions.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-25T20:46:54.384Z",
-      "lastMeaningfulUpdateAt": "2026-09-25T20:46:54.384Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Build plugins for Claude",
-          "url": "https://claude.com/blog/build-plugins-for-claude",
-          "publishedAt": "2026-09-25T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 119,
+  "totalCount": 120,
   "hasMore": true
 }
