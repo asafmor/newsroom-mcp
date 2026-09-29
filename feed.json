@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T14:01:07.780Z",
+  "generatedAt": "2026-09-29T16:03:18.265Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -260,6 +260,34 @@
       "tags": [
         "funding",
         "safety"
+      ]
+    },
+    {
+      "id": "c90a4261-5318-4d13-81df-25ed0564c7bc",
+      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+      "summary": "Instinct, the consumer AI agent that went viral for booking reservations, handling email, and making phone calls on users' behalf, has raised a $1 billion Series C at a $10 billion valuation.\n\n- The round values the company at $10B; the company says \"we're just getting started\"\n- Founder says more than 50% of transactions on the platform are travel-related\n- Founder says the platform is growing 10% day over day",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-28T15:37:19.756Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T16:02:53.869Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+          "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+          "publishedAt": "2026-09-28T13:38:48.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Instinct founder said more than 50% of transactions on the platform are travel-related",
+          "url": "https://techcrunch.com/2026/09/29/instinct-founder-said-more-than-50-of-transactions-on-the-platform-are-travel-related/",
+          "publishedAt": "2026-09-29T15:12:07.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "funding"
       ]
     },
     {
@@ -815,27 +843,6 @@
       ]
     },
     {
-      "id": "c90a4261-5318-4d13-81df-25ed0564c7bc",
-      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
-      "summary": "Instinct, the consumer AI agent that recently went viral for booking reservations, handling email, and making phone calls on users' behalf, has raised a $1 billion Series C valuing the company at $10 billion. The company says \"we're just getting started.\"",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-28T15:37:19.756Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T15:37:19.756Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
-          "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
-          "publishedAt": "2026-09-28T13:38:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
       "id": "59932556-600a-4ddb-82d5-8de47be44055",
       "title": "Microsoft's Copilot app adds Office, natural-language coding, automation, and an Agent Builder",
       "summary": "Microsoft is giving its Copilot app another redesign, folding in Office document work, natural-language coding, and task automation, per Engadget. A new Agent Builder inside Copilot lets both technical and non-technical users design, customize, and deploy their own AI agents in minutes from templates or custom prompts.",
@@ -869,6 +876,32 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "3b69dbeb-c2ef-4695-90ec-302ad5f6aaa1",
+      "title": "OpenAI DevDay 2026 is underway after leaks pointed to an always-on \"O\" agent",
+      "summary": "OpenAI's DevDay 2026 is underway today, with CEO Sam Altman expected on stage and outlets live-blogging ChatGPT and Codex announcements. Pre-event leaks described a rumored \"O\" agent: an always-on assistant meant to autonomously manage long-running, multi-step tasks such as coordinating workflows and handling email. OpenAI has not confirmed the agent; watch for official announcements from the event.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-28T13:35:33.607Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T16:02:56.680Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Always-on OpenAI O Agent May Fully Automate Your Emails",
+          "url": "https://www.geeky-gadgets.com/openai-devday-leaks-rumors/",
+          "publishedAt": "2026-09-28T12:17:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI Dev Day 2026: Live updates on the latest ChatGPT and Codex announcements",
+          "url": "https://www.engadget.com/2271985/openai-dev-day-live-blog-chatgpt-news/",
+          "publishedAt": "2026-09-29T15:00:10.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -1024,6 +1057,25 @@
         "model-release",
         "product-launch"
       ]
+    },
+    {
+      "id": "3fd360fa-0bd7-4239-8b77-e06fa23711c7",
+      "title": "Creative-industry jobs plummet amid the AI boom",
+      "summary": "Gizmodo reports that film, TV, publishing, and other creative industries are going through one of their worst stretches of job losses in decades, with the downturn coinciding with the rapid adoption of generative AI across those fields.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-29T16:03:02.587Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T16:03:02.587Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Creative Jobs Have Plummeted Amid the AI Boom",
+          "url": "https://gizmodo.com/creative-jobs-have-plummeted-amid-the-ai-boom-2000818893",
+          "publishedAt": "2026-09-29T15:45:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "485c3280-1a10-42f1-b1e6-4bb9c2d1abf0",
@@ -1218,6 +1270,28 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "517c86a2-668c-4c9f-826c-bc5a6af4d929",
+      "title": "NVIDIA's Kumo Tabular model claims a new accuracy-efficiency frontier for tabular prediction",
+      "summary": "NVIDIA published Kumo Tabular on the Hugging Face blog, a model for tabular prediction that it says sets a new accuracy-efficiency frontier against existing tabular approaches.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-29T16:02:59.807Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T16:02:59.807Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+          "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+          "publishedAt": "2026-09-29T15:30:38.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "research"
+      ]
     },
     {
       "id": "64df069c-204b-45d6-90a7-f8aeab9fa8ac",
@@ -1996,25 +2070,6 @@
       ]
     },
     {
-      "id": "3b69dbeb-c2ef-4695-90ec-302ad5f6aaa1",
-      "title": "OpenAI DevDay leaks point to an always-on \"O\" agent for long-running tasks",
-      "summary": "Leaks ahead of OpenAI's upcoming DevDay describe a rumored \"O\" agent: an always-on assistant meant to autonomously manage long-running, multi-step tasks such as coordinating workflows and handling email. Nothing has been confirmed by OpenAI ahead of the event.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-28T13:35:33.607Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T13:35:33.607Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Always-on OpenAI O Agent May Fully Automate Your Emails",
-          "url": "https://www.geeky-gadgets.com/openai-devday-leaks-rumors/",
-          "publishedAt": "2026-09-28T12:17:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
       "id": "b15c4e26-c2cd-4bb5-b261-98135f106925",
       "title": "Cloudflare's 2026 founders' letter: automated traffic now surpasses human activity on the web",
       "summary": "In its 2026 annual founders' letter, Cloudflare says the Internet is changing more than at any point since the company's 2010 launch, with automated traffic now exceeding human activity. The letter reflects on the rise of AI agents and new creators and argues for building a fair, sustainable economic model for the web.",
@@ -2207,57 +2262,8 @@
         "model-release",
         "product-launch"
       ]
-    },
-    {
-      "id": "ec5acf33-682a-4d27-a7e1-caa89ecf2ee0",
-      "title": "Oracle sends force majeure notice on its New Mexico Stargate data center",
-      "summary": "Oracle has sent a force majeure notice on its New Mexico Stargate data center, a move that would let it delay payments if the facility misses its 2028 target to come online.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-24T18:23:09.838Z",
-      "lastMeaningfulUpdateAt": "2026-09-24T18:23:09.838Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Oracle sends force majeure notice on its New Mexico Stargate data center",
-          "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
-          "publishedAt": "2026-09-24T18:11:44.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Bubble Watch: Oracle Seeks Financial Shield From Massive Data Center Project",
-          "url": "https://gizmodo.com/ai-bubble-watch-oracle-seeks-financial-shield-from-massive-data-center-project-2000816870",
-          "publishedAt": "2026-09-24T19:46:26.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "72b08443-5958-4c77-a98d-b6c193fe9e97",
-      "title": "GPT-6 Astra and Claude Opus finish Alan Turing's WWII codebreaking work",
-      "summary": "TechCrunch reports that frontier models from OpenAI (GPT-6 Astra) and Anthropic (Claude Opus) have completed codebreaking work Alan Turing left unfinished from World War II, a symbolic milestone the piece frames as passing \"Turing's other test.\"",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-25T18:45:02.615Z",
-      "lastMeaningfulUpdateAt": "2026-09-25T18:45:02.615Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Astra and Opus just passed Turing’s other test",
-          "url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
-          "publishedAt": "2026-09-25T17:24:36.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 119,
   "hasMore": true
 }
