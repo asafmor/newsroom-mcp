@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T03:50:13.756Z",
+  "generatedAt": "2026-09-29T05:51:44.465Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -203,6 +203,35 @@
       "tags": [
         "safety",
         "regulation"
+      ]
+    },
+    {
+      "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
+      "title": "Anthropic's IPO prospectus discloses tens of billions in annual losses, rapid growth, and an existential-risk warning",
+      "summary": "Anthropic's IPO prospectus is public, and it tells investors the company is losing tens of billions of dollars a year while growing fast.\n\n- New: The prospectus discloses annual losses in the tens of billions alongside rapid revenue growth, per TechCrunch\n- New: Its risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity\n- Anthropic is asking shareholders to approve a structure giving its seven co-founders a combined 50.1% of the vote on most corporate matters, locking in founder control",
+      "importanceScore": 0.85,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-25T16:42:37.631Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T05:51:26.954Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s founders seek voting control ahead of IPO",
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+          "publishedAt": "2026-09-25T15:40:03.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+          "publishedAt": "2026-09-29T05:13:43.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "funding",
+        "safety"
       ]
     },
     {
@@ -943,6 +972,27 @@
       "tags": [
         "funding",
         "infrastructure"
+      ]
+    },
+    {
+      "id": "bae66c3f-3077-4f5f-ba93-a04299fb4f3f",
+      "title": "Nvidia's $150B buyback shows where AI profits flow first, CNET argues",
+      "summary": "Nvidia announced a $150 billion share buyback, and CNET argues it props up AI hype while rewarding insiders and institutions before everyday investors. The piece frames Nvidia as the one AI company with real profits, and the buyback as a sign of who benefits first from the AI boom.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-29T05:51:30.494Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T05:51:30.494Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Nvidia’s $150 Billion Buyback: A Lifeline for AI Hype, Not Everyday Investors",
+          "url": "https://www.cnet.com/tech/services-and-software/nvidia-150-billion-buyback-ai-hype-not-everyday-investors/",
+          "publishedAt": "2026-09-29T00:15:31.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -1699,27 +1749,6 @@
       ]
     },
     {
-      "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
-      "title": "Anthropic's founders seek 50.1% voting control ahead of IPO",
-      "summary": "Anthropic is asking shareholders to approve a governance structure that would give its seven co-founders a combined 50.1% of the vote on most corporate matters, locking in founder control as the company prepares for an IPO.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-25T16:42:37.631Z",
-      "lastMeaningfulUpdateAt": "2026-09-25T16:42:37.631Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s founders seek voting control ahead of IPO",
-          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
-          "publishedAt": "2026-09-25T15:40:03.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
       "id": "3b69dbeb-c2ef-4695-90ec-302ad5f6aaa1",
       "title": "OpenAI DevDay leaks point to an always-on \"O\" agent for long-running tasks",
       "summary": "Leaks ahead of OpenAI's upcoming DevDay describe a rumored \"O\" agent: an always-on assistant meant to autonomously manage long-running, multi-step tasks such as coordinating workflows and handling email. Nothing has been confirmed by OpenAI ahead of the event.",
@@ -2262,36 +2291,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "2390f90d-8377-43db-aaea-1f613c773098",
-      "title": "US-China AI national-security hotline is under discussion but won't be ready for a while",
-      "summary": "US and Chinese officials are working toward a mechanism to notify each other of AI incidents that could threaten national security, Wired reports.\n\n- Officials discussed a mutual alert channel for AI national-security incidents as both countries race for AI dominance\n- A follow-up report says the hotline won't be operational for some time; no timeline has been given\n- The talks sit alongside broader US-China communication efforts on national security issues",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-21T11:12:40.110Z",
-      "lastMeaningfulUpdateAt": "2026-09-23T22:06:20.592Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "US and China Discuss Alerting Each Other to AI National Security Threats",
-          "url": "https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/",
-          "publishedAt": "2026-09-21T10:34:43.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "A US-China AI Hotline Won't Be Ready For a While",
-          "url": "https://www.wired.com/story/a-us-china-ai-hotline-wont-be-ready-for-a-while/",
-          "publishedAt": "2026-09-23T21:00:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 119,
   "hasMore": true
 }
