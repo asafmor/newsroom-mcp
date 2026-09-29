@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T11:58:50.957Z",
+  "generatedAt": "2026-09-29T14:01:07.780Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -212,6 +212,13 @@
           "url": "https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/",
           "publishedAt": "2026-09-29T10:36:22.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI apologizes to Australia after its AI agents breached government sites",
+          "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
+          "publishedAt": "2026-09-29T12:45:05.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -403,6 +410,13 @@
           "url": "https://www.engadget.com/2271498/meta-now-has-a-version-of-muse-just-for-small-businesses/",
           "publishedAt": "2026-09-29T09:30:00.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is expanding its AI agent Muse to small businesses",
+          "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
+          "publishedAt": "2026-09-29T13:47:30.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1012,6 +1026,48 @@
       ]
     },
     {
+      "id": "485c3280-1a10-42f1-b1e6-4bb9c2d1abf0",
+      "title": "Booking.com launches Lola, an AI travel agent that books trips, tickets, and restaurants",
+      "summary": "Booking.com introduced Lola, an AI agent that can book trips, concert tickets, restaurant reservations, and more on a traveler's behalf.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-29T14:00:52.966Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T14:00:52.966Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Lola is Booking.com's new AI travel agent",
+          "url": "https://www.engadget.com/2271730/lola-is-bookingcoms-new-ai-travel-agent/",
+          "publishedAt": "2026-09-29T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "38503c8d-b8c4-4456-a84e-19dd8c523f7b",
+      "title": "Marissa Mayer launches Dazzle, an AI personal assistant built on your camera roll",
+      "summary": "Former Yahoo CEO Marissa Mayer is introducing Dazzle, a new AI personal assistant that draws entirely on a user's photos rather than their inbox, betting that a camera roll holds more information about someone's life than their email.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-29T14:00:46.899Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T14:00:46.899Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "With Dazzle, Marissa Mayer bets your camera roll has more info on your life than your inbox",
+          "url": "https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/",
+          "publishedAt": "2026-09-29T13:53:01.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "837c9ac4-e3e5-4bf7-8563-4ea9094c0a5f",
       "title": "Dario Amodei to have his first one-on-one dinner with President Trump",
       "summary": "Anthropic CEO Dario Amodei is reportedly having a one-on-one dinner with President Trump on Sunday night, the first such meeting between the two, per TechCrunch and Gizmodo. The sit-down comes as Anthropic fights the Pentagon's supply-chain-risk designation in court and as Amodei lobbies governments to pace frontier AI development.",
@@ -1078,6 +1134,28 @@
       ],
       "tags": [
         "opinion"
+      ]
+    },
+    {
+      "id": "0f362df3-2a31-459d-9e09-94add01d6597",
+      "title": "Reco raises $55M as AI agent security startups crowd the market",
+      "summary": "AI agent security startup Reco has raised $55 million, building on a $30 million round in February and bringing its total funding to $140 million, as investors pile into a crowded field of startups securing AI agents.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-29T14:00:50.149Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T14:00:50.149Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Reco raises $55M as AI agent security startups crowd the market",
+          "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
+          "publishedAt": "2026-09-29T12:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "safety"
       ]
     },
     {
@@ -1876,6 +1954,27 @@
       "tags": []
     },
     {
+      "id": "b62695c2-ca3e-450d-8a88-505d90ac582e",
+      "title": "Multiverse Computing proposes source-aware verification for MCP agents",
+      "summary": "A Hugging Face blog post from Multiverse Computing argues that agents using the Model Context Protocol should verify not only that a fact is correct but that it came from the right source, and outlines a source-aware verification approach for MCP agents.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-29T14:00:56.154Z",
+      "lastMeaningfulUpdateAt": "2026-09-29T14:00:56.154Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+          "publishedAt": "2026-09-29T13:07:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "a25194e7-5103-45f6-8082-a8b7026fc1b4",
       "title": "Blue Cross Blue Shield says hospital AI tools added $942M to healthcare spending",
       "summary": "Blue Cross Blue Shield claims hospitals' use of AI tools, such as ambient documentation software like Abridge, drove an additional $942 million in healthcare spending over a two-year period, pushing back on the industry narrative that clinical AI lowers costs.",
@@ -2157,86 +2256,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "0c0c3983-7498-4654-be2c-bc2869fd51c8",
-      "title": "Rumored M5 Ultra Mac Studio pitched as a $5,499 box for running 100B-parameter models locally",
-      "summary": "A breakdown of Apple's rumored M5 Ultra Mac Studio, priced at $5,499, highlights its ability to run AI models of up to 100 billion parameters locally, positioning it for professionals who want on-device inference for tasks like summarizing large datasets. Rumor-stage coverage, not an Apple announcement.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-28T09:31:07.224Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T09:31:07.224Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Rumored M5 Ultra Mac Studio Could Run 100B Parameter AI Locally",
-          "url": "https://www.geeky-gadgets.com/mac-studio-m5-ultra-local-ai-2/",
-          "publishedAt": "2026-09-28T08:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "28822fb9-8dc3-40d5-b05b-2769a272dfc8",
-      "title": "Crusoe abandons $1.25B plan to power AI data centers with Boom Supersonic turbines",
-      "summary": "AI data center developer Crusoe has dropped a $1.25 billion plan to use Boom Supersonic's new stationary gas-turbine power plants at its AI data centers, per TechCrunch. Boom CEO Blake Scholl said the plants are no longer in Crusoe's near-term plans.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-26T00:50:58.896Z",
-      "lastMeaningfulUpdateAt": "2026-09-26T00:50:58.896Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-          "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-          "publishedAt": "2026-09-25T23:11:10.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "a68ec58d-a10a-4dc7-98c3-d4815ed9d93f",
-      "title": "Trump says the US government will call AI \"Super Intelligence\" instead of \"artificial\"",
-      "summary": "In his UN General Assembly address this week, President Trump declared that the US government will now refer to artificial intelligence as \"Super Intelligence,\" arguing the word \"artificial\" makes the technology sound fake. Mashable's commentary notes the new label changes nothing about the technology's underlying problems and baggage.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-26T06:55:48.714Z",
-      "lastMeaningfulUpdateAt": "2026-09-26T06:55:48.714Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "Trump Tries To Rebrand AI. Is It Really That 'Super'?",
-          "url": "https://in.mashable.com/tech/114311/trump-tries-to-rebrand-ai-is-it-really-that-super",
-          "publishedAt": "2026-09-25T18:41:51.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "15a08133-fc9e-48e6-b3ee-764573cbda71",
-      "title": "DetectifAI builds on-phone models to flag deepfake voices in real time",
-      "summary": "After her grandfather was scammed by a deepfake of his brother's voice, Tarini Padmanabhuni founded DetectifAI, a San Francisco startup building AI models small enough to run directly on smartphones and flag fake voices in real time. The company is competing in Startup Battlefield at TechCrunch Disrupt.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-28T15:37:26.572Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T15:37:26.572Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "After a deepfake voice fooled her grandfather, this founder sprang into action",
-          "url": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
-          "publishedAt": "2026-09-28T15:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 117,
+  "totalCount": 118,
   "hasMore": true
 }
