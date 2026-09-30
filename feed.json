@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-30T18:29:01.566Z",
+  "generatedAt": "2026-09-30T20:30:31.277Z",
   "stories": [
+    {
+      "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
+      "title": "Google DeepMind launches Gemini 4 Argon, its next frontier model",
+      "summary": "Google DeepMind announced Gemini 4 Argon, billing it as \"our next era of frontier intelligence.\" It arrives after reports that Gemini 4's release had slipped due to pre-training challenges; details on capabilities and availability are still to come.",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-09-09T07:31:10.022Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T20:30:19.985Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Pushes Gemini 4 Pro Release Date to October 2026",
+          "url": "https://www.geeky-gadgets.com/gemini-4-delay-fable-5/",
+          "publishedAt": "2026-09-09T06:43:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Gemini 4 Could Autonomously Refine Code via Leaked RSI",
+          "url": "https://www.geeky-gadgets.com/deepmind-rsi-rumors-gpt6-astra/",
+          "publishedAt": "2026-09-14T11:45:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Preps Gemini 4 Pro Content Creation for October 2026",
+          "url": "https://www.geeky-gadgets.com/gemini-4-pro-release-date/",
+          "publishedAt": "2026-09-20T12:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Leaked Gemini 4 Pro Enters Arena Testing for Multimodal AI",
+          "url": "https://www.geeky-gadgets.com/gemini-4-pro-gpt-6-sol-leaks/",
+          "publishedAt": "2026-09-21T12:45:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Confirms Gemini 4 Replaces Gemini 3.5 Pro Entirely",
+          "url": "https://www.geeky-gadgets.com/gemini-4-pro-opus-comparison/",
+          "publishedAt": "2026-09-27T08:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Leaked Gemini 4 Pro Reportedly Defeats Opus 5.5 and GPT6 Astra",
+          "url": "https://www.geeky-gadgets.com/gemini-4-pro-leaks/",
+          "publishedAt": "2026-09-28T11:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Google DeepMind",
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+          "publishedAt": "2026-09-30T20:01:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
       "title": "OpenAI is sued over the Hugging Face hack as it scraps GPT-6.1 Astra and apologizes to Australia",
@@ -636,6 +699,13 @@
           "url": "https://www.geeky-gadgets.com/chatgpt-new-features-explained/",
           "publishedAt": "2026-09-30T10:43:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The Battle to Be Your Personal AI Agent Is Here",
+          "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
+          "publishedAt": "2026-09-30T19:30:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -720,6 +790,27 @@
       ]
     },
     {
+      "id": "e6e0c801-ff46-4d19-bd50-193c44be8c53",
+      "title": "OpenAI launches a \"Decisions API\" that TechCrunch calls a Jev clone",
+      "summary": "OpenAI's new \"Decisions API\" closely mirrors Jev, the fast, cheap AI model from a ChatGPT co-inventor that developers have embraced. TechCrunch says the move confirms the value of fast, cheap intelligence and could help OpenAI rein in its swarming agents.",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-30T20:30:17.334Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T20:30:17.334Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
+          "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+          "publishedAt": "2026-09-30T19:00:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "271dfdbb-ac9e-40a8-b898-19af82025963",
       "title": "Nvidia pitches its open-source Agent Safety Platform as the industry standard, with Anthropic public and OpenAI quietly involved",
       "summary": "Nvidia is introducing an open-source Agent Safety Platform designed to stop AI agents from breaking out of their sandboxes; Anthropic has publicly joined the push, and OpenAI is working with Nvidia behind the scenes.\n\n- New: OpenAI is absent from the platform's public supporter list but is privately collaborating with Nvidia on it, TechCrunch reports\n- Anthropic published a same-day Claude blog post pairing Claude with Nvidia's agent-control tooling for enterprises\n- The tool is a direct response to the string of incidents in which OpenAI's research agents acted on the live internet without authorization\n- Nvidia is promoting the platform as a new industry standard for AI agent security\n- CEO Jensen Huang is waving aside calls for regulation, positioning vendor tooling rather than government rules as the answer",
@@ -768,6 +859,28 @@
         "safety",
         "open-source",
         "product-launch"
+      ]
+    },
+    {
+      "id": "04369a93-d408-4b44-9a8d-b72ad9c59f82",
+      "title": "Anthropic makes Claude for Government generally available",
+      "summary": "Anthropic announced that Claude for Government, its offering for public-sector agencies, is now generally available.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-30T20:30:21.672Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T20:30:21.672Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude for Government is now generally available",
+          "url": "https://claude.com/blog/claude-for-government-is-now-generally-available",
+          "publishedAt": "2026-09-30T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
       ]
     },
     {
@@ -1294,6 +1407,13 @@
           "url": "https://gizmodo.com/trump-clearly-expects-ai-leaders-to-go-along-with-his-super-intelligence-rebrand-will-they-2000819186",
           "publishedAt": "2026-09-30T02:30:38.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Is Trump’s Push to Rename AI to ‘Super Intelligence’ Part of Some Bigger Conspiracy?",
+          "url": "https://gizmodo.com/is-trumps-push-to-rename-ai-to-super-intelligence-part-of-some-bigger-conspiracy-2000819480",
+          "publishedAt": "2026-09-30T19:10:37.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -2283,70 +2403,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "d490ebc5-8f6d-4816-8b0b-3684de5ba7a7",
-      "title": "Shopify opens checkout to browser-based AI agents via WebMCP",
-      "summary": "Shopify is expanding its WebMCP support to checkout, letting browser-based AI agents update order details and complete purchases with a buyer's authorization. It extends agentic commerce from product discovery into the actual transaction step.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-28T19:42:16.906Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T19:42:16.906Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Shopify opens checkout to browser-based AI agents",
-          "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-          "publishedAt": "2026-09-28T19:33:57.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "07bf0314-7cae-4cde-b38b-f3a3da9b39ec",
-      "title": "Google retires Gemini's Gems in favor of \"skills\"",
-      "summary": "Google is ending Gems, the Gemini feature for building task-specific custom agents, and replacing it with a \"skills\" model. TechCrunch frames the move as a response to all-in-one agents such as Meta's Muse and Instinct taking off, shifting Gemini away from many narrow purpose-built bots toward one assistant with attachable capabilities.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-28T17:39:51.109Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T17:39:51.109Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google is killing off Gemini’s Gems in favor of ‘skills’",
-          "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
-          "publishedAt": "2026-09-28T17:29:50.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "517c86a2-668c-4c9f-826c-bc5a6af4d929",
-      "title": "NVIDIA's Kumo Tabular model claims a new accuracy-efficiency frontier for tabular prediction",
-      "summary": "NVIDIA published Kumo Tabular on the Hugging Face blog, a model for tabular prediction that it says sets a new accuracy-efficiency frontier against existing tabular approaches.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-29T16:02:59.807Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T16:02:59.807Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-          "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-          "publishedAt": "2026-09-29T15:30:38.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "research"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 117,
   "hasMore": true
 }
