@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T06:17:37.907Z",
+  "generatedAt": "2026-09-30T08:19:11.269Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -381,6 +381,13 @@
           "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
           "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
           "publishedAt": "2026-09-29T22:20:59.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "OpenAI Dots AI Agents Unveiled as Mark Zuckerberg's Muse Rival With 4,000+ Apps Support And More",
+          "url": "https://in.mashable.com/tech/114437/openai-dots-ai-agents-unveiled-as-mark-zuckerbergs-muse-rival-with-4000-apps-support-and-more",
+          "publishedAt": "2026-09-30T06:30:31.000Z",
           "contribution": "supporting"
         }
       ],
@@ -822,6 +829,28 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "39a246ab-bdfe-4aa3-a7d9-df364aaa2e31",
+      "title": "Google's Project Suncatcher aims to put solar-powered AI data centers in orbit",
+      "summary": "Google's Project Suncatcher explores building solar-powered AI data centers in space, using the near-constant sunlight available in orbit to feed AI's growing compute demand. Because radio-frequency links lack the bandwidth, the design leans on laser communication for high-speed, low-latency connections between satellites.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-30T08:19:03.108Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T08:19:03.108Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Project Suncatcher Puts AI Data Centers in Orbit",
+          "url": "https://www.geeky-gadgets.com/google-project-suncatcher-2/",
+          "publishedAt": "2026-09-30T07:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "research"
       ]
     },
     {
@@ -2453,28 +2482,6 @@
       ],
       "tags": [
         "product-launch"
-      ]
-    },
-    {
-      "id": "4e6d70a1-e2cb-418b-bcd8-f81b43d93715",
-      "title": "Wired: AI agents are about to flood the workforce, and workplaces aren't ready",
-      "summary": "A Wired feature argues that AI agents are about to arrive in the workforce as coworkers at scale, and that organizations lack a model for how humans and agents should interact day to day.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-28T11:33:02.393Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T11:33:02.393Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AI Agents Are About to Flood the Workforce. No One’s Ready for It",
-          "url": "https://www.wired.com/story/ai-agents-are-about-to-flood-the-workforce-no-ones-ready-for-it/",
-          "publishedAt": "2026-09-28T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion",
-        "enterprise-adoption"
       ]
     }
   ],
