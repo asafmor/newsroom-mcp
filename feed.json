@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T12:22:45.870Z",
+  "generatedAt": "2026-09-30T14:24:52.848Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -571,6 +571,70 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "efcaa9d9-1720-4093-9c32-aa34325ff7a5",
+      "title": "Cloudflare's agentic-web launch: tools to see, gate, charge, and serve AI agents",
+      "summary": "Cloudflare says more than half the traffic reaching its sites is now automated, with AI agents the fastest-growing share, and shipped a same-day batch of products for site owners and developers to see, gate, charge, and serve that traffic.\n\n- Monetization Gateway (closed beta, US sellers) lets sites charge agents for tokens, APIs, and MCP tools via HTTP 402; Cloudflare's own AI Gateway, Ceramic.ai, and Stocktwits already use it\n- Pay Per Use (beta): AI companies report when they use publishers' content and Cloudflare handles billing, payouts, and reporting\n- AI Gateway adds an Auto Router that classifies request complexity at the edge to pick the cheapest adequate model, plus free User Insights categories to spot model overuse\n- Cloudflare Containers now start 6x faster, let agents pick each sandbox's image and instance type at runtime, and gain filesystem snapshots in public beta\n- Registrar's new domain search, expanded API, and cf CLI let agents search, register, and transfer domains",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-30T14:24:47.096Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T14:24:47.096Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "The Internet has a second audience",
+          "url": "https://blog.cloudflare.com/agentic-web/",
+          "publishedAt": "2026-09-30T12:58:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+          "url": "https://blog.cloudflare.com/monetization-gateway-beta/",
+          "publishedAt": "2026-09-30T13:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Pay Per Use: when AI uses your work, you should get paid",
+          "url": "https://blog.cloudflare.com/pay-per-use/",
+          "publishedAt": "2026-09-30T13:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Cut your AI spend with AI Gateway's Auto Router",
+          "url": "https://blog.cloudflare.com/auto-router/",
+          "publishedAt": "2026-09-30T13:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Identify AI model overuse with User Insights",
+          "url": "https://blog.cloudflare.com/ai-model-overuse-user-insights/",
+          "publishedAt": "2026-09-30T13:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
+          "url": "https://blog.cloudflare.com/faster-agent-sandboxes/",
+          "publishedAt": "2026-09-30T12:58:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Simplifying domains for people and agents",
+          "url": "https://blog.cloudflare.com/simplifying-domains/",
+          "publishedAt": "2026-09-30T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "infrastructure"
       ]
     },
     {
@@ -2502,29 +2566,8 @@
       "tags": [
         "regulation"
       ]
-    },
-    {
-      "id": "6fb5b601-7c99-4956-b423-d314c94cc94e",
-      "title": "Modulate raises $25M for voice models that detect deepfakes and scams",
-      "summary": "Modulate raised $25 million for its voice models and analysis suite, which it deploys to detect deepfake audio, fraud, and scam calls.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-28T15:37:22.944Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T15:37:22.944Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Modulate raises $25M for its voice models and analysis suite",
-          "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
-          "publishedAt": "2026-09-28T14:05:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 113,
   "hasMore": true
 }
