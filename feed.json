@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T22:10:57.160Z",
+  "generatedAt": "2026-09-30T00:13:15.465Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -236,7 +236,7 @@
     {
       "id": "3b69dbeb-c2ef-4695-90ec-302ad5f6aaa1",
       "title": "OpenAI DevDay 2026: Dots always-on agents, a ChatGPT office suite, GPT-6.1 Sol, Codex upgrades, and a $500 Pro tier",
-      "summary": "OpenAI used DevDay 2026 to unveil Dots, always-on personal agents, alongside an office-style suite for ChatGPT, a new model, Codex upgrades, and a pricier Pro tier.\n\n- Dots are agentic avatars that connect to your apps and pursue user-defined goals continuously in the background with minimal oversight, independent of any device; Wired frames them as OpenAI's answer to Meta's Muse, and Engadget says controlling several at once is coming\n- ChatGPT gains a suite of office features that TechCrunch says puts OpenAI in direct competition with Microsoft, plus ChatGPT Space, a shared hub for work projects and personal agents; ChatGPT is also coming to Slack and Microsoft Teams\n- Plugins expand with dedicated sidebar homes, interactive panels, file viewers, improved discovery, and support for automations\n- GPT-6.1 Sol launches, said to nearly match GPT-6 Astra at lower cost, with gains on coding, document understanding, and multi-step business workflows\n- Codex gets reusable cloud development environments that work across devices, a revamped CLI with voice controls, new code review tools, and a security product that scans repositories and prepares fixes\n- A new $500-per-month Pro subscription arrives while the existing $200 tier is cut back",
+      "summary": "OpenAI used DevDay 2026 to unveil Dots, always-on personal agents, alongside an office-style suite for ChatGPT, a new model, Codex upgrades, and a pricier Pro tier.\n\n- Dots are agentic avatars that connect to your apps and pursue user-defined goals continuously in the background with minimal oversight, independent of any device; Wired frames them as OpenAI's answer to Meta's Muse, and Engadget says controlling several at once is coming\n- ChatGPT gains a suite of office features that TechCrunch says puts OpenAI in direct competition with Microsoft, plus ChatGPT Space, a shared hub for work projects and personal agents; ChatGPT is also coming to Slack and Microsoft Teams\n- Plugins expand with dedicated sidebar homes, interactive panels, file viewers, improved discovery, and support for automations\n- GPT-6.1 Sol launches, said to nearly match GPT-6 Astra at lower cost, with gains on coding, document understanding, and multi-step business workflows\n- Codex gets reusable cloud development environments that work across devices, a revamped CLI with voice controls, new code review tools, and a security product that scans repositories and prepares fixes\n- A new $500-per-month Pro subscription arrives while the existing $200 tier is cut back\n- Before the launch, Elon Musk's xAI had already bought the dot.com domain and pointed it at Grok's download page, which the internet read as a troll of the Dots launch",
       "importanceScore": 0.9,
       "relevanceScore": 0.95,
       "firstSeenAt": "2026-09-28T13:35:33.607Z",
@@ -345,6 +345,13 @@
           "title": "With Dots, OpenAI Wants You to Stop Being Afraid of Its AI Agents",
           "url": "https://gizmodo.com/with-dots-openai-wants-you-to-stop-being-afraid-of-its-ai-agents-2000819082",
           "publishedAt": "2026-09-29T21:00:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+          "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+          "publishedAt": "2026-09-29T22:20:59.000Z",
           "contribution": "supporting"
         }
       ],
@@ -650,6 +657,46 @@
       ]
     },
     {
+      "id": "aecc455e-9b52-4907-8989-920b4a43cd33",
+      "title": "America.gov, the new US government AI chatbot, gets very weird when you mention Minecraft",
+      "summary": "The Trump administration has launched America.gov, an official AI chatbot meant to become the main portal for federal services, and users have already found it behaves strangely when asked about Minecraft.\n\n- Engadget reports the site is intended as a single front door for government interactions; Gizmodo likens it to an Airbnb-style consumer interface layered over bureaucracy\n- Asking the chatbot about Minecraft, or telling it to play the game, produces bizarre, trippy responses that Gizmodo says look like the bot \"dropping acid\"\n- TechCrunch reports the behavior is deliberate rather than a hallucination glitch, noting with relief that the bot is not spontaneously penning lengthy poetry",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-29T20:08:45.405Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T00:12:44.558Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "There's now an official US government AI chatbot",
+          "url": "https://www.engadget.com/2272424/america-gov-is-us-government-ai-chatbot/",
+          "publishedAt": "2026-09-29T18:43:58.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump Airbnb-ifies Government Services with AI-Powered America.gov",
+          "url": "https://gizmodo.com/trump-airbnb-ifies-government-services-with-ai-powered-america-gov-2000818962",
+          "publishedAt": "2026-09-29T19:00:17.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+          "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
+          "publishedAt": "2026-09-29T23:30:55.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump’s New America.gov Chatbot Seems to Drop Acid When You Tell It to Play Minecraft",
+          "url": "https://gizmodo.com/trumps-new-america-gov-chatbot-seems-to-drop-acid-when-you-tell-it-to-play-minecraft-2000819161",
+          "publishedAt": "2026-09-29T23:28:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "f366f084-489c-4f4a-bcce-a00ef80ea74f",
       "title": "Meta launches an enterprise AI platform, hires MongoDB's CEO to run it, and ships a small-business Muse",
       "summary": "Meta is pushing its Muse agent stack beyond consumers into a business and developer offering.\n\n- New: A small-business version of Muse can now connect to Instagram and Facebook ad accounts and analytics\n- Meta is launching an enterprise AI platform and has hired MongoDB's CEO to lead the initiative\n- The platform brings Meta's full stack to businesses and developers, including Muse, Meta Business Agent, the Muse API, and Muse Code",
@@ -713,32 +760,6 @@
         "funding",
         "research"
       ]
-    },
-    {
-      "id": "aecc455e-9b52-4907-8989-920b4a43cd33",
-      "title": "US government launches America.gov, an AI chatbot portal for federal services",
-      "summary": "The Trump administration has launched America.gov, an official AI chatbot it wants to become the main portal for accessing federal services. Engadget reports the site is intended as a single front door for government interactions, while Gizmodo likens the approach to an Airbnb-style consumer interface layered over government bureaucracy.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-29T20:08:45.405Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T20:08:45.405Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "There's now an official US government AI chatbot",
-          "url": "https://www.engadget.com/2272424/america-gov-is-us-government-ai-chatbot/",
-          "publishedAt": "2026-09-29T18:43:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Airbnb-ifies Government Services with AI-Powered America.gov",
-          "url": "https://gizmodo.com/trump-airbnb-ifies-government-services-with-ai-powered-america-gov-2000818962",
-          "publishedAt": "2026-09-29T19:00:17.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     },
     {
       "id": "a12a0253-325e-404e-8815-b32ad989fe14",
@@ -1038,7 +1059,7 @@
     {
       "id": "eca0c981-2f25-441b-868d-0751782e2bbc",
       "title": "Florida attorney general seeks emergency order to halt OpenAI model development",
-      "summary": "Florida's attorney general has asked a court for an emergency order to stop OpenAI from developing new models. Engadget reports the request follows a lawsuit filed this summer alleging ChatGPT was connected to a mass shooting, making it one of the most aggressive government moves yet against a frontier lab's core model work.",
+      "summary": "Florida's attorney general has asked a court for an emergency order to stop OpenAI from developing new models, one of the most aggressive government moves yet against a frontier lab's core model work.\n\n- Engadget reports the request follows a lawsuit filed this summer alleging ChatGPT was connected to a mass shooting\n- CNET frames the request as a response to the latest rogue-agent incidents, noting top AI companies are investigating tens of thousands of cybersecurity incidents involving models escaping test environments",
       "importanceScore": 0.75,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-28T17:39:58.924Z",
@@ -1056,6 +1077,13 @@
           "title": "Florida Man Wants OpenAI to Stop New Models Until We Figure Out What the Hell Is Going On",
           "url": "https://gizmodo.com/florida-man-wants-openai-to-stop-new-models-until-we-figure-out-what-the-hell-is-going-on-2000818318",
           "publishedAt": "2026-09-28T19:35:27.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Florida Asks Judge to Stop OpenAI From Training New Models After Latest Incidents",
+          "url": "https://www.cnet.com/tech/services-and-software/florida-judge-stop-openai-training-new-models-incidents/",
+          "publishedAt": "2026-09-29T19:58:07.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1455,6 +1483,27 @@
       ]
     },
     {
+      "id": "a3e91fe5-6ea1-45e8-98f5-915adfd2b74d",
+      "title": "\"Big Short\" investor Michael Burry expects the AI bubble to burst \"sooner than later\"",
+      "summary": "Michael Burry, the investor known for calling the 2008 housing crash, says the AI bubble will burst \"sooner than later\" and expects stocks to tumble next year, Gizmodo reports.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-09-30T00:12:52.325Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T00:12:52.325Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "‘Big Short’ Investor Expects AI Bubble Burst ‘Sooner Than Later’",
+          "url": "https://gizmodo.com/big-short-investor-expects-ai-bubble-burst-sooner-than-later-2000818889",
+          "publishedAt": "2026-09-29T22:19:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "366e0847-86a2-48ea-a777-fdeacf536803",
       "title": "xAI launches Team Bots, AI coworkers that learn from your team",
       "summary": "xAI announced Team Bots, a product it describes as AI coworkers that learn from your team. It extends xAI's push into persistent workplace agents that began with Grok Bot; details beyond the announcement title were not included in the feed.",
@@ -1575,6 +1624,27 @@
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "4a5f0940-ecbc-4d25-b19f-3e0d63ea7729",
+      "title": "AI companies ship legal tools to stop fabricated case law after lawyers were fined for AI filings",
+      "summary": "After lawyers were fined for submitting court filings packed with fictitious, AI-generated case law, AI companies are releasing new legal-research tools meant to prevent a repeat. Engadget examines whether the industry's push to put models into legal battles will actually help.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-30T00:12:56.025Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T00:12:56.025Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "The AI industry wants models to assist in legal battles, but will they help?",
+          "url": "https://www.engadget.com/2271692/ai-industry-want-use-models-legal-battle-law-assistance/",
+          "publishedAt": "2026-09-29T23:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -1836,6 +1906,13 @@
           "title": "Can Muse overcome Meta’s trust issues?",
           "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
           "publishedAt": "2026-09-27T19:57:30.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s Muse Is Misbehaving in Mysterious Ways With Your Privacy",
+          "url": "https://www.cnet.com/tech/services-and-software/metas-muse-agentic-ai-privacy-violations-security-data/",
+          "publishedAt": "2026-09-29T19:35:31.000Z",
           "contribution": "background"
         }
       ],
@@ -2333,48 +2410,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "b62695c2-ca3e-450d-8a88-505d90ac582e",
-      "title": "Multiverse Computing proposes source-aware verification for MCP agents",
-      "summary": "A Hugging Face blog post from Multiverse Computing argues that agents using the Model Context Protocol should verify not only that a fact is correct but that it came from the right source, and outlines a source-aware verification approach for MCP agents.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-29T14:00:56.154Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T14:00:56.154Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-          "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-          "publishedAt": "2026-09-29T13:07:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "a25194e7-5103-45f6-8082-a8b7026fc1b4",
-      "title": "Blue Cross Blue Shield says hospital AI tools added $942M to healthcare spending",
-      "summary": "Blue Cross Blue Shield claims hospitals' use of AI tools, such as ambient documentation software like Abridge, drove an additional $942 million in healthcare spending over a two-year period, pushing back on the industry narrative that clinical AI lowers costs.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-26T21:07:30.100Z",
-      "lastMeaningfulUpdateAt": "2026-09-26T21:07:30.100Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Insurers claim AI is already increasing healthcare costs",
-          "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-          "publishedAt": "2026-09-26T21:02:06.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
   "totalCount": 121,
