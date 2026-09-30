@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T02:14:30.719Z",
+  "generatedAt": "2026-09-30T04:16:45.298Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -234,6 +234,35 @@
       ]
     },
     {
+      "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
+      "title": "OpenAI eyes a $30B raise at $1.4T as Altman ties the delayed IPO to \"confident safety claims\"",
+      "summary": "OpenAI is reportedly lining up its last private raise before a public debut that Sam Altman now says must wait until the company can vouch for its models' safety.\n\n- OpenAI is negotiating a $30 billion funding round at a $1.4 trillion valuation, per TechCrunch\n- The round is expected to be the company's final private raise before an IPO, which has been pushed to 2027\n- Altman told reporters OpenAI has \"got to be able to make confident safety claims\" before going public, tying the IPO timeline to getting its rogue-AI incidents under control, per Gizmodo",
+      "importanceScore": 0.82,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-29T20:08:40.765Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T04:16:21.982Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
+          "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+          "publishedAt": "2026-09-29T19:52:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says",
+          "url": "https://gizmodo.com/no-openai-ipo-until-the-ai-stops-going-rogue-ceo-sam-altman-says-2000819194",
+          "publishedAt": "2026-09-30T04:14:16.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "funding",
+        "safety"
+      ]
+    },
+    {
       "id": "3b69dbeb-c2ef-4695-90ec-302ad5f6aaa1",
       "title": "OpenAI DevDay 2026: Dots always-on agents, a ChatGPT office suite, GPT-6.1 Sol, Codex upgrades, and a $500 Pro tier",
       "summary": "OpenAI used DevDay 2026 to unveil Dots, always-on personal agents, alongside an office-style suite for ChatGPT, a new model, Codex upgrades, and a pricier Pro tier.\n\n- Dots are agentic avatars that connect to your apps and pursue user-defined goals continuously in the background with minimal oversight, independent of any device; Wired frames them as OpenAI's answer to Meta's Muse, and Engadget says controlling several at once is coming\n- ChatGPT gains a suite of office features that TechCrunch says puts OpenAI in direct competition with Microsoft, plus ChatGPT Space, a shared hub for work projects and personal agents; ChatGPT is also coming to Slack and Microsoft Teams\n- Plugins expand with dedicated sidebar homes, interactive panels, file viewers, improved discovery, and support for automations\n- GPT-6.1 Sol launches, said to nearly match GPT-6 Astra at lower cost, with gains on coding, document understanding, and multi-step business workflows\n- Codex gets reusable cloud development environments that work across devices, a revamped CLI with voice controls, new code review tools, and a security product that scans repositories and prepares fixes\n- A new $500-per-month Pro subscription arrives while the existing $200 tier is cut back\n- Before the launch, Elon Musk's xAI had already bought the dot.com domain and pointed it at Grok's download page, which the internet read as a troll of the Dots launch",
@@ -357,27 +386,6 @@
       ],
       "tags": [
         "product-launch"
-      ]
-    },
-    {
-      "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
-      "title": "OpenAI reportedly in talks to raise $30B at a $1.4T valuation ahead of a delayed 2027 IPO",
-      "summary": "OpenAI is reportedly negotiating a $30 billion funding round at a $1.4 trillion valuation, according to TechCrunch. The round is expected to be the company's last private raise before its public debut, which has been pushed to 2027.",
-      "importanceScore": 0.8,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-29T20:08:40.765Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T20:08:40.765Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
-          "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-          "publishedAt": "2026-09-29T19:52:37.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
       ]
     },
     {
@@ -737,6 +745,83 @@
       "tags": [
         "enterprise-adoption",
         "product-launch"
+      ]
+    },
+    {
+      "id": "285d3952-cdb8-4f3d-b00c-1b6ea9211b2a",
+      "title": "Trump makes \"Super Intelligence\" the government's name for AI and claims industry leaders are on board",
+      "summary": "President Trump's \"AI Force\" announcement and rebrand of AI as \"Super Intelligence\" has hardened into official government usage, drawing pushback from Bernie Sanders and skepticism about whether the industry will follow.\n\n- Trump said he will soon announce an \"AI czar\" to run the newly announced AI Force\n- In his UN General Assembly address he declared the US government will now refer to AI as \"Super Intelligence,\" arguing \"artificial\" makes the technology sound fake\n- He now says private-sector AI leaders are on board with the rebrand, though Gizmodo notes he has offered no evidence that they are\n- He claimed, without evidence, that the backlash against AI is a Democratic hoax\n- Sanders pushed back, calling AI \"an existential threat to humanity\" that must be treated as such rather than rebranded\n- Commentators at Mashable and Gizmodo note the new label changes nothing about the technology's underlying problems",
+      "importanceScore": 0.58,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-19T20:53:03.237Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T04:16:25.747Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Now Trump says he's creating an AI Force",
+          "url": "https://www.engadget.com/2263237/now-trump-says-hes-creating-an-ai-force/",
+          "publishedAt": "2026-09-19T19:22:20.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
+          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+          "publishedAt": "2026-09-19T19:57:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "You’ll Never Guess What Trump Wants to Rename Now",
+          "url": "https://gizmodo.com/youll-never-guess-what-trump-wants-to-rename-now-2000814488",
+          "publishedAt": "2026-09-19T19:58:23.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "First Came Space Force. Now Prepare For AI Force",
+          "url": "https://gizmodo.com/first-came-space-force-now-prepare-for-ai-force-2000814525",
+          "publishedAt": "2026-09-20T21:12:14.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump’s Attempt to Rename AI Misunderstands the MAGA Faithful",
+          "url": "https://gizmodo.com/trumps-attempt-to-rename-ai-misunderstands-the-maga-faithful-2000815001",
+          "publishedAt": "2026-09-21T20:59:10.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Bernie Sanders Shows There’s a Big Problem With Trump Renaming AI to ‘Super Intelligence’",
+          "url": "https://gizmodo.com/bernie-sanders-shows-theres-a-big-problem-with-trump-renaming-ai-to-super-intelligence-2000816222",
+          "publishedAt": "2026-09-23T21:10:05.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "This Was Trump’s Big Week to Take Action on AI and All He Did Was Rename It",
+          "url": "https://gizmodo.com/this-was-trumps-big-week-to-take-action-on-ai-and-all-he-did-was-rename-it-2000817626",
+          "publishedAt": "2026-09-26T00:19:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Trump Tries To Rebrand AI. Is It Really That 'Super'?",
+          "url": "https://in.mashable.com/tech/114311/trump-tries-to-rebrand-ai-is-it-really-that-super",
+          "publishedAt": "2026-09-25T18:41:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump Clearly Expects AI Leaders to Go Along With His ‘Super Intelligence’ Rebrand. Will They?",
+          "url": "https://gizmodo.com/trump-clearly-expects-ai-leaders-to-go-along-with-his-super-intelligence-rebrand-will-they-2000819186",
+          "publishedAt": "2026-09-30T02:30:38.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation"
       ]
     },
     {
@@ -2391,27 +2476,8 @@
         "opinion",
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "597aeb53-07dd-4573-8741-f74ff842a810",
-      "title": "British startup turns video game inputs into training data for physical-world AI",
-      "summary": "A British startup is collecting players' video game inputs and shaping them into training data for AI models meant to navigate the physical world, betting that ordinary (even clumsy) gameplay is a cheap source of embodied-action data.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-28T09:31:03.457Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T09:31:03.457Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "The Next Evolution of AI Is Learning From Your Dodgy Gaming Skills",
-          "url": "https://www.wired.com/story/the-next-evolution-of-ai-is-learning-from-your-dodgy-gaming-skills/",
-          "publishedAt": "2026-09-28T09:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 120,
+  "totalCount": 119,
   "hasMore": true
 }
