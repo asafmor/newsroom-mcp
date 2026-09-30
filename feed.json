@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T20:30:31.277Z",
+  "generatedAt": "2026-09-30T22:32:05.506Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -533,6 +533,35 @@
       "tags": [
         "product-launch",
         "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "69e2997c-e47b-4edb-8a38-e3b3e9b2aa58",
+      "title": "Six major AI companies sign Trump's voluntary AI safety accord, but experts call it toothless",
+      "summary": "Six major AI companies signed a voluntary agreement with the White House this week pledging to implement AI safeguards.\n\n- The accord is voluntary, with no enforcement mechanism\n- Wired calls it \"a fancy pinky-swear\" and questions how much it matters\n- Experts cited by CNET say it leaves big questions unanswered and does little to actually keep AI safe",
+      "importanceScore": 0.8,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-09-30T22:31:50.945Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T22:31:50.945Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
+          "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+          "publishedAt": "2026-09-30T20:30:09.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Trump’s ‘AI Accord’ Does Little to Actually Keep AI Safe, Experts Say",
+          "url": "https://www.cnet.com/tech/services-and-software/trumps-ai-voluntary-accord-wont-make-ai-safe-experts-say/",
+          "publishedAt": "2026-09-30T19:26:11.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
         "safety"
       ]
     },
@@ -1269,6 +1298,13 @@
           "title": "The US government's new AI chatbot gives Minecraft's end poem a bureaucratic twist",
           "url": "https://www.engadget.com/2272978/the-us-governments-new-ai-chatbot-gives-minecrafts-end-poem-a-bureaucratic-twist/",
           "publishedAt": "2026-09-30T09:48:35.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Trump Launches a US Government Chatbot. It’s Got Some Quirks",
+          "url": "https://www.cnet.com/tech/services-and-software/trump-launches-us-government-chatbot-america-gov-quirks/",
+          "publishedAt": "2026-09-30T20:10:40.000Z",
           "contribution": "supporting"
         }
       ],
@@ -2020,6 +2056,27 @@
       ]
     },
     {
+      "id": "1f0daf49-b37f-4b95-bc29-217bd28a2780",
+      "title": "Flow Engineering raises at a $750M valuation to bring AI agents to hardware design",
+      "summary": "Valor, Atreides, and Sequoia backed Flow Engineering, which builds AI agents for hardware design, at a $750M valuation; Roelof Botha also joined as an angel investor and board member, per TechCrunch.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-30T22:31:54.853Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T22:31:54.853Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+          "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+          "publishedAt": "2026-09-30T21:07:40.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
       "id": "f77f2f3b-cf08-4e05-9b6a-f554cc6339a5",
       "title": "TechCrunch: the ugly economics behind frontier labs' retreat from consumer AI",
       "summary": "A TechCrunch analysis argues frontier labs have grown gun-shy about consumer AI products, and that the reason is the sector's unforgiving economics rather than any shortfall in the technology.",
@@ -2361,50 +2418,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "366e0847-86a2-48ea-a777-fdeacf536803",
-      "title": "xAI launches Team Bots, AI coworkers that learn from your team",
-      "summary": "xAI announced Team Bots, a product it describes as AI coworkers that learn from your team. It extends xAI's push into persistent workplace agents that began with Grok Bot; details beyond the announcement title were not included in the feed.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-28T23:47:00.015Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T23:47:00.015Z",
-      "sources": [
-        {
-          "providerName": "xAI News",
-          "title": "Team Bots: AI coworkers that learn from your team",
-          "url": "https://x.ai/news/team-bots",
-          "publishedAt": "2026-09-28T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "6b2c6a4e-4ac1-4498-85f6-1dd69b3b15eb",
-      "title": "Airbnb adds AI-powered search alongside new social features and services",
-      "summary": "Airbnb is adding AI search to its app, bundled with more social features and new services such as meal delivery and laundry in select locations, per TechCrunch.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-30T12:22:30.467Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T12:22:30.467Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Airbnb adds AI search, more social features",
-          "url": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
-          "publishedAt": "2026-09-30T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 118,
   "hasMore": true
 }
