@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T16:27:16.760Z",
+  "generatedAt": "2026-09-30T18:29:01.566Z",
   "stories": [
     {
       "id": "cc700bcd-fb71-4640-820d-f629c61de5ad",
@@ -643,6 +643,48 @@
       ]
     },
     {
+      "id": "dec62941-7da0-4460-8fd3-bb36f16c7c87",
+      "title": "OpenAI disrupts a coordinated model-distillation campaign as US agencies rebuke China-based labs",
+      "summary": "Frontier labs and US agencies are escalating against model distillation, with OpenAI now saying it disrupted a coordinated campaign to extract its protected model reasoning.\n\n- OpenAI says it disrupted a coordinated campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation\n- US agencies publicly accused China-based AI companies of alleged distillation ahead of US-China AI-security talks\n- Anthropic detailed distillation campaigns it attributed to Alibaba, Moonshot AI, and DeepSeek",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-09T09:32:44.617Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T18:28:35.153Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "U.S. Agencies Issue Stern Rebuke of China-Based AI Companies Over Alleged Distillation",
+          "url": "https://gizmodo.com/u-s-agencies-issue-stern-rebuke-of-china-based-ai-companies-over-alleged-distillation-2000808988",
+          "publishedAt": "2026-09-09T09:00:31.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "US authorities accuse Chinese AI companies of industrial-scale campaigns to copy American models",
+          "url": "https://www.engadget.com/2253604/us-authorities-accuse-chinese-ai-companies-of-industrial-scale-campaigns-to-copy-american-models/",
+          "publishedAt": "2026-09-09T11:12:22.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+          "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+          "publishedAt": "2026-09-10T20:57:30.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Disrupting a coordinated model-distillation campaign",
+          "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+          "publishedAt": "2026-09-30T10:30:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "80552cc9-ea7a-4d74-952c-2f5efe611a71",
       "title": "OpenAI launches GPT-6.1 Sol at one-fifth of Astra's API price with near-Astra performance",
       "summary": "OpenAI launched GPT-6.1 Sol at DevDay 2026, pitching near-Astra intelligence for coding, computer use, and professional work.\n\n- Priced at one-fifth of GPT-6 Astra's standard API input and output token rates\n- Claims significant gains over GPT-6 Sol on writing and debugging code, document understanding, and multi-step business workflows\n- Available now to ChatGPT users as well as developers, per CNET's DevDay roundup",
@@ -726,6 +768,46 @@
         "safety",
         "open-source",
         "product-launch"
+      ]
+    },
+    {
+      "id": "977f1fa0-f8bf-438a-8742-dafa32624e76",
+      "title": "Reddit kills RSS feeds and ends public API access, citing AI bots",
+      "summary": "Reddit is ending support for RSS feeds and shutting down public API access, blaming AI bots as it continues tightening access to its trove of user-generated content, per TechCrunch.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-30T18:28:41.281Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T18:28:41.281Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+          "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+          "publishedAt": "2026-09-30T17:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "e09bc7d6-ddec-41f7-81c9-3f7103a8f24c",
+      "title": "ElevenLabs doubles its valuation to $22B in a $300M employee tender",
+      "summary": "AI voice startup ElevenLabs has doubled its valuation to $22 billion through a $300 million employee tender offer co-led by Wellington and T. Rowe Price, per TechCrunch.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-30T18:28:38.095Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T18:28:38.095Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI voice startup ElevenLabs doubles valuation to $22B",
+          "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+          "publishedAt": "2026-09-30T18:23:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
       ]
     },
     {
@@ -1009,6 +1091,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "dbbcc60e-70f8-4cee-b4ea-4edbf54c9c7b",
+      "title": "Report: taxpayers have been subsidizing Meta's AI data centers through a tax credit",
+      "summary": "A New York Times investigation finds Meta has been controversially taking advantage of a tax credit to build its AI data centers, meaning taxpayers have effectively subsidized the buildout, per Gizmodo.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-30T18:28:51.273Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T18:28:51.273Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Taxpayers Have Been Subsidizing Meta’s AI Data Centers: Report",
+          "url": "https://gizmodo.com/taxpayers-have-been-subsidizing-metas-ai-data-centers-report-2000819447",
+          "publishedAt": "2026-09-30T17:50:05.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -1797,6 +1900,27 @@
       ]
     },
     {
+      "id": "f77f2f3b-cf08-4e05-9b6a-f554cc6339a5",
+      "title": "TechCrunch: the ugly economics behind frontier labs' retreat from consumer AI",
+      "summary": "A TechCrunch analysis argues frontier labs have grown gun-shy about consumer AI products, and that the reason is the sector's unforgiving economics rather than any shortfall in the technology.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-30T18:28:44.597Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T18:28:44.597Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "The ugly economics of consumer AI",
+          "url": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/",
+          "publishedAt": "2026-09-30T17:24:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "fb15f05e-0b0f-41d1-bcb9-0831853e2d7f",
       "title": "White House launches America.gov chatbot to help citizens navigate government bureaucracy",
       "summary": "The White House is rolling out America.gov, a chatbot meant to simplify navigating government services. TechCrunch notes the risk: language models remain prone to hallucinations, which could create new problems for people relying on it for official guidance.",
@@ -2055,6 +2179,27 @@
       ]
     },
     {
+      "id": "bfacbe13-9303-47df-bbef-54b082480eba",
+      "title": "DoorDash debuts a text-to-order AI agent",
+      "summary": "DoorDash has launched a text-to-order AI agent that lets customers place orders by messaging it instead of using the app, a convenience play Gizmodo greets with some skepticism.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-30T18:28:48.219Z",
+      "lastMeaningfulUpdateAt": "2026-09-30T18:28:48.219Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "DoorDash Debuts Text-to-Order AI Agent for People Who Find It a Little Too Hard to Order DoorDash",
+          "url": "https://gizmodo.com/doordash-debuts-text-to-order-ai-agent-for-people-who-find-it-a-little-too-hard-to-order-doordash-2000819567",
+          "publishedAt": "2026-09-30T18:10:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "0f362df3-2a31-459d-9e09-94add01d6597",
       "title": "Reco raises $55M as AI agent security startups crowd the market",
       "summary": "AI agent security startup Reco has raised $55 million, building on a $30 million round in February and bringing its total funding to $140 million, as investors pile into a crowded field of startups securing AI agents.",
@@ -2199,130 +2344,6 @@
       "tags": [
         "model-release",
         "research"
-      ]
-    },
-    {
-      "id": "64df069c-204b-45d6-90a7-f8aeab9fa8ac",
-      "title": "US government plans to use AI to help redact FOIA documents",
-      "summary": "The US government plans to use AI to assist with redacting documents released under Freedom of Information Act requests. Transparency advocates warn the approach could lead to even more information being withheld.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-28T11:33:16.713Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T11:33:16.713Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "The US government plans to use AI to help redact documents",
-          "url": "https://www.engadget.com/2270348/the-us-government-plans-to-use-ai-to-help-redact-documents/",
-          "publishedAt": "2026-09-28T11:25:54.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "306ce921-c0ff-4a20-86e5-1da61508aa5b",
-      "title": "H Company releases Holo4, a model family for generalist computer-use agents",
-      "summary": "H Company announced Holo4 on the Hugging Face blog, the next generation of its Holo models built to power generalist computer-use agents that operate software interfaces on a user's behalf.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-28T11:33:08.571Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T11:33:08.571Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Holo4: powering generalist computer-use agents",
-          "url": "https://huggingface.co/blog/Hcompany/holo4",
-          "publishedAt": "2026-09-28T09:44:05.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "4a5f0940-ecbc-4d25-b19f-3e0d63ea7729",
-      "title": "AI companies ship legal tools to stop fabricated case law after lawyers were fined for AI filings",
-      "summary": "After lawyers were fined for submitting court filings packed with fictitious, AI-generated case law, AI companies are releasing new legal-research tools meant to prevent a repeat. Engadget examines whether the industry's push to put models into legal battles will actually help.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-30T00:12:56.025Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T00:12:56.025Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "The AI industry wants models to assist in legal battles, but will they help?",
-          "url": "https://www.engadget.com/2271692/ai-industry-want-use-models-legal-battle-law-assistance/",
-          "publishedAt": "2026-09-29T23:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "88542c45-550c-460d-8b71-d4ea0c213b9f",
-      "title": "Jensen Huang says it's fine if kids forget basic math because of AI, as a large study shows score drops",
-      "summary": "Nvidia CEO Jensen Huang said AI's effect on students may be a worthwhile trade-off even if children lose basic math skills. Per Mashable, the remark lands as a study of 26,000 Chinese students found heavy AI reliance was associated with exam scores falling by up to 20 percent, sharpening the debate over whether AI-assisted schoolwork comes at the cost of actual learning.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-29T07:53:45.376Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T07:53:45.376Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "Nvidia CEO Jensen Huang Says It’s Okay If Kids Forget Basic Maths Because of AI",
-          "url": "https://in.mashable.com/tech/114413/nvidia-ceo-jensen-huang-says-its-okay-if-kids-forget-basic-maths-because-of-ai",
-          "publishedAt": "2026-09-29T07:08:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "4190af6a-94c7-4054-b210-34a394a17599",
-      "title": "Cloudflare builds CryptoLabe, an AI tool that maps its cryptography for a post-quantum migration by 2029",
-      "summary": "Cloudflare described CryptoLabe, an internal AI-powered tool that discovers cryptography across its codebase and surfaces dependencies, to guide a full post-quantum migration targeted for 2029. The post shares lessons learned so far from using AI for cryptographic inventory.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-29T18:06:18.780Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T18:06:18.780Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Using AI to chart a course for our post-quantum migration",
-          "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
-          "publishedAt": "2026-09-29T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "5653300f-9667-41cd-8538-36e0b440dc75",
-      "title": "McDonald's reportedly uses AI to dynamically price its menu",
-      "summary": "McDonald's is reportedly using AI to set prices dynamically, Engadget reports, in a move that risks further souring customers already unhappy with the chain's pricing.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-09-29T18:06:15.217Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T18:06:15.217Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "McDonald's is reportedly using AI to \"dynamically\" price its burgers",
-          "url": "https://www.engadget.com/2272211/mcdonalds-is-reportedly-using-ai-to-dynamically-price-its-burgers/",
-          "publishedAt": "2026-09-29T17:00:25.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
       ]
     }
   ],
