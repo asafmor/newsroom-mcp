@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T06:36:16.078Z",
+  "generatedAt": "2026-10-01T08:37:37.815Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -573,6 +573,27 @@
       ]
     },
     {
+      "id": "df4d5ce4-cf78-48fa-98cb-6255647c115f",
+      "title": "California bans companies from relying on AI to fire workers",
+      "summary": "California has enacted new laws aimed at companies that use AI to initiate job cuts or monitor employees, barring employers from relying on AI to fire workers, Engadget reports.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-01T08:37:34.057Z",
+      "lastMeaningfulUpdateAt": "2026-10-01T08:37:34.057Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "California's new law bans companies from relying on AI to fire workers",
+          "url": "https://www.engadget.com/2274224/california-law-bans-companies-from-relying-on-ai-to-fire-workers/",
+          "publishedAt": "2026-10-01T07:36:44.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
       "title": "OpenAI eyes a $30B raise at $1.4T as Altman ties the delayed IPO to \"confident safety claims\"",
       "summary": "OpenAI is reportedly lining up its last private raise before a public debut that Sam Altman now says must wait until the company can vouch for its models' safety.\n\n- OpenAI is negotiating a $30 billion funding round at a $1.4 trillion valuation, per TechCrunch\n- The round is expected to be the company's final private raise before an IPO, which has been pushed to 2027\n- Altman told reporters OpenAI has \"got to be able to make confident safety claims\" before going public, tying the IPO timeline to getting its rogue-AI incidents under control, per Gizmodo",
@@ -742,6 +763,20 @@
           "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
           "publishedAt": "2026-09-30T19:30:00.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI Dots Autonomous Agents Powered by ChatGPT 6 Astra",
+          "url": "https://www.geeky-gadgets.com/openai-dots-gpt-6-astra/",
+          "publishedAt": "2026-10-01T08:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI Prices GPT-6.1 Sol at Just 20% of Astra’s Cost",
+          "url": "https://www.geeky-gadgets.com/openai-devday-gpt-sol/",
+          "publishedAt": "2026-10-01T07:15:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -2403,30 +2438,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "0f362df3-2a31-459d-9e09-94add01d6597",
-      "title": "Reco raises $55M as AI agent security startups crowd the market",
-      "summary": "AI agent security startup Reco has raised $55 million, building on a $30 million round in February and bringing its total funding to $140 million, as investors pile into a crowded field of startups securing AI agents.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-29T14:00:50.149Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T14:00:50.149Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Reco raises $55M as AI agent security startups crowd the market",
-          "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
-          "publishedAt": "2026-09-29T12:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "safety"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 119,
   "hasMore": true
 }
