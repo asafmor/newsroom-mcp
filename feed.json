@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T10:39:22.012Z",
+  "generatedAt": "2026-10-01T12:40:29.378Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -71,6 +71,13 @@
           "title": "Google's first Gemini 4 model is 'Argon'",
           "url": "https://www.engadget.com/2274263/google-gemini-4-model-argon/",
           "publishedAt": "2026-10-01T09:26:30.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Gemini 4 Argon Beats Claude Opus 5.5 on Arena AI",
+          "url": "https://www.geeky-gadgets.com/google-gemini-4-argon/",
+          "publishedAt": "2026-10-01T11:17:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -2390,6 +2397,50 @@
       ]
     },
     {
+      "id": "a1862ccf-923d-4c3e-b3b1-7dacd52a7eb7",
+      "title": "Gizmodo: AI's \"abliteration\" problem is bigger than China",
+      "summary": "A Gizmodo analysis argues that fears over open-weight models, whose guardrails can be stripped out through \"abliteration,\" are at least as much about winning the AI race at home as they are about safety hazards.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-10-01T12:40:24.337Z",
+      "lastMeaningfulUpdateAt": "2026-10-01T12:40:24.337Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI’s ‘Abliteration’ Problem Is Bigger Than China",
+          "url": "https://gizmodo.com/ais-abliteration-problem-is-bigger-than-china-2000819656",
+          "publishedAt": "2026-10-01T12:00:54.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion",
+        "open-source"
+      ]
+    },
+    {
+      "id": "98f79e50-58e6-4fda-9516-f62bff843962",
+      "title": "Satlyt raises $8M to build open software for running AI on satellites",
+      "summary": "Satlyt, founded by a former Google and SpaceX product manager, raised $8M to run AI on satellites. It pitches itself as the \"Android of orbital computing\": open software that works across many companies' satellites, in contrast to SpaceX's closed, all-in-one approach.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-01T12:40:18.083Z",
+      "lastMeaningfulUpdateAt": "2026-10-01T12:40:18.083Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+          "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+          "publishedAt": "2026-10-01T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "infrastructure"
+      ]
+    },
+    {
       "id": "63abca59-4e1a-4385-932b-c1e677c13beb",
       "title": "Cloudflare red-teams its own WAF with frontier AI models and finds detection gaps",
       "summary": "Cloudflare built an adaptive WAF tester driven by frontier AI models that adjusted each request based on what the firewall blocked or passed, exploring variations a fixed test suite would miss. Run across six attack categories on an authorized staging environment, it uncovered detection gaps that Cloudflare says it has since fixed.",
@@ -2410,50 +2461,8 @@
         "safety",
         "research"
       ]
-    },
-    {
-      "id": "bae66c3f-3077-4f5f-ba93-a04299fb4f3f",
-      "title": "Nvidia's $150B buyback shows where AI profits flow first, CNET argues",
-      "summary": "Nvidia announced a $150 billion share buyback, and CNET argues it props up AI hype while rewarding insiders and institutions before everyday investors. The piece frames Nvidia as the one AI company with real profits, and the buyback as a sign of who benefits first from the AI boom.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-29T05:51:30.494Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T05:51:30.494Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Nvidia’s $150 Billion Buyback: A Lifeline for AI Hype, Not Everyday Investors",
-          "url": "https://www.cnet.com/tech/services-and-software/nvidia-150-billion-buyback-ai-hype-not-everyday-investors/",
-          "publishedAt": "2026-09-29T00:15:31.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "bfacbe13-9303-47df-bbef-54b082480eba",
-      "title": "DoorDash debuts a text-to-order AI agent",
-      "summary": "DoorDash has launched a text-to-order AI agent that lets customers place orders by messaging it instead of using the app, a convenience play Gizmodo greets with some skepticism.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-30T18:28:48.219Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T18:28:48.219Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "DoorDash Debuts Text-to-Order AI Agent for People Who Find It a Little Too Hard to Order DoorDash",
-          "url": "https://gizmodo.com/doordash-debuts-text-to-order-ai-agent-for-people-who-find-it-a-little-too-hard-to-order-doordash-2000819567",
-          "publishedAt": "2026-09-30T18:10:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 121,
   "hasMore": true
 }
