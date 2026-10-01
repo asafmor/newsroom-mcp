@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T02:34:16.283Z",
+  "generatedAt": "2026-10-01T04:35:30.365Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -1114,6 +1114,27 @@
       "tags": [
         "product-launch",
         "infrastructure"
+      ]
+    },
+    {
+      "id": "90a65f75-d95d-48f5-ab43-2e13a9d074b0",
+      "title": "AI agents targeted the Canadian government in \"rudimentary hacking attempts\"",
+      "summary": "Gizmodo reports that AI agents made \"rudimentary hacking attempts\" against the Canadian government, apparently in pursuit of early 20th century divorce statistics.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-01T04:35:27.190Z",
+      "lastMeaningfulUpdateAt": "2026-10-01T04:35:27.190Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Agents Targeted Canadian Government in ‘Rudimentary Hacking Attempts’",
+          "url": "https://gizmodo.com/ai-agents-targeted-canadian-government-in-rudimentary-hacking-attempts-2000819992",
+          "publishedAt": "2026-10-01T03:29:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -2404,29 +2425,8 @@
         "funding",
         "safety"
       ]
-    },
-    {
-      "id": "a3e91fe5-6ea1-45e8-98f5-915adfd2b74d",
-      "title": "\"Big Short\" investor Michael Burry expects the AI bubble to burst \"sooner than later\"",
-      "summary": "Michael Burry, the investor known for calling the 2008 housing crash, says the AI bubble will burst \"sooner than later\" and expects stocks to tumble next year, Gizmodo reports.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-09-30T00:12:52.325Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T00:12:52.325Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "‘Big Short’ Investor Expects AI Bubble Burst ‘Sooner Than Later’",
-          "url": "https://gizmodo.com/big-short-investor-expects-ai-bubble-burst-sooner-than-later-2000818889",
-          "publishedAt": "2026-09-29T22:19:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 118,
   "hasMore": true
 }
