@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T12:40:29.378Z",
+  "generatedAt": "2026-10-01T14:41:28.421Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -874,6 +874,13 @@
           "title": "With No Astra to Release, OpenAI Pivots to New GPT-6.1 Sol Model",
           "url": "https://gizmodo.com/with-no-astra-to-release-openai-pivots-to-new-gpt-6-1-sol-model-2000819044",
           "publishedAt": "2026-09-29T20:59:36.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI’s GPT-6.1 Sol Matches Astra Capabilities at Dev Day 2026",
+          "url": "https://www.geeky-gadgets.com/openai-dev-day-2026-announcements/",
+          "publishedAt": "2026-10-01T12:45:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -2349,6 +2356,27 @@
       ]
     },
     {
+      "id": "a34e2a7c-02c7-4d6f-a589-69bfccc02406",
+      "title": "Photon raises $4.5M to replace mobile apps with messaging-based AI agents",
+      "summary": "Photon, a startup that staged a \"funeral\" for mobile apps, has raised $4.5M. It helps developers build AI agents that work over iMessage, SMS/RCS, email, and other messaging platforms, betting that consumers will increasingly use agents instead of downloading apps.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-01T14:41:19.128Z",
+      "lastMeaningfulUpdateAt": "2026-10-01T14:41:19.128Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents.",
+          "url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
+          "publishedAt": "2026-10-01T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
       "id": "837c9ac4-e3e5-4bf7-8563-4ea9094c0a5f",
       "title": "Dario Amodei to have his first one-on-one dinner with President Trump",
       "summary": "Anthropic CEO Dario Amodei is reportedly having a one-on-one dinner with President Trump on Sunday night, the first such meeting between the two, per TechCrunch and Gizmodo. The sit-down comes as Anthropic fights the Pentagon's supply-chain-risk designation in court and as Amodei lobbies governments to pace frontier AI development.",
@@ -2438,28 +2466,6 @@
       "tags": [
         "funding",
         "infrastructure"
-      ]
-    },
-    {
-      "id": "63abca59-4e1a-4385-932b-c1e677c13beb",
-      "title": "Cloudflare red-teams its own WAF with frontier AI models and finds detection gaps",
-      "summary": "Cloudflare built an adaptive WAF tester driven by frontier AI models that adjusted each request based on what the firewall blocked or passed, exploring variations a fixed test suite would miss. Run across six attack categories on an authorized staging environment, it uncovered detection gaps that Cloudflare says it has since fixed.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-29T18:06:22.476Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T18:06:22.476Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "We tested our own WAF with frontier AI models. Here’s what we found",
-          "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
-          "publishedAt": "2026-09-29T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "research"
       ]
     }
   ],
