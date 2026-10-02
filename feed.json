@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T19:14:18.020Z",
+  "generatedAt": "2026-10-02T21:15:03.249Z",
   "stories": [
     {
       "id": "04d9e06c-d005-43c3-a5bf-01cab0466f3c",
@@ -1200,6 +1200,25 @@
       ]
     },
     {
+      "id": "e3265e48-0319-4d02-96bc-a51c384354e5",
+      "title": "Sean Parker is rebuilding Stability AI around music, with the labels' backing",
+      "summary": "TechCrunch reports that Napster co-founder Sean Parker is rebuilding Stability AI around music, this time with the record labels' blessing and money rather than in opposition to them.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-02T21:14:56.284Z",
+      "lastMeaningfulUpdateAt": "2026-10-02T21:14:56.284Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Sean Parker is rebuilding Stability AI around music",
+          "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+          "publishedAt": "2026-10-02T21:09:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "df4d5ce4-cf78-48fa-98cb-6255647c115f",
       "title": "California bans companies from relying on AI to fire workers",
       "summary": "California Governor Gavin Newsom signed a package of AI laws on Wednesday, including a ban on \"robo bosses\" that bars employers from relying on AI to fire workers. Per Gizmodo, the laws cover AI-driven layoffs, workplace surveillance, deepfakes, medical AI, and more.",
@@ -1265,6 +1284,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "24c68beb-6fc2-4100-bce9-fdd23ec0df04",
+      "title": "Meta opens Muse gadget-building to outsiders and unveils its own Muse Home Link smart home device",
+      "summary": "Engadget reports that Meta wants people to build their own gadgets for its Muse AI agent, and that the company has also created a smart home device of its own, the Muse Home Link.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-02T21:14:58.332Z",
+      "lastMeaningfulUpdateAt": "2026-10-02T21:14:58.332Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Meta wants people to build their own Muse gadgets, too",
+          "url": "https://www.engadget.com/2276312/meta-muse-gadgets-open-source-smart-home-link/",
+          "publishedAt": "2026-10-02T20:27:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -2328,49 +2368,6 @@
           "title": "DoorDash launches an AI agent you can text to order food",
           "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
           "publishedAt": "2026-09-30T16:00:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "352a5241-5c63-4477-83d4-487bcb62e506",
-      "title": "Allen AI introduces Olmo-core 3, open training infrastructure for large MoE models",
-      "summary": "Allen AI introduced Olmo-core 3, which it describes as open, scalable training infrastructure for large mixture-of-experts models.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-02T05:04:24.878Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:04:24.878Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-          "url": "https://huggingface.co/blog/allenai/olmocore3",
-          "publishedAt": "2026-10-01T15:01:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "fb64bb9b-5ae8-4bd4-aa6e-fce8934c149b",
-      "title": "Cloudflare's AI Search reaches general availability",
-      "summary": "Cloudflare's AI Search is now generally available. It embeds image pixels directly for visual search, runs OCR on scanned PDFs, accepts files up to 10 MiB, and works with any chat model.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-02T05:04:19.878Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:04:19.878Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "AI Search is now generally available",
-          "url": "https://blog.cloudflare.com/ai-search-ga/",
-          "publishedAt": "2026-10-01T13:00:00.000Z",
           "contribution": "supporting"
         }
       ],
