@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T17:13:24.140Z",
+  "generatedAt": "2026-10-02T19:14:18.020Z",
   "stories": [
     {
       "id": "04d9e06c-d005-43c3-a5bf-01cab0466f3c",
@@ -393,6 +393,27 @@
       "tags": []
     },
     {
+      "id": "5622af6d-912f-4d4f-ad85-00d8615f2c09",
+      "title": "Apple tightens macOS Full Disk Access controls, citing risks from AI agents",
+      "summary": "Apple says it will add new controls around macOS's Full Disk Access permission, warning that increasingly capable AI agents make broad access to users' files, messages, mail, and browsing history riskier, per TechCrunch.",
+      "importanceScore": 0.68,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-02T19:14:04.661Z",
+      "lastMeaningfulUpdateAt": "2026-10-02T19:14:04.661Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+          "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+          "publishedAt": "2026-10-02T18:11:27.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "8c434be0-633e-4482-8913-15416883f869",
       "title": "US AI data-center backlash: Amazon drops NDAs with local governments as it warns critics not to get in the way",
       "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built, and is now forcing concessions from Big Tech.\n\n- New: Amazon pledged to stop using NDAs with local governments, a concession to data center critics that came with a warning not to get in the way, per Gizmodo\n- Trump admitted in a Time magazine interview that he is a NIMBY on data centers\n- A developer offered Pennsylvania locals $10,000 each to stop protesting a planned data center, and residents refused\n- A \"viral\" pro-data-center party was revealed to be backed by Peter Thiel, the Koch Institute, and other AI boosters\n- Nearly $200 billion worth of US data center projects have been blocked or delayed this year as communities keep pushing back\n- Big Tech is countering with a multimillion-dollar ad campaign, while environmental-justice concerns in previously industrialized neighborhoods remain a central line of attack",
@@ -488,6 +509,27 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "f24a073d-8b61-4ac6-875f-4670801c7c8a",
+      "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "summary": "Anthropic announced a $100 million investment to train 10,000 engineers, aimed at closing the enterprise AI talent gap. The source item carries only the headline, so further details of the program are not yet available.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-02T19:14:07.038Z",
+      "lastMeaningfulUpdateAt": "2026-10-02T19:14:07.038Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+          "url": "https://www.anthropic.com/news/claude-frontier-academy",
+          "publishedAt": "2026-10-02T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -1136,6 +1178,20 @@
           "url": "https://www.wired.com/story/uncanny-valley-podcast-trumps-pinky-swear-ai-safety-accord-an-ai-agent-worth-the-risk/",
           "publishedAt": "2026-10-01T19:58:31.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+          "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+          "publishedAt": "2026-10-02T17:56:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+          "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+          "publishedAt": "2026-10-02T17:48:16.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1209,6 +1265,28 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "df03286a-3ed4-4180-a3c6-0606b35af066",
+      "title": "Cloudflare adds a native Web Search API to AI Gateway",
+      "summary": "Cloudflare AI Gateway now supports native web search, built in partnership with Ceramic.ai, Exa, and Linkup. Developers can inject real-time web context into model inference calls through AI Gateway, REST APIs, or Workers bindings.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-02T19:14:09.138Z",
+      "lastMeaningfulUpdateAt": "2026-10-02T19:14:09.138Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Introducing Web Search API via AI Gateway",
+          "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+          "publishedAt": "2026-10-02T13:28:10.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "infrastructure"
       ]
     },
     {
@@ -2299,86 +2377,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "7ab00e87-6b9c-4f53-8f49-35eec1412139",
-      "title": "Albertsons deploys ChatGPT Enterprise and the OpenAI API across its grocery business",
-      "summary": "OpenAI says Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for its customers.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-02T05:04:07.560Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:04:07.560Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "How Albertsons Companies is reimagining retail from the inside out",
-          "url": "https://openai.com/index/albertsons-reimagining-retail",
-          "publishedAt": "2026-10-01T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "7aa8b4cc-a6b4-45e4-9c00-57067da52947",
-      "title": "AMD to acquire Fei-Fei Li's World Labs for $8.2 billion",
-      "summary": "AMD will acquire World Labs, the world-model startup founded by Fei-Fei Li, for $8.2 billion, TechCrunch reports. Li will join AMD as executive vice president and chief scientist, giving the chipmaker an in-house frontier research lab focused on spatial intelligence and world models.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-28T21:44:33.175Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T21:44:33.175Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion",
-          "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
-          "publishedAt": "2026-09-28T20:39:33.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "research"
-      ]
-    },
-    {
-      "id": "a12a0253-325e-404e-8815-b32ad989fe14",
-      "title": "Anthropic releases Claude Sonnet 5.5, pitched as a cheaper, faster work partner",
-      "summary": "Anthropic released Claude Sonnet 5.5, the newest version of its mid-range model, days after shipping Opus 5.5 — its second new model in under a week, per Gizmodo. The company is positioning it as a significantly cheaper and faster \"work partner,\" citing quicker response times and lower token consumption per task, confirming earlier reports that the launch would focus on lowering cost for developers priced out of frontier compute.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-09-28T13:35:30.418Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T19:42:13.552Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Expected Anthropic Sonnet 5.5 Launch Next Week Will Hopefully Reduces Costs",
-          "url": "https://www.geeky-gadgets.com/anthropic-sonnet-5-5-rumors/",
-          "publishedAt": "2026-09-28T13:13:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
-          "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
-          "publishedAt": "2026-09-28T18:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Releases Its Second New AI Model in Less Than a Week",
-          "url": "https://gizmodo.com/anthropic-releases-its-second-new-ai-model-in-less-than-a-week-2000818514",
-          "publishedAt": "2026-09-28T21:55:59.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
     }
   ],
-  "totalCount": 134,
+  "totalCount": 133,
   "hasMore": true
 }
