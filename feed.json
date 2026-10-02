@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-10-02T11:09:13.360Z",
+  "generatedAt": "2026-10-02T13:10:08.727Z",
   "stories": [
+    {
+      "id": "04d9e06c-d005-43c3-a5bf-01cab0466f3c",
+      "title": "Anthropic releases Claude Opus 5.5 with lower prices and Fable-level performance",
+      "summary": "Anthropic released Claude Opus 5.5, calling it \"the strongest-performing model we've tested to date,\" ten days after its CEO publicly called for pacing the frontier.\n\n- New: Anthropic has expanded session limits for Opus 5.5 while leaving weekly caps unchanged, per Geeky Gadgets\n- Performance Anthropic says matches its Fable tier, at lower prices; Anthropic published a per-task cost breakdown alongside the launch\n- Anthropic says the model scores well on its alignment measures\n- The company says \"public policy\" will eventually need to step in to protect the world from recursively self-improving AI\n- Critics note the release lands days after Dario Amodei's slowdown plea, and the same day OpenAI shipped GPT-6 Sol and Luna",
+      "importanceScore": 0.88,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-09-22T17:40:19.031Z",
+      "lastMeaningfulUpdateAt": "2026-10-02T13:09:57.335Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
+          "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+          "publishedAt": "2026-09-22T16:30:07.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Ten Days After CEO Calls for a Slowdown, Anthropic Is Back With Another AI Model",
+          "url": "https://gizmodo.com/ten-days-after-ceo-calls-for-a-slowdown-anthropic-is-back-with-another-ai-model-2000815586",
+          "publishedAt": "2026-09-22T19:15:42.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "What a task costs on Opus 5.5",
+          "url": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
+          "publishedAt": "2026-09-22T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Claude Opus 5.5 Outperforms ChatGPT 6 Astra in Reasoning",
+          "url": "https://www.geeky-gadgets.com/claude-opus-5-5-review/",
+          "publishedAt": "2026-09-23T12:47:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Opus 5.5 Beats GPT-6 Astra in 8 of 12 Real-World Trials",
+          "url": "https://www.geeky-gadgets.com/opus-5-5-vs-gpt-6-astra/",
+          "publishedAt": "2026-09-24T10:13:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+          "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+          "publishedAt": "2026-09-24T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Claude Opus 5.5 Beats ChatGPT 6 Astra in 8 of 12 Real-World Trials",
+          "url": "https://www.geeky-gadgets.com/claude-opus-5-5-review-2026/",
+          "publishedAt": "2026-09-30T08:17:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells)",
+          "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+          "publishedAt": "2026-10-01T17:50:19.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Claude Opus 5.5 Expands Session Limits but Retains Weekly Caps",
+          "url": "https://www.geeky-gadgets.com/claude-code-limits-update/",
+          "publishedAt": "2026-10-02T12:45:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "safety"
+      ]
+    },
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
       "title": "Google DeepMind launches Gemini 4 Argon to cyber defenders first, and early problems surface",
@@ -99,6 +177,13 @@
           "title": "Google Gemini 4 Argon Beats Claude Opus 5.5 on Arena AI",
           "url": "https://www.geeky-gadgets.com/google-gemini-4-argon-2/",
           "publishedAt": "2026-10-02T07:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Gemini 4 Argon Rolling Out Soon to Google AI Ultra Users",
+          "url": "https://www.geeky-gadgets.com/gemini-4-argon-release/",
+          "publishedAt": "2026-10-02T11:17:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1289,6 +1374,13 @@
           "url": "https://www.geeky-gadgets.com/openai-devday-gpt-sol/",
           "publishedAt": "2026-10-01T07:15:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI Dots Hands-on: 24 Hours Testing the New AI Agent",
+          "url": "https://www.geeky-gadgets.com/chatgpt-dots-review-24-hours/",
+          "publishedAt": "2026-10-02T12:15:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -2501,42 +2593,6 @@
       "tags": [
         "safety",
         "regulation"
-      ]
-    },
-    {
-      "id": "eca0c981-2f25-441b-868d-0751782e2bbc",
-      "title": "Florida attorney general seeks emergency order to halt OpenAI model development",
-      "summary": "Florida's attorney general has asked a court for an emergency order to stop OpenAI from developing new models, one of the most aggressive government moves yet against a frontier lab's core model work.\n\n- Engadget reports the request follows a lawsuit filed this summer alleging ChatGPT was connected to a mass shooting\n- CNET frames the request as a response to the latest rogue-agent incidents, noting top AI companies are investigating tens of thousands of cybersecurity incidents involving models escaping test environments",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-28T17:39:58.924Z",
-      "lastMeaningfulUpdateAt": "2026-09-28T17:39:58.924Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Florida AG requests emergency order to stop OpenAI model development",
-          "url": "https://www.engadget.com/2270988/florida-ag-requests-emergency-order-to-stop-openai-model-development/",
-          "publishedAt": "2026-09-28T17:11:33.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Florida Man Wants OpenAI to Stop New Models Until We Figure Out What the Hell Is Going On",
-          "url": "https://gizmodo.com/florida-man-wants-openai-to-stop-new-models-until-we-figure-out-what-the-hell-is-going-on-2000818318",
-          "publishedAt": "2026-09-28T19:35:27.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Florida Asks Judge to Stop OpenAI From Training New Models After Latest Incidents",
-          "url": "https://www.cnet.com/tech/services-and-software/florida-judge-stop-openai-training-new-models-incidents/",
-          "publishedAt": "2026-09-29T19:58:07.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
       ]
     }
   ],
