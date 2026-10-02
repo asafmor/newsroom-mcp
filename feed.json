@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T07:06:04.798Z",
+  "generatedAt": "2026-10-02T09:07:33.698Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -92,6 +92,13 @@
           "title": "Gemini 4 Is Here: When You May Be Able to Use Google’s New AI Model",
           "url": "https://www.cnet.com/tech/services-and-software/google-gemini-4-argon-ai-model-release/",
           "publishedAt": "2026-10-01T19:03:13.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Gemini 4 Argon Beats Claude Opus 5.5 on Arena AI",
+          "url": "https://www.geeky-gadgets.com/google-gemini-4-argon-2/",
+          "publishedAt": "2026-10-02T07:15:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1941,6 +1948,27 @@
       "tags": []
     },
     {
+      "id": "593015b5-e635-452f-94d9-60360f25f95f",
+      "title": "AlphaGo co-creator Thore Graepel argues in MIT Technology Review that LLMs don't reason",
+      "summary": "In an MIT Technology Review opinion piece titled \"Don't be fooled—LLMs don't reason,\" Thore Graepel opens with his memory of watching AlphaGo, a program he helped build, play the famously counterintuitive Move 37 in Seoul in 2016, and argues that today's large language models do not actually reason.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-02T09:06:58.678Z",
+      "lastMeaningfulUpdateAt": "2026-10-02T09:06:58.678Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "Don’t be fooled—LLMs don’t reason",
+          "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+          "publishedAt": "2026-10-02T08:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "285d3952-cdb8-4f3d-b00c-1b6ea9211b2a",
       "title": "Trump makes \"Super Intelligence\" the government's name for AI and claims industry leaders are on board",
       "summary": "President Trump's \"AI Force\" announcement and rebrand of AI as \"Super Intelligence\" has hardened into official government usage, drawing pushback from Bernie Sanders and skepticism about whether the industry will follow.\n\n- Trump said he will soon announce an \"AI czar\" to run the newly announced AI Force\n- In his UN General Assembly address he declared the US government will now refer to AI as \"Super Intelligence,\" arguing \"artificial\" makes the technology sound fake\n- He now says private-sector AI leaders are on board with the rebrand, though Gizmodo notes he has offered no evidence that they are\n- He claimed, without evidence, that the backlash against AI is a Democratic hoax\n- Sanders pushed back, calling AI \"an existential threat to humanity\" that must be treated as such rather than rebranded\n- Commentators at Mashable and Gizmodo note the new label changes nothing about the technology's underlying problems",
@@ -2524,64 +2552,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "46f1d85f-22b8-431b-8181-605ade557c92",
-      "title": "Anthropic's Claude-assisted enzyme discovery draws scrutiny from scientists over originality",
-      "summary": "Anthropic says Claude, working inside the company's own biology lab, discovered a novel enzyme system with CRISPR-like repeats — and outside scientists are now questioning how big a deal it really is.\n\n- New: Scientists polled by CNET call the discovery neat but say it's unclear whether it was truly original or what comes next\n- The system, described as ART (Array Associated Reverse Transcriptase), is a programmable DNA-editing mechanism found in a jumbo phage\n- Humans remained in the loop for the experimental work, so this is AI-assisted rather than AI-run discovery, per TechCrunch",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-23T22:06:31.658Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T01:48:31.133Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-          "publishedAt": "2026-09-23T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic says its biology lab has already found something big",
-          "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
-          "publishedAt": "2026-09-23T22:17:39.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Claude AI Discovers ART DNA Editing Mechanism in 21 Hours",
-          "url": "https://www.geeky-gadgets.com/claude-ai-dna-art-discovery/",
-          "publishedAt": "2026-09-25T10:43:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "MIT AI",
-          "title": "When can we say AI made a scientific discovery?",
-          "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
-          "publishedAt": "2026-09-28T17:03:16.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Did Anthropic Really Make a Big Biology Breakthrough? We Asked Scientists to Weigh In",
-          "url": "https://www.cnet.com/tech/services-and-software/did-anthropic-find-a-novel-enzyme/",
-          "publishedAt": "2026-09-28T20:30:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Anthropic Says It Discovered a Crispr-Like System. Now What?",
-          "url": "https://www.wired.com/story/anthropic-says-it-discovered-a-crispr-like-system-now-what/",
-          "publishedAt": "2026-09-29T18:03:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 127,
+  "totalCount": 128,
   "hasMore": true
 }
