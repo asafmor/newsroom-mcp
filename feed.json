@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T09:07:33.698Z",
+  "generatedAt": "2026-10-02T11:09:13.360Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -1085,6 +1085,27 @@
       "tags": []
     },
     {
+      "id": "675ffd92-dc72-48a6-a14b-d1dfab5ce0fc",
+      "title": "A patched flaw in ChatGPT's Mac app could have let hackers grab sensitive data",
+      "summary": "Wired reports that a recently patched vulnerability in ChatGPT's Mac app could have let attackers grab sensitive data. The piece frames it as a reminder that, while attention has focused on AI agents' hacking capabilities, AI software is itself an inviting and vulnerable target.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-02T11:09:02.498Z",
+      "lastMeaningfulUpdateAt": "2026-10-02T11:09:02.498Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
+          "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
+          "publishedAt": "2026-10-02T09:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
       "title": "OpenAI eyes a $30B raise at $1.4T as Altman ties the delayed IPO to \"confident safety claims\"",
       "summary": "OpenAI is reportedly lining up its last private raise before a public debut that Sam Altman now says must wait until the company can vouch for its models' safety.\n\n- OpenAI is negotiating a $30 billion funding round at a $1.4 trillion valuation, per TechCrunch\n- The round is expected to be the company's final private raise before an IPO, which has been pushed to 2027\n- Altman told reporters OpenAI has \"got to be able to make confident safety claims\" before going public, tying the IPO timeline to getting its rogue-AI incidents under control, per Gizmodo",
@@ -1645,6 +1666,27 @@
       "tags": [
         "funding",
         "safety"
+      ]
+    },
+    {
+      "id": "b280a4f8-f674-44ce-9659-977bbd4041ea",
+      "title": "Health care workers say Palantir's hospital scheduling software is causing errors and burnout",
+      "summary": "A hospital giant and a radiology network turned to Palantir to streamline scheduling, but nurses and other staff tell Wired the new software is causing errors, burnout, and frustration, leaving workers to clean up after it.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-10-02T11:09:04.710Z",
+      "lastMeaningfulUpdateAt": "2026-10-02T11:09:04.710Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Health Care Workers Are Tired of Cleaning Up Palantir’s Mess",
+          "url": "https://www.wired.com/story/healthcare-workers-are-tired-of-cleaning-up-palantirs-mess/",
+          "publishedAt": "2026-10-02T09:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -2496,64 +2538,8 @@
         "regulation",
         "safety"
       ]
-    },
-    {
-      "id": "d00e2c9c-6336-45ba-bd69-7ff3aacfd77b",
-      "title": "Instinct's unsolicited product and travel recommendations draw user backlash",
-      "summary": "Instinct, the viral consumer AI agent, is rolling out human-curated product and travel recommendations inside the app, and some users are objecting to receiving suggestions they never asked for, per TechCrunch.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-30T16:26:54.515Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T16:26:54.515Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Instinct’s new product recommendations are giving some users the ick",
-          "url": "https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/",
-          "publishedAt": "2026-09-30T15:56:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "59932556-600a-4ddb-82d5-8de47be44055",
-      "title": "Microsoft's Copilot app adds Office, natural-language coding, automation, and an Agent Builder",
-      "summary": "Microsoft is giving its Copilot app another redesign, folding in Office document work, natural-language coding, and task automation, per Engadget. A new Agent Builder inside Copilot lets both technical and non-technical users design, customize, and deploy their own AI agents in minutes from templates or custom prompts.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-25T12:39:29.494Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T09:55:56.646Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Microsoft's Copilot app adds Office, natural coding and automation",
-          "url": "https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/",
-          "publishedAt": "2026-09-25T12:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Microsoft Thinks It’s Finally Figured Out Copilot This Time",
-          "url": "https://gizmodo.com/microsoft-thinks-its-finally-figured-out-copilot-this-time-2000817460",
-          "publishedAt": "2026-09-25T16:40:28.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Microsoft Copilot Agent Builder Creates AI Agents in Minutes",
-          "url": "https://www.geeky-gadgets.com/how-to-use-copilot-agent-builder/",
-          "publishedAt": "2026-09-29T08:17:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 128,
+  "totalCount": 129,
   "hasMore": true
 }
