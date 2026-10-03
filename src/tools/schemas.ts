@@ -152,21 +152,35 @@ export type GetActiveStoriesOutput = z.infer<typeof getActiveStoriesOutputSchema
 
 // create_story -------------------------------------------------------------
 
+// Readers include many non-native English speakers — see
+// docs/agent-system-prompt.md's "How to write titles and summaries".
+const PLAIN_ENGLISH_GUIDANCE =
+  "Write in plain, simple English for readers who may not be native speakers: short common words, short sentences (about 20 words or fewer), active voice, no idioms, slang, hype, or puns, and explain any jargon or acronym in a few plain words.";
+
+const TITLE_DESCRIPTION =
+  PLAIN_ENGLISH_GUIDANCE +
+  " The title is a clear, human headline that says who did what, in sentence case, under about 12 words — no clickbait, questions, or teasers. Example: 'Meta releases a smaller Llama model that runs on phones'.";
+
+const SUMMARY_EXAMPLE =
+  'Example (condensed from a real six-fact story, "OpenAI releases GPT-6 Astra, its most powerful model for cyber security tasks"): ' +
+  '"OpenAI released GPT-6 Astra. The company calls it the start of a new era for AI.\n\n' +
+  "- It is the first OpenAI model that the company rates as 'critical' risk for cyber attacks\n" +
+  "- OpenAI will spend $1B to help security teams use the model safely\n" +
+  "- It scores well on tests, but some experts question how OpenAI presents the results\n" +
+  "- At launch, some paying users could not access it. CEO Sam Altman apologized and reset their usage limits\n" +
+  '- Critics say it is harder for people to follow how the model reaches its answers, so it is harder to check its work"';
+
 export const createStoryInputSchema = z.object({
   contentItemIds: z.array(z.string()).min(1),
-  title: z.string().min(1),
+  title: z.string().min(1).describe(TITLE_DESCRIPTION),
   summary: z
     .string()
     .min(1)
     .describe(
       "A short paragraph is correct and preferred for a story with one clear fact. Once the summary is genuinely long (over ~280 characters) or covers 3+ distinct facts, lede+bullets is the expected shape, not an optional nicety: write a short lede sentence, then a blank line, then one '- '-prefixed line per distinct fact (2-6 bullets). " +
-        'Example (condensed from a real six-fact story, "OpenAI launches GPT-6 Astra, its first \'critical\' cyber-capability model"): ' +
-        '"OpenAI launched GPT-6 Astra, framing it as the start of an \'AGI era.\'\n\n' +
-        "- First OpenAI model to cross the Preparedness Framework's 'critical' cyber-capability threshold\n" +
-        "- Committed $1B under 'Daybreak for Frontline Defenders' to expand safe access for defenders\n" +
-        "- Benchmarks are strong, but OpenAI's framing of them has drawn scrutiny\n" +
-        "- Early access problems blocked paying users; Altman apologized and offered usage resets\n" +
-        '- Critics say the model\'s less legible reasoning makes human oversight harder"',
+        PLAIN_ENGLISH_GUIDANCE +
+        " " +
+        SUMMARY_EXAMPLE,
     ),
   relevanceScore: z.number().min(0).max(1),
   importanceScore: z.number().min(0).max(1),
@@ -194,7 +208,7 @@ export type AttachItemToStoryOutput = z.infer<typeof attachItemToStoryOutputSche
 
 export const updateStoryInputSchema = z.object({
   storyId: z.string(),
-  title: z.string().min(1).optional(),
+  title: z.string().min(1).optional().describe(TITLE_DESCRIPTION),
   summary: z
     .string()
     .min(1)
@@ -202,13 +216,9 @@ export const updateStoryInputSchema = z.object({
     .describe(
       "Same convention as create-story: a short paragraph for one clear fact; lede+bullets (a short lede sentence, a blank line, then one '- '-prefixed line per distinct fact) is the expected shape once the summary is genuinely long (over ~280 characters) or covers 3+ distinct facts. " +
         "Restructure trigger: if this update adds a new distinct fact to an already-substantial summary, rewrite the WHOLE summary into lede+bullets rather than appending a clause or sentence onto the existing prose — accreting one fact per update call into a single paragraph is exactly the pattern this convention exists to prevent. " +
-        'Example (condensed from a real six-fact story, "OpenAI launches GPT-6 Astra, its first \'critical\' cyber-capability model"): ' +
-        '"OpenAI launched GPT-6 Astra, framing it as the start of an \'AGI era.\'\n\n' +
-        "- First OpenAI model to cross the Preparedness Framework's 'critical' cyber-capability threshold\n" +
-        "- Committed $1B under 'Daybreak for Frontline Defenders' to expand safe access for defenders\n" +
-        "- Benchmarks are strong, but OpenAI's framing of them has drawn scrutiny\n" +
-        "- Early access problems blocked paying users; Altman apologized and offered usage resets\n" +
-        '- Critics say the model\'s less legible reasoning makes human oversight harder"',
+        PLAIN_ENGLISH_GUIDANCE +
+        " " +
+        SUMMARY_EXAMPLE,
     ),
   relevanceScore: z.number().min(0).max(1).optional(),
   importanceScore: z.number().min(0).max(1).optional(),
