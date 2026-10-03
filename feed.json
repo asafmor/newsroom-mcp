@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T23:16:22.330Z",
+  "generatedAt": "2026-10-03T01:18:07.602Z",
   "stories": [
     {
       "id": "04d9e06c-d005-43c3-a5bf-01cab0466f3c",
@@ -196,6 +196,56 @@
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "f366f084-489c-4f4a-bcce-a00ef80ea74f",
+      "title": "Meta pushes Muse beyond consumers: an enterprise platform, a small-business Muse, and free code for third-party gadgets",
+      "summary": "Meta is pushing its Muse agent stack beyond its own apps into business, developer, and third-party hardware offerings.\n\n- New: Meta is giving Muse code away for free so device makers can build the agent into their own gadgets, from TVs to toasters, per TechCrunch\n- A small-business version of Muse can connect to Instagram and Facebook ad accounts and analytics\n- Meta is launching an enterprise AI platform and has hired MongoDB's CEO to lead the initiative\n- The platform brings Meta's full stack to businesses and developers, including Muse, Meta Business Agent, the Muse API, and Muse Code",
+      "importanceScore": 0.74,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-28T17:39:55.046Z",
+      "lastMeaningfulUpdateAt": "2026-10-03T01:17:57.884Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+          "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+          "publishedAt": "2026-09-28T16:52:38.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta Goes All-In On AI for Businesses Before Muse Goes Horribly Wrong",
+          "url": "https://gizmodo.com/meta-goes-all-in-on-ai-for-businesses-before-muse-goes-horribly-wrong-2000818432",
+          "publishedAt": "2026-09-28T20:45:55.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Meta now has a version of Muse just for small businesses",
+          "url": "https://www.engadget.com/2271498/meta-now-has-a-version-of-muse-just-for-small-businesses/",
+          "publishedAt": "2026-09-29T09:30:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is expanding its AI agent Muse to small businesses",
+          "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
+          "publishedAt": "2026-09-29T13:47:30.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta wants your next gadget to be Muse-infused",
+          "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+          "publishedAt": "2026-10-03T00:45:39.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption",
+        "product-launch"
       ]
     },
     {
@@ -2181,49 +2231,6 @@
       "tags": []
     },
     {
-      "id": "f366f084-489c-4f4a-bcce-a00ef80ea74f",
-      "title": "Meta launches an enterprise AI platform, hires MongoDB's CEO to run it, and ships a small-business Muse",
-      "summary": "Meta is pushing its Muse agent stack beyond consumers into a business and developer offering.\n\n- New: A small-business version of Muse can now connect to Instagram and Facebook ad accounts and analytics\n- Meta is launching an enterprise AI platform and has hired MongoDB's CEO to lead the initiative\n- The platform brings Meta's full stack to businesses and developers, including Muse, Meta Business Agent, the Muse API, and Muse Code",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-28T17:39:55.046Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T09:55:59.834Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-          "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
-          "publishedAt": "2026-09-28T16:52:38.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Meta Goes All-In On AI for Businesses Before Muse Goes Horribly Wrong",
-          "url": "https://gizmodo.com/meta-goes-all-in-on-ai-for-businesses-before-muse-goes-horribly-wrong-2000818432",
-          "publishedAt": "2026-09-28T20:45:55.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Meta now has a version of Muse just for small businesses",
-          "url": "https://www.engadget.com/2271498/meta-now-has-a-version-of-muse-just-for-small-businesses/",
-          "publishedAt": "2026-09-29T09:30:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta is expanding its AI agent Muse to small businesses",
-          "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
-          "publishedAt": "2026-09-29T13:47:30.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption",
-        "product-launch"
-      ]
-    },
-    {
       "id": "bb4953de-8c8f-464b-897c-c7757f607829",
       "title": "Trump calls Google's Sundar Pichai \"a monster\" after a White House \"superintelligence\" summit",
       "summary": "After a White House summit on \"superintelligence,\" President Trump publicly called Google CEO Sundar Pichai \"a monster,\" Mashable reports. The administration has rebranded its AI push as \"superintelligence\" and is urging faster progress, even as rogue AI agents remain a live concern following the OpenAI agent breaches.",
@@ -2374,6 +2381,6 @@
       "tags": []
     }
   ],
-  "totalCount": 134,
+  "totalCount": 133,
   "hasMore": true
 }
