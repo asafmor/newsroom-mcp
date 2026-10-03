@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T17:26:17.682Z",
+  "generatedAt": "2026-10-03T19:27:22.282Z",
   "stories": [
     {
       "id": "04d9e06c-d005-43c3-a5bf-01cab0466f3c",
@@ -596,6 +596,41 @@
           "title": "Amazon Is Making Concessions to Data Center Critics—and Warning Them Not to Get in the Way",
           "url": "https://gizmodo.com/amazon-is-making-concessions-to-data-center-critics-and-warning-them-not-to-get-in-the-way-2000820848",
           "publishedAt": "2026-10-02T16:40:13.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+          "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+          "publishedAt": "2026-10-03T18:43:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "6be05429-6565-44d3-aa02-a603bd204ad4",
+      "title": "AI-driven RAM shortage expected to last through 2028 as it pushes up prices on aging gadgets",
+      "summary": "The AI-driven memory shortage is expected to persist for years and is now raising prices on consumer devices.\n\n- Memory executives expect the RAM shortage to last through 2028, Ars Technica reports\n- Micron's CEO says supplies are only getting tighter, and prices for memory sold for 2027 \"are much higher than 2026 prices\"\n- New: the 7-year-old Nvidia Shield TV just got a $100 price hike, which Wired attributes to AI sending the price of anything with memory skyrocketing",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-10-02T05:04:29.562Z",
+      "lastMeaningfulUpdateAt": "2026-10-03T19:27:14.803Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "Memory executives expect RAM shortage to continue through 2028",
+          "url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
+          "publishedAt": "2026-10-01T17:49:56.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
+          "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
+          "publishedAt": "2026-10-03T18:00:00.000Z",
           "contribution": "meaningful-update"
         }
       ],
@@ -1633,6 +1668,27 @@
       ]
     },
     {
+      "id": "c9ec58ed-3934-44da-a08c-da8f52fc995f",
+      "title": "Capcom plans to use AI to speed up game development",
+      "summary": "Capcom plans to use AI to speed up its game development process, Engadget reports. The company previously said it won't use AI-generated content in its games.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-10-03T19:27:12.269Z",
+      "lastMeaningfulUpdateAt": "2026-10-03T19:27:12.269Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Capcom plans to use AI to speed up the game development process",
+          "url": "https://www.engadget.com/2276597/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/",
+          "publishedAt": "2026-10-03T18:27:15.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "6caf56fb-9778-4a4b-90df-5d0bedfb3231",
       "title": "Trillium Labs wants to do high-stakes AI research in the open",
       "summary": "Wired profiles Trillium Labs, a group of AI experts that plans to publish its work on self-improvement and model behavior openly, in contrast to frontier labs that keep their risky research locked away.",
@@ -1694,27 +1750,6 @@
       ],
       "tags": [
         "safety"
-      ]
-    },
-    {
-      "id": "6be05429-6565-44d3-aa02-a603bd204ad4",
-      "title": "Memory executives expect the RAM shortage to continue through 2028",
-      "summary": "Memory executives expect the RAM shortage to last through 2028, Ars Technica reports. Micron's CEO says supplies are only getting tighter, and prices for memory sold for 2027 \"are much higher than 2026 prices.\"",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-10-02T05:04:29.562Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:04:29.562Z",
-      "sources": [
-        {
-          "providerName": "Ars Technica",
-          "title": "Memory executives expect RAM shortage to continue through 2028",
-          "url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
-          "publishedAt": "2026-10-01T17:49:56.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
       ]
     },
     {
@@ -2332,99 +2367,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "285d3952-cdb8-4f3d-b00c-1b6ea9211b2a",
-      "title": "Trump makes \"Super Intelligence\" the government's name for AI and claims industry leaders are on board",
-      "summary": "President Trump's \"AI Force\" announcement and rebrand of AI as \"Super Intelligence\" has hardened into official government usage, drawing pushback from Bernie Sanders and skepticism about whether the industry will follow.\n\n- Trump said he will soon announce an \"AI czar\" to run the newly announced AI Force\n- In his UN General Assembly address he declared the US government will now refer to AI as \"Super Intelligence,\" arguing \"artificial\" makes the technology sound fake\n- He now says private-sector AI leaders are on board with the rebrand, though Gizmodo notes he has offered no evidence that they are\n- He claimed, without evidence, that the backlash against AI is a Democratic hoax\n- Sanders pushed back, calling AI \"an existential threat to humanity\" that must be treated as such rather than rebranded\n- Commentators at Mashable and Gizmodo note the new label changes nothing about the technology's underlying problems",
-      "importanceScore": 0.58,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-19T20:53:03.237Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T04:16:25.747Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Now Trump says he's creating an AI Force",
-          "url": "https://www.engadget.com/2263237/now-trump-says-hes-creating-an-ai-force/",
-          "publishedAt": "2026-09-19T19:22:20.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
-          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
-          "publishedAt": "2026-09-19T19:57:47.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "You’ll Never Guess What Trump Wants to Rename Now",
-          "url": "https://gizmodo.com/youll-never-guess-what-trump-wants-to-rename-now-2000814488",
-          "publishedAt": "2026-09-19T19:58:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "First Came Space Force. Now Prepare For AI Force",
-          "url": "https://gizmodo.com/first-came-space-force-now-prepare-for-ai-force-2000814525",
-          "publishedAt": "2026-09-20T21:12:14.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump’s Attempt to Rename AI Misunderstands the MAGA Faithful",
-          "url": "https://gizmodo.com/trumps-attempt-to-rename-ai-misunderstands-the-maga-faithful-2000815001",
-          "publishedAt": "2026-09-21T20:59:10.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Bernie Sanders Shows There’s a Big Problem With Trump Renaming AI to ‘Super Intelligence’",
-          "url": "https://gizmodo.com/bernie-sanders-shows-theres-a-big-problem-with-trump-renaming-ai-to-super-intelligence-2000816222",
-          "publishedAt": "2026-09-23T21:10:05.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "This Was Trump’s Big Week to Take Action on AI and All He Did Was Rename It",
-          "url": "https://gizmodo.com/this-was-trumps-big-week-to-take-action-on-ai-and-all-he-did-was-rename-it-2000817626",
-          "publishedAt": "2026-09-26T00:19:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Trump Tries To Rebrand AI. Is It Really That 'Super'?",
-          "url": "https://in.mashable.com/tech/114311/trump-tries-to-rebrand-ai-is-it-really-that-super",
-          "publishedAt": "2026-09-25T18:41:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Clearly Expects AI Leaders to Go Along With His ‘Super Intelligence’ Rebrand. Will They?",
-          "url": "https://gizmodo.com/trump-clearly-expects-ai-leaders-to-go-along-with-his-super-intelligence-rebrand-will-they-2000819186",
-          "publishedAt": "2026-09-30T02:30:38.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Is Trump’s Push to Rename AI to ‘Super Intelligence’ Part of Some Bigger Conspiracy?",
-          "url": "https://gizmodo.com/is-trumps-push-to-rename-ai-to-super-intelligence-part-of-some-bigger-conspiracy-2000819480",
-          "publishedAt": "2026-09-30T19:10:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Trump’s Crazy AI Rebrand Was a Loyalty Test for Tech Execs—and It Worked",
-          "url": "https://www.wired.com/story/trumps-crazy-ai-rebrand-was-a-loyalty-test-for-tech-execs-and-it-worked/",
-          "publishedAt": "2026-10-02T15:00:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
     }
   ],
-  "totalCount": 131,
+  "totalCount": 132,
   "hasMore": true
 }
