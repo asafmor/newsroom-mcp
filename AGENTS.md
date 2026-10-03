@@ -145,6 +145,13 @@ See `docs/ui-review.md`, `PRODUCT.md`, and `docs/ui-ux-principles.md`.
 Run `npm run verify` before handing off changes. For MCP behavior changes,
 keep or extend the protocol-level test in `test/mcp-server.test.ts`.
 
+## Merging PRs
+
+- Squash-merge, titled `<PR title> (#<number>)`, matching existing history.
+- After merging a PR, delete its head branch (e.g. `git push origin
+  --delete <branch>`). If your environment can't delete remote branches,
+  say so and ask the user to click "Delete branch" on the PR page.
+
 ## Implementation Notes
 
 - ESM + `NodeNext` module resolution: every relative import ends in `.js`
