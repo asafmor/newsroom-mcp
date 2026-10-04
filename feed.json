@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T19:39:07.675Z",
+  "generatedAt": "2026-10-04T21:40:12.365Z",
   "stories": [
     {
       "id": "285d3952-cdb8-4f3d-b00c-1b6ea9211b2a",
@@ -107,10 +107,38 @@
           "url": "https://gizmodo.com/elon-musk-fully-surrenders-to-trump-on-super-intelligence-2000821314",
           "publishedAt": "2026-10-04T17:58:01.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump Posts Not-So-Subtle Boast About ‘Super Intelligence’ Victory Over Elon Musk",
+          "url": "https://gizmodo.com/trump-posts-not-so-subtle-boast-about-super-intelligence-victory-over-elon-musk-2000821347",
+          "publishedAt": "2026-10-04T20:46:52.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "39d66218-ddf5-4fc1-9c96-a9ef47f03e4e",
+      "title": "Google freezes its open source bug bounty program after a surge in AI-generated submissions",
+      "summary": "Google has frozen its open source bug bounty program, citing a \"significant rise\" in AI submissions, per TechCrunch, which frames it as another sign that AI slop is overwhelming bug bounty programs.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-04T21:40:08.830Z",
+      "lastMeaningfulUpdateAt": "2026-10-04T21:40:08.830Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+          "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+          "publishedAt": "2026-10-04T20:31:07.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
       ]
     },
     {
@@ -1460,6 +1488,13 @@
           "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
           "publishedAt": "2026-10-02T17:48:16.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+          "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+          "publishedAt": "2026-10-04T20:08:34.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -2398,36 +2433,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "dbbcc60e-70f8-4cee-b4ea-4edbf54c9c7b",
-      "title": "Report: taxpayers have been subsidizing Meta's AI data centers through a tax credit",
-      "summary": "A New York Times investigation finds Meta has been controversially taking advantage of a tax credit to build its AI data centers, meaning taxpayers have effectively subsidized the buildout, per Gizmodo.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-30T18:28:51.273Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T18:28:51.273Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Taxpayers Have Been Subsidizing Meta’s AI Data Centers: Report",
-          "url": "https://gizmodo.com/taxpayers-have-been-subsidizing-metas-ai-data-centers-report-2000819447",
-          "publishedAt": "2026-09-30T17:50:05.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Who Are We Expecting To Save Us From AI?",
-          "url": "https://in.mashable.com/tech-industry/114517/who-are-we-expecting-to-save-us-from-ai",
-          "publishedAt": "2026-10-01T23:15:18.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 131,
+  "totalCount": 130,
   "hasMore": true
 }
