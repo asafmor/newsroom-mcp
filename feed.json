@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T09:33:48.735Z",
+  "generatedAt": "2026-10-04T11:35:09.073Z",
   "stories": [
     {
       "id": "04d9e06c-d005-43c3-a5bf-01cab0466f3c",
@@ -657,6 +657,28 @@
       ],
       "tags": [
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "b51bd8c2-011f-4721-be19-07b730c51ba3",
+      "title": "Rural data centers are set for a big federal tax break, though some hyperscalers seem reluctant to take it",
+      "summary": "Under the One Big Beautiful Bill Act, data center projects in rural areas could be eligible for major federal tax benefits starting next year, Wired reports. Some hyperscalers do not seem eager to take the money.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-10-04T11:35:04.382Z",
+      "lastMeaningfulUpdateAt": "2026-10-04T11:35:04.382Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Rural Data Centers Are in for a Big Federal Tax Break",
+          "url": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
+          "publishedAt": "2026-10-04T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "regulation"
       ]
     },
     {
@@ -2346,29 +2368,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "593015b5-e635-452f-94d9-60360f25f95f",
-      "title": "AlphaGo co-creator Thore Graepel argues in MIT Technology Review that LLMs don't reason",
-      "summary": "In an MIT Technology Review opinion piece titled \"Don't be fooled—LLMs don't reason,\" Thore Graepel opens with his memory of watching AlphaGo, a program he helped build, play the famously counterintuitive Move 37 in Seoul in 2016, and argues that today's large language models do not actually reason.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-02T09:06:58.678Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T09:06:58.678Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "Don’t be fooled—LLMs don’t reason",
-          "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-          "publishedAt": "2026-10-02T08:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 131,
+  "totalCount": 132,
   "hasMore": true
 }
