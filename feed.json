@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-05T13:48:33.028Z",
+  "generatedAt": "2026-10-05T15:50:31.154Z",
   "stories": [
     {
       "id": "1a17a14d-f447-4655-bf39-1aa40843eb82",
       "title": "OpenAI builds out a ChatGPT ad business, adding a visual ad format and advertiser measurement tools",
-      "summary": "OpenAI is turning ChatGPT advertising from a revenue milestone into a full product line.\n\n- New: OpenAI introduced a visual ad format in ChatGPT and expanded its measurement tools, attribution partnerships, and brand-suitability controls for advertisers\n- ChatGPT Ads has reached a $1 billion annualized revenue run rate and is expanding globally\n- OpenAI frames the business as what funds free and low-cost access to ChatGPT\n- \"Sponsored Agents\" let brands show up as AI-powered experiences rather than static ad units\n- A marketer-facing toolset and integrations with HubSpot and Shopify tie the ad products into existing commerce and CRM stacks",
+      "summary": "OpenAI is turning ChatGPT advertising from a revenue milestone into a full product line.\n\n- New: OpenAI introduced a visual ad format that appears after image generation results, US-only for now, and expanded its measurement tools, attribution partnerships, and brand-suitability controls for advertisers\n- ChatGPT Ads has reached a $1 billion annualized revenue run rate and is expanding globally\n- OpenAI frames the business as what funds free and low-cost access to ChatGPT\n- \"Sponsored Agents\" let brands show up as AI-powered experiences rather than static ad units\n- A marketer-facing toolset and integrations with HubSpot and Shopify tie the ad products into existing commerce and CRM stacks",
       "importanceScore": 0.7,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-08-31T18:53:06.549Z",
@@ -30,6 +30,20 @@
           "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
           "publishedAt": "2026-10-05T10:00:00.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI launches visual ads that appear alongside image generation results",
+          "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+          "publishedAt": "2026-10-05T15:14:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI is testing more ads in ChatGPT",
+          "url": "https://www.engadget.com/2277271/openai-is-testing-more-ads-in-chatgpt/",
+          "publishedAt": "2026-10-05T14:38:31.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -169,6 +183,47 @@
       "tags": [
         "regulation"
       ]
+    },
+    {
+      "id": "9f214dc3-c28b-4b3d-b3be-dd6ed7c23e23",
+      "title": "OpenAI outlines its text-watermarking approach under EU provenance rules",
+      "summary": "OpenAI published its approach to watermarking AI-generated text under EU provenance rules, describing where watermarks apply and how detection works, and saying access to detection will start with researchers.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-05T15:50:21.426Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T15:50:21.426Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Our approach to EU text provenance rules",
+          "url": "https://openai.com/index/eu-text-provenance",
+          "publishedAt": "2026-10-05T15:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
+      ]
+    },
+    {
+      "id": "e5de91e8-dc7e-4acd-a17b-405fcededa22",
+      "title": "Researchers track a Chinese AI \"agent fleet\" targeting Alibaba's Amap",
+      "summary": "Independent researchers say they have discovered a swarm of AI agents that appears to be running on Tencent's infrastructure and targeting Amap, Alibaba's map service, TechCrunch reports.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-05T15:50:18.999Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T15:50:18.999Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+          "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+          "publishedAt": "2026-10-05T14:35:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "39d66218-ddf5-4fc1-9c96-a9ef47f03e4e",
@@ -2368,72 +2423,8 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
-      "title": "Anthropic's IPO prospectus discloses tens of billions in annual losses, rapid growth, and an existential-risk warning",
-      "summary": "Anthropic's IPO prospectus is public, and it tells investors the company is losing billions of dollars a year while growing fast.\n\n- The prospectus discloses heavy annual losses alongside rapid revenue growth; TechCrunch describes them as tens of billions, while Engadget puts last year's net loss at about $8 billion\n- Anthropic is targeting a roughly $2 trillion valuation, with Gizmodo reporting the stock market debut is planned for November\n- Its risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity\n- Anthropic is asking shareholders to approve a structure giving its seven co-founders a combined 50.1% of the vote on most corporate matters, locking in founder control",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-25T16:42:37.631Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T05:51:26.954Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s founders seek voting control ahead of IPO",
-          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
-          "publishedAt": "2026-09-25T15:40:03.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
-          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
-          "publishedAt": "2026-09-29T05:13:43.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic lost $8 billion last year and said its AI could destroy humanity",
-          "url": "https://www.engadget.com/2271659/anthropic-lost-8-billion-says-it-could-destroy-humanity/",
-          "publishedAt": "2026-09-29T09:59:57.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Leaked Anthropic IPO Prospectus Gives Wall Street an Early Look at How AI Could Go Off the Rails",
-          "url": "https://gizmodo.com/leaked-anthropic-ipo-prospectus-gives-wall-street-an-early-look-at-how-ai-could-kill-us-all-2000818911",
-          "publishedAt": "2026-09-29T17:00:29.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "safety"
-      ]
-    },
-    {
-      "id": "b280a4f8-f674-44ce-9659-977bbd4041ea",
-      "title": "Health care workers say Palantir's hospital scheduling software is causing errors and burnout",
-      "summary": "A hospital giant and a radiology network turned to Palantir to streamline scheduling, but nurses and other staff tell Wired the new software is causing errors, burnout, and frustration, leaving workers to clean up after it.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-10-02T11:09:04.710Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T11:09:04.710Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Health Care Workers Are Tired of Cleaning Up Palantir’s Mess",
-          "url": "https://www.wired.com/story/healthcare-workers-are-tired-of-cleaning-up-palantirs-mess/",
-          "publishedAt": "2026-10-02T09:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 129,
+  "totalCount": 128,
   "hasMore": true
 }
