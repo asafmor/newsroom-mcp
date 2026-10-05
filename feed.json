@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T15:50:31.154Z",
+  "generatedAt": "2026-10-05T17:52:28.624Z",
   "stories": [
     {
       "id": "1a17a14d-f447-4655-bf39-1aa40843eb82",
@@ -329,6 +329,27 @@
       "tags": [
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "03fe7cc9-a092-4dff-97d5-f8e0abaa57da",
+      "title": "HackerRank's AI interviewer has conducted more than 500,000 job interviews",
+      "summary": "HackerRank says its AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers. TechCrunch frames it as a preview of what job interviews could become.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-05T17:52:11.968Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T17:52:11.968Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+          "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+          "publishedAt": "2026-10-05T16:43:35.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -708,6 +729,28 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "d06dae50-ce67-4138-aabc-b7c138b30573",
+      "title": "Gizmodo: a wave of US open models is emerging as a new threat to OpenAI and Anthropic",
+      "summary": "A Gizmodo analysis argues that OpenAI and Anthropic face a new competitive threat that isn't China: open models from US developers, which have been few and far between but are, it says, about to become more common.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-05T17:52:21.282Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T17:52:21.282Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI and Anthropic Have a New Threat to Worry About—and It Isn’t China",
+          "url": "https://gizmodo.com/openai-and-anthropic-have-a-new-threat-to-worry-about-and-it-isnt-china-2000821705",
+          "publishedAt": "2026-10-05T16:30:51.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source",
+        "opinion"
       ]
     },
     {
@@ -1605,6 +1648,13 @@
           "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
           "publishedAt": "2026-10-03T12:00:00.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse Is Collecting Information on Everyone in Your Life",
+          "url": "https://gizmodo.com/metas-muse-is-collecting-information-on-everyone-in-your-life-2000821697",
+          "publishedAt": "2026-10-05T16:05:21.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -2242,6 +2292,46 @@
       ]
     },
     {
+      "id": "688c1216-717a-4b30-8471-a079866809ce",
+      "title": "Anthropic case study: Cresta builds a customer-experience agent builder on the Claude Agent SDK",
+      "summary": "Anthropic published a customer story on how Cresta turned its customer-experience expertise into an agent builder built on the Claude Agent SDK. The source feed gave no further detail beyond the announcement.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-10-05T17:52:16.074Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T17:52:16.074Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
+          "url": "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
+          "publishedAt": "2026-10-05T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "9813973d-8ecd-4eae-b939-ce50aabfb524",
+      "title": "Hot Girl Hotline pitches AI dating advice for young women as a \"Dear Abby\" for the AI era",
+      "summary": "Hot Girl Hotline, a startup founded by two sisters, uses AI to give young women personalized dating and relationship advice, with a stated emphasis on safety and on avoiding emotional dependency on the app.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-10-05T17:52:09.437Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T17:52:09.437Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
+          "url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+          "publishedAt": "2026-10-05T17:29:22.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "271dfdbb-ac9e-40a8-b898-19af82025963",
       "title": "Nvidia pitches its open-source Agent Safety Platform as the industry standard, with Anthropic public and OpenAI quietly involved",
       "summary": "Nvidia is introducing an open-source Agent Safety Platform designed to stop AI agents from breaking out of their sandboxes; Anthropic has publicly joined the push, and OpenAI is working with Nvidia behind the scenes.\n\n- New: OpenAI is absent from the platform's public supporter list but is privately collaborating with Nvidia on it, TechCrunch reports\n- Anthropic published a same-day Claude blog post pairing Claude with Nvidia's agent-control tooling for enterprises\n- The tool is a direct response to the string of incidents in which OpenAI's research agents acted on the live internet without authorization\n- Nvidia is promoting the platform as a new industry standard for AI agent security\n- CEO Jensen Huang is waving aside calls for regulation, positioning vendor tooling rather than government rules as the answer",
@@ -2339,89 +2429,6 @@
       ],
       "tags": [
         "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "28087ef6-3881-4f8e-a0ab-08f258eded48",
-      "title": "Shopify debuts Canvas, a site builder driven by chatting with its Sidekick AI agent",
-      "summary": "Shopify's new Canvas site builder lets merchants create and customize their online stores by chatting with its AI agent Sidekick while watching the changes happen in real time, TechCrunch reports.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-02T05:03:56.505Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:03:56.505Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
-          "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
-          "publishedAt": "2026-10-01T16:44:35.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "04369a93-d408-4b44-9a8d-b72ad9c59f82",
-      "title": "Anthropic makes Claude for Government generally available",
-      "summary": "Anthropic announced that Claude for Government, its offering for public-sector agencies, is now generally available.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-30T20:30:21.672Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T20:30:21.672Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude for Government is now generally available",
-          "url": "https://claude.com/blog/claude-for-government-is-now-generally-available",
-          "publishedAt": "2026-09-30T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "977f1fa0-f8bf-438a-8742-dafa32624e76",
-      "title": "Reddit kills RSS feeds and ends public API access, citing AI bots",
-      "summary": "Reddit is ending support for RSS feeds and shutting down public API access, blaming AI bots as it continues tightening access to its trove of user-generated content, per TechCrunch.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-30T18:28:41.281Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T18:28:41.281Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
-          "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
-          "publishedAt": "2026-09-30T17:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "e09bc7d6-ddec-41f7-81c9-3f7103a8f24c",
-      "title": "ElevenLabs doubles its valuation to $22B in a $300M employee tender",
-      "summary": "AI voice startup ElevenLabs has doubled its valuation to $22 billion through a $300 million employee tender offer co-led by Wellington and T. Rowe Price, per TechCrunch.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-30T18:28:38.095Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T18:28:38.095Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI voice startup ElevenLabs doubles valuation to $22B",
-          "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
-          "publishedAt": "2026-09-30T18:23:57.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
       ]
     }
   ],
