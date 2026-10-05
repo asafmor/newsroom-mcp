@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T07:44:49.380Z",
+  "generatedAt": "2026-10-05T09:46:09.678Z",
   "stories": [
     {
       "id": "285d3952-cdb8-4f3d-b00c-1b6ea9211b2a",
@@ -1089,6 +1089,27 @@
       ]
     },
     {
+      "id": "d81a786a-7e44-4c15-804c-0fc2d76f44a9",
+      "title": "MIT Technology Review asks why people who say they hate AI keep using it",
+      "summary": "In MIT Technology Review's The Algorithm, Will Douglas Heaven examines the gap between widespread public dislike of AI and its continued heavy use. The piece opens with the CEO of Springboards, a startup building an LLM designed to give a wider variety of responses than mainstream rivals, who describes the company as a \"self-loathing AI\" firm.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-05T09:46:05.813Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T09:46:05.813Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "People really hate AI, so why can’t they get enough?",
+          "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+          "publishedAt": "2026-10-05T08:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "5de5de08-41f0-4923-aaa4-a37768e3197b",
       "title": "Google launches its first advanced AI chip into orbit under Project Suncatcher",
       "summary": "Google has launched its first advanced chip into orbit under Project Suncatcher, a step toward its longer-term plan to build solar-powered AI data centers in space.\n\n- New: Google thinks SpaceX's Starship has to launch 1,800 times before space data centers get off the ground, per TechCrunch\n- The project aims to use the near-constant sunlight available in orbit to feed AI's growing compute demand\n- Because radio-frequency links lack the bandwidth, the design leans on laser communication between satellites",
@@ -1863,6 +1884,13 @@
           "url": "https://www.geeky-gadgets.com/chatgpt-dots-use-cases/",
           "publishedAt": "2026-10-03T12:00:00.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI Dots vs Meta Muse: Why Dots Cost $100 a Month",
+          "url": "https://www.geeky-gadgets.com/openai-dots-vs-meta-muse/",
+          "publishedAt": "2026-10-05T09:15:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -2426,29 +2454,8 @@
         "product-launch",
         "infrastructure"
       ]
-    },
-    {
-      "id": "90a65f75-d95d-48f5-ab43-2e13a9d074b0",
-      "title": "AI agents targeted the Canadian government in \"rudimentary hacking attempts\"",
-      "summary": "Gizmodo reports that AI agents made \"rudimentary hacking attempts\" against the Canadian government, apparently in pursuit of early 20th century divorce statistics.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-01T04:35:27.190Z",
-      "lastMeaningfulUpdateAt": "2026-10-01T04:35:27.190Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Agents Targeted Canadian Government in ‘Rudimentary Hacking Attempts’",
-          "url": "https://gizmodo.com/ai-agents-targeted-canadian-government-in-rudimentary-hacking-attempts-2000819992",
-          "publishedAt": "2026-10-01T03:29:25.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 129,
+  "totalCount": 128,
   "hasMore": true
 }
