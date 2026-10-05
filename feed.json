@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T21:56:19.996Z",
+  "generatedAt": "2026-10-05T23:57:07.115Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -211,6 +211,27 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "3070d47d-0591-401b-89b5-9cf54d11f0e3",
+      "title": "Ars Technica: trust gaps in MCP let malicious prompts spread from one AI agent to another",
+      "summary": "Ars Technica reports that a vulnerability affecting AI agents from Google and other vendors exposes a structural flaw in the Model Context Protocol when it is used for agent-to-agent communication: trust gaps in the protocol let malicious prompts propagate from one agent to another.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-05T23:57:03.202Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T23:57:03.202Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+          "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+          "publishedAt": "2026-10-05T22:26:35.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -2420,27 +2441,6 @@
       ],
       "tags": [
         "model-release"
-      ]
-    },
-    {
-      "id": "e6e0c801-ff46-4d19-bd50-193c44be8c53",
-      "title": "OpenAI launches a \"Decisions API\" that TechCrunch calls a Jev clone",
-      "summary": "OpenAI's new \"Decisions API\" closely mirrors Jev, the fast, cheap AI model from a ChatGPT co-inventor that developers have embraced. TechCrunch says the move confirms the value of fast, cheap intelligence and could help OpenAI rein in its swarming agents.",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-30T20:30:17.334Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T20:30:17.334Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
-          "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
-          "publishedAt": "2026-09-30T19:00:57.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
       ]
     }
   ],
