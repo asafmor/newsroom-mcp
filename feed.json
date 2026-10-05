@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T11:47:18.641Z",
+  "generatedAt": "2026-10-05T13:48:33.028Z",
   "stories": [
     {
       "id": "1a17a14d-f447-4655-bf39-1aa40843eb82",
@@ -40,11 +40,11 @@
     {
       "id": "285d3952-cdb8-4f3d-b00c-1b6ea9211b2a",
       "title": "Trump names intelligence director Jay Clayton as AI czar to lead his \"Super Intelligence Force\"",
-      "summary": "President Trump has unveiled a \"Super Intelligence Force\" task force and named national intelligence director Jay Clayton as the AI czar to run it, as his rebrand of AI as \"Super Intelligence\" starts to win over industry figures.\n\n- Clayton, the director of national intelligence, will lead the task force, per Gizmodo; Trump had earlier promised to fill the post when announcing an \"AI Force\"\n- Elon Musk has fallen in line with the rebrand and says he will rename one of his companies accordingly, per Gizmodo\n- In his UN General Assembly address Trump declared the US government will now refer to AI as \"Super Intelligence,\" arguing \"artificial\" makes the technology sound fake\n- He claimed, without evidence, that the backlash against AI is a Democratic hoax\n- Bernie Sanders pushed back, calling AI \"an existential threat to humanity\" that must be treated as such rather than rebranded\n- Commentators at Mashable and Gizmodo note the new label changes nothing about the technology's underlying problems",
+      "summary": "President Trump has unveiled a \"Super Intelligence Force\" task force and named national intelligence director Jay Clayton as the AI czar to run it, as his rebrand of AI as \"Super Intelligence\" wins over industry figures including Elon Musk.\n\n- Clayton, the director of national intelligence, will lead the task force, per Gizmodo; Trump had earlier promised to fill the post when announcing an \"AI Force\"\n- New: Elon Musk has followed through and rebranded SpaceXAI in line with the push, per Mashable, after earlier saying he would rename one of his companies\n- The rebrand is backed by an executive order, \"Inaugurating the Era of Super Intelligence,\" signed September 29, directing federal agencies to say \"Super Intelligence\" instead of AI\n- Trump announced the change at the UN General Assembly, arguing \"artificial\" makes the technology sound fake, and claimed without evidence that the AI backlash is a Democratic hoax\n- Bernie Sanders pushed back, calling AI \"an existential threat to humanity\" that must be treated as such rather than rebranded\n- Commentators at Mashable and Gizmodo note the new label changes nothing about the technology's underlying problems",
       "importanceScore": 0.62,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-09-19T20:53:03.237Z",
-      "lastMeaningfulUpdateAt": "2026-10-04T19:38:58.835Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T13:48:23.087Z",
       "sources": [
         {
           "providerName": "Engadget AI",
@@ -157,6 +157,13 @@
           "url": "https://gizmodo.com/trump-names-national-intelligence-director-as-new-super-intelligence-czar-2000821343",
           "publishedAt": "2026-10-04T22:27:39.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Elon Musk Rebrands SpaceXAI After Donald Trump’s Superintelligence Push; The New Name Is…",
+          "url": "https://in.mashable.com/tech/114604/elon-musk-rebrands-spacexai-after-donald-trumps-superintelligence-push-the-new-name-is",
+          "publishedAt": "2026-10-05T12:02:12.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -388,6 +395,13 @@
           "title": "Google Gemini 4 Argon Explained: From Coding To Cyber Defence, Here’s What Makes It Different",
           "url": "https://in.mashable.com/tech/114549/google-gemini-4-argon-explained-from-coding-to-cyber-defence-heres-what-makes-it-different",
           "publishedAt": "2026-10-05T03:43:24.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Gemini 4 Argon vs ChatGPT 6 Astra vs Claude Fable 5.1",
+          "url": "https://www.geeky-gadgets.com/gemini-4-argon-vs-gpt-6-astra/",
+          "publishedAt": "2026-10-05T12:13:00.000Z",
           "contribution": "background"
         }
       ],
@@ -1125,6 +1139,27 @@
       ]
     },
     {
+      "id": "78b73c22-f911-4fea-ad2e-6f18ea5d37d9",
+      "title": "Safeworld builds \"digital humans\" to test whether generative-AI robots are safe around people",
+      "summary": "Startup Safeworld is building simulated \"digital humans\" so robot makers can check that generative-AI-driven robots won't hurt real people, according to a TechCrunch exclusive that asks whether the approach can win public trust.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-10-05T13:48:13.779Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T13:48:13.779Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Can Safeworld convince people that GenAI robots won’t hurt them?",
+          "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+          "publishedAt": "2026-10-05T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "f3e4377f-f6a6-44d1-b87c-ad40caca1865",
       "title": "Huawei's Atlas 960 Super Pod is pitched as cutting AI data-center energy use by 550 kW",
       "summary": "Geeky Gadgets reports that Huawei's Atlas 960 Super Pod, built on its Pirium computing architecture, cuts AI energy usage by 550 kW. The piece frames it as a response to data-movement overhead, citing estimates that AI data centers will consume over 945 TWh a year by 2030, with roughly 80% of that energy spent moving data rather than computing.",
@@ -1659,6 +1694,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "56426343-2611-4b8c-8436-dea66287297e",
+      "title": "Gizmodo warns of a \"Pentagon-Silicon complex\" as defense startups own the tech they build for the military",
+      "summary": "A Gizmodo essay argues that defense startups such as Palantir, Anduril, and SpaceX own the technology they are building for the U.S. military, and asks what happens if those companies decide their interests no longer align with the country's.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-10-05T13:48:18.256Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T13:48:18.256Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Beware the Rise of the ‘Pentagon-Silicon Complex’",
+          "url": "https://gizmodo.com/beware-the-rise-of-the-pentagon-silicon-complex-2000815450",
+          "publishedAt": "2026-10-05T13:15:46.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
     },
     {
       "id": "675ffd92-dc72-48a6-a14b-d1dfab5ce0fc",
@@ -2376,51 +2432,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "23960f48-cfb0-4acb-a2fa-07d6fe19db83",
-      "title": "Google DeepMind introduces SynthID Bio to watermark AI-generated proteins",
-      "summary": "Google DeepMind unveiled SynthID Bio, a proof of concept that extends its SynthID watermarking approach to AI-generated proteins, embedding a detectable signature while preserving the protein's biological function.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-30T16:27:04.546Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T16:27:04.546Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Introducing SynthID Bio",
-          "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-          "publishedAt": "2026-09-30T15:03:07.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research",
-        "safety"
-      ]
-    },
-    {
-      "id": "53de40f8-2ed8-4d7e-8e25-fea698fcac4b",
-      "title": "Cloudflare opens a waitlist for fully managed Cloudflare OS agent workspaces",
-      "summary": "Cloudflare OS gives everyone in an organization an agent workspace that knows how the company works and connects to its data and systems. Cloudflare is opening a waitlist for fully managed deployments that can be launched in a few clicks.",
-      "importanceScore": 0.42,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-02T05:04:17.456Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:04:17.456Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Cloudflare OS: your company’s agent workspace, managed for you",
-          "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
-          "publishedAt": "2026-10-01T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 127,
+  "totalCount": 129,
   "hasMore": true
 }
