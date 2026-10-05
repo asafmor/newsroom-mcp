@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-10-05T09:46:09.678Z",
+  "generatedAt": "2026-10-05T11:47:18.641Z",
   "stories": [
+    {
+      "id": "1a17a14d-f447-4655-bf39-1aa40843eb82",
+      "title": "OpenAI builds out a ChatGPT ad business, adding a visual ad format and advertiser measurement tools",
+      "summary": "OpenAI is turning ChatGPT advertising from a revenue milestone into a full product line.\n\n- New: OpenAI introduced a visual ad format in ChatGPT and expanded its measurement tools, attribution partnerships, and brand-suitability controls for advertisers\n- ChatGPT Ads has reached a $1 billion annualized revenue run rate and is expanding globally\n- OpenAI frames the business as what funds free and low-cost access to ChatGPT\n- \"Sponsored Agents\" let brands show up as AI-powered experiences rather than static ad units\n- A marketer-facing toolset and integrations with HubSpot and Shopify tie the ad products into existing commerce and CRM stacks",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-08-31T18:53:06.549Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T11:47:04.419Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "A milestone in expanding access to AI",
+          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+          "publishedAt": "2026-08-31T04:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Reimagining advertising with AI",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "publishedAt": "2026-09-16T13:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Building advertising for the way people use AI",
+          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+          "publishedAt": "2026-10-05T10:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
     {
       "id": "285d3952-cdb8-4f3d-b00c-1b6ea9211b2a",
       "title": "Trump names intelligence director Jay Clayton as AI czar to lead his \"Super Intelligence Force\"",
@@ -1089,6 +1125,27 @@
       ]
     },
     {
+      "id": "f3e4377f-f6a6-44d1-b87c-ad40caca1865",
+      "title": "Huawei's Atlas 960 Super Pod is pitched as cutting AI data-center energy use by 550 kW",
+      "summary": "Geeky Gadgets reports that Huawei's Atlas 960 Super Pod, built on its Pirium computing architecture, cuts AI energy usage by 550 kW. The piece frames it as a response to data-movement overhead, citing estimates that AI data centers will consume over 945 TWh a year by 2030, with roughly 80% of that energy spent moving data rather than computing.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-05T11:47:10.853Z",
+      "lastMeaningfulUpdateAt": "2026-10-05T11:47:10.853Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Atlas 960 Super Pod Cuts AI Energy Usage by 550 kW",
+          "url": "https://www.geeky-gadgets.com/ai-energy-consumption-huawei-pirium/",
+          "publishedAt": "2026-10-05T10:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
       "id": "d81a786a-7e44-4c15-804c-0fc2d76f44a9",
       "title": "MIT Technology Review asks why people who say they hate AI keep using it",
       "summary": "In MIT Technology Review's The Algorithm, Will Douglas Heaven examines the gap between widespread public dislike of AI and its continued heavy use. The piece opens with the CEO of Springboards, a startup building an LLM designed to give a wider variety of responses than mainstream rivals, who describes the company as a \"self-loathing AI\" firm.",
@@ -2139,6 +2196,13 @@
           "url": "https://claude.com/blog/claude-code-mods",
           "publishedAt": "2026-10-01T00:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic Adds Persistent JavaScript Mods to Claude Code",
+          "url": "https://www.geeky-gadgets.com/claude-code-mods-explained/",
+          "publishedAt": "2026-10-05T11:15:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -2355,107 +2419,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "c90a4261-5318-4d13-81df-25ed0564c7bc",
-      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
-      "summary": "Instinct, the consumer AI agent that went viral for booking reservations, handling email, and making phone calls on users' behalf, has raised a $1 billion Series C at a $10 billion valuation.\n\n- The round values the company at $10B; the company says \"we're just getting started\"\n- Founder says more than 50% of transactions on the platform are travel-related\n- Founder says the platform is growing 10% day over day",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-28T15:37:19.756Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T16:02:53.869Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
-          "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
-          "publishedAt": "2026-09-28T13:38:48.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Instinct founder said more than 50% of transactions on the platform are travel-related",
-          "url": "https://techcrunch.com/2026/09/29/instinct-founder-said-more-than-50-of-transactions-on-the-platform-are-travel-related/",
-          "publishedAt": "2026-09-29T15:12:07.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "All the AI agents that can live in your text messages ",
-          "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-          "publishedAt": "2026-10-03T14:00:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "efcaa9d9-1720-4093-9c32-aa34325ff7a5",
-      "title": "Cloudflare's agentic-web launch: tools to see, gate, charge, and serve AI agents",
-      "summary": "Cloudflare says more than half the traffic reaching its sites is now automated, with AI agents the fastest-growing share, and shipped a same-day batch of products for site owners and developers to see, gate, charge, and serve that traffic.\n\n- Monetization Gateway (closed beta, US sellers) lets sites charge agents for tokens, APIs, and MCP tools via HTTP 402; Cloudflare's own AI Gateway, Ceramic.ai, and Stocktwits already use it\n- Pay Per Use (beta): AI companies report when they use publishers' content and Cloudflare handles billing, payouts, and reporting\n- AI Gateway adds an Auto Router that classifies request complexity at the edge to pick the cheapest adequate model, plus free User Insights categories to spot model overuse\n- Cloudflare Containers now start 6x faster, let agents pick each sandbox's image and instance type at runtime, and gain filesystem snapshots in public beta\n- Registrar's new domain search, expanded API, and cf CLI let agents search, register, and transfer domains",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-30T14:24:47.096Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T14:24:47.096Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "The Internet has a second audience",
-          "url": "https://blog.cloudflare.com/agentic-web/",
-          "publishedAt": "2026-09-30T12:58:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
-          "url": "https://blog.cloudflare.com/monetization-gateway-beta/",
-          "publishedAt": "2026-09-30T13:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Pay Per Use: when AI uses your work, you should get paid",
-          "url": "https://blog.cloudflare.com/pay-per-use/",
-          "publishedAt": "2026-09-30T13:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Cut your AI spend with AI Gateway's Auto Router",
-          "url": "https://blog.cloudflare.com/auto-router/",
-          "publishedAt": "2026-09-30T13:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Identify AI model overuse with User Insights",
-          "url": "https://blog.cloudflare.com/ai-model-overuse-user-insights/",
-          "publishedAt": "2026-09-30T13:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
-          "url": "https://blog.cloudflare.com/faster-agent-sandboxes/",
-          "publishedAt": "2026-09-30T12:58:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Simplifying domains for people and agents",
-          "url": "https://blog.cloudflare.com/simplifying-domains/",
-          "publishedAt": "2026-09-30T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 128,
+  "totalCount": 127,
   "hasMore": true
 }
