@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T10:02:03.382Z",
+  "generatedAt": "2026-10-06T12:03:18.050Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -140,6 +140,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "3bf14ba2-5efc-434d-a924-b844b0d703b5",
+      "title": "Google to remove free access to Gemini Flash and Pro on October 9",
+      "summary": "Google is ending free access to its Gemini Flash and Pro models on October 9, Engadget reports, meaning users on the free Gemini tier will lose both models.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-06T12:03:08.885Z",
+      "lastMeaningfulUpdateAt": "2026-10-06T12:03:08.885Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Google removes free access to Gemini Flash and Pro on October 9",
+          "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
+          "publishedAt": "2026-10-06T11:22:53.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "5ed26b7a-27cf-43a7-b087-4b9d52c20e41",
@@ -2391,50 +2410,8 @@
         "research",
         "safety"
       ]
-    },
-    {
-      "id": "dec62941-7da0-4460-8fd3-bb36f16c7c87",
-      "title": "OpenAI disrupts a coordinated model-distillation campaign as US agencies rebuke China-based labs",
-      "summary": "Frontier labs and US agencies are escalating against model distillation, with OpenAI now saying it disrupted a coordinated campaign to extract its protected model reasoning.\n\n- OpenAI says it disrupted a coordinated campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation\n- US agencies publicly accused China-based AI companies of alleged distillation ahead of US-China AI-security talks\n- Anthropic detailed distillation campaigns it attributed to Alibaba, Moonshot AI, and DeepSeek",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-09T09:32:44.617Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T18:28:35.153Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "U.S. Agencies Issue Stern Rebuke of China-Based AI Companies Over Alleged Distillation",
-          "url": "https://gizmodo.com/u-s-agencies-issue-stern-rebuke-of-china-based-ai-companies-over-alleged-distillation-2000808988",
-          "publishedAt": "2026-09-09T09:00:31.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "US authorities accuse Chinese AI companies of industrial-scale campaigns to copy American models",
-          "url": "https://www.engadget.com/2253604/us-authorities-accuse-chinese-ai-companies-of-industrial-scale-campaigns-to-copy-american-models/",
-          "publishedAt": "2026-09-09T11:12:22.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
-          "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
-          "publishedAt": "2026-09-10T20:57:30.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Disrupting a coordinated model-distillation campaign",
-          "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-          "publishedAt": "2026-09-30T10:30:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 123,
+  "totalCount": 122,
   "hasMore": true
 }
