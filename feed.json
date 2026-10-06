@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T05:59:47.721Z",
+  "generatedAt": "2026-10-06T08:01:06.887Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -988,6 +988,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "f4841359-8c88-4e28-81e8-f01f636c5313",
+      "title": "TII introduces Falcon-Emirati, an LLM tuned for the Emirati dialect and culture",
+      "summary": "The Technology Innovation Institute (tiiuae) published a Hugging Face blog post introducing Falcon-Emirati, a Falcon-family LLM focused on the Emirati Arabic dialect, its culture, and its nuance. The feed item carried no further detail on size, benchmarks, or licensing.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-06T08:00:59.168Z",
+      "lastMeaningfulUpdateAt": "2026-10-06T08:00:59.168Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+          "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+          "publishedAt": "2026-10-06T06:44:39.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -2407,36 +2426,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "ee07808b-933f-4557-befd-4fb3ac529f23",
-      "title": "ChatGPT adds virtual clothing try-on and a Favorites library for shopping",
-      "summary": "OpenAI is rolling out ChatGPT shopping features that let users virtually try on clothing and accessories using their own photos and save products to a Favorites library. The try-on images are generated with OpenAI's latest model, per Engadget.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-02T05:03:50.503Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:03:50.503Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "ChatGPT can now virtually try on clothes for you",
-          "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-          "publishedAt": "2026-10-01T19:21:53.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "ChatGPT can now help you virtually try on clothes",
-          "url": "https://www.engadget.com/2275295/chatgpt-can-now-help-you-virtually-try-on-clothes/",
-          "publishedAt": "2026-10-01T22:27:39.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 126,
+  "totalCount": 124,
   "hasMore": true
 }
