@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T18:07:30.377Z",
+  "generatedAt": "2026-10-06T20:09:18.617Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -182,6 +182,28 @@
       "tags": [
         "model-release",
         "open-source"
+      ]
+    },
+    {
+      "id": "18b9993c-1b04-4bcf-b250-630c1de31424",
+      "title": "Lambda to raise up to $4B at a $14.5B valuation ahead of a planned 2027 IPO",
+      "summary": "Nvidia-backed AI computing startup Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation, in a round led by Coatue and Blackstone, ahead of an IPO planned for 2027, TechCrunch reports.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-06T20:09:08.836Z",
+      "lastMeaningfulUpdateAt": "2026-10-06T20:09:08.836Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+          "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+          "publishedAt": "2026-10-06T20:00:30.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "infrastructure"
       ]
     },
     {
@@ -379,6 +401,46 @@
         "product-launch",
         "enterprise-adoption"
       ]
+    },
+    {
+      "id": "98c65113-550d-4ac2-8d3a-6785485e07cd",
+      "title": "Hark releases a privacy-focused AI personal assistant to rival Muse, Dots, and Instinct",
+      "summary": "AI lab Hark has released a personal assistant with a focus on privacy. TechCrunch describes it as an operating-system-like product designed to compete with Meta's Muse, OpenAI's Dots, and Instinct.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-06T20:09:13.100Z",
+      "lastMeaningfulUpdateAt": "2026-10-06T20:09:13.100Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Hark releases an AI personal assistant with a focus on privacy",
+          "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+          "publishedAt": "2026-10-06T18:22:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "b5ee31b9-9795-42b8-b57d-53aea59ce846",
+      "title": "Personal AI agents are being blocked by websites, and a new standard aims to let them in",
+      "summary": "TechCrunch reports that personal AI agents meant to shop, book flights, and make reservations are running into deliberate blocks and anti-bot defenses from websites, leaving consumers caught in the middle. A new standard aims to help agents gain access.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-06T20:09:10.836Z",
+      "lastMeaningfulUpdateAt": "2026-10-06T20:09:10.836Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "The next hurdle for AI agents: getting websites to let them in",
+          "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+          "publishedAt": "2026-10-06T19:56:50.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "3070d47d-0591-401b-89b5-9cf54d11f0e3",
@@ -1062,6 +1124,27 @@
       "tags": [
         "enterprise-adoption",
         "product-launch"
+      ]
+    },
+    {
+      "id": "8d33ccbf-274c-4f04-9ab3-17c43cdbe6da",
+      "title": "The film \"Artificial\" skewers Sam Altman and AI's creators while warning of the technology's dangers",
+      "summary": "Wired's review says the movie \"Artificial\" holds OpenAI CEO Sam Altman and other AI stakeholders in contempt, mocking everything from their parties to their walks, while portraying them as reckless and delivering a dark warning about AI's dangers.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-06T20:09:15.574Z",
+      "lastMeaningfulUpdateAt": "2026-10-06T20:09:15.574Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "‘Artificial’ Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers",
+          "url": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
+          "publishedAt": "2026-10-06T18:45:39.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -2233,95 +2316,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "890646bf-7aa1-4c32-9e24-e5642679f38c",
-      "title": "Teen hiker rescued from a cliff after using AI to plan his route",
-      "summary": "Gizmodo reports that a 16-year-old hiker had to be rescued after being left stranded on a cliff, having used AI to plan his route.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-10-05T19:54:19.771Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T19:54:19.771Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Teen Left Stranded on a Cliff After Letting AI Plan Hike",
-          "url": "https://gizmodo.com/teen-left-stranded-on-a-cliff-after-letting-ai-plan-hike-2000821835",
-          "publishedAt": "2026-10-05T19:35:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "df4d5ce4-cf78-48fa-98cb-6255647c115f",
-      "title": "California bans companies from relying on AI to fire workers",
-      "summary": "California Governor Gavin Newsom signed a package of AI laws on Wednesday, including a ban on \"robo bosses\" that bars employers from relying on AI to fire workers. Per Gizmodo, the laws cover AI-driven layoffs, workplace surveillance, deepfakes, medical AI, and more.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-01T08:37:34.057Z",
-      "lastMeaningfulUpdateAt": "2026-10-01T08:37:34.057Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "California's new law bans companies from relying on AI to fire workers",
-          "url": "https://www.engadget.com/2274224/california-law-bans-companies-from-relying-on-ai-to-fire-workers/",
-          "publishedAt": "2026-10-01T07:36:44.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Gavin Newsom Signs Bill Banning ‘Robo Bosses’ as Part of California Crackdown on AI",
-          "url": "https://gizmodo.com/gavin-newsom-signs-bill-banning-robo-bosses-as-part-of-california-crackdown-on-ai-2000820302",
-          "publishedAt": "2026-10-01T15:55:08.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
-    },
-    {
-      "id": "26076356-84a9-48c1-bb97-ad066c286641",
-      "title": "Japanese court rules human voices are protected in a landmark AI case",
-      "summary": "A Japanese court has ruled that human voices are protected, in what Engadget describes as a landmark AI case.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-02T05:04:03.138Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:04:03.138Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Japanese court rules human voices are protected in landmark AI case",
-          "url": "https://www.engadget.com/2274521/japanese-court-rules-human-voices-are-protected-in-landmark-ai-case/",
-          "publishedAt": "2026-10-01T14:58:44.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "56426343-2611-4b8c-8436-dea66287297e",
-      "title": "Gizmodo warns of a \"Pentagon-Silicon complex\" as defense startups own the tech they build for the military",
-      "summary": "A Gizmodo essay argues that defense startups such as Palantir, Anduril, and SpaceX own the technology they are building for the U.S. military, and asks what happens if those companies decide their interests no longer align with the country's.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-10-05T13:48:18.256Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T13:48:18.256Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Beware the Rise of the ‘Pentagon-Silicon Complex’",
-          "url": "https://gizmodo.com/beware-the-rise-of-the-pentagon-silicon-complex-2000815450",
-          "publishedAt": "2026-10-05T13:15:46.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 116,
+  "totalCount": 118,
   "hasMore": true
 }
