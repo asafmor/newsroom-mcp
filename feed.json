@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T14:04:10.325Z",
+  "generatedAt": "2026-10-06T16:05:31.608Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -135,6 +135,13 @@
           "url": "https://www.engadget.com/2278051/wikimedia-links-openai-agents-to-an-outage-and-unauthorized-activity/",
           "publishedAt": "2026-10-05T19:55:11.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Ars Technica",
+          "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+          "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+          "publishedAt": "2026-10-06T12:21:53.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -144,7 +151,7 @@
     {
       "id": "411ce84e-04d8-4ce3-bbb4-b4daa12424ee",
       "title": "Mistral releases \"Le Chonk,\" a trillion-parameter open-weight model it calls the best outside China",
-      "summary": "Mistral has released Le Chonk, a trillion-parameter open-weight model that it claims is the best open-weight offering outside of China. Per Wired, the French lab is using the release to show it is \"still in the race\" to build frontier-level AI.",
+      "summary": "Mistral has released Le Chonk, a trillion-parameter open-weight model that it claims is the best open-weight offering outside of China. TechCrunch reports the release as Mistral Large 4, a large multimodal model aiming to leapfrog both American and Chinese rivals; per Wired, the French lab is using it to show it is \"still in the race\" to build frontier-level AI.",
       "importanceScore": 0.72,
       "relevanceScore": 0.95,
       "firstSeenAt": "2026-10-06T14:03:58.399Z",
@@ -155,6 +162,13 @@
           "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
           "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
           "publishedAt": "2026-10-06T13:15:23.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+          "publishedAt": "2026-10-06T14:33:16.000Z",
           "contribution": "supporting"
         }
       ],
@@ -480,6 +494,25 @@
       ]
     },
     {
+      "id": "3c521c4f-2813-4f4b-89c9-82ed577af46d",
+      "title": "Anthropic offers startups a free year of Claude Team and $1,000 in credits",
+      "summary": "Anthropic is giving startups a free year of Claude Team plus $1,000 in credits, TechCrunch reports. The company says it created the program because it believes \"the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-06T16:05:19.551Z",
+      "lastMeaningfulUpdateAt": "2026-10-06T16:05:19.551Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+          "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+          "publishedAt": "2026-10-06T16:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "9f214dc3-c28b-4b3d-b3be-dd6ed7c23e23",
       "title": "OpenAI outlines its text-watermarking approach under EU provenance rules",
       "summary": "OpenAI published its approach to watermarking AI-generated text under EU provenance rules, describing where watermarks apply and how detection works, and saying access to detection will start with researchers.",
@@ -602,6 +635,27 @@
           "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
           "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
           "publishedAt": "2026-10-04T20:31:07.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
+      ]
+    },
+    {
+      "id": "3fa36a1c-d1e6-4b31-883a-c6a40e98055c",
+      "title": "LibreOffice says \"no AI\" is now a software feature",
+      "summary": "The maker of the open-source document editor LibreOffice says it has no plans to add AI to the software's default configuration, citing user privacy, and is pitching the absence of AI as a feature, per TechCrunch.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-06T16:05:21.659Z",
+      "lastMeaningfulUpdateAt": "2026-10-06T16:05:21.659Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "LibreOffice says ‘no AI’ is now a software feature",
+          "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+          "publishedAt": "2026-10-06T15:25:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1188,6 +1242,25 @@
       "tags": [
         "infrastructure"
       ]
+    },
+    {
+      "id": "a8f9ce3b-b929-474e-9d3d-5db61536b6be",
+      "title": "AI \"comedians\" on Instagram accused of stealing jokes to sell OnlyFans subscriptions",
+      "summary": "Gizmodo reports that AI comedian accounts on Instagram are using jokes that human comics say were stolen from them, in order to sell OnlyFans subscriptions. An a16z partner had praised the tactic, saying she \"stumbled on a genius OnlyFans marketing hack.\"",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-06T16:05:23.922Z",
+      "lastMeaningfulUpdateAt": "2026-10-06T16:05:23.922Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Comedians Are Stealing Jokes on Instagram to Sell OnlyFans Subscriptions",
+          "url": "https://gizmodo.com/ai-comedians-are-stealing-jokes-on-instagram-to-sell-onlyfans-subscriptions-2000821923",
+          "publishedAt": "2026-10-06T14:15:56.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "f24a073d-8b61-4ac6-875f-4670801c7c8a",
@@ -2172,239 +2245,6 @@
           "url": "https://www.engadget.com/2276312/meta-muse-gadgets-open-source-smart-home-link/",
           "publishedAt": "2026-10-02T20:27:14.000Z",
           "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "df03286a-3ed4-4180-a3c6-0606b35af066",
-      "title": "Cloudflare adds a native Web Search API to AI Gateway",
-      "summary": "Cloudflare AI Gateway now supports native web search, built in partnership with Ceramic.ai, Exa, and Linkup. Developers can inject real-time web context into model inference calls through AI Gateway, REST APIs, or Workers bindings.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-02T19:14:09.138Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T19:14:09.138Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Introducing Web Search API via AI Gateway",
-          "url": "https://blog.cloudflare.com/introducing-web-search-api/",
-          "publishedAt": "2026-10-02T13:28:10.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
-      "title": "OpenAI eyes a $30B raise at $1.4T as Altman ties the delayed IPO to \"confident safety claims\"",
-      "summary": "OpenAI is reportedly lining up its last private raise before a public debut that Sam Altman now says must wait until the company can vouch for its models' safety.\n\n- OpenAI is negotiating a $30 billion funding round at a $1.4 trillion valuation, per TechCrunch\n- The round is expected to be the company's final private raise before an IPO, which has been pushed to 2027\n- Altman told reporters OpenAI has \"got to be able to make confident safety claims\" before going public, tying the IPO timeline to getting its rogue-AI incidents under control, per Gizmodo",
-      "importanceScore": 0.82,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-29T20:08:40.765Z",
-      "lastMeaningfulUpdateAt": "2026-09-30T04:16:21.982Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
-          "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-          "publishedAt": "2026-09-29T19:52:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says",
-          "url": "https://gizmodo.com/no-openai-ipo-until-the-ai-stops-going-rogue-ceo-sam-altman-says-2000819194",
-          "publishedAt": "2026-09-30T04:14:16.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "funding",
-        "safety"
-      ]
-    },
-    {
-      "id": "3b69dbeb-c2ef-4695-90ec-302ad5f6aaa1",
-      "title": "OpenAI DevDay 2026: Dots always-on agents, a ChatGPT office suite, GPT-6.1 Sol, Codex upgrades, and a $500 Pro tier",
-      "summary": "OpenAI used DevDay 2026 to unveil Dots, always-on personal agents, alongside an office-style suite for ChatGPT, a new model, Codex upgrades, and a pricier Pro tier.\n\n- Dots are agentic avatars that connect to your apps and pursue user-defined goals continuously in the background with minimal oversight, independent of any device; Wired frames them as OpenAI's answer to Meta's Muse, and Engadget says controlling several at once is coming\n- ChatGPT gains a suite of office features that TechCrunch says puts OpenAI in direct competition with Microsoft, plus ChatGPT Space, a shared hub for work projects and personal agents; ChatGPT is also coming to Slack and Microsoft Teams\n- Plugins expand with dedicated sidebar homes, interactive panels, file viewers, improved discovery, and support for automations\n- GPT-6.1 Sol launches, said to nearly match GPT-6 Astra at lower cost, with gains on coding, document understanding, and multi-step business workflows\n- Codex gets reusable cloud development environments that work across devices, a revamped CLI with voice controls, new code review tools, and a security product that scans repositories and prepares fixes\n- A new $500-per-month Pro subscription arrives while the existing $200 tier is cut back\n- Before the launch, Elon Musk's xAI had already bought the dot.com domain and pointed it at Grok's download page, which the internet read as a troll of the Dots launch",
-      "importanceScore": 0.9,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-09-28T13:35:33.607Z",
-      "lastMeaningfulUpdateAt": "2026-09-29T18:05:54.281Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Always-on OpenAI O Agent May Fully Automate Your Emails",
-          "url": "https://www.geeky-gadgets.com/openai-devday-leaks-rumors/",
-          "publishedAt": "2026-09-28T12:17:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI Dev Day 2026: Live updates on the latest ChatGPT and Codex announcements",
-          "url": "https://www.engadget.com/2271985/openai-dev-day-live-blog-chatgpt-news/",
-          "publishedAt": "2026-09-29T15:00:10.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI launches Dots, its bubbly agentic avatar",
-          "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
-          "publishedAt": "2026-09-29T17:17:15.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse",
-          "url": "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
-          "publishedAt": "2026-09-29T17:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Dots are OpenAI's new personal agents and soon you'll be able to control several of them",
-          "url": "https://www.engadget.com/2272230/dots-are-openais-new-personal-agents-and-soon-youll-be-able-to-control-several-of-them/",
-          "publishedAt": "2026-09-29T17:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
-          "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-          "publishedAt": "2026-09-29T17:45:51.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "ChatGPT Space is a shared hub for work projects and personal AI agents",
-          "url": "https://www.engadget.com/2272248/chatgpt-space-for-work/",
-          "publishedAt": "2026-09-29T17:15:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI expands ChatGPT’s plugins with app-like interfaces and automations",
-          "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
-          "publishedAt": "2026-09-29T17:15:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI gives Codex reusable cloud environments that work across devices",
-          "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
-          "publishedAt": "2026-09-29T17:15:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI adds $500(!) Pro subscription, nerfs its existing $200 tier",
-          "url": "https://www.engadget.com/2272106/openai-adds-dollar500-pro-subscription-nerfs-its-existing-dollar200-tier/",
-          "publishedAt": "2026-09-29T17:15:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "DevDay 2026 Recap",
-          "url": "https://openai.com/index/devday-2026-recap",
-          "publishedAt": "2026-09-29T10:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "OpenAI’s Latest Personal AI Agents Have a Cute Name and Never Stop Working",
-          "url": "https://www.cnet.com/tech/services-and-software/openai-dots-personal-ai-agents/",
-          "publishedAt": "2026-09-29T17:18:35.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "OpenAI DevDay: You Can Now Use GPT-6.1 Sol and Dots, Plus Big Subscription Changes",
-          "url": "https://www.cnet.com/tech/services-and-software/everything-announced-at-openai-devday-subscription-changes-new-models-and-dots/",
-          "publishedAt": "2026-09-29T17:15:07.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s latest features take direct aim at the app store model",
-          "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
-          "publishedAt": "2026-09-29T20:15:47.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "With Dots, OpenAI Wants You to Stop Being Afraid of Its AI Agents",
-          "url": "https://gizmodo.com/with-dots-openai-wants-you-to-stop-being-afraid-of-its-ai-agents-2000819082",
-          "publishedAt": "2026-09-29T21:00:49.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
-          "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-          "publishedAt": "2026-09-29T22:20:59.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "OpenAI Dots AI Agents Unveiled as Mark Zuckerberg's Muse Rival With 4,000+ Apps Support And More",
-          "url": "https://in.mashable.com/tech/114437/openai-dots-ai-agents-unveiled-as-mark-zuckerbergs-muse-rival-with-4000-apps-support-and-more",
-          "publishedAt": "2026-09-30T06:30:31.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI Brings the Dots 24/7 Personal Assistant to ChatGPT",
-          "url": "https://www.geeky-gadgets.com/chatgpt-new-features-explained/",
-          "publishedAt": "2026-09-30T10:43:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "The Battle to Be Your Personal AI Agent Is Here",
-          "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
-          "publishedAt": "2026-09-30T19:30:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI Dots Autonomous Agents Powered by ChatGPT 6 Astra",
-          "url": "https://www.geeky-gadgets.com/openai-dots-gpt-6-astra/",
-          "publishedAt": "2026-10-01T08:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI Prices GPT-6.1 Sol at Just 20% of Astra’s Cost",
-          "url": "https://www.geeky-gadgets.com/openai-devday-gpt-sol/",
-          "publishedAt": "2026-10-01T07:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI Dots Hands-on: 24 Hours Testing the New AI Agent",
-          "url": "https://www.geeky-gadgets.com/chatgpt-dots-review-24-hours/",
-          "publishedAt": "2026-10-02T12:15:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "How to Run ChatGPT Dots Offline and Sync with Over 4,000 Apps",
-          "url": "https://www.geeky-gadgets.com/chatgpt-dots-use-cases/",
-          "publishedAt": "2026-10-03T12:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI Dots vs Meta Muse: Why Dots Cost $100 a Month",
-          "url": "https://www.geeky-gadgets.com/openai-dots-vs-meta-muse/",
-          "publishedAt": "2026-10-05T09:15:00.000Z",
-          "contribution": "background"
         }
       ],
       "tags": [
