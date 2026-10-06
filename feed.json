@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T12:03:18.050Z",
+  "generatedAt": "2026-10-06T14:04:10.325Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -139,6 +139,28 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "411ce84e-04d8-4ce3-bbb4-b4daa12424ee",
+      "title": "Mistral releases \"Le Chonk,\" a trillion-parameter open-weight model it calls the best outside China",
+      "summary": "Mistral has released Le Chonk, a trillion-parameter open-weight model that it claims is the best open-weight offering outside of China. Per Wired, the French lab is using the release to show it is \"still in the race\" to build frontier-level AI.",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-10-06T14:03:58.399Z",
+      "lastMeaningfulUpdateAt": "2026-10-06T14:03:58.399Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
+          "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+          "publishedAt": "2026-10-06T13:15:23.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
       ]
     },
     {
@@ -1186,6 +1208,27 @@
       ],
       "tags": [
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "d76b49e4-4499-4f2a-945d-3a75ba9ff916",
+      "title": "Pinterest launches AI-powered Beauty Guides that turn hair and nail Pins into salon-ready plans",
+      "summary": "Pinterest has introduced AI-powered Beauty Guides that translate hair and nail Pins into salon terminology, along with estimated costs, appointment times, and maintenance needs, according to TechCrunch.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-06T14:04:00.560Z",
+      "lastMeaningfulUpdateAt": "2026-10-06T14:04:00.560Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Pinterest’s AI now turns beauty Pins into action plans",
+          "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
+          "publishedAt": "2026-10-06T14:00:49.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -2367,51 +2410,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "c9ec58ed-3934-44da-a08c-da8f52fc995f",
-      "title": "Capcom plans to use AI to speed up game development",
-      "summary": "Capcom plans to use AI to speed up its game development process, Engadget reports. The company previously said it won't use AI-generated content in its games.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-10-03T19:27:12.269Z",
-      "lastMeaningfulUpdateAt": "2026-10-03T19:27:12.269Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Capcom plans to use AI to speed up the game development process",
-          "url": "https://www.engadget.com/2276597/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/",
-          "publishedAt": "2026-10-03T18:27:15.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "6caf56fb-9778-4a4b-90df-5d0bedfb3231",
-      "title": "Trillium Labs wants to do high-stakes AI research in the open",
-      "summary": "Wired profiles Trillium Labs, a group of AI experts that plans to publish its work on self-improvement and model behavior openly, in contrast to frontier labs that keep their risky research locked away.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-02T17:13:12.156Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T17:13:12.156Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
-          "url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
-          "publishedAt": "2026-10-02T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research",
-        "safety"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 120,
   "hasMore": true
 }
