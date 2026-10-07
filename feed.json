@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:22:17.207Z",
+  "generatedAt": "2026-10-07T22:23:33.118Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -315,7 +315,7 @@
     {
       "id": "a95a4df5-519e-4874-a3c3-b8865b224fdb",
       "title": "OpenAI rolls out an \"Intelligent UI\" that brings interactive visuals to ChatGPT",
-      "summary": "OpenAI is updating ChatGPT for all users with a new \"Intelligent UI\" that makes the chatbot more visual, generating interactive elements as part of its outputs, per Wired and TechCrunch.",
+      "summary": "OpenAI is updating ChatGPT for all users with a new \"Intelligent UI\" that makes the chatbot more visual, generating interactive graphics as part of its answers. The visuals are powered by GPT-6, which is now rolling out to free users, per CNET, Wired and TechCrunch.",
       "importanceScore": 0.6,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-10-07T18:20:24.414Z",
@@ -333,6 +333,20 @@
           "title": "The New ChatGPT Is More Show Than Tell",
           "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
           "publishedAt": "2026-10-07T18:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "GPT-6 for All: Your ChatGPT Answers Are Getting a Very Visual Makeover",
+          "url": "https://www.cnet.com/tech/services-and-software/gpt-6-for-chatgpt-visual-intelligence-ui/",
+          "publishedAt": "2026-10-07T19:45:20.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Wants ChatGPT to Stop Looking Like a Chatbot",
+          "url": "https://gizmodo.com/openai-wants-chatgpt-to-stop-looking-like-a-chatbot-2000823211",
+          "publishedAt": "2026-10-07T21:15:33.000Z",
           "contribution": "supporting"
         }
       ],
@@ -531,6 +545,41 @@
       ]
     },
     {
+      "id": "b9b796eb-9f8f-4f1c-9a57-46d82ee5e6cb",
+      "title": "Microsoft unveils Nvidia-chip Surface Laptop Ultra AI PCs and a revamped Windows 11 with Copilot-powered search",
+      "summary": "At its October 7 Windows, Surface and AI event, Microsoft paired new AI PC hardware with an AI-centered Windows refresh.\n\n- Revealed specs and pricing for the Surface Laptop Ultra, AI PCs running on Nvidia chips designed to run AI models and agents, per TechCrunch\n- The machines ship with a revamped Windows 11\n- Windows search is being rebuilt around Copilot as a chatbot, arriving this fall, Engadget reports",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-02T15:11:24.581Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T22:23:19.541Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "What to expect at Microsoft's Windows, Surface and AI event on October 7",
+          "url": "https://www.engadget.com/2275196/microsoft-surface-windows-event-october-7-preview/",
+          "publishedAt": "2026-10-02T13:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Microsoft may have finally fixed Windows search by turning it into a chatbot",
+          "url": "https://www.engadget.com/2280310/microsoft-may-have-finally-fixed-windows-search-by-turning-it-into-a-chatbot/",
+          "publishedAt": "2026-10-07T17:47:14.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+          "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+          "publishedAt": "2026-10-07T20:22:37.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "46fadbac-9a8a-4af8-b2e6-50002601fdb4",
       "title": "Grok Bot becomes a model router that can use Claude as SpaceX pivots further toward AI infrastructure",
       "summary": "Gizmodo reports that Grok Bot is now a model router that can run on Anthropic's Claude rather than only xAI's own models, framing the change as part of SpaceX's continuing pivot toward AI infrastructure.",
@@ -603,6 +652,28 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "8e627de2-b632-43a9-bfde-02dd5cb46017",
+      "title": "Nous Research confirms $1.5B valuation on a $90M Series B and launches AI agents for business users",
+      "summary": "Nous Research, the developer of Hermes Agent, confirmed it reached a $1.5 billion valuation after raising a $90 million Series B, and is launching AI agents aimed at business users, TechCrunch reports.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-07T22:23:17.276Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T22:23:17.276Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+          "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+          "publishedAt": "2026-10-07T20:48:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "product-launch"
+      ]
     },
     {
       "id": "18b9993c-1b04-4bcf-b250-630c1de31424",
@@ -764,34 +835,6 @@
       ],
       "tags": [
         "research"
-      ]
-    },
-    {
-      "id": "b9b796eb-9f8f-4f1c-9a57-46d82ee5e6cb",
-      "title": "Microsoft rebuilds Windows search as a Copilot chatbot, arriving this fall",
-      "summary": "Microsoft is redesigning Windows search around Copilot, turning it into a chatbot; the redesign arrives this fall, Engadget reports. The news lands on the day of Microsoft's October 7 Windows, Surface and AI event, where Engadget had expected an Nvidia RTX Spark-powered Surface Laptop Ultra.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-02T15:11:24.581Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T18:20:30.420Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "What to expect at Microsoft's Windows, Surface and AI event on October 7",
-          "url": "https://www.engadget.com/2275196/microsoft-surface-windows-event-october-7-preview/",
-          "publishedAt": "2026-10-02T13:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Microsoft may have finally fixed Windows search by turning it into a chatbot",
-          "url": "https://www.engadget.com/2280310/microsoft-may-have-finally-fixed-windows-search-by-turning-it-into-a-chatbot/",
-          "publishedAt": "2026-10-07T17:47:14.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch"
       ]
     },
     {
@@ -1949,27 +1992,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "49800242-f34d-4c44-829d-5455c6d1e4fa",
-      "title": "Mirror Particle is building a \"world model\" of human behavior",
-      "summary": "Startup Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-10-06T18:07:21.333Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T18:07:21.333Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Mirror Particle is building a ‘world model’ of human behavior",
-          "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
-          "publishedAt": "2026-10-06T16:35:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 119,
+  "totalCount": 118,
   "hasMore": true
 }
