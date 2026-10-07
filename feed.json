@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T00:11:11.215Z",
+  "generatedAt": "2026-10-07T02:12:15.743Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -214,32 +214,13 @@
       ]
     },
     {
-      "id": "3bf14ba2-5efc-434d-a924-b844b0d703b5",
-      "title": "Google to remove free access to Gemini Flash and Pro on October 9",
-      "summary": "Google is ending free access to its Gemini Flash and Pro models on October 9, Engadget reports, meaning users on the free Gemini tier will lose both models.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-06T12:03:08.885Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T12:03:08.885Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Google removes free access to Gemini Flash and Pro on October 9",
-          "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
-          "publishedAt": "2026-10-06T11:22:53.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
       "id": "d2c37bf1-8cb0-459c-8147-f9343a25ebea",
-      "title": "OpenAI readies 100+ new solutions to unsolved math problems, angering mathematicians again",
-      "summary": "OpenAI's feud with mathematicians is flaring up again as the company prepares to release more than 100 new solutions to unsolved problems.\n\n- New: \"There's a perception of mobster behavior\" from leading AI companies, one mathematician tells Wired ahead of the release\n- OpenAI earlier formed an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results\n- That group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research\n- Twenty-five leading mathematicians signed an open letter arguing AI labs are threatening their intellectual work\n- OpenAI will no longer sponsor Caltech's \"Mathathon,\" though organizers say the event won't be substantially affected\n- The Information reports OpenAI is now attempting the Hodge Conjecture, with its main concern being how to announce a result without further infuriating mathematicians",
+      "title": "OpenAI publishes 377 new math results on GitHub as its feud with mathematicians deepens",
+      "summary": "OpenAI has released 377 new math results on GitHub, the batch of solutions to unsolved problems that had already reignited its feud with mathematicians.\n\n- New: the results landed alongside an OpenAI blog post that Gizmodo describes as \"hand-wringing,\" noting professional mathematicians may not be thrilled\n- Ahead of the release, one mathematician told Wired \"there's a perception of mobster behavior\" from leading AI companies\n- OpenAI earlier formed an independent Advisory Group on Mathematics and Artificial Intelligence to guide review and communication of AI results, but it has no leeway to slow or redirect the research\n- Twenty-five leading mathematicians signed an open letter arguing AI labs are threatening their intellectual work\n- OpenAI will no longer sponsor Caltech's \"Mathathon,\" though organizers say the event won't be substantially affected\n- The Information reports OpenAI is now attempting the Hodge Conjecture, with its main concern being how to announce a result without further infuriating mathematicians",
       "importanceScore": 0.55,
       "relevanceScore": 0.65,
       "firstSeenAt": "2026-09-12T12:48:10.132Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T18:07:17.435Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T02:12:03.427Z",
       "sources": [
         {
           "providerName": "TechCrunch AI",
@@ -310,11 +291,37 @@
           "url": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
           "publishedAt": "2026-10-06T17:28:33.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Dumps 377 New Math Results on GitHub, Publishes Hand-Wringing Blog Post",
+          "url": "https://gizmodo.com/openai-dumps-377-new-math-results-on-github-publishes-hand-wringing-blog-post-2000822613",
+          "publishedAt": "2026-10-07T01:50:52.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
         "research"
       ]
+    },
+    {
+      "id": "3bf14ba2-5efc-434d-a924-b844b0d703b5",
+      "title": "Google to remove free access to Gemini Flash and Pro on October 9",
+      "summary": "Google is ending free access to its Gemini Flash and Pro models on October 9, Engadget reports, meaning users on the free Gemini tier will lose both models.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-06T12:03:08.885Z",
+      "lastMeaningfulUpdateAt": "2026-10-06T12:03:08.885Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Google removes free access to Gemini Flash and Pro on October 9",
+          "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
+          "publishedAt": "2026-10-06T11:22:53.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "2fa3e389-836a-4c4f-adee-df6eb3bef00d",
@@ -1020,6 +1027,27 @@
       "tags": [
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "eac7c084-9014-4370-a217-74aefa896260",
+      "title": "Cursor adds remote control for local agents",
+      "summary": "Cursor's changelog announces remote control for local agents. The source feed carried only the entry's title, so feature specifics aren't available yet.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-07T02:12:05.059Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T02:12:05.059Z",
+      "sources": [
+        {
+          "providerName": "Cursor Blog",
+          "title": "Remote control for local agents",
+          "url": "https://cursor.com/changelog/remote-control-local-agents",
+          "publishedAt": "2026-10-06T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -2033,27 +2061,8 @@
         "infrastructure",
         "research"
       ]
-    },
-    {
-      "id": "5fb259e8-8acf-4713-a230-395fb0ae21be",
-      "title": "Judge dismisses lawsuits claiming Google's AI Overviews siphon web traffic",
-      "summary": "A judge dismissed lawsuits alleging Google's AI Overviews siphon traffic from websites. Per Engadget, Google may have a monopoly in search, but neither suit made a compelling case that the company was leveraging it.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-02T05:04:01.085Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:04:01.085Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Judge dismisses lawsuits claiming Google's AI Overviews siphon web traffic",
-          "url": "https://www.engadget.com/2275023/judge-dismisses-lawsuits-claiming-googles-ai-overviews-siphon-web-traffic/",
-          "publishedAt": "2026-10-01T19:20:32.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 123,
+  "totalCount": 121,
   "hasMore": true
 }
