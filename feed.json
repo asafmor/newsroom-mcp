@@ -1,6 +1,260 @@
 {
-  "generatedAt": "2026-10-07T18:20:44.506Z",
+  "generatedAt": "2026-10-07T20:22:17.207Z",
   "stories": [
+    {
+      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
+      "title": "Meta's Muse lands on iPad a month after its mobile debut as the chart-topping agent's troubles pile up",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is topping app store charts and growing faster than ChatGPT did at launch, and Meta keeps widening its reach even as privacy, security, platform, originality, and labor trouble accumulate.\n\n- New: Muse is now available on iPad, just a month after its mobile debut, as Meta rapidly expands the assistant's reach and integrations\n- Meta disputes a journalist's account that Muse read his private Messages while the required Mac permission was off, saying the agent cannot access Messages without explicit permission\n- Gizmodo reports Meta tested routing some Muse tasks through a \"human concierge\" of contractors who make the agent's phone calls, one of whom reportedly made racist remarks\n- Meta says Muse was built from scratch but admits it was \"heavily inspired\" by OpenClaw, down to some workspace filenames and content\n- Ars Technica reports a serious 0-day in the highly privileged agent that could have let attackers do \"whatever\" they wanted on a victim's Mac; Meta says it has issued a fix\n- Amazon has blocked the Muse agent from shopping on Amazon.com, citing privacy and security concerns",
+      "importanceScore": 0.85,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-03T17:01:49.158Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T20:22:05.231Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
+          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+          "publishedAt": "2026-09-03T16:19:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is paying to peek at how you use their latest AI model",
+          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+          "publishedAt": "2026-09-03T18:19:56.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
+          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
+          "publishedAt": "2026-09-08T20:12:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+          "publishedAt": "2026-09-08T19:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s New AI Agent Wants to Get Personal With You",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news-2/",
+          "publishedAt": "2026-09-08T22:33:09.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse Let Me Waste a Mind-Boggling Amount of Free Compute on Nothing in Particular",
+          "url": "https://gizmodo.com/metas-muse-let-me-waste-a-mind-boggling-amount-of-free-compute-on-nothing-in-particular-2000808945",
+          "publishedAt": "2026-09-09T02:05:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+          "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+          "publishedAt": "2026-09-10T19:50:04.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "How to get started with Meta's new AI agent, Muse",
+          "url": "https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/",
+          "publishedAt": "2026-09-12T14:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
+          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
+          "publishedAt": "2026-09-17T13:46:16.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
+          "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+          "publishedAt": "2026-09-18T15:22:48.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
+          "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+          "publishedAt": "2026-09-20T10:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Amazon Brings Down the Hammer on Meta’s Muse AI Agent",
+          "url": "https://gizmodo.com/amazon-brings-down-the-hammer-on-metas-muse-ai-agent-2000814878",
+          "publishedAt": "2026-09-21T16:05:22.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s AI agent has been blocked from using Amazon.com",
+          "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+          "publishedAt": "2026-09-21T17:55:18.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+          "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+          "publishedAt": "2026-09-21T19:19:21.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Ars Technica",
+          "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+          "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+          "publishedAt": "2026-09-21T22:24:38.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "No Shirt, No Shoes, No Service: Amazon Blocks Meta’s Muse AI From Shopping",
+          "url": "https://www.cnet.com/tech/services-and-software/amazon-blocks-metas-muse-ai/",
+          "publishedAt": "2026-09-21T20:27:31.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+          "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+          "publishedAt": "2026-09-22T19:09:11.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse AI Agents Sometimes Tagged in Human Contractors. One of Them Reportedly Got Racist",
+          "url": "https://gizmodo.com/report-claims-metas-ai-agents-sometimes-tagged-in-human-contractors-and-that-one-of-them-got-racist-2000815808",
+          "publishedAt": "2026-09-23T09:00:24.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
+          "url": "https://www.wired.com/story/metas-muse-ai-agent-zero-day/",
+          "publishedAt": "2026-09-23T12:54:58.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s Muse AI Agent Has Been Downloaded Half a Million Times — With a Serious Bug",
+          "url": "https://www.cnet.com/tech/services-and-software/metas-muse-ai-agent-zero-day-cybersecurity-bug-patched/",
+          "publishedAt": "2026-09-23T17:52:30.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is putting its muscle behind Muse as the AI app takes off",
+          "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+          "publishedAt": "2026-09-25T16:16:52.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+          "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+          "publishedAt": "2026-09-25T18:22:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta opens early access program for new Muse features",
+          "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
+          "publishedAt": "2026-09-25T20:34:53.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Leaks Show That Meta’s New AI Agent Relied on Real People to Make Calls",
+          "url": "https://www.cnet.com/tech/services-and-software/leaks-metas-new-ai-agent-muse-real-people-call-centers/",
+          "publishedAt": "2026-09-26T00:13:27.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Spotify Already Has AI Playlists. So What Does Meta’s Muse Add?",
+          "url": "https://in.mashable.com/tech/114308/spotify-already-has-ai-playlists-so-what-does-metas-muse-add",
+          "publishedAt": "2026-09-25T19:49:36.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
+          "url": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/",
+          "publishedAt": "2026-09-26T10:30:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Can Muse overcome Meta’s trust issues?",
+          "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+          "publishedAt": "2026-09-27T19:57:30.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s Muse Is Misbehaving in Mysterious Ways With Your Privacy",
+          "url": "https://www.cnet.com/tech/services-and-software/metas-muse-agentic-ai-privacy-violations-security-data/",
+          "publishedAt": "2026-09-29T19:35:31.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta disputes claim that Muse read a user’s private messages without permission",
+          "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+          "publishedAt": "2026-09-30T16:24:23.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Don't let the adorable AI agents fool you",
+          "url": "https://www.engadget.com/2275148/dont-let-the-adorable-ai-agents-fool-you/",
+          "publishedAt": "2026-10-02T15:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+          "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+          "publishedAt": "2026-10-03T12:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse Is Collecting Information on Everyone in Your Life",
+          "url": "https://gizmodo.com/metas-muse-is-collecting-information-on-everyone-in-your-life-2000821697",
+          "publishedAt": "2026-10-05T16:05:21.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "I Used Meta’s Muse Agent as My Personal Shopper. It Upcharged Me for No Reason",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-my-personal-shopper-upcharged-me/",
+          "publishedAt": "2026-10-05T17:17:15.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse launches on iPad just a month after its mobile debut",
+          "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+          "publishedAt": "2026-10-07T18:30:57.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "model-release",
+        "safety"
+      ]
+    },
     {
       "id": "ff34869d-7881-4c4f-a248-e076b43b48b2",
       "title": "Report finds ChatGPT for Teens carries \"unacceptable risk,\" keeping teens engaged during mental health crises",
@@ -89,7 +343,7 @@
     {
       "id": "b6893563-a904-420b-9d1f-d834f4b98cf6",
       "title": "Google launches a public SynthID Detector site for identifying AI-generated media",
-      "summary": "Google launched SynthID Detector, a website that lets anyone check whether an image, video, or audio clip was generated with AI. Per Engadget, it flags content made with AI tools from OpenAI, Google, Apple, and other companies.",
+      "summary": "Google launched SynthID Detector, a website that lets anyone check whether an image, video, or audio clip was generated with AI. Per Engadget, it flags content made with AI tools from OpenAI, Google, Apple, and other companies. Gizmodo cautions it isn't perfect: in its test, the tool treated a fake photo as real.",
       "importanceScore": 0.6,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-10-07T14:18:11.870Z",
@@ -107,6 +361,13 @@
           "title": "Google's AI detection website is now available",
           "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
           "publishedAt": "2026-10-07T14:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google Launches New Website to Detect AI Fakes, But Don’t Assume It’s Perfect",
+          "url": "https://gizmodo.com/google-launches-new-website-to-detect-ai-fakes-but-dont-assume-its-perfect-2000823038",
+          "publishedAt": "2026-10-07T18:25:27.000Z",
           "contribution": "supporting"
         }
       ],
@@ -477,6 +738,27 @@
           "title": "OpenAI just posted hundreds more results on major math problems",
           "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/",
           "publishedAt": "2026-10-07T13:08:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "f42f8fe1-f4b3-4809-b752-4f32e0d10b54",
+      "title": "Engineers put GPT, Claude, and Grok in charge of a real car, and only one succeeded",
+      "summary": "Wired reports that three engineers put GPT, Claude, and Grok in control of a real Toyota Corolla and tasked them with driving to an In-N-Out. Only one of the three models succeeded.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-07T20:22:03.558Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T20:22:03.558Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "These Researchers Made AI Drive a Toyota Corolla to Get In-N-Out",
+          "url": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
+          "publishedAt": "2026-10-07T18:45:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1686,71 +1968,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "f2078db5-92d1-40b1-84c9-876e783f0743",
-      "title": "OpenAI safety employee David Robinson resigns, saying the company's \"culture is broken\"",
-      "summary": "OpenAI safety employee David Robinson resigned with a public warning that the company's \"culture is broken,\" admitting he is \"something of a cliché\" as an AI-lab staffer issuing a dire warning on the way out. Engadget reports the former safety lead argues AI should be regulated like nuclear power plants, with frontier model releases given \"layers of redundancy and careful, time-consuming planning.\"",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-03T17:26:13.087Z",
-      "lastMeaningfulUpdateAt": "2026-10-03T17:26:13.087Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-          "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-          "publishedAt": "2026-10-03T16:30:01.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Former OpenAI employee says AI should be regulated like nuclear power plants",
-          "url": "https://www.engadget.com/2276577/former-openai-employee-says-ai-should-be-regulated-like-nuclear-power-plants/",
-          "publishedAt": "2026-10-03T16:25:15.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "7b34d9d8-ab51-4eab-bedb-39710f55bd11",
-      "title": "OpenAI fires three safety researchers over alleged mishandling of sensitive information",
-      "summary": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, the Wall Street Journal reports.\n\n- A company spokesperson accused them of \"breaking the trust essential to our work,\" per Gizmodo\n- Engadget reports the three allegedly shared information with an external AI safety group",
-      "importanceScore": 0.8,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-02T05:03:44.398Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:03:44.398Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
-          "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
-          "publishedAt": "2026-10-01T18:14:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Ousts Three Safety Researchers for Allegedly Mishandling ‘Sensitive Information’",
-          "url": "https://gizmodo.com/openai-ousts-three-safety-researchers-for-allegedly-mishandling-sensitive-information-2000820515",
-          "publishedAt": "2026-10-01T20:50:26.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI fires three employees who allegedly shared info with an external AI safety group",
-          "url": "https://www.engadget.com/2275278/openai-fires-three-employees-who-allegedly-shared-info-with-an-external-ai-safety-group/",
-          "publishedAt": "2026-10-01T22:05:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 123,
+  "totalCount": 119,
   "hasMore": true
 }
