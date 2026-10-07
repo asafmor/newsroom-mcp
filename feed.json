@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T08:14:57.050Z",
+  "generatedAt": "2026-10-07T10:16:14.252Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -823,6 +823,25 @@
       ]
     },
     {
+      "id": "9370e8fe-950c-44e4-986e-23930fe51490",
+      "title": "Man who made millions from an AI-music bot scheme gets an 18-month prison sentence",
+      "summary": "Gizmodo reports that a man who made millions through a self-feeding loop of AI-generated music and bots has been sentenced to 18 months in prison.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-07T10:16:09.384Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T10:16:09.384Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Guy Who Made Millions by Creating AI Music Ouroboros Receives 18-Month Prison Sentence",
+          "url": "https://gizmodo.com/guy-who-made-millions-by-creating-ai-music-ouroboros-receives-18-month-prison-sentence-2000822638",
+          "publishedAt": "2026-10-07T09:00:04.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "c79ce75a-717d-404d-94fc-a4adbdef36cb",
       "title": "Florida woman arrested following a conversation with Claude that allegedly included threats",
       "summary": "Gizmodo reports that a Florida woman was arrested following a conversation with Anthropic's Claude that allegedly included \"threats\", raising questions about how chatbot conversations reach law enforcement.",
@@ -922,6 +941,25 @@
       "tags": [
         "open-source"
       ]
+    },
+    {
+      "id": "4d6c272f-3537-4c9b-bc2e-988671ce8a6f",
+      "title": "A new \"organic literature\" stamp aims to certify books written by humans",
+      "summary": "Wired reports on a new \"organic literature\" stamp meant to help readers pick out books authored by humans rather than AI, a response to the growing volume of AI-generated writing in publishing.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-07T10:16:07.559Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T10:16:07.559Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Your Next Great Read Might Be Certified ‘Organic’",
+          "url": "https://www.wired.com/story/organic-literature-books-by-people-stamp-ai/",
+          "publishedAt": "2026-10-07T08:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "3fa36a1c-d1e6-4b31-883a-c6a40e98055c",
@@ -1990,86 +2028,8 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "d81a786a-7e44-4c15-804c-0fc2d76f44a9",
-      "title": "MIT Technology Review asks why people who say they hate AI keep using it",
-      "summary": "In MIT Technology Review's The Algorithm, Will Douglas Heaven examines the gap between widespread public dislike of AI and its continued heavy use. The piece opens with the CEO of Springboards, a startup building an LLM designed to give a wider variety of responses than mainstream rivals, who describes the company as a \"self-loathing AI\" firm.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-05T09:46:05.813Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T09:46:05.813Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "People really hate AI, so why can’t they get enough?",
-          "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
-          "publishedAt": "2026-10-05T08:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "5de5de08-41f0-4923-aaa4-a37768e3197b",
-      "title": "Google launches its first advanced AI chip into orbit under Project Suncatcher",
-      "summary": "Google has launched its first advanced chip into orbit under Project Suncatcher, a step toward its longer-term plan to build solar-powered AI data centers in space.\n\n- New: Google thinks SpaceX's Starship has to launch 1,800 times before space data centers get off the ground, per TechCrunch\n- The project aims to use the near-constant sunlight available in orbit to feed AI's growing compute demand\n- Because radio-frequency links lack the bandwidth, the design leans on laser communication between satellites",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-25T00:28:04.233Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:04:31.721Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google’s Project Suncatcher Is Sending AI Chips Into Space Next Week",
-          "url": "https://gizmodo.com/googles-project-suncatcher-is-sending-ai-chips-into-space-next-week-2000816985",
-          "publishedAt": "2026-09-24T22:49:46.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Project Suncatcher Uses Space Solar Panels for AI",
-          "url": "https://www.geeky-gadgets.com/google-project-suncatcher-ai/",
-          "publishedAt": "2026-09-25T10:13:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "An Imminent Google Satellite Test Is Another Step Toward Data Centers in Space",
-          "url": "https://www.cnet.com/tech/services-and-software/google-satellite-space-data-center/",
-          "publishedAt": "2026-09-25T15:06:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Project Suncatcher Tests Tensor Processing Units",
-          "url": "https://www.geeky-gadgets.com/google-project-suncatcher/",
-          "publishedAt": "2026-09-29T09:13:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Project Suncatcher Puts AI Data Centers in Orbit",
-          "url": "https://www.geeky-gadgets.com/google-project-suncatcher-2/",
-          "publishedAt": "2026-09-30T07:13:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
-          "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
-          "publishedAt": "2026-10-01T19:18:03.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "infrastructure",
-        "research"
-      ]
     }
   ],
-  "totalCount": 120,
+  "totalCount": 122,
   "hasMore": true
 }
