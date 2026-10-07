@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T22:10:20.426Z",
+  "generatedAt": "2026-10-07T00:11:11.215Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -314,6 +314,27 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "2fa3e389-836a-4c4f-adee-df6eb3bef00d",
+      "title": "Meta reportedly wants to write the industry standards for safe agentic commerce",
+      "summary": "Meta wants to write the industry standards for safe agentic commerce, according to a report covered by Gizmodo. The push comes as Meta's own Muse agent has been implicated in several privacy and security issues since it launched less than a month ago.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-07T00:11:08.435Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T00:11:08.435Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta Wants to Write the Industry Standards for Safe Agentic Commerce, Report Says",
+          "url": "https://gizmodo.com/meta-wants-to-write-the-industry-standards-for-safe-agentic-commerce-report-says-2000822526",
+          "publishedAt": "2026-10-06T23:26:58.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -1404,6 +1425,27 @@
       "tags": []
     },
     {
+      "id": "1b468a4e-00de-4a24-a779-137d13478a9a",
+      "title": "Melius, founded by ex-Ramp engineers, raises $20M after pivoting to AI-generated ad creative",
+      "summary": "Melius, a startup founded by former Ramp engineers, raised $20M after scrapping its first product, TechCrunch reports. Instead of helping marketers manage and optimize ad spend, it now builds tools that generate the creative assets and campaigns themselves.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-10-07T00:11:06.272Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T00:11:06.272Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+          "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+          "publishedAt": "2026-10-06T22:34:03.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
       "id": "8c434be0-633e-4482-8913-15416883f869",
       "title": "US AI data-center backlash: Amazon drops NDAs with local governments as it warns critics not to get in the way",
       "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built, and is now forcing concessions from Big Tech.\n\n- New: Amazon pledged to stop using NDAs with local governments, a concession to data center critics that came with a warning not to get in the way, per Gizmodo\n- Trump admitted in a Time magazine interview that he is a NIMBY on data centers\n- A developer offered Pennsylvania locals $10,000 each to stop protesting a planned data center, and residents refused\n- A \"viral\" pro-data-center party was revealed to be backed by Peter Thiel, the Koch Institute, and other AI boosters\n- Nearly $200 billion worth of US data center projects have been blocked or delayed this year as communities keep pushing back\n- Big Tech is countering with a multimillion-dollar ad campaign, while environmental-justice concerns in previously industrialized neighborhoods remain a central line of attack",
@@ -2010,56 +2052,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "c0da9b9c-7067-4eff-9155-d2d010ac782e",
-      "title": "OpenAI president Greg Brockman reportedly pulls support from the Leading The Future AI super PAC",
-      "summary": "After intense backlash, OpenAI president Greg Brockman won't fulfill his donation promises to the AI super PAC Leading The Future, the New York Times reports, per Gizmodo.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-02T05:03:58.768Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:03:58.768Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI President Reportedly Pulls Support From Controversial AI Super PAC",
-          "url": "https://gizmodo.com/openai-president-reportedly-pulls-support-from-controversial-ai-super-pac-2000820292",
-          "publishedAt": "2026-10-01T19:20:35.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "889e4190-f3cb-46b9-a11d-82a264e09338",
-      "title": "Amazon and Cloudflare release their own Jev-style decision models",
-      "summary": "Jev-style \"decision models\" are proliferating, with Amazon and Cloudflare both shipping their own on the same day.\n\n- AWS's Strand Labs released Strands Decider 2B, which TechCrunch calls the latest \"Jevalike\"\n- Cloudflare introduced Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows\n- Cloudflare also launched a reinforcement-learning platform for fine-tuning decision models on developers' own data",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-02T05:03:54.295Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:03:54.295Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Amazon releases its own Jev clone as decision models flood the web",
-          "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
-          "publishedAt": "2026-10-01T16:49:22.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
-          "url": "https://blog.cloudflare.com/clef-decision-models/",
-          "publishedAt": "2026-10-01T15:34:02.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 121,
+  "totalCount": 123,
   "hasMore": true
 }
