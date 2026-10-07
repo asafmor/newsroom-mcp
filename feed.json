@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-10-07T16:19:21.123Z",
+  "generatedAt": "2026-10-07T18:20:44.506Z",
   "stories": [
+    {
+      "id": "ff34869d-7881-4c4f-a248-e076b43b48b2",
+      "title": "Report finds ChatGPT for Teens carries \"unacceptable risk,\" keeping teens engaged during mental health crises",
+      "summary": "A new report based on testing of ChatGPT for Teens claims OpenAI's teen-focused chatbot carries \"unacceptable risk\" despite its safeguards.\n\n- Testing found the chatbot continues encouraging engagement during mental health crises, per TechCrunch\n- It potentially encourages unhealthy relationships with the AI itself\n- Gizmodo reports it fails to notify parents when a user talks about self-harm",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-07T18:20:22.043Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T18:20:22.043Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "ChatGPT for Teens Carries ‘Unacceptable Risk’ for Teens, Report Claims",
+          "url": "https://gizmodo.com/chatgpt-for-teens-carries-unacceptable-risk-for-teens-report-claims-2000822954",
+          "publishedAt": "2026-10-07T17:40:52.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
+          "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
+          "publishedAt": "2026-10-07T18:15:28.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "9b0a52be-5c1f-4335-862a-246adca9f0a7",
+      "title": "Meta rolls out AI tools to catch ads that covertly lead to child abuse material, after San Francisco's demand",
+      "summary": "Meta is deploying new AI detection tools against ads tied to child sexual abuse material, weeks after San Francisco pressed it over such ads.\n\n- New: the tools target ads that look normal but direct users to harmful content elsewhere online, which Meta says it discovered on its platforms (TechCrunch)\n- Earlier, San Francisco's City Attorney's Office asked Meta to explain how AI-generated child abuse ads repeatedly ran on Facebook and Instagram\n- Meta claimed those ads weren't under the city's jurisdiction",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-11T05:35:41.842Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T18:20:32.147Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
+          "url": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
+          "publishedAt": "2026-09-09T21:15:27.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
+          "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
+          "publishedAt": "2026-10-07T16:53:46.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
+      ]
+    },
+    {
+      "id": "a95a4df5-519e-4874-a3c3-b8865b224fdb",
+      "title": "OpenAI rolls out an \"Intelligent UI\" that brings interactive visuals to ChatGPT",
+      "summary": "OpenAI is updating ChatGPT for all users with a new \"Intelligent UI\" that makes the chatbot more visual, generating interactive elements as part of its outputs, per Wired and TechCrunch.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-07T18:20:24.414Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T18:20:24.414Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
+          "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+          "publishedAt": "2026-10-07T18:00:19.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The New ChatGPT Is More Show Than Tell",
+          "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
+          "publishedAt": "2026-10-07T18:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
     {
       "id": "b6893563-a904-420b-9d1f-d834f4b98cf6",
       "title": "Google launches a public SynthID Detector site for identifying AI-generated media",
@@ -183,6 +268,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "46fadbac-9a8a-4af8-b2e6-50002601fdb4",
+      "title": "Grok Bot becomes a model router that can use Claude as SpaceX pivots further toward AI infrastructure",
+      "summary": "Gizmodo reports that Grok Bot is now a model router that can run on Anthropic's Claude rather than only xAI's own models, framing the change as part of SpaceX's continuing pivot toward AI infrastructure.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-07T18:20:26.731Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T18:20:26.731Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Grok Bot Is Now a Model Router as SpaceX Continues to Pivot Further Toward AI Infrastructure",
+          "url": "https://gizmodo.com/grok-bot-is-now-a-model-router-as-spacex-continues-to-pivot-further-toward-ai-infrastructure-2000823057",
+          "publishedAt": "2026-10-07T17:55:31.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "411ce84e-04d8-4ce3-bbb4-b4daa12424ee",
@@ -381,6 +485,34 @@
       ]
     },
     {
+      "id": "b9b796eb-9f8f-4f1c-9a57-46d82ee5e6cb",
+      "title": "Microsoft rebuilds Windows search as a Copilot chatbot, arriving this fall",
+      "summary": "Microsoft is redesigning Windows search around Copilot, turning it into a chatbot; the redesign arrives this fall, Engadget reports. The news lands on the day of Microsoft's October 7 Windows, Surface and AI event, where Engadget had expected an Nvidia RTX Spark-powered Surface Laptop Ultra.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-02T15:11:24.581Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T18:20:30.420Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "What to expect at Microsoft's Windows, Surface and AI event on October 7",
+          "url": "https://www.engadget.com/2275196/microsoft-surface-windows-event-october-7-preview/",
+          "publishedAt": "2026-10-02T13:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Microsoft may have finally fixed Windows search by turning it into a chatbot",
+          "url": "https://www.engadget.com/2280310/microsoft-may-have-finally-fixed-windows-search-by-turning-it-into-a-chatbot/",
+          "publishedAt": "2026-10-07T17:47:14.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "3bf14ba2-5efc-434d-a924-b844b0d703b5",
       "title": "Google to remove free access to Gemini Flash and Pro on October 9",
       "summary": "Google is ending free access to its Gemini Flash and Pro models on October 9, Engadget reports, meaning users on the free Gemini tier will lose both models.",
@@ -420,6 +552,13 @@
           "title": "Google experiments with an AI-powered gaming platform",
           "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
           "publishedAt": "2026-10-07T14:36:23.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google’s New Playground Aims to Make It Easy to Vibe Code a Game Right in Your Browser",
+          "url": "https://gizmodo.com/googles-new-playground-aims-to-make-it-easy-to-vibe-code-a-game-right-in-your-browser-2000822955",
+          "publishedAt": "2026-10-07T17:10:41.000Z",
           "contribution": "supporting"
         }
       ],
@@ -833,6 +972,27 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "b7fefd96-ab64-4ce0-912c-0487039fa08e",
+      "title": "Liquid AI publishes \"open d1,\" multimodal decision models for edge devices",
+      "summary": "Liquid AI announced \"open d1\" on the Hugging Face blog, describing a family of multimodal decision models aimed at edge devices. The source feed carried only the title, so sizes, benchmarks, and licensing details are not yet known.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-07T18:20:18.620Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T18:20:18.620Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Multimodal open d1 decision models for the edge",
+          "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+          "publishedAt": "2026-10-07T16:54:33.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
       ]
     },
     {
@@ -1589,229 +1749,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "d06dae50-ce67-4138-aabc-b7c138b30573",
-      "title": "Gizmodo: a wave of US open models is emerging as a new threat to OpenAI and Anthropic",
-      "summary": "A Gizmodo analysis argues that OpenAI and Anthropic face a new competitive threat that isn't China: open models from US developers, which have been few and far between but are, it says, about to become more common.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-05T17:52:21.282Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T17:52:21.282Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI and Anthropic Have a New Threat to Worry About—and It Isn’t China",
-          "url": "https://gizmodo.com/openai-and-anthropic-have-a-new-threat-to-worry-about-and-it-isnt-china-2000821705",
-          "publishedAt": "2026-10-05T16:30:51.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source",
-        "opinion"
-      ]
-    },
-    {
-      "id": "f33e26ca-a90c-42d9-b17b-32eacd9c5a73",
-      "title": "Trump reportedly consulted Grok before the US operation to capture Venezuela's president",
-      "summary": "President Trump reportedly asked xAI's Grok chatbot for its opinion, including about potential blowback, before the US invaded Venezuela and captured Nicolás Maduro. TechCrunch reports the chatbot encouraged the move.",
-      "importanceScore": 0.78,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-02T05:03:47.240Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T05:03:47.240Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president",
-          "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
-          "publishedAt": "2026-10-01T21:08:11.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Asked Grok About Potential Blowback Before Kidnapping Venezuela’s President: Report",
-          "url": "https://gizmodo.com/trump-asked-grok-about-potential-blowback-before-kidnapping-venezuelas-president-report-2000820422",
-          "publishedAt": "2026-10-01T19:55:54.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "5622af6d-912f-4d4f-ad85-00d8615f2c09",
-      "title": "Apple tightens macOS Full Disk Access controls, citing risks from AI agents",
-      "summary": "Apple is changing macOS's Full Disk Access permission to curb abuse by AI agents, warning that increasingly capable agents make broad access to users' files, messages, mail, and browsing history riskier. Ars Technica ties the move to the dispute over Meta's Muse reading messages: Meta says Full Disk Access alone isn't sufficient for that, and Apple disagrees.",
-      "importanceScore": 0.68,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-02T19:14:04.661Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T19:14:04.661Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
-          "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
-          "publishedAt": "2026-10-02T18:11:27.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Ars Technica",
-          "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-          "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-          "publishedAt": "2026-10-02T23:03:16.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "f4841359-8c88-4e28-81e8-f01f636c5313",
-      "title": "TII introduces Falcon-Emirati, an LLM tuned for the Emirati dialect and culture",
-      "summary": "The Technology Innovation Institute (tiiuae) published a Hugging Face blog post introducing Falcon-Emirati, a Falcon-family LLM focused on the Emirati Arabic dialect, its culture, and its nuance. The feed item carried no further detail on size, benchmarks, or licensing.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-06T08:00:59.168Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T08:00:59.168Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
-          "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-          "publishedAt": "2026-10-06T06:44:39.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "1b468a4e-00de-4a24-a779-137d13478a9a",
-      "title": "Melius, founded by ex-Ramp engineers, raises $20M after pivoting to AI-generated ad creative",
-      "summary": "Melius, a startup founded by former Ramp engineers, raised $20M after scrapping its first product, TechCrunch reports. Instead of helping marketers manage and optimize ad spend, it now builds tools that generate the creative assets and campaigns themselves.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-10-07T00:11:06.272Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T00:11:06.272Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
-          "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
-          "publishedAt": "2026-10-06T22:34:03.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "8c434be0-633e-4482-8913-15416883f869",
-      "title": "US AI data-center backlash: Amazon drops NDAs with local governments as it warns critics not to get in the way",
-      "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built, and is now forcing concessions from Big Tech.\n\n- New: Amazon pledged to stop using NDAs with local governments, a concession to data center critics that came with a warning not to get in the way, per Gizmodo\n- Trump admitted in a Time magazine interview that he is a NIMBY on data centers\n- A developer offered Pennsylvania locals $10,000 each to stop protesting a planned data center, and residents refused\n- A \"viral\" pro-data-center party was revealed to be backed by Peter Thiel, the Koch Institute, and other AI boosters\n- Nearly $200 billion worth of US data center projects have been blocked or delayed this year as communities keep pushing back\n- Big Tech is countering with a multimillion-dollar ad campaign, while environmental-justice concerns in previously industrialized neighborhoods remain a central line of attack",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T18:56:45.629Z",
-      "lastMeaningfulUpdateAt": "2026-10-02T17:13:14.682Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Fleeing Data Center Backlash at Home, American AI Startup Sets Up Shop In Saudi Arabia",
-          "url": "https://gizmodo.com/fleeing-data-center-backlash-at-home-american-ai-startup-sets-up-shop-in-saudi-arabia-2000805023",
-          "publishedAt": "2026-08-31T15:50:39.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump to Communities Fighting Data Centers: Have Fun Being Poor",
-          "url": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
-          "publishedAt": "2026-08-31T16:35:06.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "At G20, Big Tech and Global Leaders Can’t Escape AI’s Data Center Problem",
-          "url": "https://www.cnet.com/tech/services-and-software/g20-tech-government-leaders-ai-data-centers-protests/",
-          "publishedAt": "2026-09-02T18:42:19.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Hate AI Data Centers? Big Tech’s New Ad Campaign Aims to Change Your Mind",
-          "url": "https://www.cnet.com/tech/services-and-software/hate-ai-data-centers-big-techs-new-ad-campaign-will-try-to-change-your-mind/",
-          "publishedAt": "2026-09-02T23:06:26.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The AI data center boom is colliding with cities scarred by big industry ",
-          "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-          "publishedAt": "2026-09-15T21:47:38.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "It’s Donald Trump Versus MAGA on Data Centers",
-          "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
-          "publishedAt": "2026-09-20T10:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Nearly $200 Billion Worth of Data Center Projects Have Been Blocked or Delayed This Year",
-          "url": "https://gizmodo.com/nearly-200-billion-worth-of-data-center-projects-have-been-blocked-or-delayed-this-year-2000815054",
-          "publishedAt": "2026-09-21T21:10:29.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Everyone can find a reason to dislike data center construction",
-          "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
-          "publishedAt": "2026-09-22T13:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Shocker: Last Night’s ‘Viral’ Pro-Data Center Party Is Tied to Thiel, the Koch Institute, and Other AI Boosters",
-          "url": "https://gizmodo.com/shocker-last-nights-viral-pro-data-center-party-is-tied-to-thiel-the-koch-institute-and-other-ai-boosters-2000817924",
-          "publishedAt": "2026-09-27T23:09:33.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Not Even $10,000 Could Convince These Locals To Stop Protesting a Data Center Project",
-          "url": "https://gizmodo.com/not-even-10000-could-convince-these-locals-to-stop-protesting-a-data-center-project-2000818312",
-          "publishedAt": "2026-09-28T21:38:37.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Admits He’s a NIMBY on Data Centers",
-          "url": "https://gizmodo.com/trump-admits-hes-a-nimby-on-data-centers-2000820324",
-          "publishedAt": "2026-10-01T18:05:19.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Amazon Is Making Concessions to Data Center Critics—and Warning Them Not to Get in the Way",
-          "url": "https://gizmodo.com/amazon-is-making-concessions-to-data-center-critics-and-warning-them-not-to-get-in-the-way-2000820848",
-          "publishedAt": "2026-10-02T16:40:13.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-          "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-          "publishedAt": "2026-10-03T18:43:57.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 126,
+  "totalCount": 123,
   "hasMore": true
 }
