@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T10:16:14.252Z",
+  "generatedAt": "2026-10-07T12:17:20.001Z",
   "stories": [
     {
       "id": "61ffa5ba-8710-43a3-8eed-38d0938bd269",
@@ -322,6 +322,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "e803de71-8bb6-4e63-bd0f-0c453533c1e4",
+      "title": "Google launches Playground, an experimental AI-powered game creation platform",
+      "summary": "Google has launched Playground, an experimental platform that uses AI to create games for users, Engadget reports.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-07T12:17:14.476Z",
+      "lastMeaningfulUpdateAt": "2026-10-07T12:17:14.476Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Google's experimental Playground platform uses AI to create games for you",
+          "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
+          "publishedAt": "2026-10-07T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "2fa3e389-836a-4c4f-adee-df6eb3bef00d",
@@ -2007,29 +2028,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "f3e4377f-f6a6-44d1-b87c-ad40caca1865",
-      "title": "Huawei's Atlas 960 Super Pod is pitched as cutting AI data-center energy use by 550 kW",
-      "summary": "Geeky Gadgets reports that Huawei's Atlas 960 Super Pod, built on its Pirium computing architecture, cuts AI energy usage by 550 kW. The piece frames it as a response to data-movement overhead, citing estimates that AI data centers will consume over 945 TWh a year by 2030, with roughly 80% of that energy spent moving data rather than computing.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-05T11:47:10.853Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T11:47:10.853Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Atlas 960 Super Pod Cuts AI Energy Usage by 550 kW",
-          "url": "https://www.geeky-gadgets.com/ai-energy-consumption-huawei-pirium/",
-          "publishedAt": "2026-10-05T10:13:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 123,
   "hasMore": true
 }
