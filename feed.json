@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-10-08T18:34:33.209Z",
+  "generatedAt": "2026-10-08T20:36:31.903Z",
   "stories": [
+    {
+      "id": "7b34d9d8-ab51-4eab-bedb-39710f55bd11",
+      "title": "Fired OpenAI safety researchers dispute misconduct claims and warn of a chilling effect",
+      "summary": "Three safety researchers fired by OpenAI are publicly disputing the company's account of why they were dismissed.\n\n- In an open letter, they reject the allegation that they mishandled sensitive information and warn their dismissals are chilling OpenAI's AI safety culture, TechCrunch reports\n- OpenAI parted ways with them after an internal investigation, as first reported by the Wall Street Journal\n- A company spokesperson accused them of \"breaking the trust essential to our work,\" per Gizmodo\n- Engadget reports the three allegedly shared information with an external AI safety group",
+      "importanceScore": 0.8,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-10-02T05:03:44.398Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T20:36:14.682Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+          "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+          "publishedAt": "2026-10-01T18:14:42.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Ousts Three Safety Researchers for Allegedly Mishandling ‘Sensitive Information’",
+          "url": "https://gizmodo.com/openai-ousts-three-safety-researchers-for-allegedly-mishandling-sensitive-information-2000820515",
+          "publishedAt": "2026-10-01T20:50:26.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI fires three employees who allegedly shared info with an external AI safety group",
+          "url": "https://www.engadget.com/2275278/openai-fires-three-employees-who-allegedly-shared-info-with-an-external-ai-safety-group/",
+          "publishedAt": "2026-10-01T22:05:43.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+          "publishedAt": "2026-10-08T20:04:26.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "288b0bb6-ee4f-433f-8437-54d0b15e0aca",
       "title": "Google turns Gemini into an AI agent, starting with businesses",
@@ -311,6 +353,13 @@
           "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
           "publishedAt": "2026-10-08T18:16:24.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "2026 Usage Policy update",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "publishedAt": "2026-10-08T00:00:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -550,6 +599,25 @@
       ]
     },
     {
+      "id": "b6d4bb67-2b79-4798-9453-8b5a0af01eae",
+      "title": "Anthropic introduces the \"Anthropic Cyber Mission\"",
+      "summary": "Anthropic announced a new initiative it calls the Anthropic Cyber Mission in a post on its news site. The feed entry carries no details beyond the announcement itself.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-08T20:36:18.420Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T20:36:18.420Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "Introducing the Anthropic Cyber Mission",
+          "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+          "publishedAt": "2026-10-08T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "c0b26012-3d62-4230-a4a5-c15e3d94093d",
       "title": "Report suggests OpenAI has won back significant market share from Anthropic in 2026",
       "summary": "A report covered by Gizmodo suggests OpenAI has clawed back a large amount of market share from Anthropic over the course of 2026, with the outlet speculating that OpenAI's pivot toward productivity may be paying off. The source feed carried no figures beyond that framing.",
@@ -687,6 +755,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "382233be-a117-4b88-88f9-9699dbbaf39a",
+      "title": "Anthropic expands its Genesis Mission commitment to American scientific discovery",
+      "summary": "Anthropic published a post titled \"Building on our commitment to American scientific discovery,\" tied to the Genesis Mission. The feed entry carries no details beyond the announcement itself.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-08T20:36:20.316Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T20:36:20.316Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "Building on our commitment to American scientific discovery",
+          "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+          "publishedAt": "2026-10-08T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "b6893563-a904-420b-9d1f-d834f4b98cf6",
@@ -1771,68 +1858,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "6cec37c1-1d35-4314-9c69-6b7cf66a62d3",
-      "title": "Google DeepMind releases EmbeddingGemma 2, an open, lightweight multimodal embedding model",
-      "summary": "Google DeepMind announced EmbeddingGemma 2, which it describes as an open, lightweight multimodal embedding model.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-06T22:10:14.389Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T22:10:14.389Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-          "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-          "publishedAt": "2026-10-06T19:57:04.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
-    },
-    {
-      "id": "9370e8fe-950c-44e4-986e-23930fe51490",
-      "title": "Man who made millions from an AI-music bot scheme gets an 18-month prison sentence",
-      "summary": "Gizmodo reports that a man who made millions through a self-feeding loop of AI-generated music and bots has been sentenced to 18 months in prison.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-07T10:16:09.384Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T10:16:09.384Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Guy Who Made Millions by Creating AI Music Ouroboros Receives 18-Month Prison Sentence",
-          "url": "https://gizmodo.com/guy-who-made-millions-by-creating-ai-music-ouroboros-receives-18-month-prison-sentence-2000822638",
-          "publishedAt": "2026-10-07T09:00:04.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "c79ce75a-717d-404d-94fc-a4adbdef36cb",
-      "title": "Florida woman arrested following a conversation with Claude that allegedly included threats",
-      "summary": "Gizmodo reports that a Florida woman was arrested following a conversation with Anthropic's Claude that allegedly included \"threats\", raising questions about how chatbot conversations reach law enforcement.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-05T19:54:21.552Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T19:54:21.552Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Florida Woman Arrested Following Conversation With Claude That Allegedly Included ‘Threats’",
-          "url": "https://gizmodo.com/florida-woman-arrested-following-conversation-with-claude-that-allegedly-included-threats-2000821756",
-          "publishedAt": "2026-10-05T18:15:55.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 122,
+  "totalCount": 125,
   "hasMore": true
 }
