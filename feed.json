@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T08:29:12.064Z",
+  "generatedAt": "2026-10-08T10:30:20.308Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -291,6 +291,25 @@
       ]
     },
     {
+      "id": "c0b26012-3d62-4230-a4a5-c15e3d94093d",
+      "title": "Report suggests OpenAI has won back significant market share from Anthropic in 2026",
+      "summary": "A report covered by Gizmodo suggests OpenAI has clawed back a large amount of market share from Anthropic over the course of 2026, with the outlet speculating that OpenAI's pivot toward productivity may be paying off. The source feed carried no figures beyond that framing.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-08T10:30:13.267Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T10:30:13.267Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Report Suggests OpenAI Has Clawed Tons of Market Share Back From Anthropic in 2026",
+          "url": "https://gizmodo.com/report-suggests-openai-has-clawed-tons-of-market-share-back-from-anthropic-in-2026-2000823382",
+          "publishedAt": "2026-10-08T09:00:06.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "9b0a52be-5c1f-4335-862a-246adca9f0a7",
       "title": "Meta rolls out AI tools to catch ads that covertly lead to child abuse material, after San Francisco's demand",
       "summary": "Meta is deploying new AI detection tools against ads tied to child sexual abuse material, weeks after San Francisco pressed it over such ads.\n\n- New: the tools target ads that look normal but direct users to harmful content elsewhere online, which Meta says it discovered on its platforms (TechCrunch)\n- Earlier, San Francisco's City Attorney's Office asked Meta to explain how AI-generated child abuse ads repeatedly ran on Facebook and Instagram\n- Meta claimed those ads weren't under the city's jurisdiction",
@@ -354,6 +373,13 @@
           "title": "OpenAI Wants ChatGPT to Stop Looking Like a Chatbot",
           "url": "https://gizmodo.com/openai-wants-chatgpt-to-stop-looking-like-a-chatbot-2000823211",
           "publishedAt": "2026-10-07T21:15:33.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "GPT-6 is coming to all tiers of ChatGPT",
+          "url": "https://www.engadget.com/2280879/gpt-6-coming-all-tiers-chatgpt/",
+          "publishedAt": "2026-10-08T08:45:16.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1045,6 +1071,27 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "79e979f3-e1fd-496e-9887-7806d1b06a20",
+      "title": "MIT Technology Review: AI breakthroughs in robotics won't change daily life any time soon",
+      "summary": "An MIT Technology Review feature, produced with the non-profit Aventine, argues that recent AI-driven advances in robotics will not change everyday life soon, using a humanoid robot that has been going viral in dance videos as its starting point.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-08T10:30:15.636Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T10:30:15.636Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "AI breakthroughs in robotics won’t change your life any time soon",
+          "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+          "publishedAt": "2026-10-08T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -1819,50 +1866,8 @@
         "model-release",
         "safety"
       ]
-    },
-    {
-      "id": "eac7c084-9014-4370-a217-74aefa896260",
-      "title": "Cursor adds remote control for local agents",
-      "summary": "Cursor's changelog announces remote control for local agents. The source feed carried only the entry's title, so feature specifics aren't available yet.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-07T02:12:05.059Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T02:12:05.059Z",
-      "sources": [
-        {
-          "providerName": "Cursor Blog",
-          "title": "Remote control for local agents",
-          "url": "https://cursor.com/changelog/remote-control-local-agents",
-          "publishedAt": "2026-10-06T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "03fe7cc9-a092-4dff-97d5-f8e0abaa57da",
-      "title": "HackerRank's AI interviewer has conducted more than 500,000 job interviews",
-      "summary": "HackerRank says its AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers. TechCrunch frames it as a preview of what job interviews could become.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-05T17:52:11.968Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T17:52:11.968Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
-          "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
-          "publishedAt": "2026-10-05T16:43:35.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 116,
+  "totalCount": 117,
   "hasMore": true
 }
