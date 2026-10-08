@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T14:32:18.634Z",
+  "generatedAt": "2026-10-08T16:33:10.882Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -252,6 +252,49 @@
       "tags": [
         "product-launch",
         "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "c2aff070-6c08-4a81-bcf4-7d54e0fa928c",
+      "title": "Goodfire launches \"inside-out\" monitors it says catch rogue AI agents at a fraction of the cost",
+      "summary": "Goodfire launched what it calls a cheaper way to keep AI agents in check, per TechCrunch: rather than paying a second AI to read everything an agent does, its monitors look inside the model while it works and only call in backup when something looks suspicious.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-08T16:33:00.812Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T16:33:00.812Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
+          "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+          "publishedAt": "2026-10-08T16:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "product-launch"
+      ]
+    },
+    {
+      "id": "be74f75e-c21f-4d9d-a5a8-d7567d49f833",
+      "title": "OpenAI disrupts two AI-enabled \"false front\" influence operations",
+      "summary": "OpenAI says it disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-08T16:33:02.642Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T16:33:02.642Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Disrupting AI-enabled “false front” operations",
+          "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+          "publishedAt": "2026-10-08T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -1387,6 +1430,27 @@
       ]
     },
     {
+      "id": "29d4c9ac-6716-489c-a158-c493e3e94f3b",
+      "title": "Natura launches a $99 smart ring for summoning AI agents",
+      "summary": "Natura's $99 Interface smart ring lets wearers summon AI agents with a finger press to complete tasks, capture thoughts, and control devices, while doubling as a health tracker, per TechCrunch.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-08T16:33:04.768Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T16:33:04.768Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Natura’s $99 smart ring puts AI agents on your finger",
+          "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
+          "publishedAt": "2026-10-08T16:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "38f600fd-56c6-4fa7-84e8-a4d43f2c8970",
       "title": "Musubi releases PolicyLM-1.7B, an open-weight decision model for real-time content moderation",
       "summary": "Musubi announced PolicyLM-1.7B, a lightweight decision model built for real-time content moderation and released with open weights. TechCrunch frames it as a sign of how AI decision models could change moderation work.",
@@ -1757,69 +1821,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "de4f8b02-df9d-476c-b265-813ac2878904",
-      "title": "Tony Fadell says the first wave of AI gadgets failed to solve real problems",
-      "summary": "Tony Fadell, the \"father of the iPod,\" tells TechCrunch the first generation of AI gadgets failed because it didn't solve real problems, and that the next wave will need to earn consumers' trust.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-07T16:19:12.801Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T16:19:12.801Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Tony Fadell on why the first wave of AI gadgets failed — and what comes next",
-          "url": "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next/",
-          "publishedAt": "2026-10-07T14:41:38.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "48927e69-2b70-4ae9-bbf8-c02a8299c629",
-      "title": "Rumored OpenAI \"GPT-Next\" model said to improve on GPT-6.1 Sol's speed and cost",
-      "summary": "A rumored OpenAI model referred to as \"GPT-Next\" is said to bring efficiency and cost improvements over the current GPT-6.1 Sol, in line with what is described as OpenAI's 28-day improvement cycle, which previously delivered a 50% speed increase for GPT-6.1 Sol. The claims are attributed to World of AI via Geeky Gadgets and are unconfirmed by OpenAI.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-08T08:29:04.503Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T08:29:04.503Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Rumored ChatGPT Next AI Model Could Beat GPT-6.1 Sol on Generation Times",
-          "url": "https://www.geeky-gadgets.com/openai-gpt-next-leak-news/",
-          "publishedAt": "2026-10-08T07:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "39d66218-ddf5-4fc1-9c96-a9ef47f03e4e",
-      "title": "Google freezes its open source bug bounty program after a surge in AI-generated submissions",
-      "summary": "Google has frozen its open source bug bounty program, citing a \"significant rise\" in AI submissions, per TechCrunch, which frames it as another sign that AI slop is overwhelming bug bounty programs.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-04T21:40:08.830Z",
-      "lastMeaningfulUpdateAt": "2026-10-04T21:40:08.830Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
-          "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
-          "publishedAt": "2026-10-04T20:31:07.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 118,
   "hasMore": true
 }
