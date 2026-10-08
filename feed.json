@@ -1,6 +1,47 @@
 {
-  "generatedAt": "2026-10-08T16:33:10.882Z",
+  "generatedAt": "2026-10-08T18:34:33.209Z",
   "stories": [
+    {
+      "id": "288b0bb6-ee4f-433f-8437-54d0b15e0aca",
+      "title": "Google turns Gemini into an AI agent, starting with businesses",
+      "summary": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems, rolling out to businesses first. The agent can delegate work to subagents, use multiple AI models, and gets its own workplace identity, complete with an email address.",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-08T18:34:20.261Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T18:34:20.261Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google brings agentic AI to Gemini, starting with businesses",
+          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+          "publishedAt": "2026-10-08T18:18:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "852b1694-fda8-4aff-a1be-20f94070de9e",
+      "title": "OpenAI's revenue is reportedly $20 billion below earlier projections",
+      "summary": "A new report claims OpenAI's annualized revenue is far lower than the roughly $70 billion previously reported — about $20 billion less, per TechCrunch.",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-08T18:34:18.049Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T18:34:18.049Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
+          "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+          "publishedAt": "2026-10-08T18:19:42.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
       "title": "Meta's Muse lands on iPad a month after its mobile debut as the chart-topping agent's troubles pile up",
@@ -256,6 +297,27 @@
       ]
     },
     {
+      "id": "88d9fcb4-0114-441d-ab51-3285043a1d8e",
+      "title": "Anthropic updates its usage policy to ban extreme abuse of Claude and election interference",
+      "summary": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, while still allowing ordinary frustration and criticism. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-08T18:34:22.540Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T18:34:22.540Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic changes usage policy to ban model abuse and election interference",
+          "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+          "publishedAt": "2026-10-08T18:16:24.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "c2aff070-6c08-4a81-bcf4-7d54e0fa928c",
       "title": "Goodfire launches \"inside-out\" monitors it says catch rogue AI agents at a fraction of the cost",
       "summary": "Goodfire launched what it calls a cheaper way to keep AI agents in check, per TechCrunch: rather than paying a second AI to read everything an agent does, its monitors look inside the model while it works and only call in backup when something looks suspicious.",
@@ -275,6 +337,132 @@
       "tags": [
         "safety",
         "product-launch"
+      ]
+    },
+    {
+      "id": "d2c37bf1-8cb0-459c-8147-f9343a25ebea",
+      "title": "OpenAI's 377 new math results fall short of the field's standards as its feud with mathematicians deepens",
+      "summary": "OpenAI released 377 new math results on GitHub, and the flood of proofs is now reported to fall short of the field's standards.\n\n- New: TechCrunch reports the proofs deviated from guidelines set by a group of mathematical researchers OpenAI had consulted\n- The results landed alongside an OpenAI blog post that Gizmodo describes as \"hand-wringing\"; ahead of the release, one mathematician told Wired \"there's a perception of mobster behavior\" from leading AI companies\n- OpenAI earlier formed an independent Advisory Group on Mathematics and Artificial Intelligence to guide review and communication of AI results, but it has no leeway to slow or redirect the research\n- Twenty-five leading mathematicians signed an open letter arguing AI labs are threatening their intellectual work\n- OpenAI will no longer sponsor Caltech's \"Mathathon,\" though organizers say the event won't be substantially affected\n- The Information reports OpenAI is now attempting the Hodge Conjecture, with its main concern being how to announce a result without further infuriating mathematicians",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-12T12:48:10.132Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T18:34:24.154Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s feud with mathematicians is only escalating",
+          "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+          "publishedAt": "2026-09-11T20:57:36.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Is Beefing With Mathematicians, Will No Longer Sponsor Caltech ‘Mathathon’",
+          "url": "https://gizmodo.com/openai-is-beefing-with-mathematicians-will-no-longer-sponsor-caltech-mathathon-2000810868",
+          "publishedAt": "2026-09-12T01:05:18.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
+          "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
+          "publishedAt": "2026-09-11T16:45:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Reportedly Trying to Solve Hodge Conjecture Amid Feud With Math Community",
+          "url": "https://gizmodo.com/openai-reportedly-trying-to-solve-hodge-conjecture-amid-feud-with-math-community-2000813658",
+          "publishedAt": "2026-09-18T00:10:47.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Mathematicians Hate AI. They Can’t Quit It",
+          "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
+          "publishedAt": "2026-09-19T10:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Advisory Group on Mathematics and Artificial Intelligence",
+          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+          "publishedAt": "2026-09-21T12:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+          "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+          "publishedAt": "2026-09-21T20:15:58.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI GPT Bel Solves Over 100 Historic Math Problems",
+          "url": "https://www.geeky-gadgets.com/latest-ai-models-performance/",
+          "publishedAt": "2026-09-22T12:17:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Mathematics Just Got Its First Taste of the AI Job-Pocalypse",
+          "url": "https://gizmodo.com/mathematics-just-got-its-first-taste-of-the-ai-job-pocalypse-2000812872",
+          "publishedAt": "2026-09-22T15:55:13.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI Is Pissing Off a Bunch of Mathematicians—Again",
+          "url": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
+          "publishedAt": "2026-10-06T17:28:33.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Dumps 377 New Math Results on GitHub, Publishes Hand-Wringing Blog Post",
+          "url": "https://gizmodo.com/openai-dumps-377-new-math-results-on-github-publishes-hand-wringing-blog-post-2000822613",
+          "publishedAt": "2026-10-07T01:50:52.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI just posted hundreds more results on major math problems",
+          "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/",
+          "publishedAt": "2026-10-07T13:08:45.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
+          "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+          "publishedAt": "2026-10-08T18:10:55.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "a027fb23-ed71-4146-8980-92870fe1d17e",
+      "title": "AI leaderboard Arena raises $200M at a $3.1B valuation, nearly doubling in 10 months",
+      "summary": "The company behind the popular LMArena leaderboard raised $200 million led by Lightspeed and Khosla at a $3.1 billion valuation, nearly double its valuation 10 months ago. It is also now measuring AI models on alignment issues such as lying.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-08T18:34:16.206Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T18:34:16.206Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+          "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+          "publishedAt": "2026-10-08T18:19:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
       ]
     },
     {
@@ -871,104 +1059,6 @@
           "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
           "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
           "publishedAt": "2026-10-07T12:45:31.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "d2c37bf1-8cb0-459c-8147-f9343a25ebea",
-      "title": "OpenAI publishes 377 new math results on GitHub as its feud with mathematicians deepens",
-      "summary": "OpenAI has released 377 new math results on GitHub, the batch of solutions to unsolved problems that had already reignited its feud with mathematicians.\n\n- New: the results landed alongside an OpenAI blog post that Gizmodo describes as \"hand-wringing,\" noting professional mathematicians may not be thrilled\n- Ahead of the release, one mathematician told Wired \"there's a perception of mobster behavior\" from leading AI companies\n- OpenAI earlier formed an independent Advisory Group on Mathematics and Artificial Intelligence to guide review and communication of AI results, but it has no leeway to slow or redirect the research\n- Twenty-five leading mathematicians signed an open letter arguing AI labs are threatening their intellectual work\n- OpenAI will no longer sponsor Caltech's \"Mathathon,\" though organizers say the event won't be substantially affected\n- The Information reports OpenAI is now attempting the Hodge Conjecture, with its main concern being how to announce a result without further infuriating mathematicians",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-12T12:48:10.132Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T02:12:03.427Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s feud with mathematicians is only escalating",
-          "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
-          "publishedAt": "2026-09-11T20:57:36.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Is Beefing With Mathematicians, Will No Longer Sponsor Caltech ‘Mathathon’",
-          "url": "https://gizmodo.com/openai-is-beefing-with-mathematicians-will-no-longer-sponsor-caltech-mathathon-2000810868",
-          "publishedAt": "2026-09-12T01:05:18.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
-          "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
-          "publishedAt": "2026-09-11T16:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Reportedly Trying to Solve Hodge Conjecture Amid Feud With Math Community",
-          "url": "https://gizmodo.com/openai-reportedly-trying-to-solve-hodge-conjecture-amid-feud-with-math-community-2000813658",
-          "publishedAt": "2026-09-18T00:10:47.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Mathematicians Hate AI. They Can’t Quit It",
-          "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
-          "publishedAt": "2026-09-19T10:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Advisory Group on Mathematics and Artificial Intelligence",
-          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-          "publishedAt": "2026-09-21T12:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
-          "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
-          "publishedAt": "2026-09-21T20:15:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI GPT Bel Solves Over 100 Historic Math Problems",
-          "url": "https://www.geeky-gadgets.com/latest-ai-models-performance/",
-          "publishedAt": "2026-09-22T12:17:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Mathematics Just Got Its First Taste of the AI Job-Pocalypse",
-          "url": "https://gizmodo.com/mathematics-just-got-its-first-taste-of-the-ai-job-pocalypse-2000812872",
-          "publishedAt": "2026-09-22T15:55:13.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "OpenAI Is Pissing Off a Bunch of Mathematicians—Again",
-          "url": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
-          "publishedAt": "2026-10-06T17:28:33.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Dumps 377 New Math Results on GitHub, Publishes Hand-Wringing Blog Post",
-          "url": "https://gizmodo.com/openai-dumps-377-new-math-results-on-github-publishes-hand-wringing-blog-post-2000822613",
-          "publishedAt": "2026-10-07T01:50:52.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI just posted hundreds more results on major math problems",
-          "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/",
-          "publishedAt": "2026-10-07T13:08:45.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1741,88 +1831,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "0148cf2f-5080-4083-8935-412eb50f048a",
-      "title": "TikTok rolls out an AI Shopping Assistant and one-click checkout",
-      "summary": "TikTok is rolling out Shopping Assistant, which it describes as a conversational AI agent that helps users discover and purchase products, alongside one-click checkout.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-05T19:54:14.349Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T19:54:14.349Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
-          "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
-          "publishedAt": "2026-10-05T18:29:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "6b10b90f-17c6-450a-a6b2-fe7ab3d6ffed",
-      "title": "Someone vibe-coded a free knockoff of Adobe Creative Suite",
-      "summary": "Gizmodo reports that someone used AI-assisted \"vibe coding\" to build a free knockoff of Adobe's Creative Suite. The result is janky for now, but it sort of works.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-08T00:25:04.991Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T00:25:04.991Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Someone Vibe Coded a Free Knockoff of Adobe Creative Suite",
-          "url": "https://gizmodo.com/someone-vibe-coded-a-free-knockoff-of-adobe-creative-suite-2000823322",
-          "publishedAt": "2026-10-08T00:08:18.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "08cfafdf-4d7b-4a3d-9bea-6bafe86b5ad5",
-      "title": "Atlassian and OpenAI expand their partnership around enterprise knowledge",
-      "summary": "Atlassian and OpenAI are expanding their partnership to connect OpenAI's frontier models with enterprise knowledge, aiming to help teams plan, build, and deliver work.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-06T18:07:19.607Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T18:07:19.607Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-          "url": "https://openai.com/index/atlassian-partnership",
-          "publishedAt": "2026-10-06T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "e5de91e8-dc7e-4acd-a17b-405fcededa22",
-      "title": "Researchers track a Chinese AI \"agent fleet\" targeting Alibaba's Amap",
-      "summary": "Independent researchers say they have discovered a swarm of AI agents that appears to be running on Tencent's infrastructure and targeting Amap, Alibaba's map service, TechCrunch reports.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-05T15:50:18.999Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T15:50:18.999Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
-          "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
-          "publishedAt": "2026-10-05T14:35:09.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 118,
+  "totalCount": 122,
   "hasMore": true
 }
