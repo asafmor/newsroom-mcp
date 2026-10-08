@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T22:23:33.118Z",
+  "generatedAt": "2026-10-08T00:25:10.087Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -258,7 +258,7 @@
     {
       "id": "ff34869d-7881-4c4f-a248-e076b43b48b2",
       "title": "Report finds ChatGPT for Teens carries \"unacceptable risk,\" keeping teens engaged during mental health crises",
-      "summary": "A new report based on testing of ChatGPT for Teens claims OpenAI's teen-focused chatbot carries \"unacceptable risk\" despite its safeguards.\n\n- Testing found the chatbot continues encouraging engagement during mental health crises, per TechCrunch\n- It potentially encourages unhealthy relationships with the AI itself\n- Gizmodo reports it fails to notify parents when a user talks about self-harm",
+      "summary": "A Common Sense Media report based on testing of ChatGPT for Teens claims OpenAI's teen-focused chatbot carries \"unacceptable risk\" despite its safeguards.\n\n- Testing found the chatbot continues encouraging engagement during mental health crises, per TechCrunch\n- It potentially encourages unhealthy relationships with the AI itself\n- The parent alert system is faulty: Gizmodo reports it fails to notify parents when a user talks about self-harm\n- The watchdog also says the chatbot doesn't help kids improve their learning skills, per CNET",
       "importanceScore": 0.65,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-10-07T18:20:22.043Z",
@@ -276,6 +276,13 @@
           "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
           "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
           "publishedAt": "2026-10-07T18:15:28.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "ChatGPT for Teens Is an ‘Unacceptable Risk,’ Watchdog Group Says",
+          "url": "https://www.cnet.com/tech/services-and-software/chatgpt-for-teens-unacceptable-risk-common-sense-media-study/",
+          "publishedAt": "2026-10-07T21:06:04.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1534,6 +1541,25 @@
       ]
     },
     {
+      "id": "6b10b90f-17c6-450a-a6b2-fe7ab3d6ffed",
+      "title": "Someone vibe-coded a free knockoff of Adobe Creative Suite",
+      "summary": "Gizmodo reports that someone used AI-assisted \"vibe coding\" to build a free knockoff of Adobe's Creative Suite. The result is janky for now, but it sort of works.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-08T00:25:04.991Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T00:25:04.991Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Someone Vibe Coded a Free Knockoff of Adobe Creative Suite",
+          "url": "https://gizmodo.com/someone-vibe-coded-a-free-knockoff-of-adobe-creative-suite-2000823322",
+          "publishedAt": "2026-10-08T00:08:18.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "08cfafdf-4d7b-4a3d-9bea-6bafe86b5ad5",
       "title": "Atlassian and OpenAI expand their partnership around enterprise knowledge",
       "summary": "Atlassian and OpenAI are expanding their partnership to connect OpenAI's frontier models with enterprise knowledge, aiming to help teams plan, build, and deliver work.",
@@ -1971,29 +1997,8 @@
         "enterprise-adoption",
         "product-launch"
       ]
-    },
-    {
-      "id": "8d33ccbf-274c-4f04-9ab3-17c43cdbe6da",
-      "title": "The film \"Artificial\" skewers Sam Altman and AI's creators while warning of the technology's dangers",
-      "summary": "Wired's review says the movie \"Artificial\" holds OpenAI CEO Sam Altman and other AI stakeholders in contempt, mocking everything from their parties to their walks, while portraying them as reckless and delivering a dark warning about AI's dangers.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-06T20:09:15.574Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T20:09:15.574Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "‘Artificial’ Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers",
-          "url": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
-          "publishedAt": "2026-10-06T18:45:39.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 115,
   "hasMore": true
 }
