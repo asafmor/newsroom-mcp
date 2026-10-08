@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T00:25:10.087Z",
+  "generatedAt": "2026-10-08T02:26:06.305Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -359,6 +359,27 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "5c220076-5cbc-4744-a765-b91cbee9308d",
+      "title": "Three fired OpenAI employees urge that chain-of-thought monitoring be preserved",
+      "summary": "Three employees fired by OpenAI have published a plea for chain-of-thought monitoring — the ability to inspect a model's reasoning as a safety check — to be preserved. Gizmodo reports OpenAI says it agrees with their recommendations despite having dismissed them.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-08T02:26:02.915Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T02:26:02.915Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "3 Fired OpenAI Employees Write Plea for Chain of Thought Monitoring to Be Preserved",
+          "url": "https://gizmodo.com/3-fired-openai-employees-write-plea-for-chain-of-thought-monitoring-to-be-preserved-2000823349",
+          "publishedAt": "2026-10-08T02:19:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -1947,58 +1968,8 @@
       "tags": [
         "model-release"
       ]
-    },
-    {
-      "id": "f366f084-489c-4f4a-bcce-a00ef80ea74f",
-      "title": "Meta pushes Muse beyond consumers: an enterprise platform, a small-business Muse, and free code for third-party gadgets",
-      "summary": "Meta is pushing its Muse agent stack beyond its own apps into business, developer, and third-party hardware offerings.\n\n- New: Meta is giving Muse code away for free so device makers can build the agent into their own gadgets, from TVs to toasters, per TechCrunch\n- A small-business version of Muse can connect to Instagram and Facebook ad accounts and analytics\n- Meta is launching an enterprise AI platform and has hired MongoDB's CEO to lead the initiative\n- The platform brings Meta's full stack to businesses and developers, including Muse, Meta Business Agent, the Muse API, and Muse Code",
-      "importanceScore": 0.74,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-28T17:39:55.046Z",
-      "lastMeaningfulUpdateAt": "2026-10-03T01:17:57.884Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-          "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
-          "publishedAt": "2026-09-28T16:52:38.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Meta Goes All-In On AI for Businesses Before Muse Goes Horribly Wrong",
-          "url": "https://gizmodo.com/meta-goes-all-in-on-ai-for-businesses-before-muse-goes-horribly-wrong-2000818432",
-          "publishedAt": "2026-09-28T20:45:55.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Meta now has a version of Muse just for small businesses",
-          "url": "https://www.engadget.com/2271498/meta-now-has-a-version-of-muse-just-for-small-businesses/",
-          "publishedAt": "2026-09-29T09:30:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta is expanding its AI agent Muse to small businesses",
-          "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
-          "publishedAt": "2026-09-29T13:47:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta wants your next gadget to be Muse-infused",
-          "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-          "publishedAt": "2026-10-03T00:45:39.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption",
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 116,
   "hasMore": true
 }
