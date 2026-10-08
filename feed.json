@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T20:36:31.903Z",
+  "generatedAt": "2026-10-08T22:38:16.627Z",
   "stories": [
     {
       "id": "7b34d9d8-ab51-4eab-bedb-39710f55bd11",
@@ -360,6 +360,20 @@
           "url": "https://www.anthropic.com/news/2026-usage-policy-update",
           "publishedAt": "2026-10-08T00:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Moves Us One Step Closer to Making ‘Clanker’ a Slur",
+          "url": "https://gizmodo.com/anthropic-moves-us-one-step-closer-to-making-clanker-a-slur-2000823772",
+          "publishedAt": "2026-10-08T20:40:39.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic bans 'sustained and needless abusive or cruel behavior' toward its AI models",
+          "url": "https://www.engadget.com/2281765/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/",
+          "publishedAt": "2026-10-08T21:17:24.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -591,6 +605,13 @@
           "title": "ChatGPT for Teens Is an ‘Unacceptable Risk,’ Watchdog Group Says",
           "url": "https://www.cnet.com/tech/services-and-software/chatgpt-for-teens-unacceptable-risk-common-sense-media-study/",
           "publishedAt": "2026-10-07T21:06:04.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Child safety group calls ChatGPT for Teens an unacceptable risk",
+          "url": "https://www.engadget.com/2281719/child-safety-group-calls-chatgpt-for-teens-an-unacceptable-risk/",
+          "publishedAt": "2026-10-08T20:36:46.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1087,6 +1108,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "72557f6f-39ca-4591-bb0a-7a3d051b3b40",
+      "title": "Google introduces an AI notetaker that keeps processing local and private",
+      "summary": "Google has a new AI note-taking and transcription tool that keeps things local and private rather than relying on the cloud, CNET reports, calling it a potential game changer for AI note-taking.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-08T22:38:08.633Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T22:38:08.633Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Google’s New AI Notetaker Keeps Things Local and Private",
+          "url": "https://www.cnet.com/tech/services-and-software/google-ai-note-taker-edge-foresight/",
+          "publishedAt": "2026-10-08T18:24:05.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "8e627de2-b632-43a9-bfde-02dd5cb46017",
@@ -1837,29 +1879,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "2a2d80b5-a65f-446b-b8cc-a8d88b437627",
-      "title": "Anthropic expands its Cyber Verification Program",
-      "summary": "Anthropic announced that it is expanding its Cyber Verification Program.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-06T22:10:15.911Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T22:10:15.911Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Expanding the Cyber Verification Program",
-          "url": "https://www.anthropic.com/news/cyber-verification-program",
-          "publishedAt": "2026-10-06T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 125,
+  "totalCount": 126,
   "hasMore": true
 }
