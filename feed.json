@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:48:08.453Z",
+  "generatedAt": "2026-10-09T16:49:10.427Z",
   "stories": [
     {
       "id": "7b34d9d8-ab51-4eab-bedb-39710f55bd11",
@@ -370,6 +370,28 @@
       "tags": [
         "product-launch",
         "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "5330dd5f-6eda-4b8d-933a-4923bbf5a05c",
+      "title": "AI executives are reportedly planning how to shape the rules after a major AI disaster",
+      "summary": "Executives at major AI companies are reportedly planning for what happens the day after a major AI disaster, positioning themselves to shape the rules that would follow, per Gizmodo.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-09T16:49:00.745Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T16:49:00.745Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Companies Are Preparing to Shape the Rules After Everything Goes Wrong",
+          "url": "https://gizmodo.com/ai-companies-are-preparing-to-shape-the-rules-after-everything-goes-wrong-2000824187",
+          "publishedAt": "2026-10-09T16:10:51.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
         "safety"
       ]
     },
@@ -1340,6 +1362,48 @@
       ]
     },
     {
+      "id": "9b0d38aa-7642-4dcf-b282-34ad083830dd",
+      "title": "a16z's Olivia Moore sees a huge consumer AI opportunity beyond subscriptions",
+      "summary": "In a TechCrunch interview, Andreessen Horowitz's Olivia Moore says consumer AI is a huge opportunity, particularly if the industry can tap revenue streams beyond subscriptions and API charges.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-09T16:49:05.380Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T16:49:05.380Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "a16z’s Olivia Moore on the state of consumer AI",
+          "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+          "publishedAt": "2026-10-09T15:43:33.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "e7cbd144-1ef9-48d7-abf2-f2d969abc25d",
+      "title": "TechCrunch asks whether we should treat AI like it's human",
+      "summary": "A TechCrunch piece examines people's tendency to treat AI as human and whether they should, citing Sherry Turkle's observation that even primitive exchanges with a \"relational artifact\" make us believe it cares for us, and that we are wired to care for it in return.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-09T16:49:03.060Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T16:49:03.060Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "We can’t help treating AI like it’s human. But should we?",
+          "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+          "publishedAt": "2026-10-09T16:40:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "f42f8fe1-f4b3-4809-b752-4f32e0d10b54",
       "title": "Engineers put GPT, Claude, and Grok in charge of a real car, and only one succeeded",
       "summary": "Wired reports that three engineers put GPT, Claude, and Grok in control of a real Toyota Corolla and tasked them with driving to an In-N-Out. Only one of the three models succeeded.",
@@ -1666,204 +1730,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "7d3a4ad4-7a81-4f83-b45d-56d33cd6fdc8",
-      "title": "M5 Ultra Mac Studio benchmarked at 108 tokens per second for local AI",
-      "summary": "Geeky Gadgets summarizes a The Stack review of the M5 Ultra Mac Studio for local AI: time to first response on large text inputs drops from 13.9 seconds on the M3 Ultra to 5.6 seconds, and text generation reaches 108 tokens per second, pitched at professionals running memory-intensive models on-device.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-09T12:46:27.344Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T12:46:27.344Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "M5 Ultra Mac Studio Hits 108 Local AI Tokens per Second",
-          "url": "https://www.geeky-gadgets.com/mac-studio-m5-ultra-review/",
-          "publishedAt": "2026-10-09T12:43:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "285d3952-cdb8-4f3d-b00c-1b6ea9211b2a",
-      "title": "Trump names intelligence director Jay Clayton as AI czar to lead his \"Super Intelligence Force\"",
-      "summary": "President Trump has unveiled a \"Super Intelligence Force\" task force and named national intelligence director Jay Clayton as the AI czar to run it, as his rebrand of AI as \"Super Intelligence\" wins over industry figures including Elon Musk.\n\n- Clayton, the director of national intelligence, will lead the task force, per Gizmodo; Trump had earlier promised to fill the post when announcing an \"AI Force\"\n- New: Elon Musk has followed through and rebranded SpaceXAI in line with the push, per Mashable, after earlier saying he would rename one of his companies\n- The rebrand is backed by an executive order, \"Inaugurating the Era of Super Intelligence,\" signed September 29, directing federal agencies to say \"Super Intelligence\" instead of AI\n- Trump announced the change at the UN General Assembly, arguing \"artificial\" makes the technology sound fake, and claimed without evidence that the AI backlash is a Democratic hoax\n- Bernie Sanders pushed back, calling AI \"an existential threat to humanity\" that must be treated as such rather than rebranded\n- Commentators at Mashable and Gizmodo note the new label changes nothing about the technology's underlying problems",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-09-19T20:53:03.237Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T13:48:23.087Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Now Trump says he's creating an AI Force",
-          "url": "https://www.engadget.com/2263237/now-trump-says-hes-creating-an-ai-force/",
-          "publishedAt": "2026-09-19T19:22:20.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
-          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
-          "publishedAt": "2026-09-19T19:57:47.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "You’ll Never Guess What Trump Wants to Rename Now",
-          "url": "https://gizmodo.com/youll-never-guess-what-trump-wants-to-rename-now-2000814488",
-          "publishedAt": "2026-09-19T19:58:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "First Came Space Force. Now Prepare For AI Force",
-          "url": "https://gizmodo.com/first-came-space-force-now-prepare-for-ai-force-2000814525",
-          "publishedAt": "2026-09-20T21:12:14.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump’s Attempt to Rename AI Misunderstands the MAGA Faithful",
-          "url": "https://gizmodo.com/trumps-attempt-to-rename-ai-misunderstands-the-maga-faithful-2000815001",
-          "publishedAt": "2026-09-21T20:59:10.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Bernie Sanders Shows There’s a Big Problem With Trump Renaming AI to ‘Super Intelligence’",
-          "url": "https://gizmodo.com/bernie-sanders-shows-theres-a-big-problem-with-trump-renaming-ai-to-super-intelligence-2000816222",
-          "publishedAt": "2026-09-23T21:10:05.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "This Was Trump’s Big Week to Take Action on AI and All He Did Was Rename It",
-          "url": "https://gizmodo.com/this-was-trumps-big-week-to-take-action-on-ai-and-all-he-did-was-rename-it-2000817626",
-          "publishedAt": "2026-09-26T00:19:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Trump Tries To Rebrand AI. Is It Really That 'Super'?",
-          "url": "https://in.mashable.com/tech/114311/trump-tries-to-rebrand-ai-is-it-really-that-super",
-          "publishedAt": "2026-09-25T18:41:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Clearly Expects AI Leaders to Go Along With His ‘Super Intelligence’ Rebrand. Will They?",
-          "url": "https://gizmodo.com/trump-clearly-expects-ai-leaders-to-go-along-with-his-super-intelligence-rebrand-will-they-2000819186",
-          "publishedAt": "2026-09-30T02:30:38.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Is Trump’s Push to Rename AI to ‘Super Intelligence’ Part of Some Bigger Conspiracy?",
-          "url": "https://gizmodo.com/is-trumps-push-to-rename-ai-to-super-intelligence-part-of-some-bigger-conspiracy-2000819480",
-          "publishedAt": "2026-09-30T19:10:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Trump’s Crazy AI Rebrand Was a Loyalty Test for Tech Execs—and It Worked",
-          "url": "https://www.wired.com/story/trumps-crazy-ai-rebrand-was-a-loyalty-test-for-tech-execs-and-it-worked/",
-          "publishedAt": "2026-10-02T15:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Trump unveils his new Super Intelligence Force",
-          "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
-          "publishedAt": "2026-10-04T15:15:10.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Trump announces an AI czar for his newly created 'Super Intelligence Force'",
-          "url": "https://www.engadget.com/2276762/trump-announces-an-ai-czar-for-his-newly-created-super-intelligence-force/",
-          "publishedAt": "2026-10-04T16:29:26.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Elon Musk Fully Surrenders to Trump on ‘Super Intelligence’",
-          "url": "https://gizmodo.com/elon-musk-fully-surrenders-to-trump-on-super-intelligence-2000821314",
-          "publishedAt": "2026-10-04T17:58:01.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Posts Not-So-Subtle Boast About ‘Super Intelligence’ Victory Over Elon Musk",
-          "url": "https://gizmodo.com/trump-posts-not-so-subtle-boast-about-super-intelligence-victory-over-elon-musk-2000821347",
-          "publishedAt": "2026-10-04T20:46:52.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Names National Intelligence Director as New ‘Super Intelligence’ Czar",
-          "url": "https://gizmodo.com/trump-names-national-intelligence-director-as-new-super-intelligence-czar-2000821343",
-          "publishedAt": "2026-10-04T22:27:39.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Elon Musk Rebrands SpaceXAI After Donald Trump’s Superintelligence Push; The New Name Is…",
-          "url": "https://in.mashable.com/tech/114604/elon-musk-rebrands-spacexai-after-donald-trumps-superintelligence-push-the-new-name-is",
-          "publishedAt": "2026-10-05T12:02:12.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Trump’s ‘Super Intelligence’ AI Rebrand Has Everyone Shopping for Slovenia’s .SI Domain",
-          "url": "https://www.cnet.com/tech/services-and-software/trump-super-intelligence-ai-rebrand-musk-spacexsi-slovenia-domain/",
-          "publishedAt": "2026-10-05T20:36:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Elon Musk Is a Trillionaire Again. He’s Also Reaching New Heights of Self-Debasement",
-          "url": "https://gizmodo.com/elon-musk-is-a-trillionaire-again-hes-also-reaching-new-heights-of-self-debasement-2000821969",
-          "publishedAt": "2026-10-06T01:57:10.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "AI Is Not ‘Super Intelligence.’ Why No One Should Use Trump’s Term",
-          "url": "https://www.cnet.com/tech/services-and-software/ai-not-super-intelligence-no-one-should-use-trumps-term/",
-          "publishedAt": "2026-10-09T11:00:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
-    },
-    {
-      "id": "29d4c9ac-6716-489c-a158-c493e3e94f3b",
-      "title": "Natura launches a $99 smart ring for summoning AI agents",
-      "summary": "Natura's $99 Interface smart ring lets wearers summon AI agents with a finger press to complete tasks, capture thoughts, and control devices, while doubling as a health tracker, per TechCrunch.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-08T16:33:04.768Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T16:33:04.768Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Natura’s $99 smart ring puts AI agents on your finger",
-          "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
-          "publishedAt": "2026-10-08T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 111,
+  "totalCount": 112,
   "hasMore": true
 }
