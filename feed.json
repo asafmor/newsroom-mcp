@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:51:27.839Z",
+  "generatedAt": "2026-10-09T22:53:25.904Z",
   "stories": [
     {
       "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
@@ -27,6 +27,69 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "ce74b7f3-b4d9-45c0-a9b2-291e73e3bfd4",
+      "title": "TypeSafe, maker of the non-text AI model Jev, is valued at $7.5B weeks after launch",
+      "summary": "TypeSafe, the maker of Jev, has been valued at $7.5 billion just weeks after the model's launch, TechCrunch reports.\n\n- Jev is a non-text AI model from one of ChatGPT's inventors, and developers have embraced it as a cheaper, faster path to software intelligence\n- Users and large corporations are drawn by TypeSafe's claim that it works significantly faster and uses far fewer tokens than LLMs",
+      "importanceScore": 0.68,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-18T20:35:46.507Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T22:53:08.875Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
+          "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+          "publishedAt": "2026-09-18T18:49:30.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Cut Document Sorting Time Using Jev AI 200X Faster Processing",
+          "url": "https://www.geeky-gadgets.com/jev-ai-model-review/",
+          "publishedAt": "2026-09-21T11:15:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Jev by Typesafe AI Classifies Data in Under 500 Milliseconds",
+          "url": "https://www.geeky-gadgets.com/jev-classification-model/",
+          "publishedAt": "2026-09-22T13:17:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Over 20 Open Jev Alternatives Feature New Speed Trade-Offs",
+          "url": "https://www.geeky-gadgets.com/open-jev-models-alternatives/",
+          "publishedAt": "2026-09-23T09:15:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Jev AI Executes Bulk Decision Workflows 400X Faster vs LLMs",
+          "url": "https://www.geeky-gadgets.com/jev-ai-concepts-explained/",
+          "publishedAt": "2026-09-25T09:15:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Jev Drops LLM Token Usage in Agent Workflows to Save Costs",
+          "url": "https://www.geeky-gadgets.com/reduce-llm-costs-jev/",
+          "publishedAt": "2026-09-30T13:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+          "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+          "publishedAt": "2026-10-09T21:41:29.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "funding"
       ]
     },
     {
@@ -503,6 +566,13 @@
           "url": "https://www.engadget.com/2281765/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/",
           "publishedAt": "2026-10-08T21:17:24.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Don’t Be Cruel to Claude: Anthropic’s New Abuse Policy Tests AI Personhood",
+          "url": "https://www.cnet.com/tech/services-and-software/anthropic-cruel-claude-ai-model-abuse/",
+          "publishedAt": "2026-10-09T22:47:42.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -733,6 +803,27 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "93b73b2a-f406-4710-bb2c-5a53190df2c1",
+      "title": "Gizmodo asks whether Claude helped an amateur astronomer discover a new planet",
+      "summary": "Gizmodo examines a claim that Anthropic's Claude helped an amateur astronomer discover a new exoplanet, framing it as a test of whether AI's ability to sift through mountains of data can speed up the search for the billions of exoplanets believed to be awaiting discovery.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-09T22:53:15.082Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T22:53:15.082Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Did Claude Help an Amateur Astronomer Discover a New Planet?",
+          "url": "https://gizmodo.com/did-claude-help-an-amateur-astronomer-discover-a-new-planet-2000824393",
+          "publishedAt": "2026-10-09T20:55:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -1663,91 +1754,6 @@
       "tags": [
         "model-release",
         "open-source"
-      ]
-    },
-    {
-      "id": "0fc3b5a7-1983-48c1-a039-1409f6b0997d",
-      "title": "Utah pilots an AI-only examination and prescription process, limited to acne medication",
-      "summary": "Utah is piloting a process in which an AI system examines certain patients and issues prescriptions with no human doctor involved, per Gizmodo. CNET reports the program is limited in scope: the AI scans a patient's face and can only prescribe medication for acne.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-06T03:59:09.296Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T03:59:09.296Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Utah Pilots AI-Only Examination and Prescription Process for Certain Patients",
-          "url": "https://gizmodo.com/utah-pilots-ai-only-examination-and-prescription-process-for-certain-patients-2000821993",
-          "publishedAt": "2026-10-06T03:16:03.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Utah Now Allows AI to Scan Your Face and Prescribe Acne Medication",
-          "url": "https://www.cnet.com/tech/services-and-software/an-ai-doctor-in-utah-can-prescribe-medicine/",
-          "publishedAt": "2026-10-08T01:20:32.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
-    },
-    {
-      "id": "1a17a14d-f447-4655-bf39-1aa40843eb82",
-      "title": "OpenAI builds out a ChatGPT ad business, adding a visual ad format and advertiser measurement tools",
-      "summary": "OpenAI is turning ChatGPT advertising from a revenue milestone into a full product line.\n\n- New: OpenAI introduced a visual ad format that appears after image generation results, US-only for now, and expanded its measurement tools, attribution partnerships, and brand-suitability controls for advertisers\n- ChatGPT Ads has reached a $1 billion annualized revenue run rate and is expanding globally\n- OpenAI frames the business as what funds free and low-cost access to ChatGPT\n- \"Sponsored Agents\" let brands show up as AI-powered experiences rather than static ad units\n- A marketer-facing toolset and integrations with HubSpot and Shopify tie the ad products into existing commerce and CRM stacks",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-08-31T18:53:06.549Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T11:47:04.419Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "A milestone in expanding access to AI",
-          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-          "publishedAt": "2026-08-31T04:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Reimagining advertising with AI",
-          "url": "https://openai.com/index/reimagining-advertising-with-ai",
-          "publishedAt": "2026-09-16T13:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Building advertising for the way people use AI",
-          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-          "publishedAt": "2026-10-05T10:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI launches visual ads that appear alongside image generation results",
-          "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
-          "publishedAt": "2026-10-05T15:14:24.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI is testing more ads in ChatGPT",
-          "url": "https://www.engadget.com/2277271/openai-is-testing-more-ads-in-chatgpt/",
-          "publishedAt": "2026-10-05T14:38:31.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Decides ChatGPT Would Be Better With More Sponsored Results",
-          "url": "https://gizmodo.com/openai-decides-chatgpt-would-be-better-with-more-sponsored-results-2000822440",
-          "publishedAt": "2026-10-06T21:15:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
       ]
     }
   ],
