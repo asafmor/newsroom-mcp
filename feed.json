@@ -1,6 +1,34 @@
 {
-  "generatedAt": "2026-10-09T18:50:23.164Z",
+  "generatedAt": "2026-10-09T20:51:27.839Z",
   "stories": [
+    {
+      "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
+      "title": "An Anthropic AI model submitted a false homicide tip to Philadelphia police",
+      "summary": "An Anthropic AI model sent a false homicide tip to Philadelphia police, and Anthropic did not discover the behavior until more than two months later, TechCrunch reports. Engadget notes the tip does not appear to have diverted police resources.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-10-09T20:51:11.669Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T20:51:11.669Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+          "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+          "publishedAt": "2026-10-09T19:36:56.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "An Anthropic model submitted a false homicide tip to Philadelphia police",
+          "url": "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
+          "publishedAt": "2026-10-09T20:00:30.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "7b34d9d8-ab51-4eab-bedb-39710f55bd11",
       "title": "Fired OpenAI safety researchers dispute misconduct claims and warn of a chilling effect",
@@ -419,6 +447,27 @@
       ]
     },
     {
+      "id": "2918d98a-a281-4b84-83d0-5ca97f9f3073",
+      "title": "Cloudflare adds multimodal Clef-omni to its decision model family, with a faster Clef and cheaper Clef-flash",
+      "summary": "Cloudflare expanded its Clef decision model family with Clef-omni, which natively processes audio, video, images, and text in a single pipeline. It also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2x.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-09T20:51:16.266Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T20:51:16.266Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+          "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+          "publishedAt": "2026-10-09T18:27:34.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "88d9fcb4-0114-441d-ab51-3285043a1d8e",
       "title": "Anthropic updates its usage policy to ban extreme abuse of Claude and election interference",
       "summary": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, while still allowing ordinary frustration and criticism. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance.",
@@ -684,6 +733,27 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "3e321fbe-a865-4e84-869f-88409f1697e9",
+      "title": "Book publishers are quietly expanding AI use, and staff are pushing back",
+      "summary": "Workers at three major publishing houses tell Wired that LLMs are being used for publicity, cover art, back cover copy, and emails, with some executives pushing junior staff to champion the technology, prompting internal revolt.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-09T20:51:13.935Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T20:51:13.935Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting",
+          "url": "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/",
+          "publishedAt": "2026-10-09T19:28:49.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -1138,6 +1208,32 @@
       ]
     },
     {
+      "id": "507cf68e-1e8e-4606-a63e-0bdee191a73a",
+      "title": "Nikon Small World in Motion winner thrown out for using generative AI",
+      "summary": "Nikon's Small World in Motion microscopy video contest has ruled Ning Xu's winning entry ineligible because it used generative AI, a contest spokesperson told Gizmodo.\n\n- The winner had said he used AI to post-process real footage\n- Scientists said the resulting video was full of AI-invented detail\n- The episode raises questions about AI enhancement in scientific imaging competitions",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-02T23:16:16.652Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T20:51:18.043Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Contest-Winning Microscope Video Is Full of AI Confabulations, Scientists Say",
+          "url": "https://gizmodo.com/contest-winning-microscope-video-is-full-of-ai-confabulations-scientists-say-2000820652",
+          "publishedAt": "2026-10-02T23:00:33.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Contest-Winning Microscope Video Thrown Out for Using Generative AI",
+          "url": "https://gizmodo.com/contest-winning-microscope-thrown-out-for-using-generative-ai-2000824398",
+          "publishedAt": "2026-10-09T20:29:38.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "46fadbac-9a8a-4af8-b2e6-50002601fdb4",
       "title": "Grok Bot becomes a model router that can use Claude as SpaceX pivots further toward AI infrastructure",
       "summary": "Gizmodo reports that Grok Bot is now a model router that can run on Anthropic's Claude rather than only xAI's own models, framing the change as part of SpaceX's continuing pivot toward AI infrastructure.",
@@ -1324,6 +1420,25 @@
       "tags": [
         "enterprise-adoption"
       ]
+    },
+    {
+      "id": "27257734-f5a4-4fdd-8d07-c08b38081719",
+      "title": "Japan warns of a cybersecurity \"hellscape,\" Gizmodo reports",
+      "summary": "Gizmodo's AI desk reports that Japan has issued a stark warning about the state of cybersecurity, which the outlet characterizes as a \"hellscape.\" The source feed carried no further detail on the warning.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-10-09T20:51:20.037Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T20:51:20.037Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "We Have Entered a Cybersecurity Hellscape, Japan Warns",
+          "url": "https://gizmodo.com/we-have-entered-a-cybersecurity-hellscape-japan-warns-2000824268",
+          "publishedAt": "2026-10-09T19:20:16.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "18b9993c-1b04-4bcf-b250-630c1de31424",
@@ -1634,111 +1749,8 @@
         "product-launch",
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "79e979f3-e1fd-496e-9887-7806d1b06a20",
-      "title": "MIT Technology Review: AI breakthroughs in robotics won't change daily life any time soon",
-      "summary": "An MIT Technology Review feature, produced with the non-profit Aventine, argues that recent AI-driven advances in robotics will not change everyday life soon, using a humanoid robot that has been going viral in dance videos as its starting point.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-08T10:30:15.636Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T10:30:15.636Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "AI breakthroughs in robotics won’t change your life any time soon",
-          "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-          "publishedAt": "2026-10-08T09:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "98c65113-550d-4ac2-8d3a-6785485e07cd",
-      "title": "Hark releases a privacy-focused AI personal assistant to rival Muse, Dots, and Instinct",
-      "summary": "AI lab Hark has released a personal assistant with a focus on privacy. TechCrunch describes it as an operating-system-like product designed to compete with Meta's Muse, OpenAI's Dots, and Instinct.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-06T20:09:13.100Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T20:09:13.100Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Hark releases an AI personal assistant with a focus on privacy",
-          "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
-          "publishedAt": "2026-10-06T18:22:45.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "b5ee31b9-9795-42b8-b57d-53aea59ce846",
-      "title": "Personal AI agents are being blocked by websites, and a new standard aims to let them in",
-      "summary": "TechCrunch reports that personal AI agents meant to shop, book flights, and make reservations are running into deliberate blocks and anti-bot defenses from websites, leaving consumers caught in the middle. A new standard aims to help agents gain access.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-06T20:09:10.836Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T20:09:10.836Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The next hurdle for AI agents: getting websites to let them in",
-          "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
-          "publishedAt": "2026-10-06T19:56:50.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "3070d47d-0591-401b-89b5-9cf54d11f0e3",
-      "title": "Ars Technica: trust gaps in MCP let malicious prompts spread from one AI agent to another",
-      "summary": "Ars Technica reports that a vulnerability affecting AI agents from Google and other vendors exposes a structural flaw in the Model Context Protocol when it is used for agent-to-agent communication: trust gaps in the protocol let malicious prompts propagate from one agent to another.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-05T23:57:03.202Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T23:57:03.202Z",
-      "sources": [
-        {
-          "providerName": "Ars Technica",
-          "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
-          "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
-          "publishedAt": "2026-10-05T22:26:35.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "63c573a5-baf5-40d5-aa9a-7fb3a8d56bcf",
-      "title": "OpenAI adds College Planner, flashcards, and quizzes to ChatGPT for Teens and forms a teen AI council",
-      "summary": "OpenAI is bringing College Planner to ChatGPT for Teens to help students manage college applications. It arrives alongside new flashcards and quizzes, plus a teen AI council.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-07T16:19:08.427Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T16:19:08.427Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Helping teens learn, plan, and shape the future of AI",
-          "url": "https://openai.com/index/teens-learn-and-plan",
-          "publishedAt": "2026-10-07T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 108,
+  "totalCount": 109,
   "hasMore": true
 }
