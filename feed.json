@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T00:39:03.902Z",
+  "generatedAt": "2026-10-09T02:40:19.442Z",
   "stories": [
     {
       "id": "7b34d9d8-ab51-4eab-bedb-39710f55bd11",
@@ -526,6 +526,28 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "654fd72e-98e4-4178-afd9-c0b7a9b93f01",
+      "title": "Microsoft introduces Execution Containers to keep AI agents contained on Windows",
+      "summary": "Microsoft's Execution Containers give Windows developers control over how much access AI agents get, per CNET — ranging from a \"kill switch\" to a permissive \"YOLO mode.\" The feature is pitched as a cybersecurity measure for keeping agents contained.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-09T02:40:12.448Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T02:40:12.448Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "How Microsoft Is Trying to Keep Your AI Agents Contained",
+          "url": "https://www.cnet.com/tech/services-and-software/microsoft-execution-containers-ai-agent-cybersecurity-news/",
+          "publishedAt": "2026-10-08T20:53:29.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "safety"
       ]
     },
     {
@@ -1088,6 +1110,27 @@
       "tags": [
         "model-release",
         "open-source"
+      ]
+    },
+    {
+      "id": "9a4fc4ad-eeff-41fc-b63d-2e163595f371",
+      "title": "Weizmann Institute's Brain-IT model reconstructs images people see from MRI brain scans",
+      "summary": "CNET reports on Brain-IT, an AI model from the Weizmann Institute that decodes what a person is looking at from their brain activity. The \"mind-reading\" label comes with caveats: the subject has to be inside an MRI machine, and it only works with pictures.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-09T02:40:09.920Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T02:40:09.920Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "This ‘Mind-Reading’ AI Is a Wiz at Figuring Out What You See",
+          "url": "https://www.cnet.com/tech/services-and-software/brain-it-ai-model-image-decoding-mind-reading-weizmann-institute/",
+          "publishedAt": "2026-10-08T21:45:41.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -1808,79 +1851,8 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "9f214dc3-c28b-4b3d-b3be-dd6ed7c23e23",
-      "title": "OpenAI outlines its text-watermarking approach under EU provenance rules",
-      "summary": "OpenAI published its approach to watermarking AI-generated text under EU provenance rules, describing where watermarks apply and how detection works, and saying access to detection will start with researchers.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-05T15:50:21.426Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T15:50:21.426Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Our approach to EU text provenance rules",
-          "url": "https://openai.com/index/eu-text-provenance",
-          "publishedAt": "2026-10-05T15:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI will add a digital watermark to text and code generated in the EU",
-          "url": "https://www.engadget.com/2277866/openai-will-add-a-digital-watermark-to-text-and-code-generated-in-the-eu/",
-          "publishedAt": "2026-10-05T18:55:40.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
-          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-          "publishedAt": "2026-10-05T20:36:48.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Is Adding Text Watermarks in the EU Because Regulation Works",
-          "url": "https://gizmodo.com/openai-is-adding-text-watermarks-in-the-eu-because-regulation-works-2000821852",
-          "publishedAt": "2026-10-05T21:50:13.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "ChatGPT And Codex to Add Secret Watermarks: What OpenAI’s Move Means For Users",
-          "url": "https://in.mashable.com/tech/114632/chatgpt-and-codex-to-add-secret-watermarks-what-openais-move-means-for-users",
-          "publishedAt": "2026-10-06T08:29:27.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
-    },
-    {
-      "id": "28e43ba6-0ba6-4e0d-8188-23f460fdb715",
-      "title": "Cisco brings a new agentic framework, Dialog, to its Webex enterprise platform",
-      "summary": "Cisco is adding a new agentic framework to its Webex enterprise platform. Engadget reports that its Dialog feature promises to turn \"fragmented interactions into continuous customer relationships.\"",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-07T14:18:13.976Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T14:18:13.976Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Cisco is bringing a new agentic framework to its Webex enterprise platform",
-          "url": "https://www.engadget.com/2278872/cisco-is-bringing-a-new-agentic-framework-to-its-webex-enterprise-platform/",
-          "publishedAt": "2026-10-07T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 126,
+  "totalCount": 128,
   "hasMore": true
 }
