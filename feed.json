@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T08:43:39.649Z",
+  "generatedAt": "2026-10-09T10:45:24.753Z",
   "stories": [
     {
       "id": "7b34d9d8-ab51-4eab-bedb-39710f55bd11",
@@ -1224,6 +1224,49 @@
       ]
     },
     {
+      "id": "5b735ea9-6fe7-4d32-a249-e97e2862d264",
+      "title": "MIT Technology Review: we're putting too much faith in AI's ability to say no",
+      "summary": "An MIT Technology Review feature by Arthur Holland Michel argues that too much trust is being placed in AI systems' ability to refuse requests. It traces the idea of machines that can say no from science fiction's cautionary tales of robotic disobedience to today's debate over when AI should decline.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-09T10:45:17.497Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T10:45:17.497Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "We’re putting too much faith in AI’s ability to say no",
+          "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+          "publishedAt": "2026-10-09T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion",
+        "safety"
+      ]
+    },
+    {
+      "id": "81d3ead7-4ddb-412f-b9e0-0721182c42d2",
+      "title": "Sophos says OpenAI's Daybreak cut its threat investigation time by 96%",
+      "summary": "In an OpenAI customer case study, security firm Sophos says using OpenAI's Daybreak cut cyber-threat investigation time by 96% and automated 52% of its managed detection and response (MDR) cases while keeping human oversight in place. The figures are vendor-published and not independently verified.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-09T10:45:15.076Z",
+      "lastMeaningfulUpdateAt": "2026-10-09T10:45:15.076Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+          "url": "https://openai.com/index/sophos",
+          "publishedAt": "2026-10-09T07:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "18b9993c-1b04-4bcf-b250-630c1de31424",
       "title": "Lambda to raise up to $4B at a $14.5B valuation ahead of a planned 2027 IPO",
       "summary": "Nvidia-backed AI computing startup Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation, in a round led by Coatue and Blackstone, ahead of an IPO planned for 2027, TechCrunch reports.",
@@ -1804,65 +1847,8 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "bf69f1dc-4004-41b7-852e-4c1d8d428c03",
-      "title": "Instinct brings its AI agent to group chats, after adding phone calling and an email agent",
-      "summary": "Instinct keeps widening what its consumer AI agent can do, now letting groups of friends use it together.\n\n- New: group chats let friends use the agent together for tasks like planning trips, organizing carpools, and coordinating events, even if some of them have no Instinct account; the company says personal accounts stay separate and personal agents need permission before sharing information or taking action\n- The agent can make phone calls on a user's behalf, such as booking restaurant reservations and cancelling subscriptions, a capability Meta's rival agent Muse added at the same time\n- Its email agent can create and manage accounts, contact businesses, and handle support requests",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-09T15:37:37.798Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T19:54:12.353Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Viral AI assistant Instinct now has its own email address",
-          "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
-          "publishedAt": "2026-09-09T15:13:12.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
-          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
-          "publishedAt": "2026-09-17T13:46:16.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Instinct brings its AI agent to group chats, even for friends without an account",
-          "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
-          "publishedAt": "2026-10-05T18:54:30.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "b7fefd96-ab64-4ce0-912c-0487039fa08e",
-      "title": "Liquid AI publishes \"open d1,\" multimodal decision models for edge devices",
-      "summary": "Liquid AI announced \"open d1\" on the Hugging Face blog, describing a family of multimodal decision models aimed at edge devices. The source feed carried only the title, so sizes, benchmarks, and licensing details are not yet known.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-07T18:20:18.620Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T18:20:18.620Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Multimodal open d1 decision models for the edge",
-          "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-          "publishedAt": "2026-10-07T16:54:33.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
     }
   ],
-  "totalCount": 111,
+  "totalCount": 113,
   "hasMore": true
 }
