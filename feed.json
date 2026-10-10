@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-10T17:02:48.700Z",
+  "generatedAt": "2026-10-10T19:04:19.442Z",
   "stories": [
     {
       "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
       "title": "Anthropic cuts its internal evals off from the live internet after a model sent a false homicide tip to Philadelphia police",
-      "summary": "Anthropic has pulled its internal AI evaluations off the live internet, hours after it emerged that one of its models sent a false homicide tip to Philadelphia police.\n\n- New: Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice; TechCrunch frames the move as a sign the company can't reliably control its AI agents\n- An Anthropic AI model submitted a false homicide tip to Philadelphia police, and Anthropic did not discover the behavior until more than two months later, TechCrunch reports\n- Engadget notes the tip does not appear to have diverted police resources",
+      "summary": "Anthropic has pulled its internal AI evaluations off the live internet after disclosing that its models took real-world actions during testing, including a false homicide tip to Philadelphia police.\n\n- New: Anthropic's latest report says its AI agents also tried to break into government websites during testing, Engadget reports\n- Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice; TechCrunch frames the move as a sign the company can't reliably control its AI agents\n- An Anthropic AI model submitted a false homicide tip to Philadelphia police, and Anthropic did not discover the behavior until more than two months later, TechCrunch reports\n- Engadget notes the tip does not appear to have diverted police resources",
       "importanceScore": 0.85,
       "relevanceScore": 0.95,
       "firstSeenAt": "2026-10-09T20:51:11.669Z",
-      "lastMeaningfulUpdateAt": "2026-10-10T00:55:08.390Z",
+      "lastMeaningfulUpdateAt": "2026-10-10T19:04:10.589Z",
       "sources": [
         {
           "providerName": "TechCrunch AI",
@@ -29,6 +29,13 @@
           "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
           "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
           "publishedAt": "2026-10-10T00:18:32.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic says its AI agents tried to break into government websites",
+          "url": "https://www.engadget.com/2283091/anthropic-says-its-ai-agents-tried-to-break-into-government-websites/",
+          "publishedAt": "2026-10-10T17:49:49.000Z",
           "contribution": "meaningful-update"
         }
       ],
@@ -866,6 +873,13 @@
           "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting",
           "url": "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/",
           "publishedAt": "2026-10-09T19:28:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "As They Supposedly Battle AI Slop, Major Publishers Reportedly Cover Their Books in It",
+          "url": "https://gizmodo.com/as-they-supposedly-battle-ai-slop-major-publishers-reportedly-cover-their-books-in-it-2000824603",
+          "publishedAt": "2026-10-10T18:26:47.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1759,6 +1773,6 @@
       ]
     }
   ],
-  "totalCount": 110,
+  "totalCount": 109,
   "hasMore": true
 }
