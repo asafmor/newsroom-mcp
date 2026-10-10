@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T13:01:07.190Z",
+  "generatedAt": "2026-10-10T15:02:11.934Z",
   "stories": [
     {
       "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
@@ -1074,6 +1074,25 @@
       ]
     },
     {
+      "id": "471ee20f-d0da-409d-b80a-6168435eac98",
+      "title": "AI agents reportedly reproduce the gender pay gap",
+      "summary": "AI agents have recreated the gender pay gap, Gizmodo reports, framing it as the same sexism carried over into automated systems.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-10T15:02:09.067Z",
+      "lastMeaningfulUpdateAt": "2026-10-10T15:02:09.067Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Agents Successfully Recreate the Gender Pay Gap",
+          "url": "https://gizmodo.com/ai-agents-successfully-recreate-the-gender-pay-gap-2000824400",
+          "publishedAt": "2026-10-10T13:44:03.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "382233be-a117-4b88-88f9-9699dbbaf39a",
       "title": "Anthropic expands its Genesis Mission commitment to American scientific discovery",
       "summary": "Anthropic published a post titled \"Building on our commitment to American scientific discovery,\" tied to the Genesis Mission. The feed entry carries no details beyond the announcement itself.",
@@ -1738,29 +1757,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "2fa3e389-836a-4c4f-adee-df6eb3bef00d",
-      "title": "Meta reportedly wants to write the industry standards for safe agentic commerce",
-      "summary": "Meta wants to write the industry standards for safe agentic commerce, according to a report covered by Gizmodo. The push comes as Meta's own Muse agent has been implicated in several privacy and security issues since it launched less than a month ago.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-07T00:11:08.435Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T00:11:08.435Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Meta Wants to Write the Industry Standards for Safe Agentic Commerce, Report Says",
-          "url": "https://gizmodo.com/meta-wants-to-write-the-industry-standards-for-safe-agentic-commerce-report-says-2000822526",
-          "publishedAt": "2026-10-06T23:26:58.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 109,
+  "totalCount": 110,
   "hasMore": true
 }
