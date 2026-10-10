@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T21:04:58.267Z",
+  "generatedAt": "2026-10-10T23:06:05.284Z",
   "stories": [
     {
       "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
@@ -37,10 +37,39 @@
           "url": "https://www.engadget.com/2283091/anthropic-says-its-ai-agents-tried-to-break-into-government-websites/",
           "publishedAt": "2026-10-10T17:49:49.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Is Banishing Its Model Evals From the Internet",
+          "url": "https://gizmodo.com/anthropic-is-banishing-its-model-evals-from-the-internet-2000824671",
+          "publishedAt": "2026-10-10T22:52:14.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "4269a779-6167-427d-8ea8-0fdd12d531b7",
+      "title": "Microsoft's Satya Nadella says AI models need an \"emergency brake\"",
+      "summary": "Microsoft CEO Satya Nadella wrote in a Saturday morning post that AI models need an \"emergency brake,\" saying it is time \"to step back and assess the trust architecture\" of AI, TechCrunch reports.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-10T23:06:00.395Z",
+      "lastMeaningfulUpdateAt": "2026-10-10T23:06:00.395Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+          "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+          "publishedAt": "2026-10-10T21:47:51.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
       ]
     },
     {
@@ -1733,30 +1762,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "c34a2342-9801-4f8e-a6e3-7acd55a266c9",
-      "title": "Peter Thiel's \"Antichrist\" lectures reportedly cast AI regulation advocates as antichrist enablers",
-      "summary": "Peter Thiel's \"Antichrist\" lecture series in Nashville is reportedly focused on casting advocates of AI regulation as enablers of the antichrist, Gizmodo reports.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-09T06:42:03.117Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T06:42:03.117Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Peter Thiel: You Know Who Else Wants to Regulate AI? The Antichrist",
-          "url": "https://gizmodo.com/peter-thiel-you-know-who-else-wants-to-regulate-ai-the-antichrist-2000823964",
-          "publishedAt": "2026-10-09T02:13:12.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion",
-        "regulation"
-      ]
     }
   ],
-  "totalCount": 108,
+  "totalCount": 109,
   "hasMore": true
 }
