@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T19:04:19.442Z",
+  "generatedAt": "2026-10-10T21:04:58.267Z",
   "stories": [
     {
       "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
@@ -154,6 +154,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "a8e803d5-e400-4e02-9d49-62058f5078d6",
+      "title": "Apple discloses a deal to hire the team and license tech from AI podcast startup Huxe",
+      "summary": "Apple has disclosed a deal to hire the team behind Huxe, a personalized podcast startup, and license its technology, TechCrunch reports. The move raises the question of whether Apple plans to get into AI-generated podcasts.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-10T21:04:53.569Z",
+      "lastMeaningfulUpdateAt": "2026-10-10T21:04:53.569Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+          "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+          "publishedAt": "2026-10-10T19:50:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "288b0bb6-ee4f-433f-8437-54d0b15e0aca",
@@ -1736,43 +1755,8 @@
         "opinion",
         "regulation"
       ]
-    },
-    {
-      "id": "e803de71-8bb6-4e63-bd0f-0c453533c1e4",
-      "title": "Google launches Playground, an experimental AI-powered game creation platform",
-      "summary": "Google has launched Playground, an experimental platform that uses AI to create games for users, Engadget reports.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-07T12:17:14.476Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T12:17:14.476Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Google's experimental Playground platform uses AI to create games for you",
-          "url": "https://www.engadget.com/2279750/googles-experimental-playground-platform-uses-ai-to-create-games-for-you/",
-          "publishedAt": "2026-10-07T12:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google experiments with an AI-powered gaming platform",
-          "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/",
-          "publishedAt": "2026-10-07T14:36:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google’s New Playground Aims to Make It Easy to Vibe Code a Game Right in Your Browser",
-          "url": "https://gizmodo.com/googles-new-playground-aims-to-make-it-easy-to-vibe-code-a-game-right-in-your-browser-2000822955",
-          "publishedAt": "2026-10-07T17:10:41.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 109,
+  "totalCount": 108,
   "hasMore": true
 }
