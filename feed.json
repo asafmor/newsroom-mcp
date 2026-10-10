@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T10:59:48.638Z",
+  "generatedAt": "2026-10-10T13:01:07.190Z",
   "stories": [
     {
       "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
@@ -536,6 +536,25 @@
       "tags": [
         "model-release"
       ]
+    },
+    {
+      "id": "ab74b682-204e-442a-94f3-7ea112144891",
+      "title": "Anti-cybercrime groups are using lifelike AI bots to scam the scammers",
+      "summary": "Wired reports that anti-cybercrime initiatives are increasingly deploying AI to turn the tables on scammers, tricking them into talking to lifelike bots they believe are real victims.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-10T13:01:04.031Z",
+      "lastMeaningfulUpdateAt": "2026-10-10T13:01:04.031Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI Is Getting Really Good at Messing With Cybercriminals",
+          "url": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
+          "publishedAt": "2026-10-10T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "88d9fcb4-0114-441d-ab51-3285043a1d8e",
@@ -1740,30 +1759,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "5ed26b7a-27cf-43a7-b087-4b9d52c20e41",
-      "title": "Reflection AI debuts Beam, its first open-weight model, pitched as a lower-compute rival to Chinese models",
-      "summary": "Nvidia-backed Reflection AI unveiled Beam, its first open-weight model, which the company says rivals GLM-5.2 on reasoning while using far less inference compute. The weights are due to be released this month.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-05T19:54:10.395Z",
-      "lastMeaningfulUpdateAt": "2026-10-05T19:54:10.395Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
-          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-          "publishedAt": "2026-10-05T19:33:53.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 108,
+  "totalCount": 109,
   "hasMore": true
 }
