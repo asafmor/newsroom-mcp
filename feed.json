@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:14:57.026Z",
+  "generatedAt": "2026-10-11T21:18:27.274Z",
   "stories": [
     {
       "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
@@ -48,6 +48,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "c0511c61-bf88-416c-8b11-66462525c9b2",
+      "title": "Ukraine reportedly strikes a major blow to Russia's AI and cloud infrastructure",
+      "summary": "Gizmodo reports that Ukraine has dealt a significant blow to Russia's AI and cloud infrastructure, extending a campaign that previously focused on attacks against oil infrastructure.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-11T21:18:10.922Z",
+      "lastMeaningfulUpdateAt": "2026-10-11T21:18:10.922Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Ukraine Has Dealt a Big Blow to Russia’s AI and Cloud Infrastructure",
+          "url": "https://gizmodo.com/ukraine-has-dealt-a-big-blow-to-russias-ai-and-cloud-infrastructure-2000824731",
+          "publishedAt": "2026-10-11T17:55:07.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -1741,29 +1762,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "e7cbd144-1ef9-48d7-abf2-f2d969abc25d",
-      "title": "TechCrunch asks whether we should treat AI like it's human",
-      "summary": "A TechCrunch piece examines people's tendency to treat AI as human and whether they should, citing Sherry Turkle's observation that even primitive exchanges with a \"relational artifact\" make us believe it cares for us, and that we are wired to care for it in return.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-09T16:49:03.060Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T16:49:03.060Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "We can’t help treating AI like it’s human. But should we?",
-          "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
-          "publishedAt": "2026-10-09T16:40:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 108,
+  "totalCount": 109,
   "hasMore": true
 }
