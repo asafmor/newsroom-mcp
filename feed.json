@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T13:12:49.983Z",
+  "generatedAt": "2026-10-11T15:14:16.704Z",
   "stories": [
     {
       "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
@@ -1016,6 +1016,27 @@
       "tags": []
     },
     {
+      "id": "81d010eb-69e2-41ef-ae1e-1e6519947e7f",
+      "title": "Executives say voice AI hasn't had its \"ChatGPT moment\" yet",
+      "summary": "Executives interviewed by TechCrunch argue voice AI has yet to reach its \"ChatGPT moment.\" A recurring weakness: voice systems often miss important points for their context layer, which causes the whole pipeline to break.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-11T15:14:04.933Z",
+      "lastMeaningfulUpdateAt": "2026-10-11T15:14:04.933Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+          "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+          "publishedAt": "2026-10-11T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "e24bf6d7-b2c4-4bc6-8238-169bba274985",
       "title": "Google releases AI Edge Foresight, an offline meeting note-taker that takes on Granola",
       "summary": "Google released AI Edge Foresight, a local-first meeting note-taking app that transcribes conversations, generates notes, and answers questions using on-device AI, with no connection required. TechCrunch frames it as a competitor to Granola.",
@@ -1620,6 +1641,25 @@
       ]
     },
     {
+      "id": "5bd376ec-a7f2-4e11-8a80-763b656d4ecd",
+      "title": "GMKtec EVO X5 Pro mini PC pairs AMD's Ryzen AI Max Plus 495 with 160GB of VRAM for local AI",
+      "summary": "A Geeky Gadgets hands-on covers the GMKtec EVO X5 Pro, a compact PC built on AMD's Ryzen AI Max Plus 495 APU with 16 cores, 32 threads, and clock speeds up to 5.2 GHz. It is billed as offering 160GB of VRAM and is aimed at demanding work such as AI model training and data processing.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-10-11T15:14:07.451Z",
+      "lastMeaningfulUpdateAt": "2026-10-11T15:14:07.451Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "GMKtec EVO X5 Pro Packs 160GB of VRAM and a 5.2 GHz CPU",
+          "url": "https://www.geeky-gadgets.com/gmktec-evo-x5-pro-hands-on/",
+          "publishedAt": "2026-10-11T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "27257734-f5a4-4fdd-8d07-c08b38081719",
       "title": "Japan warns of a cybersecurity \"hellscape,\" Gizmodo reports",
       "summary": "Gizmodo's AI desk reports that Japan has issued a stark warning about the state of cybersecurity, which the outlet characterizes as a \"hellscape.\" The source feed carried no further detail on the warning.",
@@ -1722,48 +1762,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "f42f8fe1-f4b3-4809-b752-4f32e0d10b54",
-      "title": "Engineers put GPT, Claude, and Grok in charge of a real car, and only one succeeded",
-      "summary": "Wired reports that three engineers put GPT, Claude, and Grok in control of a real Toyota Corolla and tasked them with driving to an In-N-Out. Only one of the three models succeeded.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-07T20:22:03.558Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T20:22:03.558Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "These Researchers Made AI Drive a Toyota Corolla to Get In-N-Out",
-          "url": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
-          "publishedAt": "2026-10-07T18:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "3bf14ba2-5efc-434d-a924-b844b0d703b5",
-      "title": "Google to remove free access to Gemini Flash and Pro on October 9",
-      "summary": "Google is ending free access to its Gemini Flash and Pro models on October 9, Engadget reports, meaning users on the free Gemini tier will lose both models.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-06T12:03:08.885Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T12:03:08.885Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Google removes free access to Gemini Flash and Pro on October 9",
-          "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9/",
-          "publishedAt": "2026-10-06T11:22:53.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 107,
+  "totalCount": 109,
   "hasMore": true
 }
