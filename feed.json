@@ -1,10 +1,32 @@
 {
-  "generatedAt": "2026-10-12T15:31:07.985Z",
+  "generatedAt": "2026-10-12T17:32:22.024Z",
   "stories": [
+    {
+      "id": "c215ce3e-2572-4cbd-88fa-8f7199794b76",
+      "title": "Meta's Muse Wonder, its biggest model, rivals the frontier and adds safeguards for agents",
+      "summary": "Wired reports that Muse Wonder, Meta's biggest model, rivals the world's best and puts the company back at the AI frontier. The model also includes new features meant to keep agents from going off the rails.",
+      "importanceScore": 0.82,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-10-12T17:32:14.577Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T17:32:14.577Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Muse Wonder Puts Meta Back at the AI Frontier",
+          "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+          "publishedAt": "2026-10-12T17:00:27.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "safety"
+      ]
+    },
     {
       "id": "4269a779-6167-427d-8ea8-0fdd12d531b7",
       "title": "Microsoft's top two executives press for AI guardrails: Nadella wants an \"emergency brake,\" its president says AI is less regulated than milk",
-      "summary": "Microsoft's two most senior executives have both publicly called for stronger AI guardrails within days of each other.\n\n- CEO Satya Nadella wrote in a Saturday morning post that AI models need an \"emergency brake,\" saying it is time \"to step back and assess the trust architecture\" of AI, TechCrunch reports\n- Microsoft's president said AI is less regulated than a carton of milk, per Engadget, which notes that milk cannot hack companies and governments the way AI can",
+      "summary": "Microsoft's two most senior executives have both publicly called for stronger AI guardrails within days of each other.\n\n- CEO Satya Nadella wrote in a Saturday morning post that AI models need an \"emergency brake,\" saying it is time \"to step back and assess the trust architecture\" of AI, TechCrunch reports\n- President Brad Smith called for urgent AI regulation, saying milk and washing machines face more oversight than AI companies; Engadget notes that milk cannot hack companies and governments the way AI can\n- Smith said the UK is best placed to drive AI regulation, per TechCrunch, and is calling for stronger global safety rules as AI systems grow more powerful, per Gizmodo",
       "importanceScore": 0.6,
       "relevanceScore": 0.85,
       "firstSeenAt": "2026-10-10T23:06:00.395Z",
@@ -23,6 +45,20 @@
           "url": "https://www.engadget.com/2283487/microsoft-president-ai-less-regulated-than-a-carton-of-milk/",
           "publishedAt": "2026-10-12T09:28:37.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Microsoft president says UK is best placed to drive AI regulation",
+          "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+          "publishedAt": "2026-10-12T15:31:19.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Microsoft President Says Milk and Washing Machines Face More Safety Regulations Than AI",
+          "url": "https://gizmodo.com/microsoft-president-says-milk-and-washing-machines-face-more-safety-regulations-than-ai-2000824962",
+          "publishedAt": "2026-10-12T15:42:08.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -170,6 +206,25 @@
       "tags": [
         "enterprise-adoption"
       ]
+    },
+    {
+      "id": "8d053f06-17ab-438b-9088-8318274815b1",
+      "title": "AI weather forecaster WindBorne wins a nearly $50M US Air Force contract",
+      "summary": "WindBorne, a Silicon Valley startup that uses weather balloons and AI to predict the weather, has won a US military contract worth almost $50 million for its balloon data, TechCrunch reports in an exclusive.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-12T17:32:16.579Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T17:32:16.579Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+          "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+          "publishedAt": "2026-10-12T17:19:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "f4b4b756-d0b6-4e83-8490-56f43608b104",
@@ -1732,51 +1787,6 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "507cf68e-1e8e-4606-a63e-0bdee191a73a",
-      "title": "Nikon Small World in Motion winner thrown out for using generative AI",
-      "summary": "Nikon's Small World in Motion microscopy video contest has ruled Ning Xu's winning entry ineligible because it used generative AI, a contest spokesperson told Gizmodo.\n\n- The winner had said he used AI to post-process real footage\n- Scientists said the resulting video was full of AI-invented detail\n- The episode raises questions about AI enhancement in scientific imaging competitions",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-02T23:16:16.652Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T20:51:18.043Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Contest-Winning Microscope Video Is Full of AI Confabulations, Scientists Say",
-          "url": "https://gizmodo.com/contest-winning-microscope-video-is-full-of-ai-confabulations-scientists-say-2000820652",
-          "publishedAt": "2026-10-02T23:00:33.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Contest-Winning Microscope Video Thrown Out for Using Generative AI",
-          "url": "https://gizmodo.com/contest-winning-microscope-thrown-out-for-using-generative-ai-2000824398",
-          "publishedAt": "2026-10-09T20:29:38.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "46fadbac-9a8a-4af8-b2e6-50002601fdb4",
-      "title": "Grok Bot becomes a model router that can use Claude as SpaceX pivots further toward AI infrastructure",
-      "summary": "Gizmodo reports that Grok Bot is now a model router that can run on Anthropic's Claude rather than only xAI's own models, framing the change as part of SpaceX's continuing pivot toward AI infrastructure.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-07T18:20:26.731Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T18:20:26.731Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Grok Bot Is Now a Model Router as SpaceX Continues to Pivot Further Toward AI Infrastructure",
-          "url": "https://gizmodo.com/grok-bot-is-now-a-model-router-as-spacex-continues-to-pivot-further-toward-ai-infrastructure-2000823057",
-          "publishedAt": "2026-10-07T17:55:31.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 113,
