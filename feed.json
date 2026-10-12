@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T07:25:23.373Z",
+  "generatedAt": "2026-10-12T09:26:10.997Z",
   "stories": [
     {
       "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
@@ -154,6 +154,27 @@
       "tags": [
         "safety",
         "opinion"
+      ]
+    },
+    {
+      "id": "f4b4b756-d0b6-4e83-8490-56f43608b104",
+      "title": "OpenAI reportedly bought 20,000 Macs to train computer-use agents, saving an estimated $18M a month",
+      "summary": "Geeky Gadgets, summarizing a third-party explainer, reports that OpenAI purchased tens of thousands of Mac Minis and Mac Studios to train AI agents in environments that closely replicate human-computer interaction such as typing and navigating software interfaces. The piece estimates that buying the roughly 20,000 machines saves OpenAI about $18 million a month; the figure is an outside estimate, not an OpenAI disclosure.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-12T09:26:05.312Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T09:26:05.312Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Buying 20,000 Macs Saves OpenAI an Estimated $18 Million a Month",
+          "url": "https://www.geeky-gadgets.com/why-openai-bought-mac-minis/",
+          "publishedAt": "2026-10-12T09:17:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -327,6 +348,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "7d248955-fc46-4693-a7df-e61c65576f28",
+      "title": "Docker Desktop 4.63 adds Docker Agent for building custom AI agents from YAML",
+      "summary": "Docker Desktop v4.63 adds Docker Agent, which lets developers create, deploy, and connect AI agents through YAML-based configuration files and supports the Agent-to-Agent (A2A) communication protocol, according to a Geeky Gadgets summary of a Better Stack walkthrough.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-12T09:26:07.678Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T09:26:07.678Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Docker Desktop V4.63 Adds Docker Agent for Custom AI Agents",
+          "url": "https://www.geeky-gadgets.com/build-ai-agents-docker/",
+          "publishedAt": "2026-10-12T08:17:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "533b3c65-3686-4294-811c-cea6eb076d58",
@@ -1729,48 +1771,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "8ce85d9c-3e34-402f-8d52-d7311ea43777",
-      "title": "Pentagon's Tradewinds initiative speeds \"kill chain\" AI purchases with 5-minute video pitches",
-      "summary": "The US government's Tradewinds initiative lets the Pentagon speed up purchases of \"kill chain\" AI using five-minute video pitches, Wired reports. The program has made it easier to direct millions of dollars to \"nontraditional\" defense contractors, including OpenAI, Anthropic, and Google.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-07T16:19:06.162Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T16:19:06.162Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos",
-          "url": "https://www.wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos/",
-          "publishedAt": "2026-10-07T15:34:33.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "72557f6f-39ca-4591-bb0a-7a3d051b3b40",
-      "title": "Google introduces an AI notetaker that keeps processing local and private",
-      "summary": "Google has a new AI note-taking and transcription tool that keeps things local and private rather than relying on the cloud, CNET reports, calling it a potential game changer for AI note-taking.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-08T22:38:08.633Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T22:38:08.633Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Google’s New AI Notetaker Keeps Things Local and Private",
-          "url": "https://www.cnet.com/tech/services-and-software/google-ai-note-taker-edge-foresight/",
-          "publishedAt": "2026-10-08T18:24:05.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 116,
+  "totalCount": 118,
   "hasMore": true
 }
