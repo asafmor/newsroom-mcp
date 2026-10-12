@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T03:21:50.515Z",
+  "generatedAt": "2026-10-12T05:23:46.527Z",
   "stories": [
     {
       "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
@@ -51,6 +51,48 @@
       ]
     },
     {
+      "id": "1bb24398-d1c5-45c6-9942-2fc4de719814",
+      "title": "Anthropic launches Claude Dashboards and Claude Motion in beta, brings Docs, Slides, and Design to every plan",
+      "summary": "Anthropic put two new Claude creation tools into beta: Claude Dashboards, for building live dashboards, and Claude Motion, for animated explainers. At the same time, Docs, Slides, and Design are out of beta and available on every Claude plan, including Free.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-12T05:23:29.275Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T05:23:29.275Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Build live dashboards and animate explainers with Claude",
+          "url": "https://claude.com/resources/articles/dashboards-and-motion",
+          "publishedAt": "2026-10-08T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "c09bb8f5-3bb5-4d0f-a6b5-e98cd66c1dd7",
+      "title": "Claude gets a Google Workspace add-on and connectors for Docs, Sheets, and Slides",
+      "summary": "Anthropic released a new add-on plus Google Docs, Sheets, and Slides connectors, in beta, so teams on Google Workspace can bring Claude into their files or work on those files directly from Claude.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-12T05:23:31.539Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T05:23:31.539Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude now works with Google Docs, Sheets, and Slides",
+          "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+          "publishedAt": "2026-10-06T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "c0511c61-bf88-416c-8b11-66462525c9b2",
       "title": "Ukraine reportedly strikes a major blow to Russia's AI and cloud infrastructure",
       "summary": "Gizmodo reports that Ukraine has dealt a significant blow to Russia's AI and cloud infrastructure, extending a campaign that previously focused on attacks against oil infrastructure.",
@@ -69,6 +111,27 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "65fc5d54-500c-40e8-8b9b-b175c6c18ed1",
+      "title": "Comcast and Booz Allen use Claude Mythos through Project Glasswing to find exploit chains their scanners missed",
+      "summary": "An Anthropic case study says security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities in their codebases that their existing scanners had missed.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-12T05:23:33.854Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T05:23:33.854Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases",
+          "url": "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases",
+          "publishedAt": "2026-10-06T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -279,6 +342,13 @@
           "title": "Claude Haiku 5.5 Consumes 3X More Tokens Than ChatGPT 6 Luna",
           "url": "https://www.geeky-gadgets.com/claude-haiku-5-5-release/",
           "publishedAt": "2026-10-09T06:43:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Haiku 5.5",
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "publishedAt": "2026-10-07T00:00:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -570,6 +640,27 @@
       ]
     },
     {
+      "id": "c30e4e0e-a161-4286-b7f3-a4566f375837",
+      "title": "Anthropic case study: Block orchestrates Claude Fable 5 across thousands of pull requests",
+      "summary": "In an Anthropic case study, Block's Head of AI Capabilities Bradley Axen describes how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why he sees safeguards as critical to deploying frontier models responsibly at scale.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-12T05:23:36.328Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T05:23:36.328Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "How Block orchestrates Claude Fable across thousands of pull requests",
+          "url": "https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests",
+          "publishedAt": "2026-10-08T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "630784ae-f9e7-40ae-adf4-008bc8e8e135",
       "title": "Anthropic offers open-source projects a free vulnerability-finding service, OSS Scanner",
       "summary": "Anthropic is offering open-source software projects a free way to check their code for security vulnerabilities with a service called OSS Scanner, per Engadget. The source item gives no detail yet on eligibility, the underlying model, or how findings are reported.",
@@ -702,6 +793,63 @@
         "safety",
         "product-launch"
       ]
+    },
+    {
+      "id": "5dbbd40e-3892-4f33-8cca-46a43492cf52",
+      "title": "Anthropic publishes a field guide to running Claude Code in cloud sessions",
+      "summary": "An Anthropic developer post explains what changes when Claude Code runs on its own machine in the cloud, the workflows where that pays off, and how to connect GitHub on the first try.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-12T05:23:41.903Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T05:23:41.903Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Code in the cloud: a field guide to cloud sessions",
+          "url": "https://claude.dev/blog/claude-code-in-the-cloud/",
+          "publishedAt": "2026-10-06T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "7a5bc782-6da5-4b86-abdb-a68fc7c18399",
+      "title": "Anthropic publishes a reference implementation for scheduled Claude Managed Agents automations",
+      "summary": "An Anthropic developer post walks through a reference implementation of a scheduled Claude Managed Agents automation, including its config files and six rules for avoiding common failure modes.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-12T05:23:40.172Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T05:23:40.172Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Building effective agent automations",
+          "url": "https://claude.dev/blog/building-effective-agent-automations/",
+          "publishedAt": "2026-10-08T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "14b56b28-1226-4a02-8ad1-ab08c58445f4",
+      "title": "Anthropic details automated eval design and hillclimbing with the claude-api skill",
+      "summary": "An Anthropic developer post lays out principles for designing evals and hillclimbing against them \"without fooling yourself,\" and shows how the claude-api skill's build-eval and hillclimb commands put them to work.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-12T05:23:38.278Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T05:23:38.278Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Automating eval design and hillclimbing with Claude",
+          "url": "https://claude.dev/blog/automating-eval-design-and-hillclimbing/",
+          "publishedAt": "2026-10-07T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "d2c37bf1-8cb0-459c-8147-f9343a25ebea",
@@ -1617,153 +1765,8 @@
         "funding",
         "product-launch"
       ]
-    },
-    {
-      "id": "5b735ea9-6fe7-4d32-a249-e97e2862d264",
-      "title": "MIT Technology Review: we're putting too much faith in AI's ability to say no",
-      "summary": "An MIT Technology Review feature by Arthur Holland Michel argues that too much trust is being placed in AI systems' ability to refuse requests. It traces the idea of machines that can say no from science fiction's cautionary tales of robotic disobedience to today's debate over when AI should decline.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-09T10:45:17.497Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T10:45:17.497Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "We’re putting too much faith in AI’s ability to say no",
-          "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
-          "publishedAt": "2026-10-09T09:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion",
-        "safety"
-      ]
-    },
-    {
-      "id": "81d3ead7-4ddb-412f-b9e0-0721182c42d2",
-      "title": "Sophos says OpenAI's Daybreak cut its threat investigation time by 96%",
-      "summary": "In an OpenAI customer case study, security firm Sophos says using OpenAI's Daybreak cut cyber-threat investigation time by 96% and automated 52% of its managed detection and response (MDR) cases while keeping human oversight in place. The figures are vendor-published and not independently verified.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-09T10:45:15.076Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T10:45:15.076Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-          "url": "https://openai.com/index/sophos",
-          "publishedAt": "2026-10-09T07:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "5bd376ec-a7f2-4e11-8a80-763b656d4ecd",
-      "title": "GMKtec EVO X5 Pro mini PC pairs AMD's Ryzen AI Max Plus 495 with 160GB of VRAM for local AI",
-      "summary": "A Geeky Gadgets hands-on covers the GMKtec EVO X5 Pro, a compact PC built on AMD's Ryzen AI Max Plus 495 APU with 16 cores, 32 threads, and clock speeds up to 5.2 GHz. It is billed as offering 160GB of VRAM and is aimed at demanding work such as AI model training and data processing.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-10-11T15:14:07.451Z",
-      "lastMeaningfulUpdateAt": "2026-10-11T15:14:07.451Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "GMKtec EVO X5 Pro Packs 160GB of VRAM and a 5.2 GHz CPU",
-          "url": "https://www.geeky-gadgets.com/gmktec-evo-x5-pro-hands-on/",
-          "publishedAt": "2026-10-11T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "27257734-f5a4-4fdd-8d07-c08b38081719",
-      "title": "Japan warns of a cybersecurity \"hellscape,\" Gizmodo reports",
-      "summary": "Gizmodo's AI desk reports that Japan has issued a stark warning about the state of cybersecurity, which the outlet characterizes as a \"hellscape.\" The source feed carried no further detail on the warning.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-10-09T20:51:20.037Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T20:51:20.037Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "We Have Entered a Cybersecurity Hellscape, Japan Warns",
-          "url": "https://gizmodo.com/we-have-entered-a-cybersecurity-hellscape-japan-warns-2000824268",
-          "publishedAt": "2026-10-09T19:20:16.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "18b9993c-1b04-4bcf-b250-630c1de31424",
-      "title": "Lambda to raise up to $4B at a $14.5B valuation ahead of a planned 2027 IPO",
-      "summary": "Nvidia-backed AI computing startup Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation, in a round led by Coatue and Blackstone, ahead of an IPO planned for 2027, TechCrunch reports.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-06T20:09:08.836Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T20:09:08.836Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
-          "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
-          "publishedAt": "2026-10-06T20:00:30.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "92abfb5d-0a8d-4fe5-b2d3-ea89390cb1c5",
-      "title": "Nvidia says fine-tuned Nemotron models reached gold-level results on both IOI and IMO",
-      "summary": "In a Hugging Face blog post, Nvidia describes fine-tuning its Nemotron model family to reach gold-level results on two competitions: the International Olympiad in Informatics (IOI) and the International Mathematical Olympiad (IMO).",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-07T14:18:16.029Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T14:18:16.029Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-          "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-          "publishedAt": "2026-10-07T12:45:31.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "9b0d38aa-7642-4dcf-b282-34ad083830dd",
-      "title": "a16z's Olivia Moore sees a huge consumer AI opportunity beyond subscriptions",
-      "summary": "In a TechCrunch interview, Andreessen Horowitz's Olivia Moore says consumer AI is a huge opportunity, particularly if the industry can tap revenue streams beyond subscriptions and API charges.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-09T16:49:05.380Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T16:49:05.380Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "a16z’s Olivia Moore on the state of consumer AI",
-          "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
-          "publishedAt": "2026-10-09T15:43:33.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 108,
+  "totalCount": 115,
   "hasMore": true
 }
