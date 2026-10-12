@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-12T17:32:22.024Z",
+  "generatedAt": "2026-10-12T19:33:26.517Z",
   "stories": [
     {
       "id": "c215ce3e-2572-4cbd-88fa-8f7199794b76",
       "title": "Meta's Muse Wonder, its biggest model, rivals the frontier and adds safeguards for agents",
-      "summary": "Wired reports that Muse Wonder, Meta's biggest model, rivals the world's best and puts the company back at the AI frontier. The model also includes new features meant to keep agents from going off the rails.",
+      "summary": "Meta released Muse Wonder, its largest model line and what it calls its first frontier model, claiming it has caught up with the world's best.\n\n- Where Muse Spark was a lightweight, low-latency model, the Wonder models are larger, with higher benchmark scores and better results on complex tasks like coding (TechCrunch)\n- The models add \"active memory\" and \"active focus\" abilities (Engadget)\n- New features are meant to keep agents from going off the rails (Wired)",
       "importanceScore": 0.82,
       "relevanceScore": 0.95,
       "firstSeenAt": "2026-10-12T17:32:14.577Z",
@@ -15,6 +15,20 @@
           "title": "Muse Wonder Puts Meta Back at the AI Frontier",
           "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
           "publishedAt": "2026-10-12T17:00:27.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta releases its first frontier model, Muse Wonder",
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+          "publishedAt": "2026-10-12T17:56:56.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Meta says it's caught up to the frontier with its latest Wonder AI models",
+          "url": "https://www.engadget.com/2284478/meta-says-its-caught-up-to-the-frontier-with-its-latest-wonder-ai-models/",
+          "publishedAt": "2026-10-12T18:51:52.000Z",
           "contribution": "supporting"
         }
       ],
@@ -380,6 +394,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "a4d5ef29-1033-48a2-ad4a-5055622f0467",
+      "title": "Elon Musk's boast about a Grok Lego Star Wars haul backfires as X users prank him",
+      "summary": "Wired reports that Elon Musk bragged about a Lego Star Wars haul tied to Grok, and X users then pranked him, an episode the outlet frames as a security lapse. The source feed gave no detail on how the prank worked.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-10-12T19:33:19.548Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T19:33:19.548Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
+          "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
+          "publishedAt": "2026-10-12T17:55:12.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "5c88599b-a1ef-451d-b1a8-040753527969",
@@ -1752,43 +1785,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "b9b796eb-9f8f-4f1c-9a57-46d82ee5e6cb",
-      "title": "Microsoft unveils Nvidia-chip Surface Laptop Ultra AI PCs and a revamped Windows 11 with Copilot-powered search",
-      "summary": "At its October 7 Windows, Surface and AI event, Microsoft paired new AI PC hardware with an AI-centered Windows refresh.\n\n- Revealed specs and pricing for the Surface Laptop Ultra, AI PCs running on Nvidia chips designed to run AI models and agents, per TechCrunch\n- The machines ship with a revamped Windows 11\n- Windows search is being rebuilt around Copilot as a chatbot, arriving this fall, Engadget reports",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-02T15:11:24.581Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T22:23:19.541Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "What to expect at Microsoft's Windows, Surface and AI event on October 7",
-          "url": "https://www.engadget.com/2275196/microsoft-surface-windows-event-october-7-preview/",
-          "publishedAt": "2026-10-02T13:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Microsoft may have finally fixed Windows search by turning it into a chatbot",
-          "url": "https://www.engadget.com/2280310/microsoft-may-have-finally-fixed-windows-search-by-turning-it-into-a-chatbot/",
-          "publishedAt": "2026-10-07T17:47:14.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-          "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-          "publishedAt": "2026-10-07T20:22:37.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 113,
+  "totalCount": 110,
   "hasMore": true
 }
