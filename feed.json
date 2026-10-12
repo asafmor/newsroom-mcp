@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T05:23:46.527Z",
+  "generatedAt": "2026-10-12T07:25:23.373Z",
   "stories": [
     {
       "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
@@ -638,6 +638,25 @@
         "regulation",
         "safety"
       ]
+    },
+    {
+      "id": "0fa09089-4518-4ae2-8066-9c09019e4fcc",
+      "title": "Anthropic reportedly cuts Claude's system prompt by more than 80%",
+      "summary": "Anthropic engineers have reduced the size of Claude's system prompt by over 80%, Geeky Gadgets reports, citing a breakdown by Nate Herk. The cut is presented as evidence that concise, precise instructions can maintain performance while improving efficiency, challenging the reliance on long, detailed prompts. The account is second-hand and not confirmed by Anthropic directly.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-12T07:25:18.774Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T07:25:18.774Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic Removes 80 Percent of Claude System Prompt Text for Improved Results",
+          "url": "https://www.geeky-gadgets.com/claude-prompt-optimization/",
+          "publishedAt": "2026-10-12T07:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "c30e4e0e-a161-4286-b7f3-a4566f375837",
@@ -1298,6 +1317,13 @@
           "url": "https://www.engadget.com/2280879/gpt-6-coming-all-tiers-chatgpt/",
           "publishedAt": "2026-10-08T08:45:16.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Control ChatGPT 6 Output Depth with the New Reasoning Slider",
+          "url": "https://www.geeky-gadgets.com/chatgpt-space/",
+          "publishedAt": "2026-10-12T06:45:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1743,30 +1769,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "8e627de2-b632-43a9-bfde-02dd5cb46017",
-      "title": "Nous Research confirms $1.5B valuation on a $90M Series B and launches AI agents for business users",
-      "summary": "Nous Research, the developer of Hermes Agent, confirmed it reached a $1.5 billion valuation after raising a $90 million Series B, and is launching AI agents aimed at business users, TechCrunch reports.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-07T22:23:17.276Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T22:23:17.276Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-          "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
-          "publishedAt": "2026-10-07T20:48:45.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 116,
   "hasMore": true
 }
