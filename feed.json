@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T13:29:26.627Z",
+  "generatedAt": "2026-10-12T15:31:07.985Z",
   "stories": [
     {
       "id": "4269a779-6167-427d-8ea8-0fdd12d531b7",
@@ -325,6 +325,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "5c88599b-a1ef-451d-b1a8-040753527969",
+      "title": "Blueprints AI says its software generates permit-ready construction blueprints in minutes",
+      "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, has developed software that it says produces code-compliant, permit-ready construction blueprints in minutes from a photo, PDF, or sketch, per TechCrunch.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-12T15:31:03.068Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T15:31:03.068Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "This AI startup says it can generate permit-ready blueprints in minutes",
+          "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+          "publishedAt": "2026-10-12T15:27:59.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "a8e803d5-e400-4e02-9d49-62058f5078d6",
@@ -687,6 +706,13 @@
           "title": "I Asked Meta Muse to Fix an Issue With My Phone Provider. It Got Blocked at Every Turn",
           "url": "https://www.cnet.com/tech/services-and-software/meta-muse-contact-phone-provider-ai-agent-blocked/",
           "publishedAt": "2026-10-09T12:41:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "I Asked Muse to Help Me Book My Holiday Travel. It Didn’t Fly Far.",
+          "url": "https://gizmodo.com/i-asked-muse-to-help-me-book-my-holiday-travel-it-didnt-fly-far-2000823264",
+          "publishedAt": "2026-10-12T14:45:18.000Z",
           "contribution": "background"
         }
       ],
@@ -1751,51 +1777,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "411ce84e-04d8-4ce3-bbb4-b4daa12424ee",
-      "title": "Mistral releases \"Le Chonk,\" a trillion-parameter open-weight model it calls the best outside China",
-      "summary": "Mistral has released Le Chonk, a trillion-parameter open-weight model that it claims is the best open-weight offering outside of China. TechCrunch reports the release as Mistral Large 4, a large multimodal model aiming to leapfrog both American and Chinese rivals; per Wired, the French lab is using it to show it is \"still in the race\" to build frontier-level AI.",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-06T14:03:58.399Z",
-      "lastMeaningfulUpdateAt": "2026-10-06T14:03:58.399Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
-          "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
-          "publishedAt": "2026-10-06T13:15:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-          "publishedAt": "2026-10-06T14:33:16.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Mistral’s New ‘Le Chonk’ AI Model Is Big, Open and Built for Agents",
-          "url": "https://www.cnet.com/tech/services-and-software/mistrals-new-le-chonk-ai-model-is-big-open-and-built-for-agents/",
-          "publishedAt": "2026-10-06T19:35:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Mistral Large 4 Open Source AI Enters Public Preview: One Trillion Parameter",
-          "url": "https://www.geeky-gadgets.com/mistral-large-4-lechonk-ai/",
-          "publishedAt": "2026-10-08T10:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 113,
   "hasMore": true
 }
