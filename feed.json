@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T11:27:34.669Z",
+  "generatedAt": "2026-10-12T13:29:26.627Z",
   "stories": [
     {
       "id": "4269a779-6167-427d-8ea8-0fdd12d531b7",
@@ -94,6 +94,13 @@
           "title": "Build live dashboards and animate explainers with Claude",
           "url": "https://claude.com/resources/articles/dashboards-and-motion",
           "publishedAt": "2026-10-08T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic Launches Claude Motion to Turn Reports Into Interactive Animations",
+          "url": "https://www.geeky-gadgets.com/claude-motion/",
+          "publishedAt": "2026-10-12T11:47:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -246,6 +253,28 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "a882880a-2956-4a63-89a4-d1e28f6cc9a1",
+      "title": "Ambi, founded by a former Plaud executive, raises $26M for an AI app that listens in the background",
+      "summary": "Ambi, a startup founded by a former Plaud executive, raised $26 million for an AI app built around ambient capture — listening to the user in the background. It is releasing apps for iPhone, Mac, and Apple Watch.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-12T13:29:15.654Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T13:29:15.654Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+          "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+          "publishedAt": "2026-10-12T12:47:59.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "product-launch"
       ]
     },
     {
@@ -1146,6 +1175,34 @@
       ]
     },
     {
+      "id": "e24bf6d7-b2c4-4bc6-8238-169bba274985",
+      "title": "Google releases AI Edge Foresight, an offline meeting note-taker that takes on Granola",
+      "summary": "Google released AI Edge Foresight, a local-first meeting note-taking app that transcribes conversations, generates notes, and answers questions using on-device AI, with no connection required. TechCrunch frames it as a competitor to Granola.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-08T14:32:10.211Z",
+      "lastMeaningfulUpdateAt": "2026-10-08T22:38:08.633Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google releases a new local-first Granola competitor",
+          "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+          "publishedAt": "2026-10-08T13:28:39.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Google’s New AI Notetaker Keeps Things Local and Private",
+          "url": "https://www.cnet.com/tech/services-and-software/google-ai-note-taker-edge-foresight/",
+          "publishedAt": "2026-10-08T18:24:05.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "3e321fbe-a865-4e84-869f-88409f1697e9",
       "title": "Book publishers are quietly expanding AI use, and staff are pushing back",
       "summary": "Workers at three major publishing houses tell Wired that LLMs are being used for publicity, cover art, back cover copy, and emails, with some executives pushing junior staff to champion the technology, prompting internal revolt.",
@@ -1272,27 +1329,6 @@
       ],
       "tags": [
         "opinion"
-      ]
-    },
-    {
-      "id": "e24bf6d7-b2c4-4bc6-8238-169bba274985",
-      "title": "Google releases AI Edge Foresight, an offline meeting note-taker that takes on Granola",
-      "summary": "Google released AI Edge Foresight, a local-first meeting note-taking app that transcribes conversations, generates notes, and answers questions using on-device AI, with no connection required. TechCrunch frames it as a competitor to Granola.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-08T14:32:10.211Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T14:32:10.211Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google releases a new local-first Granola competitor",
-          "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
-          "publishedAt": "2026-10-08T13:28:39.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
       ]
     },
     {
@@ -1758,29 +1794,8 @@
         "model-release",
         "open-source"
       ]
-    },
-    {
-      "id": "9a4fc4ad-eeff-41fc-b63d-2e163595f371",
-      "title": "Weizmann Institute's Brain-IT model reconstructs images people see from MRI brain scans",
-      "summary": "CNET reports on Brain-IT, an AI model from the Weizmann Institute that decodes what a person is looking at from their brain activity. The \"mind-reading\" label comes with caveats: the subject has to be inside an MRI machine, and it only works with pictures.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-09T02:40:09.920Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T02:40:09.920Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "This ‘Mind-Reading’ AI Is a Wiz at Figuring Out What You See",
-          "url": "https://www.cnet.com/tech/services-and-software/brain-it-ai-model-image-decoding-mind-reading-weizmann-institute/",
-          "publishedAt": "2026-10-08T21:45:41.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 115,
   "hasMore": true
 }
