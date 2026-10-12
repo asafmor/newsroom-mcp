@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-10-12T09:26:10.997Z",
+  "generatedAt": "2026-10-12T11:27:34.669Z",
   "stories": [
+    {
+      "id": "4269a779-6167-427d-8ea8-0fdd12d531b7",
+      "title": "Microsoft's top two executives press for AI guardrails: Nadella wants an \"emergency brake,\" its president says AI is less regulated than milk",
+      "summary": "Microsoft's two most senior executives have both publicly called for stronger AI guardrails within days of each other.\n\n- CEO Satya Nadella wrote in a Saturday morning post that AI models need an \"emergency brake,\" saying it is time \"to step back and assess the trust architecture\" of AI, TechCrunch reports\n- Microsoft's president said AI is less regulated than a carton of milk, per Engadget, which notes that milk cannot hack companies and governments the way AI can",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-10T23:06:00.395Z",
+      "lastMeaningfulUpdateAt": "2026-10-12T11:27:20.965Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+          "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+          "publishedAt": "2026-10-10T21:47:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Microsoft's president says AI is less regulated than a carton of milk",
+          "url": "https://www.engadget.com/2283487/microsoft-president-ai-less-regulated-than-a-carton-of-milk/",
+          "publishedAt": "2026-10-12T09:28:37.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety",
+        "regulation",
+        "opinion"
+      ]
+    },
     {
       "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
       "title": "Anthropic cuts its internal evals off from the live internet after a model sent a false homicide tip to Philadelphia police",
@@ -132,28 +162,6 @@
       ],
       "tags": [
         "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "4269a779-6167-427d-8ea8-0fdd12d531b7",
-      "title": "Microsoft's Satya Nadella says AI models need an \"emergency brake\"",
-      "summary": "Microsoft CEO Satya Nadella wrote in a Saturday morning post that AI models need an \"emergency brake,\" saying it is time \"to step back and assess the trust architecture\" of AI, TechCrunch reports.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-10T23:06:00.395Z",
-      "lastMeaningfulUpdateAt": "2026-10-10T23:06:00.395Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-          "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-          "publishedAt": "2026-10-10T21:47:51.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "opinion"
       ]
     },
     {
@@ -1773,6 +1781,6 @@
       ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 117,
   "hasMore": true
 }
