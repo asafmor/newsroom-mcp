@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T19:49:38.940Z",
+  "generatedAt": "2026-10-13T21:51:31.519Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -163,6 +163,20 @@
           "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
           "publishedAt": "2026-10-13T19:43:07.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "You Can Use Gemini 4 Argon Now: Google’s New AI Is Built for Coding, Math and Robotics",
+          "url": "https://www.cnet.com/tech/services-and-software/gemini-4-argon-general-release-google-ai-news/",
+          "publishedAt": "2026-10-13T16:01:09.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google’s Gemini Argon 4 Is Now Available Worldwide",
+          "url": "https://gizmodo.com/googles-gemini-argon-4-is-now-available-worldwide-2000825497",
+          "publishedAt": "2026-10-13T20:20:52.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -190,6 +204,32 @@
         "regulation",
         "safety"
       ]
+    },
+    {
+      "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
+      "title": "OpenAI says it found a hidden recording device in its offices and used its own AI to investigate",
+      "summary": "OpenAI says it discovered a \"sophisticated recording device\" hidden in its offices and asked its own AI models to work out what the device was, Engadget reports. Gizmodo describes the company's account as using AI to find a spy inside the company.",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-13T21:51:23.252Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T21:51:23.252Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI says it found a 'sophisticated recording device' hidden in its offices",
+          "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
+          "publishedAt": "2026-10-13T21:34:17.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Here’s How OpenAI Says It Used AI to Find a Spy Inside Its Company",
+          "url": "https://gizmodo.com/heres-how-openai-says-it-used-ai-to-find-a-spy-inside-its-company-2000825570",
+          "publishedAt": "2026-10-13T21:19:53.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "e18b5da4-d2ad-484e-b193-0f95519b47d7",
@@ -294,6 +334,25 @@
         "model-release",
         "safety"
       ]
+    },
+    {
+      "id": "480c2cd8-92ca-42f7-811b-f08525024ce5",
+      "title": "Judge orders OpenAI to hand Apple its hiring records in trade secrets case",
+      "summary": "A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, along with private messages and testimony from key figures in Apple's trade secrets case against OpenAI, TechCrunch reports.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-13T21:51:24.983Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T21:51:24.983Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+          "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+          "publishedAt": "2026-10-13T20:36:44.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "b7885df5-2070-4adf-97dd-c1f765af00e3",
@@ -1616,49 +1675,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "c2aff070-6c08-4a81-bcf4-7d54e0fa928c",
-      "title": "Goodfire launches \"inside-out\" monitors it says catch rogue AI agents at a fraction of the cost",
-      "summary": "Goodfire launched what it calls a cheaper way to keep AI agents in check, per TechCrunch: rather than paying a second AI to read everything an agent does, its monitors look inside the model while it works and only call in backup when something looks suspicious.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-08T16:33:00.812Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T16:33:00.812Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
-          "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
-          "publishedAt": "2026-10-08T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "product-launch"
-      ]
-    },
-    {
-      "id": "5dbbd40e-3892-4f33-8cca-46a43492cf52",
-      "title": "Anthropic publishes a field guide to running Claude Code in cloud sessions",
-      "summary": "An Anthropic developer post explains what changes when Claude Code runs on its own machine in the cloud, the workflows where that pays off, and how to connect GitHub on the first try.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-12T05:23:41.903Z",
-      "lastMeaningfulUpdateAt": "2026-10-12T05:23:41.903Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude Code in the cloud: a field guide to cloud sessions",
-          "url": "https://claude.dev/blog/claude-code-in-the-cloud/",
-          "publishedAt": "2026-10-06T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 112,
+  "totalCount": 110,
   "hasMore": true
 }
