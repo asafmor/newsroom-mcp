@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T17:47:28.355Z",
+  "generatedAt": "2026-10-13T19:49:38.940Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -156,10 +156,39 @@
           "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
           "publishedAt": "2026-10-13T16:01:58.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Google DeepMind",
+          "title": "Developing Gemini 4 Argon responsibly and safely",
+          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+          "publishedAt": "2026-10-13T19:43:07.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "62f78cac-e003-4b60-8637-cd48db8471f4",
+      "title": "OpenAI and Anthropic tell British lawmakers to regulate them as the UK's spy chief warns of AI bioweapons",
+      "summary": "OpenAI and Anthropic asked British lawmakers to regulate them at a sweeping parliamentary session where AI leaders appeared alongside whistleblowers and security leaders, Wired reports. A few hundred meters away, Britain's spy chief warned that AI could be used to create new bioweapons.",
+      "importanceScore": 0.8,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-10-13T19:49:20.758Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T19:49:20.758Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
+          "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+          "publishedAt": "2026-10-13T19:35:29.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
       ]
     },
     {
@@ -187,6 +216,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "a7ab6865-1f65-455f-8bec-b1f55826115c",
+      "title": "Anthropic warns AI could soon spread across smart devices like a \"digital slime mold\"",
+      "summary": "Anthropic is warning about \"autonomous replication and adaptation,\" a risk Gizmodo describes as AI that could soon feed on smart devices like a \"digital slime mold\" and frames as a step beyond concerns about recursive self-improvement.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-13T19:49:23.018Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T19:49:23.018Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Could Soon Feed On Smart Devices Like a ‘Digital Slime Mold,’ Anthropic Warns",
+          "url": "https://gizmodo.com/ai-could-soon-feed-on-smart-devices-like-a-digital-slime-mold-anthropic-warns-2000825365",
+          "publishedAt": "2026-10-13T19:15:03.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
     },
     {
       "id": "c215ce3e-2572-4cbd-88fa-8f7199794b76",
@@ -331,6 +381,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "740a26f9-00e9-4b8c-811c-63addbf6e144",
+      "title": "Facebook gets \"Your Algorithm,\" Meta's AI-powered feed controls first launched on Instagram",
+      "summary": "Meta is bringing \"Your Algorithm,\" an AI-powered feature that gives users more control over what their feed recommends, to Facebook after first launching it on Instagram, TechCrunch reports.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-13T19:49:25.282Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T19:49:25.282Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Facebook is giving users more control over their algorithm",
+          "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+          "publishedAt": "2026-10-13T18:05:24.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "4269a779-6167-427d-8ea8-0fdd12d531b7",
@@ -518,6 +589,49 @@
       ]
     },
     {
+      "id": "2e48b2b9-9f43-4170-8fbe-be5a5aa61a8c",
+      "title": "Uber's CISO describes building an insider threat program for AI agents",
+      "summary": "In an Anthropic-published piece, Uber CISO Philip Martin makes the case for monitoring and observability of AI agents, and explains how Uber's open-source tooling works alongside Anthropic's Enterprise Frontier Safeguards.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-13T19:49:32.070Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T19:49:32.070Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Uber's CISO on building an insider threat program for AI",
+          "url": "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai",
+          "publishedAt": "2026-10-13T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption",
+        "safety"
+      ]
+    },
+    {
+      "id": "0172c194-d878-4191-b1ce-41041ec7f40d",
+      "title": "Higgsfield stretches AI video from 1 minute to over 10 using OpenAI's models",
+      "summary": "In an OpenAI customer story, AI video startup Higgsfield says it now offers creators videos longer than 10 minutes, up from 1, using GPT-6 Astra, with GPT-Image-2.5 for precise visuals and GPT-Live as a path to voice-driven filmmaking.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-13T19:49:27.808Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T19:49:27.808Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Higgsfield takes AI video from 1 minute to over 10",
+          "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+          "publishedAt": "2026-10-13T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "29f89e65-3f66-4358-8d3d-e9153a2c1f88",
       "title": "Liquid AI publishes LFM2.5-24B-A2B, pitched for fast, private on-device agents",
       "summary": "Liquid AI posted LFM2.5-24B-A2B on Hugging Face, pitching the model as a way to run fast, private AI agents on-device.",
@@ -557,6 +671,27 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "2a8180b4-bd0d-4aae-8897-2d269fbca7c0",
+      "title": "Cursor launches the Origin App Marketplace",
+      "summary": "Cursor's changelog announces the Origin App Marketplace. The source feed carried only the entry's title, so feature specifics aren't available yet.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-13T19:49:29.765Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T19:49:29.765Z",
+      "sources": [
+        {
+          "providerName": "Cursor Blog",
+          "title": "Origin App Marketplace",
+          "url": "https://cursor.com/changelog/origin-app-marketplace",
+          "publishedAt": "2026-10-13T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -873,6 +1008,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "432335c4-62bd-4e6f-b75b-a4158f8ccd40",
+      "title": "Flox Intelligence builds AI edge devices to keep wildlife away from trains, airports, and roads",
+      "summary": "Startup Flox Intelligence makes edge devices that identify animals and play species-specific sounds to drive them away from critical infrastructure such as rail lines, airports, and roads, TechCrunch reports.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-13T19:49:33.911Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T19:49:33.911Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+          "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+          "publishedAt": "2026-10-13T18:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "a4d5ef29-1033-48a2-ad4a-5055622f0467",
@@ -1503,250 +1657,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "7a5bc782-6da5-4b86-abdb-a68fc7c18399",
-      "title": "Anthropic publishes a reference implementation for scheduled Claude Managed Agents automations",
-      "summary": "An Anthropic developer post walks through a reference implementation of a scheduled Claude Managed Agents automation, including its config files and six rules for avoiding common failure modes.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-12T05:23:40.172Z",
-      "lastMeaningfulUpdateAt": "2026-10-12T05:23:40.172Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Building effective agent automations",
-          "url": "https://claude.dev/blog/building-effective-agent-automations/",
-          "publishedAt": "2026-10-08T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "14b56b28-1226-4a02-8ad1-ab08c58445f4",
-      "title": "Anthropic details automated eval design and hillclimbing with the claude-api skill",
-      "summary": "An Anthropic developer post lays out principles for designing evals and hillclimbing against them \"without fooling yourself,\" and shows how the claude-api skill's build-eval and hillclimb commands put them to work.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-12T05:23:38.278Z",
-      "lastMeaningfulUpdateAt": "2026-10-12T05:23:38.278Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Automating eval design and hillclimbing with Claude",
-          "url": "https://claude.dev/blog/automating-eval-design-and-hillclimbing/",
-          "publishedAt": "2026-10-07T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "d2c37bf1-8cb0-459c-8147-f9343a25ebea",
-      "title": "OpenAI's 377 new math results fall short of the field's standards as its feud with mathematicians deepens",
-      "summary": "OpenAI released 377 new math results on GitHub, and the flood of proofs is now reported to fall short of the field's standards.\n\n- New: TechCrunch reports the proofs deviated from guidelines set by a group of mathematical researchers OpenAI had consulted\n- The results landed alongside an OpenAI blog post that Gizmodo describes as \"hand-wringing\"; ahead of the release, one mathematician told Wired \"there's a perception of mobster behavior\" from leading AI companies\n- OpenAI earlier formed an independent Advisory Group on Mathematics and Artificial Intelligence to guide review and communication of AI results, but it has no leeway to slow or redirect the research\n- Twenty-five leading mathematicians signed an open letter arguing AI labs are threatening their intellectual work\n- OpenAI will no longer sponsor Caltech's \"Mathathon,\" though organizers say the event won't be substantially affected\n- The Information reports OpenAI is now attempting the Hodge Conjecture, with its main concern being how to announce a result without further infuriating mathematicians",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-12T12:48:10.132Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T18:34:24.154Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s feud with mathematicians is only escalating",
-          "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
-          "publishedAt": "2026-09-11T20:57:36.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Is Beefing With Mathematicians, Will No Longer Sponsor Caltech ‘Mathathon’",
-          "url": "https://gizmodo.com/openai-is-beefing-with-mathematicians-will-no-longer-sponsor-caltech-mathathon-2000810868",
-          "publishedAt": "2026-09-12T01:05:18.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
-          "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
-          "publishedAt": "2026-09-11T16:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Reportedly Trying to Solve Hodge Conjecture Amid Feud With Math Community",
-          "url": "https://gizmodo.com/openai-reportedly-trying-to-solve-hodge-conjecture-amid-feud-with-math-community-2000813658",
-          "publishedAt": "2026-09-18T00:10:47.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Mathematicians Hate AI. They Can’t Quit It",
-          "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
-          "publishedAt": "2026-09-19T10:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Advisory Group on Mathematics and Artificial Intelligence",
-          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-          "publishedAt": "2026-09-21T12:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
-          "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
-          "publishedAt": "2026-09-21T20:15:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI GPT Bel Solves Over 100 Historic Math Problems",
-          "url": "https://www.geeky-gadgets.com/latest-ai-models-performance/",
-          "publishedAt": "2026-09-22T12:17:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Mathematics Just Got Its First Taste of the AI Job-Pocalypse",
-          "url": "https://gizmodo.com/mathematics-just-got-its-first-taste-of-the-ai-job-pocalypse-2000812872",
-          "publishedAt": "2026-09-22T15:55:13.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "OpenAI Is Pissing Off a Bunch of Mathematicians—Again",
-          "url": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
-          "publishedAt": "2026-10-06T17:28:33.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Dumps 377 New Math Results on GitHub, Publishes Hand-Wringing Blog Post",
-          "url": "https://gizmodo.com/openai-dumps-377-new-math-results-on-github-publishes-hand-wringing-blog-post-2000822613",
-          "publishedAt": "2026-10-07T01:50:52.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI just posted hundreds more results on major math problems",
-          "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/",
-          "publishedAt": "2026-10-07T13:08:45.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
-          "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
-          "publishedAt": "2026-10-08T18:10:55.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "AI’s Problem Solving Is a ‘Profound Disruption’ for the Math Community",
-          "url": "https://www.cnet.com/tech/services-and-software/ai-causing-profound-disruption-math-research/",
-          "publishedAt": "2026-10-09T15:37:41.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "a027fb23-ed71-4146-8980-92870fe1d17e",
-      "title": "AI leaderboard Arena raises $200M at a $3.1B valuation, nearly doubling in 10 months",
-      "summary": "The company behind the popular LMArena leaderboard raised $200 million led by Lightspeed and Khosla at a $3.1 billion valuation, nearly double its valuation 10 months ago. It is also now measuring AI models on alignment issues such as lying.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-08T18:34:16.206Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T18:34:16.206Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
-          "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
-          "publishedAt": "2026-10-08T18:19:45.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "654fd72e-98e4-4178-afd9-c0b7a9b93f01",
-      "title": "Microsoft introduces Execution Containers to keep AI agents contained on Windows",
-      "summary": "Microsoft's Execution Containers give Windows developers control over how much access AI agents get, per CNET — ranging from a \"kill switch\" to a permissive \"YOLO mode.\" The feature is pitched as a cybersecurity measure for keeping agents contained.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-09T02:40:12.448Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T02:40:12.448Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "How Microsoft Is Trying to Keep Your AI Agents Contained",
-          "url": "https://www.cnet.com/tech/services-and-software/microsoft-execution-containers-ai-agent-cybersecurity-news/",
-          "publishedAt": "2026-10-08T20:53:29.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "safety"
-      ]
-    },
-    {
-      "id": "be74f75e-c21f-4d9d-a5a8-d7567d49f833",
-      "title": "OpenAI disrupts two AI-enabled \"false front\" influence operations",
-      "summary": "OpenAI says it disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-08T16:33:02.642Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T16:33:02.642Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Disrupting AI-enabled “false front” operations",
-          "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-          "publishedAt": "2026-10-08T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "68baf6c9-ab31-4019-b017-9ec7bf8de0c3",
-      "title": "Manus raises over $500M in its first funding round since its split with Meta",
-      "summary": "AI agent startup Manus has raised more than $500M in its first funding round since its merger with Meta fell through, TechCrunch reports.\n\n- Boyu Capital and IDG Capital led the round\n- Existing shareholders Tencent, HSG (formerly Sequoia China), ZhenFund, and others also participated\n- Manus had earlier been reported to be seeking $500M at a $4B valuation as it resumed independent operations",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-18T18:33:42.051Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T14:32:07.948Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
-          "url": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
-          "publishedAt": "2026-09-18T16:35:49.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "China’s Manus raises over $500M in first funding round since split with Meta",
-          "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
-          "publishedAt": "2026-10-08T13:20:32.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
     }
   ],
-  "totalCount": 107,
+  "totalCount": 112,
   "hasMore": true
 }
