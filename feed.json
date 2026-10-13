@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-10-13T11:42:29.617Z",
+  "generatedAt": "2026-10-13T13:44:23.237Z",
   "stories": [
+    {
+      "id": "e18b5da4-d2ad-484e-b193-0f95519b47d7",
+      "title": "Character.AI files for bankruptcy five years in, selling some assets to Disney for $20M",
+      "summary": "Interactive chatbot platform Character.AI has filed for Chapter 11 bankruptcy just five years after its founding, TechCrunch reports. The startup will sell some of its assets to Disney for $20 million.",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-13T13:44:13.374Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T13:44:13.374Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+          "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+          "publishedAt": "2026-10-13T12:23:42.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
     {
       "id": "c215ce3e-2572-4cbd-88fa-8f7199794b76",
       "title": "Meta's Muse Wonder, its biggest model, rivals the frontier and adds safeguards for agents",
@@ -44,10 +63,38 @@
           "url": "https://gizmodo.com/mark-zuckerberg-meta-is-on-the-frontier-now-2000825035",
           "publishedAt": "2026-10-13T00:36:42.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "How Meta Muse Wonder Stacks Up Against GPT 6.1 Sol",
+          "url": "https://www.geeky-gadgets.com/muse-wonder/",
+          "publishedAt": "2026-10-13T12:43:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "0ec29bc7-da13-4da2-a8c6-91a30c3de730",
+      "title": "American Express introduces a framework to stop AI agents from making unauthorized purchases",
+      "summary": "American Express is introducing a framework designed to ensure AI agents only make purchases their users have authorized. TechCrunch says it could prevent costly mistakes and payment disputes as AI-powered shopping grows.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-13T13:44:11.270Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T13:44:11.270Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+          "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+          "publishedAt": "2026-10-13T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -1572,56 +1619,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "81d010eb-69e2-41ef-ae1e-1e6519947e7f",
-      "title": "Executives say voice AI hasn't had its \"ChatGPT moment\" yet",
-      "summary": "Executives interviewed by TechCrunch argue voice AI has yet to reach its \"ChatGPT moment.\" A recurring weakness: voice systems often miss important points for their context layer, which causes the whole pipeline to break.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-11T15:14:04.933Z",
-      "lastMeaningfulUpdateAt": "2026-10-11T15:14:04.933Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
-          "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-          "publishedAt": "2026-10-11T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "9b0a52be-5c1f-4335-862a-246adca9f0a7",
-      "title": "Meta rolls out AI tools to catch ads that covertly lead to child abuse material, after San Francisco's demand",
-      "summary": "Meta is deploying new AI detection tools against ads tied to child sexual abuse material, weeks after San Francisco pressed it over such ads.\n\n- New: the tools target ads that look normal but direct users to harmful content elsewhere online, which Meta says it discovered on its platforms (TechCrunch)\n- Earlier, San Francisco's City Attorney's Office asked Meta to explain how AI-generated child abuse ads repeatedly ran on Facebook and Instagram\n- Meta claimed those ads weren't under the city's jurisdiction",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-11T05:35:41.842Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T18:20:32.147Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
-          "url": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
-          "publishedAt": "2026-09-09T21:15:27.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
-          "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
-          "publishedAt": "2026-10-07T16:53:46.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
     }
   ],
   "totalCount": 106,
