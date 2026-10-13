@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T07:40:17.271Z",
+  "generatedAt": "2026-10-13T09:41:21.448Z",
   "stories": [
     {
       "id": "c215ce3e-2572-4cbd-88fa-8f7199794b76",
@@ -50,6 +50,25 @@
         "model-release",
         "safety"
       ]
+    },
+    {
+      "id": "b6e621d2-3bc5-4d9d-9a8c-2bc63bd44a5e",
+      "title": "AI labs are buying data from dead startups to train their models",
+      "summary": "MIT Technology Review reports that AI labs are paying for the digital archives of shuttered startups to use as training data. One founder winding down his crypto startup netted roughly $25,000 for its code base, with a further payment still pending.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-13T09:41:12.047Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T09:41:12.047Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "AI labs are buying data from dead startups to train their models",
+          "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+          "publishedAt": "2026-10-13T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "4269a779-6167-427d-8ea8-0fdd12d531b7",
@@ -187,6 +206,27 @@
       ]
     },
     {
+      "id": "4f77070e-e963-4eac-8389-6b583051bd11",
+      "title": "X bundles Premium, Grok, and Cursor under a single monthly subscription",
+      "summary": "Engadget reports a newly announced subscription scheme that combines access to Grok, Grok Bot, Cursor, and X Premium under one monthly plan.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-13T09:41:14.045Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T09:41:14.045Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "X bundles Premium, Grok and Cursor under a single monthly subscription",
+          "url": "https://www.engadget.com/2284943/x-subscription-bundles-premium-grok-cursor/",
+          "publishedAt": "2026-10-13T08:44:18.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "c09bb8f5-3bb5-4d0f-a6b5-e98cd66c1dd7",
       "title": "Claude gets a Google Workspace add-on and connectors for Docs, Sheets, and Slides",
       "summary": "Anthropic released a new add-on plus Google Docs, Sheets, and Slides connectors, in beta, so teams on Google Workspace can bring Claude into their files or work on those files directly from Claude.",
@@ -226,6 +266,27 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "26b065cf-b8be-4723-a016-d97597240782",
+      "title": "Microsoft opens Copilot Notebooks in OneNote to every Microsoft 365 tier",
+      "summary": "Microsoft's fall 2026 OneNote update brings six new features, led by making Copilot Notebooks available to all Microsoft 365 users regardless of subscription level. Copilot Notebooks can analyze existing notes and propose organizational structures, across desktop, web, iOS, and Mac.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-13T09:41:16.261Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T09:41:16.261Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Microsoft 365 Unlocks Copilot Notebooks for Every User Tier",
+          "url": "https://www.geeky-gadgets.com/new-microsoft-onenote-features/",
+          "publishedAt": "2026-10-13T08:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1597,105 +1658,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "382233be-a117-4b88-88f9-9699dbbaf39a",
-      "title": "Anthropic expands its Genesis Mission commitment to American scientific discovery",
-      "summary": "Anthropic published a post titled \"Building on our commitment to American scientific discovery,\" tied to the Genesis Mission. The feed entry carries no details beyond the announcement itself.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-08T20:36:20.316Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T20:36:20.316Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Building on our commitment to American scientific discovery",
-          "url": "https://www.anthropic.com/news/genesis-mission-commitment",
-          "publishedAt": "2026-10-08T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "b6893563-a904-420b-9d1f-d834f4b98cf6",
-      "title": "Google launches a public SynthID Detector site for identifying AI-generated media",
-      "summary": "Google launched SynthID Detector, a website that lets anyone check whether an image, video, or audio clip was generated with AI. Per Engadget, it flags content made with AI tools from OpenAI, Google, Apple, and other companies. Gizmodo cautions it isn't perfect: in its test, the tool treated a fake photo as real.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-07T14:18:11.870Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T14:18:11.870Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google’s new SynthID website can identify AI-generated media",
-          "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
-          "publishedAt": "2026-10-07T14:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google's AI detection website is now available",
-          "url": "https://www.engadget.com/2279565/google-synth-id-detector-ai-detection-website-is-now-available/",
-          "publishedAt": "2026-10-07T14:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Launches New Website to Detect AI Fakes, But Don’t Assume It’s Perfect",
-          "url": "https://gizmodo.com/google-launches-new-website-to-detect-ai-fakes-but-dont-assume-its-perfect-2000823038",
-          "publishedAt": "2026-10-07T18:25:27.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Is That Picture AI? Google’s SynthID Detector Launches to Identify AI-Generated Media",
-          "url": "https://www.cnet.com/tech/services-and-software/google-synthid-detector-launches/",
-          "publishedAt": "2026-10-08T09:33:53.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "safety"
-      ]
-    },
-    {
-      "id": "b9b796eb-9f8f-4f1c-9a57-46d82ee5e6cb",
-      "title": "Microsoft unveils Nvidia-chip Surface Laptop Ultra AI PCs and a revamped Windows 11 with Copilot-powered search",
-      "summary": "At its October 7 Windows, Surface and AI event, Microsoft paired new AI PC hardware with an AI-centered Windows refresh.\n\n- Revealed specs and pricing for the Surface Laptop Ultra, AI PCs running on Nvidia chips designed to run AI models and agents, per TechCrunch\n- The machines ship with a revamped Windows 11\n- Windows search is being rebuilt around Copilot as a chatbot, arriving this fall, Engadget reports",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-02T15:11:24.581Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T22:23:19.541Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "What to expect at Microsoft's Windows, Surface and AI event on October 7",
-          "url": "https://www.engadget.com/2275196/microsoft-surface-windows-event-october-7-preview/",
-          "publishedAt": "2026-10-02T13:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Microsoft may have finally fixed Windows search by turning it into a chatbot",
-          "url": "https://www.engadget.com/2280310/microsoft-may-have-finally-fixed-windows-search-by-turning-it-into-a-chatbot/",
-          "publishedAt": "2026-10-07T17:47:14.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-          "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-          "publishedAt": "2026-10-07T20:22:37.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 101,
+  "totalCount": 103,
   "hasMore": true
 }
