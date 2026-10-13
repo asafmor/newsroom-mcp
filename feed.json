@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T09:41:21.448Z",
+  "generatedAt": "2026-10-13T11:42:29.617Z",
   "stories": [
     {
       "id": "c215ce3e-2572-4cbd-88fa-8f7199794b76",
@@ -50,6 +50,25 @@
         "model-release",
         "safety"
       ]
+    },
+    {
+      "id": "0208bc1d-912f-49dd-825f-ab05bbb47e7a",
+      "title": "Pro-AI super PAC network Leading the Future has poured millions into Nevada shell companies, Wired reports",
+      "summary": "Wired reports that Leading the Future, the biggest pro-AI super PAC network, has poured millions into Nevada shell companies. Backed by Silicon Valley titans, the network has raised huge sums to promote pro-AI candidates on both sides of the aisle.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-13T11:42:19.885Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T11:42:19.885Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies",
+          "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
+          "publishedAt": "2026-10-13T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "b6e621d2-3bc5-4d9d-9a8c-2bc63bd44a5e",
@@ -178,6 +197,28 @@
       ]
     },
     {
+      "id": "f767fca0-dbac-416a-bebb-1ffe520c2044",
+      "title": "MIT Technology Review weighs open models' benefits against their risks after Anthropic's GLM-5.3 cyberattack warning",
+      "summary": "An MIT Technology Review explainer asks whether the real benefits of open models outweigh their risks. It follows a report Anthropic released late last month arguing that the model GLM-5.3 poses a major cyberattack risk.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-13T11:42:22.256Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T11:42:22.256Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "Open models have real benefits. Do they outweigh the risks?",
+          "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+          "publishedAt": "2026-10-13T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source",
+        "safety"
+      ]
+    },
+    {
       "id": "1bb24398-d1c5-45c6-9942-2fc4de719814",
       "title": "Anthropic launches Claude Dashboards and Claude Motion in beta, brings Docs, Slides, and Design to every plan",
       "summary": "Anthropic put two new Claude creation tools into beta: Claude Dashboards, for building live dashboards, and Claude Motion, for animated explainers. At the same time, Docs, Slides, and Design are out of beta and available on every Claude plan, including Free.",
@@ -246,6 +287,25 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "a8d9bca4-3198-428a-a668-b00973d5b235",
+      "title": "Wired: Wikipedians thought AI would come and go, and Wikipedia's usage is now declining",
+      "summary": "A Wired book excerpt reports that Wikipedia usage is declining in a world of AI Overviews, after Wikipedians believed AI would come and go. It argues the real loss may be far more existential than website traffic.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-13T11:42:17.676Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T11:42:17.676Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Wikipedians Believed AI Would Come and Go. They Were Wrong",
+          "url": "https://www.wired.com/story/book-excerpt-the-last-best-place-on-the-internet-wikipedia-artificial-intelligence/",
+          "publishedAt": "2026-10-13T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "c0511c61-bf88-416c-8b11-66462525c9b2",
@@ -1562,104 +1622,8 @@
         "regulation",
         "safety"
       ]
-    },
-    {
-      "id": "a95a4df5-519e-4874-a3c3-b8865b224fdb",
-      "title": "OpenAI rolls out an \"Intelligent UI\" that brings interactive visuals to ChatGPT",
-      "summary": "OpenAI is updating ChatGPT for all users with a new \"Intelligent UI\" that makes the chatbot more visual, generating interactive graphics as part of its answers. The visuals are powered by GPT-6, which is now rolling out to free users, per CNET, Wired and TechCrunch.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-07T18:20:24.414Z",
-      "lastMeaningfulUpdateAt": "2026-10-07T18:20:24.414Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
-          "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
-          "publishedAt": "2026-10-07T18:00:19.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "The New ChatGPT Is More Show Than Tell",
-          "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
-          "publishedAt": "2026-10-07T18:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "GPT-6 for All: Your ChatGPT Answers Are Getting a Very Visual Makeover",
-          "url": "https://www.cnet.com/tech/services-and-software/gpt-6-for-chatgpt-visual-intelligence-ui/",
-          "publishedAt": "2026-10-07T19:45:20.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Wants ChatGPT to Stop Looking Like a Chatbot",
-          "url": "https://gizmodo.com/openai-wants-chatgpt-to-stop-looking-like-a-chatbot-2000823211",
-          "publishedAt": "2026-10-07T21:15:33.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "GPT-6 is coming to all tiers of ChatGPT",
-          "url": "https://www.engadget.com/2280879/gpt-6-coming-all-tiers-chatgpt/",
-          "publishedAt": "2026-10-08T08:45:16.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Control ChatGPT 6 Output Depth with the New Reasoning Slider",
-          "url": "https://www.geeky-gadgets.com/chatgpt-space/",
-          "publishedAt": "2026-10-12T06:45:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "5c220076-5cbc-4744-a765-b91cbee9308d",
-      "title": "Three fired OpenAI employees urge that chain-of-thought monitoring be preserved",
-      "summary": "Three employees fired by OpenAI have published a plea for chain-of-thought monitoring — the ability to inspect a model's reasoning as a safety check — to be preserved. Gizmodo reports OpenAI says it agrees with their recommendations despite having dismissed them.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-08T02:26:02.915Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T02:26:02.915Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "3 Fired OpenAI Employees Write Plea for Chain of Thought Monitoring to Be Preserved",
-          "url": "https://gizmodo.com/3-fired-openai-employees-write-plea-for-chain-of-thought-monitoring-to-be-preserved-2000823349",
-          "publishedAt": "2026-10-08T02:19:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "471ee20f-d0da-409d-b80a-6168435eac98",
-      "title": "AI agents reportedly reproduce the gender pay gap",
-      "summary": "AI agents have recreated the gender pay gap, Gizmodo reports, framing it as the same sexism carried over into automated systems.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-10T15:02:09.067Z",
-      "lastMeaningfulUpdateAt": "2026-10-10T15:02:09.067Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Agents Successfully Recreate the Gender Pay Gap",
-          "url": "https://gizmodo.com/ai-agents-successfully-recreate-the-gender-pay-gap-2000824400",
-          "publishedAt": "2026-10-10T13:44:03.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 103,
+  "totalCount": 106,
   "hasMore": true
 }
