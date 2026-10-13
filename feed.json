@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:51:31.519Z",
+  "generatedAt": "2026-10-13T23:53:29.639Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -207,12 +207,12 @@
     },
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
-      "title": "OpenAI says it found a hidden recording device in its offices and used its own AI to investigate",
-      "summary": "OpenAI says it discovered a \"sophisticated recording device\" hidden in its offices and asked its own AI models to work out what the device was, Engadget reports. Gizmodo describes the company's account as using AI to find a spy inside the company.",
-      "importanceScore": 0.72,
+      "title": "OpenAI engineer allegedly used a chatbot to help plant a recording device found in an executive meeting room",
+      "summary": "OpenAI says it found a \"sophisticated recording device\" hidden in its offices, and an employee is now alleged to have planted it with a chatbot's help.\n\n- Wired reports chatbot prompts reveal an engineer's alleged efforts to set up a covert listening device days before one was found\n- The device was discovered in a meeting room used by high-level executives\n- OpenAI says it asked its own AI models to work out what the device was, per Engadget\n- Gizmodo describes the company's account as using AI to find a spy inside the company",
+      "importanceScore": 0.75,
       "relevanceScore": 0.85,
       "firstSeenAt": "2026-10-13T21:51:23.252Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T21:51:23.252Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T23:53:15.435Z",
       "sources": [
         {
           "providerName": "Engadget AI",
@@ -227,6 +227,13 @@
           "url": "https://gizmodo.com/heres-how-openai-says-it-used-ai-to-find-a-spy-inside-its-company-2000825570",
           "publishedAt": "2026-10-13T21:19:53.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
+          "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+          "publishedAt": "2026-10-13T23:17:59.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": []
@@ -380,6 +387,27 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "f9134f8d-19b7-42b6-b3b5-ac9b6244866a",
+      "title": "Shifting AI doomsday predictions reportedly worry European banking regulators",
+      "summary": "Gizmodo reports that shifting AI doomsday predictions are worrying banking regulators, with European regulators expecting AI-driven financial chaos sooner rather than later.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-13T23:53:22.388Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T23:53:22.388Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Shifting AI Doomsday Predictions Reportedly Worry Banking Regulators",
+          "url": "https://gizmodo.com/shifting-ai-doomsday-predictions-reportedly-worry-banking-regulators-2000825460",
+          "publishedAt": "2026-10-13T23:29:31.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
       ]
     },
     {
@@ -733,6 +761,34 @@
       ]
     },
     {
+      "id": "749f5625-b100-42ef-8031-ce7c70407bbd",
+      "title": "Cerebras CEO tells AI leaders to stop the doomsday warnings and predicts a personal AI assistant in every home",
+      "summary": "At TechCrunch Disrupt, Cerebras CEO Andrew Feldman argued that the industry's focus on AI's risks is drowning out its potential benefits, suggesting leaders spreading doomsday warnings should \"maybe stop talking.\" He also predicted personal AI assistants will become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-13T23:53:18.228Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T23:53:18.228Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Cerebras CEO pushes back on AI doomsday warnings",
+          "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+          "publishedAt": "2026-10-13T22:36:59.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+          "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+          "publishedAt": "2026-10-13T23:05:34.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "2a8180b4-bd0d-4aae-8897-2d269fbca7c0",
       "title": "Cursor launches the Origin App Marketplace",
       "summary": "Cursor's changelog announces the Origin App Marketplace. The source feed carried only the entry's title, so feature specifics aren't available yet.",
@@ -1018,6 +1074,25 @@
         "funding",
         "product-launch"
       ]
+    },
+    {
+      "id": "44dcd15b-1d70-4e96-8e7d-846eb63e895f",
+      "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+      "summary": "Startup Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor, aiming to let factory robots switch between tasks in minutes rather than weeks, TechCrunch reports. The company is part of TechCrunch Disrupt's Startup Battlefield 200.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-10-13T23:53:20.281Z",
+      "lastMeaningfulUpdateAt": "2026-10-13T23:53:20.281Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+          "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+          "publishedAt": "2026-10-13T23:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "7b34d9d8-ab51-4eab-bedb-39710f55bd11",
@@ -1584,95 +1659,6 @@
       "tags": [
         "product-launch",
         "open-source",
-        "safety"
-      ]
-    },
-    {
-      "id": "2918d98a-a281-4b84-83d0-5ca97f9f3073",
-      "title": "Cloudflare adds multimodal Clef-omni to its decision model family, with a faster Clef and cheaper Clef-flash",
-      "summary": "Cloudflare expanded its Clef decision model family with Clef-omni, which natively processes audio, video, images, and text in a single pipeline. It also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2x.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-09T20:51:16.266Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T20:51:16.266Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
-          "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
-          "publishedAt": "2026-10-09T18:27:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "ab74b682-204e-442a-94f3-7ea112144891",
-      "title": "Anti-cybercrime groups are using lifelike AI bots to scam the scammers",
-      "summary": "Wired reports that anti-cybercrime initiatives are increasingly deploying AI to turn the tables on scammers, tricking them into talking to lifelike bots they believe are real victims.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-10T13:01:04.031Z",
-      "lastMeaningfulUpdateAt": "2026-10-10T13:01:04.031Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AI Is Getting Really Good at Messing With Cybercriminals",
-          "url": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
-          "publishedAt": "2026-10-10T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "88d9fcb4-0114-441d-ab51-3285043a1d8e",
-      "title": "Anthropic updates its usage policy to ban extreme abuse of Claude and election interference",
-      "summary": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, while still allowing ordinary frustration and criticism. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-08T18:34:22.540Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T18:34:22.540Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic changes usage policy to ban model abuse and election interference",
-          "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-          "publishedAt": "2026-10-08T18:16:24.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "2026 Usage Policy update",
-          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
-          "publishedAt": "2026-10-08T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Moves Us One Step Closer to Making ‘Clanker’ a Slur",
-          "url": "https://gizmodo.com/anthropic-moves-us-one-step-closer-to-making-clanker-a-slur-2000823772",
-          "publishedAt": "2026-10-08T20:40:39.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic bans 'sustained and needless abusive or cruel behavior' toward its AI models",
-          "url": "https://www.engadget.com/2281765/anthropic-bans-sustained-and-needless-abusive-or-cruel-behavior-toward-its-ai-models/",
-          "publishedAt": "2026-10-08T21:17:24.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Don’t Be Cruel to Claude: Anthropic’s New Abuse Policy Tests AI Personhood",
-          "url": "https://www.cnet.com/tech/services-and-software/anthropic-cruel-claude-ai-model-abuse/",
-          "publishedAt": "2026-10-09T22:47:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
         "safety"
       ]
     }
