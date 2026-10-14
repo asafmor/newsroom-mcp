@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T16:04:26.049Z",
+  "generatedAt": "2026-10-14T18:06:29.183Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -386,6 +386,27 @@
       ]
     },
     {
+      "id": "5a4b4cb6-4cef-4b72-b3b8-19906efe11aa",
+      "title": "xAI introduces Grok Voice 3.0, billed as \"the world's most intelligent voice model\"",
+      "summary": "xAI announced Grok Voice 3.0, its next-generation voice model, which it calls \"the world's most intelligent voice model.\" The announcement gave no detail on benchmarks, pricing, or availability.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-14T18:06:16.961Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T18:06:16.961Z",
+      "sources": [
+        {
+          "providerName": "xAI News",
+          "title": "Introducing Grok Voice 3.0",
+          "url": "https://x.ai/news/grok-voice-3",
+          "publishedAt": "2026-10-14T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "480c2cd8-92ca-42f7-811b-f08525024ce5",
       "title": "Judge orders OpenAI to hand Apple its hiring records in trade secrets case",
       "summary": "A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, along with private messages and testimony from key figures in Apple's trade secrets case against OpenAI, TechCrunch reports.",
@@ -641,6 +662,48 @@
         "safety",
         "regulation",
         "opinion"
+      ]
+    },
+    {
+      "id": "dad9d34a-6c02-4564-8c00-47cfc0aa946b",
+      "title": "Demis Hassabis puts a hopeful spin on AI's environmental impact",
+      "summary": "Speaking at an international AI summit, Google DeepMind co-founder Demis Hassabis played up AI's role in scientific discovery and said he expects it to deliver positive outcomes in tackling climate change, offsetting concerns about its environmental footprint.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-14T18:06:24.038Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T18:06:24.038Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Google’s Demis Hassabis Puts a Hopeful Spin on AI’s Environmental Impact",
+          "url": "https://www.cnet.com/tech/services-and-software/international-ai-summit-demis-hassabis-climate/",
+          "publishedAt": "2026-10-14T13:39:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "5afff878-74f3-4fde-a862-e9a5db9206ed",
+      "title": "Ai2's HiRO-ACEv2 simulates extreme weather at 3 km resolution for a fraction of the cost",
+      "summary": "Allen AI introduced HiRO-ACEv2, an AI climate/weather emulator that simulates extreme weather at 3 km resolution at a fraction of the computational cost of conventional high-resolution simulation.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-14T18:06:19.360Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T18:06:19.360Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+          "publishedAt": "2026-10-14T16:12:42.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -902,6 +965,27 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "404fcca0-e2fc-4904-ab9f-114d110c4885",
+      "title": "Amp pushes its AI agents beyond coding with OpenAI's GPT-6 Astra and GPT-Live-1",
+      "summary": "An OpenAI customer story describes how Amp is extending its agents beyond coding work, building on GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-14T18:06:21.766Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T18:06:21.766Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Amp puts AI agents to work beyond code with OpenAI models",
+          "url": "https://openai.com/index/amp-beyond-coding",
+          "publishedAt": "2026-10-14T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -1319,112 +1403,6 @@
         "funding",
         "product-launch"
       ]
-    },
-    {
-      "id": "44dcd15b-1d70-4e96-8e7d-846eb63e895f",
-      "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
-      "summary": "Startup Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor, aiming to let factory robots switch between tasks in minutes rather than weeks, TechCrunch reports. The company is part of TechCrunch Disrupt's Startup Battlefield 200.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-10-13T23:53:20.281Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T23:53:20.281Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
-          "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
-          "publishedAt": "2026-10-13T23:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "7b34d9d8-ab51-4eab-bedb-39710f55bd11",
-      "title": "Fired OpenAI safety researchers dispute misconduct claims and warn of a chilling effect",
-      "summary": "Three safety researchers fired by OpenAI are publicly disputing the company's account of why they were dismissed.\n\n- In an open letter, they reject the allegation that they mishandled sensitive information and warn their dismissals are chilling OpenAI's AI safety culture, TechCrunch reports\n- OpenAI parted ways with them after an internal investigation, as first reported by the Wall Street Journal\n- A company spokesperson accused them of \"breaking the trust essential to our work,\" per Gizmodo\n- Engadget reports the three allegedly shared information with an external AI safety group",
-      "importanceScore": 0.8,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-02T05:03:44.398Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T20:36:14.682Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
-          "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
-          "publishedAt": "2026-10-01T18:14:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Ousts Three Safety Researchers for Allegedly Mishandling ‘Sensitive Information’",
-          "url": "https://gizmodo.com/openai-ousts-three-safety-researchers-for-allegedly-mishandling-sensitive-information-2000820515",
-          "publishedAt": "2026-10-01T20:50:26.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI fires three employees who allegedly shared info with an external AI safety group",
-          "url": "https://www.engadget.com/2275278/openai-fires-three-employees-who-allegedly-shared-info-with-an-external-ai-safety-group/",
-          "publishedAt": "2026-10-01T22:05:43.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
-          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-          "publishedAt": "2026-10-08T20:04:26.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Fired OpenAI safety researchers dispute their dismissals in open letter",
-          "url": "https://www.engadget.com/2281966/fired-openai-safety-researchers-dispute-their-dismissals-in-open-letter/",
-          "publishedAt": "2026-10-09T08:25:18.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "432335c4-62bd-4e6f-b75b-a4158f8ccd40",
-      "title": "Flox Intelligence builds AI edge devices to keep wildlife away from trains, airports, and roads",
-      "summary": "Startup Flox Intelligence makes edge devices that identify animals and play species-specific sounds to drive them away from critical infrastructure such as rail lines, airports, and roads, TechCrunch reports.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-13T19:49:33.911Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T19:49:33.911Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
-          "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
-          "publishedAt": "2026-10-13T18:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "d5c19992-1cae-4b53-9921-8f61e6df43ae",
-      "title": "Floqer's AI agents research sales prospects for B2B revenue teams",
-      "summary": "Floqer, a TechCrunch Disrupt Startup Battlefield 200 company, builds AI agents that research sales prospects so B2B sales and revenue-operations teams don't have to do it by hand.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-14T16:04:17.179Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T16:04:17.179Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
-          "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
-          "publishedAt": "2026-10-14T15:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 115,
