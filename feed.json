@@ -1,6 +1,62 @@
 {
-  "generatedAt": "2026-10-14T18:06:29.183Z",
+  "generatedAt": "2026-10-14T20:08:42.477Z",
   "stories": [
+    {
+      "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
+      "title": "FBI arrests OpenAI employee suspected of using a chatbot to help plant a bug in an executive meeting room",
+      "summary": "The FBI has arrested an OpenAI employee suspected of planting a hidden recording device in the company's offices, allegedly with a chatbot's help.\n\n- CNET reports US intelligence and security officials say espionage inside AI labs poses a national security threat\n- Wired reports chatbot prompts reveal the engineer's alleged efforts to set up a covert listening device days before one was found in a meeting room used by top executives\n- OpenAI says it asked its own AI models to work out what the device was, per Engadget\n- Gizmodo notes the \"sophisticated\" bug appears to be a $13.99 Seeed Studio hobbyist board, and that the accused cited Elon Musk as a role model",
+      "importanceScore": 0.78,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-13T21:51:23.252Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T20:08:20.566Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI says it found a 'sophisticated recording device' hidden in its offices",
+          "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
+          "publishedAt": "2026-10-13T21:34:17.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Here’s How OpenAI Says It Used AI to Find a Spy Inside Its Company",
+          "url": "https://gizmodo.com/heres-how-openai-says-it-used-ai-to-find-a-spy-inside-its-company-2000825570",
+          "publishedAt": "2026-10-13T21:19:53.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
+          "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+          "publishedAt": "2026-10-13T23:17:59.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "The ‘Sophisticated’ Bug OpenAI Found in Its Conference Room Can Be Yours for $13.99",
+          "url": "https://gizmodo.com/the-sophisticated-bug-openai-found-in-its-conference-room-can-be-yours-for-13-99-2000825636",
+          "publishedAt": "2026-10-14T02:00:35.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "FBI Arrests OpenAI Employee Suspected of Planting a Surveillance Bug",
+          "url": "https://www.cnet.com/tech/services-and-software/openai-employee-fbi-arrest-recording-device-news/",
+          "publishedAt": "2026-10-14T17:25:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Man Accused of Bugging OpenAI Said Elon Musk Was His Role Model",
+          "url": "https://gizmodo.com/man-accused-of-bugging-openai-said-elon-musk-was-his-role-model-2000825897",
+          "publishedAt": "2026-10-14T18:40:07.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
       "title": "Google rolls out Gemini 4 Argon to the Gemini app and AI Mode in Search after a cyber-defenders-first launch",
@@ -206,41 +262,27 @@
       ]
     },
     {
-      "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
-      "title": "OpenAI engineer allegedly used a chatbot to help plant a recording device found in an executive meeting room",
-      "summary": "OpenAI says it found a \"sophisticated recording device\" hidden in its offices, and an employee is now alleged to have planted it with a chatbot's help.\n\n- Wired reports chatbot prompts reveal an engineer's alleged efforts to set up a covert listening device days before one was found\n- The device was discovered in a meeting room used by high-level executives\n- OpenAI says it asked its own AI models to work out what the device was, per Engadget\n- Gizmodo notes the \"sophisticated\" bug appears to be a Seeed Studio XIAO ESP32-S3 Sense, a $13.99 board for hobbyist tinkerers",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-13T21:51:23.252Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T23:53:15.435Z",
+      "id": "480c2cd8-92ca-42f7-811b-f08525024ce5",
+      "title": "Apple and OpenAI head to court in trade secrets fight as OpenAI turns the tables",
+      "summary": "Apple's lawsuit accusing OpenAI of stealing trade secrets through former Apple employees heads to court this week.\n\n- Gizmodo reports OpenAI is turning the tables on Apple ahead of the hearing\n- A federal judge earlier ruled Apple can access OpenAI's interview materials involving former Apple employees, plus private messages and testimony from key figures, per TechCrunch",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-13T21:51:24.983Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T20:08:23.700Z",
       "sources": [
         {
-          "providerName": "Engadget AI",
-          "title": "OpenAI says it found a 'sophisticated recording device' hidden in its offices",
-          "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
-          "publishedAt": "2026-10-13T21:34:17.000Z",
+          "providerName": "TechCrunch AI",
+          "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+          "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+          "publishedAt": "2026-10-13T20:36:44.000Z",
           "contribution": "supporting"
         },
         {
           "providerName": "Gizmodo AI",
-          "title": "Here’s How OpenAI Says It Used AI to Find a Spy Inside Its Company",
-          "url": "https://gizmodo.com/heres-how-openai-says-it-used-ai-to-find-a-spy-inside-its-company-2000825570",
-          "publishedAt": "2026-10-13T21:19:53.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
-          "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-          "publishedAt": "2026-10-13T23:17:59.000Z",
+          "title": "OpenAI Turns the Tables on Apple in Legal Fight Over Trade Secrets",
+          "url": "https://gizmodo.com/openai-turns-the-tables-on-apple-in-legal-fight-over-trade-secrets-2000826007",
+          "publishedAt": "2026-10-14T19:40:52.000Z",
           "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "The ‘Sophisticated’ Bug OpenAI Found in Its Conference Room Can Be Yours for $13.99",
-          "url": "https://gizmodo.com/the-sophisticated-bug-openai-found-in-its-conference-room-can-be-yours-for-13-99-2000825636",
-          "publishedAt": "2026-10-14T02:00:35.000Z",
-          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -386,6 +428,27 @@
       ]
     },
     {
+      "id": "89cdcada-4db5-4d4f-9f01-f56fa0442aa0",
+      "title": "MIT researchers say AI may soon be the default way to solve theory problems beyond math",
+      "summary": "After its inroads into mathematics, AI may soon become the default way to tackle theoretical problems in economics, high-energy physics, and other fields, MIT researchers tell Wired.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-14T20:08:32.709Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T20:08:32.709Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI Came for Math. Now It’s Chasing the Rest of Science",
+          "url": "https://www.wired.com/story/ai-is-coming-for-science-next-watch-out/",
+          "publishedAt": "2026-10-14T18:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "5a4b4cb6-4cef-4b72-b3b8-19906efe11aa",
       "title": "xAI introduces Grok Voice 3.0, billed as \"the world's most intelligent voice model\"",
       "summary": "xAI announced Grok Voice 3.0, its next-generation voice model, which it calls \"the world's most intelligent voice model.\" The announcement gave no detail on benchmarks, pricing, or availability.",
@@ -405,25 +468,6 @@
       "tags": [
         "model-release"
       ]
-    },
-    {
-      "id": "480c2cd8-92ca-42f7-811b-f08525024ce5",
-      "title": "Judge orders OpenAI to hand Apple its hiring records in trade secrets case",
-      "summary": "A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, along with private messages and testimony from key figures in Apple's trade secrets case against OpenAI, TechCrunch reports.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-13T21:51:24.983Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T21:51:24.983Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
-          "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
-          "publishedAt": "2026-10-13T20:36:44.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     },
     {
       "id": "b7885df5-2070-4adf-97dd-c1f765af00e3",
@@ -446,6 +490,48 @@
           "title": "Google will let you distribute vibe-coded Android apps with just a Google account",
           "url": "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
           "publishedAt": "2026-10-13T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "c881f548-c513-4da3-b39b-02d4478ffe08",
+      "title": "Anthropic adds OpenTelemetry traces for agent observability on the Claude Platform",
+      "summary": "Anthropic announced OpenTelemetry traces from Claude Managed Agents, the Messages API, and the Claude SDKs, giving developers standard observability into agent runs on the Claude Platform.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-14T20:08:36.656Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T20:08:36.656Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Agent observability on the Claude Platform",
+          "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+          "publishedAt": "2026-10-14T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "8935a5bd-eff6-440d-8884-6fa0d4951f5e",
+      "title": "YouTube Music adds labels for fully and partially AI-generated songs",
+      "summary": "YouTube Music is adding a label on the player page for songs generated entirely or partly by AI, including AI-assisted composition and vocals, as AI-generated tracks flood streaming platforms.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-14T20:08:34.765Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T20:08:34.765Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+          "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+          "publishedAt": "2026-10-14T18:23:46.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1297,114 +1383,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "f4b4b756-d0b6-4e83-8490-56f43608b104",
-      "title": "OpenAI reportedly bought 20,000 Macs to train computer-use agents, saving an estimated $18M a month",
-      "summary": "Geeky Gadgets, summarizing a third-party explainer, reports that OpenAI purchased tens of thousands of Mac Minis and Mac Studios to train AI agents in environments that closely replicate human-computer interaction such as typing and navigating software interfaces. The piece estimates that buying the roughly 20,000 machines saves OpenAI about $18 million a month; the figure is an outside estimate, not an OpenAI disclosure.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-12T09:26:05.312Z",
-      "lastMeaningfulUpdateAt": "2026-10-12T09:26:05.312Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Buying 20,000 Macs Saves OpenAI an Estimated $18 Million a Month",
-          "url": "https://www.geeky-gadgets.com/why-openai-bought-mac-minis/",
-          "publishedAt": "2026-10-12T09:17:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "ce74b7f3-b4d9-45c0-a9b2-291e73e3bfd4",
-      "title": "TypeSafe, maker of the non-text AI model Jev, is valued at $7.5B weeks after launch",
-      "summary": "TypeSafe, the maker of Jev, has been valued at $7.5 billion just weeks after the model's launch, TechCrunch reports.\n\n- Jev is a non-text AI model from one of ChatGPT's inventors, and developers have embraced it as a cheaper, faster path to software intelligence\n- Users and large corporations are drawn by TypeSafe's claim that it works significantly faster and uses far fewer tokens than LLMs",
-      "importanceScore": 0.68,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-18T20:35:46.507Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T22:53:08.875Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
-          "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
-          "publishedAt": "2026-09-18T18:49:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Cut Document Sorting Time Using Jev AI 200X Faster Processing",
-          "url": "https://www.geeky-gadgets.com/jev-ai-model-review/",
-          "publishedAt": "2026-09-21T11:15:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Jev by Typesafe AI Classifies Data in Under 500 Milliseconds",
-          "url": "https://www.geeky-gadgets.com/jev-classification-model/",
-          "publishedAt": "2026-09-22T13:17:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Over 20 Open Jev Alternatives Feature New Speed Trade-Offs",
-          "url": "https://www.geeky-gadgets.com/open-jev-models-alternatives/",
-          "publishedAt": "2026-09-23T09:15:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Jev AI Executes Bulk Decision Workflows 400X Faster vs LLMs",
-          "url": "https://www.geeky-gadgets.com/jev-ai-concepts-explained/",
-          "publishedAt": "2026-09-25T09:15:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Jev Drops LLM Token Usage in Agent Workflows to Save Costs",
-          "url": "https://www.geeky-gadgets.com/reduce-llm-costs-jev/",
-          "publishedAt": "2026-09-30T13:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-          "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-          "publishedAt": "2026-10-09T21:41:29.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "a882880a-2956-4a63-89a4-d1e28f6cc9a1",
-      "title": "Ambi, founded by a former Plaud executive, raises $26M for an AI app that listens in the background",
-      "summary": "Ambi, a startup founded by a former Plaud executive, raised $26 million for an AI app built around ambient capture — listening to the user in the background. It is releasing apps for iPhone, Mac, and Apple Watch.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-12T13:29:15.654Z",
-      "lastMeaningfulUpdateAt": "2026-10-12T13:29:15.654Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
-          "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
-          "publishedAt": "2026-10-12T12:47:59.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 113,
   "hasMore": true
 }
