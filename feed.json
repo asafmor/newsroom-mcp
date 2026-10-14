@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T14:03:18.882Z",
+  "generatedAt": "2026-10-14T16:04:26.049Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -475,6 +475,25 @@
       ]
     },
     {
+      "id": "f9eae28d-3944-4c97-b51f-cc43fdf227cf",
+      "title": "Anthropic opens a Singapore office and signs an MOU with Singapore's government",
+      "summary": "Anthropic has opened an office in Singapore and signed a memorandum of understanding with the Government of Singapore.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-14T16:04:21.418Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T16:04:21.418Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+          "url": "https://www.anthropic.com/news/singapore-office-opening",
+          "publishedAt": "2026-10-14T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "0208bc1d-912f-49dd-825f-ab05bbb47e7a",
       "title": "Pro-AI super PAC network Leading the Future has poured millions into Nevada shell companies, Wired reports",
       "summary": "Wired reports that Leading the Future, the biggest pro-AI super PAC network, has poured millions into Nevada shell companies. Backed by Silicon Valley titans, the network has raised huge sums to promote pro-AI candidates on both sides of the aisle.",
@@ -638,6 +657,27 @@
           "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
           "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
           "publishedAt": "2026-10-14T02:00:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "72922141-132d-4849-8870-6d42c14db696",
+      "title": "Deezer will let listeners filter out AI-generated music",
+      "summary": "Deezer is adding a toggle that lets listeners filter AI-generated music out of their streams, with the rollout planned by the end of the year.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-14T16:04:13.079Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T16:04:13.079Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Deezer will soon let you filter out AI-generated music",
+          "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+          "publishedAt": "2026-10-14T15:16:04.000Z",
           "contribution": "supporting"
         }
       ],
@@ -857,6 +897,27 @@
           "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
           "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
           "publishedAt": "2026-10-13T17:18:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
+      "id": "0e105117-b563-4be8-b630-f9fa2df15b9b",
+      "title": "Zenzap raises $44M for an AI workplace chat app pitched as a WhatsApp replacement",
+      "summary": "Zenzap raised $44 million for its AI chat app aimed at replacing WhatsApp for workplace communication; its customers include Starbucks and Taco Bell.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-14T16:04:15.233Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T16:04:15.233Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
+          "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+          "publishedAt": "2026-10-14T15:08:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1133,6 +1194,27 @@
       "tags": []
     },
     {
+      "id": "198f8a49-79df-4a59-8889-432433a0654c",
+      "title": "OpenAI case study: Third Moment Research runs 10,000 agents for 36+ hours",
+      "summary": "An OpenAI customer story says AI lab Third Moment Research runs 10,000 agents for more than 36 hours at a time, building on GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak for cybersecurity to make agents that stay focused for days and improve with use.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-14T16:04:19.729Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T16:04:19.729Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+          "url": "https://openai.com/index/third-moment-research",
+          "publishedAt": "2026-10-14T07:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "f4b4b756-d0b6-4e83-8490-56f43608b104",
       "title": "OpenAI reportedly bought 20,000 Macs to train computer-use agents, saving an estimated $18M a month",
       "summary": "Geeky Gadgets, summarizing a third-party explainer, reports that OpenAI purchased tens of thousands of Mac Minis and Mac Studios to train AI agents in environments that closely replicate human-computer interaction such as typing and navigating software interfaces. The piece estimates that buying the roughly 20,000 machines saves OpenAI about $18 million a month; the figure is an outside estimate, not an OpenAI disclosure.",
@@ -1326,106 +1408,25 @@
       "tags": []
     },
     {
-      "id": "a4d5ef29-1033-48a2-ad4a-5055622f0467",
-      "title": "Elon Musk's boast about a Grok Lego Star Wars haul backfires as X users prank him",
-      "summary": "Wired reports that Elon Musk bragged about a Lego Star Wars haul tied to Grok, and X users then pranked him, an episode the outlet frames as a security lapse. The source feed gave no detail on how the prank worked.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-10-12T19:33:19.548Z",
-      "lastMeaningfulUpdateAt": "2026-10-12T19:33:19.548Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
-          "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
-          "publishedAt": "2026-10-12T17:55:12.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "dc1b8324-0c77-4539-961f-ed58d941b12a",
-      "title": "Wired: the second-generation Friend AI necklace is louder and less interesting",
-      "summary": "Wired reviewed the second iteration of Friend, the viral AI companion necklace, and found it louder and less interesting than the original.",
+      "id": "d5c19992-1cae-4b53-9921-8f61e6df43ae",
+      "title": "Floqer's AI agents research sales prospects for B2B revenue teams",
+      "summary": "Floqer, a TechCrunch Disrupt Startup Battlefield 200 company, builds AI agents that research sales prospects so B2B sales and revenue-operations teams don't have to do it by hand.",
       "importanceScore": 0.2,
       "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-14T12:01:14.505Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T12:01:14.505Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "My Friend Has No Soul",
-          "url": "https://www.wired.com/story/my-friend-has-no-soul/",
-          "publishedAt": "2026-10-14T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "5c88599b-a1ef-451d-b1a8-040753527969",
-      "title": "Blueprints AI says its software generates permit-ready construction blueprints in minutes",
-      "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, has developed software that it says produces code-compliant, permit-ready construction blueprints in minutes from a photo, PDF, or sketch, per TechCrunch.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-12T15:31:03.068Z",
-      "lastMeaningfulUpdateAt": "2026-10-12T15:31:03.068Z",
+      "firstSeenAt": "2026-10-14T16:04:17.179Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T16:04:17.179Z",
       "sources": [
         {
           "providerName": "TechCrunch AI",
-          "title": "This AI startup says it can generate permit-ready blueprints in minutes",
-          "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
-          "publishedAt": "2026-10-12T15:27:59.000Z",
+          "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+          "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+          "publishedAt": "2026-10-14T15:00:00.000Z",
           "contribution": "supporting"
         }
       ],
       "tags": []
-    },
-    {
-      "id": "a8e803d5-e400-4e02-9d49-62058f5078d6",
-      "title": "Apple discloses a deal to hire the team and license tech from AI podcast startup Huxe",
-      "summary": "Apple has disclosed a deal to hire the team behind Huxe, a personalized podcast startup, and license its technology, TechCrunch reports. The move raises the question of whether Apple plans to get into AI-generated podcasts.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-10T21:04:53.569Z",
-      "lastMeaningfulUpdateAt": "2026-10-10T21:04:53.569Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
-          "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
-          "publishedAt": "2026-10-10T19:50:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "288b0bb6-ee4f-433f-8437-54d0b15e0aca",
-      "title": "Google turns Gemini into an AI agent, starting with businesses",
-      "summary": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems, rolling out to businesses first. The agent can delegate work to subagents, use multiple AI models, and gets its own workplace identity, complete with an email address.",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-08T18:34:20.261Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T18:34:20.261Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google brings agentic AI to Gemini, starting with businesses",
-          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-          "publishedAt": "2026-10-08T18:18:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 113,
+  "totalCount": 115,
   "hasMore": true
 }
