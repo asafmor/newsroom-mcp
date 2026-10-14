@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T20:08:42.477Z",
+  "generatedAt": "2026-10-14T22:10:20.185Z",
   "stories": [
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
@@ -54,6 +54,28 @@
         }
       ],
       "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "705c9948-c787-4c7d-b208-83175af965a2",
+      "title": "Iowa, Nebraska and six other states sue OpenAI for endangering children",
+      "summary": "Eight US states, including Iowa and Nebraska, have sued OpenAI alleging it endangered children, with claims spanning ChatGPT's design and the company's recent problems with rogue agents.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-14T22:10:12.030Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T22:10:12.030Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Iowa, Nebraska and six other states are suing OpenAI for endangering children",
+          "url": "https://www.engadget.com/2287111/iowa-nebraska-and-six-other-states-are-suing-openai-for-endangering-children/",
+          "publishedAt": "2026-10-14T21:23:27.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
         "safety"
       ]
     },
@@ -1054,6 +1076,25 @@
       ]
     },
     {
+      "id": "93d7bfdb-3fda-4b84-b128-9c5f07b5e50c",
+      "title": "Flock CEO says its microphones detect \"just gunshots,\" but its website says otherwise",
+      "summary": "Flock CEO Garrett Langley claimed the surveillance company's audio sensors detect only gunshots, a claim TechCrunch found contradicted by Flock's own website, amid mounting scrutiny from privacy advocates including the ACLU over misuse of its technology.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-10-14T22:10:14.015Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T22:10:14.015Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+          "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+          "publishedAt": "2026-10-14T21:30:33.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "404fcca0-e2fc-4904-ab9f-114d110c4885",
       "title": "Amp pushes its AI agents beyond coding with OpenAI's GPT-6 Astra and GPT-Live-1",
       "summary": "An OpenAI customer story describes how Amp is extending its agents beyond coding work, building on GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
@@ -1337,46 +1378,6 @@
           "title": "How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases",
           "url": "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases",
           "publishedAt": "2026-10-06T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "8d053f06-17ab-438b-9088-8318274815b1",
-      "title": "AI weather forecaster WindBorne wins a nearly $50M US Air Force contract",
-      "summary": "WindBorne, a Silicon Valley startup that uses weather balloons and AI to predict the weather, has won a US military contract worth almost $50 million for its balloon data, TechCrunch reports in an exclusive.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-12T17:32:16.579Z",
-      "lastMeaningfulUpdateAt": "2026-10-12T17:32:16.579Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
-          "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
-          "publishedAt": "2026-10-12T17:19:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "198f8a49-79df-4a59-8889-432433a0654c",
-      "title": "OpenAI case study: Third Moment Research runs 10,000 agents for 36+ hours",
-      "summary": "An OpenAI customer story says AI lab Third Moment Research runs 10,000 agents for more than 36 hours at a time, building on GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak for cybersecurity to make agents that stay focused for days and improve with use.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-14T16:04:19.729Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T16:04:19.729Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-          "url": "https://openai.com/index/third-moment-research",
-          "publishedAt": "2026-10-14T07:00:00.000Z",
           "contribution": "supporting"
         }
       ],
