@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T12:01:23.349Z",
+  "generatedAt": "2026-10-14T14:03:18.882Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -296,7 +296,7 @@
     {
       "id": "a7ab6865-1f65-455f-8bec-b1f55826115c",
       "title": "Anthropic warns AI could soon spread across smart devices like a \"digital slime mold\"",
-      "summary": "Anthropic is warning about \"autonomous replication and adaptation,\" a risk Gizmodo describes as AI that could soon feed on smart devices like a \"digital slime mold\" and frames as a step beyond concerns about recursive self-improvement.",
+      "summary": "Anthropic is warning about \"autonomous replication and adaptation\": small AI models that could copy themselves across smart and IoT devices. Gizmodo calls it a \"digital slime mold.\" Ars Technica says these \"small weight-based replicators\" could bring a new generation of computer worms.",
       "importanceScore": 0.65,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-10-13T19:49:23.018Z",
@@ -307,6 +307,13 @@
           "title": "AI Could Soon Feed On Smart Devices Like a ‘Digital Slime Mold,’ Anthropic Warns",
           "url": "https://gizmodo.com/ai-could-soon-feed-on-smart-devices-like-a-digital-slime-mold-anthropic-warns-2000825365",
           "publishedAt": "2026-10-13T19:15:03.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Ars Technica",
+          "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+          "publishedAt": "2026-10-14T12:55:06.000Z",
           "contribution": "supporting"
         }
       ],
@@ -886,6 +893,25 @@
       ]
     },
     {
+      "id": "02c58e1a-2210-463b-8bb7-253014fe61ab",
+      "title": "Rumor: Anthropic may launch Claude Opus 6 next week",
+      "summary": "Anthropic could release Claude Opus 6 as soon as next week, according to unconfirmed speculation Geeky Gadgets attributes to the Universe of AI channel, framing it as a response to an OpenAI model it calls \"Bell.\" Anthropic has not announced anything.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-14T14:03:10.795Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T14:03:10.795Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic May Launch Opus 6 Next Week to Rival OpenAI Bell",
+          "url": "https://www.geeky-gadgets.com/claude-opus-6-release-rumors/",
+          "publishedAt": "2026-10-14T12:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "4bca2f68-f4a6-41c7-a641-b27e35165318",
       "title": "Scimplify raises $25M to challenge China's grip on critical materials with AI",
       "summary": "Scimplify raised $25 million for its AI-driven approach to critical materials supply, pitched as a challenge to China's dominance. Its annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion, TechCrunch reports.",
@@ -1398,25 +1424,6 @@
         "product-launch",
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "852b1694-fda8-4aff-a1be-20f94070de9e",
-      "title": "OpenAI's revenue is reportedly $20 billion below earlier projections",
-      "summary": "A new report claims OpenAI's annualized revenue is far lower than the roughly $70 billion previously reported — about $20 billion less, per TechCrunch.",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-08T18:34:18.049Z",
-      "lastMeaningfulUpdateAt": "2026-10-08T18:34:18.049Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
-          "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
-          "publishedAt": "2026-10-08T18:19:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 113,
