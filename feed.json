@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T01:55:09.258Z",
+  "generatedAt": "2026-10-14T03:56:21.579Z",
   "stories": [
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -208,7 +208,7 @@
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
       "title": "OpenAI engineer allegedly used a chatbot to help plant a recording device found in an executive meeting room",
-      "summary": "OpenAI says it found a \"sophisticated recording device\" hidden in its offices, and an employee is now alleged to have planted it with a chatbot's help.\n\n- Wired reports chatbot prompts reveal an engineer's alleged efforts to set up a covert listening device days before one was found\n- The device was discovered in a meeting room used by high-level executives\n- OpenAI says it asked its own AI models to work out what the device was, per Engadget\n- Gizmodo describes the company's account as using AI to find a spy inside the company",
+      "summary": "OpenAI says it found a \"sophisticated recording device\" hidden in its offices, and an employee is now alleged to have planted it with a chatbot's help.\n\n- Wired reports chatbot prompts reveal an engineer's alleged efforts to set up a covert listening device days before one was found\n- The device was discovered in a meeting room used by high-level executives\n- OpenAI says it asked its own AI models to work out what the device was, per Engadget\n- Gizmodo notes the \"sophisticated\" bug appears to be a Seeed Studio XIAO ESP32-S3 Sense, a $13.99 board for hobbyist tinkerers",
       "importanceScore": 0.75,
       "relevanceScore": 0.85,
       "firstSeenAt": "2026-10-13T21:51:23.252Z",
@@ -234,6 +234,13 @@
           "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
           "publishedAt": "2026-10-13T23:17:59.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "The ‘Sophisticated’ Bug OpenAI Found in Its Conference Room Can Be Yours for $13.99",
+          "url": "https://gizmodo.com/the-sophisticated-bug-openai-found-in-its-conference-room-can-be-yours-for-13-99-2000825636",
+          "publishedAt": "2026-10-14T02:00:35.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -539,6 +546,27 @@
         "safety",
         "regulation",
         "opinion"
+      ]
+    },
+    {
+      "id": "de55d9ba-9a4b-4b92-b0a7-f4f3870649fc",
+      "title": "Google DeepMind and Singapore's GovTech launch an on-device Gemma tool that catches scams in private chats",
+      "summary": "Google DeepMind and GovTech Singapore announced an AI tool that uses lightweight, on-device Gemma models to intercept conversational scams inside private chats, with no message data leaving the device for the cloud.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-14T03:56:09.604Z",
+      "lastMeaningfulUpdateAt": "2026-10-14T03:56:09.604Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+          "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+          "publishedAt": "2026-10-14T02:00:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1637,29 +1665,6 @@
       ],
       "tags": [
         "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "630784ae-f9e7-40ae-adf4-008bc8e8e135",
-      "title": "Anthropic offers open-source projects a free vulnerability-finding service, OSS Scanner",
-      "summary": "Anthropic is offering open-source software projects a free way to check their code for security vulnerabilities with a service called OSS Scanner, per Engadget. The source item gives no detail yet on eligibility, the underlying model, or how findings are reported.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-09T12:46:24.876Z",
-      "lastMeaningfulUpdateAt": "2026-10-09T12:46:24.876Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic now offers a free vulnerability-finding service for open-source software",
-          "url": "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks/",
-          "publishedAt": "2026-10-09T11:24:27.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "open-source",
-        "safety"
       ]
     }
   ],
