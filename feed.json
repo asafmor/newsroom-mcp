@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-10-15T16:19:21.778Z",
+  "generatedAt": "2026-10-15T18:20:35.666Z",
   "stories": [
+    {
+      "id": "2f2f2d1c-376f-4f5f-bc04-55a9a6fafbcb",
+      "title": "FTC subpoenas OpenAI and Anthropic over AI safety incidents",
+      "summary": "The FTC has subpoenaed OpenAI and Anthropic for records on AI safety incidents, as part of an investigation into possible consumer protection violations.",
+      "importanceScore": 0.82,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-10-15T18:20:28.772Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T18:20:28.772Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "FTC Subpoenas OpenAI and Anthropic Over AI Safety Concerns",
+          "url": "https://gizmodo.com/ftc-subpoenas-openai-and-anthropic-over-ai-safety-concerns-2000826413",
+          "publishedAt": "2026-10-15T17:25:12.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
+      ]
+    },
+    {
+      "id": "4c5f6bad-5be1-43f5-aa2f-1b534d401445",
+      "title": "Meta releases Muse Spark Open, a huge open-weight model built for Macs with 1TB of RAM",
+      "summary": "Meta released Muse Spark Open, an open-weight model it calls \"the most capable US open-weight model to date.\" It's built to run on Macs, but Engadget notes you'll need 1TB of RAM to run it.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-15T18:20:22.667Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T18:20:22.667Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Meta built a huge open-weight AI model for Macs, but you'll need 1TB of RAM to run it",
+          "url": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
+          "publishedAt": "2026-10-15T17:02:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
+      ]
+    },
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
       "title": "FBI arrests OpenAI employee suspected of using a chatbot to help plant a bug in an executive meeting room",
@@ -322,6 +366,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "8d2b33b0-8aa8-4194-a2b3-65c83b8e5927",
+      "title": "Cloudflare and OpenAI team up to improve how AI discovers web content",
+      "summary": "Cloudflare and OpenAI are working together to help AI systems find useful content, keep up with site changes, and make fewer wasted crawl requests. They pitch it as a better deal for both users and website owners.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-15T18:20:26.966Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T18:20:26.966Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Cloudflare and OpenAI: making AI discovery better for everyone",
+          "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+          "publishedAt": "2026-10-15T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
     },
     {
       "id": "77d9663e-8527-4c2a-8fb9-c6cdfb187b27",
@@ -1342,76 +1407,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "404fcca0-e2fc-4904-ab9f-114d110c4885",
-      "title": "Amp pushes its AI agents beyond coding with OpenAI's GPT-6 Astra and GPT-Live-1",
-      "summary": "An OpenAI customer story describes how Amp is extending its agents beyond coding work, building on GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-14T18:06:21.766Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T18:06:21.766Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Amp puts AI agents to work beyond code with OpenAI models",
-          "url": "https://openai.com/index/amp-beyond-coding",
-          "publishedAt": "2026-10-14T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "0e105117-b563-4be8-b630-f9fa2df15b9b",
-      "title": "Zenzap raises $44M for an AI workplace chat app pitched as a WhatsApp replacement",
-      "summary": "Zenzap raised $44 million for its AI chat app aimed at replacing WhatsApp for workplace communication; its customers include Starbucks and Taco Bell.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-14T16:04:15.233Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T16:04:15.233Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
-          "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
-          "publishedAt": "2026-10-14T15:08:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "749f5625-b100-42ef-8031-ce7c70407bbd",
-      "title": "Cerebras CEO tells AI leaders to stop the doomsday warnings and predicts a personal AI assistant in every home",
-      "summary": "At TechCrunch Disrupt, Cerebras CEO Andrew Feldman argued that the industry's focus on AI's risks is drowning out its potential benefits, suggesting leaders spreading doomsday warnings should \"maybe stop talking.\" He also predicted personal AI assistants will become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-13T23:53:18.228Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T23:53:18.228Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Cerebras CEO pushes back on AI doomsday warnings",
-          "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
-          "publishedAt": "2026-10-13T22:36:59.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
-          "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
-          "publishedAt": "2026-10-13T23:05:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
   "totalCount": 118,
