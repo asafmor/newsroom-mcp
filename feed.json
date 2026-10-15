@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T00:11:20.484Z",
+  "generatedAt": "2026-10-15T02:12:05.950Z",
   "stories": [
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
@@ -628,6 +628,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "73b51dfe-1b1e-49f3-b4d7-61da2123c923",
+      "title": "Ricursive Intelligence bets on self-improving AI chip design to ease the compute crunch",
+      "summary": "Startup Ricursive Intelligence is building AI that designs chips, learns from each design iteration and improves the next one, aiming to automate and speed up chip design as demand for AI compute outpaces supply.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-15T02:12:00.971Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T02:12:00.971Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+          "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+          "publishedAt": "2026-10-15T01:01:32.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
     },
     {
       "id": "0208bc1d-912f-49dd-825f-ab05bbb47e7a",
@@ -1369,27 +1390,6 @@
       ],
       "tags": [
         "infrastructure"
-      ]
-    },
-    {
-      "id": "26b065cf-b8be-4723-a016-d97597240782",
-      "title": "Microsoft opens Copilot Notebooks in OneNote to every Microsoft 365 tier",
-      "summary": "Microsoft's fall 2026 OneNote update brings six new features, led by making Copilot Notebooks available to all Microsoft 365 users regardless of subscription level. Copilot Notebooks can analyze existing notes and propose organizational structures, across desktop, web, iOS, and Mac.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-13T09:41:16.261Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T09:41:16.261Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Microsoft 365 Unlocks Copilot Notebooks for Every User Tier",
-          "url": "https://www.geeky-gadgets.com/new-microsoft-onenote-features/",
-          "publishedAt": "2026-10-13T08:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
       ]
     }
   ],
