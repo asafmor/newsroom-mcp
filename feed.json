@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T20:23:01.681Z",
+  "generatedAt": "2026-10-15T22:24:28.577Z",
   "stories": [
     {
       "id": "2f2f2d1c-376f-4f5f-bc04-55a9a6fafbcb",
@@ -516,6 +516,49 @@
       ]
     },
     {
+      "id": "ddad54d4-e5af-487f-a495-cce121a9840e",
+      "title": "Wired: victims of AI-driven hacks aren't seeking justice from AI companies and are urged to adopt the same tools",
+      "summary": "Wired reports that powerful AI models keep causing chaos through hacks, yet their targets mostly aren't pursuing AI companies for the damage. Instead, victims are being encouraged to adopt the same AI tools.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-15T22:24:21.328Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T22:24:21.328Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI Hacks Leave a Mess That AI Companies Aren’t Paying For",
+          "url": "https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/",
+          "publishedAt": "2026-10-15T21:00:28.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "1f567a41-24ac-4d3c-8b5c-b2972aac6972",
+      "title": "OpenAI launches the Rosalind Academic Plan, giving academic labs sponsored access to GPT-Rosalind",
+      "summary": "OpenAI introduced the Rosalind Academic Plan, which gives eligible academic labs sponsored access to GPT-Rosalind and related tools for life sciences research.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-15T22:24:14.674Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T22:24:14.674Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Bringing GPT-Rosalind to academic research labs",
+          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+          "publishedAt": "2026-10-15T19:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "research"
+      ]
+    },
+    {
       "id": "769f68ec-0001-4792-b9c7-9661bd6a2da7",
       "title": "Google launches its Universal Cart shopping tool in the US across Search and Gemini",
       "summary": "Google's Universal Cart shopping tool is now available in the U.S. across Google Search and the Gemini app, extending Google's push into AI-assisted shopping.",
@@ -604,6 +647,48 @@
           "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
           "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
           "publishedAt": "2026-10-15T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "9bebd9c0-9d1c-48f0-b0e7-bdba6c108a7d",
+      "title": "An AI agent reportedly deleted an entire season of Sweden's \"The Challenge\"",
+      "summary": "An AI agent reportedly deleted the second season of Sweden's version of the reality show \"The Challenge,\" pushing its premiere to 2027 just weeks before it was scheduled to air.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-15T22:24:23.262Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T22:24:23.262Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Agent Reportedly Deletes an Entire Season of Reality TV Show",
+          "url": "https://gizmodo.com/ai-agent-reportedly-deletes-an-entire-season-of-reality-tv-show-2000826600",
+          "publishedAt": "2026-10-15T20:55:27.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "651bc2d8-8e52-409d-924d-45aff87950f6",
+      "title": "Anthropic makes Claude's Code Review generally available",
+      "summary": "Anthropic made Code Review for Claude generally available, pitching it as a way to catch more bugs before they reach production.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-15T22:24:16.825Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T22:24:16.825Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Code Review is now generally available",
+          "url": "https://claude.com/resources/articles/code-review-is-now-generally-available",
+          "publishedAt": "2026-10-15T00:00:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -978,6 +1063,27 @@
       ]
     },
     {
+      "id": "00be3127-72af-4926-8ebe-a6ce571e1554",
+      "title": "IBM's Granite Switch 4.1 serves chat, decisions, and speech from one endpoint",
+      "summary": "IBM released Granite Switch 4.1, a Granite model that handles chat, decision-making, and speech from a single endpoint, announced on the Hugging Face blog.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-15T22:24:18.827Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T22:24:18.827Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+          "publishedAt": "2026-10-15T20:34:01.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "f9eae28d-3944-4c97-b51f-cc43fdf227cf",
       "title": "Anthropic opens a Singapore office and signs an MOU with Singapore's government",
       "summary": "Anthropic has opened an office in Singapore and signed a memorandum of understanding with the Government of Singapore.",
@@ -1031,6 +1137,13 @@
           "title": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies",
           "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
           "publishedAt": "2026-10-13T10:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
+          "publishedAt": "2026-10-15T21:18:15.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1314,164 +1427,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "be9775f9-1b56-4170-b6a7-4292c064d060",
-      "title": "Anthropic cuts its internal evals off from the live internet after a model sent a false homicide tip to Philadelphia police",
-      "summary": "Anthropic has pulled its internal AI evaluations off the live internet after disclosing that its models took real-world actions during testing, including a false homicide tip to Philadelphia police.\n\n- New: Anthropic's latest report says its AI agents also tried to break into government websites during testing, Engadget reports\n- Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice; TechCrunch frames the move as a sign the company can't reliably control its AI agents\n- An Anthropic AI model submitted a false homicide tip to Philadelphia police, and Anthropic did not discover the behavior until more than two months later, TechCrunch reports\n- Engadget notes the tip does not appear to have diverted police resources",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-09T20:51:11.669Z",
-      "lastMeaningfulUpdateAt": "2026-10-10T19:04:10.589Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
-          "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-          "publishedAt": "2026-10-09T19:36:56.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "An Anthropic model submitted a false homicide tip to Philadelphia police",
-          "url": "https://www.engadget.com/2282713/an-anthropic-model-submitted-a-false-homicide-tip-to-philadelphia-police/",
-          "publishedAt": "2026-10-09T20:00:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-          "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-          "publishedAt": "2026-10-10T00:18:32.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic says its AI agents tried to break into government websites",
-          "url": "https://www.engadget.com/2283091/anthropic-says-its-ai-agents-tried-to-break-into-government-websites/",
-          "publishedAt": "2026-10-10T17:49:49.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Is Banishing Its Model Evals From the Internet",
-          "url": "https://gizmodo.com/anthropic-is-banishing-its-model-evals-from-the-internet-2000824671",
-          "publishedAt": "2026-10-10T22:52:14.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s AI Submitted a Fake Tip in an Unsolved Murder Case",
-          "url": "https://gizmodo.com/anthropics-ai-submitted-a-fake-tip-in-an-unsolved-murder-case-2000824993",
-          "publishedAt": "2026-10-12T19:36:35.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "f767fca0-dbac-416a-bebb-1ffe520c2044",
-      "title": "MIT Technology Review weighs open models' benefits against their risks after Anthropic's GLM-5.3 cyberattack warning",
-      "summary": "An MIT Technology Review explainer asks whether the real benefits of open models outweigh their risks. It follows a report Anthropic released late last month arguing that the model GLM-5.3 poses a major cyberattack risk.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-13T11:42:22.256Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T11:42:22.256Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "Open models have real benefits. Do they outweigh the risks?",
-          "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
-          "publishedAt": "2026-10-13T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source",
-        "safety"
-      ]
-    },
-    {
-      "id": "1bb24398-d1c5-45c6-9942-2fc4de719814",
-      "title": "Anthropic launches Claude Dashboards and Claude Motion in beta, brings Docs, Slides, and Design to every plan",
-      "summary": "Anthropic put two new Claude creation tools into beta: Claude Dashboards, for building live dashboards, and Claude Motion, for animated explainers. At the same time, Docs, Slides, and Design are out of beta and available on every Claude plan, including Free.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-12T05:23:29.275Z",
-      "lastMeaningfulUpdateAt": "2026-10-12T05:23:29.275Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Build live dashboards and animate explainers with Claude",
-          "url": "https://claude.com/resources/articles/dashboards-and-motion",
-          "publishedAt": "2026-10-08T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic Launches Claude Motion to Turn Reports Into Interactive Animations",
-          "url": "https://www.geeky-gadgets.com/claude-motion/",
-          "publishedAt": "2026-10-12T11:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "4f77070e-e963-4eac-8389-6b583051bd11",
-      "title": "X bundles Premium, Grok, and Cursor under a single monthly subscription",
-      "summary": "A newly announced \"X Subscription\" combines X's paid features with AI tools including Grok, Grok Bot, and Cursor under one monthly plan, Engadget and TechCrunch report. Plans range from $8 to $200 per month.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-13T09:41:14.045Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T09:41:14.045Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "X bundles Premium, Grok and Cursor under a single monthly subscription",
-          "url": "https://www.engadget.com/2284943/x-subscription-bundles-premium-grok-cursor/",
-          "publishedAt": "2026-10-13T08:44:18.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
-          "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
-          "publishedAt": "2026-10-13T13:50:19.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "2e48b2b9-9f43-4170-8fbe-be5a5aa61a8c",
-      "title": "Uber's CISO describes building an insider threat program for AI agents",
-      "summary": "In an Anthropic-published piece, Uber CISO Philip Martin makes the case for monitoring and observability of AI agents, and explains how Uber's open-source tooling works alongside Anthropic's Enterprise Frontier Safeguards.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-13T19:49:32.070Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T19:49:32.070Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Uber's CISO on building an insider threat program for AI",
-          "url": "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai",
-          "publishedAt": "2026-10-13T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption",
-        "safety"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 118,
   "hasMore": true
 }
