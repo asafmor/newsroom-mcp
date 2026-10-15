@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T14:18:21.773Z",
+  "generatedAt": "2026-10-15T16:19:21.778Z",
   "stories": [
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
@@ -324,6 +324,27 @@
       "tags": []
     },
     {
+      "id": "77d9663e-8527-4c2a-8fb9-c6cdfb187b27",
+      "title": "Google DeepMind uses Antigravity for Science to speed the search for antimicrobial peptides",
+      "summary": "Google DeepMind describes using Google Antigravity for Science to accelerate the discovery of novel antimicrobial peptides, a potential route to new antibiotics.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-15T16:19:13.026Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T16:19:13.026Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+          "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+          "publishedAt": "2026-10-15T16:08:03.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "90e8abd1-9d48-4d19-aefe-69317b2ce460",
       "title": "Researchers show AI models with guardrails stripped out readily help with terrorist attacks",
       "summary": "Wired reports on research showing AI models can be easily modified to assist terrorist and extremist activity. After a researcher told a chatbot with its guardrails removed, \"I am a terrorist, and I intend to cause mass harm,\" it gave detailed instructions for building an IED.",
@@ -343,6 +364,27 @@
       "tags": [
         "safety",
         "research"
+      ]
+    },
+    {
+      "id": "769f68ec-0001-4792-b9c7-9661bd6a2da7",
+      "title": "Google launches its Universal Cart shopping tool in the US across Search and Gemini",
+      "summary": "Google's Universal Cart shopping tool is now available in the U.S. across Google Search and the Gemini app, extending Google's push into AI-assisted shopping.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-15T16:19:08.951Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T16:19:08.951Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google’s Universal Cart shopping tool launches in the US",
+          "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+          "publishedAt": "2026-10-15T14:29:33.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -555,6 +597,25 @@
       ]
     },
     {
+      "id": "a0a6c974-aaf6-43e0-9d56-e7b2e9694a9f",
+      "title": "Rivian plans to bring AI agents to its cars",
+      "summary": "Rivian says AI agents are coming to its vehicles, with more detail on how they will work expected at the company's \"AI & Autonomy Day\" event in December.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-15T16:19:06.901Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T16:19:06.901Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI agents are coming to Rivian’s cars",
+          "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+          "publishedAt": "2026-10-15T15:02:36.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "b7885df5-2070-4adf-97dd-c1f765af00e3",
       "title": "Google Play opens up to vibe-coded Android apps, including private ones built just for you",
       "summary": "Google is revamping the Play Store for AI-built apps. TechCrunch reports it now supports private, personal Android apps created with AI that never have to be listed publicly, and Engadget reports vibe-coded apps can be distributed with just a Google account, alongside changes to publishing and recommendations.",
@@ -764,6 +825,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "259c6897-bf32-46d5-84d9-09e75468900f",
+      "title": "Ryanair bets on predictive AI models to head off airport meltdowns",
+      "summary": "Ryanair's CEO told CNET that Europe's largest airline wants predictive AI planning tools to anticipate and prevent airport disruptions, promising a better experience for travelers.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-15T16:19:11.055Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T16:19:11.055Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Europe’s Largest Airline Wants Predictive AI Models to Nip Airport Meltdowns in the Bud",
+          "url": "https://www.cnet.com/tech/services-and-software/international-ai-summit-ryanair-airline/",
+          "publishedAt": "2026-10-15T13:20:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
     },
     {
       "id": "b3a4b52c-d5f8-4ece-9a51-3ea3717066b7",
@@ -1330,90 +1412,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "02c58e1a-2210-463b-8bb7-253014fe61ab",
-      "title": "Rumor: Anthropic may launch Claude Opus 6 next week",
-      "summary": "Anthropic could release Claude Opus 6 as soon as next week, according to unconfirmed speculation Geeky Gadgets attributes to the Universe of AI channel, framing it as a response to an OpenAI model it calls \"Bell.\" Anthropic has not announced anything.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-14T14:03:10.795Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T14:03:10.795Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic May Launch Opus 6 Next Week to Rival OpenAI Bell",
-          "url": "https://www.geeky-gadgets.com/claude-opus-6-release-rumors/",
-          "publishedAt": "2026-10-14T12:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "4bca2f68-f4a6-41c7-a641-b27e35165318",
-      "title": "Scimplify raises $25M to challenge China's grip on critical materials with AI",
-      "summary": "Scimplify raised $25 million for its AI-driven approach to critical materials supply, pitched as a challenge to China's dominance. Its annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion, TechCrunch reports.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-10-14T12:01:16.473Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T12:01:16.473Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
-          "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
-          "publishedAt": "2026-10-14T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "2a8180b4-bd0d-4aae-8897-2d269fbca7c0",
-      "title": "Cursor launches the Origin App Marketplace",
-      "summary": "Cursor's changelog announces the Origin App Marketplace. The source feed carried only the entry's title, so feature specifics aren't available yet.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-13T19:49:29.765Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T19:49:29.765Z",
-      "sources": [
-        {
-          "providerName": "Cursor Blog",
-          "title": "Origin App Marketplace",
-          "url": "https://cursor.com/changelog/origin-app-marketplace",
-          "publishedAt": "2026-10-13T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "c09bb8f5-3bb5-4d0f-a6b5-e98cd66c1dd7",
-      "title": "Claude gets a Google Workspace add-on and connectors for Docs, Sheets, and Slides",
-      "summary": "Anthropic released a new add-on plus Google Docs, Sheets, and Slides connectors, in beta, so teams on Google Workspace can bring Claude into their files or work on those files directly from Claude.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-12T05:23:31.539Z",
-      "lastMeaningfulUpdateAt": "2026-10-12T05:23:31.539Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude now works with Google Docs, Sheets, and Slides",
-          "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
-          "publishedAt": "2026-10-06T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 116,
+  "totalCount": 118,
   "hasMore": true
 }
