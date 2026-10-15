@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T10:16:11.147Z",
+  "generatedAt": "2026-10-15T12:17:10.106Z",
   "stories": [
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
@@ -370,6 +370,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "e0cb6f48-c09f-40ed-a98d-a5faf5762285",
+      "title": "Amazon's Bee unveils Eclipse and Frontier AI note-taking wearables, its first products since the acquisition",
+      "summary": "Bee, the AI wearable startup Amazon acquired, launched two new note-taking devices, the Eclipse and the Frontier. They are cheap and colorful, but getting the most out of them requires a Bee Pro subscription.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-15T12:17:06.029Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T12:17:06.029Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Bee unveils two AI note-taking devices, its first new products since being acquired by Amazon",
+          "url": "https://www.engadget.com/2287245/bee-frontier-bee-eclipse-bee-pro-launch/",
+          "publishedAt": "2026-10-15T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "a7ab6865-1f65-455f-8bec-b1f55826115c",
@@ -1379,27 +1400,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "3ece57db-55e0-4ccf-b360-932ca0d47808",
-      "title": "Engadget goes hands-on with Apple HomeView and its Siri AI",
-      "summary": "Engadget published a hands-on with Apple's HomeView, casting its Siri AI as a \"new roommate\" and calling the device \"more than just an enlarged Apple Watch.\" The source feed gave no further details on features, pricing, or availability.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-13T15:45:22.793Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T15:45:22.793Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Apple HomeView hands-on: Siri AI is your new roommate",
-          "url": "https://www.engadget.com/2285178/apple-homeview-hands-on-siri-ai/",
-          "publishedAt": "2026-10-13T13:46:19.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 113,
+  "totalCount": 112,
   "hasMore": true
 }
