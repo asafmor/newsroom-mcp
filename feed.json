@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T12:17:10.106Z",
+  "generatedAt": "2026-10-15T14:18:21.773Z",
   "stories": [
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
@@ -372,6 +372,27 @@
       "tags": []
     },
     {
+      "id": "92df1ba9-44d6-439a-8faa-d4385028b4ac",
+      "title": "DeepMind's AlphaGenome Atlas catalogs 9 billion genetic variations",
+      "summary": "Google DeepMind's AlphaGenome has been used to build an atlas cataloging the predicted effects of 9 billion genetic variations, Geeky Gadgets reports. The model predicts how variants affect the genome by examining individual base pairs in their wider genomic context.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-15T14:18:12.873Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T14:18:12.873Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "AlphaGenome Atlas Catalogs 9 Billion Genetic Variations",
+          "url": "https://www.geeky-gadgets.com/deepmind-alphagenome-ai/",
+          "publishedAt": "2026-10-15T13:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "e0cb6f48-c09f-40ed-a98d-a5faf5762285",
       "title": "Amazon's Bee unveils Eclipse and Frontier AI note-taking wearables, its first products since the acquisition",
       "summary": "Bee, the AI wearable startup Amazon acquired, launched two new note-taking devices, the Eclipse and the Frontier. They are cheap and colorful, but getting the most out of them requires a Bee Pro subscription.",
@@ -384,6 +405,13 @@
           "providerName": "Engadget AI",
           "title": "Bee unveils two AI note-taking devices, its first new products since being acquired by Amazon",
           "url": "https://www.engadget.com/2287245/bee-frontier-bee-eclipse-bee-pro-launch/",
+          "publishedAt": "2026-10-15T12:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+          "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
           "publishedAt": "2026-10-15T12:00:00.000Z",
           "contribution": "supporting"
         }
@@ -816,6 +844,28 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "3f43dd7e-a8f9-40e9-af76-56e447b9003d",
+      "title": "Swiss AI releases Apertus 1.5, an update to its open language model",
+      "summary": "The Swiss AI Initiative published release notes for Apertus 1.5 on the Hugging Face blog, a new version of its open language model.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-15T14:18:10.524Z",
+      "lastMeaningfulUpdateAt": "2026-10-15T14:18:10.524Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Apertus 1.5 Release Notes",
+          "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+          "publishedAt": "2026-10-15T09:08:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
+      ]
     },
     {
       "id": "740a26f9-00e9-4b8c-811c-63addbf6e144",
@@ -1362,46 +1412,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "8250c084-1261-495f-ab2e-367b206a7690",
-      "title": "Harvard study: most men surveyed claimed to recognize fictional AI leaders",
-      "summary": "In a new Harvard study, more than half of the men surveyed claimed to recognize AI industry leaders who were entirely fictional, evidence of widespread overclaiming about AI knowledge.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-10-14T09:59:38.202Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T09:59:38.202Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Men Can’t Stop Faking How Much They Know About AI",
-          "url": "https://www.wired.com/story/men-cant-stop-faking-how-much-they-know-about-ai/",
-          "publishedAt": "2026-10-14T09:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "4d9d463f-e75c-4abd-b605-ccf213bb8096",
-      "title": "Laplace Intelligence uses AI agents to red-team robots and self-driving cars before deployment",
-      "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before they are deployed, TechCrunch reports. The startup is profitable and is competing in TechCrunch Disrupt's Startup Battlefield.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-13T17:47:17.088Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T17:47:17.088Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
-          "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
-          "publishedAt": "2026-10-13T17:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 112,
+  "totalCount": 116,
   "hasMore": true
 }
