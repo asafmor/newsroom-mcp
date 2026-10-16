@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T18:39:45.376Z",
+  "generatedAt": "2026-10-16T20:42:11.662Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -404,6 +404,25 @@
         "regulation",
         "safety"
       ]
+    },
+    {
+      "id": "60d667c2-4c0e-4d89-917c-8fbef11967aa",
+      "title": "$137M has been spent on AI-generated midterm ads, and only 27% carried a disclaimer",
+      "summary": "An analysis reported by Gizmodo finds $137 million has been spent on AI-generated political ads ahead of the US midterms, but only 27% included an AI disclaimer. Republicans lead the spending, while Democrats have been more cautious because they fear backlash.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-16T20:42:03.351Z",
+      "lastMeaningfulUpdateAt": "2026-10-16T20:42:03.351Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "$137 Million Has Been Spent on AI-Generated Ads Ahead of Midterms. Only 27% Included a Disclaimer",
+          "url": "https://gizmodo.com/137-million-has-been-spent-on-ai-generated-ads-ahead-of-midterms-only-27-included-a-disclaimer-2000827138",
+          "publishedAt": "2026-10-16T20:10:12.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
@@ -1332,6 +1351,13 @@
           "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
           "publishedAt": "2026-10-14T18:23:46.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Is That Singer Even Real? Music Streaming Services Are Starting To Tell You",
+          "url": "https://in.mashable.com/tech/115103/is-that-singer-even-real-music-streaming-services-are-starting-to-tell-you",
+          "publishedAt": "2026-10-14T22:23:48.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1402,6 +1428,27 @@
       ]
     },
     {
+      "id": "fccb2689-a109-43d3-a12c-3940fdf5cc4f",
+      "title": "Stack Overflow for Agents says its ChatGPT plugin drove up to 10x growth in agent creation",
+      "summary": "In an OpenAI customer story, Stack Overflow says two engineers built Stack Overflow for Agents in a few weeks using Codex. It credits its ChatGPT plugin with tripling signups and driving up to 10x growth in agent creation.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-16T20:41:56.199Z",
+      "lastMeaningfulUpdateAt": "2026-10-16T20:41:56.199Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+          "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+          "publishedAt": "2026-10-16T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "00be3127-72af-4926-8ebe-a6ce571e1554",
       "title": "IBM's Granite Switch 4.1 serves chat, decisions, and speech from one endpoint",
       "summary": "IBM released Granite Switch 4.1, a Granite model that handles chat, decision-making, and speech from a single endpoint, announced on the Hugging Face blog.",
@@ -1461,55 +1508,8 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "0208bc1d-912f-49dd-825f-ab05bbb47e7a",
-      "title": "Pro-AI super PAC network Leading the Future has poured millions into Nevada shell companies, Wired reports",
-      "summary": "Wired reports that Leading the Future, the biggest pro-AI super PAC network, has poured millions into Nevada shell companies. Backed by Silicon Valley titans, the network has raised huge sums to promote pro-AI candidates on both sides of the aisle.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-13T11:42:19.885Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T11:42:19.885Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies",
-          "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
-          "publishedAt": "2026-10-13T10:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
-          "publishedAt": "2026-10-15T21:18:15.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "259c6897-bf32-46d5-84d9-09e75468900f",
-      "title": "Ryanair bets on predictive AI models to head off airport meltdowns",
-      "summary": "Ryanair's CEO told CNET that Europe's largest airline wants predictive AI planning tools to anticipate and prevent airport disruptions, promising a better experience for travelers.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-15T16:19:11.055Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T16:19:11.055Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Europe’s Largest Airline Wants Predictive AI Models to Nip Airport Meltdowns in the Bud",
-          "url": "https://www.cnet.com/tech/services-and-software/international-ai-summit-ryanair-airline/",
-          "publishedAt": "2026-10-15T13:20:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 116,
+  "totalCount": 117,
   "hasMore": true
 }
