@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T00:26:13.372Z",
+  "generatedAt": "2026-10-16T02:27:10.463Z",
   "stories": [
     {
       "id": "2f2f2d1c-376f-4f5f-bc04-55a9a6fafbcb",
@@ -491,6 +491,28 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "0b795edb-b602-4b5d-b88f-a48c52358fc4",
+      "title": "Nvidia details 2.8-trillion-token Indic pretraining corpus and open data generation pipeline",
+      "summary": "Nvidia published a Hugging Face write-up on scaling pretraining for Indic languages, describing a 2.8-trillion-token corpus and releasing the data generation pipeline behind it as open tooling.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-16T02:27:04.066Z",
+      "lastMeaningfulUpdateAt": "2026-10-16T02:27:04.066Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+          "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+          "publishedAt": "2026-10-16T01:44:47.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research",
+        "open-source"
       ]
     },
     {
@@ -1413,29 +1435,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "72922141-132d-4849-8870-6d42c14db696",
-      "title": "Deezer will let listeners filter out AI-generated music",
-      "summary": "Deezer is adding a toggle that lets listeners filter AI-generated music out of their streams, with the rollout planned by the end of the year.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-14T16:04:13.079Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T16:04:13.079Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Deezer will soon let you filter out AI-generated music",
-          "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
-          "publishedAt": "2026-10-14T15:16:04.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 118,
   "hasMore": true
 }
