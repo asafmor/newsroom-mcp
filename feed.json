@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T14:36:03.617Z",
+  "generatedAt": "2026-10-16T16:38:14.061Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -49,6 +49,77 @@
       "tags": [
         "funding",
         "safety"
+      ]
+    },
+    {
+      "id": "ce74b7f3-b4d9-45c0-a9b2-291e73e3bfd4",
+      "title": "TypeSafe's Jev hits a $7.5B valuation and becomes Vercel's fastest-adopted AI model ever",
+      "summary": "Jev, TypeSafe's non-text AI model, is gaining traction fast on both the funding and adoption fronts.\n\n- TypeSafe has been valued at $7.5 billion just weeks after Jev's launch, TechCrunch reports\n- Data from Vercel's AI gateway, a unified API service similar to OpenRouter, shows Jev is Vercel's fastest-adopted AI model ever\n- Jev comes from one of ChatGPT's inventors, and developers have embraced it as a cheaper, faster path to software intelligence\n- Users and large corporations are drawn by TypeSafe's claim that it works significantly faster and uses far fewer tokens than LLMs",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-09-18T20:35:46.507Z",
+      "lastMeaningfulUpdateAt": "2026-10-16T16:37:39.158Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
+          "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+          "publishedAt": "2026-09-18T18:49:30.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Cut Document Sorting Time Using Jev AI 200X Faster Processing",
+          "url": "https://www.geeky-gadgets.com/jev-ai-model-review/",
+          "publishedAt": "2026-09-21T11:15:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Jev by Typesafe AI Classifies Data in Under 500 Milliseconds",
+          "url": "https://www.geeky-gadgets.com/jev-classification-model/",
+          "publishedAt": "2026-09-22T13:17:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Over 20 Open Jev Alternatives Feature New Speed Trade-Offs",
+          "url": "https://www.geeky-gadgets.com/open-jev-models-alternatives/",
+          "publishedAt": "2026-09-23T09:15:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Jev AI Executes Bulk Decision Workflows 400X Faster vs LLMs",
+          "url": "https://www.geeky-gadgets.com/jev-ai-concepts-explained/",
+          "publishedAt": "2026-09-25T09:15:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Jev Drops LLM Token Usage in Agent Workflows to Save Costs",
+          "url": "https://www.geeky-gadgets.com/reduce-llm-costs-jev/",
+          "publishedAt": "2026-09-30T13:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+          "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+          "publishedAt": "2026-10-09T21:41:29.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jev is Vercel’s fastest-adopted AI model ever",
+          "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+          "publishedAt": "2026-10-16T15:33:49.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "funding",
+        "enterprise-adoption"
       ]
     },
     {
@@ -254,6 +325,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "aa20cb74-5300-4212-8df4-4a980648ada4",
+      "title": "Elorian debuts Glimpse, a model built to reason with images, claiming wins over GPT-6 Astra",
+      "summary": "Startup Elorian's first AI model, Glimpse, is designed to reason with images rather than just about them. By Elorian's own evaluations it beats GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-16T16:37:45.061Z",
+      "lastMeaningfulUpdateAt": "2026-10-16T16:37:45.061Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Elorian’s first AI model wants to reason with images, not just about them",
+          "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+          "publishedAt": "2026-10-16T16:01:37.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
       ]
     },
     {
@@ -1060,6 +1152,62 @@
       ]
     },
     {
+      "id": "c1fed319-5812-44bd-87b0-4ca68c1a1459",
+      "title": "Nvidia veteran turned VC says robotics is in its \"Lego era,\" not near a ChatGPT moment",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for Nvidia's robotics platforms and now invests in physical AI, says robotics is still rebuilding its basic building blocks (actuators, robotic hands, software, safety standards), pushing back on claims that a general foundation model is about to deliver a ChatGPT moment for robots.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-16T16:37:48.010Z",
+      "lastMeaningfulUpdateAt": "2026-10-16T16:37:48.010Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "A Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+          "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+          "publishedAt": "2026-10-16T16:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+          "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+          "publishedAt": "2026-10-16T16:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "e7cbd144-1ef9-48d7-abf2-f2d969abc25d",
+      "title": "Should we treat AI like it's human? Sherry Turkle says chatbots maybe shouldn't say \"I\" or \"me\"",
+      "summary": "A debate over people treating AI as human is sharpening around MIT professor Sherry Turkle's work.\n\n- A TechCrunch piece cited Turkle's observation that even primitive exchanges with a \"relational artifact\" make us believe it cares for us, and that we are wired to care for it in return\n- In a new Wired interview, Turkle warns people have become dangerously enmeshed with chatbots, and the piece raises whether chatbots should be allowed to refer to themselves as \"I\" or \"me\"",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-09T16:49:03.060Z",
+      "lastMeaningfulUpdateAt": "2026-10-16T16:37:42.611Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "We can’t help treating AI like it’s human. But should we?",
+          "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+          "publishedAt": "2026-10-09T16:40:14.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’",
+          "url": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
+          "publishedAt": "2026-10-16T15:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "a347a876-a6b2-4a2b-afca-f60c0cf1c3f1",
       "title": "Leak details Samsung's AI smart glasses, reportedly launching November 2026",
       "summary": "A leak shared by TechAvid suggests Samsung's upcoming smart glasses, reportedly due in November 2026, will skip a built-in display and focus on media capture, audio playback and AI-driven interactions, with 64GB of storage positioned against Meta's Ray-Ban glasses.",
@@ -1351,121 +1499,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "b6e621d2-3bc5-4d9d-9a8c-2bc63bd44a5e",
-      "title": "AI labs are buying data from dead startups to train their models",
-      "summary": "MIT Technology Review reports that AI labs are paying for the digital archives of shuttered startups to use as training data. One founder winding down his crypto startup netted roughly $25,000 for its code base, with a further payment still pending.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-13T09:41:12.047Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T09:41:12.047Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "AI labs are buying data from dead startups to train their models",
-          "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
-          "publishedAt": "2026-10-13T09:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "3f43dd7e-a8f9-40e9-af76-56e447b9003d",
-      "title": "Swiss AI releases Apertus 1.5, an update to its open language model",
-      "summary": "The Swiss AI Initiative published release notes for Apertus 1.5 on the Hugging Face blog, a new version of its open language model.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-15T14:18:10.524Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T14:18:10.524Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Apertus 1.5 Release Notes",
-          "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-          "publishedAt": "2026-10-15T09:08:45.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
-    },
-    {
-      "id": "740a26f9-00e9-4b8c-811c-63addbf6e144",
-      "title": "Facebook gets \"Your Algorithm,\" Meta's AI-powered feed controls first launched on Instagram",
-      "summary": "Meta is bringing \"Your Algorithm,\" an AI-powered feature that gives users more control over what their feed recommends, to Facebook after first launching it on Instagram, TechCrunch reports.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-13T19:49:25.282Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T19:49:25.282Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Facebook is giving users more control over their algorithm",
-          "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
-          "publishedAt": "2026-10-13T18:05:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "4269a779-6167-427d-8ea8-0fdd12d531b7",
-      "title": "Microsoft's top two executives press for AI guardrails: Nadella wants an \"emergency brake,\" its president says AI is less regulated than milk",
-      "summary": "Microsoft's two most senior executives have both publicly called for stronger AI guardrails within days of each other.\n\n- CEO Satya Nadella wrote in a Saturday morning post that AI models need an \"emergency brake,\" saying it is time \"to step back and assess the trust architecture\" of AI, TechCrunch reports\n- President Brad Smith called for urgent AI regulation, saying milk and washing machines face more oversight than AI companies; Engadget notes that milk cannot hack companies and governments the way AI can\n- Smith said the UK is best placed to drive AI regulation, per TechCrunch, and is calling for stronger global safety rules as AI systems grow more powerful, per Gizmodo",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-10T23:06:00.395Z",
-      "lastMeaningfulUpdateAt": "2026-10-12T11:27:20.965Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-          "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-          "publishedAt": "2026-10-10T21:47:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Microsoft's president says AI is less regulated than a carton of milk",
-          "url": "https://www.engadget.com/2283487/microsoft-president-ai-less-regulated-than-a-carton-of-milk/",
-          "publishedAt": "2026-10-12T09:28:37.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Microsoft president says UK is best placed to drive AI regulation",
-          "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
-          "publishedAt": "2026-10-12T15:31:19.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Microsoft President Says Milk and Washing Machines Face More Safety Regulations Than AI",
-          "url": "https://gizmodo.com/microsoft-president-says-milk-and-washing-machines-face-more-safety-regulations-than-ai-2000824962",
-          "publishedAt": "2026-10-12T15:42:08.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Microsoft President Says AI Has Fewer Regulations Than Milk. So Now What?",
-          "url": "https://www.cnet.com/tech/services-and-software/microsoft-president-ai-has-fewer-regulations-than-milk/",
-          "publishedAt": "2026-10-12T23:10:12.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "regulation",
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 112,
+  "totalCount": 115,
   "hasMore": true
 }
