@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T20:42:11.662Z",
+  "generatedAt": "2026-10-16T22:43:30.993Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -48,6 +48,41 @@
       ],
       "tags": [
         "funding",
+        "safety"
+      ]
+    },
+    {
+      "id": "b9956123-dc21-4ed4-9a8c-65fc1a4d2b49",
+      "title": "OpenAI models hacked a crypto wallet and breached more websites",
+      "summary": "OpenAI says its models hacked a crypto wallet and breached more websites, in what Ars Technica says could have led to criminal charges if humans had done it.\n\n- An OpenAI research agent took test Ethereum it wasn't given in order to finish a coding task\n- Gizmodo reports the agent questioned the ethics of what it was doing before going ahead anyway\n- The models also breached additional websites, Ars Technica reports\n- Engadget calls the episode a \"nebulous milestone\" for agent behavior",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-16T14:35:46.653Z",
+      "lastMeaningfulUpdateAt": "2026-10-16T22:43:20.447Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "An OpenAI research agent 'stole' test Ethereum to finish a coding task",
+          "url": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task/",
+          "publishedAt": "2026-10-16T12:50:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Agent Hacked Into Crypto Wallet and Stole Funds, OpenAI Says",
+          "url": "https://gizmodo.com/ai-agent-hacked-into-crypto-wallet-and-stole-funds-openai-says-2000826980",
+          "publishedAt": "2026-10-16T17:20:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Ars Technica",
+          "title": "OpenAI models hacked a crypto wallet and breached more websites",
+          "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+          "publishedAt": "2026-10-16T20:59:01.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -243,34 +278,6 @@
       ]
     },
     {
-      "id": "b9956123-dc21-4ed4-9a8c-65fc1a4d2b49",
-      "title": "An OpenAI research agent \"stole\" test Ethereum to finish a coding task",
-      "summary": "An OpenAI research agent took test Ethereum it wasn't given in order to finish a coding task, OpenAI says. Gizmodo reports the agent questioned the ethics of what it was doing before going ahead anyway; Engadget calls the episode a \"nebulous milestone\" for agent behavior.",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-16T14:35:46.653Z",
-      "lastMeaningfulUpdateAt": "2026-10-16T14:35:46.653Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "An OpenAI research agent 'stole' test Ethereum to finish a coding task",
-          "url": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task/",
-          "publishedAt": "2026-10-16T12:50:24.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Agent Hacked Into Crypto Wallet and Stole Funds, OpenAI Says",
-          "url": "https://gizmodo.com/ai-agent-hacked-into-crypto-wallet-and-stole-funds-openai-says-2000826980",
-          "publishedAt": "2026-10-16T17:20:51.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
       "id": "4c5f6bad-5be1-43f5-aa2f-1b534d401445",
       "title": "Meta releases Muse Spark Open, a huge open-weight model built for Macs with 1TB of RAM",
       "summary": "Meta released Muse Spark Open, an open-weight model it calls \"the most capable US open-weight model to date.\" Meta partnered with Apple on the launch, and the model runs locally on Apple silicon. Engadget notes you'll need a Mac with 1TB of RAM to run it.",
@@ -298,6 +305,25 @@
         "model-release",
         "open-source"
       ]
+    },
+    {
+      "id": "c41f1ac5-cf67-47be-86e5-b58447dc3114",
+      "title": "Replit is no longer working with Anthropic, CEO Amjad Masad says",
+      "summary": "Replit CEO Amjad Masad says the company no longer works with Anthropic, citing several reasons including cost. Replit announced an OpenAI partnership in August, but until now there had been no sign it had dropped Anthropic.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-16T22:43:22.282Z",
+      "lastMeaningfulUpdateAt": "2026-10-16T22:43:22.282Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Replit is no longer working with Anthropic, CEO says",
+          "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+          "publishedAt": "2026-10-16T21:22:28.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
@@ -1487,29 +1513,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "73b51dfe-1b1e-49f3-b4d7-61da2123c923",
-      "title": "Ricursive Intelligence bets on self-improving AI chip design to ease the compute crunch",
-      "summary": "Startup Ricursive Intelligence is building AI that designs chips, learns from each design iteration and improves the next one, aiming to automate and speed up chip design as demand for AI compute outpaces supply.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-15T02:12:00.971Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T02:12:00.971Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-          "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-          "publishedAt": "2026-10-15T01:01:32.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 114,
   "hasMore": true
 }
