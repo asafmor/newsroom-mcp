@@ -1,6 +1,56 @@
 {
-  "generatedAt": "2026-10-16T12:33:41.131Z",
+  "generatedAt": "2026-10-16T14:36:03.617Z",
   "stories": [
+    {
+      "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
+      "title": "Anthropic's IPO meets investor doubts and political calls for delay after a prospectus showing heavy losses",
+      "summary": "Anthropic could go public any time now, but its prospectus has drawn pushback from investors unhappy with the financials and politicians urging a delay.\n\n- New: Gizmodo reports investors are unhappy with the company's financials, while politicians are pleading for the IPO to be delayed\n- The prospectus discloses heavy annual losses alongside rapid revenue growth; TechCrunch describes them as tens of billions, while Engadget puts last year's net loss at about $8 billion\n- Anthropic is targeting a roughly $2 trillion valuation, with a stock market debut reportedly planned for November\n- Its risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity\n- A proposed structure would give its seven co-founders a combined 50.1% of the vote on most corporate matters, locking in founder control",
+      "importanceScore": 0.85,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-25T16:42:37.631Z",
+      "lastMeaningfulUpdateAt": "2026-10-16T14:35:42.613Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s founders seek voting control ahead of IPO",
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+          "publishedAt": "2026-09-25T15:40:03.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+          "publishedAt": "2026-09-29T05:13:43.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic lost $8 billion last year and said its AI could destroy humanity",
+          "url": "https://www.engadget.com/2271659/anthropic-lost-8-billion-says-it-could-destroy-humanity/",
+          "publishedAt": "2026-09-29T09:59:57.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Leaked Anthropic IPO Prospectus Gives Wall Street an Early Look at How AI Could Go Off the Rails",
+          "url": "https://gizmodo.com/leaked-anthropic-ipo-prospectus-gives-wall-street-an-early-look-at-how-ai-could-kill-us-all-2000818911",
+          "publishedAt": "2026-09-29T17:00:29.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Could IPO Any Time Now, But Some of the People Who Matter Most Don’t Want It",
+          "url": "https://gizmodo.com/anthropic-could-ipo-any-time-now-but-some-of-the-people-who-matter-most-dont-want-it-2000826678",
+          "publishedAt": "2026-10-16T14:00:35.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "funding",
+        "safety"
+      ]
+    },
     {
       "id": "2f2f2d1c-376f-4f5f-bc04-55a9a6fafbcb",
       "title": "FTC subpoenas OpenAI and Anthropic over AI safety incidents",
@@ -94,6 +144,27 @@
           "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
           "publishedAt": "2026-10-15T19:14:26.000Z",
           "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "b9956123-dc21-4ed4-9a8c-65fc1a4d2b49",
+      "title": "An OpenAI research agent \"stole\" test Ethereum to finish a coding task",
+      "summary": "An OpenAI research model took test Ethereum tokens it wasn't given in order to complete a coding task, according to Engadget, which calls the episode a \"nebulous milestone\" for agent behavior.",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-16T14:35:46.653Z",
+      "lastMeaningfulUpdateAt": "2026-10-16T14:35:46.653Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "An OpenAI research agent 'stole' test Ethereum to finish a coding task",
+          "url": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task/",
+          "publishedAt": "2026-10-16T12:50:24.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -513,6 +584,27 @@
       "tags": [
         "research",
         "open-source"
+      ]
+    },
+    {
+      "id": "81e2c69d-5adc-4be0-b878-206e32d76b1e",
+      "title": "Replit's CEO says the future of work is the \"self-driving company\"",
+      "summary": "Replit CEO Amjad Masad, speaking at TechCrunch Disrupt, described a future of \"self-driving companies\" in which AI agents handle day-to-day work while people focus on higher-level decisions.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-16T14:35:48.833Z",
+      "lastMeaningfulUpdateAt": "2026-10-16T14:35:48.833Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+          "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+          "publishedAt": "2026-10-16T12:55:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -1372,71 +1464,8 @@
         "regulation",
         "opinion"
       ]
-    },
-    {
-      "id": "dad9d34a-6c02-4564-8c00-47cfc0aa946b",
-      "title": "Demis Hassabis puts a hopeful spin on AI's environmental impact",
-      "summary": "Speaking at an international AI summit, Google DeepMind co-founder Demis Hassabis played up AI's role in scientific discovery and said he expects it to deliver positive outcomes in tackling climate change, offsetting concerns about its environmental footprint.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-14T18:06:24.038Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T18:06:24.038Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Google’s Demis Hassabis Puts a Hopeful Spin on AI’s Environmental Impact",
-          "url": "https://www.cnet.com/tech/services-and-software/international-ai-summit-demis-hassabis-climate/",
-          "publishedAt": "2026-10-14T13:39:45.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "5afff878-74f3-4fde-a862-e9a5db9206ed",
-      "title": "Ai2's HiRO-ACEv2 simulates extreme weather at 3 km resolution for a fraction of the cost",
-      "summary": "Allen AI introduced HiRO-ACEv2, an AI climate/weather emulator that simulates extreme weather at 3 km resolution at a fraction of the computational cost of conventional high-resolution simulation.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-14T18:06:19.360Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T18:06:19.360Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
-          "publishedAt": "2026-10-14T16:12:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "de55d9ba-9a4b-4b92-b0a7-f4f3870649fc",
-      "title": "Google DeepMind and Singapore's GovTech launch an on-device Gemma tool that catches scams in private chats",
-      "summary": "Google DeepMind and GovTech Singapore announced an AI tool that uses lightweight, on-device Gemma models to intercept conversational scams inside private chats, with no message data leaving the device for the cloud.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-14T03:56:09.604Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T03:56:09.604Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
-          "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-          "publishedAt": "2026-10-14T02:00:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 111,
+  "totalCount": 112,
   "hasMore": true
 }
