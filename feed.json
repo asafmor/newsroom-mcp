@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T20:56:02.215Z",
+  "generatedAt": "2026-10-17T22:57:14.762Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -354,6 +354,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "c98ea703-4ee4-4e4d-8daf-c4f87b082901",
+      "title": "Meta removes terms-of-service language that raised scraping and AI training concerns",
+      "summary": "Meta removed language from its updated terms that had raised concerns about web scraping and AI training, TechCrunch reports. A Meta spokesperson insisted the updated terms did not reflect any change in how Meta crawls the web.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-17T22:57:07.939Z",
+      "lastMeaningfulUpdateAt": "2026-10-17T22:57:07.939Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta removes language that raised scraping and AI training concerns",
+          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+          "publishedAt": "2026-10-17T21:31:32.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "c41f1ac5-cf67-47be-86e5-b58447dc3114",
@@ -1487,34 +1506,6 @@
           "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
           "publishedAt": "2026-10-14T00:00:00.000Z",
           "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "8935a5bd-eff6-440d-8884-6fa0d4951f5e",
-      "title": "YouTube Music adds labels for fully and partially AI-generated songs",
-      "summary": "YouTube Music is adding a label on the player page for songs generated entirely or partly by AI, including AI-assisted composition and vocals, as AI-generated tracks flood streaming platforms.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-14T20:08:34.765Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T20:08:34.765Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
-          "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-          "publishedAt": "2026-10-14T18:23:46.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Is That Singer Even Real? Music Streaming Services Are Starting To Tell You",
-          "url": "https://in.mashable.com/tech/115103/is-that-singer-even-real-music-streaming-services-are-starting-to-tell-you",
-          "publishedAt": "2026-10-14T22:23:48.000Z",
-          "contribution": "background"
         }
       ],
       "tags": [
