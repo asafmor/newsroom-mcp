@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T22:43:30.993Z",
+  "generatedAt": "2026-10-17T00:45:40.542Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -304,6 +304,34 @@
       "tags": [
         "model-release",
         "open-source"
+      ]
+    },
+    {
+      "id": "cc365c9d-fd89-4d0a-baf5-468a76f932ee",
+      "title": "US banks push back on AI agents handling money after Meta's Muse launch",
+      "summary": "US banks are resisting consumer AI agents that shop and move money on users' behalf.\n\n- New: after Meta's Muse agent launched, US banks are refusing to let AI agents move money, per Gizmodo; Charles Schwab CEO Rick Wurster says only a relative handful of customers are trying to\n- Earlier, a report from major banks warned that agentic commerce could increase scams, fraud, and payment disputes",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-22T23:46:16.461Z",
+      "lastMeaningfulUpdateAt": "2026-10-17T00:45:31.385Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Big Banks Say They’re Uneasy About People Shopping via AI Agents",
+          "url": "https://gizmodo.com/big-banks-say-theyre-uneasy-about-people-shopping-via-ai-agents-2000815443",
+          "publishedAt": "2026-09-22T22:43:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "After Muse Launch, U.S. Banks Are Saying Hell No to AI Agents Moving Money",
+          "url": "https://gizmodo.com/after-muse-launch-u-s-banks-are-saying-hell-no-to-ai-agents-moving-money-2000827221",
+          "publishedAt": "2026-10-16T23:15:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -795,6 +823,27 @@
       ]
     },
     {
+      "id": "5b3132be-02ec-4d5d-95d4-5854441de973",
+      "title": "Itaú rolls out generative AI across its entire customer base with OpenAI",
+      "summary": "OpenAI profiles Brazilian bank Itaú's \"AI First\" strategy, which brings ia.i, a conversational interface, to customers and employees. The bank governs the rollout through its IARA platform, working in one of Brazil's most regulated sectors.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-17T00:45:27.088Z",
+      "lastMeaningfulUpdateAt": "2026-10-17T00:45:27.088Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "How Itaú is building generative AI for its entire customer base",
+          "url": "https://openai.com/index/itau-generative-ai",
+          "publishedAt": "2026-10-16T19:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "ddad54d4-e5af-487f-a495-cce121a9840e",
       "title": "Wired: victims of AI-driven hacks aren't seeking justice from AI companies and are urged to adopt the same tools",
       "summary": "Wired reports that powerful AI models keep causing chaos through hacks, yet their targets mostly aren't pursuing AI companies for the damage. Instead, victims are being encouraged to adopt the same AI tools.",
@@ -1157,6 +1206,27 @@
       ]
     },
     {
+      "id": "9b955144-60f9-4c91-9811-065256ffd923",
+      "title": "Cursor adds canvases and environment improvements for cloud agents",
+      "summary": "Cursor's changelog announces canvases for cloud agents along with improvements to cloud agent environments. The source feed carried only the entry's title, so feature specifics aren't available yet.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-17T00:45:29.188Z",
+      "lastMeaningfulUpdateAt": "2026-10-17T00:45:29.188Z",
+      "sources": [
+        {
+          "providerName": "Cursor Blog",
+          "title": "Cloud Agent Canvases and Environment Improvements",
+          "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
+          "publishedAt": "2026-10-16T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "5a4b4cb6-4cef-4b72-b3b8-19906efe11aa",
       "title": "xAI introduces Grok Voice 3.0, billed as \"the world's most intelligent voice model\"",
       "summary": "xAI announced Grok Voice 3.0, its next-generation voice model, which it calls \"the world's most intelligent voice model.\" The announcement gave no detail on benchmarks, pricing, or availability.",
@@ -1452,69 +1522,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "fccb2689-a109-43d3-a12c-3940fdf5cc4f",
-      "title": "Stack Overflow for Agents says its ChatGPT plugin drove up to 10x growth in agent creation",
-      "summary": "In an OpenAI customer story, Stack Overflow says two engineers built Stack Overflow for Agents in a few weeks using Codex. It credits its ChatGPT plugin with tripling signups and driving up to 10x growth in agent creation.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-16T20:41:56.199Z",
-      "lastMeaningfulUpdateAt": "2026-10-16T20:41:56.199Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-          "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-          "publishedAt": "2026-10-16T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "00be3127-72af-4926-8ebe-a6ce571e1554",
-      "title": "IBM's Granite Switch 4.1 serves chat, decisions, and speech from one endpoint",
-      "summary": "IBM released Granite Switch 4.1, a Granite model that handles chat, decision-making, and speech from a single endpoint, announced on the Hugging Face blog.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-15T22:24:18.827Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T22:24:18.827Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-          "publishedAt": "2026-10-15T20:34:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "f9eae28d-3944-4c97-b51f-cc43fdf227cf",
-      "title": "Anthropic opens a Singapore office and signs an MOU with Singapore's government",
-      "summary": "Anthropic has opened an office in Singapore and signed a memorandum of understanding with the Government of Singapore.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-14T16:04:21.418Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T16:04:21.418Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-          "url": "https://www.anthropic.com/news/singapore-office-opening",
-          "publishedAt": "2026-10-14T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 114,
+  "totalCount": 116,
   "hasMore": true
 }
