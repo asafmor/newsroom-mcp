@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T08:50:02.651Z",
+  "generatedAt": "2026-10-17T10:51:08.808Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -887,6 +887,27 @@
       ]
     },
     {
+      "id": "3d61322d-0e84-49c0-bb0d-68ddad0eb6c4",
+      "title": "Why AI isn't ready to decode the genome yet",
+      "summary": "A Wired essay by Philip Ball argues that DNA behaves as a dynamic system rather than a simple instruction set. AI models, like the scientists studying it, still lack the data they would need to decode it properly.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-17T10:51:02.569Z",
+      "lastMeaningfulUpdateAt": "2026-10-17T10:51:02.569Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
+          "url": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
+          "publishedAt": "2026-10-17T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "769f68ec-0001-4792-b9c7-9661bd6a2da7",
       "title": "Google launches its Universal Cart shopping tool in the US across Search and Gemini",
       "summary": "Google's Universal Cart shopping tool is now available in the U.S. across Google Search and the Gemini app, extending Google's push into AI-assisted shopping.",
@@ -1501,29 +1522,8 @@
       "tags": [
         "regulation"
       ]
-    },
-    {
-      "id": "0ec29bc7-da13-4da2-a8c6-91a30c3de730",
-      "title": "American Express introduces a framework to stop AI agents from making unauthorized purchases",
-      "summary": "American Express is introducing a framework designed to ensure AI agents only make purchases their users have authorized. TechCrunch says it could prevent costly mistakes and payment disputes as AI-powered shopping grows.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-13T13:44:11.270Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T13:44:11.270Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
-          "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
-          "publishedAt": "2026-10-13T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 116,
+  "totalCount": 117,
   "hasMore": true
 }
