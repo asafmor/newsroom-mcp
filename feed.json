@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T10:51:08.808Z",
+  "generatedAt": "2026-10-17T12:52:09.178Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -328,6 +328,27 @@
           "url": "https://gizmodo.com/after-muse-launch-u-s-banks-are-saying-hell-no-to-ai-agents-moving-money-2000827221",
           "publishedAt": "2026-10-16T23:15:00.000Z",
           "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "da7968d5-855c-42f1-9527-528425772b0f",
+      "title": "Apple tightens App Store rules to bar AI \"nudify\" apps",
+      "summary": "Apple updated its App Store rules to crack down on apps that use AI to generate nonconsensual intimate imagery, such as so-called \"nudify\" apps, per Engadget.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-17T12:52:04.612Z",
+      "lastMeaningfulUpdateAt": "2026-10-17T12:52:04.612Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Apple updates App Store rules to ensure it doesn't offer AI nudify apps",
+          "url": "https://www.engadget.com/2289567/apple-updates-app-store-rules-ai-nudify-apps/",
+          "publishedAt": "2026-10-17T12:35:56.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1501,29 +1522,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "f9134f8d-19b7-42b6-b3b5-ac9b6244866a",
-      "title": "Shifting AI doomsday predictions reportedly worry European banking regulators",
-      "summary": "Gizmodo reports that shifting AI doomsday predictions are worrying banking regulators, with European regulators expecting AI-driven financial chaos sooner rather than later.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-13T23:53:22.388Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T23:53:22.388Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Shifting AI Doomsday Predictions Reportedly Worry Banking Regulators",
-          "url": "https://gizmodo.com/shifting-ai-doomsday-predictions-reportedly-worry-banking-regulators-2000825460",
-          "publishedAt": "2026-10-13T23:29:31.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 118,
   "hasMore": true
 }
