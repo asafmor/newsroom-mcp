@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T15:06:16.819Z",
+  "generatedAt": "2026-10-18T17:07:06.814Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -275,6 +275,39 @@
         "model-release",
         "safety"
       ]
+    },
+    {
+      "id": "e18b5da4-d2ad-484e-b193-0f95519b47d7",
+      "title": "Character.AI goes bankrupt; Disney buys assets for $20M and hires most of its staff",
+      "summary": "Chatbot platform Character.AI filed for Chapter 11 bankruptcy just five years after its founding, and Disney is absorbing much of what's left.\n\n- Disney agreed to buy some of the startup's assets for $20 million\n- Disney has also agreed to hire the majority of Character.AI's workforce\n- Former Character.AI CEO Karandeep Anand recently became Disney's first-ever CTO",
+      "importanceScore": 0.74,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-13T13:44:13.374Z",
+      "lastMeaningfulUpdateAt": "2026-10-18T17:06:57.925Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+          "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+          "publishedAt": "2026-10-13T12:23:42.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Character.AI just filed for bankruptcy, and former foe Disney may buy it for parts",
+          "url": "https://www.engadget.com/2285177/character-ai-just-filed-for-bankruptcy-and-former-foe-disney-may-buy-it-for-parts/",
+          "publishedAt": "2026-10-13T13:45:10.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+          "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+          "publishedAt": "2026-10-18T16:30:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -1424,32 +1457,6 @@
       ]
     },
     {
-      "id": "e18b5da4-d2ad-484e-b193-0f95519b47d7",
-      "title": "Character.AI files for bankruptcy five years in, selling some assets to Disney for $20M",
-      "summary": "Interactive chatbot platform Character.AI has filed for Chapter 11 bankruptcy just five years after its founding, TechCrunch reports. The startup will sell some of its assets to Disney for $20 million.",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-13T13:44:13.374Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T13:44:13.374Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
-          "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-          "publishedAt": "2026-10-13T12:23:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Character.AI just filed for bankruptcy, and former foe Disney may buy it for parts",
-          "url": "https://www.engadget.com/2285177/character-ai-just-filed-for-bankruptcy-and-former-foe-disney-may-buy-it-for-parts/",
-          "publishedAt": "2026-10-13T13:45:10.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
       "id": "92df1ba9-44d6-439a-8faa-d4385028b4ac",
       "title": "DeepMind's AlphaGenome Atlas catalogs 9 billion genetic variations",
       "summary": "Google DeepMind's AlphaGenome has been used to build an atlas cataloging the predicted effects of 9 billion genetic variations, Geeky Gadgets reports. The model predicts how variants affect the genome by examining individual base pairs in their wider genomic context.",
@@ -1874,6 +1881,6 @@
       ]
     }
   ],
-  "totalCount": 119,
+  "totalCount": 117,
   "hasMore": true
 }
