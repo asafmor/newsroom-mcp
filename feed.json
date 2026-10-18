@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T13:05:16.010Z",
+  "generatedAt": "2026-10-18T15:06:16.819Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -683,6 +683,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "369aec39-6817-4e8d-b755-cfca4bb83072",
+      "title": "Researchers say AI-generated content can plant fake memories",
+      "summary": "Researchers say AI-generated content can implant false memories in people, Gizmodo reports, arguing that human memory is already suggestible and that AI is making the problem worse.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-18T15:06:11.018Z",
+      "lastMeaningfulUpdateAt": "2026-10-18T15:06:11.018Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI-Generated Content Can Plant Fake Memories, Researchers Say",
+          "url": "https://gizmodo.com/ai-generated-content-can-plant-fake-memories-researchers-say-2000826459",
+          "publishedAt": "2026-10-18T13:39:01.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -1851,36 +1872,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "e7cbd144-1ef9-48d7-abf2-f2d969abc25d",
-      "title": "Should we treat AI like it's human? Sherry Turkle says chatbots maybe shouldn't say \"I\" or \"me\"",
-      "summary": "A debate over people treating AI as human is sharpening around MIT professor Sherry Turkle's work.\n\n- A TechCrunch piece cited Turkle's observation that even primitive exchanges with a \"relational artifact\" make us believe it cares for us, and that we are wired to care for it in return\n- In a new Wired interview, Turkle warns people have become dangerously enmeshed with chatbots, and the piece raises whether chatbots should be allowed to refer to themselves as \"I\" or \"me\"",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-09T16:49:03.060Z",
-      "lastMeaningfulUpdateAt": "2026-10-16T16:37:42.611Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "We can’t help treating AI like it’s human. But should we?",
-          "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
-          "publishedAt": "2026-10-09T16:40:14.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’",
-          "url": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
-          "publishedAt": "2026-10-16T15:00:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 119,
   "hasMore": true
 }
