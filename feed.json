@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T17:07:06.814Z",
+  "generatedAt": "2026-10-18T19:08:02.851Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -717,6 +717,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "1aafafbe-ef7d-4bf4-aa31-db5cebc0ff3a",
+      "title": "Anthropic announces a public benefit fund",
+      "summary": "Anthropic published \"Investing in the public benefit,\" an announcement about a public benefit fund. The source item only has the headline, so the fund's size, scope and recipients aren't known yet.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-18T19:07:58.836Z",
+      "lastMeaningfulUpdateAt": "2026-10-18T19:07:58.836Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "Investing in the public benefit",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "publishedAt": "2026-10-18T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "369aec39-6817-4e8d-b755-cfca4bb83072",
@@ -1851,36 +1870,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "c1fed319-5812-44bd-87b0-4ca68c1a1459",
-      "title": "Nvidia veteran turned VC says robotics is in its \"Lego era,\" not near a ChatGPT moment",
-      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for Nvidia's robotics platforms and now invests in physical AI, says robotics is still rebuilding its basic building blocks (actuators, robotic hands, software, safety standards), pushing back on claims that a general foundation model is about to deliver a ChatGPT moment for robots.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-16T16:37:48.010Z",
-      "lastMeaningfulUpdateAt": "2026-10-16T16:37:48.010Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "A Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-          "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-          "publishedAt": "2026-10-16T16:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
-          "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
-          "publishedAt": "2026-10-16T16:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 118,
   "hasMore": true
 }
