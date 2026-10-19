@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T15:20:05.381Z",
+  "generatedAt": "2026-10-19T17:21:26.937Z",
   "stories": [
     {
       "id": "e18b5da4-d2ad-484e-b193-0f95519b47d7",
@@ -37,6 +37,13 @@
           "url": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
           "publishedAt": "2026-10-19T09:00:00.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Disney Wants to Hire Most of the Employees From Bankrupt Character.AI",
+          "url": "https://gizmodo.com/disney-wants-to-hire-most-of-the-employees-from-bankrupt-character-ai-2000827460",
+          "publishedAt": "2026-10-19T16:45:33.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -346,6 +353,50 @@
       ]
     },
     {
+      "id": "b8d76264-8444-42c4-ac28-2d2988ec5c2b",
+      "title": "Homeland Security bans DeepSeek in federal civilian agencies",
+      "summary": "The Department of Homeland Security barred federal civilian agencies from using DeepSeek, a couple of days after the Chinese lab released its latest AI model.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-19T17:21:18.830Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T17:21:18.830Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Homeland Security bans DeepSeek use in federal civilian agencies",
+          "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
+          "publishedAt": "2026-10-19T16:59:28.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "e61a8a53-c518-462b-93d7-d53266ca07d7",
+      "title": "Nvidia launches new open models for running AI agents in enterprise data centers and on PCs",
+      "summary": "Nvidia released new open models aimed at two fronts: enterprises that want to run their own open models in their own data centers, and private, on-device AI agents running on PCs.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-19T17:21:16.830Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T17:21:16.830Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nvidia launches new open models to run agents in the enterprise and on PCs ",
+          "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+          "publishedAt": "2026-10-19T15:37:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source",
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "8c434be0-633e-4482-8913-15416883f869",
       "title": "US AI data-center backlash: the industry courts kids with field trips as Amazon drops NDAs",
       "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built, and is forcing Big Tech into both concessions and new persuasion campaigns.\n\n- New: Industry-friendly groups are trying to win over young people with data center field trips and other youth outreach, per Wired\n- Amazon pledged to stop using NDAs with local governments, paired with a warning to critics not to get in the way\n- Nearly $200 billion worth of US projects have been blocked or delayed this year; Pennsylvania residents refused a developer's $10,000-each offer to stop protesting\n- Trump admitted in a Time interview that he is a NIMBY on data centers\n- Big Tech is countering with a multimillion-dollar ad campaign and a \"viral\" pro-data-center party backed by Peter Thiel and the Koch Institute\n- Environmental-justice concerns in previously industrialized neighborhoods remain a central line of attack",
@@ -497,6 +548,27 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "697a4917-90ef-4d7f-b20e-e4b18ecb9572",
+      "title": "WhatsApp help pages leaked hidden instructions for a Meta chatbot",
+      "summary": "Around 80 pages on WhatsApp's website exposed instructions written for Meta's chatbot, including a \"WHAT NOT TO SAY\" section. Meta blamed a bug.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-19T17:21:20.882Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T17:21:20.882Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
+          "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+          "publishedAt": "2026-10-19T16:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -1074,6 +1146,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "fd9f19cc-aa32-42af-9676-68781c2ed8de",
+      "title": "Smart TV owners turn to AI agents to strip out ads and bloatware",
+      "summary": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are using AI agents to remove bloatware and take back control of their TVs.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-19T17:21:22.521Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T17:21:22.521Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "People are using AI to make their smart TVs dumb again",
+          "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+          "publishedAt": "2026-10-19T16:13:22.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "aa20cb74-5300-4212-8df4-4a980648ada4",
@@ -1775,133 +1866,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "5d3532b2-e794-4a45-9722-2e783c12263b",
-      "title": "Amazon devices chief Panos Panay predicts ambient AI devices will replace apps",
-      "summary": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background and anticipate users' needs instead of waiting for commands, reducing the need to use apps.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-15T20:22:38.068Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T20:22:38.068Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-          "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-          "publishedAt": "2026-10-15T19:55:25.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "c215ce3e-2572-4cbd-88fa-8f7199794b76",
-      "title": "Meta's Muse Wonder, its biggest model, rivals the frontier and adds safeguards for agents",
-      "summary": "Meta released Muse Wonder, its largest model line and what it calls its first frontier model, claiming it has caught up with the world's best.\n\n- Where Muse Spark was a lightweight, low-latency model, the Wonder models are larger, with higher benchmark scores and better results on complex tasks like coding (TechCrunch)\n- The models add \"active memory\" and \"active focus\" abilities (Engadget)\n- New features are meant to keep agents from going off the rails (Wired)",
-      "importanceScore": 0.82,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-12T17:32:14.577Z",
-      "lastMeaningfulUpdateAt": "2026-10-12T17:32:14.577Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Muse Wonder Puts Meta Back at the AI Frontier",
-          "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
-          "publishedAt": "2026-10-12T17:00:27.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta releases its first frontier model, Muse Wonder",
-          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-          "publishedAt": "2026-10-12T17:56:56.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Meta says it's caught up to the frontier with its latest Wonder AI models",
-          "url": "https://www.engadget.com/2284478/meta-says-its-caught-up-to-the-frontier-with-its-latest-wonder-ai-models/",
-          "publishedAt": "2026-10-12T18:51:52.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Meta Launches Muse Wonder AI Models to Play Catch-Up With Rivals",
-          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-and-wonder-ai-models/",
-          "publishedAt": "2026-10-12T22:55:13.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Mark Zuckerberg: Meta Is on the Frontier Now",
-          "url": "https://gizmodo.com/mark-zuckerberg-meta-is-on-the-frontier-now-2000825035",
-          "publishedAt": "2026-10-13T00:36:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "How Meta Muse Wonder Stacks Up Against GPT 6.1 Sol",
-          "url": "https://www.geeky-gadgets.com/muse-wonder/",
-          "publishedAt": "2026-10-13T12:43:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Meta Launches Muse Wonder AI with Active Memory for Coding",
-          "url": "https://www.geeky-gadgets.com/meta-muse-wonder-ai/",
-          "publishedAt": "2026-10-14T08:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "safety"
-      ]
-    },
-    {
-      "id": "89cdcada-4db5-4d4f-9f01-f56fa0442aa0",
-      "title": "MIT researchers say AI may soon be the default way to solve theory problems beyond math",
-      "summary": "After its inroads into mathematics, AI may soon become the default way to tackle theoretical problems in economics, high-energy physics, and other fields, MIT researchers tell Wired.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-14T20:08:32.709Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T20:08:32.709Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AI Came for Math. Now It’s Chasing the Rest of Science",
-          "url": "https://www.wired.com/story/ai-is-coming-for-science-next-watch-out/",
-          "publishedAt": "2026-10-14T18:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "9b955144-60f9-4c91-9811-065256ffd923",
-      "title": "Cursor adds canvases and environment improvements for cloud agents",
-      "summary": "Cursor's changelog announces canvases for cloud agents along with improvements to cloud agent environments. The source feed carried only the entry's title, so feature specifics aren't available yet.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-17T00:45:29.188Z",
-      "lastMeaningfulUpdateAt": "2026-10-17T00:45:29.188Z",
-      "sources": [
-        {
-          "providerName": "Cursor Blog",
-          "title": "Cloud Agent Canvases and Environment Improvements",
-          "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
-          "publishedAt": "2026-10-16T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 110,
+  "totalCount": 113,
   "hasMore": true
 }
