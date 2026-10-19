@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T09:15:43.740Z",
+  "generatedAt": "2026-10-19T11:17:40.567Z",
   "stories": [
     {
       "id": "e18b5da4-d2ad-484e-b193-0f95519b47d7",
@@ -476,6 +476,27 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "0fac2a84-9e7e-445e-96aa-391efe4bd435",
+      "title": "Four Gemini 4 Argon agents beat Minecraft's Ender Dragon with no human help",
+      "summary": "A team of four Google Gemini 4 Argon agents beat Minecraft by defeating the Ender Dragon with no human intervention, coordinating by sharing tips, threats and mistakes with each other, Engadget reports.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-19T11:17:29.007Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T11:17:29.007Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Google Gemini 4 agents just beat Minecraft with no human intervention",
+          "url": "https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/",
+          "publishedAt": "2026-10-19T09:19:19.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -1683,7 +1704,7 @@
     {
       "id": "4583b44a-401e-4b64-b0c6-c98a029e6e7a",
       "title": "MIT study: an AI agent left alone on a virtual island invents games and builds temples",
-      "summary": "A new MIT study found that AI agents left to their own devices in a virtual island environment invent games, build temples, draw mandalas, and playfully investigate the world around them.",
+      "summary": "A new MIT study found that AI agents left to their own devices on a virtual island invent games, build temples, draw mandalas, and playfully investigate the world around them. The agents were copies of Claude Opus 4.7, nicknamed Eko, stranded alone for 30 hours at a time, MIT Technology Review reports.",
       "importanceScore": 0.4,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-15T20:22:42.319Z",
@@ -1694,6 +1715,13 @@
           "title": "Researchers Stranded an AI Agent on a Virtual Island. Things Got Very Weird.",
           "url": "https://gizmodo.com/researchers-stranded-an-ai-agent-on-a-virtual-island-things-got-very-weird-2000825998",
           "publishedAt": "2026-10-15T19:15:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+          "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+          "publishedAt": "2026-10-19T09:08:05.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1867,27 +1895,8 @@
       "tags": [
         "model-release"
       ]
-    },
-    {
-      "id": "a0a6c974-aaf6-43e0-9d56-e7b2e9694a9f",
-      "title": "Rivian plans to bring AI agents to its cars",
-      "summary": "Rivian says AI agents are coming to its vehicles, with more detail on how they will work expected at the company's \"AI & Autonomy Day\" event in December.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-15T16:19:06.901Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T16:19:06.901Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI agents are coming to Rivian’s cars",
-          "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-          "publishedAt": "2026-10-15T15:02:36.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 112,
+  "totalCount": 111,
   "hasMore": true
 }
