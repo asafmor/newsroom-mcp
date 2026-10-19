@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T11:17:40.567Z",
+  "generatedAt": "2026-10-19T13:19:24.994Z",
   "stories": [
     {
       "id": "e18b5da4-d2ad-484e-b193-0f95519b47d7",
@@ -520,6 +520,25 @@
           "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
           "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
           "publishedAt": "2026-10-18T20:37:40.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ac76d25e-6458-4e66-b9e9-277005c695ad",
+      "title": "OpenAI reportedly testing three \"Aurora\" image-generation models",
+      "summary": "OpenAI has surfaced three new models, Aurora Blue, Aurora Green Alpha and Aurora Red Alpha, that focus on image generation rather than the language and coding upgrades many expected, Geeky Gadgets reports, citing the Universe of AI channel. The shift has prompted questions about OpenAI's priorities.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-19T13:19:17.992Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T13:19:17.992Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI Tests 3 Aurora Models Focused on Generating Images",
+          "url": "https://www.geeky-gadgets.com/openai-aurora-image-models-tested/",
+          "publishedAt": "2026-10-19T12:47:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1308,6 +1327,13 @@
           "url": "https://www.geeky-gadgets.com/gemini-argon-3/",
           "publishedAt": "2026-10-15T08:15:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Gemini 4 Argon AI Super App Launches with Chat and Task Modes",
+          "url": "https://www.geeky-gadgets.com/how-to-use-gemini-app/",
+          "publishedAt": "2026-10-19T12:13:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1873,27 +1899,6 @@
       ],
       "tags": [
         "product-launch"
-      ]
-    },
-    {
-      "id": "5a4b4cb6-4cef-4b72-b3b8-19906efe11aa",
-      "title": "xAI introduces Grok Voice 3.0, billed as \"the world's most intelligent voice model\"",
-      "summary": "xAI announced Grok Voice 3.0, its next-generation voice model, which it calls \"the world's most intelligent voice model.\" The announcement gave no detail on benchmarks, pricing, or availability.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-14T18:06:16.961Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T18:06:16.961Z",
-      "sources": [
-        {
-          "providerName": "xAI News",
-          "title": "Introducing Grok Voice 3.0",
-          "url": "https://x.ai/news/grok-voice-3",
-          "publishedAt": "2026-10-14T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
       ]
     }
   ],
