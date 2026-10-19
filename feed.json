@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-10-19T19:23:53.203Z",
+  "generatedAt": "2026-10-19T21:25:39.650Z",
   "stories": [
+    {
+      "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
+      "title": "Judge keeps former OpenAI engineer accused of bugging an executive meeting room in custody, rejecting a Saudi release offer",
+      "summary": "A judge ordered former OpenAI engineer Abdulrahman Alfozan, arrested by the FBI on suspicion of planting a hidden recording device in the company's offices with a chatbot's help, to remain in custody.\n\n- The judge likened the Saudi government's offer to secure his release to a \"blank check,\" per Wired\n- Wired reports chatbot prompts reveal his alleged efforts to set up a covert listening device days before one was found in a meeting room used by top executives\n- CNET reports US intelligence and security officials say espionage inside AI labs poses a national security threat\n- OpenAI says it asked its own AI models to work out what the device was, per Engadget\n- Gizmodo notes the \"sophisticated\" bug appears to be a $13.99 Seeed Studio hobbyist board, and that the accused cited Elon Musk as a role model",
+      "importanceScore": 0.8,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-13T21:51:23.252Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T21:25:21.623Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI says it found a 'sophisticated recording device' hidden in its offices",
+          "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
+          "publishedAt": "2026-10-13T21:34:17.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Here’s How OpenAI Says It Used AI to Find a Spy Inside Its Company",
+          "url": "https://gizmodo.com/heres-how-openai-says-it-used-ai-to-find-a-spy-inside-its-company-2000825570",
+          "publishedAt": "2026-10-13T21:19:53.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
+          "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+          "publishedAt": "2026-10-13T23:17:59.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "The ‘Sophisticated’ Bug OpenAI Found in Its Conference Room Can Be Yours for $13.99",
+          "url": "https://gizmodo.com/the-sophisticated-bug-openai-found-in-its-conference-room-can-be-yours-for-13-99-2000825636",
+          "publishedAt": "2026-10-14T02:00:35.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "FBI Arrests OpenAI Employee Suspected of Planting a Surveillance Bug",
+          "url": "https://www.cnet.com/tech/services-and-software/openai-employee-fbi-arrest-recording-device-news/",
+          "publishedAt": "2026-10-14T17:25:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Man Accused of Bugging OpenAI Said Elon Musk Was His Role Model",
+          "url": "https://gizmodo.com/man-accused-of-bugging-openai-said-elon-musk-was-his-role-model-2000825897",
+          "publishedAt": "2026-10-14T18:40:07.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
+          "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
+          "publishedAt": "2026-10-19T19:49:17.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "1eea4a9d-2f2a-4b89-843c-4d6db4e3e125",
       "title": "Goodfire researcher's 26,000-word claim about the nature of neural networks upends the AI world",
@@ -615,6 +678,25 @@
       ]
     },
     {
+      "id": "3ef70244-f69b-4617-bd85-2a61a2114d37",
+      "title": "Hackers breach AI coding agent OpenCode, stealing users' API keys and running up AI charges",
+      "summary": "Hackers got into part of the online platform of OpenCode, a popular open-source alternative to Claude Code and Cursor, and stole some users' API keys, running up charges on their AI accounts, TechCrunch reports. When OpenCode turned to AI tools for help, they kept refusing to examine the malicious code.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-19T21:25:25.924Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T21:25:25.924Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+          "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+          "publishedAt": "2026-10-19T19:28:34.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "da166f42-7ce0-4636-bbe3-8832c248cc2e",
       "title": "Anthropic replaces git with Scion, an in-house version control system built for always-online agents",
       "summary": "Anthropic built Scion, an in-house version control system designed for always-online agents, and migrated its monorepo off git in five months. Daily merges had grown from about 2,500 to more than 30,000, making source control the company's biggest development bottleneck.",
@@ -632,6 +714,34 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "6fed06d4-0ea6-4753-929b-b48534126161",
+      "title": "Amazon takes aim at Nvidia's PyTorch grip with TorchNeuron, a tool for running models on AWS Trainium",
+      "summary": "Amazon is pushing TorchNeuron, a developer tool meant to break Nvidia's hold on PyTorch so more AI apps run on alternative chips like AWS Trainium; TechCrunch calls it Amazon's biggest shot at Nvidia yet. Hugging Face says it makes running its models on Trainium easier than ever.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-19T19:23:31.943Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T19:23:31.943Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+          "url": "https://huggingface.co/blog/hf-torchneuron",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+          "publishedAt": "2026-10-19T20:09:24.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
     },
     {
       "id": "697a4917-90ef-4d7f-b20e-e4b18ecb9572",
@@ -1266,83 +1376,6 @@
       "tags": []
     },
     {
-      "id": "6fed06d4-0ea6-4753-929b-b48534126161",
-      "title": "Hugging Face introduces TorchNeuron to run its models on AWS Trainium more easily",
-      "summary": "Hugging Face published TorchNeuron, which it says makes running Hugging Face models on AWS Trainium chips easier than ever.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-19T19:23:31.943Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T19:23:31.943Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-          "url": "https://huggingface.co/blog/hf-torchneuron",
-          "publishedAt": "2026-10-19T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
-      "title": "FBI arrests OpenAI employee suspected of using a chatbot to help plant a bug in an executive meeting room",
-      "summary": "The FBI has arrested an OpenAI employee suspected of planting a hidden recording device in the company's offices, allegedly with a chatbot's help.\n\n- CNET reports US intelligence and security officials say espionage inside AI labs poses a national security threat\n- Wired reports chatbot prompts reveal the engineer's alleged efforts to set up a covert listening device days before one was found in a meeting room used by top executives\n- OpenAI says it asked its own AI models to work out what the device was, per Engadget\n- Gizmodo notes the \"sophisticated\" bug appears to be a $13.99 Seeed Studio hobbyist board, and that the accused cited Elon Musk as a role model",
-      "importanceScore": 0.78,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-13T21:51:23.252Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T20:08:20.566Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI says it found a 'sophisticated recording device' hidden in its offices",
-          "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
-          "publishedAt": "2026-10-13T21:34:17.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Here’s How OpenAI Says It Used AI to Find a Spy Inside Its Company",
-          "url": "https://gizmodo.com/heres-how-openai-says-it-used-ai-to-find-a-spy-inside-its-company-2000825570",
-          "publishedAt": "2026-10-13T21:19:53.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
-          "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-          "publishedAt": "2026-10-13T23:17:59.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "The ‘Sophisticated’ Bug OpenAI Found in Its Conference Room Can Be Yours for $13.99",
-          "url": "https://gizmodo.com/the-sophisticated-bug-openai-found-in-its-conference-room-can-be-yours-for-13-99-2000825636",
-          "publishedAt": "2026-10-14T02:00:35.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "FBI Arrests OpenAI Employee Suspected of Planting a Surveillance Bug",
-          "url": "https://www.cnet.com/tech/services-and-software/openai-employee-fbi-arrest-recording-device-news/",
-          "publishedAt": "2026-10-14T17:25:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Man Accused of Bugging OpenAI Said Elon Musk Was His Role Model",
-          "url": "https://gizmodo.com/man-accused-of-bugging-openai-said-elon-musk-was-his-role-model-2000825897",
-          "publishedAt": "2026-10-14T18:40:07.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
       "id": "fd9f19cc-aa32-42af-9676-68781c2ed8de",
       "title": "Smart TV owners turn to AI agents to strip out ads and bloatware",
       "summary": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are using AI agents to remove bloatware and take back control of their TVs.",
@@ -1821,28 +1854,6 @@
       ],
       "tags": [
         "safety"
-      ]
-    },
-    {
-      "id": "1f567a41-24ac-4d3c-8b5c-b2972aac6972",
-      "title": "OpenAI launches the Rosalind Academic Plan, giving academic labs sponsored access to GPT-Rosalind",
-      "summary": "OpenAI introduced the Rosalind Academic Plan, which gives eligible academic labs sponsored access to GPT-Rosalind and related tools for life sciences research.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-15T22:24:14.674Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T22:24:14.674Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Bringing GPT-Rosalind to academic research labs",
-          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-          "publishedAt": "2026-10-15T19:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "research"
       ]
     }
   ],
