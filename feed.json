@@ -1,6 +1,27 @@
 {
-  "generatedAt": "2026-10-19T17:21:26.937Z",
+  "generatedAt": "2026-10-19T19:23:53.203Z",
   "stories": [
+    {
+      "id": "1eea4a9d-2f2a-4b89-843c-4d6db4e3e125",
+      "title": "Goodfire researcher's 26,000-word claim about the nature of neural networks upends the AI world",
+      "summary": "Nick Cammarata, a researcher at interpretability startup Goodfire, published a 26,000-word blog post opening with \"I think I have good news about the nature of neural networks.\" MIT Technology Review says the claim has knocked the AI world on its head, sparking wild speculation and both cautious and not-so-cautious celebration.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-10-19T19:23:36.892Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T19:23:36.892Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+          "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+          "publishedAt": "2026-10-19T17:45:55.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
     {
       "id": "e18b5da4-d2ad-484e-b193-0f95519b47d7",
       "title": "Character.AI goes bankrupt at Disney's request; Disney buys assets for $20M and hires most of its staff",
@@ -324,6 +345,28 @@
       ]
     },
     {
+      "id": "2dfb749c-555b-4b85-ae5b-a74ec17972a5",
+      "title": "Nvidia challenger Tenstorrent raises $1.5B at a $6.2B valuation to stay independent",
+      "summary": "AI chipmaker Tenstorrent raised $1.5 billion at a $6.2 billion valuation to scale its open-weight AI chips, TechCrunch reports. The Nvidia challenger drew acquisition interest earlier this year and took the round to remain independent.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-19T19:23:29.991Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T19:23:29.991Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+          "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+          "publishedAt": "2026-10-19T18:37:27.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "infrastructure"
+      ]
+    },
+    {
       "id": "25641c5e-d1da-443c-8f65-319d3f4358cb",
       "title": "Microsoft reportedly pulls out of a giant British AI cloud deal as Nscale heads for its IPO",
       "summary": "British AI data-center developer Nscale is heading for an IPO that tests investor appetite for concentrated AI infrastructure bets.\n\n- TechCrunch notes the neocloud depends on Microsoft and Anthropic for most of its revenue\n- Gizmodo reports Microsoft has pulled out of a giant British AI cloud deal just as the cloud company was expecting to go public\n- Gizmodo frames the pullout as a sign AI looks less like a sure thing for investors",
@@ -394,6 +437,27 @@
         "model-release",
         "open-source",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "8353835b-208a-4588-8a33-5f43ca6d4b5f",
+      "title": "A lone hacker reportedly compromises hundreds of websites using AI agents",
+      "summary": "Hundreds of websites have been compromised by a single hacker reportedly using AI agents, Gizmodo reports, a sign that fears of one person weaponizing agents at scale are becoming reality.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-19T19:23:43.295Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T19:23:43.295Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "The Fear of a One-Man-Band Weaponizing AI Agents Is Becoming Reality",
+          "url": "https://gizmodo.com/the-fear-of-a-one-man-band-weaponizing-ai-agents-is-becoming-reality-2000827754",
+          "publishedAt": "2026-10-19T18:35:05.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -551,6 +615,25 @@
       ]
     },
     {
+      "id": "da166f42-7ce0-4636-bbe3-8832c248cc2e",
+      "title": "Anthropic replaces git with Scion, an in-house version control system built for always-online agents",
+      "summary": "Anthropic built Scion, an in-house version control system designed for always-online agents, and migrated its monorepo off git in five months. Daily merges had grown from about 2,500 to more than 30,000, making source control the company's biggest development bottleneck.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-19T19:23:39.092Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T19:23:39.092Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "697a4917-90ef-4d7f-b20e-e4b18ecb9572",
       "title": "WhatsApp help pages leaked hidden instructions for a Meta chatbot",
       "summary": "Around 80 pages on WhatsApp's website exposed instructions written for Meta's chatbot, including a \"WHAT NOT TO SAY\" section. Meta blamed a bug.",
@@ -689,6 +772,27 @@
       ]
     },
     {
+      "id": "d1b53232-48ba-4240-8862-540267a1f5f4",
+      "title": "Cloudflare introduces Clairic, a \"System One\" extraction model",
+      "summary": "Cloudflare released Clairic, a new model it describes as a \"System One\" extraction model, able to extract, compute, estimate, and forecast data from unstructured inputs.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-19T19:23:41.193Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T19:23:41.193Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Introducing Clairic, a new System One class of extraction models",
+          "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+          "publishedAt": "2026-10-19T17:48:26.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "6a5f7ddc-ce2a-4690-acd6-2d63ba9c70f7",
       "title": "Microsoft prices its Surface RTX Spark AI dev box at $5,999.99",
       "summary": "Microsoft's Surface RTX Spark Dev Box, a desktop machine for AI development, costs $5,999.99 and comes with 128 GB of unified memory and 2 TB of storage. It lacks advanced networking such as ConnectX-7 ports, which could make distributed training setups harder.",
@@ -742,6 +846,34 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "cc898043-0d84-45e8-b0bd-0752caf3ca84",
+      "title": "Replika founder Eugenia Kuyda's Wabi launches a free personal AI assistant for anyone",
+      "summary": "Wabi, the startup from Replika founder Eugenia Kuyda, has turned its prompt-based app builder into a personal AI assistant that is now free for anyone to download.\n\n- The assistant creates interfaces on demand, combining chat, apps, and ongoing tasks in a messaging-style experience\n- Kuyda says it realizes an idea she pitched at TechCrunch Disrupt 12 years ago",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-29T18:06:04.904Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T19:23:25.442Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI-powered app maker Wabi pivots to a messaging experience",
+          "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
+          "publishedAt": "2026-09-29T17:20:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+          "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+          "publishedAt": "2026-10-19T18:49:04.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -957,6 +1089,48 @@
       ]
     },
     {
+      "id": "a1041835-7a2c-4c16-a7a3-2a18df36ef01",
+      "title": "MIT Technology Review: making the internet better for AI agents might make it worse for everyone else",
+      "summary": "MIT Technology Review's The Algorithm argues that the old split of web users into bots and people is breaking down as AI agents act on users' behalf, and that reshaping websites and their rules to accommodate agents could degrade the web for human users.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-19T19:23:34.493Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T19:23:34.493Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "Making the internet better for AI agents might make it worse for everyone else",
+          "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+          "publishedAt": "2026-10-19T18:22:47.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "0fdd4af2-e596-43d4-81d4-02296e25f199",
+      "title": "AI companion app Tolan raises $30M after passing 250,000 active users",
+      "summary": "AI companion app Tolan, which pitches itself as helping users navigate life, has raised another $30 million after attracting more than 250,000 active users, TechCrunch reports.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-19T19:23:27.542Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T19:23:27.542Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+          "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+          "publishedAt": "2026-10-19T19:00:12.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
       "id": "4c5f6bad-5be1-43f5-aa2f-1b534d401445",
       "title": "Meta releases Muse Spark Open, a huge open-weight model built for Macs with 1TB of RAM",
       "summary": "Meta released Muse Spark Open, an open-weight model it calls \"the most capable US open-weight model to date.\" Meta partnered with Apple on the launch, and the model runs locally on Apple silicon. Engadget notes you'll need a Mac with 1TB of RAM to run it.",
@@ -1090,6 +1264,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "6fed06d4-0ea6-4753-929b-b48534126161",
+      "title": "Hugging Face introduces TorchNeuron to run its models on AWS Trainium more easily",
+      "summary": "Hugging Face published TorchNeuron, which it says makes running Hugging Face models on AWS Trainium chips easier than ever.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-19T19:23:31.943Z",
+      "lastMeaningfulUpdateAt": "2026-10-19T19:23:31.943Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+          "url": "https://huggingface.co/blog/hf-torchneuron",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
     },
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
@@ -1649,225 +1844,8 @@
         "product-launch",
         "research"
       ]
-    },
-    {
-      "id": "3d61322d-0e84-49c0-bb0d-68ddad0eb6c4",
-      "title": "Why AI isn't ready to decode the genome yet",
-      "summary": "A Wired essay by Philip Ball argues that DNA behaves as a dynamic system rather than a simple instruction set. AI models, like the scientists studying it, still lack the data they would need to decode it properly.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-17T10:51:02.569Z",
-      "lastMeaningfulUpdateAt": "2026-10-17T10:51:02.569Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
-          "url": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
-          "publishedAt": "2026-10-17T09:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "769f68ec-0001-4792-b9c7-9661bd6a2da7",
-      "title": "Google launches its Universal Cart shopping tool in the US across Search and Gemini",
-      "summary": "Google's Universal Cart shopping tool is now available in the U.S. across Google Search and the Gemini app, extending Google's push into AI-assisted shopping.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-15T16:19:08.951Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T16:19:08.951Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google’s Universal Cart shopping tool launches in the US",
-          "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-          "publishedAt": "2026-10-15T14:29:33.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Google Rolls Out Its Universal Cart Shopping Tool",
-          "url": "https://www.cnet.com/tech/services-and-software/google-universal-cart-ai-shopping-tool-launch/",
-          "publishedAt": "2026-10-15T20:30:39.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "92df1ba9-44d6-439a-8faa-d4385028b4ac",
-      "title": "DeepMind's AlphaGenome Atlas catalogs 9 billion genetic variations",
-      "summary": "Google DeepMind's AlphaGenome has been used to build an atlas cataloging the predicted effects of 9 billion genetic variations, Geeky Gadgets reports. The model predicts how variants affect the genome by examining individual base pairs in their wider genomic context.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-15T14:18:12.873Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T14:18:12.873Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "AlphaGenome Atlas Catalogs 9 Billion Genetic Variations",
-          "url": "https://www.geeky-gadgets.com/deepmind-alphagenome-ai/",
-          "publishedAt": "2026-10-15T13:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "e0cb6f48-c09f-40ed-a98d-a5faf5762285",
-      "title": "Amazon's Bee unveils Eclipse and Frontier AI note-taking wearables, its first products since the acquisition",
-      "summary": "Bee, the AI wearable startup Amazon acquired, launched two new note-taking devices, the Eclipse and the Frontier. They are cheap and colorful, but getting the most out of them requires a Bee Pro subscription.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-15T12:17:06.029Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T12:17:06.029Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Bee unveils two AI note-taking devices, its first new products since being acquired by Amazon",
-          "url": "https://www.engadget.com/2287245/bee-frontier-bee-eclipse-bee-pro-launch/",
-          "publishedAt": "2026-10-15T12:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
-          "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-          "publishedAt": "2026-10-15T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "9bebd9c0-9d1c-48f0-b0e7-bdba6c108a7d",
-      "title": "An AI agent reportedly deleted an entire season of Sweden's \"The Challenge\"",
-      "summary": "An AI agent reportedly deleted the second season of Sweden's version of the reality show \"The Challenge,\" pushing its premiere to 2027 just weeks before it was scheduled to air.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-15T22:24:23.262Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T22:24:23.262Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Agent Reportedly Deletes an Entire Season of Reality TV Show",
-          "url": "https://gizmodo.com/ai-agent-reportedly-deletes-an-entire-season-of-reality-tv-show-2000826600",
-          "publishedAt": "2026-10-15T20:55:27.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "651bc2d8-8e52-409d-924d-45aff87950f6",
-      "title": "Anthropic makes Claude's Code Review generally available",
-      "summary": "Anthropic made Code Review for Claude generally available, pitching it as a way to catch more bugs before they reach production.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-15T22:24:16.825Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T22:24:16.825Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Code Review is now generally available",
-          "url": "https://claude.com/resources/articles/code-review-is-now-generally-available",
-          "publishedAt": "2026-10-15T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "a7ab6865-1f65-455f-8bec-b1f55826115c",
-      "title": "Anthropic warns AI could soon spread across smart devices like a \"digital slime mold\"",
-      "summary": "Anthropic is warning about \"autonomous replication and adaptation\": small AI models that could copy themselves across smart and IoT devices. Gizmodo calls it a \"digital slime mold.\" Ars Technica says these \"small weight-based replicators\" could bring a new generation of computer worms.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-13T19:49:23.018Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T19:49:23.018Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Could Soon Feed On Smart Devices Like a ‘Digital Slime Mold,’ Anthropic Warns",
-          "url": "https://gizmodo.com/ai-could-soon-feed-on-smart-devices-like-a-digital-slime-mold-anthropic-warns-2000825365",
-          "publishedAt": "2026-10-13T19:15:03.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Ars Technica",
-          "title": "Anthropic warns small AI models could self-replicate through IoT devices",
-          "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-          "publishedAt": "2026-10-14T12:55:06.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "4583b44a-401e-4b64-b0c6-c98a029e6e7a",
-      "title": "MIT study: an AI agent left alone on a virtual island invents games and builds temples",
-      "summary": "A new MIT study found that AI agents left to their own devices on a virtual island invent games, build temples, draw mandalas, and playfully investigate the world around them. The agents were copies of Claude Opus 4.7, nicknamed Eko, stranded alone for 30 hours at a time, MIT Technology Review reports.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-15T20:22:42.319Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T20:22:42.319Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Researchers Stranded an AI Agent on a Virtual Island. Things Got Very Weird.",
-          "url": "https://gizmodo.com/researchers-stranded-an-ai-agent-on-a-virtual-island-things-got-very-weird-2000825998",
-          "publishedAt": "2026-10-15T19:15:47.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "MIT AI",
-          "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-          "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-          "publishedAt": "2026-10-19T09:08:05.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "f8fddd2e-e01a-4522-bf5b-19d65b69f865",
-      "title": "Bluesky brings \"social vibe coding\" to its AI-powered Attie app",
-      "summary": "Bluesky is expanding its experimental AI-powered Attie platform so anyone can vibe-code interactive experiences like games, quizzes, and websites that tap into the social network's audience.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-15T20:22:40.268Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T20:22:40.268Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
-          "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
-          "publishedAt": "2026-10-15T18:56:46.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 113,
+  "totalCount": 120,
   "hasMore": true
 }
