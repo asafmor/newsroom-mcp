@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-20T15:39:37.298Z",
+  "generatedAt": "2026-10-20T17:41:54.477Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta's Muse exposes users' secrets through shared conversations as the chart-topping agent's troubles pile up",
-      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is topping app store charts and growing faster than ChatGPT did at launch, but privacy, security, content, and labor controversies keep mounting.\n\n- New: Ars Technica found that a single query surfaces thousands of shared Muse conversations by title, exposing users' personal and business secrets\n- OnlyFans creators are angry that Meta lets Muse engage in sexual chat while restricting adult performers' own accounts, per Wired\n- Ars Technica earlier reported a serious Mac 0-day in the highly privileged agent, since fixed; Meta disputes a journalist's claim that Muse read his private Messages without permission\n- Gizmodo reports Meta tested a \"human concierge\" of contractors making Muse's phone calls, one of whom reportedly made racist remarks\n- Muse reached iPad a month after its mobile debut; Meta admits it was \"heavily inspired\" by OpenClaw, and Amazon has blocked it from shopping on Amazon.com",
+      "title": "Meta's Muse hits 10M US downloads in 40 days even as privacy and security troubles pile up",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is one of the fastest-growing apps ever, but privacy, security, content, and labor controversies keep mounting.\n\n- New: Muse passed 10 million US downloads in its first 40 days, a milestone only 11 other apps (including Threads) have reached, and it retains users better than rival AI apps, per TechCrunch\n- Ars Technica found that a single query surfaces thousands of shared Muse conversations by title, exposing users' personal and business secrets\n- OnlyFans creators are angry that Meta lets Muse engage in sexual chat while restricting adult performers' own accounts, per Wired\n- Ars Technica earlier reported a serious Mac 0-day in the highly privileged agent, since fixed; Meta disputes a journalist's claim that Muse read his private Messages without permission\n- Gizmodo reports Meta tested a \"human concierge\" of contractors making Muse's phone calls, one of whom reportedly made racist remarks\n- Muse reached iPad a month after its mobile debut; Meta admits it was \"heavily inspired\" by OpenClaw, and Amazon has blocked it from shopping on Amazon.com",
       "importanceScore": 0.85,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T13:37:30.688Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T17:41:28.744Z",
       "sources": [
         {
           "providerName": "VentureBeat",
@@ -275,6 +275,13 @@
           "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
           "publishedAt": "2026-10-20T12:33:13.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+          "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+          "publishedAt": "2026-10-20T17:12:48.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -344,6 +351,29 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "a84f84ec-d8e8-4ef9-b960-a5ea61534cea",
+      "title": "DeepSeek launches DeepInfer, an open-source inference platform aimed at US businesses",
+      "summary": "DeepSeek released DeepInfer, an open-source inference tool that Gizmodo says could pull more American businesses toward Chinese open-source models and away from OpenAI and Anthropic.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-20T17:41:31.140Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T17:41:31.140Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "DeepSeek Dials Up the Pressure on OpenAI and Anthropic With Open-Source Inference Tool",
+          "url": "https://gizmodo.com/deepseek-dials-up-the-pressure-on-openai-and-anthropic-with-open-source-inference-tool-2000828261",
+          "publishedAt": "2026-10-20T16:45:40.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source",
+        "product-launch",
+        "infrastructure"
       ]
     },
     {
@@ -686,6 +716,27 @@
       ]
     },
     {
+      "id": "22f9777f-ecab-4d88-a141-b4cebf5fff46",
+      "title": "Perplexity lets Macs with 36GB of RAM run its AI workflows entirely locally",
+      "summary": "Perplexity now lets Macs with at least 36GB of RAM run its AI workflows entirely on-device, without sending them to the cloud.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-20T17:41:33.441Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T17:41:33.441Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Perplexity makes it easier to run AI workflows entirely on your own Mac",
+          "url": "https://www.engadget.com/2291754/perplexity-makes-it-easier-to-run-ai-workflows-entirely-on-your-mac/",
+          "publishedAt": "2026-10-20T15:42:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "8c434be0-633e-4482-8913-15416883f869",
       "title": "US AI data-center backlash: the industry courts kids with field trips as Amazon drops NDAs",
       "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built, and is forcing Big Tech into both concessions and new persuasion campaigns.\n\n- New: Industry-friendly groups are trying to win over young people with data center field trips and other youth outreach, per Wired\n- Amazon pledged to stop using NDAs with local governments, paired with a warning to critics not to get in the way\n- Nearly $200 billion worth of US projects have been blocked or delayed this year; Pennsylvania residents refused a developer's $10,000-each offer to stop protesting\n- Trump admitted in a Time interview that he is a NIMBY on data centers\n- Big Tech is countering with a multimillion-dollar ad campaign and a \"viral\" pro-data-center party backed by Peter Thiel and the Koch Institute\n- Environmental-justice concerns in previously industrialized neighborhoods remain a central line of attack",
@@ -967,6 +1018,27 @@
       "tags": []
     },
     {
+      "id": "47c0250c-b4c0-4b2f-a4e2-98ca2d4e7df1",
+      "title": "Gizmodo asks why Democrats aren't acting on AI despite public hostility to it",
+      "summary": "Gizmodo argues Democrats have done little about AI even though Americans broadly dislike it. Rep. Greg Casar told the outlet the three most pressing AI risks are \"mass unemployment, mass surveillance, and mass destruction.\"",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-20T17:41:38.091Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T17:41:38.091Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "America Hates AI. Why Aren’t Democrats Doing Anything About It?",
+          "url": "https://gizmodo.com/america-hates-ai-why-arent-democrats-doing-anything-about-it-2000827834",
+          "publishedAt": "2026-10-20T15:45:16.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "3259e86e-16ae-471f-bed2-a43ccc4d207f",
       "title": "IBM Research's ALTK-Evolve tops the τ²-bench customer-service leaderboard with learned memory, no frontier model",
       "summary": "IBM Research says ALTK-Evolve, an agent approach built on learned memory, tops the τ²-bench leaderboard for customer-service tasks without relying on a frontier model.",
@@ -1153,6 +1225,27 @@
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "c57ad414-1e47-4aed-9ad1-f6c0afcff0c1",
+      "title": "Ai2 introduces FairStress, a deeper evaluation of fairness in LLM decision-making",
+      "summary": "Allen AI published FairStress, an evaluation that probes how fairly LLMs make decisions in more depth than existing fairness benchmarks.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-20T17:41:35.691Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T17:41:35.691Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+          "url": "https://huggingface.co/blog/allenai/fairstress",
+          "publishedAt": "2026-10-20T16:09:19.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -1659,91 +1752,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "c98ea703-4ee4-4e4d-8daf-c4f87b082901",
-      "title": "Meta removes terms-of-service language that raised scraping and AI training concerns",
-      "summary": "Meta removed language from its updated terms that had raised concerns about web scraping and AI training, TechCrunch reports. A Meta spokesperson insisted the updated terms did not reflect any change in how Meta crawls the web.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-17T22:57:07.939Z",
-      "lastMeaningfulUpdateAt": "2026-10-17T22:57:07.939Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta removes language that raised scraping and AI training concerns",
-          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-          "publishedAt": "2026-10-17T21:31:32.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Meta tweaks its new terms of service after backlash against scraping",
-          "url": "https://www.engadget.com/2291188/meta-tweaks-its-new-terms-of-service-after-backlash-against-scraping/",
-          "publishedAt": "2026-10-19T22:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "c41f1ac5-cf67-47be-86e5-b58447dc3114",
-      "title": "Replit is no longer working with Anthropic, CEO Amjad Masad says",
-      "summary": "Replit CEO Amjad Masad says the company no longer works with Anthropic, citing several reasons including cost. Replit announced an OpenAI partnership in August, but until now there had been no sign it had dropped Anthropic.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-16T22:43:22.282Z",
-      "lastMeaningfulUpdateAt": "2026-10-16T22:43:22.282Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Replit is no longer working with Anthropic, CEO says",
-          "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-          "publishedAt": "2026-10-16T21:22:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "66788d5c-f2ab-4e0b-af99-ddfc4b7bfa3e",
-      "title": "Anthropic says its workforce has become less junior and spends more time in meetings",
-      "summary": "Anthropic says the makeup of its workforce and the kind of work it does have changed significantly over the past year: staff skew less junior and spend more time in meetings, per TechCrunch.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-17T20:55:59.008Z",
-      "lastMeaningfulUpdateAt": "2026-10-17T20:55:59.008Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-          "publishedAt": "2026-10-17T20:21:19.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "fd9f19cc-aa32-42af-9676-68781c2ed8de",
-      "title": "Smart TV owners turn to AI agents to strip out ads and bloatware",
-      "summary": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are using AI agents to remove bloatware and take back control of their TVs.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-19T17:21:22.521Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T17:21:22.521Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "People are using AI to make their smart TVs dumb again",
-          "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
-          "publishedAt": "2026-10-19T16:13:22.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 126,
+  "totalCount": 131,
   "hasMore": true
 }
