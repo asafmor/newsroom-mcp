@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T07:32:12.439Z",
+  "generatedAt": "2026-10-20T09:33:43.804Z",
   "stories": [
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
@@ -597,6 +597,28 @@
       ],
       "tags": [
         "safety",
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "7f67dd3d-6105-40be-837f-beaa9f197c8d",
+      "title": "Microsoft Copilot adds OpenAI's GPT-6.1 and Anthropic's Claude Opus 5.5",
+      "summary": "Microsoft's October Copilot updates integrate Anthropic's Claude Opus 5.5 and OpenAI's GPT-6.1 as model options, aimed at handling complex queries and producing more detailed, context-aware content across its apps, per Geeky Gadgets.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-20T09:33:35.804Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T09:33:35.804Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Microsoft Copilot Adds OpenAI GPT 6.1 and Anthropic Claude Opus 5.5",
+          "url": "https://www.geeky-gadgets.com/microsoft-copilot-new-features-october/",
+          "publishedAt": "2026-10-20T08:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
         "enterprise-adoption"
       ]
     },
@@ -1860,29 +1882,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "8d2b33b0-8aa8-4194-a2b3-65c83b8e5927",
-      "title": "Cloudflare and OpenAI team up to improve how AI discovers web content",
-      "summary": "Cloudflare and OpenAI are working together to help AI systems find useful content, keep up with site changes, and make fewer wasted crawl requests. They pitch it as a better deal for both users and website owners.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-15T18:20:26.966Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T18:20:26.966Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Cloudflare and OpenAI: making AI discovery better for everyone",
-          "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
-          "publishedAt": "2026-10-15T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 126,
+  "totalCount": 127,
   "hasMore": true
 }
