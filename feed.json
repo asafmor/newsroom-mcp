@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T19:43:27.771Z",
+  "generatedAt": "2026-10-20T21:45:54.173Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -291,6 +291,27 @@
       ]
     },
     {
+      "id": "84fad439-74cc-42f4-a461-3aa410f9f39c",
+      "title": "Anthropic reportedly struggles to secure compute from cloud providers that now see it as a rival",
+      "summary": "TechCrunch reports that Anthropic is struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of its planned November IPO.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-20T21:45:38.199Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T21:45:38.199Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s cloud partnerships are getting messy",
+          "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+          "publishedAt": "2026-10-20T21:25:22.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
       "title": "Judge keeps former OpenAI engineer accused of bugging an executive meeting room in custody, rejecting a Saudi release offer",
       "summary": "A judge ordered former OpenAI engineer Abdulrahman Alfozan, arrested by the FBI on suspicion of planting a hidden recording device in the company's offices with a chatbot's help, to remain in custody.\n\n- The judge likened the Saudi government's offer to secure his release to a \"blank check,\" per Wired\n- Wired reports chatbot prompts reveal his alleged efforts to set up a covert listening device days before one was found in a meeting room used by top executives\n- CNET reports US intelligence and security officials say espionage inside AI labs poses a national security threat\n- OpenAI says it asked its own AI models to work out what the device was, per Engadget\n- Gizmodo notes the \"sophisticated\" bug appears to be a $13.99 Seeed Studio hobbyist board, and that the accused cited Elon Musk as a role model",
@@ -354,6 +375,25 @@
       ]
     },
     {
+      "id": "38f0f218-e4fa-467b-acda-ff31dec52730",
+      "title": "SpaceX turns a $4.4B third-quarter profit, with AI as the engine",
+      "summary": "SpaceX reported third-quarter net income of $4.4 billion, beating expectations, and TechCrunch says its AI business drove the result.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-20T21:45:39.950Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T21:45:39.950Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "SpaceX’s AI business is beating expectations",
+          "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+          "publishedAt": "2026-10-20T20:40:41.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "a84f84ec-d8e8-4ef9-b960-a5ea61534cea",
       "title": "DeepSeek launches DeepInfer, an open-source inference platform aimed at US businesses",
       "summary": "DeepSeek released DeepInfer, an open-source inference tool that Gizmodo says could pull more American businesses toward Chinese open-source models and away from OpenAI and Anthropic.",
@@ -410,6 +450,28 @@
       "tags": [
         "funding",
         "infrastructure"
+      ]
+    },
+    {
+      "id": "b3137f44-8bf6-4e13-903a-9d60525865b2",
+      "title": "OpenAI acquires Orchestra Bio to bolster its Rosalind life-sciences model",
+      "summary": "OpenAI acquired biotech startup Orchestra Bio and is folding its team and technology into Rosalind, its AI model for life-sciences research, and the Rosalind Workbench, a harness that helps researchers plan experiments and analyze results.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-20T21:45:42.250Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T21:45:42.250Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+          "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+          "publishedAt": "2026-10-20T20:35:10.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "research"
       ]
     },
     {
@@ -662,6 +724,27 @@
         "model-release",
         "open-source",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "c7e5489d-6953-46b3-8c06-c8df7cf00259",
+      "title": "Google brings Gemini Personal Intelligence to Android Auto",
+      "summary": "Google is bringing Gemini's Personal Intelligence feature to Android Auto, and will extend it to cars with Google built-in in the coming months.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-20T21:45:44.301Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T21:45:44.301Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Google brings Gemini Personal Intelligence to Android Auto",
+          "url": "https://www.engadget.com/2292027/google-brings-gemini-personal-intelligence-to-android-auto/",
+          "publishedAt": "2026-10-20T20:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1128,6 +1211,13 @@
           "url": "https://www.engadget.com/2291457/openai-says-its-models-can-translate-cobol/",
           "publishedAt": "2026-10-20T12:01:59.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Says Its Models Can Give the Financial Sector a Coding Makeover",
+          "url": "https://gizmodo.com/openai-says-its-models-can-give-the-financial-sector-a-coding-makeover-2000828398",
+          "publishedAt": "2026-10-20T20:45:10.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1263,6 +1353,25 @@
       ]
     },
     {
+      "id": "11af6cf9-3841-4b5b-9795-264723db6319",
+      "title": "xAI describes using Grok Bot to detect and respond to incidents",
+      "summary": "xAI published a post on using Grok Bot, its persistent-agent product, for incident detection and response, another in its series of internal use-case write-ups. The source feed gave no further detail.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-20T21:45:46.190Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T21:45:46.190Z",
+      "sources": [
+        {
+          "providerName": "xAI News",
+          "title": "Using Grok Bot to detect and respond to incidents",
+          "url": "https://x.ai/news/incident-sweep",
+          "publishedAt": "2026-10-20T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "ab7db44f-1d57-4b5e-bb7e-da84ce3a2eb0",
       "title": "ChatGPT now lets you lock individual chats",
       "summary": "OpenAI added a way to lock ChatGPT conversations, aimed at keeping personal chats (or surprise plans) private when handing a device to friends or family to show them something in another chat.",
@@ -1276,6 +1385,13 @@
           "title": "ChatGPT now lets you lock your chats",
           "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
           "publishedAt": "2026-10-20T18:36:53.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "ChatGPT now lets you lock sensitive chats behind a PIN",
+          "url": "https://www.engadget.com/2292365/chatgpt-now-lets-you-lock-sensitive-chats-behind-a-pin/",
+          "publishedAt": "2026-10-20T21:05:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1646,128 +1762,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "a1041835-7a2c-4c16-a7a3-2a18df36ef01",
-      "title": "MIT Technology Review: making the internet better for AI agents might make it worse for everyone else",
-      "summary": "MIT Technology Review's The Algorithm argues that the old split of web users into bots and people is breaking down as AI agents act on users' behalf, and that reshaping websites and their rules to accommodate agents could degrade the web for human users.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-19T19:23:34.493Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T19:23:34.493Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "Making the internet better for AI agents might make it worse for everyone else",
-          "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
-          "publishedAt": "2026-10-19T18:22:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "0fdd4af2-e596-43d4-81d4-02296e25f199",
-      "title": "AI companion app Tolan raises $30M after passing 250,000 active users",
-      "summary": "AI companion app Tolan, which pitches itself as helping users navigate life, has raised another $30 million after attracting more than 250,000 active users, TechCrunch reports.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-19T19:23:27.542Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T19:23:27.542Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Tolan snags $30M for its AI companion that helps users navigate life",
-          "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
-          "publishedAt": "2026-10-19T19:00:12.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "4c5f6bad-5be1-43f5-aa2f-1b534d401445",
-      "title": "Meta releases Muse Spark Open, a huge open-weight model built for Macs with 1TB of RAM",
-      "summary": "Meta released Muse Spark Open, an open-weight model it calls \"the most capable US open-weight model to date.\" Meta partnered with Apple on the launch, and the model runs locally on Apple silicon. Engadget notes you'll need a Mac with 1TB of RAM to run it.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-15T18:20:22.667Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T18:20:22.667Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Meta built a huge open-weight AI model for Macs, but you'll need 1TB of RAM to run it",
-          "url": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
-          "publishedAt": "2026-10-15T17:02:48.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta launches an open-weight AI model that runs on Macs",
-          "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-          "publishedAt": "2026-10-15T20:04:53.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
-    },
-    {
-      "id": "d613f845-ff11-441a-ba5d-c35885b24f92",
-      "title": "Hugging Face covers the state of Apple's MPS backend in PyTorch 2.15",
-      "summary": "A Hugging Face blog post looks at the MPS (Metal Performance Shaders) backend in PyTorch 2.15, which runs PyTorch models on Apple silicon GPUs.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-20T11:35:20.844Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T11:35:20.844Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "MPS in PyTorch 2.15",
-          "url": "https://huggingface.co/blog/mps-pytorch-2-15",
-          "publishedAt": "2026-10-20T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "cc365c9d-fd89-4d0a-baf5-468a76f932ee",
-      "title": "US banks push back on AI agents handling money after Meta's Muse launch",
-      "summary": "US banks are resisting consumer AI agents that shop and move money on users' behalf.\n\n- New: after Meta's Muse agent launched, US banks are refusing to let AI agents move money, per Gizmodo; Charles Schwab CEO Rick Wurster says only a relative handful of customers are trying to\n- Earlier, a report from major banks warned that agentic commerce could increase scams, fraud, and payment disputes",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-22T23:46:16.461Z",
-      "lastMeaningfulUpdateAt": "2026-10-17T00:45:31.385Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Big Banks Say They’re Uneasy About People Shopping via AI Agents",
-          "url": "https://gizmodo.com/big-banks-say-theyre-uneasy-about-people-shopping-via-ai-agents-2000815443",
-          "publishedAt": "2026-09-22T22:43:49.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "After Muse Launch, U.S. Banks Are Saying Hell No to AI Agents Moving Money",
-          "url": "https://gizmodo.com/after-muse-launch-u-s-banks-are-saying-hell-no-to-ai-agents-moving-money-2000827221",
-          "publishedAt": "2026-10-16T23:15:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 128,
+  "totalCount": 126,
   "hasMore": true
 }
