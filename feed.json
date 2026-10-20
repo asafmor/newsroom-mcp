@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T01:29:23.639Z",
+  "generatedAt": "2026-10-20T03:30:13.140Z",
   "stories": [
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
@@ -464,6 +464,25 @@
         "funding",
         "infrastructure"
       ]
+    },
+    {
+      "id": "1c0567c3-747c-42b1-8e80-57ebfd0b55b1",
+      "title": "Documents reveal a US military plan for ECHOTRIBBLE, an agentic AI that hacks adversaries",
+      "summary": "Documents reported by Gizmodo describe ECHOTRIBBLE, a planned US military agentic AI tool for hacking US adversaries. The tool is still in the whitepaper phase.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-20T03:30:07.256Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T03:30:07.256Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Documents Reveal Military Plan for Agentic AI That Hacks U.S. Adversaries",
+          "url": "https://gizmodo.com/documents-reveal-military-plan-for-agentic-ai-that-hacks-u-s-adversaries-2000827957",
+          "publishedAt": "2026-10-20T02:29:17.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "b8d76264-8444-42c4-ac28-2d2988ec5c2b",
@@ -1862,29 +1881,8 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "77d9663e-8527-4c2a-8fb9-c6cdfb187b27",
-      "title": "Google DeepMind uses Antigravity for Science to speed the search for antimicrobial peptides",
-      "summary": "Google DeepMind describes using Google Antigravity for Science to accelerate the discovery of novel antimicrobial peptides, a potential route to new antibiotics.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-15T16:19:13.026Z",
-      "lastMeaningfulUpdateAt": "2026-10-15T16:19:13.026Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-          "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-          "publishedAt": "2026-10-15T16:08:03.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 125,
+  "totalCount": 126,
   "hasMore": true
 }
