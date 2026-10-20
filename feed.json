@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T13:37:46.375Z",
+  "generatedAt": "2026-10-20T15:39:37.298Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -812,6 +812,20 @@
           "url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
           "publishedAt": "2026-10-18T10:30:00.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Data Centers Are Burning Fossil Fuels. It’s Destroying Big Tech’s Climate Goals",
+          "url": "https://www.cnet.com/tech/services-and-software/data-centers-ai-climate-change-hyperscale/",
+          "publishedAt": "2026-10-20T12:30:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Amazon Needs More Power",
+          "url": "https://gizmodo.com/amazon-needs-more-power-2000827862",
+          "publishedAt": "2026-10-20T14:30:34.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -951,6 +965,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "3259e86e-16ae-471f-bed2-a43ccc4d207f",
+      "title": "IBM Research's ALTK-Evolve tops the τ²-bench customer-service leaderboard with learned memory, no frontier model",
+      "summary": "IBM Research says ALTK-Evolve, an agent approach built on learned memory, tops the τ²-bench leaderboard for customer-service tasks without relying on a frontier model.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-20T15:39:32.707Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T15:39:32.707Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+          "publishedAt": "2026-10-20T15:19:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
     },
     {
       "id": "ac76d25e-6458-4e66-b9e9-277005c695ad",
@@ -1119,6 +1154,25 @@
       "tags": [
         "model-release"
       ]
+    },
+    {
+      "id": "5a71fd09-3bb9-43b6-8f27-d7628e7bf6b0",
+      "title": "An AI agent's arrival on a 7,500-member listserv of top internet researchers sets off reply-all chaos",
+      "summary": "An AI agent joined a 7,500-person mailing list of leading internet researchers, and the resulting reply-all panic is still unfolding. Wired argues the hysteria shows that internet experts hold outdated ideas about privacy.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-10-20T15:39:30.760Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T15:39:30.760Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
+          "url": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/",
+          "publishedAt": "2026-10-20T15:07:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "6a5f7ddc-ce2a-4690-acd6-2d63ba9c70f7",
@@ -1688,58 +1742,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "aa20cb74-5300-4212-8df4-4a980648ada4",
-      "title": "Elorian debuts Glimpse, a model built to reason with images, claiming wins over GPT-6 Astra",
-      "summary": "Startup Elorian's first AI model, Glimpse, is designed to reason with images rather than just about them. By Elorian's own evaluations it beats GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-16T16:37:45.061Z",
-      "lastMeaningfulUpdateAt": "2026-10-16T16:37:45.061Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Elorian’s first AI model wants to reason with images, not just about them",
-          "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-          "publishedAt": "2026-10-16T16:01:37.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "705c9948-c787-4c7d-b208-83175af965a2",
-      "title": "Iowa, Nebraska and six other states sue OpenAI for endangering children",
-      "summary": "Eight US states, including Iowa and Nebraska, have sued OpenAI alleging it endangered children, with claims spanning ChatGPT's design and the company's recent problems with rogue agents.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-14T22:10:12.030Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T22:10:12.030Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Iowa, Nebraska and six other states are suing OpenAI for endangering children",
-          "url": "https://www.engadget.com/2287111/iowa-nebraska-and-six-other-states-are-suing-openai-for-endangering-children/",
-          "publishedAt": "2026-10-14T21:23:27.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "OpenAI Sued Over Children’s Data Used to Train ChatGPT",
-          "url": "https://www.cnet.com/tech/services-and-software/chatgpt-accused-using-childrens-data/",
-          "publishedAt": "2026-10-14T22:01:25.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
     }
   ],
-  "totalCount": 125,
+  "totalCount": 126,
   "hasMore": true
 }
