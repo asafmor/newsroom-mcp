@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T21:45:54.173Z",
+  "generatedAt": "2026-10-20T23:47:20.710Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -287,6 +287,28 @@
       "tags": [
         "product-launch",
         "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "706fa244-aea7-4f9a-b020-c1f1e7179d0e",
+      "title": "Anthropic pitches an AI safety bill that could block models posing 50+ death risks — but only with a judge's sign-off",
+      "summary": "Anthropic is pitching an AI safety bill that could block a model's release if it could lead to 50 or more deaths. TechCrunch notes the catch: the proposal forbids federal agencies from blocking a release without a judge's permission, so it may limit regulators as much as it protects the public.",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-20T23:47:13.662Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T23:47:13.662Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+          "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+          "publishedAt": "2026-10-20T23:01:23.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
         "safety"
       ]
     },
@@ -787,6 +809,27 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "9beb9275-fee1-4fb5-a127-ec1795056e08",
+      "title": "Hugging Face CEO says Netflix's OpenAI-hack documentary \"AI Gone Rogue\" isn't accurate",
+      "summary": "Clem Delangue, Hugging Face's co-founder and CEO, appears in the Netflix documentary \"AI Gone Rogue\" about the OpenAI hack. He says the film went \"full doomer mode\" and isn't accurate, and he is urging viewers to keep that in mind before sharing it.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-20T23:47:16.212Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T23:47:16.212Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+          "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+          "publishedAt": "2026-10-20T22:24:02.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -1720,50 +1763,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "12a4daad-824b-4287-a97f-cf1b79751ea1",
-      "title": "Cloudflare cuts its AI code reviewer's inference bill 68% with prompt caching and model routing",
-      "summary": "After its AI code reviewer's cost per run doubled, Cloudflare traced the token usage and used prompt caching and intelligent model routing to cut its inference bill by 68% while also speeding up reviews.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-19T23:27:31.161Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T23:27:31.161Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Cutting our inference bill by 68% by being obsessive about optimization",
-          "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
-          "publishedAt": "2026-10-19T19:12:53.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "369aec39-6817-4e8d-b755-cfca4bb83072",
-      "title": "Researchers say AI-generated content can plant fake memories",
-      "summary": "Researchers say AI-generated content can implant false memories in people, Gizmodo reports, arguing that human memory is already suggestible and that AI is making the problem worse.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-18T15:06:11.018Z",
-      "lastMeaningfulUpdateAt": "2026-10-18T15:06:11.018Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI-Generated Content Can Plant Fake Memories, Researchers Say",
-          "url": "https://gizmodo.com/ai-generated-content-can-plant-fake-memories-researchers-say-2000826459",
-          "publishedAt": "2026-10-18T13:39:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 126,
+  "totalCount": 128,
   "hasMore": true
 }
