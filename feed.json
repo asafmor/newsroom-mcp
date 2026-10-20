@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T09:33:43.804Z",
+  "generatedAt": "2026-10-20T11:35:31.731Z",
   "stories": [
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
@@ -579,6 +579,27 @@
       ]
     },
     {
+      "id": "f60420f1-6fe4-45c9-9481-fb1fdaa097a7",
+      "title": "Otter.ai raises $320M from General Catalyst's non-dilutive growth fund",
+      "summary": "AI meeting note-taker Otter.ai raised $320 million from General Catalyst's Customer Value Fund, which provides non-dilutive capital repaid from the results of marketing spend. Otter says the money will go toward enterprise growth, go-to-market, international expansion and product development.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-20T11:35:16.813Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T11:35:16.813Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+          "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+          "publishedAt": "2026-10-20T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
       "id": "e9926a5f-9997-4d23-9202-4b4acf0f4da7",
       "title": "Microsoft tells enterprises to treat AI agents like insider threats because \"frontier models can't be trusted\"",
       "summary": "Microsoft is urging enterprises to closely monitor the AI agents employees use, treating them like insider threats, especially agents running on systems outside the control of labs like OpenAI and Anthropic.",
@@ -927,6 +948,27 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "af3d5085-707b-4ce5-80a0-5fab439d292f",
+      "title": "Yelp adds AI features that can call restaurants on your behalf to check wait times",
+      "summary": "Yelp is adding a batch of new AI features to its app, including an agent that phones restaurants for you to check wait times and personalized recommendations that remember your preferences.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-20T11:35:18.810Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T11:35:18.810Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+          "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+          "publishedAt": "2026-10-20T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1418,6 +1460,27 @@
       ]
     },
     {
+      "id": "d613f845-ff11-441a-ba5d-c35885b24f92",
+      "title": "Hugging Face covers the state of Apple's MPS backend in PyTorch 2.15",
+      "summary": "A Hugging Face blog post looks at the MPS (Metal Performance Shaders) backend in PyTorch 2.15, which runs PyTorch models on Apple silicon GPUs.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-20T11:35:20.844Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T11:35:20.844Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "MPS in PyTorch 2.15",
+          "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+          "publishedAt": "2026-10-20T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
       "id": "cc365c9d-fd89-4d0a-baf5-468a76f932ee",
       "title": "US banks push back on AI agents handling money after Meta's Muse launch",
       "summary": "US banks are resisting consumer AI agents that shop and move money on users' behalf.\n\n- New: after Meta's Muse agent launched, US banks are refusing to let AI agents move money, per Gizmodo; Charles Schwab CEO Rick Wurster says only a relative handful of customers are trying to\n- Earlier, a report from major banks warned that agentic commerce could increase scams, fraud, and payment disputes",
@@ -1635,250 +1698,6 @@
           "url": "https://gizmodo.com/137-million-has-been-spent-on-ai-generated-ads-ahead-of-midterms-only-27-included-a-disclaimer-2000827138",
           "publishedAt": "2026-10-16T20:10:12.000Z",
           "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "d1f34751-da3e-4d80-a558-1d8dad9d4576",
-      "title": "Google rolls out Gemini 4 Argon to the Gemini app and AI Mode in Search after a cyber-defenders-first launch",
-      "summary": "Google has widened access to Gemini 4 Argon, the model it bills as \"our next era of frontier intelligence\" and its most powerful yet.\n\n- Argon is now available in the Gemini app and AI Mode in Search, Engadget reports, after an initial release limited to cyber defenders\n- Google DeepMind published a companion \"Gemini 4 Argon for Robotics\" post alongside the main announcement\n- Gizmodo reported early problems with the model and cautioned that benchmark scores can be misleading\n- Google markets it as a workhorse for coding and cybersecurity work, per TechCrunch\n- It arrived after reports that Gemini 4's release had slipped due to pre-training challenges",
-      "importanceScore": 0.92,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-09-09T07:31:10.022Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T17:47:09.927Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Pushes Gemini 4 Pro Release Date to October 2026",
-          "url": "https://www.geeky-gadgets.com/gemini-4-delay-fable-5/",
-          "publishedAt": "2026-09-09T06:43:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Gemini 4 Could Autonomously Refine Code via Leaked RSI",
-          "url": "https://www.geeky-gadgets.com/deepmind-rsi-rumors-gpt6-astra/",
-          "publishedAt": "2026-09-14T11:45:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Preps Gemini 4 Pro Content Creation for October 2026",
-          "url": "https://www.geeky-gadgets.com/gemini-4-pro-release-date/",
-          "publishedAt": "2026-09-20T12:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Leaked Gemini 4 Pro Enters Arena Testing for Multimodal AI",
-          "url": "https://www.geeky-gadgets.com/gemini-4-pro-gpt-6-sol-leaks/",
-          "publishedAt": "2026-09-21T12:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Confirms Gemini 4 Replaces Gemini 3.5 Pro Entirely",
-          "url": "https://www.geeky-gadgets.com/gemini-4-pro-opus-comparison/",
-          "publishedAt": "2026-09-27T08:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Leaked Gemini 4 Pro Reportedly Defeats Opus 5.5 and GPT6 Astra",
-          "url": "https://www.geeky-gadgets.com/gemini-4-pro-leaks/",
-          "publishedAt": "2026-09-28T11:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Google DeepMind",
-          "title": "Gemini 4 Argon: our next era of frontier intelligence",
-          "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-          "publishedAt": "2026-09-30T20:01:45.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
-          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-          "publishedAt": "2026-09-30T23:43:07.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google's first Gemini 4 model is 'Argon'",
-          "url": "https://www.engadget.com/2274263/google-gemini-4-model-argon/",
-          "publishedAt": "2026-10-01T09:26:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Gemini 4 Argon Beats Claude Opus 5.5 on Arena AI",
-          "url": "https://www.geeky-gadgets.com/google-gemini-4-argon/",
-          "publishedAt": "2026-10-01T11:17:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Is Already Having Problems With Its Latest AI Model",
-          "url": "https://gizmodo.com/google-is-already-having-problems-with-its-latest-ai-model-2000820318",
-          "publishedAt": "2026-10-01T17:10:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Gemini 4 Is Here: When You May Be Able to Use Google’s New AI Model",
-          "url": "https://www.cnet.com/tech/services-and-software/google-gemini-4-argon-ai-model-release/",
-          "publishedAt": "2026-10-01T19:03:13.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Gemini 4 Argon Beats Claude Opus 5.5 on Arena AI",
-          "url": "https://www.geeky-gadgets.com/google-gemini-4-argon-2/",
-          "publishedAt": "2026-10-02T07:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Gemini 4 Argon Rolling Out Soon to Google AI Ultra Users",
-          "url": "https://www.geeky-gadgets.com/gemini-4-argon-release/",
-          "publishedAt": "2026-10-02T11:17:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "How Google Gemini 4 Argon Costs 33% Less Than ChatGPT 6.1 to Run",
-          "url": "https://www.geeky-gadgets.com/gemini-4-argon-compute-features/",
-          "publishedAt": "2026-10-03T08:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Google Gemini 4 Argon Explained: From Coding To Cyber Defence, Here’s What Makes It Different",
-          "url": "https://in.mashable.com/tech/114549/google-gemini-4-argon-explained-from-coding-to-cyber-defence-heres-what-makes-it-different",
-          "publishedAt": "2026-10-05T03:43:24.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Gemini 4 Argon vs ChatGPT 6 Astra vs Claude Fable 5.1",
-          "url": "https://www.geeky-gadgets.com/gemini-4-argon-vs-gpt-6-astra/",
-          "publishedAt": "2026-10-05T12:13:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Gemini 4 Argon Delayed as GPT-6.1 Ultrafast and Claude Motion Arrive",
-          "url": "https://www.geeky-gadgets.com/gemini-argon/",
-          "publishedAt": "2026-10-09T11:45:02.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google's Gemini 4 Argon is now available in the Gemini app and AI Mode in Search",
-          "url": "https://www.engadget.com/2285023/google-gemini-4-argon-is-now-available-in-the-gemini-app-and-ai-mode-in-search/",
-          "publishedAt": "2026-10-13T16:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Google DeepMind",
-          "title": "Gemini 4 Argon: Built to solve your hardest problems",
-          "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-          "publishedAt": "2026-10-13T16:01:52.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Google DeepMind",
-          "title": "Gemini 4 Argon for Robotics",
-          "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-          "publishedAt": "2026-10-13T16:01:58.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Google DeepMind",
-          "title": "Developing Gemini 4 Argon responsibly and safely",
-          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-          "publishedAt": "2026-10-13T19:43:07.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "You Can Use Gemini 4 Argon Now: Google’s New AI Is Built for Coding, Math and Robotics",
-          "url": "https://www.cnet.com/tech/services-and-software/gemini-4-argon-general-release-google-ai-news/",
-          "publishedAt": "2026-10-13T16:01:09.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google’s Gemini Argon 4 Is Now Available Worldwide",
-          "url": "https://gizmodo.com/googles-gemini-argon-4-is-now-available-worldwide-2000825497",
-          "publishedAt": "2026-10-13T20:20:52.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "How Gemini 4 Argon Costs 33% Less to Run Than ChatGPT 6.1",
-          "url": "https://www.geeky-gadgets.com/gemini-argon-3/",
-          "publishedAt": "2026-10-15T08:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Gemini 4 Argon AI Super App Launches with Chat and Task Modes",
-          "url": "https://www.geeky-gadgets.com/how-to-use-gemini-app/",
-          "publishedAt": "2026-10-19T12:13:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "62f78cac-e003-4b60-8637-cd48db8471f4",
-      "title": "OpenAI and Anthropic tell British lawmakers to regulate them as the UK's spy chief warns of AI bioweapons",
-      "summary": "OpenAI and Anthropic asked British lawmakers to regulate them at a sweeping parliamentary session where AI leaders appeared alongside whistleblowers and security leaders, Wired reports. A few hundred meters away, Britain's spy chief warned that AI could be used to create new bioweapons.",
-      "importanceScore": 0.8,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-13T19:49:20.758Z",
-      "lastMeaningfulUpdateAt": "2026-10-13T19:49:20.758Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
-          "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
-          "publishedAt": "2026-10-13T19:35:29.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
-    },
-    {
-      "id": "480c2cd8-92ca-42f7-811b-f08525024ce5",
-      "title": "Apple and OpenAI head to court in trade secrets fight as OpenAI turns the tables",
-      "summary": "Apple's lawsuit accusing OpenAI of stealing trade secrets through former Apple employees heads to court this week.\n\n- Gizmodo reports OpenAI is turning the tables on Apple ahead of the hearing\n- A federal judge earlier ruled Apple can access OpenAI's interview materials involving former Apple employees, plus private messages and testimony from key figures, per TechCrunch",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-13T21:51:24.983Z",
-      "lastMeaningfulUpdateAt": "2026-10-14T20:08:23.700Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
-          "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
-          "publishedAt": "2026-10-13T20:36:44.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Turns the Tables on Apple in Legal Fight Over Trade Secrets",
-          "url": "https://gizmodo.com/openai-turns-the-tables-on-apple-in-legal-fight-over-trade-secrets-2000826007",
-          "publishedAt": "2026-10-14T19:40:52.000Z",
-          "contribution": "meaningful-update"
         }
       ],
       "tags": []
