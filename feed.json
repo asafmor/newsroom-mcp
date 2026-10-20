@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T17:41:54.477Z",
+  "generatedAt": "2026-10-20T19:43:27.771Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -431,6 +431,41 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "6fed06d4-0ea6-4753-929b-b48534126161",
+      "title": "Google joins Amazon in attacking Nvidia's PyTorch grip with tools to move AI apps off its GPUs",
+      "summary": "Two hyperscalers are now shipping developer tools meant to pry PyTorch apps away from Nvidia GPUs.\n\n- Amazon launched TorchNeuron for running PyTorch models on AWS Trainium; TechCrunch called it Amazon's biggest shot at Nvidia yet\n- Hugging Face says TorchNeuron makes running its models on Trainium easier than ever\n- New: Google has released its own tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs, joining Amazon's push",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-19T19:23:31.943Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T19:43:12.043Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+          "url": "https://huggingface.co/blog/hf-torchneuron",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+          "publishedAt": "2026-10-19T20:09:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+          "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+          "publishedAt": "2026-10-20T18:38:24.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -943,31 +978,24 @@
       "tags": []
     },
     {
-      "id": "6fed06d4-0ea6-4753-929b-b48534126161",
-      "title": "Amazon takes aim at Nvidia's PyTorch grip with TorchNeuron, a tool for running models on AWS Trainium",
-      "summary": "Amazon is pushing TorchNeuron, a developer tool meant to break Nvidia's hold on PyTorch so more AI apps run on alternative chips like AWS Trainium; TechCrunch calls it Amazon's biggest shot at Nvidia yet. Hugging Face says it makes running its models on Trainium easier than ever.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-19T19:23:31.943Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T19:23:31.943Z",
+      "id": "ef93d128-2810-4d24-abb3-98660078b7ff",
+      "title": "NVIDIA's Cosmos3-H-Dreams uses generative simulation to model clinical surgery",
+      "summary": "NVIDIA introduced Cosmos3-H-Dreams on the Hugging Face blog, applying its Cosmos generative world-model line to simulating clinical surgery scenes.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-20T19:43:19.689Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T19:43:19.689Z",
       "sources": [
         {
           "providerName": "Hugging Face Blog",
-          "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-          "url": "https://huggingface.co/blog/hf-torchneuron",
-          "publishedAt": "2026-10-19T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
-          "publishedAt": "2026-10-19T20:09:24.000Z",
+          "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+          "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+          "publishedAt": "2026-10-20T18:17:47.000Z",
           "contribution": "supporting"
         }
       ],
       "tags": [
-        "infrastructure"
+        "research"
       ]
     },
     {
@@ -1199,6 +1227,13 @@
           "url": "https://gizmodo.com/anthropic-could-ipo-any-time-now-but-some-of-the-people-who-matter-most-dont-want-it-2000826678",
           "publishedAt": "2026-10-16T14:00:35.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+          "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+          "publishedAt": "2026-10-20T17:55:12.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1225,6 +1260,27 @@
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "ab7db44f-1d57-4b5e-bb7e-da84ce3a2eb0",
+      "title": "ChatGPT now lets you lock individual chats",
+      "summary": "OpenAI added a way to lock ChatGPT conversations, aimed at keeping personal chats (or surprise plans) private when handing a device to friends or family to show them something in another chat.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-20T19:43:17.594Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T19:43:17.594Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "ChatGPT now lets you lock your chats",
+          "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+          "publishedAt": "2026-10-20T18:36:53.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1710,50 +1766,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "da7968d5-855c-42f1-9527-528425772b0f",
-      "title": "Apple tightens App Store rules to bar AI \"nudify\" apps",
-      "summary": "Apple updated its App Store rules to crack down on apps that use AI to generate nonconsensual intimate imagery, such as so-called \"nudify\" apps, per Engadget.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-17T12:52:04.612Z",
-      "lastMeaningfulUpdateAt": "2026-10-17T12:52:04.612Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Apple updates App Store rules to ensure it doesn't offer AI nudify apps",
-          "url": "https://www.engadget.com/2289567/apple-updates-app-store-rules-ai-nudify-apps/",
-          "publishedAt": "2026-10-17T12:35:56.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "f5127b01-b2d6-47bd-a4cb-09f82edc4f24",
-      "title": "Gizmodo calls Jensen Huang's \"digital brains\" rant concerning",
-      "summary": "Gizmodo's Mike Pearl takes aim at Nvidia CEO Jensen Huang's latest remarks about AI as \"digital brains,\" calling the rant concerning and quipping that someone should check on the CEO of Nvidia.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-20T01:29:13.999Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T01:29:13.999Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Jensen Huang’s ‘Digital Brains’ Rant Is… Concerning",
-          "url": "https://gizmodo.com/jensen-huangs-digital-brains-rant-is-concerning-2000827917",
-          "publishedAt": "2026-10-19T23:47:11.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 131,
+  "totalCount": 128,
   "hasMore": true
 }
