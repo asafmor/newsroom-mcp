@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T23:27:41.523Z",
+  "generatedAt": "2026-10-20T01:29:23.639Z",
   "stories": [
     {
       "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
@@ -62,6 +62,42 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "25641c5e-d1da-443c-8f65-319d3f4358cb",
+      "title": "Nscale reportedly eyes a second $45B Anthropic compute deal after Microsoft pulls out ahead of its IPO",
+      "summary": "British AI data-center developer Nscale is heading for an IPO that tests investor appetite for concentrated AI infrastructure bets, and its biggest customers are moving in opposite directions.\n\n- New: Nscale and Anthropic are reportedly in talks for another $45 billion compute deal, matching the one they announced in August, TechCrunch reports\n- Gizmodo reports Microsoft has pulled out of a giant British AI cloud deal just as Nscale was expecting to go public\n- TechCrunch notes the neocloud depends on Microsoft and Anthropic for most of its revenue\n- Gizmodo frames the Microsoft pullout as a sign AI looks less like a sure thing for investors",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-22T13:37:32.047Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T01:29:09.519Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
+          "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+          "publishedAt": "2026-09-22T12:23:05.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Microsoft Pulls Out of Giant British AI Cloud Deal Just As Cloud Company Was Expecting to IPO",
+          "url": "https://gizmodo.com/microsoft-pulls-out-of-giant-british-ai-cloud-deal-just-as-cloud-company-was-expecting-to-ipo-2000827469",
+          "publishedAt": "2026-10-19T09:00:39.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+          "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+          "publishedAt": "2026-10-19T23:39:38.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "funding",
+        "infrastructure"
       ]
     },
     {
@@ -430,35 +466,6 @@
       ]
     },
     {
-      "id": "25641c5e-d1da-443c-8f65-319d3f4358cb",
-      "title": "Microsoft reportedly pulls out of a giant British AI cloud deal as Nscale heads for its IPO",
-      "summary": "British AI data-center developer Nscale is heading for an IPO that tests investor appetite for concentrated AI infrastructure bets.\n\n- TechCrunch notes the neocloud depends on Microsoft and Anthropic for most of its revenue\n- Gizmodo reports Microsoft has pulled out of a giant British AI cloud deal just as the cloud company was expecting to go public\n- Gizmodo frames the pullout as a sign AI looks less like a sure thing for investors",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-22T13:37:32.047Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T09:15:26.108Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
-          "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
-          "publishedAt": "2026-09-22T12:23:05.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Microsoft Pulls Out of Giant British AI Cloud Deal Just As Cloud Company Was Expecting to IPO",
-          "url": "https://gizmodo.com/microsoft-pulls-out-of-giant-british-ai-cloud-deal-just-as-cloud-company-was-expecting-to-ipo-2000827469",
-          "publishedAt": "2026-10-19T09:00:39.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
-    },
-    {
       "id": "b8d76264-8444-42c4-ac28-2d2988ec5c2b",
       "title": "Homeland Security bans DeepSeek in federal civilian agencies",
       "summary": "The Department of Homeland Security barred federal civilian agencies from using DeepSeek, a couple of days after the Chinese lab released its latest AI model.",
@@ -528,6 +535,28 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "e6c6f773-a6ca-4511-a0fb-589843e8a94f",
+      "title": "NYC Mayor Mamdani says the feds have abdicated on AI, urges New Yorkers to demand regulation",
+      "summary": "New York City Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands, accusing the federal government of abdicating on AI, TechCrunch reports.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-20T01:29:11.821Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T01:29:11.821Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+          "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+          "publishedAt": "2026-10-20T01:27:03.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "opinion"
       ]
     },
     {
@@ -1397,6 +1426,27 @@
       ]
     },
     {
+      "id": "f5127b01-b2d6-47bd-a4cb-09f82edc4f24",
+      "title": "Gizmodo calls Jensen Huang's \"digital brains\" rant concerning",
+      "summary": "Gizmodo's Mike Pearl takes aim at Nvidia CEO Jensen Huang's latest remarks about AI as \"digital brains,\" calling the rant concerning and quipping that someone should check on the CEO of Nvidia.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-20T01:29:13.999Z",
+      "lastMeaningfulUpdateAt": "2026-10-20T01:29:13.999Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Jensen Huang’s ‘Digital Brains’ Rant Is… Concerning",
+          "url": "https://gizmodo.com/jensen-huangs-digital-brains-rant-is-concerning-2000827917",
+          "publishedAt": "2026-10-19T23:47:11.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "c98ea703-4ee4-4e4d-8daf-c4f87b082901",
       "title": "Meta removes terms-of-service language that raised scraping and AI training concerns",
       "summary": "Meta removed language from its updated terms that had raised concerns about web scraping and AI training, TechCrunch reports. A Meta spokesperson insisted the updated terms did not reflect any change in how Meta crawls the web.",
@@ -1833,51 +1883,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "0b795edb-b602-4b5d-b88f-a48c52358fc4",
-      "title": "Nvidia details 2.8-trillion-token Indic pretraining corpus and open data generation pipeline",
-      "summary": "Nvidia published a Hugging Face write-up on scaling pretraining for Indic languages, describing a 2.8-trillion-token corpus and releasing the data generation pipeline behind it as open tooling.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-16T02:27:04.066Z",
-      "lastMeaningfulUpdateAt": "2026-10-16T02:27:04.066Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-          "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-          "publishedAt": "2026-10-16T01:44:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research",
-        "open-source"
-      ]
-    },
-    {
-      "id": "81e2c69d-5adc-4be0-b878-206e32d76b1e",
-      "title": "Replit's CEO says the future of work is the \"self-driving company\"",
-      "summary": "Replit CEO Amjad Masad, speaking at TechCrunch Disrupt, described a future of \"self-driving companies\" in which AI agents handle day-to-day work while people focus on higher-level decisions.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-16T14:35:48.833Z",
-      "lastMeaningfulUpdateAt": "2026-10-16T14:35:48.833Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
-          "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
-          "publishedAt": "2026-10-16T12:55:09.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 123,
+  "totalCount": 125,
   "hasMore": true
 }
