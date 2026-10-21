@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T15:58:44.897Z",
+  "generatedAt": "2026-10-21T18:00:34.709Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -483,6 +483,28 @@
       ]
     },
     {
+      "id": "171178f8-f249-4ae0-b38e-6c7b02d4a7df",
+      "title": "Startup Recursive goes all in on AI that builds AI, and Wired calls its latest model \"scary good\"",
+      "summary": "Wired profiles Recursive, a startup betting everything on recursive self-improvement (using AI to build better AI), whose latest model it describes as \"scary good.\" The company argues that the benefits of AI-built AI outweigh the risks.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-21T18:00:18.039Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T18:00:18.039Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
+          "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
+          "publishedAt": "2026-10-21T16:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "safety"
+      ]
+    },
+    {
       "id": "84fad439-74cc-42f4-a461-3aa410f9f39c",
       "title": "Anthropic reportedly struggles to secure compute from cloud providers that now see it as a rival",
       "summary": "TechCrunch reports that Anthropic is struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of its planned November IPO.",
@@ -564,6 +586,28 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "8fdf8b54-dd6e-4fb9-9916-087ad4aef3ca",
+      "title": "Claude Security now scans repositories continuously and tracks fixes, in public beta for Enterprise",
+      "summary": "Anthropic upgraded Claude Security, its code-vulnerability scanner, into an always-on service.\n\n- Scans keep up with repositories as code changes, instead of running as one-off audits\n- Tracks each finding until it is fixed and learns from context the team adds\n- Connects to existing tools through an API and MCP\n- Available in public beta for Claude Enterprise customers",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-21T18:00:23.239Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T18:00:23.239Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Security now scans continuously and tracks fixes",
+          "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
+          "publishedAt": "2026-10-21T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
       ]
     },
     {
@@ -667,6 +711,49 @@
       ]
     },
     {
+      "id": "75621095-0cd8-4a68-92fe-92402bbe9440",
+      "title": "Commerce.com and Cloudflare open nearly 100,000 storefronts to AI shopping agents via WebMCP",
+      "summary": "Almost 100,000 Commerce.com domains now expose real shopping tools to AI agents through WebMCP on Cloudflare. Cloudflare says it switched the capability on across every store at once while keeping each merchant in control.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-21T18:00:25.989Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T18:00:25.989Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+          "url": "https://blog.cloudflare.com/webmcp-commerce/",
+          "publishedAt": "2026-10-21T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "b2238411-bfbe-47de-80d7-a4a9440cdbba",
+      "title": "U.N. official warns AI is \"on track to crowd out human decision-making\" in warfare",
+      "summary": "A U.N. official warns that militaries, like ordinary users, are offloading critical thinking to AI systems, putting AI on track to crowd out human decision-making in warfare, Gizmodo reports.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-21T18:00:20.289Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T18:00:20.289Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Is ‘on Track to Crowd Out Human Decision-Making’ in Warfare, U.N. Official Warns",
+          "url": "https://gizmodo.com/ai-is-on-track-to-crowd-out-human-decision-making-in-warfare-u-n-official-warns-2000828868",
+          "publishedAt": "2026-10-21T16:05:27.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "1eea4a9d-2f2a-4b89-843c-4d6db4e3e125",
       "title": "Goodfire researcher's 26,000-word claim about the nature of neural networks upends the AI world",
       "summary": "Nick Cammarata, a researcher at interpretability startup Goodfire, published a 26,000-word blog post opening with \"I think I have good news about the nature of neural networks.\" MIT Technology Review says the claim has knocked the AI world on its head, sparking wild speculation and both cautious and not-so-cautious celebration.",
@@ -716,6 +803,13 @@
           "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
           "publishedAt": "2026-10-20T18:38:24.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+          "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+          "publishedAt": "2026-10-21T16:04:43.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1570,127 +1664,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "8f93999d-dbbe-4e8c-9300-03282ff84418",
-      "title": "DeepSeek V4.1 Flash 1017 reaches up to 300 tokens per second in tests",
-      "summary": "DeepSeek's V4.1 Flash 1017, an open-source model pitched on low cost, processed 244 to 300 tokens per second in tests highlighted by the YouTube channel World of AI.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-19T09:15:30.719Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T09:15:30.719Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New DeepSeek V4.1 Flash 1017 Hits 300 Tokens per Second in Tests",
-          "url": "https://www.geeky-gadgets.com/deepseek-v4-1-flash-review-2/",
-          "publishedAt": "2026-10-19T07:17:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
-    },
-    {
-      "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
-      "title": "Anthropic's IPO meets investor doubts and political calls for delay after a prospectus showing heavy losses",
-      "summary": "Anthropic could go public any time now, but its prospectus has drawn pushback from investors unhappy with the financials and politicians urging a delay.\n\n- New: Gizmodo reports investors are unhappy with the company's financials, while politicians are pleading for the IPO to be delayed\n- The prospectus discloses heavy annual losses alongside rapid revenue growth; TechCrunch describes them as tens of billions, while Engadget puts last year's net loss at about $8 billion\n- Anthropic is targeting a roughly $2 trillion valuation, with a stock market debut reportedly planned for November\n- Its risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity\n- A proposed structure would give its seven co-founders a combined 50.1% of the vote on most corporate matters, locking in founder control",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-25T16:42:37.631Z",
-      "lastMeaningfulUpdateAt": "2026-10-16T14:35:42.613Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s founders seek voting control ahead of IPO",
-          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
-          "publishedAt": "2026-09-25T15:40:03.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
-          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
-          "publishedAt": "2026-09-29T05:13:43.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic lost $8 billion last year and said its AI could destroy humanity",
-          "url": "https://www.engadget.com/2271659/anthropic-lost-8-billion-says-it-could-destroy-humanity/",
-          "publishedAt": "2026-09-29T09:59:57.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Leaked Anthropic IPO Prospectus Gives Wall Street an Early Look at How AI Could Go Off the Rails",
-          "url": "https://gizmodo.com/leaked-anthropic-ipo-prospectus-gives-wall-street-an-early-look-at-how-ai-could-kill-us-all-2000818911",
-          "publishedAt": "2026-09-29T17:00:29.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Could IPO Any Time Now, But Some of the People Who Matter Most Don’t Want It",
-          "url": "https://gizmodo.com/anthropic-could-ipo-any-time-now-but-some-of-the-people-who-matter-most-dont-want-it-2000826678",
-          "publishedAt": "2026-10-16T14:00:35.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-          "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
-          "publishedAt": "2026-10-20T17:55:12.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "funding",
-        "safety"
-      ]
-    },
-    {
-      "id": "d1b53232-48ba-4240-8862-540267a1f5f4",
-      "title": "Cloudflare introduces Clairic, a \"System One\" extraction model",
-      "summary": "Cloudflare released Clairic, a new model it describes as a \"System One\" extraction model, able to extract, compute, estimate, and forecast data from unstructured inputs.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-19T19:23:41.193Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T19:23:41.193Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Introducing Clairic, a new System One class of extraction models",
-          "url": "https://blog.cloudflare.com/clairic-extraction-model/",
-          "publishedAt": "2026-10-19T17:48:26.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "11af6cf9-3841-4b5b-9795-264723db6319",
-      "title": "xAI describes using Grok Bot to detect and respond to incidents",
-      "summary": "xAI published a post on using Grok Bot, its persistent-agent product, for incident detection and response, another in its series of internal use-case write-ups. The source feed gave no further detail.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-20T21:45:46.190Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T21:45:46.190Z",
-      "sources": [
-        {
-          "providerName": "xAI News",
-          "title": "Using Grok Bot to detect and respond to incidents",
-          "url": "https://x.ai/news/incident-sweep",
-          "publishedAt": "2026-10-20T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 127,
+  "totalCount": 126,
   "hasMore": true
 }
