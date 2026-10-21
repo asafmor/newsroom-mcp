@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T09:52:33.007Z",
+  "generatedAt": "2026-10-21T11:54:33.161Z",
   "stories": [
     {
       "id": "74e21271-a9cf-4292-8d6f-64bc120bbf17",
@@ -15,6 +15,13 @@
           "title": "OpenAI Agents Prevented Themselves From Being Monitored. One Also Lied About It",
           "url": "https://gizmodo.com/openai-agents-prevented-themselves-from-being-monitored-one-also-lied-about-it-2000828559",
           "publishedAt": "2026-10-21T09:00:44.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI's agents disabled their own safety monitoring systems",
+          "url": "https://www.engadget.com/2292644/openai-agents-disabled-own-safety-monitoring-systems/",
+          "publishedAt": "2026-10-21T10:53:21.000Z",
           "contribution": "supporting"
         }
       ],
@@ -619,6 +626,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "af9c5c0d-4009-4235-8458-f128308fdfb3",
+      "title": "OpenAI invests in a startup that uses brain implants to detect cancer",
+      "summary": "OpenAI has invested in a startup that uses brain implants to detect cancer, Wired reports. It's the latest in a growing wave of bets AI companies are making on brain data.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-21T11:54:21.792Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T11:54:21.792Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
+          "url": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
+          "publishedAt": "2026-10-21T10:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
     },
     {
       "id": "e6c6f773-a6ca-4511-a0fb-589843e8a94f",
@@ -1506,6 +1534,28 @@
       ]
     },
     {
+      "id": "45891f08-8431-4848-b458-5cda5fb0823e",
+      "title": "NVIDIA announces SimReady Central, an open library of simulation-ready 3D assets for robotics",
+      "summary": "NVIDIA announced SimReady Central on the Hugging Face blog: an open library of simulation-ready 3D assets for training and testing robotics and \"AI factory\" systems in simulation.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-21T11:54:23.944Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T11:54:23.944Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+          "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+          "publishedAt": "2026-10-21T10:59:42.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source",
+        "infrastructure"
+      ]
+    },
+    {
       "id": "5a71fd09-3bb9-43b6-8f27-d7628e7bf6b0",
       "title": "An AI agent's arrival on a 7,500-member listserv of top internet researchers sets off reply-all chaos",
       "summary": "An AI agent joined a 7,500-person mailing list of leading internet researchers, and the resulting reply-all panic is still unfolding. Wired argues the hysteria shows that internet experts hold outdated ideas about privacy.",
@@ -1607,100 +1657,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "ce74b7f3-b4d9-45c0-a9b2-291e73e3bfd4",
-      "title": "TypeSafe's Jev hits a $7.5B valuation and becomes Vercel's fastest-adopted AI model ever",
-      "summary": "Jev, TypeSafe's non-text AI model, is gaining traction fast on both the funding and adoption fronts.\n\n- TypeSafe has been valued at $7.5 billion just weeks after Jev's launch, TechCrunch reports\n- Data from Vercel's AI gateway, a unified API service similar to OpenRouter, shows Jev is Vercel's fastest-adopted AI model ever\n- Jev comes from one of ChatGPT's inventors, and developers have embraced it as a cheaper, faster path to software intelligence\n- Users and large corporations are drawn by TypeSafe's claim that it works significantly faster and uses far fewer tokens than LLMs",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-18T20:35:46.507Z",
-      "lastMeaningfulUpdateAt": "2026-10-16T16:37:39.158Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
-          "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
-          "publishedAt": "2026-09-18T18:49:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Cut Document Sorting Time Using Jev AI 200X Faster Processing",
-          "url": "https://www.geeky-gadgets.com/jev-ai-model-review/",
-          "publishedAt": "2026-09-21T11:15:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Jev by Typesafe AI Classifies Data in Under 500 Milliseconds",
-          "url": "https://www.geeky-gadgets.com/jev-classification-model/",
-          "publishedAt": "2026-09-22T13:17:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Over 20 Open Jev Alternatives Feature New Speed Trade-Offs",
-          "url": "https://www.geeky-gadgets.com/open-jev-models-alternatives/",
-          "publishedAt": "2026-09-23T09:15:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Jev AI Executes Bulk Decision Workflows 400X Faster vs LLMs",
-          "url": "https://www.geeky-gadgets.com/jev-ai-concepts-explained/",
-          "publishedAt": "2026-09-25T09:15:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Jev Drops LLM Token Usage in Agent Workflows to Save Costs",
-          "url": "https://www.geeky-gadgets.com/reduce-llm-costs-jev/",
-          "publishedAt": "2026-09-30T13:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-          "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-          "publishedAt": "2026-10-09T21:41:29.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Jev is Vercel’s fastest-adopted AI model ever",
-          "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-          "publishedAt": "2026-10-16T15:33:49.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "funding",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "8b7387f0-f0e5-4608-b722-deb852d1f42e",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "summary": "India has reported rogue AI agent activity, TechCrunch says, joining a growing list of countries. The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-16T18:39:31.973Z",
-      "lastMeaningfulUpdateAt": "2026-10-16T18:39:31.973Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "India becomes the latest country to report rogue AI agent activity",
-          "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-          "publishedAt": "2026-10-16T17:52:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 125,
+  "totalCount": 123,
   "hasMore": true
 }
