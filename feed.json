@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T13:56:35.060Z",
+  "generatedAt": "2026-10-21T15:58:44.897Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -347,6 +347,77 @@
       ]
     },
     {
+      "id": "1a17a14d-f447-4655-bf39-1aa40843eb82",
+      "title": "ChatGPT Ads expands to 26 more countries as OpenAI's ad business passes 100,000 advertisers",
+      "summary": "OpenAI is turning ChatGPT advertising from a revenue milestone into a full, global product line.\n\n- New: ChatGPT Ads has expanded to 26 more countries, and over 100,000 advertisers, from local businesses to global brands, have now used the platform\n- A visual ad format appears after image generation results (US-only for now), alongside expanded measurement tools, attribution partnerships, and brand-suitability controls\n- ChatGPT Ads has reached a $1 billion annualized revenue run rate, which OpenAI frames as what funds free and low-cost ChatGPT access\n- \"Sponsored Agents\" let brands show up as AI-powered experiences rather than static ad units\n- Integrations with HubSpot and Shopify tie the ad products into existing commerce and CRM stacks",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-08-31T18:53:06.549Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T15:58:24.733Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "A milestone in expanding access to AI",
+          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+          "publishedAt": "2026-08-31T04:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Reimagining advertising with AI",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "publishedAt": "2026-09-16T13:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Building advertising for the way people use AI",
+          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+          "publishedAt": "2026-10-05T10:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI launches visual ads that appear alongside image generation results",
+          "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+          "publishedAt": "2026-10-05T15:14:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI is testing more ads in ChatGPT",
+          "url": "https://www.engadget.com/2277271/openai-is-testing-more-ads-in-chatgpt/",
+          "publishedAt": "2026-10-05T14:38:31.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Decides ChatGPT Would Be Better With More Sponsored Results",
+          "url": "https://gizmodo.com/openai-decides-chatgpt-would-be-better-with-more-sponsored-results-2000822440",
+          "publishedAt": "2026-10-06T21:15:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Here’s How ChatGPT Is Targeting You With Ads",
+          "url": "https://gizmodo.com/heres-how-chatgpt-is-targeting-you-with-ads-2000826457",
+          "publishedAt": "2026-10-16T14:45:26.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+          "publishedAt": "2026-10-21T13:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "706fa244-aea7-4f9a-b020-c1f1e7179d0e",
       "title": "Anthropic pitches an AI safety bill that could block models posing 50+ death risks — but only with a judge's sign-off",
       "summary": "Anthropic is pitching an AI safety bill that could block a model's release if it could lead to 50 or more deaths. TechCrunch notes the catch: the proposal forbids federal agencies from blocking a release without a judge's permission, so it may limit regulators as much as it protects the public.",
@@ -366,6 +437,49 @@
       "tags": [
         "regulation",
         "safety"
+      ]
+    },
+    {
+      "id": "2c6396e9-e248-402e-aff9-b27e85c9b355",
+      "title": "Criminal hackers worldwide are going all-in on agentic AI, manipulating tools like Claude past their guardrails",
+      "summary": "Wired reports that criminal hackers around the world are embracing agentic AI to carry out attacks, manipulating tools such as Anthropic's Claude to help commit their crimes despite the companies' guardrails.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-21T15:58:30.438Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T15:58:30.438Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
+          "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
+          "publishedAt": "2026-10-21T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "690a7a98-64fa-46cc-b7b0-57da52857d25",
+      "title": "Nvidia unveils the DSX Pod plug-in data center at GTC Berlin to close Europe's AI infrastructure gap",
+      "summary": "At Nvidia's GTC in Berlin, Jensen Huang unveiled the DSX Pod, a plug-in data center he pitched as the key to closing Europe's AI infrastructure lag, alongside a push into autonomous humanoid robotics.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-21T15:58:28.092Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T15:58:28.092Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Jensen Huang’s Vision for Europe Runs on Plug-In Data Centers",
+          "url": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/",
+          "publishedAt": "2026-10-21T15:02:15.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "product-launch"
       ]
     },
     {
@@ -886,6 +1000,48 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "533631d7-62c1-4789-a673-0d9e3b68e0c4",
+      "title": "IBM releases Granite Speech 5.0 for faster, more accurate transcription, translation, and speaker attribution",
+      "summary": "IBM's Granite team announced Granite Speech 5.0 on the Hugging Face blog, pitching it as faster and more accurate at transcription, translation, and speaker attribution.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-21T15:58:34.618Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T15:58:34.618Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+          "publishedAt": "2026-10-21T14:58:18.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "7fb6b4ee-382b-4595-95b1-a386e53749e4",
+      "title": "Survey: more than half of managers say AI has made employees' work harder to evaluate",
+      "summary": "A new survey reported by TechCrunch finds that more than 50% of managers are having a harder time evaluating their employees' work after adopting AI, suggesting the promised productivity gains are, for now, mostly a management headache.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-21T15:58:32.737Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T15:58:32.737Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+          "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+          "publishedAt": "2026-10-21T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -1533,119 +1689,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "ab7db44f-1d57-4b5e-bb7e-da84ce3a2eb0",
-      "title": "ChatGPT now lets you lock individual chats",
-      "summary": "OpenAI added a way to lock ChatGPT conversations, aimed at keeping personal chats (or surprise plans) private when handing a device to friends or family to show them something in another chat.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-20T19:43:17.594Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T19:43:17.594Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "ChatGPT now lets you lock your chats",
-          "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-          "publishedAt": "2026-10-20T18:36:53.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "ChatGPT now lets you lock sensitive chats behind a PIN",
-          "url": "https://www.engadget.com/2292365/chatgpt-now-lets-you-lock-sensitive-chats-behind-a-pin/",
-          "publishedAt": "2026-10-20T21:05:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "c57ad414-1e47-4aed-9ad1-f6c0afcff0c1",
-      "title": "Ai2 introduces FairStress, a deeper evaluation of fairness in LLM decision-making",
-      "summary": "Allen AI published FairStress, an evaluation that probes how fairly LLMs make decisions in more depth than existing fairness benchmarks.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-20T17:41:35.691Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T17:41:35.691Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-          "url": "https://huggingface.co/blog/allenai/fairstress",
-          "publishedAt": "2026-10-20T16:09:19.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "45891f08-8431-4848-b458-5cda5fb0823e",
-      "title": "NVIDIA announces SimReady Central, an open library of simulation-ready 3D assets for robotics",
-      "summary": "NVIDIA announced SimReady Central on the Hugging Face blog: an open library of simulation-ready 3D assets for training and testing robotics and \"AI factory\" systems in simulation.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-21T11:54:23.944Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T11:54:23.944Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
-          "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
-          "publishedAt": "2026-10-21T10:59:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "5a71fd09-3bb9-43b6-8f27-d7628e7bf6b0",
-      "title": "An AI agent's arrival on a 7,500-member listserv of top internet researchers sets off reply-all chaos",
-      "summary": "An AI agent joined a 7,500-person mailing list of leading internet researchers, and the resulting reply-all panic is still unfolding. Wired argues the hysteria shows that internet experts hold outdated ideas about privacy.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-10-20T15:39:30.760Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T15:39:30.760Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
-          "url": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/",
-          "publishedAt": "2026-10-20T15:07:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "6a5f7ddc-ce2a-4690-acd6-2d63ba9c70f7",
-      "title": "Microsoft prices its Surface RTX Spark AI dev box at $5,999.99",
-      "summary": "Microsoft's Surface RTX Spark Dev Box, a desktop machine for AI development, costs $5,999.99 and comes with 128 GB of unified memory and 2 TB of storage. It lacks advanced networking such as ConnectX-7 ports, which could make distributed training setups harder.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-19T09:15:28.460Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T09:15:28.460Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Microsoft Prices the Surface RTX Spark AI Dev Box At $5,999.99",
-          "url": "https://www.geeky-gadgets.com/microsoft-surface-rtx-spark-dev-box/",
-          "publishedAt": "2026-10-19T08:17:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 123,
+  "totalCount": 127,
   "hasMore": true
 }
