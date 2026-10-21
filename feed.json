@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-21T20:02:29.185Z",
+  "generatedAt": "2026-10-21T22:04:48.645Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta suspends Muse's share links over exposed conversations as the app passes 10M US downloads",
-      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is one of the fastest-growing apps ever, but privacy, security, content, and labor controversies keep mounting.\n\n- New: Meta is suspending Muse's conversation-sharing feature after security researchers showed how easily shared links exposed sensitive personal and business information; Ars Technica had found a single query surfaced thousands of shared chats\n- Muse passed 10 million US downloads in its first 40 days, a milestone only 11 other apps (including Threads) have reached, and it retains users better than rival AI apps, per TechCrunch\n- OnlyFans creators are angry that Meta lets Muse engage in sexual chat while restricting adult performers' own accounts, per Wired\n- Ars Technica earlier reported a serious Mac 0-day in the highly privileged agent, since fixed; Meta disputes a journalist's claim that Muse read his private Messages without permission\n- Gizmodo reports Meta tested a \"human concierge\" of contractors making Muse's phone calls, one of whom reportedly made racist remarks\n- Muse reached iPad a month after its mobile debut; Meta admits it was \"heavily inspired\" by OpenClaw, and Amazon has blocked it from shopping on Amazon.com",
+      "title": "Meta says Muse has over 10M users, with shopping a top use, as it suspends share links over exposed conversations",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, is one of the fastest-growing apps ever, but privacy, security, content, and labor controversies keep mounting.\n\n- New: Meta said on its Q3 earnings call that Muse has over 10 million users, with shopping and personal productivity among the top activities\n- Meta is suspending Muse's conversation-sharing feature after security researchers showed shared links exposed sensitive personal and business information; Ars Technica found a single query surfaced thousands of shared chats\n- Muse passed 10 million US downloads in its first 40 days, a milestone only 11 other apps have reached, and retains users better than rival AI apps, per TechCrunch\n- OnlyFans creators are angry that Meta lets Muse engage in sexual chat while restricting adult performers' own accounts, per Wired\n- Earlier controversies: a since-fixed Mac 0-day, a disputed claim that Muse read a journalist's private Messages, and a contractor \"human concierge\" reportedly making racist remarks on Muse's calls\n- Amazon has blocked Muse from shopping on Amazon.com; Meta admits it was \"heavily inspired\" by OpenClaw",
       "importanceScore": 0.85,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T13:56:19.398Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T22:04:27.127Z",
       "sources": [
         {
           "providerName": "VentureBeat",
@@ -289,12 +289,40 @@
           "url": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
           "publishedAt": "2026-10-21T12:35:00.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta says Muse has over 10M users, with shopping a top activity",
+          "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+          "publishedAt": "2026-10-21T21:14:19.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
         "product-launch",
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "116e58ad-31bf-49df-8b2a-c97fef39de93",
+      "title": "Anthropic unveils Claude Duet, a personal agent to rival Meta Muse and OpenAI Dots",
+      "summary": "Anthropic introduced Claude Duet, a new agent that Engadget frames as its answer to Meta's Muse and OpenAI's Dots. Anthropic subscribers in the US can join a waitlist to try it.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-21T22:04:29.429Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T22:04:29.429Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Claude Duet is Anthropic's answer to Meta Muse and OpenAI Dots",
+          "url": "https://www.engadget.com/2293646/claude-duet-is-anthropics-answer-to-meta-muse-and-openai-dots/",
+          "publishedAt": "2026-10-21T21:03:19.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -418,6 +446,35 @@
       ]
     },
     {
+      "id": "171178f8-f249-4ae0-b38e-6c7b02d4a7df",
+      "title": "Recursive launches Flint, a free laptop coding model it says was largely built by AI",
+      "summary": "Startup Recursive, which is betting everything on recursive self-improvement, has released a model it says its own AI largely built.\n\n- New: Flint is a free, laptop-sized coding model built largely by Recursive's in-house AI research system, pitched as an early test of AI that improves itself, per TechCrunch\n- Wired's profile of the company called its latest model \"scary good\"\n- Recursive argues the benefits of AI-built AI outweigh the risks",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-21T18:00:18.039Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T22:04:25.381Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
+          "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
+          "publishedAt": "2026-10-21T16:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+          "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+          "publishedAt": "2026-10-21T20:27:41.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "safety"
+      ]
+    },
+    {
       "id": "6f48f3a3-fb35-457d-b19f-dab691e37c83",
       "title": "Walmart lets AI agents shop on customers' behalf as Amazon blocks them",
       "summary": "Walmart is introducing technology that lets AI agents make purchases for customers, with controls over spending limits and transaction approvals, per TechCrunch. It's the opposite of Amazon's approach, which blocks AI agents from shopping on its site.",
@@ -501,28 +558,6 @@
       "tags": [
         "infrastructure",
         "product-launch"
-      ]
-    },
-    {
-      "id": "171178f8-f249-4ae0-b38e-6c7b02d4a7df",
-      "title": "Startup Recursive goes all in on AI that builds AI, and Wired calls its latest model \"scary good\"",
-      "summary": "Wired profiles Recursive, a startup betting everything on recursive self-improvement (using AI to build better AI), whose latest model it describes as \"scary good.\" The company argues that the benefits of AI-built AI outweigh the risks.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-21T18:00:18.039Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T18:00:18.039Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
-          "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
-          "publishedAt": "2026-10-21T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "safety"
       ]
     },
     {
@@ -707,6 +742,27 @@
       "tags": [
         "funding",
         "infrastructure"
+      ]
+    },
+    {
+      "id": "cf20b876-6274-422a-bcca-6ab1751730d5",
+      "title": "Gizmodo: OpenAI wants to \"patch the planet\" with its own AI",
+      "summary": "Gizmodo reports on OpenAI's ambition to \"patch the planet\" using its own AI, framing the push skeptically as a company that \"never lets a good crisis go to waste\" amid mounting AI-driven security incidents.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-21T22:04:33.858Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T22:04:33.858Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Wants to ‘Patch the Planet’ (With Its Own AI)",
+          "url": "https://gizmodo.com/openai-wants-to-patch-the-planet-with-its-own-ai-2000829119",
+          "publishedAt": "2026-10-21T20:55:39.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -1097,6 +1153,27 @@
       ]
     },
     {
+      "id": "36e2f3f1-929c-4da6-95c1-6cc383424b9b",
+      "title": "OpenAI explains how it holds distribution partners to consistent safeguards and usage policies",
+      "summary": "OpenAI published a post on how it works with distribution partners to uphold consistent safeguards and support responsible access, and clarified expectations in its Usage Policies.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-21T22:04:31.479Z",
+      "lastMeaningfulUpdateAt": "2026-10-21T22:04:31.479Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Broad access through consistent standards",
+          "url": "https://openai.com/index/broad-access-through-consistent-standards",
+          "publishedAt": "2026-10-21T21:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "c264cd39-242a-4366-98e4-1b0f3593eb0d",
       "title": "NVIDIA's Kumo Relational claims to beat supervised ML on relational data with no training",
       "summary": "NVIDIA published Kumo Relational on the Hugging Face blog, claiming it outperforms supervised machine learning on relational data without any task-specific training. It's the latest in NVIDIA's Kumo model family, after Kumo Tabular and Kumo Forecast.",
@@ -1472,6 +1549,13 @@
           "url": "https://gizmodo.com/amazon-needs-more-power-2000827862",
           "publishedAt": "2026-10-20T14:30:34.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Tech Issues Are on the Ballot This Midterm Election Season: What to Know",
+          "url": "https://www.cnet.com/tech/services-and-software/tech-issues-midterm-elections-2026-news/",
+          "publishedAt": "2026-10-21T20:26:02.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1578,76 +1662,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "1aafafbe-ef7d-4bf4-aa31-db5cebc0ff3a",
-      "title": "Anthropic commits 5% of its shares to a public benefit fund",
-      "summary": "Anthropic announced it will commit 5% of its shares to a new public benefit fund, per its \"Investing in the public benefit\" post and TechCrunch. The fund's scope, governance and recipients haven't been detailed in the available sources.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-18T19:07:58.836Z",
-      "lastMeaningfulUpdateAt": "2026-10-18T19:07:58.836Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Investing in the public benefit",
-          "url": "https://www.anthropic.com/news/public-benefit-fund",
-          "publishedAt": "2026-10-18T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-          "publishedAt": "2026-10-18T20:37:40.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "47c0250c-b4c0-4b2f-a4e2-98ca2d4e7df1",
-      "title": "Gizmodo asks why Democrats aren't acting on AI despite public hostility to it",
-      "summary": "Gizmodo argues Democrats have done little about AI even though Americans broadly dislike it. Rep. Greg Casar told the outlet the three most pressing AI risks are \"mass unemployment, mass surveillance, and mass destruction.\"",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-20T17:41:38.091Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T17:41:38.091Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "America Hates AI. Why Aren’t Democrats Doing Anything About It?",
-          "url": "https://gizmodo.com/america-hates-ai-why-arent-democrats-doing-anything-about-it-2000827834",
-          "publishedAt": "2026-10-20T15:45:16.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "3259e86e-16ae-471f-bed2-a43ccc4d207f",
-      "title": "IBM Research's ALTK-Evolve tops the τ²-bench customer-service leaderboard with learned memory, no frontier model",
-      "summary": "IBM Research says ALTK-Evolve, an agent approach built on learned memory, tops the τ²-bench leaderboard for customer-service tasks without relying on a frontier model.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-20T15:39:32.707Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T15:39:32.707Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-          "publishedAt": "2026-10-20T15:19:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 125,
+  "totalCount": 124,
   "hasMore": true
 }
