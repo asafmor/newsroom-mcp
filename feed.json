@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T06:10:00.859Z",
+  "generatedAt": "2026-10-22T08:11:18.010Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -328,7 +328,7 @@
     {
       "id": "116e58ad-31bf-49df-8b2a-c97fef39de93",
       "title": "Anthropic unveils Claude Duet, a personal agent to rival Meta Muse and OpenAI Dots",
-      "summary": "Anthropic introduced Claude Duet, a new agent that Engadget frames as its answer to Meta's Muse and OpenAI's Dots. Anthropic subscribers in the US can join a waitlist to try it.",
+      "summary": "Anthropic introduced Claude Duet, a proactive personal agent that Engadget frames as its answer to Meta's Muse and OpenAI's Dots.\n\n- Available as a preview for US Claude Pro subscribers, who can join a waitlist to try it\n- Handles tasks like drafting documents, preparing payroll communications, and generating data visualizations, with app integrations\n- Keeps a single-thread history so context carries across tasks",
       "importanceScore": 0.75,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-10-21T22:04:29.429Z",
@@ -346,6 +346,13 @@
           "title": "Anthropic’s New Agent Has No Cute Mascot, and You Probably Can’t Try It Yet",
           "url": "https://gizmodo.com/anthropics-new-agent-has-no-cute-mascot-and-you-probably-cant-try-it-yet-2000829184",
           "publishedAt": "2026-10-21T23:54:17.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Claude Duet Proactive Assistant Launches in Preview for U.S. Claude Pro Users",
+          "url": "https://www.geeky-gadgets.com/claude-duet/",
+          "publishedAt": "2026-10-22T06:45:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -791,6 +798,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "58d52b14-f473-4499-891e-718fb858c7bf",
+      "title": "Demis Hassabis predicts AGI within two to three years as WSJ names him 2026 Innovator in Tech",
+      "summary": "Google DeepMind co-founder Demis Hassabis says human-level AI could arrive within the next two to three years, a prediction made as WSJ Magazine named him its 2026 Innovator in Tech.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-22T08:11:08.510Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T08:11:08.510Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Demis Hassabis Says We're Just 2–3 Years Away From AGI: Here's What That Means?",
+          "url": "https://in.mashable.com/tech/115224/demis-hassabis-says-were-just-2-3-years-away-from-agi-heres-what-that-means",
+          "publishedAt": "2026-10-22T06:23:55.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -1670,27 +1698,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "3ef70244-f69b-4617-bd85-2a61a2114d37",
-      "title": "Hackers breach AI coding agent OpenCode, stealing users' API keys and running up AI charges",
-      "summary": "Hackers got into part of the online platform of OpenCode, a popular open-source alternative to Claude Code and Cursor, and stole some users' API keys, running up charges on their AI accounts, TechCrunch reports. When OpenCode turned to AI tools for help, they kept refusing to examine the malicious code.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-19T21:25:25.924Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T21:25:25.924Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-          "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-          "publishedAt": "2026-10-19T19:28:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 122,
+  "totalCount": 123,
   "hasMore": true
 }
