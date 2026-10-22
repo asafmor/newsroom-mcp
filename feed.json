@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T00:06:54.434Z",
+  "generatedAt": "2026-10-22T02:08:17.025Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -302,6 +302,13 @@
           "title": "Mark Zuckerberg says Meta is 'entering a new phase' with Muse",
           "url": "https://www.engadget.com/2293705/mark-zuckerberg-says-meta-is-entering-a-new-phase-with-muse/",
           "publishedAt": "2026-10-21T22:36:03.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Zuckerberg Wants To Build A Giant Online Network Of AI Agents",
+          "url": "https://gizmodo.com/zuckerberg-wants-to-build-a-giant-online-network-of-ai-agents-2000829145",
+          "publishedAt": "2026-10-22T01:51:03.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1422,6 +1429,25 @@
       ]
     },
     {
+      "id": "fb7bfc0d-a2b1-4e77-a71b-8431f216834f",
+      "title": "Lawsuits allege Coco and Serve delivery robots recorded biometric data without consent",
+      "summary": "New lawsuits allege that sidewalk delivery robots from Coco and Serve recorded people's biometric data without permission, CNET reports, as the robots' spread through cities like Chicago fuels fears of unregulated surveillance in public spaces.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.45,
+      "firstSeenAt": "2026-10-22T02:08:12.316Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T02:08:12.316Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Lawsuits Allege Delivery Robots Recorded Biometric Data Without Permission",
+          "url": "https://www.cnet.com/tech/services-and-software/coco-serve-robots-biometric-data-lawsuit/",
+          "publishedAt": "2026-10-21T23:30:33.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "22f9777f-ecab-4d88-a141-b4cebf5fff46",
       "title": "Perplexity lets Macs with 36GB of RAM run its AI workflows entirely locally",
       "summary": "Perplexity now lets Macs with at least 36GB of RAM run its AI workflows entirely on-device, without sending them to the cloud.",
@@ -1656,27 +1682,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "da166f42-7ce0-4636-bbe3-8832c248cc2e",
-      "title": "Anthropic replaces git with Scion, an in-house version control system built for always-online agents",
-      "summary": "Anthropic built Scion, an in-house version control system designed for always-online agents, and migrated its monorepo off git in five months. Daily merges had grown from about 2,500 to more than 30,000, making source control the company's biggest development bottleneck.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-19T19:23:39.092Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T19:23:39.092Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Redesigning source control at Anthropic",
-          "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-          "publishedAt": "2026-10-19T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 124,
+  "totalCount": 123,
   "hasMore": true
 }
