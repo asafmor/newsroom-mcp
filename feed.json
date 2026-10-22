@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T08:11:18.010Z",
+  "generatedAt": "2026-10-22T10:12:14.359Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -478,6 +478,29 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "6724dad8-fdf1-4b8f-af33-6aef5c1d229c",
+      "title": "Hugging Face releases an open-source AI biology model that lets researchers chat with DNA",
+      "summary": "Hugging Face released a new open-source biology model that \"speaks the language of DNA,\" letting researchers query genetic sequences conversationally to understand how any change might affect gene activity and health.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-22T10:12:07.654Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T10:12:07.654Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+          "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+          "publishedAt": "2026-10-22T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source",
+        "research"
       ]
     },
     {
@@ -1677,29 +1700,8 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "0fac2a84-9e7e-445e-96aa-391efe4bd435",
-      "title": "Four Gemini 4 Argon agents beat Minecraft's Ender Dragon with no human help",
-      "summary": "A team of four Google Gemini 4 Argon agents beat Minecraft by defeating the Ender Dragon with no human intervention, coordinating by sharing tips, threats and mistakes with each other, Engadget reports.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-19T11:17:29.007Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T11:17:29.007Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Google Gemini 4 agents just beat Minecraft with no human intervention",
-          "url": "https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention/",
-          "publishedAt": "2026-10-19T09:19:19.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 123,
+  "totalCount": 125,
   "hasMore": true
 }
