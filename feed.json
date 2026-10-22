@@ -1,6 +1,27 @@
 {
-  "generatedAt": "2026-10-22T12:13:05.679Z",
+  "generatedAt": "2026-10-22T14:14:28.421Z",
   "stories": [
+    {
+      "id": "fa7cb184-dea8-4d35-ae62-aba0dc3c2b1e",
+      "title": "DeepSeek reportedly raises $15B days after the US ordered agencies to drop its technology",
+      "summary": "DeepSeek has reportedly raised $15 billion, one of China's largest funding rounds, just days after the US ordered federal agencies to remove its technology over national security concerns.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-22T14:14:12.694Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T14:14:12.694Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "DeepSeek reportedly raises $15B days after US restrictions",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+          "publishedAt": "2026-10-22T13:11:13.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
       "title": "Meta says Muse has over 10M users, with shopping a top use, as it suspends share links over exposed conversations",
@@ -328,7 +349,7 @@
     {
       "id": "116e58ad-31bf-49df-8b2a-c97fef39de93",
       "title": "Anthropic unveils Claude Duet, a personal agent to rival Meta Muse and OpenAI Dots",
-      "summary": "Anthropic introduced Claude Duet, a proactive personal agent that Engadget frames as its answer to Meta's Muse and OpenAI's Dots.\n\n- Available as a preview for US Claude Pro subscribers, who can join a waitlist to try it\n- Handles tasks like drafting documents, preparing payroll communications, and generating data visualizations, with app integrations\n- Keeps a single-thread history so context carries across tasks",
+      "summary": "Anthropic introduced Claude Duet, a proactive personal agent that Engadget frames as its answer to Meta's Muse and OpenAI's Dots.\n\n- Available as a preview via waitlist for US Claude Pro and Max subscribers\n- Handles tasks like drafting documents, preparing payroll communications, and generating data visualizations, with app integrations\n- Keeps a single-thread history so context carries across tasks",
       "importanceScore": 0.75,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-10-21T22:04:29.429Z",
@@ -353,6 +374,13 @@
           "title": "New Claude Duet Proactive Assistant Launches in Preview for U.S. Claude Pro Users",
           "url": "https://www.geeky-gadgets.com/claude-duet/",
           "publishedAt": "2026-10-22T06:45:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Claude Duet app is Anthropic’s bet on agents",
+          "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+          "publishedAt": "2026-10-22T13:53:26.000Z",
           "contribution": "supporting"
         }
       ],
@@ -615,6 +643,27 @@
       ],
       "tags": [
         "infrastructure",
+        "product-launch"
+      ]
+    },
+    {
+      "id": "29e59eeb-f5bc-4b64-93fc-5d0217845600",
+      "title": "1Password opens up to AI agents so they can log in and buy things on users' behalf",
+      "summary": "1Password will let users hand credentials to their preferred AI agent, making it easier for agents to book or buy things for them.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-22T14:14:17.197Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T14:14:17.197Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "1Password will let you hand your data security over to your preferred AI agent",
+          "url": "https://www.engadget.com/2293844/1password-opens-up-ai-agents-muse-dots-grok/",
+          "publishedAt": "2026-10-22T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "product-launch"
       ]
     },
@@ -1018,6 +1067,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "839d66f6-3415-4222-a5a6-2c6819cf0ef7",
+      "title": "Nirva raises $33M for an ambient AI pendant that only listens to its wearer",
+      "summary": "Nirva raised $33 million, with backers including Lightspeed and South Park Commons, and plans to ship its $249 ambient AI pendant, designed to listen only to its wearer, by the end of the year.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-22T14:14:15.095Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T14:14:15.095Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nirva raises $33M for a pendant that only listens to you",
+          "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+          "publishedAt": "2026-10-22T13:26:52.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
     },
     {
       "id": "af9c5c0d-4009-4235-8458-f128308fdfb3",
@@ -1504,204 +1574,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "22f9777f-ecab-4d88-a141-b4cebf5fff46",
-      "title": "Perplexity lets Macs with 36GB of RAM run its AI workflows entirely locally",
-      "summary": "Perplexity now lets Macs with at least 36GB of RAM run its AI workflows entirely on-device, without sending them to the cloud.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-20T17:41:33.441Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T17:41:33.441Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Perplexity makes it easier to run AI workflows entirely on your own Mac",
-          "url": "https://www.engadget.com/2291754/perplexity-makes-it-easier-to-run-ai-workflows-entirely-on-your-mac/",
-          "publishedAt": "2026-10-20T15:42:45.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "97cf59e3-7e2e-4b8f-96e9-5aabc99dc925",
-      "title": "AT&T's in-house legal team uses OpenAI to rethink intake and scale legal judgment",
-      "summary": "In an OpenAI customer story, AT&T says its LegalEdge team is working with OpenAI to make legal knowledge easier to access across the company, rethinking how legal requests are taken in and scaling the team's judgment.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-21T20:02:22.284Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T20:02:22.284Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "How AT&T is rethinking in-house legal work with OpenAI",
-          "url": "https://openai.com/index/att-legal",
-          "publishedAt": "2026-10-21T17:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "8c434be0-633e-4482-8913-15416883f869",
-      "title": "US AI data-center backlash: the industry courts kids with field trips as Amazon drops NDAs",
-      "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built, and is forcing Big Tech into both concessions and new persuasion campaigns.\n\n- New: Industry-friendly groups are trying to win over young people with data center field trips and other youth outreach, per Wired\n- Amazon pledged to stop using NDAs with local governments, paired with a warning to critics not to get in the way\n- Nearly $200 billion worth of US projects have been blocked or delayed this year; Pennsylvania residents refused a developer's $10,000-each offer to stop protesting\n- Trump admitted in a Time interview that he is a NIMBY on data centers\n- Big Tech is countering with a multimillion-dollar ad campaign and a \"viral\" pro-data-center party backed by Peter Thiel and the Koch Institute\n- Environmental-justice concerns in previously industrialized neighborhoods remain a central line of attack",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-01T18:56:45.629Z",
-      "lastMeaningfulUpdateAt": "2026-10-18T11:03:32.791Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Fleeing Data Center Backlash at Home, American AI Startup Sets Up Shop In Saudi Arabia",
-          "url": "https://gizmodo.com/fleeing-data-center-backlash-at-home-american-ai-startup-sets-up-shop-in-saudi-arabia-2000805023",
-          "publishedAt": "2026-08-31T15:50:39.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump to Communities Fighting Data Centers: Have Fun Being Poor",
-          "url": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
-          "publishedAt": "2026-08-31T16:35:06.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "At G20, Big Tech and Global Leaders Can’t Escape AI’s Data Center Problem",
-          "url": "https://www.cnet.com/tech/services-and-software/g20-tech-government-leaders-ai-data-centers-protests/",
-          "publishedAt": "2026-09-02T18:42:19.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Hate AI Data Centers? Big Tech’s New Ad Campaign Aims to Change Your Mind",
-          "url": "https://www.cnet.com/tech/services-and-software/hate-ai-data-centers-big-techs-new-ad-campaign-will-try-to-change-your-mind/",
-          "publishedAt": "2026-09-02T23:06:26.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The AI data center boom is colliding with cities scarred by big industry ",
-          "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-          "publishedAt": "2026-09-15T21:47:38.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "It’s Donald Trump Versus MAGA on Data Centers",
-          "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
-          "publishedAt": "2026-09-20T10:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Nearly $200 Billion Worth of Data Center Projects Have Been Blocked or Delayed This Year",
-          "url": "https://gizmodo.com/nearly-200-billion-worth-of-data-center-projects-have-been-blocked-or-delayed-this-year-2000815054",
-          "publishedAt": "2026-09-21T21:10:29.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Everyone can find a reason to dislike data center construction",
-          "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
-          "publishedAt": "2026-09-22T13:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Shocker: Last Night’s ‘Viral’ Pro-Data Center Party Is Tied to Thiel, the Koch Institute, and Other AI Boosters",
-          "url": "https://gizmodo.com/shocker-last-nights-viral-pro-data-center-party-is-tied-to-thiel-the-koch-institute-and-other-ai-boosters-2000817924",
-          "publishedAt": "2026-09-27T23:09:33.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Not Even $10,000 Could Convince These Locals To Stop Protesting a Data Center Project",
-          "url": "https://gizmodo.com/not-even-10000-could-convince-these-locals-to-stop-protesting-a-data-center-project-2000818312",
-          "publishedAt": "2026-09-28T21:38:37.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Admits He’s a NIMBY on Data Centers",
-          "url": "https://gizmodo.com/trump-admits-hes-a-nimby-on-data-centers-2000820324",
-          "publishedAt": "2026-10-01T18:05:19.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Amazon Is Making Concessions to Data Center Critics—and Warning Them Not to Get in the Way",
-          "url": "https://gizmodo.com/amazon-is-making-concessions-to-data-center-critics-and-warning-them-not-to-get-in-the-way-2000820848",
-          "publishedAt": "2026-10-02T16:40:13.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-          "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-          "publishedAt": "2026-10-03T18:43:57.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-          "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-          "publishedAt": "2026-10-09T16:56:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Amazon drops data center NDAs, and AI agents want your credit card",
-          "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
-          "publishedAt": "2026-10-09T16:53:02.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-          "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
-          "publishedAt": "2026-10-11T16:52:33.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Data Centers Have a New PR Plan: Your Kid’s Field Trip",
-          "url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
-          "publishedAt": "2026-10-18T10:30:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Data Centers Are Burning Fossil Fuels. It’s Destroying Big Tech’s Climate Goals",
-          "url": "https://www.cnet.com/tech/services-and-software/data-centers-ai-climate-change-hyperscale/",
-          "publishedAt": "2026-10-20T12:30:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Amazon Needs More Power",
-          "url": "https://gizmodo.com/amazon-needs-more-power-2000827862",
-          "publishedAt": "2026-10-20T14:30:34.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Tech Issues Are on the Ballot This Midterm Election Season: What to Know",
-          "url": "https://www.cnet.com/tech/services-and-software/tech-issues-midterm-elections-2026-news/",
-          "publishedAt": "2026-10-21T20:26:02.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 124,
+  "totalCount": 126,
   "hasMore": true
 }
