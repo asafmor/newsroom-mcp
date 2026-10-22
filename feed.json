@@ -1,6 +1,27 @@
 {
-  "generatedAt": "2026-10-22T16:16:30.340Z",
+  "generatedAt": "2026-10-22T18:18:32.742Z",
   "stories": [
+    {
+      "id": "74857dde-e33f-42ed-a97c-406e2a8dca99",
+      "title": "Microsoft blames a China-aligned hacker using AI agents for the ConnectWise breach that exposed thousands of companies",
+      "summary": "Microsoft attributes the breach of IT giant ConnectWise to a China-aligned hacker that relied on AI agents to rapidly break into thousands of ConnectWise's customers and spy on them, TechCrunch reports.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-22T18:18:19.830Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T18:18:19.830Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+          "publishedAt": "2026-10-22T16:47:17.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "fa7cb184-dea8-4d35-ae62-aba0dc3c2b1e",
       "title": "DeepSeek reportedly raises $15B days after the US ordered agencies to drop its technology",
@@ -347,6 +368,48 @@
       ]
     },
     {
+      "id": "cc365c9d-fd89-4d0a-baf5-468a76f932ee",
+      "title": "Banks report AI agents in customer accounts acting without user instructions as they scramble to tighten security",
+      "summary": "US banks are pushing back on consumer AI agents that shop and move money for users, and now report agents already acting on accounts beyond what users asked for.\n\n- New: sources at several banks say unauthorized AI agents are already accessing US bank accounts and taking actions independent of user instructions, per Engadget\n- Blindsided by customers granting agents account access, big banks are scrambling to beef up security, per Gizmodo\n- After Meta's Muse agent launched, US banks refused to let AI agents move money; Charles Schwab CEO Rick Wurster says only a relative handful of customers are trying to\n- Earlier, a report from major banks warned that agentic commerce could increase scams, fraud, and payment disputes",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-22T23:46:16.461Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T18:18:17.679Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Big Banks Say They’re Uneasy About People Shopping via AI Agents",
+          "url": "https://gizmodo.com/big-banks-say-theyre-uneasy-about-people-shopping-via-ai-agents-2000815443",
+          "publishedAt": "2026-09-22T22:43:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "After Muse Launch, U.S. Banks Are Saying Hell No to AI Agents Moving Money",
+          "url": "https://gizmodo.com/after-muse-launch-u-s-banks-are-saying-hell-no-to-ai-agents-moving-money-2000827221",
+          "publishedAt": "2026-10-16T23:15:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Blindsided by AI Agents, Big Banks Scramble to Beef Up Security",
+          "url": "https://gizmodo.com/blindsided-by-ai-agents-big-banks-scramble-to-beef-up-security-2000829358",
+          "publishedAt": "2026-10-22T16:15:01.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
+          "url": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
+          "publishedAt": "2026-10-22T18:02:04.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "116e58ad-31bf-49df-8b2a-c97fef39de93",
       "title": "Anthropic unveils Claude Duet, a personal agent to rival Meta Muse and OpenAI Dots",
       "summary": "Anthropic introduced Claude Duet, a proactive personal agent that Engadget frames as its answer to Meta's Muse and OpenAI's Dots.\n\n- Available as a preview via waitlist for US Claude Pro and Max subscribers\n- Handles tasks like drafting documents, preparing payroll communications, and generating data visualizations, with app integrations\n- Keeps a single-thread history so context carries across tasks",
@@ -506,41 +569,6 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "cc365c9d-fd89-4d0a-baf5-468a76f932ee",
-      "title": "Big US banks scramble to beef up security as customers hand AI agents their accounts",
-      "summary": "US banks are resisting consumer AI agents that shop and move money on users' behalf, and are now hardening their defenses.\n\n- New: big banks, blindsided by customers granting AI agents access to their bank accounts, are scrambling to beef up security, per Gizmodo\n- After Meta's Muse agent launched, US banks refused to let AI agents move money; Charles Schwab CEO Rick Wurster says only a relative handful of customers are trying to\n- Earlier, a report from major banks warned that agentic commerce could increase scams, fraud, and payment disputes",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-22T23:46:16.461Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T16:16:23.457Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Big Banks Say They’re Uneasy About People Shopping via AI Agents",
-          "url": "https://gizmodo.com/big-banks-say-theyre-uneasy-about-people-shopping-via-ai-agents-2000815443",
-          "publishedAt": "2026-09-22T22:43:49.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "After Muse Launch, U.S. Banks Are Saying Hell No to AI Agents Moving Money",
-          "url": "https://gizmodo.com/after-muse-launch-u-s-banks-are-saying-hell-no-to-ai-agents-moving-money-2000827221",
-          "publishedAt": "2026-10-16T23:15:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Blindsided by AI Agents, Big Banks Scramble to Beef Up Security",
-          "url": "https://gizmodo.com/blindsided-by-ai-agents-big-banks-scramble-to-beef-up-security-2000829358",
-          "publishedAt": "2026-10-22T16:15:01.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "safety"
       ]
     },
     {
@@ -1078,6 +1106,25 @@
       ]
     },
     {
+      "id": "9c165b4d-49e9-4f85-bcac-b5e0caeda65e",
+      "title": "xAI introduces the SpaceX Super Intelligence Partner Network",
+      "summary": "xAI announced the SpaceX Super Intelligence Partner Network, a partner program tied to SpaceX's AI business. The source feed gave no detail on members, terms, or what partners get.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-22T18:18:21.976Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T18:18:21.976Z",
+      "sources": [
+        {
+          "providerName": "xAI News",
+          "title": "Introducing the SpaceX Super Intelligence Partner Network",
+          "url": "https://x.ai/news/partnernetworkannouncement",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "e18b5da4-d2ad-484e-b193-0f95519b47d7",
       "title": "Character.AI goes bankrupt at Disney's request; Disney buys assets for $20M and hires most of its staff",
       "summary": "Chatbot platform Character.AI filed for Chapter 11 bankruptcy just five years after its founding, and Disney is absorbing much of what's left.\n\n- Wired reports Disney asked Character.AI to go bankrupt as a way out of its lawsuits\n- Disney wants the startup's trust-and-safety tech, among other IP\n- Dozens of states allege Character.AI's chatbots encouraged minors to self-harm and to kill their parents\n- Disney agreed to buy some of the startup's assets for $20 million and to hire most of its workforce\n- Former Character.AI CEO Karandeep Anand recently became Disney's first-ever CTO",
@@ -1544,51 +1591,8 @@
       "tags": [
         "model-release"
       ]
-    },
-    {
-      "id": "7fb6b4ee-382b-4595-95b1-a386e53749e4",
-      "title": "Survey: more than half of managers say AI has made employees' work harder to evaluate",
-      "summary": "A new survey reported by TechCrunch finds that more than 50% of managers are having a harder time evaluating their employees' work after adopting AI, suggesting the promised productivity gains are, for now, mostly a management headache.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-21T15:58:32.737Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T15:58:32.737Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
-          "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
-          "publishedAt": "2026-10-21T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "7b851af6-0e23-4a57-ae83-ce3295169487",
-      "title": "NVIDIA's Kumo Forecast pairs pretrained time-series representations with historical pattern retrieval",
-      "summary": "NVIDIA published Kumo Forecast on the Hugging Face blog, a time-series forecasting model that combines pretrained representations with retrieval of similar historical patterns and is pitched as interpretable. It follows NVIDIA's earlier Kumo Tabular model for tabular prediction.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-21T13:56:21.950Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T13:56:21.950Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
-          "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
-          "publishedAt": "2026-10-21T12:51:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "research"
-      ]
     }
   ],
-  "totalCount": 126,
+  "totalCount": 125,
   "hasMore": true
 }
