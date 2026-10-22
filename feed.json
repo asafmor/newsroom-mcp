@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T22:04:48.645Z",
+  "generatedAt": "2026-10-22T00:06:54.434Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -296,6 +296,13 @@
           "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
           "publishedAt": "2026-10-21T21:14:19.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Mark Zuckerberg says Meta is 'entering a new phase' with Muse",
+          "url": "https://www.engadget.com/2293705/mark-zuckerberg-says-meta-is-entering-a-new-phase-with-muse/",
+          "publishedAt": "2026-10-21T22:36:03.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -318,6 +325,13 @@
           "title": "Claude Duet is Anthropic's answer to Meta Muse and OpenAI Dots",
           "url": "https://www.engadget.com/2293646/claude-duet-is-anthropics-answer-to-meta-muse-and-openai-dots/",
           "publishedAt": "2026-10-21T21:03:19.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s New Agent Has No Cute Mascot, and You Probably Can’t Try It Yet",
+          "url": "https://gizmodo.com/anthropics-new-agent-has-no-cute-mascot-and-you-probably-cant-try-it-yet-2000829184",
+          "publishedAt": "2026-10-21T23:54:17.000Z",
           "contribution": "supporting"
         }
       ],
@@ -959,6 +973,47 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "00e0a2d5-7244-4ef9-9f14-d1829b1cfbe7",
+      "title": "Meta gives Zuckerberg a stock deal to stay in California, citing its AI ambitions",
+      "summary": "Meta's board feared Mark Zuckerberg might leave California over a billionaires' tax ballot measure, which could disrupt the company's AI ambitions. A new stock agreement gives him financial incentives to stay, and he has agreed to remain.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-10-22T00:06:45.239Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T00:06:45.239Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure",
+          "url": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/",
+          "publishedAt": "2026-10-21T22:39:50.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "6bc1d978-7780-4076-98a1-d3caba375a2a",
+      "title": "Blackstone's AI head says fears over AI-buildout debt are overblown",
+      "summary": "Jas Khaira, Blackstone's head of AI, told TechCrunch the private-equity giant isn't panicked by market jitters over the debt financing the AI data-center and GPU buildout.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-22T00:06:43.015Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T00:06:43.015Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+          "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+          "publishedAt": "2026-10-21T22:51:22.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "opinion"
       ]
     },
     {
@@ -1620,48 +1675,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "ef93d128-2810-4d24-abb3-98660078b7ff",
-      "title": "NVIDIA's Cosmos3-H-Dreams uses generative simulation to model clinical surgery",
-      "summary": "NVIDIA introduced Cosmos3-H-Dreams on the Hugging Face blog, applying its Cosmos generative world-model line to simulating clinical surgery scenes.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-20T19:43:19.689Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T19:43:19.689Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
-          "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-          "publishedAt": "2026-10-20T18:17:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "697a4917-90ef-4d7f-b20e-e4b18ecb9572",
-      "title": "WhatsApp help pages leaked hidden instructions for a Meta chatbot",
-      "summary": "Around 80 pages on WhatsApp's website exposed instructions written for Meta's chatbot, including a \"WHAT NOT TO SAY\" section. Meta blamed a bug.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-19T17:21:20.882Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T17:21:20.882Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
-          "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
-          "publishedAt": "2026-10-19T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
   "totalCount": 124,
