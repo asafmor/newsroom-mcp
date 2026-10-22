@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T14:14:28.421Z",
+  "generatedAt": "2026-10-22T16:16:30.340Z",
   "stories": [
     {
       "id": "fa7cb184-dea8-4d35-ae62-aba0dc3c2b1e",
@@ -505,6 +505,62 @@
       ],
       "tags": [
         "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "cc365c9d-fd89-4d0a-baf5-468a76f932ee",
+      "title": "Big US banks scramble to beef up security as customers hand AI agents their accounts",
+      "summary": "US banks are resisting consumer AI agents that shop and move money on users' behalf, and are now hardening their defenses.\n\n- New: big banks, blindsided by customers granting AI agents access to their bank accounts, are scrambling to beef up security, per Gizmodo\n- After Meta's Muse agent launched, US banks refused to let AI agents move money; Charles Schwab CEO Rick Wurster says only a relative handful of customers are trying to\n- Earlier, a report from major banks warned that agentic commerce could increase scams, fraud, and payment disputes",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-22T23:46:16.461Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T16:16:23.457Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Big Banks Say They’re Uneasy About People Shopping via AI Agents",
+          "url": "https://gizmodo.com/big-banks-say-theyre-uneasy-about-people-shopping-via-ai-agents-2000815443",
+          "publishedAt": "2026-09-22T22:43:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "After Muse Launch, U.S. Banks Are Saying Hell No to AI Agents Moving Money",
+          "url": "https://gizmodo.com/after-muse-launch-u-s-banks-are-saying-hell-no-to-ai-agents-moving-money-2000827221",
+          "publishedAt": "2026-10-16T23:15:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Blindsided by AI Agents, Big Banks Scramble to Beef Up Security",
+          "url": "https://gizmodo.com/blindsided-by-ai-agents-big-banks-scramble-to-beef-up-security-2000829358",
+          "publishedAt": "2026-10-22T16:15:01.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "5d8b534d-47b2-4822-9043-44642201a611",
+      "title": "Uber rolls ChatGPT Work out to all 30,000 employees",
+      "summary": "Uber is expanding ChatGPT Work, OpenAI's enterprise agent, from a much smaller pilot to its entire 30,000-person workforce, TechCrunch reports — one of the largest company-wide deployments of the product so far.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-22T16:16:15.474Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T16:16:15.474Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Uber puts all 30,000 employees on ChatGPT Work",
+          "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+          "publishedAt": "2026-10-22T16:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "enterprise-adoption"
       ]
     },
@@ -1069,6 +1125,68 @@
       "tags": []
     },
     {
+      "id": "7f2a9eeb-9c88-4a57-ba9c-6a025c28036f",
+      "title": "Google DeepMind maps the world's forest types at 10-meter resolution",
+      "summary": "Google DeepMind published a global map that goes beyond tree cover, categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-22T16:16:21.777Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T16:16:21.777Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Beyond tree cover: mapping the world’s forest types",
+          "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+          "publishedAt": "2026-10-22T14:30:24.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "f2bd339a-0a7e-4ed2-b726-12a24384209e",
+      "title": "Ai2 releases OlmoEarth v1.3, claiming state-of-the-art planet-wide embeddings",
+      "summary": "Allen AI announced OlmoEarth v1.3 on the Hugging Face blog, billing it as state-of-the-art Earth-observation embeddings covering the whole planet.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-22T16:16:19.673Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T16:16:19.673Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+          "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+          "publishedAt": "2026-10-22T16:11:31.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "research"
+      ]
+    },
+    {
+      "id": "47989d0a-d6a3-43fc-8a08-19188b33e9d1",
+      "title": "Spotify bets on becoming the music service AI agents choose",
+      "summary": "Spotify co-CEO Gustav Söderström tells TechCrunch why the rise of AI agents could be good news for the streamer: its current AI bet is on being the music service that agents pick when acting on users' behalf.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-22T16:16:17.273Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T16:16:17.273Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Spotify’s current AI bet is about being the music service that agents choose",
+          "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+          "publishedAt": "2026-10-22T15:03:58.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "839d66f6-3415-4222-a5a6-2c6819cf0ef7",
       "title": "Nirva raises $33M for an ambient AI pendant that only listens to its wearer",
       "summary": "Nirva raised $33 million, with backers including Lightspeed and South Park Commons, and plans to ship its $249 ambient AI pendant, designed to listen only to its wearer, by the end of the year.",
@@ -1469,111 +1587,6 @@
         "model-release",
         "research"
       ]
-    },
-    {
-      "id": "f60420f1-6fe4-45c9-9481-fb1fdaa097a7",
-      "title": "Otter.ai raises $320M from General Catalyst's non-dilutive growth fund",
-      "summary": "AI meeting note-taker Otter.ai raised $320 million from General Catalyst's Customer Value Fund, which provides non-dilutive capital repaid from the results of marketing spend. Otter says the money will go toward enterprise growth, go-to-market, international expansion and product development.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-20T11:35:16.813Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T11:35:16.813Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
-          "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
-          "publishedAt": "2026-10-20T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "9beb9275-fee1-4fb5-a127-ec1795056e08",
-      "title": "Hugging Face CEO says Netflix's OpenAI-hack documentary \"AI Gone Rogue\" isn't accurate",
-      "summary": "Clem Delangue, Hugging Face's co-founder and CEO, appears in the Netflix documentary \"AI Gone Rogue\" about the OpenAI hack. He says the film went \"full doomer mode\" and isn't accurate, and he is urging viewers to keep that in mind before sharing it.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-20T23:47:16.212Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T23:47:16.212Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
-          "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-          "publishedAt": "2026-10-20T22:24:02.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "e9926a5f-9997-4d23-9202-4b4acf0f4da7",
-      "title": "Microsoft tells enterprises to treat AI agents like insider threats because \"frontier models can't be trusted\"",
-      "summary": "Microsoft is urging enterprises to closely monitor the AI agents employees use, treating them like insider threats, especially agents running on systems outside the control of labs like OpenAI and Anthropic.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-19T23:27:26.712Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T23:27:26.712Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
-          "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-          "publishedAt": "2026-10-19T22:04:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "7f67dd3d-6105-40be-837f-beaa9f197c8d",
-      "title": "Microsoft Copilot adds OpenAI's GPT-6.1 and Anthropic's Claude Opus 5.5",
-      "summary": "Microsoft's October Copilot updates integrate Anthropic's Claude Opus 5.5 and OpenAI's GPT-6.1 as model options, aimed at handling complex queries and producing more detailed, context-aware content across its apps, per Geeky Gadgets.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-20T09:33:35.804Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T09:33:35.804Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Microsoft Copilot Adds OpenAI GPT 6.1 and Anthropic Claude Opus 5.5",
-          "url": "https://www.geeky-gadgets.com/microsoft-copilot-new-features-october/",
-          "publishedAt": "2026-10-20T08:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "fb7bfc0d-a2b1-4e77-a71b-8431f216834f",
-      "title": "Lawsuits allege Coco and Serve delivery robots recorded biometric data without consent",
-      "summary": "New lawsuits allege that sidewalk delivery robots from Coco and Serve recorded people's biometric data without permission, CNET reports, as the robots' spread through cities like Chicago fuels fears of unregulated surveillance in public spaces.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.45,
-      "firstSeenAt": "2026-10-22T02:08:12.316Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T02:08:12.316Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Lawsuits Allege Delivery Robots Recorded Biometric Data Without Permission",
-          "url": "https://www.cnet.com/tech/services-and-software/coco-serve-robots-biometric-data-lawsuit/",
-          "publishedAt": "2026-10-21T23:30:33.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 126,
