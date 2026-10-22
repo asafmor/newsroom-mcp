@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T20:20:48.060Z",
+  "generatedAt": "2026-10-22T22:22:28.798Z",
   "stories": [
     {
       "id": "74857dde-e33f-42ed-a97c-406e2a8dca99",
@@ -489,7 +489,7 @@
     {
       "id": "3e94621a-5ded-43cb-adf6-68014ee2ab47",
       "title": "Microsoft's AI diagnostic system beats generalist doctors on hard cases, per a Science study",
-      "summary": "Microsoft AI chief Mustafa Suleyman says its new diagnostic system outperforms generalist doctors on hard cases as he pursues \"medical superintelligence.\"\n\n- A study published in Science found the system beat generalist physicians on difficult cases\n- Most of the gain appears to come from the underlying AI models, not Microsoft's own orchestration system",
+      "summary": "Microsoft AI chief Mustafa Suleyman says its new diagnostic system outperforms generalist doctors on hard cases as he pursues \"medical superintelligence.\"\n\n- A study published in Science found the system beat generalist physicians on difficult cases; Microsoft frames it as more than twice as accurate\n- Most of the gain appears to come from the underlying AI models, not Microsoft's own orchestration system\n- Microsoft plans to begin testing the tool in a Boston hospital soon",
       "importanceScore": 0.6,
       "relevanceScore": 0.85,
       "firstSeenAt": "2026-10-22T20:20:32.252Z",
@@ -500,6 +500,13 @@
           "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
           "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
           "publishedAt": "2026-10-22T18:43:53.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Microsoft Says Its New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+          "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+          "publishedAt": "2026-10-22T20:40:46.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1473,6 +1480,27 @@
       ]
     },
     {
+      "id": "683cc0df-6827-4a45-959f-cf7d8f0bd537",
+      "title": "CNET hands-on: Meta's Muse and OpenAI's Dots agents overstep when automating personal relationships",
+      "summary": "A CNET reviewer tried using Meta's Muse and OpenAI's Dots agents to manage personal relationships and found both overstepped, arguing that if reviewing and approving a simple AI-drafted email takes longer than writing it, the promise of agentic AI falls flat.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-22T22:22:18.801Z",
+      "lastMeaningfulUpdateAt": "2026-10-22T22:22:18.801Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "I Tried Automating My Relationships Using AI Agents. Muse and Dots Overstepped",
+          "url": "https://www.cnet.com/tech/services-and-software/i-tried-automating-my-relationships-using-ai-agents-muse-and-dots-overstepped/",
+          "publishedAt": "2026-10-22T17:08:31.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "2dfb749c-555b-4b85-ae5b-a74ec17972a5",
       "title": "Nvidia challenger Tenstorrent raises $1.5B at a $6.2B valuation to stay independent",
       "summary": "AI chipmaker Tenstorrent raised $1.5 billion at a $6.2 billion valuation to scale its open-weight AI chips, TechCrunch reports. The Nvidia challenger drew acquisition interest earlier this year and took the round to remain independent.",
@@ -1591,29 +1619,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "36e2f3f1-929c-4da6-95c1-6cc383424b9b",
-      "title": "OpenAI explains how it holds distribution partners to consistent safeguards and usage policies",
-      "summary": "OpenAI published a post on how it works with distribution partners to uphold consistent safeguards and support responsible access, and clarified expectations in its Usage Policies.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-21T22:04:31.479Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T22:04:31.479Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Broad access through consistent standards",
-          "url": "https://openai.com/index/broad-access-through-consistent-standards",
-          "publishedAt": "2026-10-21T21:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 127,
+  "totalCount": 124,
   "hasMore": true
 }
