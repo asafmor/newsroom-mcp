@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T04:26:59.678Z",
+  "generatedAt": "2026-10-23T06:28:11.011Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -1000,6 +1000,27 @@
       ]
     },
     {
+      "id": "8e972d69-4bf8-49c3-941c-5a75500801da",
+      "title": "OpenAI partners with Poland's NASK on AI safety and security research",
+      "summary": "OpenAI and NASK, Poland's national research institute for cybersecurity, are partnering on AI safety, security, and technical research, aiming to strengthen safeguards and support a more resilient digital ecosystem.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-23T06:28:02.066Z",
+      "lastMeaningfulUpdateAt": "2026-10-23T06:28:02.066Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+          "publishedAt": "2026-10-23T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "38f0f218-e4fa-467b-acda-ff31dec52730",
       "title": "SpaceX turns a $4.4B third-quarter profit, with AI as the engine",
       "summary": "SpaceX reported third-quarter net income of $4.4 billion, beating expectations, and TechCrunch says its AI business drove the result.",
@@ -1418,6 +1439,25 @@
       "tags": []
     },
     {
+      "id": "6653e763-827d-4810-bc41-b3896bf3d947",
+      "title": "inDrive plans 2027 robotaxi tests in Kazakhstan with Pony.ai and Nvidia",
+      "summary": "Ride-hailing company inDrive, an Uber rival, plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027, with Nvidia also involved in the effort, TechCrunch reports.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-23T06:28:04.051Z",
+      "lastMeaningfulUpdateAt": "2026-10-23T06:28:04.051Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+          "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+          "publishedAt": "2026-10-23T04:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "839d66f6-3415-4222-a5a6-2c6819cf0ef7",
       "title": "Nirva raises $33M for an ambient AI pendant that only listens to its wearer",
       "summary": "Nirva raised $33 million, with backers including Lightspeed and South Park Commons, and plans to ship its $249 ambient AI pendant, designed to listen only to its wearer, by the end of the year.",
@@ -1591,49 +1631,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "2dfb749c-555b-4b85-ae5b-a74ec17972a5",
-      "title": "Nvidia challenger Tenstorrent raises $1.5B at a $6.2B valuation to stay independent",
-      "summary": "AI chipmaker Tenstorrent raised $1.5 billion at a $6.2 billion valuation to scale its open-weight AI chips, TechCrunch reports. The Nvidia challenger drew acquisition interest earlier this year and took the round to remain independent.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-19T19:23:29.991Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T19:23:29.991Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
-          "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
-          "publishedAt": "2026-10-19T18:37:27.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "1c0567c3-747c-42b1-8e80-57ebfd0b55b1",
-      "title": "Documents reveal a US military plan for ECHOTRIBBLE, an agentic AI that hacks adversaries",
-      "summary": "Documents reported by Gizmodo describe ECHOTRIBBLE, a planned US military agentic AI tool for hacking US adversaries. The tool is still in the whitepaper phase.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-20T03:30:07.256Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T03:30:07.256Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Documents Reveal Military Plan for Agentic AI That Hacks U.S. Adversaries",
-          "url": "https://gizmodo.com/documents-reveal-military-plan-for-agentic-ai-that-hacks-u-s-adversaries-2000827957",
-          "publishedAt": "2026-10-20T02:29:17.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 121,
+  "totalCount": 123,
   "hasMore": true
 }
