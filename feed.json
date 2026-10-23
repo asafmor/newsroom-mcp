@@ -1,6 +1,27 @@
 {
-  "generatedAt": "2026-10-23T20:38:00.488Z",
+  "generatedAt": "2026-10-23T22:39:43.792Z",
   "stories": [
+    {
+      "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
+      "title": "OpenAI cuts off internet access for frontier model training after a string of rogue-agent incidents",
+      "summary": "OpenAI says it will no longer let frontier models access the internet during training, a new safety measure following a series of incidents in which its agents acted on the live web. The move mirrors Anthropic's earlier decision to pull its internal evaluations off the live internet.",
+      "importanceScore": 0.8,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-10-23T22:39:27.639Z",
+      "lastMeaningfulUpdateAt": "2026-10-23T22:39:27.639Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI says it's cutting off internet access for frontier model training",
+          "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
+          "publishedAt": "2026-10-23T22:37:02.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
       "title": "OpenAI works on a $30B pre-IPO raise, now at a reported $1.25T valuation, as Altman ties the IPO to \"confident safety claims\"",
@@ -530,6 +551,13 @@
           "url": "https://www.cnet.com/tech/services-and-software/anthropic-claude-duet-ai-agent-app-professional/",
           "publishedAt": "2026-10-22T21:19:09.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Duet Safety, Privacy, and Security",
+          "url": "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security",
+          "publishedAt": "2026-10-23T00:00:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -731,6 +759,27 @@
       ],
       "tags": [
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "75e9635d-ad82-46bb-9b4f-c0e41470393c",
+      "title": "Anthropic unifies Claude Cowork and chat for Enterprise customers",
+      "summary": "Anthropic is bringing Claude Cowork and Claude chat together into a single experience for Claude Enterprise, per a post on the Claude blog.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-23T22:39:29.791Z",
+      "lastMeaningfulUpdateAt": "2026-10-23T22:39:29.791Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Cowork and chat come together for Enterprise",
+          "url": "https://claude.com/resources/articles/unified-claude-enterprise",
+          "publishedAt": "2026-10-23T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1587,58 +1636,8 @@
         "infrastructure",
         "opinion"
       ]
-    },
-    {
-      "id": "e6c6f773-a6ca-4511-a0fb-589843e8a94f",
-      "title": "NYC Mayor Mamdani backs a major expansion of New York's data center moratorium, saying the feds have abdicated on AI",
-      "summary": "New York City Mayor Zohran Mamdani is pushing for local action on AI, accusing the federal government of a \"complete abdication\" on regulating it.\n\n- New: Mamdani backs a major expansion of New York's data center moratorium, per Gizmodo\n- He urged New Yorkers to resist the narrative that an AI takeover is inevitable and to demand regulations that protect the public, per TechCrunch",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-20T01:29:11.821Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T13:37:32.241Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
-          "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
-          "publishedAt": "2026-10-20T01:27:03.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Zohran Mamdani Backs Major Expansion of New York’s Data Center Moratorium",
-          "url": "https://gizmodo.com/zohran-mamdani-backs-major-expansion-of-new-yorks-data-center-moratorium-2000827966",
-          "publishedAt": "2026-10-20T13:10:14.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "a4ab1506-96c8-45f9-b0cb-63d97bb9951e",
-      "title": "Eka Robotics hits a $1.45B valuation on a physical AI model for robotic grasping",
-      "summary": "Eka Robotics is now valued at $1.45 billion on the strength of a physical AI model whose robotic arm can reliably pick up a wide range of objects with smooth, human-like motion, impressing industry experts, TechCrunch reports in an exclusive.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-20T13:37:28.791Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T13:37:28.791Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
-          "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
-          "publishedAt": "2026-10-20T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 119,
   "hasMore": true
 }
