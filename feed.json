@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T18:36:05.971Z",
+  "generatedAt": "2026-10-23T20:38:00.488Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -565,6 +565,34 @@
       ]
     },
     {
+      "id": "cf20b876-6274-422a-bcca-6ab1751730d5",
+      "title": "OpenAI's \"patch the planet\" push meets Altman's admission that not every bug can be patched",
+      "summary": "OpenAI wants to use its own AI to \"patch the planet,\" and Sam Altman now concedes that fixing every bug isn't realistic.\n\n- Gizmodo frames OpenAI's security push skeptically, as a company that \"never lets a good crisis go to waste\" amid mounting AI-driven security incidents\n- Altman: \"I no longer think we're gonna be able to just patch all the bugs\"",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-21T22:04:33.858Z",
+      "lastMeaningfulUpdateAt": "2026-10-23T20:37:46.656Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Wants to ‘Patch the Planet’ (With Its Own AI)",
+          "url": "https://gizmodo.com/openai-wants-to-patch-the-planet-with-its-own-ai-2000829119",
+          "publishedAt": "2026-10-21T20:55:39.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Sam Altman: ‘I No Longer Think We’re Gonna Be Able to Just Patch All the Bugs’",
+          "url": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947",
+          "publishedAt": "2026-10-23T18:40:48.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "6de5390c-af30-4fc6-8aa9-cdd2bd8653cf",
       "title": "OpenAI brings its frontier models and Codex to Google Cloud",
       "summary": "OpenAI and Google Cloud are making OpenAI's frontier models and Codex workflows available in Gemini's Model Garden, sold through Google Cloud Marketplace — putting OpenAI's models directly on a rival lab's cloud platform.",
@@ -866,6 +894,28 @@
       ]
     },
     {
+      "id": "34f63ec0-3fba-43c7-b8df-e6680f1bd9e3",
+      "title": "Abliteration launches a cheaper version of its \"unrestricted AI\"",
+      "summary": "Abliteration has released a lower-priced version of its guardrail-free \"unrestricted AI.\" Gizmodo calls the timing bad, noting the product mainly appeals to hackers as AI-driven attacks mount.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-23T20:37:44.929Z",
+      "lastMeaningfulUpdateAt": "2026-10-23T20:37:44.929Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Abliteration Launches Cheaper Version of Its ‘Unrestricted AI‘ at the Worst Possible Time",
+          "url": "https://gizmodo.com/abliteration-launches-cheaper-version-of-its-unrestricted-ai-at-the-worst-possible-time-2000830045",
+          "publishedAt": "2026-10-23T20:15:01.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "safety"
+      ]
+    },
+    {
       "id": "29e59eeb-f5bc-4b64-93fc-5d0217845600",
       "title": "1Password opens up to AI agents so they can log in and buy things on users' behalf",
       "summary": "1Password launched a feature that lets AI agents log in to users' personal accounts to book or buy things on their behalf, without the agent ever seeing the underlying password.",
@@ -1157,27 +1207,6 @@
       ],
       "tags": [
         "research"
-      ]
-    },
-    {
-      "id": "cf20b876-6274-422a-bcca-6ab1751730d5",
-      "title": "Gizmodo: OpenAI wants to \"patch the planet\" with its own AI",
-      "summary": "Gizmodo reports on OpenAI's ambition to \"patch the planet\" using its own AI, framing the push skeptically as a company that \"never lets a good crisis go to waste\" amid mounting AI-driven security incidents.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-21T22:04:33.858Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T22:04:33.858Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Wants to ‘Patch the Planet’ (With Its Own AI)",
-          "url": "https://gizmodo.com/openai-wants-to-patch-the-planet-with-its-own-ai-2000829119",
-          "publishedAt": "2026-10-21T20:55:39.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
       ]
     },
     {
@@ -1608,29 +1637,8 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "c0d2f20b-8d6e-4bd5-9b39-6cfb0bc4e66d",
-      "title": "Europe's push for AI data centers is colliding with its climate goals",
-      "summary": "Wired reports that European policymakers are weighing their AI data-center ambitions against climate objectives, using as an example a German plan to pipe data-center waste heat into nearby homes that has run aground.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-10-21T09:52:26.789Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T09:52:26.789Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Europe Wants Data Centers. Its Climate Goals Are Getting in The Way",
-          "url": "https://www.wired.com/story/europe-data-centers-climate-change/",
-          "publishedAt": "2026-10-21T08:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 120,
+  "totalCount": 118,
   "hasMore": true
 }
