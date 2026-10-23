@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T00:24:32.061Z",
+  "generatedAt": "2026-10-23T02:26:13.132Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -1019,6 +1019,27 @@
       "tags": []
     },
     {
+      "id": "d77535b7-ab6d-42d0-a85e-98e60f88bcb8",
+      "title": "MIT researchers maroon 13 AI agents on a virtual island; left idle, they invent games and get better at their jobs",
+      "summary": "In an MIT experiment, 13 AI agents left on a virtual island with nothing to do began inventing games and even mourned a lost ring. Over time, the agents also got better at their assigned jobs.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-23T02:26:06.795Z",
+      "lastMeaningfulUpdateAt": "2026-10-23T02:26:06.795Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Left alone with nothing to do, AI agents started playing",
+          "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+          "publishedAt": "2026-10-23T00:45:37.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "a84f84ec-d8e8-4ef9-b960-a5ea61534cea",
       "title": "DeepSeek launches DeepInfer, an open-source inference platform aimed at US businesses",
       "summary": "DeepSeek released DeepInfer, an open-source inference tool that Gizmodo says could pull more American businesses toward Chinese open-source models and away from OpenAI and Anthropic.",
@@ -1611,43 +1632,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "b8d76264-8444-42c4-ac28-2d2988ec5c2b",
-      "title": "Homeland Security bans DeepSeek in federal civilian agencies",
-      "summary": "The Department of Homeland Security barred federal civilian agencies from using DeepSeek, a couple of days after the Chinese lab released its latest AI model.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-19T17:21:18.830Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T17:21:18.830Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Homeland Security bans DeepSeek use in federal civilian agencies",
-          "url": "https://www.engadget.com/2290535/homeland-security-bans-deepseek-use-in-federal-civilian-agencies/",
-          "publishedAt": "2026-10-19T16:59:28.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Admin Bans DeepSeek From Federal Agencies",
-          "url": "https://gizmodo.com/trump-admin-bans-deepseek-from-federal-agencies-2000827670",
-          "publishedAt": "2026-10-19T21:41:06.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
-          "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
-          "publishedAt": "2026-10-20T13:07:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
     }
   ],
-  "totalCount": 121,
+  "totalCount": 122,
   "hasMore": true
 }
