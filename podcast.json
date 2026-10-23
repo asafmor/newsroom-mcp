@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T08:30:20.659Z",
+  "generatedAt": "2026-10-23T13:06:24.632Z",
   "episodes": [
     {
       "id": "podcast-2026-W43",
@@ -23,8 +23,13 @@
       "totalCharacterCount": 6162,
       "voice": "alloy",
       "instructions": "warm, clear, moderate pace, professional newsroom narrator",
-      "audioStatus": "pending",
-      "audio": null,
+      "audioStatus": "ready",
+      "audio": {
+        "url": "audio/podcast-2026-W43.mp3",
+        "durationSeconds": 354,
+        "sizeBytes": 2833197,
+        "mimeType": "audio/mpeg"
+      },
       "failureReason": null
     },
     {
