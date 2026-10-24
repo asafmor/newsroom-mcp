@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T15:05:14.225Z",
+  "generatedAt": "2026-10-24T17:06:40.206Z",
   "stories": [
     {
       "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
@@ -27,6 +27,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "f143efb9-3c38-4f1d-99ee-24ea6513d8c3",
+      "title": "Study finds Grok recommends Republicans while OpenAI's GPT favors Democrats",
+      "summary": "A new study, reported exclusively by TechCrunch, forced AI models to pick candidates in nearly 500 election races. xAI's Grok overwhelmingly recommended Republicans, OpenAI's GPT favored Democrats, and the two disagreed in more than 90% of races.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-24T17:06:27.332Z",
+      "lastMeaningfulUpdateAt": "2026-10-24T17:06:27.332Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats. ",
+          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+          "publishedAt": "2026-10-24T15:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -91,6 +112,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "43272650-029e-4f1b-96b8-23a77f43ae0f",
+      "title": "UK invests $134 million in a new AI Biosecurity Lab",
+      "summary": "The UK has set up an AI Biosecurity Lab with $134 million in funding. It will use AI to detect biological threats and develop vaccines.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-24T17:06:29.286Z",
+      "lastMeaningfulUpdateAt": "2026-10-24T17:06:29.286Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "The UK is investing $134 million into an AI Biosecurity Lab",
+          "url": "https://www.engadget.com/2296211/the-uk-is-investing-134-million-into-an-ai-biosecurity-lab/",
+          "publishedAt": "2026-10-24T16:11:53.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -663,7 +705,7 @@
     {
       "id": "0270e1db-ae41-4392-a6e2-faca0eeb07b0",
       "title": "Block debuts Dessa, an AI voice model with uncannily human-sounding voices",
-      "summary": "Block has released Dessa, a new AI voice model offering a range of voices that Gizmodo describes as uncannily close to human speech.",
+      "summary": "Block has released Dessa, a new AI voice model offering a range of voices that Gizmodo describes as uncannily close to human speech. Block says the model can run locally on a MacBook M4 Max.",
       "importanceScore": 0.4,
       "relevanceScore": 0.75,
       "firstSeenAt": "2026-10-24T10:46:21.780Z",
@@ -674,6 +716,13 @@
           "title": "Check Out the Many Uncanny, Human-ish Voices From Block’s New AI Model",
           "url": "https://gizmodo.com/check-out-the-many-uncanny-human-ish-voices-from-blocks-new-ai-model-2000830237",
           "publishedAt": "2026-10-24T10:24:40.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Block’s new voice model sounds eerily human",
+          "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+          "publishedAt": "2026-10-24T16:00:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1623,46 +1672,8 @@
         "model-release",
         "research"
       ]
-    },
-    {
-      "id": "47989d0a-d6a3-43fc-8a08-19188b33e9d1",
-      "title": "Spotify bets on becoming the music service AI agents choose",
-      "summary": "Spotify co-CEO Gustav Söderström tells TechCrunch why the rise of AI agents could be good news for the streamer: its current AI bet is on being the music service that agents pick when acting on users' behalf.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-22T16:16:17.273Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T16:16:17.273Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Spotify’s current AI bet is about being the music service that agents choose",
-          "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
-          "publishedAt": "2026-10-22T15:03:58.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "6653e763-827d-4810-bc41-b3896bf3d947",
-      "title": "inDrive plans 2027 robotaxi tests in Kazakhstan with Pony.ai and Nvidia",
-      "summary": "Ride-hailing company inDrive, an Uber rival, plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027, with Nvidia also involved in the effort, TechCrunch reports.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-23T06:28:04.051Z",
-      "lastMeaningfulUpdateAt": "2026-10-23T06:28:04.051Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
-          "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-          "publishedAt": "2026-10-23T04:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 117,
+  "totalCount": 119,
   "hasMore": true
 }
