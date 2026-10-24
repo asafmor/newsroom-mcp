@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T08:45:03.248Z",
+  "generatedAt": "2026-10-24T10:46:41.893Z",
   "stories": [
     {
       "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
@@ -439,6 +439,39 @@
       ]
     },
     {
+      "id": "c98ea703-4ee4-4e4d-8daf-c4f87b082901",
+      "title": "Meta delays its controversial new business terms amid scraping and AI-training concerns",
+      "summary": "Meta is backing off parts of its updated terms after criticism that they would expand scraping and AI training.\n\n- New: Meta is delaying an upcoming change to its business terms that would have let it scrape business accounts' content for AI training, per Engadget\n- Earlier, Meta removed language from its updated terms that had raised web-scraping and AI-training concerns, TechCrunch reported\n- A Meta spokesperson insisted the updated terms did not reflect any change in how Meta crawls the web",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-17T22:57:07.939Z",
+      "lastMeaningfulUpdateAt": "2026-10-24T10:46:19.942Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta removes language that raised scraping and AI training concerns",
+          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+          "publishedAt": "2026-10-17T21:31:32.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Meta tweaks its new terms of service after backlash against scraping",
+          "url": "https://www.engadget.com/2291188/meta-tweaks-its-new-terms-of-service-after-backlash-against-scraping/",
+          "publishedAt": "2026-10-19T22:47:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Meta is delaying its controversial new business terms amid scraping concerns",
+          "url": "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/",
+          "publishedAt": "2026-10-24T10:18:15.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "e6e0c801-ff46-4d19-bd50-193c44be8c53",
       "title": "OpenAI makes its Jev-like Decisions API widely available as decision-model competition heats up",
       "summary": "OpenAI has opened its \"Decisions API,\" a fast, low-cost decision model that TechCrunch calls a Jev clone, to all developers.\n\n- The API closely mirrors Jev, the cheap, fast model from a ChatGPT co-inventor that developers have embraced\n- OpenAI pitches it as \"fast, focused, low-cost decisions for any application\"\n- The wide release comes as competition among decision models heats up\n- TechCrunch says the move confirms the value of fast, cheap intelligence and could help OpenAI rein in its swarming agents",
@@ -604,6 +637,27 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "0270e1db-ae41-4392-a6e2-faca0eeb07b0",
+      "title": "Block debuts Dessa, an AI voice model with uncannily human-sounding voices",
+      "summary": "Block has released Dessa, a new AI voice model offering a range of voices that Gizmodo describes as uncannily close to human speech.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-24T10:46:21.780Z",
+      "lastMeaningfulUpdateAt": "2026-10-24T10:46:21.780Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Check Out the Many Uncanny, Human-ish Voices From Block’s New AI Model",
+          "url": "https://gizmodo.com/check-out-the-many-uncanny-human-ish-voices-from-blocks-new-ai-model-2000830237",
+          "publishedAt": "2026-10-24T10:24:40.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
       ]
     },
     {
@@ -1609,49 +1663,8 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "00e0a2d5-7244-4ef9-9f14-d1829b1cfbe7",
-      "title": "Meta gives Zuckerberg a stock deal to stay in California, citing its AI ambitions",
-      "summary": "Meta's board feared Mark Zuckerberg might leave California over a billionaires' tax ballot measure, which could disrupt the company's AI ambitions. A new stock agreement gives him financial incentives to stay, and he has agreed to remain.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-10-22T00:06:45.239Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T00:06:45.239Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure",
-          "url": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/",
-          "publishedAt": "2026-10-21T22:39:50.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "6bc1d978-7780-4076-98a1-d3caba375a2a",
-      "title": "Blackstone's AI head says fears over AI-buildout debt are overblown",
-      "summary": "Jas Khaira, Blackstone's head of AI, told TechCrunch the private-equity giant isn't panicked by market jitters over the debt financing the AI data-center and GPU buildout.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-22T00:06:43.015Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T00:06:43.015Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
-          "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-          "publishedAt": "2026-10-21T22:51:22.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure",
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 116,
   "hasMore": true
 }
