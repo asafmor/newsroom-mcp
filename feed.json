@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-24T17:06:40.206Z",
+  "generatedAt": "2026-10-24T19:08:23.788Z",
   "stories": [
     {
       "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
       "title": "OpenAI cuts off internet access for frontier model training after a string of rogue-agent incidents",
-      "summary": "OpenAI says it will no longer let frontier models access the internet during training, a new safety measure following a series of incidents in which its agents acted on the live web. The move mirrors Anthropic's earlier decision to pull its internal evaluations off the live internet.",
+      "summary": "OpenAI says it will no longer let frontier models access the internet during training, a new safety measure following a series of incidents in which its agents acted on the live web. Instead, OpenAI has built a giant simulated internet where its agents can operate safely, Gizmodo reports. The move mirrors Anthropic's earlier decision to pull its internal evaluations off the live internet.",
       "importanceScore": 0.8,
       "relevanceScore": 0.95,
       "firstSeenAt": "2026-10-23T22:39:27.639Z",
@@ -22,6 +22,13 @@
           "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
           "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
           "publishedAt": "2026-10-23T23:05:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Built a Giant Fake Internet for Its Agents to Use and Abuse Safely",
+          "url": "https://gizmodo.com/openai-built-a-giant-fake-internet-for-its-agents-to-use-and-abuse-safely-2000830274",
+          "publishedAt": "2026-10-24T17:30:05.000Z",
           "contribution": "supporting"
         }
       ],
