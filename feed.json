@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T10:46:41.893Z",
+  "generatedAt": "2026-10-24T12:48:49.112Z",
   "stories": [
     {
       "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
@@ -69,6 +69,27 @@
       ],
       "tags": [
         "funding",
+        "safety"
+      ]
+    },
+    {
+      "id": "570d8fbd-8021-4f3e-8243-2a28000fe5d1",
+      "title": "AI tools helped surface years-old PHP vulnerabilities, then attackers used AI to exploit them",
+      "summary": "Security researchers used AI tools to uncover years-old vulnerabilities in the PHP web scripting language. AI-assisted attacks exploiting those flaws followed. Wired argues the episode shows how AI shortens the gap between a bug's discovery and its exploitation.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-24T12:48:37.730Z",
+      "lastMeaningfulUpdateAt": "2026-10-24T12:48:37.730Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+          "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+          "publishedAt": "2026-10-24T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -1636,27 +1657,6 @@
           "title": "Nirva raises $33M for a pendant that only listens to you",
           "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
           "publishedAt": "2026-10-22T13:26:52.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "af9c5c0d-4009-4235-8458-f128308fdfb3",
-      "title": "OpenAI invests in a startup that uses brain implants to detect cancer",
-      "summary": "OpenAI has invested in a startup that uses brain implants to detect cancer, Wired reports. It's the latest in a growing wave of bets AI companies are making on brain data.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-21T11:54:21.792Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T11:54:21.792Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
-          "url": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
-          "publishedAt": "2026-10-21T10:30:00.000Z",
           "contribution": "supporting"
         }
       ],
