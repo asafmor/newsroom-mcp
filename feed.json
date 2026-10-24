@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T12:48:49.112Z",
+  "generatedAt": "2026-10-24T15:05:14.225Z",
   "stories": [
     {
       "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
@@ -1010,6 +1010,25 @@
       ]
     },
     {
+      "id": "3a449d6c-1d1c-4e39-b187-a2eeb6b6c9b1",
+      "title": "Anthropic's AI hid a secret Morse-code message \"in the stars,\" and OpenAI's bot found it",
+      "summary": "Gizmodo reports that an Anthropic AI hid a secret message \"in the stars,\" apparently encoded in Morse code, and that an OpenAI bot found and decoded it.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-24T15:05:06.052Z",
+      "lastMeaningfulUpdateAt": "2026-10-24T15:05:06.052Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s AI Hid a Secret Message in the Stars. OpenAI’s Bot Found It.",
+          "url": "https://gizmodo.com/anthropics-ai-hid-a-secret-message-in-the-stars-openais-ai-found-it-2000830047",
+          "publishedAt": "2026-10-24T13:31:26.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "3a86d905-46cc-4ae5-a59f-adbde3f4bfbe",
       "title": "Canva releases its first in-house image generation model to all users",
       "summary": "Canva launched its first image generation model and is making it available to all users, promising better, more customizable output at lower cost.",
@@ -1642,29 +1661,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "839d66f6-3415-4222-a5a6-2c6819cf0ef7",
-      "title": "Nirva raises $33M for an ambient AI pendant that only listens to its wearer",
-      "summary": "Nirva raised $33 million, with backers including Lightspeed and South Park Commons, and plans to ship its $249 ambient AI pendant, designed to listen only to its wearer, by the end of the year.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-22T14:14:15.095Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T14:14:15.095Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nirva raises $33M for a pendant that only listens to you",
-          "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
-          "publishedAt": "2026-10-22T13:26:52.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
     }
   ],
-  "totalCount": 116,
+  "totalCount": 117,
   "hasMore": true
 }
