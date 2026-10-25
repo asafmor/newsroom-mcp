@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T07:14:09.384Z",
+  "generatedAt": "2026-10-25T09:15:16.209Z",
   "stories": [
     {
       "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
@@ -624,6 +624,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "b7cb1c65-7d8f-4551-a225-ac3b3afd551e",
+      "title": "Alpha School, the AI-centric private school chain, reportedly isn't meeting its own academic goals",
+      "summary": "A New York Times report, covered by Gizmodo, suggests Alpha School, a private school chain built around AI-driven instruction, is falling short of the academic targets it sets for itself, calling its core promise into question.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-25T09:15:10.999Z",
+      "lastMeaningfulUpdateAt": "2026-10-25T09:15:10.999Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "The AI-Centric Private School Chain Reportedly Isn’t Meeting Its Own Academic Goals",
+          "url": "https://gizmodo.com/the-ai-centric-private-school-chain-reportedly-isnt-meeting-its-own-academic-goals-2000830291",
+          "publishedAt": "2026-10-25T09:00:54.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "116e58ad-31bf-49df-8b2a-c97fef39de93",
@@ -1657,30 +1676,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "f2bd339a-0a7e-4ed2-b726-12a24384209e",
-      "title": "Ai2 releases OlmoEarth v1.3, claiming state-of-the-art planet-wide embeddings",
-      "summary": "Allen AI announced OlmoEarth v1.3 on the Hugging Face blog, billing it as state-of-the-art Earth-observation embeddings covering the whole planet.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-22T16:16:19.673Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T16:16:19.673Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-          "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-          "publishedAt": "2026-10-22T16:11:31.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "research"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 119,
   "hasMore": true
 }
