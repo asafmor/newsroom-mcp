@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T15:18:23.962Z",
+  "generatedAt": "2026-10-25T17:19:42.412Z",
   "stories": [
     {
       "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
@@ -55,6 +55,27 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "1e920805-1506-44f3-9f22-c4717c7e508d",
+      "title": "Apollo economist says AI has delivered \"zero financial payoff\" to companies outside tech",
+      "summary": "An Apollo Global Management economist argues that despite massive investment and widespread hype, AI has so far delivered \"zero financial payoff\" to corporate America outside the tech sector, per TechCrunch.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-25T17:19:30.681Z",
+      "lastMeaningfulUpdateAt": "2026-10-25T17:19:30.681Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+          "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+          "publishedAt": "2026-10-25T16:57:32.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -970,6 +991,25 @@
       ]
     },
     {
+      "id": "b8511017-99d0-4151-ae5f-de8836d5594d",
+      "title": "An open source subreddit bans AI, calling it \"incongruent\" with the community",
+      "summary": "An open source community on Reddit has banned AI, with moderators saying \"AI, as it exists today, is incongruent to this Open Source community,\" per Gizmodo. The ban adds to a growing pushback against cheap, AI-generated contributions in open source spaces.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-25T17:19:32.852Z",
+      "lastMeaningfulUpdateAt": "2026-10-25T17:19:32.852Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "‘Tokens Are Cheap’: Open Source Subreddit Bans AI",
+          "url": "https://gizmodo.com/tokens-are-cheap-open-source-subreddit-bans-ai-2000830386",
+          "publishedAt": "2026-10-25T17:00:59.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "171178f8-f249-4ae0-b38e-6c7b02d4a7df",
       "title": "Recursive launches Flint, a free laptop coding model it says was largely built by AI",
       "summary": "Startup Recursive, which is betting everything on recursive self-improvement, has released a model it says its own AI largely built.\n\n- New: Flint is a free, laptop-sized coding model built largely by Recursive's in-house AI research system, pitched as an early test of AI that improves itself, per TechCrunch\n- Wired's profile of the company called its latest model \"scary good\"\n- Recursive argues the benefits of AI-built AI outweigh the risks",
@@ -1608,76 +1648,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "e18b5da4-d2ad-484e-b193-0f95519b47d7",
-      "title": "Character.AI goes bankrupt at Disney's request; Disney buys assets for $20M and hires most of its staff",
-      "summary": "Chatbot platform Character.AI filed for Chapter 11 bankruptcy just five years after its founding, and Disney is absorbing much of what's left.\n\n- Wired reports Disney asked Character.AI to go bankrupt as a way out of its lawsuits\n- Disney wants the startup's trust-and-safety tech, among other IP\n- Dozens of states allege Character.AI's chatbots encouraged minors to self-harm and to kill their parents\n- Disney agreed to buy some of the startup's assets for $20 million and to hire most of its workforce\n- Former Character.AI CEO Karandeep Anand recently became Disney's first-ever CTO",
-      "importanceScore": 0.76,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-13T13:44:13.374Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T09:15:24.165Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
-          "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-          "publishedAt": "2026-10-13T12:23:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Character.AI just filed for bankruptcy, and former foe Disney may buy it for parts",
-          "url": "https://www.engadget.com/2285177/character-ai-just-filed-for-bankruptcy-and-former-foe-disney-may-buy-it-for-parts/",
-          "publishedAt": "2026-10-13T13:45:10.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Disney agrees to hire the majority of Character.AI’s workforce",
-          "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-          "publishedAt": "2026-10-18T16:30:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Disney Asked Character.AI to Go Bankrupt for a Get-Out-of-Lawsuits Card",
-          "url": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
-          "publishedAt": "2026-10-19T09:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Disney Wants to Hire Most of the Employees From Bankrupt Character.AI",
-          "url": "https://gizmodo.com/disney-wants-to-hire-most-of-the-employees-from-bankrupt-character-ai-2000827460",
-          "publishedAt": "2026-10-19T16:45:33.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "7f2a9eeb-9c88-4a57-ba9c-6a025c28036f",
-      "title": "Google DeepMind maps the world's forest types at 10-meter resolution",
-      "summary": "Google DeepMind published a global map that goes beyond tree cover, categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-22T16:16:21.777Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T16:16:21.777Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Beyond tree cover: mapping the world’s forest types",
-          "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-          "publishedAt": "2026-10-22T14:30:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 119,
   "hasMore": true
 }
