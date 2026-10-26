@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T05:26:01.108Z",
+  "generatedAt": "2026-10-26T07:27:06.247Z",
   "stories": [
     {
       "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
@@ -1185,6 +1185,25 @@
       ]
     },
     {
+      "id": "9eb5c6f7-9e86-4d8b-bd77-4de41ae7fcda",
+      "title": "Elon Musk follows through on a Grok AI adaptation of \"The Odyssey\"",
+      "summary": "Elon Musk has delivered on his pledge to produce an AI-generated adaptation of Homer's \"The Odyssey\" with xAI's Grok. Mashable says the result is \"exactly what you'd expect,\" and notes it's a rare kept promise from Musk, who keeps about 24% of his pledges according to the MuskOmeter tracker.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-26T07:26:59.644Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T07:26:59.644Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Elon Musk Actually Follows Through On Grok AI Adaptation Of 'The Odyssey'",
+          "url": "https://in.mashable.com/tech/115360/elon-musk-actually-follows-through-on-grok-ai-adaptation-of-the-odyssey",
+          "publishedAt": "2026-10-24T19:32:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "34f63ec0-3fba-43c7-b8df-e6680f1bd9e3",
       "title": "Abliteration launches a cheaper version of its \"unrestricted AI\"",
       "summary": "Abliteration has released a lower-priced version of its guardrail-free \"unrestricted AI.\" Gizmodo calls the timing bad, noting the product mainly appeals to hackers as AI-driven attacks mount.",
@@ -1606,50 +1625,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "6fed06d4-0ea6-4753-929b-b48534126161",
-      "title": "Google joins Amazon in attacking Nvidia's PyTorch grip with tools to move AI apps off its GPUs",
-      "summary": "Two hyperscalers are now shipping developer tools meant to pry PyTorch apps away from Nvidia GPUs.\n\n- Amazon launched TorchNeuron for running PyTorch models on AWS Trainium; TechCrunch called it Amazon's biggest shot at Nvidia yet\n- Hugging Face says TorchNeuron makes running its models on Trainium easier than ever\n- New: Google has released its own tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs, joining Amazon's push",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-19T19:23:31.943Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T19:43:12.043Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-          "url": "https://huggingface.co/blog/hf-torchneuron",
-          "publishedAt": "2026-10-19T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
-          "publishedAt": "2026-10-19T20:09:24.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
-          "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
-          "publishedAt": "2026-10-20T18:38:24.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-          "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-          "publishedAt": "2026-10-21T16:04:43.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 119,
+  "totalCount": 120,
   "hasMore": true
 }
