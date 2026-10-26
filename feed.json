@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T15:32:07.887Z",
+  "generatedAt": "2026-10-26T17:33:34.563Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -79,11 +79,47 @@
           "url": "https://gizmodo.com/anthropics-deal-with-elon-musks-spacexai-is-even-bigger-than-we-knew-ipo-filing-shows-2000830618",
           "publishedAt": "2026-10-26T15:07:38.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+          "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+          "publishedAt": "2026-10-26T16:49:42.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+          "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+          "publishedAt": "2026-10-26T16:01:55.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "funding",
         "safety"
+      ]
+    },
+    {
+      "id": "3e7a962a-c176-46e7-bd86-9718984d3563",
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "summary": "SpaceX disclosed in a regulatory filing a binding commitment for roughly $40 billion from Apollo to finance AI chips and data center equipment, calling it the \"largest committed GPU financing\" ever.",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-26T17:33:25.264Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T17:33:25.264Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+          "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+          "publishedAt": "2026-10-26T16:46:36.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "infrastructure"
       ]
     },
     {
@@ -106,6 +142,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "ddf6e6c0-7807-41fa-a7e1-34c7d37c707d",
+      "title": "Dutch government plans to cut 16% of its workforce in an AI efficiency push",
+      "summary": "The Dutch cabinet announced it wants to eliminate 25,000 full-time government jobs, about 16% of its workforce, by 2035 as part of a push to use AI for efficiency.",
+      "importanceScore": 0.58,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-26T17:33:26.718Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T17:33:26.718Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Dutch government to cut 16 percent of workforce as part of AI efficiency push",
+          "url": "https://www.engadget.com/2297180/dutch-government-to-cut-16-percent-of-workforce-as-part-of-ai-efficiency-push/",
+          "publishedAt": "2026-10-26T17:13:20.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "15a2ab29-8edf-44f1-807f-97b9f34d2946",
@@ -1649,48 +1704,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "789a539a-22bb-4c7b-9443-4509ebd175e5",
-      "title": "Palmer Luckey moves into AI-equipped military \"super soldier\" dogs",
-      "summary": "Defense tech founder Palmer Luckey is getting into the market for cybernetically outfitted military dogs, aiming to turn working dogs into AI-equipped \"supersoldiers,\" Gizmodo reports.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-10-23T18:36:01.199Z",
-      "lastMeaningfulUpdateAt": "2026-10-23T18:36:01.199Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Palmer Luckey Is Getting Into the Cybernetically Outfitted Super Soldier Dog Market",
-          "url": "https://gizmodo.com/palmer-luckey-is-getting-into-the-cybernetically-outfitted-super-soldier-dog-market-2000829914",
-          "publishedAt": "2026-10-23T16:48:37.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "d77535b7-ab6d-42d0-a85e-98e60f88bcb8",
-      "title": "MIT researchers maroon 13 AI agents on a virtual island; left idle, they invent games and get better at their jobs",
-      "summary": "In an MIT experiment, 13 AI agents left on a virtual island with nothing to do began inventing games and even mourned a lost ring. Over time, the agents also got better at their assigned jobs.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-23T02:26:06.795Z",
-      "lastMeaningfulUpdateAt": "2026-10-23T02:26:06.795Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Left alone with nothing to do, AI agents started playing",
-          "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-          "publishedAt": "2026-10-23T00:45:37.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 123,
+  "totalCount": 121,
   "hasMore": true
 }
