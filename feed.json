@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T19:35:38.805Z",
+  "generatedAt": "2026-10-26T21:37:01.940Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -99,6 +99,20 @@
           "title": "Will the real Anthropic please stand up",
           "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
           "publishedAt": "2026-10-26T17:45:43.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
+          "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+          "publishedAt": "2026-10-26T21:27:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Threat of AI Bubble Looms Over Anthropic’s Big IPO Moment",
+          "url": "https://www.cnet.com/tech/services-and-software/anthropic-ipo-filing-ai-bubble-hype/",
+          "publishedAt": "2026-10-26T19:12:20.000Z",
           "contribution": "background"
         }
       ],
@@ -1642,69 +1656,6 @@
       ]
     },
     {
-      "id": "fa875a4c-a937-4cda-8a6c-319b3d5e3629",
-      "title": "Judge keeps former OpenAI engineer accused of bugging an executive meeting room in custody, rejecting a Saudi release offer",
-      "summary": "A judge ordered former OpenAI engineer Abdulrahman Alfozan, arrested by the FBI on suspicion of planting a hidden recording device in the company's offices with a chatbot's help, to remain in custody.\n\n- The judge likened the Saudi government's offer to secure his release to a \"blank check,\" per Wired\n- Wired reports chatbot prompts reveal his alleged efforts to set up a covert listening device days before one was found in a meeting room used by top executives\n- CNET reports US intelligence and security officials say espionage inside AI labs poses a national security threat\n- OpenAI says it asked its own AI models to work out what the device was, per Engadget\n- Gizmodo notes the \"sophisticated\" bug appears to be a $13.99 Seeed Studio hobbyist board, and that the accused cited Elon Musk as a role model",
-      "importanceScore": 0.8,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-13T21:51:23.252Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T21:25:21.623Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI says it found a 'sophisticated recording device' hidden in its offices",
-          "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/",
-          "publishedAt": "2026-10-13T21:34:17.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Here’s How OpenAI Says It Used AI to Find a Spy Inside Its Company",
-          "url": "https://gizmodo.com/heres-how-openai-says-it-used-ai-to-find-a-spy-inside-its-company-2000825570",
-          "publishedAt": "2026-10-13T21:19:53.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
-          "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-          "publishedAt": "2026-10-13T23:17:59.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "The ‘Sophisticated’ Bug OpenAI Found in Its Conference Room Can Be Yours for $13.99",
-          "url": "https://gizmodo.com/the-sophisticated-bug-openai-found-in-its-conference-room-can-be-yours-for-13-99-2000825636",
-          "publishedAt": "2026-10-14T02:00:35.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "FBI Arrests OpenAI Employee Suspected of Planting a Surveillance Bug",
-          "url": "https://www.cnet.com/tech/services-and-software/openai-employee-fbi-arrest-recording-device-news/",
-          "publishedAt": "2026-10-14T17:25:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Man Accused of Bugging OpenAI Said Elon Musk Was His Role Model",
-          "url": "https://gizmodo.com/man-accused-of-bugging-openai-said-elon-musk-was-his-role-model-2000825897",
-          "publishedAt": "2026-10-14T18:40:07.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
-          "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
-          "publishedAt": "2026-10-19T19:49:17.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
       "id": "8fdf8b54-dd6e-4fb9-9916-087ad4aef3ca",
       "title": "Claude Security now scans repositories continuously and tracks fixes, in public beta for Enterprise",
       "summary": "Anthropic upgraded Claude Security, its code-vulnerability scanner, into an always-on service.\n\n- Scans keep up with repositories as code changes, instead of running as one-off audits\n- Tracks each finding until it is fixed and learns from context the team adds\n- Connects to existing tools through an API and MCP\n- Available in public beta for Claude Enterprise customers",
@@ -1725,8 +1676,29 @@
         "product-launch",
         "enterprise-adoption"
       ]
+    },
+    {
+      "id": "8e972d69-4bf8-49c3-941c-5a75500801da",
+      "title": "OpenAI partners with Poland's NASK on AI safety and security research",
+      "summary": "OpenAI and NASK, Poland's national research institute for cybersecurity, are partnering on AI safety, security, and technical research, aiming to strengthen safeguards and support a more resilient digital ecosystem.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-23T06:28:02.066Z",
+      "lastMeaningfulUpdateAt": "2026-10-23T06:28:02.066Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+          "publishedAt": "2026-10-23T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 113,
   "hasMore": true
 }
