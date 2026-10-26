@@ -1,6 +1,112 @@
 {
-  "generatedAt": "2026-10-26T13:30:21.528Z",
+  "generatedAt": "2026-10-26T15:32:07.887Z",
   "stories": [
+    {
+      "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
+      "title": "Anthropic officially files for its IPO, with a public S-1 showing soaring revenue, heavy losses, and founder control",
+      "summary": "Anthropic has officially filed for its public debut, making its S-1 public after weeks of leaks, investor doubts, and political calls for delay.\n\n- The filing shows soaring revenue and major enterprise adoption alongside mounting losses; Engadget earlier put last year's net loss at about $8 billion\n- Anthropic may be valued as high as $2 trillion, with a stock market debut reportedly planned for November\n- An unusual governance structure gives its seven co-founders a combined 50.1% of the vote on most matters, meant to preserve founder control and its safety mission\n- The S-1 shows Anthropic's deal with Elon Musk's SpaceXAI is bigger than previously known, per Gizmodo\n- Risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity\n- Before the filing, investors objected to the financials and politicians urged a delay",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-25T16:42:37.631Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T15:31:36.126Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s founders seek voting control ahead of IPO",
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+          "publishedAt": "2026-09-25T15:40:03.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+          "publishedAt": "2026-09-29T05:13:43.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic lost $8 billion last year and said its AI could destroy humanity",
+          "url": "https://www.engadget.com/2271659/anthropic-lost-8-billion-says-it-could-destroy-humanity/",
+          "publishedAt": "2026-09-29T09:59:57.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Leaked Anthropic IPO Prospectus Gives Wall Street an Early Look at How AI Could Go Off the Rails",
+          "url": "https://gizmodo.com/leaked-anthropic-ipo-prospectus-gives-wall-street-an-early-look-at-how-ai-could-kill-us-all-2000818911",
+          "publishedAt": "2026-09-29T17:00:29.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Could IPO Any Time Now, But Some of the People Who Matter Most Don’t Want It",
+          "url": "https://gizmodo.com/anthropic-could-ipo-any-time-now-but-some-of-the-people-who-matter-most-dont-want-it-2000826678",
+          "publishedAt": "2026-10-16T14:00:35.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+          "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+          "publishedAt": "2026-10-20T17:55:12.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic officially files for its public debut",
+          "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+          "publishedAt": "2026-10-26T14:35:22.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+          "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+          "publishedAt": "2026-10-26T14:50:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic files to go public ",
+          "url": "https://www.engadget.com/2296724/anthropic-files-to-go-public/",
+          "publishedAt": "2026-10-26T13:41:26.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s Deal With Elon Musk’s SpaceXAI Is Even Bigger Than We Knew, IPO Filing Shows",
+          "url": "https://gizmodo.com/anthropics-deal-with-elon-musks-spacexai-is-even-bigger-than-we-knew-ipo-filing-shows-2000830618",
+          "publishedAt": "2026-10-26T15:07:38.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "safety"
+      ]
+    },
+    {
+      "id": "d7035d5c-674c-422c-a297-653ff923b182",
+      "title": "Startup founded by former DOGE staffers claims its AI agents hacked Anthropic in under 12 hours",
+      "summary": "A new startup founded by former DOGE staffers claims its AI agents broke into Anthropic in less than 12 hours, according to a report covered by Gizmodo.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-26T15:31:46.218Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T15:31:46.218Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Former DOGE Staffers’ New Startup Claims It Hacked Anthropic",
+          "url": "https://gizmodo.com/former-doge-staffers-new-startup-claims-it-hacked-anthropic-2000830560",
+          "publishedAt": "2026-10-26T15:00:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "15a2ab29-8edf-44f1-807f-97b9f34d2946",
       "title": "Open-weight Kimi K3.1 reaches 3 trillion parameters",
@@ -132,6 +238,13 @@
           "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
           "publishedAt": "2026-10-24T15:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Why You Shouldn’t Use AI Chatbots to Decide Who to Vote For",
+          "url": "https://www.cnet.com/tech/services-and-software/ai-chatbots-election-voting-research-decisions/",
+          "publishedAt": "2026-10-26T12:20:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1576,67 +1689,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "a84f84ec-d8e8-4ef9-b960-a5ea61534cea",
-      "title": "DeepSeek launches DeepInfer, an open-source inference platform aimed at US businesses",
-      "summary": "DeepSeek released DeepInfer, an open-source inference tool that Gizmodo says could pull more American businesses toward Chinese open-source models and away from OpenAI and Anthropic.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-20T17:41:31.140Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T17:41:31.140Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "DeepSeek Dials Up the Pressure on OpenAI and Anthropic With Open-Source Inference Tool",
-          "url": "https://gizmodo.com/deepseek-dials-up-the-pressure-on-openai-and-anthropic-with-open-source-inference-tool-2000828261",
-          "publishedAt": "2026-10-20T16:45:40.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source",
-        "product-launch",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "25641c5e-d1da-443c-8f65-319d3f4358cb",
-      "title": "Nscale reportedly eyes a second $45B Anthropic compute deal after Microsoft pulls out ahead of its IPO",
-      "summary": "British AI data-center developer Nscale is heading for an IPO that tests investor appetite for concentrated AI infrastructure bets, and its biggest customers are moving in opposite directions.\n\n- New: Nscale and Anthropic are reportedly in talks for another $45 billion compute deal, matching the one they announced in August, TechCrunch reports\n- Gizmodo reports Microsoft has pulled out of a giant British AI cloud deal just as Nscale was expecting to go public\n- TechCrunch notes the neocloud depends on Microsoft and Anthropic for most of its revenue\n- Gizmodo frames the Microsoft pullout as a sign AI looks less like a sure thing for investors",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-22T13:37:32.047Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T01:29:09.519Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
-          "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
-          "publishedAt": "2026-09-22T12:23:05.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Microsoft Pulls Out of Giant British AI Cloud Deal Just As Cloud Company Was Expecting to IPO",
-          "url": "https://gizmodo.com/microsoft-pulls-out-of-giant-british-ai-cloud-deal-just-as-cloud-company-was-expecting-to-ipo-2000827469",
-          "publishedAt": "2026-10-19T09:00:39.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
-          "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
-          "publishedAt": "2026-10-19T23:39:38.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 121,
+  "totalCount": 123,
   "hasMore": true
 }
