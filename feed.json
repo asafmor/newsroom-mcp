@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-10-26T11:29:22.791Z",
+  "generatedAt": "2026-10-26T13:30:21.528Z",
   "stories": [
+    {
+      "id": "15a2ab29-8edf-44f1-807f-97b9f34d2946",
+      "title": "Open-weight Kimi K3.1 reaches 3 trillion parameters",
+      "summary": "Kimi K3.1 is an open-weight mixture-of-experts model with 3 trillion total parameters, 104 billion of them active per task. It handles text and images, may also handle audio, and is pitched as a transparent, cheaper alternative to proprietary frontier models.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-26T13:30:09.728Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T13:30:09.728Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Open-Weight Kimi K 3.1 AI Reaches 3 Trillion Parameters",
+          "url": "https://www.geeky-gadgets.com/kimi-k3-1-ai-model-benchmarks/",
+          "publishedAt": "2026-10-26T13:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
+      ]
+    },
     {
       "id": "14b2fd62-060e-45f0-9dfd-38bbd8dc00bd",
       "title": "Elvis Presley's estate sues Anthropic for copyright infringement",
@@ -19,6 +41,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "a9a3e7ff-9bc1-4d31-8a6f-b4d5ac614bc3",
+      "title": "Google Research's Harness² lets AI agents self-improve without retraining",
+      "summary": "Google Research and Northwestern University introduced Harness², a self-evolving agent harness that refines its own workflows without any additional model training. It builds up reusable libraries and modular skills, so smaller models can handle specialized tasks they would otherwise fail at.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-26T13:30:11.886Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T13:30:11.886Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Research Creates AI That Self-Improves Without Training",
+          "url": "https://www.geeky-gadgets.com/harness-2-self-improving-ai-agents/",
+          "publishedAt": "2026-10-26T12:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
     },
     {
       "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
@@ -156,6 +199,28 @@
       ],
       "tags": [
         "funding",
+        "safety"
+      ]
+    },
+    {
+      "id": "92fa67b7-54d6-45cc-8e43-297aba9de574",
+      "title": "Op-ed: The focus on AI safety disasters ignores everyday harms",
+      "summary": "An MIT Technology Review op-ed argues that tech policy sets low bars, such as chatbots that won't encourage suicide. Companies can clear those bars while still shipping products that cause everyday harm, and the authors say focusing on catastrophic AI risk lets that harm go unaddressed.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-26T13:30:14.324Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T13:30:14.324Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "The focus on AI safety disasters ignores everyday harms",
+          "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+          "publishedAt": "2026-10-26T09:01:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion",
         "safety"
       ]
     },
@@ -1570,72 +1635,8 @@
         "funding",
         "infrastructure"
       ]
-    },
-    {
-      "id": "4a136406-73b8-4685-8099-d3011a5ec19c",
-      "title": "Microsoft's ThinkingBox turns database grading into RL rewards for post-training agents",
-      "summary": "Microsoft published a Hugging Face write-up on ThinkingBox, a method that uses automated grading of database tasks as reinforcement-learning reward signals to post-train AI agents.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-23T00:24:22.085Z",
-      "lastMeaningfulUpdateAt": "2026-10-23T00:24:22.085Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-          "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-          "publishedAt": "2026-10-22T22:24:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "58d52b14-f473-4499-891e-718fb858c7bf",
-      "title": "Demis Hassabis predicts AGI within two to three years as WSJ names him 2026 Innovator in Tech",
-      "summary": "Google DeepMind co-founder Demis Hassabis says human-level AI could arrive within the next two to three years, a prediction made as WSJ Magazine named him its 2026 Innovator in Tech.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-22T08:11:08.510Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T08:11:08.510Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "Demis Hassabis Says We're Just 2–3 Years Away From AGI: Here's What That Means?",
-          "url": "https://in.mashable.com/tech/115224/demis-hassabis-says-were-just-2-3-years-away-from-agi-heres-what-that-means",
-          "publishedAt": "2026-10-22T06:23:55.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "b3137f44-8bf6-4e13-903a-9d60525865b2",
-      "title": "OpenAI acquires Orchestra Bio to bolster its Rosalind life-sciences model",
-      "summary": "OpenAI acquired biotech startup Orchestra Bio and is folding its team and technology into Rosalind, its AI model for life-sciences research, and the Rosalind Workbench, a harness that helps researchers plan experiments and analyze results.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-20T21:45:42.250Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T21:45:42.250Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
-          "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
-          "publishedAt": "2026-10-20T20:35:10.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "research"
-      ]
     }
   ],
-  "totalCount": 119,
+  "totalCount": 121,
   "hasMore": true
 }
