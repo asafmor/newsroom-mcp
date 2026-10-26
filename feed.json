@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-10-26T09:28:24.104Z",
+  "generatedAt": "2026-10-26T11:29:22.791Z",
   "stories": [
+    {
+      "id": "14b2fd62-060e-45f0-9dfd-38bbd8dc00bd",
+      "title": "Elvis Presley's estate sues Anthropic for copyright infringement",
+      "summary": "Elvis Presley's estate has sued Anthropic for copyright infringement, the latest AI copyright suit and one centered on a single music artist from decades past, Engadget reports.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-26T11:29:10.108Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T11:29:10.108Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Elvis Presley's estate is suing Anthropic over copyright infringement",
+          "url": "https://www.engadget.com/2296535/elvis-presley-estate-suing-ai-company-for-copyright-infringement/",
+          "publishedAt": "2026-10-26T11:23:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
     {
       "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
       "title": "OpenAI cuts off internet access for frontier model training after a string of rogue-agent incidents",
@@ -35,6 +54,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "cbf6a538-66ef-4f2e-aacc-23ae21b66a33",
+      "title": "AI agents are pitching editors on reported stories as would-be journalists",
+      "summary": "AI agents with human-sounding names like Jayden, Sam, and Zack are pitching editors on reported stories and investigative features, Wired reports, in a look at autonomous agents trying to work as real-life journalists.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-26T11:29:12.207Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T11:29:12.207Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
+          "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+          "publishedAt": "2026-10-26T09:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "f143efb9-3c38-4f1d-99ee-24ea6513d8c3",
@@ -1134,6 +1172,27 @@
       ]
     },
     {
+      "id": "80457d9f-fc9a-4799-b8ed-8ac68aeac51a",
+      "title": "Desert Ant Labs releases two compact AI models that run fully offline on phones",
+      "summary": "Desert Ant Labs introduced two compact models, \"Who\" and \"I,\" that run entirely offline on a phone or in a browser; \"Who\" handles speaker diarization, timestamping who spoke when in audio recordings.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-26T11:29:14.563Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T11:29:14.563Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Desert Ant Labs Brings Two Offline AI Models to Your Phone",
+          "url": "https://www.geeky-gadgets.com/offline-ai-models-phones/",
+          "publishedAt": "2026-10-26T09:43:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "2c6396e9-e248-402e-aff9-b27e85c9b355",
       "title": "Criminal hackers worldwide are going all-in on agentic AI, manipulating tools like Claude past their guardrails",
       "summary": "Wired reports that criminal hackers around the world are embracing agentic AI to carry out attacks, manipulating tools such as Anthropic's Claude to help commit their crimes despite the companies' guardrails.",
@@ -1575,72 +1634,8 @@
         "funding",
         "research"
       ]
-    },
-    {
-      "id": "75621095-0cd8-4a68-92fe-92402bbe9440",
-      "title": "Commerce.com and Cloudflare open nearly 100,000 storefronts to AI shopping agents via WebMCP",
-      "summary": "Almost 100,000 Commerce.com domains now expose real shopping tools to AI agents through WebMCP on Cloudflare. Cloudflare says it switched the capability on across every store at once while keeping each merchant in control.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-21T18:00:25.989Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T18:00:25.989Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
-          "url": "https://blog.cloudflare.com/webmcp-commerce/",
-          "publishedAt": "2026-10-21T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "b2238411-bfbe-47de-80d7-a4a9440cdbba",
-      "title": "U.N. official warns AI is \"on track to crowd out human decision-making\" in warfare",
-      "summary": "A U.N. official warns that militaries, like ordinary users, are offloading critical thinking to AI systems, putting AI on track to crowd out human decision-making in warfare, Gizmodo reports.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-21T18:00:20.289Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T18:00:20.289Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Is ‘on Track to Crowd Out Human Decision-Making’ in Warfare, U.N. Official Warns",
-          "url": "https://gizmodo.com/ai-is-on-track-to-crowd-out-human-decision-making-in-warfare-u-n-official-warns-2000828868",
-          "publishedAt": "2026-10-21T16:05:27.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "1eea4a9d-2f2a-4b89-843c-4d6db4e3e125",
-      "title": "Goodfire researcher's 26,000-word claim about the nature of neural networks upends the AI world",
-      "summary": "Nick Cammarata, a researcher at interpretability startup Goodfire, published a 26,000-word blog post opening with \"I think I have good news about the nature of neural networks.\" MIT Technology Review says the claim has knocked the AI world on its head, sparking wild speculation and both cautious and not-so-cautious celebration.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-19T19:23:36.892Z",
-      "lastMeaningfulUpdateAt": "2026-10-19T19:23:36.892Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
-          "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
-          "publishedAt": "2026-10-19T17:45:55.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 119,
   "hasMore": true
 }
