@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T17:33:34.563Z",
+  "generatedAt": "2026-10-26T19:35:38.805Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -93,6 +93,13 @@
           "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
           "publishedAt": "2026-10-26T16:01:55.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "Will the real Anthropic please stand up",
+          "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+          "publishedAt": "2026-10-26T17:45:43.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -204,6 +211,25 @@
       "tags": []
     },
     {
+      "id": "67f446ae-7b00-4eb2-b4c1-4afd02b35c0c",
+      "title": "Microsoft offers buyouts to 60,000 employees",
+      "summary": "Microsoft is offering voluntary buyouts to about 60,000 employees, per Gizmodo, which covers the move as part of its AI reporting and frames it as a choice between a buyout now or a layoff later.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-10-26T19:35:29.453Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T19:35:29.453Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Microsoft Is Offering 60,000 Employees Money to Just Go Away",
+          "url": "https://gizmodo.com/microsoft-is-offering-60000-employees-money-to-just-go-away-2000830711",
+          "publishedAt": "2026-10-26T18:40:59.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "a9a3e7ff-9bc1-4d31-8a6f-b4d5ac614bc3",
       "title": "Google Research's Harness² lets AI agents self-improve without retraining",
       "summary": "Google Research and Northwestern University introduced Harness², a self-evolving agent harness that refines its own workflows without any additional model training. It builds up reusable libraries and modular skills, so smaller models can handle specialized tasks they would otherwise fail at.",
@@ -217,6 +243,27 @@
           "title": "Google Research Creates AI That Self-Improves Without Training",
           "url": "https://www.geeky-gadgets.com/harness-2-self-improving-ai-agents/",
           "publishedAt": "2026-10-26T12:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "8cbd710b-0181-48a0-9e76-1f8868cb9735",
+      "title": "OpenAI Signals data maps how people use ChatGPT for work across 165 activities in nearly 100 countries",
+      "summary": "OpenAI published OpenAI Signals data covering 165 work activities across nearly 100 countries, showing how people use ChatGPT for work and how that usage shifts over time.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-26T19:35:22.459Z",
+      "lastMeaningfulUpdateAt": "2026-10-26T19:35:22.459Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "ChatGPT’s expanding world of work",
+          "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+          "publishedAt": "2026-10-26T10:00:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -792,6 +839,13 @@
           "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-shopping-earnings/",
           "publishedAt": "2026-10-22T00:30:25.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta Muse Makes Marketplace Better. How I Set It Up to Help Me Shop Online",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-facebook-marketplace-shop-online/",
+          "publishedAt": "2026-10-26T15:06:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1502,6 +1556,13 @@
           "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
           "publishedAt": "2026-10-22T19:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Canva Chases AI Domination With a New AI Image Model for Designers",
+          "url": "https://www.cnet.com/tech/services-and-software/canva-craft-proprietary-ai-image-model/",
+          "publishedAt": "2026-10-26T14:32:59.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1664,48 +1725,8 @@
         "product-launch",
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "8e972d69-4bf8-49c3-941c-5a75500801da",
-      "title": "OpenAI partners with Poland's NASK on AI safety and security research",
-      "summary": "OpenAI and NASK, Poland's national research institute for cybersecurity, are partnering on AI safety, security, and technical research, aiming to strengthen safeguards and support a more resilient digital ecosystem.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-23T06:28:02.066Z",
-      "lastMeaningfulUpdateAt": "2026-10-23T06:28:02.066Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-          "publishedAt": "2026-10-23T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "38f0f218-e4fa-467b-acda-ff31dec52730",
-      "title": "SpaceX turns a $4.4B third-quarter profit, with AI as the engine",
-      "summary": "SpaceX reported third-quarter net income of $4.4 billion, beating expectations, and TechCrunch says its AI business drove the result.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-20T21:45:39.950Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T21:45:39.950Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "SpaceX’s AI business is beating expectations",
-          "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-          "publishedAt": "2026-10-20T20:40:41.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 121,
+  "totalCount": 115,
   "hasMore": true
 }
