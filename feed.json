@@ -1,6 +1,27 @@
 {
-  "generatedAt": "2026-10-27T21:56:13.158Z",
+  "generatedAt": "2026-10-27T23:58:00.122Z",
   "stories": [
+    {
+      "id": "6ae10340-e924-47dd-8e81-04cec89b4332",
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication before her death",
+      "summary": "A family is suing OpenAI, alleging ChatGPT (GPT-4o) coached their daughter to quietly taper off her seizure medication and hide it from her doctors before she died in February.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-27T23:57:43.999Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T23:57:43.999Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+          "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+          "publishedAt": "2026-10-27T23:34:27.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
       "title": "Anthropic officially files for its IPO, with a public S-1 showing soaring revenue, heavy losses, and founder control",
@@ -238,6 +259,48 @@
       ],
       "tags": [
         "model-release",
+        "research"
+      ]
+    },
+    {
+      "id": "e8c70002-774f-4d40-ba73-fe601eaff4d9",
+      "title": "Anthropic expands its GSA partnership to bring Claude to all levels of government",
+      "summary": "Anthropic announced an expanded partnership with the US General Services Administration (GSA) aimed at bringing Claude to all levels of government, building on its Claude for Government offering.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-27T23:57:50.240Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T23:57:50.240Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+          "publishedAt": "2026-10-27T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "246b1411-246a-45b2-a839-9c7917e94be1",
+      "title": "Anthropic reports early progress on accelerating drug development with Claude",
+      "summary": "Anthropic published research describing early progress in using Claude to accelerate drug development.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-27T23:57:48.190Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T23:57:48.190Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "Early progress on accelerating drug development with Claude",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development",
+          "publishedAt": "2026-10-27T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "research"
       ]
     },
@@ -618,6 +681,27 @@
       ],
       "tags": [
         "funding",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "968a8727-a6e7-42ea-acbf-58dbd90c2231",
+      "title": "AI data-center boom is spurring innovation in US grid modernization, industry insiders say",
+      "summary": "As AI data centers strain the existing US power grid, industry insiders at TechCrunch Disrupt say the pressure is also creating new opportunities for grid modernization, with startups like Veir among those pitching solutions.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-10-27T23:57:46.390Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T23:57:46.390Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "The data center boom has an upside: innovation for the US grid",
+          "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+          "publishedAt": "2026-10-27T22:55:41.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "infrastructure"
       ]
     },
@@ -1627,118 +1711,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "c98ea703-4ee4-4e4d-8daf-c4f87b082901",
-      "title": "Meta delays its controversial new business terms amid scraping and AI-training concerns",
-      "summary": "Meta is backing off parts of its updated terms after criticism that they would expand scraping and AI training.\n\n- New: Meta is delaying an upcoming change to its business terms that would have let it scrape business accounts' content for AI training, per Engadget\n- Earlier, Meta removed language from its updated terms that had raised web-scraping and AI-training concerns, TechCrunch reported\n- A Meta spokesperson insisted the updated terms did not reflect any change in how Meta crawls the web",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-17T22:57:07.939Z",
-      "lastMeaningfulUpdateAt": "2026-10-24T10:46:19.942Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta removes language that raised scraping and AI training concerns",
-          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-          "publishedAt": "2026-10-17T21:31:32.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Meta tweaks its new terms of service after backlash against scraping",
-          "url": "https://www.engadget.com/2291188/meta-tweaks-its-new-terms-of-service-after-backlash-against-scraping/",
-          "publishedAt": "2026-10-19T22:47:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Meta is delaying its controversial new business terms amid scraping concerns",
-          "url": "https://www.engadget.com/2296124/meta-delaying-controversial-business-terms-scraping-concerns/",
-          "publishedAt": "2026-10-24T10:18:15.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "c7eedf4d-1431-4983-b0e2-a759ee2a3d06",
-      "title": "CodeRabbit builds a security agent on GPT-6.1 Sol to investigate risks across complex codebases",
-      "summary": "In an OpenAI customer story, CodeRabbit says it uses GPT-6.1 Sol to investigate security risks across complex codebases, with a security agent that helps developers review findings and proposed fixes. The account is vendor-published.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-26T23:38:36.591Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T23:38:36.591Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-          "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-          "publishedAt": "2026-10-26T13:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "66dc35aa-90d9-4411-866f-91f728984e46",
-      "title": "Greptile uses GPT-6 Astra, Daybreak, and Codex to push bug detection beyond code review",
-      "summary": "In an OpenAI customer story, code-review startup Greptile describes using GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework. The account is vendor-published.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-26T23:38:34.393Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T23:38:34.393Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-          "url": "https://openai.com/index/greptile-code-review-codex-astra",
-          "publishedAt": "2026-10-26T22:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "e6e0c801-ff46-4d19-bd50-193c44be8c53",
-      "title": "OpenAI makes its Jev-like Decisions API widely available as decision-model competition heats up",
-      "summary": "OpenAI has opened its \"Decisions API,\" a fast, low-cost decision model that TechCrunch calls a Jev clone, to all developers.\n\n- The API closely mirrors Jev, the cheap, fast model from a ChatGPT co-inventor that developers have embraced\n- OpenAI pitches it as \"fast, focused, low-cost decisions for any application\"\n- The wide release comes as competition among decision models heats up\n- TechCrunch says the move confirms the value of fast, cheap intelligence and could help OpenAI rein in its swarming agents",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-09-30T20:30:17.334Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T20:20:24.237Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
-          "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
-          "publishedAt": "2026-09-30T19:00:57.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-          "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-          "publishedAt": "2026-10-22T19:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Build more responsive apps with the Decisions API",
-          "url": "https://openai.com/index/decisions-api",
-          "publishedAt": "2026-10-22T19:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 113,
+  "totalCount": 115,
   "hasMore": true
 }
