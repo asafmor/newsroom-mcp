@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T05:43:13.709Z",
+  "generatedAt": "2026-10-27T07:44:42.278Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -114,6 +114,13 @@
           "url": "https://www.cnet.com/tech/services-and-software/anthropic-ipo-filing-ai-bubble-hype/",
           "publishedAt": "2026-10-26T19:12:20.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -141,6 +148,27 @@
       "tags": [
         "funding",
         "infrastructure"
+      ]
+    },
+    {
+      "id": "6f81b81b-d78b-4c44-abf7-9540739783ea",
+      "title": "Anthropic donates Agent Skills to the Agentic AI Foundation",
+      "summary": "Anthropic says it is donating Agent Skills, its format for packaging instructions and resources that agents load on demand, to the Agentic AI Foundation, handing stewardship of the format to a neutral industry body.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-27T07:44:28.501Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T07:44:28.501Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "Donating Agent Skills to the Agentic AI Foundation",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
       ]
     },
     {
@@ -517,6 +545,27 @@
       ]
     },
     {
+      "id": "bb61ab04-8466-49bc-b490-d302d6f5be5e",
+      "title": "Anthropic opens a call for guest investigators in the life sciences",
+      "summary": "Anthropic has opened a call for outside life-sciences researchers to join it as guest investigators, extending its push into AI-assisted biology research.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-27T07:44:30.450Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T07:44:30.450Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "Open call for guest investigators in the life sciences",
+          "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "cbf6a538-66ef-4f2e-aacc-23ae21b66a33",
       "title": "AI agents are pitching editors on reported stories as would-be journalists",
       "summary": "AI agents with human-sounding names like Jayden, Sam, and Zack are pitching editors on reported stories and investigative features, Wired reports, in a look at autonomous agents trying to work as real-life journalists.",
@@ -647,6 +696,25 @@
         "funding",
         "safety"
       ]
+    },
+    {
+      "id": "c003bb08-13f0-4493-be24-def6fe50cfab",
+      "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+      "summary": "Physicist Christopher Stubbs has joined Anthropic's Long-Term Benefit Trust, the independent body that helps oversee the company's board, as Anthropic heads toward its IPO.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-10-27T07:44:32.470Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T07:44:32.470Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+          "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+          "publishedAt": "2026-10-21T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "92fa67b7-54d6-45cc-8e43-297aba9de574",
@@ -1729,72 +1797,8 @@
         "model-release",
         "safety"
       ]
-    },
-    {
-      "id": "6f48f3a3-fb35-457d-b19f-dab691e37c83",
-      "title": "Walmart lets AI agents shop on customers' behalf as Amazon blocks them",
-      "summary": "Walmart is introducing technology that lets AI agents make purchases for customers, with controls over spending limits and transaction approvals, per TechCrunch. It's the opposite of Amazon's approach, which blocks AI agents from shopping on its site.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-21T20:02:17.837Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T20:02:17.837Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
-          "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-          "publishedAt": "2026-10-21T19:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "706fa244-aea7-4f9a-b020-c1f1e7179d0e",
-      "title": "Anthropic pitches an AI safety bill that could block models posing 50+ death risks — but only with a judge's sign-off",
-      "summary": "Anthropic is pitching an AI safety bill that could block a model's release if it could lead to 50 or more deaths. TechCrunch notes the catch: the proposal forbids federal agencies from blocking a release without a judge's permission, so it may limit regulators as much as it protects the public.",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-20T23:47:13.662Z",
-      "lastMeaningfulUpdateAt": "2026-10-20T23:47:13.662Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-          "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-          "publishedAt": "2026-10-20T23:01:23.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
-    },
-    {
-      "id": "80457d9f-fc9a-4799-b8ed-8ac68aeac51a",
-      "title": "Desert Ant Labs releases two compact AI models that run fully offline on phones",
-      "summary": "Desert Ant Labs introduced two compact models, \"Who\" and \"I,\" that run entirely offline on a phone or in a browser; \"Who\" handles speaker diarization, timestamping who spoke when in audio recordings.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-26T11:29:14.563Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T11:29:14.563Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Desert Ant Labs Brings Two Offline AI Models to Your Phone",
-          "url": "https://www.geeky-gadgets.com/offline-ai-models-phones/",
-          "publishedAt": "2026-10-26T09:43:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
     }
   ],
-  "totalCount": 116,
+  "totalCount": 119,
   "hasMore": true
 }
