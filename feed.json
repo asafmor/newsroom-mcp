@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T11:48:13.928Z",
+  "generatedAt": "2026-10-27T13:49:19.848Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -395,6 +395,28 @@
       ]
     },
     {
+      "id": "ff3dc086-0c2a-4126-a256-ae7445b0fb04",
+      "title": "General Compute raises a $100M Series A to bet on non-Nvidia inference chips",
+      "summary": "Neocloud startup General Compute raised a $100 million Series A, betting on inference chips from outside the Nvidia ecosystem and pushing back on the narrative that neoclouds are headed for disaster, per TechCrunch.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-27T13:49:16.227Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T13:49:16.227Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+          "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+          "publishedAt": "2026-10-27T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "infrastructure"
+      ]
+    },
+    {
       "id": "b6add976-79cc-4a2e-8ff7-7eb76a79204f",
       "title": "ChatGPT cracks down on photorealistic political deepfakes ahead of the US midterms",
       "summary": "With the US midterm elections a week away, OpenAI's ChatGPT is restricting the generation of photorealistic political deepfakes, a defense CNET calls surprising. Gizmodo is less impressed: OpenAI calls the measures a \"layer of friction,\" and Gizmodo finds that layer thin and incomplete.",
@@ -480,6 +502,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "1b23789e-5281-49f6-aab7-1873e6f5f1c6",
+      "title": "Opera proposes WebAI, a web standard for running AI models locally in the browser",
+      "summary": "Opera has introduced WebAI, a proposed web standard that lets users run AI models locally in their browser, designed to work with a variety of models, per TechCrunch.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-27T13:49:13.874Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T13:49:13.874Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+          "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+          "publishedAt": "2026-10-27T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "a9a3e7ff-9bc1-4d31-8a6f-b4d5ac614bc3",
@@ -1757,48 +1798,6 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "5d8b534d-47b2-4822-9043-44642201a611",
-      "title": "Uber rolls ChatGPT Work out to all 30,000 employees",
-      "summary": "Uber is expanding ChatGPT Work, OpenAI's enterprise agent, from a much smaller pilot to its entire 30,000-person workforce, TechCrunch reports — one of the largest company-wide deployments of the product so far.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-22T16:16:15.474Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T16:16:15.474Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Uber puts all 30,000 employees on ChatGPT Work",
-          "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-          "publishedAt": "2026-10-22T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "75e9635d-ad82-46bb-9b4f-c0e41470393c",
-      "title": "Anthropic unifies Claude Cowork and chat for Enterprise customers",
-      "summary": "Anthropic is bringing Claude Cowork and Claude chat together into a single experience for Claude Enterprise, per a post on the Claude blog.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-23T22:39:29.791Z",
-      "lastMeaningfulUpdateAt": "2026-10-23T22:39:29.791Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude Cowork and chat come together for Enterprise",
-          "url": "https://claude.com/resources/articles/unified-claude-enterprise",
-          "publishedAt": "2026-10-23T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
       ]
     }
   ],
