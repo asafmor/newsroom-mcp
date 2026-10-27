@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T07:44:42.278Z",
+  "generatedAt": "2026-10-27T09:46:35.145Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -340,6 +340,13 @@
           "url": "https://gizmodo.com/openai-trumpets-3-more-math-and-science-results-along-with-a-new-plan-for-publishing-them-2000830956",
           "publishedAt": "2026-10-27T00:13:11.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI announces new discoveries in mathematics, computer science and physics",
+          "url": "https://www.engadget.com/2297941/openai-new-discoveries-mathematics-computer-science-physics/",
+          "publishedAt": "2026-10-27T08:18:16.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -390,7 +397,7 @@
     {
       "id": "b6add976-79cc-4a2e-8ff7-7eb76a79204f",
       "title": "ChatGPT cracks down on photorealistic political deepfakes ahead of the US midterms",
-      "summary": "With the US midterm elections a week away, CNET reports that OpenAI's ChatGPT is restricting the generation of photorealistic political deepfakes, a defense CNET calls surprising.",
+      "summary": "With the US midterm elections a week away, OpenAI's ChatGPT is restricting the generation of photorealistic political deepfakes, a defense CNET calls surprising. Gizmodo is less impressed: OpenAI calls the measures a \"layer of friction,\" and Gizmodo finds that layer thin and incomplete.",
       "importanceScore": 0.5,
       "relevanceScore": 0.85,
       "firstSeenAt": "2026-10-26T23:38:38.897Z",
@@ -401,6 +408,13 @@
           "title": "OpenAI Has a Surprising Defense Against Election Deepfakes",
           "url": "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/",
           "publishedAt": "2026-10-26T20:43:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "ChatGPT’s Election-Related Anti-Deepfake Measures Are Intriguing, but Incomplete",
+          "url": "https://gizmodo.com/chatgpts-election-related-anti-deepfake-measures-are-intriguing-but-incomplete-2000831002",
+          "publishedAt": "2026-10-27T09:00:38.000Z",
           "contribution": "supporting"
         }
       ],
@@ -653,6 +667,25 @@
       "tags": [
         "enterprise-adoption"
       ]
+    },
+    {
+      "id": "2754befc-4ce3-4932-a293-13a039035437",
+      "title": "Wired tests six major AI agents, from Meta's Muse to Claude Duet, on everyday tasks",
+      "summary": "Wired's Reece Rogers spent a day with six major AI agents, including Meta's Muse and Anthropic's Claude Duet, and ranked them on how well they completed basic tasks.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-27T09:46:24.480Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T09:46:24.480Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
+          "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
+          "publishedAt": "2026-10-27T09:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -1768,35 +1801,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "171178f8-f249-4ae0-b38e-6c7b02d4a7df",
-      "title": "Recursive launches Flint, a free laptop coding model it says was largely built by AI",
-      "summary": "Startup Recursive, which is betting everything on recursive self-improvement, has released a model it says its own AI largely built.\n\n- New: Flint is a free, laptop-sized coding model built largely by Recursive's in-house AI research system, pitched as an early test of AI that improves itself, per TechCrunch\n- Wired's profile of the company called its latest model \"scary good\"\n- Recursive argues the benefits of AI-built AI outweigh the risks",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-21T18:00:18.039Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T22:04:25.381Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
-          "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
-          "publishedAt": "2026-10-21T16:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
-          "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-          "publishedAt": "2026-10-21T20:27:41.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "safety"
-      ]
     }
   ],
   "totalCount": 119,
