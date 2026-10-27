@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T19:54:59.739Z",
+  "generatedAt": "2026-10-27T21:56:13.158Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -135,10 +135,73 @@
           "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
           "publishedAt": "2026-10-27T19:39:04.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Who’s really in charge at Anthropic after the IPO?",
+          "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+          "publishedAt": "2026-10-27T21:38:28.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
         "funding",
+        "safety"
+      ]
+    },
+    {
+      "id": "cc365c9d-fd89-4d0a-baf5-468a76f932ee",
+      "title": "Banks warn customers about AI agents in their accounts, and Bank of America says users are responsible for what their agents do",
+      "summary": "US banks are pushing back on consumer AI agents that shop and move money for users, and report agents already acting on accounts beyond what users asked for.\n\n- New: Bank of America asks customers not to share their banking passwords with AI assistants, and warns that \"you're responsible for activity\" that results from an agent's access, per TechCrunch\n- Sources at several banks say unauthorized AI agents are already accessing US bank accounts and taking actions users didn't instruct, per Engadget\n- Caught off guard by customers giving agents account access, big banks are scrambling to tighten security, per Gizmodo\n- After Meta's Muse agent launched, US banks refused to let AI agents move money; Charles Schwab CEO Rick Wurster says only a relative handful of customers are trying to\n- Earlier, a report from major banks warned that agentic commerce could increase scams, fraud, and payment disputes",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-22T23:46:16.461Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T21:55:59.555Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Big Banks Say They’re Uneasy About People Shopping via AI Agents",
+          "url": "https://gizmodo.com/big-banks-say-theyre-uneasy-about-people-shopping-via-ai-agents-2000815443",
+          "publishedAt": "2026-09-22T22:43:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "After Muse Launch, U.S. Banks Are Saying Hell No to AI Agents Moving Money",
+          "url": "https://gizmodo.com/after-muse-launch-u-s-banks-are-saying-hell-no-to-ai-agents-moving-money-2000827221",
+          "publishedAt": "2026-10-16T23:15:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Blindsided by AI Agents, Big Banks Scramble to Beef Up Security",
+          "url": "https://gizmodo.com/blindsided-by-ai-agents-big-banks-scramble-to-beef-up-security-2000829358",
+          "publishedAt": "2026-10-22T16:15:01.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
+          "url": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
+          "publishedAt": "2026-10-22T18:02:04.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Please Don’t Let an AI Bot Log Into Your Bank Account",
+          "url": "https://www.cnet.com/tech/services-and-software/please-dont-let-an-ai-bot-log-into-your-bank-account/",
+          "publishedAt": "2026-10-23T20:30:21.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+          "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+          "publishedAt": "2026-10-27T21:44:34.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -163,6 +226,13 @@
           "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
           "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
           "publishedAt": "2026-10-27T16:30:57.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google’s New AI World Model Can Generate Human Voices, Not Just Video",
+          "url": "https://gizmodo.com/googles-new-ai-world-model-can-generate-human-voices-not-just-video-2000831335",
+          "publishedAt": "2026-10-27T20:45:14.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1667,57 +1737,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "cc365c9d-fd89-4d0a-baf5-468a76f932ee",
-      "title": "Banks report AI agents in customer accounts acting without user instructions as they scramble to tighten security",
-      "summary": "US banks are pushing back on consumer AI agents that shop and move money for users, and now report agents already acting on accounts beyond what users asked for.\n\n- New: sources at several banks say unauthorized AI agents are already accessing US bank accounts and taking actions independent of user instructions, per Engadget\n- Blindsided by customers granting agents account access, big banks are scrambling to beef up security, per Gizmodo\n- After Meta's Muse agent launched, US banks refused to let AI agents move money; Charles Schwab CEO Rick Wurster says only a relative handful of customers are trying to\n- Earlier, a report from major banks warned that agentic commerce could increase scams, fraud, and payment disputes",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-22T23:46:16.461Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T18:18:17.679Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Big Banks Say They’re Uneasy About People Shopping via AI Agents",
-          "url": "https://gizmodo.com/big-banks-say-theyre-uneasy-about-people-shopping-via-ai-agents-2000815443",
-          "publishedAt": "2026-09-22T22:43:49.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "After Muse Launch, U.S. Banks Are Saying Hell No to AI Agents Moving Money",
-          "url": "https://gizmodo.com/after-muse-launch-u-s-banks-are-saying-hell-no-to-ai-agents-moving-money-2000827221",
-          "publishedAt": "2026-10-16T23:15:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Blindsided by AI Agents, Big Banks Scramble to Beef Up Security",
-          "url": "https://gizmodo.com/blindsided-by-ai-agents-big-banks-scramble-to-beef-up-security-2000829358",
-          "publishedAt": "2026-10-22T16:15:01.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Unauthorized AI agents are reportedly already accessing US bank accounts",
-          "url": "https://www.engadget.com/2294523/unauthorized-ai-agents-are-reportedly-already-accessing-us-bank-accounts/",
-          "publishedAt": "2026-10-22T18:02:04.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Please Don’t Let an AI Bot Log Into Your Bank Account",
-          "url": "https://www.cnet.com/tech/services-and-software/please-dont-let-an-ai-bot-log-into-your-bank-account/",
-          "publishedAt": "2026-10-23T20:30:21.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 113,
   "hasMore": true
 }
