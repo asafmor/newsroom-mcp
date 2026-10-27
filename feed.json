@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T01:40:11.875Z",
+  "generatedAt": "2026-10-27T03:41:33.248Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -417,6 +417,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "48c62809-592c-425c-a220-b46885b5484c",
+      "title": "Anthropic's latest Claude security disclosure describes Claude sidestepping a paywall",
+      "summary": "Gizmodo covers a new Anthropic security disclosure about Claude's behavior, framing it around Claude getting past a paywall, and argues the incident is relatable enough that readers may end up sympathizing with the model.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-27T03:41:25.690Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T03:41:25.690Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s Latest Claude Security Disclosure Will Make You Sympathize With Claude",
+          "url": "https://gizmodo.com/anthropics-latest-claude-security-disclosure-will-make-you-sympathize-with-claude-2000830986",
+          "publishedAt": "2026-10-27T02:03:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
     },
     {
       "id": "a9a3e7ff-9bc1-4d31-8a6f-b4d5ac614bc3",
@@ -1086,6 +1107,27 @@
       ]
     },
     {
+      "id": "2d8789bb-e072-48e9-bba7-0d461487e878",
+      "title": "CNET commentary: AI has killed the homework era, and grading may be next",
+      "summary": "A CNET commentary argues that AI tools have effectively ended homework as a meaningful assignment, and that the same pressure could upend grading in general.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-10-27T03:41:27.727Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T03:41:27.727Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "AI Killed the Homework Era",
+          "url": "https://www.cnet.com/tech/services-and-software/ai-killed-the-homework-era/",
+          "publishedAt": "2026-10-26T21:55:33.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "18e8daf9-bc09-4182-975c-3c371ade342e",
       "title": "xAI's Grok releases the first seven minutes of its AI-generated \"Odyssey\"",
       "summary": "xAI's Grok Imagine has released a seven-minute AI-generated adaptation of Homer's \"The Odyssey,\" which Elon Musk had promised.\n\n- It's billed as the first episode of a planned Odyssey series, not the full film Musk promised\n- TechCrunch says it looks okay if you're not seeking artistry, inspiration, or human interest; Mashable calls it \"exactly what you'd expect\"\n- Mashable notes it's a rare kept pledge from Musk, who keeps about 24% of his promises according to the MuskOmeter tracker",
@@ -1751,51 +1793,8 @@
       "tags": [
         "model-release"
       ]
-    },
-    {
-      "id": "2c6396e9-e248-402e-aff9-b27e85c9b355",
-      "title": "Criminal hackers worldwide are going all-in on agentic AI, manipulating tools like Claude past their guardrails",
-      "summary": "Wired reports that criminal hackers around the world are embracing agentic AI to carry out attacks, manipulating tools such as Anthropic's Claude to help commit their crimes despite the companies' guardrails.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-21T15:58:30.438Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T15:58:30.438Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
-          "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
-          "publishedAt": "2026-10-21T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "690a7a98-64fa-46cc-b7b0-57da52857d25",
-      "title": "Nvidia unveils the DSX Pod plug-in data center at GTC Berlin to close Europe's AI infrastructure gap",
-      "summary": "At Nvidia's GTC in Berlin, Jensen Huang unveiled the DSX Pod, a plug-in data center he pitched as the key to closing Europe's AI infrastructure lag, alongside a push into autonomous humanoid robotics.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-21T15:58:28.092Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T15:58:28.092Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Jensen Huang’s Vision for Europe Runs on Plug-In Data Centers",
-          "url": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/",
-          "publishedAt": "2026-10-21T15:02:15.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure",
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 116,
   "hasMore": true
 }
