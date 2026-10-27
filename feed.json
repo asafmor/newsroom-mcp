@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T09:46:35.145Z",
+  "generatedAt": "2026-10-27T11:48:13.928Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -559,6 +559,28 @@
       ]
     },
     {
+      "id": "09c9614b-379a-46a8-9577-2cb1891fe8e7",
+      "title": "Nvidia backs Simplismart, an Indian startup helping companies run AI models on fewer GPUs",
+      "summary": "Nvidia has backed Simplismart, an Indian inference-optimization startup that helps companies run AI models with fewer GPUs, TechCrunch reports. Simplismart says its annualized revenue run rate grew 14-fold in six months, with the US accounting for more than half its revenue.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-27T11:48:02.967Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T11:48:02.967Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+          "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+          "publishedAt": "2026-10-27T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "infrastructure"
+      ]
+    },
+    {
       "id": "bb61ab04-8466-49bc-b490-d302d6f5be5e",
       "title": "Anthropic opens a call for guest investigators in the life sciences",
       "summary": "Anthropic has opened a call for outside life-sciences researchers to join it as guest investigators, extending its push into AI-assisted biology research.",
@@ -646,6 +668,25 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "a441081a-43ac-4a39-bc64-5402524925c0",
+      "title": "Publishers bet on AI agents as a paying audience",
+      "summary": "As AI agents go mainstream, some publishers are hoping people will pay for content made specifically for AI agents rather than human readers, Wired reports.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-27T11:48:04.867Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T11:48:04.867Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI Agents Are Media’s New Favorite Audience",
+          "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+          "publishedAt": "2026-10-27T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "1e920805-1506-44f3-9f22-c4717c7e508d",
@@ -1759,50 +1800,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "6724dad8-fdf1-4b8f-af33-6aef5c1d229c",
-      "title": "Hugging Face releases an open-source AI biology model that lets researchers chat with DNA",
-      "summary": "Hugging Face released a new open-source biology model that \"speaks the language of DNA,\" letting researchers query genetic sequences conversationally to understand how any change might affect gene activity and health.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-22T10:12:07.654Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T10:12:07.654Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
-          "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-          "publishedAt": "2026-10-22T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source",
-        "research"
-      ]
-    },
-    {
-      "id": "b8511017-99d0-4151-ae5f-de8836d5594d",
-      "title": "An open source subreddit bans AI, calling it \"incongruent\" with the community",
-      "summary": "An open source community on Reddit has banned AI, with moderators saying \"AI, as it exists today, is incongruent to this Open Source community,\" per Gizmodo. The ban adds to a growing pushback against cheap, AI-generated contributions in open source spaces.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-25T17:19:32.852Z",
-      "lastMeaningfulUpdateAt": "2026-10-25T17:19:32.852Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "‘Tokens Are Cheap’: Open Source Subreddit Bans AI",
-          "url": "https://gizmodo.com/tokens-are-cheap-open-source-subreddit-bans-ai-2000830386",
-          "publishedAt": "2026-10-25T17:00:59.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 119,
+  "totalCount": 118,
   "hasMore": true
 }
