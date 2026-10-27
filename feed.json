@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T15:50:25.567Z",
+  "generatedAt": "2026-10-27T17:52:58.043Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -136,6 +136,35 @@
       ]
     },
     {
+      "id": "6579cc43-2f7e-47fa-a5a2-8d24b2b720bd",
+      "title": "Google DeepMind releases Genie 4, a world model with real-time audio and mid-simulation steering",
+      "summary": "Google DeepMind released Genie 4, its next-generation world model, in a research preview for trusted testers.\n\n- Generates real-time audio alongside the simulated world\n- DeepMind says it produces markedly more realistic simulations\n- Users can steer a running simulation with text prompts mid-session",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-27T17:52:35.465Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T17:52:35.465Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Genie 4: A new generation of world simulation",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+          "publishedAt": "2026-10-27T16:01:38.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+          "publishedAt": "2026-10-27T16:30:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "research"
+      ]
+    },
+    {
       "id": "3e7a962a-c176-46e7-bd86-9718984d3563",
       "title": "SpaceX locks in $40B GPU financing deal with Apollo",
       "summary": "SpaceX disclosed in a regulatory filing a binding commitment for roughly $40 billion from Apollo to finance AI chips and data center equipment, calling it the \"largest committed GPU financing\" ever.",
@@ -155,6 +184,27 @@
       "tags": [
         "funding",
         "infrastructure"
+      ]
+    },
+    {
+      "id": "ed9dd4bd-4be9-4bb0-b2e3-7cf9ab55ceee",
+      "title": "OpenAI and Oracle expand their partnership to bring Oracle business apps and agents into ChatGPT",
+      "summary": "OpenAI and Oracle are expanding their partnership: Oracle's business applications and AI agents are coming into ChatGPT, and OpenAI's models will power new Oracle offerings.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-27T17:52:37.670Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T17:52:37.670Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "publishedAt": "2026-10-27T07:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -354,6 +404,13 @@
           "url": "https://www.engadget.com/2297941/openai-new-discoveries-mathematics-computer-science-physics/",
           "publishedAt": "2026-10-27T08:18:16.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+          "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+          "publishedAt": "2026-10-27T17:08:08.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -399,6 +456,28 @@
       "tags": [
         "model-release",
         "open-source"
+      ]
+    },
+    {
+      "id": "00e10349-4e63-4e3f-afda-9010e2dd10ea",
+      "title": "New research sheds light on DeepSeek's safety risks",
+      "summary": "Gizmodo reports on new research into the safety risks of DeepSeek's models. It frames the findings as a counterpoint to tech leaders who promote open-weight AI as the future, noting that new dangers in the technology keep being discovered.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-27T17:52:46.313Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T17:52:46.313Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Research Sheds New Light On DeepSeek’s Safety Risks",
+          "url": "https://gizmodo.com/research-sheds-new-light-on-deepseeks-safety-risks-2000831270",
+          "publishedAt": "2026-10-27T17:45:20.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "research"
       ]
     },
     {
@@ -593,6 +672,27 @@
       ]
     },
     {
+      "id": "e3264660-01e1-45df-9c31-69a4996f7cbe",
+      "title": "Liquid AI introduces LFM3 for building specialized multimodal models",
+      "summary": "Liquid AI posted on the Hugging Face blog about building specialized multimodal models with LFM3, the next generation of its LFM model family after LFM2.5. The feed included no further detail.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-27T17:52:39.916Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T17:52:39.916Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Build specialized multimodal models with LFM3",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+          "publishedAt": "2026-10-27T17:16:52.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
       "title": "OpenAI cuts off internet access for frontier model training after a string of rogue-agent incidents",
       "summary": "OpenAI says it will no longer let frontier models access the internet during training, a new safety measure following a series of incidents in which its agents acted on the live web. Instead, OpenAI has built a giant simulated internet where its agents can operate safely, Gizmodo reports. The move mirrors Anthropic's earlier decision to pull its internal evaluations off the live internet.",
@@ -663,6 +763,27 @@
           "title": "Open call for guest investigators in the life sciences",
           "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
           "publishedAt": "2026-10-22T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "19adbcef-072f-4664-a222-c55ce6b4e186",
+      "title": "Ai2 asks whether LLMs can be trusted to judge if a research idea is novel",
+      "summary": "Allen AI (Ai2) published a Hugging Face blog post on a novelty benchmark that tests whether LLMs can reliably judge if a research idea is novel. The feed included no results.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-27T17:52:42.117Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T17:52:42.117Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Can we trust LLMs to judge whether a research idea is novel?",
+          "url": "https://huggingface.co/blog/allenai/novelty-bench",
+          "publishedAt": "2026-10-27T16:12:42.000Z",
           "contribution": "supporting"
         }
       ],
@@ -922,6 +1043,25 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "3b2fe26c-eac1-49dc-bb45-77314a09c48c",
+      "title": "xAI pitches Grok Bot as a sales teammate",
+      "summary": "xAI published a post pitching Grok Bot, its persistent-agent product, as a sales teammate. It's the latest in the company's series of use-case write-ups. The feed included no further detail.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-27T17:52:44.166Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T17:52:44.166Z",
+      "sources": [
+        {
+          "providerName": "xAI News",
+          "title": "Your next sales teammate should be a Grok Bot",
+          "url": "https://x.ai/news/grok-bot-sales",
+          "publishedAt": "2026-10-27T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "43272650-029e-4f1b-96b8-23a77f43ae0f",
@@ -1567,186 +1707,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "116e58ad-31bf-49df-8b2a-c97fef39de93",
-      "title": "Anthropic unveils Claude Duet, a personal agent to rival Meta Muse and OpenAI Dots",
-      "summary": "Anthropic introduced Claude Duet, a proactive personal agent that Engadget frames as its answer to Meta's Muse and OpenAI's Dots.\n\n- Available as a preview via waitlist for US Claude Pro and Max subscribers\n- Handles tasks like drafting documents, preparing payroll communications, and generating data visualizations, with app integrations\n- Keeps a single-thread history so context carries across tasks",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-21T22:04:29.429Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T22:04:29.429Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Claude Duet is Anthropic's answer to Meta Muse and OpenAI Dots",
-          "url": "https://www.engadget.com/2293646/claude-duet-is-anthropics-answer-to-meta-muse-and-openai-dots/",
-          "publishedAt": "2026-10-21T21:03:19.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s New Agent Has No Cute Mascot, and You Probably Can’t Try It Yet",
-          "url": "https://gizmodo.com/anthropics-new-agent-has-no-cute-mascot-and-you-probably-cant-try-it-yet-2000829184",
-          "publishedAt": "2026-10-21T23:54:17.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Claude Duet Proactive Assistant Launches in Preview for U.S. Claude Pro Users",
-          "url": "https://www.geeky-gadgets.com/claude-duet/",
-          "publishedAt": "2026-10-22T06:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Claude Duet app is Anthropic’s bet on agents",
-          "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
-          "publishedAt": "2026-10-22T13:53:26.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Anthropic Introduces Claude Duet: A New Agentic AI App for Professionals",
-          "url": "https://www.cnet.com/tech/services-and-software/anthropic-claude-duet-ai-agent-app-professional/",
-          "publishedAt": "2026-10-22T21:19:09.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude Duet Safety, Privacy, and Security",
-          "url": "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security",
-          "publishedAt": "2026-10-23T00:00:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "3e94621a-5ded-43cb-adf6-68014ee2ab47",
-      "title": "Microsoft's AI diagnostic system beats generalist doctors on hard cases, per a Science study",
-      "summary": "Microsoft AI chief Mustafa Suleyman says its new diagnostic system outperforms generalist doctors on hard cases as he pursues \"medical superintelligence.\"\n\n- A study published in Science found the system beat generalist physicians on difficult cases; Microsoft frames it as more than twice as accurate\n- Most of the gain appears to come from the underlying AI models, not Microsoft's own orchestration system\n- Microsoft plans to begin testing the tool in a Boston hospital soon",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-22T20:20:32.252Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T20:20:32.252Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-          "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
-          "publishedAt": "2026-10-22T18:43:53.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Microsoft Says Its New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
-          "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
-          "publishedAt": "2026-10-22T20:40:46.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "0270e1db-ae41-4392-a6e2-faca0eeb07b0",
-      "title": "Block debuts Dessa, an AI voice model with uncannily human-sounding voices",
-      "summary": "Block has released Dessa, a new AI voice model offering a range of voices that Gizmodo describes as uncannily close to human speech. Block says the model can run locally on a MacBook M4 Max.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-24T10:46:21.780Z",
-      "lastMeaningfulUpdateAt": "2026-10-24T10:46:21.780Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Check Out the Many Uncanny, Human-ish Voices From Block’s New AI Model",
-          "url": "https://gizmodo.com/check-out-the-many-uncanny-human-ish-voices-from-blocks-new-ai-model-2000830237",
-          "publishedAt": "2026-10-24T10:24:40.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Block’s new voice model sounds eerily human",
-          "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
-          "publishedAt": "2026-10-24T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "cf20b876-6274-422a-bcca-6ab1751730d5",
-      "title": "OpenAI's \"patch the planet\" push meets Altman's admission that not every bug can be patched",
-      "summary": "OpenAI wants to use its own AI to \"patch the planet,\" and Sam Altman now concedes that fixing every bug isn't realistic.\n\n- Gizmodo frames OpenAI's security push skeptically, as a company that \"never lets a good crisis go to waste\" amid mounting AI-driven security incidents\n- Altman: \"I no longer think we're gonna be able to just patch all the bugs\"",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-21T22:04:33.858Z",
-      "lastMeaningfulUpdateAt": "2026-10-23T20:37:46.656Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Wants to ‘Patch the Planet’ (With Its Own AI)",
-          "url": "https://gizmodo.com/openai-wants-to-patch-the-planet-with-its-own-ai-2000829119",
-          "publishedAt": "2026-10-21T20:55:39.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Sam Altman: ‘I No Longer Think We’re Gonna Be Able to Just Patch All the Bugs’",
-          "url": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947",
-          "publishedAt": "2026-10-23T18:40:48.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "68958525-b99c-4118-85b3-9e04fab7a9a7",
-      "title": "Coyotec, a bilingual AI radio host that backs immigrants, is winning over listeners",
-      "summary": "Coyotec, an AI radio personality, speaks Spanish and English, swears on air, and tells listeners how to defend themselves against ICE. Wired reports that it's gaining an audience as more broadcasters experiment with AI hosts.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-26T09:28:12.163Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T09:28:12.163Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
-          "url": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
-          "publishedAt": "2026-10-26T09:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "6de5390c-af30-4fc6-8aa9-cdd2bd8653cf",
-      "title": "OpenAI brings its frontier models and Codex to Google Cloud",
-      "summary": "OpenAI and Google Cloud are making OpenAI's frontier models and Codex workflows available in Gemini's Model Garden, sold through Google Cloud Marketplace — putting OpenAI's models directly on a rival lab's cloud platform.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-21T13:56:17.547Z",
-      "lastMeaningfulUpdateAt": "2026-10-21T13:56:17.547Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "OpenAI models are coming to Google Cloud",
-          "url": "https://openai.com/index/openai-models-google-cloud",
-          "publishedAt": "2026-10-21T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
   "totalCount": 118,
