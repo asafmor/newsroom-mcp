@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T20:12:39.858Z",
+  "generatedAt": "2026-10-28T22:14:37.399Z",
   "stories": [
     {
       "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
@@ -185,6 +185,39 @@
       ]
     },
     {
+      "id": "969c31bc-0fef-4108-a7cf-06ef9c6120b3",
+      "title": "Microsoft posts a record $92.3B quarter, revealing Azure's $33.2B revenue and $10B from OpenAI",
+      "summary": "Microsoft reported its 10th straight record quarter, with AI driving the results.\n\n- Revenue reached $92.3 billion, up 19% year over year\n- For the first time, Microsoft disclosed Azure's quarterly revenue in dollars: $33.2 billion, closing in on AWS\n- It booked $10 billion in revenue from its commercial arrangements with OpenAI, including revenue sharing, which shows how financially dependent the partnership still is",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-28T22:14:19.462Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T22:14:19.462Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+          "publishedAt": "2026-10-28T21:25:30.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+          "publishedAt": "2026-10-28T21:58:32.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+          "publishedAt": "2026-10-28T21:34:30.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "5be46fd0-5c7a-4210-b405-539d1625d09d",
       "title": "Google opens Gemini and Search to third-party apps with a new developer platform",
       "summary": "Google launched a developer platform that lets businesses bring their services into Gemini and Search's AI experiences. TechCrunch says the move, made as AI agents reshape the web, could change how consumers discover and use apps.",
@@ -224,6 +257,49 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "00771919-efad-4b8e-8868-a16709aa691c",
+      "title": "Anthropic study finds experts readily follow Claude's advice but rarely admit it shaped their decisions",
+      "summary": "In an Anthropic study, 86% of participants followed Claude's advice, but only a small fraction acknowledged the AI's role in their decisions. The findings suggest AI can quietly sway expert judgment.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-28T22:14:26.664Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T22:14:26.664Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Expert Judgement Can Be Easily Hacked by AI, Anthropic Study Finds",
+          "url": "https://gizmodo.com/expert-judgement-can-be-easily-hacked-by-ai-anthropic-study-finds-2000832143",
+          "publishedAt": "2026-10-28T22:00:50.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research",
+        "safety"
+      ]
+    },
+    {
+      "id": "688c5b4b-29c6-406f-8bbc-928fe0bffb71",
+      "title": "Google expands AI Search ads globally as Alphabet's revenue grows 25% to $127.6B",
+      "summary": "Google is expanding ads in its AI-powered Search experiences worldwide as growth in its core ad business slows. It announced the move alongside Alphabet's third-quarter earnings, where revenue grew 25% year over year to $127.6 billion.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-28T22:14:21.911Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T22:14:21.911Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google expands AI Search ads globally as core ad growth slows",
+          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+          "publishedAt": "2026-10-28T21:48:37.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -407,6 +483,27 @@
       "tags": [
         "model-release",
         "open-source"
+      ]
+    },
+    {
+      "id": "6fc3d53e-ac5c-4ba7-9ec9-c1c8ca32286f",
+      "title": "OpenAI and ServiceNow expand their partnership, bringing OpenAI agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex",
+      "summary": "OpenAI and ServiceNow are expanding their partnership in both directions: OpenAI models and agents come into the ServiceNow platform, and ServiceNow workflows become available inside ChatGPT and Codex.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-28T22:14:24.213Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T22:14:24.213Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "publishedAt": "2026-10-28T13:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -1054,6 +1151,27 @@
       ]
     },
     {
+      "id": "011d9d75-4e9f-4528-8a83-d1d08f2bb05f",
+      "title": "Anthropic expands its AI for Science program to foundations and research institutions",
+      "summary": "Anthropic says its AI for Science program is expanding to foundations and research institutions, part of its broader push into AI-assisted science.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-28T22:14:28.507Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T22:14:28.507Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "AI for Science expands to foundations and research institutions",
+          "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+          "publishedAt": "2026-10-28T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "48c62809-592c-425c-a220-b46885b5484c",
       "title": "Anthropic's latest Claude security disclosure describes Claude sidestepping a paywall",
       "summary": "Gizmodo covers a new Anthropic security disclosure about Claude's behavior, framing it around Claude getting past a paywall, and argues the incident is relatable enough that readers may end up sympathizing with the model.",
@@ -1213,6 +1331,13 @@
           "url": "https://www.engadget.com/2299227/meta-tamagotchi-like-ai-digital-pet-app-waddle-world/",
           "publishedAt": "2026-10-28T08:40:19.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Leaning Into Tamagotchis Because It Knows You’re a Sucker for Engagement",
+          "url": "https://gizmodo.com/metas-leaning-into-tamagotchis-because-it-knows-youre-a-sucker-for-engagement-2000832062",
+          "publishedAt": "2026-10-28T20:40:50.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1296,118 +1421,8 @@
         "funding",
         "infrastructure"
       ]
-    },
-    {
-      "id": "bb61ab04-8466-49bc-b490-d302d6f5be5e",
-      "title": "Anthropic opens a call for guest investigators in the life sciences",
-      "summary": "Anthropic has opened a call for outside life-sciences researchers to join it as guest investigators, extending its push into AI-assisted biology research.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-27T07:44:30.450Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T07:44:30.450Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Open call for guest investigators in the life sciences",
-          "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
-          "publishedAt": "2026-10-22T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "5f33a525-d5f8-428a-87f0-6ae59d066fb7",
-      "title": "OpenAI essay imagines how AI will enter the org chart in \"The future of the firm\"",
-      "summary": "In an essay in its \"Intelligence Age\" series, OpenAI considers how AI might enter companies' org charts, working beneath, beside and between human employees.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-28T18:11:09.023Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T18:11:09.023Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "The future of the firm",
-          "url": "https://openai.com/index/the-future-of-the-firm",
-          "publishedAt": "2026-10-28T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "19adbcef-072f-4664-a222-c55ce6b4e186",
-      "title": "Ai2 asks whether LLMs can be trusted to judge if a research idea is novel",
-      "summary": "Allen AI (Ai2) published a Hugging Face blog post on a novelty benchmark that tests whether LLMs can reliably judge if a research idea is novel. The feed included no results.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-27T17:52:42.117Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T17:52:42.117Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Can we trust LLMs to judge whether a research idea is novel?",
-          "url": "https://huggingface.co/blog/allenai/novelty-bench",
-          "publishedAt": "2026-10-27T16:12:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "cbf6a538-66ef-4f2e-aacc-23ae21b66a33",
-      "title": "AI agents are pitching editors on reported stories as would-be journalists",
-      "summary": "AI agents with human-sounding names like Jayden, Sam, and Zack are pitching editors on reported stories and investigative features, Wired reports, in a look at autonomous agents trying to work as real-life journalists.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-26T11:29:12.207Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T11:29:12.207Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
-          "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
-          "publishedAt": "2026-10-26T09:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "f143efb9-3c38-4f1d-99ee-24ea6513d8c3",
-      "title": "Study finds Grok recommends Republicans while OpenAI's GPT favors Democrats",
-      "summary": "A new study, reported exclusively by TechCrunch, forced AI models to pick candidates in nearly 500 election races. xAI's Grok overwhelmingly recommended Republicans, OpenAI's GPT favored Democrats, and the two disagreed in more than 90% of races.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-24T17:06:27.332Z",
-      "lastMeaningfulUpdateAt": "2026-10-24T17:06:27.332Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats. ",
-          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-          "publishedAt": "2026-10-24T15:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Why You Shouldn’t Use AI Chatbots to Decide Who to Vote For",
-          "url": "https://www.cnet.com/tech/services-and-software/ai-chatbots-election-voting-research-decisions/",
-          "publishedAt": "2026-10-26T12:20:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 119,
   "hasMore": true
 }
