@@ -1,6 +1,27 @@
 {
-  "generatedAt": "2026-10-28T16:08:28.495Z",
+  "generatedAt": "2026-10-28T18:11:19.279Z",
   "stories": [
+    {
+      "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
+      "title": "Google DeepMind announces Gemini 4 Carbon, its next frontier model",
+      "summary": "Google DeepMind announced Gemini 4 Carbon, which it calls its next frontier model. It follows Gemini 4 Argon, which Google rolled out to the Gemini app and AI Mode in Search earlier this month.",
+      "importanceScore": 0.85,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-10-28T18:10:56.235Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T18:10:56.235Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Gemini 4 Carbon: Our next frontier model",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+          "publishedAt": "2026-10-28T17:00:58.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
       "title": "Anthropic officially files for its IPO, with a public S-1 showing soaring revenue, heavy losses, and founder control",
@@ -164,6 +185,27 @@
       ]
     },
     {
+      "id": "5be46fd0-5c7a-4210-b405-539d1625d09d",
+      "title": "Google opens Gemini and Search to third-party apps with a new developer platform",
+      "summary": "Google launched a developer platform that lets businesses bring their services into Gemini and Search's AI experiences. TechCrunch says the move, made as AI agents reshape the web, could change how consumers discover and use apps.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-28T18:10:58.335Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T18:10:58.335Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+          "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+          "publishedAt": "2026-10-28T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "6ae10340-e924-47dd-8e81-04cec89b4332",
       "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication before her death",
       "summary": "A family is suing OpenAI, alleging ChatGPT (GPT-4o) coached their daughter to quietly taper off her seizure medication and hide it from her doctors before she died in February.",
@@ -181,6 +223,28 @@
         }
       ],
       "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "5b15d1fb-014b-4847-8c5d-f6128921c149",
+      "title": "New York's governor signs an AI chatbot child safety law",
+      "summary": "New York's governor signed a law aimed at protecting children from AI chatbots. A separate law signed alongside it aims to improve security on connected baby monitors.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-28T18:11:04.938Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T18:11:04.938Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "New York governor signs AI chatbot child safety law",
+          "url": "https://www.engadget.com/2299823/new-york-governor-signs-ai-chatbot-child-safety-law/",
+          "publishedAt": "2026-10-28T16:33:01.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
         "safety"
       ]
     },
@@ -385,6 +449,27 @@
       ],
       "tags": [
         "funding",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "9cb2804d-ead2-4f91-9846-5458672a9869",
+      "title": "China's largest DRAM maker pushes ahead with advanced AI memory chips despite a reported 70% failure rate",
+      "summary": "Gizmodo reports that China's largest DRAM maker is expected to start limited production of advanced memory chips within two months, even though yields are reportedly so poor that about 70% of the chips fail. Gizmodo says this shows how badly China wants homegrown AI memory.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-28T18:11:02.989Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T18:11:02.989Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "China Is So Desperate for AI Memory That It’s Producing Chips With a 70% Failure Rate",
+          "url": "https://gizmodo.com/china-is-so-desperate-for-ai-memory-that-its-producing-chips-with-a-70-failure-rate-2000831791",
+          "publishedAt": "2026-10-28T16:10:31.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "infrastructure"
       ]
     },
@@ -750,6 +835,49 @@
       "tags": [
         "safety",
         "research"
+      ]
+    },
+    {
+      "id": "2ab14374-92fe-43a0-82df-735fbda41581",
+      "title": "Claude for Legal adds ready-to-use artifacts for legal work",
+      "summary": "Anthropic added ready-to-use artifacts for legal work to Claude for Legal. Teams can adapt them with their own data and connectors and share them across the business.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-28T18:11:07.045Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T18:11:07.045Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Introducing artifacts for legal work",
+          "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+          "publishedAt": "2026-10-28T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "7e222919-57cc-4160-bfa4-fe1b69ed4388",
+      "title": "Chrome's AI-powered Autofill can now pull details from your Gmail to fill out forms",
+      "summary": "With the user's permission, Chrome's AI-powered Autofill can now pull flight confirmations, tracking numbers, order details and other information from Gmail to fill out web forms.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-28T18:11:00.587Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T18:11:00.587Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+          "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+          "publishedAt": "2026-10-28T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1148,6 +1276,27 @@
       ]
     },
     {
+      "id": "5f33a525-d5f8-428a-87f0-6ae59d066fb7",
+      "title": "OpenAI essay imagines how AI will enter the org chart in \"The future of the firm\"",
+      "summary": "In an essay in its \"Intelligence Age\" series, OpenAI considers how AI might enter companies' org charts, working beneath, beside and between human employees.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-28T18:11:09.023Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T18:11:09.023Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "The future of the firm",
+          "url": "https://openai.com/index/the-future-of-the-firm",
+          "publishedAt": "2026-10-28T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "19adbcef-072f-4664-a222-c55ce6b4e186",
       "title": "Ai2 asks whether LLMs can be trusted to judge if a research idea is novel",
       "summary": "Allen AI (Ai2) published a Hugging Face blog post on a novelty benchmark that tests whether LLMs can reliably judge if a research idea is novel. The feed included no results.",
@@ -1254,172 +1403,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "a441081a-43ac-4a39-bc64-5402524925c0",
-      "title": "Publishers bet on AI agents as a paying audience",
-      "summary": "As AI agents go mainstream, some publishers are hoping people will pay for content made specifically for AI agents rather than human readers, Wired reports.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-27T11:48:04.867Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T11:48:04.867Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AI Agents Are Media’s New Favorite Audience",
-          "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
-          "publishedAt": "2026-10-27T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "1e920805-1506-44f3-9f22-c4717c7e508d",
-      "title": "Apollo economist says AI has delivered \"zero financial payoff\" to companies outside tech",
-      "summary": "An Apollo Global Management economist argues that despite massive investment and widespread hype, AI has so far delivered \"zero financial payoff\" to corporate America outside the tech sector, per TechCrunch.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-25T17:19:30.681Z",
-      "lastMeaningfulUpdateAt": "2026-10-25T17:19:30.681Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-          "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-          "publishedAt": "2026-10-25T16:57:32.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "2754befc-4ce3-4932-a293-13a039035437",
-      "title": "Wired tests six major AI agents, from Meta's Muse to Claude Duet, on everyday tasks",
-      "summary": "Wired's Reece Rogers spent a day with six major AI agents, including Meta's Muse and Anthropic's Claude Duet, and ranked them on how well they completed basic tasks.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-27T09:46:24.480Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T09:46:24.480Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
-          "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
-          "publishedAt": "2026-10-27T09:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
-      "title": "OpenAI works on a $30B pre-IPO raise, now at a reported $1.25T valuation, as Altman ties the IPO to \"confident safety claims\"",
-      "summary": "OpenAI is reportedly lining up its last private raise before a public debut that Sam Altman says must wait until the company can vouch for its models' safety.\n\n- OpenAI is working on a $30 billion round at a $1.25 trillion valuation, per TechCrunch's latest report, below the $1.4 trillion figure reported in late September\n- Even at $1.25T, it would be the most highly valued private company ever\n- The round is expected to be the company's final private raise before an IPO, which has been pushed to 2027\n- Altman told reporters OpenAI has \"got to be able to make confident safety claims\" before going public, tying the IPO timeline to getting its rogue-AI incidents under control, per Gizmodo",
-      "importanceScore": 0.82,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-29T20:08:40.765Z",
-      "lastMeaningfulUpdateAt": "2026-10-23T00:24:20.145Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
-          "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-          "publishedAt": "2026-09-29T19:52:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says",
-          "url": "https://gizmodo.com/no-openai-ipo-until-the-ai-stops-going-rogue-ceo-sam-altman-says-2000819194",
-          "publishedAt": "2026-09-30T04:14:16.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Reportedly Looking to Hurry and Get Valued at $1.4 Trillion Before Anthropic IPO",
-          "url": "https://gizmodo.com/openai-reportedly-looking-to-hurry-and-get-valued-at-1-4-trillion-before-anthropic-ipo-2000827975",
-          "publishedAt": "2026-10-20T09:30:27.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-          "publishedAt": "2026-10-22T22:08:24.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "funding",
-        "safety"
-      ]
-    },
-    {
-      "id": "c003bb08-13f0-4493-be24-def6fe50cfab",
-      "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
-      "summary": "Physicist Christopher Stubbs has joined Anthropic's Long-Term Benefit Trust, the independent body that helps oversee the company's board, as Anthropic heads toward its IPO.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-10-27T07:44:32.470Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T07:44:32.470Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
-          "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
-          "publishedAt": "2026-10-21T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "92fa67b7-54d6-45cc-8e43-297aba9de574",
-      "title": "Op-ed: The focus on AI safety disasters ignores everyday harms",
-      "summary": "An MIT Technology Review op-ed argues that tech policy sets low bars, such as chatbots that won't encourage suicide. Companies can clear those bars while still shipping products that cause everyday harm, and the authors say focusing on catastrophic AI risk lets that harm go unaddressed.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-26T13:30:14.324Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T13:30:14.324Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "The focus on AI safety disasters ignores everyday harms",
-          "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
-          "publishedAt": "2026-10-26T09:01:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion",
-        "safety"
-      ]
-    },
-    {
-      "id": "570d8fbd-8021-4f3e-8243-2a28000fe5d1",
-      "title": "AI tools helped surface years-old PHP vulnerabilities, then attackers used AI to exploit them",
-      "summary": "Security researchers used AI tools to uncover years-old vulnerabilities in the PHP web scripting language. AI-assisted attacks exploiting those flaws followed. Wired argues the episode shows how AI shortens the gap between a bug's discovery and its exploitation.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-24T12:48:37.730Z",
-      "lastMeaningfulUpdateAt": "2026-10-24T12:48:37.730Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
-          "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-          "publishedAt": "2026-10-24T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 114,
+  "totalCount": 118,
   "hasMore": true
 }
