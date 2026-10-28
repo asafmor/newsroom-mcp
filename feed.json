@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:11:19.279Z",
+  "generatedAt": "2026-10-28T20:12:39.858Z",
   "stories": [
     {
       "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
@@ -428,6 +428,28 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "589a737c-d1b9-4156-8fbb-b56690b4f5bb",
+      "title": "Anthropic launches tools showing companies what their AI spending buys, ahead of its IPO",
+      "summary": "Anthropic launched tools that show enterprise customers how their spending on its models is being used, lifting the curtain on usage economics as it heads toward a planned IPO.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-28T20:12:25.963Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T20:12:25.963Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+          "publishedAt": "2026-10-28T19:19:58.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
       ]
     },
     {
@@ -1053,6 +1075,27 @@
       ]
     },
     {
+      "id": "a882647e-84de-4d69-aa53-9b542aaaf535",
+      "title": "OpenAI now lets users text their Dot agent over iMessage and RCS",
+      "summary": "OpenAI added text messaging to Dots, its always-on personal agents, so users can reach their Dot through iMessage or RCS.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-28T20:12:27.913Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T20:12:27.913Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI now lets you text your Dot agent",
+          "url": "https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent/",
+          "publishedAt": "2026-10-28T19:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "1b23789e-5281-49f6-aab7-1873e6f5f1c6",
       "title": "Opera proposes WebAI, a web standard for running AI models locally in the browser",
       "summary": "Opera has introduced WebAI, a proposed web standard that lets users run AI models locally in their browser, designed to work with a variety of models, per TechCrunch.",
@@ -1363,46 +1406,6 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "77a70355-9e02-4eca-b647-b872f1ee9918",
-      "title": "Cursor releases an Agent SDK",
-      "summary": "Cursor's changelog announces an Agent SDK. The source feed carried only the entry's title, so details on what the SDK exposes aren't available yet.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-26T23:38:40.893Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T23:38:40.893Z",
-      "sources": [
-        {
-          "providerName": "Cursor Blog",
-          "title": "Agent SDK",
-          "url": "https://cursor.com/changelog/agent-sdk",
-          "publishedAt": "2026-10-20T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "62fab6bb-8f0e-49c7-8c69-819b8b61c517",
-      "title": "AI chatbots could improve emergency alerts, if people take them seriously, Wired reports",
-      "summary": "A Wired feature examines the coming use of AI chatbots for emergency alerts, arguing they could help with communication humans have long struggled with, but only if the public trusts and acts on them.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-28T10:04:12.616Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T10:04:12.616Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
-          "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
-          "publishedAt": "2026-10-28T08:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 118,
