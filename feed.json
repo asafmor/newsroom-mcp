@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T08:03:04.387Z",
+  "generatedAt": "2026-10-28T10:04:17.828Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -149,6 +149,13 @@
           "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
           "publishedAt": "2026-10-28T01:15:28.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic Files for IPO After Raising $141.1 Billion",
+          "url": "https://www.geeky-gadgets.com/anthropic-has/",
+          "publishedAt": "2026-10-28T08:47:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -922,6 +929,27 @@
       ]
     },
     {
+      "id": "338ba807-9c09-4219-aebd-3da1dd903ff7",
+      "title": "Meta launches Waddle World, a Tamagotchi-like AI pet app",
+      "summary": "Meta has released Waddle World, a Tamagotchi-style AI digital pet app that it describes as a \"daily journal disguised as a pet.\"",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-28T10:04:10.635Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T10:04:10.635Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Meta's Waddle World is a Tamagotchi-like AI pet app",
+          "url": "https://www.engadget.com/2299227/meta-tamagotchi-like-ai-digital-pet-app-waddle-world/",
+          "publishedAt": "2026-10-28T08:40:19.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "e3264660-01e1-45df-9c31-69a4996f7cbe",
       "title": "Liquid AI introduces LFM3 for building specialized multimodal models",
       "summary": "Liquid AI posted on the Hugging Face blog about building specialized multimodal models with LFM3, the next generation of its LFM model family after LFM2.5. The feed included no further detail.",
@@ -1108,6 +1136,25 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "62fab6bb-8f0e-49c7-8c69-819b8b61c517",
+      "title": "AI chatbots could improve emergency alerts, if people take them seriously, Wired reports",
+      "summary": "A Wired feature examines the coming use of AI chatbots for emergency alerts, arguing they could help with communication humans have long struggled with, but only if the public trusts and acts on them.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-28T10:04:12.616Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T10:04:12.616Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+          "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+          "publishedAt": "2026-10-28T08:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "a441081a-43ac-4a39-bc64-5402524925c0",
@@ -1352,48 +1399,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "74857dde-e33f-42ed-a97c-406e2a8dca99",
-      "title": "Microsoft blames a China-aligned hacker using AI agents for the ConnectWise breach that exposed thousands of companies",
-      "summary": "Microsoft attributes the breach of IT giant ConnectWise to a China-aligned hacker that relied on AI agents to rapidly break into thousands of ConnectWise's customers and spy on them, TechCrunch reports.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-22T18:18:19.830Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T18:18:19.830Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
-          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
-          "publishedAt": "2026-10-22T16:47:17.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "fa7cb184-dea8-4d35-ae62-aba0dc3c2b1e",
-      "title": "DeepSeek reportedly raises $15B days after the US ordered agencies to drop its technology",
-      "summary": "DeepSeek has reportedly raised $15 billion, one of China's largest funding rounds, just days after the US ordered federal agencies to remove its technology over national security concerns.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-22T14:14:12.694Z",
-      "lastMeaningfulUpdateAt": "2026-10-22T14:14:12.694Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "DeepSeek reportedly raises $15B days after US restrictions",
-          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
-          "publishedAt": "2026-10-22T13:11:13.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
     }
   ],
   "totalCount": 118,
