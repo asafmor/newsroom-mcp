@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T14:07:21.875Z",
+  "generatedAt": "2026-10-28T16:08:28.495Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -317,6 +317,35 @@
       ]
     },
     {
+      "id": "94f2581b-471b-45a0-9e46-f9daf1cc08f0",
+      "title": "Nvidia releases Nemotron 3.5 Transcribe, a free open speech-to-text model for 40 languages, plus the Granary v2 dataset",
+      "summary": "Nvidia released Nemotron 3.5 Transcribe, a free multilingual speech-to-text model, alongside Granary v2, announced on the Hugging Face blog.\n\n- Transcribes up to 40 languages and, per Nvidia, can be prompted and adapted\n- Works only on recorded audio, not live streams, per TechCrunch\n- Positioned as a big step for meeting and medical transcription tools, while real-time use stays with rivals like ElevenLabs",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-28T16:08:14.482Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T16:08:14.482Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+          "publishedAt": "2026-10-28T15:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+          "publishedAt": "2026-10-28T14:58:17.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
+      ]
+    },
+    {
       "id": "246b1411-246a-45b2-a839-9c7917e94be1",
       "title": "Anthropic reports early progress on accelerating drug development with Claude",
       "summary": "Anthropic published research describing early progress in using Claude to accelerate drug development.",
@@ -399,6 +428,27 @@
       ],
       "tags": [
         "open-source"
+      ]
+    },
+    {
+      "id": "f12e0b2e-c35e-48ec-b03b-2b20c9b2cf2a",
+      "title": "South Korea's financial industry hit by a fresh wave of cyberattacks amid rising AI-driven hacking risk",
+      "summary": "South Korea's financial institutions have been hit by another wave of cyberattacks, TechCrunch reports, highlighting the growing risk of AI-driven hacking in Asia.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-28T16:08:16.631Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T16:08:16.631Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+          "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+          "publishedAt": "2026-10-28T15:41:18.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -936,6 +986,27 @@
       ]
     },
     {
+      "id": "38131e44-be2c-42f0-97ac-25e6d6a1309b",
+      "title": "Amazon tells employees to stop \"tokenmaxxing\"",
+      "summary": "Amazon is telling employees to stop \"tokenmaxxing,\" Gizmodo reports. Gizmodo frames it as a reminder that leaning on AI isn't always the fastest way to get work done.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-10-28T16:08:18.834Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T16:08:18.834Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Amazon to Employees: For the Love of God, Stop Tokenmaxxing",
+          "url": "https://gizmodo.com/amazon-to-employees-for-the-love-of-god-stop-tokenmaxxing-2000831789",
+          "publishedAt": "2026-10-28T16:00:30.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "8cbd710b-0181-48a0-9e76-1f8868cb9735",
       "title": "OpenAI Signals data maps how people use ChatGPT for work across 165 activities in nearly 100 countries",
       "summary": "OpenAI published OpenAI Signals data covering 165 work activities across nearly 100 countries, showing how people use ChatGPT for work and how that usage shifts over time.",
@@ -1347,69 +1418,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "831877c7-addc-4a5b-ad7a-7e5613913ee6",
-      "title": "Anthropic expands Claude for Nonprofits with a plugin for fundraising, marketing, and hiring",
-      "summary": "Anthropic's new Claude for Nonprofits plugin brings a set of skills to every verified nonprofit organization, aimed at the operational work that stretches small teams across fundraising, marketing, and hiring.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-26T23:38:43.094Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T23:38:43.094Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Expanding Claude for Nonprofits",
-          "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
-          "publishedAt": "2026-10-26T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "3b2fe26c-eac1-49dc-bb45-77314a09c48c",
-      "title": "xAI pitches Grok Bot as a sales teammate",
-      "summary": "xAI published a post pitching Grok Bot, its persistent-agent product, as a sales teammate. It's the latest in the company's series of use-case write-ups. The feed included no further detail.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-27T17:52:44.166Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T17:52:44.166Z",
-      "sources": [
-        {
-          "providerName": "xAI News",
-          "title": "Your next sales teammate should be a Grok Bot",
-          "url": "https://x.ai/news/grok-bot-sales",
-          "publishedAt": "2026-10-27T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "43272650-029e-4f1b-96b8-23a77f43ae0f",
-      "title": "UK invests $134 million in a new AI Biosecurity Lab",
-      "summary": "The UK has set up an AI Biosecurity Lab with $134 million in funding. It will use AI to detect biological threats and develop vaccines.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-24T17:06:29.286Z",
-      "lastMeaningfulUpdateAt": "2026-10-24T17:06:29.286Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "The UK is investing $134 million into an AI Biosecurity Lab",
-          "url": "https://www.engadget.com/2296211/the-uk-is-investing-134-million-into-an-ai-biosecurity-lab/",
-          "publishedAt": "2026-10-24T16:11:53.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 114,
   "hasMore": true
 }
