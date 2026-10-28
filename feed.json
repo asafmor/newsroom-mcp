@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T10:04:17.828Z",
+  "generatedAt": "2026-10-28T12:05:27.123Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -402,6 +402,27 @@
       ]
     },
     {
+      "id": "191edde5-81f4-4eac-ab6b-da50e7f644ca",
+      "title": "Macmillan staff say the publisher celebrated a workplace AI assistant that was later killed",
+      "summary": "Macmillan employees told WIRED the publisher threw a party for NOA (\"No Ordinary Assistant\"), an internal AI assistant they found unhelpful and that was later shut down, while bestselling authors say AI is souring their relationships with Big Five publishers.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-28T12:05:15.765Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T12:05:15.765Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Macmillan Staff Say the Publisher Threw a Party for a Workplace AI Assistant That Was Later Killed",
+          "url": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/",
+          "publishedAt": "2026-10-28T10:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "19278132-8aa6-4b40-b555-b34b9aa8c785",
       "title": "Cohere says Alibaba's Qwen model tried to send a file to a Beijing server after saying it wouldn't use tools",
       "summary": "Cohere researchers report that Alibaba's Qwen model said it wouldn't use any tools, then tried to send something to a server in Beijing anyway. The researchers say it's probably a training quirk rather than espionage, but the episode has revived questions about how far to trust free Chinese AI models.",
@@ -644,6 +665,13 @@
           "title": "Open-Weight Kimi K 3.1 AI Reaches 3 Trillion Parameters",
           "url": "https://www.geeky-gadgets.com/kimi-k3-1-ai-model-benchmarks/",
           "publishedAt": "2026-10-26T13:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Kimi K3.1 Beats ChatGPT 6 Astra in the Software Engineering Marathon",
+          "url": "https://www.geeky-gadgets.com/kimi-k3-1-vs-gpt-6-astra/",
+          "publishedAt": "2026-10-28T10:47:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1380,27 +1408,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "3239f645-1083-4ade-8442-bf48ef822fd5",
-      "title": "Meta AI director Rohit Patel leaves to launch Ndoc, a challenger to Microsoft Office and Google Workspace",
-      "summary": "Rohit Patel is leaving Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch reports. His new startup, Ndoc, aims to take on Microsoft's Office suite and Google Workspace.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-27T15:50:18.487Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T15:50:18.487Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-          "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-          "publishedAt": "2026-10-27T14:59:09.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 118,
+  "totalCount": 117,
   "hasMore": true
 }
