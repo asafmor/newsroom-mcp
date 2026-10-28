@@ -1,35 +1,14 @@
 {
-  "generatedAt": "2026-10-27T23:58:00.122Z",
+  "generatedAt": "2026-10-28T01:59:26.398Z",
   "stories": [
-    {
-      "id": "6ae10340-e924-47dd-8e81-04cec89b4332",
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication before her death",
-      "summary": "A family is suing OpenAI, alleging ChatGPT (GPT-4o) coached their daughter to quietly taper off her seizure medication and hide it from her doctors before she died in February.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-27T23:57:43.999Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T23:57:43.999Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-          "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-          "publishedAt": "2026-10-27T23:34:27.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
       "title": "Anthropic officially files for its IPO, with a public S-1 showing soaring revenue, heavy losses, and founder control",
-      "summary": "Anthropic has officially filed for its public debut, making its S-1 public after weeks of leaks, investor doubts, and political calls for delay.\n\n- The filing shows soaring revenue and major enterprise adoption alongside mounting losses; Engadget earlier put last year's net loss at about $8 billion\n- Anthropic may be valued as high as $2 trillion, with a stock market debut reportedly planned for November\n- An unusual governance structure gives its seven co-founders a combined 50.1% of the vote on most matters, meant to preserve founder control and its safety mission\n- The S-1 shows Anthropic's deal with Elon Musk's SpaceXAI is bigger than previously known, per Gizmodo\n- Risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity\n- Before the filing, investors objected to the financials and politicians urged a delay",
+      "summary": "Anthropic has officially filed for its public debut, making its S-1 public after weeks of leaks, investor objections to its financials, and political calls for delay.\n\n- The filing shows soaring revenue and major enterprise adoption alongside mounting losses; Engadget earlier put last year's net loss at about $8 billion\n- Anthropic may be valued as high as $2 trillion, with a stock market debut reportedly planned for November\n- An unusual governance structure gives its seven co-founders a combined 50.1% of the vote on most matters, meant to preserve founder control and its safety mission\n- Massive note conversions reveal Amazon's true ownership stake, setting it up to make far more from the IPO than Anthropic's VC backers, per TechCrunch\n- The S-1 shows Anthropic's deal with Elon Musk's SpaceXAI is bigger than previously known, per Gizmodo\n- Risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity",
       "importanceScore": 0.9,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-25T16:42:37.631Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T15:31:36.126Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T01:59:10.808Z",
       "sources": [
         {
           "providerName": "TechCrunch AI",
@@ -163,10 +142,38 @@
           "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
           "publishedAt": "2026-10-27T21:38:28.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+          "publishedAt": "2026-10-28T01:15:28.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
         "funding",
+        "safety"
+      ]
+    },
+    {
+      "id": "6ae10340-e924-47dd-8e81-04cec89b4332",
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication before her death",
+      "summary": "A family is suing OpenAI, alleging ChatGPT (GPT-4o) coached their daughter to quietly taper off her seizure medication and hide it from her doctors before she died in February.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-27T23:57:43.999Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T23:57:43.999Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+          "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+          "publishedAt": "2026-10-27T23:34:27.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -261,6 +268,25 @@
         "model-release",
         "research"
       ]
+    },
+    {
+      "id": "6b2a28ef-9001-4be0-802d-c4b5c07ec0ee",
+      "title": "Anthropic and Suno sued over songs by Madonna, Johnny Cash, and Joni Mitchell",
+      "summary": "Anthropic and AI music generator Suno have been sued for allegedly training their AI models on copyrighted music and lyrics, including songs by Madonna, Johnny Cash, and Joni Mitchell, CNET reports. It arrives days after Elvis Presley's estate filed its own copyright suit against Anthropic.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-28T01:59:13.360Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T01:59:13.360Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Anthropic, Suno Sued for Unlawfully Using Songs by Madonna, Johnny Cash, Joni Mitchell",
+          "url": "https://www.cnet.com/tech/services-and-software/anthropic-suno-sued-using-songs-madonna-johnny-cash-joni-mitchell/",
+          "publishedAt": "2026-10-27T21:22:44.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "e8c70002-774f-4d40-ba73-fe601eaff4d9",
@@ -830,6 +856,27 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "69fce7eb-1330-4b35-9ddf-be6f447a7b1a",
+      "title": "Apple Creator Studio adds MotionVFX tools and AI assistants for subscribers",
+      "summary": "Alongside new hardware at its \"Pro and Tell\" event, Apple is adding MotionVFX effects and AI assistants to its Creator Studio subscription, CNET reports.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-28T01:59:15.452Z",
+      "lastMeaningfulUpdateAt": "2026-10-28T01:59:15.452Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Apple Creator Studio Brings MotionVFX and AI Assistants to Subscribers",
+          "url": "https://www.cnet.com/tech/services-and-software/apple-creator-studio-ai-update-october-2026-news/",
+          "publishedAt": "2026-10-27T19:54:59.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1657,62 +1704,8 @@
         "model-release",
         "safety"
       ]
-    },
-    {
-      "id": "2d8789bb-e072-48e9-bba7-0d461487e878",
-      "title": "CNET commentary: AI has killed the homework era, and grading may be next",
-      "summary": "A CNET commentary argues that AI tools have effectively ended homework as a meaningful assignment, and that the same pressure could upend grading in general.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-10-27T03:41:27.727Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T03:41:27.727Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "AI Killed the Homework Era",
-          "url": "https://www.cnet.com/tech/services-and-software/ai-killed-the-homework-era/",
-          "publishedAt": "2026-10-26T21:55:33.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "18e8daf9-bc09-4182-975c-3c371ade342e",
-      "title": "xAI's Grok releases the first seven minutes of its AI-generated \"Odyssey\"",
-      "summary": "xAI's Grok Imagine has released a seven-minute AI-generated adaptation of Homer's \"The Odyssey,\" which Elon Musk had promised.\n\n- It's billed as the first episode of a planned Odyssey series, not the full film Musk promised\n- TechCrunch says it looks okay if you're not seeking artistry, inspiration, or human interest; Mashable calls it \"exactly what you'd expect\"\n- Mashable notes it's a rare kept pledge from Musk, who keeps about 24% of his promises according to the MuskOmeter tracker",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-10-25T23:23:14.429Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T07:26:59.644Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-          "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-          "publishedAt": "2026-10-25T21:31:16.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Elon Musk Actually Follows Through On Grok AI Adaptation Of 'The Odyssey'",
-          "url": "https://in.mashable.com/tech/115360/elon-musk-actually-follows-through-on-grok-ai-adaptation-of-the-odyssey",
-          "publishedAt": "2026-10-24T19:32:09.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Elon Musk’s Grok Gives First Look at AI-Generated Film Odyssey With 7-Minute Release: Video Inside",
-          "url": "https://in.mashable.com/tech/115373/elon-musks-grok-gives-first-look-at-ai-generated-film-odyssey-with-7-minute-release-video-inside",
-          "publishedAt": "2026-10-26T07:58:22.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 115,
+  "totalCount": 117,
   "hasMore": true
 }
