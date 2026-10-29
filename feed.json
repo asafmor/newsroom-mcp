@@ -1,6 +1,27 @@
 {
-  "generatedAt": "2026-10-29T18:32:07.376Z",
+  "generatedAt": "2026-10-29T20:33:32.649Z",
   "stories": [
+    {
+      "id": "5629b9e5-9573-44a8-b923-48cad78d40cb",
+      "title": "An Accenture contractor's personal Claude agent ran on a secure Pentagon network for two months",
+      "summary": "Sources tell WIRED that an Accenture employee's personal Claude agent ran on a Department of Defense network for two months before it was identified and the vulnerability was patched.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-29T20:33:11.932Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T20:33:11.932Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+          "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+          "publishedAt": "2026-10-29T18:39:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "411ce84e-04d8-4ce3-bbb4-b4daa12424ee",
       "title": "Mistral releases the weights for \"Le Chonk,\" its trillion-parameter open model, pitching it for cybersecurity",
@@ -100,6 +121,51 @@
       "tags": [
         "model-release"
       ]
+    },
+    {
+      "id": "977f1fa0-f8bf-438a-8742-dafa32624e76",
+      "title": "Reddit shifts to a logged-in experience as AI dries up search traffic, after killing RSS and its public API",
+      "summary": "Reddit keeps pulling back from the open web as AI changes how people find information.\n\n- New: it is moving to a logged-in experience as search traffic dries up, to protect its audience and business\n- It had already ended RSS feed support and shut down public API access, blaming AI bots",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-30T18:28:41.281Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T20:33:13.782Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+          "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+          "publishedAt": "2026-09-30T17:45:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+          "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+          "publishedAt": "2026-10-29T20:08:31.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "d9648913-4e61-4f3c-aa4c-b096690b425b",
+      "title": "OpenAI-backed Thrive Holdings buys ADT for $15.3B to bring AI to home security",
+      "summary": "Thrive Holdings, which is backed by OpenAI, is acquiring home security company ADT in a $15.3 billion deal. It plans to bring AI to the business, per TechCrunch.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-29T20:33:17.778Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T20:33:17.778Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI-backed Thrive Holdings acquires ADT",
+          "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+          "publishedAt": "2026-10-29T19:56:19.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -497,6 +563,32 @@
       ]
     },
     {
+      "id": "a0a6c974-aaf6-43e0-9d56-e7b2e9694a9f",
+      "title": "Rivian expands its VW joint venture to include its in-car AI assistant",
+      "summary": "Rivian is expanding its $5.8 billion joint venture with Volkswagen to include its AI assistant, but hasn't said whether the deal's value will grow. It plans to bring AI agents to its vehicles and will share more details at its \"AI & Autonomy Day\" in December.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-15T16:19:06.901Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T20:33:15.678Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI agents are coming to Rivian’s cars",
+          "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+          "publishedAt": "2026-10-15T15:02:36.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Rivian expands joint venture with VW to include AI assistant",
+          "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+          "publishedAt": "2026-10-29T20:05:47.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "00771919-efad-4b8e-8868-a16709aa691c",
       "title": "Anthropic study finds experts readily follow Claude's advice but rarely admit it shaped their decisions",
       "summary": "In an Anthropic study, 86% of participants followed Claude's advice, but only a small fraction acknowledged the AI's role in their decisions. The findings suggest AI can quietly sway expert judgment.",
@@ -632,6 +724,27 @@
           "title": "Anthropic Officially Launches Claude 2.0 Across 95 Countries",
           "url": "https://www.geeky-gadgets.com/claude-code/",
           "publishedAt": "2026-10-29T09:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "99036b3d-3f77-45df-9924-b5a8c68ffe31",
+      "title": "Meta quietly launches Style Sketch, an AI fashion app built on your Instagram photos",
+      "summary": "Meta has quietly launched Style Sketch, an AI fashion app. It connects to Instagram to build a virtual closet from photos you've already shared, or you can add items by snapping a photo, recording a short video, or uploading from your camera roll.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-29T20:33:20.022Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T20:33:20.022Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta quietly launches an AI fashion app called Style Sketch",
+          "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+          "publishedAt": "2026-10-29T19:14:36.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1395,113 +1508,6 @@
       "tags": [
         "safety",
         "research"
-      ]
-    },
-    {
-      "id": "2ab14374-92fe-43a0-82df-735fbda41581",
-      "title": "Claude for Legal adds ready-to-use artifacts for legal work",
-      "summary": "Anthropic added ready-to-use artifacts for legal work to Claude for Legal. Teams can adapt them with their own data and connectors and share them across the business.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-28T18:11:07.045Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T18:11:07.045Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Introducing artifacts for legal work",
-          "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
-          "publishedAt": "2026-10-28T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "7e222919-57cc-4160-bfa4-fe1b69ed4388",
-      "title": "Chrome's AI-powered Autofill can now pull details from your Gmail to fill out forms",
-      "summary": "With the user's permission, Chrome's AI-powered Autofill can now pull flight confirmations, tracking numbers, order details and other information from Gmail to fill out web forms.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-28T18:11:00.587Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T18:11:00.587Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
-          "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
-          "publishedAt": "2026-10-28T17:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "89b30135-cc25-4025-8911-3ff45b9c99e4",
-      "title": "UK watchdog weighs probe into the Home Office's use of OpenAI tools on asylum claims",
-      "summary": "A UK government watchdog is considering investigating the Home Office's use of ChatGPT technology to process asylum claims, citing concerns over the tools' accuracy and the secrecy surrounding their use.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-27T15:50:16.438Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T15:50:16.438Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "UK Home Office May Face Investigation Over Use of OpenAI Tools",
-          "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
-          "publishedAt": "2026-10-27T15:10:26.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
-    },
-    {
-      "id": "ff3dc086-0c2a-4126-a256-ae7445b0fb04",
-      "title": "General Compute raises a $100M Series A to bet on non-Nvidia inference chips",
-      "summary": "Neocloud startup General Compute raised a $100 million Series A, betting on inference chips from outside the Nvidia ecosystem and pushing back on the narrative that neoclouds are headed for disaster, per TechCrunch.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-27T13:49:16.227Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T13:49:16.227Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
-          "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
-          "publishedAt": "2026-10-27T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "e3fdce08-b253-4ff8-bc06-54b82808f8a4",
-      "title": "Meta launches Waddle World, a Tamagotchi-style AI journaling app, in the Philippines",
-      "summary": "Meta released Waddle World, a free iOS and Android app for adults that pairs a Tamagotchi-style virtual pet with AI-assisted journaling. It's available only in the Philippines for now, and Mashable asks what Meta does with the personal check-ins the app collects.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-29T06:20:01.768Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T06:20:01.768Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "Meta Launches Waddle World, A Tamagotchi-Style AI Journal",
-          "url": "https://in.mashable.com/tech/115478/meta-launches-waddle-world-a-tamagotchi-style-ai-journal",
-          "publishedAt": "2026-10-28T21:33:36.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
       ]
     }
   ],
