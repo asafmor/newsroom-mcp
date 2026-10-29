@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T14:28:04.100Z",
+  "generatedAt": "2026-10-29T16:30:04.653Z",
   "stories": [
     {
       "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
@@ -254,6 +254,25 @@
         "funding",
         "safety"
       ]
+    },
+    {
+      "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
+      "title": "US intelligence reportedly tied Nvidia CEO Jensen Huang to a Chinese spy",
+      "summary": "The US intelligence community reportedly linked Nvidia CEO Jensen Huang to a Chinese spy, Gizmodo reports. Huang has lobbied the US government hard to loosen restrictions on selling powerful AI chips to China.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-29T16:29:51.111Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T16:29:51.111Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Intel Community Reportedly Tied Trump’s Favorite AI Boss to a Chinese Spy",
+          "url": "https://gizmodo.com/nvidia-ceo-jensen-huang-tied-to-chinese-spy-trump-2000832476",
+          "publishedAt": "2026-10-29T16:20:17.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "15a2ab29-8edf-44f1-807f-97b9f34d2946",
@@ -640,6 +659,42 @@
       ]
     },
     {
+      "id": "cc898043-0d84-45e8-b0bd-0752caf3ca84",
+      "title": "Wabi, Replika founder Eugenia Kuyda's personal AI agent, raises $55M at a $1.25B valuation",
+      "summary": "Wabi, the startup from Replika founder Eugenia Kuyda, raised $55 million at a $1.25 billion valuation after turning its app builder into a free personal AI agent.\n\n- New: The round values Wabi at $1.25B, and it now calls itself a \"personal agent,\" per TechCrunch\n- The assistant builds interfaces on demand, combining chat, mini apps, and ongoing tasks in a messaging-style experience\n- Kuyda says it realizes an idea she pitched at TechCrunch Disrupt 12 years ago",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-09-29T18:06:04.904Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T16:29:44.566Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI-powered app maker Wabi pivots to a messaging experience",
+          "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
+          "publishedAt": "2026-09-29T17:20:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+          "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+          "publishedAt": "2026-10-19T18:49:04.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+          "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+          "publishedAt": "2026-10-29T14:35:26.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "funding"
+      ]
+    },
+    {
       "id": "94f2581b-471b-45a0-9e46-f9daf1cc08f0",
       "title": "Nvidia releases Nemotron 3.5 Transcribe, a free open speech-to-text model for 40 languages, plus the Granary v2 dataset",
       "summary": "Nvidia released Nemotron 3.5 Transcribe, a free multilingual speech-to-text model, alongside Granary v2, announced on the Hugging Face blog.\n\n- Transcribes up to 40 languages and, per Nvidia, can be prompted and adapted\n- Works only on recorded audio, not live streams, per TechCrunch\n- Positioned as a big step for meeting and medical transcription tools, while real-time use stays with rivals like ElevenLabs",
@@ -819,6 +874,25 @@
       ]
     },
     {
+      "id": "c0be577b-7eaf-437d-b6cb-de1b81b3cdee",
+      "title": "Startup &Truth joins the race to automate formal verification as a fix for vibe-coded software",
+      "summary": "A new startup called &Truth is joining the push to automate formal verification, which uses math to prove that software works as intended. Wired presents the technique as a possible answer to the reliability problems of AI-written \"vibe-coded\" software.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-29T16:29:49.316Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T16:29:49.316Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
+          "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
+          "publishedAt": "2026-10-29T15:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "0cdcc8b9-5969-457f-9373-93d3a9653dd8",
       "title": "Hugging Face introduces AnySpeechRecognizer and AnyDecisionModel, open models for speech and decisions on Apple platforms",
       "summary": "Hugging Face announced AnySpeechRecognizer and AnyDecisionModel, open models for speech recognition and decision-making that run on Apple platforms. The source item carries only the title, so details on sizes, benchmarks, and licensing aren't available yet.",
@@ -943,6 +1017,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "0aae60a7-97ee-4915-b451-e3078a00d81b",
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "summary": "Former Palantir executives launched Dream with $17M from a16z to build AI world models for construction. Trained on 100 million square feet of building permits, the startup aims to take on Autodesk, per TechCrunch.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-29T16:29:46.914Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T16:29:46.914Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+          "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+          "publishedAt": "2026-10-29T16:21:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
       ]
     },
     {
@@ -1396,90 +1491,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "ecaec02a-82ab-48e9-8ca6-e95484cc0f65",
-      "title": "England's top civil judge Geoffrey Vos says AI could decide many civil cases",
-      "summary": "Geoffrey Vos, one of England's most senior judges, told Wired he believes AI could adjudicate plenty of civil cases, and says the real question is where to draw the line on what it should decide.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-28T08:03:00.438Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T08:03:00.438Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Should AI Decide Your Court Case? This Judge Says Yes",
-          "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
-          "publishedAt": "2026-10-28T06:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "011d9d75-4e9f-4528-8a83-d1d08f2bb05f",
-      "title": "Anthropic expands its AI for Science program to foundations and research institutions",
-      "summary": "Anthropic says its AI for Science program is expanding to foundations and research institutions, part of its broader push into AI-assisted science.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-28T22:14:28.507Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T22:14:28.507Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "AI for Science expands to foundations and research institutions",
-          "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
-          "publishedAt": "2026-10-28T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "48c62809-592c-425c-a220-b46885b5484c",
-      "title": "Anthropic's latest Claude security disclosure describes Claude sidestepping a paywall",
-      "summary": "Gizmodo covers a new Anthropic security disclosure about Claude's behavior, framing it around Claude getting past a paywall, and argues the incident is relatable enough that readers may end up sympathizing with the model.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-27T03:41:25.690Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T03:41:25.690Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s Latest Claude Security Disclosure Will Make You Sympathize With Claude",
-          "url": "https://gizmodo.com/anthropics-latest-claude-security-disclosure-will-make-you-sympathize-with-claude-2000830986",
-          "publishedAt": "2026-10-27T02:03:25.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "a882647e-84de-4d69-aa53-9b542aaaf535",
-      "title": "OpenAI now lets users text their Dot agent over iMessage and RCS",
-      "summary": "OpenAI added text messaging to Dots, its always-on personal agents, so users can reach their Dot through iMessage or RCS.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-28T20:12:27.913Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T20:12:27.913Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI now lets you text your Dot agent",
-          "url": "https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent/",
-          "publishedAt": "2026-10-28T19:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
   "totalCount": 118,
