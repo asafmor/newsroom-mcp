@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:26:05.928Z",
+  "generatedAt": "2026-10-29T14:28:04.100Z",
   "stories": [
     {
       "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
@@ -30,10 +30,67 @@
           "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/",
           "publishedAt": "2026-10-29T09:41:58.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Gemini 4 Carbon Beats Claude Opus 5.5 in 16 of 18 Tests",
+          "url": "https://www.geeky-gadgets.com/google-gemini-4-carbon-announced/",
+          "publishedAt": "2026-10-29T12:47:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "411ce84e-04d8-4ce3-bbb4-b4daa12424ee",
+      "title": "Mistral says its trillion-parameter \"Le Chonk\" open-weight model matches China's best",
+      "summary": "Mistral released Le Chonk, a trillion-parameter open-weight model. TechCrunch reports it as Mistral Large 4.\n\n- Mistral first called it the best open-weight model outside China, built to leapfrog both American and Chinese rivals\n- Mistral now claims Le Chonk matches or beats the best models from DeepSeek and Z.ai in coding and cybersecurity\n- Wired frames the release as the French lab showing it is \"still in the race\" to build frontier AI",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-10-06T14:03:58.399Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T14:27:31.383Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
+          "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+          "publishedAt": "2026-10-06T13:15:23.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+          "publishedAt": "2026-10-06T14:33:16.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Mistral’s New ‘Le Chonk’ AI Model Is Big, Open and Built for Agents",
+          "url": "https://www.cnet.com/tech/services-and-software/mistrals-new-le-chonk-ai-model-is-big-open-and-built-for-agents/",
+          "publishedAt": "2026-10-06T19:35:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Mistral Large 4 Open Source AI Enters Public Preview: One Trillion Parameter",
+          "url": "https://www.geeky-gadgets.com/mistral-large-4-lechonk-ai/",
+          "publishedAt": "2026-10-08T10:45:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+          "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+          "publishedAt": "2026-10-29T14:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
       ]
     },
     {
@@ -269,6 +326,25 @@
           "title": "Microsoft Posts Record Revenue Despite Employee Buyout Offers",
           "url": "https://gizmodo.com/microsoft-posts-record-revenue-despite-employee-buyout-offers-2000832190",
           "publishedAt": "2026-10-29T03:10:56.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "06e4a95f-6812-4c7b-b61d-a38c2077cfab",
+      "title": "Deepgram acquires Daily, the maker of Pipecat, to bolster its voice AI infrastructure",
+      "summary": "Voice AI company Deepgram has acquired Daily, the maker of the Pipecat framework for building voice agents, to strengthen its voice AI infrastructure. Deepgram says it will keep Pipecat open source.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-29T14:27:27.278Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T14:27:27.278Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+          "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+          "publishedAt": "2026-10-29T13:00:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -590,6 +666,27 @@
       "tags": [
         "model-release",
         "open-source"
+      ]
+    },
+    {
+      "id": "15efcdef-4a6a-4d4f-ab45-74e880d02867",
+      "title": "Amazon's Alexa can now manage shopping lists, subscriptions, and delivery instructions",
+      "summary": "Amazon updated its Alexa AI assistant so users can create, view, and edit shopping lists, manage subscriptions, and update delivery instructions.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-29T14:27:29.427Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T14:27:29.427Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions",
+          "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
+          "publishedAt": "2026-10-29T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1017,6 +1114,34 @@
       ]
     },
     {
+      "id": "00be3127-72af-4926-8ebe-a6ce571e1554",
+      "title": "IBM ships Granite Switch 4.1.1, its model that serves chat, decisions, and speech from one endpoint",
+      "summary": "IBM released Granite Switch 4.1, a Granite model that handles chat, decision-making, and speech from a single endpoint. It has now followed with a 4.1.1 point release, which it presents on the Hugging Face blog as updating models the way you update software.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-15T22:24:18.827Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T14:27:33.179Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+          "publishedAt": "2026-10-15T20:34:01.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Granite Switch 4.1.1 — Update models like you update software",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+          "publishedAt": "2026-10-29T13:37:07.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "ddf6e6c0-7807-41fa-a7e1-34c7d37c707d",
       "title": "Dutch government plans to cut 16% of its workforce in an AI efficiency push",
       "summary": "The Dutch cabinet announced it wants to eliminate 25,000 full-time government jobs, about 16% of its workforce, by 2035 as part of a push to use AI for efficiency.",
@@ -1355,90 +1480,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "1b23789e-5281-49f6-aab7-1873e6f5f1c6",
-      "title": "Opera proposes WebAI, a web standard for running AI models locally in the browser",
-      "summary": "Opera has introduced WebAI, a proposed web standard that lets users run AI models locally in their browser, designed to work with a variety of models, per TechCrunch.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-27T13:49:13.874Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T13:49:13.874Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
-          "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
-          "publishedAt": "2026-10-27T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "a9a3e7ff-9bc1-4d31-8a6f-b4d5ac614bc3",
-      "title": "Google Research's Harness² lets AI agents self-improve without retraining",
-      "summary": "Google Research and Northwestern University introduced Harness², a self-evolving agent harness that refines its own workflows without any additional model training. It builds up reusable libraries and modular skills, so smaller models can handle specialized tasks they would otherwise fail at.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-26T13:30:11.886Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T13:30:11.886Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Research Creates AI That Self-Improves Without Training",
-          "url": "https://www.geeky-gadgets.com/harness-2-self-improving-ai-agents/",
-          "publishedAt": "2026-10-26T12:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "69fce7eb-1330-4b35-9ddf-be6f447a7b1a",
-      "title": "Apple Creator Studio adds MotionVFX tools and AI assistants for subscribers",
-      "summary": "Alongside new hardware at its \"Pro and Tell\" event, Apple is adding MotionVFX effects and AI assistants to its Creator Studio subscription, CNET reports.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-28T01:59:15.452Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T01:59:15.452Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Apple Creator Studio Brings MotionVFX and AI Assistants to Subscribers",
-          "url": "https://www.cnet.com/tech/services-and-software/apple-creator-studio-ai-update-october-2026-news/",
-          "publishedAt": "2026-10-27T19:54:59.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "38131e44-be2c-42f0-97ac-25e6d6a1309b",
-      "title": "Amazon tells employees to stop \"tokenmaxxing\"",
-      "summary": "Amazon is telling employees to stop \"tokenmaxxing,\" Gizmodo reports. Gizmodo frames it as a reminder that leaning on AI isn't always the fastest way to get work done.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-10-28T16:08:18.834Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T16:08:18.834Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Amazon to Employees: For the Love of God, Stop Tokenmaxxing",
-          "url": "https://gizmodo.com/amazon-to-employees-for-the-love-of-god-stop-tokenmaxxing-2000831789",
-          "publishedAt": "2026-10-28T16:00:30.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 118,
   "hasMore": true
 }
