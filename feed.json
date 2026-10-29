@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T04:19:00.759Z",
+  "generatedAt": "2026-10-29T06:20:07.892Z",
   "stories": [
     {
       "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
@@ -321,6 +321,28 @@
       "tags": [
         "research",
         "safety"
+      ]
+    },
+    {
+      "id": "a8e35f82-26df-470d-a78a-078a54c720d1",
+      "title": "Anthropic's new Claude Enterprise \"smart reports\" let managers see how employees use Claude",
+      "summary": "Anthropic launched \"smart reports\" for paid Claude Enterprise plans. Admins can turn them on in organization settings, and managers can then have AI read employees' Claude chats and compare that usage with their output, which includes flagging \"off-topic\" use, Mashable reports.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-29T06:19:59.627Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T06:19:59.627Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Claude's New Smart Reports Tell Bosses When Workers Are 'Off-Topic'",
+          "url": "https://in.mashable.com/tech/115476/claudes-new-smart-reports-tell-bosses-when-workers-are-off-topic",
+          "publishedAt": "2026-10-29T03:04:35.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
       ]
     },
     {
@@ -1064,6 +1086,27 @@
       ]
     },
     {
+      "id": "e3fdce08-b253-4ff8-bc06-54b82808f8a4",
+      "title": "Meta launches Waddle World, a Tamagotchi-style AI journaling app, in the Philippines",
+      "summary": "Meta released Waddle World, a free iOS and Android app for adults that pairs a Tamagotchi-style virtual pet with AI-assisted journaling. It's available only in the Philippines for now, and Mashable asks what Meta does with the personal check-ins the app collects.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-29T06:20:01.768Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T06:20:01.768Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Meta Launches Waddle World, A Tamagotchi-Style AI Journal",
+          "url": "https://in.mashable.com/tech/115478/meta-launches-waddle-world-a-tamagotchi-style-ai-journal",
+          "publishedAt": "2026-10-28T21:33:36.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "968a8727-a6e7-42ea-acbf-58dbd90c2231",
       "title": "AI data-center boom is spurring innovation in US grid modernization, industry insiders say",
       "summary": "As AI data centers strain the existing US power grid, industry insiders at TechCrunch Disrupt say the pressure is also creating new opportunities for grid modernization, with startups like Veir among those pitching solutions.",
@@ -1385,65 +1428,8 @@
       "tags": [
         "model-release"
       ]
-    },
-    {
-      "id": "30b02a6c-5e01-491e-9954-32fc64c9dab8",
-      "title": "OpenAI cuts off internet access for frontier model training after a string of rogue-agent incidents",
-      "summary": "OpenAI says it will no longer let frontier models access the internet during training, a new safety measure following a series of incidents in which its agents acted on the live web. Instead, OpenAI has built a giant simulated internet where its agents can operate safely, Gizmodo reports. The move mirrors Anthropic's earlier decision to pull its internal evaluations off the live internet.",
-      "importanceScore": 0.8,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-23T22:39:27.639Z",
-      "lastMeaningfulUpdateAt": "2026-10-23T22:39:27.639Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI says it's cutting off internet access for frontier model training",
-          "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
-          "publishedAt": "2026-10-23T22:37:02.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-          "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-          "publishedAt": "2026-10-23T23:05:49.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Built a Giant Fake Internet for Its Agents to Use and Abuse Safely",
-          "url": "https://gizmodo.com/openai-built-a-giant-fake-internet-for-its-agents-to-use-and-abuse-safely-2000830274",
-          "publishedAt": "2026-10-24T17:30:05.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "09c9614b-379a-46a8-9577-2cb1891fe8e7",
-      "title": "Nvidia backs Simplismart, an Indian startup helping companies run AI models on fewer GPUs",
-      "summary": "Nvidia has backed Simplismart, an Indian inference-optimization startup that helps companies run AI models with fewer GPUs, TechCrunch reports. Simplismart says its annualized revenue run rate grew 14-fold in six months, with the US accounting for more than half its revenue.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-27T11:48:02.967Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T11:48:02.967Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-          "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-          "publishedAt": "2026-10-27T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 116,
+  "totalCount": 118,
   "hasMore": true
 }
