@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-10-29T16:30:04.653Z",
+  "generatedAt": "2026-10-29T18:32:07.376Z",
   "stories": [
+    {
+      "id": "411ce84e-04d8-4ce3-bbb4-b4daa12424ee",
+      "title": "Mistral releases the weights for \"Le Chonk,\" its trillion-parameter open model, pitching it for cybersecurity",
+      "summary": "Mistral has released the weights for Le Chonk, its trillion-parameter open-weight model (reported by TechCrunch as Mistral Large 4), and is pitching it at cybersecurity.\n\n- Mistral says self-hosted weights give organizations a kind of control over their cyber defenses that closed models can't\n- It claims Le Chonk matches or beats the best models from DeepSeek and Z.ai in coding and cybersecurity\n- Mistral first called it the best open-weight model outside China, built to leapfrog both American and Chinese rivals\n- Wired frames the release as the French lab showing it is \"still in the race\" to build frontier AI",
+      "importanceScore": 0.74,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-10-06T14:03:58.399Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T18:31:37.572Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
+          "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+          "publishedAt": "2026-10-06T13:15:23.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+          "publishedAt": "2026-10-06T14:33:16.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Mistral’s New ‘Le Chonk’ AI Model Is Big, Open and Built for Agents",
+          "url": "https://www.cnet.com/tech/services-and-software/mistrals-new-le-chonk-ai-model-is-big-open-and-built-for-agents/",
+          "publishedAt": "2026-10-06T19:35:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Mistral Large 4 Open Source AI Enters Public Preview: One Trillion Parameter",
+          "url": "https://www.geeky-gadgets.com/mistral-large-4-lechonk-ai/",
+          "publishedAt": "2026-10-08T10:45:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+          "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+          "publishedAt": "2026-10-29T14:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+          "publishedAt": "2026-10-29T17:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source",
+        "safety"
+      ]
+    },
     {
       "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
       "title": "Google DeepMind announces Gemini 4 Carbon, its next frontier model",
@@ -41,56 +99,6 @@
       ],
       "tags": [
         "model-release"
-      ]
-    },
-    {
-      "id": "411ce84e-04d8-4ce3-bbb4-b4daa12424ee",
-      "title": "Mistral says its trillion-parameter \"Le Chonk\" open-weight model matches China's best",
-      "summary": "Mistral released Le Chonk, a trillion-parameter open-weight model. TechCrunch reports it as Mistral Large 4.\n\n- Mistral first called it the best open-weight model outside China, built to leapfrog both American and Chinese rivals\n- Mistral now claims Le Chonk matches or beats the best models from DeepSeek and Z.ai in coding and cybersecurity\n- Wired frames the release as the French lab showing it is \"still in the race\" to build frontier AI",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-06T14:03:58.399Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T14:27:31.383Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
-          "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
-          "publishedAt": "2026-10-06T13:15:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-          "publishedAt": "2026-10-06T14:33:16.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Mistral’s New ‘Le Chonk’ AI Model Is Big, Open and Built for Agents",
-          "url": "https://www.cnet.com/tech/services-and-software/mistrals-new-le-chonk-ai-model-is-big-open-and-built-for-agents/",
-          "publishedAt": "2026-10-06T19:35:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Mistral Large 4 Open Source AI Enters Public Preview: One Trillion Parameter",
-          "url": "https://www.geeky-gadgets.com/mistral-large-4-lechonk-ai/",
-          "publishedAt": "2026-10-08T10:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
-          "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
-          "publishedAt": "2026-10-29T14:00:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
       ]
     },
     {
@@ -256,9 +264,51 @@
       ]
     },
     {
+      "id": "c0d90811-9e01-4528-b7f5-cb1d99ab90a7",
+      "title": "OpenAI details the layered monitoring it uses to catch misaligned frontier models",
+      "summary": "OpenAI described how it detects misalignment in its frontier models: layered monitoring that flags misaligned or unauthorized agent behavior so responders can step in before an incident escalates. The post follows a string of rogue-agent incidents involving OpenAI's models.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-29T18:31:44.516Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T18:31:44.516Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "How we detect frontier model misalignment",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "publishedAt": "2026-10-29T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "918e5aad-d830-43f1-a356-51842415b4c1",
+      "title": "OpenAI updates its Model Spec around five core values for more capable AI",
+      "summary": "OpenAI published an updated Model Spec, the document defining how its models should behave. It sets out five core values meant to steer increasingly capable AI toward sound judgment, respect for human agency, and faithfulness to human intent.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-29T18:31:42.127Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T18:31:42.127Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "An updated Model Spec for more capable and beneficial AI",
+          "url": "https://openai.com/index/updated-model-spec",
+          "publishedAt": "2026-10-29T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "US intelligence reportedly tied Nvidia CEO Jensen Huang to a Chinese spy",
-      "summary": "The US intelligence community reportedly linked Nvidia CEO Jensen Huang to a Chinese spy, Gizmodo reports. Huang has lobbied the US government hard to loosen restrictions on selling powerful AI chips to China.",
+      "title": "US investigated a suspected Chinese spy plot aimed at Nvidia CEO Jensen Huang",
+      "summary": "US authorities investigated a suspected Chinese spy plot aimed at Nvidia CEO Jensen Huang, according to New York Times sources.\n\n- The suspect is a top executive at a Singapore AI cloud company already accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China",
       "importanceScore": 0.6,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
@@ -269,6 +319,13 @@
           "title": "Intel Community Reportedly Tied Trump’s Favorite AI Boss to a Chinese Spy",
           "url": "https://gizmodo.com/nvidia-ceo-jensen-huang-tied-to-chinese-spy-trump-2000832476",
           "publishedAt": "2026-10-29T16:20:17.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+          "publishedAt": "2026-10-29T16:42:32.000Z",
           "contribution": "supporting"
         }
       ],
@@ -874,6 +931,27 @@
       ]
     },
     {
+      "id": "546e00b2-9a80-4b12-96bc-863b26683833",
+      "title": "Granola adds dictation to its meeting notetaker to compete with Wispr",
+      "summary": "Granola is adding a dictation feature to its AI meeting notetaker, TechCrunch reports, a reverse move after dictation app Wispr Flow added meeting notes. The two voice AI apps are now encroaching on each other's turf.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-29T18:31:35.295Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T18:31:35.295Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Granola crunches up a dictation feature to compete with Wispr",
+          "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+          "publishedAt": "2026-10-29T17:54:38.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "c0be577b-7eaf-437d-b6cb-de1b81b3cdee",
       "title": "Startup &Truth joins the race to automate formal verification as a fix for vibe-coded software",
       "summary": "A new startup called &Truth is joining the push to automate formal verification, which uses math to prove that software works as intended. Wired presents the technique as a possible answer to the reliability problems of AI-written \"vibe-coded\" software.",
@@ -975,6 +1053,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "31139be8-e59e-4ad3-9b9b-7c96819234ba",
+      "title": "Ropes & Gray builds AI for transactional diligence with OpenAI",
+      "summary": "In an OpenAI customer story, law firm Ropes & Gray says it is developing AI for transactional due diligence with OpenAI. The system groups documents and drafts summaries and reports, which lawyers review before advising clients.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-29T18:31:46.668Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T18:31:46.668Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "How Ropes & Gray is developing AI for transactional diligence",
+          "url": "https://openai.com/index/ropes-gray-ai-diligence",
+          "publishedAt": "2026-10-29T07:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -1404,95 +1503,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "968a8727-a6e7-42ea-acbf-58dbd90c2231",
-      "title": "AI data-center boom is spurring innovation in US grid modernization, industry insiders say",
-      "summary": "As AI data centers strain the existing US power grid, industry insiders at TechCrunch Disrupt say the pressure is also creating new opportunities for grid modernization, with startups like Veir among those pitching solutions.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-10-27T23:57:46.390Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T23:57:46.390Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The data center boom has an upside: innovation for the US grid",
-          "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-          "publishedAt": "2026-10-27T22:55:41.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "b6add976-79cc-4a2e-8ff7-7eb76a79204f",
-      "title": "ChatGPT cracks down on photorealistic political deepfakes ahead of the US midterms",
-      "summary": "With the US midterm elections a week away, OpenAI's ChatGPT is restricting the generation of photorealistic political deepfakes, a defense CNET calls surprising. Gizmodo is less impressed: OpenAI calls the measures a \"layer of friction,\" and Gizmodo finds that layer thin and incomplete.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-26T23:38:38.897Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T23:38:38.897Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "OpenAI Has a Surprising Defense Against Election Deepfakes",
-          "url": "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/",
-          "publishedAt": "2026-10-26T20:43:49.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "ChatGPT’s Election-Related Anti-Deepfake Measures Are Intriguing, but Incomplete",
-          "url": "https://gizmodo.com/chatgpts-election-related-anti-deepfake-measures-are-intriguing-but-incomplete-2000831002",
-          "publishedAt": "2026-10-27T09:00:38.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "14b2fd62-060e-45f0-9dfd-38bbd8dc00bd",
-      "title": "Elvis Presley's estate sues Anthropic for copyright infringement",
-      "summary": "Elvis Presley's estate has sued Anthropic for copyright infringement, the latest AI copyright suit and one centered on a single music artist from decades past, Engadget reports.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-26T11:29:10.108Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T11:29:10.108Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Elvis Presley's estate is suing Anthropic over copyright infringement",
-          "url": "https://www.engadget.com/2296535/elvis-presley-estate-suing-ai-company-for-copyright-infringement/",
-          "publishedAt": "2026-10-26T11:23:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "67f446ae-7b00-4eb2-b4c1-4afd02b35c0c",
-      "title": "Microsoft offers buyouts to 60,000 employees",
-      "summary": "Microsoft is offering voluntary buyouts to about 60,000 employees, per Gizmodo, which covers the move as part of its AI reporting and frames it as a choice between a buyout now or a layoff later.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-10-26T19:35:29.453Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T19:35:29.453Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Microsoft Is Offering 60,000 Employees Money to Just Go Away",
-          "url": "https://gizmodo.com/microsoft-is-offering-60000-employees-money-to-just-go-away-2000830711",
-          "publishedAt": "2026-10-26T18:40:59.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 118,
+  "totalCount": 120,
   "hasMore": true
 }
