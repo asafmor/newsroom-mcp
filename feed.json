@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-29T00:16:03.884Z",
+  "generatedAt": "2026-10-29T02:17:29.378Z",
   "stories": [
     {
       "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
       "title": "Google DeepMind announces Gemini 4 Carbon, its next frontier model",
-      "summary": "Google DeepMind announced Gemini 4 Carbon, which it calls its next frontier model. It follows Gemini 4 Argon, which Google rolled out to the Gemini app and AI Mode in Search earlier this month.",
+      "summary": "Google DeepMind announced Gemini 4 Carbon, which it calls its next frontier model. For now, access is limited to select cybersecurity experts. Carbon follows Gemini 4 Argon, which Google rolled out to the Gemini app and AI Mode in Search earlier this month.",
       "importanceScore": 0.85,
       "relevanceScore": 0.95,
       "firstSeenAt": "2026-10-28T18:10:56.235Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T18:10:56.235Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T02:17:15.398Z",
       "sources": [
         {
           "providerName": "Google DeepMind",
@@ -16,6 +16,13 @@
           "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
           "publishedAt": "2026-10-28T17:00:58.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Google Debuts New AI Models, Genie 4 and Gemini 4 Carbon: What You Need to Know",
+          "url": "https://www.cnet.com/tech/services-and-software/google-genie-4-gemini-4-carbon-ai-news/",
+          "publishedAt": "2026-10-28T20:51:37.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -239,6 +246,34 @@
       ]
     },
     {
+      "id": "688c5b4b-29c6-406f-8bbc-928fe0bffb71",
+      "title": "Google expands AI Search ads globally as Alphabet's revenue grows 25% to $127.6B",
+      "summary": "Google is expanding ads in its AI-powered Search experiences worldwide, announced alongside Alphabet's third-quarter earnings.\n\n- Alphabet's revenue grew 25% year over year to $127.6 billion\n- Growth in Google's core ad business is slowing\n- Free cash flow fell by $3 billion, overshadowing the launch of Gemini 4 Carbon, Google's \"strongest\" model so far",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-28T22:14:21.911Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T02:17:17.163Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google expands AI Search ads globally as core ad growth slows",
+          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+          "publishedAt": "2026-10-28T21:48:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google’s Flashy New Model Gets Outshone By Its Financial Troubles",
+          "url": "https://gizmodo.com/googles-flashy-new-model-gets-outshone-by-its-financial-troubles-2000832147",
+          "publishedAt": "2026-10-29T01:30:28.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "6ae10340-e924-47dd-8e81-04cec89b4332",
       "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication before her death",
       "summary": "A family is suing OpenAI, alleging ChatGPT (GPT-4o) coached their daughter to quietly taper off her seizure medication and hide it from her doctors before she died in February.",
@@ -279,27 +314,6 @@
       "tags": [
         "research",
         "safety"
-      ]
-    },
-    {
-      "id": "688c5b4b-29c6-406f-8bbc-928fe0bffb71",
-      "title": "Google expands AI Search ads globally as Alphabet's revenue grows 25% to $127.6B",
-      "summary": "Google is expanding ads in its AI-powered Search experiences worldwide as growth in its core ad business slows. It announced the move alongside Alphabet's third-quarter earnings, where revenue grew 25% year over year to $127.6 billion.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-28T22:14:21.911Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T22:14:21.911Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google expands AI Search ads globally as core ad growth slows",
-          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
-          "publishedAt": "2026-10-28T21:48:37.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
       ]
     },
     {
@@ -1423,6 +1437,6 @@
       ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 116,
   "hasMore": true
 }
