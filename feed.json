@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T08:21:26.968Z",
+  "generatedAt": "2026-10-29T10:23:51.811Z",
   "stories": [
     {
       "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
@@ -23,6 +23,13 @@
           "url": "https://www.cnet.com/tech/services-and-software/google-genie-4-gemini-4-carbon-ai-news/",
           "publishedAt": "2026-10-28T20:51:37.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google's Gemini 4 Carbon promises 'significant leap' in AI coding and cybersecurity",
+          "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/",
+          "publishedAt": "2026-10-29T09:41:58.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -189,6 +196,42 @@
       "tags": [
         "funding",
         "safety"
+      ]
+    },
+    {
+      "id": "15a2ab29-8edf-44f1-807f-97b9f34d2946",
+      "title": "Open-weight Kimi K3.1 reaches 3 trillion parameters, but slips from fourth on a major AI benchmark",
+      "summary": "Kimi K3.1 is an open-weight model pitched as a transparent, cheaper alternative to proprietary frontier models.\n\n- Mixture-of-experts design with 3 trillion total parameters, 104 billion active per task\n- Handles text and images, and may also handle audio\n- Reportedly beat GPT-6 Astra in a long-running software engineering test\n- An update to a leading AI benchmark knocked Kimi K3.1 Pro out of fourth place among the world's models",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-26T13:30:09.728Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T10:23:32.903Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Open-Weight Kimi K 3.1 AI Reaches 3 Trillion Parameters",
+          "url": "https://www.geeky-gadgets.com/kimi-k3-1-ai-model-benchmarks/",
+          "publishedAt": "2026-10-26T13:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Kimi K3.1 Beats ChatGPT 6 Astra in the Software Engineering Marathon",
+          "url": "https://www.geeky-gadgets.com/kimi-k3-1-vs-gpt-6-astra/",
+          "publishedAt": "2026-10-28T10:47:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "The Biggest Benchmark in AI Just Updated, Dealing a Major Blow to a Chinese Contender",
+          "url": "https://gizmodo.com/the-biggest-benchmark-in-ai-just-updated-dealing-a-major-blow-to-a-chinese-contender-2000832292",
+          "publishedAt": "2026-10-29T09:00:02.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
       ]
     },
     {
@@ -421,6 +464,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "ad68de1f-0c00-4e71-bf9f-d69baae42d72",
+      "title": "Anthropic reportedly launches a revamped Claude 2.0 desktop app with nested sessions and context cards",
+      "summary": "Geeky Gadgets reports that Anthropic has launched \"Claude 2.0\" in 95 countries. Based on a creator's walkthrough, the release appears to be a redesigned Claude desktop app, not a new model. Its features include nested sessions for grouping related tasks and context cards that manage memory use and chat performance.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-29T10:23:42.254Z",
+      "lastMeaningfulUpdateAt": "2026-10-29T10:23:42.254Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic Officially Launches Claude 2.0 Across 95 Countries",
+          "url": "https://www.geeky-gadgets.com/claude-code/",
+          "publishedAt": "2026-10-29T09:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -949,35 +1013,6 @@
       ]
     },
     {
-      "id": "15a2ab29-8edf-44f1-807f-97b9f34d2946",
-      "title": "Open-weight Kimi K3.1 reaches 3 trillion parameters",
-      "summary": "Kimi K3.1 is an open-weight mixture-of-experts model with 3 trillion total parameters, 104 billion of them active per task. It handles text and images, may also handle audio, and is pitched as a transparent, cheaper alternative to proprietary frontier models.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-26T13:30:09.728Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T13:30:09.728Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Open-Weight Kimi K 3.1 AI Reaches 3 Trillion Parameters",
-          "url": "https://www.geeky-gadgets.com/kimi-k3-1-ai-model-benchmarks/",
-          "publishedAt": "2026-10-26T13:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Kimi K3.1 Beats ChatGPT 6 Astra in the Software Engineering Marathon",
-          "url": "https://www.geeky-gadgets.com/kimi-k3-1-vs-gpt-6-astra/",
-          "publishedAt": "2026-10-28T10:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
-    },
-    {
       "id": "00e10349-4e63-4e3f-afda-9010e2dd10ea",
       "title": "New research sheds light on DeepSeek's safety risks",
       "summary": "Gizmodo reports on new research into the safety risks of DeepSeek's models. It frames the findings as a counterpoint to tech leaders who promote open-weight AI as the future, noting that new dangers in the technology keep being discovered.",
@@ -1407,29 +1442,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "e3264660-01e1-45df-9c31-69a4996f7cbe",
-      "title": "Liquid AI introduces LFM3 for building specialized multimodal models",
-      "summary": "Liquid AI posted on the Hugging Face blog about building specialized multimodal models with LFM3, the next generation of its LFM model family after LFM2.5. The feed included no further detail.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-27T17:52:39.916Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T17:52:39.916Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Build specialized multimodal models with LFM3",
-          "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-          "publishedAt": "2026-10-27T17:16:52.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
     }
   ],
-  "totalCount": 116,
+  "totalCount": 115,
   "hasMore": true
 }
