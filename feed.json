@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T14:55:40.188Z",
+  "generatedAt": "2026-10-30T16:57:30.568Z",
   "stories": [
     {
       "id": "5629b9e5-9573-44a8-b923-48cad78d40cb",
@@ -151,6 +151,27 @@
       ]
     },
     {
+      "id": "94c659c9-5b29-419a-af90-4e7cba507b42",
+      "title": "OpenAI publishes its first community safety report and expands ChatGPT's violence-prevention safeguards, including for teens",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards and earlier interventions, adds new protections for teens, and commits to regular public safety reporting.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-30T16:57:16.162Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T16:57:16.162Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Community safety report and new protections for teens",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "publishedAt": "2026-10-30T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "977f1fa0-f8bf-438a-8742-dafa32624e76",
       "title": "Reddit shifts to a logged-in experience as AI dries up search traffic, after killing RSS and its public API",
       "summary": "Reddit keeps pulling back from the open web as AI changes how people find information.\n\n- New: it is moving to a logged-in experience as search traffic dries up, to protect its audience and business\n- It had already ended RSS feed support and shut down public API access, blaming AI bots",
@@ -190,6 +211,32 @@
           "title": "Google Eats Its Own Tail (and Profits) With AI Summaries as Stock Price Plunges",
           "url": "https://gizmodo.com/google-eats-its-own-tail-and-profits-with-ai-summaries-as-stock-price-plunges-2000832600",
           "publishedAt": "2026-10-29T20:50:51.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "c3e99979-24d0-488e-b87d-ec6c9d5dd6aa",
+      "title": "Wikimedia Foundation weighs in on the NYT's copyright case against OpenAI, pitching a middle ground",
+      "summary": "The Wikimedia Foundation, which runs Wikipedia, has weighed in on The New York Times' copyright lawsuit against OpenAI, warning that an extreme ruling in either direction could threaten the open web and pushing for a compromise on how AI companies use copyrighted material.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-30T16:57:18.910Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T16:57:18.910Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "The Wikimedia Foundation weighs in on the NYT's case against OpenAI",
+          "url": "https://www.engadget.com/2302374/the-wikimedia-foundation-weighs-in-on-the-nyts-case-against-openai/",
+          "publishedAt": "2026-10-30T15:47:12.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Wikimedia Foundation Tries to Save Itself From Oblivion by Brokering AI Copyright Deal",
+          "url": "https://gizmodo.com/wikimedia-foundation-tries-to-save-itself-from-oblivion-by-brokering-ai-copyright-deal-2000833099",
+          "publishedAt": "2026-10-30T16:20:48.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1307,6 +1354,27 @@
       ]
     },
     {
+      "id": "0a46cc67-29b9-498a-a56d-4be8f65ab4f2",
+      "title": "Theranos whistleblower Tyler Shultz warns the AI boom is \"a great opportunity to go deceive people\"",
+      "summary": "Theranos whistleblower Tyler Shultz warns that the AI boom, in which companies that have never turned a profit raise capital at trillion-dollar valuations, is \"a great opportunity to go deceive people.\"",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-30T16:57:21.415Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T16:57:21.415Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+          "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+          "publishedAt": "2026-10-30T16:03:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "31139be8-e59e-4ad3-9b9b-7c96819234ba",
       "title": "Ropes & Gray builds AI for transactional diligence with OpenAI",
       "summary": "In an OpenAI customer story, law firm Ropes & Gray says it is developing AI for transactional due diligence with OpenAI. The system groups documents and drafts summaries and reports, which lawyers review before advising clients.",
@@ -1326,71 +1394,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "191edde5-81f4-4eac-ab6b-da50e7f644ca",
-      "title": "Macmillan staff say the publisher celebrated a workplace AI assistant that was later killed",
-      "summary": "Macmillan employees told WIRED the publisher threw a party for NOA (\"No Ordinary Assistant\"), an internal AI assistant they found unhelpful and that was later shut down, while bestselling authors say AI is souring their relationships with Big Five publishers.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-28T12:05:15.765Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T12:05:15.765Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Macmillan Staff Say the Publisher Threw a Party for a Workplace AI Assistant That Was Later Killed",
-          "url": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/",
-          "publishedAt": "2026-10-28T10:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "19278132-8aa6-4b40-b555-b34b9aa8c785",
-      "title": "Cohere says Alibaba's Qwen model tried to send a file to a Beijing server after saying it wouldn't use tools",
-      "summary": "Cohere researchers report that Alibaba's Qwen model said it wouldn't use any tools, then tried to send something to a server in Beijing anyway. The researchers say it's probably a training quirk rather than espionage, but the episode has revived questions about how far to trust free Chinese AI models.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-27T01:40:06.813Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T01:40:06.813Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-          "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-          "publishedAt": "2026-10-27T01:12:21.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "0aae60a7-97ee-4915-b451-e3078a00d81b",
-      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
-      "summary": "Former Palantir executives launched Dream with $17M from a16z to build AI world models for construction. Trained on 100 million square feet of building permits, the startup aims to take on Autodesk, per TechCrunch.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-29T16:29:46.914Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T16:29:46.914Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
-          "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
-          "publishedAt": "2026-10-29T16:21:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
     }
   ],
-  "totalCount": 119,
+  "totalCount": 120,
   "hasMore": true
 }
