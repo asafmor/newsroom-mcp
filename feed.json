@@ -1,6 +1,175 @@
 {
-  "generatedAt": "2026-10-30T21:00:37.949Z",
+  "generatedAt": "2026-10-30T23:03:08.558Z",
   "stories": [
+    {
+      "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
+      "title": "Anthropic officially files for its IPO, with a public S-1 showing soaring revenue, heavy losses, and founder control",
+      "summary": "Anthropic has officially filed for its public debut, making its S-1 public after weeks of leaks, investor objections to its financials, and political calls for delay.\n\n- The filing shows soaring revenue and major enterprise adoption alongside mounting losses; Engadget earlier put last year's net loss at about $8 billion\n- Anthropic may be valued as high as $2 trillion, with a stock market debut reportedly planned for November\n- Its seven co-founders get a combined 50.1% of the vote on most matters, meant to preserve founder control and its safety mission\n- Note conversions show Amazon is set to make far more from the IPO than Anthropic's VC backers, and the SpaceXAI deal is bigger than previously known\n- Risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity\n- New: Blackstone forecasts that credit agencies will give Anthropic a high \"junk\" rating after the IPO, which would make funding its massive spending harder and costlier, per the FT",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-25T16:42:37.631Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T23:02:40.300Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s founders seek voting control ahead of IPO",
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+          "publishedAt": "2026-09-25T15:40:03.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+          "publishedAt": "2026-09-29T05:13:43.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic lost $8 billion last year and said its AI could destroy humanity",
+          "url": "https://www.engadget.com/2271659/anthropic-lost-8-billion-says-it-could-destroy-humanity/",
+          "publishedAt": "2026-09-29T09:59:57.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Leaked Anthropic IPO Prospectus Gives Wall Street an Early Look at How AI Could Go Off the Rails",
+          "url": "https://gizmodo.com/leaked-anthropic-ipo-prospectus-gives-wall-street-an-early-look-at-how-ai-could-kill-us-all-2000818911",
+          "publishedAt": "2026-09-29T17:00:29.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Could IPO Any Time Now, But Some of the People Who Matter Most Don’t Want It",
+          "url": "https://gizmodo.com/anthropic-could-ipo-any-time-now-but-some-of-the-people-who-matter-most-dont-want-it-2000826678",
+          "publishedAt": "2026-10-16T14:00:35.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+          "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+          "publishedAt": "2026-10-20T17:55:12.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic officially files for its public debut",
+          "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+          "publishedAt": "2026-10-26T14:35:22.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+          "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+          "publishedAt": "2026-10-26T14:50:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic files to go public ",
+          "url": "https://www.engadget.com/2296724/anthropic-files-to-go-public/",
+          "publishedAt": "2026-10-26T13:41:26.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s Deal With Elon Musk’s SpaceXAI Is Even Bigger Than We Knew, IPO Filing Shows",
+          "url": "https://gizmodo.com/anthropics-deal-with-elon-musks-spacexai-is-even-bigger-than-we-knew-ipo-filing-shows-2000830618",
+          "publishedAt": "2026-10-26T15:07:38.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+          "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+          "publishedAt": "2026-10-26T16:49:42.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+          "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+          "publishedAt": "2026-10-26T16:01:55.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "Will the real Anthropic please stand up",
+          "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+          "publishedAt": "2026-10-26T17:45:43.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
+          "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+          "publishedAt": "2026-10-26T21:27:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Threat of AI Bubble Looms Over Anthropic’s Big IPO Moment",
+          "url": "https://www.cnet.com/tech/services-and-software/anthropic-ipo-filing-ai-bubble-hype/",
+          "publishedAt": "2026-10-26T19:12:20.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic's political problem will get worse before it gets better",
+          "url": "https://www.engadget.com/2298214/anthropics-political-problem-will-get-worse-before-it-gets-better/",
+          "publishedAt": "2026-10-27T14:16:27.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
+          "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
+          "publishedAt": "2026-10-27T19:39:04.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Who’s really in charge at Anthropic after the IPO?",
+          "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+          "publishedAt": "2026-10-27T21:38:28.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+          "publishedAt": "2026-10-28T01:15:28.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic Files for IPO After Raising $141.1 Billion",
+          "url": "https://www.geeky-gadgets.com/anthropic-has/",
+          "publishedAt": "2026-10-28T08:47:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+          "publishedAt": "2026-10-30T21:52:03.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "funding",
+        "safety"
+      ]
+    },
     {
       "id": "6fdb5a75-424d-47cc-9b4b-7dfa9c3a4547",
       "title": "Alphabet loses about $500B in market value as AI spending fears hit Wall Street",
@@ -23,9 +192,37 @@
           "url": "https://gizmodo.com/the-ai-gold-rush-is-turning-into-a-wall-street-bloodbath-2000833300",
           "publishedAt": "2026-10-30T20:30:34.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Cracks are emerging in the AI spending boom",
+          "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+          "publishedAt": "2026-10-30T21:17:40.000Z",
+          "contribution": "background"
         }
       ],
       "tags": []
+    },
+    {
+      "id": "46d38e43-a1ef-436e-a906-a1d6cde79c3a",
+      "title": "Anthropic's VS Code extension on Cursor was backdoored for nearly 12 hours",
+      "summary": "Attackers pushed a backdoored version of Anthropic's VS Code extension through its verified Cursor account, where it stayed live for nearly 12 hours, Ars Technica reports. How they got access to the account is still unknown.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-30T23:02:49.086Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T23:02:49.086Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+          "publishedAt": "2026-10-30T21:09:54.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
     },
     {
       "id": "5de5de08-41f0-4923-aaa4-a37768e3197b",
@@ -105,6 +302,13 @@
           "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
           "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
           "publishedAt": "2026-10-29T18:39:43.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+          "publishedAt": "2026-10-30T21:19:26.000Z",
           "contribution": "supporting"
         }
       ],
@@ -288,6 +492,27 @@
       "tags": []
     },
     {
+      "id": "f8b7d525-a257-4eda-b05e-79dab0d281a0",
+      "title": "Intel's stock crashes as AI's appetite for memory drives up PC prices, knocking $12B from the government's stake",
+      "summary": "Intel's stock crashed, wiping about $12 billion off the US government's stake. TechCrunch says weak PC sales are to blame, as the AI industry soaks up memory and other components and pushes PC prices higher.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-30T23:02:51.531Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T23:02:51.531Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+          "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+          "publishedAt": "2026-10-30T21:54:34.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
       "id": "6bc3dda0-d128-4824-b014-3ce7ef935e13",
       "title": "OpenAI will honor a shared robots.txt signal for AI training preferences",
       "summary": "OpenAI says it will honor a shared robots.txt signal that lets website operators tell participating AI providers whether their content may be used for training.",
@@ -371,168 +596,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
-      "title": "Anthropic officially files for its IPO, with a public S-1 showing soaring revenue, heavy losses, and founder control",
-      "summary": "Anthropic has officially filed for its public debut, making its S-1 public after weeks of leaks, investor objections to its financials, and political calls for delay.\n\n- The filing shows soaring revenue and major enterprise adoption alongside mounting losses; Engadget earlier put last year's net loss at about $8 billion\n- Anthropic may be valued as high as $2 trillion, with a stock market debut reportedly planned for November\n- An unusual governance structure gives its seven co-founders a combined 50.1% of the vote on most matters, meant to preserve founder control and its safety mission\n- Massive note conversions reveal Amazon's true ownership stake, setting it up to make far more from the IPO than Anthropic's VC backers, per TechCrunch\n- The S-1 shows Anthropic's deal with Elon Musk's SpaceXAI is bigger than previously known, per Gizmodo\n- Risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity",
-      "importanceScore": 0.9,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-25T16:42:37.631Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T01:59:10.808Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s founders seek voting control ahead of IPO",
-          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
-          "publishedAt": "2026-09-25T15:40:03.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
-          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
-          "publishedAt": "2026-09-29T05:13:43.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic lost $8 billion last year and said its AI could destroy humanity",
-          "url": "https://www.engadget.com/2271659/anthropic-lost-8-billion-says-it-could-destroy-humanity/",
-          "publishedAt": "2026-09-29T09:59:57.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Leaked Anthropic IPO Prospectus Gives Wall Street an Early Look at How AI Could Go Off the Rails",
-          "url": "https://gizmodo.com/leaked-anthropic-ipo-prospectus-gives-wall-street-an-early-look-at-how-ai-could-kill-us-all-2000818911",
-          "publishedAt": "2026-09-29T17:00:29.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Could IPO Any Time Now, But Some of the People Who Matter Most Don’t Want It",
-          "url": "https://gizmodo.com/anthropic-could-ipo-any-time-now-but-some-of-the-people-who-matter-most-dont-want-it-2000826678",
-          "publishedAt": "2026-10-16T14:00:35.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-          "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
-          "publishedAt": "2026-10-20T17:55:12.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic officially files for its public debut",
-          "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-          "publishedAt": "2026-10-26T14:35:22.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
-          "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
-          "publishedAt": "2026-10-26T14:50:47.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic files to go public ",
-          "url": "https://www.engadget.com/2296724/anthropic-files-to-go-public/",
-          "publishedAt": "2026-10-26T13:41:26.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s Deal With Elon Musk’s SpaceXAI Is Even Bigger Than We Knew, IPO Filing Shows",
-          "url": "https://gizmodo.com/anthropics-deal-with-elon-musks-spacexai-is-even-bigger-than-we-knew-ipo-filing-shows-2000830618",
-          "publishedAt": "2026-10-26T15:07:38.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-          "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-          "publishedAt": "2026-10-26T16:49:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
-          "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
-          "publishedAt": "2026-10-26T16:01:55.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "MIT AI",
-          "title": "Will the real Anthropic please stand up",
-          "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-          "publishedAt": "2026-10-26T17:45:43.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
-          "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
-          "publishedAt": "2026-10-26T21:27:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Threat of AI Bubble Looms Over Anthropic’s Big IPO Moment",
-          "url": "https://www.cnet.com/tech/services-and-software/anthropic-ipo-filing-ai-bubble-hype/",
-          "publishedAt": "2026-10-26T19:12:20.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
-          "url": "https://www.anthropic.com/news/s1-sec",
-          "publishedAt": "2026-10-26T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic's political problem will get worse before it gets better",
-          "url": "https://www.engadget.com/2298214/anthropics-political-problem-will-get-worse-before-it-gets-better/",
-          "publishedAt": "2026-10-27T14:16:27.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
-          "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
-          "publishedAt": "2026-10-27T19:39:04.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Who’s really in charge at Anthropic after the IPO?",
-          "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
-          "publishedAt": "2026-10-27T21:38:28.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
-          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-          "publishedAt": "2026-10-28T01:15:28.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic Files for IPO After Raising $141.1 Billion",
-          "url": "https://www.geeky-gadgets.com/anthropic-has/",
-          "publishedAt": "2026-10-28T08:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "safety"
-      ]
     },
     {
       "id": "c0d90811-9e01-4528-b7f5-cb1d99ab90a7",
@@ -1083,6 +1146,25 @@
       ]
     },
     {
+      "id": "aa7ffa16-4127-42a6-b3e3-747bf84be818",
+      "title": "Privacy-focused AI assistant Ollie is shutting down",
+      "summary": "Ollie, an AI assistant built around respecting user privacy, will shut down in a week, its founder says, as a growing number of AI assistants crowd the market.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-30T23:02:53.334Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T23:02:53.334Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+          "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+          "publishedAt": "2026-10-30T22:56:13.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "cc898043-0d84-45e8-b0bd-0752caf3ca84",
       "title": "Wabi, Replika founder Eugenia Kuyda's personal AI agent, raises $55M at a $1.25B valuation",
       "summary": "Wabi, the startup from Replika founder Eugenia Kuyda, raised $55 million at a $1.25 billion valuation after turning its app builder into a free personal AI agent.\n\n- New: The round values Wabi at $1.25B, and it now calls itself a \"personal agent,\" per TechCrunch\n- The assistant builds interfaces on demand, combining chat, mini apps, and ongoing tasks in a messaging-style experience\n- Kuyda says it realizes an idea she pitched at TechCrunch Disrupt 12 years ago",
@@ -1379,71 +1461,8 @@
         "open-source",
         "model-release"
       ]
-    },
-    {
-      "id": "ed9dd4bd-4be9-4bb0-b2e3-7cf9ab55ceee",
-      "title": "OpenAI and Oracle expand their partnership to bring Oracle business apps and agents into ChatGPT",
-      "summary": "OpenAI and Oracle are expanding their partnership: Oracle's business applications and AI agents are coming into ChatGPT, and OpenAI's models will power new Oracle offerings.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-27T17:52:37.670Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T17:52:37.670Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-          "publishedAt": "2026-10-27T07:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "6f81b81b-d78b-4c44-abf7-9540739783ea",
-      "title": "Anthropic donates Agent Skills to the Agentic AI Foundation",
-      "summary": "Anthropic says it is donating Agent Skills, its format for packaging instructions and resources that agents load on demand, to the Agentic AI Foundation, handing stewardship of the format to a neutral industry body.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-27T07:44:28.501Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T07:44:28.501Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Donating Agent Skills to the Agentic AI Foundation",
-          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
-          "publishedAt": "2026-10-22T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source"
-      ]
-    },
-    {
-      "id": "f12e0b2e-c35e-48ec-b03b-2b20c9b2cf2a",
-      "title": "South Korea's financial industry hit by a fresh wave of cyberattacks amid rising AI-driven hacking risk",
-      "summary": "South Korea's financial institutions have been hit by another wave of cyberattacks, TechCrunch reports, highlighting the growing risk of AI-driven hacking in Asia.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-28T16:08:16.631Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T16:08:16.631Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
-          "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
-          "publishedAt": "2026-10-28T15:41:18.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 120,
+  "totalCount": 121,
   "hasMore": true
 }
