@@ -1,6 +1,32 @@
 {
-  "generatedAt": "2026-10-30T18:59:20.957Z",
+  "generatedAt": "2026-10-30T21:00:37.949Z",
   "stories": [
+    {
+      "id": "6fdb5a75-424d-47cc-9b4b-7dfa9c3a4547",
+      "title": "Alphabet loses about $500B in market value as AI spending fears hit Wall Street",
+      "summary": "Alphabet's stock has plunged, wiping out roughly $500 billion in market value, according to Gizmodo.\n\n- Google's AI summaries are eating into its own search profits, a sign that losing money may be the one thing that can slow the AI push\n- Investors are increasingly worried about Silicon Valley's massive AI spending spree, and Gizmodo says the AI gold rush is turning into a Wall Street bloodbath",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-29T22:34:55.253Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T21:00:25.238Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google Eats Its Own Tail (and Profits) With AI Summaries as Stock Price Plunges",
+          "url": "https://gizmodo.com/google-eats-its-own-tail-and-profits-with-ai-summaries-as-stock-price-plunges-2000832600",
+          "publishedAt": "2026-10-29T20:50:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "The AI Gold Rush Is Turning Into a Wall Street Bloodbath",
+          "url": "https://gizmodo.com/the-ai-gold-rush-is-turning-into-a-wall-street-bloodbath-2000833300",
+          "publishedAt": "2026-10-30T20:30:34.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
     {
       "id": "5de5de08-41f0-4923-aaa4-a37768e3197b",
       "title": "Google's first Project Suncatcher data center satellite is online, running Gemma 4 in orbit",
@@ -275,25 +301,6 @@
           "title": "Making it easier for websites to express AI training preferences",
           "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
           "publishedAt": "2026-10-30T09:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "6fdb5a75-424d-47cc-9b4b-7dfa9c3a4547",
-      "title": "Google's stock plunges as its AI summaries cut into search profits",
-      "summary": "Google's stock price is plunging as its AI summaries eat into its own profits, Gizmodo reports, a sign that losing money may be the one thing that can slow the AI push.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-29T22:34:55.253Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T22:34:55.253Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Eats Its Own Tail (and Profits) With AI Summaries as Stock Price Plunges",
-          "url": "https://gizmodo.com/google-eats-its-own-tail-and-profits-with-ai-summaries-as-stock-price-plunges-2000832600",
-          "publishedAt": "2026-10-29T20:50:51.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1437,6 +1444,6 @@
       ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 120,
   "hasMore": true
 }
