@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T22:35:02.829Z",
+  "generatedAt": "2026-10-30T00:36:17.625Z",
   "stories": [
     {
       "id": "5629b9e5-9573-44a8-b923-48cad78d40cb",
@@ -120,6 +120,34 @@
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "765665f6-4718-4ce4-b434-92cd04a9c110",
+      "title": "Jassy says AWS will be a $1T business, but Amazon's AI spending drives a $42.4B cash burn",
+      "summary": "Amazon wants to lead AI cloud computing, and its third-quarter earnings showed what that costs.\n\n- CEO Andy Jassy said AWS will become the first $1 trillion revenue business, but only by continuing its capex spending spree, per TechCrunch\n- Gizmodo puts Amazon's cash burn at $42.4 billion, calling it the final blow in a rough earnings week for AI\n- Only one of the four AI hyperscalers reported positive free cash flow this round",
+      "importanceScore": 0.68,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-30T00:36:09.990Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T00:36:09.990Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+          "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+          "publishedAt": "2026-10-29T23:42:22.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Amazon’s $42.4 Billion Cash Burn Delivers Final Blow In a Rough Week For AI",
+          "url": "https://gizmodo.com/amazons-42-4-billion-cash-burn-delivers-final-blow-in-a-rough-week-for-ai-2000832754",
+          "publishedAt": "2026-10-29T23:51:29.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -1485,29 +1513,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "cd35c1e1-9cc7-4fa9-a05f-7e51671a1d07",
-      "title": "Disruptive raises a $10B fund to make big bets on at least 10 companies",
-      "summary": "Venture firm Disruptive, known for large checks into AI companies like chip startup Groq and voice-generation startup ElevenLabs, has raised a $10 billion fund aimed at concentrated bets on at least 10 companies.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-27T19:54:43.433Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T19:54:43.433Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
-          "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
-          "publishedAt": "2026-10-27T18:55:35.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
     }
   ],
-  "totalCount": 120,
+  "totalCount": 119,
   "hasMore": true
 }
