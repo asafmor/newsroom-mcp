@@ -1,6 +1,70 @@
 {
-  "generatedAt": "2026-10-30T16:57:30.568Z",
+  "generatedAt": "2026-10-30T18:59:20.957Z",
   "stories": [
+    {
+      "id": "5de5de08-41f0-4923-aaa4-a37768e3197b",
+      "title": "Google's first Project Suncatcher data center satellite is online, running Gemma 4 in orbit",
+      "summary": "Google's first Project Suncatcher satellite is now online, a step toward its longer-term plan to build solar-powered AI data centers in space.\n\n- New: the first TPU in space is running a Google DeepMind Gemma 4 model, which TechCrunch says is writing cheesy poetry\n- Google thinks SpaceX's Starship has to launch 1,800 times before space data centers get off the ground, per TechCrunch\n- The project aims to use the near-constant sunlight available in orbit to feed AI's growing compute demand\n- Because radio-frequency links lack the bandwidth, the design leans on laser communication between satellites",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-09-25T00:28:04.233Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T18:59:08.081Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google’s Project Suncatcher Is Sending AI Chips Into Space Next Week",
+          "url": "https://gizmodo.com/googles-project-suncatcher-is-sending-ai-chips-into-space-next-week-2000816985",
+          "publishedAt": "2026-09-24T22:49:46.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Project Suncatcher Uses Space Solar Panels for AI",
+          "url": "https://www.geeky-gadgets.com/google-project-suncatcher-ai/",
+          "publishedAt": "2026-09-25T10:13:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "An Imminent Google Satellite Test Is Another Step Toward Data Centers in Space",
+          "url": "https://www.cnet.com/tech/services-and-software/google-satellite-space-data-center/",
+          "publishedAt": "2026-09-25T15:06:23.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Project Suncatcher Tests Tensor Processing Units",
+          "url": "https://www.geeky-gadgets.com/google-project-suncatcher/",
+          "publishedAt": "2026-09-29T09:13:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Project Suncatcher Puts AI Data Centers in Orbit",
+          "url": "https://www.geeky-gadgets.com/google-project-suncatcher-2/",
+          "publishedAt": "2026-09-30T07:13:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
+          "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+          "publishedAt": "2026-10-01T19:18:03.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google’s first data center satellite is online and writing poetry",
+          "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+          "publishedAt": "2026-10-30T17:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "research"
+      ]
+    },
     {
       "id": "5629b9e5-9573-44a8-b923-48cad78d40cb",
       "title": "An Accenture contractor's personal Claude agent ran on a secure Pentagon network for two months",
@@ -193,6 +257,25 @@
           "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
           "publishedAt": "2026-10-29T20:08:31.000Z",
           "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "6bc3dda0-d128-4824-b014-3ce7ef935e13",
+      "title": "OpenAI will honor a shared robots.txt signal for AI training preferences",
+      "summary": "OpenAI says it will honor a shared robots.txt signal that lets website operators tell participating AI providers whether their content may be used for training.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-30T18:59:09.737Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T18:59:09.737Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Making it easier for websites to express AI training preferences",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "publishedAt": "2026-10-30T09:30:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -1352,50 +1435,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "0a46cc67-29b9-498a-a56d-4be8f65ab4f2",
-      "title": "Theranos whistleblower Tyler Shultz warns the AI boom is \"a great opportunity to go deceive people\"",
-      "summary": "Theranos whistleblower Tyler Shultz warns that the AI boom, in which companies that have never turned a profit raise capital at trillion-dollar valuations, is \"a great opportunity to go deceive people.\"",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-30T16:57:21.415Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T16:57:21.415Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
-          "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
-          "publishedAt": "2026-10-30T16:03:45.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "31139be8-e59e-4ad3-9b9b-7c96819234ba",
-      "title": "Ropes & Gray builds AI for transactional diligence with OpenAI",
-      "summary": "In an OpenAI customer story, law firm Ropes & Gray says it is developing AI for transactional due diligence with OpenAI. The system groups documents and drafts summaries and reports, which lawyers review before advising clients.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-29T18:31:46.668Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T18:31:46.668Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "How Ropes & Gray is developing AI for transactional diligence",
-          "url": "https://openai.com/index/ropes-gray-ai-diligence",
-          "publishedAt": "2026-10-29T07:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 120,
+  "totalCount": 122,
   "hasMore": true
 }
