@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T12:53:42.707Z",
+  "generatedAt": "2026-10-30T14:55:40.188Z",
   "stories": [
     {
       "id": "5629b9e5-9573-44a8-b923-48cad78d40cb",
@@ -502,6 +502,27 @@
       ]
     },
     {
+      "id": "9f784e91-b35f-49a6-94ff-f4350c570f2d",
+      "title": "DoorDash says it has received only \"several hundred\" orders from AI agents",
+      "summary": "DoorDash says it has received only \"several hundred\" orders placed by AI agents so far, a sign that agentic shopping is still tiny in practice. The company says it is open to working with third-party agent makers.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-30T14:55:24.429Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T14:55:24.429Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+          "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+          "publishedAt": "2026-10-30T13:54:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "969c31bc-0fef-4108-a7cf-06ef9c6120b3",
       "title": "Microsoft posts a record $92.3B quarter, revealing Azure's $33.2B revenue and $10B from OpenAI",
       "summary": "Microsoft reported its 10th straight record quarter, with AI driving the results.\n\n- Revenue reached $92.3 billion, up 19% year over year\n- For the first time, Microsoft disclosed Azure's quarterly revenue in dollars: $33.2 billion, closing in on AWS\n- It booked $10 billion in revenue from its commercial arrangements with OpenAI, including revenue sharing, which shows how financially dependent the partnership still is",
@@ -540,6 +561,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "67c1a050-9891-4d0b-b92c-e4701336cd3d",
+      "title": "Runware is building a factory to mass-produce prefabricated AI data centers",
+      "summary": "Startup Runware is building a factory to turn out prefabricated AI data centers on an assembly line, like cars. TechCrunch says the real test is whether it can deliver at that scale.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-30T14:55:26.578Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T14:55:26.578Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+          "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+          "publishedAt": "2026-10-30T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
     },
     {
       "id": "06e4a95f-6812-4c7b-b61d-a38c2077cfab",
@@ -1054,6 +1096,27 @@
       ]
     },
     {
+      "id": "2c11d33c-8f6a-43bc-be38-45f0231a14fb",
+      "title": "ByteDance's open-source DeerFlow 2.0 pitched as a free alternative to Manus",
+      "summary": "ByteDance's DeerFlow 2.0 is an open-source agent framework built on LangGraph, pitched as a free alternative to the paid Manus agent. It is modular and runs tasks on users' own hardware for privacy and local control.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-30T14:55:28.826Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T14:55:28.826Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ByteDance Releases Free DeerFlow 2.0 to Rival Paid Manus",
+          "url": "https://www.geeky-gadgets.com/deerflow-2-open-source-manus-alternative/",
+          "publishedAt": "2026-10-30T13:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
+      ]
+    },
+    {
       "id": "589a737c-d1b9-4156-8fbb-b56690b4f5bb",
       "title": "Anthropic launches tools showing companies what their AI spending buys, ahead of its IPO",
       "summary": "Anthropic launched tools that show enterprise customers how their spending on its models is being used, lifting the curtain on usage economics as it heads toward a planned IPO.",
@@ -1326,204 +1389,8 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "d7035d5c-674c-422c-a297-653ff923b182",
-      "title": "Startup founded by former DOGE staffers claims its AI agents hacked Anthropic in under 12 hours",
-      "summary": "A new startup founded by former DOGE staffers claims its AI agents broke into Anthropic in less than 12 hours, according to a report covered by Gizmodo.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-26T15:31:46.218Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T15:31:46.218Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Former DOGE Staffers’ New Startup Claims It Hacked Anthropic",
-          "url": "https://gizmodo.com/former-doge-staffers-new-startup-claims-it-hacked-anthropic-2000830560",
-          "publishedAt": "2026-10-26T15:00:57.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "d2c37bf1-8cb0-459c-8147-f9343a25ebea",
-      "title": "OpenAI shares Kakeya, ETH, and QCD results for academics to verify as its feud with mathematicians drags on",
-      "summary": "OpenAI keeps publishing AI-generated math and science results while trying to repair its relationship with the researchers who have to vet them.\n\n- OpenAI shared model results on the Kakeya conjecture, the Exponential Time Hypothesis, and quantum chromodynamics, with guidance on how researchers can verify and build on them\n- Its earlier dump of 377 results on GitHub fell short of guidelines set by mathematicians OpenAI had consulted, TechCrunch reported\n- Twenty-five leading mathematicians signed an open letter arguing AI labs threaten their work; one told Wired of \"a perception of mobster behavior\"\n- OpenAI's independent Advisory Group on Mathematics and AI guides review and communication of results, but can't slow or redirect the research\n- OpenAI dropped its Caltech \"Mathathon\" sponsorship and is reportedly attempting the Hodge Conjecture",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-09-12T12:48:10.132Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T23:38:46.526Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s feud with mathematicians is only escalating",
-          "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
-          "publishedAt": "2026-09-11T20:57:36.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Is Beefing With Mathematicians, Will No Longer Sponsor Caltech ‘Mathathon’",
-          "url": "https://gizmodo.com/openai-is-beefing-with-mathematicians-will-no-longer-sponsor-caltech-mathathon-2000810868",
-          "publishedAt": "2026-09-12T01:05:18.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
-          "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
-          "publishedAt": "2026-09-11T16:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Reportedly Trying to Solve Hodge Conjecture Amid Feud With Math Community",
-          "url": "https://gizmodo.com/openai-reportedly-trying-to-solve-hodge-conjecture-amid-feud-with-math-community-2000813658",
-          "publishedAt": "2026-09-18T00:10:47.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Mathematicians Hate AI. They Can’t Quit It",
-          "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
-          "publishedAt": "2026-09-19T10:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Advisory Group on Mathematics and Artificial Intelligence",
-          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-          "publishedAt": "2026-09-21T12:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
-          "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
-          "publishedAt": "2026-09-21T20:15:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI GPT Bel Solves Over 100 Historic Math Problems",
-          "url": "https://www.geeky-gadgets.com/latest-ai-models-performance/",
-          "publishedAt": "2026-09-22T12:17:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Mathematics Just Got Its First Taste of the AI Job-Pocalypse",
-          "url": "https://gizmodo.com/mathematics-just-got-its-first-taste-of-the-ai-job-pocalypse-2000812872",
-          "publishedAt": "2026-09-22T15:55:13.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "OpenAI Is Pissing Off a Bunch of Mathematicians—Again",
-          "url": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
-          "publishedAt": "2026-10-06T17:28:33.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Dumps 377 New Math Results on GitHub, Publishes Hand-Wringing Blog Post",
-          "url": "https://gizmodo.com/openai-dumps-377-new-math-results-on-github-publishes-hand-wringing-blog-post-2000822613",
-          "publishedAt": "2026-10-07T01:50:52.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI just posted hundreds more results on major math problems",
-          "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/",
-          "publishedAt": "2026-10-07T13:08:45.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
-          "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
-          "publishedAt": "2026-10-08T18:10:55.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "AI’s Problem Solving Is a ‘Profound Disruption’ for the Math Community",
-          "url": "https://www.cnet.com/tech/services-and-software/ai-causing-profound-disruption-math-research/",
-          "publishedAt": "2026-10-09T15:37:41.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI Just Changed What It Means to Do Math",
-          "url": "https://www.geeky-gadgets.com/generated-proofs/",
-          "publishedAt": "2026-10-14T11:17:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Working with academic communities to build scientific understanding",
-          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-          "publishedAt": "2026-10-26T14:30:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Trumpets 3 More Math and Science Results, Along With a New Plan for Publishing Them",
-          "url": "https://gizmodo.com/openai-trumpets-3-more-math-and-science-results-along-with-a-new-plan-for-publishing-them-2000830956",
-          "publishedAt": "2026-10-27T00:13:11.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI announces new discoveries in mathematics, computer science and physics",
-          "url": "https://www.engadget.com/2297941/openai-new-discoveries-mathematics-computer-science-physics/",
-          "publishedAt": "2026-10-27T08:18:16.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
-          "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
-          "publishedAt": "2026-10-27T17:08:08.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "00be3127-72af-4926-8ebe-a6ce571e1554",
-      "title": "IBM ships Granite Switch 4.1.1, its model that serves chat, decisions, and speech from one endpoint",
-      "summary": "IBM released Granite Switch 4.1, a Granite model that handles chat, decision-making, and speech from a single endpoint. It has now followed with a 4.1.1 point release, which it presents on the Hugging Face blog as updating models the way you update software.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-15T22:24:18.827Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T14:27:33.179Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-          "publishedAt": "2026-10-15T20:34:01.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Granite Switch 4.1.1 — Update models like you update software",
-          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-          "publishedAt": "2026-10-29T13:37:07.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 119,
   "hasMore": true
 }
