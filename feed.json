@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T04:38:07.085Z",
+  "generatedAt": "2026-10-30T06:39:26.172Z",
   "stories": [
     {
       "id": "5629b9e5-9573-44a8-b923-48cad78d40cb",
@@ -194,6 +194,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "b28ea007-d30d-4704-a27c-f01d793838a8",
+      "title": "Google expands ads in AI Overviews, adding sponsored links to AI follow-up queries",
+      "summary": "Google is putting more ads into its AI search answers, now inserting \"sponsored\" links directly into AI follow-up queries. CNET warns this will cut traffic to online publishers even further.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-30T06:39:17.906Z",
+      "lastMeaningfulUpdateAt": "2026-10-30T06:39:17.906Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Here’s Why You’re About to See More Ads in Google’s AI Overviews",
+          "url": "https://www.cnet.com/tech/services-and-software/google-expands-advertising-ai-mode-overviews/",
+          "publishedAt": "2026-10-30T00:43:22.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "d9648913-4e61-4f3c-aa4c-b096690b425b",
@@ -1494,27 +1515,8 @@
       "tags": [
         "model-release"
       ]
-    },
-    {
-      "id": "ddf6e6c0-7807-41fa-a7e1-34c7d37c707d",
-      "title": "Dutch government plans to cut 16% of its workforce in an AI efficiency push",
-      "summary": "The Dutch cabinet announced it wants to eliminate 25,000 full-time government jobs, about 16% of its workforce, by 2035 as part of a push to use AI for efficiency.",
-      "importanceScore": 0.58,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-26T17:33:26.718Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T17:33:26.718Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Dutch government to cut 16 percent of workforce as part of AI efficiency push",
-          "url": "https://www.engadget.com/2297180/dutch-government-to-cut-16-percent-of-workforce-as-part-of-ai-efficiency-push/",
-          "publishedAt": "2026-10-26T17:13:20.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 118,
+  "totalCount": 117,
   "hasMore": true
 }
