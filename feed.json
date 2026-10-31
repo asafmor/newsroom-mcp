@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T21:19:27.371Z",
+  "generatedAt": "2026-10-31T23:20:13.799Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -500,6 +500,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "c7a67f52-75f2-4fea-9b37-1a2f08636c3b",
+      "title": "Apple CEO John Ternus says Apple doesn't \"want to ship AI for AI's sake\"",
+      "summary": "Apple's new CEO, John Ternus, defended the company's current position in the AI race, saying Apple doesn't \"want to ship AI for AI's sake,\" TechCrunch reports. The source feed gave no further detail on specific products or plans.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-10-31T23:20:07.236Z",
+      "lastMeaningfulUpdateAt": "2026-10-31T23:20:07.236Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+          "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+          "publishedAt": "2026-10-31T21:41:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "411ce84e-04d8-4ce3-bbb4-b4daa12424ee",
@@ -1505,29 +1524,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "246b1411-246a-45b2-a839-9c7917e94be1",
-      "title": "Anthropic reports early progress on accelerating drug development with Claude",
-      "summary": "Anthropic published research describing early progress in using Claude to accelerate drug development.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-27T23:57:48.190Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T23:57:48.190Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Early progress on accelerating drug development with Claude",
-          "url": "https://www.anthropic.com/research/early-progress-drug-development",
-          "publishedAt": "2026-10-27T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 121,
+  "totalCount": 122,
   "hasMore": true
 }
