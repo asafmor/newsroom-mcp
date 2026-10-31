@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T19:17:28.868Z",
+  "generatedAt": "2026-10-31T21:19:27.371Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -323,6 +323,28 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "988407f6-4ff0-49ca-9121-d481666ffe77",
+      "title": "Judge lets NAACP lawsuit over xAI data center pollution move forward",
+      "summary": "A judge has allowed the NAACP's lawsuit against SpaceX-owned xAI to proceed. The suit accuses the AI company's data center operations of violating the Clean Air Act, per TechCrunch.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-31T21:19:18.483Z",
+      "lastMeaningfulUpdateAt": "2026-10-31T21:19:18.483Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+          "publishedAt": "2026-10-31T21:17:03.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "regulation"
+      ]
     },
     {
       "id": "46d38e43-a1ef-436e-a906-a1d6cde79c3a",
@@ -1504,29 +1526,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "2c11d33c-8f6a-43bc-be38-45f0231a14fb",
-      "title": "ByteDance's open-source DeerFlow 2.0 pitched as a free alternative to Manus",
-      "summary": "ByteDance's DeerFlow 2.0 is an open-source agent framework built on LangGraph, pitched as a free alternative to the paid Manus agent. It is modular and runs tasks on users' own hardware for privacy and local control.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-30T14:55:28.826Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T14:55:28.826Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "ByteDance Releases Free DeerFlow 2.0 to Rival Paid Manus",
-          "url": "https://www.geeky-gadgets.com/deerflow-2-open-source-manus-alternative/",
-          "publishedAt": "2026-10-30T13:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 120,
+  "totalCount": 121,
   "hasMore": true
 }
