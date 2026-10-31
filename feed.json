@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T09:09:04.354Z",
+  "generatedAt": "2026-10-31T11:10:20.919Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -171,6 +171,34 @@
       ]
     },
     {
+      "id": "6bc3dda0-d128-4824-b014-3ce7ef935e13",
+      "title": "Google, OpenAI, Anthropic, and Microsoft pledge to honor a shared robots.txt signal blocking AI-training scraping",
+      "summary": "Google, OpenAI, Anthropic, and Microsoft have pledged to support a new common robots.txt signal that lets website operators block their content from being scraped for AI training. OpenAI announced first; Google's commitment, per Engadget, brings all the major model providers on board.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-30T18:59:09.737Z",
+      "lastMeaningfulUpdateAt": "2026-10-31T11:10:12.851Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Making it easier for websites to express AI training preferences",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "publishedAt": "2026-10-30T09:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google joins OpenAI and Anthropic in promising new scraping controls",
+          "url": "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/",
+          "publishedAt": "2026-10-31T10:34:31.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
       "id": "25641c5e-d1da-443c-8f65-319d3f4358cb",
       "title": "Nvidia weighs cosigning Nscale's West Virginia data center loan as the neocloud heads for IPO",
       "summary": "British AI data-center developer Nscale is heading for an IPO that tests investor appetite for concentrated AI infrastructure bets, and its backers are moving in opposite directions.\n\n- New: Nvidia is weighing whether to cosign the loan for Nscale's AI data center in West Virginia, TechCrunch reports, a backstop aimed at investors nervous about AI spending\n- Nscale and Anthropic are reportedly in talks for another $45 billion compute deal, matching the one they announced in August\n- Gizmodo reports Microsoft pulled out of a giant British AI cloud deal just as Nscale was expecting to go public\n- The neocloud depends on Microsoft and Anthropic for most of its revenue",
@@ -265,6 +293,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "41659374-6614-440d-b807-b0bc0e488086",
+      "title": "A biotech startup's AI agent chose a gene therapy and injected it into a live mouse's brain",
+      "summary": "A biotech startup let an AI agent pick a gene therapy and carry out the injection into a live mouse's brain, which succeeded, per Wired. It is an early look at agents running hands-on lab research.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-31T11:10:11.311Z",
+      "lastMeaningfulUpdateAt": "2026-10-31T11:10:11.311Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+          "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+          "publishedAt": "2026-10-31T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -573,25 +622,6 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "6bc3dda0-d128-4824-b014-3ce7ef935e13",
-      "title": "OpenAI will honor a shared robots.txt signal for AI training preferences",
-      "summary": "OpenAI says it will honor a shared robots.txt signal that lets website operators tell participating AI providers whether their content may be used for training.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-30T18:59:09.737Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T18:59:09.737Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Making it easier for websites to express AI training preferences",
-          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-          "publishedAt": "2026-10-30T09:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     },
     {
       "id": "c3e99979-24d0-488e-b87d-ec6c9d5dd6aa",
@@ -1461,29 +1491,8 @@
         "funding",
         "infrastructure"
       ]
-    },
-    {
-      "id": "9cb2804d-ead2-4f91-9846-5458672a9869",
-      "title": "China's largest DRAM maker pushes ahead with advanced AI memory chips despite a reported 70% failure rate",
-      "summary": "Gizmodo reports that China's largest DRAM maker is expected to start limited production of advanced memory chips within two months, even though yields are reportedly so poor that about 70% of the chips fail. Gizmodo says this shows how badly China wants homegrown AI memory.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-28T18:11:02.989Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T18:11:02.989Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "China Is So Desperate for AI Memory That It’s Producing Chips With a 70% Failure Rate",
-          "url": "https://gizmodo.com/china-is-so-desperate-for-ai-memory-that-its-producing-chips-with-a-70-failure-rate-2000831791",
-          "publishedAt": "2026-10-28T16:10:31.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 124,
+  "totalCount": 123,
   "hasMore": true
 }
