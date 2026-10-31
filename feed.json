@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T03:05:26.043Z",
+  "generatedAt": "2026-10-31T05:06:29.722Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -486,6 +486,25 @@
       "tags": [
         "infrastructure"
       ]
+    },
+    {
+      "id": "795e22ae-090c-45d6-b2a6-a6b74d8f711e",
+      "title": "Pope Leo XIV says AIs aren't conscious beings and urges a ban on autonomous weapons",
+      "summary": "Pope Leo XIV pushed back on claims that AI systems are conscious or have souls, and called for a ban on autonomous weapons, per Gizmodo. The source item carries only a brief description, so the full text of his remarks isn't available yet.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-31T05:06:21.330Z",
+      "lastMeaningfulUpdateAt": "2026-10-31T05:06:21.330Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Pope Leo XIV Reminds World That AIs Aren’t Conscious Beings, Urges Autonomous Weapon Ban",
+          "url": "https://gizmodo.com/pope-leo-xiv-reminds-world-that-ais-arent-conscious-beings-urges-autonomous-weapon-ban-2000833335",
+          "publishedAt": "2026-10-31T03:53:59.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "94c659c9-5b29-419a-af90-4e7cba507b42",
@@ -1064,6 +1083,27 @@
       ]
     },
     {
+      "id": "e5e7ac4a-2716-4781-a5f3-004a45b4c3ab",
+      "title": "Gizmodo mocks Sam Altman's latest comments on controlling memory and compute",
+      "summary": "Gizmodo ran a satirical piece framing Sam Altman's latest remarks as \"all the RAM should belong to me, so I can charge people to use it.\" The item carries only a headline and a one-line quip, so what Altman actually said isn't available from this source.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-31T05:06:24.076Z",
+      "lastMeaningfulUpdateAt": "2026-10-31T05:06:24.076Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Sam Altman: All the RAM Should Belong to Me, So I Can Charge People to Use It",
+          "url": "https://gizmodo.com/sam-altman-all-the-ram-should-belong-to-me-so-i-can-charge-people-to-use-it-2000833412",
+          "publishedAt": "2026-10-31T03:18:42.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "ad68de1f-0c00-4e71-bf9f-d69baae42d72",
       "title": "Anthropic reportedly launches a revamped Claude 2.0 desktop app with nested sessions and context cards",
       "summary": "Geeky Gadgets reports that Anthropic has launched \"Claude 2.0\" in 95 countries. Based on a creator's walkthrough, the release appears to be a redesigned Claude desktop app, not a new model. Its features include nested sessions for grouping related tasks and context cards that manage memory use and chat performance.",
@@ -1442,48 +1482,8 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "546e00b2-9a80-4b12-96bc-863b26683833",
-      "title": "Granola adds dictation to its meeting notetaker to compete with Wispr",
-      "summary": "Granola is adding a dictation feature to its AI meeting notetaker, TechCrunch reports, a reverse move after dictation app Wispr Flow added meeting notes. The two voice AI apps are now encroaching on each other's turf.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-29T18:31:35.295Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T18:31:35.295Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Granola crunches up a dictation feature to compete with Wispr",
-          "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
-          "publishedAt": "2026-10-29T17:54:38.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "c0be577b-7eaf-437d-b6cb-de1b81b3cdee",
-      "title": "Startup &Truth joins the race to automate formal verification as a fix for vibe-coded software",
-      "summary": "A new startup called &Truth is joining the push to automate formal verification, which uses math to prove that software works as intended. Wired presents the technique as a possible answer to the reliability problems of AI-written \"vibe-coded\" software.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-29T16:29:49.316Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T16:29:49.316Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
-          "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
-          "publishedAt": "2026-10-29T15:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 122,
+  "totalCount": 124,
   "hasMore": true
 }
