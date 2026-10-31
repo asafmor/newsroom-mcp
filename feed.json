@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T01:04:04.375Z",
+  "generatedAt": "2026-10-31T03:05:26.043Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -168,6 +168,49 @@
       "tags": [
         "funding",
         "safety"
+      ]
+    },
+    {
+      "id": "25641c5e-d1da-443c-8f65-319d3f4358cb",
+      "title": "Nvidia weighs cosigning Nscale's West Virginia data center loan as the neocloud heads for IPO",
+      "summary": "British AI data-center developer Nscale is heading for an IPO that tests investor appetite for concentrated AI infrastructure bets, and its backers are moving in opposite directions.\n\n- New: Nvidia is weighing whether to cosign the loan for Nscale's AI data center in West Virginia, TechCrunch reports, a backstop aimed at investors nervous about AI spending\n- Nscale and Anthropic are reportedly in talks for another $45 billion compute deal, matching the one they announced in August\n- Gizmodo reports Microsoft pulled out of a giant British AI cloud deal just as Nscale was expecting to go public\n- The neocloud depends on Microsoft and Anthropic for most of its revenue",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-09-22T13:37:32.047Z",
+      "lastMeaningfulUpdateAt": "2026-10-31T03:05:12.792Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
+          "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+          "publishedAt": "2026-09-22T12:23:05.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Microsoft Pulls Out of Giant British AI Cloud Deal Just As Cloud Company Was Expecting to IPO",
+          "url": "https://gizmodo.com/microsoft-pulls-out-of-giant-british-ai-cloud-deal-just-as-cloud-company-was-expecting-to-ipo-2000827469",
+          "publishedAt": "2026-10-19T09:00:39.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+          "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+          "publishedAt": "2026-10-19T23:39:38.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+          "publishedAt": "2026-10-31T01:20:05.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "funding",
+        "infrastructure"
       ]
     },
     {
@@ -1439,30 +1482,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "0cdcc8b9-5969-457f-9373-93d3a9653dd8",
-      "title": "Hugging Face introduces AnySpeechRecognizer and AnyDecisionModel, open models for speech and decisions on Apple platforms",
-      "summary": "Hugging Face announced AnySpeechRecognizer and AnyDecisionModel, open models for speech recognition and decision-making that run on Apple platforms. The source item carries only the title, so details on sizes, benchmarks, and licensing aren't available yet.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-29T12:25:47.870Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T12:25:47.870Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-          "url": "https://huggingface.co/blog/anydecisionmodel",
-          "publishedAt": "2026-10-29T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source",
-        "model-release"
-      ]
     }
   ],
-  "totalCount": 121,
+  "totalCount": 122,
   "hasMore": true
 }
