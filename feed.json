@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T11:10:20.919Z",
+  "generatedAt": "2026-10-31T13:11:39.282Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -288,6 +288,27 @@
           "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
           "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
           "publishedAt": "2026-10-30T21:09:54.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "fdc86123-5388-488b-9756-4267b6d389aa",
+      "title": "New \"Volta-Autodoxer\" infostealer malware uses AI to build dossiers on its victims",
+      "summary": "Researchers have uncovered \"Volta-Autodoxer,\" infostealer malware that uses AI tools to \"autodox\" victims, Wired reports. It sweeps up troves of personal data, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-31T13:11:28.518Z",
+      "lastMeaningfulUpdateAt": "2026-10-31T13:11:28.518Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+          "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+          "publishedAt": "2026-10-31T12:00:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1468,28 +1489,6 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "3e7a962a-c176-46e7-bd86-9718984d3563",
-      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-      "summary": "SpaceX disclosed in a regulatory filing a binding commitment for roughly $40 billion from Apollo to finance AI chips and data center equipment, calling it the \"largest committed GPU financing\" ever.",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-26T17:33:25.264Z",
-      "lastMeaningfulUpdateAt": "2026-10-26T17:33:25.264Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-          "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-          "publishedAt": "2026-10-26T16:46:36.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
       ]
     }
   ],
