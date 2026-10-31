@@ -1,6 +1,56 @@
 {
-  "generatedAt": "2026-10-31T15:13:40.995Z",
+  "generatedAt": "2026-10-31T17:15:28.796Z",
   "stories": [
+    {
+      "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
+      "title": "OpenAI reportedly lowers the target for its pre-IPO raise, last pegged at $30B and a $1.25T valuation",
+      "summary": "OpenAI's last planned private raise before a public debut is reportedly falling short of expectations, and the company has lowered its funding target.\n\n- OpenAI has cut the target for the new round, which hasn't lived up to expectations, per TechCrunch (no revised figure reported)\n- The round was last reported at $30 billion and a $1.25 trillion valuation, already down from the $1.4 trillion figure reported in late September\n- Even at $1.25T, it would have been the most highly valued private company ever\n- It's expected to be OpenAI's final private raise before an IPO, now pushed to 2027\n- Altman has said OpenAI must \"be able to make confident safety claims\" before going public, tying the IPO to getting its rogue-AI incidents under control, per Gizmodo",
+      "importanceScore": 0.84,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-29T20:08:40.765Z",
+      "lastMeaningfulUpdateAt": "2026-10-31T17:15:13.120Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
+          "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+          "publishedAt": "2026-09-29T19:52:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says",
+          "url": "https://gizmodo.com/no-openai-ipo-until-the-ai-stops-going-rogue-ceo-sam-altman-says-2000819194",
+          "publishedAt": "2026-09-30T04:14:16.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Reportedly Looking to Hurry and Get Valued at $1.4 Trillion Before Anthropic IPO",
+          "url": "https://gizmodo.com/openai-reportedly-looking-to-hurry-and-get-valued-at-1-4-trillion-before-anthropic-ipo-2000827975",
+          "publishedAt": "2026-10-20T09:30:27.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+          "publishedAt": "2026-10-22T22:08:24.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI reportedly lowers funding target for new round",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+          "publishedAt": "2026-10-31T16:12:55.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "funding",
+        "safety"
+      ]
+    },
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
       "title": "Anthropic officially files for its IPO, with a public S-1 showing soaring revenue, heavy losses, and founder control",
@@ -1475,30 +1525,8 @@
       "tags": [
         "open-source"
       ]
-    },
-    {
-      "id": "589a737c-d1b9-4156-8fbb-b56690b4f5bb",
-      "title": "Anthropic launches tools showing companies what their AI spending buys, ahead of its IPO",
-      "summary": "Anthropic launched tools that show enterprise customers how their spending on its models is being used, lifting the curtain on usage economics as it heads toward a planned IPO.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-28T20:12:25.963Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T20:12:25.963Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic just launched tools to show companies what their AI spending is buying",
-          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
-          "publishedAt": "2026-10-28T19:19:58.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 121,
+  "totalCount": 120,
   "hasMore": true
 }
