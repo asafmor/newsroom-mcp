@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T05:23:09.577Z",
+  "generatedAt": "2026-11-01T07:24:11.870Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -762,14 +762,28 @@
       "tags": []
     },
     {
-      "id": "b28ea007-d30d-4704-a27c-f01d793838a8",
-      "title": "Google expands ads in AI Overviews, adding sponsored links to AI follow-up queries",
-      "summary": "Google is putting more ads into its AI search answers, now inserting \"sponsored\" links directly into AI follow-up queries. CNET warns this will cut traffic to online publishers even further.",
+      "id": "688c5b4b-29c6-406f-8bbc-928fe0bffb71",
+      "title": "Google expands AI Search ads globally as Alphabet's revenue grows 25% to $127.6B",
+      "summary": "Google is expanding ads in its AI-powered Search experiences worldwide, announced alongside Alphabet's third-quarter earnings.\n\n- Ads now appear inside AI Overviews, including \"sponsored\" links in AI follow-up queries\n- Publishers are expected to lose even more search traffic as a result\n- Alphabet's revenue grew 25% year over year to $127.6 billion, though core ad growth is slowing\n- Free cash flow fell by $3 billion, overshadowing the launch of Gemini 4 Carbon, Google's \"strongest\" model so far",
       "importanceScore": 0.55,
       "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-30T06:39:17.906Z",
+      "firstSeenAt": "2026-10-28T22:14:21.911Z",
       "lastMeaningfulUpdateAt": "2026-10-30T06:39:17.906Z",
       "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google expands AI Search ads globally as core ad growth slows",
+          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+          "publishedAt": "2026-10-28T21:48:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google’s Flashy New Model Gets Outshone By Its Financial Troubles",
+          "url": "https://gizmodo.com/googles-flashy-new-model-gets-outshone-by-its-financial-troubles-2000832147",
+          "publishedAt": "2026-10-29T01:30:28.000Z",
+          "contribution": "meaningful-update"
+        },
         {
           "providerName": "CNET AI",
           "title": "Here’s Why You’re About to See More Ads in Google’s AI Overviews",
@@ -1021,34 +1035,6 @@
           "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
           "publishedAt": "2026-10-28T17:00:00.000Z",
           "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "688c5b4b-29c6-406f-8bbc-928fe0bffb71",
-      "title": "Google expands AI Search ads globally as Alphabet's revenue grows 25% to $127.6B",
-      "summary": "Google is expanding ads in its AI-powered Search experiences worldwide, announced alongside Alphabet's third-quarter earnings.\n\n- Alphabet's revenue grew 25% year over year to $127.6 billion\n- Growth in Google's core ad business is slowing\n- Free cash flow fell by $3 billion, overshadowing the launch of Gemini 4 Carbon, Google's \"strongest\" model so far",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-28T22:14:21.911Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T02:17:17.163Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google expands AI Search ads globally as core ad growth slows",
-          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
-          "publishedAt": "2026-10-28T21:48:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google’s Flashy New Model Gets Outshone By Its Financial Troubles",
-          "url": "https://gizmodo.com/googles-flashy-new-model-gets-outshone-by-its-financial-troubles-2000832147",
-          "publishedAt": "2026-10-29T01:30:28.000Z",
-          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -1524,8 +1510,29 @@
       "tags": [
         "enterprise-adoption"
       ]
+    },
+    {
+      "id": "246b1411-246a-45b2-a839-9c7917e94be1",
+      "title": "Anthropic reports early progress on accelerating drug development with Claude",
+      "summary": "Anthropic published research describing early progress in using Claude to accelerate drug development.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-27T23:57:48.190Z",
+      "lastMeaningfulUpdateAt": "2026-10-27T23:57:48.190Z",
+      "sources": [
+        {
+          "providerName": "Anthropic News",
+          "title": "Early progress on accelerating drug development with Claude",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development",
+          "publishedAt": "2026-10-27T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 121,
   "hasMore": true
 }
