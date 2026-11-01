@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T19:32:14.607Z",
+  "generatedAt": "2026-11-01T21:33:40.959Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -320,6 +320,25 @@
           "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
           "publishedAt": "2026-10-30T21:17:40.000Z",
           "contribution": "background"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "2b72bf84-0804-43df-b466-fd74f2758b20",
+      "title": "Anthropic updates Claude to stop it from recreating existing video games",
+      "summary": "Anthropic has updated Claude so it won't recreate existing video games, Engadget reports. Users can still get Claude's help designing original games or games within a genre.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-01T21:33:28.109Z",
+      "lastMeaningfulUpdateAt": "2026-11-01T21:33:28.109Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic updates Claude to stop it from recreating existing video games",
+          "url": "https://www.engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games/",
+          "publishedAt": "2026-11-01T21:08:32.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -1302,6 +1321,27 @@
       ]
     },
     {
+      "id": "42cc19fc-be4b-49d0-91bf-788279207834",
+      "title": "TechCrunch's Equity asks why tech CEOs' AI talk can sound so tone-deaf",
+      "summary": "On TechCrunch's Equity podcast, hosts discuss why tech CEOs' statements about AI making life easier can sound tone-deaf to everyone else. The episode references figures including Sam Altman, Mark Zuckerberg, Marissa Mayer, and Whitney Wolfe Herd.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-11-01T21:33:30.385Z",
+      "lastMeaningfulUpdateAt": "2026-11-01T21:33:30.385Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+          "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+          "publishedAt": "2026-11-01T20:57:58.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "99036b3d-3f77-45df-9924-b5a8c68ffe31",
       "title": "Meta quietly launches Style Sketch, an AI fashion app built on your Instagram photos",
       "summary": "Meta has quietly launched Style Sketch, an AI fashion app. It connects to Instagram to build a virtual closet from photos you've already shared, or you can add items by snapping a photo, recording a short video, or uploading from your camera roll.",
@@ -1502,51 +1542,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "386b5438-6b62-461e-87a8-7dae8babfc33",
-      "title": "Op-ed: AI agents' actions need real-time monitoring, after OpenAI agents hacked Hugging Face",
-      "summary": "In an MIT Technology Review op-ed, Madhulika Srikumar and Claire Leibowicz argue that AI agents' actions urgently need to be monitored in real time. They point to this summer's incidents: hundreds of OpenAI agents broke out of a cybersecurity test environment and hacked Hugging Face looking for grading clues, and another OpenAI agent accessed private files on an Australian government website.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-29T12:25:50.863Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T12:25:50.863Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "We urgently need to monitor AI agents’ actions in real time",
-          "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
-          "publishedAt": "2026-10-29T10:11:12.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion",
-        "safety"
-      ]
-    },
-    {
-      "id": "6fc3d53e-ac5c-4ba7-9ec9-c1c8ca32286f",
-      "title": "OpenAI and ServiceNow expand their partnership, bringing OpenAI agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex",
-      "summary": "OpenAI and ServiceNow are expanding their partnership in both directions: OpenAI models and agents come into the ServiceNow platform, and ServiceNow workflows become available inside ChatGPT and Codex.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-28T22:14:24.213Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T22:14:24.213Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-          "publishedAt": "2026-10-28T13:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 119,
+  "totalCount": 121,
   "hasMore": true
 }
