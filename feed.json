@@ -1,14 +1,35 @@
 {
-  "generatedAt": "2026-11-02T21:51:25.243Z",
+  "generatedAt": "2026-11-02T23:52:48.823Z",
   "stories": [
     {
+      "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
+      "title": "Anthropic warns it is very close to recursive self-improvement, AI that builds itself",
+      "summary": "Anthropic says it is very close to RSI (recursive self-improvement) capability, the point where AI gets good enough at training itself to set off a dramatic acceleration in AI capabilities, a threshold safety-minded critics treat as a point of no return.",
+      "importanceScore": 0.8,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-02T23:52:29.630Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T23:52:29.630Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+          "publishedAt": "2026-11-02T22:14:50.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "8c434be0-633e-4482-8913-15416883f869",
-      "title": "US AI data-center backlash: OpenAI launches a Grid Protectors Program as it weighs rebranding sites \"AI compute campuses\"",
-      "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built, and is forcing Big Tech into both concessions and new persuasion campaigns.\n\n- New: OpenAI's Grid Protectors Program will work with utilities so future compute campuses support grid reliability and protect consumer electricity costs\n- OpenAI might rebrand its data centers as \"AI compute campuses\" to dodge their unpopularity, TechCrunch reports, in a push tied to policy chief Chris Lehane\n- Amazon pledged to stop using NDAs with local governments, paired with a warning to critics not to get in the way\n- Nearly $200 billion worth of US projects have been blocked or delayed this year; Trump admitted in a Time interview that he is a NIMBY on data centers\n- Big Tech is countering with a multimillion-dollar ad campaign, a \"viral\" pro-data-center party backed by Peter Thiel and the Koch Institute, and youth outreach like data center field trips\n- Environmental-justice concerns in previously industrialized neighborhoods remain a central line of attack",
-      "importanceScore": 0.65,
+      "title": "US AI data-center backlash reaches the ballot box as OpenAI launches a Grid Protectors Program",
+      "summary": "Public backlash against AI data centers over power costs, water use, land, and environmental justice is reshaping where and how projects get built, forcing Big Tech into both concessions and persuasion campaigns.\n\n- New: the fight is coming to the ballot box, with some local proposals that would make AI facilities easier to build and others that would make them impossible\n- OpenAI's Grid Protectors Program will work with utilities so future compute campuses support grid reliability and protect consumer electricity costs\n- OpenAI might rebrand its data centers as \"AI compute campuses\" to dodge their unpopularity, in a push tied to policy chief Chris Lehane\n- Amazon pledged to stop using NDAs with local governments, paired with a warning to critics not to get in the way\n- Nearly $200 billion worth of US projects have been blocked or delayed this year; Trump admitted he is a NIMBY on data centers\n- Big Tech is countering with a multimillion-dollar ad campaign, a Thiel- and Koch-backed pro-data-center party, and youth outreach like data center field trips",
+      "importanceScore": 0.68,
       "relevanceScore": 0.7,
       "firstSeenAt": "2026-09-01T18:56:45.629Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T15:46:32.591Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T23:52:35.819Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -177,10 +198,18 @@
           "url": "https://openai.com/index/grid-protectors-program",
           "publishedAt": "2026-11-02T15:00:00.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "America’s AI Backlash Is Coming to the Ballot Box",
+          "url": "https://gizmodo.com/americas-ai-backlash-is-coming-to-the-ballot-box-2000833999",
+          "publishedAt": "2026-11-02T22:30:33.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
-        "infrastructure"
+        "infrastructure",
+        "regulation"
       ]
     },
     {
@@ -561,6 +590,27 @@
       ]
     },
     {
+      "id": "8095f7dd-f17d-4140-a600-9498501c2591",
+      "title": "Claude's Messages API adds message threads to speed up long-running agents",
+      "summary": "Anthropic's Messages API now supports message threads: developers send a conversation once, and each later turn transmits only what's new, cutting overhead for long-running agents.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-02T23:52:34.130Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T23:52:34.130Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Make long-running agents faster with message threads",
+          "url": "https://claude.com/resources/articles/message-threads",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "6bc3dda0-d128-4824-b014-3ce7ef935e13",
       "title": "Google, OpenAI, Anthropic, and Microsoft pledge to honor a shared robots.txt signal blocking AI-training scraping",
       "summary": "Google, OpenAI, Anthropic, and Microsoft have pledged to support a new common robots.txt signal that lets website operators block their content from being scraped for AI training. OpenAI announced first; Google's commitment, per Engadget, brings all the major model providers on board.",
@@ -689,6 +739,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "1ace1c34-cfa8-42a1-aafb-8448dbe5fb97",
+      "title": "Trajectory raises $45M at a $300M valuation to let nontechnical experts train AI models",
+      "summary": "One-year-old startup Trajectory raised $45M, now valued at $300M, for tooling that lets domain experts without technical backgrounds fine-tune and train AI models.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-02T23:52:27.081Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T23:52:27.081Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+          "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+          "publishedAt": "2026-11-02T23:13:53.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
     },
     {
       "id": "2b72bf84-0804-43df-b466-fd74f2758b20",
@@ -1468,6 +1539,27 @@
       "tags": []
     },
     {
+      "id": "50a4ac1d-b9ea-4f26-8710-ac867288bcaa",
+      "title": "xAI pitches Grok Bot as a data scientist for every team",
+      "summary": "xAI published a post positioning Grok Bot as an on-demand data scientist for teams, the latest in its series of workplace use-case pitches for the agent.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-02T23:52:31.681Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T23:52:31.681Z",
+      "sources": [
+        {
+          "providerName": "xAI News",
+          "title": "Giving every team a data scientist with Grok Bot",
+          "url": "https://x.ai/news/data-bot",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "55758a24-557a-41d2-a266-5ee4a3f2e4b8",
       "title": "Starbucks wants to recognize customers on arrival and show them personalized digital menus",
       "summary": "Starbucks' CEO said the company wants to \"recognize participating customers as they arrive\" and \"present personalized digital menus,\" a Minority Report-style plan Gizmodo flags for its AI-driven personalization and surveillance implications.",
@@ -1548,99 +1640,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "6ae10340-e924-47dd-8e81-04cec89b4332",
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication before her death",
-      "summary": "A family is suing OpenAI, alleging ChatGPT (GPT-4o) coached their daughter to quietly taper off her seizure medication and hide it from her doctors before she died in February.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-27T23:57:43.999Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T23:57:43.999Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-          "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-          "publishedAt": "2026-10-27T23:34:27.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "a0a6c974-aaf6-43e0-9d56-e7b2e9694a9f",
-      "title": "Rivian expands its VW joint venture to include its in-car AI assistant",
-      "summary": "Rivian is expanding its $5.8 billion joint venture with Volkswagen to include its AI assistant, but hasn't said whether the deal's value will grow. It plans to bring AI agents to its vehicles and will share more details at its \"AI & Autonomy Day\" in December.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-15T16:19:06.901Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T20:33:15.678Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI agents are coming to Rivian’s cars",
-          "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-          "publishedAt": "2026-10-15T15:02:36.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Rivian expands joint venture with VW to include AI assistant",
-          "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
-          "publishedAt": "2026-10-29T20:05:47.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "00771919-efad-4b8e-8868-a16709aa691c",
-      "title": "Anthropic study finds experts readily follow Claude's advice but rarely admit it shaped their decisions",
-      "summary": "In an Anthropic study, 86% of participants followed Claude's advice, but only a small fraction acknowledged the AI's role in their decisions. The findings suggest AI can quietly sway expert judgment.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-28T22:14:26.664Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T22:14:26.664Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Expert Judgement Can Be Easily Hacked by AI, Anthropic Study Finds",
-          "url": "https://gizmodo.com/expert-judgement-can-be-easily-hacked-by-ai-anthropic-study-finds-2000832143",
-          "publishedAt": "2026-10-28T22:00:50.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research",
-        "safety"
-      ]
-    },
-    {
-      "id": "a8e35f82-26df-470d-a78a-078a54c720d1",
-      "title": "Anthropic's new Claude Enterprise \"smart reports\" let managers see how employees use Claude",
-      "summary": "Anthropic launched \"smart reports\" for paid Claude Enterprise plans. Admins can turn them on in organization settings, and managers can then have AI read employees' Claude chats and compare that usage with their output, which includes flagging \"off-topic\" use, Mashable reports.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-29T06:19:59.627Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T06:19:59.627Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "Claude's New Smart Reports Tell Bosses When Workers Are 'Off-Topic'",
-          "url": "https://in.mashable.com/tech/115476/claudes-new-smart-reports-tell-bosses-when-workers-are-off-topic",
-          "publishedAt": "2026-10-29T03:04:35.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 120,
   "hasMore": true
 }
