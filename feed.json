@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T17:48:20.978Z",
+  "generatedAt": "2026-11-02T19:49:32.612Z",
   "stories": [
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -203,6 +203,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "7811834a-4ac9-4a9a-ace9-201c6c5241a4",
+      "title": "New York Times and other outlets sue Brave over scraping content it allegedly resold to AI firms like Anthropic and Perplexity",
+      "summary": "The New York Times and other news outlets are suing browser maker Brave, alleging it scraped their copyrighted content and unlawfully distributed it to its own customers, including AI companies Anthropic and Perplexity, TechCrunch reports.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-02T19:49:20.746Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T19:49:20.746Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+          "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+          "publishedAt": "2026-11-02T19:19:17.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "c97b765f-04ad-4e04-99a0-e9291b483749",
@@ -679,6 +698,13 @@
           "url": "https://www.engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games/",
           "publishedAt": "2026-11-01T21:08:32.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Software Is Dead—Unless Anthropic Says Otherwise",
+          "url": "https://gizmodo.com/software-is-dead-unless-anthropic-says-otherwise-2000833871",
+          "publishedAt": "2026-11-02T19:25:12.000Z",
+          "contribution": "background"
         }
       ],
       "tags": []
@@ -1606,30 +1632,8 @@
         "product-launch",
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "5b15d1fb-014b-4847-8c5d-f6128921c149",
-      "title": "New York's governor signs an AI chatbot child safety law",
-      "summary": "New York's governor signed a law aimed at protecting children from AI chatbots. A separate law signed alongside it aims to improve security on connected baby monitors.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-28T18:11:04.938Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T18:11:04.938Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "New York governor signs AI chatbot child safety law",
-          "url": "https://www.engadget.com/2299823/new-york-governor-signs-ai-chatbot-child-safety-law/",
-          "publishedAt": "2026-10-28T16:33:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
     }
   ],
-  "totalCount": 123,
+  "totalCount": 122,
   "hasMore": true
 }
