@@ -1,35 +1,14 @@
 {
-  "generatedAt": "2026-11-02T13:45:14.657Z",
+  "generatedAt": "2026-11-02T15:46:44.934Z",
   "stories": [
     {
-      "id": "c3e676a3-d24c-4b6e-afee-391bfa575d07",
-      "title": "WIRED finds ~400 ordinary-looking AI apps hiding sexually abusive deepfake features",
-      "summary": "A WIRED investigation uncovered some 400 apps and websites, linked to Chinese-language developers, that present as everyday AI tools but contain hidden features for generating violent and sexually abusive AI images and video.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-02T11:43:15.267Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T11:43:15.267Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-          "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-          "publishedAt": "2026-11-02T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
       "id": "8c434be0-633e-4482-8913-15416883f869",
-      "title": "US AI data-center backlash: OpenAI weighs rebranding them \"AI compute campuses\" as the industry courts kids with field trips",
-      "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built, and is forcing Big Tech into both concessions and new persuasion campaigns.\n\n- New: OpenAI might rebrand its data centers as \"AI compute campuses\" to dodge their unpopularity, TechCrunch reports, in a push tied to policy chief Chris Lehane\n- Industry-friendly groups are courting young people with data center field trips and other youth outreach, per Wired\n- Amazon pledged to stop using NDAs with local governments, paired with a warning to critics not to get in the way\n- Nearly $200 billion worth of US projects have been blocked or delayed this year; Trump admitted in a Time interview that he is a NIMBY on data centers\n- Big Tech is countering with a multimillion-dollar ad campaign and a \"viral\" pro-data-center party backed by Peter Thiel and the Koch Institute\n- Environmental-justice concerns in previously industrialized neighborhoods remain a central line of attack",
+      "title": "US AI data-center backlash: OpenAI launches a Grid Protectors Program as it weighs rebranding sites \"AI compute campuses\"",
+      "summary": "Public backlash against AI data centers over power costs, water use, and land is reshaping where and how projects get built, and is forcing Big Tech into both concessions and new persuasion campaigns.\n\n- New: OpenAI's Grid Protectors Program will work with utilities so future compute campuses support grid reliability and protect consumer electricity costs\n- OpenAI might rebrand its data centers as \"AI compute campuses\" to dodge their unpopularity, TechCrunch reports, in a push tied to policy chief Chris Lehane\n- Amazon pledged to stop using NDAs with local governments, paired with a warning to critics not to get in the way\n- Nearly $200 billion worth of US projects have been blocked or delayed this year; Trump admitted in a Time interview that he is a NIMBY on data centers\n- Big Tech is countering with a multimillion-dollar ad campaign, a \"viral\" pro-data-center party backed by Peter Thiel and the Koch Institute, and youth outreach like data center field trips\n- Environmental-justice concerns in previously industrialized neighborhoods remain a central line of attack",
       "importanceScore": 0.65,
       "relevanceScore": 0.7,
       "firstSeenAt": "2026-09-01T18:56:45.629Z",
-      "lastMeaningfulUpdateAt": "2026-11-01T23:35:26.594Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T15:46:32.591Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -191,10 +170,59 @@
           "url": "https://gizmodo.com/openai-would-reportedly-like-you-to-use-its-pleasant-new-term-for-data-centers-2000833570",
           "publishedAt": "2026-11-02T00:11:54.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Introducing the Grid Protectors Program",
+          "url": "https://openai.com/index/grid-protectors-program",
+          "publishedAt": "2026-11-02T15:00:00.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "c3e676a3-d24c-4b6e-afee-391bfa575d07",
+      "title": "WIRED finds ~400 ordinary-looking AI apps hiding sexually abusive deepfake features",
+      "summary": "A WIRED investigation uncovered some 400 apps and websites, linked to Chinese-language developers, that present as everyday AI tools but contain hidden features for generating violent and sexually abusive AI images and video.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-02T11:43:15.267Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T11:43:15.267Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+          "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+          "publishedAt": "2026-11-02T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "8c315b6f-c3b4-461d-a238-8f2d15a27da7",
+      "title": "OpenAI merges ChatGPT's chat and Work tabs, pooling ChatGPT and Codex usage",
+      "summary": "OpenAI is combining ChatGPT's separate chat and Work tabs into one experience, and says ChatGPT and Codex will draw from the same usage allocation pool after the change.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-02T15:46:30.859Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T15:46:30.859Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI is finally merging ChatGPT’s chat and Work tabs",
+          "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+          "publishedAt": "2026-11-02T13:57:53.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -886,6 +914,27 @@
         "model-release",
         "open-source",
         "safety"
+      ]
+    },
+    {
+      "id": "370f358b-154d-4f56-9f9f-62a747f561e2",
+      "title": "Omen AI buys Aquatic Labs for $16M to tackle data center water use",
+      "summary": "Omen AI is acquiring Aquatic Labs in a $16 million deal, combining two startups working on the water demands of AI data centers, TechCrunch reports.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-02T15:46:28.760Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T15:46:28.760Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+          "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+          "publishedAt": "2026-11-02T15:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -1623,57 +1672,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "ad68de1f-0c00-4e71-bf9f-d69baae42d72",
-      "title": "Anthropic reportedly launches a revamped Claude 2.0 desktop app with nested sessions and context cards",
-      "summary": "Geeky Gadgets reports that Anthropic has launched \"Claude 2.0\" in 95 countries. Based on a creator's walkthrough, the release appears to be a redesigned Claude desktop app, not a new model. Its features include nested sessions for grouping related tasks and context cards that manage memory use and chat performance.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-29T10:23:42.254Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T10:23:42.254Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic Officially Launches Claude 2.0 Across 95 Countries",
-          "url": "https://www.geeky-gadgets.com/claude-code/",
-          "publishedAt": "2026-10-29T09:13:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Redesigned Claude 2.0 Adds Native to-Do Lists and Contextual Cards",
-          "url": "https://www.geeky-gadgets.com/task-management/",
-          "publishedAt": "2026-10-30T11:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "42cc19fc-be4b-49d0-91bf-788279207834",
-      "title": "TechCrunch's Equity asks why tech CEOs' AI talk can sound so tone-deaf",
-      "summary": "On TechCrunch's Equity podcast, hosts discuss why tech CEOs' statements about AI making life easier can sound tone-deaf to everyone else. The episode references figures including Sam Altman, Mark Zuckerberg, Marissa Mayer, and Whitney Wolfe Herd.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-11-01T21:33:30.385Z",
-      "lastMeaningfulUpdateAt": "2026-11-01T21:33:30.385Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
-          "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
-          "publishedAt": "2026-11-01T20:57:58.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 123,
   "hasMore": true
 }
