@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T07:41:01.192Z",
+  "generatedAt": "2026-11-02T09:42:20.950Z",
   "stories": [
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -224,6 +224,27 @@
       "tags": [
         "funding",
         "safety"
+      ]
+    },
+    {
+      "id": "1f523e61-dc11-43bf-8f2e-21801b07f2b7",
+      "title": "DeepSeek launches Super-Agent, a proactive coding agent to rival Claude Code",
+      "summary": "DeepSeek released Super-Agent, a coding agent pitched against Anthropic's Claude Code. Unlike a prompt-driven chatbot, it works on its own: it monitors developers' group chats, spots coding problems, and suggests fixes without being asked.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-02T09:42:12.680Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T09:42:12.680Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "DeepSeek Super-Agent AI Arrives to Compete With Anthropic’s Claude Code: Details Inside",
+          "url": "https://in.mashable.com/tech/115663/deepseek-super-agent-ai-arrives-to-compete-with-anthropics-claude-code-details-inside",
+          "publishedAt": "2026-11-02T09:15:40.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1121,6 +1142,28 @@
       "tags": []
     },
     {
+      "id": "1e37643a-f51a-4f64-a9fb-0d4698e3e429",
+      "title": "Open-source tweak claims 39% faster FP32 AI performance on Nvidia's RTX 4090",
+      "summary": "An open-source workaround claims to lift firmware-level limits on Nvidia's consumer RTX 4090, speeding up full-precision (FP32) AI workloads by up to 39%. Those workloads include long-context LLM inference and high-resolution image generation.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-11-02T09:42:15.426Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T09:42:15.426Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Open Source Exploit Unlocks 39% More Speed on Nvidia RTX 4090",
+          "url": "https://www.geeky-gadgets.com/unlock-rtx-4090-ai-performance/",
+          "publishedAt": "2026-11-02T08:17:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "open-source"
+      ]
+    },
+    {
       "id": "15a2ab29-8edf-44f1-807f-97b9f34d2946",
       "title": "Open-weight Kimi K3.1 reaches 3 trillion parameters, but slips from fourth on a major AI benchmark",
       "summary": "Kimi K3.1 is an open-weight model pitched as a transparent, cheaper alternative to proprietary frontier models.\n\n- Mixture-of-experts design with 3 trillion total parameters, 104 billion active per task\n- Handles text and images, and may also handle audio\n- Reportedly beat GPT-6 Astra in a long-running software engineering test\n- An update to a leading AI benchmark knocked Kimi K3.1 Pro out of fourth place among the world's models",
@@ -1641,63 +1684,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "aa7ffa16-4127-42a6-b3e3-747bf84be818",
-      "title": "Privacy-focused AI assistant Ollie is shutting down",
-      "summary": "Ollie, an AI assistant built around respecting user privacy, will shut down in a week, its founder says, as a growing number of AI assistants crowd the market.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-30T23:02:53.334Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T23:02:53.334Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Ollie, a privacy-focused AI assistant, is shutting down",
-          "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
-          "publishedAt": "2026-10-30T22:56:13.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "cc898043-0d84-45e8-b0bd-0752caf3ca84",
-      "title": "Wabi, Replika founder Eugenia Kuyda's personal AI agent, raises $55M at a $1.25B valuation",
-      "summary": "Wabi, the startup from Replika founder Eugenia Kuyda, raised $55 million at a $1.25 billion valuation after turning its app builder into a free personal AI agent.\n\n- New: The round values Wabi at $1.25B, and it now calls itself a \"personal agent,\" per TechCrunch\n- The assistant builds interfaces on demand, combining chat, mini apps, and ongoing tasks in a messaging-style experience\n- Kuyda says it realizes an idea she pitched at TechCrunch Disrupt 12 years ago",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-09-29T18:06:04.904Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T16:29:44.566Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI-powered app maker Wabi pivots to a messaging experience",
-          "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
-          "publishedAt": "2026-09-29T17:20:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-          "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
-          "publishedAt": "2026-10-19T18:49:04.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
-          "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
-          "publishedAt": "2026-10-29T14:35:26.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "funding"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 123,
   "hasMore": true
 }
