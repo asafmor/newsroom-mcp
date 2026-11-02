@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T03:37:54.887Z",
+  "generatedAt": "2026-11-02T05:39:33.134Z",
   "stories": [
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -396,6 +396,28 @@
       ]
     },
     {
+      "id": "aafaebdc-b5c8-4953-aed7-8d7fbac9327c",
+      "title": "Common Sense Media survey finds most US tweens and teens use AI chatbots, many under the age limit",
+      "summary": "Two new surveys show AI chatbots are a normal part of life for young Americans, used for everything from homework help to emotional support. Common Sense Media's 2026 tween and teen census found that nearly half of 9-12-year-olds have bypassed the 13+ age restriction common to most chatbots.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-02T05:39:19.269Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T05:39:19.269Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Majority Of Teens And Tweens Now Use Chat Bots, New Research Finds",
+          "url": "https://in.mashable.com/mental-health/115629/majority-of-teens-and-tweens-now-use-chat-bots-new-research-finds",
+          "publishedAt": "2026-10-31T18:10:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research",
+        "safety"
+      ]
+    },
+    {
       "id": "6bc3dda0-d128-4824-b014-3ce7ef935e13",
       "title": "Google, OpenAI, Anthropic, and Microsoft pledge to honor a shared robots.txt signal blocking AI-training scraping",
       "summary": "Google, OpenAI, Anthropic, and Microsoft have pledged to support a new common robots.txt signal that lets website operators block their content from being scraped for AI training. OpenAI announced first; Google's commitment, per Engadget, brings all the major model providers on board.",
@@ -495,6 +517,13 @@
           "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
           "publishedAt": "2026-10-30T21:17:40.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Google, Reddit, And More Tech Stocks Plummet: What’s Driving Market Shocks",
+          "url": "https://in.mashable.com/tech-industry/115637/google-reddit-and-more-tech-stocks-plummet-whats-driving-market-shocks",
+          "publishedAt": "2026-10-30T17:53:05.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -1667,37 +1696,8 @@
         "product-launch",
         "funding"
       ]
-    },
-    {
-      "id": "94f2581b-471b-45a0-9e46-f9daf1cc08f0",
-      "title": "Nvidia releases Nemotron 3.5 Transcribe, a free open speech-to-text model for 40 languages, plus the Granary v2 dataset",
-      "summary": "Nvidia released Nemotron 3.5 Transcribe, a free multilingual speech-to-text model, alongside Granary v2, announced on the Hugging Face blog.\n\n- Transcribes up to 40 languages and, per Nvidia, can be prompted and adapted\n- Works only on recorded audio, not live streams, per TechCrunch\n- Positioned as a big step for meeting and medical transcription tools, while real-time use stays with rivals like ElevenLabs",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-28T16:08:14.482Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T16:08:14.482Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Voice AI in vogue: Nvidia releases new open transcription model",
-          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
-          "publishedAt": "2026-10-28T15:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-          "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-          "publishedAt": "2026-10-28T14:58:17.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 123,
   "hasMore": true
 }
