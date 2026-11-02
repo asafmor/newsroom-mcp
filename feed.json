@@ -1,6 +1,27 @@
 {
-  "generatedAt": "2026-11-02T09:42:20.950Z",
+  "generatedAt": "2026-11-02T11:43:29.203Z",
   "stories": [
+    {
+      "id": "c3e676a3-d24c-4b6e-afee-391bfa575d07",
+      "title": "WIRED finds ~400 ordinary-looking AI apps hiding sexually abusive deepfake features",
+      "summary": "A WIRED investigation uncovered some 400 apps and websites, linked to Chinese-language developers, that present as everyday AI tools but contain hidden features for generating violent and sexually abusive AI images and video.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-02T11:43:15.267Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T11:43:15.267Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+          "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+          "publishedAt": "2026-11-02T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
       "title": "US AI data-center backlash: OpenAI weighs rebranding them \"AI compute campuses\" as the industry courts kids with field trips",
@@ -510,6 +531,25 @@
       ]
     },
     {
+      "id": "4d69626a-751b-4230-a3e0-324834bb19cc",
+      "title": "Google DeepMind and the UK government use AI to speed up planning decisions",
+      "summary": "Google DeepMind is working with the UK government on AI tools aimed at cutting the time it takes to assess planning applications.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-02T11:43:17.319Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T11:43:17.319Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Speeding up planning decisions with AI",
+          "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+          "publishedAt": "2026-10-30T14:18:30.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "6fdb5a75-424d-47cc-9b4b-7dfa9c3a4547",
       "title": "Alphabet loses about $500B in market value as AI spending fears hit Wall Street",
       "summary": "Alphabet's stock has plunged, wiping out roughly $500 billion in market value, according to Gizmodo.\n\n- Google's AI summaries are eating into its own search profits, a sign that losing money may be the one thing that can slow the AI push\n- Investors are increasingly worried about Silicon Valley's massive AI spending spree, and Gizmodo says the AI gold rush is turning into a Wall Street bloodbath",
@@ -638,6 +678,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "6e834bea-b084-4f20-aa8b-eae9f7f37ad2",
+      "title": "MIT Technology Review: the agentic web Tim Berners-Lee envisioned is arriving",
+      "summary": "An MIT Technology Review feature traces today's AI agents back to Tim Berners-Lee's 2001 \"Semantic Web\" vision of an internet navigated by autonomous software agents, arguing that the agentic web is now taking shape.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-02T11:43:19.615Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T11:43:19.615Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "The agentic web is here",
+          "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+          "publishedAt": "2026-11-02T09:35:19.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "41659374-6614-440d-b807-b0bc0e488086",
@@ -1116,6 +1175,25 @@
       ]
     },
     {
+      "id": "53583f0a-d49f-47e3-bd65-1cc7ef8ce4ce",
+      "title": "Daters increasingly hand courtship to AI, with chatbots talking to chatbots",
+      "summary": "Gizmodo, citing Guardian reporting, says dating is turning into an AI-mediated chore, with people using chatbots like Claude to write their messages — one man suspected two Claudes were \"probably just chatting away behind the scenes.\"",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-02T11:43:21.653Z",
+      "lastMeaningfulUpdateAt": "2026-11-02T11:43:21.653Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "More Evidence Emerges That Dating Is Becoming a Bleak, AI-Powered Office Job",
+          "url": "https://gizmodo.com/more-evidence-emerges-that-dating-is-becoming-a-bleak-ai-powered-office-job-2000833565",
+          "publishedAt": "2026-11-02T10:00:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "US investigated a suspected Chinese spy plot aimed at Nvidia CEO Jensen Huang",
       "summary": "US authorities investigated a suspected Chinese spy plot aimed at Nvidia CEO Jensen Huang, according to New York Times sources.\n\n- The suspect is a top executive at a Singapore AI cloud company already accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China",
@@ -1533,6 +1611,13 @@
           "url": "https://www.engadget.com/2303266/sam-altman-says-its-terrible-dram-computer/",
           "publishedAt": "2026-10-31T15:07:10.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI Sam Altman Claims Cloud AI Beats Local AI PCs Due to Scarce DRAM",
+          "url": "https://www.geeky-gadgets.com/sam-altman-pc-comments-backlash/",
+          "publishedAt": "2026-11-02T10:47:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1587,105 +1672,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "99036b3d-3f77-45df-9924-b5a8c68ffe31",
-      "title": "Meta quietly launches Style Sketch, an AI fashion app built on your Instagram photos",
-      "summary": "Meta has quietly launched Style Sketch, an AI fashion app. It connects to Instagram to build a virtual closet from photos you've already shared, or you can add items by snapping a photo, recording a short video, or uploading from your camera roll.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-29T20:33:20.022Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T20:33:20.022Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta quietly launches an AI fashion app called Style Sketch",
-          "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
-          "publishedAt": "2026-10-29T19:14:36.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "6579cc43-2f7e-47fa-a5a2-8d24b2b720bd",
-      "title": "Google DeepMind releases Genie 4, a world model with real-time audio and mid-simulation steering",
-      "summary": "Google DeepMind released Genie 4, its next-generation world model, in a research preview for trusted testers.\n\n- Generates real-time audio alongside the simulated world\n- DeepMind says it produces markedly more realistic simulations\n- Users can steer a running simulation with text prompts mid-session",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-27T17:52:35.465Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T17:52:35.465Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Genie 4: A new generation of world simulation",
-          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-          "publishedAt": "2026-10-27T16:01:38.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
-          "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-          "publishedAt": "2026-10-27T16:30:57.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google’s New AI World Model Can Generate Human Voices, Not Just Video",
-          "url": "https://gizmodo.com/googles-new-ai-world-model-can-generate-human-voices-not-just-video-2000831335",
-          "publishedAt": "2026-10-27T20:45:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "research"
-      ]
-    },
-    {
-      "id": "6b2a28ef-9001-4be0-802d-c4b5c07ec0ee",
-      "title": "Anthropic and Suno sued over songs by Madonna, Johnny Cash, and Joni Mitchell",
-      "summary": "Anthropic and AI music generator Suno have been sued for allegedly training their AI models on copyrighted music and lyrics, including songs by Madonna, Johnny Cash, and Joni Mitchell, CNET reports. It arrives days after Elvis Presley's estate filed its own copyright suit against Anthropic.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-28T01:59:13.360Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T01:59:13.360Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Anthropic, Suno Sued for Unlawfully Using Songs by Madonna, Johnny Cash, Joni Mitchell",
-          "url": "https://www.cnet.com/tech/services-and-software/anthropic-suno-sued-using-songs-madonna-johnny-cash-joni-mitchell/",
-          "publishedAt": "2026-10-27T21:22:44.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "e8c70002-774f-4d40-ba73-fe601eaff4d9",
-      "title": "Anthropic expands its GSA partnership to bring Claude to all levels of government",
-      "summary": "Anthropic announced an expanded partnership with the US General Services Administration (GSA) aimed at bringing Claude to all levels of government, building on its Claude for Government offering.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-27T23:57:50.240Z",
-      "lastMeaningfulUpdateAt": "2026-10-27T23:57:50.240Z",
-      "sources": [
-        {
-          "providerName": "Anthropic News",
-          "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-          "publishedAt": "2026-10-27T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 123,
+  "totalCount": 124,
   "hasMore": true
 }
