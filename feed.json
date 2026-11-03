@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T16:06:21.510Z",
+  "generatedAt": "2026-11-03T18:08:29.724Z",
   "stories": [
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -27,6 +27,34 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "84fad439-74cc-42f4-a461-3aa410f9f39c",
+      "title": "Anthropic's compute economics worsen as cloud providers that now see it as a rival limit supply",
+      "summary": "Anthropic is still struggling with the cost of compute heading into its planned November IPO.\n\n- TechCrunch reports that cloud providers, which increasingly see Anthropic as a competitor, are making it hard to secure enough compute as its infrastructure spending balloons\n- New: Anthropic's compute margins are getting worse just when they should be improving, per TechCrunch",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-20T21:45:38.199Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T18:08:04.547Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s cloud partnerships are getting messy",
+          "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+          "publishedAt": "2026-10-20T21:25:22.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic is still grappling with the economics of compute",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+          "publishedAt": "2026-11-03T17:07:01.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -247,6 +275,32 @@
         "model-release",
         "open-source"
       ]
+    },
+    {
+      "id": "d5403200-dabd-41ac-b076-981df239c0c9",
+      "title": "Google lets schools disable its AI tools, but those that do lose access to Search",
+      "summary": "Google will let schools turn off its AI tools. Because AI features are now built into Google Search, though, schools that restrict AI entirely will also lose student access to Search. This shows how closely Google ties Search to its AI products.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-03T18:08:07.088Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T18:08:07.088Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+          "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+          "publishedAt": "2026-11-03T16:30:34.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google says students in schools that ban AI won't have access to Search",
+          "url": "https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search/",
+          "publishedAt": "2026-11-03T17:10:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "c3e676a3-d24c-4b6e-afee-391bfa575d07",
@@ -731,6 +785,27 @@
       ]
     },
     {
+      "id": "69ee6fc9-d9e1-4b90-91fd-a7c629b7867e",
+      "title": "Google DeepMind applies Antigravity and new Cheminformatics Skills to drug discovery",
+      "summary": "Google DeepMind shows how Google Antigravity, paired with its Cheminformatics Skills, can speed up drug-discovery workflows. The agents search compound libraries and propose new rigidified macrocycles.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-03T18:08:13.276Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T18:08:13.276Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Agentic cheminformatics with Google Antigravity",
+          "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+          "publishedAt": "2026-11-03T17:01:49.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "6d95e5b2-b088-4c02-89ac-ea8101eca593",
       "title": "OpenAI builds Pando, a Git-compatible backend for Codex-scale development",
       "summary": "OpenAI detailed Pando, a Git-compatible backend it built to handle the scale of development that Codex makes possible. It follows Anthropic's move to replace git with its own Scion system, as agent-driven coding strains conventional source control.",
@@ -1165,6 +1240,27 @@
       ]
     },
     {
+      "id": "c027e90c-6f75-4544-892b-a2f30962e0de",
+      "title": "Ai2's StateBench tests how well language models track state changes over long documents",
+      "summary": "On the Hugging Face blog, Ai2 introduced StateBench, a benchmark that measures how well language models track changes in state across long documents.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-03T18:08:09.035Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T18:08:09.035Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "StateBench: Testing how language models track state changes over long documents",
+          "url": "https://huggingface.co/blog/allenai/statebench",
+          "publishedAt": "2026-11-03T17:15:21.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "5de5de08-41f0-4923-aaa4-a37768e3197b",
       "title": "Google's first Project Suncatcher data center satellite is online, running Gemma 4 in orbit",
       "summary": "Google's first Project Suncatcher satellite is now online, a step toward its longer-term plan to build solar-powered AI data centers in space.\n\n- New: the first TPU in space is running a Google DeepMind Gemma 4 model, which TechCrunch says is writing cheesy poetry\n- Google thinks SpaceX's Starship has to launch 1,800 times before space data centers get off the ground, per TechCrunch\n- The project aims to use the near-constant sunlight available in orbit to feed AI's growing compute demand\n- Because radio-frequency links lack the bandwidth, the design leans on laser communication between satellites",
@@ -1517,109 +1613,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "f8b7d525-a257-4eda-b05e-79dab0d281a0",
-      "title": "Intel's stock crashes as AI's appetite for memory drives up PC prices, knocking $12B from the government's stake",
-      "summary": "Intel's stock crashed, wiping about $12 billion off the US government's stake. TechCrunch says weak PC sales are to blame, as the AI industry soaks up memory and other components and pushes PC prices higher.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-30T23:02:51.531Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T23:02:51.531Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Intel’s stock crashes, knocking $12B from government’s stake",
-          "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
-          "publishedAt": "2026-10-30T21:54:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "c3e99979-24d0-488e-b87d-ec6c9d5dd6aa",
-      "title": "Wikimedia Foundation weighs in on the NYT's copyright case against OpenAI, pitching a middle ground",
-      "summary": "The Wikimedia Foundation, which runs Wikipedia, has weighed in on The New York Times' copyright lawsuit against OpenAI, warning that an extreme ruling in either direction could threaten the open web and pushing for a compromise on how AI companies use copyrighted material.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-30T16:57:18.910Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T16:57:18.910Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "The Wikimedia Foundation weighs in on the NYT's case against OpenAI",
-          "url": "https://www.engadget.com/2302374/the-wikimedia-foundation-weighs-in-on-the-nyts-case-against-openai/",
-          "publishedAt": "2026-10-30T15:47:12.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Wikimedia Foundation Tries to Save Itself From Oblivion by Brokering AI Copyright Deal",
-          "url": "https://gizmodo.com/wikimedia-foundation-tries-to-save-itself-from-oblivion-by-brokering-ai-copyright-deal-2000833099",
-          "publishedAt": "2026-10-30T16:20:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "688c5b4b-29c6-406f-8bbc-928fe0bffb71",
-      "title": "Google expands AI Search ads globally as Alphabet's revenue grows 25% to $127.6B",
-      "summary": "Google is expanding ads in its AI-powered Search experiences worldwide, announced alongside Alphabet's third-quarter earnings.\n\n- Ads now appear inside AI Overviews, including \"sponsored\" links in AI follow-up queries\n- Publishers are expected to lose even more search traffic as a result\n- Alphabet's revenue grew 25% year over year to $127.6 billion, though core ad growth is slowing\n- Free cash flow fell by $3 billion, overshadowing the launch of Gemini 4 Carbon, Google's \"strongest\" model so far",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-28T22:14:21.911Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T06:39:17.906Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google expands AI Search ads globally as core ad growth slows",
-          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
-          "publishedAt": "2026-10-28T21:48:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google’s Flashy New Model Gets Outshone By Its Financial Troubles",
-          "url": "https://gizmodo.com/googles-flashy-new-model-gets-outshone-by-its-financial-troubles-2000832147",
-          "publishedAt": "2026-10-29T01:30:28.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Here’s Why You’re About to See More Ads in Google’s AI Overviews",
-          "url": "https://www.cnet.com/tech/services-and-software/google-expands-advertising-ai-mode-overviews/",
-          "publishedAt": "2026-10-30T00:43:22.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "d9648913-4e61-4f3c-aa4c-b096690b425b",
-      "title": "OpenAI-backed Thrive Holdings buys ADT for $15.3B to bring AI to home security",
-      "summary": "Thrive Holdings, which is backed by OpenAI, is acquiring home security company ADT in a $15.3 billion deal. It plans to bring AI to the business, per TechCrunch.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-29T20:33:17.778Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T20:33:17.778Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI-backed Thrive Holdings acquires ADT",
-          "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-          "publishedAt": "2026-10-29T19:56:19.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 124,
+  "totalCount": 123,
   "hasMore": true
 }
