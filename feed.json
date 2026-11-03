@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-03T03:55:42.129Z",
+  "generatedAt": "2026-11-03T05:57:31.635Z",
   "stories": [
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
       "title": "Anthropic warns it is very close to recursive self-improvement, AI that builds itself",
-      "summary": "Anthropic says it is very close to RSI (recursive self-improvement) capability, the point where AI gets good enough at training itself to set off a dramatic acceleration in AI capabilities, a threshold safety-minded critics treat as a point of no return.",
+      "summary": "Anthropic says in a Monday SEC disclosure that it is very close to RSI (recursive self-improvement) capability, and that it could arrive \"imminently.\" RSI is the point where AI gets good enough at training itself to set off a dramatic acceleration in capabilities, a threshold safety-minded critics treat as a point of no return.",
       "importanceScore": 0.8,
       "relevanceScore": 0.95,
       "firstSeenAt": "2026-11-02T23:52:29.630Z",
@@ -15,6 +15,13 @@
           "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
           "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
           "publishedAt": "2026-11-02T22:14:50.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Claims to Be Closing in on Recursive Self-Improvement",
+          "url": "https://gizmodo.com/anthropic-claims-to-be-closing-in-on-recursive-self-improvement-2000834175",
+          "publishedAt": "2026-11-03T04:03:24.000Z",
           "contribution": "supporting"
         }
       ],
@@ -641,6 +648,27 @@
           "title": "Make long-running agents faster with message threads",
           "url": "https://claude.com/resources/articles/message-threads",
           "publishedAt": "2026-11-02T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "0b36a926-e530-41b8-ac72-a32f5a69ab1b",
+      "title": "DeepSeek Harness adds Creator Mode, which builds plugins from text prompts",
+      "summary": "DeepSeek added a Creator Mode to DeepSeek Harness, its agent harness that connects models to tools, letting users generate plugins directly from text prompts; the company shared a video demo of the feature.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-03T05:57:18.775Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T05:57:18.775Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "DeepSeek Harness' New Creator Mode Creates Plugins From Prompts",
+          "url": "https://in.mashable.com/tech/115689/deepseek-harness-new-creator-mode-creates-plugins-from-prompts",
+          "publishedAt": "2026-11-03T01:11:37.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1603,27 +1631,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "362678d9-fd49-48a1-869d-ebfb0ebbb494",
-      "title": "Y Combinator's Garry Tan says he spends up to $200K a year on AI agent tokens",
-      "summary": "Y Combinator CEO Garry Tan told Walter Isaacson's podcast The Builders that he spends up to $200,000 a year on tokens for his AI agents, joking that he suffers from \"cyber psychosis\" and sometimes barely sleeps.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-03T01:54:18.147Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T01:54:18.147Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-          "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-          "publishedAt": "2026-11-03T00:35:52.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 123,
+  "totalCount": 124,
   "hasMore": true
 }
