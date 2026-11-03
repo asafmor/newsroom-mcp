@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T05:57:31.635Z",
+  "generatedAt": "2026-11-03T07:59:40.819Z",
   "stories": [
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -570,6 +570,27 @@
       "tags": [
         "funding",
         "safety"
+      ]
+    },
+    {
+      "id": "2b7c9277-39e3-4df0-8ad7-3d6cafd1616c",
+      "title": "Apple Watch's Audio Intelligence features for rewinding and recapping conversations enter beta",
+      "summary": "Apple's new Audio Intelligence features for Apple Watch are now in beta, TechCrunch reports. They let you rewind to recall what someone just said and take notes on conversations.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-03T07:59:28.542Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T07:59:28.542Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+          "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+          "publishedAt": "2026-11-03T07:20:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1576,63 +1597,27 @@
       ]
     },
     {
-      "id": "15a2ab29-8edf-44f1-807f-97b9f34d2946",
-      "title": "Open-weight Kimi K3.1 reaches 3 trillion parameters, but slips from fourth on a major AI benchmark",
-      "summary": "Kimi K3.1 is an open-weight model pitched as a transparent, cheaper alternative to proprietary frontier models.\n\n- Mixture-of-experts design with 3 trillion total parameters, 104 billion active per task\n- Handles text and images, and may also handle audio\n- Reportedly beat GPT-6 Astra in a long-running software engineering test\n- An update to a leading AI benchmark knocked Kimi K3.1 Pro out of fourth place among the world's models",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-26T13:30:09.728Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T10:23:32.903Z",
+      "id": "f6d04b81-2c8c-429c-86e7-3278137af1db",
+      "title": "Hugging Face introduces \"Model Integration Contracts\" for Transformers",
+      "summary": "Hugging Face published a blog post on \"Transformers Model Integration Contracts,\" apparently about how models are integrated into its open-source Transformers library. The feed carried only the title, so details are unknown.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-03T07:59:30.407Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T07:59:30.407Z",
       "sources": [
         {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Open-Weight Kimi K 3.1 AI Reaches 3 Trillion Parameters",
-          "url": "https://www.geeky-gadgets.com/kimi-k3-1-ai-model-benchmarks/",
-          "publishedAt": "2026-10-26T13:15:00.000Z",
+          "providerName": "Hugging Face Blog",
+          "title": "Transformers Model Integration Contracts",
+          "url": "https://huggingface.co/blog/transformers-mic",
+          "publishedAt": "2026-11-03T00:00:00.000Z",
           "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Kimi K3.1 Beats ChatGPT 6 Astra in the Software Engineering Marathon",
-          "url": "https://www.geeky-gadgets.com/kimi-k3-1-vs-gpt-6-astra/",
-          "publishedAt": "2026-10-28T10:47:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "The Biggest Benchmark in AI Just Updated, Dealing a Major Blow to a Chinese Contender",
-          "url": "https://gizmodo.com/the-biggest-benchmark-in-ai-just-updated-dealing-a-major-blow-to-a-chinese-contender-2000832292",
-          "publishedAt": "2026-10-29T09:00:02.000Z",
-          "contribution": "meaningful-update"
         }
       ],
       "tags": [
-        "model-release",
         "open-source"
-      ]
-    },
-    {
-      "id": "9f784e91-b35f-49a6-94ff-f4350c570f2d",
-      "title": "DoorDash says it has received only \"several hundred\" orders from AI agents",
-      "summary": "DoorDash says it has received only \"several hundred\" orders placed by AI agents so far, a sign that agentic shopping is still tiny in practice. The company says it is open to working with third-party agent makers.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-30T14:55:24.429Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T14:55:24.429Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-          "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
-          "publishedAt": "2026-10-30T13:54:25.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
       ]
     }
   ],
-  "totalCount": 124,
+  "totalCount": 123,
   "hasMore": true
 }
