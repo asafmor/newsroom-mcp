@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:54:25.360Z",
+  "generatedAt": "2026-11-03T03:55:42.129Z",
   "stories": [
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -371,6 +371,25 @@
       ]
     },
     {
+      "id": "166490d3-e8b1-4cb7-be10-390c7c8bbb00",
+      "title": "OpenAI hires former Army Secretary Dan Driscoll for a new national security role",
+      "summary": "OpenAI has hired Dan Driscoll, who served as Army Secretary in the Trump administration, as its \"Senior Counselor for National Security Modernization,\" Gizmodo reports.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-03T03:55:27.620Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T03:55:27.620Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Hires Former Trump Admin. Army Secretary for New National Security Role",
+          "url": "https://gizmodo.com/openai-hires-former-trump-admin-army-secretary-for-new-national-security-role-2000834160",
+          "publishedAt": "2026-11-03T02:37:42.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
       "title": "Anthropic officially files for its IPO, with a public S-1 showing soaring revenue, heavy losses, and founder control",
       "summary": "Anthropic has officially filed for its public debut, making its S-1 public after weeks of leaks, investor objections to its financials, and political calls for delay.\n\n- The filing shows soaring revenue and major enterprise adoption alongside mounting losses; Engadget earlier put last year's net loss at about $8 billion\n- Anthropic may be valued as high as $2 trillion, with a stock market debut reportedly planned for November\n- Its seven co-founders get a combined 50.1% of the vote on most matters, meant to preserve founder control and its safety mission\n- Note conversions show Amazon is set to make far more from the IPO than Anthropic's VC backers, and the SpaceXAI deal is bigger than previously known\n- Risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity\n- New: Blackstone forecasts that credit agencies will give Anthropic a high \"junk\" rating after the IPO, which would make funding its massive spending harder and costlier, per the FT",
@@ -627,6 +646,34 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "d3d6f9a2-9906-43fd-bb2a-16b6562b1931",
+      "title": "OpenAI raises bug bounty rewards and preps an AI-driven security sprint with Cathedral Systems",
+      "summary": "OpenAI announced two moves to harden its own security.\n\n- It is raising Security Bug Bounty rewards and adding bonuses for report quality, loyalty, and priority campaigns for independent researchers\n- It is preparing its next internal security sprint with Cathedral Systems, using AI to test and strengthen its defenses",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-03T03:55:30.421Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T03:55:30.421Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Rewarding defenders with bigger bug bounties",
+          "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+          "publishedAt": "2026-11-02T18:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Preparing our next security sprint to harden OpenAI",
+          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+          "publishedAt": "2026-11-02T18:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -1216,6 +1263,27 @@
       "tags": []
     },
     {
+      "id": "e563422d-3420-4c7f-95c6-db45e50f0b26",
+      "title": "Google brings its Dreambeans AI story experiment to India in 13 Indian languages",
+      "summary": "Google is taking Dreambeans, its latest AI experiment for generating personal stories, to India, where it now supports 13 Indian languages, TechCrunch reports.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-03T03:55:32.402Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T03:55:32.402Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+          "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+          "publishedAt": "2026-11-03T03:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "94c659c9-5b29-419a-af90-4e7cba507b42",
       "title": "OpenAI publishes its first community safety report and expands ChatGPT's violence-prevention safeguards, including for teens",
       "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards and earlier interventions, adds new protections for teens, and commits to regular public safety reporting.",
@@ -1554,90 +1622,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "969c31bc-0fef-4108-a7cf-06ef9c6120b3",
-      "title": "Microsoft posts a record $92.3B quarter, revealing Azure's $33.2B revenue and $10B from OpenAI",
-      "summary": "Microsoft reported its 10th straight record quarter, with AI driving the results.\n\n- Revenue reached $92.3 billion, up 19% year over year\n- For the first time, Microsoft disclosed Azure's quarterly revenue in dollars: $33.2 billion, closing in on AWS\n- It booked $10 billion in revenue from its commercial arrangements with OpenAI, including revenue sharing, which shows how financially dependent the partnership still is",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-28T22:14:19.462Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T22:14:19.462Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
-          "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
-          "publishedAt": "2026-10-28T21:25:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
-          "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
-          "publishedAt": "2026-10-28T21:58:32.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Microsoft recorded $10 billion in revenue from OpenAI",
-          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
-          "publishedAt": "2026-10-28T21:34:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Microsoft Posts Record Revenue Despite Employee Buyout Offers",
-          "url": "https://gizmodo.com/microsoft-posts-record-revenue-despite-employee-buyout-offers-2000832190",
-          "publishedAt": "2026-10-29T03:10:56.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "50a4ac1d-b9ea-4f26-8710-ac867288bcaa",
-      "title": "xAI pitches Grok Bot as a data scientist for every team",
-      "summary": "xAI published a post positioning Grok Bot as an on-demand data scientist for teams, the latest in its series of workplace use-case pitches for the agent.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-02T23:52:31.681Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T23:52:31.681Z",
-      "sources": [
-        {
-          "providerName": "xAI News",
-          "title": "Giving every team a data scientist with Grok Bot",
-          "url": "https://x.ai/news/data-bot",
-          "publishedAt": "2026-11-02T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "55758a24-557a-41d2-a266-5ee4a3f2e4b8",
-      "title": "Starbucks wants to recognize customers on arrival and show them personalized digital menus",
-      "summary": "Starbucks' CEO said the company wants to \"recognize participating customers as they arrive\" and \"present personalized digital menus,\" a Minority Report-style plan Gizmodo flags for its AI-driven personalization and surveillance implications.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-11-01T17:30:23.615Z",
-      "lastMeaningfulUpdateAt": "2026-11-01T17:30:23.615Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Starbucks Apparently Wants to Make That ‘Minority Report’ Shopping Scene a Reality",
-          "url": "https://gizmodo.com/starbucks-apparently-wants-to-make-that-minority-report-shopping-scene-a-reality-2000833339",
-          "publishedAt": "2026-11-01T15:28:49.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 123,
   "hasMore": true
 }
