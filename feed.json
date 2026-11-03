@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T18:08:29.724Z",
+  "generatedAt": "2026-11-03T20:10:36.741Z",
   "stories": [
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -277,6 +277,63 @@
       ]
     },
     {
+      "id": "07204374-e32c-4a91-a147-7800ee9a5e15",
+      "title": "AI inference startup Fal doubles its valuation to $16B with a $1.3B round led by Bessemer",
+      "summary": "Fal, a five-year-old AI inference startup, raised $1.3 billion in a round led by Bessemer Venture Partners. The deal doubles its valuation to $16 billion as demand for inference capacity surges.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-03T20:10:22.867Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T20:10:22.867Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+          "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+          "publishedAt": "2026-11-03T19:34:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "d3d6f9a2-9906-43fd-bb2a-16b6562b1931",
+      "title": "OpenAI brings in ex-DOGE hackers who claimed an Anthropic breach and quadruples critical bug bounties",
+      "summary": "OpenAI is taking several steps to harden its own security.\n\n- Gizmodo reports that the outside team it is bringing in is made up of former DOGE staffers whose startup claimed its AI agents hacked Anthropic in under 12 hours\n- It is preparing its next internal security sprint with Cathedral Systems, using AI to test and strengthen its defenses\n- Bug bounty rewards for critical findings are \"more than quadrupling,\" with added bonuses for report quality, loyalty, and priority campaigns",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-03T03:55:30.421Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T20:10:19.168Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Rewarding defenders with bigger bug bounties",
+          "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+          "publishedAt": "2026-11-02T18:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Preparing our next security sprint to harden OpenAI",
+          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+          "publishedAt": "2026-11-02T18:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Hires DOGE Alumni Who Hacked Into Anthropic to Strengthen Security",
+          "url": "https://gizmodo.com/openai-hires-doge-alumni-who-hacked-into-anthropic-to-strengthen-security-2000834432",
+          "publishedAt": "2026-11-03T18:15:34.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "d5403200-dabd-41ac-b076-981df239c0c9",
       "title": "Google lets schools disable its AI tools, but those that do lose access to Search",
       "summary": "Google will let schools turn off its AI tools. Because AI features are now built into Google Search, though, schools that restrict AI entirely will also lose student access to Search. This shows how closely Google ties Search to its AI products.",
@@ -297,6 +354,13 @@
           "title": "Google says students in schools that ban AI won't have access to Search",
           "url": "https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search/",
           "publishedAt": "2026-11-03T17:10:43.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google Is Holding Its Search Engine Hostage From Schools That Don’t Want AI",
+          "url": "https://gizmodo.com/google-is-holding-its-search-engine-hostage-from-schools-that-dont-want-ai-2000834544",
+          "publishedAt": "2026-11-03T19:45:15.000Z",
           "contribution": "supporting"
         }
       ],
@@ -905,31 +969,24 @@
       ]
     },
     {
-      "id": "d3d6f9a2-9906-43fd-bb2a-16b6562b1931",
-      "title": "OpenAI raises bug bounty rewards and preps an AI-driven security sprint with Cathedral Systems",
-      "summary": "OpenAI announced two moves to harden its own security.\n\n- It is raising Security Bug Bounty rewards and adding bonuses for report quality, loyalty, and priority campaigns for independent researchers\n- It is preparing its next internal security sprint with Cathedral Systems, using AI to test and strengthen its defenses",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-03T03:55:30.421Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T03:55:30.421Z",
+      "id": "b3f2fae2-1ef3-4dd2-8b0b-3af17f87d02e",
+      "title": "Netflix launches an AI Discover tab that recommends shows based on your mood",
+      "summary": "Netflix added a new AI Discover tab. Its first experimental feature recommends titles based on the mood a viewer is currently in.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-11-03T20:10:24.967Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T20:10:24.967Z",
       "sources": [
         {
-          "providerName": "OpenAI News",
-          "title": "Rewarding defenders with bigger bug bounties",
-          "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-          "publishedAt": "2026-11-02T18:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Preparing our next security sprint to harden OpenAI",
-          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-          "publishedAt": "2026-11-02T18:00:00.000Z",
+          "providerName": "TechCrunch AI",
+          "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+          "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+          "publishedAt": "2026-11-03T18:42:16.000Z",
           "contribution": "supporting"
         }
       ],
       "tags": [
-        "safety"
+        "product-launch"
       ]
     },
     {
@@ -1559,60 +1616,6 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "94c659c9-5b29-419a-af90-4e7cba507b42",
-      "title": "OpenAI publishes its first community safety report and expands ChatGPT's violence-prevention safeguards, including for teens",
-      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards and earlier interventions, adds new protections for teens, and commits to regular public safety reporting.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-30T16:57:16.162Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T16:57:16.162Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Community safety report and new protections for teens",
-          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-          "publishedAt": "2026-10-30T09:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI adds stricter limits for teens asking about firearms",
-          "url": "https://www.engadget.com/2303421/openai-adds-stricter-limits-for-teens-asking-about-firearms/",
-          "publishedAt": "2026-11-01T16:03:12.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "977f1fa0-f8bf-438a-8742-dafa32624e76",
-      "title": "Reddit shifts to a logged-in experience as AI dries up search traffic, after killing RSS and its public API",
-      "summary": "Reddit keeps pulling back from the open web as AI changes how people find information.\n\n- New: it is moving to a logged-in experience as search traffic dries up, to protect its audience and business\n- It had already ended RSS feed support and shut down public API access, blaming AI bots",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-30T18:28:41.281Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T20:33:13.782Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
-          "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
-          "publishedAt": "2026-09-30T17:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-          "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-          "publishedAt": "2026-10-29T20:08:31.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 123,
