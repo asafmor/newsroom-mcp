@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T10:01:12.865Z",
+  "generatedAt": "2026-11-03T12:03:05.708Z",
   "stories": [
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -220,6 +220,35 @@
       ]
     },
     {
+      "id": "5ed26b7a-27cf-43a7-b087-4b9d52c20e41",
+      "title": "Reflection AI releases Beam under Apache 2.0, but independent benchmarks show its limits",
+      "summary": "Nvidia-backed Reflection AI's Beam, its first open-weight model, is now released under the Apache 2.0 license.\n\n- Reflection pitched Beam as rivaling GLM-5.2 on reasoning while using far less inference compute\n- The license allows unrestricted commercial use, and Beam's token efficiency can cut inference bills\n- Beam scored only 18 on Artificial Analysis's Intelligence Index, a sign of significant limitations, per Geeky Gadgets",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-10-05T19:54:10.395Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T12:02:51.182Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+          "publishedAt": "2026-10-05T19:33:53.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Generating Fewer Tokens Helps Beam Cut AI Inference Bills",
+          "url": "https://www.geeky-gadgets.com/reflection-beam-model-review/",
+          "publishedAt": "2026-11-03T11:45:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
+      ]
+    },
+    {
       "id": "c3e676a3-d24c-4b6e-afee-391bfa575d07",
       "title": "WIRED finds ~400 ordinary-looking AI apps hiding sexually abusive deepfake features",
       "summary": "A WIRED investigation uncovered some 400 apps and websites, linked to Chinese-language developers, that present as everyday AI tools but contain hidden features for generating violent and sexually abusive AI images and video.",
@@ -395,6 +424,28 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "e7319742-63b4-438a-a60c-b70b82a0decc",
+      "title": "Safety researchers turn to \"reverse game theory\" to make rule-following the rational choice for AI agents",
+      "summary": "MIT Technology Review looks at mechanism design, or \"reverse game theory,\" as an alignment approach: instead of only constraining powerful AI models, researchers design incentives so that following the rules becomes the most rational choice for an agent.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-03T12:02:49.020Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T12:02:49.020Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "How “reverse game theory” could keep AI agents in check",
+          "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+          "publishedAt": "2026-11-03T10:43:41.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research",
+        "safety"
+      ]
     },
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -1530,6 +1581,27 @@
       ]
     },
     {
+      "id": "236b96ab-f0c1-49f3-9734-b442ca26ef80",
+      "title": "OpenAI case study: Heimstaden uses ChatGPT Enterprise and Codex to run residential property management",
+      "summary": "In an OpenAI customer story, European residential landlord Heimstaden says it uses ChatGPT Enterprise and Codex to transform property management, cut costs, and give employees across Europe new tools.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-03T12:02:46.574Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T12:02:46.574Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Heimstaden is changing residential real estate management with AI",
+          "url": "https://openai.com/index/heimstaden",
+          "publishedAt": "2026-11-03T08:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "53583f0a-d49f-47e3-bd65-1cc7ef8ce4ce",
       "title": "Daters increasingly hand courtship to AI, with chatbots talking to chatbots",
       "summary": "Gizmodo, citing Guardian reporting, says dating is turning into an AI-mediated chore, with people using chatbots like Claude to write their messages — one man suspected two Claudes were \"probably just chatting away behind the scenes.\"",
@@ -1547,77 +1619,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "US investigated a suspected Chinese spy plot aimed at Nvidia CEO Jensen Huang",
-      "summary": "US authorities investigated a suspected Chinese spy plot aimed at Nvidia CEO Jensen Huang, according to New York Times sources.\n\n- The suspect is a top executive at a Singapore AI cloud company already accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T16:29:51.111Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Intel Community Reportedly Tied Trump’s Favorite AI Boss to a Chinese Spy",
-          "url": "https://gizmodo.com/nvidia-ceo-jensen-huang-tied-to-chinese-spy-trump-2000832476",
-          "publishedAt": "2026-10-29T16:20:17.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
-          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
-          "publishedAt": "2026-10-29T16:42:32.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "1e37643a-f51a-4f64-a9fb-0d4698e3e429",
-      "title": "Open-source tweak claims 39% faster FP32 AI performance on Nvidia's RTX 4090",
-      "summary": "An open-source workaround claims to lift firmware-level limits on Nvidia's consumer RTX 4090, speeding up full-precision (FP32) AI workloads by up to 39%. Those workloads include long-context LLM inference and high-resolution image generation.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-11-02T09:42:15.426Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T09:42:15.426Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Open Source Exploit Unlocks 39% More Speed on Nvidia RTX 4090",
-          "url": "https://www.geeky-gadgets.com/unlock-rtx-4090-ai-performance/",
-          "publishedAt": "2026-11-02T08:17:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure",
-        "open-source"
-      ]
-    },
-    {
-      "id": "f6d04b81-2c8c-429c-86e7-3278137af1db",
-      "title": "Hugging Face introduces \"Model Integration Contracts\" for Transformers",
-      "summary": "Hugging Face published a blog post on \"Transformers Model Integration Contracts,\" apparently about how models are integrated into its open-source Transformers library. The feed carried only the title, so details are unknown.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-03T07:59:30.407Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T07:59:30.407Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Transformers Model Integration Contracts",
-          "url": "https://huggingface.co/blog/transformers-mic",
-          "publishedAt": "2026-11-03T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 123,
   "hasMore": true
 }
