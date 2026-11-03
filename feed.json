@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T20:10:36.741Z",
+  "generatedAt": "2026-11-03T22:13:00.084Z",
   "stories": [
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -56,6 +56,25 @@
       "tags": [
         "infrastructure"
       ]
+    },
+    {
+      "id": "56130070-d83d-4ef4-8bd2-a6b06fba35fc",
+      "title": "OpenAI claims ChatGPT now handles about 20% of Google's search volume",
+      "summary": "OpenAI says ChatGPT's search usage has reached roughly a fifth of Google's search volume, per Gizmodo, which questions how the company will turn that traffic into profit.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-03T22:12:35.381Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T22:12:35.381Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "ChatGPT Claims to Have Achieved 20% of Google’s Search Volume",
+          "url": "https://gizmodo.com/chatgpt-claims-to-have-achieved-20-of-googles-search-volume-2000834464",
+          "publishedAt": "2026-11-03T20:30:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -299,6 +318,27 @@
       ]
     },
     {
+      "id": "24b22a3c-8372-453d-9494-164c8151da10",
+      "title": "Palantir's US commercial revenue tops its US government revenue for the first time",
+      "summary": "In a booming quarter for the AI software company, Palantir's US commercial revenue surpassed its US government revenue for the first time, a shift TechCrunch frames as a foreboding signal.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-03T22:12:37.429Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T22:12:37.429Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+          "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+          "publishedAt": "2026-11-03T21:05:55.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "d3d6f9a2-9906-43fd-bb2a-16b6562b1931",
       "title": "OpenAI brings in ex-DOGE hackers who claimed an Anthropic breach and quadruples critical bug bounties",
       "summary": "OpenAI is taking several steps to harden its own security.\n\n- Gizmodo reports that the outside team it is bringing in is made up of former DOGE staffers whose startup claimed its AI agents hacked Anthropic in under 12 hours\n- It is preparing its next internal security sprint with Cathedral Systems, using AI to test and strengthen its defenses\n- Bug bounty rewards for critical findings are \"more than quadrupling,\" with added bonuses for report quality, loyalty, and priority campaigns",
@@ -420,6 +460,13 @@
           "title": "Apple restricts dating apps and AI companions to users 18 and up",
           "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
           "publishedAt": "2026-11-03T15:38:27.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Apple to Place Stricter Age Restrictions on Dating Apps and Some AI Chatbots",
+          "url": "https://gizmodo.com/apple-to-place-stricter-age-restrictions-on-dating-apps-and-some-ai-chatbots-2000834362",
+          "publishedAt": "2026-11-03T21:00:01.000Z",
           "contribution": "supporting"
         }
       ],
@@ -945,6 +992,27 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "1ecec969-c8bb-4768-8fad-e4094e0889d4",
+      "title": "Ballistic Ventures seeks $490M for new funds amid an AI-driven cybersecurity boom",
+      "summary": "Ted Schlein's cybersecurity-focused Ballistic Ventures is seeking $360M for a new flagship fund and $130M for a separate vehicle, per TechCrunch, riding demand for AI-era security startups.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-11-03T22:12:39.580Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T22:12:39.580Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+          "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+          "publishedAt": "2026-11-03T21:43:08.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
       ]
     },
     {
@@ -1548,76 +1616,8 @@
       "tags": [
         "model-release"
       ]
-    },
-    {
-      "id": "765665f6-4718-4ce4-b434-92cd04a9c110",
-      "title": "Jassy says AWS will be a $1T business, but Amazon's AI spending drives a $42.4B cash burn",
-      "summary": "Amazon wants to lead AI cloud computing, and its third-quarter earnings showed what that costs.\n\n- CEO Andy Jassy said AWS will become the first $1 trillion revenue business, but only by continuing its capex spending spree, per TechCrunch\n- Gizmodo puts Amazon's cash burn at $42.4 billion, calling it the final blow in a rough earnings week for AI\n- Only one of the four AI hyperscalers reported positive free cash flow this round",
-      "importanceScore": 0.68,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-30T00:36:09.990Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T00:36:09.990Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
-          "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-          "publishedAt": "2026-10-29T23:42:22.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Amazon’s $42.4 Billion Cash Burn Delivers Final Blow In a Rough Week For AI",
-          "url": "https://gizmodo.com/amazons-42-4-billion-cash-burn-delivers-final-blow-in-a-rough-week-for-ai-2000832754",
-          "publishedAt": "2026-10-29T23:51:29.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "795e22ae-090c-45d6-b2a6-a6b74d8f711e",
-      "title": "Pope Leo XIV says AIs aren't conscious beings and urges a ban on autonomous weapons",
-      "summary": "Pope Leo XIV pushed back on claims that AI systems are conscious or have souls, and called for a ban on autonomous weapons, per Gizmodo. The source item carries only a brief description, so the full text of his remarks isn't available yet.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-31T05:06:21.330Z",
-      "lastMeaningfulUpdateAt": "2026-10-31T05:06:21.330Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Pope Leo XIV Reminds World That AIs Aren’t Conscious Beings, Urges Autonomous Weapon Ban",
-          "url": "https://gizmodo.com/pope-leo-xiv-reminds-world-that-ais-arent-conscious-beings-urges-autonomous-weapon-ban-2000833335",
-          "publishedAt": "2026-10-31T03:53:59.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "e563422d-3420-4c7f-95c6-db45e50f0b26",
-      "title": "Google brings its Dreambeans AI story experiment to India in 13 Indian languages",
-      "summary": "Google is taking Dreambeans, its latest AI experiment for generating personal stories, to India, where it now supports 13 Indian languages, TechCrunch reports.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-03T03:55:32.402Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T03:55:32.402Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-          "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
-          "publishedAt": "2026-11-03T03:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 123,
+  "totalCount": 126,
   "hasMore": true
 }
