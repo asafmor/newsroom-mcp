@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T23:52:48.823Z",
+  "generatedAt": "2026-11-03T01:54:25.360Z",
   "stories": [
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -590,6 +590,25 @@
       ]
     },
     {
+      "id": "6d95e5b2-b088-4c02-89ac-ea8101eca593",
+      "title": "OpenAI builds Pando, a Git-compatible backend for Codex-scale development",
+      "summary": "OpenAI detailed Pando, a Git-compatible backend it built to handle the scale of development that Codex makes possible. It follows Anthropic's move to replace git with its own Scion system, as agent-driven coding strains conventional source control.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-03T01:54:13.920Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T01:54:13.920Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Scaling Git at OpenAI",
+          "url": "https://openai.com/index/scaling-git-at-openai",
+          "publishedAt": "2026-11-02T15:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "8095f7dd-f17d-4140-a600-9498501c2591",
       "title": "Claude's Messages API adds message threads to speed up long-running agents",
       "summary": "Anthropic's Messages API now supports message threads: developers send a conversation once, and each later turn transmits only what's new, cutting overhead for long-running agents.",
@@ -680,6 +699,25 @@
         "funding",
         "infrastructure"
       ]
+    },
+    {
+      "id": "9fd88ad9-f1f1-4ee6-8941-67ea3651a182",
+      "title": "Apple hints at earning revenue from third-party AI apps",
+      "summary": "On its Monday earnings call, Apple hinted it could spur revenue through third-party AI \"opportunities,\" TechCrunch reports, without saying what that would look like.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-11-03T01:54:15.920Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T01:54:15.920Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+          "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+          "publishedAt": "2026-11-03T01:49:52.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "4d69626a-751b-4230-a3e0-324834bb19cc",
@@ -1499,6 +1537,25 @@
       ]
     },
     {
+      "id": "362678d9-fd49-48a1-869d-ebfb0ebbb494",
+      "title": "Y Combinator's Garry Tan says he spends up to $200K a year on AI agent tokens",
+      "summary": "Y Combinator CEO Garry Tan told Walter Isaacson's podcast The Builders that he spends up to $200,000 a year on tokens for his AI agents, joking that he suffers from \"cyber psychosis\" and sometimes barely sleeps.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-03T01:54:18.147Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T01:54:18.147Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+          "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+          "publishedAt": "2026-11-03T00:35:52.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "969c31bc-0fef-4108-a7cf-06ef9c6120b3",
       "title": "Microsoft posts a record $92.3B quarter, revealing Azure's $33.2B revenue and $10B from OpenAI",
       "summary": "Microsoft reported its 10th straight record quarter, with AI driving the results.\n\n- Revenue reached $92.3 billion, up 19% year over year\n- For the first time, Microsoft disclosed Azure's quarterly revenue in dollars: $33.2 billion, closing in on AWS\n- It booked $10 billion in revenue from its commercial arrangements with OpenAI, including revenue sharing, which shows how financially dependent the partnership still is",
@@ -1579,69 +1636,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "67c1a050-9891-4d0b-b92c-e4701336cd3d",
-      "title": "Runware is building a factory to mass-produce prefabricated AI data centers",
-      "summary": "Startup Runware is building a factory to turn out prefabricated AI data centers on an assembly line, like cars. TechCrunch says the real test is whether it can deliver at that scale.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-10-30T14:55:26.578Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T14:55:26.578Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
-          "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
-          "publishedAt": "2026-10-30T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "06e4a95f-6812-4c7b-b61d-a38c2077cfab",
-      "title": "Deepgram acquires Daily, the maker of Pipecat, to bolster its voice AI infrastructure",
-      "summary": "Voice AI company Deepgram has acquired Daily, the maker of the Pipecat framework for building voice agents, to strengthen its voice AI infrastructure. Deepgram says it will keep Pipecat open source.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-29T14:27:27.278Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T14:27:27.278Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
-          "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
-          "publishedAt": "2026-10-29T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "5be46fd0-5c7a-4210-b405-539d1625d09d",
-      "title": "Google opens Gemini and Search to third-party apps with a new developer platform",
-      "summary": "Google launched a developer platform that lets businesses bring their services into Gemini and Search's AI experiences. TechCrunch says the move, made as AI agents reshape the web, could change how consumers discover and use apps.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-28T18:10:58.335Z",
-      "lastMeaningfulUpdateAt": "2026-10-28T18:10:58.335Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-          "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
-          "publishedAt": "2026-10-28T17:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 120,
+  "totalCount": 122,
   "hasMore": true
 }
