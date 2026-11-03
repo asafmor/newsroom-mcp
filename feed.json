@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T12:03:05.708Z",
+  "generatedAt": "2026-11-03T14:04:32.180Z",
   "stories": [
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -313,6 +313,28 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "439d73cd-e42b-4ae3-88b6-fed1b90359ca",
+      "title": "Nvidia releases Dory, a 4B-parameter looped transformer, under the Open MDW license",
+      "summary": "Nvidia's Nemotron team released Dory, a 4-billion-parameter looped transformer under the Open MDW license. Its layers are split into input, recurrent and output blocks, and the recurrent block loops to refine its output step by step. Nvidia pitches the design as a way to scale more efficiently and use less memory.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-03T14:04:18.795Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T14:04:18.795Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "NVIDIA Releases 4-Billion-Parameter Dory Under Open MDW",
+          "url": "https://www.geeky-gadgets.com/nvidia-dory-looped-transformer/",
+          "publishedAt": "2026-11-03T12:43:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
+      ]
     },
     {
       "id": "8c315b6f-c3b4-461d-a238-8f2d15a27da7",
@@ -701,6 +723,44 @@
           "title": "Scaling Git at OpenAI",
           "url": "https://openai.com/index/scaling-git-at-openai",
           "publishedAt": "2026-11-02T15:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "e13f4d0e-64ad-4ec8-98a7-ed0d9a856119",
+      "title": "Study finds people who use AI at work put in up to 90 minutes more per day",
+      "summary": "A new analysis found that people who use AI at work have longer workdays than those who don't, logging up to 90 extra minutes a day, Gizmodo reports.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-03T14:04:23.184Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T14:04:23.184Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Users Are Working Up to 90 Minutes Longer Every Day, Study Finds",
+          "url": "https://gizmodo.com/ai-users-are-working-up-to-90-minutes-longer-every-day-study-finds-2000833982",
+          "publishedAt": "2026-11-03T13:45:35.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "a7f2e9cc-0396-4fd2-a802-23b479f6693d",
+      "title": "Apple's revamped Siri in macOS 27.2 passes just 34 of 62 tasks in an independent test",
+      "summary": "Peter Akkies tested the revamped Siri in Apple's macOS 27.2 on 62 tasks, and it passed 34. It handled basic commands like reminders and weather well and worked smoothly with Calendar and Notes, but it failed the other 28, Geeky Gadgets reports.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-03T14:04:21.293Z",
+      "lastMeaningfulUpdateAt": "2026-11-03T14:04:21.293Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Siri Passes Just 34 of 62 Tasks in macOS 27.2 Tests",
+          "url": "https://www.geeky-gadgets.com/siri-ai-mac-test/",
+          "publishedAt": "2026-11-03T13:47:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1558,69 +1618,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "918e5aad-d830-43f1-a356-51842415b4c1",
-      "title": "OpenAI updates its Model Spec around five core values for more capable AI",
-      "summary": "OpenAI published an updated Model Spec, the document defining how its models should behave. It sets out five core values meant to steer increasingly capable AI toward sound judgment, respect for human agency, and faithfulness to human intent.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-29T18:31:42.127Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T18:31:42.127Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "An updated Model Spec for more capable and beneficial AI",
-          "url": "https://openai.com/index/updated-model-spec",
-          "publishedAt": "2026-10-29T17:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "236b96ab-f0c1-49f3-9734-b442ca26ef80",
-      "title": "OpenAI case study: Heimstaden uses ChatGPT Enterprise and Codex to run residential property management",
-      "summary": "In an OpenAI customer story, European residential landlord Heimstaden says it uses ChatGPT Enterprise and Codex to transform property management, cut costs, and give employees across Europe new tools.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-03T12:02:46.574Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T12:02:46.574Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Heimstaden is changing residential real estate management with AI",
-          "url": "https://openai.com/index/heimstaden",
-          "publishedAt": "2026-11-03T08:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "53583f0a-d49f-47e3-bd65-1cc7ef8ce4ce",
-      "title": "Daters increasingly hand courtship to AI, with chatbots talking to chatbots",
-      "summary": "Gizmodo, citing Guardian reporting, says dating is turning into an AI-mediated chore, with people using chatbots like Claude to write their messages — one man suspected two Claudes were \"probably just chatting away behind the scenes.\"",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-02T11:43:21.653Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T11:43:21.653Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "More Evidence Emerges That Dating Is Becoming a Bleak, AI-Powered Office Job",
-          "url": "https://gizmodo.com/more-evidence-emerges-that-dating-is-becoming-a-bleak-ai-powered-office-job-2000833565",
-          "publishedAt": "2026-11-02T10:00:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 123,
+  "totalCount": 124,
   "hasMore": true
 }
