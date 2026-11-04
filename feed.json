@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T16:28:18.957Z",
+  "generatedAt": "2026-11-04T18:29:57.258Z",
   "stories": [
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -205,6 +205,13 @@
           "url": "https://gizmodo.com/voters-turn-election-night-into-a-bloodbath-for-ai-data-centers-2000834821",
           "publishedAt": "2026-11-04T14:31:02.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The Results Are In: Voters Hate Data Centers",
+          "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
+          "publishedAt": "2026-11-04T16:56:17.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -392,6 +399,27 @@
       "tags": [
         "safety",
         "research"
+      ]
+    },
+    {
+      "id": "4295043e-928b-4629-a8e9-5356905d8314",
+      "title": "Cloudflare gives site owners visibility and control over personal AI agent traffic",
+      "summary": "Cloudflare is adding tools that let site owners see personal AI agents visiting their sites and set terms for their access, arguing these agents have blurred the line between automated and human traffic.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-04T18:29:42.704Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T18:29:42.704Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "See the agents, set the terms: new visibility and control for personal agents",
+          "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+          "publishedAt": "2026-11-04T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -990,6 +1018,13 @@
           "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
           "publishedAt": "2026-11-03T07:20:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+          "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+          "publishedAt": "2026-11-04T16:51:35.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1528,29 +1563,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "c027e90c-6f75-4544-892b-a2f30962e0de",
-      "title": "Ai2's StateBench tests how well language models track state changes over long documents",
-      "summary": "On the Hugging Face blog, Ai2 introduced StateBench, a benchmark that measures how well language models track changes in state across long documents.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-03T18:08:09.035Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T18:08:09.035Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "StateBench: Testing how language models track state changes over long documents",
-          "url": "https://huggingface.co/blog/allenai/statebench",
-          "publishedAt": "2026-11-03T17:15:21.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 119,
+  "totalCount": 115,
   "hasMore": true
 }
