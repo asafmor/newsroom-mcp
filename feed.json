@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T00:14:41.718Z",
+  "generatedAt": "2026-11-04T02:16:38.293Z",
   "stories": [
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -1347,6 +1347,27 @@
       ]
     },
     {
+      "id": "76d5ea0e-18ff-4806-b2a2-ebd9e99cf26e",
+      "title": "Expedia, Hotels.com and Vrbo add more AI to trip booking and planning",
+      "summary": "Expedia Group is rolling more \"practical AI\" features into Expedia, Hotels.com and Vrbo, aiming to simplify how travelers plan and book trips.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-11-04T02:16:26.221Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T02:16:26.221Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Expedia, Hotels.com and Vrbo Bring More AI to the Travel Booking Experience",
+          "url": "https://www.cnet.com/tech/services-and-software/expedia-hotels-com-and-vrbo-bring-more-ai-to-the-travel-booking-experience/",
+          "publishedAt": "2026-11-03T22:25:55.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "fdc86123-5388-488b-9756-4267b6d389aa",
       "title": "New \"Volta-Autodoxer\" infostealer malware uses AI to build dossiers on its victims",
       "summary": "Researchers have uncovered \"Volta-Autodoxer,\" infostealer malware that uses AI tools to \"autodox\" victims, Wired reports. It sweeps up troves of personal data, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
@@ -1538,66 +1559,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "411ce84e-04d8-4ce3-bbb4-b4daa12424ee",
-      "title": "Mistral releases the weights for \"Le Chonk,\" its trillion-parameter open model, pitching it for cybersecurity",
-      "summary": "Mistral has released the weights for Le Chonk, its trillion-parameter open-weight model (reported by TechCrunch as Mistral Large 4), and is pitching it at cybersecurity.\n\n- Mistral says self-hosted weights give organizations a kind of control over their cyber defenses that closed models can't\n- It claims Le Chonk matches or beats the best models from DeepSeek and Z.ai in coding and cybersecurity\n- Mistral first called it the best open-weight model outside China, built to leapfrog both American and Chinese rivals\n- Wired frames the release as the French lab showing it is \"still in the race\" to build frontier AI",
-      "importanceScore": 0.74,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-06T14:03:58.399Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T18:31:37.572Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
-          "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
-          "publishedAt": "2026-10-06T13:15:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-          "publishedAt": "2026-10-06T14:33:16.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Mistral’s New ‘Le Chonk’ AI Model Is Big, Open and Built for Agents",
-          "url": "https://www.cnet.com/tech/services-and-software/mistrals-new-le-chonk-ai-model-is-big-open-and-built-for-agents/",
-          "publishedAt": "2026-10-06T19:35:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Mistral Large 4 Open Source AI Enters Public Preview: One Trillion Parameter",
-          "url": "https://www.geeky-gadgets.com/mistral-large-4-lechonk-ai/",
-          "publishedAt": "2026-10-08T10:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
-          "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
-          "publishedAt": "2026-10-29T14:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-          "publishedAt": "2026-10-29T17:00:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source",
-        "safety"
-      ]
     }
   ],
-  "totalCount": 124,
+  "totalCount": 123,
   "hasMore": true
 }
