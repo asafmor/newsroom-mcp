@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T22:13:00.084Z",
+  "generatedAt": "2026-11-04T00:14:41.718Z",
   "stories": [
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -75,6 +75,28 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "b16df7e5-7fd2-4989-baa1-5ff785b809e1",
+      "title": "Anthropic is building FlashProve, a system to prove which AI model produced a response",
+      "summary": "Anthropic is working on FlashProve, a cryptographic system that would let anyone check that an AI response really came from the model it claims to come from, TechCrunch reports.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-04T00:14:29.263Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T00:14:29.263Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic is working on a system to prove AI models’ identity",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+          "publishedAt": "2026-11-03T22:41:03.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "research"
+      ]
     },
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -541,6 +563,27 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "48efb39e-6dcd-4569-9963-a597ac9711ee",
+      "title": "AI data centers turn to old jet engines for power as grid and turbine waits stretch for years",
+      "summary": "With years-long waits for grid access and new turbines, data center builders are turning to once-discarded jet engines for power, a less efficient and less environmentally friendly stopgap, TechCrunch reports.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-04T00:14:31.497Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T00:14:31.497Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Data centers are turning to old jet engines as the wait for power grows",
+          "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+          "publishedAt": "2026-11-03T22:19:53.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -1553,71 +1596,8 @@
         "open-source",
         "safety"
       ]
-    },
-    {
-      "id": "370f358b-154d-4f56-9f9f-62a747f561e2",
-      "title": "Omen AI buys Aquatic Labs for $16M to tackle data center water use",
-      "summary": "Omen AI is acquiring Aquatic Labs in a $16 million deal, combining two startups working on the water demands of AI data centers, TechCrunch reports.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-02T15:46:28.760Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T15:46:28.760Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
-          "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-          "publishedAt": "2026-11-02T15:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
-      "title": "Google DeepMind announces Gemini 4 Carbon, its next frontier model",
-      "summary": "Google DeepMind announced Gemini 4 Carbon, which it calls its next frontier model. For now, access is limited to select cybersecurity experts. Carbon follows Gemini 4 Argon, which Google rolled out to the Gemini app and AI Mode in Search earlier this month.",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-28T18:10:56.235Z",
-      "lastMeaningfulUpdateAt": "2026-10-29T02:17:15.398Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Gemini 4 Carbon: Our next frontier model",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-          "publishedAt": "2026-10-28T17:00:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Google Debuts New AI Models, Genie 4 and Gemini 4 Carbon: What You Need to Know",
-          "url": "https://www.cnet.com/tech/services-and-software/google-genie-4-gemini-4-carbon-ai-news/",
-          "publishedAt": "2026-10-28T20:51:37.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google's Gemini 4 Carbon promises 'significant leap' in AI coding and cybersecurity",
-          "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/",
-          "publishedAt": "2026-10-29T09:41:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Gemini 4 Carbon Beats Claude Opus 5.5 in 16 of 18 Tests",
-          "url": "https://www.geeky-gadgets.com/google-gemini-4-carbon-announced/",
-          "publishedAt": "2026-10-29T12:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
     }
   ],
-  "totalCount": 126,
+  "totalCount": 124,
   "hasMore": true
 }
