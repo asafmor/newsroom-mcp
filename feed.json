@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T20:31:31.032Z",
+  "generatedAt": "2026-11-04T22:33:54.087Z",
   "stories": [
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -227,13 +227,67 @@
       ]
     },
     {
+      "id": "6c542ea5-6cab-4634-b52d-3722e2eb6c6d",
+      "title": "Meta acquires AI coding startup Conductor",
+      "summary": "Meta has acquired Conductor, an AI coding startup whose tool lets software engineers deploy teams of agents to work on different parts of a project at the same time.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-04T22:33:23.927Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T22:33:23.927Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta acquires AI coding startup Conductor",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+          "publishedAt": "2026-11-04T21:10:56.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "0208bc1d-912f-49dd-825f-ab05bbb47e7a",
+      "title": "Pro-AI super PAC network Leading the Future made little impact on the midterms despite a $100M war chest",
+      "summary": "Leading the Future, the biggest pro-AI super PAC network, did little to shape the US midterms, Wired reports, despite deep pockets and an aggressive stance against AI regulation.\n\n- Backed by Silicon Valley's biggest billionaires, the network had a $100 million war chest to promote pro-AI candidates on both sides of the aisle\n- Wired earlier reported that the network had poured millions into Nevada shell companies\n- Its spending didn't add up to much on election night",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-10-13T11:42:19.885Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T22:33:22.273Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies",
+          "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
+          "publishedAt": "2026-10-13T10:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
+          "publishedAt": "2026-10-15T21:18:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
+          "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+          "publishedAt": "2026-11-04T20:41:29.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
       "id": "d5403200-dabd-41ac-b076-981df239c0c9",
-      "title": "Google faces backlash for cutting off Search at schools that disable its AI tools, and DuckDuckGo moves in",
-      "summary": "Google will let schools turn off its AI tools, but schools that do will also lose student access to Search, and the plan has drawn political backlash.\n\n- AI features, including AI Overviews, are now built into Google Search, so restricting AI entirely means losing Search too\n- Parents and educators worry that easy, machine-generated answers are leaving kids less capable\n- NYC mayor Zohran Mamdani and former FTC chair Lina Khan accused Google of acting as an unregulated monopoly\n- DuckDuckGo is now courting frustrated schools, pointing educators to its search engine and its options to disable AI features",
+      "title": "Google walks back its policy of cutting off Search at schools that disable its AI tools, after political backlash",
+      "summary": "Google is trying to walk back its plan to cut off student access to Search at schools that turn off its AI tools, after the policy drew political backlash.\n\n- Google is backtracking on an executive's threat that if schools drop the AI, they lose Search too\n- AI features, including AI Overviews, are built into Google Search, which is why the original policy tied the two together\n- Parents and educators worry that easy, machine-generated answers are leaving kids less capable\n- NYC mayor Zohran Mamdani and former FTC chair Lina Khan accused Google of acting as an unregulated monopoly\n- DuckDuckGo has been courting frustrated schools with its search engine and options to disable AI features",
       "importanceScore": 0.55,
       "relevanceScore": 0.75,
       "firstSeenAt": "2026-11-03T18:08:07.088Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T20:31:11.116Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T22:33:18.576Z",
       "sources": [
         {
           "providerName": "TechCrunch AI",
@@ -283,6 +337,13 @@
           "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
           "publishedAt": "2026-11-04T19:29:52.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google Tries to Walk Back Controversial School AI Policy Following Political Backlash",
+          "url": "https://gizmodo.com/google-tries-to-walk-back-controversial-school-ai-policy-following-political-backlash-2000834986",
+          "publishedAt": "2026-11-04T21:15:17.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": []
@@ -313,6 +374,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "cae032b3-61eb-48c9-a390-6950607e159a",
+      "title": "OpenAI's Chris Lehane pushes for AI to define the 2028 election with a proposed new social contract",
+      "summary": "OpenAI policy chief Chris Lehane wants AI to be a defining issue of the 2028 US election, proposing a new social contract that he pitches as benefiting Americans but that would also advance OpenAI's own business interests.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-04T22:33:26.427Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T22:33:26.427Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI is already trying to shape the 2028 election",
+          "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+          "publishedAt": "2026-11-04T21:25:44.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
       ]
     },
     {
@@ -495,6 +577,25 @@
       ]
     },
     {
+      "id": "d12b5fdf-c7d7-464d-8652-07bfdf750ccd",
+      "title": "Uber says almost no one books rides through AI agents: just four people in its busiest week",
+      "summary": "Uber said only four people booked a ride using an AI agent during its busiest week last quarter, a sign that consumer use of agents for everyday tasks remains negligible.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-04T22:33:28.574Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T22:33:28.574Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Almost no one uses AI agents to book their Uber, company says",
+          "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+          "publishedAt": "2026-11-04T21:56:01.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "24b22a3c-8372-453d-9494-164c8151da10",
       "title": "Palantir's US commercial revenue tops its US government revenue for the first time",
       "summary": "In a booming quarter for the AI software company, Palantir's US commercial revenue surpassed its US government revenue for the first time, a shift TechCrunch frames as a foreboding signal.",
@@ -534,6 +635,28 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "5ab4685f-190c-4c2b-b47c-b486c72f731c",
+      "title": "Pangram expands its AI detection tools to video and images",
+      "summary": "Pangram, the company behind a widely used AI-text detector, is extending its detection tools to AI-generated video and images.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-04T22:33:32.227Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T22:33:32.227Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Pangram expands its AI detection tools to video and images",
+          "url": "https://www.engadget.com/2307116/pangram-expands-its-ai-detection-tools-to-video-and-images/",
+          "publishedAt": "2026-11-04T20:28:18.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "safety"
       ]
     },
     {
@@ -805,6 +928,88 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "165f540a-57bd-40b8-a682-f4fb5f229b3e",
+      "title": "Claude Marketplace adds new agents and products for security, productivity, and creative work",
+      "summary": "Anthropic has added new third-party agents and products for security, productivity, and creative work to the Claude Marketplace.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-04T22:33:34.011Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T22:33:34.011Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "New agents and products for security, productivity, and creative work on Claude Marketplace",
+          "url": "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
+          "publishedAt": "2026-11-04T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "3c0c22ae-b01e-48b1-9238-741a7ca9834d",
+      "title": "Nothing says its mysterious AI-first device launches next month",
+      "summary": "Nothing's CEO says the smartphone startup's AI-first device will launch next month. The product type is still unclear, but it's designed to use AI for productivity gains.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-04T22:33:30.376Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T22:33:30.376Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+          "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+          "publishedAt": "2026-11-04T22:13:16.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "e5e7ac4a-2716-4781-a5f3-004a45b4c3ab",
+      "title": "Sam Altman backpedals after saying it's \"terrible\" that people hoard scarce DRAM in their own computers",
+      "summary": "Sam Altman is backpedaling after saying people shouldn't hold scarce DRAM in their own computers when it could go to data centers.\n\n- In an interview, Altman called it \"terrible\" for people to hold \"a bunch of the world's limited supply of DRAM\" that they barely use, Engadget reported\n- The remark came amid an AI-driven memory shortage, and Gizmodo mocked it as \"all the RAM should belong to me, so I can charge people to use it\"\n- Altman has since walked back the suggestion that worldwide RAM supplies should be further diverted to data centers",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-31T05:06:24.076Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T22:33:20.472Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Sam Altman: All the RAM Should Belong to Me, So I Can Charge People to Use It",
+          "url": "https://gizmodo.com/sam-altman-all-the-ram-should-belong-to-me-so-i-can-charge-people-to-use-it-2000833412",
+          "publishedAt": "2026-10-31T03:18:42.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Sam Altman is upset at you for hoarding RAM in your own computer",
+          "url": "https://www.engadget.com/2303266/sam-altman-says-its-terrible-dram-computer/",
+          "publishedAt": "2026-10-31T15:07:10.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI Sam Altman Claims Cloud AI Beats Local AI PCs Due to Scarce DRAM",
+          "url": "https://www.geeky-gadgets.com/sam-altman-pc-comments-backlash/",
+          "publishedAt": "2026-11-02T10:47:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Sam Altman: You’re Completely Right About RAM. I’m Sorry for the Confusion. Here’s What Happened",
+          "url": "https://gizmodo.com/sam-altman-youre-completely-right-about-ram-im-sorry-for-the-confusion-heres-what-happened-2000835208",
+          "publishedAt": "2026-11-04T21:45:49.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -1401,206 +1606,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "6fdb5a75-424d-47cc-9b4b-7dfa9c3a4547",
-      "title": "Alphabet loses about $500B in market value as AI spending fears hit Wall Street",
-      "summary": "Alphabet's stock has plunged, wiping out roughly $500 billion in market value, according to Gizmodo.\n\n- Google's AI summaries are eating into its own search profits, a sign that losing money may be the one thing that can slow the AI push\n- Investors are increasingly worried about Silicon Valley's massive AI spending spree, and Gizmodo says the AI gold rush is turning into a Wall Street bloodbath",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-29T22:34:55.253Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T21:00:25.238Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Eats Its Own Tail (and Profits) With AI Summaries as Stock Price Plunges",
-          "url": "https://gizmodo.com/google-eats-its-own-tail-and-profits-with-ai-summaries-as-stock-price-plunges-2000832600",
-          "publishedAt": "2026-10-29T20:50:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "The AI Gold Rush Is Turning Into a Wall Street Bloodbath",
-          "url": "https://gizmodo.com/the-ai-gold-rush-is-turning-into-a-wall-street-bloodbath-2000833300",
-          "publishedAt": "2026-10-30T20:30:34.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Cracks are emerging in the AI spending boom",
-          "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
-          "publishedAt": "2026-10-30T21:17:40.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Google, Reddit, And More Tech Stocks Plummet: What’s Driving Market Shocks",
-          "url": "https://in.mashable.com/tech-industry/115637/google-reddit-and-more-tech-stocks-plummet-whats-driving-market-shocks",
-          "publishedAt": "2026-10-30T17:53:05.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "1ace1c34-cfa8-42a1-aafb-8448dbe5fb97",
-      "title": "Trajectory raises $45M at a $300M valuation to let nontechnical experts train AI models",
-      "summary": "One-year-old startup Trajectory raised $45M, now valued at $300M, for tooling that lets domain experts without technical backgrounds fine-tune and train AI models.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-02T23:52:27.081Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T23:52:27.081Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
-          "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
-          "publishedAt": "2026-11-02T23:13:53.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "2b72bf84-0804-43df-b466-fd74f2758b20",
-      "title": "Anthropic updates Claude to stop it from recreating existing video games",
-      "summary": "Anthropic has updated Claude so it won't recreate existing video games, Engadget reports. Users can still get Claude's help designing original games or games within a genre.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-01T21:33:28.109Z",
-      "lastMeaningfulUpdateAt": "2026-11-01T21:33:28.109Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic updates Claude to stop it from recreating existing video games",
-          "url": "https://www.engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games/",
-          "publishedAt": "2026-11-01T21:08:32.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Software Is Dead—Unless Anthropic Says Otherwise",
-          "url": "https://gizmodo.com/software-is-dead-unless-anthropic-says-otherwise-2000833871",
-          "publishedAt": "2026-11-02T19:25:12.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "988407f6-4ff0-49ca-9121-d481666ffe77",
-      "title": "Judge lets NAACP lawsuit over xAI data center pollution move forward",
-      "summary": "A judge has allowed the NAACP's lawsuit against SpaceX-owned xAI to proceed. The suit accuses the AI company's data center operations of violating the Clean Air Act, per TechCrunch.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-31T21:19:18.483Z",
-      "lastMeaningfulUpdateAt": "2026-10-31T21:19:18.483Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
-          "publishedAt": "2026-10-31T21:17:03.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Judge says xAI must face NAACP lawsuit on data center pollution",
-          "url": "https://www.engadget.com/2303462/judge-says-xai-must-face-naacp-lawsuit-on-data-center-pollution/",
-          "publishedAt": "2026-11-01T19:19:22.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure",
-        "regulation"
-      ]
-    },
-    {
-      "id": "46d38e43-a1ef-436e-a906-a1d6cde79c3a",
-      "title": "Anthropic's VS Code extension on Cursor was backdoored for nearly 12 hours",
-      "summary": "Attackers pushed a backdoored version of Anthropic's VS Code extension through its verified Cursor account, where it stayed live for nearly 12 hours, Ars Technica reports. How they got access to the account is still unknown.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-30T23:02:49.086Z",
-      "lastMeaningfulUpdateAt": "2026-10-30T23:02:49.086Z",
-      "sources": [
-        {
-          "providerName": "Ars Technica",
-          "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-          "publishedAt": "2026-10-30T21:09:54.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "76d5ea0e-18ff-4806-b2a2-ebd9e99cf26e",
-      "title": "Expedia, Hotels.com and Vrbo add more AI to trip booking and planning",
-      "summary": "Expedia Group is rolling more \"practical AI\" features into Expedia, Hotels.com and Vrbo, aiming to simplify how travelers plan and book trips.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-11-04T02:16:26.221Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T02:16:26.221Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Expedia, Hotels.com and Vrbo Bring More AI to the Travel Booking Experience",
-          "url": "https://www.cnet.com/tech/services-and-software/expedia-hotels-com-and-vrbo-bring-more-ai-to-the-travel-booking-experience/",
-          "publishedAt": "2026-11-03T22:25:55.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "fdc86123-5388-488b-9756-4267b6d389aa",
-      "title": "New \"Volta-Autodoxer\" infostealer malware uses AI to build dossiers on its victims",
-      "summary": "Researchers have uncovered \"Volta-Autodoxer,\" infostealer malware that uses AI tools to \"autodox\" victims, Wired reports. It sweeps up troves of personal data, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-31T13:11:28.518Z",
-      "lastMeaningfulUpdateAt": "2026-10-31T13:11:28.518Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
-          "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
-          "publishedAt": "2026-10-31T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "6e834bea-b084-4f20-aa8b-eae9f7f37ad2",
-      "title": "MIT Technology Review: the agentic web Tim Berners-Lee envisioned is arriving",
-      "summary": "An MIT Technology Review feature traces today's AI agents back to Tim Berners-Lee's 2001 \"Semantic Web\" vision of an internet navigated by autonomous software agents, arguing that the agentic web is now taking shape.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-02T11:43:19.615Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T11:43:19.615Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "The agentic web is here",
-          "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
-          "publishedAt": "2026-11-02T09:35:19.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 113,
+  "totalCount": 116,
   "hasMore": true
 }
