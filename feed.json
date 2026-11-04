@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-04T18:29:57.258Z",
+  "generatedAt": "2026-11-04T20:31:31.032Z",
   "stories": [
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
       "title": "Voters reject AI data centers in the US midterms as the backlash reaches the ballot box",
-      "summary": "Public backlash against AI data centers over power costs, water use, land, and environmental justice has now shown up at the ballot box, where voters rejected them in the midterms.\n\n- New: Americans voted overwhelmingly against data centers in the midterms, most strongly in Ohio, which flipped blue; voters didn't buy the pitch from Republicans and tech companies that the projects boost the economy\n- OpenAI's Grid Protectors Program will work with utilities so future compute campuses support grid reliability and protect consumer electricity costs, and OpenAI may rebrand its data centers as \"AI compute campuses\"\n- Amazon pledged to stop using NDAs with local governments, paired with a warning to critics not to get in the way\n- Nearly $200 billion worth of US projects have been blocked or delayed this year; Trump admitted he is a NIMBY on data centers\n- Big Tech is countering with a multimillion-dollar ad campaign, a Thiel- and Koch-backed pro-data-center party, and youth outreach like data center field trips",
-      "importanceScore": 0.74,
+      "summary": "Public backlash against AI data centers over power costs, water use, land, and environmental justice has now shown up at the ballot box, where voters rejected them in the midterms.\n\n- Americans voted overwhelmingly against data centers, most strongly in Ohio, which flipped blue; voters didn't buy the pitch that the projects boost the economy\n- Texas, the fastest-growing US data center market, may lose its lead after Democrats won its Senate seat (James Talarico over Ken Paxton) and governorship (Gina Hinojosa)\n- OpenAI's Grid Protectors Program will work with utilities to protect grid reliability and consumer electricity costs, and OpenAI may rebrand its data centers as \"AI compute campuses\"\n- Amazon pledged to stop using NDAs with local governments, paired with a warning to critics not to get in the way\n- Nearly $200 billion worth of US projects have been blocked or delayed this year; Trump admitted he is a NIMBY on data centers\n- Big Tech is countering with a multimillion-dollar ad campaign, a Thiel- and Koch-backed pro-data-center party, and youth outreach like data center field trips",
+      "importanceScore": 0.76,
       "relevanceScore": 0.7,
       "firstSeenAt": "2026-09-01T18:56:45.629Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T16:27:57.778Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T20:31:12.918Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -212,12 +212,80 @@
           "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
           "publishedAt": "2026-11-04T16:56:17.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+          "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+          "publishedAt": "2026-11-04T18:50:55.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
         "infrastructure",
         "regulation"
       ]
+    },
+    {
+      "id": "d5403200-dabd-41ac-b076-981df239c0c9",
+      "title": "Google faces backlash for cutting off Search at schools that disable its AI tools, and DuckDuckGo moves in",
+      "summary": "Google will let schools turn off its AI tools, but schools that do will also lose student access to Search, and the plan has drawn political backlash.\n\n- AI features, including AI Overviews, are now built into Google Search, so restricting AI entirely means losing Search too\n- Parents and educators worry that easy, machine-generated answers are leaving kids less capable\n- NYC mayor Zohran Mamdani and former FTC chair Lina Khan accused Google of acting as an unregulated monopoly\n- DuckDuckGo is now courting frustrated schools, pointing educators to its search engine and its options to disable AI features",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-03T18:08:07.088Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T20:31:11.116Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+          "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+          "publishedAt": "2026-11-03T16:30:34.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google says students in schools that ban AI won't have access to Search",
+          "url": "https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search/",
+          "publishedAt": "2026-11-03T17:10:43.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google Is Holding Its Search Engine Hostage From Schools That Don’t Want AI",
+          "url": "https://gizmodo.com/google-is-holding-its-search-engine-hostage-from-schools-that-dont-want-ai-2000834544",
+          "publishedAt": "2026-11-03T19:45:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Google Is Forcing Schools to Choose Between Its Search Engine and AI",
+          "url": "https://www.cnet.com/tech/services-and-software/google-forcing-schools-choose-between-search-engine-ai/",
+          "publishedAt": "2026-11-04T00:30:16.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+          "publishedAt": "2026-11-04T16:17:22.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Google Is Forcing AI Overviews in Classrooms. Schools Are Searching for a Way Out",
+          "url": "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/",
+          "publishedAt": "2026-11-04T20:06:21.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+          "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+          "publishedAt": "2026-11-04T19:29:52.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -274,53 +342,6 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "d5403200-dabd-41ac-b076-981df239c0c9",
-      "title": "Google faces backlash for cutting off Search at schools that disable its AI tools",
-      "summary": "Google will let schools turn off its AI tools, but schools that do will also lose student access to Search, and the plan has drawn political backlash.\n\n- AI features are now built into Google Search, so restricting AI entirely means losing Search too\n- The move shows how tightly Google now ties Search to its AI products\n- NYC mayor Zohran Mamdani and former FTC chair Lina Khan accused Google of acting as an unregulated monopoly",
-      "importanceScore": 0.52,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-03T18:08:07.088Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T16:27:55.751Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
-          "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
-          "publishedAt": "2026-11-03T16:30:34.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google says students in schools that ban AI won't have access to Search",
-          "url": "https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search/",
-          "publishedAt": "2026-11-03T17:10:43.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Is Holding Its Search Engine Hostage From Schools That Don’t Want AI",
-          "url": "https://gizmodo.com/google-is-holding-its-search-engine-hostage-from-schools-that-dont-want-ai-2000834544",
-          "publishedAt": "2026-11-03T19:45:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Google Is Forcing Schools to Choose Between Its Search Engine and AI",
-          "url": "https://www.cnet.com/tech/services-and-software/google-forcing-schools-choose-between-search-engine-ai/",
-          "publishedAt": "2026-11-04T00:30:16.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
-          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-          "publishedAt": "2026-11-04T16:17:22.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
     },
     {
       "id": "56130070-d83d-4ef4-8bd2-a6b06fba35fc",
@@ -804,6 +825,42 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "94577cc8-f79b-476e-803b-f766976273b6",
+      "title": "Hugging Face leaders make the case for open source AI, with CEO Delangue putting his P(doom) \"close to zero\"",
+      "summary": "Hugging Face executives argued for open source AI on the same day, in two separate appearances.\n\n- CEO Clément Delangue told WIRED his P(doom) is \"close to zero,\" saying most AI risk comes from \"a couple of players building behind closed doors\"\n- Policy chief Irene Solaiman discussed on TechCrunch's Equity podcast how companies capture value as capable open models become freely available\n- The conversation also covered whether American players can keep up as Chinese open models gain ground",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-11-04T20:31:16.544Z",
+      "lastMeaningfulUpdateAt": "2026-11-04T20:31:16.544Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’",
+          "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+          "publishedAt": "2026-11-04T19:16:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+          "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+          "publishedAt": "2026-11-04T18:44:57.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Open source AI is booming. Hugging Face explains who profits.",
+          "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+          "publishedAt": "2026-11-04T19:30:04.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source",
+        "opinion"
+      ]
     },
     {
       "id": "e7319742-63b4-438a-a60c-b70b82a0decc",
@@ -1542,29 +1599,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "41659374-6614-440d-b807-b0bc0e488086",
-      "title": "A biotech startup's AI agent chose a gene therapy and injected it into a live mouse's brain",
-      "summary": "A biotech startup let an AI agent pick a gene therapy and carry out the injection into a live mouse's brain, which succeeded, per Wired. It is an early look at agents running hands-on lab research.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-31T11:10:11.311Z",
-      "lastMeaningfulUpdateAt": "2026-10-31T11:10:11.311Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
-          "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
-          "publishedAt": "2026-10-31T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 113,
   "hasMore": true
 }
