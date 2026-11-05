@@ -1,6 +1,351 @@
 {
-  "generatedAt": "2026-11-05T18:53:13.554Z",
+  "generatedAt": "2026-11-05T20:54:56.923Z",
   "stories": [
+    {
+      "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
+      "title": "Meta's Muse adds avatar video chat for US users as it passes 10M users amid mounting controversies",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps adding features and users even as privacy, security, content, and labor controversies mount.\n\n- New: US users can now video chat with Muse as a customizable animated avatar, ahead of a Tamagotchi-like wearable meant to bring Muse to life (TechCrunch)\n- Meta said on its Q3 earnings call that Muse has over 10 million users; Zuckerberg said a quarter of them shop through the agent, spending about $200 per purchase on average\n- Muse hit 10 million US downloads in its first 40 days, a milestone only 11 other apps have reached, and keeps users better than rival AI apps\n- Meta suspended Muse's conversation sharing after researchers showed shared links exposed sensitive personal and business data\n- Other controversies: OnlyFans creators object to Muse's sexual chat, a since-fixed Mac 0-day, and a contractor \"human concierge\" reportedly making racist remarks on calls\n- Amazon has blocked Muse from shopping on Amazon.com; Meta admits it was \"heavily inspired\" by OpenClaw",
+      "importanceScore": 0.85,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-03T17:01:49.158Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T20:54:28.861Z",
+      "sources": [
+        {
+          "providerName": "VentureBeat",
+          "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
+          "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+          "publishedAt": "2026-09-03T16:19:49.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is paying to peek at how you use their latest AI model",
+          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+          "publishedAt": "2026-09-03T18:19:56.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Muse, Meta's New Personal AI Agent, Needs You to Trust It",
+          "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
+          "publishedAt": "2026-09-08T20:12:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+          "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+          "publishedAt": "2026-09-08T19:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s New AI Agent Wants to Get Personal With You",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news-2/",
+          "publishedAt": "2026-09-08T22:33:09.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse Let Me Waste a Mind-Boggling Amount of Free Compute on Nothing in Particular",
+          "url": "https://gizmodo.com/metas-muse-let-me-waste-a-mind-boggling-amount-of-free-compute-on-nothing-in-particular-2000808945",
+          "publishedAt": "2026-09-09T02:05:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+          "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+          "publishedAt": "2026-09-10T19:50:04.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "How to get started with Meta's new AI agent, Muse",
+          "url": "https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/",
+          "publishedAt": "2026-09-12T14:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
+          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
+          "publishedAt": "2026-09-17T13:46:16.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
+          "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+          "publishedAt": "2026-09-18T15:22:48.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
+          "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+          "publishedAt": "2026-09-20T10:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Amazon Brings Down the Hammer on Meta’s Muse AI Agent",
+          "url": "https://gizmodo.com/amazon-brings-down-the-hammer-on-metas-muse-ai-agent-2000814878",
+          "publishedAt": "2026-09-21T16:05:22.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s AI agent has been blocked from using Amazon.com",
+          "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+          "publishedAt": "2026-09-21T17:55:18.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+          "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+          "publishedAt": "2026-09-21T19:19:21.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Ars Technica",
+          "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+          "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+          "publishedAt": "2026-09-21T22:24:38.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "No Shirt, No Shoes, No Service: Amazon Blocks Meta’s Muse AI From Shopping",
+          "url": "https://www.cnet.com/tech/services-and-software/amazon-blocks-metas-muse-ai/",
+          "publishedAt": "2026-09-21T20:27:31.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+          "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+          "publishedAt": "2026-09-22T19:09:11.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse AI Agents Sometimes Tagged in Human Contractors. One of Them Reportedly Got Racist",
+          "url": "https://gizmodo.com/report-claims-metas-ai-agents-sometimes-tagged-in-human-contractors-and-that-one-of-them-got-racist-2000815808",
+          "publishedAt": "2026-09-23T09:00:24.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
+          "url": "https://www.wired.com/story/metas-muse-ai-agent-zero-day/",
+          "publishedAt": "2026-09-23T12:54:58.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s Muse AI Agent Has Been Downloaded Half a Million Times — With a Serious Bug",
+          "url": "https://www.cnet.com/tech/services-and-software/metas-muse-ai-agent-zero-day-cybersecurity-bug-patched/",
+          "publishedAt": "2026-09-23T17:52:30.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta is putting its muscle behind Muse as the AI app takes off",
+          "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+          "publishedAt": "2026-09-25T16:16:52.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+          "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+          "publishedAt": "2026-09-25T18:22:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta opens early access program for new Muse features",
+          "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
+          "publishedAt": "2026-09-25T20:34:53.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Leaks Show That Meta’s New AI Agent Relied on Real People to Make Calls",
+          "url": "https://www.cnet.com/tech/services-and-software/leaks-metas-new-ai-agent-muse-real-people-call-centers/",
+          "publishedAt": "2026-09-26T00:13:27.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Spotify Already Has AI Playlists. So What Does Meta’s Muse Add?",
+          "url": "https://in.mashable.com/tech/114308/spotify-already-has-ai-playlists-so-what-does-metas-muse-add",
+          "publishedAt": "2026-09-25T19:49:36.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
+          "url": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/",
+          "publishedAt": "2026-09-26T10:30:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Can Muse overcome Meta’s trust issues?",
+          "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+          "publishedAt": "2026-09-27T19:57:30.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s Muse Is Misbehaving in Mysterious Ways With Your Privacy",
+          "url": "https://www.cnet.com/tech/services-and-software/metas-muse-agentic-ai-privacy-violations-security-data/",
+          "publishedAt": "2026-09-29T19:35:31.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta disputes claim that Muse read a user’s private messages without permission",
+          "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+          "publishedAt": "2026-09-30T16:24:23.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Don't let the adorable AI agents fool you",
+          "url": "https://www.engadget.com/2275148/dont-let-the-adorable-ai-agents-fool-you/",
+          "publishedAt": "2026-10-02T15:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+          "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+          "publishedAt": "2026-10-03T12:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s Muse Is Collecting Information on Everyone in Your Life",
+          "url": "https://gizmodo.com/metas-muse-is-collecting-information-on-everyone-in-your-life-2000821697",
+          "publishedAt": "2026-10-05T16:05:21.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "I Used Meta’s Muse Agent as My Personal Shopper. It Upcharged Me for No Reason",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-my-personal-shopper-upcharged-me/",
+          "publishedAt": "2026-10-05T17:17:15.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse launches on iPad just a month after its mobile debut",
+          "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+          "publishedAt": "2026-10-07T18:30:57.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "I Asked Meta Muse to Fix an Issue With My Phone Provider. It Got Blocked at Every Turn",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-contact-phone-provider-ai-agent-blocked/",
+          "publishedAt": "2026-10-09T12:41:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "I Asked Muse to Help Me Book My Holiday Travel. It Didn’t Fly Far.",
+          "url": "https://gizmodo.com/i-asked-muse-to-help-me-book-my-holiday-travel-it-didnt-fly-far-2000823264",
+          "publishedAt": "2026-10-12T14:45:18.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
+          "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+          "publishedAt": "2026-10-18T10:30:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Ars Technica",
+          "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+          "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+          "publishedAt": "2026-10-20T12:33:13.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+          "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+          "publishedAt": "2026-10-20T17:12:48.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
+          "url": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
+          "publishedAt": "2026-10-21T12:35:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta says Muse has over 10M users, with shopping a top activity",
+          "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+          "publishedAt": "2026-10-21T21:14:19.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Mark Zuckerberg says Meta is 'entering a new phase' with Muse",
+          "url": "https://www.engadget.com/2293705/mark-zuckerberg-says-meta-is-entering-a-new-phase-with-muse/",
+          "publishedAt": "2026-10-21T22:36:03.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Zuckerberg Wants To Build A Giant Online Network Of AI Agents",
+          "url": "https://gizmodo.com/zuckerberg-wants-to-build-a-giant-online-network-of-ai-agents-2000829145",
+          "publishedAt": "2026-10-22T01:51:03.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Tons of People Are Apparently Asking Meta’s Muse AI Agent to Shop for Them",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-shopping-earnings/",
+          "publishedAt": "2026-10-22T00:30:25.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Meta Muse Makes Marketplace Better. How I Set It Up to Help Me Shop Online",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-facebook-marketplace-shop-online/",
+          "publishedAt": "2026-10-26T15:06:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+          "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+          "publishedAt": "2026-10-31T10:30:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta says US users can now video chat with their Muse AI avatar",
+          "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+          "publishedAt": "2026-11-05T19:48:28.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "model-release",
+        "safety"
+      ]
+    },
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
       "title": "OpenAI's Brockman says it could be IPO-ready in 2027, even as its final pre-IPO raise falls short",
@@ -72,6 +417,13 @@
           "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
           "url": "https://openai.com/index/introducing-gpt-6-cyber",
           "publishedAt": "2026-11-05T09:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI released a new cybersecurity model. Is that enough?",
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+          "publishedAt": "2026-11-05T19:06:12.000Z",
           "contribution": "supporting"
         }
       ],
@@ -319,6 +671,13 @@
           "url": "https://gizmodo.com/metas-president-on-midterm-results-building-data-centers-is-going-to-be-harder-2000835444",
           "publishedAt": "2026-11-05T10:30:17.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+          "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+          "publishedAt": "2026-11-05T19:12:39.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -348,6 +707,13 @@
           "url": "https://www.engadget.com/2307936/now-claude-can-help-with-your-finances-too/",
           "publishedAt": "2026-11-05T18:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Introducing Personal Finance in Claude",
+          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+          "publishedAt": "2026-11-05T00:00:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -373,6 +739,34 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "4295043e-928b-4629-a8e9-5356905d8314",
+      "title": "Cloudflare gives site owners visibility and control over personal AI agent traffic",
+      "summary": "Cloudflare is adding tools that let site owners see personal AI agents visiting their sites and set terms for their access, arguing these agents have blurred the line between automated and human traffic. In a follow-up post, it lays out the problem of intermediaries hiding the users agents act for and proposes a collaborative \"trusted agent delegation\" approach to safely identifying, allowing, and managing that traffic.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-04T18:29:42.704Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T20:54:35.969Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "See the agents, set the terms: new visibility and control for personal agents",
+          "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+          "publishedAt": "2026-11-04T14:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Agents aren’t humans (but they kinda are)",
+          "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+          "publishedAt": "2026-11-05T17:03:04.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -472,6 +866,28 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "a0b5027e-3068-436a-a599-8422bd0991ac",
+      "title": "NVIDIA releases Cosmos 3 open models for interactive world simulation",
+      "summary": "NVIDIA announced new Cosmos 3 open models aimed at interactive world simulation, extending its Cosmos world-model family, in a post on the Hugging Face blog.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-05T20:54:38.181Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T20:54:38.181Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+          "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+          "publishedAt": "2026-11-05T19:35:16.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
       ]
     },
     {
@@ -849,24 +1265,24 @@
       ]
     },
     {
-      "id": "4295043e-928b-4629-a8e9-5356905d8314",
-      "title": "Cloudflare gives site owners visibility and control over personal AI agent traffic",
-      "summary": "Cloudflare is adding tools that let site owners see personal AI agents visiting their sites and set terms for their access, arguing these agents have blurred the line between automated and human traffic.",
-      "importanceScore": 0.45,
+      "id": "c8295cc9-1724-4089-aede-2ca17948e026",
+      "title": "Anthropic gives security teams more visibility and control over Claude Enterprise",
+      "summary": "Anthropic announced updates giving security teams more visibility into and control over how Claude Enterprise is used across their organizations.",
+      "importanceScore": 0.35,
       "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-04T18:29:42.704Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T18:29:42.704Z",
+      "firstSeenAt": "2026-11-05T20:54:39.881Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T20:54:39.881Z",
       "sources": [
         {
-          "providerName": "Cloudflare Blog",
-          "title": "See the agents, set the terms: new visibility and control for personal agents",
-          "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-          "publishedAt": "2026-11-04T14:00:00.000Z",
+          "providerName": "Claude Blog",
+          "title": "More visibility and control over Claude Enterprise for security teams",
+          "url": "https://claude.com/resources/articles/claude-enterprise-security-updates",
+          "publishedAt": "2026-11-05T00:00:00.000Z",
           "contribution": "supporting"
         }
       ],
       "tags": [
-        "product-launch"
+        "enterprise-adoption"
       ]
     },
     {
@@ -1417,105 +1833,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "e5e7ac4a-2716-4781-a5f3-004a45b4c3ab",
-      "title": "Sam Altman backpedals after saying it's \"terrible\" that people hoard scarce DRAM in their own computers",
-      "summary": "Sam Altman is backpedaling after saying people shouldn't hold scarce DRAM in their own computers when it could go to data centers.\n\n- In an interview, Altman called it \"terrible\" for people to hold \"a bunch of the world's limited supply of DRAM\" that they barely use, Engadget reported\n- The remark came amid an AI-driven memory shortage, and Gizmodo mocked it as \"all the RAM should belong to me, so I can charge people to use it\"\n- Altman has since walked back the suggestion that worldwide RAM supplies should be further diverted to data centers",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-31T05:06:24.076Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T22:33:20.472Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Sam Altman: All the RAM Should Belong to Me, So I Can Charge People to Use It",
-          "url": "https://gizmodo.com/sam-altman-all-the-ram-should-belong-to-me-so-i-can-charge-people-to-use-it-2000833412",
-          "publishedAt": "2026-10-31T03:18:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Sam Altman is upset at you for hoarding RAM in your own computer",
-          "url": "https://www.engadget.com/2303266/sam-altman-says-its-terrible-dram-computer/",
-          "publishedAt": "2026-10-31T15:07:10.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI Sam Altman Claims Cloud AI Beats Local AI PCs Due to Scarce DRAM",
-          "url": "https://www.geeky-gadgets.com/sam-altman-pc-comments-backlash/",
-          "publishedAt": "2026-11-02T10:47:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Sam Altman: You’re Completely Right About RAM. I’m Sorry for the Confusion. Here’s What Happened",
-          "url": "https://gizmodo.com/sam-altman-youre-completely-right-about-ram-im-sorry-for-the-confusion-heres-what-happened-2000835208",
-          "publishedAt": "2026-11-04T21:45:49.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "166490d3-e8b1-4cb7-be10-390c7c8bbb00",
-      "title": "OpenAI hires former Army Secretary Dan Driscoll for a new national security role",
-      "summary": "OpenAI has hired Dan Driscoll, who served as Army Secretary in the Trump administration, as its \"Senior Counselor for National Security Modernization,\" Gizmodo reports.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-03T03:55:27.620Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T03:55:27.620Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Hires Former Trump Admin. Army Secretary for New National Security Role",
-          "url": "https://gizmodo.com/openai-hires-former-trump-admin-army-secretary-for-new-national-security-role-2000834160",
-          "publishedAt": "2026-11-03T02:37:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "94577cc8-f79b-476e-803b-f766976273b6",
-      "title": "Hugging Face leaders make the case for open source AI, with CEO Delangue putting his P(doom) \"close to zero\"",
-      "summary": "Hugging Face executives argued for open source AI on the same day, in two separate appearances.\n\n- CEO Clément Delangue told WIRED his P(doom) is \"close to zero,\" saying most AI risk comes from \"a couple of players building behind closed doors\"\n- Policy chief Irene Solaiman discussed on TechCrunch's Equity podcast how companies capture value as capable open models become freely available\n- The conversation also covered whether American players can keep up as Chinese open models gain ground",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-11-04T20:31:16.544Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T20:31:16.544Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’",
-          "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
-          "publishedAt": "2026-11-04T19:16:25.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
-          "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
-          "publishedAt": "2026-11-04T18:44:57.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Open source AI is booming. Hugging Face explains who profits.",
-          "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
-          "publishedAt": "2026-11-04T19:30:04.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source",
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 116,
   "hasMore": true
 }
