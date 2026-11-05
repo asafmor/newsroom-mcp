@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T04:39:31.743Z",
+  "generatedAt": "2026-11-05T06:41:26.946Z",
   "stories": [
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -241,6 +241,28 @@
       ]
     },
     {
+      "id": "388448ad-1b87-413e-8e72-90576209bf78",
+      "title": "OpenAI launches Images 2.6, bringing animated GIF generation to ChatGPT and Codex",
+      "summary": "OpenAI unveiled Images 2.6, its latest image generation model, which can create animated GIFs from a text prompt or an uploaded image. It is rolling out globally to ChatGPT and the Codex coding tool.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-05T06:41:10.838Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T06:41:10.838Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "ChatGPT Now Lets You Generate GIFs",
+          "url": "https://in.mashable.com/tech/115773/chatgpt-now-lets-you-generate-gifs",
+          "publishedAt": "2026-11-05T02:21:10.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "product-launch"
+      ]
+    },
+    {
       "id": "6c542ea5-6cab-4634-b52d-3722e2eb6c6d",
       "title": "Meta acquires AI coding startup Conductor",
       "summary": "Meta has acquired Conductor, an AI coding startup whose tool lets software engineers deploy teams of agents to work on different parts of a project at the same time.",
@@ -468,6 +490,25 @@
       ]
     },
     {
+      "id": "8973d6a9-d704-4e28-aa49-083d63ce35b1",
+      "title": "Google offers voluntary exit packages in seven countries as it shifts spending toward AI",
+      "summary": "Google is offering employees in seven countries financial incentives to leave voluntarily, aiming to cut operating costs and redirect resources toward its AI investments.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-05T06:41:12.736Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T06:41:12.736Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Google Offers Voluntary Exit Packages to Employees Across 7 Countries as AI Spending Rises: Is India on The List?",
+          "url": "https://in.mashable.com/automobiles/115780/google-offers-voluntary-exit-packages-to-employees-across-7-countries-as-ai-spending-rises-is-india",
+          "publishedAt": "2026-11-05T05:59:34.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "56130070-d83d-4ef4-8bd2-a6b06fba35fc",
       "title": "OpenAI claims ChatGPT now handles about 20% of Google's search volume",
       "summary": "OpenAI says ChatGPT's search usage has reached roughly a fifth of Google's search volume, per Gizmodo, which questions how the company will turn that traffic into profit.",
@@ -655,6 +696,28 @@
         }
       ],
       "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "de406d57-7c19-4a7f-9aea-3c31fa30bd56",
+      "title": "Netflix launches AI Discover, an AI-powered search that finds titles by mood",
+      "summary": "After testing it last year, Netflix is rolling out AI Discover, a new tab in its TV app where viewers describe what they're in the mood for, starting from themes like \"Something Light\" or \"Scare Me,\" and get matching titles.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-05T06:41:15.012Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T06:41:15.012Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Netflix's AI-Powered Search Lets You Search By Your Mood",
+          "url": "https://in.mashable.com/tech/115781/netflixs-ai-powered-search-lets-you-search-by-your-mood",
+          "publishedAt": "2026-11-04T15:43:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
         "enterprise-adoption"
       ]
     },
@@ -1544,100 +1607,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "b3f2fae2-1ef3-4dd2-8b0b-3af17f87d02e",
-      "title": "Netflix launches an AI Discover tab that recommends shows based on your mood",
-      "summary": "Netflix added a new AI Discover tab. Its first experimental feature recommends titles based on the mood a viewer is currently in.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-11-03T20:10:24.967Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T20:10:24.967Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
-          "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
-          "publishedAt": "2026-11-03T18:42:16.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "6bc3dda0-d128-4824-b014-3ce7ef935e13",
-      "title": "Google, OpenAI, Anthropic, and Microsoft pledge to honor a shared robots.txt signal blocking AI-training scraping",
-      "summary": "Google, OpenAI, Anthropic, and Microsoft have pledged to support a new common robots.txt signal that lets website operators block their content from being scraped for AI training. OpenAI announced first; Google's commitment, per Engadget, brings all the major model providers on board.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-30T18:59:09.737Z",
-      "lastMeaningfulUpdateAt": "2026-10-31T11:10:12.851Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Making it easier for websites to express AI training preferences",
-          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-          "publishedAt": "2026-10-30T09:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google joins OpenAI and Anthropic in promising new scraping controls",
-          "url": "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/",
-          "publishedAt": "2026-10-31T10:34:31.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
-    },
-    {
-      "id": "25641c5e-d1da-443c-8f65-319d3f4358cb",
-      "title": "Nvidia weighs cosigning Nscale's West Virginia data center loan as the neocloud heads for IPO",
-      "summary": "British AI data-center developer Nscale is heading for an IPO that tests investor appetite for concentrated AI infrastructure bets, and its backers are moving in opposite directions.\n\n- New: Nvidia is weighing whether to cosign the loan for Nscale's AI data center in West Virginia, TechCrunch reports, a backstop aimed at investors nervous about AI spending\n- Nscale and Anthropic are reportedly in talks for another $45 billion compute deal, matching the one they announced in August\n- Gizmodo reports Microsoft pulled out of a giant British AI cloud deal just as Nscale was expecting to go public\n- The neocloud depends on Microsoft and Anthropic for most of its revenue",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-09-22T13:37:32.047Z",
-      "lastMeaningfulUpdateAt": "2026-10-31T03:05:12.792Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
-          "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
-          "publishedAt": "2026-09-22T12:23:05.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Microsoft Pulls Out of Giant British AI Cloud Deal Just As Cloud Company Was Expecting to IPO",
-          "url": "https://gizmodo.com/microsoft-pulls-out-of-giant-british-ai-cloud-deal-just-as-cloud-company-was-expecting-to-ipo-2000827469",
-          "publishedAt": "2026-10-19T09:00:39.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
-          "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
-          "publishedAt": "2026-10-19T23:39:38.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-          "publishedAt": "2026-10-31T01:20:05.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 118,
   "hasMore": true
 }
