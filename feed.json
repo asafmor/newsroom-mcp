@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T12:48:06.095Z",
+  "generatedAt": "2026-11-05T14:49:50.972Z",
   "stories": [
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -744,6 +744,28 @@
       ]
     },
     {
+      "id": "e20910da-7cb5-4e8f-9d19-6cbe0e260d0a",
+      "title": "Box taps Nvidia's Nemotron for an agent-first content retrieval system",
+      "summary": "Box built a new content retrieval system for AI agents on Nvidia's Nemotron models. Box says it answers queries four times faster, with 20% fewer errors and 90% fewer tokens.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-05T14:49:29.425Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T14:49:29.425Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
+          "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+          "publishedAt": "2026-11-05T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption",
+        "product-launch"
+      ]
+    },
+    {
       "id": "d12b5fdf-c7d7-464d-8652-07bfdf750ccd",
       "title": "Uber says almost no one books rides through AI agents: just four people in its busiest week",
       "summary": "Uber said only four people booked a ride using an AI agent during its busiest week last quarter, a sign that consumer use of agents for everyday tasks remains negligible.",
@@ -845,6 +867,55 @@
           "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
           "url": "https://openai.com/index/daybreak-red-aws-govcloud",
           "publishedAt": "2026-11-04T07:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "e2777696-3399-4d44-b659-f3529d951fa7",
+      "title": "UK-backed Potential Sciences trains drug-discovery AI on simulated biochemical data instead of lab work",
+      "summary": "Potential Sciences, a startup backed by the UK government, trains its AI models on computer-generated biochemical data instead of lab results. It is betting this can speed up the slow process of developing new drugs.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-05T14:49:33.827Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T14:49:33.827Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Finding New Drugs Is Laborious. This AI Startup Is Skipping The Lab Work",
+          "url": "https://www.wired.com/story/finding-new-drugs-is-laborious-this-ai-startup-is-skipping-the-lab-work/",
+          "publishedAt": "2026-11-05T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "e343cea4-9091-40a7-9adc-36748460fe7b",
+      "title": "Aina unveils a smart ring with a screen, joystick and mic for controlling AI agents",
+      "summary": "Startup Aina is betting people won't need their phones to direct AI agents. Its smart ring has a small screen, a joystick and a microphone, so you can talk to agents and approve their actions with one tap. It can also take calls and dictate notes on a Mac.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-05T14:49:27.328Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T14:49:27.328Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Aina’s smart ring has a screen, a joystick and a mic so you can talk to AI agents",
+          "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+          "publishedAt": "2026-11-05T14:42:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Exclusive: Aina’s Smart Ring Wants to Be a Remote Control for Your AI Agent",
+          "url": "https://www.wired.com/story/aina-smart-ring/",
+          "publishedAt": "2026-11-05T14:00:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1019,6 +1090,13 @@
           "title": "Elon Musk Needs to Save Money on Grok, Days After Saying AI Makes Saving Money Pointless",
           "url": "https://gizmodo.com/elon-musk-needs-to-save-money-on-grok-days-after-saying-ai-makes-saving-money-pointless-2000833812",
           "publishedAt": "2026-11-02T16:40:14.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Elon Musk’s xAI Fights Surging GrokBot Maintenance Bills",
+          "url": "https://www.geeky-gadgets.com/elon-musk-grokbot-cost-problem/",
+          "publishedAt": "2026-11-05T13:45:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1311,6 +1389,27 @@
       ]
     },
     {
+      "id": "33e19956-a64b-4ed5-94d9-98df08b0ddfe",
+      "title": "YC startup Discovered Materials offers $1M in prizes for five unsolved materials science problems",
+      "summary": "Discovered Materials is a months-old YC startup that uses AI to find new chip materials. It is offering $200,000 for each solution to five open materials science problems, $1M in total.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-11-05T14:49:31.479Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T14:49:31.479Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
+          "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+          "publishedAt": "2026-11-05T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "e7319742-63b4-438a-a60c-b70b82a0decc",
       "title": "Safety researchers turn to \"reverse game theory\" to make rule-following the rational choice for AI agents",
       "summary": "MIT Technology Review looks at mechanism design, or \"reverse game theory,\" as an alignment approach: instead of only constraining powerful AI models, researchers design incentives so that following the rules becomes the most rational choice for an agent.",
@@ -1556,91 +1655,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "c6ce9915-3361-4b7e-9bf9-2be53bd684ee",
-      "title": "42AI comes out of stealth with $62.5M and a world model it says can predict human behavior",
-      "summary": "Startup 42AI has emerged from stealth with $62.5 million in funding and a world model it says can predict what people will do, even in completely new situations, TechCrunch reports exclusively.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-02T17:48:11.243Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T17:48:11.243Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
-          "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
-          "publishedAt": "2026-11-02T16:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "aafaebdc-b5c8-4953-aed7-8d7fbac9327c",
-      "title": "Common Sense Media survey finds most US tweens and teens use AI chatbots, many under the age limit",
-      "summary": "Two new surveys show AI chatbots are a normal part of life for young Americans, used for everything from homework help to emotional support. Common Sense Media's 2026 tween and teen census found that nearly half of 9-12-year-olds have bypassed the 13+ age restriction common to most chatbots.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-02T05:39:19.269Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T05:39:19.269Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "Majority Of Teens And Tweens Now Use Chat Bots, New Research Finds",
-          "url": "https://in.mashable.com/mental-health/115629/majority-of-teens-and-tweens-now-use-chat-bots-new-research-finds",
-          "publishedAt": "2026-10-31T18:10:09.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research",
-        "safety"
-      ]
-    },
-    {
-      "id": "69ee6fc9-d9e1-4b90-91fd-a7c629b7867e",
-      "title": "Google DeepMind applies Antigravity and new Cheminformatics Skills to drug discovery",
-      "summary": "Google DeepMind shows how Google Antigravity, paired with its Cheminformatics Skills, can speed up drug-discovery workflows. The agents search compound libraries and propose new rigidified macrocycles.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-03T18:08:13.276Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T18:08:13.276Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Agentic cheminformatics with Google Antigravity",
-          "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-          "publishedAt": "2026-11-03T17:01:49.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "6d95e5b2-b088-4c02-89ac-ea8101eca593",
-      "title": "OpenAI builds Pando, a Git-compatible backend for Codex-scale development",
-      "summary": "OpenAI detailed Pando, a Git-compatible backend it built to handle the scale of development that Codex makes possible. It follows Anthropic's move to replace git with its own Scion system, as agent-driven coding strains conventional source control.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-03T01:54:13.920Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T01:54:13.920Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Scaling Git at OpenAI",
-          "url": "https://openai.com/index/scaling-git-at-openai",
-          "publishedAt": "2026-11-02T15:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 121,
+  "totalCount": 123,
   "hasMore": true
 }
