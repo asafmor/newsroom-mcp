@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T10:46:16.418Z",
+  "generatedAt": "2026-11-05T12:48:06.095Z",
   "stories": [
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -270,6 +270,27 @@
       ]
     },
     {
+      "id": "9037e4e3-dede-4742-a8e6-93cb038632bc",
+      "title": "Agility Robotics debuts on Nasdaq as the first publicly traded pure-play humanoid robot company",
+      "summary": "Agility, maker of humanoid robots, began trading on the Nasdaq today, becoming the first publicly traded pure-play humanoid robotics company and giving public investors their first direct bet on the category, per TechCrunch.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-05T12:47:45.600Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T12:47:45.600Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+          "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+          "publishedAt": "2026-11-05T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
       "id": "38a0b108-cf62-46f2-8589-69a6330749e7",
       "title": "OpenAI introduces a National Community Compact and a Compute Campus Policy Blueprint for its data centers",
       "summary": "OpenAI published a National Community Compact and a Compute Campus Policy Blueprint, commitments it says will protect local resources, create jobs, and guide responsible AI infrastructure development as opposition to data centers grows.",
@@ -283,6 +304,13 @@
           "title": "Setting a new standard for responsible AI infrastructure",
           "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
           "publishedAt": "2026-11-05T02:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI says it will protect local resources and report on the impact of its data centers",
+          "url": "https://www.engadget.com/2307590/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers/",
+          "publishedAt": "2026-11-05T12:37:38.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1305,6 +1333,27 @@
       ]
     },
     {
+      "id": "c5c12318-7326-45eb-9fba-1da1ec2089f0",
+      "title": "Wild Dolphin Project's Denise Herzing is using AI to decode dolphin communication",
+      "summary": "Denise Herzing, founder and director of the Wild Dolphin Project, is using AI to analyze audio and video footage of wild dolphins in an effort to understand how they communicate, Wired reports.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-11-05T12:47:47.586Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T12:47:47.586Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI’s Next Trick? Speaking Dolphin",
+          "url": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
+          "publishedAt": "2026-11-05T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
       "title": "Anthropic officially files for its IPO, with a public S-1 showing soaring revenue, heavy losses, and founder control",
       "summary": "Anthropic has officially filed for its public debut, making its S-1 public after weeks of leaks, investor objections to its financials, and political calls for delay.\n\n- The filing shows soaring revenue and major enterprise adoption alongside mounting losses; Engadget earlier put last year's net loss at about $8 billion\n- Anthropic may be valued as high as $2 trillion, with a stock market debut reportedly planned for November\n- Its seven co-founders get a combined 50.1% of the vote on most matters, meant to preserve founder control and its safety mission\n- Note conversions show Amazon is set to make far more from the IPO than Anthropic's VC backers, and the SpaceXAI deal is bigger than previously known\n- Risk factors include a warning that Anthropic's own AI could pose an existential risk to humanity\n- New: Blackstone forecasts that credit agencies will give Anthropic a high \"junk\" rating after the IPO, which would make funding its massive spending harder and costlier, per the FT",
@@ -1590,46 +1639,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "e13f4d0e-64ad-4ec8-98a7-ed0d9a856119",
-      "title": "Study finds people who use AI at work put in up to 90 minutes more per day",
-      "summary": "A new analysis found that people who use AI at work have longer workdays than those who don't, logging up to 90 extra minutes a day, Gizmodo reports.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-03T14:04:23.184Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T14:04:23.184Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Users Are Working Up to 90 Minutes Longer Every Day, Study Finds",
-          "url": "https://gizmodo.com/ai-users-are-working-up-to-90-minutes-longer-every-day-study-finds-2000833982",
-          "publishedAt": "2026-11-03T13:45:35.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "a7f2e9cc-0396-4fd2-a802-23b479f6693d",
-      "title": "Apple's revamped Siri in macOS 27.2 passes just 34 of 62 tasks in an independent test",
-      "summary": "Peter Akkies tested the revamped Siri in Apple's macOS 27.2 on 62 tasks, and it passed 34. It handled basic commands like reminders and weather well and worked smoothly with Calendar and Notes, but it failed the other 28, Geeky Gadgets reports.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-03T14:04:21.293Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T14:04:21.293Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Siri Passes Just 34 of 62 Tasks in macOS 27.2 Tests",
-          "url": "https://www.geeky-gadgets.com/siri-ai-mac-test/",
-          "publishedAt": "2026-11-03T13:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 120,
+  "totalCount": 121,
   "hasMore": true
 }
