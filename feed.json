@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T08:43:36.166Z",
+  "generatedAt": "2026-11-05T10:46:16.418Z",
   "stories": [
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -233,6 +233,13 @@
           "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
           "publishedAt": "2026-11-05T01:02:14.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Meta’s President on Midterm Results: Building Data Centers Is ‘Going to Be Harder’",
+          "url": "https://gizmodo.com/metas-president-on-midterm-results-building-data-centers-is-going-to-be-harder-2000835444",
+          "publishedAt": "2026-11-05T10:30:17.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -260,6 +267,27 @@
       "tags": [
         "model-release",
         "product-launch"
+      ]
+    },
+    {
+      "id": "38a0b108-cf62-46f2-8589-69a6330749e7",
+      "title": "OpenAI introduces a National Community Compact and a Compute Campus Policy Blueprint for its data centers",
+      "summary": "OpenAI published a National Community Compact and a Compute Campus Policy Blueprint, commitments it says will protect local resources, create jobs, and guide responsible AI infrastructure development as opposition to data centers grows.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-05T10:45:48.637Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T10:45:48.637Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Setting a new standard for responsible AI infrastructure",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+          "publishedAt": "2026-11-05T02:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -573,6 +601,27 @@
       "tags": []
     },
     {
+      "id": "7696b2fb-f48c-41f7-bd3f-52bd2821496f",
+      "title": "OpenAI touts a cyber workflow that burns $1.2M in tokens per run, saying it's cheaper than bug bounties",
+      "summary": "OpenAI is promoting an AI cybersecurity workflow that uses about $1.2 million worth of tokens in a single run, arguing it would still save money compared with paying out bug bounties.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-05T10:45:55.273Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T10:45:55.273Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Touts Cyber Workflow Worth $1.2 Million in Tokens for a Single Run",
+          "url": "https://gizmodo.com/openai-touts-cyber-workflow-worth-1-2-million-in-tokens-for-a-single-run-2000835405",
+          "publishedAt": "2026-11-05T10:00:39.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "b16df7e5-7fd2-4989-baa1-5ff785b809e1",
       "title": "Anthropic is building FlashProve, a system to prove which AI model produced a response",
       "summary": "Anthropic is working on FlashProve, a cryptographic system that would let anyone check that an AI response really came from the model it claims to come from, TechCrunch reports.",
@@ -705,6 +754,32 @@
       "tags": [
         "enterprise-adoption"
       ]
+    },
+    {
+      "id": "48927e69-2b70-4ae9-bbf8-c02a8299c629",
+      "title": "OpenAI rumored to release GPT-6.2 Sol and Astra models on Friday",
+      "summary": "Unconfirmed reports say OpenAI's next models, GPT-6.2 Sol and Astra, could arrive as soon as Friday.\n\n- GPT-6.2 Sol is said to focus on balancing cost-efficiency with strong performance, aimed at both budget-conscious startups and large enterprises\n- Earlier rumors of a \"GPT-Next\" model pointed to speed and cost gains over GPT-6.1 Sol, in line with a reported 28-day improvement cycle\n- The claims are attributed to Universe of AI and World of AI via Geeky Gadgets; OpenAI has not confirmed them",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-08T08:29:04.503Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T10:45:56.951Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Rumored ChatGPT Next AI Model Could Beat GPT-6.1 Sol on Generation Times",
+          "url": "https://www.geeky-gadgets.com/openai-gpt-next-leak-news/",
+          "publishedAt": "2026-10-08T07:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI May Release ChatGPT 6.2 Sol and Astra Models on Friday",
+          "url": "https://www.geeky-gadgets.com/chatgpt-sol-6/",
+          "publishedAt": "2026-11-05T09:17:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "de406d57-7c19-4a7f-9aea-3c31fa30bd56",
@@ -845,6 +920,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "84dffe97-629b-41dc-9d35-83930c6fb14e",
+      "title": "Phonon TTS launches on Hugging Face, claiming benchmark-topping on-device speech",
+      "summary": "Hugging Face's blog details Phonon TTS, a newly launched on-device text-to-speech model that its makers say delivers high-quality speech and tops the benchmarks.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-05T10:45:50.922Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T10:45:50.922Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+          "url": "https://huggingface.co/blog/phonon-tts",
+          "publishedAt": "2026-11-05T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
     },
     {
       "id": "072e3cf9-1c42-44ae-b07e-526341eeba9b",
@@ -1532,90 +1628,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "8095f7dd-f17d-4140-a600-9498501c2591",
-      "title": "Claude's Messages API adds message threads to speed up long-running agents",
-      "summary": "Anthropic's Messages API now supports message threads: developers send a conversation once, and each later turn transmits only what's new, cutting overhead for long-running agents.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-02T23:52:34.130Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T23:52:34.130Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Make long-running agents faster with message threads",
-          "url": "https://claude.com/resources/articles/message-threads",
-          "publishedAt": "2026-11-02T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "19925191-3636-4fc7-a677-aed72d3a3d07",
-      "title": "Snap passes 30 million paid subscribers, with AI-powered effects driving demand",
-      "summary": "Snap now has more than 30 million paid subscribers across Snapchat+ and its other plans, and Engadget reports power users seem more than willing to pay for AI-powered effects.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.45,
-      "firstSeenAt": "2026-11-05T00:35:21.595Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T00:35:21.595Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Snap has more than 30 million paid subscribers across Snapchat+ and other plans",
-          "url": "https://www.engadget.com/2307356/snap-has-more-than-30-million-paid-subscribers-across-snapchat-and-other-plans/",
-          "publishedAt": "2026-11-04T22:55:57.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "1ecec969-c8bb-4768-8fad-e4094e0889d4",
-      "title": "Ballistic Ventures seeks $490M for new funds amid an AI-driven cybersecurity boom",
-      "summary": "Ted Schlein's cybersecurity-focused Ballistic Ventures is seeking $360M for a new flagship fund and $130M for a separate vehicle, per TechCrunch, riding demand for AI-era security startups.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-11-03T22:12:39.580Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T22:12:39.580Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
-          "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
-          "publishedAt": "2026-11-03T21:43:08.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "id": "0b36a926-e530-41b8-ac72-a32f5a69ab1b",
-      "title": "DeepSeek Harness adds Creator Mode, which builds plugins from text prompts",
-      "summary": "DeepSeek added a Creator Mode to DeepSeek Harness, its agent harness that connects models to tools, letting users generate plugins directly from text prompts; the company shared a video demo of the feature.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-03T05:57:18.775Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T05:57:18.775Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "DeepSeek Harness' New Creator Mode Creates Plugins From Prompts",
-          "url": "https://in.mashable.com/tech/115689/deepseek-harness-new-creator-mode-creates-plugins-from-prompts",
-          "publishedAt": "2026-11-03T01:11:37.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 120,
   "hasMore": true
 }
