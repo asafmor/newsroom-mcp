@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T20:54:56.923Z",
+  "generatedAt": "2026-11-05T22:56:23.576Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -831,6 +831,27 @@
       ],
       "tags": [
         "funding"
+      ]
+    },
+    {
+      "id": "680533ba-0cf9-4566-a820-340a7756eea2",
+      "title": "Airbnb plans to launch an AI travel agent in the first half of 2027",
+      "summary": "Airbnb says it will launch an AI agent in the first half of 2027 that helps travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-05T22:56:14.509Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T22:56:14.509Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+          "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+          "publishedAt": "2026-11-05T22:40:55.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1760,6 +1781,25 @@
       ]
     },
     {
+      "id": "44f81307-c535-4731-8cfd-0e858536f41f",
+      "title": "Grimes appears in a popular YouTuber's AI-made movie, blurring what's real",
+      "summary": "A popular YouTuber's new AI movie features Grimes, though it's unclear how much of her performance is real, as creators keep pushing to make AI-generated films a thing.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-11-05T22:56:16.539Z",
+      "lastMeaningfulUpdateAt": "2026-11-05T22:56:16.539Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Grimes Shows Off Her Acting Chops in New AI Movie. Or Does She?",
+          "url": "https://gizmodo.com/grimes-shows-off-her-acting-chops-in-new-ai-movie-or-does-she-2000835869",
+          "publishedAt": "2026-11-05T21:50:08.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "1f523e61-dc11-43bf-8f2e-21801b07f2b7",
       "title": "DeepSeek launches Super-Agent, a proactive coding agent to rival Claude Code",
       "summary": "DeepSeek released Super-Agent, a coding agent pitched against Anthropic's Claude Code. Unlike a prompt-driven chatbot, it works on its own: it monitors developers' group chats, spots coding problems, and suggests fixes without being asked.",
@@ -1786,55 +1826,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "165f540a-57bd-40b8-a682-f4fb5f229b3e",
-      "title": "Claude Marketplace adds new agents and products for security, productivity, and creative work",
-      "summary": "Anthropic has added new third-party agents and products for security, productivity, and creative work to the Claude Marketplace.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-04T22:33:34.011Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T22:33:34.011Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "New agents and products for security, productivity, and creative work on Claude Marketplace",
-          "url": "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
-          "publishedAt": "2026-11-04T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "3c0c22ae-b01e-48b1-9238-741a7ca9834d",
-      "title": "Nothing says its mysterious AI-first device launches next month",
-      "summary": "Nothing's CEO Carl Pei says the smartphone startup's first standalone AI device will launch next month. It's screenless and pitched as a work and productivity tool, but its exact form is still unclear.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-04T22:33:30.376Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T22:33:30.376Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
-          "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
-          "publishedAt": "2026-11-04T22:13:16.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Cult Phone-Maker Nothing’s Mystery Screenless AI Device Is Coming Next Month",
-          "url": "https://www.cnet.com/tech/services-and-software/nothings-first-standalone-ai-device-coming-next-month/",
-          "publishedAt": "2026-11-04T21:00:45.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 116,
+  "totalCount": 118,
   "hasMore": true
 }
