@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T09:04:34.173Z",
+  "generatedAt": "2026-11-06T15:41:35.763Z",
   "episodes": [
     {
       "id": "podcast-2026-W45",
@@ -28,8 +28,13 @@
       "totalCharacterCount": 5778,
       "voice": "alloy",
       "instructions": "warm, clear, moderate pace, professional newsroom narrator",
-      "audioStatus": "pending",
-      "audio": null,
+      "audioStatus": "ready",
+      "audio": {
+        "url": "audio/podcast-2026-W45.mp3",
+        "durationSeconds": 336,
+        "sizeBytes": 2687276,
+        "mimeType": "audio/mpeg"
+      },
       "failureReason": null
     },
     {
