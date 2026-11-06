@@ -1,6 +1,37 @@
 {
-  "generatedAt": "2026-10-30T14:51:12.515Z",
+  "generatedAt": "2026-11-06T09:04:34.173Z",
   "episodes": [
+    {
+      "id": "podcast-2026-W45",
+      "isoWeek": "2026-W45",
+      "title": "AI Week in Review: Voters Reject Data Centers, Tech Stocks Shed $2.5T, and Anthropic Warns of Self-Improving AI",
+      "publishedAt": "2026-11-06T09:04:24.345Z",
+      "segments": [
+        "Welcome to AI Week in Review. This week, the AI industry ran headlong into American politics. Voters turned against data centers at the ballot box, tech stocks shed trillions, and Anthropic made a startling disclosure about how close it thinks AI is to improving itself. Let's get into it.",
+        "We start with the midterms, where the backlash against AI data centers finally showed up in the vote count. Americans voted overwhelmingly against data center projects, most strongly in Ohio, which flipped blue. Voters didn't buy the pitch that these projects boost local economies; concerns about power bills, water use, land, and environmental justice won out. Texas, the fastest-growing data center market in the country, may lose its lead after Democrats won both its Senate seat and its governorship. Meta's president warned that building data centers is now going to be harder. The industry had been trying to get ahead of this. OpenAI launched a Grid Protectors Program to work with utilities on grid reliability and consumer electricity costs, and it's reportedly considering rebranding its data centers as AI compute campuses. Amazon says it no longer uses non-disclosure agreements with local governments. But with nearly two hundred billion dollars in projects already blocked or delayed this year, the politics have clearly shifted.",
+        "Markets noticed. Tech stocks plunged this week, wiping out roughly two and a half trillion dollars in value. According to Gizmodo, investors are bracing for incoming Democrats to end the era of light-touch regulation and backroom deals that AI companies have enjoyed.",
+        "Washington is also taking a new look at where AI is headed. The Justice Department launched a task force focused on superintelligence, though Gizmodo's take was skeptical of the whole superintelligence framing.",
+        "Which brings us to the week's most striking disclosure. In a Monday SEC filing, Anthropic said it is very close to recursive self-improvement, the point where AI gets good enough at training itself to set off a dramatic acceleration in capabilities. Anthropic said that threshold could arrive imminently. Safety-minded critics have long treated recursive self-improvement as a point of no return, so seeing it named in a regulatory filing, rather than a blog post or a podcast, is notable.",
+        "Anthropic is also heading toward its planned IPO with a money problem. TechCrunch reports that its compute margins are getting worse just when they should be improving, partly because cloud providers that now see Anthropic as a rival are making it harder to secure enough computing power.",
+        "OpenAI, meanwhile, is laying out its own path to the public markets. President Greg Brockman said the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and what he described as a turnaround in the business. The picture on the private side is less rosy. OpenAI has lowered the target for its final pre-IPO funding round, which hasn't lived up to expectations. That round was last reported at thirty billion dollars on a valuation of one point two five trillion, down from one point four trillion in September. Sam Altman has said the company needs to be able to make confident safety claims before it lists.",
+        "OpenAI also made a bold usage claim this week: it says ChatGPT now handles about a fifth of Google's search volume, though how it turns that traffic into profit remains an open question.",
+        "OpenAI also shipped a new model this week: GPT-6 Cyber, a cybersecurity model built to find exploitable vulnerabilities and develop fixes. The company's pitch is that the model is trained to stay inside an engagement's authorized scope, which goes straight at the central worry about offensive security tools. TechCrunch asked whether that's enough.",
+        "On the lighter side, OpenAI rolled out Images 2.6, which can make animated GIFs from a prompt or an uploaded photo, in ChatGPT and Codex.",
+        "Over at Meta, Muse keeps growing, and so do the questions around it. US users can now video chat with Muse as a customizable animated avatar, ahead of a Tamagotchi-like wearable meant to bring the agent into the physical world. Meta says Muse has passed ten million users, and Mark Zuckerberg says about a quarter of them shop through it. But the agent has also faced a privacy flaw in shared conversation links, a security hole on the Mac that has since been fixed, and a block from Amazon's store.",
+        "Meta also made an acquisition this week, buying Conductor, a startup whose tool lets engineers run teams of coding agents in parallel.",
+        "Anthropic had consumer news too. Claude now has a Personal Finance tool that connects to your bank and card accounts through Plaid and answers questions about your spending. It follows a similar move by ChatGPT, and reviewers are asking whether people should really hand their finances to a chatbot.",
+        "In research news, Axiom Math says its AI agents have formally verified the Stacks Project, one of the largest reference libraries in mathematics. The company is betting that machine-checked proofs are the way to keep unchecked AI-generated math out of the field.",
+        "And a darker note. A WIRED investigation found about four hundred apps and websites that present themselves as everyday AI tools but hide features for generating sexually abusive and violent deepfakes.",
+        "In a separate case, parents have sued Google, claiming their child's use of Gemini on a school-issued Chromebook became a life-threatening obsession. It's a reminder that AI safety questions reach well beyond frontier models.",
+        "That's the week. Voters pushed back on data centers, Wall Street flinched, and the two biggest AI labs edged toward public markets while one of them warned about AI that improves itself. Thanks for listening to AI Week in Review. We'll see you next week."
+      ],
+      "totalCharacterCount": 5778,
+      "voice": "alloy",
+      "instructions": "warm, clear, moderate pace, professional newsroom narrator",
+      "audioStatus": "pending",
+      "audio": null,
+      "failureReason": null
+    },
     {
       "id": "podcast-2026-W44",
       "isoWeek": "2026-W44",
