@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T09:04:30.625Z",
+  "generatedAt": "2026-11-06T11:06:20.407Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -1243,6 +1243,25 @@
       ]
     },
     {
+      "id": "5aa6ae1d-b20b-4df3-8800-eff7270ed2c8",
+      "title": "A humanoid-robot house-cleaning service launches in San Francisco",
+      "summary": "MIT Technology Review's Grace Huckins booked a new San Francisco service that sends a humanoid robot to clean your apartment, and came away calling it a taste of the future for household robotics.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-06T11:06:10.376Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T11:06:10.376Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+          "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+          "publishedAt": "2026-11-06T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "84fad439-74cc-42f4-a461-3aa410f9f39c",
       "title": "Anthropic's compute economics worsen as cloud providers that now see it as a rival limit supply",
       "summary": "Anthropic is still struggling with the cost of compute heading into its planned November IPO.\n\n- TechCrunch reports that cloud providers, which increasingly see Anthropic as a competitor, are making it hard to secure enough compute as its infrastructure spending balloons\n- New: Anthropic's compute margins are getting worse just when they should be improving, per TechCrunch",
@@ -1614,6 +1633,27 @@
       ]
     },
     {
+      "id": "28471d90-09e6-4a16-8448-32274e6922f6",
+      "title": "Hugging Face's Open ASR Leaderboard adds Egyptian and Nigerian English",
+      "summary": "Hugging Face's Open ASR Leaderboard now benchmarks speech-recognition models on Egyptian and Nigerian English, adding two regional English varieties to its evaluation coverage.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-06T11:06:08.359Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T11:06:08.359Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+          "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "e2777696-3399-4d44-b659-f3529d951fa7",
       "title": "UK-backed Potential Sciences trains drug-discovery AI on simulated biochemical data instead of lab work",
       "summary": "Potential Sciences, a startup backed by the UK government, trains its AI models on computer-generated biochemical data instead of lab results. It is betting this can speed up the slow process of developing new drugs.",
@@ -1779,69 +1819,8 @@
       "tags": [
         "model-release"
       ]
-    },
-    {
-      "id": "072e3cf9-1c42-44ae-b07e-526341eeba9b",
-      "title": "Apple restricts dating apps and AI companions to users 18 and up",
-      "summary": "Apple's new App Store rules will require 18+ age ratings for dating apps and for AI companion apps that offer sexual or romantic content, per TechCrunch.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-03T16:06:09.450Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T16:06:09.450Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Apple restricts dating apps and AI companions to users 18 and up",
-          "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
-          "publishedAt": "2026-11-03T15:38:27.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Apple to Place Stricter Age Restrictions on Dating Apps and Some AI Chatbots",
-          "url": "https://gizmodo.com/apple-to-place-stricter-age-restrictions-on-dating-apps-and-some-ai-chatbots-2000834362",
-          "publishedAt": "2026-11-03T21:00:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "c97b765f-04ad-4e04-99a0-e9291b483749",
-      "title": "Elon Musk throttles Grok Bot usage limits, citing \"unsustainably high\" costs",
-      "summary": "Elon Musk is cutting Grok Bot usage limits, telling an unhappy customer that the persistent agent's costs have become \"unsustainably high.\" He had recently called Grok Bot \"the fastest growth of a product that I've ever seen in my life,\" per TechCrunch. Gizmodo notes the cutback comes days after Musk said AI makes saving money pointless.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-02T17:48:09.192Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T17:48:09.192Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
-          "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
-          "publishedAt": "2026-11-02T16:23:21.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Elon Musk Needs to Save Money on Grok, Days After Saying AI Makes Saving Money Pointless",
-          "url": "https://gizmodo.com/elon-musk-needs-to-save-money-on-grok-days-after-saying-ai-makes-saving-money-pointless-2000833812",
-          "publishedAt": "2026-11-02T16:40:14.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Elon Musk’s xAI Fights Surging GrokBot Maintenance Bills",
-          "url": "https://www.geeky-gadgets.com/elon-musk-grokbot-cost-problem/",
-          "publishedAt": "2026-11-05T13:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 123,
+  "totalCount": 125,
   "hasMore": true
 }
