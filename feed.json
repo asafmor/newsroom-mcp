@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T15:09:24.488Z",
+  "generatedAt": "2026-11-06T17:10:24.043Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -411,6 +411,27 @@
       ]
     },
     {
+      "id": "866b8474-e840-4c76-8403-ce51782ad2ba",
+      "title": "Ramp data shows business AI spending stalling even as usage climbs, just as Anthropic nears its IPO",
+      "summary": "Ramp data shows business AI usage still rising but AI spending flattening, as price cuts and tighter cost controls among the biggest spenders take hold — a trend TechCrunch says could challenge investor assumptions of AI hypergrowth ahead of Anthropic's IPO.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-06T17:10:12.277Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T17:10:12.277Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+          "publishedAt": "2026-11-06T15:54:47.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "f14492ff-a8b1-4a28-9332-ac44901fa78c",
       "title": "OpenAI introduces GPT-6 Cyber, a cybersecurity model trained to stay within authorized scope",
       "summary": "OpenAI introduced GPT-6 Cyber, a cybersecurity model built to find exploitable vulnerabilities and develop fixes, which it says is trained to stay within an engagement's authorized scope.",
@@ -453,6 +474,25 @@
           "title": "Tech Rout Wipes Out $2.5 Trillion, With AI Investors Anticipating Heavier Scrutiny From Dems",
           "url": "https://gizmodo.com/tech-rout-wipes-out-2-5-trillion-with-ai-investors-anticipating-heavier-scrutiny-2000835986",
           "publishedAt": "2026-11-05T23:44:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "cd023cd5-a88e-4d5f-822d-9fee278d640d",
+      "title": "Data brokers are buying companies' internal files and emails to sell as AI training data",
+      "summary": "Data brokers are collecting internal corporate files, including work documents and emails, to sell to AI companies for model training, WIRED's Steven Levy reports — a growing market that not everyone is comfortable with.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-06T17:10:14.076Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T17:10:14.076Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
+          "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+          "publishedAt": "2026-11-06T16:00:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -788,6 +828,13 @@
           "title": "DOJ Launches ‘Super Intelligence’ Task Force Because Apparently We’re Still Doing This",
           "url": "https://gizmodo.com/doj-launches-super-intelligence-task-force-because-apparently-were-still-doing-this-2000835957",
           "publishedAt": "2026-11-06T00:06:03.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "DOJ just launched something called the Super Intelligence Task Force",
+          "url": "https://www.engadget.com/2309257/doj-just-launched-something-called-the-super-intelligence-task-force/",
+          "publishedAt": "2026-11-06T16:56:52.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1767,48 +1814,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "43a1d9cb-1f95-439f-88d6-1a65cc0be6d3",
-      "title": "Ai2 introduces ToyBlocks, a controlled world for robot learning and evaluation",
-      "summary": "Allen AI (Ai2) introduced ToyBlocks on the Hugging Face blog, a controlled environment for training and evaluating robot learning. The feed included no further details.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-06T15:09:15.428Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T15:09:15.428Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-          "url": "https://huggingface.co/blog/allenai/toyblocks",
-          "publishedAt": "2026-11-06T14:00:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "a5e34e5b-4c99-4c83-bd88-9f05a0b612c5",
-      "title": "OpenAI presents \"The Ladder,\" a framework for moving from single agents to agent swarms",
-      "summary": "At an event in Tokyo, OpenAI presented \"The Ladder,\" a framework mapping the progression from isolated single-agent loops to coordinated multi-agent \"swarms\" working toward shared goals. The account comes secondhand, via commentator Ray Amjad.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-06T13:07:24.849Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T13:07:24.849Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI the Ladder Framework Replaces Single AI Agents with Swarms",
-          "url": "https://www.geeky-gadgets.com/openai-multi-agent-systems/",
-          "publishedAt": "2026-11-06T12:43:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 129,
+  "totalCount": 128,
   "hasMore": true
 }
