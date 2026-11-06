@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T22:56:23.576Z",
+  "generatedAt": "2026-11-06T00:57:40.731Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -338,6 +338,13 @@
           "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
           "publishedAt": "2026-11-05T19:48:28.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "I Used Muse to Plan My Wife’s Birthday Weekend. It Did Something Sneaky but Fixed It Fast",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-plan-birthday-weekend-rounding-errors/",
+          "publishedAt": "2026-11-05T20:56:33.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -431,6 +438,25 @@
         "model-release",
         "safety"
       ]
+    },
+    {
+      "id": "8317a339-9709-402c-afb1-abf587527b55",
+      "title": "Tech rout wipes out $2.5 trillion as AI investors brace for scrutiny from incoming Democrats",
+      "summary": "Tech stocks plunged, erasing about $2.5 trillion in value, on fears that incoming Democrats will end the Trump era of laissez-faire regulation and backdoor deals that AI companies have benefited from, Gizmodo reports.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-06T00:57:33.432Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T00:57:33.432Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Tech Rout Wipes Out $2.5 Trillion, With AI Investors Anticipating Heavier Scrutiny From Dems",
+          "url": "https://gizmodo.com/tech-rout-wipes-out-2-5-trillion-with-ai-investors-anticipating-heavier-scrutiny-2000835986",
+          "publishedAt": "2026-11-05T23:44:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "8c434be0-633e-4482-8913-15416883f869",
@@ -682,6 +708,48 @@
       ],
       "tags": [
         "infrastructure",
+        "regulation"
+      ]
+    },
+    {
+      "id": "8e38495e-efc9-4f95-9e3c-8ed96c987f00",
+      "title": "Lawsuit claims a student's Gemini use on a school Chromebook became a \"life-threatening obsession\"",
+      "summary": "Parents have sued Google, claiming their child's use of Gemini turned into a \"life-threatening obsession,\" Gizmodo reports. They say the student's only access to Gemini was through a school-issued Chromebook.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-06T00:57:31.032Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T00:57:31.032Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Lawsuit Claims Student’s Google AI Use Turned Into ‘Life-Threatening Obsession’",
+          "url": "https://gizmodo.com/lawsuit-claims-students-google-ai-use-turned-into-life-threatening-obsession-2000835894",
+          "publishedAt": "2026-11-05T23:59:11.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "1a68b1f0-2bdb-41b1-b42b-0b135ca73e40",
+      "title": "DOJ launches a \"superintelligence\" task force",
+      "summary": "The US Department of Justice has launched a task force focused on \"super intelligence,\" Gizmodo reports, in a skeptical take that questions whether tech leaders will keep pushing the superintelligence framing.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-06T00:57:28.779Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T00:57:28.779Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "DOJ Launches ‘Super Intelligence’ Task Force Because Apparently We’re Still Doing This",
+          "url": "https://gizmodo.com/doj-launches-super-intelligence-task-force-because-apparently-were-still-doing-this-2000835957",
+          "publishedAt": "2026-11-06T00:06:03.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "regulation"
       ]
     },
@@ -1446,6 +1514,27 @@
       "tags": []
     },
     {
+      "id": "d54558ec-452e-4563-a7f9-c7e7ce4885c2",
+      "title": "Cursor adds the ability to build live apps",
+      "summary": "Cursor's changelog announces \"Build Live Apps in Cursor.\" The source feed carried only the entry's title, so details on how live apps work aren't available yet.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-06T00:57:26.630Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T00:57:26.630Z",
+      "sources": [
+        {
+          "providerName": "Cursor Blog",
+          "title": "Build Live Apps in Cursor",
+          "url": "https://cursor.com/changelog/build-live-apps",
+          "publishedAt": "2026-11-05T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "de406d57-7c19-4a7f-9aea-3c31fa30bd56",
       "title": "Netflix launches AI Discover, an AI-powered search that finds titles by mood",
       "summary": "After testing it last year, Netflix is rolling out AI Discover, a new tab in its TV app where viewers describe what they're in the mood for, starting from themes like \"Something Light\" or \"Scare Me,\" and get matching titles.",
@@ -1737,97 +1826,8 @@
         "model-release",
         "open-source"
       ]
-    },
-    {
-      "id": "8c315b6f-c3b4-461d-a238-8f2d15a27da7",
-      "title": "OpenAI merges ChatGPT's chat and Work tabs, pooling ChatGPT and Codex usage",
-      "summary": "OpenAI is combining ChatGPT's separate chat and Work tabs into one experience, and says ChatGPT and Codex will draw from the same usage allocation pool after the change.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-02T15:46:30.859Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T15:46:30.859Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI is finally merging ChatGPT’s chat and Work tabs",
-          "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-          "publishedAt": "2026-11-02T13:57:53.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "48efb39e-6dcd-4569-9963-a597ac9711ee",
-      "title": "AI data centers turn to old jet engines for power as grid and turbine waits stretch for years",
-      "summary": "With years-long waits for grid access and new turbines, data center builders are turning to once-discarded jet engines for power, a less efficient and less environmentally friendly stopgap, TechCrunch reports.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-04T00:14:31.497Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T00:14:31.497Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Data centers are turning to old jet engines as the wait for power grows",
-          "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
-          "publishedAt": "2026-11-03T22:19:53.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "44f81307-c535-4731-8cfd-0e858536f41f",
-      "title": "Grimes appears in a popular YouTuber's AI-made movie, blurring what's real",
-      "summary": "A popular YouTuber's new AI movie features Grimes, though it's unclear how much of her performance is real, as creators keep pushing to make AI-generated films a thing.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-11-05T22:56:16.539Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T22:56:16.539Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Grimes Shows Off Her Acting Chops in New AI Movie. Or Does She?",
-          "url": "https://gizmodo.com/grimes-shows-off-her-acting-chops-in-new-ai-movie-or-does-she-2000835869",
-          "publishedAt": "2026-11-05T21:50:08.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "1f523e61-dc11-43bf-8f2e-21801b07f2b7",
-      "title": "DeepSeek launches Super-Agent, a proactive coding agent to rival Claude Code",
-      "summary": "DeepSeek released Super-Agent, a coding agent pitched against Anthropic's Claude Code. Unlike a prompt-driven chatbot, it works on its own: it monitors developers' group chats, spots coding problems, and suggests fixes without being asked.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-02T09:42:12.680Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T09:42:12.680Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "DeepSeek Super-Agent AI Arrives to Compete With Anthropic’s Claude Code: Details Inside",
-          "url": "https://in.mashable.com/tech/115663/deepseek-super-agent-ai-arrives-to-compete-with-anthropics-claude-code-details-inside",
-          "publishedAt": "2026-11-02T09:15:40.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "DeepSeek Super Agent Prototype Automates GitHub Pull Requests",
-          "url": "https://www.geeky-gadgets.com/deepseek-super-agent-prototype/",
-          "publishedAt": "2026-11-04T10:51:33.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 121,
   "hasMore": true
 }
