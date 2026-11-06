@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T05:00:56.596Z",
+  "generatedAt": "2026-11-06T07:02:12.944Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -754,6 +754,28 @@
       ]
     },
     {
+      "id": "341c66c0-23b1-4584-b88b-b72a6765d779",
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "summary": "Palo Alto Networks is in talks to acquire Clutch, a startup focused on securing AI agents, for about $500 million. Clutch is backed by Lightspeed and SignalFire and was last valued at $85 million, according to a source.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-06T07:02:05.288Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T07:02:05.288Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+          "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+          "publishedAt": "2026-11-06T06:28:32.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption",
+        "safety"
+      ]
+    },
+    {
       "id": "53aaeb62-0766-4d60-a422-a811d4089ad9",
       "title": "Claude adds a Personal Finance tool that analyzes spending from linked bank and card accounts",
       "summary": "Anthropic launched Personal Finance in Claude, letting users connect their bank and card accounts through Plaid and ask questions about their spending and finances. Engadget notes it follows a similar move by ChatGPT and questions whether users should hand their finances to a chatbot.",
@@ -873,6 +895,13 @@
           "url": "https://in.mashable.com/tech/115773/chatgpt-now-lets-you-generate-gifs",
           "publishedAt": "2026-11-05T02:21:10.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "How to Turn Your Photos, Sketches and Ideas Into Animated GIFs Using ChatGPT: Prompts Inside",
+          "url": "https://in.mashable.com/tech/115835/how-to-turn-your-photos-sketches-and-ideas-into-animated-gifs-using-chatgpt-prompts-inside",
+          "publishedAt": "2026-11-06T05:40:32.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1804,28 +1833,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "439d73cd-e42b-4ae3-88b6-fed1b90359ca",
-      "title": "Nvidia releases Dory, a 4B-parameter looped transformer, under the Open MDW license",
-      "summary": "Nvidia's Nemotron team released Dory, a 4-billion-parameter looped transformer under the Open MDW license. Its layers are split into input, recurrent and output blocks, and the recurrent block loops to refine its output step by step. Nvidia pitches the design as a way to scale more efficiently and use less memory.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-03T14:04:18.795Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T14:04:18.795Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "NVIDIA Releases 4-Billion-Parameter Dory Under Open MDW",
-          "url": "https://www.geeky-gadgets.com/nvidia-dory-looped-transformer/",
-          "publishedAt": "2026-11-03T12:43:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
     }
   ],
   "totalCount": 123,
