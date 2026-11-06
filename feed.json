@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T13:07:46.408Z",
+  "generatedAt": "2026-11-06T15:09:24.488Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
@@ -712,6 +712,27 @@
       ]
     },
     {
+      "id": "5868eb06-fd69-4f60-8975-c985e94d7096",
+      "title": "Amazon lets users text Alexa to help them shop, after blocking Meta's Muse",
+      "summary": "Amazon now lets users text Alexa for shopping help, with the feature rolling out to millions of users in the coming weeks, TechCrunch reports. It arrives after Amazon blocked Meta's Muse agent from shopping on Amazon.com.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-06T15:09:11.188Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T15:09:11.188Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+          "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+          "publishedAt": "2026-11-06T14:10:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "a946102b-b0be-4612-a7bd-2a01a64c2cee",
       "title": "Perplexity launches \"teammates,\" personal AI agents for ongoing work tasks",
       "summary": "Perplexity launched \"teammates,\" personal AI agents meant to take on ongoing daily work tasks on a user's behalf.",
@@ -935,6 +956,27 @@
       "tags": [
         "model-release",
         "product-launch"
+      ]
+    },
+    {
+      "id": "9deb0efb-a300-4fec-9520-dfdc40786507",
+      "title": "Google researchers propose a \"sleep\" framework to stop LLMs forgetting facts",
+      "summary": "Google researchers proposed a neuroscience-inspired \"sleep\" framework that alternates wake and sleep phases to help LLMs retain facts, aimed at catastrophic forgetting, where new learning overwrites what a model already knew, per Geeky Gadgets.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-06T15:09:13.588Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T15:09:13.588Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Researchers Propose Sleep Framework to Retain LLM Facts",
+          "url": "https://www.geeky-gadgets.com/llm-sleep-framework-research/",
+          "publishedAt": "2026-11-06T14:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -1727,6 +1769,27 @@
       ]
     },
     {
+      "id": "43a1d9cb-1f95-439f-88d6-1a65cc0be6d3",
+      "title": "Ai2 introduces ToyBlocks, a controlled world for robot learning and evaluation",
+      "summary": "Allen AI (Ai2) introduced ToyBlocks on the Hugging Face blog, a controlled environment for training and evaluating robot learning. The feed included no further details.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-06T15:09:15.428Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T15:09:15.428Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+          "url": "https://huggingface.co/blog/allenai/toyblocks",
+          "publishedAt": "2026-11-06T14:00:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "a5e34e5b-4c99-4c83-bd88-9f05a0b612c5",
       "title": "OpenAI presents \"The Ladder,\" a framework for moving from single agents to agent swarms",
       "summary": "At an event in Tokyo, OpenAI presented \"The Ladder,\" a framework mapping the progression from isolated single-agent loops to coordinated multi-agent \"swarms\" working toward shared goals. The account comes secondhand, via commentator Ray Amjad.",
@@ -1744,76 +1807,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "28471d90-09e6-4a16-8448-32274e6922f6",
-      "title": "Hugging Face's Open ASR Leaderboard adds Egyptian and Nigerian English",
-      "summary": "Hugging Face's Open ASR Leaderboard now benchmarks speech-recognition models on Egyptian and Nigerian English, adding two regional English varieties to its evaluation coverage.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-06T11:06:08.359Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T11:06:08.359Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-          "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-          "publishedAt": "2026-11-06T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "e2777696-3399-4d44-b659-f3529d951fa7",
-      "title": "UK-backed Potential Sciences trains drug-discovery AI on simulated biochemical data instead of lab work",
-      "summary": "Potential Sciences, a startup backed by the UK government, trains its AI models on computer-generated biochemical data instead of lab results. It is betting this can speed up the slow process of developing new drugs.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-05T14:49:33.827Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T14:49:33.827Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Finding New Drugs Is Laborious. This AI Startup Is Skipping The Lab Work",
-          "url": "https://www.wired.com/story/finding-new-drugs-is-laborious-this-ai-startup-is-skipping-the-lab-work/",
-          "publishedAt": "2026-11-05T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "e343cea4-9091-40a7-9adc-36748460fe7b",
-      "title": "Aina unveils a smart ring with a screen, joystick and mic for controlling AI agents",
-      "summary": "Startup Aina is betting people won't need their phones to direct AI agents. Its smart ring has a small screen, a joystick and a microphone, so you can talk to agents and approve their actions with one tap. It can also take calls and dictate notes on a Mac.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-05T14:49:27.328Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T14:49:27.328Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Aina’s smart ring has a screen, a joystick and a mic so you can talk to AI agents",
-          "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
-          "publishedAt": "2026-11-05T14:42:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Exclusive: Aina’s Smart Ring Wants to Be a Remote Control for Your AI Agent",
-          "url": "https://www.wired.com/story/aina-smart-ring/",
-          "publishedAt": "2026-11-05T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
   "totalCount": 129,
