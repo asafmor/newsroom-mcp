@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-06T17:10:24.043Z",
+  "generatedAt": "2026-11-06T19:11:53.762Z",
   "stories": [
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta's Muse adds avatar video chat for US users as it passes 10M users amid mounting controversies",
-      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps adding features and users even as privacy, security, content, and labor controversies mount.\n\n- New: US users can now video chat with Muse as a customizable animated avatar, ahead of a Tamagotchi-like wearable meant to bring Muse to life (TechCrunch)\n- Meta said on its Q3 earnings call that Muse has over 10 million users; Zuckerberg said a quarter of them shop through the agent, spending about $200 per purchase on average\n- Muse hit 10 million US downloads in its first 40 days, a milestone only 11 other apps have reached, and keeps users better than rival AI apps\n- Meta suspended Muse's conversation sharing after researchers showed shared links exposed sensitive personal and business data\n- Other controversies: OnlyFans creators object to Muse's sexual chat, a since-fixed Mac 0-day, and a contractor \"human concierge\" reportedly making racist remarks on calls\n- Amazon has blocked Muse from shopping on Amazon.com; Meta admits it was \"heavily inspired\" by OpenClaw",
+      "title": "Meta's Muse adds Spaces and avatar video chat as it passes 10M users amid mounting controversies",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps adding features and users even as privacy, security, content, and labor controversies mount.\n\n- New: Spaces, a new way to collaborate with your Muse agent, follows avatar video chat for US users and a planned Tamagotchi-like Muse wearable (TechCrunch)\n- Meta said on its Q3 earnings call that Muse has over 10 million users; Zuckerberg said a quarter of them shop through the agent, spending about $200 per purchase on average\n- Muse hit 10 million US downloads in its first 40 days, a milestone only 11 other apps have reached, and keeps users better than rival AI apps\n- Meta suspended Muse's conversation sharing after researchers showed shared links exposed sensitive personal and business data\n- Other controversies: OnlyFans creators object to Muse's sexual chat, a since-fixed Mac 0-day, and a contractor \"human concierge\" reportedly making racist remarks on calls\n- Amazon has blocked Muse from shopping on Amazon.com; Meta admits it was \"heavily inspired\" by OpenClaw",
       "importanceScore": 0.85,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T20:54:28.861Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T19:11:28.881Z",
       "sources": [
         {
           "providerName": "VentureBeat",
@@ -345,6 +345,13 @@
           "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-plan-birthday-weekend-rounding-errors/",
           "publishedAt": "2026-11-05T20:56:33.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+          "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+          "publishedAt": "2026-11-06T18:44:20.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -408,6 +415,28 @@
       "tags": [
         "funding",
         "safety"
+      ]
+    },
+    {
+      "id": "4127c41a-d561-4f62-8fdc-9d12aca6473c",
+      "title": "Free Chinese models DeepSeek and GLM come close to OpenAI's top cyber model at hacking simulated networks",
+      "summary": "In an experiment asking AI models to break into simulated networks, the freely available Chinese models DeepSeek and GLM performed not far behind OpenAI's most advanced cyber model, which isn't public, Wired reports.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-06T19:11:38.079Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T19:11:38.079Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+          "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
+          "publishedAt": "2026-11-06T18:43:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "research"
       ]
     },
     {
@@ -478,6 +507,48 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "19705118-9d06-4461-9d29-3056bbc8fa91",
+      "title": "More than 100 protesters storm a Microsoft data center site in Amsterdam as Europe-wide protests target data center growth",
+      "summary": "More than 100 protesters stormed a Microsoft data center site in Amsterdam, one of several demonstrations planned across Europe this weekend against the rapid expansion of data centers, Gizmodo reports.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-11-06T19:11:42.368Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T19:11:42.368Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "More Than 100 Protesters Storm a Microsoft Data Center Site in Amsterdam",
+          "url": "https://gizmodo.com/more-than-100-protesters-storm-a-microsoft-data-center-site-in-amsterdam-2000836356",
+          "publishedAt": "2026-11-06T19:00:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "459a194b-eff8-4fb4-b635-c6fb269a8e8d",
+      "title": "Hundreds of servers running the Artex AI hacking tool found exposed to the open web",
+      "summary": "Security researchers found hundreds of internet-exposed servers hosting Artex, an AI penetration-testing tool, letting anyone access and use the hacking tool, TechCrunch reports.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-06T19:11:35.683Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T19:11:35.683Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+          "publishedAt": "2026-11-06T18:44:38.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
     },
     {
       "id": "cd023cd5-a88e-4d5f-822d-9fee278d640d",
@@ -744,6 +815,27 @@
           "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
           "publishedAt": "2026-11-05T19:12:39.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "How a Blue Wave midterm might reshape the AI industry",
+          "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+          "publishedAt": "2026-11-06T18:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "After the midterms, is the AI industry in for a rough two years?",
+          "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+          "publishedAt": "2026-11-06T17:23:52.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Will Democrats Rein in Big Tech? It Starts With Privacy and Data Centers",
+          "url": "https://www.cnet.com/tech/services-and-software/midterm-election-2026-democrats-rein-in-big-tech-reaction/",
+          "publishedAt": "2026-11-06T15:57:34.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -840,6 +932,27 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "f7ecd722-d41c-46f6-a3b5-23124feaccd0",
+      "title": "OpenAI partners with Hacktron to find vulnerabilities in its own systems",
+      "summary": "OpenAI is partnering with security firm Hacktron to find vulnerabilities in its systems, test connections with third-party services, and strengthen its defenses using frontier AI.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-06T19:11:40.180Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T19:11:40.180Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "url": "https://openai.com/index/partnering-with-hacktron",
+          "publishedAt": "2026-11-06T08:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -1724,98 +1837,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "48927e69-2b70-4ae9-bbf8-c02a8299c629",
-      "title": "OpenAI rumored to release GPT-6.2 Sol and Astra models on Friday",
-      "summary": "Unconfirmed reports say OpenAI's next models, GPT-6.2 Sol and Astra, could arrive as soon as Friday.\n\n- GPT-6.2 Sol is said to focus on balancing cost-efficiency with strong performance, aimed at both budget-conscious startups and large enterprises\n- Earlier rumors of a \"GPT-Next\" model pointed to speed and cost gains over GPT-6.1 Sol, in line with a reported 28-day improvement cycle\n- The claims are attributed to Universe of AI and World of AI via Geeky Gadgets; OpenAI has not confirmed them",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-08T08:29:04.503Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T10:45:56.951Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Rumored ChatGPT Next AI Model Could Beat GPT-6.1 Sol on Generation Times",
-          "url": "https://www.geeky-gadgets.com/openai-gpt-next-leak-news/",
-          "publishedAt": "2026-10-08T07:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI May Release ChatGPT 6.2 Sol and Astra Models on Friday",
-          "url": "https://www.geeky-gadgets.com/chatgpt-sol-6/",
-          "publishedAt": "2026-11-05T09:17:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "d54558ec-452e-4563-a7f9-c7e7ce4885c2",
-      "title": "Cursor adds the ability to build live apps",
-      "summary": "Cursor's changelog announces \"Build Live Apps in Cursor.\" The source feed carried only the entry's title, so details on how live apps work aren't available yet.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-06T00:57:26.630Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T00:57:26.630Z",
-      "sources": [
-        {
-          "providerName": "Cursor Blog",
-          "title": "Build Live Apps in Cursor",
-          "url": "https://cursor.com/changelog/build-live-apps",
-          "publishedAt": "2026-11-05T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "de406d57-7c19-4a7f-9aea-3c31fa30bd56",
-      "title": "Netflix launches AI Discover, an AI-powered search that finds titles by mood",
-      "summary": "After testing it last year, Netflix is rolling out AI Discover, a new tab in its TV app where viewers describe what they're in the mood for, starting from themes like \"Something Light\" or \"Scare Me,\" and get matching titles.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-05T06:41:15.012Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T06:41:15.012Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "Netflix's AI-Powered Search Lets You Search By Your Mood",
-          "url": "https://in.mashable.com/tech/115781/netflixs-ai-powered-search-lets-you-search-by-your-mood",
-          "publishedAt": "2026-11-04T15:43:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "c24213ba-43ce-4126-a735-2b6556173617",
-      "title": "OpenAI's Daybreak Red brings GPT-5.6 Cyber to AWS GovCloud via Amazon Bedrock",
-      "summary": "OpenAI made Daybreak Red available in AWS GovCloud (US-East) through Amazon Bedrock, giving approved customers access to GPT-5.6 Cyber for authorized cybersecurity work.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-04T16:28:03.510Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T16:28:03.510Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-          "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-          "publishedAt": "2026-11-04T07:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 128,
+  "totalCount": 130,
   "hasMore": true
 }
