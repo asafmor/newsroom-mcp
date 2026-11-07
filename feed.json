@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T01:16:01.274Z",
+  "generatedAt": "2026-11-07T03:17:23.032Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -425,6 +425,39 @@
       ]
     },
     {
+      "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
+      "title": "Chinese spy who targeted Nvidia CEO Jensen Huang worked directly for China's top spy agency, NYT reports",
+      "summary": "US authorities investigated a suspected Chinese spy plot aimed at Nvidia CEO Jensen Huang, according to the New York Times.\n\n- The woman who sought out a close relationship with Huang was a recruit of China's Ministry of State Security, the NYT now reports\n- The suspect is a top executive at a Singapore AI cloud company already accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-29T16:29:51.111Z",
+      "lastMeaningfulUpdateAt": "2026-11-07T03:17:11.261Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Intel Community Reportedly Tied Trump’s Favorite AI Boss to a Chinese Spy",
+          "url": "https://gizmodo.com/nvidia-ceo-jensen-huang-tied-to-chinese-spy-trump-2000832476",
+          "publishedAt": "2026-10-29T16:20:17.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+          "publishedAt": "2026-10-29T16:42:32.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Chinese Spy Who Targeted Jensen Huang Worked Directly for China’s Top Spy Agency: Report",
+          "url": "https://gizmodo.com/chinese-spy-who-targeted-jensen-huang-worked-directly-for-chinas-top-spy-agency-report-2000836560",
+          "publishedAt": "2026-11-07T02:40:47.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "4127c41a-d561-4f62-8fdc-9d12aca6473c",
       "title": "Free Chinese models DeepSeek and GLM come close to OpenAI's top cyber model at hacking simulated networks",
       "summary": "In an experiment asking AI models to break into simulated networks, the freely available Chinese models DeepSeek and GLM performed not far behind OpenAI's most advanced cyber model, which isn't public, Wired reports.",
@@ -542,6 +575,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "c8ebbfe5-17c4-450f-bc1b-d076a4ebc63e",
+      "title": "Crusoe sells its troubled Wyoming data center project to Google",
+      "summary": "Crusoe has sold its troubled Wyoming data center project to Google, TechCrunch reports, a deal that highlights the difficulty of developing massive AI data centers.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-07T03:17:13.016Z",
+      "lastMeaningfulUpdateAt": "2026-11-07T03:17:13.016Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Crusoe sells troubled Wyoming data center project to Google",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+          "publishedAt": "2026-11-07T01:40:28.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
     },
     {
       "id": "19705118-9d06-4461-9d29-3056bbc8fa91",
@@ -1804,56 +1858,8 @@
         "model-release",
         "open-source"
       ]
-    },
-    {
-      "id": "07204374-e32c-4a91-a147-7800ee9a5e15",
-      "title": "AI inference startup Fal doubles its valuation to $16B with a $1.3B round led by Bessemer",
-      "summary": "Fal, a five-year-old AI inference startup, raised $1.3 billion in a round led by Bessemer Venture Partners. The deal doubles its valuation to $16 billion as demand for inference capacity surges.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-03T20:10:22.867Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T20:10:22.867Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
-          "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
-          "publishedAt": "2026-11-03T19:34:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "a347a876-a6b2-4a2b-afca-f60c0cf1c3f1",
-      "title": "Leaks detail Samsung's display-less AI smart glasses, now pointing to a mid-December launch",
-      "summary": "Leaks shared by TechAvid describe Samsung's upcoming AI smart glasses, positioned against Meta's Ray-Bans.\n\n- No built-in display; focused on media capture, audio playback and AI-driven interactions\n- Reportedly 64GB of storage and Qualcomm's Snapdragon AR1 Gen1 platform\n- A newer leaked timeline points to a mid-December 2026 launch in the US and South Korea, later than the earlier November report",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-10-15T10:16:05.759Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T14:49:35.915Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Leaked Samsung Smart Glasses Beat Meta Ray-Ban with 64GB",
-          "url": "https://www.geeky-gadgets.com/samsung-smart-glasses-leak/",
-          "publishedAt": "2026-10-15T08:43:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Leaked Timeline Points to Mid-December 2026 for Samsung AI Glasses",
-          "url": "https://www.geeky-gadgets.com/samsung-smart-glasses-release-date-leak/",
-          "publishedAt": "2026-11-05T13:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 127,
+  "totalCount": 128,
   "hasMore": true
 }
