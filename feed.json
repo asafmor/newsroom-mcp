@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T09:19:58.856Z",
+  "generatedAt": "2026-11-07T11:21:22.580Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -1137,6 +1137,39 @@
       ]
     },
     {
+      "id": "48927e69-2b70-4ae9-bbf8-c02a8299c629",
+      "title": "OpenAI rumored to release GPT-6.2 Sol and Astra, reportedly built on a 10-trillion-parameter \"Bell\" model",
+      "summary": "Unconfirmed reports say OpenAI's next models, GPT-6.2 Sol and Astra, could arrive as soon as Friday.\n\n- A leaked \"Bell\" model with over 10 trillion parameters is rumored to underpin GPT-6.2, per AI Grid via Geeky Gadgets\n- GPT-6.2 Sol is said to focus on balancing cost-efficiency with strong performance, aimed at both budget-conscious startups and large enterprises\n- Earlier rumors of a \"GPT-Next\" model pointed to speed and cost gains over GPT-6.1 Sol, in line with a reported 28-day improvement cycle\n- The claims come from YouTube channels (Universe of AI, World of AI, AI Grid) via Geeky Gadgets; OpenAI has not confirmed them",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-08T08:29:04.503Z",
+      "lastMeaningfulUpdateAt": "2026-11-07T11:21:09.131Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Rumored ChatGPT Next AI Model Could Beat GPT-6.1 Sol on Generation Times",
+          "url": "https://www.geeky-gadgets.com/openai-gpt-next-leak-news/",
+          "publishedAt": "2026-10-08T07:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI May Release ChatGPT 6.2 Sol and Astra Models on Friday",
+          "url": "https://www.geeky-gadgets.com/chatgpt-sol-6/",
+          "publishedAt": "2026-11-05T09:17:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Leaked Bell Model May Equip ChatGPT 6.2 with 10 Trillion Parameters",
+          "url": "https://www.geeky-gadgets.com/openai-gpt-6-2-rumors/",
+          "publishedAt": "2026-11-07T11:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "4295043e-928b-4629-a8e9-5356905d8314",
       "title": "Cloudflare gives site owners visibility and control over personal AI agent traffic",
       "summary": "Cloudflare is adding tools that let site owners see personal AI agents visiting their sites and set terms for their access, arguing these agents have blurred the line between automated and human traffic. In a follow-up post, it lays out the problem of intermediaries hiding the users agents act for and proposes a collaborative \"trusted agent delegation\" approach to safely identifying, allowing, and managing that traffic.",
@@ -1836,37 +1869,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "5ed26b7a-27cf-43a7-b087-4b9d52c20e41",
-      "title": "Reflection AI releases Beam under Apache 2.0, but independent benchmarks show its limits",
-      "summary": "Nvidia-backed Reflection AI's Beam, its first open-weight model, is now released under the Apache 2.0 license.\n\n- Reflection pitched Beam as rivaling GLM-5.2 on reasoning while using far less inference compute\n- The license allows unrestricted commercial use, and Beam's token efficiency can cut inference bills\n- Beam scored only 18 on Artificial Analysis's Intelligence Index, a sign of significant limitations, per Geeky Gadgets",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-05T19:54:10.395Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T12:02:51.182Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
-          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-          "publishedAt": "2026-10-05T19:33:53.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Generating Fewer Tokens Helps Beam Cut AI Inference Bills",
-          "url": "https://www.geeky-gadgets.com/reflection-beam-model-review/",
-          "publishedAt": "2026-11-03T11:45:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 127,
+  "totalCount": 125,
   "hasMore": true
 }
