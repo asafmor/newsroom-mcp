@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T17:24:00.135Z",
+  "generatedAt": "2026-11-07T19:25:15.248Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -463,6 +463,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "9f6d4470-9b2a-4438-a7bc-ed842ed1a9ca",
+      "title": "DOJ says deepfaked CEOs and lawyers helped steal $129 million from hospitals, banks, and others",
+      "summary": "The US Justice Department says a fraud ring used deepfaked CEOs and lawyers to steal $129 million from victims including hospitals and banks, per Gizmodo. One of the accused allegedly bragged about laundering more than $400 million over the past three years.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-07T19:25:06.182Z",
+      "lastMeaningfulUpdateAt": "2026-11-07T19:25:06.182Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "DOJ Says Deepfaked CEOs and Lawyers Helped Steal $129 Million From Hospitals, Banks, and Others",
+          "url": "https://gizmodo.com/doj-says-deepfaked-ceos-and-lawyers-helped-steal-129-million-from-hospitals-banks-and-others-2000836456",
+          "publishedAt": "2026-11-07T18:43:19.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
     },
     {
       "id": "4127c41a-d561-4f62-8fdc-9d12aca6473c",
@@ -1276,6 +1297,25 @@
       ]
     },
     {
+      "id": "0c8b59b7-522f-4a5a-991f-aacf8a8b4aef",
+      "title": "SpaceXAI's Grok can now be set up inside Google Workspace",
+      "summary": "Engadget published a guide to adding SpaceXAI's Grok to Google Workspace. It says setup is easy, but admins should weigh a few considerations before rolling it out to their organization.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-07T19:25:07.868Z",
+      "lastMeaningfulUpdateAt": "2026-11-07T19:25:07.868Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "How to set up SpaceXAI's Grok in Google Workspace (and what it can do)",
+          "url": "https://www.engadget.com/2309543/how-to-set-up-use-spacexai-grok-in-google-workspace/",
+          "publishedAt": "2026-11-07T19:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "9037e4e3-dede-4742-a8e6-93cb038632bc",
       "title": "Agility Robotics debuts on Nasdaq as the first publicly traded pure-play humanoid robot company",
       "summary": "Agility, maker of humanoid robots, began trading on the Nasdaq today, becoming the first publicly traded pure-play humanoid robotics company and giving public investors their first direct bet on the category, per TechCrunch.",
@@ -1836,48 +1876,8 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "66d6cca2-06f8-4be5-a99f-8f98b4ed833e",
-      "title": "Underdog demos a 32MB on-device model that generates both speech and music",
-      "summary": "Local-AI startup Underdog showed off a new 32MB model in a demo. Despite its tiny size, the model can generate both speech and music.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-06T13:07:18.347Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T13:07:18.347Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Underdog shows off a 32MB speech model in new demo",
-          "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
-          "publishedAt": "2026-11-06T13:02:16.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "c8295cc9-1724-4089-aede-2ca17948e026",
-      "title": "Anthropic gives security teams more visibility and control over Claude Enterprise",
-      "summary": "Anthropic announced updates giving security teams more visibility into and control over how Claude Enterprise is used across their organizations.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-05T20:54:39.881Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T20:54:39.881Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "More visibility and control over Claude Enterprise for security teams",
-          "url": "https://claude.com/resources/articles/claude-enterprise-security-updates",
-          "publishedAt": "2026-11-05T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 125,
+  "totalCount": 127,
   "hasMore": true
 }
