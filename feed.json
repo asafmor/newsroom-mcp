@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T13:34:28.198Z",
+  "generatedAt": "2026-11-08T15:36:11.705Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -1066,6 +1066,25 @@
       ]
     },
     {
+      "id": "25134bb3-e8a7-4ee3-93e2-425a8807d77f",
+      "title": "AI tools are hollowing out the video game decompilation community",
+      "summary": "Engadget reports that game decompilation communities, which for years thrived on the challenge of reverse engineering video games down to their source code and adapting them, are losing their appeal now that AI tools can do much of that work, taking away the fun.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-08T15:36:05.400Z",
+      "lastMeaningfulUpdateAt": "2026-11-08T15:36:05.400Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "The game reverse engineering community is the latest casualty of AI",
+          "url": "https://www.engadget.com/2307604/game-reverse-engineering-community-latest-ai-casualty/",
+          "publishedAt": "2026-11-08T14:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "ad458716-1f53-468d-82f5-b87770ba0322",
       "title": "Google trims Gemini's free plan to a single model, Flashlight",
       "summary": "Since October 9, Gemini's free plan offers just one model, Flashlight, a small, fast model, Geeky Gadgets reports citing AI Master. The change simplifies the free experience but limits free users on complex or extended tasks.",
@@ -1873,29 +1892,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "7696b2fb-f48c-41f7-bd3f-52bd2821496f",
-      "title": "OpenAI touts a cyber workflow that burns $1.2M in tokens per run, saying it's cheaper than bug bounties",
-      "summary": "OpenAI is promoting an AI cybersecurity workflow that uses about $1.2 million worth of tokens in a single run, arguing it would still save money compared with paying out bug bounties.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-05T10:45:55.273Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T10:45:55.273Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Touts Cyber Workflow Worth $1.2 Million in Tokens for a Single Run",
-          "url": "https://gizmodo.com/openai-touts-cyber-workflow-worth-1-2-million-in-tokens-for-a-single-run-2000835405",
-          "publishedAt": "2026-11-05T10:00:39.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 127,
+  "totalCount": 128,
   "hasMore": true
 }
