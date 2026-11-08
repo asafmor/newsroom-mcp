@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-08T19:38:22.100Z",
+  "generatedAt": "2026-11-08T21:39:15.169Z",
   "stories": [
+    {
+      "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
+      "title": "Nvidia investigates CEO Jensen Huang's relationship with a suspected Chinese spy",
+      "summary": "Nvidia says it is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot. In a company memo, Huang admitted he had an affair.\n\n- The woman was a recruit of China's Ministry of State Security, the NYT reports\n- She is a top executive at a Singapore AI cloud company already accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-29T16:29:51.111Z",
+      "lastMeaningfulUpdateAt": "2026-11-08T21:39:01.418Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Intel Community Reportedly Tied Trump’s Favorite AI Boss to a Chinese Spy",
+          "url": "https://gizmodo.com/nvidia-ceo-jensen-huang-tied-to-chinese-spy-trump-2000832476",
+          "publishedAt": "2026-10-29T16:20:17.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+          "publishedAt": "2026-10-29T16:42:32.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Chinese Spy Who Targeted Jensen Huang Worked Directly for China’s Top Spy Agency: Report",
+          "url": "https://gizmodo.com/chinese-spy-who-targeted-jensen-huang-worked-directly-for-chinas-top-spy-agency-report-2000836560",
+          "publishedAt": "2026-11-07T02:40:47.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "China's main intelligence agency reportedly recruited the spy who targeted NVIDIA's CEO",
+          "url": "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo/",
+          "publishedAt": "2026-11-07T14:00:06.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "publishedAt": "2026-11-07T21:17:08.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+          "publishedAt": "2026-11-08T21:00:11.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "6b2a28ef-9001-4be0-802d-c4b5c07ec0ee",
+      "title": "Music rights holders pile on copyright suits against Suno and Anthropic",
+      "summary": "AI music generator Suno and Anthropic face a growing wave of copyright lawsuits over training on music and lyrics.\n\n- Suno and Anthropic were sued over songs by Madonna, Johnny Cash, and Joni Mitchell, CNET reports\n- Elvis Presley's estate filed its own copyright suit against Anthropic days earlier\n- New: the groups that own the rights to Elvis Presley's and Eminem's tracks filed fresh lawsuits against Suno, Engadget reports",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-28T01:59:13.360Z",
+      "lastMeaningfulUpdateAt": "2026-11-08T21:39:03.248Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Anthropic, Suno Sued for Unlawfully Using Songs by Madonna, Johnny Cash, Joni Mitchell",
+          "url": "https://www.cnet.com/tech/services-and-software/anthropic-suno-sued-using-songs-madonna-johnny-cash-joni-mitchell/",
+          "publishedAt": "2026-10-27T21:22:44.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Suno AI music generator sued again for copyright infringement",
+          "url": "https://www.engadget.com/2310316/suno-ai-music-generator-sued-again-for-copyright-infringement/",
+          "publishedAt": "2026-11-08T19:42:14.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
       "title": "OpenAI reportedly raises another $11B at a $1.25T valuation as it eyes a 2027 IPO",
@@ -444,53 +524,6 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "Chinese spy who targeted Nvidia CEO Jensen Huang worked directly for China's top spy agency, NYT reports",
-      "summary": "US authorities investigated a suspected Chinese spy plot aimed at Nvidia CEO Jensen Huang, according to the New York Times.\n\n- The woman who sought out a close relationship with Huang was a recruit of China's Ministry of State Security, the NYT now reports\n- The suspect is a top executive at a Singapore AI cloud company already accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-07T03:17:11.261Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Intel Community Reportedly Tied Trump’s Favorite AI Boss to a Chinese Spy",
-          "url": "https://gizmodo.com/nvidia-ceo-jensen-huang-tied-to-chinese-spy-trump-2000832476",
-          "publishedAt": "2026-10-29T16:20:17.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
-          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
-          "publishedAt": "2026-10-29T16:42:32.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Chinese Spy Who Targeted Jensen Huang Worked Directly for China’s Top Spy Agency: Report",
-          "url": "https://gizmodo.com/chinese-spy-who-targeted-jensen-huang-worked-directly-for-chinas-top-spy-agency-report-2000836560",
-          "publishedAt": "2026-11-07T02:40:47.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "China's main intelligence agency reportedly recruited the spy who targeted NVIDIA's CEO",
-          "url": "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo/",
-          "publishedAt": "2026-11-07T14:00:06.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-          "publishedAt": "2026-11-07T21:17:08.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     },
     {
       "id": "9f6d4470-9b2a-4438-a7bc-ed842ed1a9ca",
@@ -1873,27 +1906,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "2eceaa82-7785-46ed-8c1d-19cc6cf76179",
-      "title": "UK's £400B AI economic boost claim came mainly from Google; minister now concedes under a third of that",
-      "summary": "WIRED reports that UK officials' widely cited claim that AI would add £400 billion to the economy came mainly from a Google-sourced estimate. The AI minister now concedes the projected figure is less than a third of that, and researchers blame the country's slow rate of AI adoption.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-04T14:26:01.650Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T14:26:01.650Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google",
-          "url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
-          "publishedAt": "2026-11-04T13:49:51.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 128,
+  "totalCount": 127,
   "hasMore": true
 }
