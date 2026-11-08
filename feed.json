@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:37:13.551Z",
+  "generatedAt": "2026-11-08T19:38:22.100Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -422,6 +422,27 @@
         "product-launch",
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "2f7b74ee-446c-41e3-af6c-9ce4bee33692",
+      "title": "UK says it has no plans to slow AI data center construction",
+      "summary": "The UK's growth minister said the country has no plans to slow its AI data center build-out, and that the projects will continue as \"essential infrastructure,\" Engadget reports.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-08T19:38:12.491Z",
+      "lastMeaningfulUpdateAt": "2026-11-08T19:38:12.491Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "UK has no plans to slow down AI data center construction",
+          "url": "https://www.engadget.com/2310304/uk-has-no-plans-to-slow-down-ai-data-center-construction/",
+          "publishedAt": "2026-11-08T18:10:01.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -1871,29 +1892,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "fbe8f94e-051b-4906-a3d2-5dd081cb2e48",
-      "title": "NYT Cooking adds a beta AI recipe modifier for swapping ingredients and adjusting recipes",
-      "summary": "The New York Times added a beta AI-powered feature to its Cooking app that helps readers swap ingredients or adapt recipes to their needs. In WIRED's hands-on, it mostly hits the mark.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-11-08T13:34:16.040Z",
-      "lastMeaningfulUpdateAt": "2026-11-08T13:34:16.040Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
-          "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
-          "publishedAt": "2026-11-08T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 127,
+  "totalCount": 128,
   "hasMore": true
 }
