@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T11:33:20.361Z",
+  "generatedAt": "2026-11-08T13:34:28.198Z",
   "stories": [
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -1066,6 +1066,25 @@
       ]
     },
     {
+      "id": "ad458716-1f53-468d-82f5-b87770ba0322",
+      "title": "Google trims Gemini's free plan to a single model, Flashlight",
+      "summary": "Since October 9, Gemini's free plan offers just one model, Flashlight, a small, fast model, Geeky Gadgets reports citing AI Master. The change simplifies the free experience but limits free users on complex or extended tasks.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-08T13:34:17.797Z",
+      "lastMeaningfulUpdateAt": "2026-11-08T13:34:17.797Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Gemini Just Became Free: You Don’t Need a Google AI Subscription",
+          "url": "https://www.geeky-gadgets.com/free-gemini/",
+          "publishedAt": "2026-11-08T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "f7ecd722-d41c-46f6-a3b5-23124feaccd0",
       "title": "OpenAI partners with Hacktron to find vulnerabilities in its own systems",
       "summary": "OpenAI is partnering with security firm Hacktron to find vulnerabilities in its systems, test connections with third-party services, and strengthen its defenses using frontier AI.",
@@ -1835,6 +1854,27 @@
       "tags": []
     },
     {
+      "id": "fbe8f94e-051b-4906-a3d2-5dd081cb2e48",
+      "title": "NYT Cooking adds a beta AI recipe modifier for swapping ingredients and adjusting recipes",
+      "summary": "The New York Times added a beta AI-powered feature to its Cooking app that helps readers swap ingredients or adapt recipes to their needs. In WIRED's hands-on, it mostly hits the mark.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-11-08T13:34:16.040Z",
+      "lastMeaningfulUpdateAt": "2026-11-08T13:34:16.040Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+          "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+          "publishedAt": "2026-11-08T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "7696b2fb-f48c-41f7-bd3f-52bd2821496f",
       "title": "OpenAI touts a cyber workflow that burns $1.2M in tokens per run, saying it's cheaper than bug bounties",
       "summary": "OpenAI is promoting an AI cybersecurity workflow that uses about $1.2 million worth of tokens in a single run, arguing it would still save money compared with paying out bug bounties.",
@@ -1854,51 +1894,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "b16df7e5-7fd2-4989-baa1-5ff785b809e1",
-      "title": "Anthropic is building FlashProve, a system to prove which AI model produced a response",
-      "summary": "Anthropic is working on FlashProve, a cryptographic system that would let anyone check that an AI response really came from the model it claims to come from, TechCrunch reports.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-04T00:14:29.263Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T00:14:29.263Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic is working on a system to prove AI models’ identity",
-          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-          "publishedAt": "2026-11-03T22:41:03.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "research"
-      ]
-    },
-    {
-      "id": "adb915be-8336-4e10-9771-e1799b4bc357",
-      "title": "Physicl raises $10M to close the sim-to-real gap for robots",
-      "summary": "Physicl raised $10M to tackle robotics' sim-to-real gap, using a pipeline originally built to render goods for online marketing to make simulated worlds realistic enough to train robots.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-06T13:07:20.497Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T13:07:20.497Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Physicl raises $10M to make the digital world real enough for robots",
-          "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
-          "publishedAt": "2026-11-06T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
     }
   ],
-  "totalCount": 125,
+  "totalCount": 127,
   "hasMore": true
 }
