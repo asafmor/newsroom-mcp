@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T21:54:25.166Z",
+  "generatedAt": "2026-11-09T23:55:27.089Z",
   "stories": [
     {
       "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
@@ -23,6 +23,13 @@
           "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
           "publishedAt": "2026-11-09T19:32:15.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -32,11 +39,11 @@
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Nvidia investigates CEO Jensen Huang's relationship with a suspected Chinese spy",
-      "summary": "Nvidia is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot. In a company memo, Huang admitted he had an affair.\n\n- The woman was a recruit of China's Ministry of State Security, the NYT reports\n- She is a top executive at a Singapore AI cloud company already accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China\n- Huang began working with Heller, a PR firm known for handling sex scandals, as early as October 2025, around when he was first linked to the woman, WIRED reports\n- New: Huang has pulled out of the ElevenLabs Summit, after earlier withdrawing from an Anthropic event, TechCrunch reports",
-      "importanceScore": 0.72,
+      "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot; in a company memo, Huang admitted to an affair.\n\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China\n- He began working with Heller, a PR firm known for handling sex scandals, as early as October 2025, WIRED reports\n- Huang has pulled out of the ElevenLabs Summit after earlier withdrawing from an Anthropic event\n- Nvidia stock slid more than 4% after the probe opened, and securities lawyers see costly litigation risk in the company's earlier insistence the relationship was \"normal\"",
+      "importanceScore": 0.75,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T21:54:09.250Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T23:55:12.755Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -106,6 +113,27 @@
           "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
           "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
           "publishedAt": "2026-11-09T20:09:06.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+          "publishedAt": "2026-11-09T23:28:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+          "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+          "publishedAt": "2026-11-09T22:46:09.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "The race is on to sue Nvidia",
+          "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+          "publishedAt": "2026-11-09T22:23:42.000Z",
           "contribution": "meaningful-update"
         }
       ],
@@ -289,6 +317,27 @@
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "d0b1bc02-4bec-46c1-827a-5c43934f9115",
+      "title": "Anthropic explains how \"dreaming\" helps Claude organize agent memory and correct mistakes",
+      "summary": "Anthropic published research on the components of agent memory, describing how Claude must decide what's worth remembering before it knows what comes next, and how an offline \"dreaming\" process helps it reorganize memories and correct mistakes so it can learn from experience.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-09T23:55:16.795Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T23:55:16.795Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "The components of agent memory",
+          "url": "https://www.anthropic.com/research/components-of-agent-memory",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -1832,27 +1881,8 @@
       "tags": [
         "funding"
       ]
-    },
-    {
-      "id": "80f62d0a-128e-43f1-b38a-aaab9e39bca3",
-      "title": "Andreas Spiess shows a closed-loop AI workflow that writes ESP32 code and runs its own hardware tests",
-      "summary": "Maker Andreas Spiess used the Embedded AI Harness to build a working ESP32 device. The framework connects AI agents to real hardware through a Raspberry Pi testbench, so the agent can generate, debug and test embedded code in a closed loop, Geeky Gadgets reports.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-09T11:46:07.667Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T11:46:07.667Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Closed-Loop AI Workflow Writes ESP32 Code and Runs Hardware Tests Autonomously",
-          "url": "https://www.geeky-gadgets.com/ai-driven-esp32-development/",
-          "publishedAt": "2026-11-09T10:13:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 132,
+  "totalCount": 129,
   "hasMore": true
 }
