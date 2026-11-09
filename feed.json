@@ -1,6 +1,34 @@
 {
-  "generatedAt": "2026-11-09T17:50:29.750Z",
+  "generatedAt": "2026-11-09T19:52:30.530Z",
   "stories": [
+    {
+      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
+      "title": "Anthropic releases new Mythos and Fable models amid recursive self-improvement concerns",
+      "summary": "Anthropic released new Mythos and Fable models, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism",
+      "importanceScore": 0.88,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-09T19:52:14.544Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T19:52:14.544Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "publishedAt": "2026-11-09T19:24:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
+          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
+          "publishedAt": "2026-11-09T19:32:15.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Nvidia investigates CEO Jensen Huang's relationship with a suspected Chinese spy",
@@ -65,9 +93,37 @@
           "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/",
           "publishedAt": "2026-11-09T14:30:56.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+          "publishedAt": "2026-11-09T18:09:52.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
+    },
+    {
+      "id": "5e4c1486-6e6f-4f0a-bca7-dd7f6768045f",
+      "title": "Meta releases Muse Ember, a cheap lightweight model for agent execution",
+      "summary": "Meta released Muse Ember, a lightweight model built for executing agent tasks. At 10 cents per million input tokens, it undercuts small frontier competitors like Haiku and Luna by a wide margin.",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-09T19:52:18.692Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T19:52:18.692Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+          "publishedAt": "2026-11-09T18:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
     },
     {
       "id": "de1d86ba-597a-4c34-adb6-e44ab1d0de61",
@@ -157,6 +213,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "a987794e-0ade-4ffe-9680-a4421cfbe9a2",
+      "title": "ChatGPT Enterprise is now available in AWS Marketplace",
+      "summary": "OpenAI made ChatGPT Enterprise available through AWS Marketplace, letting organizations buy it through their existing AWS purchasing and billing relationships.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-09T19:52:22.643Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T19:52:22.643Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "ChatGPT Enterprise now available in AWS Marketplace",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "publishedAt": "2026-11-09T19:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
     },
     {
       "id": "19705118-9d06-4461-9d29-3056bbc8fa91",
@@ -893,6 +970,27 @@
       ]
     },
     {
+      "id": "296892f2-7c26-442f-8f62-d45ce996a2a5",
+      "title": "OpenAI case study: Kuken Industries searches 70 years of engineering drawings in minutes",
+      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings, cutting the time engineers need to find a repair drawing from nearly an hour to 4.5 minutes.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-09T19:52:24.518Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T19:52:24.518Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Kuken Industries searches 70 years of drawings in minutes",
+          "url": "https://openai.com/index/kuken",
+          "publishedAt": "2026-11-09T08:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "459a194b-eff8-4fb4-b635-c6fb269a8e8d",
       "title": "Hundreds of servers running the Artex AI hacking tool found exposed to the open web",
       "summary": "Security researchers found hundreds of internet-exposed servers hosting Artex, an AI penetration-testing tool, letting anyone access and use the hacking tool, TechCrunch reports.",
@@ -1206,6 +1304,13 @@
           "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
           "publishedAt": "2026-11-07T22:07:22.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "The backlash about data centers might really just be about electricity",
+          "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+          "publishedAt": "2026-11-09T19:35:33.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1739,126 +1844,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "38a0b108-cf62-46f2-8589-69a6330749e7",
-      "title": "OpenAI introduces a National Community Compact and a Compute Campus Policy Blueprint for its data centers",
-      "summary": "OpenAI published a National Community Compact and a Compute Campus Policy Blueprint, commitments it says will protect local resources, create jobs, and guide responsible AI infrastructure development as opposition to data centers grows.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-05T10:45:48.637Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T10:45:48.637Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Setting a new standard for responsible AI infrastructure",
-          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-          "publishedAt": "2026-11-05T02:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI says it will protect local resources and report on the impact of its data centers",
-          "url": "https://www.engadget.com/2307590/openai-says-it-will-protect-local-resources-and-report-on-the-impact-of-its-data-centers/",
-          "publishedAt": "2026-11-05T12:37:38.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Is Changing Its Tune on Data Centers Following Electoral Wipeout",
-          "url": "https://gizmodo.com/openai-is-changing-its-tune-on-data-centers-following-electoral-wipeout-2000835718",
-          "publishedAt": "2026-11-05T16:50:49.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "a0b5027e-3068-436a-a599-8422bd0991ac",
-      "title": "NVIDIA releases Cosmos 3 open models for interactive world simulation",
-      "summary": "NVIDIA announced new Cosmos 3 open models aimed at interactive world simulation, extending its Cosmos world-model family, in a post on the Hugging Face blog.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-05T20:54:38.181Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T20:54:38.181Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-          "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-          "publishedAt": "2026-11-05T19:35:16.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
-    },
-    {
-      "id": "6c542ea5-6cab-4634-b52d-3722e2eb6c6d",
-      "title": "Meta acquires AI coding startup Conductor",
-      "summary": "Meta has acquired Conductor, an AI coding startup whose tool lets software engineers deploy teams of agents to work on different parts of a project at the same time.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-04T22:33:23.927Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T22:33:23.927Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta acquires AI coding startup Conductor",
-          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-          "publishedAt": "2026-11-04T21:10:56.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "0208bc1d-912f-49dd-825f-ab05bbb47e7a",
-      "title": "Pro-AI super PAC network Leading the Future made little impact on the midterms despite a $100M war chest",
-      "summary": "Leading the Future, the biggest pro-AI super PAC network, did little to shape the US midterms, Wired reports, despite deep pockets and an aggressive stance against AI regulation.\n\n- Backed by Silicon Valley's biggest billionaires, the network had a $100 million war chest to promote pro-AI candidates on both sides of the aisle\n- Wired earlier reported that the network had poured millions into Nevada shell companies\n- Its spending didn't add up to much on election night",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-10-13T11:42:19.885Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T22:33:22.273Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "The Biggest Pro-AI Super PAC Network Has Poured Millions Into Nevada Shell Companies",
-          "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-has-poured-millions-into-nevada-shell-companies/",
-          "publishedAt": "2026-10-13T10:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
-          "publishedAt": "2026-10-15T21:18:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
-          "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
-          "publishedAt": "2026-11-04T20:41:29.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
-          "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
-          "publishedAt": "2026-11-04T22:45:09.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
     }
   ],
-  "totalCount": 128,
+  "totalCount": 131,
   "hasMore": true
 }
