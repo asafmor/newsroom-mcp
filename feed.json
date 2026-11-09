@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T15:48:38.059Z",
+  "generatedAt": "2026-11-09T17:50:29.750Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -68,6 +68,69 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "de1d86ba-597a-4c34-adb6-e44ab1d0de61",
+      "title": "Anthropic buys $3.4B worth of natural gas turbines to power its AI buildout",
+      "summary": "Anthropic has bought about $3.4 billion worth of natural gas turbines, joining the AI industry's rush to gas-fired power for data centers. TechCrunch warns the deal could leave Anthropic with buyer's remorse.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-09T17:50:15.147Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T17:50:15.147Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+          "publishedAt": "2026-11-09T16:56:54.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "1da81b6d-4c63-4784-9324-7d5a979bd21a",
+      "title": "Google unveils two new variants of its AI chip systems to compete with Nvidia",
+      "summary": "Google unveiled two new variants of its existing AI chip systems as it steps up competition with Nvidia, Gizmodo reports.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-09T17:50:22.042Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T17:50:22.042Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google Has Two New Weapons in Its Fight Against Nvidia",
+          "url": "https://gizmodo.com/google-has-two-new-weapons-in-its-fight-against-nvidia-2000837111",
+          "publishedAt": "2026-11-09T17:10:52.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "40b1c4ea-440e-4a20-8175-9a11d13a7400",
+      "title": "Scott Wiener, author of California's AI safety bills, wins Pelosi's House seat and eyes federal AI regulation",
+      "summary": "Scott Wiener, the California state senator who authored legislation to curb the risks of advanced AI, won a tight race for Nancy Pelosi's open San Francisco congressional seat. MIT Technology Review says he could play a key role in setting federal AI policy and is ready to regulate AI.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-09T17:50:19.992Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T17:50:19.992Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+          "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+          "publishedAt": "2026-11-09T17:05:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
     },
     {
       "id": "6b2a28ef-9001-4be0-802d-c4b5c07ec0ee",
@@ -631,6 +694,25 @@
       ]
     },
     {
+      "id": "34054ae6-8934-43ac-98b6-ac9954126b6a",
+      "title": "Trump says he told an AI executive to \"kiss his family goodbye\" before going to jail",
+      "summary": "President Trump claims he warned an unnamed AI executive to kiss their family goodbye before going to jail, adding, \"Do you like the color orange?\" Gizmodo reports.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-09T17:50:23.694Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T17:50:23.694Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump Says He Told an AI Executive to Kiss His Family Goodbye Before Going to Jail",
+          "url": "https://gizmodo.com/trump-says-he-told-an-ai-executive-to-kiss-his-family-goodbye-before-going-to-jail-2000837040",
+          "publishedAt": "2026-11-09T16:21:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "4127c41a-d561-4f62-8fdc-9d12aca6473c",
       "title": "Free Chinese models DeepSeek and GLM come close to OpenAI's top cyber model at hacking simulated networks",
       "summary": "In an experiment asking AI models to break into simulated networks, the freely available Chinese models DeepSeek and GLM performed not far behind OpenAI's most advanced cyber model, which isn't public, Wired reports.",
@@ -671,6 +753,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "b6c62d1d-abff-4903-b648-c2b70d30a2c8",
+      "title": "Medium launches TK, a writing app with built-in AI assistance",
+      "summary": "Medium released TK, a new writing app that builds AI assistance directly into the writing process, embracing AI-assisted writing despite growing controversy over the technology's role in publishing, TechCrunch reports.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-09T17:50:17.391Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T17:50:17.391Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+          "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+          "publishedAt": "2026-11-09T16:12:28.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1754,174 +1857,8 @@
       "tags": [
         "regulation"
       ]
-    },
-    {
-      "id": "d5403200-dabd-41ac-b076-981df239c0c9",
-      "title": "Google walks back its policy of cutting off Search at schools that disable its AI tools, after political backlash",
-      "summary": "Google is trying to walk back its plan to cut off student access to Search at schools that turn off its AI tools, after the policy drew political backlash.\n\n- Google is backtracking on an executive's threat that if schools drop the AI, they lose Search too\n- AI features, including AI Overviews, are built into Google Search, which is why the original policy tied the two together\n- Parents and educators worry that easy, machine-generated answers are leaving kids less capable\n- NYC mayor Zohran Mamdani and former FTC chair Lina Khan accused Google of acting as an unregulated monopoly\n- DuckDuckGo has been courting frustrated schools with its search engine and options to disable AI features",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-03T18:08:07.088Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T22:33:18.576Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
-          "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
-          "publishedAt": "2026-11-03T16:30:34.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google says students in schools that ban AI won't have access to Search",
-          "url": "https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search/",
-          "publishedAt": "2026-11-03T17:10:43.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Is Holding Its Search Engine Hostage From Schools That Don’t Want AI",
-          "url": "https://gizmodo.com/google-is-holding-its-search-engine-hostage-from-schools-that-dont-want-ai-2000834544",
-          "publishedAt": "2026-11-03T19:45:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Google Is Forcing Schools to Choose Between Its Search Engine and AI",
-          "url": "https://www.cnet.com/tech/services-and-software/google-forcing-schools-choose-between-search-engine-ai/",
-          "publishedAt": "2026-11-04T00:30:16.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
-          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-          "publishedAt": "2026-11-04T16:17:22.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Google Is Forcing AI Overviews in Classrooms. Schools Are Searching for a Way Out",
-          "url": "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/",
-          "publishedAt": "2026-11-04T20:06:21.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-          "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-          "publishedAt": "2026-11-04T19:29:52.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Tries to Walk Back Controversial School AI Policy Following Political Backlash",
-          "url": "https://gizmodo.com/google-tries-to-walk-back-controversial-school-ai-policy-following-political-backlash-2000834986",
-          "publishedAt": "2026-11-04T21:15:17.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "15a4969b-93c5-4eb8-b4f5-2f354b1cfe1f",
-      "title": "Dropbox acquires Tigris Data for $350M to build an AI agent storage platform",
-      "summary": "Dropbox is buying storage startup Tigris Data for $350M to support DBX Agent Cloud, a new storage platform for developers building AI models and agents.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-05T16:51:12.172Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T16:51:12.172Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
-          "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-          "publishedAt": "2026-11-05T15:19:05.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "65d65300-91c0-4ef4-92d9-2e7ae9e14dac",
-      "title": "Apple is reportedly cutting its internal AI budgets for engineering teams",
-      "summary": "Apple is reportedly cutting how much its engineering teams can spend on AI tools like ChatGPT, Claude, and Gemini as part of a wider cost-cutting push, per TechCrunch and Mashable. Some teams could face a daily limit of just $25 per employee.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-05T02:37:30.553Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T02:37:30.553Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Apple is reportedly cutting budgets for its internal AI usage",
-          "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
-          "publishedAt": "2026-11-05T01:26:22.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Apple Cuts AI Budgets For Engineers Using ChatGPT, Claude And Gemini: Report",
-          "url": "https://in.mashable.com/tech/115769/apple-cuts-ai-budgets-for-engineers-using-chatgpt-claude-and-gemini-report",
-          "publishedAt": "2026-11-05T07:20:05.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
-      "title": "Anthropic warns it is very close to recursive self-improvement, AI that builds itself",
-      "summary": "Anthropic says in a Monday SEC disclosure that it is very close to RSI (recursive self-improvement) capability, and that it could arrive \"imminently.\" RSI is the point where AI gets good enough at training itself to set off a dramatic acceleration in capabilities, a threshold safety-minded critics treat as a point of no return.",
-      "importanceScore": 0.8,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-02T23:52:29.630Z",
-      "lastMeaningfulUpdateAt": "2026-11-02T23:52:29.630Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
-          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-          "publishedAt": "2026-11-02T22:14:50.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Claims to Be Closing in on Recursive Self-Improvement",
-          "url": "https://gizmodo.com/anthropic-claims-to-be-closing-in-on-recursive-self-improvement-2000834175",
-          "publishedAt": "2026-11-03T04:03:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "cae032b3-61eb-48c9-a390-6950607e159a",
-      "title": "OpenAI's Chris Lehane pushes for AI to define the 2028 election with a proposed new social contract",
-      "summary": "OpenAI policy chief Chris Lehane wants AI to be a defining issue of the 2028 US election, proposing a new social contract that he pitches as benefiting Americans but that would also advance OpenAI's own business interests.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-04T22:33:26.427Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T22:33:26.427Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI is already trying to shape the 2028 election",
-          "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-          "publishedAt": "2026-11-04T21:25:44.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
     }
   ],
-  "totalCount": 125,
+  "totalCount": 128,
   "hasMore": true
 }
