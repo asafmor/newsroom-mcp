@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T11:46:14.893Z",
+  "generatedAt": "2026-11-09T13:47:19.872Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1443,6 +1443,27 @@
       ]
     },
     {
+      "id": "90c48402-c066-41cf-9fe8-fae20c6b148b",
+      "title": "Amazon researchers propose HOPE, a higher-order pruning method for mixture-of-experts models",
+      "summary": "Amazon researchers, writing on the Hugging Face blog, introduce HOPE (higher-order pruning of experts), an approach to slimming mixture-of-experts models that accounts for how experts work together, keeping \"partner\" experts together rather than pruning each one in isolation.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-09T13:47:08.427Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T13:47:08.427Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+          "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+          "publishedAt": "2026-11-09T12:34:29.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "0c8b59b7-522f-4a5a-991f-aacf8a8b4aef",
       "title": "SpaceXAI's Grok can now be set up inside Google Workspace",
       "summary": "Engadget published a guide to adding SpaceXAI's Grok to Google Workspace. It says setup is easy, but admins should weigh a few considerations before rolling it out to their organization.",
@@ -1899,29 +1920,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "0e45328c-d8a7-4370-9246-97d7f811977c",
-      "title": "Cursor adds voice chat with its coding agents",
-      "summary": "Cursor's changelog announces Voice Chat with Agents, letting developers talk to its AI coding agents by voice.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-06T23:14:19.648Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T23:14:19.648Z",
-      "sources": [
-        {
-          "providerName": "Cursor Blog",
-          "title": "Voice Chat with Agents",
-          "url": "https://cursor.com/changelog/voice-chat",
-          "publishedAt": "2026-11-06T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 122,
+  "totalCount": 123,
   "hasMore": true
 }
