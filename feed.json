@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-09T13:47:19.872Z",
+  "generatedAt": "2026-11-09T15:48:38.059Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Nvidia investigates CEO Jensen Huang's relationship with a suspected Chinese spy",
-      "summary": "Nvidia says it is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot. In a company memo, Huang admitted he had an affair.\n\n- The woman was a recruit of China's Ministry of State Security, the NYT reports\n- She is a top executive at a Singapore AI cloud company already accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China",
+      "summary": "Nvidia is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot. In a company memo, Huang admitted he had an affair.\n\n- The woman was a recruit of China's Ministry of State Security, the NYT reports\n- She is a top executive at a Singapore AI cloud company already accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China\n- Huang began working with Heller, a PR firm known for handling sex scandals, as early as October 2025, around when he was first linked to the woman, WIRED reports",
       "importanceScore": 0.72,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-08T21:39:01.418Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T15:48:17.917Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -58,6 +58,13 @@
           "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
           "publishedAt": "2026-11-09T05:26:29.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
+          "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/",
+          "publishedAt": "2026-11-09T14:30:56.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": []
@@ -114,6 +121,27 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "93bcab62-127f-4531-bf9b-ad65e8fd3099",
+      "title": "Alibaba's Qwen 4 preview reportedly beats DeepSeek 4.1 Flash on web tasks using half the tokens",
+      "summary": "Early hands-on looks at Alibaba's Qwen 4 series, including the Qwen 4 Max and 27B variants, report strong results on complex simulations and generated environments. One breakdown says Qwen 4 beat DeepSeek 4.1 Flash on web tasks while using about half the tokens. These are third-party first impressions, not independent benchmarks.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-09T15:48:23.215Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T15:48:23.215Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Qwen 4 Beats Deepseek 4.1 Flash in Web Tasks on Half the Tokens",
+          "url": "https://www.geeky-gadgets.com/qwen-4-preview-first-look/",
+          "publishedAt": "2026-11-09T14:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
       ]
     },
     {
@@ -537,6 +565,27 @@
         "product-launch",
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "498969c2-ef49-4574-952c-e355ebb062ec",
+      "title": "Automattic launches Spacefast, a platform for deploying vibe-coded apps, to take on Lovable",
+      "summary": "WordPress owner Automattic debuted Spacefast, a platform for building and deploying vibe-coded apps, positioning it against AI app builders like Lovable as AI reshapes how people make things for the web.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-09T15:48:20.268Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T15:48:20.268Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Automattic debuts a platform to deploy vibe coding apps amid a changing internet",
+          "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+          "publishedAt": "2026-11-09T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1062,6 +1111,25 @@
       ]
     },
     {
+      "id": "3164b932-ac1f-4001-97b5-33b1a257c756",
+      "title": "Prototype CAIM-1 camera embeds cryptographic proof of origin in every photo to counter AI fakes",
+      "summary": "The CAIM-1 prototype camera signs every photo it takes with cryptographic proof of origin, a kind of silicon fingerprint, so real images can be told apart from AI-generated deepfakes.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-09T15:48:27.664Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T15:48:27.664Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "This prototype camera is fighting the good fight against AI photography",
+          "url": "https://www.engadget.com/2307723/caim-1-camera-fighting-against-ai-photography/",
+          "publishedAt": "2026-11-09T14:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "5868eb06-fd69-4f60-8975-c985e94d7096",
       "title": "Amazon lets users text Alexa to help them shop, after blocking Meta's Muse",
       "summary": "Amazon now lets users text Alexa for shopping help, with the feature rolling out to millions of users in the coming weeks, TechCrunch reports. It arrives after Amazon blocked Meta's Muse agent from shopping on Amazon.com.",
@@ -1391,6 +1459,25 @@
       "tags": [
         "model-release"
       ]
+    },
+    {
+      "id": "a67ff031-c2a8-430d-bdb4-d15be67da56c",
+      "title": "Nvidia releases Nemotron-Personas-Finance-Japan, a synthetic persona dataset for Japanese finance",
+      "summary": "Nvidia published Nemotron-Personas-Finance-Japan on Hugging Face, a synthetic dataset of personas that reflects Japan's demographics and financial context. It is meant for building and evaluating localized finance AI applications.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-09T15:48:25.465Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T15:48:25.465Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context ",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+          "publishedAt": "2026-11-09T15:05:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "388448ad-1b87-413e-8e72-90576209bf78",
@@ -1833,95 +1920,8 @@
       "tags": [
         "regulation"
       ]
-    },
-    {
-      "id": "5aa6ae1d-b20b-4df3-8800-eff7270ed2c8",
-      "title": "A humanoid-robot house-cleaning service launches in San Francisco",
-      "summary": "MIT Technology Review's Grace Huckins booked a new San Francisco service that sends a humanoid robot to clean your apartment, and came away calling it a taste of the future for household robotics.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-06T11:06:10.376Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T11:06:10.376Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
-          "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
-          "publishedAt": "2026-11-06T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "84fad439-74cc-42f4-a461-3aa410f9f39c",
-      "title": "Anthropic's compute economics worsen as cloud providers that now see it as a rival limit supply",
-      "summary": "Anthropic is still struggling with the cost of compute heading into its planned November IPO.\n\n- TechCrunch reports that cloud providers, which increasingly see Anthropic as a competitor, are making it hard to secure enough compute as its infrastructure spending balloons\n- New: Anthropic's compute margins are getting worse just when they should be improving, per TechCrunch",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-10-20T21:45:38.199Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T18:08:04.547Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s cloud partnerships are getting messy",
-          "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-          "publishedAt": "2026-10-20T21:25:22.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic is still grappling with the economics of compute",
-          "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
-          "publishedAt": "2026-11-03T17:07:01.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "8973d6a9-d704-4e28-aa49-083d63ce35b1",
-      "title": "Google offers voluntary exit packages in seven countries as it shifts spending toward AI",
-      "summary": "Google is offering employees in seven countries financial incentives to leave voluntarily, aiming to cut operating costs and redirect resources toward its AI investments.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-05T06:41:12.736Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T06:41:12.736Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "Google Offers Voluntary Exit Packages to Employees Across 7 Countries as AI Spending Rises: Is India on The List?",
-          "url": "https://in.mashable.com/automobiles/115780/google-offers-voluntary-exit-packages-to-employees-across-7-countries-as-ai-spending-rises-is-india",
-          "publishedAt": "2026-11-05T05:59:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "e40b5ced-a045-4467-984a-e771d4a1662e",
-      "title": "Gizmodo argues AI's real labor threat is stagnant wages, not job losses",
-      "summary": "In a response to New York Times coverage, Gizmodo's Matt Novak argues the debate over AI and work focuses too much on job losses, and that the bigger threat is AI suppressing wages.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-11-06T23:14:21.633Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T23:14:21.633Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "The New York Times Doesn’t Understand AI’s Role in Suppressing Wages",
-          "url": "https://gizmodo.com/the-new-york-times-doesnt-understand-ais-role-in-suppressing-wages-2000836392",
-          "publishedAt": "2026-11-06T22:10:23.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 123,
+  "totalCount": 125,
   "hasMore": true
 }
