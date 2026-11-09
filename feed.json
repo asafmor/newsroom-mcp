@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T07:43:56.812Z",
+  "generatedAt": "2026-11-09T09:45:18.611Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -87,6 +87,34 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "19705118-9d06-4461-9d29-3056bbc8fa91",
+      "title": "Data center protests spread across Europe, from a Microsoft site in Amsterdam to a planned Google facility near London",
+      "summary": "Protests against the rapid expansion of AI data centers are breaking out across Europe, targeting several of the biggest tech companies.\n\n- More than 100 protesters stormed a Microsoft data center site in Amsterdam, one of several demonstrations planned across Europe that weekend, Gizmodo reports\n- East of London, an unlikely coalition of bikers and insect-conservation activists is trying to block Google from building a sprawling new facility, per WIRED",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-11-06T19:11:42.368Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T09:45:09.196Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "More Than 100 Protesters Storm a Microsoft Data Center Site in Amsterdam",
+          "url": "https://gizmodo.com/more-than-100-protesters-storm-a-microsoft-data-center-site-in-amsterdam-2000836356",
+          "publishedAt": "2026-11-06T19:00:57.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+          "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
+          "publishedAt": "2026-11-09T08:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
     },
     {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
@@ -686,27 +714,6 @@
           "title": "Crusoe sells troubled Wyoming data center project to Google",
           "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
           "publishedAt": "2026-11-07T01:40:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "19705118-9d06-4461-9d29-3056bbc8fa91",
-      "title": "More than 100 protesters storm a Microsoft data center site in Amsterdam as Europe-wide protests target data center growth",
-      "summary": "More than 100 protesters stormed a Microsoft data center site in Amsterdam, one of several demonstrations planned across Europe this weekend against the rapid expansion of data centers, Gizmodo reports.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-11-06T19:11:42.368Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T19:11:42.368Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "More Than 100 Protesters Storm a Microsoft Data Center Site in Amsterdam",
-          "url": "https://gizmodo.com/more-than-100-protesters-storm-a-microsoft-data-center-site-in-amsterdam-2000836356",
-          "publishedAt": "2026-11-06T19:00:57.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1915,6 +1922,6 @@
       "tags": []
     }
   ],
-  "totalCount": 126,
+  "totalCount": 124,
   "hasMore": true
 }
