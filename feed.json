@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T19:52:30.530Z",
+  "generatedAt": "2026-11-09T21:54:25.166Z",
   "stories": [
     {
       "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
@@ -32,11 +32,11 @@
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Nvidia investigates CEO Jensen Huang's relationship with a suspected Chinese spy",
-      "summary": "Nvidia is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot. In a company memo, Huang admitted he had an affair.\n\n- The woman was a recruit of China's Ministry of State Security, the NYT reports\n- She is a top executive at a Singapore AI cloud company already accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China\n- Huang began working with Heller, a PR firm known for handling sex scandals, as early as October 2025, around when he was first linked to the woman, WIRED reports",
+      "summary": "Nvidia is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot. In a company memo, Huang admitted he had an affair.\n\n- The woman was a recruit of China's Ministry of State Security, the NYT reports\n- She is a top executive at a Singapore AI cloud company already accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China\n- Huang began working with Heller, a PR firm known for handling sex scandals, as early as October 2025, around when he was first linked to the woman, WIRED reports\n- New: Huang has pulled out of the ElevenLabs Summit, after earlier withdrawing from an Anthropic event, TechCrunch reports",
       "importanceScore": 0.72,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T15:48:17.917Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T21:54:09.250Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -100,6 +100,13 @@
           "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
           "publishedAt": "2026-11-09T18:09:52.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+          "publishedAt": "2026-11-09T20:09:06.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": []
@@ -722,6 +729,34 @@
           "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
           "publishedAt": "2026-11-09T14:00:00.000Z",
           "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "69fce7eb-1330-4b35-9ddf-be6f447a7b1a",
+      "title": "Apple Creator Studio adds AI assistants, now with $50 packs for extra AI usage",
+      "summary": "Apple added MotionVFX effects and AI assistants to its Creator Studio subscription at its \"Pro and Tell\" event, per CNET. It now sells $50 extended usage packs for subscribers who hit the monthly limit on AI features such as Logic Pro's AI assistant, Engadget reports.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-28T01:59:15.452Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T21:54:11.149Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Apple Creator Studio Brings MotionVFX and AI Assistants to Subscribers",
+          "url": "https://www.cnet.com/tech/services-and-software/apple-creator-studio-ai-update-october-2026-news/",
+          "publishedAt": "2026-10-27T19:54:59.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Apple starts offering $50 extended usage packs for AI features in Creator Studio",
+          "url": "https://www.engadget.com/2311500/apple-starts-offering-50-dollar-extended-usage-packs-for-ai-features-in-creator-studio/",
+          "publishedAt": "2026-11-09T20:56:51.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -1816,36 +1851,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "680533ba-0cf9-4566-a820-340a7756eea2",
-      "title": "Airbnb plans to launch an AI travel agent in the first half of 2027",
-      "summary": "Airbnb says it will launch an AI agent in the first half of 2027 that helps travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-05T22:56:14.509Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T22:56:14.509Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
-          "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-          "publishedAt": "2026-11-05T22:40:55.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Airbnb is threatening to launch an AI travel agent next year",
-          "url": "https://www.engadget.com/2308832/airbnb-ai-travel-agent-2027-launch/",
-          "publishedAt": "2026-11-06T07:51:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 131,
+  "totalCount": 132,
   "hasMore": true
 }
