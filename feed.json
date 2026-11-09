@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T09:45:18.611Z",
+  "generatedAt": "2026-11-09T11:46:14.893Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -644,6 +644,25 @@
       "tags": [
         "enterprise-adoption"
       ]
+    },
+    {
+      "id": "5e035882-fef5-4036-8c1c-8bc9edfc1b81",
+      "title": "Authors turn to \"paper trail\" tools to prove their manuscripts aren't AI-written",
+      "summary": "Publishers are increasingly suspicious about whether manuscripts were written with AI. Wired reports that authors accused of using AI can now use \"paper trail\" tools to document how they wrote their work, but asks whether that is enough, since writers are caught in an impossible bind.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-09T11:46:05.338Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T11:46:05.338Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+          "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+          "publishedAt": "2026-11-09T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "f14492ff-a8b1-4a28-9332-ac44901fa78c",
@@ -1464,6 +1483,25 @@
       ]
     },
     {
+      "id": "80f62d0a-128e-43f1-b38a-aaab9e39bca3",
+      "title": "Andreas Spiess shows a closed-loop AI workflow that writes ESP32 code and runs its own hardware tests",
+      "summary": "Maker Andreas Spiess used the Embedded AI Harness to build a working ESP32 device. The framework connects AI agents to real hardware through a Raspberry Pi testbench, so the agent can generate, debug and test embedded code in a closed loop, Geeky Gadgets reports.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-09T11:46:07.667Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T11:46:07.667Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Closed-Loop AI Workflow Writes ESP32 Code and Runs Hardware Tests Autonomously",
+          "url": "https://www.geeky-gadgets.com/ai-driven-esp32-development/",
+          "publishedAt": "2026-11-09T10:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "680533ba-0cf9-4566-a820-340a7756eea2",
       "title": "Airbnb plans to launch an AI travel agent in the first half of 2027",
       "summary": "Airbnb says it will launch an AI agent in the first half of 2027 that helps travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
@@ -1882,46 +1920,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "56130070-d83d-4ef4-8bd2-a6b06fba35fc",
-      "title": "OpenAI claims ChatGPT now handles about 20% of Google's search volume",
-      "summary": "OpenAI says ChatGPT's search usage has reached roughly a fifth of Google's search volume, per Gizmodo, which questions how the company will turn that traffic into profit.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-03T22:12:35.381Z",
-      "lastMeaningfulUpdateAt": "2026-11-03T22:12:35.381Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "ChatGPT Claims to Have Achieved 20% of Google’s Search Volume",
-          "url": "https://gizmodo.com/chatgpt-claims-to-have-achieved-20-of-googles-search-volume-2000834464",
-          "publishedAt": "2026-11-03T20:30:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "9c74bb03-490e-49b3-94b5-6c2d36886da1",
-      "title": "OpenAI to acquire Pierre Computer Company to expand Codex's code tools",
-      "summary": "OpenAI announced it will acquire Pierre Computer Company, saying the deal expands Codex's tools for building, understanding, and reviewing code.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-04T16:28:01.428Z",
-      "lastMeaningfulUpdateAt": "2026-11-04T16:28:01.428Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-          "url": "https://openai.com/index/openai-to-acquire-pierre",
-          "publishedAt": "2026-11-04T14:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 124,
+  "totalCount": 122,
   "hasMore": true
 }
