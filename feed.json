@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T16:08:14.736Z",
+  "generatedAt": "2026-11-10T18:09:24.332Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -248,6 +248,13 @@
           "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
           "publishedAt": "2026-11-10T16:03:47.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google's Gemini 4 Carbon is now widely available around the world",
+          "url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide/",
+          "publishedAt": "2026-11-10T16:00:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -691,6 +698,35 @@
       ]
     },
     {
+      "id": "7077a07e-4d9e-4ad1-a49f-97cd5d41b468",
+      "title": "Anthropic launches Claude Meetings, Claude Sheets, and a whiteboard app to take on Google and Microsoft",
+      "summary": "Anthropic expanded Claude's workplace suite with new apps aimed squarely at Google Workspace and Microsoft 365.\n\n- Claude Meetings drafts the plan being discussed as participants talk, answers questions in the meeting chat, and pulls data from connected work apps\n- Claude Sheets brings Anthropic into spreadsheets\n- A new whiteboard app lets Claude map out timelines and plans visually",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.92,
+      "firstSeenAt": "2026-11-10T18:09:16.446Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T18:09:16.446Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+          "publishedAt": "2026-11-10T17:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic takes on Google and Microsoft with Claude Sheets",
+          "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/",
+          "publishedAt": "2026-11-10T17:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "4bc6f4c9-665b-42a9-af35-5fd239019a66",
       "title": "Google DeepMind unveils AlphaProof Code, which formally verified the Signal Protocol's core encryption",
       "summary": "Google DeepMind unveiled AlphaProof Code, whose AI agents wrote about three million lines of Lean proofs to formally verify that Signal's core encryption works as intended. The team's stretch goal is to do the same for \"all the software of the world.\"",
@@ -839,6 +875,13 @@
           "url": "https://in.mashable.com/tech-industry/115939/jensen-huang-nvidia-affair-scandal-what-we-know-what-we-dont",
           "publishedAt": "2026-11-09T19:47:30.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+          "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "publishedAt": "2026-11-10T17:04:19.000Z",
+          "contribution": "background"
         }
       ],
       "tags": []
@@ -2101,29 +2144,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "8e38495e-efc9-4f95-9e3c-8ed96c987f00",
-      "title": "Lawsuit claims a student's Gemini use on a school Chromebook became a \"life-threatening obsession\"",
-      "summary": "Parents have sued Google, claiming their child's use of Gemini turned into a \"life-threatening obsession,\" Gizmodo reports. They say the student's only access to Gemini was through a school-issued Chromebook.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-06T00:57:31.032Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T00:57:31.032Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Lawsuit Claims Student’s Google AI Use Turned Into ‘Life-Threatening Obsession’",
-          "url": "https://gizmodo.com/lawsuit-claims-students-google-ai-use-turned-into-life-threatening-obsession-2000835894",
-          "publishedAt": "2026-11-05T23:59:11.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 129,
+  "totalCount": 126,
   "hasMore": true
 }
