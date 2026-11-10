@@ -1,77 +1,14 @@
 {
-  "generatedAt": "2026-11-10T12:03:41.660Z",
+  "generatedAt": "2026-11-10T14:06:05.734Z",
   "stories": [
     {
-      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
-      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
-      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism",
-      "importanceScore": 0.9,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-09T19:52:14.544Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T05:58:23.952Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-          "publishedAt": "2026-11-09T19:24:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
-          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
-          "publishedAt": "2026-11-09T19:32:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude Fable 5.2 and Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
-          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Which Claude model should you build with?",
-          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
-          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
-          "publishedAt": "2026-11-10T09:14:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
-      "title": "Anthropic pushes ahead with its IPO as soon as next week, despite its expected valuation halving to $1 trillion",
-      "summary": "Anthropic is still moving forward with its public debut and is expected to set its valuation range this week, with a listing possible as soon as next week, per the WSJ.\n\n- Its expected valuation has reportedly fallen from as high as $2 trillion to about $1 trillion\n- The public S-1 shows soaring revenue and enterprise adoption alongside heavy losses (about $8 billion last year, per Engadget)\n- The seven co-founders get a combined 50.1% of the vote on most matters, to preserve founder control and the safety mission\n- Amazon is set to make far more from the IPO than Anthropic's VC backers, and the SpaceXAI deal is bigger than previously known\n- Risk factors warn that Anthropic's own AI could pose an existential risk, and Blackstone expects credit agencies to rate it high \"junk\" after listing, per the FT",
-      "importanceScore": 0.92,
+      "title": "Anthropic launches its IPO roadshow at $70-$78 a share, implying a valuation of up to $1.4 trillion",
+      "summary": "Anthropic launched the roadshow for its initial public offering and set a price range of $70 to $78 per share, implying a fully diluted valuation of up to $1.404 trillion at the top of the range.\n\n- The range lands well above recent reports that its expected valuation had fallen from as high as $2 trillion to about $1 trillion\n- The public S-1 shows soaring revenue and enterprise adoption alongside heavy losses (about $8 billion last year, per Engadget)\n- The seven co-founders get a combined 50.1% of the vote on most matters, to preserve founder control and the safety mission\n- Amazon is set to make far more from the IPO than Anthropic's VC backers, and the SpaceXAI deal is bigger than previously known\n- Risk factors warn that Anthropic's own AI could pose an existential risk, and Blackstone expects credit agencies to rate it high \"junk\" after listing, per the FT",
+      "importanceScore": 0.94,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-25T16:42:37.631Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T01:56:04.623Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T14:05:32.520Z",
       "sources": [
         {
           "providerName": "TechCrunch AI",
@@ -247,11 +184,95 @@
           "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
           "publishedAt": "2026-11-10T01:27:12.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+          "publishedAt": "2026-11-10T14:01:39.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Anthropic launches roadshow for proposed initial public offering",
+          "url": "https://www.anthropic.com/news/roadshow-launch",
+          "publishedAt": "2026-11-10T00:00:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "funding",
         "safety"
+      ]
+    },
+    {
+      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
+      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
+      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-09T19:52:14.544Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T05:58:23.952Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "publishedAt": "2026-11-09T19:24:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
+          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
+          "publishedAt": "2026-11-09T19:32:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Which Claude model should you build with?",
+          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
+          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
+          "publishedAt": "2026-11-10T09:14:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Fable 5.2 AI Built a Complete Operating System in 8 Days",
+          "url": "https://www.geeky-gadgets.com/fable-5-2-capabilities/",
+          "publishedAt": "2026-11-10T13:47:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
       ]
     },
     {
@@ -574,6 +595,27 @@
       ]
     },
     {
+      "id": "10b046f6-8f95-4795-8009-c237c1045979",
+      "title": "Adobe's Firefly AI Assistant can now take on recurring tasks, announced at Adobe Max",
+      "summary": "At its Max conference, Adobe announced a new batch of AI-powered tools, including the ability for its Firefly AI Assistant to handle recurring tasks on users' behalf.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-10T14:05:48.072Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T14:05:48.072Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Adobe Firefly AI Assistant can now take on recurring tasks for you",
+          "url": "https://www.engadget.com/2311901/adobe-firefly-ai-assistant-can-now-take-on-recurring-tasks-for-you/",
+          "publishedAt": "2026-11-10T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "8275fdb6-2879-432e-b98f-c1b381aeb042",
       "title": "WIRED asks 10 experts which AI risks are real: nuclear catastrophe and the US-China race, not Skynet",
       "summary": "WIRED argues the AI safety debate has lost the plot and asked 10 experts for the real nightmares. Their answers point to nuclear catastrophe risk and the fallout of the US-China race for dominance, including espionage, rather than a Skynet-style takeover.",
@@ -690,6 +732,25 @@
       "tags": [
         "model-release"
       ]
+    },
+    {
+      "id": "c7d1270c-7c9b-49ea-a08e-ccbbc5f4817f",
+      "title": "Cyanogen co-founder's Kora takes aim at Windows with a free OS built for AI agents",
+      "summary": "After challenging Google's Android with Cyanogen, its co-founder is preparing Kora, a free-to-use alternative to Windows aimed at users who rely heavily on AI models and agents.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-10T14:05:52.047Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T14:05:52.047Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+          "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+          "publishedAt": "2026-11-10T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "d0b1bc02-4bec-46c1-827a-5c43934f9115",
@@ -1191,6 +1252,27 @@
           "title": "Automattic debuts a platform to deploy vibe coding apps amid a changing internet",
           "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
           "publishedAt": "2026-11-09T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "41a56900-1e56-49ba-bf60-c565a3cc49a7",
+      "title": "Spotify's AI DJ gets new voices and personalities, plus an option to cut the chatter",
+      "summary": "Spotify Premium users can now customize the AI DJ with new voices that have distinct personalities, or switch off its commentary between songs entirely.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-10T14:05:50.156Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T14:05:50.156Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+          "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+          "publishedAt": "2026-11-10T14:00:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1984,68 +2066,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "ad458716-1f53-468d-82f5-b87770ba0322",
-      "title": "Google trims Gemini's free plan to a single model, Flashlight",
-      "summary": "Since October 9, Gemini's free plan offers just one model, Flashlight, a small, fast model, Geeky Gadgets reports citing AI Master. The change simplifies the free experience but limits free users on complex or extended tasks.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-08T13:34:17.797Z",
-      "lastMeaningfulUpdateAt": "2026-11-08T13:34:17.797Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Gemini Just Became Free: You Don’t Need a Google AI Subscription",
-          "url": "https://www.geeky-gadgets.com/free-gemini/",
-          "publishedAt": "2026-11-08T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "f7ecd722-d41c-46f6-a3b5-23124feaccd0",
-      "title": "OpenAI partners with Hacktron to find vulnerabilities in its own systems",
-      "summary": "OpenAI is partnering with security firm Hacktron to find vulnerabilities in its systems, test connections with third-party services, and strengthen its defenses using frontier AI.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-06T19:11:40.180Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T19:11:40.180Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-          "url": "https://openai.com/index/partnering-with-hacktron",
-          "publishedAt": "2026-11-06T08:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "341c66c0-23b1-4584-b88b-b72a6765d779",
-      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-      "summary": "Palo Alto Networks is in talks to acquire Clutch, a startup focused on securing AI agents, for about $500 million. Clutch is backed by Lightspeed and SignalFire and was last valued at $85 million, according to a source.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-06T07:02:05.288Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T07:02:05.288Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-          "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-          "publishedAt": "2026-11-06T06:28:32.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption",
-        "safety"
-      ]
     }
   ],
   "totalCount": 129,
