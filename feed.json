@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T05:58:37.799Z",
+  "generatedAt": "2026-11-10T08:00:17.053Z",
   "stories": [
     {
       "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
@@ -1079,6 +1079,27 @@
       ]
     },
     {
+      "id": "caddc3c7-c630-4f02-bcb1-334304fa20eb",
+      "title": "Meta expands AI age detection to catch Instagram teens using fake birth dates",
+      "summary": "Meta is expanding its AI-based age detection on Instagram to identify teens who entered false birth dates, automatically moving them into Teen Account settings with their safety restrictions.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-10T08:00:10.639Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T08:00:10.639Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Instagram AI Update: Meta Targets Teens Using Fake Birth Dates With New Age Detection Measures",
+          "url": "https://in.mashable.com/tech/115954/instagram-ai-update-meta-targets-teens-using-fake-birth-dates-with-new-age-detection-measures",
+          "publishedAt": "2026-11-10T07:33:45.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "498969c2-ef49-4574-952c-e355ebb062ec",
       "title": "Automattic launches Spacefast, a platform for deploying vibe-coded apps, to take on Lovable",
       "summary": "WordPress owner Automattic debuted Spacefast, a platform for building and deploying vibe-coded apps, positioning it against AI app builders like Lovable as AI reshapes how people make things for the web.",
@@ -1187,6 +1208,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "32df26d7-78fa-4f6c-aae1-813655a86578",
+      "title": "Otter AI adds 27 languages and previews mid-conversation language switching",
+      "summary": "AI meeting note-taker Otter added support for 27 more languages, bringing it past 30, and previewed an upcoming feature that keeps transcribing when speakers switch languages mid-conversation.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-10T08:00:08.590Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T08:00:08.590Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Otter AI can now follow conversations across 30+ languages",
+          "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+          "publishedAt": "2026-11-10T07:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "4127c41a-d561-4f62-8fdc-9d12aca6473c",
@@ -2045,46 +2087,6 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "5f267fa4-e200-4e20-bc93-9a9314cfd069",
-      "title": "Google DeepMind releases Gemini Omni 1.2 Flash, a faster, cheaper model that handles longer clips",
-      "summary": "Google DeepMind announced Gemini Omni 1.2 Flash, pitched as a fast, cost-effective model that supports longer clips.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-05T18:52:54.880Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T18:52:54.880Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-          "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-          "publishedAt": "2026-11-05T17:05:16.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "a67ff031-c2a8-430d-bdb4-d15be67da56c",
-      "title": "Nvidia releases Nemotron-Personas-Finance-Japan, a synthetic persona dataset for Japanese finance",
-      "summary": "Nvidia published Nemotron-Personas-Finance-Japan on Hugging Face, a synthetic dataset of personas that reflects Japan's demographics and financial context. It is meant for building and evaluating localized finance AI applications.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-09T15:48:25.465Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T15:48:25.465Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context ",
-          "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-          "publishedAt": "2026-11-09T15:05:57.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 128,
