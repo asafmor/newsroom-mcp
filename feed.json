@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T20:10:41.616Z",
+  "generatedAt": "2026-11-10T22:13:02.505Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -635,141 +635,13 @@
       ]
     },
     {
-      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
-      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
-      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism",
-      "importanceScore": 0.9,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-09T19:52:14.544Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T05:58:23.952Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-          "publishedAt": "2026-11-09T19:24:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
-          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
-          "publishedAt": "2026-11-09T19:32:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude Fable 5.2 and Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
-          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Which Claude model should you build with?",
-          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
-          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
-          "publishedAt": "2026-11-10T09:14:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Fable 5.2 AI Built a Complete Operating System in 8 Days",
-          "url": "https://www.geeky-gadgets.com/fable-5-2-capabilities/",
-          "publishedAt": "2026-11-10T13:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "7077a07e-4d9e-4ad1-a49f-97cd5d41b468",
-      "title": "Anthropic launches Claude Meetings, Claude Sheets, and a whiteboard app to take on Google and Microsoft",
-      "summary": "Anthropic expanded Claude's workplace suite with new apps aimed squarely at Google Workspace and Microsoft 365.\n\n- Claude Meetings drafts the plan being discussed as participants talk, answers questions in the meeting chat, and pulls data from connected work apps\n- Claude Sheets brings Anthropic into spreadsheets\n- A new whiteboard app lets Claude map out timelines and plans visually",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.92,
-      "firstSeenAt": "2026-11-10T18:09:16.446Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T18:09:16.446Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-          "publishedAt": "2026-11-10T17:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic takes on Google and Microsoft with Claude Sheets",
-          "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/",
-          "publishedAt": "2026-11-10T17:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "4bc6f4c9-665b-42a9-af35-5fd239019a66",
-      "title": "Google DeepMind unveils AlphaProof Code, which formally verified the Signal Protocol's core encryption",
-      "summary": "Google DeepMind unveiled AlphaProof Code, whose AI agents wrote about three million lines of Lean proofs to formally verify that Signal's core encryption works as intended. The team's stretch goal is to do the same for \"all the software of the world.\"",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-10T05:58:16.302Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T12:03:24.363Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
-          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
-          "publishedAt": "2026-11-10T05:01:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Google DeepMind",
-          "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-          "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-          "publishedAt": "2026-11-10T12:02:28.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "research",
-        "safety"
-      ]
-    },
-    {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Nvidia investigates CEO Jensen Huang's relationship with a suspected Chinese spy",
-      "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot; in a company memo, Huang admitted to an affair.\n\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China\n- He began working with Heller, a PR firm known for handling sex scandals, as early as October 2025, WIRED reports\n- Huang has pulled out of the ElevenLabs Summit after earlier withdrawing from an Anthropic event\n- Nvidia stock slid more than 4% after the probe opened; one law firm has now filed a proposed investor class action and several others have announced investigations, per Gizmodo",
-      "importanceScore": 0.75,
+      "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot; in a company memo, Huang admitted to an affair.\n\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- The relationship reportedly helped a network of companies obtain $7.5B in Nvidia AI chips for Chinese firms, per Gizmodo\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China, and began working with Heller, a PR firm known for sex scandals, as early as October 2025, WIRED reports\n- Huang has pulled out of the ElevenLabs Summit after earlier withdrawing from an Anthropic event\n- Nvidia stock slid more than 4% after the probe opened; one law firm has filed a proposed investor class action and others have announced investigations",
+      "importanceScore": 0.78,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T03:57:10.240Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T22:12:25.977Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -889,18 +761,152 @@
           "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
           "publishedAt": "2026-11-10T17:04:19.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Nvidia CEO’s Alleged Chinese Spy Affair Now Reportedly Involves $7.5 Billion in Chip Sales",
+          "url": "https://gizmodo.com/nvidia-ceos-alleged-chinese-spy-affair-now-reportedly-involves-7-5-billion-in-chip-sales-2000837999",
+          "publishedAt": "2026-11-10T21:45:03.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": []
     },
     {
+      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
+      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
+      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-09T19:52:14.544Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T05:58:23.952Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "publishedAt": "2026-11-09T19:24:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
+          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
+          "publishedAt": "2026-11-09T19:32:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Which Claude model should you build with?",
+          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
+          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
+          "publishedAt": "2026-11-10T09:14:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Fable 5.2 AI Built a Complete Operating System in 8 Days",
+          "url": "https://www.geeky-gadgets.com/fable-5-2-capabilities/",
+          "publishedAt": "2026-11-10T13:47:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "7077a07e-4d9e-4ad1-a49f-97cd5d41b468",
+      "title": "Anthropic launches Claude Meetings, Sheets, Whiteboards, Data, and Interactive Connectors to take on Google and Microsoft",
+      "summary": "Anthropic expanded Claude's workplace suite with new apps aimed squarely at Google Workspace and Microsoft 365, just ahead of its IPO.\n\n- Claude Meetings drafts the plan being discussed as participants talk, answers questions in the meeting chat, and pulls data from connected work apps\n- Claude Sheets brings Anthropic into spreadsheets, pitched as an AI-infused Excel competitor\n- Claude Whiteboards lets Claude brainstorm and map out timelines and plans visually\n- Claude Data lets users share data directly inside Claude\n- Interactive Connectors let partners embed their apps directly in Claude, so users and Claude work in the same tool without switching tabs",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.92,
+      "firstSeenAt": "2026-11-10T18:09:16.446Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T22:12:28.073Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+          "publishedAt": "2026-11-10T17:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic takes on Google and Microsoft with Claude Sheets",
+          "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/",
+          "publishedAt": "2026-11-10T17:30:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors",
+          "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+          "publishedAt": "2026-11-10T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
+          "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+          "publishedAt": "2026-11-10T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Your apps can now open in Claude, and Claude can work in them",
+          "url": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+          "publishedAt": "2026-11-10T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Goes for Microsoft’s Crown With New Claude-Powered Office Tools",
+          "url": "https://gizmodo.com/anthropic-goes-for-microsofts-crown-with-new-claude-powered-office-tools-2000837885",
+          "publishedAt": "2026-11-10T21:15:29.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "13a04ae1-e8a7-4d23-b11d-937cc6aee7c7",
-      "title": "New York will independently test AI models instead of taking companies' word",
-      "summary": "New York's state research center will independently test AI models, checking AI companies' work rather than taking their word for it.",
-      "importanceScore": 0.6,
+      "title": "New York's AI safety law takes effect, with state testing of models from OpenAI, Anthropic and others",
+      "summary": "New York is preparing to enforce its sweeping AI safety law, putting major developers like OpenAI and Anthropic under new oversight.\n\n- Covered developers must register with the state and disclose their safety practices\n- They must report critical safety incidents or face fines\n- The state's research center will independently test AI models rather than take companies' word for it",
+      "importanceScore": 0.7,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-11-10T20:10:24.289Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T20:10:24.289Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T22:12:35.493Z",
       "sources": [
         {
           "providerName": "Engadget AI",
@@ -908,10 +914,67 @@
           "url": "https://www.engadget.com/2312487/new-york-will-independently-test-ai-models/",
           "publishedAt": "2026-11-10T19:19:20.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "publishedAt": "2026-11-10T20:52:13.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
         "regulation",
+        "safety"
+      ]
+    },
+    {
+      "id": "4bc6f4c9-665b-42a9-af35-5fd239019a66",
+      "title": "Google DeepMind unveils AlphaProof Code, which formally verified the Signal Protocol's core encryption",
+      "summary": "Google DeepMind unveiled AlphaProof Code, whose AI agents wrote about three million lines of Lean proofs to formally verify that Signal's core encryption works as intended. The team's stretch goal is to do the same for \"all the software of the world.\"",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-10T05:58:16.302Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T12:03:24.363Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+          "publishedAt": "2026-11-10T05:01:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+          "publishedAt": "2026-11-10T12:02:28.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "research",
+        "safety"
+      ]
+    },
+    {
+      "id": "b7f70dd0-1aed-41f6-ab51-f99f73e09db0",
+      "title": "Grok Build coding agent left 35,000 apps exposed, leaking confidential data including SpaceXSI's",
+      "summary": "A security researcher found 35,000 apps built with xAI's Grok Build vibe-coding agent wide open to anyone who looked, leaking large amounts of confidential information — some of it belonging to SpaceXSI.",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.88,
+      "firstSeenAt": "2026-11-10T22:12:48.100Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T22:12:48.100Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+          "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+          "publishedAt": "2026-11-10T21:12:59.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -1094,6 +1157,25 @@
       "tags": [
         "infrastructure"
       ]
+    },
+    {
+      "id": "626cc633-5e0b-48a7-96fe-794f4cd4998e",
+      "title": "OpenAI acquires Odessia, a travel startup from Sonder founder Francis Davidson",
+      "summary": "OpenAI has acquired Odessia, a travel startup founded by Sonder founder Francis Davidson, a well-known travel-industry figure. OpenAI hasn't said what it plans to do in travel.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-10T22:12:50.093Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T22:12:50.093Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+          "publishedAt": "2026-11-10T21:08:52.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "45ceead1-edc9-4039-ad69-690cfd05e20f",
@@ -1668,6 +1750,27 @@
       ]
     },
     {
+      "id": "29ac6235-a7fa-45ff-874f-101343c6446b",
+      "title": "Curative's Claude-based deal-making agent negotiates 2,000+ provider contracts a week",
+      "summary": "Curative is building a national provider network with agents on Claude; its deal-making agent negotiates more than 2,000 provider contracts a week, per an Anthropic case study.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-10T22:12:52.343Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T22:12:52.343Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "How Curative is building a national provider network with agents on Claude",
+          "url": "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
+          "publishedAt": "2026-11-10T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "7514775f-aca8-4b12-96f9-35e80315772d",
       "title": "Chainalysis says hackers stole credentials and tokens for all of its customers in an attack that used AI agents",
       "summary": "Blockchain analytics firm Chainalysis said attackers stole credentials and tokens belonging to all of its customers in a \"multifront cyberattack\" that included AI agents and an on-path data snatch, per Ars Technica.",
@@ -1824,67 +1927,6 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "296892f2-7c26-442f-8f62-d45ce996a2a5",
-      "title": "OpenAI case study: Kuken Industries searches 70 years of engineering drawings in minutes",
-      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings, cutting the time engineers need to find a repair drawing from nearly an hour to 4.5 minutes.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-09T19:52:24.518Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T19:52:24.518Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Kuken Industries searches 70 years of drawings in minutes",
-          "url": "https://openai.com/index/kuken",
-          "publishedAt": "2026-11-09T08:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "459a194b-eff8-4fb4-b635-c6fb269a8e8d",
-      "title": "Hundreds of servers running the Artex AI hacking tool found exposed to the open web",
-      "summary": "Security researchers found hundreds of internet-exposed servers hosting Artex, an AI penetration-testing tool, letting anyone access and use the hacking tool, TechCrunch reports.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-06T19:11:35.683Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T19:11:35.683Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-          "publishedAt": "2026-11-06T18:44:38.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "cd023cd5-a88e-4d5f-822d-9fee278d640d",
-      "title": "Data brokers are buying companies' internal files and emails to sell as AI training data",
-      "summary": "Data brokers are collecting internal corporate files, including work documents and emails, to sell to AI companies for model training, WIRED's Steven Levy reports — a growing market that not everyone is comfortable with.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-06T17:10:14.076Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T17:10:14.076Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
-          "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
-          "publishedAt": "2026-11-06T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 126,
