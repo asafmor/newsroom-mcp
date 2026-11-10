@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T08:00:17.053Z",
+  "generatedAt": "2026-11-10T10:01:33.826Z",
   "stories": [
     {
       "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
@@ -51,6 +51,13 @@
           "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
           "publishedAt": "2026-11-09T00:00:00.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
+          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
+          "publishedAt": "2026-11-10T09:14:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1079,6 +1086,27 @@
       ]
     },
     {
+      "id": "194dd7c0-b81d-4d36-893c-b3a295ca4fe4",
+      "title": "Microsoft's November Copilot update adds seven features across Excel, PowerPoint and SharePoint",
+      "summary": "Microsoft's November 2026 Copilot update brings seven new features to Office apps including Excel, PowerPoint and SharePoint, led by an Excel \"clean data\" skill that fixes inconsistent capitalization and formatting while letting users review the proposed changes.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-10T10:01:22.733Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T10:01:22.733Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "November 2026 Microsoft Office Updates Brings 7 Mew Copilot Features",
+          "url": "https://www.geeky-gadgets.com/microsoft-copilot-features-november-2026/",
+          "publishedAt": "2026-11-10T08:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "caddc3c7-c630-4f02-bcb1-334304fa20eb",
       "title": "Meta expands AI age detection to catch Instagram teens using fake birth dates",
       "summary": "Meta is expanding its AI-based age detection on Instagram to identify teens who entered false birth dates, automatically moving them into Teen Account settings with their safety restrictions.",
@@ -1189,6 +1217,25 @@
       "tags": [
         "safety"
       ]
+    },
+    {
+      "id": "f5182df8-e138-4a45-a60f-02ec7d1f80d4",
+      "title": "OpenAI shares lessons from its EMEA education partnerships and new ThinkYoung research on AI guidance in schools",
+      "summary": "OpenAI published lessons from its education partnerships across Europe, the Middle East and Africa alongside new research from ThinkYoung, arguing schools need clearer AI guidance to support teachers, AI literacy and independent learning.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-10T10:01:24.983Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T10:01:24.983Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Closing the AI guidance gap in education",
+          "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+          "publishedAt": "2026-11-10T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "34054ae6-8934-43ac-98b6-ac9954126b6a",
@@ -2026,69 +2073,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "48927e69-2b70-4ae9-bbf8-c02a8299c629",
-      "title": "OpenAI rumored to release GPT-6.2 Sol and Astra, reportedly built on a 10-trillion-parameter \"Bell\" model",
-      "summary": "Unconfirmed reports say OpenAI's next models, GPT-6.2 Sol and Astra, could arrive as soon as Friday.\n\n- A leaked \"Bell\" model with over 10 trillion parameters is rumored to underpin GPT-6.2, per AI Grid via Geeky Gadgets\n- GPT-6.2 Sol is said to focus on balancing cost-efficiency with strong performance, aimed at both budget-conscious startups and large enterprises\n- Earlier rumors of a \"GPT-Next\" model pointed to speed and cost gains over GPT-6.1 Sol, in line with a reported 28-day improvement cycle\n- The claims come from YouTube channels (Universe of AI, World of AI, AI Grid) via Geeky Gadgets; OpenAI has not confirmed them",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-08T08:29:04.503Z",
-      "lastMeaningfulUpdateAt": "2026-11-07T11:21:09.131Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Rumored ChatGPT Next AI Model Could Beat GPT-6.1 Sol on Generation Times",
-          "url": "https://www.geeky-gadgets.com/openai-gpt-next-leak-news/",
-          "publishedAt": "2026-10-08T07:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI May Release ChatGPT 6.2 Sol and Astra Models on Friday",
-          "url": "https://www.geeky-gadgets.com/chatgpt-sol-6/",
-          "publishedAt": "2026-11-05T09:17:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Leaked Bell Model May Equip ChatGPT 6.2 with 10 Trillion Parameters",
-          "url": "https://www.geeky-gadgets.com/openai-gpt-6-2-rumors/",
-          "publishedAt": "2026-11-07T11:00:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "4295043e-928b-4629-a8e9-5356905d8314",
-      "title": "Cloudflare gives site owners visibility and control over personal AI agent traffic",
-      "summary": "Cloudflare is adding tools that let site owners see personal AI agents visiting their sites and set terms for their access, arguing these agents have blurred the line between automated and human traffic. In a follow-up post, it lays out the problem of intermediaries hiding the users agents act for and proposes a collaborative \"trusted agent delegation\" approach to safely identifying, allowing, and managing that traffic.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-04T18:29:42.704Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T20:54:35.969Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "See the agents, set the terms: new visibility and control for personal agents",
-          "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-          "publishedAt": "2026-11-04T14:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Agents aren’t humans (but they kinda are)",
-          "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
-          "publishedAt": "2026-11-05T17:03:04.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 128,
+  "totalCount": 130,
   "hasMore": true
 }
