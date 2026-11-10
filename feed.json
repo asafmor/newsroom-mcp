@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T01:56:20.384Z",
+  "generatedAt": "2026-11-10T03:57:23.404Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -229,11 +229,11 @@
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Nvidia investigates CEO Jensen Huang's relationship with a suspected Chinese spy",
-      "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot; in a company memo, Huang admitted to an affair.\n\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China\n- He began working with Heller, a PR firm known for handling sex scandals, as early as October 2025, WIRED reports\n- Huang has pulled out of the ElevenLabs Summit after earlier withdrawing from an Anthropic event\n- Nvidia stock slid more than 4% after the probe opened, and securities lawyers see costly litigation risk in the company's earlier insistence the relationship was \"normal\"",
+      "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot; in a company memo, Huang admitted to an affair.\n\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China\n- He began working with Heller, a PR firm known for handling sex scandals, as early as October 2025, WIRED reports\n- Huang has pulled out of the ElevenLabs Summit after earlier withdrawing from an Anthropic event\n- Nvidia stock slid more than 4% after the probe opened; one law firm has now filed a proposed investor class action and several others have announced investigations, per Gizmodo",
       "importanceScore": 0.75,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T23:55:12.755Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T03:57:10.240Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -332,6 +332,32 @@
           "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
           "publishedAt": "2026-11-10T00:18:19.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Lawyers Are Flying in Circles Above Nvidia’s Head After Jensen Huang’s Affair With Alleged Spy",
+          "url": "https://gizmodo.com/lawyers-are-flying-in-circles-above-nvidias-head-after-jensen-huangs-affair-with-alleged-spy-2000837488",
+          "publishedAt": "2026-11-10T03:30:15.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "de5ae6dc-c8be-44e9-8104-66979c7d9b72",
+      "title": "AI-driven tech layoffs top 200,000 in 2026, raising fears of a 1.6 million job recession",
+      "summary": "The tech industry has cut more than 200,000 jobs in 2026 amid the AI push, and CNET reports the bigger question is whether layoffs spread to retail and finance — a scenario that could trigger a 1.6 million job recession.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-10T03:57:15.197Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T03:57:15.197Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "AI-Driven Tech Layoffs Could Trigger a 1.6 Million Job Recession",
+          "url": "https://www.cnet.com/tech/services-and-software/ai-tech-layoffs-2026-trigger-recession/",
+          "publishedAt": "2026-11-09T23:24:46.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -2038,27 +2064,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "0c8b59b7-522f-4a5a-991f-aacf8a8b4aef",
-      "title": "SpaceXAI's Grok can now be set up inside Google Workspace",
-      "summary": "Engadget published a guide to adding SpaceXAI's Grok to Google Workspace. It says setup is easy, but admins should weigh a few considerations before rolling it out to their organization.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-07T19:25:07.868Z",
-      "lastMeaningfulUpdateAt": "2026-11-07T19:25:07.868Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "How to set up SpaceXAI's Grok in Google Workspace (and what it can do)",
-          "url": "https://www.engadget.com/2309543/how-to-set-up-use-spacexai-grok-in-google-workspace/",
-          "publishedAt": "2026-11-07T19:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 127,
+  "totalCount": 126,
   "hasMore": true
 }
