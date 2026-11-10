@@ -1,6 +1,62 @@
 {
-  "generatedAt": "2026-11-10T03:57:23.404Z",
+  "generatedAt": "2026-11-10T05:58:37.799Z",
   "stories": [
+    {
+      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
+      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
+      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-09T19:52:14.544Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T05:58:23.952Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "publishedAt": "2026-11-09T19:24:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
+          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
+          "publishedAt": "2026-11-09T19:32:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Which Claude model should you build with?",
+          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "background"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
       "title": "Anthropic pushes ahead with its IPO as soon as next week, despite its expected valuation halving to $1 trillion",
@@ -192,41 +248,6 @@
       ]
     },
     {
-      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
-      "title": "Anthropic releases new Mythos and Fable models amid recursive self-improvement concerns",
-      "summary": "Anthropic released new Mythos and Fable models, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism",
-      "importanceScore": 0.88,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-09T19:52:14.544Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T19:52:14.544Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-          "publishedAt": "2026-11-09T19:24:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
-          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
-          "publishedAt": "2026-11-09T19:32:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Nvidia investigates CEO Jensen Huang's relationship with a suspected Chinese spy",
       "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot; in a company memo, Huang admitted to an affair.\n\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China\n- He began working with Heller, a PR firm known for handling sex scandals, as early as October 2025, WIRED reports\n- Huang has pulled out of the ElevenLabs Summit after earlier withdrawing from an Anthropic event\n- Nvidia stock slid more than 4% after the probe opened; one law firm has now filed a proposed investor class action and several others have announced investigations, per Gizmodo",
@@ -339,9 +360,59 @@
           "url": "https://gizmodo.com/lawyers-are-flying-in-circles-above-nvidias-head-after-jensen-huangs-affair-with-alleged-spy-2000837488",
           "publishedAt": "2026-11-10T03:30:15.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Jensen Huang Nvidia Affair Scandal: What We Know, What We Don’t",
+          "url": "https://in.mashable.com/tech-industry/115939/jensen-huang-nvidia-affair-scandal-what-we-know-what-we-dont",
+          "publishedAt": "2026-11-09T19:47:30.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
+    },
+    {
+      "id": "4bc6f4c9-665b-42a9-af35-5fd239019a66",
+      "title": "Google DeepMind's new AI tool formally verifies that the Signal Protocol is secure",
+      "summary": "Google DeepMind researchers used a new AI tool to formally verify that the widely used Signal encryption protocol works as intended, WIRED reports. Their stretch goal is to do the same for \"all the software of the world.\"",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-10T05:58:16.302Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T05:58:16.302Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+          "publishedAt": "2026-11-10T05:01:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research",
+        "safety"
+      ]
+    },
+    {
+      "id": "b6464084-cd6f-46a1-a119-d3274919c2c1",
+      "title": "Anthropic shows Claude designing working electronic prototypes from start to finish",
+      "summary": "Anthropic asked Claude to design three electronic devices — a speakerphone, a voice-assistant hub, and a handheld virtual pet — and says all three prototypes worked without any fixes to their circuitry.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.88,
+      "firstSeenAt": "2026-11-10T05:58:22.103Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T05:58:22.103Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude can design electronic prototypes from start to finish",
+          "url": "https://www.anthropic.com/research/claude-electronics-design",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
     },
     {
       "id": "de5ae6dc-c8be-44e9-8104-66979c7d9b72",
@@ -402,6 +473,27 @@
       ],
       "tags": [
         "infrastructure"
+      ]
+    },
+    {
+      "id": "578f1e42-832c-4735-afa0-a6efed806234",
+      "title": "JPMorganChase expands Claude Code to more employees across the firm",
+      "summary": "JPMorganChase is expanding Anthropic's Claude Code coding agent to more of its employees across the firm, according to Anthropic's Claude blog.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-10T05:58:18.302Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T05:58:18.302Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "JPMorganChase expands Claude Code to more employees across the firm",
+          "url": "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -1993,79 +2085,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "388448ad-1b87-413e-8e72-90576209bf78",
-      "title": "OpenAI launches Images 2.6, bringing animated GIF generation to ChatGPT and Codex",
-      "summary": "OpenAI unveiled Images 2.6, its latest image generation model, which can create animated GIFs from a text prompt or an uploaded image. It is rolling out globally to ChatGPT and the Codex coding tool.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-05T06:41:10.838Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T06:41:10.838Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "ChatGPT Now Lets You Generate GIFs",
-          "url": "https://in.mashable.com/tech/115773/chatgpt-now-lets-you-generate-gifs",
-          "publishedAt": "2026-11-05T02:21:10.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "How to Turn Your Photos, Sketches and Ideas Into Animated GIFs Using ChatGPT: Prompts Inside",
-          "url": "https://in.mashable.com/tech/115835/how-to-turn-your-photos-sketches-and-ideas-into-animated-gifs-using-chatgpt-prompts-inside",
-          "publishedAt": "2026-11-06T05:40:32.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "product-launch"
-      ]
-    },
-    {
-      "id": "9deb0efb-a300-4fec-9520-dfdc40786507",
-      "title": "Google researchers propose a \"sleep\" framework to stop LLMs forgetting facts",
-      "summary": "Google researchers proposed a neuroscience-inspired \"sleep\" framework that alternates wake and sleep phases to help LLMs retain facts, aimed at catastrophic forgetting, where new learning overwrites what a model already knew, per Geeky Gadgets.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-06T15:09:13.588Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T15:09:13.588Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Researchers Propose Sleep Framework to Retain LLM Facts",
-          "url": "https://www.geeky-gadgets.com/llm-sleep-framework-research/",
-          "publishedAt": "2026-11-06T14:13:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "90c48402-c066-41cf-9fe8-fae20c6b148b",
-      "title": "Amazon researchers propose HOPE, a higher-order pruning method for mixture-of-experts models",
-      "summary": "Amazon researchers, writing on the Hugging Face blog, introduce HOPE (higher-order pruning of experts), an approach to slimming mixture-of-experts models that accounts for how experts work together, keeping \"partner\" experts together rather than pruning each one in isolation.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-09T13:47:08.427Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T13:47:08.427Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-          "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-          "publishedAt": "2026-11-09T12:34:29.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 126,
+  "totalCount": 128,
   "hasMore": true
 }
