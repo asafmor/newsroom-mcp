@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T10:01:33.826Z",
+  "generatedAt": "2026-11-10T12:03:41.660Z",
   "stories": [
     {
       "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
@@ -255,6 +255,35 @@
       ]
     },
     {
+      "id": "4bc6f4c9-665b-42a9-af35-5fd239019a66",
+      "title": "Google DeepMind unveils AlphaProof Code, which formally verified the Signal Protocol's core encryption",
+      "summary": "Google DeepMind unveiled AlphaProof Code, whose AI agents wrote about three million lines of Lean proofs to formally verify that Signal's core encryption works as intended. The team's stretch goal is to do the same for \"all the software of the world.\"",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-10T05:58:16.302Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T12:03:24.363Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+          "publishedAt": "2026-11-10T05:01:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+          "publishedAt": "2026-11-10T12:02:28.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "research",
+        "safety"
+      ]
+    },
+    {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Nvidia investigates CEO Jensen Huang's relationship with a suspected Chinese spy",
       "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot; in a company memo, Huang admitted to an affair.\n\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China\n- He began working with Heller, a PR firm known for handling sex scandals, as early as October 2025, WIRED reports\n- Huang has pulled out of the ElevenLabs Summit after earlier withdrawing from an Anthropic event\n- Nvidia stock slid more than 4% after the probe opened; one law firm has now filed a proposed investor class action and several others have announced investigations, per Gizmodo",
@@ -379,24 +408,23 @@
       "tags": []
     },
     {
-      "id": "4bc6f4c9-665b-42a9-af35-5fd239019a66",
-      "title": "Google DeepMind's new AI tool formally verifies that the Signal Protocol is secure",
-      "summary": "Google DeepMind researchers used a new AI tool to formally verify that the widely used Signal encryption protocol works as intended, WIRED reports. Their stretch goal is to do the same for \"all the software of the world.\"",
-      "importanceScore": 0.72,
+      "id": "3f00fdfd-b642-4301-8862-0ac2aa12a766",
+      "title": "\"Abliterators\" flood the internet with open AI models stripped of their refusals",
+      "summary": "A WIRED feature profiles the \"abliterators,\" a loose movement that strips guardrails from AI models and releases versions that never say no. The models can help people harden their cyberdefenses, but they also make it easier to get dangerous help, such as instructions for building a bomb.",
+      "importanceScore": 0.6,
       "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-10T05:58:16.302Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T05:58:16.302Z",
+      "firstSeenAt": "2026-11-10T12:03:26.765Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T12:03:26.765Z",
       "sources": [
         {
           "providerName": "Wired AI",
-          "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
-          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
-          "publishedAt": "2026-11-10T05:01:00.000Z",
+          "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
+          "url": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
+          "publishedAt": "2026-11-10T11:00:00.000Z",
           "contribution": "supporting"
         }
       ],
       "tags": [
-        "research",
         "safety"
       ]
     },
@@ -543,6 +571,28 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "8275fdb6-2879-432e-b98f-c1b381aeb042",
+      "title": "WIRED asks 10 experts which AI risks are real: nuclear catastrophe and the US-China race, not Skynet",
+      "summary": "WIRED argues the AI safety debate has lost the plot and asked 10 experts for the real nightmares. Their answers point to nuclear catastrophe risk and the fallout of the US-China race for dominance, including espionage, rather than a Skynet-style takeover.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-10T12:03:29.315Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T12:03:29.315Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+          "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+          "publishedAt": "2026-11-10T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
       ]
     },
     {
@@ -1996,85 +2046,8 @@
         "enterprise-adoption",
         "safety"
       ]
-    },
-    {
-      "id": "53aaeb62-0766-4d60-a422-a811d4089ad9",
-      "title": "Claude adds a Personal Finance tool that analyzes spending from linked bank and card accounts",
-      "summary": "Anthropic launched Personal Finance in Claude, letting users connect their bank and card accounts through Plaid and ask questions about their spending and finances. Engadget notes it follows a similar move by ChatGPT and questions whether users should hand their finances to a chatbot.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-05T18:52:50.382Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T18:52:50.382Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Claude can now analyze your spending with its new Personal Finance tool",
-          "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
-          "publishedAt": "2026-11-05T18:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Now Claude can help with your finances too",
-          "url": "https://www.engadget.com/2307936/now-claude-can-help-with-your-finances-too/",
-          "publishedAt": "2026-11-05T18:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Introducing Personal Finance in Claude",
-          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
-          "publishedAt": "2026-11-05T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Claude Gets New Finance Feature To Track Spending And Manage Money",
-          "url": "https://in.mashable.com/tech/115861/claude-gets-new-finance-feature-to-track-spending-and-manage-money",
-          "publishedAt": "2026-11-06T11:59:52.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic Launches Claude AI Personal Finance Beta for US Users",
-          "url": "https://www.geeky-gadgets.com/financial-data/",
-          "publishedAt": "2026-11-07T07:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Claude Personal Finance vs. ChatGPT Finances: What sets them apart?",
-          "url": "https://www.engadget.com/2310182/claude-vs-chatgpt-personal-finance-comparison/",
-          "publishedAt": "2026-11-07T23:10:20.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "a51e5cbd-cbdb-49d6-994f-53557be979cd",
-      "title": "Axiom Math's AI agents formally verify the Stacks Project, one of math's biggest libraries",
-      "summary": "Axiom Math is betting on formal verification to keep unchecked AI-generated proofs out of mathematics, and says its AI agents have just formally verified the Stacks Project, one of the field's largest reference libraries.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-05T16:51:10.122Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T16:51:10.122Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Axiom Math wants to keep AI slop out of mathematics",
-          "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
-          "publishedAt": "2026-11-05T16:16:45.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 130,
+  "totalCount": 129,
   "hasMore": true
 }
