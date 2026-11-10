@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T14:06:05.734Z",
+  "generatedAt": "2026-11-10T16:08:14.736Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -206,645 +206,62 @@
       ]
     },
     {
-      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
-      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
-      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism",
-      "importanceScore": 0.9,
+      "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
+      "title": "Google DeepMind makes Gemini 4 Carbon, its next frontier model, available",
+      "summary": "Google DeepMind says Gemini 4 Carbon, its next frontier model, is now available.\n\n- Access was first limited to select cybersecurity experts after its late-October announcement\n- Google pitched Carbon as a \"significant leap\" in coding and cybersecurity, and one report says it beat Claude Opus 5.5 on 16 of 18 tests\n- Carbon follows Gemini 4 Argon, which rolled out to the Gemini app and AI Mode in Search earlier this month",
+      "importanceScore": 0.88,
       "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-09T19:52:14.544Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T05:58:23.952Z",
+      "firstSeenAt": "2026-10-28T18:10:56.235Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T16:07:49.756Z",
       "sources": [
         {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-          "publishedAt": "2026-11-09T19:24:51.000Z",
+          "providerName": "Google DeepMind",
+          "title": "Gemini 4 Carbon: Our next frontier model",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+          "publishedAt": "2026-10-28T17:00:58.000Z",
           "contribution": "supporting"
         },
         {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
-          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
-          "publishedAt": "2026-11-09T19:32:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude Fable 5.2 and Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
-          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "providerName": "CNET AI",
+          "title": "Google Debuts New AI Models, Genie 4 and Gemini 4 Carbon: What You Need to Know",
+          "url": "https://www.cnet.com/tech/services-and-software/google-genie-4-gemini-4-carbon-ai-news/",
+          "publishedAt": "2026-10-28T20:51:37.000Z",
           "contribution": "meaningful-update"
         },
         {
-          "providerName": "Claude Blog",
-          "title": "Which Claude model should you build with?",
-          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
-          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
-          "publishedAt": "2026-11-10T09:14:00.000Z",
+          "providerName": "Engadget AI",
+          "title": "Google's Gemini 4 Carbon promises 'significant leap' in AI coding and cybersecurity",
+          "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/",
+          "publishedAt": "2026-10-29T09:41:58.000Z",
           "contribution": "supporting"
         },
         {
           "providerName": "Geeky Gadgets AI",
-          "title": "New Fable 5.2 AI Built a Complete Operating System in 8 Days",
-          "url": "https://www.geeky-gadgets.com/fable-5-2-capabilities/",
-          "publishedAt": "2026-11-10T13:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "4bc6f4c9-665b-42a9-af35-5fd239019a66",
-      "title": "Google DeepMind unveils AlphaProof Code, which formally verified the Signal Protocol's core encryption",
-      "summary": "Google DeepMind unveiled AlphaProof Code, whose AI agents wrote about three million lines of Lean proofs to formally verify that Signal's core encryption works as intended. The team's stretch goal is to do the same for \"all the software of the world.\"",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-10T05:58:16.302Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T12:03:24.363Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
-          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
-          "publishedAt": "2026-11-10T05:01:00.000Z",
+          "title": "Google Gemini 4 Carbon Beats Claude Opus 5.5 in 16 of 18 Tests",
+          "url": "https://www.geeky-gadgets.com/google-gemini-4-carbon-announced/",
+          "publishedAt": "2026-10-29T12:47:00.000Z",
           "contribution": "supporting"
         },
         {
           "providerName": "Google DeepMind",
-          "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-          "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-          "publishedAt": "2026-11-10T12:02:28.000Z",
+          "title": "Gemini 4 Carbon is now available",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+          "publishedAt": "2026-11-10T16:03:47.000Z",
           "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "research",
-        "safety"
-      ]
-    },
-    {
-      "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "Nvidia investigates CEO Jensen Huang's relationship with a suspected Chinese spy",
-      "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot; in a company memo, Huang admitted to an affair.\n\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China\n- He began working with Heller, a PR firm known for handling sex scandals, as early as October 2025, WIRED reports\n- Huang has pulled out of the ElevenLabs Summit after earlier withdrawing from an Anthropic event\n- Nvidia stock slid more than 4% after the probe opened; one law firm has now filed a proposed investor class action and several others have announced investigations, per Gizmodo",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T03:57:10.240Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Intel Community Reportedly Tied Trump’s Favorite AI Boss to a Chinese Spy",
-          "url": "https://gizmodo.com/nvidia-ceo-jensen-huang-tied-to-chinese-spy-trump-2000832476",
-          "publishedAt": "2026-10-29T16:20:17.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
-          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
-          "publishedAt": "2026-10-29T16:42:32.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Chinese Spy Who Targeted Jensen Huang Worked Directly for China’s Top Spy Agency: Report",
-          "url": "https://gizmodo.com/chinese-spy-who-targeted-jensen-huang-worked-directly-for-chinas-top-spy-agency-report-2000836560",
-          "publishedAt": "2026-11-07T02:40:47.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "China's main intelligence agency reportedly recruited the spy who targeted NVIDIA's CEO",
-          "url": "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo/",
-          "publishedAt": "2026-11-07T14:00:06.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-          "publishedAt": "2026-11-07T21:17:08.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-          "publishedAt": "2026-11-08T21:00:11.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
-          "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-          "publishedAt": "2026-11-09T05:26:29.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
-          "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/",
-          "publishedAt": "2026-11-09T14:30:56.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
-          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
-          "publishedAt": "2026-11-09T18:09:52.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
-          "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
-          "publishedAt": "2026-11-09T20:09:06.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago",
-          "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
-          "publishedAt": "2026-11-09T23:28:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
-          "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
-          "publishedAt": "2026-11-09T22:46:09.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "The race is on to sue Nvidia",
-          "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
-          "publishedAt": "2026-11-09T22:23:42.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
-          "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
-          "publishedAt": "2026-11-10T00:18:19.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Lawyers Are Flying in Circles Above Nvidia’s Head After Jensen Huang’s Affair With Alleged Spy",
-          "url": "https://gizmodo.com/lawyers-are-flying-in-circles-above-nvidias-head-after-jensen-huangs-affair-with-alleged-spy-2000837488",
-          "publishedAt": "2026-11-10T03:30:15.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Mashable AI",
-          "title": "Jensen Huang Nvidia Affair Scandal: What We Know, What We Don’t",
-          "url": "https://in.mashable.com/tech-industry/115939/jensen-huang-nvidia-affair-scandal-what-we-know-what-we-dont",
-          "publishedAt": "2026-11-09T19:47:30.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "3f00fdfd-b642-4301-8862-0ac2aa12a766",
-      "title": "\"Abliterators\" flood the internet with open AI models stripped of their refusals",
-      "summary": "A WIRED feature profiles the \"abliterators,\" a loose movement that strips guardrails from AI models and releases versions that never say no. The models can help people harden their cyberdefenses, but they also make it easier to get dangerous help, such as instructions for building a bomb.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-10T12:03:26.765Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T12:03:26.765Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
-          "url": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
-          "publishedAt": "2026-11-10T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "b6464084-cd6f-46a1-a119-d3274919c2c1",
-      "title": "Anthropic shows Claude designing working electronic prototypes from start to finish",
-      "summary": "Anthropic asked Claude to design three electronic devices — a speakerphone, a voice-assistant hub, and a handheld virtual pet — and says all three prototypes worked without any fixes to their circuitry.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.88,
-      "firstSeenAt": "2026-11-10T05:58:22.103Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T05:58:22.103Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude can design electronic prototypes from start to finish",
-          "url": "https://www.anthropic.com/research/claude-electronics-design",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "de5ae6dc-c8be-44e9-8104-66979c7d9b72",
-      "title": "AI-driven tech layoffs top 200,000 in 2026, raising fears of a 1.6 million job recession",
-      "summary": "The tech industry has cut more than 200,000 jobs in 2026 amid the AI push, and CNET reports the bigger question is whether layoffs spread to retail and finance — a scenario that could trigger a 1.6 million job recession.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-10T03:57:15.197Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T03:57:15.197Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "AI-Driven Tech Layoffs Could Trigger a 1.6 Million Job Recession",
-          "url": "https://www.cnet.com/tech/services-and-software/ai-tech-layoffs-2026-trigger-recession/",
-          "publishedAt": "2026-11-09T23:24:46.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "5e4c1486-6e6f-4f0a-bca7-dd7f6768045f",
-      "title": "Meta releases Muse Ember, a cheap lightweight model for agent execution",
-      "summary": "Meta released Muse Ember, a lightweight model built for executing agent tasks. At 10 cents per million input tokens, it undercuts small frontier competitors like Haiku and Luna by a wide margin.",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-09T19:52:18.692Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T19:52:18.692Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-          "publishedAt": "2026-11-09T18:00:00.000Z",
-          "contribution": "supporting"
         }
       ],
       "tags": [
         "model-release"
-      ]
-    },
-    {
-      "id": "de1d86ba-597a-4c34-adb6-e44ab1d0de61",
-      "title": "Anthropic buys $3.4B worth of natural gas turbines to power its AI buildout",
-      "summary": "Anthropic has bought about $3.4 billion worth of natural gas turbines, joining the AI industry's rush to gas-fired power for data centers. TechCrunch warns the deal could leave Anthropic with buyer's remorse.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-09T17:50:15.147Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T17:50:15.147Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-          "publishedAt": "2026-11-09T16:56:54.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "578f1e42-832c-4735-afa0-a6efed806234",
-      "title": "JPMorganChase expands Claude Code to more employees across the firm",
-      "summary": "JPMorganChase is expanding Anthropic's Claude Code coding agent to more of its employees across the firm, according to Anthropic's Claude blog.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-10T05:58:18.302Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T05:58:18.302Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "JPMorganChase expands Claude Code to more employees across the firm",
-          "url": "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "1da81b6d-4c63-4784-9324-7d5a979bd21a",
-      "title": "Google unveils two new variants of its AI chip systems to compete with Nvidia",
-      "summary": "Google unveiled two new variants of its existing AI chip systems as it steps up competition with Nvidia, Gizmodo reports.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-09T17:50:22.042Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T17:50:22.042Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Has Two New Weapons in Its Fight Against Nvidia",
-          "url": "https://gizmodo.com/google-has-two-new-weapons-in-its-fight-against-nvidia-2000837111",
-          "publishedAt": "2026-11-09T17:10:52.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "40b1c4ea-440e-4a20-8175-9a11d13a7400",
-      "title": "Scott Wiener, author of California's AI safety bills, wins Pelosi's House seat and eyes federal AI regulation",
-      "summary": "Scott Wiener, the California state senator who authored legislation to curb the risks of advanced AI, won a tight race for Nancy Pelosi's open San Francisco congressional seat. MIT Technology Review says he could play a key role in setting federal AI policy and is ready to regulate AI.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-09T17:50:19.992Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T17:50:19.992Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-          "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
-          "publishedAt": "2026-11-09T17:05:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
-    },
-    {
-      "id": "10b046f6-8f95-4795-8009-c237c1045979",
-      "title": "Adobe's Firefly AI Assistant can now take on recurring tasks, announced at Adobe Max",
-      "summary": "At its Max conference, Adobe announced a new batch of AI-powered tools, including the ability for its Firefly AI Assistant to handle recurring tasks on users' behalf.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-10T14:05:48.072Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T14:05:48.072Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Adobe Firefly AI Assistant can now take on recurring tasks for you",
-          "url": "https://www.engadget.com/2311901/adobe-firefly-ai-assistant-can-now-take-on-recurring-tasks-for-you/",
-          "publishedAt": "2026-11-10T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "8275fdb6-2879-432e-b98f-c1b381aeb042",
-      "title": "WIRED asks 10 experts which AI risks are real: nuclear catastrophe and the US-China race, not Skynet",
-      "summary": "WIRED argues the AI safety debate has lost the plot and asked 10 experts for the real nightmares. Their answers point to nuclear catastrophe risk and the fallout of the US-China race for dominance, including espionage, rather than a Skynet-style takeover.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-10T12:03:29.315Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T12:03:29.315Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
-          "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
-          "publishedAt": "2026-11-10T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "opinion"
-      ]
-    },
-    {
-      "id": "6b2a28ef-9001-4be0-802d-c4b5c07ec0ee",
-      "title": "Music rights holders pile on copyright suits against Suno and Anthropic",
-      "summary": "AI music generator Suno and Anthropic face a growing wave of copyright lawsuits over training on music and lyrics.\n\n- Suno and Anthropic were sued over songs by Madonna, Johnny Cash, and Joni Mitchell, CNET reports\n- Elvis Presley's estate filed its own copyright suit against Anthropic days earlier\n- New: the groups that own the rights to Elvis Presley's and Eminem's tracks filed fresh lawsuits against Suno, Engadget reports",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-28T01:59:13.360Z",
-      "lastMeaningfulUpdateAt": "2026-11-08T21:39:03.248Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Anthropic, Suno Sued for Unlawfully Using Songs by Madonna, Johnny Cash, Joni Mitchell",
-          "url": "https://www.cnet.com/tech/services-and-software/anthropic-suno-sued-using-songs-madonna-johnny-cash-joni-mitchell/",
-          "publishedAt": "2026-10-27T21:22:44.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Suno AI music generator sued again for copyright infringement",
-          "url": "https://www.engadget.com/2310316/suno-ai-music-generator-sued-again-for-copyright-infringement/",
-          "publishedAt": "2026-11-08T19:42:14.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "a987794e-0ade-4ffe-9680-a4421cfbe9a2",
-      "title": "ChatGPT Enterprise is now available in AWS Marketplace",
-      "summary": "OpenAI made ChatGPT Enterprise available through AWS Marketplace, letting organizations buy it through their existing AWS purchasing and billing relationships.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-09T19:52:22.643Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T19:52:22.643Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "ChatGPT Enterprise now available in AWS Marketplace",
-          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-          "publishedAt": "2026-11-09T19:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "19705118-9d06-4461-9d29-3056bbc8fa91",
-      "title": "Data center protests spread across Europe, from a Microsoft site in Amsterdam to a planned Google facility near London",
-      "summary": "Protests against the rapid expansion of AI data centers are breaking out across Europe, targeting several of the biggest tech companies.\n\n- More than 100 protesters stormed a Microsoft data center site in Amsterdam, one of several demonstrations planned across Europe that weekend, Gizmodo reports\n- East of London, an unlikely coalition of bikers and insect-conservation activists is trying to block Google from building a sprawling new facility, per WIRED",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-11-06T19:11:42.368Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T09:45:09.196Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "More Than 100 Protesters Storm a Microsoft Data Center Site in Amsterdam",
-          "url": "https://gizmodo.com/more-than-100-protesters-storm-a-microsoft-data-center-site-in-amsterdam-2000836356",
-          "publishedAt": "2026-11-06T19:00:57.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
-          "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
-          "publishedAt": "2026-11-09T08:00:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "93bcab62-127f-4531-bf9b-ad65e8fd3099",
-      "title": "Alibaba's Qwen 4 preview reportedly beats DeepSeek 4.1 Flash on web tasks using half the tokens",
-      "summary": "Early hands-on looks at Alibaba's Qwen 4 series, including the Qwen 4 Max and 27B variants, report strong results on complex simulations and generated environments. One breakdown says Qwen 4 beat DeepSeek 4.1 Flash on web tasks while using about half the tokens. These are third-party first impressions, not independent benchmarks.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-09T15:48:23.215Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T15:48:23.215Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Qwen 4 Beats Deepseek 4.1 Flash in Web Tasks on Half the Tokens",
-          "url": "https://www.geeky-gadgets.com/qwen-4-preview-first-look/",
-          "publishedAt": "2026-11-09T14:13:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "c7d1270c-7c9b-49ea-a08e-ccbbc5f4817f",
-      "title": "Cyanogen co-founder's Kora takes aim at Windows with a free OS built for AI agents",
-      "summary": "After challenging Google's Android with Cyanogen, its co-founder is preparing Kora, a free-to-use alternative to Windows aimed at users who rely heavily on AI models and agents.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-10T14:05:52.047Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T14:05:52.047Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
-          "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
-          "publishedAt": "2026-11-10T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "d0b1bc02-4bec-46c1-827a-5c43934f9115",
-      "title": "Anthropic explains how \"dreaming\" helps Claude organize agent memory and correct mistakes",
-      "summary": "Anthropic published research on the components of agent memory, describing how Claude must decide what's worth remembering before it knows what comes next, and how an offline \"dreaming\" process helps it reorganize memories and correct mistakes so it can learn from experience.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-09T23:55:16.795Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T23:55:16.795Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "The components of agent memory",
-          "url": "https://www.anthropic.com/research/components-of-agent-memory",
-          "publishedAt": "2026-11-06T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
-      "title": "OpenAI reportedly raises another $11B at a $1.25T valuation as it eyes a 2027 IPO",
-      "summary": "OpenAI is steering toward a 2027 public debut, and its last private raise is still adding money despite a lowered target.\n\n- OpenAI has reportedly raised an additional $11B at a $1.25T valuation; the round hasn't closed but is expected to in the coming weeks, per TechCrunch\n- The round's target was lowered after it fell short of expectations; it was earlier reported at $30B, with the valuation down from $1.4T in late September\n- President Greg Brockman says OpenAI could be IPO-ready in 2027, citing accelerating enterprise revenue and a business turnaround\n- Altman has said OpenAI must \"be able to make confident safety claims\" before going public, tying the IPO to getting its rogue-AI incidents under control, per Gizmodo",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-29T20:08:40.765Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T23:14:14.463Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
-          "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-          "publishedAt": "2026-09-29T19:52:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says",
-          "url": "https://gizmodo.com/no-openai-ipo-until-the-ai-stops-going-rogue-ceo-sam-altman-says-2000819194",
-          "publishedAt": "2026-09-30T04:14:16.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Reportedly Looking to Hurry and Get Valued at $1.4 Trillion Before Anthropic IPO",
-          "url": "https://gizmodo.com/openai-reportedly-looking-to-hurry-and-get-valued-at-1-4-trillion-before-anthropic-ipo-2000827975",
-          "publishedAt": "2026-10-20T09:30:27.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-          "publishedAt": "2026-10-22T22:08:24.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI reportedly lowers funding target for new round",
-          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-          "publishedAt": "2026-10-31T16:12:55.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-          "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-          "publishedAt": "2026-11-05T18:02:27.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-          "publishedAt": "2026-11-06T22:53:46.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "funding",
-        "safety"
       ]
     },
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta's Muse adds Spaces and avatar video chat as it passes 10M users amid mounting controversies",
-      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps adding features and users even as privacy, security, content, and labor controversies mount.\n\n- New: Spaces, a new way to collaborate with your Muse agent, follows avatar video chat for US users and a planned Tamagotchi-like Muse wearable (TechCrunch)\n- Meta said on its Q3 earnings call that Muse has over 10 million users; Zuckerberg said a quarter of them shop through the agent, spending about $200 per purchase on average\n- Muse hit 10 million US downloads in its first 40 days, a milestone only 11 other apps have reached, and keeps users better than rival AI apps\n- Meta suspended Muse's conversation sharing after researchers showed shared links exposed sensitive personal and business data\n- Other controversies: OnlyFans creators object to Muse's sexual chat, a since-fixed Mac 0-day, and a contractor \"human concierge\" reportedly making racist remarks on calls\n- Amazon has blocked Muse from shopping on Amazon.com; Meta admits it was \"heavily inspired\" by OpenClaw",
+      "title": "Meta's Muse comes to Apple Watch and Wear OS as it passes 10M users amid mounting controversies",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps adding features and users even as privacy, security, content, and labor controversies mount.\n\n- New: Muse is now on Apple Watch and Android Wear OS, where users can talk to it through voice calls, text messages, or dictation (TechCrunch)\n- Recent features include Spaces for collaborating with the agent, avatar video chat for US users, and a planned Tamagotchi-like Muse wearable\n- Meta said on its Q3 earnings call that Muse has over 10 million users; Zuckerberg said a quarter of them shop through the agent, spending about $200 per purchase on average\n- Meta suspended Muse's conversation sharing after researchers showed shared links exposed sensitive personal and business data\n- Other controversies: OnlyFans creators object to Muse's sexual chat, a since-fixed Mac 0-day, and a contractor \"human concierge\" reportedly making racist remarks on calls\n- Amazon has blocked Muse from shopping on Amazon.com; Meta admits it was \"heavily inspired\" by OpenClaw",
       "importanceScore": 0.85,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T19:11:28.881Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T16:07:42.752Z",
       "sources": [
         {
           "providerName": "VentureBeat",
@@ -1188,11 +605,678 @@
           "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
           "publishedAt": "2026-11-06T18:44:20.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+          "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+          "publishedAt": "2026-11-10T15:29:30.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
         "product-launch",
         "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
+      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
+      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-09T19:52:14.544Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T05:58:23.952Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "publishedAt": "2026-11-09T19:24:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
+          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
+          "publishedAt": "2026-11-09T19:32:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Which Claude model should you build with?",
+          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
+          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
+          "publishedAt": "2026-11-10T09:14:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Fable 5.2 AI Built a Complete Operating System in 8 Days",
+          "url": "https://www.geeky-gadgets.com/fable-5-2-capabilities/",
+          "publishedAt": "2026-11-10T13:47:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "4bc6f4c9-665b-42a9-af35-5fd239019a66",
+      "title": "Google DeepMind unveils AlphaProof Code, which formally verified the Signal Protocol's core encryption",
+      "summary": "Google DeepMind unveiled AlphaProof Code, whose AI agents wrote about three million lines of Lean proofs to formally verify that Signal's core encryption works as intended. The team's stretch goal is to do the same for \"all the software of the world.\"",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-10T05:58:16.302Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T12:03:24.363Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+          "publishedAt": "2026-11-10T05:01:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+          "publishedAt": "2026-11-10T12:02:28.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "research",
+        "safety"
+      ]
+    },
+    {
+      "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
+      "title": "Nvidia investigates CEO Jensen Huang's relationship with a suspected Chinese spy",
+      "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot; in a company memo, Huang admitted to an affair.\n\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- Huang has lobbied hard to loosen US restrictions on selling powerful AI chips to China\n- He began working with Heller, a PR firm known for handling sex scandals, as early as October 2025, WIRED reports\n- Huang has pulled out of the ElevenLabs Summit after earlier withdrawing from an Anthropic event\n- Nvidia stock slid more than 4% after the probe opened; one law firm has now filed a proposed investor class action and several others have announced investigations, per Gizmodo",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-10-29T16:29:51.111Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T03:57:10.240Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Intel Community Reportedly Tied Trump’s Favorite AI Boss to a Chinese Spy",
+          "url": "https://gizmodo.com/nvidia-ceo-jensen-huang-tied-to-chinese-spy-trump-2000832476",
+          "publishedAt": "2026-10-29T16:20:17.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+          "publishedAt": "2026-10-29T16:42:32.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Chinese Spy Who Targeted Jensen Huang Worked Directly for China’s Top Spy Agency: Report",
+          "url": "https://gizmodo.com/chinese-spy-who-targeted-jensen-huang-worked-directly-for-chinas-top-spy-agency-report-2000836560",
+          "publishedAt": "2026-11-07T02:40:47.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "China's main intelligence agency reportedly recruited the spy who targeted NVIDIA's CEO",
+          "url": "https://www.engadget.com/2310084/china-main-intelligence-agency-recruit-spy-targeted-nvidias-ceo/",
+          "publishedAt": "2026-11-07T14:00:06.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "publishedAt": "2026-11-07T21:17:08.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+          "publishedAt": "2026-11-08T21:00:11.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+          "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+          "publishedAt": "2026-11-09T05:26:29.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
+          "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/",
+          "publishedAt": "2026-11-09T14:30:56.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+          "publishedAt": "2026-11-09T18:09:52.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+          "publishedAt": "2026-11-09T20:09:06.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+          "publishedAt": "2026-11-09T23:28:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+          "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+          "publishedAt": "2026-11-09T22:46:09.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "The race is on to sue Nvidia",
+          "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+          "publishedAt": "2026-11-09T22:23:42.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
+          "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+          "publishedAt": "2026-11-10T00:18:19.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Lawyers Are Flying in Circles Above Nvidia’s Head After Jensen Huang’s Affair With Alleged Spy",
+          "url": "https://gizmodo.com/lawyers-are-flying-in-circles-above-nvidias-head-after-jensen-huangs-affair-with-alleged-spy-2000837488",
+          "publishedAt": "2026-11-10T03:30:15.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Mashable AI",
+          "title": "Jensen Huang Nvidia Affair Scandal: What We Know, What We Don’t",
+          "url": "https://in.mashable.com/tech-industry/115939/jensen-huang-nvidia-affair-scandal-what-we-know-what-we-dont",
+          "publishedAt": "2026-11-09T19:47:30.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "3f00fdfd-b642-4301-8862-0ac2aa12a766",
+      "title": "\"Abliterators\" flood the internet with open AI models stripped of their refusals",
+      "summary": "A WIRED feature profiles the \"abliterators,\" a loose movement that strips guardrails from AI models and releases versions that never say no. The models can help people harden their cyberdefenses, but they also make it easier to get dangerous help, such as instructions for building a bomb.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-10T12:03:26.765Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T12:03:26.765Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
+          "url": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
+          "publishedAt": "2026-11-10T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "b6464084-cd6f-46a1-a119-d3274919c2c1",
+      "title": "Anthropic shows Claude designing working electronic prototypes from start to finish",
+      "summary": "Anthropic asked Claude to design three electronic devices — a speakerphone, a voice-assistant hub, and a handheld virtual pet — and says all three prototypes worked without any fixes to their circuitry.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.88,
+      "firstSeenAt": "2026-11-10T05:58:22.103Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T05:58:22.103Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude can design electronic prototypes from start to finish",
+          "url": "https://www.anthropic.com/research/claude-electronics-design",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "de5ae6dc-c8be-44e9-8104-66979c7d9b72",
+      "title": "AI-driven tech layoffs top 200,000 in 2026, raising fears of a 1.6 million job recession",
+      "summary": "The tech industry has cut more than 200,000 jobs in 2026 amid the AI push, and CNET reports the bigger question is whether layoffs spread to retail and finance — a scenario that could trigger a 1.6 million job recession.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-10T03:57:15.197Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T03:57:15.197Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "AI-Driven Tech Layoffs Could Trigger a 1.6 Million Job Recession",
+          "url": "https://www.cnet.com/tech/services-and-software/ai-tech-layoffs-2026-trigger-recession/",
+          "publishedAt": "2026-11-09T23:24:46.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "5e4c1486-6e6f-4f0a-bca7-dd7f6768045f",
+      "title": "Meta releases Muse Ember, a cheap lightweight model for agent execution",
+      "summary": "Meta released Muse Ember, a lightweight model built for executing agent tasks. At 10 cents per million input tokens, it undercuts small frontier competitors like Haiku and Luna by a wide margin.",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-09T19:52:18.692Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T19:52:18.692Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+          "publishedAt": "2026-11-09T18:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "10b046f6-8f95-4795-8009-c237c1045979",
+      "title": "Adobe brings AI agents to Photoshop, Premiere, and Firefly at Adobe Max",
+      "summary": "At its Max conference, Adobe announced a batch of AI agents and creative tools across Photoshop, Premiere, and Firefly.\n\n- Firefly AI Assistant can now take on recurring tasks for users\n- A new prototype builder in Firefly takes aim at Figma\n- Adobe also launched an MCP, and Firefly gains expanded AI video-editing features",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-10T14:05:48.072Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T14:05:48.072Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Adobe Firefly AI Assistant can now take on recurring tasks for you",
+          "url": "https://www.engadget.com/2311901/adobe-firefly-ai-assistant-can-now-take-on-recurring-tasks-for-you/",
+          "publishedAt": "2026-11-10T14:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+          "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+          "publishedAt": "2026-11-10T14:05:10.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "The New Adobe Firefly AI Is All About Video Editing",
+          "url": "https://www.cnet.com/tech/services-and-software/new-adobe-firefly-ai-video-editing/",
+          "publishedAt": "2026-11-10T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "de1d86ba-597a-4c34-adb6-e44ab1d0de61",
+      "title": "Anthropic buys $3.4B worth of natural gas turbines to power its AI buildout",
+      "summary": "Anthropic has bought about $3.4 billion worth of natural gas turbines, joining the AI industry's rush to gas-fired power for data centers. TechCrunch warns the deal could leave Anthropic with buyer's remorse.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-09T17:50:15.147Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T17:50:15.147Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+          "publishedAt": "2026-11-09T16:56:54.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "578f1e42-832c-4735-afa0-a6efed806234",
+      "title": "JPMorganChase expands Claude Code to more employees across the firm",
+      "summary": "JPMorganChase is expanding Anthropic's Claude Code coding agent to more of its employees across the firm, according to Anthropic's Claude blog.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-10T05:58:18.302Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T05:58:18.302Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "JPMorganChase expands Claude Code to more employees across the firm",
+          "url": "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "1da81b6d-4c63-4784-9324-7d5a979bd21a",
+      "title": "Google unveils two new variants of its AI chip systems to compete with Nvidia",
+      "summary": "Google unveiled two new variants of its TPU AI chips as it steps up competition with Nvidia. One targets confidential model training and the other adds memory capacity, broadening the TPU lineup to more use cases.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-09T17:50:22.042Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T17:50:22.042Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google Has Two New Weapons in Its Fight Against Nvidia",
+          "url": "https://gizmodo.com/google-has-two-new-weapons-in-its-fight-against-nvidia-2000837111",
+          "publishedAt": "2026-11-09T17:10:52.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+          "publishedAt": "2026-11-10T15:54:08.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "40b1c4ea-440e-4a20-8175-9a11d13a7400",
+      "title": "Scott Wiener, author of California's AI safety bills, wins Pelosi's House seat and eyes federal AI regulation",
+      "summary": "Scott Wiener, the California state senator who authored legislation to curb the risks of advanced AI, won a tight race for Nancy Pelosi's open San Francisco congressional seat. MIT Technology Review says he could play a key role in setting federal AI policy and is ready to regulate AI.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-09T17:50:19.992Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T17:50:19.992Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+          "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+          "publishedAt": "2026-11-09T17:05:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "8275fdb6-2879-432e-b98f-c1b381aeb042",
+      "title": "WIRED asks 10 experts which AI risks are real: nuclear catastrophe and the US-China race, not Skynet",
+      "summary": "WIRED argues the AI safety debate has lost the plot and asked 10 experts for the real nightmares. Their answers point to nuclear catastrophe risk and the fallout of the US-China race for dominance, including espionage, rather than a Skynet-style takeover.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-10T12:03:29.315Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T12:03:29.315Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+          "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+          "publishedAt": "2026-11-10T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
+      ]
+    },
+    {
+      "id": "6b2a28ef-9001-4be0-802d-c4b5c07ec0ee",
+      "title": "Music rights holders pile on copyright suits against Suno and Anthropic",
+      "summary": "AI music generator Suno and Anthropic face a growing wave of copyright lawsuits over training on music and lyrics.\n\n- Suno and Anthropic were sued over songs by Madonna, Johnny Cash, and Joni Mitchell, CNET reports\n- Elvis Presley's estate filed its own copyright suit against Anthropic days earlier\n- New: the groups that own the rights to Elvis Presley's and Eminem's tracks filed fresh lawsuits against Suno, Engadget reports",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-10-28T01:59:13.360Z",
+      "lastMeaningfulUpdateAt": "2026-11-08T21:39:03.248Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Anthropic, Suno Sued for Unlawfully Using Songs by Madonna, Johnny Cash, Joni Mitchell",
+          "url": "https://www.cnet.com/tech/services-and-software/anthropic-suno-sued-using-songs-madonna-johnny-cash-joni-mitchell/",
+          "publishedAt": "2026-10-27T21:22:44.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Suno AI music generator sued again for copyright infringement",
+          "url": "https://www.engadget.com/2310316/suno-ai-music-generator-sued-again-for-copyright-infringement/",
+          "publishedAt": "2026-11-08T19:42:14.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "a987794e-0ade-4ffe-9680-a4421cfbe9a2",
+      "title": "ChatGPT Enterprise is now available in AWS Marketplace",
+      "summary": "OpenAI made ChatGPT Enterprise available through AWS Marketplace, letting organizations buy it through their existing AWS purchasing and billing relationships.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-09T19:52:22.643Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T19:52:22.643Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "ChatGPT Enterprise now available in AWS Marketplace",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "publishedAt": "2026-11-09T19:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "19705118-9d06-4461-9d29-3056bbc8fa91",
+      "title": "Data center protests spread across Europe, from a Microsoft site in Amsterdam to a planned Google facility near London",
+      "summary": "Protests against the rapid expansion of AI data centers are breaking out across Europe, targeting several of the biggest tech companies.\n\n- More than 100 protesters stormed a Microsoft data center site in Amsterdam, one of several demonstrations planned across Europe that weekend, Gizmodo reports\n- East of London, an unlikely coalition of bikers and insect-conservation activists is trying to block Google from building a sprawling new facility, per WIRED",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-11-06T19:11:42.368Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T09:45:09.196Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "More Than 100 Protesters Storm a Microsoft Data Center Site in Amsterdam",
+          "url": "https://gizmodo.com/more-than-100-protesters-storm-a-microsoft-data-center-site-in-amsterdam-2000836356",
+          "publishedAt": "2026-11-06T19:00:57.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+          "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
+          "publishedAt": "2026-11-09T08:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "93bcab62-127f-4531-bf9b-ad65e8fd3099",
+      "title": "Alibaba's Qwen 4 preview reportedly beats DeepSeek 4.1 Flash on web tasks using half the tokens",
+      "summary": "Early hands-on looks at Alibaba's Qwen 4 series, including the Qwen 4 Max and 27B variants, report strong results on complex simulations and generated environments. One breakdown says Qwen 4 beat DeepSeek 4.1 Flash on web tasks while using about half the tokens. These are third-party first impressions, not independent benchmarks.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-09T15:48:23.215Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T15:48:23.215Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Qwen 4 Beats Deepseek 4.1 Flash in Web Tasks on Half the Tokens",
+          "url": "https://www.geeky-gadgets.com/qwen-4-preview-first-look/",
+          "publishedAt": "2026-11-09T14:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "c7d1270c-7c9b-49ea-a08e-ccbbc5f4817f",
+      "title": "Cyanogen co-founder's Kora takes aim at Windows with a free OS built for AI agents",
+      "summary": "After challenging Google's Android with Cyanogen, its co-founder is preparing Kora, a free-to-use alternative to Windows aimed at users who rely heavily on AI models and agents.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-10T14:05:52.047Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T14:05:52.047Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+          "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+          "publishedAt": "2026-11-10T14:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
+          "url": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
+          "publishedAt": "2026-11-10T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "d0b1bc02-4bec-46c1-827a-5c43934f9115",
+      "title": "Anthropic explains how \"dreaming\" helps Claude organize agent memory and correct mistakes",
+      "summary": "Anthropic published research on the components of agent memory, describing how Claude must decide what's worth remembering before it knows what comes next, and how an offline \"dreaming\" process helps it reorganize memories and correct mistakes so it can learn from experience.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-09T23:55:16.795Z",
+      "lastMeaningfulUpdateAt": "2026-11-09T23:55:16.795Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "The components of agent memory",
+          "url": "https://www.anthropic.com/research/components-of-agent-memory",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
+      "title": "OpenAI reportedly raises another $11B at a $1.25T valuation as it eyes a 2027 IPO",
+      "summary": "OpenAI is steering toward a 2027 public debut, and its last private raise is still adding money despite a lowered target.\n\n- OpenAI has reportedly raised an additional $11B at a $1.25T valuation; the round hasn't closed but is expected to in the coming weeks, per TechCrunch\n- The round's target was lowered after it fell short of expectations; it was earlier reported at $30B, with the valuation down from $1.4T in late September\n- President Greg Brockman says OpenAI could be IPO-ready in 2027, citing accelerating enterprise revenue and a business turnaround\n- Altman has said OpenAI must \"be able to make confident safety claims\" before going public, tying the IPO to getting its rogue-AI incidents under control, per Gizmodo",
+      "importanceScore": 0.85,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-29T20:08:40.765Z",
+      "lastMeaningfulUpdateAt": "2026-11-06T23:14:14.463Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
+          "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+          "publishedAt": "2026-09-29T19:52:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says",
+          "url": "https://gizmodo.com/no-openai-ipo-until-the-ai-stops-going-rogue-ceo-sam-altman-says-2000819194",
+          "publishedAt": "2026-09-30T04:14:16.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Reportedly Looking to Hurry and Get Valued at $1.4 Trillion Before Anthropic IPO",
+          "url": "https://gizmodo.com/openai-reportedly-looking-to-hurry-and-get-valued-at-1-4-trillion-before-anthropic-ipo-2000827975",
+          "publishedAt": "2026-10-20T09:30:27.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+          "publishedAt": "2026-10-22T22:08:24.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI reportedly lowers funding target for new round",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+          "publishedAt": "2026-10-31T16:12:55.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+          "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+          "publishedAt": "2026-11-05T18:02:27.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "publishedAt": "2026-11-06T22:53:46.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "funding",
         "safety"
       ]
     },
@@ -1258,6 +1342,25 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "0be618fe-efa6-464c-9e84-e0d9ad6931a1",
+      "title": "Hugging Face publishes a post on decision models on its platform",
+      "summary": "Hugging Face published a blog post titled \"Decision Models in Hugging Face,\" continuing its push into fast, cheap decision models. The source item carries only the title, so it isn't clear yet what new support or models it covers.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-10T16:07:51.587Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T16:07:51.587Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Decision Models in Hugging Face",
+          "url": "https://huggingface.co/blog/decision",
+          "publishedAt": "2026-11-10T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "41a56900-1e56-49ba-bf60-c565a3cc49a7",
@@ -2019,53 +2122,6 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "1a68b1f0-2bdb-41b1-b42b-0b135ca73e40",
-      "title": "DOJ launches a \"superintelligence\" task force",
-      "summary": "The US Department of Justice has launched a task force focused on \"super intelligence,\" Gizmodo reports, in a skeptical take that questions whether tech leaders will keep pushing the superintelligence framing.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-06T00:57:28.779Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T00:57:28.779Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "DOJ Launches ‘Super Intelligence’ Task Force Because Apparently We’re Still Doing This",
-          "url": "https://gizmodo.com/doj-launches-super-intelligence-task-force-because-apparently-were-still-doing-this-2000835957",
-          "publishedAt": "2026-11-06T00:06:03.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "DOJ just launched something called the Super Intelligence Task Force",
-          "url": "https://www.engadget.com/2309257/doj-just-launched-something-called-the-super-intelligence-task-force/",
-          "publishedAt": "2026-11-06T16:56:52.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
-    },
-    {
-      "id": "25134bb3-e8a7-4ee3-93e2-425a8807d77f",
-      "title": "AI tools are hollowing out the video game decompilation community",
-      "summary": "Engadget reports that game decompilation communities, which for years thrived on the challenge of reverse engineering video games down to their source code and adapting them, are losing their appeal now that AI tools can do much of that work, taking away the fun.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-08T15:36:05.400Z",
-      "lastMeaningfulUpdateAt": "2026-11-08T15:36:05.400Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "The game reverse engineering community is the latest casualty of AI",
-          "url": "https://www.engadget.com/2307604/game-reverse-engineering-community-latest-ai-casualty/",
-          "publishedAt": "2026-11-08T14:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 129,
