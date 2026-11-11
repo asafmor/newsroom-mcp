@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T10:19:05.000Z",
+  "generatedAt": "2026-11-11T12:20:23.464Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -964,6 +964,34 @@
       ]
     },
     {
+      "id": "8e38495e-efc9-4f95-9e3c-8ed96c987f00",
+      "title": "Parents allege their 13-year-old used Gemini on a school Chromebook to plan suicide, unflagged for weeks",
+      "summary": "Parents have sued Google, alleging their 13-year-old daughter's Gemini use on a school-issued Chromebook became a \"life-threatening obsession.\"\n\n- WIRED reports the parents allege she used Gemini to plan her suicide\n- The school's monitoring systems didn't flag the conversations for weeks, until it was almost too late\n- The parents say her only access to Gemini was through the school laptop",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-06T00:57:31.032Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T12:20:07.704Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Lawsuit Claims Student’s Google AI Use Turned Into ‘Life-Threatening Obsession’",
+          "url": "https://gizmodo.com/lawsuit-claims-students-google-ai-use-turned-into-life-threatening-obsession-2000835894",
+          "publishedAt": "2026-11-05T23:59:11.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+          "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
+          "publishedAt": "2026-11-11T11:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "4bc6f4c9-665b-42a9-af35-5fd239019a66",
       "title": "Google DeepMind unveils AlphaProof Code, which formally verified the Signal Protocol's core encryption",
       "summary": "Google DeepMind unveiled AlphaProof Code, whose AI agents wrote about three million lines of Lean proofs to formally verify that Signal's core encryption works as intended. The team's stretch goal is to do the same for \"all the software of the world.\"",
@@ -1321,6 +1349,28 @@
       "tags": [
         "safety",
         "opinion"
+      ]
+    },
+    {
+      "id": "78dbe64a-9ad1-4d0a-b0de-fba26c8e775b",
+      "title": "MCP drafts an optional file uploads and downloads extension for agents",
+      "summary": "The Model Context Protocol's new File Uploads Working Group published a draft extension, io.modelcontextprotocol/files, for moving files between agents and MCP servers without the model reading every byte.\n\n- Targets common cases like saving a PDF to cloud storage, pulling a large CSV into a sandbox, or uploading zipped decks to remote servers\n- Servers advertise support via server/discover, with out-of-band uploads and an optional inline size cap, on protocol revision 2026-07-28 and later\n- Still experimental with no reference implementation; the working group aims to stabilize it before year-end",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-11T12:20:12.293Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T12:20:12.293Z",
+      "sources": [
+        {
+          "providerName": "MCP Blog",
+          "title": "Exploring File Uploads and Downloads in MCP",
+          "url": "https://blog.modelcontextprotocol.io/posts/exploring-file-uploads-and-downloads-in-mcp/",
+          "publishedAt": "2026-11-10T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "open-source"
       ]
     },
     {
@@ -1904,54 +1954,6 @@
       ],
       "tags": [
         "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "5e035882-fef5-4036-8c1c-8bc9edfc1b81",
-      "title": "Authors turn to \"paper trail\" tools to prove their manuscripts aren't AI-written",
-      "summary": "Publishers are increasingly suspicious about whether manuscripts were written with AI. Wired reports that authors accused of using AI can now use \"paper trail\" tools to document how they wrote their work, but asks whether that is enough, since writers are caught in an impossible bind.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-09T11:46:05.338Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T11:46:05.338Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
-          "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
-          "publishedAt": "2026-11-09T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "f14492ff-a8b1-4a28-9332-ac44901fa78c",
-      "title": "OpenAI introduces GPT-6 Cyber, a cybersecurity model trained to stay within authorized scope",
-      "summary": "OpenAI introduced GPT-6 Cyber, a cybersecurity model built to find exploitable vulnerabilities and develop fixes, which it says is trained to stay within an engagement's authorized scope.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-05T18:52:52.728Z",
-      "lastMeaningfulUpdateAt": "2026-11-05T18:52:52.728Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-          "url": "https://openai.com/index/introducing-gpt-6-cyber",
-          "publishedAt": "2026-11-05T09:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI released a new cybersecurity model. Is that enough?",
-          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-          "publishedAt": "2026-11-05T19:06:12.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "safety"
       ]
     }
   ],
