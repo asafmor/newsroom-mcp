@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T14:21:23.725Z",
+  "generatedAt": "2026-11-11T16:22:38.337Z",
   "stories": [
     {
       "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
@@ -290,6 +290,25 @@
       ]
     },
     {
+      "id": "c2324464-88d1-419e-afd4-42ec148d4b6e",
+      "title": "OpenAI's quarterly revenue reportedly tops $10B for the first time",
+      "summary": "OpenAI's quarterly revenue has reportedly crossed $10 billion for the first time, nearly a 50% jump from the $6.7 billion it recorded in the second quarter, TechCrunch reports.",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-11T16:22:19.471Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T16:22:19.471Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+          "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+          "publishedAt": "2026-11-11T16:14:44.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
       "title": "Google DeepMind makes Gemini 4 Carbon, its next frontier model, available",
       "summary": "Google DeepMind says Gemini 4 Carbon, its next frontier model, is now available.\n\n- Access was first limited to select cybersecurity experts after its late-October announcement\n- Google pitched Carbon as a \"significant leap\" in coding and cybersecurity, and one report says it beat Claude Opus 5.5 on 16 of 18 tests\n- Carbon follows Gemini 4 Argon, which rolled out to the Gemini app and AI Mode in Search earlier this month",
@@ -513,6 +532,20 @@
           "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
           "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
           "publishedAt": "2026-11-11T07:30:51.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
+          "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+          "publishedAt": "2026-11-11T16:16:07.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "China’s Nvidia Honeypot Isn’t Surprising. Jensen Huang Fell for It Anyway",
+          "url": "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/",
+          "publishedAt": "2026-11-11T15:30:00.000Z",
           "contribution": "background"
         }
       ],
@@ -939,6 +972,28 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "1904f598-10fd-425a-8c3c-da740b87e9c1",
+      "title": "Google DeepMind unveils AlphaGenome 2 to predict how DNA variants affect specific cell types and disease",
+      "summary": "Google DeepMind introduced AlphaGenome 2, a model that predicts how DNA sequences and their variations affect specific human cell types and disease, aiming to decipher how cells read DNA.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-11T16:22:27.421Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T16:22:27.421Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+          "publishedAt": "2026-11-11T15:00:15.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "research"
       ]
     },
     {
@@ -1531,6 +1586,27 @@
       ]
     },
     {
+      "id": "97dd4388-13c8-451a-8546-76c4e42739bf",
+      "title": "Databricks CEO Ali Ghodsi uses the revised Genie agent to surface what's going wrong inside the company",
+      "summary": "With 12,000 employees, Databricks CEO Ali Ghodsi says he relies on the company's newly revised Genie AI agent to tell him what's going wrong inside the company, rather than waiting for staff to report problems, TechCrunch reports.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-11T16:22:22.019Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T16:22:22.019Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+          "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+          "publishedAt": "2026-11-11T15:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
       "title": "OpenAI reportedly raises another $11B at a $1.25T valuation as it eyes a 2027 IPO",
       "summary": "OpenAI is steering toward a 2027 public debut, and its last private raise is still adding money despite a lowered target.\n\n- OpenAI has reportedly raised an additional $11B at a $1.25T valuation; the round hasn't closed but is expected to in the coming weeks, per TechCrunch\n- The round's target was lowered after it fell short of expectations; it was earlier reported at $30B, with the valuation down from $1.4T in late September\n- President Greg Brockman says OpenAI could be IPO-ready in 2027, citing accelerating enterprise revenue and a business turnaround\n- Altman has said OpenAI must \"be able to make confident safety claims\" before going public, tying the IPO to getting its rogue-AI incidents under control, per Gizmodo",
@@ -1675,6 +1751,44 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "e2152831-3b1d-4c07-bc44-40d474cf638c",
+      "title": "Independent Games Festival jurors' refusal to reward AI use puts Untitled Goose Game studio Big Walk in a bind",
+      "summary": "Independent Games Festival jurors refuse to reward games that use AI, leaving Big Walk, from the creators of Untitled Goose Game, in a difficult position over a small amount of AI in its new game, Gizmodo reports.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-11T16:22:29.442Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T16:22:29.442Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "A Tiny Bit of AI Has Created a Big Problem for an Indie Game Darling",
+          "url": "https://gizmodo.com/a-tiny-bit-of-ai-has-created-a-big-problem-for-an-indie-game-darling-2000838305",
+          "publishedAt": "2026-11-11T16:00:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "e95bf9f3-5428-4749-b906-243c26777df2",
+      "title": "Plurai applies self-driving techniques to make AI agents more reliable",
+      "summary": "Startup Plurai wants to make AI agents work better by borrowing the approach that helped get self-driving cars onto roads, treating agents, like end-to-end driving models, as probabilistic systems operating in unpredictable environments, TechCrunch reports.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-11T16:22:24.070Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T16:22:24.070Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+          "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+          "publishedAt": "2026-11-11T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "0be618fe-efa6-464c-9e84-e0d9ad6931a1",
@@ -1863,114 +1977,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "4127c41a-d561-4f62-8fdc-9d12aca6473c",
-      "title": "Free Chinese models DeepSeek and GLM come close to OpenAI's top cyber model at hacking simulated networks",
-      "summary": "In an experiment asking AI models to break into simulated networks, the freely available Chinese models DeepSeek and GLM performed not far behind OpenAI's most advanced cyber model, which isn't public, Wired reports.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-06T19:11:38.079Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T19:11:38.079Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
-          "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
-          "publishedAt": "2026-11-06T18:43:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "research"
-      ]
-    },
-    {
-      "id": "29ac6235-a7fa-45ff-874f-101343c6446b",
-      "title": "Curative's Claude-based deal-making agent negotiates 2,000+ provider contracts a week",
-      "summary": "Curative is building a national provider network with agents on Claude; its deal-making agent negotiates more than 2,000 provider contracts a week, per an Anthropic case study.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-10T22:12:52.343Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T22:12:52.343Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "How Curative is building a national provider network with agents on Claude",
-          "url": "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
-          "publishedAt": "2026-11-10T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "7514775f-aca8-4b12-96f9-35e80315772d",
-      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers in an attack that used AI agents",
-      "summary": "Blockchain analytics firm Chainalysis said attackers stole credentials and tokens belonging to all of its customers in a \"multifront cyberattack\" that included AI agents and an on-path data snatch, per Ars Technica.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-06T23:14:16.448Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T23:14:16.448Z",
-      "sources": [
-        {
-          "providerName": "Ars Technica",
-          "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
-          "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
-          "publishedAt": "2026-11-06T20:56:41.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "b6c62d1d-abff-4903-b648-c2b70d30a2c8",
-      "title": "Medium launches TK, a writing app with built-in AI assistance",
-      "summary": "Medium released TK, a new writing app that builds AI assistance directly into the writing process, embracing AI-assisted writing despite growing controversy over the technology's role in publishing, TechCrunch reports.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-09T17:50:17.391Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T17:50:17.391Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Medium’s new TK app brings AI assistance directly into the writing process",
-          "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
-          "publishedAt": "2026-11-09T16:12:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "866b8474-e840-4c76-8403-ce51782ad2ba",
-      "title": "Ramp data shows business AI spending stalling even as usage climbs, just as Anthropic nears its IPO",
-      "summary": "Ramp data shows business AI usage still rising but AI spending flattening, as price cuts and tighter cost controls among the biggest spenders take hold — a trend TechCrunch says could challenge investor assumptions of AI hypergrowth ahead of Anthropic's IPO.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-06T17:10:12.277Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T17:10:12.277Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-          "publishedAt": "2026-11-06T15:54:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 125,
+  "totalCount": 129,
   "hasMore": true
 }
