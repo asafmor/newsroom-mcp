@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T16:22:38.337Z",
+  "generatedAt": "2026-11-11T18:24:31.502Z",
   "stories": [
     {
       "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
@@ -282,6 +282,13 @@
           "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
           "publishedAt": "2026-11-10T19:57:52.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Investors Are Lining Up to Throw Money at Anthropic",
+          "url": "https://gizmodo.com/investors-are-lining-up-to-throw-money-at-anthropic-2000838373",
+          "publishedAt": "2026-11-11T18:00:14.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1111,6 +1118,69 @@
       ]
     },
     {
+      "id": "4917661f-19f5-42d3-bf46-12cff2d61358",
+      "title": "Radical Numerics builds an offline AI model to detect natural and AI-engineered pathogens",
+      "summary": "Startup Radical Numerics says it has developed a model that can identify both natural and AI-engineered pathogens without an internet connection, pitching AI as a defense against AI-enabled bioweapons.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-11T18:24:20.973Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T18:24:20.973Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "A Startup Wants to Fight AI Bioweapons With AI",
+          "url": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
+          "publishedAt": "2026-11-11T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "10b046f6-8f95-4795-8009-c237c1045979",
+      "title": "Adobe brings AI agents to Photoshop, Premiere, and Firefly at Adobe Max",
+      "summary": "At its Max conference, Adobe announced a batch of AI agents and creative tools across Photoshop, Premiere, and Firefly.\n\n- Firefly AI Assistant can now take on recurring tasks for users\n- A new prototype builder in Firefly takes aim at Figma\n- Adobe also launched an MCP, and Firefly gains expanded AI video-editing features\n- Adobe's Max Sneaks research projects focus on precision photo and video editing, and two will be available to try soon",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-10T14:05:48.072Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T18:24:18.918Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Adobe Firefly AI Assistant can now take on recurring tasks for you",
+          "url": "https://www.engadget.com/2311901/adobe-firefly-ai-assistant-can-now-take-on-recurring-tasks-for-you/",
+          "publishedAt": "2026-11-10T14:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+          "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+          "publishedAt": "2026-11-10T14:05:10.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "The New Adobe Firefly AI Is All About Video Editing",
+          "url": "https://www.cnet.com/tech/services-and-software/new-adobe-firefly-ai-video-editing/",
+          "publishedAt": "2026-11-10T14:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Adobe’s Cutting-Edge AI Research Projects Are All About Precision Editing",
+          "url": "https://www.cnet.com/tech/services-and-software/adobe-max-2026-sneaks-ai-photo-video-editing-exclusive/",
+          "publishedAt": "2026-11-11T14:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "4984c09d-bb54-4e11-a9fd-62a5ebf8639f",
       "title": "PSI uses an unreleased Anthropic model to crack a decades-old quantum computing question",
       "summary": "Startup PSI is trying to build a business on AI-driven scientific discovery, and says it used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists had pursued for nearly two decades.",
@@ -1235,41 +1305,6 @@
       ]
     },
     {
-      "id": "10b046f6-8f95-4795-8009-c237c1045979",
-      "title": "Adobe brings AI agents to Photoshop, Premiere, and Firefly at Adobe Max",
-      "summary": "At its Max conference, Adobe announced a batch of AI agents and creative tools across Photoshop, Premiere, and Firefly.\n\n- Firefly AI Assistant can now take on recurring tasks for users\n- A new prototype builder in Firefly takes aim at Figma\n- Adobe also launched an MCP, and Firefly gains expanded AI video-editing features",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-10T14:05:48.072Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T14:05:48.072Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Adobe Firefly AI Assistant can now take on recurring tasks for you",
-          "url": "https://www.engadget.com/2311901/adobe-firefly-ai-assistant-can-now-take-on-recurring-tasks-for-you/",
-          "publishedAt": "2026-11-10T14:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
-          "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
-          "publishedAt": "2026-11-10T14:05:10.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "The New Adobe Firefly AI Is All About Video Editing",
-          "url": "https://www.cnet.com/tech/services-and-software/new-adobe-firefly-ai-video-editing/",
-          "publishedAt": "2026-11-10T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
       "id": "de1d86ba-597a-4c34-adb6-e44ab1d0de61",
       "title": "Anthropic buys $3.4B worth of natural gas turbines to power its AI buildout",
       "summary": "Anthropic has bought about $3.4 billion worth of natural gas turbines, joining the AI industry's rush to gas-fired power for data centers. TechCrunch warns the deal could leave Anthropic with buyer's remorse.",
@@ -1348,6 +1383,25 @@
       "tags": [
         "enterprise-adoption"
       ]
+    },
+    {
+      "id": "8bfb2d2a-7d07-4386-9195-8440fff9f435",
+      "title": "Hollywood swaps green screens for \"gray box\" sets filled in by AI",
+      "summary": "Film productions are starting to shoot on sets with blank, neutral walls, then use AI to generate the backgrounds and lighting, moving AI from post-production onto the sound stage.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-11T18:24:23.204Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T18:24:23.204Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "From Green Screen to Gray Box: AI Is Stepping Onto the Hollywood Sound Stage",
+          "url": "https://www.cnet.com/tech/services-and-software/green-screen-gray-box-ai-hollywood-filmmaking/",
+          "publishedAt": "2026-11-11T13:50:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "1da81b6d-4c63-4784-9324-7d5a979bd21a",
@@ -1937,46 +1991,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "34054ae6-8934-43ac-98b6-ac9954126b6a",
-      "title": "Trump says he told an AI executive to \"kiss his family goodbye\" before going to jail",
-      "summary": "President Trump claims he warned an unnamed AI executive to kiss their family goodbye before going to jail, adding, \"Do you like the color orange?\" Gizmodo reports.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-09T17:50:23.694Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T17:50:23.694Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Says He Told an AI Executive to Kiss His Family Goodbye Before Going to Jail",
-          "url": "https://gizmodo.com/trump-says-he-told-an-ai-executive-to-kiss-his-family-goodbye-before-going-to-jail-2000837040",
-          "publishedAt": "2026-11-09T16:21:09.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "32df26d7-78fa-4f6c-aae1-813655a86578",
-      "title": "Otter AI adds 27 languages and previews mid-conversation language switching",
-      "summary": "AI meeting note-taker Otter added support for 27 more languages, bringing it past 30, and previewed an upcoming feature that keeps transcribing when speakers switch languages mid-conversation.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-10T08:00:08.590Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T08:00:08.590Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Otter AI can now follow conversations across 30+ languages",
-          "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
-          "publishedAt": "2026-11-10T07:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
   "totalCount": 129,
