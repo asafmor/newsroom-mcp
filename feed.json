@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T22:13:02.505Z",
+  "generatedAt": "2026-11-11T00:14:18.305Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -261,6 +261,13 @@
           "title": "Google's Gemini 4 Carbon is now widely available around the world",
           "url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide/",
           "publishedAt": "2026-11-10T16:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Google Expands Gemini 4 Carbon Availability",
+          "url": "https://www.cnet.com/tech/services-and-software/google-expands-gemini-4-carbon-availability/",
+          "publishedAt": "2026-11-10T22:07:30.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1517,6 +1524,25 @@
       ]
     },
     {
+      "id": "2d1e4504-e4ab-453a-811e-6c32d938813e",
+      "title": "Apple's Visual Intelligence comes to the iPad Camera app, available early via beta",
+      "summary": "Apple is bringing Visual Intelligence, its Siri camera feature, to the iPad, where it gets its own tab in the Camera app. Engadget explains how to try it before the public release.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-11T00:14:12.095Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T00:14:12.095Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "How to get this Siri camera upgrade for your iPad before its public release",
+          "url": "https://www.engadget.com/2312808/how-to-get-ipad-siri-camera-upgrade-early/",
+          "publishedAt": "2026-11-11T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "caddc3c7-c630-4f02-bcb1-334304fa20eb",
       "title": "Meta expands AI age detection to catch Instagram teens using fake birth dates",
       "summary": "Meta is expanding its AI-based age detection on Instagram to identify teens who entered false birth dates, automatically moving them into Teen Account settings with their safety restrictions.",
@@ -1906,29 +1932,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "c8ebbfe5-17c4-450f-bc1b-d076a4ebc63e",
-      "title": "Crusoe sells its troubled Wyoming data center project to Google",
-      "summary": "Crusoe has sold its troubled Wyoming data center project to Google, TechCrunch reports, a deal that highlights the difficulty of developing massive AI data centers.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-07T03:17:13.016Z",
-      "lastMeaningfulUpdateAt": "2026-11-07T03:17:13.016Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Crusoe sells troubled Wyoming data center project to Google",
-          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-          "publishedAt": "2026-11-07T01:40:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 126,
+  "totalCount": 127,
   "hasMore": true
 }
