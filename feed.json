@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T20:26:56.617Z",
+  "generatedAt": "2026-11-11T22:28:27.397Z",
   "stories": [
     {
       "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
@@ -80,12 +80,12 @@
     },
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "Congress summons Jensen Huang over his relationship with a suspected Chinese spy as Nvidia investigates",
-      "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot, and Congress now wants answers; Huang admitted to an affair in a company memo.\n\n- New: House Republicans called Huang in for a closed-door briefing on the affair and gave him until end of day Wednesday to respond (TechCrunch)\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- The relationship reportedly helped a network of companies obtain $7.5B in Nvidia AI chips for Chinese firms, and Nvidia reportedly intervened in a US government probe, per Gizmodo\n- Huang has lobbied hard to loosen US chip export limits to China and began working with Heller, a PR firm known for sex scandals, as early as October 2025, WIRED reports\n- Nvidia stock slid more than 4% after the probe opened; a proposed investor class action has been filed, and Huang has pulled out of ElevenLabs and Anthropic events",
-      "importanceScore": 0.8,
+      "title": "Republican senator calls on Jensen Huang to resign as Congress weighs a subpoena over his alleged Chinese spy affair",
+      "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot, and pressure from Washington is mounting; Huang admitted to an affair in a company memo.\n\n- New: A Republican senator called on Huang to resign, and House Select Committee on China members say they could subpoena him (Gizmodo)\n- House Republicans called Huang in for a closed-door briefing and gave him until end of day Wednesday to respond\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- The relationship reportedly helped a network of companies obtain $7.5B in Nvidia AI chips for Chinese firms, and Nvidia reportedly intervened in a US government probe\n- Huang has lobbied to loosen US chip export limits and worked with Heller, a PR firm known for sex scandals, as early as October 2025, WIRED reports\n- Nvidia stock slid more than 4%, a proposed investor class action has been filed, and Huang pulled out of ElevenLabs and Anthropic events",
+      "importanceScore": 0.82,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T20:26:23.423Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T22:28:16.476Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -246,6 +246,13 @@
           "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
           "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
           "publishedAt": "2026-11-11T19:22:22.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Republican Senator Calls on Nvidia CEO Jensen Huang to Resign",
+          "url": "https://gizmodo.com/republican-senator-calls-on-nvidia-ceo-jensen-huang-to-resign-2000838502",
+          "publishedAt": "2026-11-11T21:52:06.000Z",
           "contribution": "meaningful-update"
         }
       ],
@@ -929,6 +936,27 @@
         "product-launch",
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "7d6866f3-7957-44c1-acbd-65edf8403187",
+      "title": "Lutnick reportedly stalls a Trump-approved crackdown on Nvidia chip exports",
+      "summary": "Trump has reportedly approved a crackdown on AI chip exports, per Axios, but Commerce Secretary Howard Lutnick is stalling and doesn't want to stop the flow of Nvidia chips overseas, Gizmodo reports.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-11T22:28:18.677Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T22:28:18.677Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Howard Lutnick Doesn’t Want to Stop the Flow of Nvidia Chips Overseas: Report",
+          "url": "https://gizmodo.com/howard-lutnick-doesnt-want-to-stop-the-flow-of-nvidia-chips-overseas-report-2000838506",
+          "publishedAt": "2026-11-11T22:02:37.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
       ]
     },
     {
@@ -1971,27 +1999,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "e95bf9f3-5428-4749-b906-243c26777df2",
-      "title": "Plurai applies self-driving techniques to make AI agents more reliable",
-      "summary": "Startup Plurai wants to make AI agents work better by borrowing the approach that helped get self-driving cars onto roads, treating agents, like end-to-end driving models, as probabilistic systems operating in unpredictable environments, TechCrunch reports.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-11T16:22:24.070Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T16:22:24.070Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
-          "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
-          "publishedAt": "2026-11-11T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 135,
+  "totalCount": 134,
   "hasMore": true
 }
