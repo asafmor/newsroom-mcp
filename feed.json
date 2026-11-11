@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T04:16:03.044Z",
+  "generatedAt": "2026-11-11T06:17:21.348Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -1681,6 +1681,25 @@
       ]
     },
     {
+      "id": "92be0414-3feb-4195-a635-3c6e64c9df60",
+      "title": "QVAC's BotPsy runs a personal assistant on-device with a sub-billion-parameter agentic model",
+      "summary": "QVAC introduced BotPsy on the Hugging Face blog: an on-device personal assistant powered by an agentic language model under one billion parameters, designed to run locally instead of in the cloud.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-11T06:17:08.413Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T06:17:08.413Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+          "url": "https://huggingface.co/blog/qvac/botpsy",
+          "publishedAt": "2026-11-11T05:01:16.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "9f6d4470-9b2a-4438-a7bc-ed842ed1a9ca",
       "title": "DOJ says deepfaked CEOs and lawyers helped steal $129 million from hospitals, banks, and others",
       "summary": "The US Justice Department says a fraud ring used deepfaked CEOs and lawyers to steal $129 million from victims including hospitals and banks, per Gizmodo. One of the accused allegedly bragged about laundering more than $400 million over the past three years.",
@@ -1913,34 +1932,8 @@
         "model-release",
         "safety"
       ]
-    },
-    {
-      "id": "8317a339-9709-402c-afb1-abf587527b55",
-      "title": "Tech rout wipes out $2.5 trillion as AI investors brace for scrutiny from incoming Democrats",
-      "summary": "Tech stocks plunged, erasing about $2.5 trillion in value, on fears that incoming Democrats will end the Trump era of laissez-faire regulation and backdoor deals that AI companies have benefited from, Gizmodo reports.",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-06T00:57:33.432Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T00:57:33.432Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Tech Rout Wipes Out $2.5 Trillion, With AI Investors Anticipating Heavier Scrutiny From Dems",
-          "url": "https://gizmodo.com/tech-rout-wipes-out-2-5-trillion-with-ai-investors-anticipating-heavier-scrutiny-2000835986",
-          "publishedAt": "2026-11-05T23:44:09.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Krispy Kreme Is Beating Nvidia, and That’s Not Even the Chip Giant’s Biggest Problem",
-          "url": "https://gizmodo.com/krispy-kreme-is-beating-nvidia-and-thats-not-even-the-chip-giants-biggest-problem-2000836297",
-          "publishedAt": "2026-11-06T20:25:46.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 124,
+  "totalCount": 125,
   "hasMore": true
 }
