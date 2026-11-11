@@ -1,6 +1,83 @@
 {
-  "generatedAt": "2026-11-11T12:20:23.464Z",
+  "generatedAt": "2026-11-11T14:21:23.725Z",
   "stories": [
+    {
+      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
+      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
+      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism\n- Fable 5.2's safety classifiers produce 55% fewer false positives, but in testing it still downgraded a user to Opus 4.8 when asked for an application hardening plan",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-09T19:52:14.544Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T14:21:10.471Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "publishedAt": "2026-11-09T19:24:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
+          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
+          "publishedAt": "2026-11-09T19:32:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Which Claude model should you build with?",
+          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
+          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
+          "publishedAt": "2026-11-10T09:14:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Fable 5.2 AI Built a Complete Operating System in 8 Days",
+          "url": "https://www.geeky-gadgets.com/fable-5-2-capabilities/",
+          "publishedAt": "2026-11-10T13:47:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Fable 5.2 Drops False Positives by 55% but Downgrades to Opus 4.8",
+          "url": "https://www.geeky-gadgets.com/claude-fable-5-2-limitations/",
+          "publishedAt": "2026-11-11T13:15:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
       "title": "Anthropic launches its IPO roadshow at $70-$78 a share, implying a valuation of up to $1.4 trillion",
@@ -808,76 +885,6 @@
       ]
     },
     {
-      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
-      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
-      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism",
-      "importanceScore": 0.9,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-09T19:52:14.544Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T05:58:23.952Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-          "publishedAt": "2026-11-09T19:24:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
-          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
-          "publishedAt": "2026-11-09T19:32:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude Fable 5.2 and Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
-          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Which Claude model should you build with?",
-          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
-          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
-          "publishedAt": "2026-11-10T09:14:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Fable 5.2 AI Built a Complete Operating System in 8 Days",
-          "url": "https://www.geeky-gadgets.com/fable-5-2-capabilities/",
-          "publishedAt": "2026-11-10T13:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
       "id": "7077a07e-4d9e-4ad1-a49f-97cd5d41b468",
       "title": "Anthropic launches Claude Meetings, Sheets, Whiteboards, Data, and Interactive Connectors to take on Google and Microsoft",
       "summary": "Anthropic expanded Claude's workplace suite with new apps aimed squarely at Google Workspace and Microsoft 365, just ahead of its IPO.\n\n- Claude Meetings drafts the plan being discussed as participants talk, answers questions in the meeting chat, and pulls data from connected work apps\n- Claude Sheets brings Anthropic into spreadsheets, pitched as an AI-infused Excel competitor\n- Claude Whiteboards lets Claude brainstorm and map out timelines and plans visually\n- Claude Data lets users share data directly inside Claude\n- Interactive Connectors let partners embed their apps directly in Claude, so users and Claude work in the same tool without switching tabs",
@@ -1034,6 +1041,13 @@
           "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
           "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
           "publishedAt": "2026-11-10T21:12:59.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "A Grok vibe-coding agent leaked sensitive SpaceXSI data",
+          "url": "https://www.engadget.com/2313187/grok-build-leaked-sensitive-spacexsi-data/",
+          "publishedAt": "2026-11-11T12:35:10.000Z",
           "contribution": "supporting"
         }
       ],
