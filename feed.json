@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T16:39:39.792Z",
+  "generatedAt": "2026-11-12T18:42:04.555Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -254,9 +254,79 @@
           "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
           "publishedAt": "2026-11-12T16:32:33.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Nvidia CEO Jensen Huang Resigns",
+          "url": "https://www.cnet.com/tech/services-and-software/nvidia-ceo-jensen-huang-resigns/",
+          "publishedAt": "2026-11-12T14:25:06.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump Wants Tim Apple to Replace Jensen Huang as Nvidia CEO",
+          "url": "https://gizmodo.com/trump-tim-cook-jensen-huang-replace-2000838938",
+          "publishedAt": "2026-11-12T16:45:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
+          "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+          "publishedAt": "2026-11-12T17:59:15.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
+    },
+    {
+      "id": "1d0e9053-1892-4482-9aef-035a746ba152",
+      "title": "Google DeepMind introduces Gemini 4 Hydrogen",
+      "summary": "Google DeepMind announced Gemini 4 Hydrogen, a new Gemini 4 model that joins Gemini 4 Argon and Gemini 4 Carbon.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-12T18:41:56.922Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:56.922Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing Gemini 4 Hydrogen",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+          "publishedAt": "2026-11-12T18:00:50.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "9d92de3d-8514-4e00-bbd1-009e69d04328",
+      "title": "Huang's exit raises doubts about Nvidia's open-source AI push, including its $12.9B Hugging Face deal",
+      "summary": "Jensen Huang's resignation has raised questions about whether Nvidia will stay committed to open-source AI.\n\n- The questions cover Nvidia's $12.9B acquisition of Hugging Face, its open-weight models, and its lobbying against restrictions on open models\n- Hugging Face CEO Clem Delangue says he will keep fighting for open-source AI after Huang's exit",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-12T18:41:41.791Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:41.791Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+          "publishedAt": "2026-11-12T18:39:23.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+          "publishedAt": "2026-11-12T17:36:40.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
+      ]
     },
     {
       "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
@@ -340,6 +410,34 @@
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "7d6866f3-7957-44c1-acbd-65edf8403187",
+      "title": "Commerce appears to shift toward closing an Nvidia chip export loophole as Chinese firms rush to use it",
+      "summary": "The Commerce Department now appears to be moving to restrict Nvidia chip exports after criticism that it wasn't doing enough to keep chips away from Chinese tech companies.\n\n- Trump had reportedly approved an AI chip export crackdown (per Axios), but Commerce Secretary Howard Lutnick was said to be stalling it\n- Gizmodo reports that Chinese firms are racing to use the remaining loophole before it closes",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-11T22:28:18.677Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:33.687Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Howard Lutnick Doesn’t Want to Stop the Flow of Nvidia Chips Overseas: Report",
+          "url": "https://gizmodo.com/howard-lutnick-doesnt-want-to-stop-the-flow-of-nvidia-chips-overseas-report-2000838506",
+          "publishedAt": "2026-11-11T22:02:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "China Is Racing to Exploit an Nvidia Loophole Before the Trump Admin Slams It Shut",
+          "url": "https://gizmodo.com/china-is-racing-to-exploit-an-nvidia-loophole-before-the-trump-admin-slams-it-shut-2000839012",
+          "publishedAt": "2026-11-12T17:50:21.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation"
       ]
     },
     {
@@ -561,6 +659,28 @@
       ]
     },
     {
+      "id": "9f325808-49f4-4d98-863d-ed683f167a40",
+      "title": "Anthropic lets enterprises self-host Claude Managed Agents inside their own security perimeter",
+      "summary": "Anthropic introduced self-hosted Claude Managed Agents, which run in a customer's own cloud or on-premise environment. Customers host the agents, credentials, and session history themselves and choose where requests to Claude are sent.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-12T18:41:50.670Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:50.670Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Operate Claude Managed Agents inside your security perimeter",
+          "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "ae8231c7-4053-4dfd-9081-079eb99117d7",
       "title": "Fireworks AI breach let hackers access Notion customers' AI chat transcripts",
       "summary": "A cyberattack on AI inference provider Fireworks AI let hackers access chat transcripts belonging to Notion customers, TechCrunch reports. It is Fireworks' second data breach in as many months.",
@@ -599,6 +719,46 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "f2de87db-25ab-47b9-b921-ede5874c6688",
+      "title": "Google DeepMind staff ask the UK government to step in on their union fight",
+      "summary": "After initial talks with management stalled, Google DeepMind workers are going to the UK government to try to bypass company management in their bid to unionize.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-12T18:41:48.268Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:48.268Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
+          "url": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
+          "publishedAt": "2026-11-12T18:05:41.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ba85982f-f5c2-4e8e-a033-d264e0734be7",
+      "title": "SoftBank's $3B+ loss on preordered gas turbines may cap AI's natural gas ambitions",
+      "summary": "SoftBank lost more than $3 billion on natural gas turbines it preordered to power AI data centers. TechCrunch looks at what the loss could mean for power markets and for AI's push into gas-fired power.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-12T18:41:44.069Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:44.069Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+          "publishedAt": "2026-11-12T17:00:52.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
     },
     {
       "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
@@ -1044,24 +1204,25 @@
       ]
     },
     {
-      "id": "7d6866f3-7957-44c1-acbd-65edf8403187",
-      "title": "Lutnick reportedly stalls a Trump-approved crackdown on Nvidia chip exports",
-      "summary": "Trump has reportedly approved a crackdown on AI chip exports, per Axios, but Commerce Secretary Howard Lutnick is stalling and doesn't want to stop the flow of Nvidia chips overseas, Gizmodo reports.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-11T22:28:18.677Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T22:28:18.677Z",
+      "id": "8baa91ec-a84f-4049-8d1c-3f727272b299",
+      "title": "Anthropic launches Claude for Manufacturing, a plugin with 17 skills and four connectors",
+      "summary": "Anthropic's new Claude for Manufacturing plugin bundles 17 skills and four connectors. It helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already use.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-12T18:41:53.021Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:53.021Z",
       "sources": [
         {
-          "providerName": "Gizmodo AI",
-          "title": "Howard Lutnick Doesn’t Want to Stop the Flow of Nvidia Chips Overseas: Report",
-          "url": "https://gizmodo.com/howard-lutnick-doesnt-want-to-stop-the-flow-of-nvidia-chips-overseas-report-2000838506",
-          "publishedAt": "2026-11-11T22:02:37.000Z",
+          "providerName": "Claude Blog",
+          "title": "Introducing Claude for Manufacturing",
+          "url": "https://claude.com/resources/articles/claude-for-manufacturing",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
           "contribution": "supporting"
         }
       ],
       "tags": [
-        "regulation"
+        "product-launch",
+        "enterprise-adoption"
       ]
     },
     {
@@ -1432,6 +1593,13 @@
           "url": "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights/",
           "publishedAt": "2026-11-11T20:09:44.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+          "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+          "publishedAt": "2026-11-12T17:17:58.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
@@ -1495,6 +1663,27 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "0ce1ec61-40d1-48eb-8111-ea9f597c6ebc",
+      "title": "J.Crew launches a Claude-powered Style Advisor that suggests complete outfits",
+      "summary": "J.Crew's new Style Advisor uses Claude to personalize online shopping, suggesting complete looks instead of individual products.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-12T18:41:55.021Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:55.021Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "J. Crew brings its signature approach to styling to life with Claude",
+          "url": "https://claude.com/resources/articles/j-crew-style-advisor-with-claude",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -1596,6 +1785,27 @@
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "a0db2985-66ea-4342-8870-1fc85dff518c",
+      "title": "Phota Labs uses AI to automatically turn everyday photos into professional-looking shots",
+      "summary": "Startup Phota Labs is skipping the usual photo-editing tool and instead uses AI to automate editing itself, so anyone can turn everyday snapshots into better-looking photos.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-12T18:41:46.418Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:46.418Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+          "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+          "publishedAt": "2026-11-12T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1885,220 +2095,8 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "93bcab62-127f-4531-bf9b-ad65e8fd3099",
-      "title": "Alibaba's Qwen 4 preview reportedly beats DeepSeek 4.1 Flash on web tasks using half the tokens",
-      "summary": "Early hands-on looks at Alibaba's Qwen 4 series, including the Qwen 4 Max and 27B variants, report strong results on complex simulations and generated environments. One breakdown says Qwen 4 beat DeepSeek 4.1 Flash on web tasks while using about half the tokens. These are third-party first impressions, not independent benchmarks.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-09T15:48:23.215Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T15:48:23.215Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Qwen 4 Beats Deepseek 4.1 Flash in Web Tasks on Half the Tokens",
-          "url": "https://www.geeky-gadgets.com/qwen-4-preview-first-look/",
-          "publishedAt": "2026-11-09T14:13:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "c7d1270c-7c9b-49ea-a08e-ccbbc5f4817f",
-      "title": "Cyanogen co-founder's Kora takes aim at Windows with a free OS built for AI agents",
-      "summary": "After challenging Google's Android with Cyanogen, its co-founder is preparing Kora, a free-to-use alternative to Windows aimed at users who rely heavily on AI models and agents.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-10T14:05:52.047Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T14:05:52.047Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
-          "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
-          "publishedAt": "2026-11-10T14:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
-          "url": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
-          "publishedAt": "2026-11-10T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "46e768de-1646-4bf3-ae49-4286f0511be6",
-      "title": "Hasbro is using AI to bring its characters to life, with limits",
-      "summary": "Hasbro's Sixth Wall Studio is using AI to create interactive versions of its characters, such as G.I. Joe's Cobra Commander showing up in a Teams meeting, though the company is placing limits on what they can do.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-12T14:37:19.204Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T14:37:19.204Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Hasbro Is Using AI to Bring Characters to Life — With Limits",
-          "url": "https://www.cnet.com/tech/services-and-software/hasbro-sixth-wall-studio-ai-characters/",
-          "publishedAt": "2026-11-12T12:20:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "d0b1bc02-4bec-46c1-827a-5c43934f9115",
-      "title": "Anthropic explains how \"dreaming\" helps Claude organize agent memory and correct mistakes",
-      "summary": "Anthropic published research on the components of agent memory, describing how Claude must decide what's worth remembering before it knows what comes next, and how an offline \"dreaming\" process helps it reorganize memories and correct mistakes so it can learn from experience.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-09T23:55:16.795Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T23:55:16.795Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "The components of agent memory",
-          "url": "https://www.anthropic.com/research/components-of-agent-memory",
-          "publishedAt": "2026-11-06T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "97dd4388-13c8-451a-8546-76c4e42739bf",
-      "title": "Databricks CEO Ali Ghodsi uses the revised Genie agent to surface what's going wrong inside the company",
-      "summary": "With 12,000 employees, Databricks CEO Ali Ghodsi says he relies on the company's newly revised Genie AI agent to tell him what's going wrong inside the company, rather than waiting for staff to report problems, TechCrunch reports.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-11T16:22:22.019Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T16:22:22.019Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
-          "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
-          "publishedAt": "2026-11-11T15:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "045b1484-7cfe-479a-93e9-eeda67093d4b",
-      "title": "OpenAI reportedly raises another $11B at a $1.25T valuation as it eyes a 2027 IPO",
-      "summary": "OpenAI is steering toward a 2027 public debut, and its last private raise is still adding money despite a lowered target.\n\n- OpenAI has reportedly raised an additional $11B at a $1.25T valuation; the round hasn't closed but is expected to in the coming weeks, per TechCrunch\n- The round's target was lowered after it fell short of expectations; it was earlier reported at $30B, with the valuation down from $1.4T in late September\n- President Greg Brockman says OpenAI could be IPO-ready in 2027, citing accelerating enterprise revenue and a business turnaround\n- Altman has said OpenAI must \"be able to make confident safety claims\" before going public, tying the IPO to getting its rogue-AI incidents under control, per Gizmodo",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-29T20:08:40.765Z",
-      "lastMeaningfulUpdateAt": "2026-11-06T23:14:14.463Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
-          "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-          "publishedAt": "2026-09-29T19:52:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says",
-          "url": "https://gizmodo.com/no-openai-ipo-until-the-ai-stops-going-rogue-ceo-sam-altman-says-2000819194",
-          "publishedAt": "2026-09-30T04:14:16.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "OpenAI Reportedly Looking to Hurry and Get Valued at $1.4 Trillion Before Anthropic IPO",
-          "url": "https://gizmodo.com/openai-reportedly-looking-to-hurry-and-get-valued-at-1-4-trillion-before-anthropic-ipo-2000827975",
-          "publishedAt": "2026-10-20T09:30:27.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-          "publishedAt": "2026-10-22T22:08:24.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI reportedly lowers funding target for new round",
-          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-          "publishedAt": "2026-10-31T16:12:55.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-          "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-          "publishedAt": "2026-11-05T18:02:27.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-          "publishedAt": "2026-11-06T22:53:46.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "funding",
-        "safety"
-      ]
-    },
-    {
-      "id": "194dd7c0-b81d-4d36-893c-b3a295ca4fe4",
-      "title": "Microsoft's November Copilot update adds seven features across Excel, PowerPoint and SharePoint",
-      "summary": "Microsoft's November 2026 Copilot update brings seven new features to Office apps including Excel, PowerPoint and SharePoint, led by an Excel \"clean data\" skill that fixes inconsistent capitalization and formatting while letting users review the proposed changes.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-10T10:01:22.733Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T10:01:22.733Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "November 2026 Microsoft Office Updates Brings 7 Mew Copilot Features",
-          "url": "https://www.geeky-gadgets.com/microsoft-copilot-features-november-2026/",
-          "publishedAt": "2026-11-10T08:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "2d1e4504-e4ab-453a-811e-6c32d938813e",
-      "title": "Apple's Visual Intelligence comes to the iPad Camera app, available early via beta",
-      "summary": "Apple is bringing Visual Intelligence, its Siri camera feature, to the iPad, where it gets its own tab in the Camera app. Engadget explains how to try it before the public release.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-11T00:14:12.095Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T00:14:12.095Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "How to get this Siri camera upgrade for your iPad before its public release",
-          "url": "https://www.engadget.com/2312808/how-to-get-ipad-siri-camera-upgrade-early/",
-          "publishedAt": "2026-11-11T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 112,
+  "totalCount": 118,
   "hasMore": true
 }
