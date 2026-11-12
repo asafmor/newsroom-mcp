@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-12T12:36:01.018Z",
+  "generatedAt": "2026-11-12T14:37:31.458Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "Nvidia's board reportedly preps to oust Jensen Huang as a second affair allegation surfaces",
-      "summary": "Nvidia's board could decide as soon as Wednesday evening to remove Jensen Huang, its founder and CEO of 33 years, TechCrunch reports, as the scandal over his admitted affair with a woman US intelligence links to a Chinese spy plot escalates.\n\n- New: The NYT reports Huang also had a separate affair with an Nvidia subordinate\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- The relationship reportedly helped a network of companies obtain $7.5B in Nvidia AI chips for Chinese firms, and Nvidia reportedly intervened in a US government probe\n- A Republican senator called on Huang to resign, and House China committee members say they could subpoena him after calling him in for a closed-door briefing\n- Nvidia stock dropped further on the ouster report, after an earlier 4%+ slide and a proposed investor class action",
-      "importanceScore": 0.9,
+      "title": "Jensen Huang resigns as Nvidia CEO amid espionage and affair scandals; CFO Colette Kress named interim CEO",
+      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, resigned on Thursday after the company opened an investigation into his affair with a woman US intelligence links to a Chinese spy plot.\n\n- Longtime CFO Colette Kress, credited with helping turn Nvidia into an AI powerhouse, takes over as interim CEO\n- The NYT also reported a separate affair with an Nvidia subordinate\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- Political pressure mounted before the exit: a Republican senator called for his resignation, and House China committee members floated a subpoena\n- Nvidia stock slid on the scandal and ouster reports, and investors proposed a class action",
+      "importanceScore": 0.95,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T00:29:12.524Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T14:37:11.783Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -205,6 +205,27 @@
           "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
           "publishedAt": "2026-11-12T03:13:10.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Jensen Huang Resigns as Nvidia CEO",
+          "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+          "publishedAt": "2026-11-12T13:58:06.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Jensen Huang Resigns From Nvidia After Espionage, Sex Scandals",
+          "url": "https://gizmodo.com/jensen-huang-resigns-from-nvidia-after-espionage-sex-scandals-2000838005",
+          "publishedAt": "2026-11-12T14:07:28.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meet Colette Kress, Nvidia’s New Interim CEO",
+          "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
+          "publishedAt": "2026-11-12T14:14:33.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": []
@@ -1044,6 +1065,20 @@
           "url": "https://gizmodo.com/anthropic-goes-for-microsofts-crown-with-new-claude-powered-office-tools-2000837885",
           "publishedAt": "2026-11-10T21:15:29.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic Launches Whiteboards: Bringing New Visual Tools to Claude AI in Beta",
+          "url": "https://www.geeky-gadgets.com/anthropic-claude-whiteboard-sheets-data/",
+          "publishedAt": "2026-11-12T14:17:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Claude Suite Now Joins Google Meet for Virtual Calls",
+          "url": "https://www.geeky-gadgets.com/claude-suite-update-features/",
+          "publishedAt": "2026-11-12T13:15:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1829,6 +1864,25 @@
       "tags": []
     },
     {
+      "id": "46e768de-1646-4bf3-ae49-4286f0511be6",
+      "title": "Hasbro is using AI to bring its characters to life, with limits",
+      "summary": "Hasbro's Sixth Wall Studio is using AI to create interactive versions of its characters, such as G.I. Joe's Cobra Commander showing up in a Teams meeting, though the company is placing limits on what they can do.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-12T14:37:19.204Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T14:37:19.204Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Hasbro Is Using AI to Bring Characters to Life — With Limits",
+          "url": "https://www.cnet.com/tech/services-and-software/hasbro-sixth-wall-studio-ai-characters/",
+          "publishedAt": "2026-11-12T12:20:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "d0b1bc02-4bec-46c1-827a-5c43934f9115",
       "title": "Anthropic explains how \"dreaming\" helps Claude organize agent memory and correct mistakes",
       "summary": "Anthropic published research on the components of agent memory, describing how Claude must decide what's worth remembering before it knows what comes next, and how an offline \"dreaming\" process helps it reorganize memories and correct mistakes so it can learn from experience.",
@@ -2015,27 +2069,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "e2152831-3b1d-4c07-bc44-40d474cf638c",
-      "title": "Independent Games Festival jurors' refusal to reward AI use puts Untitled Goose Game studio Big Walk in a bind",
-      "summary": "Independent Games Festival jurors refuse to reward games that use AI, leaving Big Walk, from the creators of Untitled Goose Game, in a difficult position over a small amount of AI in its new game, Gizmodo reports.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-11T16:22:29.442Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T16:22:29.442Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "A Tiny Bit of AI Has Created a Big Problem for an Indie Game Darling",
-          "url": "https://gizmodo.com/a-tiny-bit-of-ai-has-created-a-big-problem-for-an-indie-game-darling-2000838305",
-          "publishedAt": "2026-11-11T16:00:57.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 117,
+  "totalCount": 115,
   "hasMore": true
 }
