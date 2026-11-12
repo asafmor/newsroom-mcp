@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-12T14:37:31.458Z",
+  "generatedAt": "2026-11-12T16:39:39.792Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "Jensen Huang resigns as Nvidia CEO amid espionage and affair scandals; CFO Colette Kress named interim CEO",
-      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, resigned on Thursday after the company opened an investigation into his affair with a woman US intelligence links to a Chinese spy plot.\n\n- Longtime CFO Colette Kress, credited with helping turn Nvidia into an AI powerhouse, takes over as interim CEO\n- The NYT also reported a separate affair with an Nvidia subordinate\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- Political pressure mounted before the exit: a Republican senator called for his resignation, and House China committee members floated a subpoena\n- Nvidia stock slid on the scandal and ouster reports, and investors proposed a class action",
+      "title": "Jensen Huang, ousted as Nvidia CEO amid espionage and affair scandals, agrees to testify before Congress",
+      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot.\n\n- CFO Colette Kress is interim CEO; Trump has publicly floated Apple chairman Tim Cook as Huang's permanent successor\n- Huang agreed on Wednesday to testify before Congress after several senior lawmakers threatened to subpoena him\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- The NYT also reported a separate affair with an Nvidia subordinate\n- Nvidia stock slid on the scandal, and investors proposed a class action",
       "importanceScore": 0.95,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T14:37:11.783Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T16:39:18.348Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -226,6 +226,34 @@
           "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
           "publishedAt": "2026-11-12T14:14:33.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang agrees to testify before Congress",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+          "publishedAt": "2026-11-12T16:36:37.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+          "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+          "publishedAt": "2026-11-12T16:12:44.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+          "publishedAt": "2026-11-12T15:37:29.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+          "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+          "publishedAt": "2026-11-12T16:32:33.000Z",
+          "contribution": "background"
         }
       ],
       "tags": []
@@ -529,6 +557,27 @@
       ],
       "tags": [
         "funding",
+        "safety"
+      ]
+    },
+    {
+      "id": "ae8231c7-4053-4dfd-9081-079eb99117d7",
+      "title": "Fireworks AI breach let hackers access Notion customers' AI chat transcripts",
+      "summary": "A cyberattack on AI inference provider Fireworks AI let hackers access chat transcripts belonging to Notion customers, TechCrunch reports. It is Fireworks' second data breach in as many months.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-12T16:39:29.122Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T16:39:29.122Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+          "publishedAt": "2026-11-12T15:02:28.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -1449,6 +1498,27 @@
       ]
     },
     {
+      "id": "1ede84a7-2401-4b52-a93f-fc53f3d52a1b",
+      "title": "Norwest pushes deeper into AI with a new $4B fund, its largest ever",
+      "summary": "Venture firm Norwest raised a new $4 billion fund, its largest to date, as it pushes deeper into AI investing, TechCrunch reports.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-12T16:39:30.908Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T16:39:30.908Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Norwest pushes deeper into AI with new $4B fund",
+          "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+          "publishedAt": "2026-11-12T15:18:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
+      ]
+    },
+    {
       "id": "b6464084-cd6f-46a1-a119-d3274919c2c1",
       "title": "Anthropic shows Claude designing working electronic prototypes from start to finish",
       "summary": "Anthropic asked Claude to design three electronic devices — a speakerphone, a voice-assistant hub, and a handheld virtual pet — and says all three prototypes worked without any fixes to their circuitry.",
@@ -2027,50 +2097,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "caddc3c7-c630-4f02-bcb1-334304fa20eb",
-      "title": "Meta expands AI age detection to catch Instagram teens using fake birth dates",
-      "summary": "Meta is expanding its AI-based age detection on Instagram to identify teens who entered false birth dates, automatically moving them into Teen Account settings with their safety restrictions.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-10T08:00:10.639Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T08:00:10.639Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "Instagram AI Update: Meta Targets Teens Using Fake Birth Dates With New Age Detection Measures",
-          "url": "https://in.mashable.com/tech/115954/instagram-ai-update-meta-targets-teens-using-fake-birth-dates-with-new-age-detection-measures",
-          "publishedAt": "2026-11-10T07:33:45.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "498969c2-ef49-4574-952c-e355ebb062ec",
-      "title": "Automattic launches Spacefast, a platform for deploying vibe-coded apps, to take on Lovable",
-      "summary": "WordPress owner Automattic debuted Spacefast, a platform for building and deploying vibe-coded apps, positioning it against AI app builders like Lovable as AI reshapes how people make things for the web.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-09T15:48:20.268Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T15:48:20.268Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Automattic debuts a platform to deploy vibe coding apps amid a changing internet",
-          "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
-          "publishedAt": "2026-11-09T14:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 115,
+  "totalCount": 112,
   "hasMore": true
 }
