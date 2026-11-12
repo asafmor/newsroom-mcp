@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-12T20:43:38.069Z",
+  "generatedAt": "2026-11-12T22:45:49.450Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "Jensen Huang, ousted as Nvidia CEO amid espionage and affair scandals, agrees to testify before Congress",
-      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot.\n\n- CFO Colette Kress is interim CEO; Trump has floated Apple chairman Tim Cook as the permanent successor, and Elon Musk says it \"would be an honor\" to hire Huang\n- Huang agreed on Wednesday to testify before Congress after several senior lawmakers threatened to subpoena him\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- The NYT reported a second affair with an Nvidia subordinate, and Reuters now reports a third, with another Nvidia employee it has not named\n- Nvidia stock slid on the scandal, and investors proposed a class action",
+      "title": "Jensen Huang, ousted as Nvidia CEO amid espionage and affair scandals, faces a second congressional investigation",
+      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot.\n\n- CFO Colette Kress is interim CEO; Trump has floated Apple chairman Tim Cook as the permanent successor, and Elon Musk says it \"would be an honor\" to hire Huang\n- Huang agreed to testify before Congress after senior lawmakers threatened to subpoena him\n- Democrats have now opened a second congressional investigation, into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- The NYT reported a second affair with an Nvidia subordinate, and Reuters a third, with another Nvidia employee it has not named\n- Nvidia stock slid on the scandal, and investors proposed a class action",
       "importanceScore": 0.95,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T20:43:09.478Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T22:45:18.639Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -303,173 +303,41 @@
           "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/",
           "publishedAt": "2026-11-12T18:59:58.000Z",
           "contribution": "background"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "1d0e9053-1892-4482-9aef-035a746ba152",
-      "title": "Google DeepMind introduces Gemini 4 Hydrogen, now powering Search's AI Mode",
-      "summary": "Google DeepMind announced Gemini 4 Hydrogen, a new Gemini 4 model that joins Gemini 4 Argon and Gemini 4 Carbon. It now powers Google Search's AI Mode, which Google says handles complex queries better, surfaces more relevant links, and gives richer visual answers.",
-      "importanceScore": 0.78,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-12T18:41:56.922Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T20:43:16.582Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Introducing Gemini 4 Hydrogen",
-          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-          "publishedAt": "2026-11-12T18:00:50.000Z",
-          "contribution": "supporting"
         },
         {
-          "providerName": "TechCrunch AI",
-          "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-          "publishedAt": "2026-11-12T19:27:45.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "product-launch"
-      ]
-    },
-    {
-      "id": "9d92de3d-8514-4e00-bbd1-009e69d04328",
-      "title": "Huang's exit raises doubts about Nvidia's open-source AI push, including its $12.9B Hugging Face deal",
-      "summary": "Jensen Huang's resignation has raised questions about whether Nvidia will stay committed to open-source AI.\n\n- The questions cover Nvidia's $12.9B acquisition of Hugging Face, its open-weight models, and its lobbying against restrictions on open models\n- Hugging Face CEO Clem Delangue says he will keep fighting for open-source AI after Huang's exit",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-12T18:41:41.791Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T18:41:41.791Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-          "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-          "publishedAt": "2026-11-12T18:39:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-          "publishedAt": "2026-11-12T17:36:40.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source"
-      ]
-    },
-    {
-      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
-      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
-      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism\n- Fable 5.2's safety classifiers produce 55% fewer false positives, but in testing it still downgraded a user to Opus 4.8 when asked for an application hardening plan",
-      "importanceScore": 0.9,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-09T19:52:14.544Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T14:21:10.471Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-          "publishedAt": "2026-11-09T19:24:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
-          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
-          "publishedAt": "2026-11-09T19:32:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude Fable 5.2 and Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
-          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Which Claude model should you build with?",
-          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "providerName": "Wired AI",
+          "title": "Silicon Valley Is Still Defending Jensen Huang",
+          "url": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
+          "publishedAt": "2026-11-12T22:29:43.000Z",
           "contribution": "background"
         },
         {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
-          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
-          "publishedAt": "2026-11-10T09:14:00.000Z",
-          "contribution": "supporting"
+          "providerName": "Wired AI",
+          "title": "Jensen Huang Is Out. Will Nvidia’s Rivals Cash In?",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huang-is-out-will-nvidias-rivals-cash-in/",
+          "publishedAt": "2026-11-12T22:14:41.000Z",
+          "contribution": "background"
         },
         {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Fable 5.2 AI Built a Complete Operating System in 8 Days",
-          "url": "https://www.geeky-gadgets.com/fable-5-2-capabilities/",
-          "publishedAt": "2026-11-10T13:47:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Fable 5.2 Drops False Positives by 55% but Downgrades to Opus 4.8",
-          "url": "https://www.geeky-gadgets.com/claude-fable-5-2-limitations/",
-          "publishedAt": "2026-11-11T13:15:00.000Z",
+          "providerName": "TechCrunch AI",
+          "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+          "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+          "publishedAt": "2026-11-12T22:42:51.000Z",
           "contribution": "meaningful-update"
         },
         {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Claude Fable 5.2 Hits 74.6% to Beat ChatGPT 6 Astra on Science Tests",
-          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review-2/",
-          "publishedAt": "2026-11-12T08:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "7d6866f3-7957-44c1-acbd-65edf8403187",
-      "title": "Commerce appears to shift toward closing an Nvidia chip export loophole as Chinese firms rush to use it",
-      "summary": "The Commerce Department now appears to be moving to restrict Nvidia chip exports after criticism that it wasn't doing enough to keep chips away from Chinese tech companies.\n\n- Trump had reportedly approved an AI chip export crackdown (per Axios), but Commerce Secretary Howard Lutnick was said to be stalling it\n- Gizmodo reports that Chinese firms are racing to use the remaining loophole before it closes",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-11T22:28:18.677Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T18:41:33.687Z",
-      "sources": [
-        {
           "providerName": "Gizmodo AI",
-          "title": "Howard Lutnick Doesn’t Want to Stop the Flow of Nvidia Chips Overseas: Report",
-          "url": "https://gizmodo.com/howard-lutnick-doesnt-want-to-stop-the-flow-of-nvidia-chips-overseas-report-2000838506",
-          "publishedAt": "2026-11-11T22:02:37.000Z",
+          "title": "Nvidia’s New CEO Gets to Clean Up Jensen Huang’s Mess",
+          "url": "https://gizmodo.com/nvidias-new-ceo-gets-to-clean-up-jensen-huangs-mess-2000839178",
+          "publishedAt": "2026-11-12T22:25:45.000Z",
           "contribution": "supporting"
         },
         {
           "providerName": "Gizmodo AI",
-          "title": "China Is Racing to Exploit an Nvidia Loophole Before the Trump Admin Slams It Shut",
-          "url": "https://gizmodo.com/china-is-racing-to-exploit-an-nvidia-loophole-before-the-trump-admin-slams-it-shut-2000839012",
-          "publishedAt": "2026-11-12T17:50:21.000Z",
-          "contribution": "meaningful-update"
+          "title": "Ok, Raise Your Hand If You Have Also Had Sex With Jensen Huang",
+          "url": "https://gizmodo.com/third-intimate-relationship-alleged-jensen-huang-2000839168",
+          "publishedAt": "2026-11-12T21:05:43.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -477,410 +345,13 @@
       ]
     },
     {
-      "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
-      "title": "Anthropic launches its IPO roadshow at $70-$78 a share, implying a valuation of up to $1.4 trillion",
-      "summary": "Anthropic launched the roadshow for its initial public offering and set a price range of $70 to $78 per share, implying a fully diluted valuation of up to $1.404 trillion at the top of the range.\n\n- The range lands well above recent reports that its expected valuation had fallen from as high as $2 trillion to about $1 trillion\n- The public S-1 shows soaring revenue and enterprise adoption alongside heavy losses (about $8 billion last year, per Engadget)\n- The seven co-founders get a combined 50.1% of the vote on most matters, and each plans to sell the same number of shares, about $250M apiece at the midpoint, while keeping control\n- Amazon is set to make far more from the IPO than Anthropic's VC backers, and the SpaceXAI deal is bigger than previously known\n- Risk factors warn that Anthropic's own AI could pose an existential risk, and Blackstone expects credit agencies to rate it high \"junk\" after listing, per the FT",
-      "importanceScore": 0.94,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-09-25T16:42:37.631Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T20:10:15.867Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s founders seek voting control ahead of IPO",
-          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
-          "publishedAt": "2026-09-25T15:40:03.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
-          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
-          "publishedAt": "2026-09-29T05:13:43.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic lost $8 billion last year and said its AI could destroy humanity",
-          "url": "https://www.engadget.com/2271659/anthropic-lost-8-billion-says-it-could-destroy-humanity/",
-          "publishedAt": "2026-09-29T09:59:57.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Leaked Anthropic IPO Prospectus Gives Wall Street an Early Look at How AI Could Go Off the Rails",
-          "url": "https://gizmodo.com/leaked-anthropic-ipo-prospectus-gives-wall-street-an-early-look-at-how-ai-could-kill-us-all-2000818911",
-          "publishedAt": "2026-09-29T17:00:29.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Could IPO Any Time Now, But Some of the People Who Matter Most Don’t Want It",
-          "url": "https://gizmodo.com/anthropic-could-ipo-any-time-now-but-some-of-the-people-who-matter-most-dont-want-it-2000826678",
-          "publishedAt": "2026-10-16T14:00:35.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-          "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
-          "publishedAt": "2026-10-20T17:55:12.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic officially files for its public debut",
-          "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-          "publishedAt": "2026-10-26T14:35:22.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
-          "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
-          "publishedAt": "2026-10-26T14:50:47.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic files to go public ",
-          "url": "https://www.engadget.com/2296724/anthropic-files-to-go-public/",
-          "publishedAt": "2026-10-26T13:41:26.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s Deal With Elon Musk’s SpaceXAI Is Even Bigger Than We Knew, IPO Filing Shows",
-          "url": "https://gizmodo.com/anthropics-deal-with-elon-musks-spacexai-is-even-bigger-than-we-knew-ipo-filing-shows-2000830618",
-          "publishedAt": "2026-10-26T15:07:38.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-          "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-          "publishedAt": "2026-10-26T16:49:42.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
-          "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
-          "publishedAt": "2026-10-26T16:01:55.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "MIT AI",
-          "title": "Will the real Anthropic please stand up",
-          "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-          "publishedAt": "2026-10-26T17:45:43.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
-          "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
-          "publishedAt": "2026-10-26T21:27:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Threat of AI Bubble Looms Over Anthropic’s Big IPO Moment",
-          "url": "https://www.cnet.com/tech/services-and-software/anthropic-ipo-filing-ai-bubble-hype/",
-          "publishedAt": "2026-10-26T19:12:20.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
-          "url": "https://www.anthropic.com/news/s1-sec",
-          "publishedAt": "2026-10-26T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic's political problem will get worse before it gets better",
-          "url": "https://www.engadget.com/2298214/anthropics-political-problem-will-get-worse-before-it-gets-better/",
-          "publishedAt": "2026-10-27T14:16:27.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
-          "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
-          "publishedAt": "2026-10-27T19:39:04.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Who’s really in charge at Anthropic after the IPO?",
-          "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
-          "publishedAt": "2026-10-27T21:38:28.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
-          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-          "publishedAt": "2026-10-28T01:15:28.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic Files for IPO After Raising $141.1 Billion",
-          "url": "https://www.geeky-gadgets.com/anthropic-has/",
-          "publishedAt": "2026-10-28T08:47:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
-          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-          "publishedAt": "2026-10-30T21:52:03.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Is Betting Nearly $900 Billion That the AI Boom Won’t Bust",
-          "url": "https://gizmodo.com/anthropic-is-betting-nearly-900-billion-that-the-ai-boom-wont-bust-2000833885",
-          "publishedAt": "2026-11-02T20:20:47.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Still Plans to Go Public as Soon as Next Week: Report",
-          "url": "https://gizmodo.com/anthropic-still-plans-to-go-public-as-soon-as-next-week-report-2000837422",
-          "publishedAt": "2026-11-10T01:21:05.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic reportedly plans to move forward with IPO plans",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-          "publishedAt": "2026-11-10T01:27:12.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
-          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-          "publishedAt": "2026-11-10T14:01:39.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Anthropic launches roadshow for proposed initial public offering",
-          "url": "https://www.anthropic.com/news/roadshow-launch",
-          "publishedAt": "2026-11-10T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-          "publishedAt": "2026-11-10T19:57:52.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Investors Are Lining Up to Throw Money at Anthropic",
-          "url": "https://gizmodo.com/investors-are-lining-up-to-throw-money-at-anthropic-2000838373",
-          "publishedAt": "2026-11-11T18:00:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "safety"
-      ]
-    },
-    {
-      "id": "9f325808-49f4-4d98-863d-ed683f167a40",
-      "title": "Anthropic lets enterprises self-host Claude Managed Agents inside their own security perimeter",
-      "summary": "Anthropic introduced self-hosted Claude Managed Agents, which run in a customer's own cloud or on-premise environment. Customers host the agents, credentials, and session history themselves and choose where requests to Claude are sent.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-12T18:41:50.670Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T18:41:50.670Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Operate Claude Managed Agents inside your security perimeter",
-          "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
-          "publishedAt": "2026-11-12T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "ae8231c7-4053-4dfd-9081-079eb99117d7",
-      "title": "Fireworks AI breach let hackers access Notion customers' AI chat transcripts",
-      "summary": "A cyberattack on AI inference provider Fireworks AI let hackers access chat transcripts belonging to Notion customers, TechCrunch reports. It is Fireworks' second data breach in as many months.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-12T16:39:29.122Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T16:39:29.122Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-          "publishedAt": "2026-11-12T15:02:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "c2324464-88d1-419e-afd4-42ec148d4b6e",
-      "title": "OpenAI's quarterly revenue reportedly tops $10B for the first time",
-      "summary": "OpenAI's quarterly revenue has reportedly crossed $10 billion for the first time, nearly a 50% jump from the $6.7 billion it recorded in the second quarter, TechCrunch reports.",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-11T16:22:19.471Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T16:22:19.471Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
-          "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-          "publishedAt": "2026-11-11T16:14:44.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "f2de87db-25ab-47b9-b921-ede5874c6688",
-      "title": "Google DeepMind staff ask the UK government to step in on their union fight",
-      "summary": "After initial talks with management stalled, Google DeepMind workers are going to the UK government to try to bypass company management in their bid to unionize.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-12T18:41:48.268Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T18:41:48.268Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
-          "url": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
-          "publishedAt": "2026-11-12T18:05:41.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "ba85982f-f5c2-4e8e-a033-d264e0734be7",
-      "title": "SoftBank's $3B+ loss on preordered gas turbines may cap AI's natural gas ambitions",
-      "summary": "SoftBank lost more than $3 billion on natural gas turbines it preordered to power AI data centers. TechCrunch looks at what the loss could mean for power markets and for AI's push into gas-fired power.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-12T18:41:44.069Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T18:41:44.069Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-          "publishedAt": "2026-11-12T17:00:52.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
-      "title": "Google DeepMind makes Gemini 4 Carbon, its next frontier model, available",
-      "summary": "Google DeepMind says Gemini 4 Carbon, its next frontier model, is now available.\n\n- Access was first limited to select cybersecurity experts after its late-October announcement\n- Google pitched Carbon as a \"significant leap\" in coding and cybersecurity, and one report says it beat Claude Opus 5.5 on 16 of 18 tests\n- Carbon follows Gemini 4 Argon, which rolled out to the Gemini app and AI Mode in Search earlier this month",
-      "importanceScore": 0.88,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-28T18:10:56.235Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T16:07:49.756Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Gemini 4 Carbon: Our next frontier model",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-          "publishedAt": "2026-10-28T17:00:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Google Debuts New AI Models, Genie 4 and Gemini 4 Carbon: What You Need to Know",
-          "url": "https://www.cnet.com/tech/services-and-software/google-genie-4-gemini-4-carbon-ai-news/",
-          "publishedAt": "2026-10-28T20:51:37.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google's Gemini 4 Carbon promises 'significant leap' in AI coding and cybersecurity",
-          "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/",
-          "publishedAt": "2026-10-29T09:41:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Gemini 4 Carbon Beats Claude Opus 5.5 in 16 of 18 Tests",
-          "url": "https://www.geeky-gadgets.com/google-gemini-4-carbon-announced/",
-          "publishedAt": "2026-10-29T12:47:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Google DeepMind",
-          "title": "Gemini 4 Carbon is now available",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-          "publishedAt": "2026-11-10T16:03:47.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google's Gemini 4 Carbon is now widely available around the world",
-          "url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide/",
-          "publishedAt": "2026-11-10T16:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Google Expands Gemini 4 Carbon Availability",
-          "url": "https://www.cnet.com/tech/services-and-software/google-expands-gemini-4-carbon-availability/",
-          "publishedAt": "2026-11-10T22:07:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Gemini 4 Carbon Beats Claude Opus 5.5 in 16 of 18 Tests",
-          "url": "https://www.geeky-gadgets.com/gemini-carbon-2/",
-          "publishedAt": "2026-11-11T10:13:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Tested Gemini 4 Carbon Beats Gemini 4 Argon at Coding Space Games",
-          "url": "https://www.geeky-gadgets.com/gemini-carbon/",
-          "publishedAt": "2026-11-11T08:43:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta's Muse comes to Apple Watch and Wear OS as it passes 10M users amid mounting controversies",
-      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps adding features and users even as privacy, security, content, and labor controversies mount.\n\n- New: Muse is now on Apple Watch and Android Wear OS, where users can talk to it through voice calls, text messages, or dictation (TechCrunch)\n- Recent features include Spaces for collaborating with the agent, avatar video chat for US users, and a planned Tamagotchi-like Muse wearable\n- Meta said on its Q3 earnings call that Muse has over 10 million users; Zuckerberg said a quarter of them shop through the agent, spending about $200 per purchase on average\n- Meta suspended Muse's conversation sharing after researchers showed shared links exposed sensitive personal and business data\n- Other controversies: OnlyFans creators object to Muse's sexual chat, a since-fixed Mac 0-day, and a contractor \"human concierge\" reportedly making racist remarks on calls\n- Amazon has blocked Muse from shopping on Amazon.com; Meta admits it was \"heavily inspired\" by OpenClaw",
+      "title": "Meta's Muse can now place paid calls to US businesses as it passes 10M users amid mounting controversies",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps adding features and users even as privacy, security, content, and labor controversies mount.\n\n- New: Muse can now place outbound calls to US businesses, but only as a paid feature (TechCrunch)\n- Recent features include Apple Watch and Wear OS apps, Spaces for collaborating with the agent, avatar video chat for US users, and a planned Tamagotchi-like Muse wearable\n- Meta said on its Q3 earnings call that Muse has over 10 million users; Zuckerberg said a quarter of them shop through the agent, spending about $200 per purchase on average\n- Meta suspended Muse's conversation sharing after researchers showed shared links exposed sensitive personal and business data\n- Other controversies: OnlyFans creators object to Muse's sexual chat, a since-fixed Mac 0-day, and a contractor \"human concierge\" reportedly making racist remarks on calls\n- Amazon has blocked Muse from shopping on Amazon.com; Meta admits it was \"heavily inspired\" by OpenClaw",
       "importanceScore": 0.85,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T16:07:42.752Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T22:45:23.440Z",
       "sources": [
         {
           "providerName": "VentureBeat",
@@ -1231,12 +702,627 @@
           "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
           "publishedAt": "2026-11-10T15:29:30.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Muse can now place calls to U.S. businesses — if you pay",
+          "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+          "publishedAt": "2026-11-12T22:22:28.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
         "product-launch",
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "1d0e9053-1892-4482-9aef-035a746ba152",
+      "title": "Google DeepMind introduces Gemini 4 Hydrogen, now powering Search's AI Mode",
+      "summary": "Google DeepMind announced Gemini 4 Hydrogen, a new Gemini 4 model that joins Gemini 4 Argon and Gemini 4 Carbon. It now powers Google Search's AI Mode, which Google says handles complex queries better, surfaces more relevant links, and gives richer visual answers.",
+      "importanceScore": 0.78,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-12T18:41:56.922Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T20:43:16.582Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing Gemini 4 Hydrogen",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+          "publishedAt": "2026-11-12T18:00:50.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+          "publishedAt": "2026-11-12T19:27:45.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "product-launch"
+      ]
+    },
+    {
+      "id": "9d92de3d-8514-4e00-bbd1-009e69d04328",
+      "title": "Huang's exit raises doubts about Nvidia's open-source AI push, including its $12.9B Hugging Face deal",
+      "summary": "Jensen Huang's resignation has raised questions about whether Nvidia will stay committed to open-source AI.\n\n- The questions cover Nvidia's $12.9B acquisition of Hugging Face, its open-weight models, and its lobbying against restrictions on open models\n- Hugging Face CEO Clem Delangue says he will keep fighting for open-source AI after Huang's exit",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-12T18:41:41.791Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:41.791Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+          "publishedAt": "2026-11-12T18:39:23.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+          "publishedAt": "2026-11-12T17:36:40.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
+      ]
+    },
+    {
+      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
+      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
+      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism\n- Fable 5.2's safety classifiers produce 55% fewer false positives, but in testing it still downgraded a user to Opus 4.8 when asked for an application hardening plan",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-09T19:52:14.544Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T14:21:10.471Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "publishedAt": "2026-11-09T19:24:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
+          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
+          "publishedAt": "2026-11-09T19:32:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Which Claude model should you build with?",
+          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
+          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
+          "publishedAt": "2026-11-10T09:14:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Fable 5.2 AI Built a Complete Operating System in 8 Days",
+          "url": "https://www.geeky-gadgets.com/fable-5-2-capabilities/",
+          "publishedAt": "2026-11-10T13:47:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Fable 5.2 Drops False Positives by 55% but Downgrades to Opus 4.8",
+          "url": "https://www.geeky-gadgets.com/claude-fable-5-2-limitations/",
+          "publishedAt": "2026-11-11T13:15:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Claude Fable 5.2 Hits 74.6% to Beat ChatGPT 6 Astra on Science Tests",
+          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review-2/",
+          "publishedAt": "2026-11-12T08:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
+      "id": "7d6866f3-7957-44c1-acbd-65edf8403187",
+      "title": "Commerce appears to shift toward closing an Nvidia chip export loophole as Chinese firms rush to use it",
+      "summary": "The Commerce Department now appears to be moving to restrict Nvidia chip exports after criticism that it wasn't doing enough to keep chips away from Chinese tech companies.\n\n- Trump had reportedly approved an AI chip export crackdown (per Axios), but Commerce Secretary Howard Lutnick was said to be stalling it\n- Gizmodo reports that Chinese firms are racing to use the remaining loophole before it closes",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-11T22:28:18.677Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:33.687Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Howard Lutnick Doesn’t Want to Stop the Flow of Nvidia Chips Overseas: Report",
+          "url": "https://gizmodo.com/howard-lutnick-doesnt-want-to-stop-the-flow-of-nvidia-chips-overseas-report-2000838506",
+          "publishedAt": "2026-11-11T22:02:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "China Is Racing to Exploit an Nvidia Loophole Before the Trump Admin Slams It Shut",
+          "url": "https://gizmodo.com/china-is-racing-to-exploit-an-nvidia-loophole-before-the-trump-admin-slams-it-shut-2000839012",
+          "publishedAt": "2026-11-12T17:50:21.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "37651898-36a8-4f5e-89c2-c776baac3148",
+      "title": "Nvidia privately said chip tracking to fight smuggling is feasible, even as industry publicly called it \"potentially infeasible\"",
+      "summary": "Nvidia representatives told Rep. Bill Foster (D-Ill.) it would be technically possible to implement the anti-smuggling chip-tracking measures called for in the Chip Security Act, Foster told MIT Technology Review, even as an industry group publicly called those measures \"potentially infeasible.\"",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-12T22:45:39.494Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T22:45:39.494Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+          "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+          "publishedAt": "2026-11-12T20:16:24.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
+      "title": "Anthropic launches its IPO roadshow at $70-$78 a share, implying a valuation of up to $1.4 trillion",
+      "summary": "Anthropic launched the roadshow for its initial public offering and set a price range of $70 to $78 per share, implying a fully diluted valuation of up to $1.404 trillion at the top of the range.\n\n- The range lands well above recent reports that its expected valuation had fallen from as high as $2 trillion to about $1 trillion\n- The public S-1 shows soaring revenue and enterprise adoption alongside heavy losses (about $8 billion last year, per Engadget)\n- The seven co-founders get a combined 50.1% of the vote on most matters, and each plans to sell the same number of shares, about $250M apiece at the midpoint, while keeping control\n- Amazon is set to make far more from the IPO than Anthropic's VC backers, and the SpaceXAI deal is bigger than previously known\n- Risk factors warn that Anthropic's own AI could pose an existential risk, and Blackstone expects credit agencies to rate it high \"junk\" after listing, per the FT",
+      "importanceScore": 0.94,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-09-25T16:42:37.631Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T20:10:15.867Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s founders seek voting control ahead of IPO",
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+          "publishedAt": "2026-09-25T15:40:03.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+          "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+          "publishedAt": "2026-09-29T05:13:43.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic lost $8 billion last year and said its AI could destroy humanity",
+          "url": "https://www.engadget.com/2271659/anthropic-lost-8-billion-says-it-could-destroy-humanity/",
+          "publishedAt": "2026-09-29T09:59:57.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Leaked Anthropic IPO Prospectus Gives Wall Street an Early Look at How AI Could Go Off the Rails",
+          "url": "https://gizmodo.com/leaked-anthropic-ipo-prospectus-gives-wall-street-an-early-look-at-how-ai-could-kill-us-all-2000818911",
+          "publishedAt": "2026-09-29T17:00:29.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Could IPO Any Time Now, But Some of the People Who Matter Most Don’t Want It",
+          "url": "https://gizmodo.com/anthropic-could-ipo-any-time-now-but-some-of-the-people-who-matter-most-dont-want-it-2000826678",
+          "publishedAt": "2026-10-16T14:00:35.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+          "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+          "publishedAt": "2026-10-20T17:55:12.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic officially files for its public debut",
+          "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+          "publishedAt": "2026-10-26T14:35:22.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+          "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+          "publishedAt": "2026-10-26T14:50:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic files to go public ",
+          "url": "https://www.engadget.com/2296724/anthropic-files-to-go-public/",
+          "publishedAt": "2026-10-26T13:41:26.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s Deal With Elon Musk’s SpaceXAI Is Even Bigger Than We Knew, IPO Filing Shows",
+          "url": "https://gizmodo.com/anthropics-deal-with-elon-musks-spacexai-is-even-bigger-than-we-knew-ipo-filing-shows-2000830618",
+          "publishedAt": "2026-10-26T15:07:38.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+          "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+          "publishedAt": "2026-10-26T16:49:42.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+          "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+          "publishedAt": "2026-10-26T16:01:55.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "Will the real Anthropic please stand up",
+          "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+          "publishedAt": "2026-10-26T17:45:43.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
+          "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+          "publishedAt": "2026-10-26T21:27:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Threat of AI Bubble Looms Over Anthropic’s Big IPO Moment",
+          "url": "https://www.cnet.com/tech/services-and-software/anthropic-ipo-filing-ai-bubble-hype/",
+          "publishedAt": "2026-10-26T19:12:20.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic's political problem will get worse before it gets better",
+          "url": "https://www.engadget.com/2298214/anthropics-political-problem-will-get-worse-before-it-gets-better/",
+          "publishedAt": "2026-10-27T14:16:27.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
+          "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
+          "publishedAt": "2026-10-27T19:39:04.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Who’s really in charge at Anthropic after the IPO?",
+          "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+          "publishedAt": "2026-10-27T21:38:28.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+          "publishedAt": "2026-10-28T01:15:28.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic Files for IPO After Raising $141.1 Billion",
+          "url": "https://www.geeky-gadgets.com/anthropic-has/",
+          "publishedAt": "2026-10-28T08:47:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+          "publishedAt": "2026-10-30T21:52:03.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Is Betting Nearly $900 Billion That the AI Boom Won’t Bust",
+          "url": "https://gizmodo.com/anthropic-is-betting-nearly-900-billion-that-the-ai-boom-wont-bust-2000833885",
+          "publishedAt": "2026-11-02T20:20:47.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Still Plans to Go Public as Soon as Next Week: Report",
+          "url": "https://gizmodo.com/anthropic-still-plans-to-go-public-as-soon-as-next-week-report-2000837422",
+          "publishedAt": "2026-11-10T01:21:05.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic reportedly plans to move forward with IPO plans",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+          "publishedAt": "2026-11-10T01:27:12.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+          "publishedAt": "2026-11-10T14:01:39.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Anthropic launches roadshow for proposed initial public offering",
+          "url": "https://www.anthropic.com/news/roadshow-launch",
+          "publishedAt": "2026-11-10T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+          "publishedAt": "2026-11-10T19:57:52.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Investors Are Lining Up to Throw Money at Anthropic",
+          "url": "https://gizmodo.com/investors-are-lining-up-to-throw-money-at-anthropic-2000838373",
+          "publishedAt": "2026-11-11T18:00:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding",
+        "safety"
+      ]
+    },
+    {
+      "id": "9f325808-49f4-4d98-863d-ed683f167a40",
+      "title": "Anthropic lets enterprises self-host Claude Managed Agents inside their own security perimeter",
+      "summary": "Anthropic introduced self-hosted Claude Managed Agents, which run in a customer's own cloud or on-premise environment. Customers host the agents, credentials, and session history themselves and choose where requests to Claude are sent.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-12T18:41:50.670Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:50.670Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Operate Claude Managed Agents inside your security perimeter",
+          "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "ae8231c7-4053-4dfd-9081-079eb99117d7",
+      "title": "Fireworks AI breach let hackers access Notion customers' AI chat transcripts",
+      "summary": "A cyberattack on AI inference provider Fireworks AI let hackers access chat transcripts belonging to Notion customers, TechCrunch reports. It is Fireworks' second data breach in as many months.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-12T16:39:29.122Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T16:39:29.122Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+          "publishedAt": "2026-11-12T15:02:28.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "060688ae-5a51-4149-b8f0-cdeadc8d10ca",
+      "title": "Nebius plans $40B in AI infrastructure spending, funded by customer prepayments and loans",
+      "summary": "Nebius plans to fund a $40 billion AI infrastructure expansion through customer prepayments and loans, testing the neocloud playbook even as delays at a Microsoft data center raise questions about its financing model.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-12T22:45:34.446Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T22:45:34.446Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+          "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+          "publishedAt": "2026-11-12T21:27:10.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "c2324464-88d1-419e-afd4-42ec148d4b6e",
+      "title": "OpenAI's quarterly revenue reportedly tops $10B for the first time",
+      "summary": "OpenAI's quarterly revenue has reportedly crossed $10 billion for the first time, nearly a 50% jump from the $6.7 billion it recorded in the second quarter, TechCrunch reports.",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-11T16:22:19.471Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T16:22:19.471Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+          "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+          "publishedAt": "2026-11-11T16:14:44.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "f2de87db-25ab-47b9-b921-ede5874c6688",
+      "title": "Google DeepMind staff ask the UK government to step in on their union fight",
+      "summary": "After initial talks with management stalled, Google DeepMind workers are going to the UK government to try to bypass company management in their bid to unionize.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-12T18:41:48.268Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:48.268Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
+          "url": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
+          "publishedAt": "2026-11-12T18:05:41.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "ba85982f-f5c2-4e8e-a033-d264e0734be7",
+      "title": "SoftBank's $3B+ loss on preordered gas turbines may cap AI's natural gas ambitions",
+      "summary": "SoftBank lost more than $3 billion on natural gas turbines it preordered to power AI data centers. TechCrunch looks at what the loss could mean for power markets and for AI's push into gas-fired power.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-12T18:41:44.069Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T18:41:44.069Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+          "publishedAt": "2026-11-12T17:00:52.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
+      "title": "Google DeepMind makes Gemini 4 Carbon, its next frontier model, available",
+      "summary": "Google DeepMind says Gemini 4 Carbon, its next frontier model, is now available.\n\n- Access was first limited to select cybersecurity experts after its late-October announcement\n- Google pitched Carbon as a \"significant leap\" in coding and cybersecurity, and one report says it beat Claude Opus 5.5 on 16 of 18 tests\n- Carbon follows Gemini 4 Argon, which rolled out to the Gemini app and AI Mode in Search earlier this month",
+      "importanceScore": 0.88,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-10-28T18:10:56.235Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T16:07:49.756Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Gemini 4 Carbon: Our next frontier model",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+          "publishedAt": "2026-10-28T17:00:58.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Google Debuts New AI Models, Genie 4 and Gemini 4 Carbon: What You Need to Know",
+          "url": "https://www.cnet.com/tech/services-and-software/google-genie-4-gemini-4-carbon-ai-news/",
+          "publishedAt": "2026-10-28T20:51:37.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google's Gemini 4 Carbon promises 'significant leap' in AI coding and cybersecurity",
+          "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/",
+          "publishedAt": "2026-10-29T09:41:58.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Gemini 4 Carbon Beats Claude Opus 5.5 in 16 of 18 Tests",
+          "url": "https://www.geeky-gadgets.com/google-gemini-4-carbon-announced/",
+          "publishedAt": "2026-10-29T12:47:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Google DeepMind",
+          "title": "Gemini 4 Carbon is now available",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+          "publishedAt": "2026-11-10T16:03:47.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google's Gemini 4 Carbon is now widely available around the world",
+          "url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide/",
+          "publishedAt": "2026-11-10T16:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Google Expands Gemini 4 Carbon Availability",
+          "url": "https://www.cnet.com/tech/services-and-software/google-expands-gemini-4-carbon-availability/",
+          "publishedAt": "2026-11-10T22:07:30.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Gemini 4 Carbon Beats Claude Opus 5.5 in 16 of 18 Tests",
+          "url": "https://www.geeky-gadgets.com/gemini-carbon-2/",
+          "publishedAt": "2026-11-11T10:13:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Tested Gemini 4 Carbon Beats Gemini 4 Argon at Coding Space Games",
+          "url": "https://www.geeky-gadgets.com/gemini-carbon/",
+          "publishedAt": "2026-11-11T08:43:00.000Z",
+          "contribution": "background"
+        }
+      ],
+      "tags": [
+        "model-release"
       ]
     },
     {
@@ -1330,6 +1416,28 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "7ccc1aad-09fb-4a57-ab7d-b7b8b67ffe39",
+      "title": "OpenAI board member tells an audience an AI accident is the most likely thing to kill them",
+      "summary": "An OpenAI board member told an audience that an AI accident is the most likely cause of their death, a view other researchers share, even as OpenAI keeps building ever more capable models.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-12T22:45:41.684Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T22:45:41.684Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Board Member Tells Audience an AI Accident Is the Most Likely Thing to Kill Them",
+          "url": "https://gizmodo.com/openai-board-member-tells-audience-an-ai-accident-is-the-most-likely-thing-to-kill-them-2000838491",
+          "publishedAt": "2026-11-12T21:24:42.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
       ]
     },
     {
@@ -1846,6 +1954,27 @@
       ]
     },
     {
+      "id": "12a4aefa-2a6c-494b-a744-81fb4d47a154",
+      "title": "Study finds how people collaborate with AI shapes creative output and job satisfaction",
+      "summary": "A new study examines the consequences of collaborating with AI on creative work, finding that the way people work with AI makes a significant difference to both their output and their satisfaction at work.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-12T22:45:36.733Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T22:45:36.733Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "How You Collaborate With AI on Creative Work Makes All the Difference",
+          "url": "https://www.cnet.com/tech/services-and-software/ai-collaboration-creative-work-research-findings/",
+          "publishedAt": "2026-11-12T17:17:01.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "149bf4d2-9f27-4b8a-8a2f-5d18cf27ee89",
       "title": "Amplitude's OpenAI-built product agent, Wave, helps it ship improvements in 1–2 days",
       "summary": "In an OpenAI customer story, Amplitude describes Wave, a proactive product agent built mostly on OpenAI models. Wave identifies what to build, helps teams ship the changes with coding agents, and measures the impact.",
@@ -2034,94 +2163,8 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "40b1c4ea-440e-4a20-8175-9a11d13a7400",
-      "title": "Scott Wiener, author of California's AI safety bills, wins Pelosi's House seat and eyes federal AI regulation",
-      "summary": "Scott Wiener, the California state senator who authored legislation to curb the risks of advanced AI, won a tight race for Nancy Pelosi's open San Francisco congressional seat. MIT Technology Review says he could play a key role in setting federal AI policy and is ready to regulate AI.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-09T17:50:19.992Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T17:50:19.992Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-          "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
-          "publishedAt": "2026-11-09T17:05:43.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
-    },
-    {
-      "id": "8275fdb6-2879-432e-b98f-c1b381aeb042",
-      "title": "WIRED asks 10 experts which AI risks are real: nuclear catastrophe and the US-China race, not Skynet",
-      "summary": "WIRED argues the AI safety debate has lost the plot and asked 10 experts for the real nightmares. Their answers point to nuclear catastrophe risk and the fallout of the US-China race for dominance, including espionage, rather than a Skynet-style takeover.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-10T12:03:29.315Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T12:03:29.315Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
-          "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
-          "publishedAt": "2026-11-10T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "opinion"
-      ]
-    },
-    {
-      "id": "78dbe64a-9ad1-4d0a-b0de-fba26c8e775b",
-      "title": "MCP drafts an optional file uploads and downloads extension for agents",
-      "summary": "The Model Context Protocol's new File Uploads Working Group published a draft extension, io.modelcontextprotocol/files, for moving files between agents and MCP servers without the model reading every byte.\n\n- Targets common cases like saving a PDF to cloud storage, pulling a large CSV into a sandbox, or uploading zipped decks to remote servers\n- Servers advertise support via server/discover, with out-of-band uploads and an optional inline size cap, on protocol revision 2026-07-28 and later\n- Still experimental with no reference implementation; the working group aims to stabilize it before year-end",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-11T12:20:12.293Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T12:20:12.293Z",
-      "sources": [
-        {
-          "providerName": "MCP Blog",
-          "title": "Exploring File Uploads and Downloads in MCP",
-          "url": "https://blog.modelcontextprotocol.io/posts/exploring-file-uploads-and-downloads-in-mcp/",
-          "publishedAt": "2026-11-10T09:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure",
-        "open-source"
-      ]
-    },
-    {
-      "id": "662c947f-e9f3-4953-8d61-98a5a710d136",
-      "title": "Nectar launches an AI agent that automates influencer marketing for brands",
-      "summary": "Startup Nectar launched an AI agent that helps brands find creators, run outreach and partnerships, and track campaign results.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-12T20:43:27.444Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T20:43:27.444Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-          "publishedAt": "2026-11-12T19:11:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 118,
+  "totalCount": 119,
   "hasMore": true
 }
