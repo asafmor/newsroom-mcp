@@ -1,91 +1,14 @@
 {
-  "generatedAt": "2026-11-11T22:28:27.397Z",
+  "generatedAt": "2026-11-12T00:29:33.956Z",
   "stories": [
     {
-      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
-      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
-      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism\n- Fable 5.2's safety classifiers produce 55% fewer false positives, but in testing it still downgraded a user to Opus 4.8 when asked for an application hardening plan",
-      "importanceScore": 0.9,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-09T19:52:14.544Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T14:21:10.471Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-          "publishedAt": "2026-11-09T19:24:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
-          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
-          "publishedAt": "2026-11-09T19:32:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude Fable 5.2 and Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
-          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Which Claude model should you build with?",
-          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
-          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
-          "publishedAt": "2026-11-10T09:14:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Fable 5.2 AI Built a Complete Operating System in 8 Days",
-          "url": "https://www.geeky-gadgets.com/fable-5-2-capabilities/",
-          "publishedAt": "2026-11-10T13:47:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Fable 5.2 Drops False Positives by 55% but Downgrades to Opus 4.8",
-          "url": "https://www.geeky-gadgets.com/claude-fable-5-2-limitations/",
-          "publishedAt": "2026-11-11T13:15:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "Republican senator calls on Jensen Huang to resign as Congress weighs a subpoena over his alleged Chinese spy affair",
-      "summary": "Nvidia's board is investigating CEO Jensen Huang's relationship with a woman US intelligence links to a Chinese spy plot, and pressure from Washington is mounting; Huang admitted to an affair in a company memo.\n\n- New: A Republican senator called on Huang to resign, and House Select Committee on China members say they could subpoena him (Gizmodo)\n- House Republicans called Huang in for a closed-door briefing and gave him until end of day Wednesday to respond\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- The relationship reportedly helped a network of companies obtain $7.5B in Nvidia AI chips for Chinese firms, and Nvidia reportedly intervened in a US government probe\n- Huang has lobbied to loosen US chip export limits and worked with Heller, a PR firm known for sex scandals, as early as October 2025, WIRED reports\n- Nvidia stock slid more than 4%, a proposed investor class action has been filed, and Huang pulled out of ElevenLabs and Anthropic events",
-      "importanceScore": 0.82,
+      "title": "Nvidia's board reportedly preps to oust Jensen Huang as a second affair allegation surfaces",
+      "summary": "Nvidia's board could decide as soon as Wednesday evening to remove Jensen Huang, its founder and CEO of 33 years, TechCrunch reports, as the scandal over his admitted affair with a woman US intelligence links to a Chinese spy plot escalates.\n\n- New: The NYT reports Huang also had a separate affair with an Nvidia subordinate\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China\n- The relationship reportedly helped a network of companies obtain $7.5B in Nvidia AI chips for Chinese firms, and Nvidia reportedly intervened in a US government probe\n- A Republican senator called on Huang to resign, and House China committee members say they could subpoena him after calling him in for a closed-door briefing\n- Nvidia stock dropped further on the ouster report, after an earlier 4%+ slide and a proposed investor class action",
+      "importanceScore": 0.9,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T22:28:16.476Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T00:29:12.524Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -254,9 +177,107 @@
           "url": "https://gizmodo.com/republican-senator-calls-on-nvidia-ceo-jensen-huang-to-resign-2000838502",
           "publishedAt": "2026-11-11T21:52:06.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+          "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+          "publishedAt": "2026-11-11T23:28:45.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+          "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+          "publishedAt": "2026-11-11T23:17:05.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Jensen Huang Was a Busy, Horny Little Bee: Report",
+          "url": "https://gizmodo.com/jensen-huang-was-a-busy-horny-little-bee-report-2000838619",
+          "publishedAt": "2026-11-11T22:37:12.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": []
+    },
+    {
+      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
+      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
+      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism\n- Fable 5.2's safety classifiers produce 55% fewer false positives, but in testing it still downgraded a user to Opus 4.8 when asked for an application hardening plan",
+      "importanceScore": 0.9,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-09T19:52:14.544Z",
+      "lastMeaningfulUpdateAt": "2026-11-11T14:21:10.471Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "publishedAt": "2026-11-09T19:24:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
+          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
+          "publishedAt": "2026-11-09T19:32:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Claude Blog",
+          "title": "Which Claude model should you build with?",
+          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
+          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
+          "publishedAt": "2026-11-10T09:14:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Fable 5.2 AI Built a Complete Operating System in 8 Days",
+          "url": "https://www.geeky-gadgets.com/fable-5-2-capabilities/",
+          "publishedAt": "2026-11-10T13:47:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Fable 5.2 Drops False Positives by 55% but Downgrades to Opus 4.8",
+          "url": "https://www.geeky-gadgets.com/claude-fable-5-2-limitations/",
+          "publishedAt": "2026-11-11T13:15:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
     },
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -2001,6 +2022,6 @@
       "tags": []
     }
   ],
-  "totalCount": 134,
+  "totalCount": 125,
   "hasMore": true
 }
