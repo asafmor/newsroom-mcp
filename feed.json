@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-12T18:42:04.555Z",
+  "generatedAt": "2026-11-12T20:43:38.069Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Jensen Huang, ousted as Nvidia CEO amid espionage and affair scandals, agrees to testify before Congress",
-      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot.\n\n- CFO Colette Kress is interim CEO; Trump has publicly floated Apple chairman Tim Cook as Huang's permanent successor\n- Huang agreed on Wednesday to testify before Congress after several senior lawmakers threatened to subpoena him\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- The NYT also reported a separate affair with an Nvidia subordinate\n- Nvidia stock slid on the scandal, and investors proposed a class action",
+      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot.\n\n- CFO Colette Kress is interim CEO; Trump has floated Apple chairman Tim Cook as the permanent successor, and Elon Musk says it \"would be an honor\" to hire Huang\n- Huang agreed on Wednesday to testify before Congress after several senior lawmakers threatened to subpoena him\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- The NYT reported a second affair with an Nvidia subordinate, and Reuters now reports a third, with another Nvidia employee it has not named\n- Nvidia stock slid on the scandal, and investors proposed a class action",
       "importanceScore": 0.95,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T16:39:18.348Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T20:43:09.478Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -275,18 +275,46 @@
           "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
           "publishedAt": "2026-11-12T17:59:15.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang was having a third affair, Reuters reports",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+          "publishedAt": "2026-11-12T20:26:47.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Elon Musk Says It ‘Would Be an Honor’ to Hire Jensen Huang, a Fellow Sower of Wild Oats",
+          "url": "https://gizmodo.com/elon-musk-says-it-would-be-an-honor-to-hire-jensen-huang-a-fellow-sower-of-wild-oats-2000839041",
+          "publishedAt": "2026-11-12T19:35:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Jensen Huang Didn’t Name His Own Replacement as One of Tech’s Most Powerful Women",
+          "url": "https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/",
+          "publishedAt": "2026-11-12T20:35:11.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Jensen Huang’s $470 Billion Affair",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/",
+          "publishedAt": "2026-11-12T18:59:58.000Z",
+          "contribution": "background"
         }
       ],
       "tags": []
     },
     {
       "id": "1d0e9053-1892-4482-9aef-035a746ba152",
-      "title": "Google DeepMind introduces Gemini 4 Hydrogen",
-      "summary": "Google DeepMind announced Gemini 4 Hydrogen, a new Gemini 4 model that joins Gemini 4 Argon and Gemini 4 Carbon.",
-      "importanceScore": 0.75,
+      "title": "Google DeepMind introduces Gemini 4 Hydrogen, now powering Search's AI Mode",
+      "summary": "Google DeepMind announced Gemini 4 Hydrogen, a new Gemini 4 model that joins Gemini 4 Argon and Gemini 4 Carbon. It now powers Google Search's AI Mode, which Google says handles complex queries better, surfaces more relevant links, and gives richer visual answers.",
+      "importanceScore": 0.78,
       "relevanceScore": 0.95,
       "firstSeenAt": "2026-11-12T18:41:56.922Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T18:41:56.922Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T20:43:16.582Z",
       "sources": [
         {
           "providerName": "Google DeepMind",
@@ -294,10 +322,18 @@
           "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
           "publishedAt": "2026-11-12T18:00:50.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+          "publishedAt": "2026-11-12T19:27:45.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
-        "model-release"
+        "model-release",
+        "product-launch"
       ]
     },
     {
@@ -1448,6 +1484,28 @@
       ]
     },
     {
+      "id": "3ee580e3-0446-434a-a37e-6840c628b413",
+      "title": "IBM adds LLMON, an LLM-native markup language, to Granite 4.1 3B and 8B",
+      "summary": "IBM's Granite team introduced LLMON, a markup language designed to be native to LLMs, and shipped support for it in its Granite 4.1 3B and 8B models.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-12T20:43:25.447Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T20:43:25.447Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+          "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "publishedAt": "2026-11-12T19:07:35.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source",
+        "research"
+      ]
+    },
+    {
       "id": "b7f70dd0-1aed-41f6-ab51-f99f73e09db0",
       "title": "Grok Build coding agent left 35,000 apps exposed, leaking confidential data including SpaceXSI's",
       "summary": "A security researcher found 35,000 apps built with xAI's Grok Build vibe-coding agent wide open to anyone who looked, leaking large amounts of confidential information — some of it belonging to SpaceXSI.",
@@ -1788,6 +1846,27 @@
       ]
     },
     {
+      "id": "149bf4d2-9f27-4b8a-8a2f-5d18cf27ee89",
+      "title": "Amplitude's OpenAI-built product agent, Wave, helps it ship improvements in 1–2 days",
+      "summary": "In an OpenAI customer story, Amplitude describes Wave, a proactive product agent built mostly on OpenAI models. Wave identifies what to build, helps teams ship the changes with coding agents, and measures the impact.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-12T20:43:29.644Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T20:43:29.644Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "url": "https://openai.com/index/amplitude",
+          "publishedAt": "2026-11-12T20:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "a0db2985-66ea-4342-8870-1fc85dff518c",
       "title": "Phota Labs uses AI to automatically turn everyday photos into professional-looking shots",
       "summary": "Startup Phota Labs is skipping the usual photo-editing tool and instead uses AI to automate editing itself, so anyone can turn everyday snapshots into better-looking photos.",
@@ -2022,78 +2101,24 @@
       ]
     },
     {
-      "id": "6b2a28ef-9001-4be0-802d-c4b5c07ec0ee",
-      "title": "Music rights holders pile on copyright suits against Suno and Anthropic",
-      "summary": "AI music generator Suno and Anthropic face a growing wave of copyright lawsuits over training on music and lyrics.\n\n- Suno and Anthropic were sued over songs by Madonna, Johnny Cash, and Joni Mitchell, CNET reports\n- Elvis Presley's estate filed its own copyright suit against Anthropic days earlier\n- New: the groups that own the rights to Elvis Presley's and Eminem's tracks filed fresh lawsuits against Suno, Engadget reports",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-28T01:59:13.360Z",
-      "lastMeaningfulUpdateAt": "2026-11-08T21:39:03.248Z",
+      "id": "662c947f-e9f3-4953-8d61-98a5a710d136",
+      "title": "Nectar launches an AI agent that automates influencer marketing for brands",
+      "summary": "Startup Nectar launched an AI agent that helps brands find creators, run outreach and partnerships, and track campaign results.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-12T20:43:27.444Z",
+      "lastMeaningfulUpdateAt": "2026-11-12T20:43:27.444Z",
       "sources": [
         {
-          "providerName": "CNET AI",
-          "title": "Anthropic, Suno Sued for Unlawfully Using Songs by Madonna, Johnny Cash, Joni Mitchell",
-          "url": "https://www.cnet.com/tech/services-and-software/anthropic-suno-sued-using-songs-madonna-johnny-cash-joni-mitchell/",
-          "publishedAt": "2026-10-27T21:22:44.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Suno AI music generator sued again for copyright infringement",
-          "url": "https://www.engadget.com/2310316/suno-ai-music-generator-sued-again-for-copyright-infringement/",
-          "publishedAt": "2026-11-08T19:42:14.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "a987794e-0ade-4ffe-9680-a4421cfbe9a2",
-      "title": "ChatGPT Enterprise is now available in AWS Marketplace",
-      "summary": "OpenAI made ChatGPT Enterprise available through AWS Marketplace, letting organizations buy it through their existing AWS purchasing and billing relationships.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-09T19:52:22.643Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T19:52:22.643Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "ChatGPT Enterprise now available in AWS Marketplace",
-          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-          "publishedAt": "2026-11-09T19:00:00.000Z",
+          "providerName": "TechCrunch AI",
+          "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+          "publishedAt": "2026-11-12T19:11:00.000Z",
           "contribution": "supporting"
         }
       ],
       "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "19705118-9d06-4461-9d29-3056bbc8fa91",
-      "title": "Data center protests spread across Europe, from a Microsoft site in Amsterdam to a planned Google facility near London",
-      "summary": "Protests against the rapid expansion of AI data centers are breaking out across Europe, targeting several of the biggest tech companies.\n\n- More than 100 protesters stormed a Microsoft data center site in Amsterdam, one of several demonstrations planned across Europe that weekend, Gizmodo reports\n- East of London, an unlikely coalition of bikers and insect-conservation activists is trying to block Google from building a sprawling new facility, per WIRED",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-11-06T19:11:42.368Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T09:45:09.196Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "More Than 100 Protesters Storm a Microsoft Data Center Site in Amsterdam",
-          "url": "https://gizmodo.com/more-than-100-protesters-storm-a-microsoft-data-center-site-in-amsterdam-2000836356",
-          "publishedAt": "2026-11-06T19:00:57.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
-          "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
-          "publishedAt": "2026-11-09T08:00:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "infrastructure"
+        "product-launch"
       ]
     }
   ],
