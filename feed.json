@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T18:58:26.472Z",
+  "generatedAt": "2026-11-13T20:59:20.472Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -421,6 +421,13 @@
           "title": "You can now tempt fate and give your banking information to ChatGPT",
           "url": "https://www.engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt/",
           "publishedAt": "2026-11-13T17:17:51.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "ChatGPT Is Ready to Reach Into Your Wallet",
+          "url": "https://gizmodo.com/chatgpt-is-ready-to-reach-into-your-wallet-2000839784",
+          "publishedAt": "2026-11-13T19:15:01.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1010,6 +1017,48 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "6f78fc8c-75ba-4e89-9ffc-1c495705add1",
+      "title": "Google lets people connect Gemini to their bank accounts",
+      "summary": "Google now lets users connect Gemini to their bank accounts, per Engadget. The connection is for spending analysis, not for making purchases.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-13T20:59:13.674Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T20:59:13.674Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Google now lets people connect Gemini to their bank accounts",
+          "url": "https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/",
+          "publishedAt": "2026-11-13T19:15:32.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "2d05015e-1f40-4a62-82b6-224ca76ea7ce",
+      "title": "AI agent startup LangChain hits a $3B valuation",
+      "summary": "LangChain has reached a $3 billion valuation, TechCrunch reports. It now claims 7,000 customers for LangSmith, its model- and platform-agnostic agent management tool.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-13T20:59:11.722Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T20:59:11.722Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "AI agent startup LangChain hits $3B valuation",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+          "publishedAt": "2026-11-13T19:37:57.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "funding"
       ]
     },
     {
@@ -2230,48 +2279,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "e6c2970f-17c4-41a2-9801-9e6d6d2fc204",
-      "title": "UK regulator tells universities to consider retiring take-home essays as AI cheating detection fails",
-      "summary": "The UK's higher education regulator advised universities that it may be time to retire take-home essays and open-book exams, a sign that schools are giving up on detecting AI cheating, Gizmodo reports.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-11T20:26:37.274Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T20:26:37.274Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Universities Are Giving Up on Trying to Detect AI Cheating",
-          "url": "https://gizmodo.com/universities-are-giving-up-on-trying-to-detect-ai-cheating-2000838311",
-          "publishedAt": "2026-11-11T20:10:24.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "5e4c1486-6e6f-4f0a-bca7-dd7f6768045f",
-      "title": "Meta releases Muse Ember, a cheap lightweight model for agent execution",
-      "summary": "Meta released Muse Ember, a lightweight model built for executing agent tasks. At 10 cents per million input tokens, it undercuts small frontier competitors like Haiku and Luna by a wide margin.",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-09T19:52:18.692Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T19:52:18.692Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-          "publishedAt": "2026-11-09T18:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
     }
   ],
-  "totalCount": 110,
+  "totalCount": 109,
   "hasMore": true
 }
