@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T14:55:57.714Z",
+  "generatedAt": "2026-11-13T16:57:13.100Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -373,10 +373,45 @@
           "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
           "publishedAt": "2026-11-13T12:52:19.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Jensen Huang and the End of the Founder Fairy Tale",
+          "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
+          "publishedAt": "2026-11-13T16:00:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "a08cce9f-ed73-4fa5-a9ae-02ef5b37e603",
+      "title": "OpenAI launches ChatGPT Wallet, letting AI agents shop and check out for users",
+      "summary": "OpenAI introduced ChatGPT Wallet, which lets agents in ChatGPT Work, Codex, and dots complete purchases on a user's behalf, with user approval and existing card protections. It starts as a limited rollout to U.S. Pro subscribers.",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-13T16:57:05.174Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T16:57:05.174Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Introducing ChatGPT Wallet",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "publishedAt": "2026-11-13T15:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+          "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+          "publishedAt": "2026-11-13T16:00:12.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -2214,29 +2249,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "149bf4d2-9f27-4b8a-8a2f-5d18cf27ee89",
-      "title": "Amplitude's OpenAI-built product agent, Wave, helps it ship improvements in 1–2 days",
-      "summary": "In an OpenAI customer story, Amplitude describes Wave, a proactive product agent built mostly on OpenAI models. Wave identifies what to build, helps teams ship the changes with coding agents, and measures the impact.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-12T20:43:29.644Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T20:43:29.644Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-          "url": "https://openai.com/index/amplitude",
-          "publishedAt": "2026-11-12T20:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 113,
+  "totalCount": 111,
   "hasMore": true
 }
