@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T12:54:21.678Z",
+  "generatedAt": "2026-11-13T14:55:57.714Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -789,6 +789,27 @@
       ]
     },
     {
+      "id": "5508024d-5b35-4dcb-a8f1-bb0063babac9",
+      "title": "Bloomberg maps a web of Chinese AI companies using smuggled Nvidia chips, centered on Alice Huang",
+      "summary": "A Bloomberg investigation found evidence of a network of Chinese AI companies using smuggled Nvidia chips, with Alice Huang at its center, Engadget reports.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-13T14:55:39.582Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T14:55:39.582Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Bloomberg details web of Chinese AI companies with smuggled NVIDIA chips linked to Alice Huang",
+          "url": "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/",
+          "publishedAt": "2026-11-13T12:58:10.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
       "id": "9d92de3d-8514-4e00-bbd1-009e69d04328",
       "title": "Huang's exit raises doubts about Nvidia's open-source AI push, including its $12.9B Hugging Face deal",
       "summary": "Jensen Huang's resignation has raised questions about whether Nvidia will stay committed to open-source AI.\n\n- The questions cover Nvidia's $12.9B acquisition of Hugging Face, its open-weight models, and its lobbying against restrictions on open models\n- Hugging Face CEO Clem Delangue says he will keep fighting for open-source AI after Huang's exit",
@@ -954,6 +975,28 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "4eaa1a0b-fd63-4667-90cd-1b72cdbc4d3f",
+      "title": "llama.cpp reaches v1.0.0, billed as a stronger foundation for local AI",
+      "summary": "The ggml-org team released llama.cpp v1.0.0, the first major version of the widely used open-source engine for running models locally, announced on the Hugging Face blog as a stronger foundation for the local AI ecosystem.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-13T14:55:37.280Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T14:55:37.280Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "publishedAt": "2026-11-13T14:05:22.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source",
+        "infrastructure"
       ]
     },
     {
@@ -1298,6 +1341,41 @@
       ]
     },
     {
+      "id": "a347a876-a6b2-4a2b-afca-f60c0cf1c3f1",
+      "title": "Samsung and Google's Gemini-powered AI glasses get official pricing after weeks of leaks",
+      "summary": "Samsung and Google have made their Gemini-powered AI smart glasses official, built with eyewear brands Gentle Monster and Warby Parker and positioned against Meta's Ray-Bans.\n\n- Gemini serves as the built-in AI assistant, with official prices and features now published\n- Earlier leaks described a display-less design focused on media capture, audio playback and AI interactions\n- Leaks also pointed to 64GB of storage and Qualcomm's Snapdragon AR1 Gen1 platform\n- A leaked timeline pointed to a mid-December 2026 launch in the US and South Korea",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-10-15T10:16:05.759Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T14:55:45.285Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Leaked Samsung Smart Glasses Beat Meta Ray-Ban with 64GB",
+          "url": "https://www.geeky-gadgets.com/samsung-smart-glasses-leak/",
+          "publishedAt": "2026-10-15T08:43:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Leaked Timeline Points to Mid-December 2026 for Samsung AI Glasses",
+          "url": "https://www.geeky-gadgets.com/samsung-smart-glasses-release-date-leak/",
+          "publishedAt": "2026-11-05T13:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Samsung vs Google AI Glasses: Official Prices and Features",
+          "url": "https://www.geeky-gadgets.com/samsung-google-ai-glasses-price/",
+          "publishedAt": "2026-11-13T14:00:52.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
       "title": "Google DeepMind makes Gemini 4 Carbon, its next frontier model, available",
       "summary": "Google DeepMind says Gemini 4 Carbon, its next frontier model, is now available.\n\n- Access was first limited to select cybersecurity experts after its late-October announcement\n- Google pitched Carbon as a \"significant leap\" in coding and cybersecurity, and one report says it beat Claude Opus 5.5 on 16 of 18 tests\n- Carbon follows Gemini 4 Argon, which rolled out to the Gemini app and AI Mode in Search earlier this month",
@@ -1475,6 +1553,28 @@
       ]
     },
     {
+      "id": "0e830611-69cd-4363-b783-8e8ce16c46a1",
+      "title": "ElevenLabs launches ElevenAI, a meeting notetaker and dictation app for teams",
+      "summary": "ElevenLabs launched ElevenAI, a combined meeting note-taking and dictation app aimed at teams and enterprises, TechCrunch reports. It moves the voice AI company into the same territory as Granola and Wispr Flow.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-13T14:55:34.815Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T14:55:34.815Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+          "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+          "publishedAt": "2026-11-13T14:44:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "7ccc1aad-09fb-4a57-ab7d-b7b8b67ffe39",
       "title": "OpenAI board member tells an audience an AI accident is the most likely thing to kill them",
       "summary": "An OpenAI board member told an audience that an AI accident is the most likely cause of their death, a view other researchers share, even as OpenAI keeps building ever more capable models.",
@@ -1510,6 +1610,13 @@
           "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
           "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
           "publishedAt": "2026-11-11T15:00:15.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "DeepMind AlphaGenome 2 Replicates 18 Months of Work in 30 Mins",
+          "url": "https://www.geeky-gadgets.com/data-analysis/",
+          "publishedAt": "2026-11-13T13:13:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1822,6 +1929,25 @@
       ]
     },
     {
+      "id": "e761ae5d-676a-42ab-bbb5-3e2829059782",
+      "title": "Animaj brings its \"Ozzy Fox\" series to Disney+ as it tests agentic AI in animation",
+      "summary": "Animation studio Animaj is bringing its \"Ozzy Fox\" series to Disney+, and CNET uses it to show what animators working with agentic AI tools already look like in production.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-13T14:55:41.583Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T14:55:41.583Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Animaj Brings ‘Ozzy Fox’ Series to Disney Plus as It Charts a Path for AI in Animation",
+          "url": "https://www.cnet.com/tech/services-and-software/animaj-ozzy-fox-series-disney-plus-ai-agentic-animation/",
+          "publishedAt": "2026-11-13T13:05:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "34ebf090-896e-4335-9f9d-c8808b34f129",
       "title": "United restricts AI agents from booking flights, citing security risks",
       "summary": "United Airlines is restricting AI agents from booking flights. The airline says agent bookings pose security risks and may violate DOT and FAA rules.",
@@ -2109,109 +2235,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "a0db2985-66ea-4342-8870-1fc85dff518c",
-      "title": "Phota Labs uses AI to automatically turn everyday photos into professional-looking shots",
-      "summary": "Startup Phota Labs is skipping the usual photo-editing tool and instead uses AI to automate editing itself, so anyone can turn everyday snapshots into better-looking photos.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-12T18:41:46.418Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T18:41:46.418Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-          "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-          "publishedAt": "2026-11-12T17:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "de1d86ba-597a-4c34-adb6-e44ab1d0de61",
-      "title": "Anthropic buys $3.4B worth of natural gas turbines to power its AI buildout",
-      "summary": "Anthropic has bought about $3.4 billion worth of natural gas turbines, joining the AI industry's rush to gas-fired power for data centers. TechCrunch warns the deal could leave Anthropic with buyer's remorse.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-09T17:50:15.147Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T17:50:15.147Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-          "publishedAt": "2026-11-09T16:56:54.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "626cc633-5e0b-48a7-96fe-794f4cd4998e",
-      "title": "OpenAI acquires Odessia, a travel startup from Sonder founder Francis Davidson",
-      "summary": "OpenAI has acquired Odessia, a travel startup founded by Sonder founder Francis Davidson, a well-known travel-industry figure. OpenAI hasn't said what it plans to do in travel.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-10T22:12:50.093Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T22:12:50.093Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
-          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
-          "publishedAt": "2026-11-10T21:08:52.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "45ceead1-edc9-4039-ad69-690cfd05e20f",
-      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
-      "summary": "Smart-ring maker Oura agreed to buy Counsel Health, an AI-native primary care startup, for $625 million. The deal comes a few weeks after Oura indefinitely postponed its IPO of up to $2.2 billion, citing uncertainty in the IPO market.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-10T20:10:17.920Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T20:10:17.920Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
-          "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
-          "publishedAt": "2026-11-10T19:23:34.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "4c6b4e93-6d11-4173-924c-c3d5e9ca87f4",
-      "title": "MCP moves to a twice-yearly spec release cycle, with the next version due March 30, 2027",
-      "summary": "The Model Context Protocol is moving its specification to a fixed six-month release schedule, formalized in SEP-3398.\n\n- Releases will land on the last Tuesday of March and September; next target is version 2027-03-30\n- Proposals that aren't ready slip to the next release rather than delaying the spec\n- New Release Manager role; Luca Chang, co-author of the Tasks proposal, joins for the next cycle\n- Each cycle has a soft freeze 2.5 months out, Tier 1 SDK betas 1.5 months out, and a hard freeze one month before release\n- No changes are needed for existing clients or servers; spec versions stay date-based",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-11T20:26:40.862Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T20:26:40.862Z",
-      "sources": [
-        {
-          "providerName": "MCP Blog",
-          "title": "A More Predictable Release Cycle for MCP",
-          "url": "https://blog.modelcontextprotocol.io/posts/mcp-release-cycle/",
-          "publishedAt": "2026-11-11T09:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 112,
+  "totalCount": 113,
   "hasMore": true
 }
