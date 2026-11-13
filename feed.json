@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T20:59:20.472Z",
+  "generatedAt": "2026-11-13T23:00:21.201Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1345,6 +1345,28 @@
       ]
     },
     {
+      "id": "bd0d48d1-b049-4986-8a75-c46ca94ec125",
+      "title": "Cloudflare open-sources Kitesurf, its experimental browser engine for AI agents",
+      "summary": "Cloudflare has open-sourced Kitesurf, its experimental browser engine built for AI agents. Developers can inspect the code, run it locally, or deploy their own instance on Cloudflare Workers.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-13T23:00:11.946Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T23:00:11.946Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Kitesurf is now open source",
+          "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+          "publishedAt": "2026-11-13T20:20:21.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source",
+        "infrastructure"
+      ]
+    },
+    {
       "id": "ae8231c7-4053-4dfd-9081-079eb99117d7",
       "title": "Fireworks AI breach let hackers access Notion customers' AI chat transcripts",
       "summary": "A cyberattack on AI inference provider Fireworks AI let hackers access chat transcripts belonging to Notion customers, TechCrunch reports. It is Fireworks' second data breach in as many months.",
@@ -2243,44 +2265,25 @@
       ]
     },
     {
-      "id": "de5ae6dc-c8be-44e9-8104-66979c7d9b72",
-      "title": "AI-driven tech layoffs top 200,000 in 2026, raising fears of a 1.6 million job recession",
-      "summary": "The tech industry has cut more than 200,000 jobs in 2026 amid the AI push, and CNET reports the bigger question is whether layoffs spread to retail and finance — a scenario that could trigger a 1.6 million job recession.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-10T03:57:15.197Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T03:57:15.197Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "AI-Driven Tech Layoffs Could Trigger a 1.6 Million Job Recession",
-          "url": "https://www.cnet.com/tech/services-and-software/ai-tech-layoffs-2026-trigger-recession/",
-          "publishedAt": "2026-11-09T23:24:46.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "937ad954-40ea-4388-ad06-ff0496a61c50",
-      "title": "AI agents meant to replace workers can't find anyone to help yet",
-      "summary": "Gizmodo reports that the AI agents pitched as replacements for human workers are themselves \"looking for jobs,\" finding few people to actually put them to work so far.",
-      "importanceScore": 0.3,
+      "id": "0591f2fc-ec3d-4785-b0c4-442f243a46e7",
+      "title": "Anthropic publishes a guide to building always-on agents",
+      "summary": "Anthropic published a guide to building always-on agents, which run indefinitely and decide how and when to act across many sessions. It walks through their core building blocks and how they fit together.",
+      "importanceScore": 0.25,
       "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-13T02:48:20.337Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T02:48:20.337Z",
+      "firstSeenAt": "2026-11-13T23:00:13.498Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T23:00:13.498Z",
       "sources": [
         {
-          "providerName": "Gizmodo AI",
-          "title": "The AI Agents Can’t Find Anyone to Help Yet",
-          "url": "https://gizmodo.com/the-ai-agents-cant-find-anyone-to-help-yet-2000839258",
-          "publishedAt": "2026-11-13T02:35:02.000Z",
+          "providerName": "Claude Blog",
+          "title": "Building always-on agents",
+          "url": "https://claude.com/resources/articles/building-always-on-agents",
+          "publishedAt": "2026-11-13T00:00:00.000Z",
           "contribution": "supporting"
         }
       ],
       "tags": []
     }
   ],
-  "totalCount": 109,
+  "totalCount": 111,
   "hasMore": true
 }
