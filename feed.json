@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T00:47:01.694Z",
+  "generatedAt": "2026-11-13T02:48:27.820Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1921,6 +1921,25 @@
       "tags": []
     },
     {
+      "id": "937ad954-40ea-4388-ad06-ff0496a61c50",
+      "title": "AI agents meant to replace workers can't find anyone to help yet",
+      "summary": "Gizmodo reports that the AI agents pitched as replacements for human workers are themselves \"looking for jobs,\" finding few people to actually put them to work so far.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-13T02:48:20.337Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T02:48:20.337Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "The AI Agents Can’t Find Anyone to Help Yet",
+          "url": "https://gizmodo.com/the-ai-agents-cant-find-anyone-to-help-yet-2000839258",
+          "publishedAt": "2026-11-13T02:35:02.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "e6c2970f-17c4-41a2-9801-9e6d6d2fc204",
       "title": "UK regulator tells universities to consider retiring take-home essays as AI cheating detection fails",
       "summary": "The UK's higher education regulator advised universities that it may be time to retire take-home essays and open-book exams, a sign that schools are giving up on detecting AI cheating, Gizmodo reports.",
@@ -2142,36 +2161,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "1da81b6d-4c63-4784-9324-7d5a979bd21a",
-      "title": "Google unveils two new variants of its AI chip systems to compete with Nvidia",
-      "summary": "Google unveiled two new variants of its TPU AI chips as it steps up competition with Nvidia. One targets confidential model training and the other adds memory capacity, broadening the TPU lineup to more use cases.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-09T17:50:22.042Z",
-      "lastMeaningfulUpdateAt": "2026-11-09T17:50:22.042Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Has Two New Weapons in Its Fight Against Nvidia",
-          "url": "https://gizmodo.com/google-has-two-new-weapons-in-its-fight-against-nvidia-2000837111",
-          "publishedAt": "2026-11-09T17:10:52.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google broadens its AI hardware portfolio with two new specialized chips",
-          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-          "publishedAt": "2026-11-10T15:54:08.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 117,
+  "totalCount": 115,
   "hasMore": true
 }
