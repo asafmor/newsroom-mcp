@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-13T16:57:13.100Z",
+  "generatedAt": "2026-11-13T18:58:26.472Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "Jensen Huang, ousted as Nvidia CEO amid espionage and affair scandals, faces a second congressional investigation",
-      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot.\n\n- CFO Colette Kress is interim CEO, though Huang reportedly called her a \"deer in the headlights\" this summer; Trump has floated Tim Cook as permanent successor, and Elon Musk says it \"would be an honor\" to hire Huang\n- Huang agreed to testify before Congress after senior lawmakers threatened to subpoena him\n- Democrats have now opened a second congressional investigation, into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- The NYT reported a second affair with an Nvidia subordinate, and Reuters a third, with another Nvidia employee it has not named\n- Nvidia stock slid on the scandal, and investors proposed a class action",
+      "title": "Jensen Huang, ousted as Nvidia CEO amid espionage and affair scandals, faces a second congressional investigation as some employees push for his return",
+      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot.\n\n- CFO Colette Kress is interim CEO, though Huang reportedly called her a \"deer in the headlights\" this summer; Trump has floated Tim Cook as permanent successor, and Elon Musk says it \"would be an honor\" to hire Huang\n- Some Nvidia employees are pushing for an Altman-style reinstatement, arguing infidelity alone shouldn't mean exile, though the alleged spy link is harder to defend\n- Huang agreed to testify before Congress, and Democrats have opened a second investigation into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- The NYT and Reuters reported two further affairs with Nvidia employees\n- Nvidia stock slid on the scandal, and investors proposed a class action",
       "importanceScore": 0.95,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T12:54:04.651Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T18:58:08.529Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -380,6 +380,13 @@
           "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
           "publishedAt": "2026-11-13T16:00:00.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Nvidia Employees Are Pushing for a Sam Altman 2.0",
+          "url": "https://gizmodo.com/nvidia-employees-are-pushing-for-a-sam-altman-2-0-2000839719",
+          "publishedAt": "2026-11-13T18:05:02.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -408,10 +415,45 @@
           "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
           "publishedAt": "2026-11-13T16:00:12.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "You can now tempt fate and give your banking information to ChatGPT",
+          "url": "https://www.engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt/",
+          "publishedAt": "2026-11-13T17:17:51.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "5508024d-5b35-4dcb-a8f1-bb0063babac9",
+      "title": "China's most advanced AI models were trained on export-banned Nvidia chips, as Bloomberg maps a smuggling web centered on Alice Huang",
+      "summary": "Evidence is mounting that export controls failed to keep Nvidia's top chips out of Chinese AI labs.\n\n- New research reported by TechCrunch finds China's most advanced AI models were trained on export-banned Nvidia chips\n- A Bloomberg investigation mapped a network of Chinese AI companies using smuggled Nvidia chips, with Alice Huang at its center",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-13T14:55:39.582Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T18:58:10.180Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Bloomberg details web of Chinese AI companies with smuggled NVIDIA chips linked to Alice Huang",
+          "url": "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/",
+          "publishedAt": "2026-11-13T12:58:10.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models—uh oh, Jensen!",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+          "publishedAt": "2026-11-13T18:40:30.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation"
       ]
     },
     {
@@ -821,27 +863,6 @@
       "tags": [
         "model-release",
         "product-launch"
-      ]
-    },
-    {
-      "id": "5508024d-5b35-4dcb-a8f1-bb0063babac9",
-      "title": "Bloomberg maps a web of Chinese AI companies using smuggled Nvidia chips, centered on Alice Huang",
-      "summary": "A Bloomberg investigation found evidence of a network of Chinese AI companies using smuggled Nvidia chips, with Alice Huang at its center, Engadget reports.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-13T14:55:39.582Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T14:55:39.582Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Bloomberg details web of Chinese AI companies with smuggled NVIDIA chips linked to Alice Huang",
-          "url": "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/",
-          "publishedAt": "2026-11-13T12:58:10.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
       ]
     },
     {
@@ -1964,6 +1985,27 @@
       ]
     },
     {
+      "id": "21f216a8-a234-48f8-bed9-0dd5acc56c73",
+      "title": "Ai2 introduces XYBench to test whether AI assistants solve the problem behind a user's question",
+      "summary": "The Allen Institute for AI published XYBench, a benchmark that tests whether models address the underlying problem behind a user's question rather than only the literal ask (the \"XY problem\").",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-13T18:58:13.191Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T18:58:13.191Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "XYBench: Helping with the problem behind the question",
+          "url": "https://huggingface.co/blog/allenai/xybench",
+          "publishedAt": "2026-11-13T17:02:35.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "e761ae5d-676a-42ab-bbb5-3e2829059782",
       "title": "Animaj brings its \"Ozzy Fox\" series to Disney+ as it tests agentic AI in animation",
       "summary": "Animation studio Animaj is bringing its \"Ozzy Fox\" series to Disney+, and CNET uses it to show what animators working with agentic AI tools already look like in production.",
@@ -2228,29 +2270,8 @@
       "tags": [
         "model-release"
       ]
-    },
-    {
-      "id": "12a4aefa-2a6c-494b-a744-81fb4d47a154",
-      "title": "Study finds how people collaborate with AI shapes creative output and job satisfaction",
-      "summary": "A new study examines the consequences of collaborating with AI on creative work, finding that the way people work with AI makes a significant difference to both their output and their satisfaction at work.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-12T22:45:36.733Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T22:45:36.733Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "How You Collaborate With AI on Creative Work Makes All the Difference",
-          "url": "https://www.cnet.com/tech/services-and-software/ai-collaboration-creative-work-research-findings/",
-          "publishedAt": "2026-11-12T17:17:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 111,
+  "totalCount": 110,
   "hasMore": true
 }
