@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-13T10:53:22.639Z",
+  "generatedAt": "2026-11-13T12:54:21.678Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Jensen Huang, ousted as Nvidia CEO amid espionage and affair scandals, faces a second congressional investigation",
-      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot.\n\n- CFO Colette Kress is interim CEO; Trump has floated Apple chairman Tim Cook as the permanent successor, and Elon Musk says it \"would be an honor\" to hire Huang\n- Huang agreed to testify before Congress after senior lawmakers threatened to subpoena him\n- Democrats have now opened a second congressional investigation, into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- The NYT reported a second affair with an Nvidia subordinate, and Reuters a third, with another Nvidia employee it has not named\n- Nvidia stock slid on the scandal, and investors proposed a class action",
+      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot.\n\n- CFO Colette Kress is interim CEO, though Huang reportedly called her a \"deer in the headlights\" this summer; Trump has floated Tim Cook as permanent successor, and Elon Musk says it \"would be an honor\" to hire Huang\n- Huang agreed to testify before Congress after senior lawmakers threatened to subpoena him\n- Democrats have now opened a second congressional investigation, into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- The NYT reported a second affair with an Nvidia subordinate, and Reuters a third, with another Nvidia employee it has not named\n- Nvidia stock slid on the scandal, and investors proposed a class action",
       "importanceScore": 0.95,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T22:45:18.639Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T12:54:04.651Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -358,6 +358,20 @@
           "title": "Nvidia Chaos, Dem Sweep, Lawsuits, Protests: AI's Terrible, No-Good November",
           "url": "https://in.mashable.com/tech/116071/nvidia-chaos-dem-sweep-lawsuits-protests-ais-terrible-no-good-november",
           "publishedAt": "2026-11-12T19:54:30.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang didn’t show confidence in his successor, report says",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+          "publishedAt": "2026-11-13T12:28:23.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+          "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+          "publishedAt": "2026-11-13T12:52:19.000Z",
           "contribution": "background"
         }
       ],
@@ -879,6 +893,13 @@
           "title": "Claude Fable 5.2 Hits 74.6% to Beat ChatGPT 6 Astra on Science Tests",
           "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review-2/",
           "publishedAt": "2026-11-12T08:45:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Claude Fable 5.2 Example Projects from Games to 3D Simulations",
+          "url": "https://www.geeky-gadgets.com/using-fable/",
+          "publishedAt": "2026-11-13T11:47:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1627,6 +1648,27 @@
       ]
     },
     {
+      "id": "c7405193-db48-47c8-bb2f-889efddfbcf9",
+      "title": "Samsung's Bixby 1.9.5 beta turns the assistant into an AI-powered multitasking agent",
+      "summary": "Samsung released a beta of Bixby 1.9.5, moving the assistant from basic voice commands to AI-powered natural-language control and automation, with a redesigned interface and deeper device integration.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-13T12:54:10.703Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T12:54:10.703Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Samsung’s Big Bixby Upgrade: Natural Language, Automation, and More",
+          "url": "https://www.geeky-gadgets.com/samsungs-new-bixby-ai/",
+          "publishedAt": "2026-11-13T11:30:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "3ee580e3-0446-434a-a37e-6840c628b413",
       "title": "IBM adds LLMON, an LLM-native markup language, to Granite 4.1 3B and 8B",
       "summary": "IBM's Granite team introduced LLMON, a markup language designed to be native to LLMs, and shipped support for it in its Granite 4.1 3B and 8B models.",
@@ -1819,6 +1861,25 @@
           "title": "Meta is losing its longtime head of  infrastructure",
           "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
           "publishedAt": "2026-11-11T20:12:01.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "70a6a7d0-13db-4fd4-acbd-d3d04e8ac831",
+      "title": "Startup Mansa bets on AI microdramas to get more Black stories made in Hollywood",
+      "summary": "Mansa says its AI-generated microdramas can serve as proofs of concept showing what Black audiences want, as Black roles disappear in Hollywood; critics say the studio is selling out.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-13T12:54:12.504Z",
+      "lastMeaningfulUpdateAt": "2026-11-13T12:54:12.504Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+          "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+          "publishedAt": "2026-11-13T11:45:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -2149,46 +2210,6 @@
       "tags": [
         "open-source"
       ]
-    },
-    {
-      "id": "578f1e42-832c-4735-afa0-a6efed806234",
-      "title": "JPMorganChase expands Claude Code to more employees across the firm",
-      "summary": "JPMorganChase is expanding Anthropic's Claude Code coding agent to more of its employees across the firm, according to Anthropic's Claude blog.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-10T05:58:18.302Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T05:58:18.302Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "JPMorganChase expands Claude Code to more employees across the firm",
-          "url": "https://claude.com/resources/articles/jpmorganchase-expands-claude-code",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "8bfb2d2a-7d07-4386-9195-8440fff9f435",
-      "title": "Hollywood swaps green screens for \"gray box\" sets filled in by AI",
-      "summary": "Film productions are starting to shoot on sets with blank, neutral walls, then use AI to generate the backgrounds and lighting, moving AI from post-production onto the sound stage.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-11T18:24:23.204Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T18:24:23.204Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "From Green Screen to Gray Box: AI Is Stepping Onto the Hollywood Sound Stage",
-          "url": "https://www.cnet.com/tech/services-and-software/green-screen-gray-box-ai-hollywood-filmmaking/",
-          "publishedAt": "2026-11-11T13:50:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 112,
