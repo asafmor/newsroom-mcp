@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T11:06:12.578Z",
+  "generatedAt": "2026-11-14T13:07:26.089Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -840,6 +840,27 @@
       "tags": [
         "product-launch",
         "model-release",
+        "safety"
+      ]
+    },
+    {
+      "id": "5ca3d772-aebf-46a1-8958-410507dfb74b",
+      "title": "AI tools are fueling a ransomware boom, letting unsophisticated attackers wreak havoc",
+      "summary": "WIRED reports a new wave of AI-fueled ransomware: seemingly unsophisticated attackers are using AI tools to cause serious damage, even though fully automated ransomware hasn't arrived yet.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-14T13:07:16.587Z",
+      "lastMeaningfulUpdateAt": "2026-11-14T13:07:16.587Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Beware the New AI-Fueled Ransomware Boom",
+          "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+          "publishedAt": "2026-11-14T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "safety"
       ]
     },
@@ -2267,27 +2288,6 @@
       ],
       "tags": [
         "funding"
-      ]
-    },
-    {
-      "id": "b6464084-cd6f-46a1-a119-d3274919c2c1",
-      "title": "Anthropic shows Claude designing working electronic prototypes from start to finish",
-      "summary": "Anthropic asked Claude to design three electronic devices — a speakerphone, a voice-assistant hub, and a handheld virtual pet — and says all three prototypes worked without any fixes to their circuitry.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.88,
-      "firstSeenAt": "2026-11-10T05:58:22.103Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T05:58:22.103Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude can design electronic prototypes from start to finish",
-          "url": "https://www.anthropic.com/research/claude-electronics-design",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
       ]
     }
   ],
