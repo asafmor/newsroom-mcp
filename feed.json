@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T09:05:16.585Z",
+  "generatedAt": "2026-11-14T11:06:12.578Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1594,6 +1594,25 @@
       ]
     },
     {
+      "id": "b4ec159c-4228-489c-b02d-8967d73099e1",
+      "title": "Wired: AI comes for the skies as pilots and air traffic controllers thin out",
+      "summary": "A Wired \"Big Story\" feature by Jeff Wise examines how AI is moving into aviation, an industry normally slow to embrace new technology, and asks what could go wrong as cockpits head toward no pilots and control towers run short of air traffic controllers.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-14T11:06:08.689Z",
+      "lastMeaningfulUpdateAt": "2026-11-14T11:06:08.689Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+          "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+          "publishedAt": "2026-11-14T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "8baa91ec-a84f-4049-8d1c-3f727272b299",
       "title": "Anthropic launches Claude for Manufacturing, a plugin with 17 skills and four connectors",
       "summary": "Anthropic's new Claude for Manufacturing plugin bundles 17 skills and four connectors. It helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already use.",
@@ -2270,27 +2289,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "0591f2fc-ec3d-4785-b0c4-442f243a46e7",
-      "title": "Anthropic publishes a guide to building always-on agents",
-      "summary": "Anthropic published a guide to building always-on agents, which run indefinitely and decide how and when to act across many sessions. It walks through their core building blocks and how they fit together.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-13T23:00:13.498Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T23:00:13.498Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Building always-on agents",
-          "url": "https://claude.com/resources/articles/building-always-on-agents",
-          "publishedAt": "2026-11-13T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 106,
+  "totalCount": 107,
   "hasMore": true
 }
