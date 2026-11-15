@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T15:20:59.734Z",
+  "generatedAt": "2026-11-15T17:22:25.817Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1380,6 +1380,25 @@
       ]
     },
     {
+      "id": "904aeb82-7ef7-42a7-9d6b-8c510d18a9dd",
+      "title": "Bans on AI glasses spread across courtrooms, schools and theaters",
+      "summary": "Safety and privacy concerns have led a growing list of public places to ban AI glasses, including courtrooms, schools and theaters, Engadget reports.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-15T17:22:18.366Z",
+      "lastMeaningfulUpdateAt": "2026-11-15T17:22:18.366Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Some places have already banned AI glasses, and the list just keeps growing",
+          "url": "https://www.engadget.com/2313707/ai-glasses-banned-places-list-keeps-growing/",
+          "publishedAt": "2026-11-15T16:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "bd0d48d1-b049-4986-8a75-c46ca94ec125",
       "title": "Cloudflare open-sources Kitesurf, its experimental browser engine for AI agents",
       "summary": "Cloudflare has open-sourced Kitesurf, its experimental browser engine built for AI agents. Developers can inspect the code, run it locally, or deploy their own instance on Cloudflare Workers.",
@@ -2096,6 +2115,25 @@
       ]
     },
     {
+      "id": "689155bc-d622-4718-b77d-2dc6a26cbbbf",
+      "title": "Musicians turn to vibe coding to customize their gear and sound",
+      "summary": "Musicians are using vibe coding to alter their sound, customize their gear and change how music gets made, according to an Engadget feature on AI's spread into music.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-15T17:22:20.203Z",
+      "lastMeaningfulUpdateAt": "2026-11-15T17:22:20.203Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Vibe coding is changing how musicians customize their gear",
+          "url": "https://www.engadget.com/2313717/vibe-coding-changing-how-musicians-customize-gear/",
+          "publishedAt": "2026-11-15T16:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "4984c09d-bb54-4e11-a9fd-62a5ebf8639f",
       "title": "PSI uses an unreleased Anthropic model to crack a decades-old quantum computing question",
       "summary": "Startup PSI is trying to build a business on AI-driven scientific discovery, and says it used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists had pursued for nearly two decades.",
@@ -2261,50 +2299,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "0ce1ec61-40d1-48eb-8111-ea9f597c6ebc",
-      "title": "J.Crew launches a Claude-powered Style Advisor that suggests complete outfits",
-      "summary": "J.Crew's new Style Advisor uses Claude to personalize online shopping, suggesting complete looks instead of individual products.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-12T18:41:55.021Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T18:41:55.021Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "J. Crew brings its signature approach to styling to life with Claude",
-          "url": "https://claude.com/resources/articles/j-crew-style-advisor-with-claude",
-          "publishedAt": "2026-11-12T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "1ede84a7-2401-4b52-a93f-fc53f3d52a1b",
-      "title": "Norwest pushes deeper into AI with a new $4B fund, its largest ever",
-      "summary": "Venture firm Norwest raised a new $4 billion fund, its largest to date, as it pushes deeper into AI investing, TechCrunch reports.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-12T16:39:30.908Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T16:39:30.908Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Norwest pushes deeper into AI with new $4B fund",
-          "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-          "publishedAt": "2026-11-12T15:18:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding"
-      ]
     }
   ],
-  "totalCount": 103,
+  "totalCount": 104,
   "hasMore": true
 }
