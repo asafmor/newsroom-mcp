@@ -1,49 +1,14 @@
 {
-  "generatedAt": "2026-11-16T17:37:04.306Z",
+  "generatedAt": "2026-11-16T19:38:49.586Z",
   "stories": [
     {
-      "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
-      "title": "Anthropic says its recursive self-improvement alarm has been triggered, two weeks after warning RSI was very close",
-      "summary": "Anthropic says its recursive self-improvement (RSI) alarm has been triggered: a \"threshold\" has been breached that affects company policy, though Gizmodo notes RSI itself isn't happening.\n\n- The alarm follows a November 2 SEC disclosure in which Anthropic said it was very close to RSI capability and that it could arrive \"imminently\"\n- RSI is the point where AI gets good enough at training itself to set off a dramatic acceleration in capabilities\n- Safety-minded critics treat that threshold as a point of no return",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-02T23:52:29.630Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T11:32:45.942Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
-          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-          "publishedAt": "2026-11-02T22:14:50.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Claims to Be Closing in on Recursive Self-Improvement",
-          "url": "https://gizmodo.com/anthropic-claims-to-be-closing-in-on-recursive-self-improvement-2000834175",
-          "publishedAt": "2026-11-03T04:03:24.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Says Its Recursive Self-Improvement Alarm Has Been Triggered",
-          "url": "https://gizmodo.com/anthropic-says-its-recursive-self-improvement-alarm-has-been-triggered-2000840253",
-          "publishedAt": "2026-11-16T10:00:29.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "Jensen Huang, ousted as Nvidia CEO amid espionage and affair scandals, faces a second congressional investigation as some employees push for his return",
-      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot.\n\n- CFO Colette Kress is interim CEO, though Huang reportedly called her a \"deer in the headlights\" this summer; Trump has floated Tim Cook as permanent successor, and Elon Musk says it \"would be an honor\" to hire Huang\n- Some Nvidia employees are pushing for an Altman-style reinstatement, arguing infidelity alone shouldn't mean exile, though the alleged spy link is harder to defend\n- Huang agreed to testify before Congress, and Democrats have opened a second investigation into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- The NYT and Reuters reported two further affairs with Nvidia employees\n- Nvidia stock slid on the scandal, and investors proposed a class action",
+      "title": "Jensen Huang, ousted as Nvidia CEO amid espionage and affair scandals, faces a second congressional probe as Trump says he \"would not mind\" his return",
+      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot.\n\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms. The NYT and Reuters also reported two further affairs with Nvidia employees\n- CFO Colette Kress is interim CEO, though Huang reportedly called her a \"deer in the headlights\" this summer\n- Trump now says he \"would not mind\" Huang returning because \"he learned a big lesson,\" while still promoting former Apple CEO Tim Cook as a possible successor\n- Some Nvidia employees are pushing for an Altman-style reinstatement, and Elon Musk says it \"would be an honor\" to hire Huang, though the alleged spy link is harder to defend than the infidelity\n- Huang agreed to testify before Congress, and Democrats have opened a second investigation into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- Nvidia stock slid on the scandal, and investors proposed a class action",
       "importanceScore": 0.95,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T18:58:08.529Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T19:38:29.959Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -450,6 +415,118 @@
           "url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
           "publishedAt": "2026-11-16T16:12:51.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump Says He ‘Would Not Mind’ Jensen Huang Returning Because ‘He Learned a Big Lesson’",
+          "url": "https://gizmodo.com/trump-says-he-would-not-mind-jensen-huang-returning-because-he-learned-a-big-lesson-2000840489",
+          "publishedAt": "2026-11-16T18:40:35.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
+      "title": "Anthropic says its recursive self-improvement alarm has been triggered, two weeks after warning RSI was very close",
+      "summary": "Anthropic says its recursive self-improvement (RSI) alarm has been triggered: a \"threshold\" has been breached that affects company policy, though Gizmodo notes RSI itself isn't happening.\n\n- The alarm follows a November 2 SEC disclosure in which Anthropic said it was very close to RSI capability and that it could arrive \"imminently\"\n- RSI is the point where AI gets good enough at training itself to set off a dramatic acceleration in capabilities\n- Safety-minded critics treat that threshold as a point of no return",
+      "importanceScore": 0.85,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-02T23:52:29.630Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T11:32:45.942Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+          "publishedAt": "2026-11-02T22:14:50.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Claims to Be Closing in on Recursive Self-Improvement",
+          "url": "https://gizmodo.com/anthropic-claims-to-be-closing-in-on-recursive-self-improvement-2000834175",
+          "publishedAt": "2026-11-03T04:03:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Says Its Recursive Self-Improvement Alarm Has Been Triggered",
+          "url": "https://gizmodo.com/anthropic-says-its-recursive-self-improvement-alarm-has-been-triggered-2000840253",
+          "publishedAt": "2026-11-16T10:00:29.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "9d92de3d-8514-4e00-bbd1-009e69d04328",
+      "title": "Huang's exit raises doubts about Nvidia's open-source AI push, as a petition backed by Elon Musk seeks his reinstatement",
+      "summary": "Jensen Huang's resignation has raised questions about whether Nvidia will stay committed to open-source AI.\n\n- The questions cover Nvidia's $12.9B acquisition of Hugging Face, its open-weight models, and its lobbying against restrictions on open models\n- Hugging Face CEO Clem Delangue says he will keep fighting for open-source AI after Huang's exit\n- A petition to reinstate Huang as Nvidia CEO began circulating Friday and has drawn notable signatories including Elon Musk; MIT Technology Review frames it as the open-source movement wanting him back",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-12T18:41:41.791Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T19:38:33.605Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+          "publishedAt": "2026-11-12T18:39:23.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+          "publishedAt": "2026-11-12T17:36:40.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "MIT AI",
+          "title": "The open-source movement wants Jensen Huang back",
+          "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+          "publishedAt": "2026-11-16T18:38:47.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "open-source"
+      ]
+    },
+    {
+      "id": "7d6866f3-7957-44c1-acbd-65edf8403187",
+      "title": "Commerce moves to close the \"remote access loophole\" on US AI chips after reportedly stalling a crackdown",
+      "summary": "The Commerce Department is moving to close the so-called \"remote access loophole\" that lets Chinese firms use American AI chips, after criticism that it wasn't doing enough to keep chips away from Chinese tech companies.\n\n- Trump had reportedly approved an AI chip export crackdown (per Axios), but Commerce Secretary Howard Lutnick was said to be stalling it\n- Chinese firms had been racing to exploit a remaining Nvidia loophole before it closed\n- The crackdown comes even as the administration tries to promote the use of American-made AI overseas",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-11T22:28:18.677Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T19:38:31.987Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Howard Lutnick Doesn’t Want to Stop the Flow of Nvidia Chips Overseas: Report",
+          "url": "https://gizmodo.com/howard-lutnick-doesnt-want-to-stop-the-flow-of-nvidia-chips-overseas-report-2000838506",
+          "publishedAt": "2026-11-11T22:02:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "China Is Racing to Exploit an Nvidia Loophole Before the Trump Admin Slams It Shut",
+          "url": "https://gizmodo.com/china-is-racing-to-exploit-an-nvidia-loophole-before-the-trump-admin-slams-it-shut-2000839012",
+          "publishedAt": "2026-11-12T17:50:21.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump Admin Moves to Strangle China’s Remote Access to American AI Chips",
+          "url": "https://gizmodo.com/trump-admin-moves-to-strangle-chinas-remote-access-to-american-ai-chips-2000840511",
+          "publishedAt": "2026-11-16T17:40:00.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -1265,34 +1342,6 @@
       ]
     },
     {
-      "id": "9d92de3d-8514-4e00-bbd1-009e69d04328",
-      "title": "Huang's exit raises doubts about Nvidia's open-source AI push, including its $12.9B Hugging Face deal",
-      "summary": "Jensen Huang's resignation has raised questions about whether Nvidia will stay committed to open-source AI.\n\n- The questions cover Nvidia's $12.9B acquisition of Hugging Face, its open-weight models, and its lobbying against restrictions on open models\n- Hugging Face CEO Clem Delangue says he will keep fighting for open-source AI after Huang's exit",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-12T18:41:41.791Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T18:41:41.791Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-          "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-          "publishedAt": "2026-11-12T18:39:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-          "publishedAt": "2026-11-12T17:36:40.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source"
-      ]
-    },
-    {
       "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
       "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
       "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism\n- Fable 5.2's safety classifiers produce 55% fewer false positives, but in testing it still downgraded a user to Opus 4.8 when asked for an application hardening plan",
@@ -1388,34 +1437,6 @@
       ],
       "tags": [
         "model-release"
-      ]
-    },
-    {
-      "id": "7d6866f3-7957-44c1-acbd-65edf8403187",
-      "title": "Commerce appears to shift toward closing an Nvidia chip export loophole as Chinese firms rush to use it",
-      "summary": "The Commerce Department now appears to be moving to restrict Nvidia chip exports after criticism that it wasn't doing enough to keep chips away from Chinese tech companies.\n\n- Trump had reportedly approved an AI chip export crackdown (per Axios), but Commerce Secretary Howard Lutnick was said to be stalling it\n- Gizmodo reports that Chinese firms are racing to use the remaining loophole before it closes",
-      "importanceScore": 0.65,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-11T22:28:18.677Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T18:41:33.687Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Howard Lutnick Doesn’t Want to Stop the Flow of Nvidia Chips Overseas: Report",
-          "url": "https://gizmodo.com/howard-lutnick-doesnt-want-to-stop-the-flow-of-nvidia-chips-overseas-report-2000838506",
-          "publishedAt": "2026-11-11T22:02:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "China Is Racing to Exploit an Nvidia Loophole Before the Trump Admin Slams It Shut",
-          "url": "https://gizmodo.com/china-is-racing-to-exploit-an-nvidia-loophole-before-the-trump-admin-slams-it-shut-2000839012",
-          "publishedAt": "2026-11-12T17:50:21.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "regulation"
       ]
     },
     {
@@ -2514,6 +2535,6 @@
       ]
     }
   ],
-  "totalCount": 103,
+  "totalCount": 98,
   "hasMore": true
 }
