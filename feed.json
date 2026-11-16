@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T21:24:13.439Z",
+  "generatedAt": "2026-11-16T03:28:03.146Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -405,6 +405,174 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "d2c37bf1-8cb0-459c-8147-f9343a25ebea",
+      "title": "OpenAI launches a science blog, touting a GPT-6 Astra-assisted step toward defining the Standard Model on a lattice",
+      "summary": "OpenAI launched a dedicated science blog and keeps publishing AI-generated math and science results, while trying to repair its relationship with the researchers who have to vet them.\n\n- A new post presents a candidate nonperturbative lattice definition of the Standard Model, which OpenAI says GPT-6 Astra helped turn into a detailed proof\n- OpenAI earlier shared model results on the Kakeya conjecture, the Exponential Time Hypothesis, and quantum chromodynamics, with guidance on how researchers can verify and build on them\n- Its earlier dump of 377 results on GitHub fell short of guidelines set by mathematicians OpenAI had consulted, TechCrunch reported\n- Twenty-five leading mathematicians signed an open letter arguing AI labs threaten their work; one told Wired of \"a perception of mobster behavior\"\n- OpenAI's independent Advisory Group on Mathematics and AI guides review and communication of results, but can't slow or redirect the research\n- OpenAI dropped its Caltech \"Mathathon\" sponsorship and is reportedly attempting the Hodge Conjecture",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-09-12T12:48:10.132Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T03:27:48.069Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s feud with mathematicians is only escalating",
+          "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+          "publishedAt": "2026-09-11T20:57:36.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Is Beefing With Mathematicians, Will No Longer Sponsor Caltech ‘Mathathon’",
+          "url": "https://gizmodo.com/openai-is-beefing-with-mathematicians-will-no-longer-sponsor-caltech-mathathon-2000810868",
+          "publishedAt": "2026-09-12T01:05:18.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
+          "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
+          "publishedAt": "2026-09-11T16:45:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Reportedly Trying to Solve Hodge Conjecture Amid Feud With Math Community",
+          "url": "https://gizmodo.com/openai-reportedly-trying-to-solve-hodge-conjecture-amid-feud-with-math-community-2000813658",
+          "publishedAt": "2026-09-18T00:10:47.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Mathematicians Hate AI. They Can’t Quit It",
+          "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
+          "publishedAt": "2026-09-19T10:00:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Advisory Group on Mathematics and Artificial Intelligence",
+          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+          "publishedAt": "2026-09-21T12:00:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+          "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+          "publishedAt": "2026-09-21T20:15:58.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI GPT Bel Solves Over 100 Historic Math Problems",
+          "url": "https://www.geeky-gadgets.com/latest-ai-models-performance/",
+          "publishedAt": "2026-09-22T12:17:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Mathematics Just Got Its First Taste of the AI Job-Pocalypse",
+          "url": "https://gizmodo.com/mathematics-just-got-its-first-taste-of-the-ai-job-pocalypse-2000812872",
+          "publishedAt": "2026-09-22T15:55:13.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "OpenAI Is Pissing Off a Bunch of Mathematicians—Again",
+          "url": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
+          "publishedAt": "2026-10-06T17:28:33.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Dumps 377 New Math Results on GitHub, Publishes Hand-Wringing Blog Post",
+          "url": "https://gizmodo.com/openai-dumps-377-new-math-results-on-github-publishes-hand-wringing-blog-post-2000822613",
+          "publishedAt": "2026-10-07T01:50:52.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI just posted hundreds more results on major math problems",
+          "url": "https://www.engadget.com/2279815/openai-just-posted-hundreds-more-results-on-major-math-problems/",
+          "publishedAt": "2026-10-07T13:08:45.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
+          "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+          "publishedAt": "2026-10-08T18:10:55.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "AI’s Problem Solving Is a ‘Profound Disruption’ for the Math Community",
+          "url": "https://www.cnet.com/tech/services-and-software/ai-causing-profound-disruption-math-research/",
+          "publishedAt": "2026-10-09T15:37:41.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI Just Changed What It Means to Do Math",
+          "url": "https://www.geeky-gadgets.com/generated-proofs/",
+          "publishedAt": "2026-10-14T11:17:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Working with academic communities to build scientific understanding",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+          "publishedAt": "2026-10-26T14:30:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI Trumpets 3 More Math and Science Results, Along With a New Plan for Publishing Them",
+          "url": "https://gizmodo.com/openai-trumpets-3-more-math-and-science-results-along-with-a-new-plan-for-publishing-them-2000830956",
+          "publishedAt": "2026-10-27T00:13:11.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI announces new discoveries in mathematics, computer science and physics",
+          "url": "https://www.engadget.com/2297941/openai-new-discoveries-mathematics-computer-science-physics/",
+          "publishedAt": "2026-10-27T08:18:16.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+          "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+          "publishedAt": "2026-10-27T17:08:08.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI Claims Subexponential Algorithm Beats 3-SAT Problem",
+          "url": "https://www.geeky-gadgets.com/exponential-time/",
+          "publishedAt": "2026-11-02T09:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "A step toward defining the Standard Model on a lattice",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "publishedAt": "2026-11-15T22:00:01.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Our new blog for science",
+          "url": "https://openai.com/index/our-new-blog-for-science",
+          "publishedAt": "2026-11-15T22:00:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -2284,27 +2452,6 @@
       ],
       "tags": [
         "safety"
-      ]
-    },
-    {
-      "id": "d461234f-de42-4a2d-86dd-3dd82b1d2fe6",
-      "title": "OpenAI rolls out business profiles in ChatGPT, pushing it further into Google's discovery turf",
-      "summary": "OpenAI launched business profiles and related features that let businesses shape how they appear in ChatGPT, part of a push to make it a more robust consumer discovery engine and a closer rival to Google.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-10T20:10:22.568Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T20:10:22.568Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-          "publishedAt": "2026-11-10T18:49:52.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
       ]
     }
   ],
