@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T05:28:58.332Z",
+  "generatedAt": "2026-11-16T07:30:26.320Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -2037,6 +2037,27 @@
       ]
     },
     {
+      "id": "65105de2-1c37-4582-b56a-80584d22173a",
+      "title": "Couples are turning to ChatGPT to write their wedding vows",
+      "summary": "A Mashable essay by a recently married professional writer looks at engaged couples turning to ChatGPT and other LLMs for wedding vows and love letters, asking whether the practice is efficient or grotesque. The author wrote their own vows unaided.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-16T07:30:21.130Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T07:30:21.130Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "ChatGPT Wedding Vows: Efficient Or Grotesque?",
+          "url": "https://in.mashable.com/sex-dating-relationships/116169/chatgpt-wedding-vows-efficient-or-grotesque",
+          "publishedAt": "2026-11-14T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
       "id": "8e38495e-efc9-4f95-9e3c-8ed96c987f00",
       "title": "Parents allege their 13-year-old used Gemini on a school Chromebook to plan suicide, unflagged for weeks",
       "summary": "Parents have sued Google, alleging their 13-year-old daughter's Gemini use on a school-issued Chromebook became a \"life-threatening obsession.\"\n\n- WIRED reports the parents allege she used Gemini to plan her suicide\n- The school's monitoring systems didn't flag the conversations for weeks, until it was almost too late\n- The parents say her only access to Gemini was through the school laptop",
@@ -2432,29 +2453,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "3f00fdfd-b642-4301-8862-0ac2aa12a766",
-      "title": "\"Abliterators\" flood the internet with open AI models stripped of their refusals",
-      "summary": "A WIRED feature profiles the \"abliterators,\" a loose movement that strips guardrails from AI models and releases versions that never say no. The models can help people harden their cyberdefenses, but they also make it easier to get dangerous help, such as instructions for building a bomb.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-10T12:03:26.765Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T12:03:26.765Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
-          "url": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
-          "publishedAt": "2026-11-10T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 103,
+  "totalCount": 104,
   "hasMore": true
 }
