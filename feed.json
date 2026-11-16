@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T15:35:18.792Z",
+  "generatedAt": "2026-11-16T17:37:04.306Z",
   "stories": [
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -443,6 +443,13 @@
           "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
           "publishedAt": "2026-11-16T11:00:00.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Jensen Huang Is Gone. Now What?",
+          "url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
+          "publishedAt": "2026-11-16T16:12:51.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -615,6 +622,76 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "7b2be363-384f-430b-904c-e31bff0d342f",
+      "title": "OpenAI announces new tools and partnerships to fight online child sexual abuse",
+      "summary": "OpenAI says it is rolling out new tools, practical guidance, and partnerships aimed at helping prevent, detect, and respond to online child sexual exploitation and abuse.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-16T17:36:51.906Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T17:36:51.906Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+          "url": "https://openai.com/index/strengthening-online-child-safety",
+          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "6a056357-a520-45c5-9559-e7df633bbbf5",
+      "title": "OpenAI offers 200,000 academic researchers free access to its frontier models",
+      "summary": "OpenAI is expanding its ChatGPT for Academic Researchers program to give 200,000 researchers worldwide free access to its frontier models. The same day it published \"Science at the Frontier,\" a look at how more than 1,800 scientists use ChatGPT in research, covering daily workflows, reported productivity, and expectations for discovery.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-16T17:36:49.856Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T17:36:49.856Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Broadening access to AI for scientists",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "OpenAI News",
+          "title": "Science at the Frontier: How scientists use ChatGPT",
+          "url": "https://openai.com/index/science-at-the-frontier",
+          "publishedAt": "2026-11-16T12:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "b5cd7302-fb23-4559-bfc7-a593ac3bd320",
+      "title": "Hugging Face and OpenRouter team up to make open-weight models easier to run",
+      "summary": "Hugging Face announced a partnership with model-routing service OpenRouter aimed at making open-weight models easy to run. The source item carries only the title, so the details of the integration aren't clear yet.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-16T17:36:54.171Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T17:36:54.171Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+          "url": "https://huggingface.co/blog/openrouter",
+          "publishedAt": "2026-11-16T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
       ]
     },
     {
@@ -1093,6 +1170,27 @@
         "product-launch",
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "373fec5b-9452-4365-a08a-c4069e65ceea",
+      "title": "Google adds 66 regional dialects to Gemini",
+      "summary": "Google has added support for 66 regional dialects to Gemini, an update rolling out today that is meant to make the assistant sound more accurate in the way people actually speak their language.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-16T17:36:57.628Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T17:36:57.628Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Google adds 66 regional dialects to Gemini",
+          "url": "https://www.engadget.com/2317417/google-adds-66-regional-dialects-to-gemini/",
+          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -2414,86 +2512,6 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "689155bc-d622-4718-b77d-2dc6a26cbbbf",
-      "title": "Musicians turn to vibe coding to customize their gear and sound",
-      "summary": "Musicians are using vibe coding to alter their sound, customize their gear and change how music gets made, according to an Engadget feature on AI's spread into music.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-15T17:22:20.203Z",
-      "lastMeaningfulUpdateAt": "2026-11-15T17:22:20.203Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Vibe coding is changing how musicians customize their gear",
-          "url": "https://www.engadget.com/2313717/vibe-coding-changing-how-musicians-customize-gear/",
-          "publishedAt": "2026-11-15T16:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "4984c09d-bb54-4e11-a9fd-62a5ebf8639f",
-      "title": "PSI uses an unreleased Anthropic model to crack a decades-old quantum computing question",
-      "summary": "Startup PSI is trying to build a business on AI-driven scientific discovery, and says it used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists had pursued for nearly two decades.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-10T20:10:20.068Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T20:10:20.068Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "PSI is trying to make a business out of AI-driven scientific discovery",
-          "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
-          "publishedAt": "2026-11-10T19:03:52.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "21f216a8-a234-48f8-bed9-0dd5acc56c73",
-      "title": "Ai2 introduces XYBench to test whether AI assistants solve the problem behind a user's question",
-      "summary": "The Allen Institute for AI published XYBench, a benchmark that tests whether models address the underlying problem behind a user's question rather than only the literal ask (the \"XY problem\").",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-13T18:58:13.191Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T18:58:13.191Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "XYBench: Helping with the problem behind the question",
-          "url": "https://huggingface.co/blog/allenai/xybench",
-          "publishedAt": "2026-11-13T17:02:35.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "e761ae5d-676a-42ab-bbb5-3e2829059782",
-      "title": "Animaj brings its \"Ozzy Fox\" series to Disney+ as it tests agentic AI in animation",
-      "summary": "Animation studio Animaj is bringing its \"Ozzy Fox\" series to Disney+, and CNET uses it to show what animators working with agentic AI tools already look like in production.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-13T14:55:41.583Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T14:55:41.583Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Animaj Brings ‘Ozzy Fox’ Series to Disney Plus as It Charts a Path for AI in Animation",
-          "url": "https://www.cnet.com/tech/services-and-software/animaj-ozzy-fox-series-disney-plus-ai-agentic-animation/",
-          "publishedAt": "2026-11-13T13:05:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 103,
