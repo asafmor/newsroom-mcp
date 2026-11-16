@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-11-16T09:31:19.578Z",
+  "generatedAt": "2026-11-16T11:32:58.965Z",
   "stories": [
+    {
+      "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
+      "title": "Anthropic says its recursive self-improvement alarm has been triggered, two weeks after warning RSI was very close",
+      "summary": "Anthropic says its recursive self-improvement (RSI) alarm has been triggered: a \"threshold\" has been breached that affects company policy, though Gizmodo notes RSI itself isn't happening.\n\n- The alarm follows a November 2 SEC disclosure in which Anthropic said it was very close to RSI capability and that it could arrive \"imminently\"\n- RSI is the point where AI gets good enough at training itself to set off a dramatic acceleration in capabilities\n- Safety-minded critics treat that threshold as a point of no return",
+      "importanceScore": 0.85,
+      "relevanceScore": 0.95,
+      "firstSeenAt": "2026-11-02T23:52:29.630Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T11:32:45.942Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+          "publishedAt": "2026-11-02T22:14:50.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Claims to Be Closing in on Recursive Self-Improvement",
+          "url": "https://gizmodo.com/anthropic-claims-to-be-closing-in-on-recursive-self-improvement-2000834175",
+          "publishedAt": "2026-11-03T04:03:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Says Its Recursive Self-Improvement Alarm Has Been Triggered",
+          "url": "https://gizmodo.com/anthropic-says-its-recursive-self-improvement-alarm-has-been-triggered-2000840253",
+          "publishedAt": "2026-11-16T10:00:29.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Jensen Huang, ousted as Nvidia CEO amid espionage and affair scandals, faces a second congressional investigation as some employees push for his return",
@@ -401,6 +436,13 @@
           "url": "https://gizmodo.com/theres-a-burgeoning-stand-with-jensen-movement-2000840178",
           "publishedAt": "2026-11-15T19:36:57.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
+          "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+          "publishedAt": "2026-11-16T11:00:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -573,6 +615,27 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "5cea165a-36cc-41ca-974f-b2a94f4003d5",
+      "title": "LVMH's media division partners with OpenAI to bring its publications into ChatGPT",
+      "summary": "LVMH's Media Division and OpenAI announced a strategic partnership to support journalism with AI and make the group's publications more accessible through ChatGPT.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-16T11:32:44.051Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T11:32:44.051Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+          "url": "https://openai.com/index/lvmh-media-division-partnership",
+          "publishedAt": "2026-11-16T09:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
       ]
     },
     {
@@ -1080,6 +1143,27 @@
       "tags": [
         "model-release",
         "product-launch"
+      ]
+    },
+    {
+      "id": "482fe900-26f0-483a-b682-a5e61448e0cf",
+      "title": "Stanford's Memorilla compresses large document sets into 16 memory tokens",
+      "summary": "Stanford's Memorilla project introduces a compact memory module that compresses large datasets into just 16 memory tokens, keeping memory size fixed regardless of input length. Geeky Gadgets reports it processes 512 documents six times faster than rival models.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-16T11:32:48.155Z",
+      "lastMeaningfulUpdateAt": "2026-11-16T11:32:48.155Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Stanford’s Memorilla AI Processes 512 Documents 6X Faster Than Rival Models",
+          "url": "https://www.geeky-gadgets.com/memory-module/",
+          "publishedAt": "2026-11-16T10:47:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -1739,6 +1823,13 @@
           "url": "https://www.geeky-gadgets.com/samsung-google-intelligent-eyewear/",
           "publishedAt": "2026-11-14T09:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Samsung Google Android XR Intelligent Smart Glasses Take on Ray-Ban Meta At $395",
+          "url": "https://www.geeky-gadgets.com/android-xr-smart-glasses-review-2/",
+          "publishedAt": "2026-11-16T10:13:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -2396,72 +2487,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "34ebf090-896e-4335-9f9d-c8808b34f129",
-      "title": "United restricts AI agents from booking flights, citing security risks",
-      "summary": "United Airlines is restricting AI agents from booking flights. The airline says agent bookings pose security risks and may violate DOT and FAA rules.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-11T20:26:33.625Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T20:26:33.625Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "United is restricting AI agents from booking flights",
-          "url": "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights/",
-          "publishedAt": "2026-11-11T20:09:44.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-          "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-          "publishedAt": "2026-11-12T17:17:58.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "51a8fa63-1e1c-4eaa-b64e-add3a9624932",
-      "title": "Meta's longtime head of infrastructure, Santosh Janardhan, is stepping down",
-      "summary": "Santosh Janardhan, who joined Meta in 2009 and has long led its infrastructure, is stepping down from his role, TechCrunch reports.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-11T20:26:27.276Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T20:26:27.276Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Meta is losing its longtime head of  infrastructure",
-          "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
-          "publishedAt": "2026-11-11T20:12:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "70a6a7d0-13db-4fd4-acbd-d3d04e8ac831",
-      "title": "Startup Mansa bets on AI microdramas to get more Black stories made in Hollywood",
-      "summary": "Mansa says its AI-generated microdramas can serve as proofs of concept showing what Black audiences want, as Black roles disappear in Hollywood; critics say the studio is selling out.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-13T12:54:12.504Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T12:54:12.504Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
-          "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
-          "publishedAt": "2026-11-13T11:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 104,
+  "totalCount": 106,
   "hasMore": true
 }
