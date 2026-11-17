@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T07:46:43.700Z",
+  "generatedAt": "2026-11-17T09:48:39.341Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -553,6 +553,34 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "93bcab62-127f-4531-bf9b-ad65e8fd3099",
+      "title": "Alibaba launches Qwen 4 Max, a multimodal model with a 1-million-token context window",
+      "summary": "Alibaba launched Qwen 4 Max, the flagship of its Qwen 4 series, after earlier preview impressions.\n\n- 1-million-token context window and a mixture-of-experts architecture\n- Multimodal: handles text, image and video understanding alongside reasoning\n- Pitched for coding and professional workflows in fields like finance and healthcare\n- A benchmark chart in launch coverage ranks it behind GPT-6 Soul and Opus 5\n- Earlier third-party previews said Qwen 4 beat DeepSeek 4.1 Flash on web tasks using about half the tokens; independent benchmarks are still pending",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-09T15:48:23.215Z",
+      "lastMeaningfulUpdateAt": "2026-11-17T09:48:25.467Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Qwen 4 Beats Deepseek 4.1 Flash in Web Tasks on Half the Tokens",
+          "url": "https://www.geeky-gadgets.com/qwen-4-preview-first-look/",
+          "publishedAt": "2026-11-09T14:13:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Alibaba Launches Qwen 4 Max with 1 Million Token Context Window",
+          "url": "https://www.geeky-gadgets.com/qwen-max/",
+          "publishedAt": "2026-11-17T09:47:24.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "model-release"
       ]
     },
     {
@@ -2481,30 +2509,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "66863b88-0d93-43fa-8300-ce9384b73557",
-      "title": "Britain's Fractile raises $720M for purpose-built AI chips",
-      "summary": "UK AI chip startup Fractile raised a $720M round, making it one of the best-funded companies in the race to build purpose-built AI chips, TechCrunch reports.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-11T20:26:31.782Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T20:26:31.782Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
-          "publishedAt": "2026-11-11T19:34:55.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 98,
+  "totalCount": 97,
   "hasMore": true
 }
