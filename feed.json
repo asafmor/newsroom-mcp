@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T05:45:08.995Z",
+  "generatedAt": "2026-11-17T07:46:43.700Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -569,6 +569,48 @@
           "title": "The Fed Is Worried AI Agents Could Trigger a Bank Run",
           "url": "https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566",
           "publishedAt": "2026-11-16T20:50:15.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "0f8703e3-7f73-4b4b-9a3a-133ed46955a6",
+      "title": "OpenAI works with NATO and allied cyber agencies to help defenders find and fix vulnerabilities",
+      "summary": "OpenAI says it is working with NATO and allied cyber agencies to help trusted defenders use AI to find vulnerabilities, test fixes, and protect essential systems. The company-published post doesn't detail which models or access programs are involved.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-17T07:46:27.861Z",
+      "lastMeaningfulUpdateAt": "2026-11-17T07:46:27.861Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Strengthening NATO and allied cyber defenses with AI",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "publishedAt": "2026-11-17T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "2dac448f-c2df-4afb-9009-80fb4aa5514d",
+      "title": "Apple adds Mac disk-access controls to rein in AI agents",
+      "summary": "After sounding an alarm about AI agents running amok on Macs, Apple is adding new controls that limit how much disk access AI agents get, Engadget reports.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-17T07:46:29.910Z",
+      "lastMeaningfulUpdateAt": "2026-11-17T07:46:29.910Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Apple adds new disk controls to prevent AI agents from running amok",
+          "url": "https://www.engadget.com/2318790/apple-adds-new-disk-controls-to-prevent-ai-agents-from-running-amok/",
+          "publishedAt": "2026-11-17T06:22:11.000Z",
           "contribution": "supporting"
         }
       ],
@@ -2460,56 +2502,6 @@
       "tags": [
         "funding",
         "infrastructure"
-      ]
-    },
-    {
-      "id": "0c6303d6-4903-4f38-ad7c-fd526e96b283",
-      "title": "CoreWeave turns to customer prepayments and shorter contracts to fund its AI growth",
-      "summary": "CoreWeave's third-quarter earnings show it increasingly asks customers to pay upfront and borrows against specific contracts. It is also moving toward short-term deals that could lead to higher prices.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-11T20:26:29.574Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T20:26:29.574Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-          "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
-          "publishedAt": "2026-11-11T19:54:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "4bc6f4c9-665b-42a9-af35-5fd239019a66",
-      "title": "Google DeepMind unveils AlphaProof Code, which formally verified the Signal Protocol's core encryption",
-      "summary": "Google DeepMind unveiled AlphaProof Code, whose AI agents wrote about three million lines of Lean proofs to formally verify that Signal's core encryption works as intended. The team's stretch goal is to do the same for \"all the software of the world.\"",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-10T05:58:16.302Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T12:03:24.363Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
-          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
-          "publishedAt": "2026-11-10T05:01:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Google DeepMind",
-          "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-          "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-          "publishedAt": "2026-11-10T12:02:28.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "research",
-        "safety"
       ]
     }
   ],
