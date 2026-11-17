@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T15:52:33.737Z",
+  "generatedAt": "2026-11-17T17:54:03.529Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -2237,90 +2237,6 @@
       ]
     },
     {
-      "id": "e0f1abdc-a82b-4afb-9844-7531539f5e70",
-      "title": "Google DeepMind makes Gemini 4 Carbon, its next frontier model, available",
-      "summary": "Google DeepMind says Gemini 4 Carbon, its next frontier model, is now available.\n\n- Access was first limited to select cybersecurity experts after its late-October announcement\n- Google pitched Carbon as a \"significant leap\" in coding and cybersecurity, and one report says it beat Claude Opus 5.5 on 16 of 18 tests\n- Carbon follows Gemini 4 Argon, which rolled out to the Gemini app and AI Mode in Search earlier this month",
-      "importanceScore": 0.88,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-28T18:10:56.235Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T16:07:49.756Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Gemini 4 Carbon: Our next frontier model",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-          "publishedAt": "2026-10-28T17:00:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Google Debuts New AI Models, Genie 4 and Gemini 4 Carbon: What You Need to Know",
-          "url": "https://www.cnet.com/tech/services-and-software/google-genie-4-gemini-4-carbon-ai-news/",
-          "publishedAt": "2026-10-28T20:51:37.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google's Gemini 4 Carbon promises 'significant leap' in AI coding and cybersecurity",
-          "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/",
-          "publishedAt": "2026-10-29T09:41:58.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Gemini 4 Carbon Beats Claude Opus 5.5 in 16 of 18 Tests",
-          "url": "https://www.geeky-gadgets.com/google-gemini-4-carbon-announced/",
-          "publishedAt": "2026-10-29T12:47:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Google DeepMind",
-          "title": "Gemini 4 Carbon is now available",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-          "publishedAt": "2026-11-10T16:03:47.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google's Gemini 4 Carbon is now widely available around the world",
-          "url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide/",
-          "publishedAt": "2026-11-10T16:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Google Expands Gemini 4 Carbon Availability",
-          "url": "https://www.cnet.com/tech/services-and-software/google-expands-gemini-4-carbon-availability/",
-          "publishedAt": "2026-11-10T22:07:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Gemini 4 Carbon Beats Claude Opus 5.5 in 16 of 18 Tests",
-          "url": "https://www.geeky-gadgets.com/gemini-carbon-2/",
-          "publishedAt": "2026-11-11T10:13:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Tested Gemini 4 Carbon Beats Gemini 4 Argon at Coding Space Games",
-          "url": "https://www.geeky-gadgets.com/gemini-carbon/",
-          "publishedAt": "2026-11-11T08:43:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Autonomous Gemini 4 Carbon May Replace Costly SaaS Platforms",
-          "url": "https://www.geeky-gadgets.com/gemini-carbon-3/",
-          "publishedAt": "2026-11-13T09:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
       "id": "b4ec159c-4228-489c-b02d-8967d73099e1",
       "title": "Wired: AI comes for the skies as pilots and air traffic controllers thin out",
       "summary": "A Wired \"Big Story\" feature by Jeff Wise examines how AI is moving into aviation, an industry normally slow to embrace new technology, and asks what could go wrong as cockpits head toward no pilots and control towers run short of air traffic controllers.",
@@ -2504,8 +2420,37 @@
         "model-release",
         "research"
       ]
+    },
+    {
+      "id": "13a04ae1-e8a7-4d23-b11d-937cc6aee7c7",
+      "title": "New York's AI safety law takes effect, with state testing of models from OpenAI, Anthropic and others",
+      "summary": "New York is preparing to enforce its sweeping AI safety law, putting major developers like OpenAI and Anthropic under new oversight.\n\n- Covered developers must register with the state and disclose their safety practices\n- They must report critical safety incidents or face fines\n- The state's research center will independently test AI models rather than take companies' word for it",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-10T20:10:24.289Z",
+      "lastMeaningfulUpdateAt": "2026-11-10T22:12:35.493Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "New York will independently test AI models",
+          "url": "https://www.engadget.com/2312487/new-york-will-independently-test-ai-models/",
+          "publishedAt": "2026-11-10T19:19:20.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "publishedAt": "2026-11-10T20:52:13.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
+      ]
     }
   ],
-  "totalCount": 93,
+  "totalCount": 91,
   "hasMore": true
 }
