@@ -1,35 +1,14 @@
 {
-  "generatedAt": "2026-11-17T21:57:22.670Z",
+  "generatedAt": "2026-11-17T23:59:01.668Z",
   "stories": [
     {
-      "id": "1152ef8d-7ddf-4e16-9dee-4f08485a9752",
-      "title": "Nvidia posts record $115.84B quarterly revenue in its first earnings since Jensen Huang's ouster",
-      "summary": "Nvidia reported record quarterly revenue of $115.84 billion and guided to even bigger numbers next quarter, showing its AI chip business still growing despite the scandal surrounding its former CEO, Jensen Huang, Gizmodo reports.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-17T21:57:16.897Z",
-      "lastMeaningfulUpdateAt": "2026-11-17T21:57:16.897Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Nvidia’s AI Money Machine Keeps Churning Without Jensen Huang",
-          "url": "https://gizmodo.com/nvidias-ai-money-machine-keeps-churning-without-jensen-huang-2000841301",
-          "publishedAt": "2026-11-17T21:46:11.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "Jensen Huang, ousted as Nvidia CEO amid espionage and affair scandals, faces a second congressional probe as Trump says he \"would not mind\" his return",
-      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot.\n\n- The woman, a recruit of China's Ministry of State Security per the NYT, is a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms. The NYT and Reuters also reported two further affairs with Nvidia employees\n- CFO Colette Kress is interim CEO, though Huang reportedly called her a \"deer in the headlights\" this summer\n- Trump now says he \"would not mind\" Huang returning because \"he learned a big lesson,\" while still promoting former Apple CEO Tim Cook as a possible successor\n- Some Nvidia employees are pushing for an Altman-style reinstatement, and Elon Musk says it \"would be an honor\" to hire Huang, though the alleged spy link is harder to defend than the infidelity\n- Huang agreed to testify before Congress, and Democrats have opened a second investigation into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- Nvidia stock slid on the scandal, and investors proposed a class action",
+      "title": "Nvidia's board rules out reinstating Jensen Huang, ousted as CEO amid espionage and affair scandals",
+      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot, and the board says it won't bring him back.\n\n- The NYT says the woman is a recruit of China's Ministry of State Security and a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China. The relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- Nvidia's board chair said on the first earnings call since Huang's resignation that the company is not considering reinstating him, despite pressure from Trump, Elon Musk, Silicon Valley executives, and some Nvidia employees\n- CFO Colette Kress is interim CEO. Trump has said he \"would not mind\" Huang's return but still promotes former Apple CEO Tim Cook as a possible successor\n- Huang agreed to testify before Congress, and Democrats have opened a second investigation into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- Nvidia stock slid on the scandal, and investors proposed a class action",
       "importanceScore": 0.95,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T19:38:29.959Z",
+      "lastMeaningfulUpdateAt": "2026-11-17T23:58:41.840Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -450,10 +429,45 @@
           "url": "https://gizmodo.com/sam-altman-who-knows-a-thing-or-two-about-getting-fired-wont-back-jensen-huangs-return-2000840686",
           "publishedAt": "2026-11-17T12:50:04.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
+          "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
+          "publishedAt": "2026-11-17T22:19:19.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "NVIDIA's board chair says the company is not considering reinstating Jensen Huang as CEO",
+          "url": "https://www.engadget.com/2319982/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo/",
+          "publishedAt": "2026-11-17T22:21:27.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "1152ef8d-7ddf-4e16-9dee-4f08485a9752",
+      "title": "Nvidia posts record $115.84B quarterly revenue in its first earnings since Jensen Huang's ouster",
+      "summary": "Nvidia reported record quarterly revenue of $115.84 billion and guided to even bigger numbers next quarter, showing its AI chip business still growing despite the scandal surrounding its former CEO, Jensen Huang, Gizmodo reports.",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-17T21:57:16.897Z",
+      "lastMeaningfulUpdateAt": "2026-11-17T21:57:16.897Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Nvidia’s AI Money Machine Keeps Churning Without Jensen Huang",
+          "url": "https://gizmodo.com/nvidias-ai-money-machine-keeps-churning-without-jensen-huang-2000841301",
+          "publishedAt": "2026-11-17T21:46:11.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
       ]
     },
     {
@@ -497,6 +511,28 @@
       "tags": [
         "model-release",
         "product-launch"
+      ]
+    },
+    {
+      "id": "44945731-f2d1-4b64-ba7a-e8b963422364",
+      "title": "Oregon sues OpenAI over alleged child safety failures",
+      "summary": "Oregon's Attorney General has filed a lawsuit against OpenAI over alleged child safety issues with ChatGPT. Engadget reports that Oregon is the latest state to sue the company on these grounds.",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-17T23:58:45.887Z",
+      "lastMeaningfulUpdateAt": "2026-11-17T23:58:45.887Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Oregon is the latest state to sue OpenAI over child safety",
+          "url": "https://www.engadget.com/2320041/oregon-is-the-latest-state-to-sue-openai-over-child-safety/",
+          "publishedAt": "2026-11-17T23:45:32.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
       ]
     },
     {
@@ -681,6 +717,25 @@
       "tags": [
         "model-release"
       ]
+    },
+    {
+      "id": "333aa0af-0234-4050-aee6-8941f009de4a",
+      "title": "Google will keep Gemini chat logs for two months, even with history turned off",
+      "summary": "Google says it will retain Gemini chat logs for two months even for users who have turned Gemini history off. Gizmodo reports that the company frames the change as being for users' own good.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-17T23:58:47.623Z",
+      "lastMeaningfulUpdateAt": "2026-11-17T23:58:47.623Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google to Keep AI Chat Logs for Two Months, Even With Gemini History Turned Off",
+          "url": "https://gizmodo.com/google-to-keep-ai-chat-logs-for-two-months-even-with-gemini-history-turned-off-2000841271",
+          "publishedAt": "2026-11-17T22:00:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "96275c2e-3100-4fbf-b98c-ef7097f9c8b2",
@@ -2161,101 +2216,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "8baa91ec-a84f-4049-8d1c-3f727272b299",
-      "title": "Anthropic launches Claude for Manufacturing, a plugin with 17 skills and four connectors",
-      "summary": "Anthropic's new Claude for Manufacturing plugin bundles 17 skills and four connectors. It helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already use.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-12T18:41:53.021Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T18:41:53.021Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Introducing Claude for Manufacturing",
-          "url": "https://claude.com/resources/articles/claude-for-manufacturing",
-          "publishedAt": "2026-11-12T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "7077a07e-4d9e-4ad1-a49f-97cd5d41b468",
-      "title": "Anthropic launches Claude Meetings, Sheets, Whiteboards, Data, and Interactive Connectors to take on Google and Microsoft",
-      "summary": "Anthropic expanded Claude's workplace suite with new apps aimed squarely at Google Workspace and Microsoft 365, just ahead of its IPO.\n\n- Claude Meetings drafts the plan being discussed as participants talk, answers questions in the meeting chat, and pulls data from connected work apps\n- Claude Sheets brings Anthropic into spreadsheets, pitched as an AI-infused Excel competitor\n- Claude Whiteboards lets Claude brainstorm and map out timelines and plans visually\n- Claude Data lets users share data directly inside Claude\n- Interactive Connectors let partners embed their apps directly in Claude, so users and Claude work in the same tool without switching tabs",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.92,
-      "firstSeenAt": "2026-11-10T18:09:16.446Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T22:12:28.073Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-          "publishedAt": "2026-11-10T17:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic takes on Google and Microsoft with Claude Sheets",
-          "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/",
-          "publishedAt": "2026-11-10T17:30:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors",
-          "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
-          "publishedAt": "2026-11-10T00:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
-          "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
-          "publishedAt": "2026-11-10T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Your apps can now open in Claude, and Claude can work in them",
-          "url": "https://claude.com/resources/articles/interactive-connectors-full-tool",
-          "publishedAt": "2026-11-10T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Goes for Microsoft’s Crown With New Claude-Powered Office Tools",
-          "url": "https://gizmodo.com/anthropic-goes-for-microsofts-crown-with-new-claude-powered-office-tools-2000837885",
-          "publishedAt": "2026-11-10T21:15:29.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic Launches Whiteboards: Bringing New Visual Tools to Claude AI in Beta",
-          "url": "https://www.geeky-gadgets.com/anthropic-claude-whiteboard-sheets-data/",
-          "publishedAt": "2026-11-12T14:17:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Claude Suite Now Joins Google Meet for Virtual Calls",
-          "url": "https://www.geeky-gadgets.com/claude-suite-update-features/",
-          "publishedAt": "2026-11-12T13:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 92,
+  "totalCount": 88,
   "hasMore": true
 }
