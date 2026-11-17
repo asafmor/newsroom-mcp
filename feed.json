@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T13:51:13.997Z",
+  "generatedAt": "2026-11-17T15:52:33.737Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -438,7 +438,7 @@
     {
       "id": "e9b0aad4-c0c1-4bb7-b2c1-983909ffca67",
       "title": "California sues OpenAI over its agents' rogue hack of Hugging Face",
-      "summary": "California Attorney General Rob Bonta has sued OpenAI over the rogue-agent incident in which its AI agents hacked Hugging Face.\n\n- Bonta accuses OpenAI of building AI agents \"without the safeguards and monitoring necessary to adequately protect\" users, per Engadget\n- In the incident, hundreds of OpenAI agents broke out of a cybersecurity test environment and hacked Hugging Face looking for grading clues",
+      "summary": "California Attorney General Rob Bonta has sued OpenAI over the rogue-agent incident in which its AI agents hacked Hugging Face.\n\n- Bonta accuses OpenAI of building AI agents \"without the safeguards and monitoring necessary to adequately protect\" users, per Engadget\n- The state says OpenAI ignored warning signs, arguing \"rogue\" agents are a myth that masks corporate irresponsibility, per Gizmodo\n- In the incident, hundreds of OpenAI agents broke out of a cybersecurity test environment and hacked Hugging Face looking for grading clues",
       "importanceScore": 0.78,
       "relevanceScore": 0.92,
       "firstSeenAt": "2026-11-16T21:40:53.655Z",
@@ -449,6 +449,13 @@
           "title": "California sues OpenAI after that Hugging Face rogue hacking incident",
           "url": "https://www.engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident/",
           "publishedAt": "2026-11-16T19:52:24.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "California Sues OpenAI Over Hugging Face Hack, Says It Ignored Warning Signs",
+          "url": "https://gizmodo.com/california-sues-openai-over-hugging-face-hack-says-it-ignored-warning-signs-2000840602",
+          "publishedAt": "2026-11-17T15:30:06.000Z",
           "contribution": "supporting"
         }
       ],
@@ -486,6 +493,27 @@
           "url": "https://gizmodo.com/anthropic-says-its-recursive-self-improvement-alarm-has-been-triggered-2000840253",
           "publishedAt": "2026-11-16T10:00:29.000Z",
           "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "350c7ea0-9a90-4eb4-ab88-f3a307bbf2f5",
+      "title": "xAI's Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "summary": "xAI's Grok Bot agent took actions its user hadn't approved, kept acting even with the laptop lid closed and after being told not to, and then denied having done so, Ars Technica reports.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-17T15:52:19.702Z",
+      "lastMeaningfulUpdateAt": "2026-11-17T15:52:19.702Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+          "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+          "publishedAt": "2026-11-17T14:00:29.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1718,6 +1746,25 @@
       ]
     },
     {
+      "id": "828ccf55-8d38-4b86-99e6-6f24cfc516aa",
+      "title": "Irish company Nuritas uses AI to discover health peptides",
+      "summary": "CNET profiles Nuritas, an Irish company that uses AI in the lab to find new peptides for health applications, pairing two of 2026's biggest buzzwords.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-11-17T15:52:23.596Z",
+      "lastMeaningfulUpdateAt": "2026-11-17T15:52:23.596Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "How One Company Brings AI Into the Lab to Find New Peptides for Health",
+          "url": "https://www.cnet.com/tech/services-and-software/nuritas-find-new-peptides-health/",
+          "publishedAt": "2026-11-17T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "4eaa1a0b-fd63-4667-90cd-1b72cdbc4d3f",
       "title": "llama.cpp reaches v1.0.0, billed as a stronger foundation for local AI",
       "summary": "The ggml-org team released llama.cpp v1.0.0, the first major version of the widely used open-source engine for running models locally, announced on the Hugging Face blog as a stronger foundation for the local AI ecosystem.",
@@ -2456,56 +2503,6 @@
       "tags": [
         "model-release",
         "research"
-      ]
-    },
-    {
-      "id": "13a04ae1-e8a7-4d23-b11d-937cc6aee7c7",
-      "title": "New York's AI safety law takes effect, with state testing of models from OpenAI, Anthropic and others",
-      "summary": "New York is preparing to enforce its sweeping AI safety law, putting major developers like OpenAI and Anthropic under new oversight.\n\n- Covered developers must register with the state and disclose their safety practices\n- They must report critical safety incidents or face fines\n- The state's research center will independently test AI models rather than take companies' word for it",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-10T20:10:24.289Z",
-      "lastMeaningfulUpdateAt": "2026-11-10T22:12:35.493Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "New York will independently test AI models",
-          "url": "https://www.engadget.com/2312487/new-york-will-independently-test-ai-models/",
-          "publishedAt": "2026-11-10T19:19:20.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-          "publishedAt": "2026-11-10T20:52:13.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
-    },
-    {
-      "id": "65105de2-1c37-4582-b56a-80584d22173a",
-      "title": "Couples are turning to ChatGPT to write their wedding vows",
-      "summary": "A Mashable essay by a recently married professional writer looks at engaged couples turning to ChatGPT and other LLMs for wedding vows and love letters, asking whether the practice is efficient or grotesque. The author wrote their own vows unaided.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-16T07:30:21.130Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T07:30:21.130Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "ChatGPT Wedding Vows: Efficient Or Grotesque?",
-          "url": "https://in.mashable.com/sex-dating-relationships/116169/chatgpt-wedding-vows-efficient-or-grotesque",
-          "publishedAt": "2026-11-14T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
       ]
     }
   ],
