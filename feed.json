@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T23:59:01.668Z",
+  "generatedAt": "2026-11-18T02:00:51.936Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -443,6 +443,13 @@
           "url": "https://www.engadget.com/2319982/nvidias-board-chair-says-the-company-is-not-considering-reinstating-jensen-huang-as-ceo/",
           "publishedAt": "2026-11-17T22:21:27.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "What Does Nvidia Have to Say About Jensen Huang? Don’t Ask",
+          "url": "https://gizmodo.com/what-does-nvidia-have-to-say-about-jensen-huang-dont-ask-2000841459",
+          "publishedAt": "2026-11-18T01:47:05.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -512,6 +519,25 @@
         "model-release",
         "product-launch"
       ]
+    },
+    {
+      "id": "60bebce6-fd0f-4c4a-ba90-22178733faac",
+      "title": "Nvidia stops shipping H200 chips to customers in China",
+      "summary": "Nvidia has stopped shipping its H200 AI chips to customers in China, Gizmodo reports, ending sales the Trump administration had notably begun allowing.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-18T02:00:41.182Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T02:00:41.182Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Nvidia Stops Shipping H200s to Customers in China",
+          "url": "https://gizmodo.com/nvidia-stops-shipping-h200s-to-customers-in-china-2000841474",
+          "publishedAt": "2026-11-18T01:38:14.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "44945731-f2d1-4b64-ba7a-e8b963422364",
@@ -819,6 +845,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "cd75b493-4a18-4b89-8d4d-c2a3213c3d14",
+      "title": "Google lets users see and edit what Gemini remembers about them",
+      "summary": "Google now shows Gemini users a summary of what the assistant remembers about them and lets them edit it, giving people a direct way to shape its responses, Engadget reports.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-18T02:00:42.918Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T02:00:42.918Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "You can now see and edit what Google Gemini remembers about you",
+          "url": "https://www.engadget.com/2315475/google-gemini-memory-summary-see-what-remembers-about-you/",
+          "publishedAt": "2026-11-18T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -2148,76 +2195,8 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "a347a876-a6b2-4a2b-afca-f60c0cf1c3f1",
-      "title": "Samsung and Google's Gemini-powered AI glasses get official pricing after weeks of leaks",
-      "summary": "Samsung and Google have made their Gemini-powered AI smart glasses official, built with eyewear brands Gentle Monster and Warby Parker and positioned against Meta's Ray-Bans.\n\n- Prices start at $395, with Gemini as the built-in AI assistant\n- Features include real-time translation in 70+ languages and turn-by-turn Google Maps navigation\n- Runs on Qualcomm's Snapdragon AR1 Gen1; leaks had pointed to a display-less design with 64GB of storage\n- A leaked timeline pointed to a mid-December 2026 launch in the US and South Korea",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-10-15T10:16:05.759Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T14:55:45.285Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Leaked Samsung Smart Glasses Beat Meta Ray-Ban with 64GB",
-          "url": "https://www.geeky-gadgets.com/samsung-smart-glasses-leak/",
-          "publishedAt": "2026-10-15T08:43:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Leaked Timeline Points to Mid-December 2026 for Samsung AI Glasses",
-          "url": "https://www.geeky-gadgets.com/samsung-smart-glasses-release-date-leak/",
-          "publishedAt": "2026-11-05T13:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Samsung vs Google AI Glasses: Official Prices and Features",
-          "url": "https://www.geeky-gadgets.com/samsung-google-ai-glasses-price/",
-          "publishedAt": "2026-11-13T14:00:52.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Samsung and Google Smart Glasses Launch at a $395 Base Price",
-          "url": "https://www.geeky-gadgets.com/samsung-google-intelligent-eyewear/",
-          "publishedAt": "2026-11-14T09:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Samsung Google Android XR Intelligent Smart Glasses Take on Ray-Ban Meta At $395",
-          "url": "https://www.geeky-gadgets.com/android-xr-smart-glasses-review-2/",
-          "publishedAt": "2026-11-16T10:13:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "b4ec159c-4228-489c-b02d-8967d73099e1",
-      "title": "Wired: AI comes for the skies as pilots and air traffic controllers thin out",
-      "summary": "A Wired \"Big Story\" feature by Jeff Wise examines how AI is moving into aviation, an industry normally slow to embrace new technology, and asks what could go wrong as cockpits head toward no pilots and control towers run short of air traffic controllers.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-14T11:06:08.689Z",
-      "lastMeaningfulUpdateAt": "2026-11-14T11:06:08.689Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
-          "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
-          "publishedAt": "2026-11-14T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 88,
+  "totalCount": 89,
   "hasMore": true
 }
