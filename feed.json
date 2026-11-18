@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T14:11:17.225Z",
+  "generatedAt": "2026-11-18T16:12:26.665Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -911,6 +911,49 @@
       ]
     },
     {
+      "id": "0e52db07-ad3d-46ee-9ed9-b93dcf7bb080",
+      "title": "Disney Imagineers build AI-powered \"Star Wars\" alien Audio-Animatronics with AWS",
+      "summary": "Disney Imagineering worked with AWS to build three AI-powered Audio-Animatronic Anzellan characters from \"Star Wars,\" each with its own personality, that will interact with guests in Disney parks.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-11-18T16:12:14.023Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T16:12:14.023Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Disney Imagineers Have Built AI-Powered ‘Star Wars’ Alien Audio-Animatronics With AWS",
+          "url": "https://www.cnet.com/tech/services-and-software/disney-imagineer-ai-star-wars-alien-audio-animatronic-aws/",
+          "publishedAt": "2026-11-18T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "6d207050-d9ac-4f1c-a550-1d11288cf19a",
+      "title": "Rumble-2-Flash, an open 0.5B-parameter speech model covering 40+ languages, debuts on Hugging Face",
+      "summary": "Rumble-2-Flash is a new open speech model with 0.5 billion parameters that supports more than 40 languages, announced on the Hugging Face blog.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-18T16:12:11.671Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T16:12:11.671Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+          "url": "https://huggingface.co/blog/rumble-2-flash",
+          "publishedAt": "2026-11-18T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
+      ]
+    },
+    {
       "id": "2dac448f-c2df-4afb-9009-80fb4aa5514d",
       "title": "Apple adds Mac disk-access controls to rein in AI agents",
       "summary": "After sounding an alarm about AI agents running amok on Macs, Apple is adding new controls that limit how much disk access AI agents get, Engadget reports.",
@@ -929,6 +972,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "ad6b4b56-fcbb-4b2b-b11f-10cdacce75b8",
+      "title": "Philosopher Thomas Nagel, fresh off the $1M Berggruen Prize, calls AI consciousness claims \"just ridiculous\"",
+      "summary": "Thomas Nagel, known for landmark work on consciousness in nonhumans, won this week's million-dollar Berggruen Prize and told WIRED's Steven Levy what he thinks of the idea that AI systems could be conscious, dismissing it as \"just ridiculous.\"",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-18T16:12:09.425Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T16:12:09.425Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "‘Just Ridiculous’: A Famed Philosopher Takes on AI Consciousness",
+          "url": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
+          "publishedAt": "2026-11-18T15:02:40.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -1188,6 +1252,25 @@
       "tags": [
         "research"
       ]
+    },
+    {
+      "id": "10106801-03f3-4969-a472-294cdaded04f",
+      "title": "IBM Research makes the case for time-series models inside the streamhouse",
+      "summary": "An IBM Research post on the Hugging Face blog argues that running time-series models inside a streamhouse, an architecture that combines streaming and lakehouse data, opens up new applications, and it lays out use cases.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-18T16:12:16.185Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T16:12:16.185Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+          "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+          "publishedAt": "2026-11-18T15:00:23.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "0b1c47bc-2040-44b1-92a7-5a1f1fafdfdf",
@@ -1913,104 +1996,6 @@
       ]
     },
     {
-      "id": "61a4fbfa-797e-44fb-9b07-5ad61c02ef1b",
-      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 amid recursive self-improvement concerns",
-      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, pitched for the hardest technical challenges, a week after warning it is very close to recursive self-improvement.\n\n- Anthropic says the models improve on coding, reasoning, and vision, and communicate more clearly with users\n- A team of 1,000 agents running an early Fable 5.2 reproduced a formal proof of Fermat's Last Theorem using general tools, a shared database, and layered safety controls\n- The company says the new model can help crack open scientific problems such as black hole mysteries, a claim Gizmodo met with skepticism\n- Fable 5.2's safety classifiers produce 55% fewer false positives, but in testing it still downgraded a user to Opus 4.8 when asked for an application hardening plan",
-      "importanceScore": 0.9,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-09T19:52:14.544Z",
-      "lastMeaningfulUpdateAt": "2026-11-11T14:21:10.471Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-          "publishedAt": "2026-11-09T19:24:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic’s Says Its New AI Model Can Solve Black Hole Mysteries. What Could Go Wrong?",
-          "url": "https://gizmodo.com/anthropics-says-its-new-ai-model-can-solve-black-hole-mysteries-what-could-go-wrong-2000837274",
-          "publishedAt": "2026-11-09T19:32:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Anthropic News",
-          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Claude Fable 5.2 and Mythos 5.2",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
-          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Claude Blog",
-          "title": "Which Claude model should you build with?",
-          "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
-          "publishedAt": "2026-11-09T00:00:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic’s Fable 5.2 Codes a Gears of War Clone for About $15,000",
-          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review/",
-          "publishedAt": "2026-11-10T09:14:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Fable 5.2 AI Built a Complete Operating System in 8 Days",
-          "url": "https://www.geeky-gadgets.com/fable-5-2-capabilities/",
-          "publishedAt": "2026-11-10T13:47:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Fable 5.2 Drops False Positives by 55% but Downgrades to Opus 4.8",
-          "url": "https://www.geeky-gadgets.com/claude-fable-5-2-limitations/",
-          "publishedAt": "2026-11-11T13:15:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Claude Fable 5.2 Hits 74.6% to Beat ChatGPT 6 Astra on Science Tests",
-          "url": "https://www.geeky-gadgets.com/anthropic-fable-5-2-review-2/",
-          "publishedAt": "2026-11-12T08:45:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Claude Fable 5.2 Example Projects from Games to 3D Simulations",
-          "url": "https://www.geeky-gadgets.com/using-fable/",
-          "publishedAt": "2026-11-13T11:47:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Watch Claude Fable 5.2 Self-Correct Camera Clipping in Blender",
-          "url": "https://www.geeky-gadgets.com/claude-fable/",
-          "publishedAt": "2026-11-16T09:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
       "id": "aaa375c2-f6eb-4ae4-8ba9-1503be59b2f1",
       "title": "Anthropic explains linked billing on the Claude Platform",
       "summary": "Anthropic published a Claude blog article on linked billing for the Claude Platform, its developer platform for building on Claude.",
@@ -2153,71 +2138,8 @@
         "open-source",
         "infrastructure"
       ]
-    },
-    {
-      "id": "9f325808-49f4-4d98-863d-ed683f167a40",
-      "title": "Anthropic lets enterprises self-host Claude Managed Agents inside their own security perimeter",
-      "summary": "Anthropic introduced self-hosted Claude Managed Agents, which run in a customer's own cloud or on-premise environment. Customers host the agents, credentials, and session history themselves and choose where requests to Claude are sent.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-12T18:41:50.670Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T18:41:50.670Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Operate Claude Managed Agents inside your security perimeter",
-          "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
-          "publishedAt": "2026-11-12T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "904aeb82-7ef7-42a7-9d6b-8c510d18a9dd",
-      "title": "Bans on AI glasses spread across courtrooms, schools and theaters",
-      "summary": "Safety and privacy concerns have led a growing list of public places to ban AI glasses, including courtrooms, schools and theaters, Engadget reports.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-15T17:22:18.366Z",
-      "lastMeaningfulUpdateAt": "2026-11-15T17:22:18.366Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Some places have already banned AI glasses, and the list just keeps growing",
-          "url": "https://www.engadget.com/2313707/ai-glasses-banned-places-list-keeps-growing/",
-          "publishedAt": "2026-11-15T16:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "bd0d48d1-b049-4986-8a75-c46ca94ec125",
-      "title": "Cloudflare open-sources Kitesurf, its experimental browser engine for AI agents",
-      "summary": "Cloudflare has open-sourced Kitesurf, its experimental browser engine built for AI agents. Developers can inspect the code, run it locally, or deploy their own instance on Cloudflare Workers.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-13T23:00:11.946Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T23:00:11.946Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "Kitesurf is now open source",
-          "url": "https://blog.cloudflare.com/kitesurf-open-source/",
-          "publishedAt": "2026-11-13T20:20:21.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source",
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 92,
+  "totalCount": 95,
   "hasMore": true
 }
