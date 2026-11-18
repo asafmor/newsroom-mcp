@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T10:07:19.067Z",
+  "generatedAt": "2026-11-18T12:09:18.770Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -520,6 +520,13 @@
           "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
           "publishedAt": "2026-11-17T17:45:00.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "OpenAI GPT-6.2 Astra vs Fable 5.2: Performance Comparison",
+          "url": "https://www.geeky-gadgets.com/extra-high/",
+          "publishedAt": "2026-11-18T10:21:39.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -770,6 +777,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "9e4656b7-7514-44ef-94c7-55b06cc9ed52",
+      "title": "Osmo says its AI nose, built on a foundation model for smell, is as good as a human's",
+      "summary": "AI startup Osmo says its AI nose now matches a human's. It's training what it calls the world's first foundation model for smell on notes from about 30 expert human sniffers in a New Jersey lab, cross-referenced with chemical analysis of each odor.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-18T12:09:10.559Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T12:09:10.559Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "This smell startup says its AI nose is as good as a human’s",
+          "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+          "publishedAt": "2026-11-18T10:20:30.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -1153,6 +1181,25 @@
       "tags": [
         "research"
       ]
+    },
+    {
+      "id": "0b1c47bc-2040-44b1-92a7-5a1f1fafdfdf",
+      "title": "Google describes an internal system that purges stale project notes that send coding agents chasing fixed bugs",
+      "summary": "Google described an internal system that finds outdated project notes, which can send coding agents off on unrequested work like chasing already-fixed bugs. It isn't public, but Claude Code users can apply similar checks to their own project files.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-18T12:09:12.506Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T12:09:12.506Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Cleanup System Shows How to Stop AI Chasing Fixed Bugs",
+          "url": "https://www.geeky-gadgets.com/claude-code-2/",
+          "publishedAt": "2026-11-18T11:48:03.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "7b2be363-384f-430b-904c-e31bff0d342f",
@@ -2162,50 +2209,8 @@
         "open-source",
         "infrastructure"
       ]
-    },
-    {
-      "id": "ae8231c7-4053-4dfd-9081-079eb99117d7",
-      "title": "Fireworks AI breach let hackers access Notion customers' AI chat transcripts",
-      "summary": "A cyberattack on AI inference provider Fireworks AI let hackers access chat transcripts belonging to Notion customers, TechCrunch reports. It is Fireworks' second data breach in as many months.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-12T16:39:29.122Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T16:39:29.122Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-          "publishedAt": "2026-11-12T15:02:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "060688ae-5a51-4149-b8f0-cdeadc8d10ca",
-      "title": "Nebius plans $40B in AI infrastructure spending, funded by customer prepayments and loans",
-      "summary": "Nebius plans to fund a $40 billion AI infrastructure expansion through customer prepayments and loans, testing the neocloud playbook even as delays at a Microsoft data center raise questions about its financing model.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-12T22:45:34.446Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T22:45:34.446Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-          "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-          "publishedAt": "2026-11-12T21:27:10.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 92,
+  "totalCount": 94,
   "hasMore": true
 }
