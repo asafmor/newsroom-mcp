@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-18T16:12:26.665Z",
+  "generatedAt": "2026-11-18T18:14:38.662Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Nvidia's board rules out reinstating Jensen Huang, ousted as CEO amid espionage and affair scandals",
-      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot, and the board says it won't bring him back.\n\n- The NYT says the woman is a recruit of China's Ministry of State Security and a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China. The relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- Nvidia's board chair said on the first earnings call since Huang's resignation that the company is not considering reinstating him, despite pressure from Trump, Elon Musk, Silicon Valley executives, and some Nvidia employees\n- CFO Colette Kress is interim CEO. Trump has said he \"would not mind\" Huang's return but still promotes former Apple CEO Tim Cook as a possible successor\n- Huang agreed to testify before Congress, and Democrats have opened a second investigation into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- Nvidia stock slid on the scandal, and investors proposed a class action",
+      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot, and the board says it won't bring him back.\n\n- The NYT says the woman is a recruit of China's Ministry of State Security and a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China. The relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- Nvidia's board chair said on the first earnings call since Huang's resignation that the company is not considering reinstating him, despite pressure from Trump, Elon Musk, Silicon Valley executives, and some Nvidia employees\n- CFO Colette Kress is interim CEO. Trump has said he \"would not mind\" Huang's return but still promotes former Apple CEO Tim Cook as a possible successor\n- At her first all-hands as interim CEO, Kress promised across-the-board pay raises and more equity to calm employees, WIRED reports\n- Huang agreed to testify before Congress, and Democrats have opened a second investigation into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- Nvidia stock slid on the scandal, and investors proposed a class action",
       "importanceScore": 0.95,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-17T23:58:41.840Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T18:14:23.961Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -450,6 +450,13 @@
           "url": "https://gizmodo.com/what-does-nvidia-have-to-say-about-jensen-huang-dont-ask-2000841459",
           "publishedAt": "2026-11-18T01:47:05.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Inside Nvidia’s First Post-Jensen All-Hands: Pay Raises and More Equity",
+          "url": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
+          "publishedAt": "2026-11-18T17:33:07.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -532,6 +539,34 @@
       "tags": [
         "model-release",
         "product-launch"
+      ]
+    },
+    {
+      "id": "459a194b-eff8-4fb4-b635-c6fb269a8e8d",
+      "title": "Artex becomes criminals' favorite \"point-and-shoot\" AI hacking tool, after hundreds of its servers were found exposed",
+      "summary": "WIRED reports that Artex and similar AI penetration-testing tools let novice hackers scan targets for vulnerabilities and carry out successful attacks just by prompting chatbots. Earlier, TechCrunch found hundreds of internet-exposed servers hosting Artex that anyone could use.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-06T19:11:35.683Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T18:14:25.811Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+          "publishedAt": "2026-11-06T18:44:38.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
+          "url": "https://www.wired.com/story/artex-ai-hacking-tools/",
+          "publishedAt": "2026-11-18T16:35:24.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -1252,6 +1287,25 @@
       "tags": [
         "research"
       ]
+    },
+    {
+      "id": "2d4036ae-6355-49d7-a3bb-ec0fd6a42e5f",
+      "title": "OpenAI explains how the Codex sandbox enforces filesystem and network limits on your machine",
+      "summary": "OpenAI published an engineering deep dive on how Codex runs commands locally while enforcing user-controlled filesystem and network restrictions across macOS, Linux, and Windows.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-18T18:14:27.464Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T18:14:27.464Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Inside the Codex sandbox",
+          "url": "https://openai.com/index/inside-the-codex-sandbox",
+          "publishedAt": "2026-11-18T08:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "10106801-03f3-4969-a472-294cdaded04f",
@@ -2097,49 +2151,8 @@
       "tags": [
         "regulation"
       ]
-    },
-    {
-      "id": "828ccf55-8d38-4b86-99e6-6f24cfc516aa",
-      "title": "Irish company Nuritas uses AI to discover health peptides",
-      "summary": "CNET profiles Nuritas, an Irish company that uses AI in the lab to find new peptides for health applications, pairing two of 2026's biggest buzzwords.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-11-17T15:52:23.596Z",
-      "lastMeaningfulUpdateAt": "2026-11-17T15:52:23.596Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "How One Company Brings AI Into the Lab to Find New Peptides for Health",
-          "url": "https://www.cnet.com/tech/services-and-software/nuritas-find-new-peptides-health/",
-          "publishedAt": "2026-11-17T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "4eaa1a0b-fd63-4667-90cd-1b72cdbc4d3f",
-      "title": "llama.cpp reaches v1.0.0, billed as a stronger foundation for local AI",
-      "summary": "The ggml-org team released llama.cpp v1.0.0, the first major version of the widely used open-source engine for running models locally, announced on the Hugging Face blog as a stronger foundation for the local AI ecosystem.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-13T14:55:37.280Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T14:55:37.280Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-          "publishedAt": "2026-11-13T14:05:22.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source",
-        "infrastructure"
-      ]
     }
   ],
-  "totalCount": 95,
+  "totalCount": 92,
   "hasMore": true
 }
