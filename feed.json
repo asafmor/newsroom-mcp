@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T20:17:14.557Z",
+  "generatedAt": "2026-11-18T22:18:41.871Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -521,6 +521,27 @@
       ]
     },
     {
+      "id": "05c71558-b9f3-4566-bcf1-d8961929fb68",
+      "title": "Google DeepMind introduces Gemini 4 Neon",
+      "summary": "Google DeepMind has introduced Gemini 4 Neon, the newest model in its Gemini 4 family, which already includes the frontier Gemini 4 Carbon and Gemini 4 Hydrogen, the model behind Search's AI Mode.",
+      "importanceScore": 0.65,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-18T22:18:32.580Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T22:18:32.580Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Introducing Gemini 4 Neon",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+          "publishedAt": "2026-11-18T21:35:43.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release"
+      ]
+    },
+    {
       "id": "1152ef8d-7ddf-4e16-9dee-4f08485a9752",
       "title": "Nvidia posts record $115.84B quarterly revenue in its first earnings since Jensen Huang's ouster",
       "summary": "Nvidia reported record quarterly revenue of $115.84 billion and guided to even bigger numbers next quarter, showing its AI chip business still growing despite the scandal surrounding its former CEO, Jensen Huang, Gizmodo reports.",
@@ -658,6 +679,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "e6b3cc0e-1080-4567-8615-bd3f7fff07d4",
+      "title": "Trump's own officials expect little AI progress from his China trip amid Nvidia scandal fallout",
+      "summary": "Officials in the Trump administration don't expect much progress on AI to come out of President Trump's visit to China, WIRED reports, saying fallout from the Nvidia scandal has made any AI negotiations difficult.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-18T22:18:28.376Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T22:18:28.376Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI",
+          "url": "https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/",
+          "publishedAt": "2026-11-18T22:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
     },
     {
       "id": "44945731-f2d1-4b64-ba7a-e8b963422364",
@@ -856,6 +898,13 @@
           "url": "https://gizmodo.com/trump-admin-moves-to-strangle-chinas-remote-access-to-american-ai-chips-2000840511",
           "publishedAt": "2026-11-16T17:40:00.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
+          "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
+          "publishedAt": "2026-11-18T21:15:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1076,6 +1125,27 @@
       "tags": [
         "model-release",
         "open-source"
+      ]
+    },
+    {
+      "id": "065cd21e-b603-444b-aee4-9be86ff4de8c",
+      "title": "OpenAI's Dean Ball on how society can keep control of its institutions as AI grows more capable",
+      "summary": "In \"The Silent Consensus,\" an essay on OpenAI's blog, Dean Ball, OpenAI's Head of Strategic Futures, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-18T22:18:30.574Z",
+      "lastMeaningfulUpdateAt": "2026-11-18T22:18:30.574Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "The Silent Consensus",
+          "url": "https://openai.com/index/the-silent-consensus",
+          "publishedAt": "2026-11-18T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
       ]
     },
     {
@@ -2128,77 +2198,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "1d0e9053-1892-4482-9aef-035a746ba152",
-      "title": "Google DeepMind introduces Gemini 4 Hydrogen, now powering Search's AI Mode",
-      "summary": "Google DeepMind announced Gemini 4 Hydrogen, a new Gemini 4 model that joins Gemini 4 Argon and Gemini 4 Carbon. It now powers Google Search's AI Mode, which Google says handles complex queries better, surfaces more relevant links, and gives richer visual answers.",
-      "importanceScore": 0.78,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-12T18:41:56.922Z",
-      "lastMeaningfulUpdateAt": "2026-11-12T20:43:16.582Z",
-      "sources": [
-        {
-          "providerName": "Google DeepMind",
-          "title": "Introducing Gemini 4 Hydrogen",
-          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-          "publishedAt": "2026-11-12T18:00:50.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-          "publishedAt": "2026-11-12T19:27:45.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "product-launch"
-      ]
-    },
-    {
-      "id": "482fe900-26f0-483a-b682-a5e61448e0cf",
-      "title": "Stanford's Memorilla compresses large document sets into 16 memory tokens",
-      "summary": "Stanford's Memorilla project introduces a compact memory module that compresses large datasets into just 16 memory tokens, keeping memory size fixed regardless of input length. Geeky Gadgets reports it processes 512 documents six times faster than rival models.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-16T11:32:48.155Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T11:32:48.155Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Stanford’s Memorilla AI Processes 512 Documents 6X Faster Than Rival Models",
-          "url": "https://www.geeky-gadgets.com/memory-module/",
-          "publishedAt": "2026-11-16T10:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "aaa375c2-f6eb-4ae4-8ba9-1503be59b2f1",
-      "title": "Anthropic explains linked billing on the Claude Platform",
-      "summary": "Anthropic published a Claude blog article on linked billing for the Claude Platform, its developer platform for building on Claude.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-17T21:57:18.347Z",
-      "lastMeaningfulUpdateAt": "2026-11-17T21:57:18.347Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "Linked billing on the Claude Platform",
-          "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
-          "publishedAt": "2026-11-17T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 93,
+  "totalCount": 89,
   "hasMore": true
 }
