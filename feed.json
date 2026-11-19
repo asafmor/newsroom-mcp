@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T10:27:51.985Z",
+  "generatedAt": "2026-11-19T12:29:17.182Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -226,6 +226,13 @@
           "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
           "publishedAt": "2026-11-18T00:00:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
+          "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+          "publishedAt": "2026-11-19T12:00:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -867,6 +874,27 @@
       ],
       "tags": [
         "model-release"
+      ]
+    },
+    {
+      "id": "1c8f89de-866a-4a0c-8df5-f93e4cd4eec5",
+      "title": "Microsoft Copilot adds Autopilot, cloud-run personal agents that keep working while your laptop is off",
+      "summary": "Microsoft Copilot's new Autopilot feature lets users create no-code personal AI agents that run in the cloud, follow conversations, monitor projects and handle recurring work toward assigned goals without repeated prompts, even when the user's device is off, per Geeky Gadgets.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-19T12:29:10.403Z",
+      "lastMeaningfulUpdateAt": "2026-11-19T12:29:10.403Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Microsoft Copilot Autopilot Works While Your Laptop is Off",
+          "url": "https://www.geeky-gadgets.com/microsoft-autopilot-features/",
+          "publishedAt": "2026-11-19T11:17:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -2101,36 +2129,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "5508024d-5b35-4dcb-a8f1-bb0063babac9",
-      "title": "China's most advanced AI models were trained on export-banned Nvidia chips, as Bloomberg maps a smuggling web centered on Alice Huang",
-      "summary": "Evidence is mounting that export controls failed to keep Nvidia's top chips out of Chinese AI labs.\n\n- New research reported by TechCrunch finds China's most advanced AI models were trained on export-banned Nvidia chips\n- A Bloomberg investigation mapped a network of Chinese AI companies using smuggled Nvidia chips, with Alice Huang at its center",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-13T14:55:39.582Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T18:58:10.180Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Bloomberg details web of Chinese AI companies with smuggled NVIDIA chips linked to Alice Huang",
-          "url": "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/",
-          "publishedAt": "2026-11-13T12:58:10.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models—uh oh, Jensen!",
-          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-          "publishedAt": "2026-11-13T18:40:30.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
     }
   ],
-  "totalCount": 93,
+  "totalCount": 94,
   "hasMore": true
 }
