@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T16:31:18.793Z",
+  "generatedAt": "2026-11-19T18:33:15.749Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -240,6 +240,13 @@
           "url": "https://www.cnet.com/news-live/anthropic-ipo-live-blog-2026-updates/",
           "publishedAt": "2026-11-19T13:45:39.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic IPO Makes Wall Street History—and Brings AI Into Uncharted Territory",
+          "url": "https://gizmodo.com/anthropic-ipo-makes-wall-street-history-and-brings-ai-into-uncharted-territory-2000842011",
+          "publishedAt": "2026-11-19T17:05:35.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -912,6 +919,27 @@
       ]
     },
     {
+      "id": "c48b5b6c-bb9c-4c9b-a1bc-aaab604a6173",
+      "title": "Google built a \"mirror dimension\" copy of the internet to safely train Chrome's AI browsing agents",
+      "summary": "Google's Chrome team built a massive alternate-universe internet that serves as a sandbox for training and testing its AI browsing agents, letting them act on realistic sites without the risk of going rogue on the real web, per WIRED.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-19T18:33:06.462Z",
+      "lastMeaningfulUpdateAt": "2026-11-19T18:33:06.462Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
+          "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+          "publishedAt": "2026-11-19T17:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "1152ef8d-7ddf-4e16-9dee-4f08485a9752",
       "title": "Nvidia posts record $115.84B quarterly revenue in its first earnings since Jensen Huang's ouster",
       "summary": "Nvidia reported record quarterly revenue of $115.84 billion and guided to even bigger numbers next quarter, showing its AI chip business still growing despite the scandal surrounding its former CEO, Jensen Huang, Gizmodo reports.",
@@ -1546,6 +1574,25 @@
       ]
     },
     {
+      "id": "fc593b96-bc7e-4299-854d-54a3f6d31bab",
+      "title": "OpenAI details its Performance Factory, Codex-powered workflows that find and fix ChatGPT slowdowns",
+      "summary": "OpenAI described the Performance Factory, an internal system of Codex-powered workflows that automatically finds and fixes performance issues to keep ChatGPT fast.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-19T18:33:08.217Z",
+      "lastMeaningfulUpdateAt": "2026-11-19T18:33:08.217Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "publishedAt": "2026-11-19T08:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "065cd21e-b603-444b-aee4-9be86ff4de8c",
       "title": "OpenAI's Dean Ball on how society can keep control of its institutions as AI grows more capable",
       "summary": "In \"The Silent Consensus,\" an essay on OpenAI's blog, Dean Ball, OpenAI's Head of Strategic Futures, examines how more capable AI could reshape society and how people can retain control of their institutions.",
@@ -2073,76 +2120,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "5cea165a-36cc-41ca-974f-b2a94f4003d5",
-      "title": "LVMH's media division partners with OpenAI to bring its publications into ChatGPT",
-      "summary": "LVMH's Media Division and OpenAI announced a strategic partnership to support journalism with AI and make the group's publications more accessible through ChatGPT.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-16T11:32:44.051Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T11:32:44.051Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-          "url": "https://openai.com/index/lvmh-media-division-partnership",
-          "publishedAt": "2026-11-16T09:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "a08cce9f-ed73-4fa5-a9ae-02ef5b37e603",
-      "title": "OpenAI launches ChatGPT Wallet, letting AI agents shop and check out for users",
-      "summary": "OpenAI introduced ChatGPT Wallet, which lets agents in ChatGPT Work, Codex, and dots complete purchases on a user's behalf, with user approval and existing card protections. It starts as a limited rollout to U.S. Pro subscribers.",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-13T16:57:05.174Z",
-      "lastMeaningfulUpdateAt": "2026-11-13T16:57:05.174Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Introducing ChatGPT Wallet",
-          "url": "https://openai.com/index/introducing-chatgpt-wallet",
-          "publishedAt": "2026-11-13T15:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-          "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-          "publishedAt": "2026-11-13T16:00:12.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "You can now tempt fate and give your banking information to ChatGPT",
-          "url": "https://www.engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt/",
-          "publishedAt": "2026-11-13T17:17:51.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "ChatGPT Is Ready to Reach Into Your Wallet",
-          "url": "https://gizmodo.com/chatgpt-is-ready-to-reach-into-your-wallet-2000839784",
-          "publishedAt": "2026-11-13T19:15:01.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI Launches ChatGPT Wallet for AI Agent Purchases",
-          "url": "https://www.geeky-gadgets.com/chatgpt-wallet-overview/",
-          "publishedAt": "2026-11-15T05:00:57.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
   "totalCount": 94,
