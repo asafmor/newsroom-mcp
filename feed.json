@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T14:29:59.126Z",
+  "generatedAt": "2026-11-19T16:31:18.793Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -233,6 +233,13 @@
           "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
           "publishedAt": "2026-11-19T12:00:00.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Anthropic IPO Live: The Claude Maker Goes Public Today",
+          "url": "https://www.cnet.com/news-live/anthropic-ipo-live-blog-2026-updates/",
+          "publishedAt": "2026-11-19T13:45:39.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1353,6 +1360,25 @@
       ]
     },
     {
+      "id": "b7461658-16d0-4e8a-a228-9d8e7bbb26e8",
+      "title": "Canva adds a kill switch that lets creators turn off its AI features",
+      "summary": "Canva added an easy way to opt out of its AI features, acknowledging that \"AI doesn't suit every task.\" It is aimed at creators who avoid AI for legal and ethical reasons, per CNET.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-19T16:31:12.117Z",
+      "lastMeaningfulUpdateAt": "2026-11-19T16:31:12.117Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Canva Has a New Kill Switch for AI: ‘We Know AI Doesn’t Suit Every Task’",
+          "url": "https://www.cnet.com/tech/services-and-software/canva-design-ai-kill-switch-news-2026/",
+          "publishedAt": "2026-11-19T12:30:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "9e4656b7-7514-44ef-94c7-55b06cc9ed52",
       "title": "Osmo says its AI nose, built on a foundation model for smell, is as good as a human's",
       "summary": "AI startup Osmo says its AI nose now matches a human's. It's training what it calls the world's first foundation model for smell on notes from about 30 expert human sniffers in a New Jersey lab, cross-referenced with chemical analysis of each odor.",
@@ -2117,25 +2143,6 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "2a092910-018b-4971-bd76-61dd69983534",
-      "title": "Ex-Google and Apple founders say AI guided them in building a billion-dollar munitions business",
-      "summary": "Google and Apple alumni Chad Steelberg and Andy Baynes are making lethal munitions, WIRED reports. They say AI helped them build the business, and they're applying lessons from running software companies and designing iPhones.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-17T11:50:21.981Z",
-      "lastMeaningfulUpdateAt": "2026-11-17T11:50:21.981Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "AI Told These Ex-Google Guys How to Build a Billion-Dollar Weapons Business",
-          "url": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business/",
-          "publishedAt": "2026-11-17T10:47:45.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 94,
