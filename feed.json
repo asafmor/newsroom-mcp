@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T20:34:24.798Z",
+  "generatedAt": "2026-11-19T22:36:23.055Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -254,6 +254,13 @@
           "url": "https://www.engadget.com/2322144/anthropic-is-now-a-public-company-worth-more-than-1-trillion/",
           "publishedAt": "2026-11-19T18:41:26.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "What’s With All These Outages?",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
+          "publishedAt": "2026-11-19T21:57:01.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -738,6 +745,13 @@
           "url": "https://gizmodo.com/palmer-luckey-says-jensen-huang-was-fighting-china-by-helping-china-actually-2000842478",
           "publishedAt": "2026-11-19T19:25:13.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "The Jensen Huang Blast Radius Has Hit His Favorite Restaurants",
+          "url": "https://www.wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too/",
+          "publishedAt": "2026-11-19T20:34:17.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -1105,6 +1119,27 @@
         }
       ],
       "tags": []
+    },
+    {
+      "id": "0d3c24fa-7758-43a4-89e1-633ec2563261",
+      "title": "ChatGPT adds live dictation that lets users talk for as long as they want",
+      "summary": "OpenAI has added a live dictation feature to ChatGPT that lets users speak at length without being cut off, Gizmodo reports, noting the feature could also give OpenAI a trove of new training data ahead of its IPO.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-19T22:36:15.891Z",
+      "lastMeaningfulUpdateAt": "2026-11-19T22:36:15.891Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "ChatGPT’s New Live Dictation Feature Lets You Rant for as Long as You Want",
+          "url": "https://gizmodo.com/chatgpts-new-live-dictation-feature-lets-you-rant-for-as-long-as-you-want-2000842516",
+          "publishedAt": "2026-11-19T21:25:59.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
     },
     {
       "id": "e6b3cc0e-1080-4567-8615-bd3f7fff07d4",
@@ -2122,27 +2157,8 @@
       "tags": [
         "open-source"
       ]
-    },
-    {
-      "id": "39bdfb52-659b-4ee0-92fb-4d339f8f4595",
-      "title": "Samsung's Galaxy S27 lineup could ship with \"Galaxy Claw,\" a built-in personal AI agent",
-      "summary": "Samsung's Galaxy S27 phones could include a built-in personal AI assistant called Galaxy Claw that makes calls and sends text messages for users, CNET reports.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-17T01:43:12.903Z",
-      "lastMeaningfulUpdateAt": "2026-11-17T01:43:12.903Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Samsung Galaxy S27 Lineup Could Have a Personal AI Assistant Built-In",
-          "url": "https://www.cnet.com/tech/services-and-software/samsung-galaxy-claw-ai-assistant/",
-          "publishedAt": "2026-11-16T20:15:29.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 88,
+  "totalCount": 85,
   "hasMore": true
 }
