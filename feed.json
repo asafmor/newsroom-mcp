@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T02:21:33.661Z",
+  "generatedAt": "2026-11-19T04:23:32.664Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -219,6 +219,13 @@
           "url": "https://gizmodo.com/anthropics-ipo-is-the-biggest-ever-2000842167",
           "publishedAt": "2026-11-19T02:16:54.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Anthropic News",
+          "title": "Anthropic prices initial public offering",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "publishedAt": "2026-11-18T00:00:00.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1141,6 +1148,28 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "3ee2d7f2-5a55-4c56-8f6a-fa4a56c8d7cb",
+      "title": "Cloudflare open-weights its Clairic and new Clairic-flash extraction models on Workers AI",
+      "summary": "Cloudflare's new Workers AI Superintelligence team has made its Clairic extraction model generally available, out of preview. It also added a new Clairic-flash model to Workers AI and released open weights for both.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-19T04:23:20.095Z",
+      "lastMeaningfulUpdateAt": "2026-11-19T04:23:20.095Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+          "url": "https://blog.cloudflare.com/open-clairic/",
+          "publishedAt": "2026-11-18T22:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "model-release",
+        "open-source"
       ]
     },
     {
@@ -2390,29 +2419,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "5ca3d772-aebf-46a1-8958-410507dfb74b",
-      "title": "AI tools are fueling a ransomware boom, letting unsophisticated attackers wreak havoc",
-      "summary": "WIRED reports a new wave of AI-fueled ransomware: seemingly unsophisticated attackers are using AI tools to cause serious damage, even though fully automated ransomware hasn't arrived yet.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-14T13:07:16.587Z",
-      "lastMeaningfulUpdateAt": "2026-11-14T13:07:16.587Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Beware the New AI-Fueled Ransomware Boom",
-          "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
-          "publishedAt": "2026-11-14T13:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 90,
+  "totalCount": 91,
   "hasMore": true
 }
