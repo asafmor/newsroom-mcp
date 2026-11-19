@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T06:24:54.418Z",
+  "generatedAt": "2026-11-19T08:26:16.768Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -1776,6 +1776,28 @@
       "tags": []
     },
     {
+      "id": "82bcf7de-acdf-45e9-ae77-223cde235325",
+      "title": "Microsoft's Copilot Facilitator takes notes and tracks tasks in Teams meetings",
+      "summary": "Copilot Facilitator in Microsoft Teams runs alongside a meeting to review its agenda, take notes and capture action items as people talk, and can share agenda topics and respond to requests mid-discussion. It requires meeting transcription to be turned on, per Geeky Gadgets.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-19T08:26:08.998Z",
+      "lastMeaningfulUpdateAt": "2026-11-19T08:26:08.998Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Copilot Facilitator Takes Your Microsoft Teams Notes",
+          "url": "https://www.geeky-gadgets.com/how-to-use-copilot-facilitator/",
+          "publishedAt": "2026-11-19T07:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "0b1c47bc-2040-44b1-92a7-5a1f1fafdfdf",
       "title": "Google describes an internal system that purges stale project notes that send coding agents chasing fixed bugs",
       "summary": "Google described an internal system that finds outdated project notes, which can send coding agents off on unrequested work like chasing already-fixed bugs. It isn't public, but Claude Code users can apply similar checks to their own project files.",
@@ -2405,29 +2427,8 @@
         "model-release",
         "safety"
       ]
-    },
-    {
-      "id": "373fec5b-9452-4365-a08a-c4069e65ceea",
-      "title": "Google adds 66 regional dialects to Gemini",
-      "summary": "Google has added support for 66 regional dialects to Gemini, an update rolling out today that is meant to make the assistant sound more accurate in the way people actually speak their language.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-16T17:36:57.628Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T17:36:57.628Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Google adds 66 regional dialects to Gemini",
-          "url": "https://www.engadget.com/2317417/google-adds-66-regional-dialects-to-gemini/",
-          "publishedAt": "2026-11-16T17:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 91,
+  "totalCount": 92,
   "hasMore": true
 }
