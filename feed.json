@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T04:40:02.012Z",
+  "generatedAt": "2026-11-20T06:41:27.580Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -759,6 +759,27 @@
       ]
     },
     {
+      "id": "b631be5d-a50a-4f2b-839b-22b8be620ee2",
+      "title": "Google's Gemini can now control a Mac, taking actions in files and apps",
+      "summary": "Google announced that its Gemini app can now operate a Mac computer on a user's behalf. Users give Gemini commands, and it works through their files and apps to carry them out, extending Gemini's computer-use agent to Apple's desktop platform.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-20T06:41:16.140Z",
+      "lastMeaningfulUpdateAt": "2026-11-20T06:41:16.140Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "You Can Finally Use Google Gemini To Control Your MacBook",
+          "url": "https://in.mashable.com/tech/116374/you-can-finally-use-google-gemini-to-control-your-macbook",
+          "publishedAt": "2026-11-19T23:07:46.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "d5403200-dabd-41ac-b076-981df239c0c9",
       "title": "NYC, LA, and Chicago school districts weigh alternatives to Google after its AI-in-Search policy backlash",
       "summary": "America's three largest school districts, in New York City, Los Angeles, and Chicago, are all discussing alternatives to Google. The talks follow a backlash over Google's plan to cut off Search at schools that disable its AI tools.\n\n- Google had threatened that schools dropping its AI would lose Search too, since AI Overviews are built into Search. It later tried to walk that policy back\n- Google's own employees have joined the criticism: the Alphabet Workers Union objected to Google requiring its AI tools be bundled with Search\n- Parents and educators worry that easy, machine-generated answers are leaving kids less capable\n- NYC mayor Zohran Mamdani and former FTC chair Lina Khan accused Google of acting as an unregulated monopoly\n- DuckDuckGo has been courting frustrated schools with its search engine and options to disable AI features",
@@ -842,6 +863,25 @@
           "title": "Google Employees Petition to Let Schools Use Search Without AI",
           "url": "https://gizmodo.com/google-employees-petition-to-let-schools-use-search-without-ai-2000842549",
           "publishedAt": "2026-11-20T03:06:47.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "2f115f03-611e-4698-91cd-f198641624c9",
+      "title": "Google redesigns its desktop home page to make Gemini more prominent despite user and employee complaints",
+      "summary": "Google has redesigned its desktop search home page to put Gemini AI front and center, Engadget reports. The company is pushing ahead despite complaints from users and its own employees about AI being bundled into Search.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-20T06:41:20.240Z",
+      "lastMeaningfulUpdateAt": "2026-11-20T06:41:20.240Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Google's latest home page redesign makes Gemini even more prominent",
+          "url": "https://www.engadget.com/2322647/google-latest-home-page-redesign-makes-gemini-even-more-prominent/",
+          "publishedAt": "2026-11-20T05:45:38.000Z",
           "contribution": "supporting"
         }
       ],
@@ -959,6 +999,25 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "3f7c2f83-96bc-4ffe-bf8e-a8737fbae28b",
+      "title": "Apple is reportedly building a full-featured AI agent that goes well beyond Siri",
+      "summary": "An Apple job listing for a senior AI engineering manager describes an agent that handles device control, apps, browsing, and coding, according to Gizmodo. That would go far beyond what Siri AI can do today.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-20T06:41:18.339Z",
+      "lastMeaningfulUpdateAt": "2026-11-20T06:41:18.339Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Apple Is Reportedly Building Its Own Full-Featured AI Agent",
+          "url": "https://gizmodo.com/apple-is-reportedly-building-its-own-full-featured-ai-agent-2000842954",
+          "publishedAt": "2026-11-20T05:00:55.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "c48b5b6c-bb9c-4c9b-a1bc-aaab604a6173",
@@ -2096,76 +2155,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "6a056357-a520-45c5-9559-e7df633bbbf5",
-      "title": "OpenAI offers 200,000 academic researchers free access to its frontier models",
-      "summary": "OpenAI is expanding its ChatGPT for Academic Researchers program to give 200,000 researchers worldwide free access to its frontier models. The same day it published \"Science at the Frontier,\" a look at how more than 1,800 scientists use ChatGPT in research, covering daily workflows, reported productivity, and expectations for discovery.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-16T17:36:49.856Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T17:36:49.856Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Broadening access to AI for scientists",
-          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-          "publishedAt": "2026-11-16T17:00:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Science at the Frontier: How scientists use ChatGPT",
-          "url": "https://openai.com/index/science-at-the-frontier",
-          "publishedAt": "2026-11-16T12:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "354245d9-77b1-45a3-9b1c-238206cf3671",
-      "title": "OpenAI partners with Le Groupe Figaro to bring Le Figaro journalism to ChatGPT",
-      "summary": "Le Groupe Figaro and OpenAI announced a partnership that brings Le Figaro's journalism into ChatGPT through summaries and excerpts, with links back to the original stories.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-18T10:07:11.402Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T10:07:11.402Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-          "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-          "publishedAt": "2026-11-18T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "b5cd7302-fb23-4559-bfc7-a593ac3bd320",
-      "title": "Hugging Face and OpenRouter team up to make open-weight models easier to run",
-      "summary": "Hugging Face announced a partnership with model-routing service OpenRouter aimed at making open-weight models easy to run. The source item carries only the title, so the details of the integration aren't clear yet.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-16T17:36:54.171Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T17:36:54.171Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-          "url": "https://huggingface.co/blog/openrouter",
-          "publishedAt": "2026-11-16T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 79,
+  "totalCount": 82,
   "hasMore": true
 }
