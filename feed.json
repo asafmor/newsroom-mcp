@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T12:47:38.586Z",
+  "generatedAt": "2026-11-20T14:49:05.607Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -1276,6 +1276,25 @@
       ]
     },
     {
+      "id": "c747a6f0-01bd-45f0-b679-498982e446ea",
+      "title": "Hugging Face introduces harness adapters to tune models to specific agent harnesses",
+      "summary": "Hugging Face announced \"harness adapters,\" a way to adapt a chosen model to the agent harness it runs in, pitched as improving both performance and cost. The source item carries only the title, so details on how the adapters are trained, which models and harnesses are supported, and benchmark gains aren't available yet.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-20T14:48:55.441Z",
+      "lastMeaningfulUpdateAt": "2026-11-20T14:48:55.441Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+          "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "44945731-f2d1-4b64-ba7a-e8b963422364",
       "title": "Oregon sues OpenAI over alleged child safety failures",
       "summary": "Oregon's Attorney General has filed a lawsuit against OpenAI over alleged child safety issues with ChatGPT. Engadget reports that Oregon is the latest state to sue the company on these grounds.",
@@ -2140,25 +2159,6 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "2d4036ae-6355-49d7-a3bb-ec0fd6a42e5f",
-      "title": "OpenAI explains how the Codex sandbox enforces filesystem and network limits on your machine",
-      "summary": "OpenAI published an engineering deep dive on how Codex runs commands locally while enforcing user-controlled filesystem and network restrictions across macOS, Linux, and Windows.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-18T18:14:27.464Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T18:14:27.464Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Inside the Codex sandbox",
-          "url": "https://openai.com/index/inside-the-codex-sandbox",
-          "publishedAt": "2026-11-18T08:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 86,
