@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T20:54:43.251Z",
+  "generatedAt": "2026-11-20T22:56:44.217Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -799,6 +799,49 @@
       "tags": [
         "funding",
         "infrastructure"
+      ]
+    },
+    {
+      "id": "a888668f-d363-4ec6-abd4-97ffb04b3572",
+      "title": "Anthropic researcher claims Claude has cracked one of math's greatest unsolved problems",
+      "summary": "An Anthropic researcher claims AI has solved what Gizmodo calls mathematics' \"white whale,\" crediting Claude with the result. The claim has not yet been independently verified, and Gizmodo frames it as an open question.",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-20T22:56:30.127Z",
+      "lastMeaningfulUpdateAt": "2026-11-20T22:56:30.127Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Researcher Claims AI Has Solved Math’s Greatest Mystery",
+          "url": "https://gizmodo.com/anthropic-researcher-claims-ai-has-solved-maths-greatest-mystery-2000843320",
+          "publishedAt": "2026-11-20T21:35:30.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "7987a48e-52ab-4c06-9bae-89dfbf5b43d4",
+      "title": "Researcher plants 2 million canaries in the AI supply chain and finds user data leaking",
+      "summary": "A security researcher seeded about 2 million prompts containing unique, trackable secrets into the AI supply chain. When those secrets showed up again elsewhere, it showed that data sent to AI services doesn't stay private, which Ars Technica calls a privacy disaster.",
+      "importanceScore": 0.62,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-20T22:56:27.730Z",
+      "lastMeaningfulUpdateAt": "2026-11-20T22:56:27.730Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+          "publishedAt": "2026-11-20T20:59:08.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "research"
       ]
     },
     {
@@ -2001,48 +2044,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "065cd21e-b603-444b-aee4-9be86ff4de8c",
-      "title": "OpenAI's Dean Ball on how society can keep control of its institutions as AI grows more capable",
-      "summary": "In \"The Silent Consensus,\" an essay on OpenAI's blog, Dean Ball, OpenAI's Head of Strategic Futures, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-18T22:18:30.574Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T22:18:30.574Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "The Silent Consensus",
-          "url": "https://openai.com/index/the-silent-consensus",
-          "publishedAt": "2026-11-18T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
-    },
-    {
-      "id": "2dac448f-c2df-4afb-9009-80fb4aa5514d",
-      "title": "Apple adds Mac disk-access controls to rein in AI agents",
-      "summary": "After sounding an alarm about AI agents running amok on Macs, Apple is adding new controls that limit how much disk access AI agents get, Engadget reports.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-17T07:46:29.910Z",
-      "lastMeaningfulUpdateAt": "2026-11-17T07:46:29.910Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Apple adds new disk controls to prevent AI agents from running amok",
-          "url": "https://www.engadget.com/2318790/apple-adds-new-disk-controls-to-prevent-ai-agents-from-running-amok/",
-          "publishedAt": "2026-11-17T06:22:11.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
   "totalCount": 86,
