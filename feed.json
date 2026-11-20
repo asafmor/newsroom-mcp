@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T06:41:27.580Z",
+  "generatedAt": "2026-11-20T08:44:58.032Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -869,6 +869,27 @@
       "tags": []
     },
     {
+      "id": "e993439e-41b4-47b0-ace9-6eed906f44aa",
+      "title": "OpenAI tests its Dots personal agents on the $20-per-month ChatGPT Plus tier",
+      "summary": "OpenAI is expanding access to Dots, its proactive personal agents that work on a user's behalf without supervision, by testing them on the $20-per-month ChatGPT Plus tier, per Engadget.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-20T08:43:17.352Z",
+      "lastMeaningfulUpdateAt": "2026-11-20T08:43:17.352Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI is testing Dots personal agents on its $20 per month Plus tier",
+          "url": "https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/",
+          "publishedAt": "2026-11-20T07:31:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "2f115f03-611e-4698-91cd-f198641624c9",
       "title": "Google redesigns its desktop home page to make Gemini more prominent despite user and employee complaints",
       "summary": "Google has redesigned its desktop search home page to put Gemini AI front and center, Engadget reports. The company is pushing ahead despite complaints from users and its own employees about AI being bundled into Search.",
@@ -1208,6 +1229,25 @@
       ]
     },
     {
+      "id": "bb43f670-5daa-4554-b166-0cf2d814496e",
+      "title": "A 16-year-old Y Combinator founder's AI missile startup Polemos targets \"cost per kill\"",
+      "summary": "Henrijs Dandzbergs dropped out of high school to join Y Combinator with Polemos, a startup building a new breed of AI missile meant to make killing as efficient as possible for the US and its military allies, WIRED reports.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-20T08:43:19.471Z",
+      "lastMeaningfulUpdateAt": "2026-11-20T08:43:19.471Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
+          "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
+          "publishedAt": "2026-11-20T07:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "e6b3cc0e-1080-4567-8615-bd3f7fff07d4",
       "title": "Trump's own officials expect little AI progress from his China trip amid Nvidia scandal fallout",
       "summary": "Officials in the Trump administration don't expect much progress on AI to come out of President Trump's visit to China, WIRED reports, saying fallout from the Nvidia scandal has made any AI negotiations difficult.",
@@ -1285,6 +1325,25 @@
         "regulation",
         "safety"
       ]
+    },
+    {
+      "id": "fee8eb2d-c65c-46be-b927-af782ed2c5f3",
+      "title": "Google's Gemini Notebook, formerly NotebookLM, can turn source documents into custom websites",
+      "summary": "Gemini Notebook, the Google tool previously called NotebookLM, can build a working website, such as an interactive explainer or dashboard, from a single chat prompt using sources like PDFs, web pages, and Google Sheets, then revise it through chat, per a Geeky Gadgets walkthrough.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-20T08:43:22.103Z",
+      "lastMeaningfulUpdateAt": "2026-11-20T08:43:22.103Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google Gemini Notebook Turns PDF Sources to Custom Websites",
+          "url": "https://www.geeky-gadgets.com/gemini-notebook-website-builder/",
+          "publishedAt": "2026-11-20T07:47:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
@@ -2093,70 +2152,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "82bcf7de-acdf-45e9-ae77-223cde235325",
-      "title": "Microsoft's Copilot Facilitator takes notes and tracks tasks in Teams meetings",
-      "summary": "Copilot Facilitator in Microsoft Teams runs alongside a meeting to review its agenda, take notes and capture action items as people talk, and can share agenda topics and respond to requests mid-discussion. It requires meeting transcription to be turned on, per Geeky Gadgets.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-19T08:26:08.998Z",
-      "lastMeaningfulUpdateAt": "2026-11-19T08:26:08.998Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Copilot Facilitator Takes Your Microsoft Teams Notes",
-          "url": "https://www.geeky-gadgets.com/how-to-use-copilot-facilitator/",
-          "publishedAt": "2026-11-19T07:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "0b1c47bc-2040-44b1-92a7-5a1f1fafdfdf",
-      "title": "Google describes an internal system that purges stale project notes that send coding agents chasing fixed bugs",
-      "summary": "Google described an internal system that finds outdated project notes, which can send coding agents off on unrequested work like chasing already-fixed bugs. It isn't public, but Claude Code users can apply similar checks to their own project files.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-18T12:09:12.506Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T12:09:12.506Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Google Cleanup System Shows How to Stop AI Chasing Fixed Bugs",
-          "url": "https://www.geeky-gadgets.com/claude-code-2/",
-          "publishedAt": "2026-11-18T11:48:03.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "7b2be363-384f-430b-904c-e31bff0d342f",
-      "title": "OpenAI announces new tools and partnerships to fight online child sexual abuse",
-      "summary": "OpenAI says it is rolling out new tools, practical guidance, and partnerships aimed at helping prevent, detect, and respond to online child sexual exploitation and abuse.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-16T17:36:51.906Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T17:36:51.906Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-          "url": "https://openai.com/index/strengthening-online-child-safety",
-          "publishedAt": "2026-11-16T17:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 82,
+  "totalCount": 85,
   "hasMore": true
 }
