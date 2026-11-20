@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T10:45:57.284Z",
+  "generatedAt": "2026-11-20T12:47:38.586Z",
   "stories": [
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -773,6 +773,13 @@
           "url": "https://in.mashable.com/tech/116374/you-can-finally-use-google-gemini-to-control-your-macbook",
           "publishedAt": "2026-11-19T23:07:46.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Google boosts Gemini's ability to do 'repetitive tasks' on its Mac app",
+          "url": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/",
+          "publishedAt": "2026-11-20T12:36:11.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1415,6 +1422,25 @@
           "title": "The Accelerationists Are Trying to Stop Anthropic",
           "url": "https://gizmodo.com/the-accelerationists-are-trying-to-stop-anthropic-2000841831",
           "publishedAt": "2026-11-18T19:40:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "dd27ed3b-6830-4bec-b739-aa4fe9a2c957",
+      "title": "Claude Code and Codex still send conversation history and usage data with telemetry off, an analysis finds",
+      "summary": "A Geeky Gadgets look at the network traffic of Anthropic's Claude Code and OpenAI's Codex finds both coding agents can still send conversation history, usage data, and other requests with telemetry turned off. What leaves the machine depends on the requests each tool makes and the user's settings.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-20T12:47:30.712Z",
+      "lastMeaningfulUpdateAt": "2026-11-20T12:47:30.712Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "ChatGPT and Claude Send Conversation History with Telemetry Off",
+          "url": "https://www.geeky-gadgets.com/claude-code-3/",
+          "publishedAt": "2026-11-20T10:44:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -2133,27 +2159,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "10106801-03f3-4969-a472-294cdaded04f",
-      "title": "IBM Research makes the case for time-series models inside the streamhouse",
-      "summary": "An IBM Research post on the Hugging Face blog argues that running time-series models inside a streamhouse, an architecture that combines streaming and lakehouse data, opens up new applications, and it lays out use cases.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-18T16:12:16.185Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T16:12:16.185Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-          "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-          "publishedAt": "2026-11-18T15:00:23.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 85,
+  "totalCount": 86,
   "hasMore": true
 }
