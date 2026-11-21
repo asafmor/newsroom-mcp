@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T13:04:56.314Z",
+  "generatedAt": "2026-11-21T15:07:26.876Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1047,6 +1047,25 @@
       ]
     },
     {
+      "id": "0ce72e4b-3a1b-4820-9613-b46e0df000f0",
+      "title": "Etsy says it won't use sellers' content to train AI that copies their work, after a seller revolt",
+      "summary": "Etsy added an AI-training clause to its terms of use, and sellers revolted. Etsy has now clarified that it will not use sellers' content to train AI that can copy their work, Engadget reports.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-21T15:07:09.988Z",
+      "lastMeaningfulUpdateAt": "2026-11-21T15:07:09.988Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Etsy says it will not use sellers' content to train AI after they revolt over policy changes",
+          "url": "https://www.engadget.com/2324090/etsy-not-use-seller-content-train-ai/",
+          "publishedAt": "2026-11-21T14:25:25.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "f7148eae-1f6c-47d0-82a1-09050fc6cbf9",
       "title": "Meta's carbon emissions rose 45% last year as AI drives them higher",
       "summary": "Meta's 2026 sustainability report shows its carbon emissions rose 45% last year, and CNET reports that AI is making the trend worse.",
@@ -1251,7 +1270,7 @@
     {
       "id": "3f7c2f83-96bc-4ffe-bf8e-a8737fbae28b",
       "title": "Apple is reportedly building a full-featured AI agent that goes well beyond Siri",
-      "summary": "An Apple job listing for a senior AI engineering manager describes an agent that handles device control, apps, browsing, and coding, according to Gizmodo. That would go far beyond what Siri AI can do today.",
+      "summary": "An Apple job listing for a senior AI engineering manager describes an agent that handles device control, apps, browsing, and coding, according to Gizmodo. That would go far beyond what Siri AI can do today. Separately, unconfirmed early iOS 28 leaks (codename \"Bell\") reported by Geeky Gadgets describe an agent-style Siri tied to 2027 hardware.",
       "importanceScore": 0.45,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-11-20T06:41:18.339Z",
@@ -1262,6 +1281,13 @@
           "title": "Apple Is Reportedly Building Its Own Full-Featured AI Agent",
           "url": "https://gizmodo.com/apple-is-reportedly-building-its-own-full-featured-ai-agent-2000842954",
           "publishedAt": "2026-11-20T05:00:55.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Inside Early iOS 28 Leaks: Agent-Style Siri AI, Codename “Bell,” and 2027 Hardware Support",
+          "url": "https://www.geeky-gadgets.com/ios-28-codenamed-bell-leaks/",
+          "publishedAt": "2026-11-21T14:00:19.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1379,6 +1405,13 @@
           "title": "ChatGPT Astra 6.2 Beats Claude Fable 5.2 on Speed and Total API Cost",
           "url": "https://www.geeky-gadgets.com/astra-6-2-vs-fable-5-2/",
           "publishedAt": "2026-11-19T09:12:00.000Z",
+          "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New GPT-6.2 Astra Builds a Working 3D Pendulum Clock from a Sketch",
+          "url": "https://www.geeky-gadgets.com/gpt-astra/",
+          "publishedAt": "2026-11-21T15:01:47.000Z",
           "contribution": "background"
         }
       ],
@@ -2025,27 +2058,6 @@
           "title": "Strengthening NATO and allied cyber defenses with AI",
           "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
           "publishedAt": "2026-11-17T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
-    },
-    {
-      "id": "0e52db07-ad3d-46ee-9ed9-b93dcf7bb080",
-      "title": "Disney Imagineers build AI-powered \"Star Wars\" alien Audio-Animatronics with AWS",
-      "summary": "Disney Imagineering worked with AWS to build three AI-powered Audio-Animatronic Anzellan characters from \"Star Wars,\" each with its own personality, that will interact with guests in Disney parks.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.65,
-      "firstSeenAt": "2026-11-18T16:12:14.023Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T16:12:14.023Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Disney Imagineers Have Built AI-Powered ‘Star Wars’ Alien Audio-Animatronics With AWS",
-          "url": "https://www.cnet.com/tech/services-and-software/disney-imagineer-ai-star-wars-alien-audio-animatronic-aws/",
-          "publishedAt": "2026-11-18T14:00:00.000Z",
           "contribution": "supporting"
         }
       ],
