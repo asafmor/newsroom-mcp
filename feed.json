@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T22:56:44.217Z",
+  "generatedAt": "2026-11-21T00:58:19.562Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1047,6 +1047,48 @@
       ]
     },
     {
+      "id": "f7148eae-1f6c-47d0-82a1-09050fc6cbf9",
+      "title": "Meta's carbon emissions rose 45% last year as AI drives them higher",
+      "summary": "Meta's 2026 sustainability report shows its carbon emissions rose 45% last year, and CNET reports that AI is making the trend worse.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-21T00:58:11.864Z",
+      "lastMeaningfulUpdateAt": "2026-11-21T00:58:11.864Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Meta’s Carbon Emissions Went Up 45% Last Year. AI Is Making It Worse",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-sustainability-report-2026-carbon-emissions-ai/",
+          "publishedAt": "2026-11-20T19:42:28.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "0d919049-7a53-4d72-bf4b-c25a5fbfb160",
+      "title": "Signal blocks screenshots to keep AI agents from reading users' messages",
+      "summary": "Signal is blocking screenshots to protect messages from AI agents that can read a user's screen, CNET reports. End-to-end encryption can't stop an on-device agent from seeing a conversation once it's displayed.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-21T00:58:10.054Z",
+      "lastMeaningfulUpdateAt": "2026-11-21T00:58:10.054Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "Signal Is Blocking Screenshots to Protect Your Messages from AI Agents",
+          "url": "https://www.cnet.com/tech/services-and-software/signal-text-message-screenshots/",
+          "publishedAt": "2026-11-20T19:48:39.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "c0ff7784-75dd-4be6-af76-89c3be4a722f",
       "title": "OpenAI introduces MedChemBench to test AI on early-stage drug discovery",
       "summary": "OpenAI released MedChemBench, a benchmark that tests how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
@@ -2003,47 +2045,6 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "6d207050-d9ac-4f1c-a550-1d11288cf19a",
-      "title": "Rumble-2-Flash, an open 0.5B-parameter speech model covering 40+ languages, debuts on Hugging Face",
-      "summary": "Rumble-2-Flash is a new open speech model with 0.5 billion parameters that supports more than 40 languages, announced on the Hugging Face blog.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-18T16:12:11.671Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T16:12:11.671Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-          "url": "https://huggingface.co/blog/rumble-2-flash",
-          "publishedAt": "2026-11-18T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
-    },
-    {
-      "id": "fc593b96-bc7e-4299-854d-54a3f6d31bab",
-      "title": "OpenAI details its Performance Factory, Codex-powered workflows that find and fix ChatGPT slowdowns",
-      "summary": "OpenAI described the Performance Factory, an internal system of Codex-powered workflows that automatically finds and fixes performance issues to keep ChatGPT fast.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-19T18:33:08.217Z",
-      "lastMeaningfulUpdateAt": "2026-11-19T18:33:08.217Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-          "publishedAt": "2026-11-19T08:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 86,
