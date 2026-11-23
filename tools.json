@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T15:46:04.198Z",
+  "generatedAt": "2026-11-23T19:37:13.720Z",
   "sources": {
     "github": {
       "status": "ok",
@@ -32,9 +32,9 @@
         "coding-agent",
         "deepseek"
       ],
-      "starCount": 30070,
+      "starCount": 30729,
       "createdAt": "2026-10-25T08:09:52.000Z",
-      "lastActivityAt": "2026-11-22T15:45:23.000Z"
+      "lastActivityAt": "2026-11-23T19:37:05.000Z"
     },
     {
       "id": "github:wangzan101/Mika",
@@ -53,9 +53,9 @@
         "automation",
         "jetpack-compose"
       ],
-      "starCount": 9600,
+      "starCount": 9756,
       "createdAt": "2026-10-29T14:34:07.000Z",
-      "lastActivityAt": "2026-11-22T14:50:36.000Z"
+      "lastActivityAt": "2026-11-23T09:42:27.000Z"
     },
     {
       "id": "github:microsoft/TokenEconomizer",
@@ -74,7 +74,7 @@
         "ai-coding-assistant",
         "anthropic"
       ],
-      "starCount": 7940,
+      "starCount": 8015,
       "createdAt": "2026-10-13T04:16:50.000Z",
       "lastActivityAt": "2026-11-20T02:36:48.000Z"
     },
@@ -95,9 +95,9 @@
         "ai-agents",
         "ai-workflows"
       ],
-      "starCount": 6767,
+      "starCount": 7047,
       "createdAt": "2026-10-29T02:43:14.000Z",
-      "lastActivityAt": "2026-11-22T15:30:11.000Z"
+      "lastActivityAt": "2026-11-23T16:07:27.000Z"
     },
     {
       "id": "github:KKKKhazix/agent-autoloop",
@@ -116,9 +116,9 @@
         "cli",
         "codex"
       ],
-      "starCount": 6268,
+      "starCount": 6388,
       "createdAt": "2026-11-03T08:02:11.000Z",
-      "lastActivityAt": "2026-11-22T01:36:32.000Z"
+      "lastActivityAt": "2026-11-23T01:13:36.000Z"
     },
     {
       "id": "github:Leonxlnx/earshot",
@@ -137,7 +137,7 @@
         "mcp",
         "sfx"
       ],
-      "starCount": 5529,
+      "starCount": 5631,
       "createdAt": "2026-10-15T06:52:46.000Z",
       "lastActivityAt": "2026-11-22T00:30:14.000Z"
     },
@@ -158,9 +158,9 @@
         "computer-use",
         "dsh-plugin"
       ],
-      "starCount": 5215,
+      "starCount": 5270,
       "createdAt": "2026-10-11T19:10:25.000Z",
-      "lastActivityAt": "2026-11-22T10:26:36.000Z"
+      "lastActivityAt": "2026-11-23T14:37:05.000Z"
     },
     {
       "id": "github:modelflare-ai/AnyModelBot",
@@ -179,9 +179,9 @@
         "claude",
         "computer-use"
       ],
-      "starCount": 4972,
+      "starCount": 4983,
       "createdAt": "2026-10-27T08:51:18.000Z",
-      "lastActivityAt": "2026-11-22T08:13:16.000Z"
+      "lastActivityAt": "2026-11-22T18:58:42.000Z"
     },
     {
       "id": "github:expo/exact",
@@ -200,9 +200,9 @@
         "cross-platform",
         "css"
       ],
-      "starCount": 4904,
+      "starCount": 4959,
       "createdAt": "2026-11-02T01:29:01.000Z",
-      "lastActivityAt": "2026-11-22T15:33:40.000Z"
+      "lastActivityAt": "2026-11-23T19:31:00.000Z"
     },
     {
       "id": "github:shinyobjectz/raea",
@@ -221,9 +221,9 @@
         "ai-video",
         "bevy"
       ],
-      "starCount": 3919,
+      "starCount": 4670,
       "createdAt": "2026-10-18T18:08:48.000Z",
-      "lastActivityAt": "2026-11-22T15:33:50.000Z"
+      "lastActivityAt": "2026-11-23T18:29:22.000Z"
     },
     {
       "id": "github:reacher-z/Awesome-REA",
@@ -242,29 +242,30 @@
         "awesome",
         "awesome-list"
       ],
-      "starCount": 3344,
+      "starCount": 3408,
       "createdAt": "2026-10-16T00:42:04.000Z",
-      "lastActivityAt": "2026-11-22T09:26:02.000Z"
+      "lastActivityAt": "2026-11-23T19:23:10.000Z"
     },
     {
-      "id": "github:bookwjitchieni1986/blender-ai-mcp-addon",
+      "id": "github:EL4CTEO/fast-anything",
       "source": "github",
       "kind": "repository",
-      "name": "blender-ai-mcp-addon",
-      "owner": "bookwjitchieni1986",
-      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
-      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "name": "fast-anything",
+      "owner": "EL4CTEO",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "language": "Rust",
       "license": "MIT License",
       "topics": [
+        "agent-skills",
         "ai-agents",
-        "ai-assistant",
-        "blender",
-        "blender-addon",
-        "blender-ai"
+        "claude-code",
+        "claude-code-plugin",
+        "codex"
       ],
-      "starCount": 2742,
-      "createdAt": "2026-11-19T14:43:10.000Z",
-      "lastActivityAt": "2026-11-22T13:29:36.000Z"
+      "starCount": 3033,
+      "createdAt": "2026-11-21T14:40:27.000Z",
+      "lastActivityAt": "2026-11-23T15:47:26.000Z"
     },
     {
       "id": "github:EL4CTEO/blender-skills",
@@ -283,9 +284,29 @@
         "blender",
         "blender-python"
       ],
-      "starCount": 2680,
+      "starCount": 2769,
       "createdAt": "2026-10-14T19:08:14.000Z",
       "lastActivityAt": "2026-11-21T14:35:50.000Z"
+    },
+    {
+      "id": "github:bookwjitchieni1986/blender-ai-mcp-addon",
+      "source": "github",
+      "kind": "repository",
+      "name": "blender-ai-mcp-addon",
+      "owner": "bookwjitchieni1986",
+      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "license": "MIT License",
+      "topics": [
+        "ai-agents",
+        "ai-assistant",
+        "blender",
+        "blender-addon",
+        "blender-ai"
+      ],
+      "starCount": 2765,
+      "createdAt": "2026-11-19T14:43:10.000Z",
+      "lastActivityAt": "2026-11-22T13:29:36.000Z"
     },
     {
       "id": "github:N1nEmAn/sapper-v2",
@@ -304,7 +325,7 @@
         "autonomous-agents",
         "claude-code"
       ],
-      "starCount": 2548,
+      "starCount": 2587,
       "createdAt": "2026-10-30T15:12:35.000Z",
       "lastActivityAt": "2026-11-11T12:18:45.000Z"
     },
@@ -325,30 +346,9 @@
         "chat-ui",
         "design-system"
       ],
-      "starCount": 2410,
+      "starCount": 2418,
       "createdAt": "2026-10-12T09:19:02.000Z",
       "lastActivityAt": "2026-10-31T22:37:07.000Z"
-    },
-    {
-      "id": "github:morluto/awesome-reverse-engineering",
-      "source": "github",
-      "kind": "repository",
-      "name": "awesome-reverse-engineering",
-      "owner": "morluto",
-      "url": "https://github.com/morluto/awesome-reverse-engineering",
-      "description": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-      "language": "Python",
-      "license": "Creative Commons Zero v1.0 Universal",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "awesome",
-        "awesome-list",
-        "binary-analysis"
-      ],
-      "starCount": 2278,
-      "createdAt": "2026-10-09T14:58:20.000Z",
-      "lastActivityAt": "2026-11-15T08:05:46.000Z"
     },
     {
       "id": "github:Sandflow-ai/sand3d",
@@ -367,72 +367,9 @@
         "llm",
         "procedural-modeling"
       ],
-      "starCount": 2229,
+      "starCount": 2244,
       "createdAt": "2026-11-03T08:23:03.000Z",
-      "lastActivityAt": "2026-11-20T08:48:52.000Z"
-    },
-    {
-      "id": "github:daveebbelaar/bama",
-      "source": "github",
-      "kind": "repository",
-      "name": "bama",
-      "owner": "daveebbelaar",
-      "url": "https://github.com/daveebbelaar/bama",
-      "description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
-      "language": "Swift",
-      "license": "MIT License",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "app-clone",
-        "claude-code",
-        "claude-code-plugin"
-      ],
-      "starCount": 1942,
-      "createdAt": "2026-10-24T08:44:36.000Z",
-      "lastActivityAt": "2026-11-05T13:09:56.000Z"
-    },
-    {
-      "id": "github:agentes-chat/agentes-chat",
-      "source": "github",
-      "kind": "repository",
-      "name": "agentes-chat",
-      "owner": "agentes-chat",
-      "url": "https://github.com/agentes-chat/agentes-chat",
-      "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines,…",
-      "language": "TypeScript",
-      "license": "GNU Affero General Public License v3.0",
-      "topics": [
-        "agentic-ai",
-        "ai-agents",
-        "browser-automation",
-        "chat",
-        "claude"
-      ],
-      "starCount": 1928,
-      "createdAt": "2026-11-09T00:50:28.000Z",
-      "lastActivityAt": "2026-11-22T15:24:07.000Z"
-    },
-    {
-      "id": "github:yjid/kensaku",
-      "source": "github",
-      "kind": "repository",
-      "name": "kensaku",
-      "owner": "yjid",
-      "url": "https://github.com/yjid/kensaku",
-      "description": "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access.",
-      "language": "Rust",
-      "license": "MIT License",
-      "topics": [
-        "ai-agents",
-        "desktop",
-        "desktop-search",
-        "file-search",
-        "full-text-search"
-      ],
-      "starCount": 1898,
-      "createdAt": "2026-10-24T21:00:26.000Z",
-      "lastActivityAt": "2026-11-19T20:00:41.000Z"
+      "lastActivityAt": "2026-11-23T16:02:04.000Z"
     },
     {
       "id": "github:sybil-solutions/inference-optimisation-skill",
@@ -451,9 +388,72 @@
         "inference",
         "llm"
       ],
-      "starCount": 1883,
+      "starCount": 2093,
       "createdAt": "2026-11-16T18:40:04.000Z",
       "lastActivityAt": "2026-11-16T18:40:08.000Z"
+    },
+    {
+      "id": "github:agentes-chat/agentes-chat",
+      "source": "github",
+      "kind": "repository",
+      "name": "agentes-chat",
+      "owner": "agentes-chat",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines,…",
+      "language": "TypeScript",
+      "license": "GNU Affero General Public License v3.0",
+      "topics": [
+        "agentic-ai",
+        "ai-agents",
+        "browser-automation",
+        "chat",
+        "claude"
+      ],
+      "starCount": 1985,
+      "createdAt": "2026-11-09T00:50:28.000Z",
+      "lastActivityAt": "2026-11-23T19:34:09.000Z"
+    },
+    {
+      "id": "github:daveebbelaar/bama",
+      "source": "github",
+      "kind": "repository",
+      "name": "bama",
+      "owner": "daveebbelaar",
+      "url": "https://github.com/daveebbelaar/bama",
+      "description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+      "language": "Swift",
+      "license": "MIT License",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "app-clone",
+        "claude-code",
+        "claude-code-plugin"
+      ],
+      "starCount": 1951,
+      "createdAt": "2026-10-24T08:44:36.000Z",
+      "lastActivityAt": "2026-11-05T13:09:56.000Z"
+    },
+    {
+      "id": "github:yjid/kensaku",
+      "source": "github",
+      "kind": "repository",
+      "name": "kensaku",
+      "owner": "yjid",
+      "url": "https://github.com/yjid/kensaku",
+      "description": "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access.",
+      "language": "Rust",
+      "license": "MIT License",
+      "topics": [
+        "ai-agents",
+        "desktop",
+        "desktop-search",
+        "file-search",
+        "full-text-search"
+      ],
+      "starCount": 1908,
+      "createdAt": "2026-10-24T21:00:26.000Z",
+      "lastActivityAt": "2026-11-23T19:24:14.000Z"
     },
     {
       "id": "github:JosssphZhou/poki",
@@ -472,9 +472,9 @@
         "claude-code",
         "computer-use"
       ],
-      "starCount": 1823,
+      "starCount": 1889,
       "createdAt": "2026-11-05T15:04:31.000Z",
-      "lastActivityAt": "2026-11-22T15:44:19.000Z"
+      "lastActivityAt": "2026-11-23T19:28:50.000Z"
     },
     {
       "id": "github:reason-machines/reason-network",
@@ -493,7 +493,7 @@
         "codex",
         "coding-agents"
       ],
-      "starCount": 1803,
+      "starCount": 1814,
       "createdAt": "2026-10-16T15:34:34.000Z",
       "lastActivityAt": "2026-11-22T08:05:14.000Z"
     },
@@ -514,7 +514,7 @@
         "email",
         "email-marketing"
       ],
-      "starCount": 1759,
+      "starCount": 1771,
       "createdAt": "2026-10-10T12:55:36.000Z",
       "lastActivityAt": "2026-11-06T09:34:08.000Z"
     },
@@ -527,8 +527,8 @@
       "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
       "pipelineTag": "image-text-to-text",
       "libraryName": "transformers",
-      "likeCount": 4249,
-      "downloads": 23543,
+      "likeCount": 5406,
+      "downloads": 41888,
       "createdAt": "2026-11-17T00:26:57.000Z",
       "installCommand": "huggingface-cli download thinkingmachines/Inkling-2-Mini"
     },
@@ -540,8 +540,8 @@
       "owner": "unsloth",
       "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
       "pipelineTag": "image-text-to-text",
-      "likeCount": 796,
-      "downloads": 805993,
+      "likeCount": 1062,
+      "downloads": 1292888,
       "createdAt": "2026-11-20T13:09:48.000Z",
       "installCommand": "huggingface-cli download unsloth/Inkling-2-Mini-GGUF"
     },
@@ -554,37 +554,23 @@
       "url": "https://huggingface.co/inworld/voice-isolator",
       "pipelineTag": "audio-to-audio",
       "libraryName": "inworld-voice-isolation",
-      "likeCount": 584,
+      "likeCount": 714,
       "downloads": 0,
       "createdAt": "2026-11-14T02:14:35.000Z",
       "installCommand": "huggingface-cli download inworld/voice-isolator"
     },
     {
-      "id": "hf-model:tencent/Hy4-flash",
+      "id": "hf-model:AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
       "source": "huggingface",
       "kind": "model",
-      "name": "Hy4-flash",
-      "owner": "tencent",
-      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "name": "Inkling-2-Mini-Uncensored-GGUF",
+      "owner": "AtomicChat",
+      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
       "pipelineTag": "image-text-to-text",
-      "libraryName": "transformers",
-      "likeCount": 588,
-      "downloads": 6617,
-      "createdAt": "2026-11-17T03:44:46.000Z",
-      "installCommand": "huggingface-cli download tencent/Hy4-flash"
-    },
-    {
-      "id": "hf-model:apple/FastFrames-L",
-      "source": "huggingface",
-      "kind": "model",
-      "name": "FastFrames-L",
-      "owner": "apple",
-      "url": "https://huggingface.co/apple/FastFrames-L",
-      "pipelineTag": "text-to-video",
-      "likeCount": 515,
-      "downloads": 0,
-      "createdAt": "2026-11-16T17:21:04.000Z",
-      "installCommand": "huggingface-cli download apple/FastFrames-L"
+      "likeCount": 617,
+      "downloads": 329497,
+      "createdAt": "2026-11-20T20:42:23.000Z",
+      "installCommand": "huggingface-cli download AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
     },
     {
       "id": "hf-model:harness-hub/Qwen3.8-27B-pi-adapted",
@@ -595,8 +581,8 @@
       "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
       "pipelineTag": "image-text-to-text",
       "libraryName": "peft",
-      "likeCount": 959,
-      "downloads": 2831,
+      "likeCount": 1025,
+      "downloads": 3132,
       "createdAt": "2026-11-16T06:52:31.000Z",
       "installCommand": "huggingface-cli download harness-hub/Qwen3.8-27B-pi-adapted"
     },
@@ -608,51 +594,37 @@
       "owner": "higurashi-ai",
       "url": "https://huggingface.co/higurashi-ai/Haru-4B",
       "pipelineTag": "audio-to-audio",
-      "likeCount": 862,
-      "downloads": 8608,
+      "likeCount": 922,
+      "downloads": 9087,
       "createdAt": "2026-11-12T11:05:59.000Z",
       "installCommand": "huggingface-cli download higurashi-ai/Haru-4B"
     },
     {
-      "id": "hf-model:AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "id": "hf-model:tencent/Hy4-flash",
       "source": "huggingface",
       "kind": "model",
-      "name": "Inkling-2-Mini-Uncensored-GGUF",
-      "owner": "AtomicChat",
-      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-      "pipelineTag": "image-text-to-text",
-      "likeCount": 398,
-      "downloads": 129693,
-      "createdAt": "2026-11-20T20:42:23.000Z",
-      "installCommand": "huggingface-cli download AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
-    },
-    {
-      "id": "hf-model:Qwen/Qwen3.8-27B",
-      "source": "huggingface",
-      "kind": "model",
-      "name": "Qwen3.8-27B",
-      "owner": "Qwen",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "name": "Hy4-flash",
+      "owner": "tencent",
+      "url": "https://huggingface.co/tencent/Hy4-flash",
       "pipelineTag": "image-text-to-text",
       "libraryName": "transformers",
-      "likeCount": 20847,
-      "downloads": 6297396,
-      "createdAt": "2026-08-05T08:22:59.000Z",
-      "installCommand": "huggingface-cli download Qwen/Qwen3.8-27B"
+      "likeCount": 642,
+      "downloads": 7696,
+      "createdAt": "2026-11-17T03:44:46.000Z",
+      "installCommand": "huggingface-cli download tencent/Hy4-flash"
     },
     {
-      "id": "hf-model:apple/DepthPro2",
+      "id": "hf-model:SulphurAI/Sulphur-3",
       "source": "huggingface",
       "kind": "model",
-      "name": "DepthPro2",
-      "owner": "apple",
-      "url": "https://huggingface.co/apple/DepthPro2",
-      "pipelineTag": "depth-estimation",
-      "libraryName": "depth-pro-2",
-      "likeCount": 241,
-      "downloads": 0,
-      "createdAt": "2026-11-03T16:55:03.000Z",
-      "installCommand": "huggingface-cli download apple/DepthPro2"
+      "name": "Sulphur-3",
+      "owner": "SulphurAI",
+      "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+      "libraryName": "minimax-h3",
+      "likeCount": 836,
+      "downloads": 133732,
+      "createdAt": "2026-10-31T20:31:01.000Z",
+      "installCommand": "huggingface-cli download SulphurAI/Sulphur-3"
     },
     {
       "id": "hf-model:sensenova/SenseNova-Loop-9B",
@@ -663,10 +635,37 @@
       "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
       "pipelineTag": "image-text-to-text",
       "libraryName": "transformers",
-      "likeCount": 479,
-      "downloads": 1863,
+      "likeCount": 624,
+      "downloads": 2036,
       "createdAt": "2026-11-17T10:16:41.000Z",
       "installCommand": "huggingface-cli download sensenova/SenseNova-Loop-9B"
+    },
+    {
+      "id": "hf-model:Qwen/Qwen3.8-27B",
+      "source": "huggingface",
+      "kind": "model",
+      "name": "Qwen3.8-27B",
+      "owner": "Qwen",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "pipelineTag": "image-text-to-text",
+      "libraryName": "transformers",
+      "likeCount": 21656,
+      "downloads": 6185088,
+      "createdAt": "2026-08-05T08:22:59.000Z",
+      "installCommand": "huggingface-cli download Qwen/Qwen3.8-27B"
+    },
+    {
+      "id": "hf-model:apple/FastFrames-L",
+      "source": "huggingface",
+      "kind": "model",
+      "name": "FastFrames-L",
+      "owner": "apple",
+      "url": "https://huggingface.co/apple/FastFrames-L",
+      "pipelineTag": "text-to-video",
+      "likeCount": 555,
+      "downloads": 0,
+      "createdAt": "2026-11-16T17:21:04.000Z",
+      "installCommand": "huggingface-cli download apple/FastFrames-L"
     },
     {
       "id": "hf-model:Lightricks/LTX-2.5",
@@ -677,10 +676,24 @@
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
       "pipelineTag": "image-to-video",
       "libraryName": "diffusion-single-file",
-      "likeCount": 13020,
-      "downloads": 2993088,
+      "likeCount": 13159,
+      "downloads": 3002698,
       "createdAt": "2026-07-23T07:55:24.000Z",
       "installCommand": "huggingface-cli download Lightricks/LTX-2.5"
+    },
+    {
+      "id": "hf-model:apple/DepthPro2",
+      "source": "huggingface",
+      "kind": "model",
+      "name": "DepthPro2",
+      "owner": "apple",
+      "url": "https://huggingface.co/apple/DepthPro2",
+      "pipelineTag": "depth-estimation",
+      "libraryName": "depth-pro-2",
+      "likeCount": 1123,
+      "downloads": 0,
+      "createdAt": "2026-11-03T16:55:03.000Z",
+      "installCommand": "huggingface-cli download apple/DepthPro2"
     },
     {
       "id": "hf-model:chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
@@ -691,37 +704,10 @@
       "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
       "pipelineTag": "text-to-image",
       "libraryName": "diffusers",
-      "likeCount": 771,
-      "downloads": 381769,
+      "likeCount": 837,
+      "downloads": 427005,
       "createdAt": "2026-11-03T16:13:25.000Z",
       "installCommand": "huggingface-cli download chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized"
-    },
-    {
-      "id": "hf-model:SulphurAI/Sulphur-3",
-      "source": "huggingface",
-      "kind": "model",
-      "name": "Sulphur-3",
-      "owner": "SulphurAI",
-      "url": "https://huggingface.co/SulphurAI/Sulphur-3",
-      "libraryName": "minimax-h3",
-      "likeCount": 752,
-      "downloads": 78931,
-      "createdAt": "2026-10-31T20:31:01.000Z",
-      "installCommand": "huggingface-cli download SulphurAI/Sulphur-3"
-    },
-    {
-      "id": "hf-model:MiniMaxAI/MiniMax-H3-Image",
-      "source": "huggingface",
-      "kind": "model",
-      "name": "MiniMax-H3-Image",
-      "owner": "MiniMaxAI",
-      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
-      "pipelineTag": "text-to-image",
-      "libraryName": "minimax-h3",
-      "likeCount": 1717,
-      "downloads": 952024,
-      "createdAt": "2026-11-03T06:34:36.000Z",
-      "installCommand": "huggingface-cli download MiniMaxAI/MiniMax-H3-Image"
     },
     {
       "id": "hf-model:meituan-longcat/LongCat-Video-Avatar-1.6",
@@ -731,8 +717,8 @@
       "owner": "meituan-longcat",
       "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
       "libraryName": "longcat-video-avatar-1.6",
-      "likeCount": 414,
-      "downloads": 3483,
+      "likeCount": 457,
+      "downloads": 4083,
       "createdAt": "2026-11-13T02:45:33.000Z",
       "installCommand": "huggingface-cli download meituan-longcat/LongCat-Video-Avatar-1.6"
     },
@@ -744,36 +730,48 @@
       "owner": "maxwell-model",
       "url": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash",
       "pipelineTag": "text-generation",
-      "likeCount": 339,
-      "downloads": 3317,
+      "likeCount": 377,
+      "downloads": 3639,
       "createdAt": "2026-10-13T07:53:39.000Z",
       "installCommand": "huggingface-cli download maxwell-model/Maxwell-V1-Flash"
     },
     {
-      "id": "hf-model:DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "id": "hf-model:RadixArk/DaisyRose-27B",
       "source": "huggingface",
       "kind": "model",
-      "name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-      "owner": "DavidAU",
-      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "name": "DaisyRose-27B",
+      "owner": "RadixArk",
+      "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
       "pipelineTag": "image-text-to-text",
-      "likeCount": 3493,
-      "downloads": 1827784,
-      "createdAt": "2026-09-01T07:01:09.000Z",
-      "installCommand": "huggingface-cli download DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
+      "libraryName": "transformers",
+      "likeCount": 330,
+      "downloads": 2130,
+      "createdAt": "2026-11-18T05:31:35.000Z",
+      "installCommand": "huggingface-cli download RadixArk/DaisyRose-27B"
     },
     {
-      "id": "hf-space:huggingface/moe-blogpost",
+      "id": "hf-model:Sentinel7/h3",
+      "source": "huggingface",
+      "kind": "model",
+      "name": "h3",
+      "owner": "Sentinel7",
+      "url": "https://huggingface.co/Sentinel7/h3",
+      "likeCount": 1447,
+      "downloads": 0,
+      "createdAt": "2026-08-06T04:13:52.000Z",
+      "installCommand": "huggingface-cli download Sentinel7/h3"
+    },
+    {
+      "id": "hf-space:JCisHERE/wan2-2-i2v-v3",
       "source": "huggingface",
       "kind": "space",
-      "name": "moe-blogpost",
-      "owner": "huggingface",
-      "displayName": "The Ultimate MoE Training Handbook",
-      "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
-      "description": "A hands-on guide to training Mixture-of-Experts models",
-      "sdk": "docker",
-      "likeCount": 815,
-      "createdAt": "2026-10-09T15:24:25.000Z"
+      "name": "wan2-2-i2v-v3",
+      "owner": "JCisHERE",
+      "displayName": "Wan2.2 14B Fast Preview [NEW]",
+      "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
+      "sdk": "gradio",
+      "likeCount": 649,
+      "createdAt": "2026-09-28T17:30:26.000Z"
     },
     {
       "id": "hf-space:MiniMaxAI/minimax-h3-image",
@@ -785,20 +783,21 @@
       "url": "https://huggingface.co/spaces/MiniMaxAI/minimax-h3-image",
       "description": "Text-to-image and multi-image editing in 6 steps",
       "sdk": "gradio",
-      "likeCount": 261,
+      "likeCount": 304,
       "createdAt": "2026-11-09T13:26:35.000Z"
     },
     {
-      "id": "hf-space:JCisHERE/wan2-2-i2v-v3",
+      "id": "hf-space:huggingface/moe-blogpost",
       "source": "huggingface",
       "kind": "space",
-      "name": "wan2-2-i2v-v3",
-      "owner": "JCisHERE",
-      "displayName": "Wan2.2 14B Fast Preview [NEW]",
-      "url": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3",
-      "sdk": "gradio",
-      "likeCount": 586,
-      "createdAt": "2026-09-28T17:30:26.000Z"
+      "name": "moe-blogpost",
+      "owner": "huggingface",
+      "displayName": "The Ultimate MoE Training Handbook",
+      "url": "https://huggingface.co/spaces/huggingface/moe-blogpost",
+      "description": "A hands-on guide to training Mixture-of-Experts models",
+      "sdk": "docker",
+      "likeCount": 832,
+      "createdAt": "2026-10-09T15:24:25.000Z"
     },
     {
       "id": "hf-space:joelniklaus/harness-leaderboard",
@@ -810,21 +809,8 @@
       "url": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard",
       "description": "Which coding-agent harness should you use for your model?",
       "sdk": "docker",
-      "likeCount": 509,
+      "likeCount": 531,
       "createdAt": "2026-10-15T06:00:13.000Z"
-    },
-    {
-      "id": "hf-space:waitinghere/Krea2T-Revamped",
-      "source": "huggingface",
-      "kind": "space",
-      "name": "Krea2T-Revamped",
-      "owner": "waitinghere",
-      "displayName": "Krea 2 Turbo Revamped: Image Editor",
-      "url": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped",
-      "description": "Edit one image from a prompt. Keep the look consistent.",
-      "sdk": "gradio",
-      "likeCount": 129,
-      "createdAt": "2026-10-19T03:38:31.000Z"
     },
     {
       "id": "hf-space:Lakonik/pi-H3",
@@ -836,8 +822,21 @@
       "url": "https://huggingface.co/spaces/Lakonik/pi-H3",
       "description": "Minimax H3 Video in 2–4 Steps Without a VAE Decoder",
       "sdk": "gradio",
-      "likeCount": 107,
+      "likeCount": 135,
       "createdAt": "2026-11-09T04:59:51.000Z"
+    },
+    {
+      "id": "hf-space:waitinghere/Krea2T-Revamped",
+      "source": "huggingface",
+      "kind": "space",
+      "name": "Krea2T-Revamped",
+      "owner": "waitinghere",
+      "displayName": "Krea 2 Turbo Revamped: Image Editor",
+      "url": "https://huggingface.co/spaces/waitinghere/Krea2T-Revamped",
+      "description": "Edit one image from a prompt. Keep the look consistent.",
+      "sdk": "gradio",
+      "likeCount": 151,
+      "createdAt": "2026-10-19T03:38:31.000Z"
     },
     {
       "id": "hf-space:cfahlgren1/slack-moji",
@@ -849,7 +848,7 @@
       "url": "https://huggingface.co/spaces/cfahlgren1/slack-moji",
       "description": "Describe an emoji. A tiny model paints it in your browser.",
       "sdk": "static",
-      "likeCount": 83,
+      "likeCount": 97,
       "createdAt": "2026-11-16T16:52:00.000Z"
     },
     {
@@ -862,7 +861,7 @@
       "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
       "description": "Head swap with the BFS LoRA on Qwen-Image-2.1 (+turbo)",
       "sdk": "gradio",
-      "likeCount": 1032,
+      "likeCount": 1052,
       "createdAt": "2026-09-27T18:26:19.000Z"
     },
     {
@@ -875,7 +874,7 @@
       "url": "https://huggingface.co/spaces/amisima/Qwen-2.1-Turbo-Qwen-Face-Swap-MOSS-Image-Edit-Outpaint-Qwen-Detail-Enhancer",
       "description": "Turbo, Relight, Camera, Face Swap, MOSS, Outpaint, Enhance",
       "sdk": "gradio",
-      "likeCount": 119,
+      "likeCount": 131,
       "createdAt": "2026-09-25T09:54:39.000Z"
     },
     {
@@ -888,21 +887,8 @@
       "url": "https://huggingface.co/spaces/thejagstudio/tessera-pixel-studio",
       "description": "Text-to-pixel-art diffusion LLM with live unmasking",
       "sdk": "gradio",
-      "likeCount": 67,
+      "likeCount": 83,
       "createdAt": "2026-11-09T20:45:03.000Z"
-    },
-    {
-      "id": "hf-space:agent-memory-leaderboard/leaderboard",
-      "source": "huggingface",
-      "kind": "space",
-      "name": "leaderboard",
-      "owner": "agent-memory-leaderboard",
-      "displayName": "Agent Memory Leaderboard",
-      "url": "https://huggingface.co/spaces/agent-memory-leaderboard/leaderboard",
-      "description": "Cycle 2 · Three memory tracks · Release November 19, 2026.",
-      "sdk": "static",
-      "likeCount": 941,
-      "createdAt": "2026-08-06T15:18:18.000Z"
     },
     {
       "id": "hf-space:rdata92/LTX-2.3-10Eros",
@@ -914,21 +900,8 @@
       "url": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros",
       "description": "ltx 2.3 improved image-to-video with 10eros & native audio",
       "sdk": "gradio",
-      "likeCount": 233,
+      "likeCount": 247,
       "createdAt": "2026-10-15T12:54:41.000Z"
-    },
-    {
-      "id": "hf-space:AST-1320/Qwen-2511-Plus-Flux.2-klein",
-      "source": "huggingface",
-      "kind": "space",
-      "name": "Qwen-2511-Plus-Flux.2-klein",
-      "owner": "AST-1320",
-      "displayName": "Qwen 2511 + Flux.2 Klein",
-      "url": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein",
-      "description": "Edit images with Qwen and enhance with FLUX.2 Klein",
-      "sdk": "gradio",
-      "likeCount": 483,
-      "createdAt": "2026-09-19T10:48:19.000Z"
     },
     {
       "id": "hf-space:hugging-apps/clairic",
@@ -940,21 +913,21 @@
       "url": "https://huggingface.co/spaces/hugging-apps/clairic",
       "description": "Cloudflare Clairic 27B typed structured extraction",
       "sdk": "gradio",
-      "likeCount": 52,
+      "likeCount": 59,
       "createdAt": "2026-11-18T23:16:18.000Z"
     },
     {
-      "id": "hf-space:HuggingFaceSwarms/PyBot",
+      "id": "hf-space:microsoft/TRELLIS.2",
       "source": "huggingface",
       "kind": "space",
-      "name": "PyBot",
-      "owner": "HuggingFaceSwarms",
-      "displayName": "PyBot",
-      "url": "https://huggingface.co/spaces/HuggingFaceSwarms/PyBot",
-      "description": "Can Python be a chatbot?",
-      "sdk": "docker",
-      "likeCount": 52,
-      "createdAt": "2026-11-11T22:48:36.000Z"
+      "name": "TRELLIS.2",
+      "owner": "microsoft",
+      "displayName": "TRELLIS.2",
+      "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
+      "description": "High-fidelity 3D Generation from images",
+      "sdk": "gradio",
+      "likeCount": 2457,
+      "createdAt": "2025-12-10T03:50:25.000Z"
     },
     {
       "id": "hf-space:Guaryn/qwen-image-2.1-uncensored-aio-loras",
@@ -966,21 +939,8 @@
       "url": "https://huggingface.co/spaces/Guaryn/qwen-image-2.1-uncensored-aio-loras",
       "description": "Uncensored Qwen 2.1 with All-In-One LoRAs",
       "sdk": "gradio",
-      "likeCount": 242,
+      "likeCount": 250,
       "createdAt": "2026-10-20T11:23:06.000Z"
-    },
-    {
-      "id": "hf-space:selfit-camera/Omni-Image-Editor",
-      "source": "huggingface",
-      "kind": "space",
-      "name": "Omni-Image-Editor",
-      "owner": "selfit-camera",
-      "displayName": "Omni Image Editor",
-      "url": "https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor",
-      "description": "Image edit, text to image, image upscale, remove watermark",
-      "sdk": "gradio",
-      "likeCount": 2982,
-      "createdAt": "2025-12-13T03:04:18.000Z"
     },
     {
       "id": "hf-space:aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
@@ -992,8 +952,47 @@
       "url": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental",
       "description": "Demo of the Collection of Qwen Image Edit LoRAs",
       "sdk": "gradio",
-      "likeCount": 614,
+      "likeCount": 625,
       "createdAt": "2026-02-27T11:06:16.000Z"
+    },
+    {
+      "id": "hf-space:Zyphra/ZONOS3-Mini",
+      "source": "huggingface",
+      "kind": "space",
+      "name": "ZONOS3-Mini",
+      "owner": "Zyphra",
+      "displayName": "ZONOS3 Mini",
+      "url": "https://huggingface.co/spaces/Zyphra/ZONOS3-Mini",
+      "description": "Multilingual TTS with voice cloning and steering controls",
+      "sdk": "gradio",
+      "likeCount": 61,
+      "createdAt": "2026-11-04T11:10:39.000Z"
+    },
+    {
+      "id": "hf-space:nvidia/PhysicalAI-Human-1M-Explorer",
+      "source": "huggingface",
+      "kind": "space",
+      "name": "PhysicalAI-Human-1M-Explorer",
+      "owner": "nvidia",
+      "displayName": "Human-1M Exploration and Search",
+      "url": "https://huggingface.co/spaces/nvidia/PhysicalAI-Human-1M-Explorer",
+      "description": "Human-1M: 100K hours of sensorized human demonstrations",
+      "sdk": "static",
+      "likeCount": 66,
+      "createdAt": "2026-11-04T22:32:07.000Z"
+    },
+    {
+      "id": "hf-space:software-mansion/Reverb-TTS-runntime",
+      "source": "huggingface",
+      "kind": "space",
+      "name": "Reverb-TTS-runntime",
+      "owner": "software-mansion",
+      "displayName": "Reverb-TTS on ruNNtime",
+      "url": "https://huggingface.co/spaces/software-mansion/Reverb-TTS-runntime",
+      "description": "Reverb-TTS voice cloning on your GPU through WebGPU",
+      "sdk": "static",
+      "likeCount": 29,
+      "createdAt": "2026-11-19T11:41:42.000Z"
     }
   ]
 }
