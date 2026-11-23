@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T11:58:00.729Z",
+  "generatedAt": "2026-11-23T14:00:00.102Z",
   "stories": [
     {
       "id": "a9acfa6a-5c16-46b0-8b70-a7ffff51a088",
@@ -894,6 +894,44 @@
       ]
     },
     {
+      "id": "0e905bf9-fc52-4b6a-812f-6f84cd0e8a20",
+      "title": "Anthropic let Claude run for two weeks in staging, load testing infrastructure and fixing what broke",
+      "summary": "An Anthropic engineer described how the company tests and verifies work done by Claude, Geeky Gadgets reports.\n\n- Claude ran continuously for two weeks in a staging environment, load testing infrastructure and fixing what it found broken\n- Verification loops pass Claude Code's work to separate review and verification steps, catching problems before changes are merged",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-23T13:59:52.390Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T13:59:52.390Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic Engineer Explains How to Verify Claude Code Builds",
+          "url": "https://www.geeky-gadgets.com/claude-code-4/",
+          "publishedAt": "2026-11-23T12:48:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "50891677-8ec9-4236-b2b6-f400fef3f4e6",
+      "title": "Paradromics taps Nvidia hardware and software to process brain-computer interface data",
+      "summary": "Brain-computer interface company Paradromics is using Nvidia's computing hardware and software to process brain data, WIRED reports, extending Nvidia's reach from AI data centers into neurotech.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-11-23T13:59:45.783Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T13:59:45.783Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
+          "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+          "publishedAt": "2026-11-23T13:11:48.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "a888668f-d363-4ec6-abd4-97ffb04b3572",
       "title": "Anthropic researcher claims Claude helped prove the Riemann Hypothesis",
       "summary": "Anthropic employee Levent Alpöge says he worked with Claude to discover a proof of the Riemann Hypothesis, the famous unsolved problem Gizmodo calls mathematics' \"white whale.\" No one has independently verified the claim yet, and outlets are treating it as an open question.",
@@ -1484,6 +1522,13 @@
           "url": "https://www.geeky-gadgets.com/gemini-4-neon-features/",
           "publishedAt": "2026-11-19T12:43:00.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Google AI Studio Adds Gemini 4 Models to Build Apps Without Code",
+          "url": "https://www.geeky-gadgets.com/google-ai-studio-gemini-4-builder/",
+          "publishedAt": "2026-11-23T13:17:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -2003,72 +2048,8 @@
       "tags": [
         "open-source"
       ]
-    },
-    {
-      "id": "7d6866f3-7957-44c1-acbd-65edf8403187",
-      "title": "Commerce moves to close the \"remote access loophole\" on US AI chips after reportedly stalling a crackdown",
-      "summary": "The Commerce Department is moving to close the so-called \"remote access loophole\" that lets Chinese firms use American AI chips, after criticism that it wasn't doing enough to keep chips away from Chinese tech companies.\n\n- Trump had reportedly approved an AI chip export crackdown (per Axios), but Commerce Secretary Howard Lutnick was said to be stalling it\n- Chinese firms had been racing to exploit a remaining Nvidia loophole before it closed\n- The crackdown comes even as the administration tries to promote the use of American-made AI overseas",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-11T22:28:18.677Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T19:38:31.987Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Howard Lutnick Doesn’t Want to Stop the Flow of Nvidia Chips Overseas: Report",
-          "url": "https://gizmodo.com/howard-lutnick-doesnt-want-to-stop-the-flow-of-nvidia-chips-overseas-report-2000838506",
-          "publishedAt": "2026-11-11T22:02:37.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "China Is Racing to Exploit an Nvidia Loophole Before the Trump Admin Slams It Shut",
-          "url": "https://gizmodo.com/china-is-racing-to-exploit-an-nvidia-loophole-before-the-trump-admin-slams-it-shut-2000839012",
-          "publishedAt": "2026-11-12T17:50:21.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Admin Moves to Strangle China’s Remote Access to American AI Chips",
-          "url": "https://gizmodo.com/trump-admin-moves-to-strangle-chinas-remote-access-to-american-ai-chips-2000840511",
-          "publishedAt": "2026-11-16T17:40:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
-          "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
-          "publishedAt": "2026-11-18T21:15:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
-    },
-    {
-      "id": "3ee2d7f2-5a55-4c56-8f6a-fa4a56c8d7cb",
-      "title": "Cloudflare open-weights its Clairic and new Clairic-flash extraction models on Workers AI",
-      "summary": "Cloudflare's new Workers AI Superintelligence team has made its Clairic extraction model generally available, out of preview. It also added a new Clairic-flash model to Workers AI and released open weights for both.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-19T04:23:20.095Z",
-      "lastMeaningfulUpdateAt": "2026-11-19T04:23:20.095Z",
-      "sources": [
-        {
-          "providerName": "Cloudflare Blog",
-          "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
-          "url": "https://blog.cloudflare.com/open-clairic/",
-          "publishedAt": "2026-11-18T22:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 87,
+  "totalCount": 89,
   "hasMore": true
 }
