@@ -1,6 +1,35 @@
 {
-  "generatedAt": "2026-11-23T07:53:56.814Z",
+  "generatedAt": "2026-11-23T09:56:06.088Z",
   "stories": [
+    {
+      "id": "1c8f89de-866a-4a0c-8df5-f93e4cd4eec5",
+      "title": "Microsoft's Copilot Autopilot agents get their own email and Entra identity as they roll out after Ignite",
+      "summary": "Microsoft's Copilot Autopilot lets users build no-code personal AI agents that run in the cloud and keep working while their device is off.\n\n- Agents follow conversations, monitor projects and handle recurring work toward assigned goals without repeated prompting\n- Announced at Ignite 2026: each Autopilot agent has its own memory, email address, computer and Entra identity, and can run scheduled routines\n- Rolling out through Copilot Frontier; requires a paid Microsoft 365 Copilot license plus usage credits",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-19T12:29:10.403Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T09:55:56.745Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Microsoft Copilot Autopilot Works While Your Laptop is Off",
+          "url": "https://www.geeky-gadgets.com/microsoft-autopilot-features/",
+          "publishedAt": "2026-11-19T11:17:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Microsoft Copilot Autopilot Gets Its Own Email and Entra Account",
+          "url": "https://www.geeky-gadgets.com/microsoft-365-2026-ignite-announcements/",
+          "publishedAt": "2026-11-23T08:47:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
+      ]
+    },
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Nvidia's board rules out reinstating Jensen Huang, ousted as CEO amid espionage and affair scandals",
@@ -802,6 +831,25 @@
       ]
     },
     {
+      "id": "18684f3c-cbb8-4668-a813-dca7590b8cbb",
+      "title": "Steam hits a record 1,656 game launches in one week, a surge attributed to AI-assisted development",
+      "summary": "Steam saw 1,656 games released in a single week in October 2026, more than double its previous record of 757 set just weeks earlier, per Bellular News via Geeky Gadgets. Much of the surge is attributed to fast AI-assisted prototyping, raising concerns that players will struggle to find games amid the flood.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-23T09:55:54.616Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T09:55:54.616Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Fast AI Prototyping Helps Steam Hit 1,656 Weekly Game Launches",
+          "url": "https://www.geeky-gadgets.com/steam-ai-release-surge/",
+          "publishedAt": "2026-11-23T09:47:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "e0b6e4bc-279b-4fa6-acdb-e8060e4e015a",
       "title": "Meta AI chief Alexandr Wang says superintelligence may come sooner than expected, flags 2027",
       "summary": "Meta AI chief Alexandr Wang says superintelligence could arrive sooner than expected and calls 2027 a potentially defining year for AI. He also raised concerns about how hard superintelligent systems may be to control, per Mashable.",
@@ -1379,27 +1427,6 @@
       ]
     },
     {
-      "id": "1c8f89de-866a-4a0c-8df5-f93e4cd4eec5",
-      "title": "Microsoft Copilot adds Autopilot, cloud-run personal agents that keep working while your laptop is off",
-      "summary": "Microsoft Copilot's new Autopilot feature lets users create no-code personal AI agents that run in the cloud, follow conversations, monitor projects and handle recurring work toward assigned goals without repeated prompts, even when the user's device is off, per Geeky Gadgets.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-19T12:29:10.403Z",
-      "lastMeaningfulUpdateAt": "2026-11-19T12:29:10.403Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Microsoft Copilot Autopilot Works While Your Laptop is Off",
-          "url": "https://www.geeky-gadgets.com/microsoft-autopilot-features/",
-          "publishedAt": "2026-11-19T11:17:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
       "id": "3f7c2f83-96bc-4ffe-bf8e-a8737fbae28b",
       "title": "Apple is reportedly building a full-featured AI agent that goes well beyond Siri",
       "summary": "An Apple job listing for a senior AI engineering manager describes an agent that handles device control, apps, browsing, and coding, according to Gizmodo. That would go far beyond what Siri AI can do today. Separately, unconfirmed early iOS 28 leaks (codename \"Bell\") reported by Geeky Gadgets describe an agent-style Siri tied to 2027 hardware.",
@@ -1420,6 +1447,13 @@
           "title": "Inside Early iOS 28 Leaks: Agent-Style Siri AI, Codename “Bell,” and 2027 Hardware Support",
           "url": "https://www.geeky-gadgets.com/ios-28-codenamed-bell-leaks/",
           "publishedAt": "2026-11-21T14:00:19.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Inside the iPhone 20 AI Rumors: A Proactive AI Agent Built to Rival ChatGPT and Gemini",
+          "url": "https://www.geeky-gadgets.com/iphone-20-siri-ai-upgrade/",
+          "publishedAt": "2026-11-23T08:00:42.000Z",
           "contribution": "supporting"
         }
       ],
@@ -2053,27 +2087,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "b7461658-16d0-4e8a-a228-9d8e7bbb26e8",
-      "title": "Canva adds a kill switch that lets creators turn off its AI features",
-      "summary": "Canva added an easy way to opt out of its AI features, acknowledging that \"AI doesn't suit every task.\" It is aimed at creators who avoid AI for legal and ethical reasons, per CNET.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-19T16:31:12.117Z",
-      "lastMeaningfulUpdateAt": "2026-11-19T16:31:12.117Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Canva Has a New Kill Switch for AI: ‘We Know AI Doesn’t Suit Every Task’",
-          "url": "https://www.cnet.com/tech/services-and-software/canva-design-ai-kill-switch-news-2026/",
-          "publishedAt": "2026-11-19T12:30:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 86,
+  "totalCount": 87,
   "hasMore": true
 }
