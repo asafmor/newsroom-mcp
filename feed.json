@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T16:02:11.209Z",
+  "generatedAt": "2026-11-23T18:04:11.674Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -506,6 +506,13 @@
           "url": "https://gizmodo.com/jensen-huang-is-back-as-ceo-of-nvidia-2000843880",
           "publishedAt": "2026-11-23T14:20:55.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Jensen Huang Is Back and So Is Nvidia’s Stock",
+          "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
+          "publishedAt": "2026-11-23T17:52:56.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -561,6 +568,27 @@
       "tags": [
         "product-launch",
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "4a4bc1b6-8045-437c-ae2a-ea876884e801",
+      "title": "Google DeepMind uses agent teams and formal verification to find faster quantum algorithms",
+      "summary": "Google DeepMind says it used teams of AI agents, checked by formal verification, to improve quantum algorithms for fusion and chemistry problems. The source item carries only a brief description, so the specific speedups aren't available yet.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-23T18:04:01.133Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T18:04:01.133Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "Finding faster quantum algorithms with agents and formal verification",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+          "publishedAt": "2026-11-23T16:59:40.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -1009,6 +1037,27 @@
           "title": "The most misunderstood graph in AI just got a major update",
           "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
           "publishedAt": "2026-11-20T18:15:15.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "9f70e659-3a92-4ac8-a4cc-0e049a72e841",
+      "title": "Ai2 introduces RoboTrack, point tracking for real-world robotic manipulation",
+      "summary": "Ai2 published RoboTrack on the Hugging Face blog, a point-tracking approach aimed at real-world robotic manipulation. The source item carries no description, so details on the method and results aren't available yet.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-23T18:04:03.110Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T18:04:03.110Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+          "url": "https://huggingface.co/blog/allenai/robotrack",
+          "publishedAt": "2026-11-23T17:20:37.000Z",
           "contribution": "supporting"
         }
       ],
@@ -2008,46 +2057,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "0fa1c200-eb88-4a2f-bbf8-6f82aab86deb",
-      "title": "AI accelerationists are trying to stop Anthropic, Gizmodo reports",
-      "summary": "AI accelerationists, who usually oppose slowing AI down, are now trying to stop Anthropic, Gizmodo reports, noting the irony that they do back some AI slowdowns after all. The source item doesn't say what action they're taking or which Anthropic effort they're targeting.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-18T20:17:03.789Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T20:17:03.789Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "The Accelerationists Are Trying to Stop Anthropic",
-          "url": "https://gizmodo.com/the-accelerationists-are-trying-to-stop-anthropic-2000841831",
-          "publishedAt": "2026-11-18T19:40:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "dd27ed3b-6830-4bec-b739-aa4fe9a2c957",
-      "title": "Claude Code and Codex still send conversation history and usage data with telemetry off, an analysis finds",
-      "summary": "A Geeky Gadgets look at the network traffic of Anthropic's Claude Code and OpenAI's Codex finds both coding agents can still send conversation history, usage data, and other requests with telemetry turned off. What leaves the machine depends on the requests each tool makes and the user's settings.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-20T12:47:30.712Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T12:47:30.712Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "ChatGPT and Claude Send Conversation History with Telemetry Off",
-          "url": "https://www.geeky-gadgets.com/claude-code-3/",
-          "publishedAt": "2026-11-20T10:44:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 90,
+  "totalCount": 88,
   "hasMore": true
 }
