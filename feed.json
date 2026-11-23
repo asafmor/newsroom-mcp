@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T05:52:26.980Z",
+  "generatedAt": "2026-11-23T07:53:56.814Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -802,6 +802,28 @@
       ]
     },
     {
+      "id": "e0b6e4bc-279b-4fa6-acdb-e8060e4e015a",
+      "title": "Meta AI chief Alexandr Wang says superintelligence may come sooner than expected, flags 2027",
+      "summary": "Meta AI chief Alexandr Wang says superintelligence could arrive sooner than expected and calls 2027 a potentially defining year for AI. He also raised concerns about how hard superintelligent systems may be to control, per Mashable.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-23T07:53:49.400Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T07:53:49.400Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "Meta AI Chief Alexandr Wang Warns of Superintelligence, Says 2027 Could Be a Defining Year",
+          "url": "https://in.mashable.com/tech/116487/meta-ai-chief-alexandr-wang-warns-of-superintelligence-says-2027-could-be-a-defining-year",
+          "publishedAt": "2026-11-23T06:44:04.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion",
+        "safety"
+      ]
+    },
+    {
       "id": "a888668f-d363-4ec6-abd4-97ffb04b3572",
       "title": "Anthropic researcher claims Claude helped prove the Riemann Hypothesis",
       "summary": "Anthropic employee Levent Alpöge says he worked with Claude to discover a proof of the Riemann Hypothesis, the famous unsolved problem Gizmodo calls mathematics' \"white whale.\" No one has independently verified the claim yet, and outlets are treating it as an open question.",
@@ -934,6 +956,27 @@
       "tags": [
         "infrastructure",
         "regulation"
+      ]
+    },
+    {
+      "id": "291f7bb5-f9f7-4fa6-ad9b-2316cd4702cb",
+      "title": "ChatGPT mobile app redesign adds a dedicated Dots tab and new navigation",
+      "summary": "OpenAI rolled out a refreshed ChatGPT mobile app with a dedicated tab for Dots, its personal agents, and a reorganized navigation meant to make features easier to reach, per Mashable.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-23T07:53:51.400Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T07:53:51.400Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "ChatGPT App Update Introduces Dedicated Dots Tab And New Navigation: Details Inside",
+          "url": "https://in.mashable.com/tech/116485/chatgpt-app-update-introduces-dedicated-dots-tab-and-new-navigation-details-inside",
+          "publishedAt": "2026-11-23T06:17:06.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -1197,6 +1240,25 @@
       "tags": [
         "research"
       ]
+    },
+    {
+      "id": "e14fad52-3db7-4024-9536-b2a542cc9976",
+      "title": "Anthropic engineer: cutting 80% of Claude Code's system prompt didn't hurt test results for two models",
+      "summary": "An Anthropic engineer found that removing 80% of Claude Code's system prompt for two models caused no measurable drop in test results, Geeky Gadgets reports. The takeaway for users: skip loading instructions you don't need, so your Claude usage allowance goes further.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-23T07:53:47.119Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T07:53:47.119Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic Engineer Shares How to Avoid Hitting Claude Code Token Limits",
+          "url": "https://www.geeky-gadgets.com/anthropic-claude-token-limit/",
+          "publishedAt": "2026-11-23T07:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "2f115f03-611e-4698-91cd-f198641624c9",
@@ -2010,69 +2072,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "9e4656b7-7514-44ef-94c7-55b06cc9ed52",
-      "title": "Osmo says its AI nose, built on a foundation model for smell, is as good as a human's",
-      "summary": "AI startup Osmo says its AI nose now matches a human's. It's training what it calls the world's first foundation model for smell on notes from about 30 expert human sniffers in a New Jersey lab, cross-referenced with chemical analysis of each odor.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-18T12:09:10.559Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T12:09:10.559Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "This smell startup says its AI nose is as good as a human’s",
-          "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-          "publishedAt": "2026-11-18T10:20:30.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "333aa0af-0234-4050-aee6-8941f009de4a",
-      "title": "Google will keep Gemini chat logs for two months, even with history turned off",
-      "summary": "Google says it will retain Gemini chat logs for two months even for users who have turned Gemini history off. Gizmodo reports that the company frames the change as being for users' own good.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-17T23:58:47.623Z",
-      "lastMeaningfulUpdateAt": "2026-11-17T23:58:47.623Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google to Keep AI Chat Logs for Two Months, Even With Gemini History Turned Off",
-          "url": "https://gizmodo.com/google-to-keep-ai-chat-logs-for-two-months-even-with-gemini-history-turned-off-2000841271",
-          "publishedAt": "2026-11-17T22:00:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "96275c2e-3100-4fbf-b98c-ef7097f9c8b2",
-      "title": "The Fed is worried AI agents could trigger a bank run in minutes",
-      "summary": "The Federal Reserve is worried that AI agents moving money for users could trigger bank runs within minutes, Gizmodo reports. Meanwhile, the AI industry's mountain of debt is finding its way into life insurance.",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.82,
-      "firstSeenAt": "2026-11-16T21:40:56.909Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T21:40:56.909Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "The Fed Is Worried AI Agents Could Trigger a Bank Run",
-          "url": "https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566",
-          "publishedAt": "2026-11-16T20:50:15.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 84,
+  "totalCount": 86,
   "hasMore": true
 }
