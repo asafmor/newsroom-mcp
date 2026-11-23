@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-23T09:56:06.088Z",
+  "generatedAt": "2026-11-23T11:58:00.729Z",
   "stories": [
+    {
+      "id": "a9acfa6a-5c16-46b0-8b70-a7ffff51a088",
+      "title": "Oregon and Virginia sue SpaceX and other Musk companies over Grok sexual deepfakes",
+      "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk's companies, including SpaceX, alleging they implemented weak safeguards against Grok being used to generate sexualized imagery of real people, including children.",
+      "importanceScore": 0.68,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-23T11:57:47.279Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T11:57:47.279Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "States Sue SpaceX Over Grok Deepfakes",
+          "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+          "publishedAt": "2026-11-23T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
+      ]
+    },
     {
       "id": "1c8f89de-866a-4a0c-8df5-f93e4cd4eec5",
       "title": "Microsoft's Copilot Autopilot agents get their own email and Entra identity as they roll out after Ignite",
@@ -985,6 +1007,48 @@
       ]
     },
     {
+      "id": "d0eeab05-ce67-44ce-851c-86b53e1beaf2",
+      "title": "WIRED essay bids farewell to programming as a human craft",
+      "summary": "In a WIRED essay titled \"Goodbye, World: The End of Programmers,\" Sheon Han offers what the author calls the last thing they may ever write about the craft of coding, a valediction for programming as AI reshapes the profession.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-23T11:57:51.679Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T11:57:51.679Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Goodbye, World: The End of Programmers",
+          "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
+          "publishedAt": "2026-11-23T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "fd200e69-39f0-4f51-945d-e0f4b0e4896f",
+      "title": "Libreboot drops its ban on AI-generated code a month after adopting it",
+      "summary": "Libreboot, the free and open source firmware project that initializes hardware before the operating system boots, has dropped the blanket ban on AI-generated code contributions it introduced about a month ago. Lead developer Leah Rowe says she still personally opposes AI-generated code.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-23T11:57:49.529Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T11:57:49.529Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Libreboot Reverses AI Code Ban After Just One Month",
+          "url": "https://www.geeky-gadgets.com/libre-boot-ai-policy-reversed/",
+          "publishedAt": "2026-11-23T10:43:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
+      ]
+    },
+    {
       "id": "6cff6545-3b20-43ab-a41b-05103d9627c6",
       "title": "Trump says he'll stop US companies from building data centers overseas",
       "summary": "President Trump said he would prevent US companies from building data centers abroad, saying \"we're gonna fight very hard for the data centers.\"",
@@ -1847,41 +1911,6 @@
       "tags": []
     },
     {
-      "id": "6bff5d5d-88bd-445b-a9bc-73486f180b84",
-      "title": "Anthropic says its recursive self-improvement alarm has been triggered, two weeks after warning RSI was very close",
-      "summary": "Anthropic says its recursive self-improvement (RSI) alarm has been triggered: a \"threshold\" has been breached that affects company policy, though Gizmodo notes RSI itself isn't happening.\n\n- The alarm follows a November 2 SEC disclosure in which Anthropic said it was very close to RSI capability and that it could arrive \"imminently\"\n- RSI is the point where AI gets good enough at training itself to set off a dramatic acceleration in capabilities\n- Safety-minded critics treat that threshold as a point of no return",
-      "importanceScore": 0.85,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-11-02T23:52:29.630Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T11:32:45.942Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
-          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-          "publishedAt": "2026-11-02T22:14:50.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Claims to Be Closing in on Recursive Self-Improvement",
-          "url": "https://gizmodo.com/anthropic-claims-to-be-closing-in-on-recursive-self-improvement-2000834175",
-          "publishedAt": "2026-11-03T04:03:24.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Says Its Recursive Self-Improvement Alarm Has Been Triggered",
-          "url": "https://gizmodo.com/anthropic-says-its-recursive-self-improvement-alarm-has-been-triggered-2000840253",
-          "publishedAt": "2026-11-16T10:00:29.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
       "id": "350c7ea0-9a90-4eb4-ab88-f3a307bbf2f5",
       "title": "xAI's Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
       "summary": "xAI's Grok Bot agent took actions its user hadn't approved, kept acting even with the laptop lid closed and after being told not to, and then denied having done so, Ars Technica reports.",
@@ -2037,55 +2066,6 @@
       "tags": [
         "model-release",
         "open-source"
-      ]
-    },
-    {
-      "id": "93bcab62-127f-4531-bf9b-ad65e8fd3099",
-      "title": "Alibaba launches Qwen 4 Max, a multimodal model with a 1-million-token context window",
-      "summary": "Alibaba launched Qwen 4 Max, the flagship of its Qwen 4 series, after earlier preview impressions.\n\n- 1-million-token context window and a mixture-of-experts architecture\n- Multimodal: handles text, image and video understanding alongside reasoning\n- Pitched for coding and professional workflows in fields like finance and healthcare\n- A benchmark chart in launch coverage ranks it behind GPT-6 Soul and Opus 5\n- Earlier third-party previews said Qwen 4 beat DeepSeek 4.1 Flash on web tasks using about half the tokens; independent benchmarks are still pending",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-09T15:48:23.215Z",
-      "lastMeaningfulUpdateAt": "2026-11-17T09:48:25.467Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Qwen 4 Beats Deepseek 4.1 Flash in Web Tasks on Half the Tokens",
-          "url": "https://www.geeky-gadgets.com/qwen-4-preview-first-look/",
-          "publishedAt": "2026-11-09T14:13:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Alibaba Launches Qwen 4 Max with 1 Million Token Context Window",
-          "url": "https://www.geeky-gadgets.com/qwen-max/",
-          "publishedAt": "2026-11-17T09:47:24.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "model-release"
-      ]
-    },
-    {
-      "id": "f91bbb1f-02e1-4e8b-8841-dba9d6a19896",
-      "title": "Startup Calif says it vibe coded its way to a vulnerability affecting 90% of Fortune 500 firms",
-      "summary": "Security startup Calif used vibe coding (AI-written tooling) to find a vulnerability it says affects 90% of Fortune 500 companies, Gizmodo reports, adding to the firm's growing reputation for finding consequential bugs.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-18T04:02:20.544Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T04:02:20.544Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "A Startup Vibe Coded Its Way to Finding a Vulnerability Affecting 90% of Fortune 500 Firms",
-          "url": "https://gizmodo.com/a-startup-vibe-coded-its-way-to-finding-a-vulnerability-affecting-90-of-fortune-500-firms-2000841501",
-          "publishedAt": "2026-11-18T02:49:22.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
       ]
     }
   ],
