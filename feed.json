@@ -1,65 +1,14 @@
 {
-  "generatedAt": "2026-11-23T14:00:00.102Z",
+  "generatedAt": "2026-11-23T16:02:11.209Z",
   "stories": [
     {
-      "id": "a9acfa6a-5c16-46b0-8b70-a7ffff51a088",
-      "title": "Oregon and Virginia sue SpaceX and other Musk companies over Grok sexual deepfakes",
-      "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk's companies, including SpaceX, alleging they implemented weak safeguards against Grok being used to generate sexualized imagery of real people, including children.",
-      "importanceScore": 0.68,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-23T11:57:47.279Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T11:57:47.279Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "States Sue SpaceX Over Grok Deepfakes",
-          "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
-          "publishedAt": "2026-11-23T11:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation",
-        "safety"
-      ]
-    },
-    {
-      "id": "1c8f89de-866a-4a0c-8df5-f93e4cd4eec5",
-      "title": "Microsoft's Copilot Autopilot agents get their own email and Entra identity as they roll out after Ignite",
-      "summary": "Microsoft's Copilot Autopilot lets users build no-code personal AI agents that run in the cloud and keep working while their device is off.\n\n- Agents follow conversations, monitor projects and handle recurring work toward assigned goals without repeated prompting\n- Announced at Ignite 2026: each Autopilot agent has its own memory, email address, computer and Entra identity, and can run scheduled routines\n- Rolling out through Copilot Frontier; requires a paid Microsoft 365 Copilot license plus usage credits",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-19T12:29:10.403Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T09:55:56.745Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Microsoft Copilot Autopilot Works While Your Laptop is Off",
-          "url": "https://www.geeky-gadgets.com/microsoft-autopilot-features/",
-          "publishedAt": "2026-11-19T11:17:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Microsoft Copilot Autopilot Gets Its Own Email and Entra Account",
-          "url": "https://www.geeky-gadgets.com/microsoft-365-2026-ignite-announcements/",
-          "publishedAt": "2026-11-23T08:47:00.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "product-launch",
-        "enterprise-adoption"
-      ]
-    },
-    {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
-      "title": "Nvidia's board rules out reinstating Jensen Huang, ousted as CEO amid espionage and affair scandals",
-      "summary": "Jensen Huang, Nvidia's cofounder and CEO of 33 years, is out after the company investigated his affair with a woman US intelligence links to a Chinese spy plot, and the board says it won't bring him back.\n\n- The NYT says the woman is a recruit of China's Ministry of State Security and a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China. The relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- WIRED's sources say the board's main problem was Huang's \"lack of candor,\" amid allegations of multiple affairs, including one with a direct report\n- The board chair said Nvidia is not considering reinstating him, despite pressure from Trump, Elon Musk, Silicon Valley executives, and some Nvidia employees\n- CFO Colette Kress is interim CEO and promised across-the-board pay raises and more equity at her first all-hands. Trump still promotes former Apple CEO Tim Cook as a possible successor\n- Huang agreed to testify before Congress, and Democrats have opened a second investigation into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- Nvidia stock slid on the scandal, and investors proposed a class action",
+      "title": "Nvidia reinstates Jensen Huang as CEO, a week after his ouster amid espionage and affair scandals",
+      "summary": "Nvidia's board unanimously reinstated Jensen Huang as CEO, a little more than a week after he resigned amid allegations of multiple affairs, including one with a woman US intelligence links to a Chinese spy plot.\n\n- The reversal followed signals of support for Huang from the Trump administration over the weekend. Days earlier, the board chair had said Nvidia was not considering bringing him back\n- The NYT says the woman is a recruit of China's Ministry of State Security and a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China. The relationship reportedly helped route $7.5B in Nvidia AI chips to Chinese firms\n- WIRED's sources said the board's main problem was Huang's \"lack of candor,\" amid allegations of multiple affairs, including one with a direct report\n- CFO Colette Kress served as interim CEO in the meantime, promising across-the-board pay raises and more equity\n- Huang agreed to testify before Congress, and Democrats have opened a second investigation into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- Nvidia stock slid on the scandal, and investors proposed a class action",
       "importanceScore": 0.95,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T20:54:08.584Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T16:01:54.693Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -543,10 +492,75 @@
           "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
           "publishedAt": "2026-11-20T19:52:21.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Jensen Huang Is Back as Nvidia CEO",
+          "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+          "publishedAt": "2026-11-23T14:27:35.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Jensen Huang Is Back as CEO of Nvidia",
+          "url": "https://gizmodo.com/jensen-huang-is-back-as-ceo-of-nvidia-2000843880",
+          "publishedAt": "2026-11-23T14:20:55.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "a9acfa6a-5c16-46b0-8b70-a7ffff51a088",
+      "title": "Oregon and Virginia sue SpaceX and other Musk companies over Grok sexual deepfakes",
+      "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk's companies, including SpaceX, alleging they implemented weak safeguards against Grok being used to generate sexualized imagery of real people, including children.",
+      "importanceScore": 0.68,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-23T11:57:47.279Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T11:57:47.279Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "States Sue SpaceX Over Grok Deepfakes",
+          "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+          "publishedAt": "2026-11-23T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
+      ]
+    },
+    {
+      "id": "1c8f89de-866a-4a0c-8df5-f93e4cd4eec5",
+      "title": "Microsoft's Copilot Autopilot agents get their own email and Entra identity as they roll out after Ignite",
+      "summary": "Microsoft's Copilot Autopilot lets users build no-code personal AI agents that run in the cloud and keep working while their device is off.\n\n- Agents follow conversations, monitor projects and handle recurring work toward assigned goals without repeated prompting\n- Announced at Ignite 2026: each Autopilot agent has its own memory, email address, computer and Entra identity, and can run scheduled routines\n- Rolling out through Copilot Frontier; requires a paid Microsoft 365 Copilot license plus usage credits",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-19T12:29:10.403Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T09:55:56.745Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Microsoft Copilot Autopilot Works While Your Laptop is Off",
+          "url": "https://www.geeky-gadgets.com/microsoft-autopilot-features/",
+          "publishedAt": "2026-11-19T11:17:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Microsoft Copilot Autopilot Gets Its Own Email and Entra Account",
+          "url": "https://www.geeky-gadgets.com/microsoft-365-2026-ignite-announcements/",
+          "publishedAt": "2026-11-23T08:47:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch",
+        "enterprise-adoption"
       ]
     },
     {
@@ -1289,6 +1303,25 @@
       ]
     },
     {
+      "id": "0740d906-3752-4811-975d-f27e4ad4eb11",
+      "title": "Hugging Face publishes a guide to building and maintaining agentic evaluations",
+      "summary": "Hugging Face published a blog post on how to build an evaluation for AI agents and keep it maintained over time.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-23T16:02:00.146Z",
+      "lastMeaningfulUpdateAt": "2026-11-23T16:02:00.146Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "How to build and maintain an agentic evaluation",
+          "url": "https://huggingface.co/blog/agentic-evals",
+          "publishedAt": "2026-11-23T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "0ce72e4b-3a1b-4820-9613-b46e0df000f0",
       "title": "Etsy says it won't use sellers' content to train AI that copies their work, after a seller revolt",
       "summary": "Etsy added an AI-training clause to its terms of use, and sellers revolted. Etsy has now clarified that it will not use sellers' content to train AI that can copy their work, Engadget reports.",
@@ -2013,43 +2046,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "9d92de3d-8514-4e00-bbd1-009e69d04328",
-      "title": "Huang's exit raises doubts about Nvidia's open-source AI push, as a petition backed by Elon Musk seeks his reinstatement",
-      "summary": "Jensen Huang's resignation has raised questions about whether Nvidia will stay committed to open-source AI.\n\n- The questions cover Nvidia's $12.9B acquisition of Hugging Face, its open-weight models, and its lobbying against restrictions on open models\n- Hugging Face CEO Clem Delangue says he will keep fighting for open-source AI after Huang's exit\n- A petition to reinstate Huang as Nvidia CEO began circulating Friday and has drawn notable signatories including Elon Musk; MIT Technology Review frames it as the open-source movement wanting him back",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-12T18:41:41.791Z",
-      "lastMeaningfulUpdateAt": "2026-11-16T19:38:33.605Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-          "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-          "publishedAt": "2026-11-12T18:39:23.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-          "publishedAt": "2026-11-12T17:36:40.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "MIT AI",
-          "title": "The open-source movement wants Jensen Huang back",
-          "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-          "publishedAt": "2026-11-16T18:38:47.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 89,
+  "totalCount": 90,
   "hasMore": true
 }
