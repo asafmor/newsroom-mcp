@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:15:24.478Z",
+  "generatedAt": "2026-11-24T12:18:07.363Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -548,6 +548,41 @@
       ]
     },
     {
+      "id": "a888668f-d363-4ec6-abd4-97ffb04b3572",
+      "title": "Anthropic researcher's Claude-aided Riemann Hypothesis proof runs 17 million lines and will take months to check",
+      "summary": "Anthropic employee Levent Alpöge says he worked with Claude to produce a proof of the Riemann Hypothesis, the famous unsolved problem Gizmodo calls mathematics' \"white whale.\"\n\n- The solution runs to 17 million lines, and WIRED calls it \"alien\"\n- WIRED reports it will take mathematicians months to understand it\n- WIRED's headline treats the problem as solved, but no one has independently verified the proof yet",
+      "importanceScore": 0.66,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-20T22:56:30.127Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T12:17:42.963Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Researcher Claims AI Has Solved Math’s Greatest Mystery",
+          "url": "https://gizmodo.com/anthropic-researcher-claims-ai-has-solved-maths-greatest-mystery-2000843320",
+          "publishedAt": "2026-11-20T21:35:30.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Anthropic employee claims to have proven the most famous math problem using Claude",
+          "url": "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+          "publishedAt": "2026-11-21T19:45:01.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It",
+          "url": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
+          "publishedAt": "2026-11-24T10:15:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "3cb9260b-ccfc-4989-afaa-6f5d53cf0313",
       "title": "Prosecutors say the OpenAI employee charged with secretly recording meetings was allegedly affiliated with the Saudi government",
       "summary": "Prosecutors allege the OpenAI employee charged with planting a recording device in company meetings was affiliated with the Saudi government, and say the employee also uploaded files to Dropbox and photographed confidential documents.",
@@ -792,6 +827,27 @@
       ],
       "tags": [
         "open-source",
+        "product-launch"
+      ]
+    },
+    {
+      "id": "1b20dceb-1837-48c5-a1fb-59172bbe8af3",
+      "title": "Vercel and shadcn release a UI SDK that lets AI agents use app components, gated by human approval",
+      "summary": "Vercel and shadcn released a new UI SDK that lets AI agents use an app's components directly, instead of reading the whole page and clicking one control at a time. Developers can mark actions that need a person's approval, and the agent holds off on those until someone approves.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-24T12:17:47.358Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T12:17:47.358Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Shadcn UI SDK Blocks AI Agent Actions Until You Approve Them",
+          "url": "https://www.geeky-gadgets.com/shadcn-ui-sdk-agent-bridge/",
+          "publishedAt": "2026-11-24T12:13:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
         "product-launch"
       ]
     },
@@ -1178,34 +1234,6 @@
       "tags": []
     },
     {
-      "id": "a888668f-d363-4ec6-abd4-97ffb04b3572",
-      "title": "Anthropic researcher claims Claude helped prove the Riemann Hypothesis",
-      "summary": "Anthropic employee Levent Alpöge says he worked with Claude to discover a proof of the Riemann Hypothesis, the famous unsolved problem Gizmodo calls mathematics' \"white whale.\" No one has independently verified the claim yet, and outlets are treating it as an open question.",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-20T22:56:30.127Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T22:56:30.127Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Researcher Claims AI Has Solved Math’s Greatest Mystery",
-          "url": "https://gizmodo.com/anthropic-researcher-claims-ai-has-solved-maths-greatest-mystery-2000843320",
-          "publishedAt": "2026-11-20T21:35:30.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Anthropic employee claims to have proven the most famous math problem using Claude",
-          "url": "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
-          "publishedAt": "2026-11-21T19:45:01.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
       "id": "7987a48e-52ab-4c06-9bae-89dfbf5b43d4",
       "title": "Researcher plants 2 million canaries in the AI supply chain and finds user data leaking",
       "summary": "A security researcher seeded about 2 million prompts containing unique, trackable secrets into the AI supply chain. When those secrets showed up again elsewhere, it showed that data sent to AI services doesn't stay private, which Ars Technica calls a privacy disaster.",
@@ -1287,6 +1315,25 @@
       "tags": [
         "research"
       ]
+    },
+    {
+      "id": "e52a8e8a-b7ec-49e9-bb39-960fbe0f7c38",
+      "title": "Claude Code builds the same 3D driving game on budgets from $1 to $1,000 in a cost-versus-output test",
+      "summary": "Claude Code built four playable 3D driving games from the same one-page brief, with spending capped at $1, $10, $100, and $1,000. The cheapest finished for 98 cents. The most expensive ran for almost 12 hours and produced a city with more than 5,000 buildings.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-24T12:17:49.606Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T12:17:49.606Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Claude Code Test Shows What a $1,000 Game Budget Actually Buys",
+          "url": "https://www.geeky-gadgets.com/claude-code-game-budget-comparison/",
+          "publishedAt": "2026-11-24T11:43:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "5e1c3327-7b1b-4f40-b4b1-1c0de220e1b4",
@@ -1740,6 +1787,25 @@
       ]
     },
     {
+      "id": "e8d48668-09a0-49db-b238-afeb8b49a862",
+      "title": "Young people anxious about AI say clashes with their pro-AI parents could make Thanksgiving tense",
+      "summary": "WIRED reports that young people who are anxious about AI's effect on their futures are increasingly frustrated with their pro-AI parents, and worry the divide will make holiday gatherings very tense.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-11-24T12:17:51.459Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T12:17:51.459Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving",
+          "url": "https://www.wired.com/story/dont-bring-up-ai-if-you-want-to-enjoy-your-thanksgiving/",
+          "publishedAt": "2026-11-24T10:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "c0ff7784-75dd-4be6-af76-89c3be4a722f",
       "title": "OpenAI introduces MedChemBench to test AI on early-stage drug discovery",
       "summary": "OpenAI released MedChemBench, a benchmark that tests how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
@@ -2057,82 +2123,21 @@
           "url": "https://www.geeky-gadgets.com/gpt-astra/",
           "publishedAt": "2026-11-21T15:01:47.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Do GPT-6.2 Astra and Gemini 4 Neon Signal the End of Universal AI?",
+          "url": "https://www.geeky-gadgets.com/gpt-astra-2/",
+          "publishedAt": "2026-11-24T11:13:00.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
         "model-release",
         "product-launch"
       ]
-    },
-    {
-      "id": "459a194b-eff8-4fb4-b635-c6fb269a8e8d",
-      "title": "Artex becomes criminals' favorite \"point-and-shoot\" AI hacking tool, after hundreds of its servers were found exposed",
-      "summary": "WIRED reports that Artex and similar AI penetration-testing tools let novice hackers scan targets for vulnerabilities and carry out successful attacks just by prompting chatbots. Earlier, TechCrunch found hundreds of internet-exposed servers hosting Artex that anyone could use.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-06T19:11:35.683Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T18:14:25.811Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-          "publishedAt": "2026-11-06T18:44:38.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
-          "url": "https://www.wired.com/story/artex-ai-hacking-tools/",
-          "publishedAt": "2026-11-18T16:35:24.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "60bebce6-fd0f-4c4a-ba90-22178733faac",
-      "title": "Nvidia stops shipping H200 chips to customers in China",
-      "summary": "Nvidia has stopped shipping its H200 AI chips to customers in China, Gizmodo reports, ending sales the Trump administration had notably begun allowing.",
-      "importanceScore": 0.7,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-18T02:00:41.182Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T02:00:41.182Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Nvidia Stops Shipping H200s to Customers in China",
-          "url": "https://gizmodo.com/nvidia-stops-shipping-h200s-to-customers-in-china-2000841474",
-          "publishedAt": "2026-11-18T01:38:14.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "0d3c24fa-7758-43a4-89e1-633ec2563261",
-      "title": "ChatGPT adds live dictation that lets users talk for as long as they want",
-      "summary": "OpenAI has added a live dictation feature to ChatGPT that lets users speak at length without being cut off, Gizmodo reports, noting the feature could also give OpenAI a trove of new training data ahead of its IPO.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-19T22:36:15.891Z",
-      "lastMeaningfulUpdateAt": "2026-11-19T22:36:15.891Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "ChatGPT’s New Live Dictation Feature Lets You Rant for as Long as You Want",
-          "url": "https://gizmodo.com/chatgpts-new-live-dictation-feature-lets-you-rant-for-as-long-as-you-want-2000842516",
-          "publishedAt": "2026-11-19T21:25:59.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 86,
+  "totalCount": 89,
   "hasMore": true
 }
