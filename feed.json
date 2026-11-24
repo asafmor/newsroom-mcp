@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T08:13:05.502Z",
+  "generatedAt": "2026-11-24T10:15:24.478Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -545,6 +545,27 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "3cb9260b-ccfc-4989-afaa-6f5d53cf0313",
+      "title": "Prosecutors say the OpenAI employee charged with secretly recording meetings was allegedly affiliated with the Saudi government",
+      "summary": "Prosecutors allege the OpenAI employee charged with planting a recording device in company meetings was affiliated with the Saudi government, and say the employee also uploaded files to Dropbox and photographed confidential documents.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-24T10:15:05.201Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T10:15:05.201Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI employee who secretly recorded meetings allegedly affiliated with the Saudi government",
+          "url": "https://www.engadget.com/2326288/openai-employee-recorded-meetings-allegedly-affiliated-saudi-government/",
+          "publishedAt": "2026-11-24T09:24:09.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -1286,6 +1307,27 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "139869c3-f37b-4fec-85e2-782e5d433fac",
+      "title": "Microsoft Copilot Projects keeps shared context across chats and turns project material into Word and PowerPoint files",
+      "summary": "Microsoft Copilot Projects groups related chats so users stop repeating the same background in every conversation.\n\n- Follow-up conversations in a project reuse its shared context and instructions\n- Existing chats can be brought into a project\n- Copilot can turn project material into Word documents and PowerPoint decks, but creating either requires a paid plan",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-24T10:15:11.081Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T10:15:11.081Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "New Microsoft Copilot Projects Saves You from Repeating Prompts",
+          "url": "https://www.geeky-gadgets.com/microsoft-copilot-2/",
+          "publishedAt": "2026-11-24T08:43:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -2089,48 +2131,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "bb43f670-5daa-4554-b166-0cf2d814496e",
-      "title": "A 16-year-old Y Combinator founder's AI missile startup Polemos targets \"cost per kill\"",
-      "summary": "Henrijs Dandzbergs dropped out of high school to join Y Combinator with Polemos, a startup building a new breed of AI missile meant to make killing as efficient as possible for the US and its military allies, WIRED reports.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-20T08:43:19.471Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T08:43:19.471Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "This 16-Year-Old Founded an AI Missile Startup. He’s Targeting ‘Cost per Kill’",
-          "url": "https://www.wired.com/story/henrijs-dandzbergs-polemos-missiles-ai-warfare/",
-          "publishedAt": "2026-11-20T07:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "e6b3cc0e-1080-4567-8615-bd3f7fff07d4",
-      "title": "Trump's own officials expect little AI progress from his China trip amid Nvidia scandal fallout",
-      "summary": "Officials in the Trump administration don't expect much progress on AI to come out of President Trump's visit to China, WIRED reports, saying fallout from the Nvidia scandal has made any AI negotiations difficult.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-18T22:18:28.376Z",
-      "lastMeaningfulUpdateAt": "2026-11-18T22:18:28.376Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI",
-          "url": "https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/",
-          "publishedAt": "2026-11-18T22:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
     }
   ],
-  "totalCount": 85,
+  "totalCount": 86,
   "hasMore": true
 }
