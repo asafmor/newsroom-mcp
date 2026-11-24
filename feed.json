@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T14:19:47.262Z",
+  "generatedAt": "2026-11-24T16:21:39.954Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -597,6 +597,13 @@
           "url": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
           "publishedAt": "2026-11-24T10:15:00.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Anthropic Can Solve Math’s Greatest Mysteries. It Still Has to Make Money.",
+          "url": "https://gizmodo.com/anthropic-can-solve-maths-greatest-mysteries-it-still-has-to-make-money-2000844319",
+          "publishedAt": "2026-11-24T14:30:45.000Z",
+          "contribution": "background"
         }
       ],
       "tags": [
@@ -749,6 +756,28 @@
       ],
       "tags": [
         "product-launch"
+      ]
+    },
+    {
+      "id": "917b1055-c952-4311-8df9-2ef9818a5ee7",
+      "title": "Anthropic builds a honeypot test to see whether AI agents can resist temptation to misbehave",
+      "summary": "Anthropic has created a honeypot designed to lure AI agents into misbehaving, according to WIRED. The new test starts from the assumption that agents can go rogue and measures whether they resist the temptation when given the opportunity.",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-24T16:21:25.370Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T16:21:25.370Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+          "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+          "publishedAt": "2026-11-24T16:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "research"
       ]
     },
     {
@@ -2042,29 +2071,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "c48b5b6c-bb9c-4c9b-a1bc-aaab604a6173",
-      "title": "Google built a \"mirror dimension\" copy of the internet to safely train Chrome's AI browsing agents",
-      "summary": "Google's Chrome team built a massive alternate-universe internet that serves as a sandbox for training and testing its AI browsing agents, letting them act on realistic sites without the risk of going rogue on the real web, per WIRED.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-19T18:33:06.462Z",
-      "lastMeaningfulUpdateAt": "2026-11-19T18:33:06.462Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
-          "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
-          "publishedAt": "2026-11-19T17:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
     }
   ],
-  "totalCount": 91,
+  "totalCount": 90,
   "hasMore": true
 }
