@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T18:24:23.680Z",
+  "generatedAt": "2026-11-24T20:26:01.829Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1288,6 +1288,25 @@
       ]
     },
     {
+      "id": "b8c946e6-e074-47d4-bdca-ecdeabaf5d26",
+      "title": "Tidal will soon ban fully AI-generated songs",
+      "summary": "Tidal plans to ban songs that are entirely AI-generated, a stance that sets it apart from other music streaming platforms that are embracing AI, Gizmodo reports.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-24T20:25:41.905Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T20:25:41.905Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Tidal Will Soon Ban Fully AI-Generated Songs",
+          "url": "https://gizmodo.com/tidal-will-soon-ban-fully-ai-generated-songs-2000844674",
+          "publishedAt": "2026-11-24T20:15:39.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "af1e0603-e089-45ec-8694-7de06b65e41f",
       "title": "OpenAI and Cisco introduce Shirudo, an open-source Linux runtime for protecting systems while patches roll out",
       "summary": "OpenAI and Cisco introduced Shirudo, an open-source runtime for Linux that helps teams protect running systems during the window before patches are fully rolled out.",
@@ -1602,6 +1621,27 @@
       "tags": [
         "funding",
         "safety"
+      ]
+    },
+    {
+      "id": "710ebb6b-c272-4a7f-b5aa-53fa0c607489",
+      "title": "Amateur astronomers use Codex and GPT-6 Astra to flag potential exoplanets in NASA telescope data",
+      "summary": "OpenAI profiles two amateur astronomers who used Codex and Astra to find potential exoplanets in public data from NASA's Kepler and TESS space telescopes. The candidates are described as potential finds, not confirmed planets.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-24T20:25:44.041Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T20:25:44.041Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "Searching for distant planets with Astra",
+          "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+          "publishedAt": "2026-11-24T11:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -2053,6 +2093,27 @@
       ]
     },
     {
+      "id": "400b467b-e545-4166-ae77-446200388615",
+      "title": "OpenAI case study: iFood scales coding agents across 15,000 repositories",
+      "summary": "An OpenAI customer story says Brazilian food-delivery company iFood runs coding agents across 15,000 repositories. It's a vendor case study, and the feed gives no further detail or metrics.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.55,
+      "firstSeenAt": "2026-11-24T20:25:46.240Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T20:25:46.240Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "How iFood scales coding agents across 15,000 repositories",
+          "url": "https://openai.com/business/customer-stories/ifood",
+          "publishedAt": "2026-11-24T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "enterprise-adoption"
+      ]
+    },
+    {
       "id": "217e8bea-23e8-4685-be3c-4f5bdd804145",
       "title": "OpenAI details its layered defenses against adversarial distillation of its models",
       "summary": "OpenAI described how it guards against adversarial distillation, where outsiders query its models to extract their capabilities, combining model training, safeguards, detection, and enforcement.",
@@ -2321,74 +2382,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "c0ff7784-75dd-4be6-af76-89c3be4a722f",
-      "title": "OpenAI introduces MedChemBench to test AI on early-stage drug discovery",
-      "summary": "OpenAI released MedChemBench, a benchmark that tests how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-20T20:54:17.581Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T20:54:17.581Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Can AI help scientists identify promising drug candidates?",
-          "url": "https://openai.com/index/introducing-medchembench",
-          "publishedAt": "2026-11-20T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "e14fad52-3db7-4024-9536-b2a542cc9976",
-      "title": "Anthropic engineer: cutting 80% of Claude Code's system prompt didn't hurt test results for two models",
-      "summary": "An Anthropic engineer found that removing 80% of Claude Code's system prompt for two models caused no measurable drop in test results, Geeky Gadgets reports. The takeaway for users: skip loading instructions you don't need, so your Claude usage allowance goes further.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-23T07:53:47.119Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T07:53:47.119Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic Engineer Shares How to Avoid Hitting Claude Code Token Limits",
-          "url": "https://www.geeky-gadgets.com/anthropic-claude-token-limit/",
-          "publishedAt": "2026-11-23T07:13:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "2f115f03-611e-4698-91cd-f198641624c9",
-      "title": "Google redesigns its desktop home page to make Gemini more prominent despite user and employee complaints",
-      "summary": "Google has redesigned its desktop search home page to put Gemini AI front and center, Engadget reports. The company is pushing ahead despite complaints from users and its own employees about AI being bundled into Search.",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-20T06:41:20.240Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T06:41:20.240Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Google's latest home page redesign makes Gemini even more prominent",
-          "url": "https://www.engadget.com/2322647/google-latest-home-page-redesign-makes-gemini-even-more-prominent/",
-          "publishedAt": "2026-11-20T05:45:38.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Even the Iconic Google Home Page Can’t Survive the Push for More AI",
-          "url": "https://www.cnet.com/tech/services-and-software/google-home-page-new-ai-features/",
-          "publishedAt": "2026-11-21T00:01:42.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 93,
+  "totalCount": 94,
   "hasMore": true
 }
