@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T00:08:38.050Z",
+  "generatedAt": "2026-11-24T02:09:33.016Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1193,6 +1193,25 @@
       ]
     },
     {
+      "id": "fc93b8d4-f02b-4d40-97fd-ebe864a80028",
+      "title": "Google patent filing sketches AI-generated TV shows starring the viewer",
+      "summary": "A Google patent filing describes AI-generated TV shows that put the viewer in the starring role, Gizmodo reports. It offers a glimpse of how Google may see the future of personalized content, though a patent is not a product announcement.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-24T02:09:24.066Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T02:09:24.066Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Google Wants to Make AI TV Shows Starring You",
+          "url": "https://gizmodo.com/google-wants-to-make-ai-tv-shows-starring-you-2000844299",
+          "publishedAt": "2026-11-24T00:22:02.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "a8ce84d1-e63b-4f84-948e-620c38745986",
       "title": "METR's time-horizon update shows AI capabilities still growing exponentially, but judgment lags coding",
       "summary": "AI evaluation nonprofit METR updated its widely cited \"time horizon\" plot. It finds some AI capabilities are still improving along an exponential trajectory, but models aren't as good at tasks that require judgment as they are at coding, per MIT Technology Review.",
@@ -2096,29 +2115,8 @@
       "tags": [
         "regulation"
       ]
-    },
-    {
-      "id": "b3c3327f-654f-42c0-9406-ba059c876444",
-      "title": "OpenAI brings its collaborative Space hubs to ChatGPT Plus users",
-      "summary": "OpenAI is opening its collaborative Space hubs to Plus subscribers. Users can upload documents, files and more to a Space for easy sharing, per Engadget.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-20T18:51:46.431Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T18:51:46.431Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI brings its collaborative Space hubs to Plus users",
-          "url": "https://www.engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users/",
-          "publishedAt": "2026-11-20T18:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 89,
+  "totalCount": 88,
   "hasMore": true
 }
