@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T20:26:01.829Z",
+  "generatedAt": "2026-11-24T22:28:04.091Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -548,6 +548,13 @@
           "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
           "publishedAt": "2026-11-24T17:44:53.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Jensen Huang Is No Longer the Trillion Dollar Man",
+          "url": "https://gizmodo.com/jensen-huang-is-no-longer-the-trillion-dollar-man-2000844869",
+          "publishedAt": "2026-11-24T21:59:28.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -970,10 +977,59 @@
           "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
           "publishedAt": "2026-11-24T12:30:05.000Z",
           "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Amazon Says Open-Source AI Agent (Mostly) Autonomously Exploited a Zero-Day",
+          "url": "https://gizmodo.com/amazon-says-open-source-ai-agent-mostly-autonomously-exploited-a-zero-day-2000844891",
+          "publishedAt": "2026-11-24T22:17:41.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "2535a2b4-9c74-4b05-a0b4-9247b786a81c",
+      "title": "OpenAI and Anthropic employees reportedly clash with company leaders over AI safety",
+      "summary": "Employees at OpenAI and Anthropic are reportedly clashing with their companies' leadership over AI safety, Gizmodo reports.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-24T22:27:51.587Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T22:27:51.587Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "OpenAI and Anthropic Employees Are Reportedly Clashing With Company Leaders Over AI Safety",
+          "url": "https://gizmodo.com/openai-and-anthropic-employees-are-reportedly-clashing-with-company-leaders-over-ai-safety-2000844953",
+          "publishedAt": "2026-11-24T22:15:30.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "d87ddbb6-1e7b-45c2-80a4-82653bb0af91",
+      "title": "OpenAI says GPT-6 models can design proteins, with lab tests showing binding across five targets",
+      "summary": "OpenAI says its GPT-6 models show intrinsic protein-design capabilities, designing protein structures and sequences through reasoning and code, and that lab tests found evidence of binding across five targets.",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-24T22:27:49.853Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T22:27:49.853Z",
+      "sources": [
+        {
+          "providerName": "OpenAI News",
+          "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+          "publishedAt": "2026-11-24T13:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -2342,46 +2398,6 @@
       "tags": [
         "infrastructure"
       ]
-    },
-    {
-      "id": "0d919049-7a53-4d72-bf4b-c25a5fbfb160",
-      "title": "Signal blocks screenshots to keep AI agents from reading users' messages",
-      "summary": "Signal is blocking screenshots to protect messages from AI agents that can read a user's screen, CNET reports. End-to-end encryption can't stop an on-device agent from seeing a conversation once it's displayed.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-21T00:58:10.054Z",
-      "lastMeaningfulUpdateAt": "2026-11-21T00:58:10.054Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Signal Is Blocking Screenshots to Protect Your Messages from AI Agents",
-          "url": "https://www.cnet.com/tech/services-and-software/signal-text-message-screenshots/",
-          "publishedAt": "2026-11-20T19:48:39.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
-      "id": "e8d48668-09a0-49db-b238-afeb8b49a862",
-      "title": "Young people anxious about AI say clashes with their pro-AI parents could make Thanksgiving tense",
-      "summary": "WIRED reports that young people who are anxious about AI's effect on their futures are increasingly frustrated with their pro-AI parents, and worry the divide will make holiday gatherings very tense.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-11-24T12:17:51.459Z",
-      "lastMeaningfulUpdateAt": "2026-11-24T12:17:51.459Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving",
-          "url": "https://www.wired.com/story/dont-bring-up-ai-if-you-want-to-enjoy-your-thanksgiving/",
-          "publishedAt": "2026-11-24T10:45:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
   "totalCount": 94,
