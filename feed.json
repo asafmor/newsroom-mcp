@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T12:18:07.363Z",
+  "generatedAt": "2026-11-24T14:19:47.262Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -545,6 +545,27 @@
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "27ad8da5-13bf-4332-9f24-f5a015431b53",
+      "title": "Amazon says hackers' AI agents found and exploited a zero-day with little human input",
+      "summary": "Amazon says attackers used AI agents to find and exploit a previously unknown (zero-day) vulnerability with little human involvement, Ars Technica reports. Ars frames the Cairn AI framework as a boon for both defenders and attackers.",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.9,
+      "firstSeenAt": "2026-11-24T14:19:31.809Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T14:19:31.809Z",
+      "sources": [
+        {
+          "providerName": "Ars Technica",
+          "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+          "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+          "publishedAt": "2026-11-24T12:30:05.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
       ]
     },
     {
@@ -1724,6 +1745,25 @@
       "tags": []
     },
     {
+      "id": "a303c12a-06d8-4e3c-a528-2ea34dfb073d",
+      "title": "Startup Sikt Intelligence's \"BlackSwan\" scanner turns a month of news into 10 possible crises",
+      "summary": "Sikt Intelligence, a research-stage startup, has an AI scanner that reads about a month of news and returns 10 possible crisis scenarios, per Geeky Gadgets.\n\n- Each scenario comes with a warning sign to watch for, meant as a prompt for thinking rather than a forecast\n- One scenario involves an AI agent incident that keeps spreading after its originating lab shuts down",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.5,
+      "firstSeenAt": "2026-11-24T14:19:36.212Z",
+      "lastMeaningfulUpdateAt": "2026-11-24T14:19:36.212Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "This Sikt BlackSwan Scanner Creates 10 Threat Scenarios from News",
+          "url": "https://www.geeky-gadgets.com/sikt-blackswan-news-scanner-predictions/",
+          "publishedAt": "2026-11-24T13:17:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "4c11af83-a7c8-491f-8d0b-748d06cf3464",
       "title": "OpenAI makes the case for perplexity as a shared yardstick for AI progress",
       "summary": "OpenAI published a research post explaining how perplexity measures progress in AI models, arguing it could help developers settle on a shared approach to evaluating emerging capabilities.",
@@ -2023,121 +2063,8 @@
       "tags": [
         "safety"
       ]
-    },
-    {
-      "id": "1152ef8d-7ddf-4e16-9dee-4f08485a9752",
-      "title": "Nvidia posts record $115.84B quarterly revenue in its first earnings since Jensen Huang's ouster",
-      "summary": "Nvidia reported record quarterly revenue of $115.84 billion and guided to even bigger numbers next quarter, showing its AI chip business still growing despite the scandal surrounding its former CEO, Jensen Huang, Gizmodo reports.",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-17T21:57:16.897Z",
-      "lastMeaningfulUpdateAt": "2026-11-17T21:57:16.897Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Nvidia’s AI Money Machine Keeps Churning Without Jensen Huang",
-          "url": "https://gizmodo.com/nvidias-ai-money-machine-keeps-churning-without-jensen-huang-2000841301",
-          "publishedAt": "2026-11-17T21:46:11.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Nvidia’s Earnings Call Is the AI Economy’s Next Stress Test",
-          "url": "https://www.cnet.com/tech/services-and-software/nvidia-earnings-call-ai-economy-stress-test/",
-          "publishedAt": "2026-11-17T22:03:34.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
-    },
-    {
-      "id": "48927e69-2b70-4ae9-bbf8-c02a8299c629",
-      "title": "OpenAI launches GPT-6.2 Astra and Sol, promising better coding and computer use at lower cost",
-      "summary": "OpenAI launched GPT-6.2 Astra and Sol, confirming weeks of rumors about its next models.\n\n- OpenAI says both models improve professional outputs, coding, and computer use, and run more efficiently at lower cost\n- They're available across ChatGPT Work, Codex, and the API\n- Earlier leaks claimed GPT-6.2 runs on a 10-trillion-parameter \"Bell\" model. Those claims came from YouTube channels via Geeky Gadgets and remain unconfirmed",
-      "importanceScore": 0.75,
-      "relevanceScore": 0.95,
-      "firstSeenAt": "2026-10-08T08:29:04.503Z",
-      "lastMeaningfulUpdateAt": "2026-11-17T19:55:21.785Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Rumored ChatGPT Next AI Model Could Beat GPT-6.1 Sol on Generation Times",
-          "url": "https://www.geeky-gadgets.com/openai-gpt-next-leak-news/",
-          "publishedAt": "2026-10-08T07:15:00.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI May Release ChatGPT 6.2 Sol and Astra Models on Friday",
-          "url": "https://www.geeky-gadgets.com/chatgpt-sol-6/",
-          "publishedAt": "2026-11-05T09:17:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Leaked Bell Model May Equip ChatGPT 6.2 with 10 Trillion Parameters",
-          "url": "https://www.geeky-gadgets.com/openai-gpt-6-2-rumors/",
-          "publishedAt": "2026-11-07T11:00:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "OpenAI News",
-          "title": "Introducing GPT-6.2 Astra and Sol",
-          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-          "publishedAt": "2026-11-17T17:45:00.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "OpenAI GPT-6.2 Astra vs Fable 5.2: Performance Comparison",
-          "url": "https://www.geeky-gadgets.com/extra-high/",
-          "publishedAt": "2026-11-18T10:21:39.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Anthropic Could Be the Real Winner in OpenAI’s Latest Model Release",
-          "url": "https://gizmodo.com/anthropic-could-be-the-real-winner-in-openais-latest-model-release-2000841822",
-          "publishedAt": "2026-11-18T18:45:44.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Amid AI Industry Chaos, Microsoft and OpenAI Drop New Models for Coding and Work",
-          "url": "https://www.cnet.com/tech/services-and-software/openai-chatgpt-astra-6-2-microsoft-ignite-news/",
-          "publishedAt": "2026-11-18T16:28:38.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "ChatGPT Astra 6.2 Beats Claude Fable 5.2 on Speed and Total API Cost",
-          "url": "https://www.geeky-gadgets.com/astra-6-2-vs-fable-5-2/",
-          "publishedAt": "2026-11-19T09:12:00.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New GPT-6.2 Astra Builds a Working 3D Pendulum Clock from a Sketch",
-          "url": "https://www.geeky-gadgets.com/gpt-astra/",
-          "publishedAt": "2026-11-21T15:01:47.000Z",
-          "contribution": "background"
-        },
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Do GPT-6.2 Astra and Gemini 4 Neon Signal the End of Universal AI?",
-          "url": "https://www.geeky-gadgets.com/gpt-astra-2/",
-          "publishedAt": "2026-11-24T11:13:00.000Z",
-          "contribution": "background"
-        }
-      ],
-      "tags": [
-        "model-release",
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 89,
+  "totalCount": 91,
   "hasMore": true
 }
