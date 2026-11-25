@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T20:46:15.537Z",
+  "generatedAt": "2026-11-25T22:47:59.256Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1007,7 +1007,7 @@
     {
       "id": "1215df81-1e0d-4216-a05b-79a5bb4896e1",
       "title": "State AGs move to stop Character.AI from auctioning off users' chat histories",
-      "summary": "State attorneys general are trying to block Character.AI from auctioning off its users' chat histories. Officials say the proposed sale would include explicit conversations with children.",
+      "summary": "A coalition of 42 state attorneys general is trying to block Character.AI from auctioning off millions of users' chat histories. Officials say the proposed sale would include explicit conversations with children and sensitive disclosures about users' mental health.",
       "importanceScore": 0.55,
       "relevanceScore": 0.85,
       "firstSeenAt": "2026-11-25T20:45:59.994Z",
@@ -1018,6 +1018,13 @@
           "title": "State AGs are trying to stop Character.AI from auctioning off users' chat histories",
           "url": "https://www.engadget.com/2328630/state-ags-are-trying-to-stop-characterai-from-auctioning-off-users-chat-histories/",
           "publishedAt": "2026-11-25T20:04:07.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Character.ai Wants to Sell Millions of User Chats to the Highest Bidder",
+          "url": "https://gizmodo.com/character-ai-wants-to-sell-millions-of-user-chats-to-the-highest-bidder-2000845664",
+          "publishedAt": "2026-11-25T22:25:24.000Z",
           "contribution": "supporting"
         }
       ],
@@ -1263,6 +1270,27 @@
       ],
       "tags": [
         "safety"
+      ]
+    },
+    {
+      "id": "c8b60dc8-ff69-4e08-a77d-8fa53a3c9e04",
+      "title": "Cloudflare launches Search for Agents, making sites searchable by AI agents with one toggle",
+      "summary": "Cloudflare introduced Search for Agents, a one-toggle feature that makes a site searchable by AI agents. It automatically indexes site content, exposes a discoverable search API, and adds native support for the HTTP QUERY method.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-25T22:47:45.215Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T22:47:45.215Z",
+      "sources": [
+        {
+          "providerName": "Cloudflare Blog",
+          "title": "Introducing Search for Agents",
+          "url": "https://blog.cloudflare.com/search-for-agents/",
+          "publishedAt": "2026-11-25T14:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -2369,29 +2397,8 @@
       "tags": [
         "opinion"
       ]
-    },
-    {
-      "id": "fd200e69-39f0-4f51-945d-e0f4b0e4896f",
-      "title": "Libreboot drops its ban on AI-generated code a month after adopting it",
-      "summary": "Libreboot, the free and open source firmware project that initializes hardware before the operating system boots, has dropped the blanket ban on AI-generated code contributions it introduced about a month ago. Lead developer Leah Rowe says she still personally opposes AI-generated code.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-23T11:57:49.529Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T11:57:49.529Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Libreboot Reverses AI Code Ban After Just One Month",
-          "url": "https://www.geeky-gadgets.com/libre-boot-ai-policy-reversed/",
-          "publishedAt": "2026-11-23T10:43:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "open-source"
-      ]
     }
   ],
-  "totalCount": 88,
+  "totalCount": 86,
   "hasMore": true
 }
