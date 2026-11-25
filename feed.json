@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-25T00:29:30.317Z",
+  "generatedAt": "2026-11-25T02:31:20.188Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Nvidia reinstates Jensen Huang as CEO after Trump personally intervenes, a week after his ouster",
-      "summary": "Nvidia's board unanimously reinstated Jensen Huang as CEO, a little more than a week after he resigned amid allegations of multiple affairs, including one with a woman US intelligence links to a Chinese spy plot.\n\n- New: In his first all-hands since returning, Huang apologized to employees, admitting he violated Nvidia's code of conduct and made \"very serious personal mistakes\" (WIRED)\n- The board had rejected calls for his return until President Trump called it; its statement cites \"input from senior levels of the United States government,\" and Trump has publicly taken credit\n- The NYT says the woman is a Chinese Ministry of State Security recruit and a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in chips to Chinese firms\n- WIRED's sources said the board's main problem was Huang's \"lack of candor,\" including an alleged affair with a direct report; CFO Colette Kress served as interim CEO in the meantime\n- Huang agreed to testify before Congress, and Democrats have opened a second investigation into Nvidia's China sales and what they call Huang's \"scheme\" with Trump\n- Nvidia stock slid on the scandal, and investors proposed a class action",
+      "summary": "Nvidia's board unanimously reinstated Jensen Huang as CEO, a little more than a week after he resigned amid allegations of multiple affairs, including one with a woman US intelligence links to a Chinese spy plot.\n\n- New: Trump said pardoning Huang is \"always an option\"; Gizmodo notes the two have a close friendship\n- In his first all-hands since returning, Huang apologized to employees, admitting he violated Nvidia's code of conduct and made \"very serious personal mistakes\" (WIRED)\n- The board had rejected calls for his return until Trump called it; its statement cites \"input from senior levels of the United States government,\" and Trump has publicly taken credit\n- The NYT says the woman is a Chinese Ministry of State Security recruit and a top executive at a Singapore AI cloud firm accused of illegally selling Nvidia chips to China; the relationship reportedly helped route $7.5B in chips to Chinese firms\n- WIRED's sources said the board's main problem was Huang's \"lack of candor,\" including an alleged affair with a direct report; CFO Colette Kress served as interim CEO in the meantime\n- Huang agreed to testify before Congress, Democrats opened a second investigation into Nvidia's China sales and what they call his \"scheme\" with Trump, and investors proposed a class action as the stock slid",
       "importanceScore": 0.95,
       "relevanceScore": 0.8,
       "firstSeenAt": "2026-10-29T16:29:51.111Z",
-      "lastMeaningfulUpdateAt": "2026-11-24T18:23:55.487Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T02:31:04.221Z",
       "sources": [
         {
           "providerName": "Gizmodo AI",
@@ -562,6 +562,13 @@
           "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
           "publishedAt": "2026-11-24T23:39:04.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump Says Pardoning Jensen Huang Is ‘Always an Option’",
+          "url": "https://gizmodo.com/trump-says-pardoning-jensen-huang-is-always-an-option-2000845079",
+          "publishedAt": "2026-11-25T01:49:13.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
@@ -1075,6 +1082,13 @@
           "url": "https://gizmodo.com/anthropic-can-solve-maths-greatest-mysteries-it-still-has-to-make-money-2000844319",
           "publishedAt": "2026-11-24T14:30:45.000Z",
           "contribution": "background"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "A Human and an AI Model (Apparently) Solved the Riemann Hypothesis: What it Means for Future of Math",
+          "url": "https://www.cnet.com/tech/services-and-software/human-and-ai-solved-riemann-hypothesis/",
+          "publishedAt": "2026-11-24T23:00:30.000Z",
+          "contribution": "supporting"
         }
       ],
       "tags": [
@@ -1270,6 +1284,48 @@
       "tags": [
         "safety",
         "research"
+      ]
+    },
+    {
+      "id": "ed65af13-b341-4731-84c4-c544a5c31555",
+      "title": "Claude adds support for MCP servers that ship skills and run tasks",
+      "summary": "Anthropic says MCP servers connected to Claude can now ship skills, run tasks, and more, bringing newer Model Context Protocol capabilities into Claude itself.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-25T02:31:00.712Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T02:31:00.712Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "MCP servers can now ship skills, run tasks, and more with Claude",
+          "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+          "publishedAt": "2026-11-24T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
+      "id": "ae194592-f619-4063-88f6-cf63306fa8d4",
+      "title": "Claude lets users install artifacts as Mac and Windows apps",
+      "summary": "Anthropic now lets Claude users turn the artifacts they use every day into Mac and Windows apps, opening them like any other app and letting them do more on the user's computer.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-25T02:30:58.724Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T02:30:58.724Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Turn artifacts into Mac and Windows apps",
+          "url": "https://claude.com/resources/articles/install-as-app",
+          "publishedAt": "2026-11-24T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "product-launch"
       ]
     },
     {
@@ -2363,48 +2419,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "4c11af83-a7c8-491f-8d0b-748d06cf3464",
-      "title": "OpenAI makes the case for perplexity as a shared yardstick for AI progress",
-      "summary": "OpenAI published a research post explaining how perplexity measures progress in AI models, arguing it could help developers settle on a shared approach to evaluating emerging capabilities.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-22T19:47:35.268Z",
-      "lastMeaningfulUpdateAt": "2026-11-22T19:47:35.268Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "Perplexity and Intelligence",
-          "url": "https://openai.com/index/perplexity-and-intelligence",
-          "publishedAt": "2026-11-22T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "f7148eae-1f6c-47d0-82a1-09050fc6cbf9",
-      "title": "Meta's carbon emissions rose 45% last year as AI drives them higher",
-      "summary": "Meta's 2026 sustainability report shows its carbon emissions rose 45% last year, and CNET reports that AI is making the trend worse.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-21T00:58:11.864Z",
-      "lastMeaningfulUpdateAt": "2026-11-21T00:58:11.864Z",
-      "sources": [
-        {
-          "providerName": "CNET AI",
-          "title": "Meta’s Carbon Emissions Went Up 45% Last Year. AI Is Making It Worse",
-          "url": "https://www.cnet.com/tech/services-and-software/meta-sustainability-report-2026-carbon-emissions-ai/",
-          "publishedAt": "2026-11-20T19:42:28.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure"
-      ]
     }
   ],
   "totalCount": 92,
