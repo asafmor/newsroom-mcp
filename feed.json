@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T08:34:35.048Z",
+  "generatedAt": "2026-11-25T10:36:00.712Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1407,6 +1407,46 @@
       ]
     },
     {
+      "id": "bfc9c0e7-ba81-4cb5-9a54-ad4e0330ac63",
+      "title": "Researchers find 1,122 public copies of Claude Code's local settings file containing secrets",
+      "summary": "Researchers found 1,122 publicly exposed copies of Claude Code's local settings file containing secrets, Geeky Gadgets reports. The advice is to keep credentials out of local settings, check configured commands and permissions for unexpected activity, and audit for exposure.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-25T10:35:49.456Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T10:35:49.456Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "How to Secure Claude Code Configurations Against Backdoor Malware",
+          "url": "https://www.geeky-gadgets.com/anthropic-claude-code-configuration-exploits/",
+          "publishedAt": "2026-11-25T09:15:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "fc5a4318-b122-44b2-bc17-72d6972618b0",
+      "title": "AI is straining America's open records systems, down to small-town clerks",
+      "summary": "MIT Technology Review reports that AI is putting a strain on America's public records systems. It opens with Panton, Vermont (population 660), where one town clerk handles budgets, property tax disputes, zoning, and elections, and also fields public records requests during morning office hours.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-25T10:35:47.206Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T10:35:47.206Z",
+      "sources": [
+        {
+          "providerName": "MIT AI",
+          "title": "AI is straining America’s open records systems",
+          "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+          "publishedAt": "2026-11-25T10:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "b8c946e6-e074-47d4-bdca-ecdeabaf5d26",
       "title": "Tidal will soon ban fully AI-generated songs",
       "summary": "Tidal plans to reject new uploads of fully AI-generated songs and remove the ones already on its service. The company says it is being flooded with AI-generated tracks. The stance sets it apart from other music streaming platforms that are embracing AI, Gizmodo and CNET report.",
@@ -2391,46 +2431,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "0740d906-3752-4811-975d-f27e4ad4eb11",
-      "title": "Hugging Face publishes a guide to building and maintaining agentic evaluations",
-      "summary": "Hugging Face published a blog post on how to build an evaluation for AI agents and keep it maintained over time.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-23T16:02:00.146Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T16:02:00.146Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "How to build and maintain an agentic evaluation",
-          "url": "https://huggingface.co/blog/agentic-evals",
-          "publishedAt": "2026-11-23T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "0ce72e4b-3a1b-4820-9613-b46e0df000f0",
-      "title": "Etsy says it won't use sellers' content to train AI that copies their work, after a seller revolt",
-      "summary": "Etsy added an AI-training clause to its terms of use, and sellers revolted. Etsy has now clarified that it will not use sellers' content to train AI that can copy their work, Engadget reports.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-21T15:07:09.988Z",
-      "lastMeaningfulUpdateAt": "2026-11-21T15:07:09.988Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "Etsy says it will not use sellers' content to train AI after they revolt over policy changes",
-          "url": "https://www.engadget.com/2324090/etsy-not-use-seller-content-train-ai/",
-          "publishedAt": "2026-11-21T14:25:25.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 91,
+  "totalCount": 92,
   "hasMore": true
 }
