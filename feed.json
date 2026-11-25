@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T18:44:10.833Z",
+  "generatedAt": "2026-11-25T20:46:15.537Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1005,6 +1005,28 @@
       ]
     },
     {
+      "id": "1215df81-1e0d-4216-a05b-79a5bb4896e1",
+      "title": "State AGs move to stop Character.AI from auctioning off users' chat histories",
+      "summary": "State attorneys general are trying to block Character.AI from auctioning off its users' chat histories. Officials say the proposed sale would include explicit conversations with children.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-25T20:45:59.994Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T20:45:59.994Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "State AGs are trying to stop Character.AI from auctioning off users' chat histories",
+          "url": "https://www.engadget.com/2328630/state-ags-are-trying-to-stop-characterai-from-auctioning-off-users-chat-histories/",
+          "publishedAt": "2026-11-25T20:04:07.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "regulation",
+        "safety"
+      ]
+    },
+    {
       "id": "27ad8da5-13bf-4332-9f24-f5a015431b53",
       "title": "Amazon says hackers' AI agents found and exploited a zero-day with little human input",
       "summary": "Amazon says attackers used AI agents to find and exploit a previously unknown (zero-day) vulnerability with little human involvement, Ars Technica reports. Ars frames the Cairn AI framework as a boon for both defenders and attackers.",
@@ -1621,6 +1643,25 @@
       "tags": []
     },
     {
+      "id": "c38e8093-5d5c-4f64-841e-b76e4ca97d3a",
+      "title": "Treasury's CIO is reportedly vibe coding a \"Civilization\" clone during a cybersecurity crisis",
+      "summary": "Gizmodo reports that the US Treasury's chief information officer has been vibe coding a clone of the strategy game \"Civilization\" while the department is in the middle of a cybersecurity crisis.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-25T20:46:02.042Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T20:46:02.042Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Treasury’s CIO Is Vibe Coding a ‘Civilization’ Clone During a Cybersecurity Crisis",
+          "url": "https://gizmodo.com/treasurys-cio-is-vibe-coding-a-civilization-clone-during-a-cybersecurity-crisis-2000845495",
+          "publishedAt": "2026-11-25T20:30:54.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "af1e0603-e089-45ec-8694-7de06b65e41f",
       "title": "OpenAI and Cisco introduce Shirudo, an open-source Linux runtime for protecting systems while patches roll out",
       "summary": "OpenAI and Cisco introduced Shirudo, an open-source runtime for Linux that helps teams protect running systems during the window before patches are fully rolled out.",
@@ -1684,6 +1725,44 @@
       "tags": [
         "product-launch"
       ]
+    },
+    {
+      "id": "3a04b5ef-e68a-46e1-9dd2-37c6b55d2d8e",
+      "title": "Ai2 looks at where scientists draw the line on AI agents",
+      "summary": "Ai2 published a Hugging Face blog post, \"Where scientists draw the line on AI agents,\" on the limits scientists set for AI agents.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-25T20:46:05.834Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T20:46:05.834Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Where scientists draw the line on AI agents",
+          "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+          "publishedAt": "2026-11-25T18:52:55.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "e767be46-b0e8-48cc-9054-31063fc10a56",
+      "title": "CNET's grocery test finds Meta's Muse and ChatGPT Dots agents aren't ready to save you money yet",
+      "summary": "CNET tried using Meta's Muse and OpenAI's ChatGPT Dots agents to build the cheapest possible grocery order and found they showed a startling lack of curiosity and autonomous thinking.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-25T20:46:04.192Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T20:46:04.192Z",
+      "sources": [
+        {
+          "providerName": "CNET AI",
+          "title": "I Tried Using Meta Muse and ChatGPT Dots to Save on Groceries. They’re Not Quite There Yet",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-and-chatgpt-dots-ai-agents-save-groceries/",
+          "publishedAt": "2026-11-25T18:14:33.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "516cd54a-e46e-4909-ba95-1d9bd2a791aa",
@@ -2310,99 +2389,6 @@
       ],
       "tags": [
         "open-source"
-      ]
-    },
-    {
-      "id": "6cff6545-3b20-43ab-a41b-05103d9627c6",
-      "title": "Trump says he'll stop US companies from building data centers overseas",
-      "summary": "President Trump said he would prevent US companies from building data centers abroad, saying \"we're gonna fight very hard for the data centers.\"",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-20T20:54:19.560Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T20:54:19.560Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Trump Says He’ll Prevent U.S. Companies From Building Data Centers Overseas",
-          "url": "https://gizmodo.com/trump-says-hell-prevent-u-s-companies-from-building-data-centers-overseas-2000843201",
-          "publishedAt": "2026-11-20T19:40:06.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "infrastructure",
-        "regulation"
-      ]
-    },
-    {
-      "id": "291f7bb5-f9f7-4fa6-ad9b-2316cd4702cb",
-      "title": "ChatGPT mobile app redesign adds a dedicated Dots tab and new navigation",
-      "summary": "OpenAI rolled out a refreshed ChatGPT mobile app with a dedicated tab for Dots, its personal agents, and a reorganized navigation meant to make features easier to reach, per Mashable.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.8,
-      "firstSeenAt": "2026-11-23T07:53:51.400Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T07:53:51.400Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "ChatGPT App Update Introduces Dedicated Dots Tab And New Navigation: Details Inside",
-          "url": "https://in.mashable.com/tech/116485/chatgpt-app-update-introduces-dedicated-dots-tab-and-new-navigation-details-inside",
-          "publishedAt": "2026-11-23T06:17:06.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "b631be5d-a50a-4f2b-839b-22b8be620ee2",
-      "title": "Google's Gemini can now control a Mac, taking actions in files and apps",
-      "summary": "Google announced that its Gemini app can now operate a Mac computer on a user's behalf. Users give Gemini commands, and it works through their files and apps to carry them out, extending Gemini's computer-use agent to Apple's desktop platform.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-20T06:41:16.140Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T06:41:16.140Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "You Can Finally Use Google Gemini To Control Your MacBook",
-          "url": "https://in.mashable.com/tech/116374/you-can-finally-use-google-gemini-to-control-your-macbook",
-          "publishedAt": "2026-11-19T23:07:46.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google boosts Gemini's ability to do 'repetitive tasks' on its Mac app",
-          "url": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/",
-          "publishedAt": "2026-11-20T12:36:11.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
-    },
-    {
-      "id": "32a5cca3-e342-4ae6-8351-16ddc41365e1",
-      "title": "KPMG's Todd Lohr on adopting frontier AI when the firm's data is also its clients' data",
-      "summary": "In an interview on Anthropic's Claude blog, Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, discusses adopting frontier AI while building safeguards at the same time, at a firm that holds its clients' most sensitive data.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-23T22:06:45.908Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T22:06:45.908Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "KPMG's Todd Lohr on AI when your data is also your clients' data",
-          "url": "https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data",
-          "publishedAt": "2026-11-23T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption",
-        "opinion"
       ]
     }
   ],
