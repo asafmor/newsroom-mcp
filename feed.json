@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:39:45.268Z",
+  "generatedAt": "2026-11-25T16:41:46.509Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1265,6 +1265,48 @@
       ]
     },
     {
+      "id": "3c0c22ae-b01e-48b1-9238-741a7ca9834d",
+      "title": "Nothing's first AI device is Ear (note), earbuds with built-in AI notetaking",
+      "summary": "Nothing's first standalone AI device is the Ear (note), a pair of earbuds with built-in AI notetaking. Engadget reports that full details come December 8.\n\n- CEO Carl Pei pitches it as a screenless work and productivity tool\n- Its earlier teaser looked, per Engadget, like two vapes stuck together\n- December 8 is both the debut date and when Nothing says it will share more details",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-04T22:33:30.376Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T16:41:32.858Z",
+      "sources": [
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+          "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+          "publishedAt": "2026-11-04T22:13:16.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "CNET AI",
+          "title": "Cult Phone-Maker Nothing’s Mystery Screenless AI Device Is Coming Next Month",
+          "url": "https://www.cnet.com/tech/services-and-software/nothings-first-standalone-ai-device-coming-next-month/",
+          "publishedAt": "2026-11-04T21:00:45.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Nothing's AI device debuts December 8, and it looks like two vapes stuck together",
+          "url": "https://www.engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/",
+          "publishedAt": "2026-11-20T17:32:02.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "Nothing's Ear (note) is a pair of earbuds with built-in AI notetaking",
+          "url": "https://www.engadget.com/2328122/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/",
+          "publishedAt": "2026-11-25T16:03:17.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "product-launch"
+      ]
+    },
+    {
       "id": "99ad940b-fc09-4b34-8793-388f25c084ba",
       "title": "Anthropic introduces Claude Ship, which reviews, fixes, and approves pull requests",
       "summary": "Anthropic introduced Claude Ship, which lets Claude review pull requests, fix them, and approve the ones a team's policy allows, so developers can open a PR and get back to building.",
@@ -2354,29 +2396,8 @@
       "tags": [
         "enterprise-adoption"
       ]
-    },
-    {
-      "id": "400b467b-e545-4166-ae77-446200388615",
-      "title": "OpenAI case study: iFood scales coding agents across 15,000 repositories",
-      "summary": "An OpenAI customer story says Brazilian food-delivery company iFood runs coding agents across 15,000 repositories. It's a vendor case study, and the feed gives no further detail or metrics.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-11-24T20:25:46.240Z",
-      "lastMeaningfulUpdateAt": "2026-11-24T20:25:46.240Z",
-      "sources": [
-        {
-          "providerName": "OpenAI News",
-          "title": "How iFood scales coding agents across 15,000 repositories",
-          "url": "https://openai.com/business/customer-stories/ifood",
-          "publishedAt": "2026-11-24T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 93,
+  "totalCount": 89,
   "hasMore": true
 }
