@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T06:33:26.612Z",
+  "generatedAt": "2026-11-25T08:34:35.048Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1455,6 +1455,28 @@
       ]
     },
     {
+      "id": "106cf80e-6434-42c6-89d5-500f265a32e6",
+      "title": "LangChain open-sources Content Studio, a Slack design agent for branded assets",
+      "summary": "LangChain has open-sourced Content Studio, a design agent that turns a Slack thread into branded launch cards and videos. Every asset it makes is code-based and stays editable. The agent can learn a brand's colors and fonts from a brand book and website and save them for later requests. It ships with a sample brand.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-25T08:34:24.914Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T08:34:24.914Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Meet the Open-Source Slack Agent Behind 3,000 Branded Assets",
+          "url": "https://www.geeky-gadgets.com/langchain-content-studio-design-agent/",
+          "publishedAt": "2026-11-25T07:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source",
+        "product-launch"
+      ]
+    },
+    {
       "id": "1b20dceb-1837-48c5-a1fb-59172bbe8af3",
       "title": "Vercel and shadcn release a UI SDK that lets AI agents use app components, gated by human approval",
       "summary": "Vercel and shadcn released a new UI SDK that lets AI agents use an app's components directly, instead of reading the whole page and clicking one control at a time. Developers can mark actions that need a person's approval, and the agent holds off on those until someone approves.",
@@ -2407,27 +2429,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "a303c12a-06d8-4e3c-a528-2ea34dfb073d",
-      "title": "Startup Sikt Intelligence's \"BlackSwan\" scanner turns a month of news into 10 possible crises",
-      "summary": "Sikt Intelligence, a research-stage startup, has an AI scanner that reads about a month of news and returns 10 possible crisis scenarios, per Geeky Gadgets.\n\n- Each scenario comes with a warning sign to watch for, meant as a prompt for thinking rather than a forecast\n- One scenario involves an AI agent incident that keeps spreading after its originating lab shuts down",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.5,
-      "firstSeenAt": "2026-11-24T14:19:36.212Z",
-      "lastMeaningfulUpdateAt": "2026-11-24T14:19:36.212Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "This Sikt BlackSwan Scanner Creates 10 Threat Scenarios from News",
-          "url": "https://www.geeky-gadgets.com/sikt-blackswan-news-scanner-predictions/",
-          "publishedAt": "2026-11-24T13:17:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 90,
+  "totalCount": 91,
   "hasMore": true
 }
