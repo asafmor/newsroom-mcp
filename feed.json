@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T10:36:00.712Z",
+  "generatedAt": "2026-11-25T12:38:09.290Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -977,6 +977,34 @@
       ]
     },
     {
+      "id": "b6464084-cd6f-46a1-a119-d3274919c2c1",
+      "title": "Claude designs electronic prototypes end to end, though a Claude-built FM radio shows mixed results",
+      "summary": "Claude can design electronic hardware from start to finish, but results so far range from fully working to patchy.\n\n- Anthropic says Claude-designed prototypes of a speakerphone, a voice-assistant hub, and a handheld virtual pet all worked without any fixes to their circuitry\n- A Claude-designed FM radio board, built from individual transistors and amplifiers instead of a dedicated radio chip, delivered audio despite questionable wiring, Geeky Gadgets reports\n- The radio's AM section failed and FM reception was patchy, though its published design files offer a starting point for AI-assisted electronics",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.88,
+      "firstSeenAt": "2026-11-10T05:58:22.103Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T12:37:52.302Z",
+      "sources": [
+        {
+          "providerName": "Claude Blog",
+          "title": "Claude can design electronic prototypes from start to finish",
+          "url": "https://www.anthropic.com/research/claude-electronics-design",
+          "publishedAt": "2026-11-09T00:00:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Anthropic’s Claude AI Builds an FM Radio Prototype from Text Prompts",
+          "url": "https://www.geeky-gadgets.com/anthropic-claude-radio-board/",
+          "publishedAt": "2026-11-25T10:43:00.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
       "id": "27ad8da5-13bf-4332-9f24-f5a015431b53",
       "title": "Amazon says hackers' AI agents found and exploited a zero-day with little human input",
       "summary": "Amazon says attackers used AI agents to find and exploit a previously unknown (zero-day) vulnerability with little human involvement, Ars Technica reports. Ars frames the Cairn AI framework as a boon for both defenders and attackers.",
@@ -1399,6 +1427,27 @@
           "title": "Finding faster quantum algorithms with agents and formal verification",
           "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
           "publishedAt": "2026-11-23T16:59:40.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "0894100e-f299-41b7-9401-385134eef704",
+      "title": "Crowdsourced data and machine learning could soon make airplane turbulence predictable",
+      "summary": "Turbulence, called the \"hardest remaining problem in classical physics,\" is notoriously hard to predict and avoid, but terabytes of crowdsourced data and new ways of applying machine learning and AI are giving forecasters a boost, Wired reports.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-25T12:37:50.558Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T12:37:50.558Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long",
+          "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
+          "publishedAt": "2026-11-25T11:30:00.000Z",
           "contribution": "supporting"
         }
       ],
@@ -2320,116 +2369,6 @@
       ],
       "tags": [
         "safety"
-      ]
-    },
-    {
-      "id": "d5403200-dabd-41ac-b076-981df239c0c9",
-      "title": "NYC, LA, and Chicago school districts weigh alternatives to Google after its AI-in-Search policy backlash",
-      "summary": "America's three largest school districts, in New York City, Los Angeles, and Chicago, are all discussing alternatives to Google. The talks follow a backlash over Google's plan to cut off Search at schools that disable its AI tools.\n\n- Google had threatened that schools dropping its AI would lose Search too, since AI Overviews are built into Search. It later tried to walk that policy back\n- Google's own employees have joined the criticism: the Alphabet Workers Union objected to Google requiring its AI tools be bundled with Search\n- Parents and educators worry that easy, machine-generated answers are leaving kids less capable\n- NYC mayor Zohran Mamdani and former FTC chair Lina Khan accused Google of acting as an unregulated monopoly\n- DuckDuckGo has been courting frustrated schools with its search engine and options to disable AI features",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-03T18:08:07.088Z",
-      "lastMeaningfulUpdateAt": "2026-11-19T20:34:03.468Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
-          "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
-          "publishedAt": "2026-11-03T16:30:34.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Google says students in schools that ban AI won't have access to Search",
-          "url": "https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search/",
-          "publishedAt": "2026-11-03T17:10:43.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Is Holding Its Search Engine Hostage From Schools That Don’t Want AI",
-          "url": "https://gizmodo.com/google-is-holding-its-search-engine-hostage-from-schools-that-dont-want-ai-2000834544",
-          "publishedAt": "2026-11-03T19:45:15.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "CNET AI",
-          "title": "Google Is Forcing Schools to Choose Between Its Search Engine and AI",
-          "url": "https://www.cnet.com/tech/services-and-software/google-forcing-schools-choose-between-search-engine-ai/",
-          "publishedAt": "2026-11-04T00:30:16.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
-          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-          "publishedAt": "2026-11-04T16:17:22.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Wired AI",
-          "title": "Google Is Forcing AI Overviews in Classrooms. Schools Are Searching for a Way Out",
-          "url": "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/",
-          "publishedAt": "2026-11-04T20:06:21.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "TechCrunch AI",
-          "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-          "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
-          "publishedAt": "2026-11-04T19:29:52.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Tries to Walk Back Controversial School AI Policy Following Political Backlash",
-          "url": "https://gizmodo.com/google-tries-to-walk-back-controversial-school-ai-policy-following-political-backlash-2000834986",
-          "publishedAt": "2026-11-04T21:15:17.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "NYC, LA, and Chicago School Districts All Discussing Alternatives to AI-Pilled Google",
-          "url": "https://gizmodo.com/nyc-la-and-chicago-school-districts-all-discussing-alternatives-to-ai-pilled-google-2000842174",
-          "publishedAt": "2026-11-19T10:00:17.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Engadget AI",
-          "title": "Employees call out Google over AI Search in schools",
-          "url": "https://www.engadget.com/2322304/employees-call-out-google-over-ai-search-in-schools/",
-          "publishedAt": "2026-11-19T20:00:12.000Z",
-          "contribution": "meaningful-update"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Employees Petition to Let Schools Use Search Without AI",
-          "url": "https://gizmodo.com/google-employees-petition-to-let-schools-use-search-without-ai-2000842549",
-          "publishedAt": "2026-11-20T03:06:47.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "e993439e-41b4-47b0-ace9-6eed906f44aa",
-      "title": "OpenAI tests its Dots personal agents on the $20-per-month ChatGPT Plus tier",
-      "summary": "OpenAI is expanding access to Dots, its proactive personal agents that work on a user's behalf without supervision, by testing them on the $20-per-month ChatGPT Plus tier, per Engadget.",
-      "importanceScore": 0.55,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-20T08:43:17.352Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T08:43:17.352Z",
-      "sources": [
-        {
-          "providerName": "Engadget AI",
-          "title": "OpenAI is testing Dots personal agents on its $20 per month Plus tier",
-          "url": "https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/",
-          "publishedAt": "2026-11-20T07:31:25.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
       ]
     }
   ],
