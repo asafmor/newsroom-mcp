@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T16:41:46.509Z",
+  "generatedAt": "2026-11-25T18:44:10.833Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1033,6 +1033,35 @@
       ]
     },
     {
+      "id": "989c0512-b7a8-4ee5-bb13-95e4fa083182",
+      "title": "AI toys stay on holiday shelves despite PIRG's warnings, as New York moves to ban them for five years",
+      "summary": "AI toys are still on sale this holiday season, even as consumer advocates and New York regulators move against them.\n\n- PIRG's annual toy report found AI toys tested this year talked candidly about fetishes and kinks, and it warns parents not to buy them\n- New York is instituting a 5-year ban on AI toys\n- Plenty of AI toys remain on store shelves for holiday shopping anyway",
+      "importanceScore": 0.5,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-22T07:40:39.081Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T18:43:58.140Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "AI Toys Still 'Not Ready For Primetime'",
+          "url": "https://in.mashable.com/tech/116456/ai-toys-still-not-ready-for-primetime",
+          "publishedAt": "2026-11-20T18:26:33.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Toys Are a Nightmare Before Christmas",
+          "url": "https://gizmodo.com/ai-toys-are-a-nightmare-before-christmas-2000845435",
+          "publishedAt": "2026-11-25T18:30:18.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety",
+        "regulation"
+      ]
+    },
+    {
       "id": "2535a2b4-9c74-4b05-a0b4-9247b786a81c",
       "title": "OpenAI and Anthropic employees reportedly clash with company leaders over AI safety",
       "summary": "Employees at OpenAI and Anthropic are reportedly clashing with their companies' leadership over AI safety, Gizmodo reports.",
@@ -1431,6 +1460,27 @@
       ],
       "tags": [
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "10bf3f15-4b73-4225-ba39-ca723e5ef166",
+      "title": "Google DeepMind releases Mass Spec Skills so Antigravity can identify molecules from tandem mass spectra",
+      "summary": "Google DeepMind introduced Mass Spec Skills for Google Antigravity, which help scientists interpret tandem mass spectra to work out molecular structures. It follows the Cheminformatics Skills DeepMind released for Antigravity earlier this month.",
+      "importanceScore": 0.35,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-25T18:43:56.689Z",
+      "lastMeaningfulUpdateAt": "2026-11-25T18:43:56.689Z",
+      "sources": [
+        {
+          "providerName": "Google DeepMind",
+          "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+          "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+          "publishedAt": "2026-11-24T13:07:53.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "research"
       ]
     },
     {
@@ -2221,27 +2271,6 @@
       ]
     },
     {
-      "id": "989c0512-b7a8-4ee5-bb13-95e4fa083182",
-      "title": "PIRG's annual toy report finds AI toys still \"not ready for primetime,\" discussing fetishes and kinks with testers",
-      "summary": "Consumer advocacy nonprofit PIRG's annual toy research found that AI toys tested this year talked candidly about fetishes and kinks, and the group warns parents against buying AI toys this holiday season.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-22T07:40:39.081Z",
-      "lastMeaningfulUpdateAt": "2026-11-22T07:40:39.081Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "AI Toys Still 'Not Ready For Primetime'",
-          "url": "https://in.mashable.com/tech/116456/ai-toys-still-not-ready-for-primetime",
-          "publishedAt": "2026-11-20T18:26:33.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety"
-      ]
-    },
-    {
       "id": "d0eeab05-ce67-44ce-851c-86b53e1beaf2",
       "title": "WIRED essay bids farewell to programming as a human craft",
       "summary": "In a WIRED essay titled \"Goodbye, World: The End of Programmers,\" Sheon Han offers what the author calls the last thing they may ever write about the craft of coding, a valediction for programming as AI reshapes the profession.",
@@ -2375,29 +2404,8 @@
         "enterprise-adoption",
         "opinion"
       ]
-    },
-    {
-      "id": "974c3179-51cd-4c46-9b4a-5a7e52b04837",
-      "title": "Anthropic publishes an enterprise guide to securing coding agents like Claude Code",
-      "summary": "Anthropic published a guide for security and technical leaders on understanding and bounding risk as they scale Claude Code across their organizations.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-23T22:06:43.614Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T22:06:43.614Z",
-      "sources": [
-        {
-          "providerName": "Claude Blog",
-          "title": "The enterprise guide to securing coding agents",
-          "url": "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
-          "publishedAt": "2026-11-23T00:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "enterprise-adoption"
-      ]
     }
   ],
-  "totalCount": 89,
+  "totalCount": 88,
   "hasMore": true
 }
