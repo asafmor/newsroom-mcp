@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T08:55:58.293Z",
+  "generatedAt": "2026-11-26T10:58:15.018Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1203,6 +1203,25 @@
       ]
     },
     {
+      "id": "84d04299-9c5c-444e-8bfa-fbeb0cb92d26",
+      "title": "An official Blender connector lets Claude Desktop edit and animate 3D scenes from plain-language requests",
+      "summary": "An official Blender connector links the free 3D modeling and animation app to Claude Desktop. Users describe the scene changes they want instead of editing by hand, and Claude can also animate camera moves and rotating objects without manual motion setup, according to a walkthrough by Kevin Stratvert.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-26T10:58:00.600Z",
+      "lastMeaningfulUpdateAt": "2026-11-26T10:58:00.600Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Official Blender Connector Lets Claude Desktop Build 3D Models",
+          "url": "https://www.geeky-gadgets.com/claude-desktop/",
+          "publishedAt": "2026-11-26T09:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "3cb9260b-ccfc-4989-afaa-6f5d53cf0313",
       "title": "Prosecutors say the OpenAI employee charged with secretly recording meetings was allegedly affiliated with the Saudi government",
       "summary": "Prosecutors allege the OpenAI employee charged with planting a recording device in company meetings was affiliated with the Saudi government, and say the employee also uploaded files to Dropbox and photographed confidential documents.",
@@ -1539,6 +1558,44 @@
       "tags": [
         "enterprise-adoption"
       ]
+    },
+    {
+      "id": "50d032ef-5416-4815-9a19-fdf2d057880b",
+      "title": "Apple's rumored glasses may launch as a screenless audio-and-AI wearable, with AR displays coming later",
+      "summary": "Apple's unannounced glasses may first ship without a display, letting wearers check messages or ask quick questions without pulling out an iPhone, according to rumors rounded up by Geeky Gadgets. Reports point to transparent lens displays that could overlay navigation cues coming only later. Apple has not confirmed the device.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.45,
+      "firstSeenAt": "2026-11-26T10:58:03.005Z",
+      "lastMeaningfulUpdateAt": "2026-11-26T10:58:03.005Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Why Apple Glasses May Skip a Screen First and Save AR for Later",
+          "url": "https://www.geeky-gadgets.com/apple-glasses-n50-audio-ai-display-rumours/",
+          "publishedAt": "2026-11-26T09:30:03.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "667819bb-3e06-467d-b78b-f8b2920726f4",
+      "title": "Head-to-head test pits nine free and cheap coding setups against Claude Code on five jobs",
+      "summary": "YouTuber Nate Herk ran nine AI coding setups through the same five jobs to see which free or cheap options could stand in for Anthropic's paid Claude Code. Some cloud models finished the whole workload for a few cents. The app running a model also mattered: it affected whether a PDF summary kept to the requested length.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-26T10:57:58.402Z",
+      "lastMeaningfulUpdateAt": "2026-11-26T10:57:58.402Z",
+      "sources": [
+        {
+          "providerName": "Geeky Gadgets AI",
+          "title": "Tests Reveal Which Cheap AI Models Match Claude Code on Five Jobs",
+          "url": "https://www.geeky-gadgets.com/claude-code-free-alternatives/",
+          "publishedAt": "2026-11-26T10:45:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "10bf3f15-4b73-4225-ba39-ca723e5ef166",
@@ -2364,69 +2421,8 @@
       "tags": [
         "research"
       ]
-    },
-    {
-      "id": "e52a8e8a-b7ec-49e9-bb39-960fbe0f7c38",
-      "title": "Claude Code builds the same 3D driving game on budgets from $1 to $1,000 in a cost-versus-output test",
-      "summary": "Claude Code built four playable 3D driving games from the same one-page brief, with spending capped at $1, $10, $100, and $1,000. The cheapest finished for 98 cents. The most expensive ran for almost 12 hours and produced a city with more than 5,000 buildings.",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-24T12:17:49.606Z",
-      "lastMeaningfulUpdateAt": "2026-11-24T12:17:49.606Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Claude Code Test Shows What a $1,000 Game Budget Actually Buys",
-          "url": "https://www.geeky-gadgets.com/claude-code-game-budget-comparison/",
-          "publishedAt": "2026-11-24T11:43:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "5e1c3327-7b1b-4f40-b4b1-1c0de220e1b4",
-      "title": "International talks on autonomous \"killer robots\" end with a deal to keep deliberating for two more years",
-      "summary": "International negotiations on rules for lethal autonomous weapons ended with an agreement to keep discussing the issue for two more years, not with binding rules, Gizmodo reports. The outlet mocks the outcome as a \"historic deal to…think it over.\" The source item is only a brief teaser, so it doesn't say which forum hosted the talks or which countries took which positions.",
-      "importanceScore": 0.45,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-21T23:12:39.500Z",
-      "lastMeaningfulUpdateAt": "2026-11-21T23:12:39.500Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "International Talks on Autonomous Killer Robots Achieve Historic Deal to…Think It Over for 2 More Years",
-          "url": "https://gizmodo.com/international-talks-on-autonomous-killer-robots-achieve-historic-deal-to-think-it-over-for-2-more-years-2000843554",
-          "publishedAt": "2026-11-21T21:20:02.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "regulation"
-      ]
-    },
-    {
-      "id": "139869c3-f37b-4fec-85e2-782e5d433fac",
-      "title": "Microsoft Copilot Projects keeps shared context across chats and turns project material into Word and PowerPoint files",
-      "summary": "Microsoft Copilot Projects groups related chats so users stop repeating the same background in every conversation.\n\n- Follow-up conversations in a project reuse its shared context and instructions\n- Existing chats can be brought into a project\n- Copilot can turn project material into Word documents and PowerPoint decks, but creating either requires a paid plan",
-      "importanceScore": 0.25,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-24T10:15:11.081Z",
-      "lastMeaningfulUpdateAt": "2026-11-24T10:15:11.081Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "New Microsoft Copilot Projects Saves You from Repeating Prompts",
-          "url": "https://www.geeky-gadgets.com/microsoft-copilot-2/",
-          "publishedAt": "2026-11-24T08:43:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "product-launch"
-      ]
     }
   ],
-  "totalCount": 85,
+  "totalCount": 88,
   "hasMore": true
 }
