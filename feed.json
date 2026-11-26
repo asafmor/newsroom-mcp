@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T10:58:15.018Z",
+  "generatedAt": "2026-11-26T13:00:38.759Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -591,12 +591,12 @@
     },
     {
       "id": "a95c5d9d-25ee-433d-ba37-2049f3175fea",
-      "title": "Meta brings Muse to Instagram as its AI agent passes 10M users amid mounting controversies",
-      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps adding features and users even as privacy, security, content, and labor controversies mount.\n\n- New: Instagram will prompt people to use Muse to sort through their saved content (Engadget)\n- Muse can now place outbound calls to US businesses as a paid feature; other recent additions include Apple Watch and Wear OS apps, Spaces, avatar video chat, and a planned Tamagotchi-like wearable\n- Meta said on its Q3 earnings call that Muse has over 10 million users; Zuckerberg said a quarter of them shop through the agent, spending about $200 per purchase on average\n- Meta suspended Muse's conversation sharing after researchers showed shared links exposed sensitive personal and business data\n- Other controversies: OnlyFans creators object to Muse's sexual chat, a since-fixed Mac 0-day, and a contractor \"human concierge\" reportedly making racist remarks on calls\n- Amazon has blocked Muse from shopping on Amazon.com; Meta admits it was \"heavily inspired\" by OpenClaw",
+      "title": "UK financial watchdog says Meta refused joint testing of Muse before its UK launch, as the AI agent's controversies mount",
+      "summary": "Meta's Muse, a personal AI agent built on its Muse Spark model platform, keeps expanding to new markets, features, and users even as regulatory, privacy, security, and content controversies mount.\n\n- New: the UK's Financial Conduct Authority says Meta declined its request for joint testing ahead of Muse's UK rollout, and warned that agents could become \"another force of attack\" (Wired)\n- Recent additions include Instagram prompts to sort saved content, paid outbound calls to US businesses, Apple Watch and Wear OS apps, Spaces, avatar video chat, and a planned Tamagotchi-like wearable\n- Meta said on its Q3 earnings call that Muse has over 10 million users; Zuckerberg said a quarter of them shop through the agent, spending about $200 per purchase on average\n- Meta suspended Muse's conversation sharing after researchers showed shared links exposed sensitive personal and business data\n- Other controversies: OnlyFans creators object to Muse's sexual chat, a since-fixed Mac 0-day, and a contractor \"human concierge\" reportedly making racist remarks on calls\n- Amazon has blocked Muse from shopping on Amazon.com; Meta admits it was \"heavily inspired\" by OpenClaw",
       "importanceScore": 0.85,
       "relevanceScore": 0.9,
       "firstSeenAt": "2026-09-03T17:01:49.158Z",
-      "lastMeaningfulUpdateAt": "2026-11-24T18:23:57.520Z",
+      "lastMeaningfulUpdateAt": "2026-11-26T13:00:09.637Z",
       "sources": [
         {
           "providerName": "VentureBeat",
@@ -982,12 +982,41 @@
           "url": "https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/",
           "publishedAt": "2026-11-24T17:00:00.000Z",
           "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+          "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+          "publishedAt": "2026-11-26T10:51:27.000Z",
+          "contribution": "meaningful-update"
         }
       ],
       "tags": [
         "product-launch",
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "b8700e4c-c96d-4dd0-855c-4d02650d9e2e",
+      "title": "FCC approves SpaceX's plan to deploy 1 million satellites for an AI data center in orbit",
+      "summary": "The FCC granted SpaceX's request to deploy 1 million satellites to build an AI data center in orbit, clearing a regulatory hurdle for one of the most ambitious bets yet on space-based AI compute.",
+      "importanceScore": 0.72,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-26T13:00:14.138Z",
+      "lastMeaningfulUpdateAt": "2026-11-26T13:00:14.138Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center",
+          "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+          "publishedAt": "2026-11-26T11:01:32.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure",
+        "regulation"
       ]
     },
     {
@@ -1557,6 +1586,28 @@
       ],
       "tags": [
         "enterprise-adoption"
+      ]
+    },
+    {
+      "id": "e0c67a65-86bf-4b63-ad8c-9ebf89c393d9",
+      "title": "llama.cpp launches a benchmark dashboard for AMD Ryzen and Radeon hardware",
+      "summary": "The ggml-org team introduced a llama.cpp benchmark dashboard for AMD Ryzen and Radeon hardware, announced on the Hugging Face blog, giving people who run models locally a reference point for AMD performance.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-26T13:00:16.231Z",
+      "lastMeaningfulUpdateAt": "2026-11-26T13:00:16.231Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+          "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+          "publishedAt": "2026-11-26T11:37:17.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source",
+        "infrastructure"
       ]
     },
     {
@@ -2379,50 +2430,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "a8ce84d1-e63b-4f84-948e-620c38745986",
-      "title": "METR's time-horizon update shows AI capabilities still growing exponentially, but judgment lags coding",
-      "summary": "AI evaluation nonprofit METR updated its widely cited \"time horizon\" plot. It finds some AI capabilities are still improving along an exponential trajectory, but models aren't as good at tasks that require judgment as they are at coding, per MIT Technology Review.",
-      "importanceScore": 0.6,
-      "relevanceScore": 0.9,
-      "firstSeenAt": "2026-11-20T18:51:44.665Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T18:51:44.665Z",
-      "sources": [
-        {
-          "providerName": "MIT AI",
-          "title": "The most misunderstood graph in AI just got a major update",
-          "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-          "publishedAt": "2026-11-20T18:15:15.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "9f70e659-3a92-4ac8-a4cc-0e049a72e841",
-      "title": "Ai2 introduces RoboTrack, point tracking for real-world robotic manipulation",
-      "summary": "Ai2 published RoboTrack on the Hugging Face blog, a point-tracking approach aimed at real-world robotic manipulation. The source item carries no description, so details on the method and results aren't available yet.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-23T18:04:03.110Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T18:04:03.110Z",
-      "sources": [
-        {
-          "providerName": "Hugging Face Blog",
-          "title": "RoboTrack: Point tracking for real-world robotic manipulation",
-          "url": "https://huggingface.co/blog/allenai/robotrack",
-          "publishedAt": "2026-11-23T17:20:37.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "research"
-      ]
     }
   ],
-  "totalCount": 88,
+  "totalCount": 90,
   "hasMore": true
 }
