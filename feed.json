@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T15:02:45.049Z",
+  "generatedAt": "2026-11-26T17:04:57.799Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -995,6 +995,55 @@
         "product-launch",
         "model-release",
         "safety"
+      ]
+    },
+    {
+      "id": "7d6866f3-7957-44c1-acbd-65edf8403187",
+      "title": "Nvidia reportedly freezes AI chip shipments to Southeast Asia as the US closes China's chip loopholes",
+      "summary": "The US is closing loopholes that let Chinese firms get American AI chips, and Nvidia has reportedly frozen AI chip shipments to Southeast Asian countries as a result.\n\n- New: Nvidia has reportedly suspended AI chip shipments to Southeast Asian countries as the US cracks down on loopholes giving China access to its most advanced chips (Gizmodo)\n- The Commerce Department is moving to close the \"remote access loophole\" that lets Chinese firms use American AI chips\n- Trump had reportedly approved an AI chip export crackdown (per Axios), but Commerce Secretary Howard Lutnick was said to be stalling it\n- Chinese firms had been racing to exploit a remaining Nvidia loophole before it closed\n- The crackdown comes even as the administration tries to promote the use of American-made AI overseas",
+      "importanceScore": 0.75,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-11T22:28:18.677Z",
+      "lastMeaningfulUpdateAt": "2026-11-26T17:04:47.721Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Howard Lutnick Doesn’t Want to Stop the Flow of Nvidia Chips Overseas: Report",
+          "url": "https://gizmodo.com/howard-lutnick-doesnt-want-to-stop-the-flow-of-nvidia-chips-overseas-report-2000838506",
+          "publishedAt": "2026-11-11T22:02:37.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "China Is Racing to Exploit an Nvidia Loophole Before the Trump Admin Slams It Shut",
+          "url": "https://gizmodo.com/china-is-racing-to-exploit-an-nvidia-loophole-before-the-trump-admin-slams-it-shut-2000839012",
+          "publishedAt": "2026-11-12T17:50:21.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Trump Admin Moves to Strangle China’s Remote Access to American AI Chips",
+          "url": "https://gizmodo.com/trump-admin-moves-to-strangle-chinas-remote-access-to-american-ai-chips-2000840511",
+          "publishedAt": "2026-11-16T17:40:00.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Wired AI",
+          "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
+          "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
+          "publishedAt": "2026-11-18T21:15:00.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Nvidia Reportedly Freezes AI Chip Shipments to Southeast Asian Countries",
+          "url": "https://gizmodo.com/nvidia-reportedly-freezes-ai-chip-shipments-to-southeast-asian-countries-2000845928",
+          "publishedAt": "2026-11-26T15:24:42.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation"
       ]
     },
     {
@@ -2407,25 +2456,6 @@
           "title": "Google Wants to Make AI TV Shows Starring You",
           "url": "https://gizmodo.com/google-wants-to-make-ai-tv-shows-starring-you-2000844299",
           "publishedAt": "2026-11-24T00:22:02.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "7c8ed3af-5ff8-4ad3-923f-3cfe80bdeea9",
-      "title": "Neural networks train on-chip on Espressif's ESP32-S3 microcontroller in seconds",
-      "summary": "A sound-recognition network trained in 0.9 seconds, and a larger signal-classification network in 18 seconds, entirely on Espressif's low-cost ESP32-S3 microcontroller. Devices can learn a user's own sounds and keep adding examples without restarting training.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-25T14:39:36.765Z",
-      "lastMeaningfulUpdateAt": "2026-11-25T14:39:36.765Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "The ESP32-S3 Microcontroller Keeps Neural Network Training on-Chip",
-          "url": "https://www.geeky-gadgets.com/espressif-esp32-s3-neural-network/",
-          "publishedAt": "2026-11-25T12:45:00.000Z",
           "contribution": "supporting"
         }
       ],
