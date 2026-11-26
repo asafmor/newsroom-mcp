@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T04:51:42.120Z",
+  "generatedAt": "2026-11-26T06:53:55.479Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -991,6 +991,42 @@
       ]
     },
     {
+      "id": "989c0512-b7a8-4ee5-bb13-95e4fa083182",
+      "title": "AI toys stay on holiday shelves despite PIRG's warnings, as New York bans them for five years",
+      "summary": "AI toys are still on sale this holiday season, even as consumer advocates warn against them and New York has now banned them.\n\n- PIRG's annual toy report found AI toys tested this year talked candidly about fetishes and kinks, and it warns parents not to buy them\n- Governor Kathy Hochul signed a five-year ban on the sale of AI chatbot toys in New York into law\n- Plenty of AI toys remain on store shelves for holiday shopping anyway",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.75,
+      "firstSeenAt": "2026-11-22T07:40:39.081Z",
+      "lastMeaningfulUpdateAt": "2026-11-26T06:53:38.570Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "AI Toys Still 'Not Ready For Primetime'",
+          "url": "https://in.mashable.com/tech/116456/ai-toys-still-not-ready-for-primetime",
+          "publishedAt": "2026-11-20T18:26:33.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "AI Toys Are a Nightmare Before Christmas",
+          "url": "https://gizmodo.com/ai-toys-are-a-nightmare-before-christmas-2000845435",
+          "publishedAt": "2026-11-25T18:30:18.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Engadget AI",
+          "title": "New York state bans AI chatbot toys for kids",
+          "url": "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/",
+          "publishedAt": "2026-11-26T06:02:48.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "safety",
+        "regulation"
+      ]
+    },
+    {
       "id": "b6464084-cd6f-46a1-a119-d3274919c2c1",
       "title": "Claude designs electronic prototypes end to end, though a Claude-built FM radio shows mixed results",
       "summary": "Claude can design electronic hardware from start to finish, but results so far range from fully working to patchy.\n\n- Anthropic says Claude-designed prototypes of a speakerphone, a voice-assistant hub, and a handheld virtual pet all worked without any fixes to their circuitry\n- A Claude-designed FM radio board, built from individual transistors and amplifiers instead of a dedicated radio chip, delivered audio despite questionable wiring, Geeky Gadgets reports\n- The radio's AM section failed and FM reception was patchy, though its published design files offer a starting point for AI-assisted electronics",
@@ -1073,35 +1109,6 @@
       ],
       "tags": [
         "safety"
-      ]
-    },
-    {
-      "id": "989c0512-b7a8-4ee5-bb13-95e4fa083182",
-      "title": "AI toys stay on holiday shelves despite PIRG's warnings, as New York moves to ban them for five years",
-      "summary": "AI toys are still on sale this holiday season, even as consumer advocates and New York regulators move against them.\n\n- PIRG's annual toy report found AI toys tested this year talked candidly about fetishes and kinks, and it warns parents not to buy them\n- New York is instituting a 5-year ban on AI toys\n- Plenty of AI toys remain on store shelves for holiday shopping anyway",
-      "importanceScore": 0.5,
-      "relevanceScore": 0.75,
-      "firstSeenAt": "2026-11-22T07:40:39.081Z",
-      "lastMeaningfulUpdateAt": "2026-11-25T18:43:58.140Z",
-      "sources": [
-        {
-          "providerName": "Mashable AI",
-          "title": "AI Toys Still 'Not Ready For Primetime'",
-          "url": "https://in.mashable.com/tech/116456/ai-toys-still-not-ready-for-primetime",
-          "publishedAt": "2026-11-20T18:26:33.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "AI Toys Are a Nightmare Before Christmas",
-          "url": "https://gizmodo.com/ai-toys-are-a-nightmare-before-christmas-2000845435",
-          "publishedAt": "2026-11-25T18:30:18.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "safety",
-        "regulation"
       ]
     },
     {
@@ -1595,6 +1602,27 @@
       ],
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "386fe8b9-ff7a-4bee-b519-cf90db730cc8",
+      "title": "Nvidia details open data, fine-tuning, and faster inference for Nemotron 3.5 Parse",
+      "summary": "Nvidia posted a Hugging Face blog entry on building with Nemotron 3.5 Parse, covering its open data, fine-tuning, and faster inference. The feed included no further details.",
+      "importanceScore": 0.3,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-26T06:53:40.570Z",
+      "lastMeaningfulUpdateAt": "2026-11-26T06:53:40.570Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+          "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+          "publishedAt": "2026-11-26T05:05:36.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "open-source"
       ]
     },
     {
@@ -2390,29 +2418,8 @@
       "tags": [
         "product-launch"
       ]
-    },
-    {
-      "id": "d0eeab05-ce67-44ce-851c-86b53e1beaf2",
-      "title": "WIRED essay bids farewell to programming as a human craft",
-      "summary": "In a WIRED essay titled \"Goodbye, World: The End of Programmers,\" Sheon Han offers what the author calls the last thing they may ever write about the craft of coding, a valediction for programming as AI reshapes the profession.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-23T11:57:51.679Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T11:57:51.679Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Goodbye, World: The End of Programmers",
-          "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
-          "publishedAt": "2026-11-23T10:00:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "opinion"
-      ]
     }
   ],
-  "totalCount": 85,
+  "totalCount": 86,
   "hasMore": true
 }
