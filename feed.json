@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T19:25:18.868Z",
+  "generatedAt": "2026-11-27T21:26:35.617Z",
   "stories": [
     {
       "id": "5508024d-5b35-4dcb-a8f1-bb0063babac9",
@@ -1031,6 +1031,25 @@
         "model-release",
         "safety"
       ]
+    },
+    {
+      "id": "f4f5c76c-5700-4e99-88a4-f7b0e1bdd691",
+      "title": "OpenAI countersues Apple, accusing it of stealing trade secrets",
+      "summary": "OpenAI has filed a countersuit against Apple accusing the iPhone maker of stealing trade secrets, alleging Apple is trying to \"compete unfairly by any means available.\"",
+      "importanceScore": 0.6,
+      "relevanceScore": 0.85,
+      "firstSeenAt": "2026-11-27T21:26:26.841Z",
+      "lastMeaningfulUpdateAt": "2026-11-27T21:26:26.841Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "OpenAI countersues Apple and accuses it of stealing trade secrets",
+          "url": "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/",
+          "publishedAt": "2026-11-27T19:44:38.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "7d6866f3-7957-44c1-acbd-65edf8403187",
@@ -2185,35 +2204,6 @@
       "tags": []
     },
     {
-      "id": "3e7a962a-c176-46e7-bd86-9718984d3563",
-      "title": "SpaceX's GPU lenders want it in writing that $43B in collateral Nvidia chips won't go to space",
-      "summary": "SpaceX has a binding commitment of roughly $40 billion from Apollo to finance AI chips and data center equipment, which it calls the \"largest committed GPU financing\" ever.\n\n- SpaceX disclosed the commitment in a regulatory filing\n- Musk's company has promised to use the $43 billion of Nvidia chips it secured as debt collateral only in terrestrial data centers\n- Its lenders now want that promise in writing, Gizmodo reports",
-      "importanceScore": 0.72,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-10-26T17:33:25.264Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T20:54:12.180Z",
-      "sources": [
-        {
-          "providerName": "TechCrunch AI",
-          "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-          "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-          "publishedAt": "2026-10-26T16:46:36.000Z",
-          "contribution": "supporting"
-        },
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Elon Musk’s Lenders Have One Request: Please Don’t Launch Our AI Chips Into Space",
-          "url": "https://gizmodo.com/elon-musks-lenders-have-one-request-please-dont-launch-our-ai-chips-into-space-2000843187",
-          "publishedAt": "2026-11-20T19:10:29.000Z",
-          "contribution": "meaningful-update"
-        }
-      ],
-      "tags": [
-        "funding",
-        "infrastructure"
-      ]
-    },
-    {
       "id": "18684f3c-cbb8-4668-a813-dca7590b8cbb",
       "title": "Steam hits a record 1,656 game launches in one week, a surge attributed to AI-assisted development",
       "summary": "Steam saw 1,656 games released in a single week in October 2026, more than double its previous record of 757 set just weeks earlier, per Bellular News via Geeky Gadgets. Much of the surge is attributed to fast AI-assisted prototyping, raising concerns that players will struggle to find games amid the flood.",
@@ -2233,6 +2223,6 @@
       "tags": []
     }
   ],
-  "totalCount": 80,
+  "totalCount": 77,
   "hasMore": true
 }
