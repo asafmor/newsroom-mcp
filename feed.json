@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T05:11:15.106Z",
+  "generatedAt": "2026-11-27T07:12:57.250Z",
   "stories": [
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
@@ -1076,6 +1076,46 @@
       ]
     },
     {
+      "id": "2abc93f9-cf87-4d8d-a6a5-2907f3d62892",
+      "title": "SAP reportedly plans to cut 10,000+ jobs as it accelerates its AI push",
+      "summary": "SAP, Europe's biggest tech company, is reportedly considering eliminating at least 10,000 positions worldwide — more than 9% of its workforce — as it shifts toward AI.",
+      "importanceScore": 0.55,
+      "relevanceScore": 0.7,
+      "firstSeenAt": "2026-11-27T07:12:46.127Z",
+      "lastMeaningfulUpdateAt": "2026-11-27T07:12:46.127Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "SAP Job Cuts: Europe's Biggest Tech Company Plans To Lay Off 10,000 Employees",
+          "url": "https://in.mashable.com/tech/116626/sap-job-cuts-europes-biggest-tech-company-plans-to-lay-off-10000-employees",
+          "publishedAt": "2026-11-27T06:34:01.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "d4ff23f0-3b81-41dc-b426-e5377e9e23a7",
+      "title": "Germany's Q.ANT is building photonic chips that run AI models with light to cut energy use",
+      "summary": "German company Q.ANT is developing a new breed of chip that uses waves of light to perform the toughest calculations in AI models, aiming to cut the energy required to run them, per WIRED.",
+      "importanceScore": 0.45,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-27T07:12:42.125Z",
+      "lastMeaningfulUpdateAt": "2026-11-27T07:12:42.125Z",
+      "sources": [
+        {
+          "providerName": "Wired AI",
+          "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+          "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+          "publishedAt": "2026-11-27T07:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
       "id": "989c0512-b7a8-4ee5-bb13-95e4fa083182",
       "title": "AI toys stay on holiday shelves despite PIRG's warnings, as New York bans them for five years",
       "summary": "AI toys are still on sale this holiday season, even as consumer advocates warn against them and New York has now banned them.\n\n- PIRG's annual toy report found AI toys tested this year talked candidly about fetishes and kinks, and it warns parents not to buy them\n- Governor Kathy Hochul signed a five-year ban on the sale of AI chatbot toys in New York into law\n- Plenty of AI toys remain on store shelves for holiday shopping anyway",
@@ -1109,6 +1149,28 @@
       "tags": [
         "safety",
         "regulation"
+      ]
+    },
+    {
+      "id": "e8a86af3-e7d3-479f-9f66-c80c804b73fe",
+      "title": "METR researcher Nikola Jurkovic publicly warns \"2027 could be worse than Covid,\" urging families to prepare",
+      "summary": "METR researcher Nikola Jurkovic published an open letter on X saying years of private worry about AI risks have led him to speak out publicly, warning that 2027 could be worse than Covid and advising families to prepare.",
+      "importanceScore": 0.4,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-27T07:12:44.325Z",
+      "lastMeaningfulUpdateAt": "2026-11-27T07:12:44.325Z",
+      "sources": [
+        {
+          "providerName": "Mashable AI",
+          "title": "'2027 Could Be Worse Than Covid': AI Expert Issues Warning, Advises Families To Prepare",
+          "url": "https://in.mashable.com/tech/116632/2027-could-be-worse-than-covid-ai-expert-issues-warning-advises-families-to-prepare",
+          "publishedAt": "2026-11-27T07:09:22.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety",
+        "opinion"
       ]
     },
     {
@@ -2148,66 +2210,6 @@
           "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
           "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
           "publishedAt": "2026-11-23T13:11:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "7987a48e-52ab-4c06-9bae-89dfbf5b43d4",
-      "title": "Researcher plants 2 million canaries in the AI supply chain and finds user data leaking",
-      "summary": "A security researcher seeded about 2 million prompts containing unique, trackable secrets into the AI supply chain. When those secrets showed up again elsewhere, it showed that data sent to AI services doesn't stay private, which Ars Technica calls a privacy disaster.",
-      "importanceScore": 0.62,
-      "relevanceScore": 0.85,
-      "firstSeenAt": "2026-11-20T22:56:27.730Z",
-      "lastMeaningfulUpdateAt": "2026-11-20T22:56:27.730Z",
-      "sources": [
-        {
-          "providerName": "Ars Technica",
-          "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-          "publishedAt": "2026-11-20T20:59:08.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": [
-        "safety",
-        "research"
-      ]
-    },
-    {
-      "id": "fc93b8d4-f02b-4d40-97fd-ebe864a80028",
-      "title": "Google patent filing sketches AI-generated TV shows starring the viewer",
-      "summary": "A Google patent filing describes AI-generated TV shows that put the viewer in the starring role, Gizmodo reports. It offers a glimpse of how Google may see the future of personalized content, though a patent is not a product announcement.",
-      "importanceScore": 0.3,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-24T02:09:24.066Z",
-      "lastMeaningfulUpdateAt": "2026-11-24T02:09:24.066Z",
-      "sources": [
-        {
-          "providerName": "Gizmodo AI",
-          "title": "Google Wants to Make AI TV Shows Starring You",
-          "url": "https://gizmodo.com/google-wants-to-make-ai-tv-shows-starring-you-2000844299",
-          "publishedAt": "2026-11-24T00:22:02.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "7c8ed3af-5ff8-4ad3-923f-3cfe80bdeea9",
-      "title": "Neural networks train on-chip on Espressif's ESP32-S3 microcontroller in seconds",
-      "summary": "A sound-recognition network trained in 0.9 seconds, and a larger signal-classification network in 18 seconds, entirely on Espressif's low-cost ESP32-S3 microcontroller. Devices can learn a user's own sounds and keep adding examples without restarting training.",
-      "importanceScore": 0.2,
-      "relevanceScore": 0.6,
-      "firstSeenAt": "2026-11-25T14:39:36.765Z",
-      "lastMeaningfulUpdateAt": "2026-11-25T14:39:36.765Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "The ESP32-S3 Microcontroller Keeps Neural Network Training on-Chip",
-          "url": "https://www.geeky-gadgets.com/espressif-esp32-s3-neural-network/",
-          "publishedAt": "2026-11-25T12:45:00.000Z",
           "contribution": "supporting"
         }
       ],
