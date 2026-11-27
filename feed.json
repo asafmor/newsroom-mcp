@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-11-27T11:18:30.477Z",
+  "generatedAt": "2026-11-27T13:20:17.612Z",
   "stories": [
+    {
+      "id": "5508024d-5b35-4dcb-a8f1-bb0063babac9",
+      "title": "Export-banned Nvidia chips power China's top AI models, and now turn up at a data center tied to Alice Huang",
+      "summary": "Evidence keeps mounting that export controls failed to keep Nvidia's top chips out of Chinese AI labs.\n\n- New research reported by TechCrunch finds China's most advanced AI models were trained on export-banned Nvidia chips\n- A Bloomberg investigation mapped a network of Chinese AI companies using smuggled Nvidia chips, with Alice Huang at its center\n- Nvidia's advanced AI chips have now turned up at the Yangtze River Delta Project, a Chinese data center with ties to Megaspeed and Alice Huang, Gizmodo reports",
+      "importanceScore": 0.7,
+      "relevanceScore": 0.8,
+      "firstSeenAt": "2026-11-13T14:55:39.582Z",
+      "lastMeaningfulUpdateAt": "2026-11-27T13:19:57.137Z",
+      "sources": [
+        {
+          "providerName": "Engadget AI",
+          "title": "Bloomberg details web of Chinese AI companies with smuggled NVIDIA chips linked to Alice Huang",
+          "url": "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/",
+          "publishedAt": "2026-11-13T12:58:10.000Z",
+          "contribution": "supporting"
+        },
+        {
+          "providerName": "TechCrunch AI",
+          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models—uh oh, Jensen!",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+          "publishedAt": "2026-11-13T18:40:30.000Z",
+          "contribution": "meaningful-update"
+        },
+        {
+          "providerName": "Gizmodo AI",
+          "title": "Nvidia’s advanced AI chips being used at Chinese data center tied to Alice Huang",
+          "url": "https://gizmodo.com/nvidias-advanced-ai-chips-being-used-at-chinese-data-center-tied-to-alice-huang-2000846169",
+          "publishedAt": "2026-11-27T13:02:55.000Z",
+          "contribution": "meaningful-update"
+        }
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
     {
       "id": "46aaa2e4-5d72-4b7e-9605-bd7d1e7b2776",
       "title": "Nvidia reinstates Jensen Huang as CEO after Trump personally intervenes, a week after his ouster",
@@ -1965,6 +2000,27 @@
       "tags": []
     },
     {
+      "id": "83920277-8b2e-435f-8710-0ee54dad197b",
+      "title": "Hugging Face shows LTX-2.5 video generation running on AWS Trainium3",
+      "summary": "A Hugging Face blog post, \"Taking Trainium3 to the Track,\" covers generating videos with the LTX-2.5 model on AWS's Trainium3 chips. The feed carried only the title, so performance and cost details aren't available yet.",
+      "importanceScore": 0.2,
+      "relevanceScore": 0.65,
+      "firstSeenAt": "2026-11-27T13:20:01.887Z",
+      "lastMeaningfulUpdateAt": "2026-11-27T13:20:01.887Z",
+      "sources": [
+        {
+          "providerName": "Hugging Face Blog",
+          "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+          "url": "https://huggingface.co/blog/video-trainium3",
+          "publishedAt": "2026-11-27T00:00:00.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
       "id": "af1e0603-e089-45ec-8694-7de06b65e41f",
       "title": "OpenAI and Cisco introduce Shirudo, an open-source Linux runtime for protecting systems while patches roll out",
       "summary": "OpenAI and Cisco introduced Shirudo, an open-source runtime for Linux that helps teams protect running systems during the window before patches are fully rolled out.",
@@ -2176,46 +2232,8 @@
         "opinion",
         "safety"
       ]
-    },
-    {
-      "id": "0e905bf9-fc52-4b6a-812f-6f84cd0e8a20",
-      "title": "Anthropic let Claude run for two weeks in staging, load testing infrastructure and fixing what broke",
-      "summary": "An Anthropic engineer described how the company tests and verifies work done by Claude, Geeky Gadgets reports.\n\n- Claude ran continuously for two weeks in a staging environment, load testing infrastructure and fixing what it found broken\n- Verification loops pass Claude Code's work to separate review and verification steps, catching problems before changes are merged",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-23T13:59:52.390Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T13:59:52.390Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Anthropic Engineer Explains How to Verify Claude Code Builds",
-          "url": "https://www.geeky-gadgets.com/claude-code-4/",
-          "publishedAt": "2026-11-23T12:48:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "50891677-8ec9-4236-b2b6-f400fef3f4e6",
-      "title": "Paradromics taps Nvidia hardware and software to process brain-computer interface data",
-      "summary": "Brain-computer interface company Paradromics is using Nvidia's computing hardware and software to process brain data, WIRED reports, extending Nvidia's reach from AI data centers into neurotech.",
-      "importanceScore": 0.35,
-      "relevanceScore": 0.55,
-      "firstSeenAt": "2026-11-23T13:59:45.783Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T13:59:45.783Z",
-      "sources": [
-        {
-          "providerName": "Wired AI",
-          "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
-          "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
-          "publishedAt": "2026-11-23T13:11:48.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 82,
+  "totalCount": 83,
   "hasMore": true
 }
