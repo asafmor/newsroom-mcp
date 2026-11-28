@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T17:37:14.283Z",
+  "generatedAt": "2026-11-28T19:38:57.293Z",
   "stories": [
     {
       "id": "5508024d-5b35-4dcb-a8f1-bb0063babac9",
@@ -1334,6 +1334,27 @@
       ]
     },
     {
+      "id": "b6c7d0f7-c615-4d60-8efd-a08324c5b416",
+      "title": "Users call one AI company's model \"overcaution\" sabotage, Gizmodo reports",
+      "summary": "Gizmodo reports that behavior one AI company describes as its model's \"overcaution\" is what many users are calling \"sabotage.\" The source item doesn't name the company or describe the specific behavior.",
+      "importanceScore": 0.25,
+      "relevanceScore": 0.6,
+      "firstSeenAt": "2026-11-28T19:38:47.430Z",
+      "lastMeaningfulUpdateAt": "2026-11-28T19:38:47.430Z",
+      "sources": [
+        {
+          "providerName": "Gizmodo AI",
+          "title": "One AI Company’s ‘Overcaution’ Seems to Be Many Users’ ‘Sabotage’",
+          "url": "https://gizmodo.com/one-ai-companys-overcaution-seems-to-be-many-users-sabotage-2000846414",
+          "publishedAt": "2026-11-28T18:00:21.000Z",
+          "contribution": "supporting"
+        }
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
       "id": "2535a2b4-9c74-4b05-a0b4-9247b786a81c",
       "title": "OpenAI and Anthropic employees reportedly clash with company leaders over AI safety",
       "summary": "Employees at OpenAI and Anthropic are reportedly clashing with their companies' leadership over AI safety, Gizmodo reports.",
@@ -2202,27 +2223,8 @@
         }
       ],
       "tags": []
-    },
-    {
-      "id": "18684f3c-cbb8-4668-a813-dca7590b8cbb",
-      "title": "Steam hits a record 1,656 game launches in one week, a surge attributed to AI-assisted development",
-      "summary": "Steam saw 1,656 games released in a single week in October 2026, more than double its previous record of 757 set just weeks earlier, per Bellular News via Geeky Gadgets. Much of the surge is attributed to fast AI-assisted prototyping, raising concerns that players will struggle to find games amid the flood.",
-      "importanceScore": 0.4,
-      "relevanceScore": 0.7,
-      "firstSeenAt": "2026-11-23T09:55:54.616Z",
-      "lastMeaningfulUpdateAt": "2026-11-23T09:55:54.616Z",
-      "sources": [
-        {
-          "providerName": "Geeky Gadgets AI",
-          "title": "Fast AI Prototyping Helps Steam Hit 1,656 Weekly Game Launches",
-          "url": "https://www.geeky-gadgets.com/steam-ai-release-surge/",
-          "publishedAt": "2026-11-23T09:47:00.000Z",
-          "contribution": "supporting"
-        }
-      ],
-      "tags": []
     }
   ],
-  "totalCount": 73,
+  "totalCount": 74,
   "hasMore": true
 }
